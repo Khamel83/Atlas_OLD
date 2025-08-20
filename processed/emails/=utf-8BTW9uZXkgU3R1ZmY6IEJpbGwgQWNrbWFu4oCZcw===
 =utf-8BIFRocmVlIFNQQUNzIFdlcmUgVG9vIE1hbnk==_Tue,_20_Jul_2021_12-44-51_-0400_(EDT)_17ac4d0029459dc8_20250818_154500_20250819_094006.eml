@@ -1,0 +1,1734 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp5496147lkb;
+        Tue, 20 Jul 2021 09:46:44 -0700 (PDT)
+X-Received: by 2002:a05:6402:1bd0:: with SMTP id ch16mr41930232edb.215.1626799604316;
+        Tue, 20 Jul 2021 09:46:44 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1626799604; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=o3Lz5o1adGOLtlZeGH9gZqsPLn4RGECZ4jttZOwSf0tg5CLYq7iCjWYT2GtRx33DR6
+         MzjBbBerUFzjQmvUYgLCBv+0GXTckkxhdI7kbXWTbpWfzNy6ksaaaeS7iiSd12d4yWwV
+         iKbRH1DPDGxVwK6bmwYSFqqjEy7hxFoV+dcHp1a9YJz4pTrl2ZEmphkwLfk/hJdj7fck
+         OVYq1O+NaiSqLDg+Eb5I9QXCKujFyhhMK6U1ovj08d8Xkls3e2Jq6VgWYWbb6i4vzZEU
+         k8l0M3otxN2obg723SWit2TI4/3ohnCgl3lmmQtHpN6FUuvYt7JiplbkJg+B+dhK+V4F
+         DKWQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=dWTwoepzGNWnVdNFKGfjV9vrW0F6euUqLaDqk/hkjP0=;
+        b=bm4yJQDOSTcgLx4WuFFTITyaQCXLcXxTPVGpaUYy37ywXNCwz+4snuUfRhHWl+QQr+
+         dofCD0h+DfKQr2xOA/XxjMw+V/AK/qiI8O787D1lEv5/8RXA/1fs77K5HF2a2P8IXSVP
+         lFpicOD1PJSQPuxuqh5mvK+yxlWQ/EHRv3/U2Li0n65QEy7aW7llw1aiBc7vVUisjsSC
+         VsXXyASWObo63c31nAH576ywD//T+SE7IdUbNmIWBshM4F+rSnhJaq33ZAeACTAEOiC7
+         O9ysYKFQgUGTHZAs88ZcMl6y2qq3K+WYHWAZM/+Hel4g+O8CTpI0asiJcVxl/J2oe/eB
+         juLg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=hrip2fu+;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n23sor125586ejx.15.2021.07.20.09.46.44
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 20 Jul 2021 09:46:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=hrip2fu+;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=dWTwoepzGNWnVdNFKGfjV9vrW0F6euUqLaDqk/hkjP0=;
+        b=cAu3xFkM4do94HsPr3EUhwndishSoPwQ5WjAorpOm/VtZrBLtXkeCe7DUDu20JrjHn
+         N+4rADJfxsXGDkYOcMBwWyGYOFS7K0MpAMIcHlqRe5wC0D1VuLSaVUoiSoeSSGNGXeCW
+         18/g8e18O5A5226v1zQnq9I796iJ5O4D8df2F88sN7uiqeYgKqQJ3lfgA0dCT65IideE
+         EXl3IpIGhakPYCGb8hNIB75AR7a/IhNLvlaX4mR+bSpuwEzTToWpUNnro5c+L7PJC/zx
+         7BjpHGeVfkjhJ2PLuYUL4JXVF9YbQtaiINAvNPlW7y8rp/5XG4Gj5nIQLqcVjVNk9q4P
+         HFDQ==
+X-Gm-Message-State: AOAM530kRe/ZXtKtVjSLkuMe/Z0oXiZbdm6zYK8iUTymicKEdVb23JXu
+	QIsTMPE+6eALYFrcOfyzrQY0A1SN8TOFGiTkFYqYJn4XrSyepkesIg==
+X-Received: by 2002:a17:907:3e02:: with SMTP id hp2mr33319695ejc.4.1626799603820;
+        Tue, 20 Jul 2021 09:46:43 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:314a:0:0:0:0:0 with SMTP id k10csp5684646ecs;
+        Tue, 20 Jul 2021 09:46:41 -0700 (PDT)
+X-Received: by 2002:a05:600c:4108:: with SMTP id j8mr37956228wmi.67.1626799601244;
+        Tue, 20 Jul 2021 09:46:41 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1626799601; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=tDyGwyqlvRZt0RZYXOCVmRLqbaIgYj32wjbjH9iVaBGUl9Q00trAY42v/+cBbQaQB1
+         NSTgyxN3ebjUTQo1CBobMhP5Fyd7CvaVKL5ZDR/ToAHqQNLywJ/BHRj+J6k/85lzA3yt
+         i7tgIf9bpL8uJ2NCq3XrOVmEGMN+APEtX90RlOrPa0q23027yqp3oR4UjPirGHrwd7h0
+         T4gGfQEP2kcq0x1u9UPsraVPW06iwkohFILHJyqDWDEB8zAgo+tPAESntroZT0t/R0nb
+         dgD0zSY9li/U2Yprijif1tJovqp5Rs+uWPgfQcqnZ2q2GU0ksJsWj+6l1vj8GPpDUfZj
+         0Raw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dWTwoepzGNWnVdNFKGfjV9vrW0F6euUqLaDqk/hkjP0=;
+        b=wGiJw7kgyfCcShe8QMVE3Vt9BjFG7z4oAqUb3VsKONaTivIaiov2IHDjmDWc2p/vY9
+         88hf6YpFL0BzVsJL7XKzUWdEIVB9ovU4UgK0tt0eBb/4MZf4Rpt25LfyT5mcK10t4YT7
+         u26x+phEK7t40IyDLhY/OjUV32mcu5nP82KHZwG9SXwmqFFXIcdvZ6KufmwUg6ujKM7I
+         RTlT/Q9aXk/m/CcLalN+BaYxbo5+pMNMNTJhpxDpUMESCKCRLdfFiXpFylcqGXKTKrE7
+         swpg6vkv4yWfKjalUBROYFTlJpHhGfDYgzepfvA5Wdk5WUrYWFD38ChL/dYxXLjxBGVa
+         QvFQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=hrip2fu+;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210720124451.24503919.260023@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210720124451.24503919.260023@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210720124451.24503919.260023@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p1sor1728425wmp.21.2021.07.20.09.46.40
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 20 Jul 2021 09:46:41 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210720124451.24503919.260023@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzaM+wCW0MmTE9MTyxdcPyewxlMZIxBkavuronCWNjR+uqPenU35g1h9jDrLXr3jmC//CUjUY2Kt+qe/BtH2GwmUw/cqk8=
+X-Received: by 2002:a1c:9dd6:: with SMTP id g205mr33006844wme.82.1626799600546;
+        Tue, 20 Jul 2021 09:46:40 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1626799600; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wHj7LQoCnxHYw13CidDf1SjJxYYKRAV4yAmEXzrflvyZYT60Hhg/mI7+G+1nzY6aHw
+         bgKCB/OfziXw8/tB3DhiXBhQMtwu315wNMPpA5DZK1vEref8hvnhjgMvEwfmR10UjNjH
+         5cmRBQAu5+J0Wfapa/Pa47qySloKIb5IUNnKf1Ix4IzFizQzfH3o9f31u+fTngj7WG5o
+         WHAt7ADt+txwfJnGj8J0iKgkRgeQMbPWOHlfrDuAfHmpby/0cc/fVRKeYw0Nc1muUtf4
+         iQYOc+d++ND8sWycpJuqESsly61LZDGmk0g5kuF0HGNnPsQoRJYFQCyB7NAucgqsR1wj
+         fcWA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dWTwoepzGNWnVdNFKGfjV9vrW0F6euUqLaDqk/hkjP0=;
+        b=SKEw7pLTntDnErfJVx0o74JitIF5OMrs4aiw/16L+8/JuPftEm6+NFnQr8qGyFTkgh
+         hCcDc0OkHcWS7+X2Xr8EXEm8cfRJ1TmVG2Kr4VZ595bm7iP8DlZxyl7HoSMYRfuaEUqk
+         gBIM7DgP3rD/sqqspQtLlBvpXGwlWK8o1tPresmAdQOl8RorHMcMuISGl8K3ttv3N1dy
+         YNQ4bA/k7dBi8upZPUUIQaBkcaOIKfVCJL8fRHDuuN9mkN3lnS0PdlV5jB3GeEdJ04sW
+         jxQ8yvnsXUd/J+bn1Z0x3/7KHZa3zeOEgHJqMKWsC1mnQKtD0CMk1wZ0LGcYoaWv5GuK
+         D69A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=hrip2fu+;
+       spf=pass (google.com: domain of delivery_20210720124451.24503919.260023@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210720124451.24503919.260023@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210720124451.24503919.260023@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id z2si933081wml.2.2021.07.20.09.46.40
+        for <khamel83@gmail.com>;
+        Tue, 20 Jul 2021 09:46:40 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210720124451.24503919.260023@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=84izkM1uAk3fKBhcGhq7cDEO2ws=;
+ b=hrip2fu+xE7X/WeX/HagijoltuchqPSZvE9juQDtp/VcbMt0TDuywSn91UcXxZ9CP0EgghP3yyiE
+   cUJS90aFckvWMd9AgHwkVMPs8I1NW6IG7stsM3f+LzSbsJNX8DKYF97UCWzzjtLABh42z8gmt0oP
+   4QxLbQtd/qYZIQiT/E4=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id huruv01qqbs3 for <bloomberg@khamel.com>; Tue, 20 Jul 2021 12:46:06 -0400 (envelope-from <delivery_20210720124451.24503919.260023@mx.sailthru.com>)
+Date: Tue, 20 Jul 2021 12:44:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210720124451.24503919.260023@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEJpbGwgQWNrbWFu4oCZcw==?=
+ =?utf-8?B?IFRocmVlIFNQQUNzIFdlcmUgVG9vIE1hbnk=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6924939_671703350.1626799491870"
+Precedence: bulk
+X-Feedback-ID: 6358:24503919:campaign:sailthru
+X-TM-ID: 20210720124451.24503919.260023
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cel7cf.5kmv/e9de1c49
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cel7cf.5kmv/e9de1c49>, <mailto:unsubscribe_20210720124451.24503919.260023@mx.sailthru.com>
+X-rpcampaign: stjko24503919
+
+------=_Part_6924939_671703350.1626799491870
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      SPACMan
+   =20
+ =20
+Bill Ackman runs a big hedge fund called=C2=A0Pershing Square Capital Manag=
+ement LP. Since 2012, he has also=C2=A0run a public investment company call=
+ed Pershing Square Holdings Ltd., which=C2=A0provides more capital for Ackm=
+an to invest. He has occasionally  raised single-stock funds, where people =
+give him money to invest in a single company=E2=80=99s stock rather than ju=
+st investing in that stock themselves.=C2=A0Last year, Ackman  did yet anot=
+her thing. It was a boom year for special purpose acquisition companies, a =
+structure in which a financial celebrity raises money from public investors=
+ in a blind pool to merge with some private company to be named later and t=
+ake it public. As a big financial celebrity who is good at raising money, A=
+ckman decided to  do the biggest SPAC ever. He raised $4 billion for his SP=
+AC, Pershing Square Tontine Holdings.If you run a hedge fund, or a publicly=
+ listed hedge-fund-y vehicle, more money is basically good: The more money =
+you have, the more flexibility you have to make lots of good investments.[1=
+] But with a SPAC, too much money can be sort of constraining. You=E2=80=99=
+re looking to do one deal, to merge with one private company, typically for=
+ a minority stake =E2=80=94=C2=A0call it around 10% to 20% =E2=80=94=C2=A0o=
+f the company. So a $4 billion SPAC is looking for a $20+ billion merger pa=
+rtner. And that understates things. Ackman, after all, runs a hedge fund (P=
+ershing Square) and also a public hedge-fund-y investment vehicle (Pershing=
+ Square Holdings); if he finds a cool investment for Pershing Square Tontin=
+e, it would be awkward to freeze=C2=A0his other funds out of that investmen=
+t. So the SPAC offering document said that the other Pershing Square funds =
+would invest at least $1 billion, and as much as $3 billion or even more, i=
+n any deal that Pershing Square Tontine does.So Ackman was really only look=
+ing to do one deal with a private company worth, say, $40 billion or more. =
+There just aren=E2=80=99t that many companies like that, particularly not o=
+nes looking to go public by merging with a SPAC run by a famous activist in=
+vestor. He looked at some high-profile targets,[2] but then he had a better=
+ idea: Instead of just using that SPAC to merge with one company, why not r=
+un it more like a fund? Use the SPAC to buy stock in some company, alongsid=
+e other Pershing Square funds, without spending the full $4 billion. Then u=
+se the money left over to hunt for=C2=A0another=C2=A0deal with=C2=A0another=
+=C2=A0company; diversify your bets a bit.[3] Instead of one big deal, two s=
+maller ones.And then, best of all, Ackman cooked up a way to tap the Pershi=
+ng Square Tontine shareholders for=C2=A0more=C2=A0money for a=C2=A0third=C2=
+=A0deal. He would issue what he called SPARs (=E2=80=9Cspecial purpose acqu=
+isition rights=E2=80=9D) in a SPARC (=E2=80=9Cspecial purpose acquisition r=
+ights company=E2=80=9D) that could trade on the stock exchange and that ent=
+itled holders to invest money in a=C2=A0future=C2=A0deal. Presumably when h=
+e did the third deal, he would tap the SPAR holders for cash and also give =
+them=C2=A0new=C2=A0SPARs to invest in a fourth deal, etc. Pershing Square T=
+ontine would transform from a one-shot blind pool to invest in a single gia=
+nt public company into a perpetual investment fund to invest in whatever Ac=
+kman thinks looks good.This was a good trade, we talked about it a  couple =
+of times, and=C2=A0I quite liked it, but I guess the Securities and Exchang=
+e Commission  did not:Bill Ackman will buy a stake in Universal Music Group=
+ with his hedge fund rather than his blank-check company after opposition f=
+rom investors and U.S. regulators.Ackman=E2=80=99s special purpose acquisit=
+ion company will withdraw its offer for a 10% stake, he said in a letter on=
+ Monday. His hedge fund will assume the share purchase agreement, and buy 5=
+% to 10% of the music label, UMG=E2=80=99s owner Vivendi SE said in a separ=
+ate statement. ...Pershing Square Tontine said that while it had multiple d=
+iscussions with the U.S. Securities and Exchange Commission trying to addre=
+ss the regulator=E2=80=99s concerns, it =E2=80=9Cdid not believe PSTH would=
+ be able to consummate the transaction.=E2=80=9D The regulator was particul=
+arly worried that the deal structure wouldn=E2=80=99t qualify for New York =
+Stock Exchange rules.The SEC raised =E2=80=9Cdeal killer=E2=80=9D concerns =
+last week and =E2=80=9Cstopped=E2=80=9D the deal, Ackman said in a CNBC int=
+erview. Ackman said holders of the blank-check company who are upset should=
+ complain to the SEC.Pershing Square Tontine will go and do a =E2=80=9Cvery=
+ straightforward=E2=80=9D merger deal, Ackman told CNBC.Oh well! Here=E2=80=
+=99s the letter, which says: =E2=80=9COur decision to seek an alternative i=
+nitial business combination (=E2=80=9CIBC=E2=80=9D) was driven by issues ra=
+ised by the SEC with several elements of the proposed transaction =E2=80=93=
+ in particular, whether the structure of our IBC qualified under the NYSE r=
+ules.=E2=80=9D I am not exactly sure what the problem is, but Rule 102.06 o=
+f the New York Stock Exchange=E2=80=99s Listed Company Manual says that a S=
+PAC merger has to have =E2=80=9Ca fair market value equal to at least 80% o=
+f the net assets held in trust,=E2=80=9D=C2=A0and Pershing Square Tontine H=
+oldings was only planning to  spend about 74% of its money on the Universal=
+ Music shares, keeping the other 26% for its next deal.As a general matter,=
+ U.S. securities law is not particularly fond of public companies that are =
+set up as general-purpose investment funds. There are certain types of publ=
+ic investment funds that are allowed =E2=80=94=C2=A0most notably, mutual fu=
+nds, but also SPACs, business development companies, real estate investment=
+ trusts, etc. =E2=80=94=C2=A0and they are all subject to pretty strict rule=
+s. Ackman=E2=80=99s public hedge-fund-y fund, Pershing Square Holdings, is =
+incorporated in Guernsey and trades in Amsterdam and London; it=E2=80=99s n=
+ot an idea that really works in the U.S. Ackman=E2=80=99s proposed deal for=
+ Universal Music sort of looked like it was transforming Pershing Square To=
+ntine into a general-purpose investment fund, and you can see why the SEC g=
+ot nervous.Still, I hope that whatever Pershing Square Tontine ends up doin=
+g for its =E2=80=9Cvery straightforward=E2=80=9D (and large) merger, it fin=
+ds a way to include some SPARs. Those were cool.
+ =20
+   =20
+      Google and accidents
+   =20
+ =20
+Imagine being omniscient. You know everything that is happening in the worl=
+d, as it happens, and you can synthesize all that massive data in useful wa=
+ys that allow you to understand it at a deep level. How would you use all t=
+hat knowledge and understanding to=C2=A0make money? [4]This is a financial =
+column, and I assume that the most obvious answer is that you=E2=80=99d use=
+ your omniscience to buy financial assets that are going to go up. Investin=
+g seems like=C2=A0the most straightforward and lowest-effort way to transfo=
+rm information and understanding=C2=A0into money. Buy the stock of the biot=
+ech company that has found a miracle cancer cure but not announced it yet, =
+buy the cryptocurrency that=E2=80=99s about to take off, whatever.But maybe=
+ that=E2=80=99s wrong. Knowing and understanding everything that is happeni=
+ng might not give you perfect foresight into the future, and some strands o=
+f the efficient market hypothesis claim that you can=E2=80=99t beat the mar=
+ket even with good inside information. Maybe there are better ways to use y=
+our omniscience.You could have a very very very stylized model of Google th=
+at says that it is in the business of knowing and understanding everything =
+in the world =E2=80=94=C2=A0=E2=80=9COur mission is to organize the world=
+=E2=80=99s information and make it universally accessible and useful,=E2=80=
+=9D it says =E2=80=94=C2=A0and that it is about as good as anyone at that b=
+usiness. It is not omniscient, but it is a reasonable approximation of omni=
+science. It does not know my most private thoughts, for instance, but it do=
+es=C2=A0know what I write in emails, which is pretty close.=C2=A0I have alw=
+ays found it weird that the modern companies that approach closest to omnis=
+cience seem to be mainly in the business of=C2=A0ad sales? Like, it turns o=
+ut that the most economically valuable human activity =E2=80=94=C2=A0the on=
+e that gives you the most leverage on omniscience =E2=80=94=C2=A0is tailori=
+ng advertisements to internet users?=C2=A0Alphabet Inc., Google's parent co=
+mpany, had $182.5 billion of revenue last year, of which $146.9 billion cam=
+e from Google advertising.I can sort of see it? The thesis is something lik=
+e =E2=80=9Cwe know everything that happens and what everyone wants, so if y=
+ou are selling something we can get it to the people who will buy it; we ar=
+e in the business of organizing and intermediating commerce, and we take ou=
+r commission in the form of ad revenue.=E2=80=9D Amazon.com Inc., another b=
+ig omniscience company, is not really in the ad business, but is in this bu=
+siness of organizing and channeling all of commerce. And =E2=80=9Call of co=
+mmerce=E2=80=9D is a reasonable answer for =E2=80=9Cwhat is the most econom=
+ically=C2=A0valuable place to apply omniscience?=E2=80=9D=C2=A0Still. Ads. =
+Weird.Anyway Google is now in the business of helping insurance companies s=
+ell insurance by predicting who=C2=A0will hurt themselves in buildings, I d=
+unno:Google is aiming to help small-business insurers more accurately measu=
+re occupancy of buildings where they are on the hook for slip-and-fall acci=
+dents and other risks.The endeavor is part of a partnership between Google =
+Cloud and Menlo Park, Calif.-based BlueZoo Inc.=C2=A0=E2=80=A6=C2=A0Under t=
+he BlueZoo and Google Cloud partnership, small sensors in buildings listen =
+for Wi-Fi probes spontaneously emitted by mobile phones. The sensors encryp=
+t and compress these probes and forward them to analytics servers in the cl=
+oud, the companies said. BlueZoo arranges for the installation, often on ce=
+ilings.It just feels so miscellaneous, you know? =E2=80=9CWe have built com=
+puters and sensors that understand physics and human nature so well that we=
+ can map out the future course of everyone=E2=80=99s life and predict to th=
+e minute when they will die, and we=E2=80=99re gonna use that godlike abili=
+ty to calculate really accurate corporate property-and-casualty insurance p=
+remiums.=E2=80=9D I mean, okay, whatever.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+For over 20 years, Selective Search Matchmakers have protected our clients=
+=E2=80=99 time, privacy and preferences in their search for love. Customize=
+d searches that employ proven executive search methodologies have resulted =
+in love for thousands of couples.
+
+Get started with a complimentary consultation.
+
+                                    Selective Search LLC.
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Texas two-step
+   =20
+ =20
+Companies are sort of arbitrary things. You can create a corporation by fil=
+ling out a form and paying a small fee. You can create as many as you want.=
+ If you have three different businesses, you can have three separate corpor=
+ations, or you can do them all out of one big corporation, or you can do th=
+em out of three corporations all owned by one big holding corporation, or y=
+ou can put a few other corporations in between, whatever. As many as you wa=
+nt.One important fact about corporations is that they have limited liabilit=
+y: If a corporation owes more money to creditors than it has, it goes bankr=
+upt and the creditors take whatever money it has left. The=C2=A0shareholder=
+s=C2=A0of the corporation don=E2=80=99t generally owe any extra money. Gene=
+rally speaking, the value of a corporation's stock can=E2=80=99t be less th=
+an $0: If you buy stock in a company, and it goes bust, your stock may turn=
+ out worthless, but you won=E2=80=99t owe anything else.These two facts =E2=
+=80=94=C2=A0corporations have limited liability, and you can make as many a=
+s you want =E2=80=94 might give you ideas. Let=E2=80=99s say you run a big =
+business in a corporation, Big Co. It has=C2=A0lots of assets and lots of l=
+iabilities. Let=E2=80=99s say it has $10 billion of assets and $4 billion o=
+f liabilities. Big Co. should be worth $6 billion, its net worth, its asset=
+s minus its liabilities.But what if you split it into=C2=A0two=C2=A0corpora=
+tions? Start one company called Asset Co. and put the $10 billion of assets=
+ into it, with no liabilities. Start another company called Liability Co. a=
+nd put the $4 billion of liabilities into it, with no assets. Asset Co. sho=
+uld be worth $10 billion. Liability Co. has a net worth of negative $4 bill=
+ion =E2=80=94=C2=A0lots of liabilities, no assets =E2=80=94=C2=A0but a corp=
+oration can=E2=80=99t generally have negative value=C2=A0to its owners; cor=
+porate stock can=E2=80=99t be worth less than zero. So let=E2=80=99s say Li=
+ability Co. is worth $0. Asset Co. plus Liability Co. are worth $10 billion=
+, which is more than they were worth ($6 billion) as a combined company. Go=
+od trade!This is a thing that, mechanically, you could do. For instance:=09=
+Big Co. creates a new subsidiary, Asset Co.=09Big Co. contributes all of it=
+s assets to Asset Co. in exchange for stock in Asset Co.=09Big Co. spins of=
+f the stock of Asset Co. to its shareholders (as a dividend payable in Asse=
+t Co. stock).=09Big Co. renames itself Liability Co.Now the former sharehol=
+ders of Big Co. (worth $6 billion) have become the shareholders of Asset Co=
+. (worth $10 billion) and Liability Co. (worth $0). They are better off. Me=
+anwhile the former creditors of Big Co. are much worse off: When Big Co. ow=
+ed them $4 billion, it had plenty of money to pay them; now that Liability =
+Co. owes them $4 billion, it has no money, and they won=E2=80=99t get paid.=
+What stops you from doing this? Well, if your liabilities are bonds or bank=
+ loans, there will probably be=C2=A0provisions in the contract saying you c=
+an=E2=80=99t do this =E2=80=94=C2=A0Big Co. can=E2=80=99t transfer all or s=
+ubstantially all of its assets, etc. But some liabilities won=E2=80=99t hav=
+e provisions like that. In particular,=C2=A0contingent tort liabilities=C2=
+=A0won=E2=80=99t have any contracts at all.=C2=A0If Big Co. got all its mon=
+ey by crashing cars into people or manufacturing asbestos, those people wil=
+l sue it for money, and in an economic sense those lawsuits will all be lia=
+bilities. But they won=E2=80=99t be contractual liabilities (at least until=
+ you settle);=C2=A0you=E2=80=99ll have no agreement with the people suing y=
+ou about what you're allowed to do with your corporate structure.Instead, t=
+here is a general legal principle about =E2=80=9Cfraudulent transfers.=E2=
+=80=9D This is a term of art referring to, you know, this sort of trade: If=
+ you have a company, and it owes people money, and you move all the assets =
+out of the company so that it can=E2=80=99t pay off its creditors, then tha=
+t is a =E2=80=9Cfraudulent transfer=E2=80=9D and a court will not allow it.=
+=C2=A0This principle is found in, for instance, Section 548 of the U.S. Ban=
+kruptcy Code, as well as in many states=E2=80=99 laws in the form of the Un=
+iform Fraudulent Transfer Act.[5] There are specific details and borderline=
+ cases to consider, and the law here can be complex, but the point is that =
+the super-obvious trade I laid out above would be a fraudulent transfer and=
+ a court would not allow it. The Liability Co. creditors would be able to g=
+o after Asset Co.=E2=80=99s assets to get their debts paid.Here, however, i=
+s another form of the trade:=09Big Co. reincorporates in the state of Texas=
+.=09Big Co. does a=C2=A0merger into two companies, Asset Co. and Liability =
+Co. Usually a =E2=80=9Cmerger=E2=80=9D involves two companies becoming one =
+new company, but  Texas law allows a thing called a =E2=80=9Cdivisive merge=
+r,=E2=80=9D in which one company =E2=80=9Cmerges=E2=80=9D and becomes two n=
+ew companies.=09Asset Co. gets the assets, Liability Co. gets the liabiliti=
+es, and former Big Co. shareholders get shares of both.This sounds like the=
+ same thing as the spinoff version I laid out above. But it is different in=
+ one small weird way, which is that there is a sense among lawyers that a =
+=E2=80=9Cmerger=E2=80=9D is not a =E2=80=9Ctransfer.=E2=80=9D=C2=A0For inst=
+ance, if Small Co. has a lease on some office space, the lease might say "S=
+mall Co. may not transfer or assign this lease,=E2=80=9D because the landlo=
+rd wants to deal with Small Co. and not some random other tenant. Small Co.=
+ can=E2=80=99t just sell the lease to some other company.=C2=A0But if Small=
+ Co. merges with Medium Co., that=E2=80=99s different: Its corporate form h=
+as changed, but the-company-formerly-known-as-Small-Co. is still using the =
+office space and paying the rent, so it would be a little weird to say that=
+ it has violated the lease. And so often mergers are not treated as transfe=
+rs for various relevant legal purposes.Usually this is fine because a merge=
+r means combining two companies into one company, but in Texas a =E2=80=9Cm=
+erger=E2=80=9D can mean splitting one company into two companies and things=
+ can get weird. As Adam Levitin writes:Why would it matter that a division =
+is defined as a "merger" under Texas law? =C2=A0Because the Texas Business =
+Organizations Code provides that a merger operates "without ... =C2=A0any t=
+ransfer or assignment having occurred." =C2=A0The thinking is that if there=
+'s no transfer in a divisive merger, then there cannot be a fraudulent tran=
+sfer.Is that right? Nobody knows! Levitin goes on:Now, it is far from clear=
+ that Texas's fraudulent transfer law--or any other jurisdiction's--would d=
+efer to the Texas Business Organizations Code regarding whether there is a =
+transfer, but there's no law on that point (but it has gotten some consider=
+ation in=C2=A0this thoughtful law review comment).But I guess it=E2=80=99s =
+worth a shot:Johnson & Johnson is exploring a plan to offload liabilities f=
+rom widespread Baby Powder litigation into a newly created business that wo=
+uld then seek bankruptcy protection, according to seven people familiar wit=
+h the matter.During settlement discussions, one of the healthcare conglomer=
+ate=E2=80=99s attorneys has told plaintiffs=E2=80=99 lawyers that J&J could=
+ pursue the bankruptcy plan, which could result in lower payouts for cases =
+that do not settle beforehand, some of the people said. Plaintiffs=E2=80=99=
+ lawyers would initially be unable to stop J&J from taking such a step, tho=
+ugh could pursue legal avenues to challenge it later. ...J&J faces legal ac=
+tions from tens of thousands of plaintiffs alleging its Baby Powder and oth=
+er talc products contained asbestos and caused cancer. The plaintiffs inclu=
+de women suffering from ovarian cancer and others battling mesothelioma. ..=
+.J&J is now considering using Texas's =E2=80=9Cdivisive merger=E2=80=9D law=
+, which allows a company to split into at least two entities. For J&J, that=
+ could create a new entity housing talc liabilities that would then file fo=
+r bankruptcy to halt litigation, some of the people said.The maneuver is kn=
+own among legal experts as a Texas two-step bankruptcy, a strategy other co=
+mpanies facing asbestos litigation have used in recent years.It does seem =
+=E2=80=A6=C2=A0wrong? Like, obviously, if you run a big company that has bi=
+g liabilities, you=E2=80=99d like to be able to=C2=A0just get rid of the li=
+abilities. And obviously companies have tried, and there are simple approac=
+hes (spin off the assets and leave the liabilities, etc.), and those simple=
+ approaches=C2=A0don=E2=80=99t work=C2=A0because generally it is=C2=A0bad=
+=C2=A0for a company to be able to just get rid of its liabilities. It would=
+ be weird if there was a cheat where doing it as a Texas two-step merger=C2=
+=A0did=C2=A0work.
+ =20
+   =20
+      E for Extortion
+   =20
+ =20
+Leon Black, the former head of Apollo Global Management Inc., allegedly had=
+ an extramarital affair with a woman 30 years younger than him, paid her mi=
+llions of dollars during their sexual relationship, secretly recorded their=
+ conversations, and=C2=A0spent millions more dollars to conceal the affair =
+from the directors and clients of his firm. When I say =E2=80=9Callegedly=
+=E2=80=9D I mean that=E2=80=99s what=C2=A0he=C2=A0alleges;  that=E2=80=99s =
+his=C2=A0defense=C2=A0of his actions.=C2=A0Her=C2=A0allegations are much wo=
+rse; she claims that he abused and assaulted her and then threatened her to=
+ keep her silent. He claims that she is lying and that she has been extorti=
+ng money out of him for years.In any case they seem to agree that, after th=
+eir affair ended, they had lunch at the Four Seasons in 2015 and signed a c=
+ontract providing that Black would pay her $100,000 a month for 15 years. H=
+ere is an amazing detail from Black=E2=80=99s court filing:After the partie=
+s entered into the Agreement, Mr. Black set up a new account from which to =
+make the monthly payments to Ganieva, which he called =E2=80=9CE Trust.=E2=
+=80=9D In her Complaint, Ganieva states that she =E2=80=9Chas no knowledge =
+as to why payments began from the =E2=80=98E Trust=E2=80=99 or what it is.=
+=E2=80=9D (Cplt. =C2=B6 73). To be very clear: the =E2=80=9CE=E2=80=9D in =
+=E2=80=9CE Trust=E2=80=9D stands for =E2=80=9CExtortion.=E2=80=9DI =E2=80=
+=A6=C2=A0wow, okay. We talk from  time to  time around here about the euphe=
+misms that you should or should not use when you are paying or accepting br=
+ibes. We have even=C2=A0talked=C2=A0about the  euphemisms that you should u=
+se when you are demanding blackmail. (=E2=80=9CLegal settlement,=E2=80=9D v=
+ery good.) On the other hand, if you are=C2=A0paying blackmail, and if your=
+ lawyers are drafting the blackmail contract and setting up the blackmail l=
+egal entities, I think it is probably a good idea to avoid euphemism as far=
+ as possible? Sign a Blackmail Agreement, pay the money through the I Am Be=
+ing Extorted Trust, keep=C2=A0all the documentation as explicit as possible=
+. That way, if you ever change your mind about paying, or=C2=A0if your blac=
+kmailer changes her mind and demands more money,=C2=A0you=C2=A0can blackmai=
+l=C2=A0her: =E2=80=9CHey, I=E2=80=99ve been paying you all this clearly lab=
+eled blackmail for years now, you wouldn=E2=80=99t want the police to find =
+out about that would you?=E2=80=9D I am not sure, though, that calling it t=
+he =E2=80=9CE Trust,=E2=80=9D and not telling her what it stands for, accom=
+plishes that goal.
+ =20
+   =20
+      Work from home
+   =20
+ =20
+Here is a Wall Street Journal story about a Goldman Sachs Group Inc. analys=
+t who used the work-from-home flexibility that Goldman offered during the p=
+andemic to pitch for the Israeli national baseball team and qualify for the=
+ Olympics:=E2=80=9CI=E2=80=99ve sort of proven that I can work effectively =
+remotely,=E2=80=9D Mr. Brodkowitz says from Team Israel=E2=80=99s practice =
+stadium in Rockland County, N.Y., where the mostly American-born squad was =
+based before playing a series of exhibitions in the U.S. =E2=80=A6Mr. Brodk=
+owitz became very good at working from home. He was so efficient as a remot=
+e employee that, even as vaccines became available and bankers returned to =
+Manhattan offices, he got a thumbs-up from his bosses to do the exact oppos=
+ite. He moved to Idaho.Mr. Brodkowitz knew he had to pitch to have any hope=
+ of making the team that would go to Tokyo. So he joined an independent clu=
+b called the Idaho Falls Chukars.He had never been to Idaho when he moved i=
+nto the basement of a house with five teammates. He threw a mattress on the=
+ floor and bought a desk, chair and monitor. The entire time he was pitchin=
+g for the Chukars, he continued working his day job.He was on his computer =
+by 5:30 a.m. while his housemates slept for hours more. He would go to the =
+field in the afternoon, typically get back around midnight from the game an=
+d do the same exact thing the next day.That=E2=80=99s nice! Also though isn=
+=E2=80=99t this sort of the opposite of what you want if you=E2=80=99re run=
+ning an investment bank? Don=E2=80=99t you want to indoctrinate analysts so=
+ that they believe that the firm is the most important thing, so that they =
+internalize a certain set of shared cultural beliefs? Don=E2=80=99t you wan=
+t them at the office to be around senior bankers who model the values and l=
+ifestyles of investment bankers, and around fellow junior bankers who aspir=
+e to that lifestyle? Don=E2=80=99t you want them to finish their two-year a=
+nalyst program thinking that the most important thing in life is creating s=
+hareholder value and being richly rewarded for it?And then you=E2=80=99ve g=
+ot a guy out in Idaho hanging out with baseball players, not fellow analyst=
+s; he=E2=80=99s training for the Olympics, and quietly logging into his Gol=
+dman computer at 5:30 every morning to get his work done quickly so he can =
+get to more important things.=C2=A0We  talked last week about how working a=
+t Goldman is, increasingly, just a job. You can do it for money, to support=
+ the things you really care about.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Robinhood Sets Sights on a  $35 Billion Valuation in Its IPO. UBS=E2=80=99s=
+ Surge in  Wealth Management Fees Drives 63% Profit Jump. Accountants, Lawm=
+akers Urge Rules on Crypto Accounting. Bank Regs Are Excess Profit Taxes. A=
+frica=E2=80=99s green superpower: why Gabon wants markets to help tackle cl=
+imate change. Credit Suisse Is Losing Mideast Staff Over a  Toxic Work Cult=
+ure. Pimco Must Face Female Workers=E2=80=99 =E2=80=98 Fraternity Culture=
+=E2=80=99 Lawsuit. =E2=80=9CFor all the bad guys on Wall Street, there are =
+guys who want to back smart women with courage.=E2=80=9D=C2=A0Inside a wild=
+ year for Wall Street's 'deal toy' makers: Business is rebounding as M&A ju=
+mps but raw materials like crystal are tough to find. =E2=80=9CThey are eme=
+rging from the pandemic with an unusual vocabulary and a British accent.=E2=
+=80=9D=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email =
+form, right in your inbox, please=C2=A0subscribe at this link. Or you can s=
+ubscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!=
+[1] Of course people complain all the time about having too much money, cap=
+acity constraints, etc., and lots of funds do refuse to accept more money.[=
+2] The Wall Street Journal says: =E2=80=9CAfter launching the $4 billion ve=
+hicle last summer, Mr. Ackman eyed some of the biggest private companies, i=
+ncluding Airbnb Inc., which has since gone public, Stripe Inc. and Bloomber=
+g LP.=E2=80=9D Disclosure, I guess. (I work for Bloomberg LP.)=C2=A0=C2=A0[=
+3] In general SPACs have a limited period to find a deal (two years, in the=
+ case of Pershing Square Tontine Holdings). The theory of its proposed deal=
+ was that the first deal satisfied that requirement, and that each subseque=
+nt deal =E2=80=94=C2=A0the second one with the remainder of the SPAC money,=
+ the SPAR deal, etc. =E2=80=94=C2=A0was off the clock, as it were. That's a=
+lso helpful for Ackman: Not only is he no longer constrained to do a partic=
+ular size of deal, but he=E2=80=99s also not constrained by timing.[4] A go=
+od resisting-the-hypothetical answer would be =E2=80=9Cwith my perfect unde=
+rstanding, I wouldn=E2=80=99t even need money,=E2=80=9D but surely no one h=
+ere believes that.[5] The Uniform Law Commission, which writes laws like th=
+is for state legislatures to enact, has renamed the latest version of this =
+one the =E2=80=9CUniform Voidable Transactions Act.=E2=80=9D But everyone s=
+ays =E2=80=9Cfraudulent transfer,=E2=80=9D not =E2=80=9Cvoidable transactio=
+n,=E2=80=9D and in any case the UVTA version is less widely adopted than th=
+e earlier UFTA one. (It=E2=80=99s not adopted in Texas, for instance.)
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cel7cf.5kmv/e61bcd15.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_6924939_671703350.1626799491870
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB81e10aa1"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB54989b0=
+1">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SPACMan</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Bill Ackman runs a big hedge fund call=
+ed=C2=A0Pershing Square Capital Management LP. Since 2012, he has also=C2=
+=A0run a public investment company called <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24503919.260023/aHR0cHM6Ly9wZXJzaGluZ3NxdWFyZWhvbGR=
+pbmdzLmNvbS8/607f07ceef4b8524a319a23cB8c7d7b33" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Pershing Square Holdings Ltd.</a>, wh=
+ich=C2=A0provides more capital for Ackman to invest. He has occasionally <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTMtMDctMDgvYWNrbWFuLXJ=
+haXNlcy1tb25leS1mb3ItYWN0aXZpc3Qtc3Rha2UtaW4tbGFyZ2UtY29tcGFueQ/607f07ceef4=
+b8524a319a23cBe370dbe3" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> raised single-stock funds</a>, where people give him money t=
+o invest in a single company=E2=80=99s stock rather than just investing in =
+that stock themselves.=C2=A0</p><p style=3D"margin: 16px 0;">Last year, Ack=
+man <a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.26002=
+3/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMjMvY=
+mlsbC1hY2ttYW4td2FudHMtYS1tYXR1cmUtdW5pY29ybg/607f07ceef4b8524a319a23cB635f=
+baeb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> did=
+ yet another thing</a>. It was a boom year for special purpose acquisition =
+companies, a structure in which a financial celebrity raises money from pub=
+lic investors in a blind pool to merge with some private company to be name=
+d later and take it public. As a big financial celebrity who is good at rai=
+sing money, Ackman decided to <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjAtMDYtMjMvYmlsbC1hY2ttYW4td2FudHMtYS1tYXR1cmUtdW5pY29ybg/607=
+f07ceef4b8524a319a23cC635fbaeb" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> do the biggest SPAC ever</a>. He raised $4 billion f=
+or his SPAC, <a href=3D"https://link.mail.bloombergbusiness.com/click/24503=
+919.260023/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTE4ODIv=
+MDAwMTE5MzEyNTIwMTk3Nzc2L2Q5MzAwNTVkNDI0YjQuaHRt/607f07ceef4b8524a319a23cB4=
+e76d916" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">P=
+ershing Square Tontine Holdings</a>.</p><p style=3D"margin: 16px 0;">If you=
+ run a hedge fund, or a publicly listed hedge-fund-y vehicle, more money is=
+ basically good: The more money you have, the more flexibility you have to =
+make lots of good investments.[1] But with a SPAC, too much money can be so=
+rt of constraining. You=E2=80=99re looking to do one deal, to merge with on=
+e private company, typically for a minority stake =E2=80=94=C2=A0call it ar=
+ound 10% to 20% =E2=80=94=C2=A0of the company. So a $4 billion SPAC is look=
+ing for a $20+ billion merger partner. And that understates things. Ackman,=
+ after all, runs a hedge fund (Pershing Square) and also a public hedge-fun=
+d-y investment vehicle (Pershing Square Holdings); if he finds a cool inves=
+tment for Pershing Square Tontine, it would be awkward to freeze=C2=A0his o=
+ther funds out of that investment. So the <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZ=
+lcy9lZGdhci9kYXRhLzE4MTE4ODIvMDAwMTE5MzEyNTIwMTk3Nzc2L2Q5MzAwNTVkNDI0YjQuaH=
+Rt/607f07ceef4b8524a319a23cC4e76d916" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">SPAC offering document</a> said that the other =
+Pershing Square funds would invest at least $1 billion, and as much as $3 b=
+illion or even more, in any deal that Pershing Square Tontine does.</p><p s=
+tyle=3D"margin: 16px 0;">So Ackman was really only looking to do one deal w=
+ith a private company worth, say, $40 billion or more. There just aren=E2=
+=80=99t that many companies like that, particularly not ones looking to go =
+public by merging with a SPAC run by a famous activist investor. He looked =
+at some high-profile targets,[2] but then he had a better idea: Instead of =
+just using that SPAC to merge with one company, why not run it more like a =
+fund? Use the SPAC to buy stock in some company, alongside other Pershing S=
+quare funds, without spending the full $4 billion. Then use the money left =
+over to hunt for=C2=A0<em>another=C2=A0</em>deal with=C2=A0<em>another=C2=
+=A0</em>company; diversify your bets a bit.[3] Instead of one big deal, two=
+ smaller ones.</p><p style=3D"margin: 16px 0;">And then, best of all, Ackma=
+n cooked up a way to tap the Pershing Square Tontine shareholders for=C2=A0=
+<em>more=C2=A0</em>money for a=C2=A0<em>third=C2=A0</em>deal. He would issu=
+e what he called SPARs (=E2=80=9Cspecial purpose acquisition rights=E2=80=
+=9D) in a SPARC (=E2=80=9Cspecial purpose acquisition rights company=E2=80=
+=9D) that could trade on the stock exchange and that entitled holders to in=
+vest money in a=C2=A0<em>future=C2=A0</em>deal. Presumably when he did the =
+third deal, he would tap the SPAR holders for cash and also give them=C2=A0=
+<em>new=C2=A0</em>SPARs to invest in a fourth deal, etc. Pershing Square To=
+ntine would transform from a one-shot blind pool to invest in a single gian=
+t public company into a perpetual investment fund to invest in whatever Ack=
+man thinks looks good.</p><p style=3D"margin: 16px 0;">This was a good trad=
+e, we talked about it a <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjEtMDYtMDQvYmlsbC1hY2ttYW4tcy1zcGFjLXdpbGwtYmUtdGhyZWUtc3BhY3M/607f=
+07ceef4b8524a319a23cB6466d52a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> couple</a> of times, and=C2=A0I quite liked it, but I=
+ guess the Securities and Exchange Commission <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMTkvcGVyc2hpbmctc3F1YXJlLWRlY2lkZXMtbm90LX=
+RvLXByb2NlZWQtd2l0aC11bml2ZXJzYWwtbXVzaWMtZGVhbA/607f07ceef4b8524a319a23cBc=
+ad75e93" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+did not</a>:</p><blockquote><p style=3D"margin: 16px 0;">Bill Ackman will b=
+uy a stake in Universal Music Group with his hedge fund rather than his bla=
+nk-check company after opposition from investors and U.S. regulators.</p><p=
+ style=3D"margin: 16px 0;">Ackman=E2=80=99s special purpose acquisition com=
+pany will withdraw its offer for a 10% stake, he said in a letter on Monday=
+. His hedge fund will assume the share purchase agreement, and buy 5% to 10=
+% of the music label, UMG=E2=80=99s owner Vivendi SE said in a separate sta=
+tement. ...</p><p style=3D"margin: 16px 0;">Pershing Square Tontine said th=
+at while it had multiple discussions with the U.S. Securities and Exchange =
+Commission trying to address the regulator=E2=80=99s concerns, it =E2=80=9C=
+did not believe PSTH would be able to consummate the transaction.=E2=80=9D =
+The regulator was particularly worried that the deal structure wouldn=E2=80=
+=99t qualify for New York Stock Exchange rules.</p><p style=3D"margin: 16px=
+ 0;">The SEC raised =E2=80=9Cdeal killer=E2=80=9D concerns last week and =
+=E2=80=9Cstopped=E2=80=9D the deal, Ackman said in a CNBC interview. Ackman=
+ said holders of the blank-check company who are upset should complain to t=
+he SEC.</p><p style=3D"margin: 16px 0;">Pershing Square Tontine will go and=
+ do a =E2=80=9Cvery straightforward=E2=80=9D merger deal, Ackman told CNBC.=
+</p></blockquote><p style=3D"margin: 16px 0;">Oh well! Here=E2=80=99s <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0cHM=
+6Ly93d3cuYnVzaW5lc3N3aXJlLmNvbS9uZXdzL2hvbWUvMjAyMTA3MTgwMDUwMzMvZW4vUGVyc2=
+hpbmctU3F1YXJlLVRvbnRpbmUtSG9sZGluZ3MtTHRkLi1SZWxlYXNlcy1MZXR0ZXItdG8tU2hhc=
+mVob2xkZXJz/607f07ceef4b8524a319a23cBea337e72" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">the letter</a>, which says: =E2=80=9CO=
+ur decision to seek an alternative initial business combination (=E2=80=9CI=
+BC=E2=80=9D) was driven by issues raised by the SEC with several elements o=
+f the proposed transaction =E2=80=93 in particular, whether the structure o=
+f our IBC qualified under the NYSE rules.=E2=80=9D I am not exactly sure wh=
+at the problem is, but <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24503919.260023/aHR0cHM6Ly9ueXNlLndvbHRlcnNrbHV3ZXIuY2xvdWQvbGlzdGVkLW=
+NvbXBhbnktbWFudWFsL2RvY3VtZW50P3RyZWVOb2RlSWQ9Y3NoLWRhLWZpbHRlciFXS1VTLVRBT=
+C1ET0NTLVBIQy0lN0IwNTg4QkY0QS1EM0I1LTRCOTEtOTRFQS1CRTlGMTcwNTdERjAlN0QtLVdL=
+VVNfVEFMXzU2NjclMjN0ZWlkLTEw/607f07ceef4b8524a319a23cB54d2e108" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Rule 102.06</a> of th=
+e New York Stock Exchange=E2=80=99s Listed Company Manual says that a SPAC =
+merger has to have =E2=80=9Ca fair market value equal to at least 80% of th=
+e net assets held in trust,=E2=80=9D=C2=A0and Pershing Square Tontine Holdi=
+ngs was only planning to <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDYtMDQvYmlsbC1hY2ttYW4tcy1zcGFjLXdpbGwtYmUtdGhyZWUtc3BhY3MjZm9=
+vdG5vdGUtMw/607f07ceef4b8524a319a23cB4d1e6fed" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> spend about 74% of its money</a> on t=
+he Universal Music shares, keeping the other 26% for its next deal.</p><p s=
+tyle=3D"margin: 16px 0;">As a general matter, U.S. securities law is not pa=
+rticularly fond of public companies that are set up as general-purpose inve=
+stment funds. There are certain types of public investment funds that are a=
+llowed =E2=80=94=C2=A0most notably, mutual funds, but also SPACs, business =
+development companies, real estate investment trusts, etc. =E2=80=94=C2=A0a=
+nd they are all subject to pretty strict rules. Ackman=E2=80=99s public hed=
+ge-fund-y fund, Pershing Square Holdings, is incorporated in Guernsey and t=
+rades in Amsterdam and London; it=E2=80=99s not an idea that really works i=
+n the U.S. Ackman=E2=80=99s proposed deal for Universal Music sort of looke=
+d like it was transforming Pershing Square Tontine into a general-purpose i=
+nvestment fund, and you can see why the SEC got nervous.</p><p style=3D"mar=
+gin: 16px 0;">Still, I hope that whatever Pershing Square Tontine ends up d=
+oing for its =E2=80=9Cvery straightforward=E2=80=9D (and large) merger, it =
+finds a way to include some SPARs. Those were cool.</p><table class=3D"head=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Google and accidents</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Imagine being omniscient. You know eve=
+rything that is happening in the world, as it happens, and you can synthesi=
+ze all that massive data in useful ways that allow you to understand it at =
+a deep level. How would you use all that knowledge and understanding to=C2=
+=A0<em>make money? </em>[4]</p><p style=3D"margin: 16px 0;">This is a finan=
+cial column, and I assume that the most obvious answer is that you=E2=80=99=
+d use your omniscience to buy financial assets that are going to go up. Inv=
+esting seems like=C2=A0the most straightforward and lowest-effort way to tr=
+ansform information and understanding=C2=A0into money. Buy the stock of the=
+ biotech company that has found a miracle cancer cure but not announced it =
+yet, buy the cryptocurrency that=E2=80=99s about to take off, whatever.</p>=
+<p style=3D"margin: 16px 0;">But maybe that=E2=80=99s wrong. Knowing and un=
+derstanding everything that is happening might not give you perfect foresig=
+ht into the future, and some strands of the <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24503919.260023/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL=
+3dpa2kvRWZmaWNpZW50LW1hcmtldF9oeXBvdGhlc2lzI1dlYWssX3NlbWktc3Ryb25nLF9hbmRf=
+c3Ryb25nLWZvcm1fdGVzdHM/607f07ceef4b8524a319a23cB3646032c" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">efficient market hypothesi=
+s</a> claim that you can=E2=80=99t beat the market even with good inside in=
+formation. Maybe there are better ways to use your omniscience.</p><p style=
+=3D"margin: 16px 0;">You could have a very very very stylized model of Goog=
+le that says that it is in the business of knowing and understanding everyt=
+hing in the world =E2=80=94=C2=A0=E2=80=9COur mission is to organize the wo=
+rld=E2=80=99s information and make it universally accessible and useful,=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.26=
+0023/aHR0cHM6Ly9hYm91dC5nb29nbGUv/607f07ceef4b8524a319a23cB588149cf" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">it says</a> =E2=
+=80=94=C2=A0and that it is about as good as anyone at that business. It is =
+not omniscient, but it is a reasonable approximation of omniscience. It doe=
+s not know my most private thoughts, for instance, but it does=C2=A0know wh=
+at I write in emails, which is pretty close.=C2=A0</p><p style=3D"margin: 1=
+6px 0;">I have always found it weird that the modern companies that approac=
+h closest to omniscience seem to be mainly in the business of=C2=A0<em>ad s=
+ales</em>? Like, it turns out that the most economically valuable human act=
+ivity =E2=80=94=C2=A0the one that gives you the most leverage on omniscienc=
+e =E2=80=94=C2=A0is tailoring advertisements to internet users?=C2=A0Alphab=
+et Inc., Google's parent company, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24503919.260023/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2h=
+pdmVzL2VkZ2FyL2RhdGEvMTY1MjA0NC8wMDAxNjUyMDQ0MjEwMDAwMTAvZ29vZy0yMDIwMTIzMS=
+5odG0jaWQ1NWJlNzk5MmIzNzRlMWE5YTJiYzQ4ODg3ZGRiYjNmXzQ2/607f07ceef4b8524a319=
+a23cB57d09c40" itemprop=3D"StoryLink" itemscope=3D"itemscope" title=3D"page=
+ 33" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">had $182.5 billion of revenue last year</a>, of whic=
+h $146.9 billion came from Google advertising.</p><p style=3D"margin: 16px =
+0;">I can sort of see it? The thesis is something like =E2=80=9Cwe know eve=
+rything that happens and what everyone wants, so if you are selling somethi=
+ng we can get it to the people who will buy it; we are in the business of o=
+rganizing and intermediating <em>commerce</em>, and we take our commission =
+in the form of ad revenue.=E2=80=9D Amazon.com Inc., another big omniscienc=
+e company, is not really in the ad business, but is in this business of org=
+anizing and channeling all of commerce. And =E2=80=9Call of commerce=E2=80=
+=9D is a reasonable answer for =E2=80=9Cwhat is the most economically=C2=A0=
+valuable place to apply omniscience?=E2=80=9D=C2=A0</p><p style=3D"margin: =
+16px 0;">Still. Ads. Weird.</p><p style=3D"margin: 16px 0;">Anyway Google i=
+s now in the business of helping insurance companies sell insurance by <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nb29nbGUtdG8taGVscC1pbnN1cmVycy1tZWFzdXJlL=
+XNsaXAtYW5kLWZhbGwtcmlza3MtaW4tYnVpbGRpbmdzLTExNjI2MTgwMzAx/607f07ceef4b852=
+4a319a23cB6d5c5c4e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">predicting who=C2=A0will hurt themselves in buildings</a>, I dunn=
+o:</p><blockquote><p style=3D"margin: 16px 0;">Google is aiming to help sma=
+ll-business insurers more accurately measure occupancy of buildings where t=
+hey are on the hook for slip-and-fall accidents and other risks.</p><p styl=
+e=3D"margin: 16px 0;">The endeavor is part of a partnership between Google =
+Cloud and Menlo Park, Calif.-based BlueZoo Inc.=C2=A0=E2=80=A6=C2=A0Under t=
+he BlueZoo and Google Cloud partnership, small sensors in buildings listen =
+for Wi-Fi probes spontaneously emitted by mobile phones. The sensors encryp=
+t and compress these probes and forward them to analytics servers in the cl=
+oud, the companies said. BlueZoo arranges for the installation, often on ce=
+ilings.</p></blockquote><p style=3D"margin: 16px 0;">It just feels so misce=
+llaneous, you know? =E2=80=9CWe have built computers and sensors that under=
+stand physics and human nature so well that we can map out the future cours=
+e of everyone=E2=80=99s life and predict to the minute when they will die, =
+and we=E2=80=99re gonna use that godlike ability to calculate really accura=
+te corporate property-and-casualty insurance premiums.=E2=80=9D I mean, oka=
+y, whatever.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;">For over 20 years, Selective Search Matchmak=
+ers have protected our clients=E2=80=99 time, privacy and preferences in th=
+eir search for love. Customized searches that employ proven executive searc=
+h methodologies have resulted in love for thousands of couples.</p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24503919.260023/aHR0cHM6Ly93d3cuc2VsZWN0aXZlc2VhcmNoLmNvbS9ibG=
+9vbWJlcmc_dXRtX3NvdXJjZT1ibG9vbWJlcmcmdXRtX21lZGl1bT1wcmludCZ1dG1fY2FtcGFpZ=
+249bWVubm93JnV0bV9jb250ZW50PXB1cnN1aXRz/607f07ceef4b8524a319a23cB554acaeb" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: underline;"><strong>Get started with a comp=
+limentary consultation.</strong></a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Selective Search=
+ LLC.</p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Texas two-step</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Companies are sort of arbitrary things=
+. You can create a corporation by filling out a form and paying a small fee=
+. You can create as many as you want. If you have three different businesse=
+s, you can have three separate corporations, or you can do them all out of =
+one big corporation, or you can do them out of three corporations all owned=
+ by one big holding corporation, or you can put a few other corporations in=
+ between, whatever. As many as you want.</p><p style=3D"margin: 16px 0;">On=
+e important fact about corporations is that they have limited liability: If=
+ a corporation owes more money to creditors than it has, it goes bankrupt a=
+nd the creditors take whatever money it has left. The=C2=A0<em>shareholders=
+=C2=A0</em>of the corporation don=E2=80=99t generally owe any extra money. =
+Generally speaking, the value of a corporation's stock can=E2=80=99t be les=
+s than $0: If you buy stock in a company, and it goes bust, your stock may =
+turn out worthless, but you won=E2=80=99t owe anything else.</p><p style=3D=
+"margin: 16px 0;">These two facts =E2=80=94=C2=A0corporations have limited =
+liability, and you can make as many as you want =E2=80=94 might give you id=
+eas. Let=E2=80=99s say you run a big business in a corporation, Big Co. It =
+has=C2=A0lots of assets and lots of liabilities. Let=E2=80=99s say it has $=
+10 billion of assets and $4 billion of liabilities. Big Co. should be worth=
+ $6 billion, its net worth, its assets minus its liabilities.</p><p style=
+=3D"margin: 16px 0;">But what if you split it into=C2=A0<em>two=C2=A0</em>c=
+orporations? Start one company called Asset Co. and put the $10 billion of =
+assets into it, with no liabilities. Start another company called Liability=
+ Co. and put the $4 billion of liabilities into it, with no assets. Asset C=
+o. should be worth $10 billion. Liability Co. has a net worth of negative $=
+4 billion =E2=80=94=C2=A0lots of liabilities, no assets =E2=80=94=C2=A0but =
+a corporation can=E2=80=99t generally have negative value=C2=A0<em>to its o=
+wners</em>; corporate stock can=E2=80=99t be worth less than zero. So let=
+=E2=80=99s say Liability Co. is worth $0. Asset Co. plus Liability Co. are =
+worth $10 billion, which is more than they were worth ($6 billion) as a com=
+bined company. Good trade!</p><p style=3D"margin: 16px 0;">This is a thing =
+that, mechanically, you could do. For instance:</p><ol style=3D"list-style-=
+type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-=
+bottom: 5px;">Big Co. creates a new subsidiary, Asset Co.</li>=09<li style=
+=3D"margin-bottom: 5px;">Big Co. contributes all of its assets to Asset Co.=
+ in exchange for stock in Asset Co.</li>=09<li style=3D"margin-bottom: 5px;=
+">Big Co. spins off the stock of Asset Co. to its shareholders (as a divide=
+nd payable in Asset Co. stock).</li>=09<li style=3D"margin-bottom: 5px;">Bi=
+g Co. renames itself Liability Co.</li></ol><p style=3D"margin: 16px 0;">No=
+w the former shareholders of Big Co. (worth $6 billion) have become the sha=
+reholders of Asset Co. (worth $10 billion) and Liability Co. (worth $0). Th=
+ey are better off. Meanwhile the former creditors of Big Co. are much worse=
+ off: When Big Co. owed them $4 billion, it had plenty of money to pay them=
+; now that Liability Co. owes them $4 billion, it has no money, and they wo=
+n=E2=80=99t get paid.</p><p style=3D"margin: 16px 0;">What stops you from d=
+oing this? Well, if your liabilities are bonds or bank loans, there will pr=
+obably be=C2=A0provisions in the contract saying you can=E2=80=99t do this =
+=E2=80=94=C2=A0Big Co. can=E2=80=99t transfer all or substantially all of i=
+ts assets, etc. But some liabilities won=E2=80=99t have provisions like tha=
+t. In particular,=C2=A0<em>contingent tort liabilities=C2=A0</em>won=E2=80=
+=99t have any contracts at all.=C2=A0If Big Co. got all its money by crashi=
+ng cars into people or manufacturing asbestos, those people will sue it for=
+ money, and in an economic sense those lawsuits will all be liabilities. Bu=
+t they won=E2=80=99t be contractual liabilities (at least until you settle)=
+;=C2=A0you=E2=80=99ll have no agreement with the people suing you about wha=
+t you're allowed to do with your corporate structure.</p><p style=3D"margin=
+: 16px 0;">Instead, there is a general legal principle about =E2=80=9Cfraud=
+ulent transfers.=E2=80=9D This is a term of art referring to, you know, thi=
+s sort of trade: If you have a company, and it owes people money, and you m=
+ove all the assets out of the company so that it can=E2=80=99t pay off its =
+creditors, then that is a =E2=80=9Cfraudulent transfer=E2=80=9D and a court=
+ will not allow it.=C2=A0This principle is found in, for instance, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0cHM6L=
+y93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzExLzU0OA/607f07ceef4b8524a319a=
+23cB510aa4ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Section 548 of the U.S. Bankruptcy Code</a>, as well as in many states=
+=E2=80=99 laws in the form of the <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24503919.260023/aHR0cHM6Ly93d3cudW5pZm9ybWxhd3Mub3JnL2NvbW1=
+pdHRlZXMvY29tbXVuaXR5LWhvbWU_Q29tbXVuaXR5S2V5PTQyMjZhZTdjLTkxYzAtNGNlOS1iND=
+g4LTg1MjBkYmMzOWVhMyM6fjp0ZXh0PVRoZSUyMFVuaWZvcm0lMjBGcmF1ZHVsZW50JTIwVHJhb=
+nNmZXIlMjBBY3QsdGhlJTIwVW5pZm9ybSUyMFZvaWRhYmxlJTIwVHJhbnNhY3Rpb24lMjBBY3Qu=
+/607f07ceef4b8524a319a23cB397d41a9" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Uniform Fraudulent Transfer Act</a>.[5] There are=
+ specific details and borderline cases to consider, and the law here can be=
+ complex, but the point is that the super-obvious trade I laid out above wo=
+uld be a fraudulent transfer and a court would not allow it. The Liability =
+Co. creditors would be able to go after Asset Co.=E2=80=99s assets to get t=
+heir debts paid.</p><p style=3D"margin: 16px 0;">Here, however, is another =
+form of the trade:</p><ol style=3D"list-style-type: decimal; padding-left: =
+40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Big Co. reincor=
+porates in the state of Texas.</li>=09<li style=3D"margin-bottom: 5px;">Big=
+ Co. does a=C2=A0<em>merger</em> into two companies, Asset Co. and Liabilit=
+y Co. Usually a =E2=80=9Cmerger=E2=80=9D involves two companies becoming on=
+e new company, but <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24503919.260023/aHR0cHM6Ly9zdGF0dXRlcy5jYXBpdG9sLnRleGFzLmdvdi9Eb2NzL0JPL2=
+h0bS9CTy4xMC5odG0/607f07ceef4b8524a319a23cB129d4b7d" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Texas law</a> allows a thing ca=
+lled a =E2=80=9Cdivisive merger,=E2=80=9D in which one company =E2=80=9Cmer=
+ges=E2=80=9D and becomes two new companies.</li>=09<li style=3D"margin-bott=
+om: 5px;">Asset Co. gets the assets, Liability Co. gets the liabilities, an=
+d former Big Co. shareholders get shares of both.</li></ol><p style=3D"marg=
+in: 16px 0;">This sounds like the same thing as the spinoff version I laid =
+out above. But it is different in one small weird way, which is that there =
+is a sense among lawyers that a =E2=80=9Cmerger=E2=80=9D is not a =E2=80=9C=
+transfer.=E2=80=9D=C2=A0For instance, if Small Co. has a lease on some offi=
+ce space, the lease might say "Small Co. may not transfer or assign this le=
+ase,=E2=80=9D because the landlord wants to deal with Small Co. and not som=
+e random other tenant. Small Co. can=E2=80=99t just sell the lease to some =
+other company.=C2=A0But if Small Co. merges with Medium Co., that=E2=80=99s=
+ different: Its corporate form has changed, but the-company-formerly-known-=
+as-Small-Co. is still using the office space and paying the rent, so it wou=
+ld be a little weird to say that it has violated the lease. And so often me=
+rgers are not treated as transfers for various relevant legal purposes.</p>=
+<p style=3D"margin: 16px 0;">Usually this is fine because a merger means co=
+mbining two companies into one company, but in Texas a =E2=80=9Cmerger=E2=
+=80=9D can mean splitting one company into two companies and things can get=
+ weird. As <a href=3D"https://link.mail.bloombergbusiness.com/click/2450391=
+9.260023/aHR0cHM6Ly93d3cuY3JlZGl0c2xpcHMub3JnL2NyZWRpdHNsaXBzLzIwMjEvMDcvdG=
+hlLXRleGFzLXR3by1zdGVwLmh0bWw/607f07ceef4b8524a319a23cBe759631e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Adam Levitin write=
+s</a>:</p><blockquote><p style=3D"margin: 16px 0;">Why would it matter that=
+ a division is defined as a "merger" under Texas law? =C2=A0Because the Tex=
+as Business Organizations Code provides that a merger operates "without ...=
+ =C2=A0any transfer or assignment having occurred." =C2=A0The thinking is t=
+hat if there's no transfer in a divisive merger, then there cannot be a fra=
+udulent transfer.</p></blockquote><p style=3D"margin: 16px 0;">Is that righ=
+t? Nobody knows! Levitin goes on:</p><blockquote><p style=3D"margin: 16px 0=
+;">Now, it is far from clear that Texas's fraudulent transfer law--or any o=
+ther jurisdiction's--would defer to the Texas Business Organizations Code r=
+egarding whether there is a transfer, but there's no law on that point (but=
+ it has gotten some consideration in=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d3cuYmF5bG9yLmVkdS9jb25=
+0ZW50L3NlcnZpY2VzL2RvY3VtZW50LnBocC8xMTY4MTAucGRm/607f07ceef4b8524a319a23cB=
+8e0de959" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">this thoughtful law review comment</a>).</p></b=
+lockquote><p style=3D"margin: 16px 0;">But I guess it=E2=80=99s <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d=
+3cucmV1dGVycy5jb20vYnVzaW5lc3MvaGVhbHRoY2FyZS1waGFybWFjZXV0aWNhbHMvZXhjbHVz=
+aXZlLWpqLWV4cGxvcmluZy1wdXR0aW5nLXRhbGMtbGlhYmlsaXRpZXMtaW50by1iYW5rcnVwdGN=
+5LXNvdXJjZXMtMjAyMS0wNy0xOC8/607f07ceef4b8524a319a23cB6588d2f9" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">worth a shot</a>:</p>=
+<blockquote><p style=3D"margin: 16px 0;">Johnson &amp; Johnson is exploring=
+ a plan to offload liabilities from widespread Baby Powder litigation into =
+a newly created business that would then seek bankruptcy protection, accord=
+ing to seven people familiar with the matter.</p><p style=3D"margin: 16px 0=
+;">During settlement discussions, one of the healthcare conglomerate=E2=80=
+=99s attorneys has told plaintiffs=E2=80=99 lawyers that J&amp;J could purs=
+ue the bankruptcy plan, which could result in lower payouts for cases that =
+do not settle beforehand, some of the people said. Plaintiffs=E2=80=99 lawy=
+ers would initially be unable to stop J&amp;J from taking such a step, thou=
+gh could pursue legal avenues to challenge it later. ...</p><p style=3D"mar=
+gin: 16px 0;">J&amp;J faces legal actions from tens of thousands of plainti=
+ffs alleging its Baby Powder and other talc products contained asbestos and=
+ caused cancer. The plaintiffs include women suffering from ovarian cancer =
+and others battling mesothelioma. ...</p><p style=3D"margin: 16px 0;">J&amp=
+;J is now considering using Texas's =E2=80=9Cdivisive merger=E2=80=9D law, =
+which allows a company to split into at least two entities. For J&amp;J, th=
+at could create a new entity housing talc liabilities that would then file =
+for bankruptcy to halt litigation, some of the people said.</p><p style=3D"=
+margin: 16px 0;">The maneuver is known among legal experts as a Texas two-s=
+tep bankruptcy, a strategy other companies facing asbestos litigation have =
+used in recent years.</p></blockquote><p style=3D"margin: 16px 0;">It does =
+seem =E2=80=A6=C2=A0wrong? Like, obviously, if you run a big company that h=
+as big liabilities, you=E2=80=99d like to be able to=C2=A0<em>just get rid =
+of the liabilities</em>. And obviously companies have tried, and there are =
+simple approaches (spin off the assets and leave the liabilities, etc.), an=
+d those simple approaches=C2=A0<em>don=E2=80=99t work=C2=A0</em>because gen=
+erally it is=C2=A0<em>bad=C2=A0</em>for a company to be able to just get ri=
+d of its liabilities. It would be weird if there was a cheat where doing it=
+ as a Texas two-step merger=C2=A0<em>did=C2=A0</em>work.</p><table class=3D=
+"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">E for Extortion</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Leon Black, the former head of Apollo =
+Global Management Inc., allegedly had an extramarital affair with a woman 3=
+0 years younger than him, paid her millions of dollars during their sexual =
+relationship, secretly recorded their conversations, and=C2=A0spent million=
+s more dollars to conceal the affair from the directors and clients of his =
+firm. When I say =E2=80=9Callegedly=E2=80=9D I mean that=E2=80=99s what=C2=
+=A0<em>he=C2=A0</em>alleges; <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDctMTkvbGVvbi1ibGFjay1yZXZlYWxzLWludGltYXRlLWRldGFpbHMtaW4tZGV=
+uaWFsLW9mLXNleHVhbC1hc3NhdWx0/607f07ceef4b8524a319a23cBf889f0db" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> that=E2=80=99s hi=
+s=C2=A0<em>defense=C2=A0</em>of his actions</a>.=C2=A0<em>Her=C2=A0</em>all=
+egations are much worse; she claims that he abused and assaulted her and th=
+en threatened her to keep her silent. He claims that she is lying and that =
+she has been extorting money out of him for years.</p><p style=3D"margin: 1=
+6px 0;">In any case they seem to agree that, after their affair ended, they=
+ had lunch at the Four Seasons in 2015 and signed a contract providing that=
+ Black would pay her $100,000 a month for 15 years. Here is an amazing deta=
+il from <a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.2=
+60023/aHR0cHM6Ly9pYXBwcy5jb3VydHMuc3RhdGUubnkudXMvbnlzY2VmL1ZpZXdEb2N1bWVud=
+D9kb2NJbmRleD1TX1BMVVNfYjc0bW5vbm5aYVJaZDU2NERhYnc9PQ/607f07ceef4b8524a319a=
+23cBe0e346d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Black=E2=80=99s court filing</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">After the parties entered into the Agreement, Mr. Black set up a new=
+ account from which to make the monthly payments to Ganieva, which he calle=
+d =E2=80=9CE Trust.=E2=80=9D In her Complaint, Ganieva states that she =E2=
+=80=9Chas no knowledge as to why payments began from the =E2=80=98E Trust=
+=E2=80=99 or what it is.=E2=80=9D (Cplt. =C2=B6 73). To be very clear: the =
+=E2=80=9CE=E2=80=9D in =E2=80=9CE Trust=E2=80=9D stands for =E2=80=9CExtort=
+ion.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">I =E2=80=A6=C2=
+=A0wow, okay. We talk from <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMTktMDEtMDQvZG9uLXQtY2FsbC1icmliZXMtY2hpY2tlbnM/607f07ceef4b8524a=
+319a23cBfe8b4cb2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> time</a> to <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjEtMDEtMTEvaXMtdGhlLXR3aXR0ZXItYmFuLXNlY3VyaXRpZXMtZnJhdWQ/607f07ceef4=
+b8524a319a23cBc5eee93b" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> time</a> around here about the euphemisms that you should or=
+ should not use when you are paying or accepting bribes. We have even=C2=A0=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTItMDIvdGhlL=
+WJsYWNrbWFpbC1idXNpbmVzcy1pc24tdC1lYXN5/607f07ceef4b8524a319a23cBd78a77bb" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">talked</a>=
+=C2=A0about the <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+TktMDMtMjYveW91LWhhdmUtdG8tdGhyZWF0ZW4tcGVvcGxlLXJpZ2h0/607f07ceef4b8524a31=
+9a23cB748d4c09" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> euphemisms</a> that you should use when you are demanding blackmail.=
+ (=E2=80=9CLegal settlement,=E2=80=9D very good.) On the other hand, if you=
+ are=C2=A0<em>paying </em>blackmail, and if your lawyers are drafting the b=
+lackmail contract and setting up the blackmail legal entities, I think it i=
+s probably a good idea to avoid euphemism as far as possible? Sign a Blackm=
+ail Agreement, pay the money through the I Am Being Extorted Trust, keep=C2=
+=A0all the documentation as explicit as possible. That way, if you ever cha=
+nge your mind about paying, or=C2=A0if your blackmailer changes her mind an=
+d demands more money,=C2=A0<em>you=C2=A0</em>can blackmail=C2=A0<em>her: =
+=E2=80=9C</em>Hey, I=E2=80=99ve been paying you all this clearly labeled bl=
+ackmail for years now, you wouldn=E2=80=99t want the police to find out abo=
+ut that would you?=E2=80=9D I am not sure, though, that calling it the =E2=
+=80=9CE Trust,=E2=80=9D and not telling her what it stands for, accomplishe=
+s that goal.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Work from home</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a Wall Street Journal story ab=
+out a Goldman Sachs Group Inc. analyst who used the work-from-home flexibil=
+ity that Goldman offered during the pandemic to <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d3cud3NqLmNvbS9hc=
+nRpY2xlcy9hLWdvbGRtYW4tc2FjaHMtYW5hbHlzdC1ieS1kYXktaGUtaGVscGVkLXBpdGNoLWlz=
+cmFlbGktYmFzZWJhbGwtaW50by10aGUtb2x5bXBpY3MtMTE2MjY3MDk2NTM_bW9kPWl0cF93c2o=
+mcnU9eWFob28/607f07ceef4b8524a319a23cB42a60296" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">pitch for the Israeli national baseba=
+ll team</a> and qualify for the Olympics:</p><blockquote><p style=3D"margin=
+: 16px 0;">=E2=80=9CI=E2=80=99ve sort of proven that I can work effectively=
+ remotely,=E2=80=9D Mr. Brodkowitz says from Team Israel=E2=80=99s practice=
+ stadium in Rockland County, N.Y., where the mostly American-born squad was=
+ based before playing a series of exhibitions in the U.S. =E2=80=A6</p><p s=
+tyle=3D"margin: 16px 0;">Mr. Brodkowitz became very good at working from ho=
+me. He was so efficient as a remote employee that, even as vaccines became =
+available and bankers returned to Manhattan offices, he got a thumbs-up fro=
+m his bosses to do the exact opposite. He moved to Idaho.</p><p style=3D"ma=
+rgin: 16px 0;">Mr. Brodkowitz knew he had to pitch to have any hope of maki=
+ng the team that would go to Tokyo. So he joined an independent club called=
+ the Idaho Falls Chukars.</p><p style=3D"margin: 16px 0;">He had never been=
+ to Idaho when he moved into the basement of a house with five teammates. H=
+e threw a mattress on the floor and bought a desk, chair and monitor. The e=
+ntire time he was pitching for the Chukars, he continued working his day jo=
+b.</p><p style=3D"margin: 16px 0;">He was on his computer by 5:30 a.m. whil=
+e his housemates slept for hours more. He would go to the field in the afte=
+rnoon, typically get back around midnight from the game and do the same exa=
+ct thing the next day.</p></blockquote><p style=3D"margin: 16px 0;">That=E2=
+=80=99s nice! Also though isn=E2=80=99t this sort of the opposite of what y=
+ou want if you=E2=80=99re running an investment bank? Don=E2=80=99t you wan=
+t to indoctrinate analysts so that they believe that the firm is the most i=
+mportant thing, so that they internalize a certain set of shared cultural b=
+eliefs? Don=E2=80=99t you want them at the office to be around senior banke=
+rs who model the values and lifestyles of investment bankers, and around fe=
+llow junior bankers who aspire to that lifestyle? Don=E2=80=99t you want th=
+em to finish their two-year analyst program thinking that the most importan=
+t thing in life is creating shareholder value and being richly rewarded for=
+ it?</p><p style=3D"margin: 16px 0;">And then you=E2=80=99ve got a guy out =
+in Idaho hanging out with baseball players, not fellow analysts; he=E2=80=
+=99s training for the Olympics, and quietly logging into his Goldman comput=
+er at 5:30 every morning to get his work done quickly so he can get to more=
+ important things.=C2=A0We <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjEtMDctMTIvZ29sZG1hbi1kb2Vzbi10LXdhbnQtbWVyY2VuYXJpZXM/607f07cee=
+f4b8524a319a23cB827016ba" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> talked last week</a> about how working at Goldman is, incr=
+easingly, just a job. You can do it for money, to support the things you re=
+ally care about.</p><table class=3D"header" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Robinhood Sets Sights on a <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMTkvcm9iaW5ob29kLXdhbnRz=
+LXRvLXJhaXNlLW1vcmUtdGhhbi0yLWJpbGxpb24taW4tdXBjb21pbmctaXBv/607f07ceef4b85=
+24a319a23cB04b73f38" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> $35 Billion Valuation</a> in Its IPO. UBS=E2=80=99s Surge in =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjAvdWJzLXByb=
+2ZpdC1iZWF0cy1lc3RpbWF0ZXMtYXMtYmFuay1hZGRzLTI1LWJpbGxpb24taW4tYXNzZXRz/607=
+f07ceef4b8524a319a23cB1690d4a6" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Wealth Management Fees</a> Drives 63% Profit Jump. A=
+ccountants, Lawmakers Urge Rules on <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24503919.260023/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hY=
+2NvdW50YW50cy1sYXdtYWtlcnMtdXJnZS1ydWxlcy1vbi1jcnlwdG8tYWNjb3VudGluZy0xMTYy=
+NjY4NzAwMj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBdbc59b2f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Crypto Acco=
+unting</a>. Bank Regs Are <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24503919.260023/aHR0cHM6Ly90aGVvdmVyc2hvb3QuY28vcC9iYW5rLXJlZ3MtYXJ=
+lLWV4Y2Vzcy1wcm9maXQtdGF4ZXM/607f07ceef4b8524a319a23cB10793096" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Excess Profit Taxes</=
+a>. Africa=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24503919.260023/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGYwNTc5YWMtNDA5Zi00=
+MWQyLWJmNDAtNDEwZDVhMmVlNDZi/607f07ceef4b8524a319a23cBd70fdcd8" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">green superpower</a>:=
+ why Gabon wants markets to help tackle climate change. Credit Suisse Is Lo=
+sing Mideast Staff Over a <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24503919.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmV=
+zLzIwMjEtMDctMTkvcHJpdmF0ZS1iYW5raW5nLWNyZWRpdC1zdWlzc2Utc3RhZmYtcy10b3hpYy=
+10YWxlcy1vZi1kdWJhaS1jaGFzZS1mb3ItdWx0cmEtcmljaA/607f07ceef4b8524a319a23cB6=
+f77100d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+Toxic Work Culture</a>. Pimco Must Face Female Workers=E2=80=99 =E2=80=98<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMTUvcGltY28tbXV=
+zdC1mYWNlLWZlbWFsZS13b3JrZXJzLWZyYXRlcm5pdHktY3VsdHVyZS1sYXdzdWl0/607f07cee=
+f4b8524a319a23cBdcc9d167" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Fraternity Culture</a>=E2=80=99 Lawsuit. =E2=80=9CFor all =
+the bad guys on Wall Street, there are guys who want to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d3cudGhlY=
+3V0LmNvbS8yMDIxLzA3L2hvdy1sYXVyZW4tYm9ubmVyLWdldHMtaXQtZG9uZS5odG1s/607f07c=
+eef4b8524a319a23cBbb063f2d" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">back smart women</a> with courage.=E2=80=9D=C2=A0Inside a=
+ wild year for Wall Street's 'deal toy' makers: Business is rebounding as M=
+&amp;A jumps but <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4503919.260023/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS93YWxsLXN0cmVldC1k=
+ZWFsLXRveS1tYWtlcnMtc2FsZXMtZGVtYW5kLXByaWNlcy1tZXJnZXJzLXZvbHVtZXMtMjAyMS0=
+3/607f07ceef4b8524a319a23cB3209408a" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">raw materials like crystal</a> are tough to find=
+. =E2=80=9CThey are emerging from the pandemic with an unusual vocabulary a=
+nd a <a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.2600=
+23/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wZXBwYS1waWctYS1wYW5kZW1pYy1mYXZv=
+cml0ZS1oYXMtYW1lcmljYW4tY2hpbGRyZW4tYWN0aW5nLWJyaXRpc2gtMTE2MjY2MjcyNjY_c3Q=
+9NGNrb2I0bXMyYjZsNWFiJnJlZmxpbms9YXJ0aWNsZV9jb3B5VVJMX3NoYXJl/607f07ceef4b8=
+524a319a23cB4c184b7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">British accent</a>.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px=
+ 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like to =
+get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pl=
+ease=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919=
+.260023/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9=
+uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607=
+f07ceef4b8524a319a23cBdc8ff504" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">subscri=
+be at this link</a>. Or you can subscribe to Money Stuff and other great Bl=
+oomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24503919.260023/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f=
+07ceef4b8524a319a23cB699f3b63" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 1=
+6px 0;"><em>[1] Of course people complain all the time about having too muc=
+h money, capacity constraints, etc., and lots of funds do refuse to accept =
+more money.</em></p><p style=3D"margin: 16px 0;"><em>[2] The Wall Street Jo=
+urnal <a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260=
+023/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hY2ttYW4tc3BhYy1kZWNpZGVzLWFnYWl=
+uc3QtYnV5aW5nLTEwLXN0YWtlLWluLXVuaXZlcnNhbC1tdXNpYy1ncm91cC0xMTYyNjY3ODQ1Mz=
+9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBa8e83de3" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">says</a>: =E2=80=9CAf=
+ter launching the $4 billion vehicle last summer, Mr. Ackman eyed some of t=
+he biggest private companies, including Airbnb Inc., which has since gone p=
+ublic, Stripe Inc. and Bloomberg LP.=E2=80=9D Disclosure, I guess. (I work =
+for Bloomberg LP.)=C2=A0=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[3]=
+ In general SPACs have a limited period to find a deal (two years, in the c=
+ase of Pershing Square Tontine Holdings). The theory of its proposed deal w=
+as that the first deal satisfied that requirement, and that each subsequent=
+ deal =E2=80=94=C2=A0the second one with the remainder of the SPAC money, t=
+he SPAR deal, etc. =E2=80=94=C2=A0was off the clock, as it were. That's als=
+o helpful for Ackman: Not only is he no longer constrained to do a particul=
+ar size of deal, but he=E2=80=99s also not constrained by timing.</em></p><=
+p style=3D"margin: 16px 0;"><em>[4] A good resisting-the-hypothetical answe=
+r would be =E2=80=9Cwith my perfect understanding, I wouldn=E2=80=99t even =
+need money,=E2=80=9D but surely no one here believes that.</em></p><p style=
+=3D"margin: 16px 0;"><em>[5] The Uniform Law Commission, which writes laws =
+like this for state legislatures to enact, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24503919.260023/aHR0cHM6Ly93d3cudW5pZm9ybWxhd3Mub3=
+JnL2NvbW1pdHRlZXMvY29tbXVuaXR5LWhvbWU_Q29tbXVuaXR5S2V5PTQyMjZhZTdjLTkxYzAtN=
+GNlOS1iNDg4LTg1MjBkYmMzOWVhMyM6fjp0ZXh0PVRoZSUyMFVuaWZvcm0lMjBGcmF1ZHVsZW50=
+JTIwVHJhbnNmZXIlMjBBY3QsdGhlJTIwVW5pZm9ybSUyMFZvaWRhYmxlJTIwVHJhbnNhY3Rpb24=
+lMjBBY3Qu/607f07ceef4b8524a319a23cC397d41a9" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">has renamed</a> the latest version of th=
+is one the =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24503919.260023/aHR0cHM6Ly93d3cudW5pZm9ybWxhd3Mub3JnL2NvbW1pdHRlZXMvY29tb=
+XVuaXR5LWhvbWU_Q29tbXVuaXR5S2V5PTY0ZWUxY2NjLWEzYWUtNGE1ZS1hMThmLWE1YmE4MjA2=
+YmY0OQ/607f07ceef4b8524a319a23cBf12ea8c7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Uniform Voidable Transactions Act</a>.=E2=
+=80=9D But everyone says =E2=80=9Cfraudulent transfer,=E2=80=9D not =E2=80=
+=9Cvoidable transaction,=E2=80=9D and in any case the UVTA version is less =
+widely adopted than the earlier UFTA one. (It=E2=80=99s not adopted in Texa=
+s, for instance.)</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB015c6ba0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8ced5602" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB96774261" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24503919.260023/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa01ac3a7" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2450391=
+9.260023/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBe8801e0c" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24503919.260023/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC7a18f0cd" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24503919.260023/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4d6ac7e5" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24503919.260023/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB22fc971e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cel7cf.5kmv/e61bcd15.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_6924939_671703350.1626799491870--
+

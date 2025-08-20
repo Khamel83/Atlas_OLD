@@ -1,0 +1,2178 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9209:b0:134:f286:1793 with SMTP id d9csp274455rwb;
+        Thu, 29 Jun 2023 11:37:17 -0700 (PDT)
+X-Received: by 2002:adf:f30c:0:b0:313:e3d0:dd40 with SMTP id i12-20020adff30c000000b00313e3d0dd40mr299364wro.32.1688063837492;
+        Thu, 29 Jun 2023 11:37:17 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1688063837; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Hvbv8JMS2VRL9I9Rsl4yKAxcLNYZDBsjPg/uxQmXX+v8LwfkavipsMb7cIAyQ9Rmr0
+         jv+AXuhWDpMbgqrF3m4aaofINBbxj8QJ6RXwfvMx48h4CkSU2WRzTkHud6LCXKzD9Ytm
+         oFMQJQIlfXA2DQNISTM0YZMlurjb6CHxyAXDtLn3dpaxDgMxbzPuXtJiqMgLPxZN4los
+         nPyJ6f0S3v43bOFtHzZ00OcIb0B4tAlug6e1ltalJcjka5olAB+9iSlQ2gS5qEYIvp+y
+         X84njE4FyAh8RXs33Fri3khjTztiZJozuMuvyKjmXqrk++2W7KUdduxG3i3KSEHzXaLv
+         kICg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=H1yObfRLHcenb7EtIf9AbnnDT/1PEwy4NYn1/l5zy3o=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Ae7CVgOgfOh7QFnEvsLdrszAGLKHbmVIeRbYJId4DsOhpy08A4QMqboLvKe4YtdYiz
+         JtfN8TK/UJcU7MRKMNxlubUMKUOGyEem6NBaET1VapqCm2Zjkm+chP0h6m1AeNKsjXu3
+         743IZMq2jC4LELHFtzj1TztC9agajlP6cstJJQcAhUWi1cgnB1bHTDp3UAIA6w1zZqON
+         CbSNo0RenxhDYB1jbNGI4QlyMmanFLrQum32cLaaDR1Nts2hZqh9wdsfm5wEqtMm1GoW
+         1rPbKpT6H0fVoTxrgQNKo6QlKEABXKplkGz3W17+sfMe2xlW+tj6gLJJEeH1pSoLNBXs
+         YlKg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Fug5+iqd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d1-20020adfa341000000b003112dbc3466sor5625319wrb.7.2023.06.29.11.37.17
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 29 Jun 2023 11:37:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Fug5+iqd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688063837; x=1690655837;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=H1yObfRLHcenb7EtIf9AbnnDT/1PEwy4NYn1/l5zy3o=;
+        b=d0Wj/a3/ucE0wNZPkbQ+/aiI/r81Y9uUTl1mETuq1B9svim0vCluuRrPN8n/y5/I+L
+         kq+z6WXoMjNGQvRFF/NPx2DNVThK2hKUSH5w9QOjTz156D5rgzik0XAPBLOtJcaIy8KV
+         QjE8ycPRH2DuWDPomKmlKCgZsu4VdACJZAzwChaYiIJyjMTSnH9hQJoIZ2RDVGwgmT8R
+         Ekp8ZVq9SZA7TBYlrOj1IdyTNR4dJIbtHl3XbydCAg80uHje4PmX48ZqaKDTqBr3enhd
+         A50Q2+ZNoIvepI9sh9zwVdRRThb+bMsRZY8C1teXdPdmGCV6Eaz5gMiEKfr10ReFo4Lg
+         m8Sg==
+X-Gm-Message-State: ABy/qLZNFy5xjXthPZq7zJhrp0TmxdtG6sout6LX9dX/x9/lWIOMXiaM
+	nkhM8nQnX+YDT7UlP80hPGDDGPJrPs+RGVhVcPhN/cPCxocGWhJjRA==
+X-Received: by 2002:adf:fd43:0:b0:313:f18d:1f2c with SMTP id h3-20020adffd43000000b00313f18d1f2cmr345285wrs.38.1688063836963;
+        Thu, 29 Jun 2023 11:37:16 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:d4cc:0:0:0:0:0 with SMTP id w12csp2037917wrk;
+        Thu, 29 Jun 2023 11:37:13 -0700 (PDT)
+X-Received: by 2002:a17:902:f681:b0:1b8:6222:63e3 with SMTP id l1-20020a170902f68100b001b8622263e3mr1580906plg.57.1688063832737;
+        Thu, 29 Jun 2023 11:37:12 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1688063832; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OmImYkrXDMhsGddPNtuhO+L6Qlso3svBl4G0DyQ0IqMazk+8/cXcLCPvVz25adK+dO
+         WkdLEoNm9ghG7GXEqpcEcLqqLPPsjf2BwdCiyBj5gwk+G8kLIDAYtOD/Ne8ozy+tfgRS
+         2rgyKmC5jRHOay7TNtkRTSOiQ1RYCbUY9fY40kKRBu0dPvA7mFhZ+SqIiZSpjlMHh+UA
+         lLJQZAKF07qxFo0oPXohH3jvxvgn4X3zIe5fkjwqrD+TsOe6pIzkfqmloxe0CZAPPpDf
+         P8lqJFFnnwVVQH8HSxso9QqlDRiT3zku5QMVrBgv+ezPlp5Yw9lXq4PJXT4U8yU0DPdX
+         A2kg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=H1yObfRLHcenb7EtIf9AbnnDT/1PEwy4NYn1/l5zy3o=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=FkB0u3l8ObLL60CLMGJfGlV01WKoZVTdQyJPT8eZF1JKE0O4NbTOKQpYpqvwi+Usab
+         wLDw8J6JebqAXACX9TcUujrZVSPFeSAicVQwExPfP1Q4lqvZ96TenowIgaQl64ZEAVi2
+         EJ02ThFTj9rFKEmt1ss0QbvAx8M2yEiiptgIzCGyN8HycOfK2R13USYNELenHW9C6ohF
+         CTQ0MsHg5v8Yrbl5V4jxA7R82NromM8XR81JKh2YdUIimqJWdJkvWWYamVtyh2opLIP7
+         udDsYuoD9UeJqxv3KDCtKY6DiMUvmFuJQ0Vqyo/rlmA+MKPi9hHrPtnoVTn3LCWszjAO
+         NiHA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Fug5+iqd;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230629143711.31942637.258399@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230629143711.31942637.258399@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230629143711.31942637.258399@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l19-20020a170902e2d300b001b8522f20ddsor883837plc.7.2023.06.29.11.37.12
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 29 Jun 2023 11:37:12 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230629143711.31942637.258399@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ5mhfWN+fdH0Fw4QgqqhT9gOSW+TZprfmBsLL78BxNApiISBj7O5ki2txVF9TlGHvI+9G4cWWKk9CnTmglNxQXTyyFZBoY=
+X-Received: by 2002:a17:902:b108:b0:1b0:6541:91c2 with SMTP id q8-20020a170902b10800b001b0654191c2mr11467290plr.63.1688063832324;
+        Thu, 29 Jun 2023 11:37:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1688063832; cv=none;
+        d=google.com; s=arc-20160816;
+        b=CCR+4VsxQIp7vPKT2mNkcSYy4CA9prOOYEaH5leUA0/Z4S3LWImo2KQgDh+IRAt12Z
+         BmnsXmeoP1ZS94O4aQayykRWm4p1SM3XILMCpYy4f8FH9jImAwAompC0/emsBFCgYbQ8
+         Y+wVMeadxIWSmfxhgtVJ0qUok8lVlNKxBIdX3NdF9iwe0Bl15F+zafAEhl31kcQxHxTM
+         Cfxu7z6LeM9pm60MxQlHdtovJNRanRWVBg2SJqPxwd28Qc4H5SC51WqljGIR/jOn8b7K
+         mEZWpNUKsBmBsJey8Ne7X2AReYio3Fgp2pVywwDhzV8c5O/EZRCH0VGqhBv/k8h3hVwD
+         EPmg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=H1yObfRLHcenb7EtIf9AbnnDT/1PEwy4NYn1/l5zy3o=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=R1ux4T181vpy2hUTiTRjfVWdmBHzCPcgzkNl4qdNVWveDUkB2N+3h0+b4tAbnNkPXg
+         1vzGsLFHgqAI2Ie6aCMp/vyCOVmX/0LLegcJxVyT0461sI27ZXc7F+Qd5MzL+kBXOvrG
+         MpMWoD9+WtV1BVZrb5krOyhT6D9gA5NFJdshjd4emIhiWhgQH2FSQ3oWcFIv58W1K/5T
+         C0m9ha0a0b3XeFs6n5U1gnB1OtxyYvxCHOJdescEvIJ5MQrajEJY7Zi+Rtk9kIZDZI91
+         hdIn4aPV6mZC3szqeN5za6LS3+9ztKJ25Uy0oo3kitqEUk2mZ6djqm19RmEL525R5zbj
+         jfkw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Fug5+iqd;
+       spf=pass (google.com: domain of delivery_20230629143711.31942637.258399@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230629143711.31942637.258399@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230629143711.31942637.258399@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id lh11-20020a170903290b00b001b813ed996esi451066plb.13.2023.06.29.11.37.11
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 29 Jun 2023 11:37:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230629143711.31942637.258399@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=Z85TcIkwb+gN8bFtJ1fxr7mSY8ypOnx8lSzwz1DBmwM=;
+ b=Fug5+iqdAmy+DtUFdshHR8mi06gFA9PaxHkYTSXBwaO974GZZDwINsq7bj3LnMEl9fRk4krpXVda
+   PltjEECo2MMeWt0anpcmIYcikYwYQ/8MSbfxjH6VleesvxbIo9yhdBxiJepHtsfSXlwMKs/fnBLZ
+   xBfOTN7N0IJTwyO58CY=
+Received: from njmta-180.sailthru.com (173.228.155.180) by pmta29.sailthru.com id hjn7le2sd4s2 for <bloomberg@khamel.com>; Thu, 29 Jun 2023 13:37:11 -0500 (envelope-from <delivery_20230629143711.31942637.258399@mx.sailthru.com>)
+Received: from nj1-wrylilac.flt (172.18.20.8) by njmta-180.sailthru.com id hjn7le1qqbsv for <bloomberg@khamel.com>; Thu, 29 Jun 2023 14:37:11 -0400 (envelope-from <delivery_20230629143711.31942637.258399@mx.sailthru.com>)
+Date: Thu, 29 Jun 2023 14:37:11 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230629143711.31942637.258399@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFRoZSBCaWcgQmFua3MgQXJlbuKAmXQgU3RyZXNzZWQ=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10126825_1336932157.1688063831222"
+Precedence: bulk
+x-job: 6358-31942637-20230629
+X-Feedback-ID: 6358:31942637:campaign:sailthru
+X-TM-ID: 20230629143711.31942637.258399
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj0n3h.5jdr/8703a731
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj0n3h.5jdr/8703a731>, <mailto:unsubscribe_20230629143711.31942637.258399@mx.sailthru.com>
+X-rpcampaign: stjko31942637
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_10126825_1336932157.1688063831222
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+If you are a risk manager at a big bank, you might want to run some stres
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Stress tests
+   =20
+ =20
+
+If you are a risk manager at a big bank, you might want to run some stress =
+tests examining how your bank will perform under stressful scenarios. If yo=
+u are creative and good at your job, you will have fun thinking up the scen=
+arios. You will get in a room with some of your subordinates, and ideally w=
+ith some front-line traders and managers, and brainstorm bad stuff that mig=
+ht happen.
+Your brainstorming might include some history: =E2=80=9CWhat if 2008 happen=
+s again?=E2=80=9D =E2=80=9CWhat if 1929 happens again?=E2=80=9D =E2=80=9CWh=
+at if  LTCM happens again?=E2=80=9D It might include some simple numerical =
+questions: =E2=80=9CWhat if the S&P falls by 20%?=E2=80=9D =E2=80=9CWhat if=
+ the Fed raises rates to 7%?=E2=80=9D =E2=80=9CWhat if the Fed lowers rates=
+ to 0%?=E2=80=9D You might think about social and geopolitical and technolo=
+gical questions and try to translate them into economic scenarios: =E2=80=
+=9CWhat if nobody goes back to the office and office rents fall 50%?=E2=80=
+=9D =E2=80=9CWhat if artificial intelligence causes mass unemployment?=E2=
+=80=9D =E2=80=9CWhat if Russia=E2=80=99s war in Ukraine keeps pushing up oi=
+l prices?=E2=80=9D You might think about scenarios specific to your bank=E2=
+=80=99s operations: =E2=80=9CWhat if our CEO gets run over by a bus?=E2=80=
+=9D =E2=80=9CWhat if our CEO steals the corporate treasury?=E2=80=9D
+Have fun, go nuts, be creative. Think of lots of scenarios. Then model how =
+those scenarios will translate into market prices, how they will affect you=
+r funding costs and the cash flows from your assets. Then model how much ca=
+pital and liquidity you will have in each scenario. Part of the goal here i=
+s to make sure that you will have plenty of capital and liquidity in a wide=
+ range of stressful scenarios. Part of the goal is to figure out which scen=
+arios will be worse for you, so you can know what to worry about and hedge:=
+ If your model tells you that you=E2=80=99ll be fine if the Fed raises rate=
+s and bankrupt if it lowers rates, maybe you should do something about that=
+.=C2=A0
+If there is some specific event that you are worried about =E2=80=94=C2=A0s=
+ome new worry that crops up =E2=80=94 you might sit down and design a stres=
+s test for that event to make sure that you=E2=80=99d survive it. But your =
+overall approach to stress testing will be something like =E2=80=9Clet=E2=
+=80=99s constantly think of new things to worry about, and test for those.=
+=E2=80=9D It will not be =E2=80=9Clet me think of the one biggest thing to =
+worry about, and test only for that.=E2=80=9D Lots of things can go wrong i=
+n different directions! If you only worry about one thing, you will miss th=
+e other things.
+Also separately the Federal Reserve conducts annual stress tests for big US=
+ banks, but those are =E2=80=A6=C2=A0different. The Fed=E2=80=99s stress te=
+sts were created after the 2008 crisis, basically to shore up confidence in=
+ the banks so that they could raise capital. The Fed is in the business of =
+supervising big banks, and as part of that business it prods the banks to c=
+onsider various risks, to prepare for different scenarios, to build a robus=
+t culture of stress testing and risk management. But the Fed=E2=80=99s offi=
+cial stress tests are a public exercise designed to make sure =E2=80=94=C2=
+=A0and tell everyone =E2=80=94=C2=A0that the banking system could survive a=
+nother 2008.=C2=A0
+And so each year the Fed sits down and thinks something like =E2=80=9Cwhat =
+is the most plausible way for 2008 to happen this year,=E2=80=9D and then i=
+t writes one stress-test scenario
+  [1]
+ that is basically =E2=80=9Cthere=E2=80=99s a recession and real estate pri=
+ces collapse,=E2=80=9D and the banks run their models to see how much money=
+ they would lose in that scenario, and generally the answer is =E2=80=9Ca c=
+ertain amount, but not enough to leave us undercapitalized,=E2=80=9D and th=
+e banks pass the stress tests.=C2=A0
+This became  slightly awkward in 2020 when the stress-test scenario involve=
+d=C2=A0the US unemployment rate peaking at 10%, while the actual stress of =
+Covid-19 caused unemployment to peak at 14.7%. If you ask questions like =
+=E2=80=9Ccan banks survive another 2008,=E2=80=9D you will not quite get an=
+ answer to the question =E2=80=9Ccan banks survive a global pandemic?=E2=80=
+=9D The answer to that question, however, turned out to be yes: For a combi=
+nation of reasons (supportive government policy and Fed lending, but also p=
+rofiting on volatility), the big banks did pretty well in Covid.
+It also became slightly awkward this year when the Fed released its stress-=
+test scenario=C2=A0in February, and it went like this:
+
+The severely adverse scenario is characterized by a severe global recession=
+ accompanied by a period of heightened stress in both commercial and reside=
+ntial real estate markets, as well as in corporate debt markets. The U.S. u=
+nemployment rate rises nearly 6=C2=BD percentage points from the starting p=
+oint of the scenario in the fourth quarter of 2022 to its peak of 10 percen=
+t in the third quarter of 2024. The sharp decline in economic activity is a=
+lso accompanied by an increase in market volatility, widening corporate bon=
+d spreads, and a collapse in asset prices, including a 38 percent decline i=
+n house prices and a 40 percent decline in commercial real estate prices. =
+=E2=80=A6
+The rising unemployment rate and the rapid decline in aggregate demand for =
+goods and services significantly reduce inflationary pressures. =E2=80=A6
+Short-term interest rates, as measured by the 3-month Treasury rate, fall s=
+ignificantly to near zero by the third quarter of 2023 and remain there for=
+ the remainder of the scenario. Long-term interest rates, as measured by th=
+e 10-year Treasury yield, fall by nearly 3=C2=BC percentage points by the s=
+econd quarter of 2023, and then gradually rise in late 2023 to about 1=C2=
+=BD percent by the end of the scenario.
+
+Fine, right, recession, real-estate collapse, corporate credit blows out, r=
+ates go to zero, the 2008 of 2023. But then=C2=A0in March a   couple of US =
+banks   failed, and many others   came under a lot of stress,=C2=A0for exac=
+tly the=C2=A0opposite=C2=A0reason: Inflation was persistently high, interes=
+t rates went up, and those banks had to pay more on deposits even as their =
+holdings of Treasury bonds lost value. Silicon Valley Bank was not subject =
+to the Fed=E2=80=99s stress tests, as a mid-sized bank, but if it had been =
+it would have done great! It did not do great in real life.
+Anyway yesterday the 23 big banks subject to the stress tests   all passed.=
+=C2=A0Here are the Fed=E2=80=99s  press release and=C2=A0the full=C2=A0resu=
+lts. One of the banks that passed is the US arm of Credit Suisse Group=C2=
+=A0AG, which survived the Fed=E2=80=99s hypothetical stress scenario just f=
+ine but which   vanished due to the stress of=C2=A0real life. From the Fed=
+=E2=80=99s press release:
+"Today's results confirm that the banking system remains strong and resilie=
+nt," Vice Chair for Supervision Michael S. Barr said. "At the same time, th=
+is stress test is only one way to measure that strength. We should remain h=
+umble about how risks can arise and continue our work to ensure that banks =
+are resilient to a range of economic scenarios, market shocks, and other st=
+resses."
+Yes.
+Now, this year=E2=80=99s stress test did include another scenario for the e=
+ight biggest banks, which (1) is=C2=A0different=C2=A0from the regular stres=
+s test and (2) is closer to what actually happened:
+
+In February 2023, for the first time, the Federal Reserve published an addi=
+tional, exploratory market shock component that applied only to U.S. G-SIBs=
+.=C2=A0The purpose of the stress test is to understand a firm=E2=80=99s=C2=
+=A0 resilience to a range of severe but plausible events, and the explorato=
+ry component furthers that purpose by posing a different set of risks than =
+is probed by this year=E2=80=99s global market shock component.
+In contrast to this year=E2=80=99s global market shock component, which was=
+ characterized by a severe recession=C2=A0 with fading inflation expectatio=
+ns, the exploratory market shock is characterized by a less severe recessio=
+n with greater inflationary pressures induced by higher inflation expectati=
+ons, increases in interest rates, an appreciation of the U.S. dollar, and i=
+ncreases in commodity prices.
+
+This scenario doesn=E2=80=99t count for bank capital requirements =E2=80=94=
+=C2=A0=E2=80=9CConsistent with the nature of an exploratory exercise, the e=
+xploratory market shock will not contribute to the capital requirements set=
+ by this year=E2=80=99s stress test=E2=80=9D =E2=80=94=C2=A0but it is intel=
+lectually interesting. Broadly speaking the big banks did a little better i=
+n this scenario than in the severe-recession scenario.=C2=A0
+But also,=C2=A0in real life, the big banks did fine in the scenario that ac=
+tually happened (except Credit Suisse!): The problems at US regional banks =
+seem=C2=A0to have driven deposits into the biggest banks, as depositors got=
+ nervous about small banks and fled to the safety of big banks. (Look how s=
+afe they are, they keep passing the stress tests.) The actual world of 2023=
+ was different from the hypothetical=C2=A0world of the stress tests, and in=
+ some ways more stressful for the US banking system, but it  worked out fin=
+e for the biggest banks.=C2=A0
+A general feature of the Fed=E2=80=99s stress tests is that, when the Fed s=
+erves up a =E2=80=9Cseverely adverse=E2=80=9D stress scenario to the banks,=
+ the banks go off and model the effect it would have on their business, and=
+ if they come back to the Fed and say =E2=80=9Cactually this would be good =
+for us,=E2=80=9D the Fed gets mad at them. You=E2=80=99re not supposed to s=
+ay that! Goldman Sachs Group notably did this in 2020, arguing that its tra=
+ding business was countercyclical,=C2=A0and that=C2=A0in a stressful scenar=
+io it would simply make a ton of money trading derivatives;   the Fed was n=
+ot amused. But sometimes it is true! Some hypothetical scenarios would be v=
+ery bad for the big banks, other hypothetical scenarios would be good for t=
+he big banks, and it=E2=80=99s perfectly plausible that some scenarios woul=
+d be=C2=A0bad=C2=A0=E2=80=94=C2=A0for the world, for the economy, for the b=
+anking system =E2=80=94=C2=A0while also being=C2=A0good for the big banks. =
+The way to manage this risk is to think about lots of scenarios and make su=
+re the banks would survive all of them.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Hot vs. cold money
+   =20
+ =20
+
+See this is how banking is supposed to work:
+
+Bank of America is bearing the cost of decisions made three years ago to pu=
+mp the majority of $670bn in pandemic-era deposit inflows into debt markets=
+ at a time when bonds traded at historically high prices and low yields.
+The moves left BofA, the second-largest US bank by assets, with more than $=
+100bn in paper losses at the end of the first quarter, according to data fr=
+om the Federal Deposit Insurance Corporation. The sum far exceeds unrealise=
+d bond market losses reported by its largest peers.
+The differing results reflect strategies undertaken early in the Covid-19 p=
+andemic, when banks absorbed a flood of deposits from savers. BofA put more=
+ money into bonds, while others parked a greater share in cash.
+Now that yields have risen and bond prices have fallen, the value of BofA=
+=E2=80=99s portfolio has plunged. By contrast, JPMorgan Chase and Wells Far=
+go =E2=80=94 the nation=E2=80=99s first and third-largest banks, respective=
+ly =E2=80=94 each had about $40bn in unrealised bond market losses, while f=
+ourth-largest Citigroup=E2=80=99s paper losses were $25bn. =E2=80=A6
+BofA has said it has no plans to sell the underwater bonds, avoiding crysta=
+llised losses that for now exist only on paper. The bank=E2=80=99s portfoli=
+o consists of highly rated government-backed securities that are likely to =
+eventually be paid back when the underlying loans mature.
+But holding on to the relatively low-yielding investments, many of which ar=
+e backed by 30-year home loans, at a time when newly purchased bonds yield =
+significantly more, could limit the income that BofA can generate from its =
+customer deposits.
+=E2=80=9CI think the jury is still out,=E2=80=9D said Jason Goldberg, a ban=
+k analyst at Barclays, of BofA=E2=80=99s bond portfolio. =E2=80=9CWhen rate=
+s were low they were making more money then rivals. Fast-forward to today a=
+nd they are making less.=E2=80=9D
+
+The headline on that story is =E2=80=9CBank of America nurses $100bn paper =
+loss after big bet in bond market,=E2=80=9D but it=E2=80=99s =E2=80=A6=C2=
+=A0kind of =E2=80=A6=C2=A0fine? The key words are =E2=80=9Cthey are making =
+less.=E2=80=9D When interest rates were near 0%, Bank of America paid about=
+ 0.5% on deposits and earned about 2.5% on its portfolio of long-term Treas=
+ury bonds, a spread of about 2=C2=A0percentage points. Now that interest ra=
+tes are above 5%, Bank of America pays about 1.4% on deposits and earns abo=
+ut 2.6% on its portfolio of long-term Treasury bonds, a spread of about 1.2=
+ percentage points.
+  [2]
+=C2=A0Obviously you would rather earn 2=C2=A0points than 1.2 points; 2 is m=
+ore than 1.2.
+But earning 1.2 points is better than earning, say, nothing, or a negative =
+amount. Bank of America invested a lot of money in fixed-rate Treasury bond=
+s starting in 2020, and as interest rates went up it has not earned any mor=
+e money on those Treasuries (because they have fixed rates). But in 2020 it=
+ was using cheap deposits to fund those Treasuries, and as interest rates w=
+ent up it has not had to pay much more money for those deposits. Short-term=
+ interest rates have gone up by about 5 percentage points; Bank of America=
+=E2=80=99s deposit rates have gone up by about 0.9 percentage points; its i=
+ncome from its Treasury portfolio has gone up almost not at all, so its mar=
+gins are tighter.=C2=A0
+It could be worse! Bloomberg=E2=80=99s=C2=A0Jennifer Surane, Linly Lin and =
+Mathieu Benhamou report:
+
+US banks have found a way to replace some of the hundreds of billions of do=
+llars in deposits that flooded out their doors early this year. But it's ex=
+pensive, and not particularly sticky.
+To shore up their books after a flurry of withdrawals by customers, midsize=
+ banks across the US have turned to a patchwork of other sources that deman=
+d significantly higher interest, typically around 5% or more. Regional bank=
+s borrowed billions more from the Federal Reserve, Federal Home Loan Bank s=
+ystem and =E2=80=94 to an eye-popping degree =E2=80=94 leaned on brokered d=
+eposits cobbled together by little-known intermediaries.
+An analysis of quarterly regulatory filings for the 84 biggest banks =E2=80=
+=94 commanding more than 80% of the industry=E2=80=99s assets =E2=80=94 sho=
+ws not only how much they were borrowing through those channels at the end =
+of March, but also the toll that it was just starting to take on some of th=
+eir earnings. Those rising costs threaten to turn the most strained banks u=
+pside down: leaving them paying more to amass the cash they need than they =
+earn by lending it out.
+
+I would not worry=C2=A0so=C2=A0much about the stickiness there. A bank=E2=
+=80=99s funding from the Fed or the FHLBs is reasonably sticky, in the sens=
+e that the Fed and FHLBs seem unlikely to pull funding from a bank unless, =
+you know, they=C2=A0want the bank to fail.
+But the rates are the rates, and they move with the market.=C2=A0If you are=
+ just borrowing money at short-term market rates, well, the rate is about 5=
+%. If you are a US regional bank, you are doing a lot of that. If you are a=
+ US regional bank that got a flood of deposits in around 2020 and invested =
+all the money in long-term fixed-rate Treasuries, and then your deposits fl=
+ed and you had to start borrowing money at short-term market rates, well, y=
+ou are Silicon Valley Bank, or First Republic, and you have disappeared. Bu=
+t if you are a US megabank and you did that, you=E2=80=99re fine, because y=
+our cost of deposits is still pretty low. Bank of America=E2=80=99s realize=
+d =E2=80=9Cdeposit beta=E2=80=9D =E2=80=94=C2=A0the sensitivity of its depo=
+sit rates to the Fed=E2=80=99s interest rates =E2=80=94=C2=A0is something l=
+ike 0.2.
+  [3]
+ At some regional banks it was more like 1. If the cost of your funding goe=
+s from 0% to 5%, and the yield on your bonds goes from 2.5% to 2.5%, you go=
+ from making 2.5% every year to losing 2.5% every year, and that=E2=80=99s =
+bad.
+We have   talked a   lot about two theories of banking. The traditional the=
+ory is that banks have long-term deposit franchises, and when short-term in=
+terest rates rise that has only a minor effect on the banks=E2=80=99 fundin=
+g costs. Therefore, the banks can and should use their deposits to buy long=
+-term loans and bonds with long duration, because they can hold those bonds=
+ to maturity. If rates go up, the banks will have mark-to-market losses on =
+their bonds, but that doesn=E2=80=99t matter: They will, in some approximat=
+e but economically meaningful sense, have=C2=A0offsetting gains on their de=
+posit franchise. They have cheap long-term funding, which allows them to ho=
+ld long-term bonds to maturity, so the mark-to-market losses don=E2=80=99t =
+matter.=C2=A0
+The other theory is that banks have short-term deposits that can vanish ove=
+rnight, and that they have to pay short-term market rates for that deposit =
+funding. If they use that funding to buy long-term bonds, and then rates go=
+ up, they will earn less on their bonds than they pay on their deposits, an=
+d will have to sell the bonds at a loss, and might face a bank run and inso=
+lvency.
+The traditional theory is basically true of the big banks.=C2=A0Bank of Ame=
+rica has a $100 billion loss on its bond portfolio and doesn=E2=80=99t care=
+. The other theory is basically true of the regional banks.=C2=A0They=E2=80=
+=99re borrowing hot money at 5% and it=E2=80=99s a mess.
+
+ =20
+   =20
+      DWAC
+   =20
+ =20
+
+In October 2021, a special-purpose acquisition company called Digital World=
+ Acquisition Corp. announced that it was going to merge with Trump Media & =
+Technology Group, a company backed by Donald Trump that would soon be launc=
+hing a social network called TRUTH Social.   I was skeptical at the time, b=
+ecause I figured (1) Donald Trump would probably not be launching a social =
+network? but (2) doing this sort of SPAC deal was a good way for him to rai=
+se some money from enthusiastic retail investors. I have to say, I seem to =
+have been wrong on both counts: TRUTH Social, as far as I can tell, exists,=
+ while almost two years later Trump has not gotten that SPAC money, as the =
+US Securities and Exchange Commission   has held up the merger for, like, s=
+uspected miscellaneous illegality.
+One sort of suspected miscellaneous illegality=C2=A0is that there seems to =
+have been some insider trading around the announcement of the deal.=C2=A0He=
+re is the rough sequence of events:
+=09The DWAC people and the Trump people talked about doing a SPAC to take T=
+MTG public.=09The DWAC people launched DWAC and sold shares to the public a=
+t $10 per share.=09DWAC and TMTG announced the deal, and the DWAC shares so=
+ared to $94.20 on retail enthusiasm for Donald Trump.
+
+If you were involved in the negotiations, you could have bought stock at $1=
+0 between Step 2 and Step 3 and made a quick 800% profit. Today the  US Sec=
+urities and Exchange Commission and  federal prosecutors brought a case aga=
+inst some DWAC insiders:
+
+The Securities and Exchange Commission today filed insider trading charges =
+against Bruce Garelick, a former board member of Digital World Acquisition =
+Corporation (DWAC), a special purpose acquisition company (SPAC); Michael S=
+hvartsman and his firm Rocket One Capital LLC; and Gerald Shvartsman for tr=
+ading in advance of DWAC=E2=80=99s October 2021 announcement that it had re=
+ached an agreement to acquire Trump Media & Technology Group Corp. (TMTG).
+The SEC=E2=80=99s complaint alleges that, after DWAC appointed Garelick as =
+a member of its board of directors in September 2021, Garelick learned abou=
+t, and voted on, material nonpublic actions and updates regarding the negot=
+iations between DWAC and its merger target, TMTG. Garelick, who was separat=
+ely employed as the chief strategy officer at Rocket One Capital, then alle=
+gedly shared those updates with his boss, Michael Shvartsman, who in turn s=
+hared them with his brother, Gerald Shvartsman. Each then allegedly purchas=
+ed DWAC securities on the open market based on the material nonpublic infor=
+mation they learned about DWAC. Michael Shvartsman placed his trades throug=
+h an account in the name of Rocket One Capital. The defendants then sold th=
+eir positions shortly after DWAC announced it had signed a merger agreement=
+ with TMTG and collectively realized illicit profits of more than $22.9 mil=
+lion from those trades. The complaint further alleges that, despite being a=
+ DWAC director and thus having certain reporting obligations, Garelick fail=
+ed to file SEC Forms 4 and 5 related to his transactions in DWAC securities=
+.
+
+Fine, right. I have trouble thinking of anything less surprising than =E2=
+=80=9Cpeople involved in the Donald Trump SPAC (allegedly) did some insider=
+ trading,=E2=80=9D but there you go.
+The more interesting question =E2=80=94=C2=A0the one that seems to be holdi=
+ng up the closing of the DWAC/TMTG deal =E2=80=94 is whether DWAC lied to i=
+nvestors when it went public by not disclosing its plans for TMTG. A SPAC i=
+s meant to be a blank-check company, a way to raise a pot of money to look =
+for an acquisition target; if you=E2=80=99ve already=C2=A0got the acquisiti=
+on target lined up, you can=E2=80=99t use the SPAC format. (If you=E2=80=99=
+ve already got the acquisition lined up, the theory goes, you should give p=
+otential investors financial and business disclosure about the target, inst=
+ead of just raising a blank check.) And so when it went public in September=
+ 2021,  DWAC said, as is normal in SPACs, that =E2=80=9CWe have not selecte=
+d any specific business combination target and we have not, nor has anyone =
+on our behalf, initiated any substantive discussions, directly or indirectl=
+y, with any business combination target.=E2=80=9D
+But it announced its Trump deal six weeks later, and there have  long been =
+reports that the deal had already been negotiated when DWAC went public. If=
+ this is true, then DWAC lied to investors, and the SEC has more grounds to=
+ block the merger. (My view is that this is kind of silly in this case:=C2=
+=A0Investors weren=E2=80=99t=C2=A0harmed by the lies, since after all they =
+were thrilled when the Trump deal was announced and the stock traded up. Bu=
+t in general the rule makes sense: If you want to raise money from investor=
+s to take a particular company public, you should tell investors about the =
+company rather than keeping it secret.)
+Today=E2=80=99s insider trading case gives some insight into the SEC=E2=80=
+=99s view on this question. Patrick Orlando, DWAC=E2=80=99s founding chief =
+executive officer (referred to as =E2=80=9CIndividual A=E2=80=9D in  the SE=
+C complaint), was involved in another SPAC (=E2=80=9CSPAC A=E2=80=9D in the=
+ complaint) and was talking to TMTG about a deal by early 2021. But:
+
+In early April 2021, two directors and one officer of SPAC A opposed pursui=
+ng a merger with TMTG. At that point, Individual A began exploring two plan=
+s to pursue a merger with TMTG, =E2=80=9CPlan A=E2=80=9D and =E2=80=9CPlan =
+B.=E2=80=9D =E2=80=9CPlan A=E2=80=9D referred to continued efforts to find =
+a way for SPAC A to merge with TMTG. =E2=80=9CPlan B=E2=80=9D referred to I=
+ndividual A=E2=80=99s attempt to identify a different SPAC to pursue a merg=
+er with TMTG. =E2=80=A6
+On June 4, 2021, SPAC A, TMTG, and Individual A (in both his personal=C2=A0=
+capacity and on behalf of SPAC A) signed a letter expressing intent to purs=
+ue a merger between SPAC A and TMTG. This June 4 letter of intent included =
+a clause under which Individual A would be personally liable to pay a $1 mi=
+llion break-up fee if SPAC A and TMTG did not enter an acquisition agreemen=
+t by August 6, 2021 (the =E2=80=9CBreak-Up Fee Clause=E2=80=9D). The Break-=
+Up Fee Clause had several conditions that would result in Individual A owin=
+g no break-up fee. Under one of these conditions, Individual A would owe no=
+ break-up fee if he =E2=80=9Cshould propose to [TMTG] an alternative specia=
+l purpose acquisition corporation with combination terms that are acceptabl=
+e to [TMTG] (in its sole and absolute discretion) and such terms are ultima=
+tely accepted by [TMTG].=E2=80=9D=C2=A0
+
+So Orlando signed a deal to take TMTG public through SPAC A that would obli=
+gate him personally to pay $1 million if he didn=E2=80=99t either complete =
+that deal or take TMTG public through a different SPAC deal. The SPAC A dea=
+l didn=E2=80=99t work out, but then Orlando launched a new SPAC (DWAC) and =
+used it to almost immediately sign a deal to take TMTG public, solving his =
+breakup-fee problem. Is that consistent with =E2=80=9Cwe have not, nor has =
+anyone on our behalf, initiated any substantive discussions, directly or in=
+directly, with any business combination target=E2=80=9D? I bet the SEC thin=
+ks not.
+
+ =20
+   =20
+      Je t=C3=A9l=C3=A9phone =C3=A0=C2=A0la police
+   =20
+ =20
+
+Does  this warrant a new law of insider trading?=C2=A0
+
+The Securities and Exchange Commission today filed insider trading charges =
+against five individuals, including a police chief in Dighton, Massachusett=
+s, arising from trading before the announcement of a tender offer by Alexio=
+n Pharmaceuticals Inc. to acquire Portola Pharmaceuticals Inc. in May 2020.=
+ Four of the defendants traded on nonpublic information obtained, directly =
+or indirectly, from the fifth defendant, and realized more than $2.3 millio=
+n in ill-gotten gains and tipped others who realized more than $1.7 million=
+ in trading profits.=C2=A0
+According to the SEC=E2=80=99s complaint, Joseph Dupont was a vice presiden=
+t and part of the acquisition team at Alexion when he knowingly or reckless=
+ly tipped confidential information about the acquisition to his close frien=
+d Shawn Cronin, the police chief. Cronin allegedly then provided the inform=
+ation to Jarett Mendoza, another close friend, and to family friend Stanley=
+ Kaplan, who provided advice to Cronin on trading strategies. In turn, Kapl=
+an allegedly provided the information to his friend and colleague, Paul Fel=
+dman. The SEC=E2=80=99s complaint alleges that Cronin, Mendoza, Kaplan, and=
+ Feldman purchased Portola stock and/or out-of-the money call options prior=
+ to the announcement, on the basis of the material, nonpublic information t=
+hey received. The complaint further alleges that Kaplan and Feldman passed =
+the information on to other family members and friends, who profitably trad=
+ed. On the day of the acquisition announcement, Portola=E2=80=99s stock pri=
+ce increased more than 130 percent.
+According to the SEC=E2=80=99s complaint, filed in U.S. District Court for =
+the Southern District of New York, the defendants=E2=80=99 approximate ill-=
+gotten gains were as follows: Cronin - $72,000; Mendoza - $39,000, Kaplan -=
+ $472,000; and Feldman - $1.73 million. The other traders who allegedly rec=
+eived nonpublic information from either Kaplan or Feldman saw profits of an=
+ additional $1.7 million. After realizing their profits, Kaplan texted Feld=
+man in Russian, =E2=80=9CLet=E2=80=99s hope our golden goose will continue =
+laying golden eggs!=E2=80=9D
+
+I dunno, sure, whatever:   The Fifteenth Law of Insider Trading is =E2=80=
+=9Cdo not insider trade if you=E2=80=99re a police chief.=E2=80=9D Just sor=
+t of poor form.
+The interesting question in cases like this is often: Did the insider (Dupo=
+nt)=C2=A0intend to tip his buddies so they could trade and make money, or d=
+id he just confide in them about work and they betrayed him by trading?
+  [4]
+=C2=A0There is no allegation here that Dupont made any=C2=A0money=C2=A0=E2=
+=80=94=C2=A0nobody handed him bags of cash for his tips =E2=80=94=C2=A0but =
+ there is this:
+
+On April 8, 2020, Dupont participated in a commercial due diligence call wi=
+th high level leadership from the companies, including both Alexion=E2=80=
+=99s and Portola=E2=80=99s CFO.
+The same evening, Cronin and Dupont spoke on the phone for approximately 20=
+ minutes.
+Later that evening, at 7:49 p.m., Cronin texted Kaplan: =E2=80=9CGood eveni=
+ng, sir. If you need something to take your mind off of the everyday battle=
+, remember that stock I told you about? Good time to buy.=E2=80=9D
+
+Not ideal. Also we talk a lot about people who insider trade on merger news=
+ by buying short-dated out-of-the-money call options, but here=E2=80=99s a =
+new one to me:
+
+On April 23, 2020, at around 3:26 p.m., Feldman texted Kaplan: =E2=80=9CI j=
+ust bought another PTLA bull spread.=E2=80=9D He attached a screenshot of h=
+is transaction, such that Kaplan could see Feldman=E2=80=99s options transa=
+ction in Portola.
+A bull spread or bull call spread is an options transaction that involves b=
+uying call options with a lower strike price and selling call options with =
+the same expiration but a higher strike price. The transaction is profitabl=
+e when the stock has a limited increase in its price, and is cheaper than p=
+urchasing only the lower strike price option.=C2=A0
+
+If a company=E2=80=99s stock is trading at $7, and you know that another co=
+mpany is about to buy it at $18 per share, buying $10-strike call options i=
+s a more efficient way to profit than just buying the stock at $7: You pay =
+a little bit for the call option, instead of $7 for the stock, and still ge=
+t most of the upside. But buying $10-strike call options and selling $18-st=
+rike call options is an=C2=A0even more efficient=C2=A0way to profit: You sp=
+end even less money up front, and you capture the same amount of upside. It=
+ is very tidy and high-leverage and efficient. Too efficient! They=E2=80=99=
+re gonna notice that.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Citadel Securities Is Muscling Its Way Into   Credit Trading. Tiger Global =
+Rejects   Hundreds of Offers for Its Stakes in Private Companies. Goldman S=
+achs   Loses Top M&A Ranking for First Time in Five Years.  FTX Begins Talk=
+s on Reboot Amid Regulatory Crackdown on Crypto Exchanges.  Big Oil Mulls a=
+ Slippery Future. Odey   Shutters Second Fund to Meet Client Redemption Dem=
+ands.=C2=A0Women Interviewing for  Bill Gates=E2=80=99s Private Office Were=
+ Asked Sexually Explicit Questions. Popularity of   Apps for Early Paydays =
+Masks Added Risks.=C2=A0Overstock.com Buys  Bed Bath & Beyond Intellectual =
+Property for $21.5 Million. Fidelity Plans to Convert $13 Billion of Its Mu=
+tual Funds   Into ETFs. A   Bank-Robbing Prison Gang Is in an Alarming Expa=
+nsion Mode. =E2=80=9CWearing a Mets cap and seated on a bar stool with a se=
+at shaped like a baseball mitt,  Cohen treated his media appearance as if i=
+t were a conversation with fans.=E2=80=9D Italian teacher sacked for  20 ye=
+ars of absence vows to defend herself.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Technically it thinks up two scenarios, the baseline scenario and the=
+ severely adverse scenario, but they differ mostly in degree, so if you are=
+ worried about stress testing you will focus mainly on the severely adverse=
+ one rather than the similar-but-milder baseline one.
+
+
+  [2] Don=E2=80=99t take those numbers too seriously, but they are based on=
+ Bank of America=E2=80=99s 10-Qs as of March 2023 (the most recent one) and=
+ March 2020 (early in Covid). Table 6 on page 8 of the 2023 10-Q, and Table=
+ 7 on page 9 of the 2020 10-Q, have the relevant balances and rates. In 202=
+0, Bank of America had about $1.6 trillion of interest-bearing liabilities =
+at an average rate of just 1.01%, of which about $1 trillion was in interes=
+t-bearing deposits at an average rate of 0.47%. It had about $2.1 trillion =
+in total earning assets at 3.08%, of which $465 billion was in debt securit=
+ies at 2.49%. In 2023, Bank of America pays 2.93% on $2 trillion of interes=
+t-bearing liabilities, of which $1.3 trillion are interest-bearing deposits=
+ at 1.38%; it earns 4.36% on $2.7 trillion of earning assets, of which $851=
+ billion are debt securities at 2.58%.=20
+
+
+  [3] That=E2=80=99s just, like, (1.38 - 0.47)/(5 - 0), the change in Bank =
+of America=E2=80=99s reported deposit cost over the last three years divide=
+d by the change in fed funds, and not meant to be particularly precise.
+
+
+  [4] The classic example is that there are two separate golf-buddy insider=
+ trading cases out of a single country club in Watertown, Mass.:   In one, =
+an executive told his golf partner inside information =E2=80=9Cas part of a=
+ relationship=E2=80=9D in which =E2=80=9Cthey often shared personal confide=
+nces about work and family life,=E2=80=9D and the golf partner betrayed the=
+ executive by trading on the information. The golf partner was charged but =
+the executive was not. In   the other, the executive (allegedly) intentiona=
+lly tipped his golf partner so he could trade, and they were both charged.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj0n3h.5jdr/8223635f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10126825_1336932157.1688063831222
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.If you a=
+re a risk manager at a big bank, you might want to run some stres
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9eee8704"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTk0MjYzNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyMDEwMzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBdfd5fc06" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31942637&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32201036&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Stress tests</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you are a risk manager at a big bank, you m=
+ight want to run some stress tests examining how your bank will perform und=
+er stressful scenarios. If you are creative and good at your job, you will =
+have fun thinking up the scenarios. You will get in a room with some of you=
+r subordinates, and ideally with some front-line traders and managers, and =
+brainstorm bad stuff that might happen.</p>
+<p style=3D"margin: 16px 0;">Your brainstorming might include some history:=
+ =E2=80=9CWhat if 2008 happens again?=E2=80=9D =E2=80=9CWhat if 1929 happen=
+s again?=E2=80=9D =E2=80=9CWhat if <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31942637.258399/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTG=
+9uZy1UZXJtX0NhcGl0YWxfTWFuYWdlbWVudA/607f07ceef4b8524a319a23cBd47db87a" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> LTCM</a> happens again?=E2=80=9D It might include some simple numeric=
+al questions: =E2=80=9CWhat if the S&amp;P falls by 20%?=E2=80=9D =E2=80=9C=
+What if the Fed raises rates to 7%?=E2=80=9D =E2=80=9CWhat if the Fed lower=
+s rates to 0%?=E2=80=9D You might think about social and geopolitical and t=
+echnological questions and try to translate them into economic scenarios: =
+=E2=80=9CWhat if nobody goes back to the office and office rents fall 50%?=
+=E2=80=9D =E2=80=9CWhat if artificial intelligence causes mass unemployment=
+?=E2=80=9D =E2=80=9CWhat if Russia=E2=80=99s war in Ukraine keeps pushing u=
+p oil prices?=E2=80=9D You might think about scenarios specific to your ban=
+k=E2=80=99s operations: =E2=80=9CWhat if our CEO gets run over by a bus?=E2=
+=80=9D =E2=80=9CWhat if our CEO steals the corporate treasury?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Have fun, go nuts, be creative. Think of lots =
+of scenarios. Then model how those scenarios will translate into market pri=
+ces, how they will affect your funding costs and the cash flows from your a=
+ssets. Then model how much capital and liquidity you will have in each scen=
+ario. Part of the goal here is to make sure that you will have plenty of ca=
+pital and liquidity in a wide range of stressful scenarios. Part of the goa=
+l is to figure out which scenarios will be worse for you, so you can know w=
+hat to worry about and hedge: If your model tells you that you=E2=80=99ll b=
+e fine if the Fed raises rates and bankrupt if it lowers rates, maybe you s=
+hould do something about that.=C2=A0</p>
+<p style=3D"margin: 16px 0;">If there is some specific event that you are w=
+orried about =E2=80=94=C2=A0some new worry that crops up =E2=80=94 you migh=
+t sit down and design a stress test for that event to make sure that you=E2=
+=80=99d survive it. But your overall approach to stress testing will be som=
+ething like =E2=80=9Clet=E2=80=99s constantly think of new things to worry =
+about, and test for those.=E2=80=9D It will not be =E2=80=9Clet me think of=
+ the one biggest thing to worry about, and test only for that.=E2=80=9D Lot=
+s of things can go wrong in different directions! If you only worry about o=
+ne thing, you will miss the other things.</p>
+<p style=3D"margin: 16px 0;">Also separately the Federal Reserve conducts a=
+nnual stress tests for big US banks, but those are =E2=80=A6=C2=A0different=
+. The Fed=E2=80=99s stress tests were created after the 2008 crisis, basica=
+lly to shore up confidence in the banks so that they could raise capital. T=
+he Fed is in the business of supervising big banks, and as part of that bus=
+iness it prods the banks to consider various risks, to prepare for differen=
+t scenarios, to build a robust culture of stress testing and risk managemen=
+t. But the Fed=E2=80=99s official stress tests are a public exercise design=
+ed to make sure =E2=80=94=C2=A0and tell everyone =E2=80=94=C2=A0that the ba=
+nking system could survive another 2008.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And so each year the Fed sits down and thinks =
+something like =E2=80=9Cwhat is the most plausible way for 2008 to happen t=
+his year,=E2=80=9D and then it writes one stress-test scenario<a class=3D"f=
+ootnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[1]</span>
+</a> that is basically =E2=80=9Cthere=E2=80=99s a recession and real estate=
+ prices collapse,=E2=80=9D and the banks run their models to see how much m=
+oney they would lose in that scenario, and generally the answer is =E2=80=
+=9Ca certain amount, but not enough to leave us undercapitalized,=E2=80=9D =
+and the banks pass the stress tests.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This became <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDYtMjkvbW9uZXktc3R1ZmYtYmFua3MtYXJlLW1hbmFnaW5=
+nLXRoZWlyLXN0cmVzcz9jbXBpZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB25014147" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> slightly awkward in =
+2020</a> when the stress-test scenario involved=C2=A0the US unemployment ra=
+te peaking at 10%, while the actual stress of Covid-19 caused unemployment =
+to peak at 14.7%. If you ask questions like =E2=80=9Ccan banks survive anot=
+her 2008,=E2=80=9D you will not quite get an answer to the question =E2=80=
+=9Ccan banks survive a global pandemic?=E2=80=9D The answer to that questio=
+n, however, turned out to be yes: For a combination of reasons (supportive =
+government policy and Fed lending, but also profiting on volatility), the b=
+ig banks did pretty well in Covid.</p>
+<p style=3D"margin: 16px 0;">It also became slightly awkward this year when=
+ the Fed released its stress-test scenario=C2=A0in February, and <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93=
+d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9maWxlcy9iY3J=
+lZzIwMjMwMjA5YTEucGRm/607f07ceef4b8524a319a23cB9b405a17" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">it went li=
+ke this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The severely adverse scenario is characterized=
+ by a severe global recession accompanied by a period of heightened stress =
+in both commercial and residential real estate markets, as well as in corpo=
+rate debt markets. The U.S. unemployment rate rises nearly 6=C2=BD percenta=
+ge points from the starting point of the scenario in the fourth quarter of =
+2022 to its peak of 10 percent in the third quarter of 2024. The sharp decl=
+ine in economic activity is also accompanied by an increase in market volat=
+ility, widening corporate bond spreads, and a collapse in asset prices, inc=
+luding a 38 percent decline in house prices and a 40 percent decline in com=
+mercial real estate prices. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The rising unemployment rate and the rapid dec=
+line in aggregate demand for goods and services significantly reduce inflat=
+ionary pressures. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Short-term interest rates, as measured by the =
+3-month Treasury rate, fall significantly to near zero by the third quarter=
+ of 2023 and remain there for the remainder of the scenario. Long-term inte=
+rest rates, as measured by the 10-year Treasury yield, fall by nearly 3=C2=
+=BC percentage points by the second quarter of 2023, and then gradually ris=
+e in late 2023 to about 1=C2=BD percent by the end of the scenario.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Fine, right, recession, real-estate collapse, =
+corporate credit blows out, rates go to zero, the 2008 of 2023. But then=C2=
+=A0in March a <a href=3D"https://link.mail.bloombergbusiness.com/click/3194=
+2637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjM=
+tMDUtMDEvanBtb3JnYW4tZ290LWEtZGVhbC1vbi1maXJzdC1yZXB1YmxpYz9jbXBpZD1CQkQwNj=
+I5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1d=
+G1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23c=
+Bdf583936" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  couple</a> of US banks <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAt=
+YmFuay1ydW4_Y21waWQ9QkJEMDYyOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI5JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBd18218b4" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  failed</a>, and many others=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9i=
+b2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGlkPUJCRDA2MjkyM19NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyOSZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB63e8ea90" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  came =
+under a lot of stress</a>,=C2=A0for <em>exactly the=C2=A0</em><em>opposite=
+=C2=A0</em>reason: Inflation was persistently high, interest rates went up,=
+ and those banks had to pay more on deposits even as their holdings of Trea=
+sury bonds lost value. Silicon Valley Bank was not subject to the Fed=E2=80=
+=99s stress tests, as a mid-sized bank, but if it had been it would have do=
+ne great! It did not do great in real life.</p>
+<p style=3D"margin: 16px 0;">Anyway yesterday the 23 big banks subject to t=
+he stress tests <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DYtMjgvYmlnLWJhbmtzLWFsbC1wYXNzLWZlZC1zLXN0cmVzcy10ZXN0cy1idXQtc3RpbGwtZmFj=
+ZS1oaWdoZXItY2FwaXRhbC1yZXF1aXJlbWVudHM_Y21waWQ9QkJEMDYyOTIzX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI5Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBaeea44f8" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  all passed</a>.=C2=A0Here are the Fed=E2=80=99s <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuZmVkZXJhbHJ=
+lc2VydmUuZ292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9iY3JlZzIwMjMwNjI4YS5odG0/60=
+7f07ceef4b8524a319a23cBfc839e56" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> press release</a> and=C2=A0<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6=
+Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L3B1YmxpY2F0aW9ucy9maWxlcy8yMDIzLWRmYXN0LXJ=
+lc3VsdHMtMjAyMzA2MjgucGRm/607f07ceef4b8524a319a23cBc46d17bf" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">the fu=
+ll=C2=A0results</a>. One of the banks that passed is the US arm of Credit S=
+uisse Group=C2=A0AG, which survived the Fed=E2=80=99s hypothetical stress s=
+cenario just fine but which <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjMtMDMtMjAvdWJzLWdvdC1jcmVkaXQtc3Vpc3NlLWZvci1hbG1vc3Qtbm90aGlu=
+Zz9jbXBpZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cBc1f35e64" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  vanished due to the stress of=C2=A0r=
+eal life</a>. From the Fed=E2=80=99s press release:</p>
+<blockquote><p style=3D"margin: 16px 0;">"Today's results confirm that the =
+banking system remains strong and resilient," Vice Chair for Supervision Mi=
+chael S. Barr said. "At the same time, this stress test is only one way to =
+measure that strength. We should remain humble about how risks can arise an=
+d continue our work to ensure that banks are resilient to a range of econom=
+ic scenarios, market shocks, and other stresses."</p></blockquote>
+<p style=3D"margin: 16px 0;">Yes.</p>
+<p style=3D"margin: 16px 0;">Now, this year=E2=80=99s stress test <em>did <=
+/em>include another scenario for the eight biggest banks, which (1) is=C2=
+=A0<em>different=C2=A0</em>from the regular stress test and (2) is closer t=
+o what actually happened:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In February 2023, for the first time, the Fede=
+ral Reserve published an additional, exploratory market shock component tha=
+t applied only to U.S. G-SIBs.=C2=A0The purpose of the stress test is to un=
+derstand a firm=E2=80=99s=C2=A0 resilience to a range of severe but plausib=
+le events, and the exploratory component furthers that purpose by posing a =
+different set of risks than is probed by this year=E2=80=99s global market =
+shock component.</p>
+<p style=3D"margin: 16px 0;">In contrast to this year=E2=80=99s global mark=
+et shock component, which was characterized by a severe recession=C2=A0 wit=
+h fading inflation expectations, the exploratory market shock is characteri=
+zed by a less severe recession with greater inflationary pressures induced =
+by higher inflation expectations, increases in interest rates, an appreciat=
+ion of the U.S. dollar, and increases in commodity prices.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This scenario doesn=E2=80=99t count for bank c=
+apital requirements =E2=80=94=C2=A0=E2=80=9CConsistent with the nature of a=
+n exploratory exercise, the exploratory market shock will not contribute to=
+ the capital requirements set by this year=E2=80=99s stress test=E2=80=9D =
+=E2=80=94=C2=A0but it is intellectually interesting. Broadly speaking the b=
+ig banks did a little better in this scenario than in the severe-recession =
+scenario.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But also,=C2=A0<em>in real life</em>, the big =
+banks did fine in the scenario that actually happened (except Credit Suisse=
+!): The problems at US regional banks seem=C2=A0to have driven deposits int=
+o the biggest banks, as depositors got nervous about small banks and fled t=
+o the safety of big banks. (Look how safe they are, they keep passing the s=
+tress tests.) The actual world of 2023 was different from the hypothetical=
+=C2=A0world of the stress tests, and in some ways more stressful for the US=
+ banking system, but it <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31942637.258399/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOTcyZjVmYjUtZjQ2N=
+C00ZGE0LWFhYmQtN2ZhMjIxZGIzZjcz/607f07ceef4b8524a319a23cB90af12d4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ worked out fine</a> for the biggest banks.=C2=A0</p>
+<p style=3D"margin: 16px 0;">A general feature of the Fed=E2=80=99s stress =
+tests is that, when the Fed serves up a =E2=80=9Cseverely adverse=E2=80=9D =
+stress scenario to the banks, the banks go off and model the effect it woul=
+d have on their business, and if they come back to the Fed and say =E2=80=
+=9Cactually this would be good for us,=E2=80=9D the Fed gets mad at them. Y=
+ou=E2=80=99re not supposed to say that! Goldman Sachs Group notably did thi=
+s in 2020, arguing that its trading business was countercyclical,=C2=A0and =
+that=C2=A0in a stressful scenario it would simply make a ton of money tradi=
+ng derivatives; <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jAtMDgtMTEvZ29sZG1hbi1sb3Zlcy1hLWdvb2QtY3Jpc2lzP2NtcGlkPUJCRDA2MjkyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDYyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB876b83ae" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  the Fed was not amused</a>. But sometimes it is true! Some hypoth=
+etical scenarios would be very bad for the big banks, other hypothetical sc=
+enarios would be good for the big banks, and it=E2=80=99s perfectly plausib=
+le that some scenarios would be=C2=A0<em>bad=C2=A0</em>=E2=80=94=C2=A0for t=
+he world, for the economy, for the banking system =E2=80=94=C2=A0while also=
+ being=C2=A0<em>good for the big banks</em>. The way to manage this risk is=
+ to think about lots of scenarios and make sure the banks would survive all=
+ of them.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTk0MjYzNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyMDEwMzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC015510e2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31942637&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32201036&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTk0MjYzNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyMDEwMzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD015510e2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31942637&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32201036&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hot vs. cold money</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">See <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31942637.258399/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGY0ZjM0=
+M2MtNTY2Ni00M2EyLWJhMDEtZWYzMTViZmIxMTlh/607f07ceef4b8524a319a23cBfefcf81d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">this is how banking is supposed to work</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bank of America is bearing the cost of decisio=
+ns made three years ago to pump the majority of $670bn in pandemic-era depo=
+sit inflows into debt markets at a time when bonds traded at historically h=
+igh prices and low yields.</p>
+<p style=3D"margin: 16px 0;">The moves left BofA, the second-largest US ban=
+k by assets, with more than $100bn in paper losses at the end of the first =
+quarter, according to data from the Federal Deposit Insurance Corporation. =
+The sum far exceeds unrealised bond market losses reported by its largest p=
+eers.</p>
+<p style=3D"margin: 16px 0;">The differing results reflect strategies under=
+taken early in the Covid-19 pandemic, when banks absorbed a flood of deposi=
+ts from savers. BofA put more money into bonds, while others parked a great=
+er share in cash.</p>
+<p style=3D"margin: 16px 0;">Now that yields have risen and bond prices hav=
+e fallen, the value of BofA=E2=80=99s portfolio has plunged. By contrast, J=
+PMorgan Chase and Wells Fargo =E2=80=94 the nation=E2=80=99s first and thir=
+d-largest banks, respectively =E2=80=94 each had about $40bn in unrealised =
+bond market losses, while fourth-largest Citigroup=E2=80=99s paper losses w=
+ere $25bn. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">BofA has said it has no plans to sell the unde=
+rwater bonds, avoiding crystallised losses that for now exist only on paper=
+. The bank=E2=80=99s portfolio consists of highly rated government-backed s=
+ecurities that are likely to eventually be paid back when the underlying lo=
+ans mature.</p>
+<p style=3D"margin: 16px 0;">But holding on to the relatively low-yielding =
+investments, many of which are backed by 30-year home loans, at a time when=
+ newly purchased bonds yield significantly more, could limit the income tha=
+t BofA can generate from its customer deposits.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI think the jury is still out,=E2=80=
+=9D said Jason Goldberg, a bank analyst at Barclays, of BofA=E2=80=99s bond=
+ portfolio. =E2=80=9CWhen rates were low they were making more money then r=
+ivals. Fast-forward to today and they are making less.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The headline on that story is =E2=80=9CBank of=
+ America nurses $100bn paper loss after big bet in bond market,=E2=80=9D bu=
+t it=E2=80=99s =E2=80=A6=C2=A0kind of =E2=80=A6=C2=A0fine? The key words ar=
+e =E2=80=9Cthey are making less.=E2=80=9D When interest rates were near 0%,=
+ Bank of America paid about 0.5% on deposits and earned about 2.5% on its p=
+ortfolio of long-term Treasury bonds, a spread of about 2=C2=A0percentage p=
+oints. Now that interest rates are above 5%, Bank of America pays about 1.4=
+% on deposits and earns about 2.6% on its portfolio of long-term Treasury b=
+onds, a spread of about 1.2 percentage points.<a class=3D"footnote-index" h=
+ref=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: none !important; background-color: transparent !important; display: i=
+nline-block;">
+<span>[2]</span>
+</a>=C2=A0Obviously you would rather earn 2=C2=A0points than 1.2 points; 2 =
+is more than 1.2.</p>
+<p style=3D"margin: 16px 0;">But earning 1.2 points is better than earning,=
+ say, nothing, or a negative amount. Bank of America invested a lot of mone=
+y in fixed-rate Treasury bonds starting in 2020, and as interest rates went=
+ up it has not earned any more money on those Treasuries (because they have=
+ fixed rates). But in 2020 it was using cheap deposits to fund those Treasu=
+ries, and as interest rates went up it has not had to pay much more money f=
+or those deposits. Short-term interest rates have gone up by about 5 percen=
+tage points; Bank of America=E2=80=99s deposit rates have gone up by about =
+0.9 percentage points; its income from its Treasury portfolio has gone up a=
+lmost not at all, so its margins are tighter.=C2=A0</p>
+<p style=3D"margin: 16px 0;">It could be worse! Bloomberg=E2=80=99s=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDIzLXVzLWJhbmtzLWV4cGVuc2l2ZS1=
+maXgtZGVjbGluaW5nLWRlcG9zaXRzLXByb2JsZW0vP2NtcGlkPUJCRDA2MjkyM19NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyO=
+SZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd6cfb910" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Jennifer Surane, Linly Lin and Mathieu Benhamou report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">US banks have found a way to replace some of t=
+he hundreds of billions of dollars in deposits that flooded out their doors=
+ early this year. But it's expensive, and not particularly sticky.</p>
+<p style=3D"margin: 16px 0;">To shore up their books after a flurry of with=
+drawals by customers, midsize banks across the US have turned to a patchwor=
+k of other sources that demand significantly higher interest, typically aro=
+und 5% or more. Regional banks borrowed billions more from the Federal Rese=
+rve, Federal Home Loan Bank system and =E2=80=94 to an eye-popping degree =
+=E2=80=94 leaned on brokered deposits cobbled together by little-known inte=
+rmediaries.</p>
+<p style=3D"margin: 16px 0;">An analysis of quarterly regulatory filings fo=
+r the 84 biggest banks =E2=80=94 commanding more than 80% of the industry=
+=E2=80=99s assets =E2=80=94 shows not only how much they were borrowing thr=
+ough those channels at the end of March, but also the toll that it was just=
+ starting to take on some of their earnings. Those rising costs threaten to=
+ turn the most strained banks upside down: leaving them paying more to amas=
+s the cash they need than they earn by lending it out.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I would not worry=C2=A0<em>so=C2=A0</em>much a=
+bout the stickiness there. A bank=E2=80=99s funding from the Fed or the FHL=
+Bs is reasonably sticky, in the sense that the Fed and FHLBs seem unlikely =
+to pull funding from a bank unless, you know, they=C2=A0<em>want </em>the b=
+ank to fail.</p>
+<p style=3D"margin: 16px 0;">But the rates are the rates, and they move wit=
+h the market.=C2=A0If you are just borrowing money at short-term market rat=
+es, well, the rate is about 5%. If you are a US regional bank, you are doin=
+g a lot of that. If you are a US regional bank that got a flood of deposits=
+ in around 2020 and invested all the money in long-term fixed-rate Treasuri=
+es, and then your deposits fled and you had to start borrowing money at sho=
+rt-term market rates, well, you are Silicon Valley Bank, or First Republic,=
+ and you have disappeared. But if you are a US megabank and you did that, y=
+ou=E2=80=99re fine, because your cost of deposits is still pretty low. Bank=
+ of America=E2=80=99s realized =E2=80=9Cdeposit beta=E2=80=9D =E2=80=94=C2=
+=A0the sensitivity of its deposit rates to the Fed=E2=80=99s interest rates=
+ =E2=80=94=C2=A0is something like 0.2.<a class=3D"footnote-index" href=3D"#=
+footnote-3" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: no=
+ne !important; background-color: transparent !important; display: inline-bl=
+ock;">
+<span>[3]</span>
+</a> At some regional banks it was more like 1. If the cost of your funding=
+ goes from 0% to 5%, and the yield on your bonds goes from 2.5% to 2.5%, yo=
+u go from making 2.5% every year to losing 2.5% every year, and that=E2=80=
+=99s bad.</p>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGl=
+kPUJCRDA2MjkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDYyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cC63e8ea90" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked</a> a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMjIvYmFua3MtZ290LXJpc2luZy1yYXRlcy13cm9=
+uZz9jbXBpZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cBa0b2913e" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  lot</a> about two theories of banki=
+ng. The traditional theory is that banks have long-term deposit franchises,=
+ and when short-term interest rates rise that has only a minor effect on th=
+e banks=E2=80=99 funding costs. Therefore, the banks can and should use the=
+ir deposits to buy long-term loans and bonds with long duration, because th=
+ey can hold those bonds to maturity. If rates go up, the banks will have ma=
+rk-to-market losses on their bonds, but that doesn=E2=80=99t matter: They w=
+ill, in some approximate but economically meaningful sense, have=C2=A0<em>o=
+ffsetting gains on their deposit franchise</em>. They have cheap long-term =
+funding, which allows them to hold long-term bonds to maturity, so the mark=
+-to-market losses don=E2=80=99t matter.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The other theory is that banks have short-term=
+ deposits that can vanish overnight, and that they have to pay short-term m=
+arket rates for that deposit funding. If they use that funding to buy long-=
+term bonds, and then rates go up, they will earn less on their bonds than t=
+hey pay on their deposits, and will have to sell the bonds at a loss, and m=
+ight face a bank run and insolvency.</p>
+<p style=3D"margin: 16px 0;">The traditional theory is basically true of th=
+e big banks.=C2=A0Bank of America has a $100 billion loss on its bond portf=
+olio and doesn=E2=80=99t care. The other theory is basically true of the re=
+gional banks.=C2=A0They=E2=80=99re borrowing hot money at 5% and it=E2=80=
+=99s a mess.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">DWAC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In October 2021, a special-purpose acquisition=
+ company called Digital World Acquisition Corp. announced that it was going=
+ to merge with Trump Media &amp; Technology Group, a company backed by Dona=
+ld Trump that would soon be launching a social network called TRUTH Social.=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjEvbWF0=
+dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1hLXNwYWM_Y21waWQ9QkJ=
+EMDYyOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNjI5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB74aaf3f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  I was skeptical</a> at the time, because I figured=
+ (1) Donald Trump would probably not be launching a social network? but (2)=
+ doing this sort of SPAC deal was a good way for him to raise some money fr=
+om enthusiastic retail investors. I have to say, I seem to have been wrong =
+on both counts: TRUTH Social, as far as I can tell, exists, while almost tw=
+o years later Trump has not gotten that SPAC money, as the US Securities an=
+d Exchange Commission <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjItMTAtMjUvdGhlLXRydW1wLXNwYWMtaGFzLXNlYy10cm91YmxlP2NtcGlkPUJCRDA2Mj=
+kyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIzMDYyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+0f936274" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  has held up the merger</a> for, like, suspected miscell=
+aneous illegality.</p>
+<p style=3D"margin: 16px 0;">One sort of suspected miscellaneous illegality=
+=C2=A0is that there seems to have been some insider trading around the anno=
+uncement of the deal.=C2=A0Here is the rough sequence of events:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The DWAC people and the Trump people =
+talked about doing a SPAC to take TMTG public.</li>=09<li style=3D"margin-b=
+ottom: 5px;">The DWAC people launched DWAC and sold shares to the public at=
+ $10 per share.</li>=09<li style=3D"margin-bottom: 5px;">DWAC and TMTG anno=
+unced the deal, and the DWAC shares soared to $94.20 on retail enthusiasm f=
+or Donald Trump.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If you were involved in the negotiations, you =
+could have bought stock at $10 between Step 2 and Step 3 and made a quick 8=
+00% profit. Today the <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/31942637.258399/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjA=
+yMy0xMjE/607f07ceef4b8524a319a23cB9c5eb952" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> US Securities and Exch=
+ange Commission</a> and <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31942637.258399/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG55L3ByL3VzL=
+WF0dG9ybmV5LWFubm91bmNlcy1jaGFyZ2VzLWZvdXItc2VwYXJhdGUtaW5zaWRlci10cmFkaW5n=
+LWNhc2VzLWFnYWluc3QtMTA/607f07ceef4b8524a319a23cB5e2002ed" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> federal=
+ prosecutors</a> brought a case against some DWAC insiders:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today f=
+iled insider trading charges against Bruce Garelick, a former board member =
+of Digital World Acquisition Corporation (DWAC), a special purpose acquisit=
+ion company (SPAC); Michael Shvartsman and his firm Rocket One Capital LLC;=
+ and Gerald Shvartsman for trading in advance of DWAC=E2=80=99s October 202=
+1 announcement that it had reached an agreement to acquire Trump Media &amp=
+; Technology Group Corp. (TMTG).</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s complaint alleges that, afte=
+r DWAC appointed Garelick as a member of its board of directors in Septembe=
+r 2021, Garelick learned about, and voted on, material nonpublic actions an=
+d updates regarding the negotiations between DWAC and its merger target, TM=
+TG. Garelick, who was separately employed as the chief strategy officer at =
+Rocket One Capital, then allegedly shared those updates with his boss, Mich=
+ael Shvartsman, who in turn shared them with his brother, Gerald Shvartsman=
+. Each then allegedly purchased DWAC securities on the open market based on=
+ the material nonpublic information they learned about DWAC. Michael Shvart=
+sman placed his trades through an account in the name of Rocket One Capital=
+. The defendants then sold their positions shortly after DWAC announced it =
+had signed a merger agreement with TMTG and collectively realized illicit p=
+rofits of more than $22.9 million from those trades. The complaint further =
+alleges that, despite being a DWAC director and thus having certain reporti=
+ng obligations, Garelick failed to file SEC Forms 4 and 5 related to his tr=
+ansactions in DWAC securities.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Fine, right. I have trouble thinking of anythi=
+ng less surprising than =E2=80=9Cpeople involved in the Donald Trump SPAC (=
+allegedly) did some insider trading,=E2=80=9D but there you go.</p>
+<p style=3D"margin: 16px 0;">The more interesting question =E2=80=94=C2=A0t=
+he one that seems to be holding up the closing of the DWAC/TMTG deal =E2=80=
+=94 is whether DWAC lied to investors when it went public by not disclosing=
+ its plans for TMTG. A SPAC is meant to be a blank-check company, a way to =
+raise a pot of money to look for an acquisition target; if you=E2=80=99ve <=
+em>already=C2=A0</em>got the acquisition target lined up, you can=E2=80=99t=
+ use the SPAC format. (If you=E2=80=99ve already got the acquisition lined =
+up, the theory goes, you should give potential investors financial and busi=
+ness disclosure about the target, instead of just raising a blank check.) A=
+nd so when it went public in September 2021, <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNo=
+aXZlcy9lZGdhci9kYXRhLzE4NDk2MzUvMDAwMTEwNDY1OTIxMTEzNTQxL3RtMjEyNzAzNWQxXzQ=
+yNGI0Lmh0bQ/607f07ceef4b8524a319a23cB1363c91e" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> DWAC said</a>, as i=
+s normal in SPACs, that =E2=80=9CWe have not selected any specific business=
+ combination target and we have not, nor has anyone on our behalf, initiate=
+d any substantive discussions, directly or indirectly, with any business co=
+mbination target.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But it announced its Trump deal six weeks late=
+r, and there have <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31942637.258399/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8xMC8yOS9idXNpbmVzcy9=
+0cnVtcC1zcGFjLWRpZ2l0YWwtd29ybGQuaHRtbA/607f07ceef4b8524a319a23cBf3286abe" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> long been reports</a> that the deal had already been negotiated wh=
+en DWAC went public. If this is true, then DWAC lied to investors, and the =
+SEC has more grounds to block the merger. (<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMjUvdGhlLXRydW1wLXNwYWMtaGFzLXNlYy10cm91Y=
+mxlP2NtcGlkPUJCRDA2MjkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cC0f936274" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">My view</a> is that this is kind of =
+silly in this case:=C2=A0Investors weren=E2=80=99t=C2=A0<em>harmed </em>by =
+the lies, since after all they were thrilled when the Trump deal was announ=
+ced and the stock traded up. But in general the rule makes sense: If you wa=
+nt to raise money from investors to take a particular company public, you s=
+hould tell investors about the company rather than keeping it secret.)</p>
+<p style=3D"margin: 16px 0;">Today=E2=80=99s insider trading case gives som=
+e insight into the SEC=E2=80=99s view on this question. Patrick Orlando, DW=
+AC=E2=80=99s founding chief executive officer (referred to as =E2=80=9CIndi=
+vidual A=E2=80=9D in <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31942637.258399/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMv=
+MjAyMy9jb21wLXByMjAyMy0xMjEucGRm/607f07ceef4b8524a319a23cB4933f18c" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> the SEC complaint</a>), was involved in another SPAC (=E2=80=9CSPAC A=E2=
+=80=9D in the complaint) and was talking to TMTG about a deal by early 2021=
+. But:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In early April 2021, two directors and one off=
+icer of SPAC A opposed pursuing a merger with TMTG. At that point, Individu=
+al A began exploring two plans to pursue a merger with TMTG, =E2=80=9CPlan =
+A=E2=80=9D and =E2=80=9CPlan B.=E2=80=9D =E2=80=9CPlan A=E2=80=9D referred =
+to continued efforts to find a way for SPAC A to merge with TMTG. =E2=80=9C=
+Plan B=E2=80=9D referred to Individual A=E2=80=99s attempt to identify a di=
+fferent SPAC to pursue a merger with TMTG. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">On June 4, 2021, SPAC A, TMTG, and Individual =
+A (in both his personal=C2=A0capacity and on behalf of SPAC A) signed a let=
+ter expressing intent to pursue a merger between SPAC A and TMTG. This June=
+ 4 letter of intent included a clause under which Individual A would be per=
+sonally liable to pay a $1 million break-up fee if SPAC A and TMTG did not =
+enter an acquisition agreement by August 6, 2021 (the =E2=80=9CBreak-Up Fee=
+ Clause=E2=80=9D). The Break-Up Fee Clause had several conditions that woul=
+d result in Individual A owing no break-up fee. Under one of these conditio=
+ns, Individual A would owe no break-up fee if he =E2=80=9Cshould propose to=
+ [TMTG] an alternative special purpose acquisition corporation with combina=
+tion terms that are acceptable to [TMTG] (in its sole and absolute discreti=
+on) and such terms are ultimately accepted by [TMTG].=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">So Orlando signed a deal to take TMTG public t=
+hrough SPAC A that would obligate him personally to pay $1 million if he di=
+dn=E2=80=99t either complete that deal or take TMTG public through a differ=
+ent SPAC deal. The SPAC A deal didn=E2=80=99t work out, but then Orlando la=
+unched a new SPAC (DWAC) and used it to almost immediately sign a deal to t=
+ake TMTG public, solving his breakup-fee problem. Is that consistent with =
+=E2=80=9Cwe have not, nor has anyone on our behalf, initiated any substanti=
+ve discussions, directly or indirectly, with any business combination targe=
+t=E2=80=9D? I bet the SEC thinks not.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Je t=C3=A9l=C3=A9phone =C3=A0=C2=A0la police</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Does <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31942637.258399/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJ=
+lbGVhc2UvMjAyMy0xMjI/607f07ceef4b8524a319a23cBf8d8d79e" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> this</a> w=
+arrant a new law of insider trading?=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today f=
+iled insider trading charges against five individuals, including a police c=
+hief in Dighton, Massachusetts, arising from trading before the announcemen=
+t of a tender offer by Alexion Pharmaceuticals Inc. to acquire Portola Phar=
+maceuticals Inc. in May 2020. Four of the defendants traded on nonpublic in=
+formation obtained, directly or indirectly, from the fifth defendant, and r=
+ealized more than $2.3 million in ill-gotten gains and tipped others who re=
+alized more than $1.7 million in trading profits.=C2=A0</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s complaint, Jose=
+ph Dupont was a vice president and part of the acquisition team at Alexion =
+when he knowingly or recklessly tipped confidential information about the a=
+cquisition to his close friend Shawn Cronin, the police chief. Cronin alleg=
+edly then provided the information to Jarett Mendoza, another close friend,=
+ and to family friend Stanley Kaplan, who provided advice to Cronin on trad=
+ing strategies. In turn, Kaplan allegedly provided the information to his f=
+riend and colleague, Paul Feldman. The SEC=E2=80=99s complaint alleges that=
+ Cronin, Mendoza, Kaplan, and Feldman purchased Portola stock and/or out-of=
+-the money call options prior to the announcement, on the basis of the mate=
+rial, nonpublic information they received. The complaint further alleges th=
+at Kaplan and Feldman passed the information on to other family members and=
+ friends, who profitably traded. On the day of the acquisition announcement=
+, Portola=E2=80=99s stock price increased more than 130 percent.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s complaint, file=
+d in U.S. District Court for the Southern District of New York, the defenda=
+nts=E2=80=99 approximate ill-gotten gains were as follows: Cronin - $72,000=
+; Mendoza - $39,000, Kaplan - $472,000; and Feldman - $1.73 million. The ot=
+her traders who allegedly received nonpublic information from either Kaplan=
+ or Feldman saw profits of an additional $1.7 million. After realizing thei=
+r profits, Kaplan texted Feldman in Russian, =E2=80=9CLet=E2=80=99s hope ou=
+r golden goose will continue laying golden eggs!=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I dunno, sure, whatever: <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMjAvZGVidC1jb3N0cy1tb3JlLXdoZW=
+4tcmF0ZXMtZ28tdXA_Y21waWQ9QkJEMDYyOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI5JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB997a7be6" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  The Fifteenth Law of =
+Insider Trading</a> is =E2=80=9Cdo not insider trade if you=E2=80=99re a po=
+lice chief.=E2=80=9D Just sort of poor form.</p>
+<p style=3D"margin: 16px 0;">The interesting question in cases like this is=
+ often: Did the insider (Dupont)=C2=A0<em>intend </em>to tip his buddies so=
+ they could trade and make money, or did he just confide in them about work=
+ and they betrayed him by trading?<a class=3D"footnote-index" href=3D"#foot=
+note-4" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[4]</span>
+</a>=C2=A0There is no allegation here that Dupont made any=C2=A0<em>money</=
+em>=C2=A0=E2=80=94=C2=A0nobody handed him bags of cash for his tips =E2=80=
+=94=C2=A0but <a href=3D"https://link.mail.bloombergbusiness.com/click/31942=
+637.258399/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9j=
+b21wLXByMjAyMy0xMjIucGRm/607f07ceef4b8524a319a23cB07a4efeb" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> there =
+is this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On April 8, 2020, Dupont participated in a com=
+mercial due diligence call with high level leadership from the companies, i=
+ncluding both Alexion=E2=80=99s and Portola=E2=80=99s CFO.</p>
+<p style=3D"margin: 16px 0;">The same evening, Cronin and Dupont spoke on t=
+he phone for approximately 20 minutes.</p>
+<p style=3D"margin: 16px 0;">Later that evening, at 7:49 p.m., Cronin texte=
+d Kaplan: =E2=80=9CGood evening, sir. If you need something to take your mi=
+nd off of the everyday battle, remember that stock I told you about? Good t=
+ime to buy.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Not ideal. Also we talk a lot about people who=
+ insider trade on merger news by buying short-dated out-of-the-money call o=
+ptions, but here=E2=80=99s a new one to me:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On April 23, 2020, at around 3:26 p.m., Feldma=
+n texted Kaplan: =E2=80=9CI just bought another PTLA bull spread.=E2=80=9D =
+He attached a screenshot of his transaction, such that Kaplan could see Fel=
+dman=E2=80=99s options transaction in Portola.</p>
+<p style=3D"margin: 16px 0;">A bull spread or bull call spread is an option=
+s transaction that involves buying call options with a lower strike price a=
+nd selling call options with the same expiration but a higher strike price.=
+ The transaction is profitable when the stock has a limited increase in its=
+ price, and is cheaper than purchasing only the lower strike price option.=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If a company=E2=80=99s stock is trading at $7,=
+ and you know that another company is about to buy it at $18 per share, buy=
+ing $10-strike call options is a more efficient way to profit than just buy=
+ing the stock at $7: You pay a little bit for the call option, instead of $=
+7 for the stock, and still get most of the upside. But buying $10-strike ca=
+ll options and selling $18-strike call options is an=C2=A0<em>even more eff=
+icient=C2=A0</em>way to profit: You spend even less money up front, and you=
+ capture the same amount of upside. It is very tidy and high-leverage and e=
+fficient. Too efficient! They=E2=80=99re gonna notice that.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Citadel Securities Is Muscling Its Way Into <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjkvY2l0YWRlbC1=
+zZWN1cml0aWVzLWlzLW11c2NsaW5nLWl0cy13YXktaW50by1jcmVkaXQtbWFya2V0LW1ha2luZz=
+9jbXBpZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBcf025733" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Credit Trading</a>. Tiger Global Rejec=
+ts <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjgvdGlnZX=
+ItZ2xvYmFsLXJlamVjdHMtaHVuZHJlZHMtb2Ytb2ZmZXJzLWZvci1pdHMtc3Rha2VzLWluLXBya=
+XZhdGUtc3RhcnR1cHM_Y21waWQ9QkJEMDYyOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI5JnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cB15dee656" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  Hundreds of Offers</=
+a> for Its Stakes in Private Companies. Goldman Sachs <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjkvZ29sZG1hbi1zYWNocy1sb3Nlcy10b3=
+AtbS1hLXJhbmtpbmctZm9yLWZpcnN0LXRpbWUtaW4tZml2ZS15ZWFycz9jbXBpZD1CQkQwNjI5M=
+jNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBce=
+3f4ec2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Loses Top M&amp;A Ranking</a> for First Time in Five Year=
+s. <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399=
+/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdHgtYmVnaW5zLXRhbGtzLW9uLXJlYm9vdC=
+1hcy1tYW5hZ2Vycy11bmNvdmVyLXBhc3QtbWlzY29uZHVjdC0zOGFkN2UzYz9tb2Q9aXRwX3dza=
+iZydT15YWhvbw/607f07ceef4b8524a319a23cBb1f5c367" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> FTX</a> Begins Ta=
+lks on Reboot Amid Regulatory Crackdown on Crypto Exchanges. <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9iaWctb2lsLW11bGxzLWEtc2xpcHBlcnktZnV0dXJlLWJiOGQwN2J=
+iP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cB771db7a9" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Big Oi=
+l</a> Mulls a Slippery Future. Odey <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDYtMjkvb2RleS10by1zaHV0dGVyLXNlY29uZC1mdW5kLXRvLW1lZXQt=
+Y2xpZW50LXJlZGVtcHRpb24tZGVtYW5kcz9jbXBpZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB18d40779" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Shut=
+ters Second Fund</a> to Meet Client Redemption Demands.=C2=A0Women Intervie=
+wing for <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.=
+258399/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iaWxsLWdhdGVzLW9mZmljZS1zZXh1=
+YWxseS1leHBsaWNpdC1xdWVzdGlvbnMtN2RjMjQwZjU_bW9kPWhwX2xlYWRfcG9zMg/607f07ce=
+ef4b8524a319a23cB3b361467" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Bill Gates=E2=80=99s Private Office</a>=
+ Were Asked Sexually Explicit Questions. Popularity of <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjkva25vdy10aGUtcmlza3MtYmVmb3JlL=
+XVzaW5nLWNhc2gtYWR2YW5jZS1hcHBzLWxpa2UtZWFybmluLWRhaWx5cGF5P2NtcGlkPUJCRDA2=
+MjkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIzMDYyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB377e69f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  Apps for Early Paydays</a> Masks Added Risks.=C2=A0Ov=
+erstock.com Buys <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1942637.258399/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vdmVyc3RvY2stY29tLWJ1=
+eXMtYmVkLWJhdGgtYmV5b25kLWludGVsbGVjdHVhbC1wcm9wZXJ0eS1mb3ItMjEtNS1taWxsaW9=
+uLWQyNzAwZjdmP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBa4759915=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Bed Bath &amp; Beyond</a> Intellectual Property for $21.5 Millio=
+n. Fidelity Plans to Convert $13 Billion of Its Mutual Funds <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjgvZmlkZWxpdHktcGxhbnMtdG8=
+tY29udmVydC0xMy1iaWxsaW9uLW9mLWl0cy1tdXR1YWwtZnVuZHMtaW50by1ldGZzLWZsdmV4P2=
+NtcGlkPUJCRDA2MjkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cBc8b8d0d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  Into ETFs</a>. A <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDYtMjkvYnJhemlsLXMtYmFuay1yb2JiaW5nLXB=
+jYy1nYW5nLWlzLWluLWV4cGFuc2lvbi1tb2RlP2NtcGlkPUJCRDA2MjkyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyOSZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB605d4cbd" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Bank-Robbing Prison Gang</a> Is in an Alarming Expansion Mode. =E2=80=9CW=
+earing a Mets cap and seated on a bar stool with a seat shaped like a baseb=
+all mitt, <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637=
+.258399/aHR0cHM6Ly93d3cud3NqLmNvbS9zcG9ydHMvYmFzZWJhbGwvbmV3LXlvcmstbWV0cy1=
+zdGV2ZS1jb2hlbi1tbGItNTdlOTc2YjA_bW9kPWhwX2xlYWRfcG9zMTE/607f07ceef4b8524a3=
+19a23cBa8b63b5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Cohen</a> treated his media appearance as if it w=
+ere a conversation with fans.=E2=80=9D Italian teacher sacked for <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6L=
+y93d3cuYmJjLmNvbS9uZXdzL3dvcmxkLWV1cm9wZS02NjAyODQwMw/607f07ceef4b8524a319a=
+23cBb5350be6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> 20 years of absence</a> vows to defend herself.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31942637.258399/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB98fabd1e" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31942637.258399/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBf25b76df" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Technically it thinks up two scenarios, th=
+e baseline scenario and the severely adverse scenario, but they differ most=
+ly in degree, so if you are worried about stress testing you will focus mai=
+nly on the severely adverse one rather than the similar-but-milder baseline=
+ one.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Don=E2=80=99t take those numbers too serio=
+usly, but they are based on Bank of America=E2=80=99s 10-Qs as of <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzA4NTgvMDAwMDA3MDg1=
+ODIzMDAwMTQyL2JhYy0yMDIzMDMzMS5odG0/607f07ceef4b8524a319a23cB86555a63" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">March 2023</a> (the most recent one) and <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31942637.258399/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9k=
+b2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzA4NTgvMDAwMDA3MDg1ODIwMDAwMDIzL2JhYy0wMzM=
+xMjAyMDEweHEuaHRt/607f07ceef4b8524a319a23cCdcbd043c" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">March 2020</a>=
+ (early in Covid). Table 6 on page 8 of the 2023 10-Q, and Table 7 on page =
+9 of the 2020 10-Q, have the relevant balances and rates. In 2020, Bank of =
+America had about $1.6 trillion of interest-bearing liabilities at an avera=
+ge rate of just 1.01%, of which about $1 trillion was in interest-bearing d=
+eposits at an average rate of 0.47%. It had about $2.1 trillion in total ea=
+rning assets at 3.08%, of which $465 billion was in debt securities at 2.49=
+%. In 2023, Bank of America pays 2.93% on $2 trillion of interest-bearing l=
+iabilities, of which $1.3 trillion are interest-bearing deposits at 1.38%; =
+it earns 4.36% on $2.7 trillion of earning assets, of which $851 billion ar=
+e debt securities at 2.58%. </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] That=E2=80=99s just, like, (1.38 - 0.47)/(=
+5 - 0), the change in Bank of America=E2=80=99s reported deposit cost over =
+the last three years divided by the change in fed funds, and not meant to b=
+e particularly precise.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The classic example is that there are two =
+separate golf-buddy insider trading cases out of a single country club in W=
+atertown, Mass.: <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1942637.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MTQtMDctMTEvc2VjLXByb3RlY3RzLWludGVncml0eS1vZi1tYXJrZXRzLWFsc28tZ29sZj9jbXB=
+pZD1CQkQwNjI5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB69cf6da6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  In one</a>, an executive told his golf part=
+ner inside information =E2=80=9Cas part of a relationship=E2=80=9D in which=
+ =E2=80=9Cthey often shared personal confidences about work and family life=
+,=E2=80=9D and the golf partner betrayed the executive by trading on the in=
+formation. The golf partner was charged but the executive was not. In <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDgtMTgvb25lLWdvbG=
+YtY291cnNlLXRoYXQtcy1ncmVhdC1mb3Itc3RvY2stdGlwcz9jbXBpZD1CQkQwNjI5MjNfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MzA2MjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1d3e7e04" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  the other</a>, the executive (allegedly) intentionally tipped his=
+ golf partner so he could trade, and they were both charged.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB7fb38ce5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB28b637b8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf6ac4189" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfd8152d1" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB509358dd" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.2583=
+99/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB1dbaca45" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31942637.258399/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC7098162d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31942637.258399/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa8817cff" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31942637.258399/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe1c3eec0" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBa=
+435a2e3" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31942637.258399/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+4bd6978" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj0n3h.5jdr/8223635f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10126825_1336932157.1688063831222--
+

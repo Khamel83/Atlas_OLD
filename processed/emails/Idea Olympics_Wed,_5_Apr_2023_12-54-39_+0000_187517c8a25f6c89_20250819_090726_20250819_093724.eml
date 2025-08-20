@@ -1,0 +1,2935 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp280122rwb;
+        Wed, 5 Apr 2023 05:55:29 -0700 (PDT)
+X-Received: by 2002:adf:f691:0:b0:2d6:6af:4891 with SMTP id v17-20020adff691000000b002d606af4891mr4211151wrp.3.1680699329504;
+        Wed, 05 Apr 2023 05:55:29 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1680699329; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bPBwzE8iKwD+Z1xrLIVEMncr4vN6SRpYNHBNmB/mxg2Sx2Y1kIKTH3iCpKfeZ8d473
+         f54VVYtsK2oK9ooBC1ZKDnLLvvONQkdVrcfXUHgYj2HrlUyFOu09nKxrnXhJVZWZAd5N
+         6l3RtxqT0bkDkxQreeHzQUH2UefI7mMPFp2Y7DEtUgj7YkANzKX7j1KxhiKS7N9ye6B6
+         NO767NE7k1mz88erxhpDQNhdbsztqEPEu+kNSDAVdNxhbq/8kFjJKShVCvbmXRRopgyj
+         DLIoPTd82Pc5CzJkUuui6asNMPTJIy8Lcadh5oihSH1DM4SC3rkE8Ga4ENIw5psmNHNw
+         EiFw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:message-id:list-unsubscribe:date:reply-to:in-reply-to
+         :references:list-url:list-archive:list-post:list-id:sender
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=kX4OO3BLk0+bdays2VrMOEqmKVN3ttyVjh0RNrNnpfc=;
+        b=jJknx1/rfq9rUJrSejtuOjixmS9742+dOUQsPmxdgyDTmMu6/riYnvR0bDuYNZ9gYV
+         fdLfkI4ZbOTlp9jk45YLSiHYIza/x0UEeaS/xRvc+2PwFJD9sDbnif8ceykL3dM5kwB2
+         qHqQRGeKLivl0oF/E1YKGgeQwRqm2zKby+X4SV0F4M/Vtbdc1k1mtjZgqj/fftp/Qr1b
+         3Rjj2Pzux51Ua9LOGd48GauHnAd/u+UA+5eHMMAEmqhz/NSbY2772ROTB7QJqjvMsW3y
+         L+eSsi8wDKzpmr71F/LsKWuNWA+l/JzzdnFUnLa2XBlGfyMCkNwYe9B9r0W7Dj33cZ0D
+         iQNQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="Wue/kygd";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f7-20020adfe907000000b002dcefe8a30csor5514046wrm.98.2023.04.05.05.55.29
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 05 Apr 2023 05:55:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="Wue/kygd";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1680699329;
+        h=list-owner:message-id:list-unsubscribe:date:reply-to:in-reply-to
+         :references:list-url:list-archive:list-post:list-id:sender
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=kX4OO3BLk0+bdays2VrMOEqmKVN3ttyVjh0RNrNnpfc=;
+        b=VaiydnZJkxFTPWRGqOimE7pQH4ExxJMKw1VNrl5ue/ncoCV7Yb/eWDEuXx9FrO8LBf
+         MQu/lDrwbZ41e9CZuHF2UtDG/Fj9sHwcAtx6OSfSmhhcRcP5zVfkrI6OkDLhLdszFgaz
+         0KKTtfO3A5m+IEKDiqPle/m4PwqeYzm5BJr/h07y8iWC9oE7MDZ6OW82Or3xrzEaTI7z
+         X9bYQPH0m3kODzTDyFNbDEX+4vUv0yG+JEOUG65xIBkO9KYXO7ikuc4P6Yn4x8/5AdtX
+         TtRRfIO0csOPn/kNWfWuvADk7SYwtiKoSfwUk4mS/8A4eigc+4Gxn1hOTiG2ZvL/E95E
+         XDUA==
+X-Gm-Message-State: AAQBX9eZhR/W5c6XPu/5IihIEYUsUc/9v3Q0OcM2kqhl8a8D6/H8z0Qb
+	rSGhY2vpw3M6+EOGmf2kj7c1xytCv1ls+dgfdpC9qJVkIFOBWjuJnA==
+X-Received: by 2002:a05:6000:15cd:b0:2cf:ea35:f8bc with SMTP id y13-20020a05600015cd00b002cfea35f8bcmr934192wry.6.1680699329058;
+        Wed, 05 Apr 2023 05:55:29 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp299548wrv;
+        Wed, 5 Apr 2023 05:55:25 -0700 (PDT)
+X-Received: by 2002:a05:6122:2226:b0:432:2c6f:f246 with SMTP id bb38-20020a056122222600b004322c6ff246mr3019170vkb.3.1680699325034;
+        Wed, 05 Apr 2023 05:55:25 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1680699325; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=RJyq82yuzOXKYywptCeY0kOxnbf4hCiyriy28/e4n7ra4W1P5rTrOkUYNI2IKWFJI8
+         uPzAngM4s4M17avRpY4XnxOCaYC04ex9QmGvcsWboorySPKG8gfbDPv2bO+xxLkARgH2
+         4e7ymE9/QN9Pl6XUDOfx3UYbDi19KQ1RVUXWH7xAb0k0/egnv8GinMHbqKdWOG1vfxic
+         zpCYbjYN2cTX9/BOTXIeQfoubV/jkFGtj6NTGxuG2QnrnFU3ezCIO8FDVAOgqNmgvxb3
+         izVG1+vX2KTGNekdbWKvbB/c4GQu3AOlZ2fD32QeI4VkPsb8q8/ONg2NCCukmTXltU9A
+         lxbg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:message-id:list-unsubscribe:date:reply-to:in-reply-to
+         :references:list-url:list-archive:list-post:list-id:sender
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=kX4OO3BLk0+bdays2VrMOEqmKVN3ttyVjh0RNrNnpfc=;
+        b=gDsh63gGiOkAtdfxLjGWEJ/W0x36JFv3LVp/Pqam/vfUBywWuateJ64fua6AFHUJdi
+         jOtdYi7MlLmX2lfrcuJ/FA0x4mGlyAJSsp/MmQI4RoamjxPXTACcDBr/+DZWetJWRf1N
+         p08K/gB6Bl/6sCSZ3yo+5bBSRuUE3z3lTYtdAmagD1PcSE4MS5y806FMQwbkSFtXYuQM
+         hkWgZbfW3SpWuZCG8mnTSog/bl6Iyq2SLYKi1Wf2NX3Ee8dcYI0ceUaUS2fBAc7yV9vi
+         /hSMkctaxOqbeklOSR8WmeKNUv8kazsUA7FaHAjpTTUuueooaBPm67vaUSxGNMCsoFvW
+         4/qw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="Wue/kygd";
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+v2+13e768.39b08c6.1681304110.bacqaafzok2uamaquzvfvqeywzjqzispza==~notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+v2+13e768.39b08c6.1681304110.BACqAAfZOk2uAMaQuzVFvqEyWzjqZISPZA==~notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+v2+13e768.39b08c6.1681304110.BACqAAfZOk2uAMaQuzVFvqEyWzjqZISPZA==~notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a127-20020a1f9885000000b0043aeaf2f33bsor3470050vke.85.2023.04.05.05.55.24
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 05 Apr 2023 05:55:24 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+v2+13e768.39b08c6.1681304110.bacqaafzok2uamaquzvfvqeywzjqzispza==~notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AKy350aVloo/CXeWbs540GMHEHZUAJC8RenggR10gptAgzBdbj+6hJiNSnmKYbZ7qKkz+v/UKoo2MflYjBLxwRy7bKtmhAElJc8=
+X-Received: by 2002:ac5:c5c6:0:b0:432:c55:49e8 with SMTP id g6-20020ac5c5c6000000b004320c5549e8mr2782000vkl.9.1680699324629;
+        Wed, 05 Apr 2023 05:55:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1680699324; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MfjSpbSYgibmxsPTTHvRmlSygmJ0Evhe3rYXfDE+VU6hWiDj2+0awZxrAY7DY8pf9S
+         DBF3RIrpvGJQEtJiSyXHSW8YMWPilR66yDMNiU7AUJmYrnqHGPumeggtHbzIw+sSWzf8
+         rvmVxgWJt3YH5xKUYZ5+5lT3tdfaGoqzE3QhRoFwpo9JacWhVCVML3RP+TDT/aNmBprM
+         nX3d6Po027ARGdhp74WPPYsUzcm0okzXqiQOFx0vMMIWniaSS48j2DO1HRwUZvqfIjtu
+         a9Fi/TRpYfnOcYDDI4ZQoxh7y426b1ENLeTbR4WFTNxRSUEVe7ilYvXjI4ag2DRGVGHp
+         0Zpg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:message-id:list-unsubscribe:date:reply-to:in-reply-to
+         :references:list-url:list-archive:list-post:list-id:sender
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=kX4OO3BLk0+bdays2VrMOEqmKVN3ttyVjh0RNrNnpfc=;
+        b=vfx04U2TWKRASQgl7rQKZywG7tVXghakE+V+eu37echnwulP8a3cg7vqdEJytreVt1
+         L4W8Qh7itYan1SXhNPsjQgltuqirJ2PLdgIDKh5KAcaxh2/WZWfgt/LZcTxnecXZ8yBy
+         7qzPhE8K1CB2omYiccWiw1ma89HGC+/giHpwVm1Jkxi79XnSO2wYRf1VZSwY3G7SzQw1
+         X9NVFNUCHc5ppLJRko8R0g9HiMBY+Xxyrg786ikB8fDp7863RJ2Aa3bk7HCXq9FnDhNO
+         J4w1+7PVAhNGiOgp7eo4+oEJ0HTX7f8CGf/GyGfSgtOnj6Zg5K9KOR+f3WyXzztD6hji
+         /5MQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="Wue/kygd";
+       spf=pass (google.com: domain of bounce+v2+13e768.39b08c6.1681304110.bacqaafzok2uamaquzvfvqeywzjqzispza==~notboring=khamel.com@mg-d1.substack.com designates 159.112.244.3 as permitted sender) smtp.mailfrom="bounce+v2+13e768.39b08c6.1681304110.BACqAAfZOk2uAMaQuzVFvqEyWzjqZISPZA==~notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+v2+13e768.39b08c6.1681304110.BACqAAfZOk2uAMaQuzVFvqEyWzjqZISPZA==~notboring=khamel.com@mg-d1.substack.com>
+Received: from m244-3.mailgun.net (m244-3.mailgun.net. [159.112.244.3])
+        by gmr-mx.google.com with UTF8SMTPS id h41-20020a0561023da900b0042a11b0e2ccsi672809vsv.1.2023.04.05.05.55.24
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 05 Apr 2023 05:55:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+v2+13e768.39b08c6.1681304110.bacqaafzok2uamaquzvfvqeywzjqzispza==~notboring=khamel.com@mg-d1.substack.com designates 159.112.244.3 as permitted sender) client-ip=159.112.244.3;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com;
+ q=dns/txt; s=k1; t=1680699324; x=1680706524; h=List-Owner: Message-Id:
+ List-Unsubscribe: Date: Reply-To: In-Reply-To: References: List-Archive:
+ List-Post: List-Id: sender: sender: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version; bh=kX4OO3BLk0+bdays2VrMOEqmKVN3ttyVjh0RNrNnpfc=;
+ b=Wue/kygd0W+hwo8XPCxCZCaY5sxYI8Ug3z/TWMNIO2Qp/ZW1j4rQ7x06LRhn5BbUM4D4+6wPloJXERdiT9MvXQ6yDe+eAtfek9aeFKGsfTsE0AcdoYP9BpmkEJIZBIpioIX8TThNpAyuQzWsCjidOvRv28do0xu2F1s/qKffNzI=
+X-Mailgun-Sending-Ip: 159.112.244.3
+X-Mailgun-Sid: WyI1OTU0MCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMzliMDhjNiJd
+Received: from <unknown> (<unknown> []) by 1862547fcbc5 with HTTP id
+ 642d6fb1ff8e7f07c1c7c120; Wed, 05 Apr 2023 12:55:10 GMT
+X-Mailgun-Batch-Id: 642d6faf110380c52b01764e
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b7500c5d685f9ce00f39de86e57776efd8c4cc189469611cd80acb7141b5"
+Subject: Idea Olympics
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+sender: Not Boring <notboring@substack.com>
+List-Id: <notboring.substack.com>
+List-Post: <https://www.notboring.co/p/idea-olympics>
+List-Archive: <https://www.notboring.co/archive>
+List-URL: <https://www.notboring.co/>
+References: <post-112742061@substack.com>
+In-Reply-To: <post-112742061@substack.com>
+Reply-To: Not Boring
+ <reply+1v4gbx&9p0gt&&40f938850d4fe345dffd0c39990a539412613a90c95fcc36789793325709cd2e@mg1.substack.com>
+Date: Wed, 5 Apr 2023 12:54:39 +0000
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk1URXlOelF5TURZeExDSnBZWFFpT2pFMk9EQTJPVGt6TURnc0ltVjRjQ0k2TVRZNE16STVNVE13T0N3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuR1c0UVVEWUEzem1OWWtqQUlFWk8ySFdiREJ1TkdROTI4RDR6cUdCTDNKWSIsInAiOjExMjc0MjA2MSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.S-jDvBV1xuu8lCC0sGCjKk-KsguUeMe6E0DmKcYpZA8?>
+Message-Id: <20230405125439.3.9b301a888150b2e5@mg-d1.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+X-Mailgun-Variables: {"category": "post", "comment_id": "", "email_generated_at": "1680699308816",
+ "is_freemail": "true", "post_audience": "everyone", "post_id": "112742061",
+ "post_type": "newsletter", "pub_community_enabled": "true", "publication_id":
+ "10025", "subdomain": "notboring", "user_id": "16283549"}
+
+--b7500c5d685f9ce00f39de86e57776efd8c4cc189469611cd80acb7141b5
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/idea-olympics
+
+Welcome to the=C2=A02,309=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0196,345=
+ smart, curious folks by subscribing here:=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Secureframe [ http=
+s://substack.com/redirect/7f69bb79-a164-43a2-8018-948cafa3aa52?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Prospects are asking about security earlier in the buying cycle. Companies =
+need a way to get compliant that is faster and takes less employee involvem=
+ent. With Secureframe [ https://substack.com/redirect/7f69bb79-a164-43a2-80=
+18-948cafa3aa52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8=
+ExkRNpU ] you can get compliant in weeks=E2=80=94not months=E2=80=94so you =
+can focus on growing your business.=C2=A0
+Secureframe makes it fast and easy to get SOC 2, ISO 27001, HIPAA, PCI & GD=
+PR compliant. With guided workflows and one-click integrations, the entire =
+process is automated and backed by a support team of industry experts.
+Get compliant fast with Secureframe.
+Click here [ https://substack.com/redirect/7f69bb79-a164-43a2-8018-948cafa3=
+aa52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] t=
+o set up a demo. Mention =E2=80=9CNot Boring=E2=80=9D during your demo to g=
+et 20% off your first year of Secureframe.=C2=A0
+Hi friends =F0=9F=91=8B,
+Happy Wednesday! Sorry this one=E2=80=99s a little delayed =E2=80=93 I got =
+knocked out by a cold last week, and writing fiction is much harder than I =
+thought!
+Fiction? Things have been moving very fast recently, and while serious anal=
+ysis [ https://substack.com/redirect/7f82ec6c-5e5d-4c61-80bf-a3ba8f10cd91?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] can be =
+useful, fiction can be an equally potent way to explore where all of this i=
+s heading. I mentioned before [ https://substack.com/redirect/17af3ab4-34a3=
+-47d5-b9dc-21d3cc6425e0?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbq=
+Osa8-6m8ExkRNpU ] that I wanted to start writing some short sci-fi about ou=
+r portfolio companies, but I don=E2=80=99t want them to be the victims of m=
+y poor first attempts, so I=E2=80=99m going with a less specific one today.=
+=C2=A0
+This first foray is about something a lot of people are very worried about =
+but that I=E2=80=99m pretty excited by: humans=E2=80=99 place in the world =
+in the face of AI=E2=80=99s growing capabilities.
+It=E2=80=99s about something that humans are still best at, and that I thin=
+k we=E2=80=99ll remain best at for a long time: generating fresh ideas, the=
+ genesis sparks that set the machines in motion.=20
+I=E2=80=99m not sure exactly how the idea for this particular story came ab=
+out =E2=80=93 identifying all of the inspirations is as difficult as untang=
+ling the images that go into a Stable Diffusion output or the sources that =
+feed ChatGPT=E2=80=99s responses =E2=80=93 but I know a few of the things t=
+hat bounced around in my brain, collided, and turned into this story. It=E2=
+=80=99s a continuation of The Enchanted Notebook [ https://substack.com/red=
+irect/04f032f1-bb1e-4aa3-8fb6-40056c830f0c?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which I wrote back in September, befo=
+re things got really weird; plays off of John Palmer=E2=80=99s Idea Guy [ h=
+ttps://substack.com/redirect/8d7b5f08-3264-4860-8af0-faa7c16626d7?j=3DeyJ1I=
+joiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] meme; it=E2=80=
+=99s inspired by Asimov=E2=80=99s The Last Question [ https://substack.com/=
+redirect/cb4d3b30-c02c-4abc-a815-04b5c642787f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T=
+7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Banks=E2=80=99 Player of Games [ h=
+ttps://substack.com/redirect/50ed3bfb-e57b-4190-9876-bde3528be977?j=3DeyJ1I=
+joiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], all the tweets=
+, posts, and podcasts about what humans will do when we don=E2=80=99t have =
+to do much, about watching the Olympics as a kid back when everyone watched=
+ the Olympics, and thoughts about what the world will look like when my kid=
+s are older. I=E2=80=99m sure there are a bunch of loose fragments of other=
+ ideas floating in here too.=C2=A0
+Anyway, the idea for this story was an Organic Human Idea=E2=84=A2=EF=B8=8F=
+=2E I may or may not have used AI enhancements in telling it.=C2=A0
+If you like the story and want to collect it, I published it on Mirror too:=
+ Collect [ https://substack.com/redirect/d049430b-1478-4b4e-bc6a-d82a128ef6=
+96?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Let=E2=80=99s get to it.
+Idea Olympics
+The Idea Olympics started as just that=E2=80=A6 an idea. An organic, honest=
+-to-Sam, this, then how bout this, but what about that, oh yeah this, pinba=
+ll of an idea in the very human brain of a very human woman.=C2=A0
+Here=E2=80=99s how it happened. Maya was entranced by the cap of a very old=
+ Olympics =E2=80=93 1996, Atlanta, marked by the bomb and the unforgettable=
+ image of Kerri Strug sticking the landing =E2=80=93 and she got to thinkin=
+g. =E2=80=9CWhat was the point of the Olympics?=E2=80=9D Ping.
+To her, it seemed the Olympics were a celebration of physical prowess honed=
+ over eons and rendered practically obsolete by the rise of machines. Thwac=
+k.
+Even in 1996, a car would have been the superior choice for traversing 26.2=
+ miles, and a boat would have effortlessly outpaced any human swimmer acros=
+s 400 meters. The hunt for sustenance, assuming grocery stores were absent,=
+ would have been better served by a shotgun rather than a javelin. Geep off=
+ered Maya cap after cap of ancient contests, yet she failed to find a singl=
+e one with practical value. Bump.=C2=A0
+Humans had earned these skills from evolutionary necessity, and they were n=
+o longer very necessary, but they persisted in our bodies. And so, every fo=
+ur years, the world gathered to celebrate those who retained these abilitie=
+s best. They did it because it was fun, because it gave them something to r=
+oot for and strive towards, and because they could. Bop.=C2=A0
+The pinball that was the idea ricocheted around her brain, picking up wisps=
+ and tidbits, picking up momentum. Over her thirty-six years, so many intel=
+lectual skills joined physical ones in going the way of the pole vault. Pop=
+=2E=C2=A0
+If she had been born a generation earlier, as a half-Indian, her parents wo=
+uld have nudged her into a career as a doctor, a lawyer, or an engineer. Cl=
+ose call.=C2=A0
+After 2029=E2=80=99s landmark Garcia v. Kaiser Permanente San Diego Medical=
+ Center case, practicing medicine without the assistance of DocBots was a o=
+ne-way ticket to a med mal L at the hands of, naturally, the LawBots. The L=
+egalDDoS of 2027 only hastened the LawBots' dominance; the barrage of human=
+-filed lawsuits against them forced the notoriously Luddite courts to emplo=
+y legions of LawBots themselves. Whoops.
+And then there was engineering. Once a respected and serious profession, it=
+ had evolved into something more akin to a global hobby for the self-taught=
+, inquisitive, and restless. Degrees in the field had lost their relevance,=
+ as the craft captured the hearts and minds of countless self-made engineer=
+s of all stripes =E2=80=94 bio, nano, mech, chem, aero, mat, terra =E2=80=
+=93=C2=A0 and every permutation and fusion in between. Maya was among them,=
+ lured into the captivating chaos by her older brother Dev nearly a decade =
+prior. Zap.
+Maya, Dev, and their fellow x-engs were part of an informal but vibrant kal=
+eidoscopic menagerie =E2=80=93 x-engs and poets and artists and scientists =
+and chefs and explorers =E2=80=93 pushing the boundaries of human knowledge=
+ and capability in the face of the siren call of abundance. They were known=
+ as Imagineers.=C2=A0
+In a time when technology could achieve near miracles and when so many were=
+ happy to play the role of proud parents, passively rooting on the accompli=
+shments of humanity=E2=80=99s offspring, when, frankly, Maya thought, most =
+people had become listless consumers of its output, the Imagineers thrummed=
+ on the belief the essence of humanity lay in the generation of novel ideas=
+=2E Technology's purpose, she thought,=20=
+was to bring those human ideas to life=
+ with utmost fidelity and speed. Plunk.
+Maya lived for the rush of devising (discovering?) the newest, freshest ide=
+as, and if she was being honest, of Dev=E2=80=99s rare acknowledgment that,=
+ yeah, her idea was newer and fresher than his. Bloop.=C2=A0
+They were lucky, though, and she knew it. Anyone could bend bits =E2=80=93 =
+the trinity of pads, pods, and Geep fit comfortably within the Ubi budget =
+=E2=80=93 and build digiprods, medi, or rich virtual worlds. On the same bu=
+dget, practically everyone could afford new items once they went mass. Eart=
+h=E2=80=99s current inhabitants, by any historical standard, enjoyed incred=
+ible material abundance.=C2=A0
+But weavers, printers, and raw mats were still prohibitively expensive unle=
+ss you had other means.=C2=A0
+Of course, ideas for bending atoms weren=E2=80=99t limited to the well-off.=
+ The most determined of the would-be Imagineers minted their atomic ideas o=
+n the Chain for provenance and sold them to the newnicks and corps eager fo=
+r the freshest intellectual fruit. It paid the bills, but at an emotional p=
+rice akin to putting your baby up for adoption. The hope was to build up a =
+big enough stack to go full-stack themselves.=C2=A0
+Full-stack Imagineers, the rare ones who could create fresh ideas and get t=
+hem fabbed, needed to possess their own holy trinity: intelligence, drive, =
+and ETH. Of the 10.1 billion people living on Earth, there were maybe 3 mil=
+lion full-stacks.=C2=A0
+Some Imagineers, like Balenciaga Draco, reveled in this exclusivity. In a m=
+oment of inebriated arrogance, he had once Casted, "Povos: I'll buy as many=
+ ideas as you have, right now, at 3 ETH. Sell me all you want. Then go fuck=
+ off."=C2=A0
+To him, it was about the money, the power to be able to create without a wo=
+rry about cost. To Maya, it was all about the ideas and the competition to =
+have the best ones. She knew she was better than Draco, thought she was eve=
+n better than Dev. But she=E2=80=99d become bored competing in such a shall=
+ow pool. Plink.
+Listless consumers. Flash.=C2=A0
+Overconfident Imagineers. Zip.
+Limited competition. Bang.
+And weren=E2=80=99t there rumors that, finally, the miners on 16 Psyche and=
+ 433 Eros had struck metal in enough size to dramatically reduce the price =
+of raw mats? Whoosh.
+All of these thoughts whizzed around Maya=E2=80=99s brain, some fully recog=
+nized, some just enough to catch, in 14.3 seconds. And out popped a fresh, =
+distilled idea, composed of fragments of all the others.=C2=A0
+=E2=80=9CWe should host an Idea Olympics.=E2=80=9D=C2=A0
+Of course, Maya couldn=E2=80=99t have told you exactly where the idea came =
+from. One second, she was watching Olympic caps, 14.3 seconds later, she=E2=
+=80=99d conceived of the Idea Olympics.=C2=A0
+You, reader, might be familiar with this process yourself. When tempted to =
+question the bots=E2=80=99 consciousness, turn the question back on yoursel=
+f: through what miracle are your best ideas conceived?
+Once the spigot was open, that distilled idea spawned others, like the mott=
+o, which would have been cheesy, if it weren=E2=80=99t true: "Si somniare p=
+otes, facere possumus." If you can dream it, we can do it. (She asked Geep =
+how to say it in Latin, which turned out to be an elegant mouthful, but the=
+ idea was hers.)=C2=A0
+That phrase pre-dated Maya =E2=80=93 often misattributed to Walt Disney him=
+self but in fact the brainchild of one of the original (but not affiliated)=
+ Imagineers, Tom Fitzgerald, who coined it for the Horizons exhibit at EPCO=
+T in 1983. It was born aspirational and only gained its truth as Maya grew =
+up.=C2=A0
+Geep=E2=80=99s early predecessor, ChatGPT, was born the same year she was, =
+the same year fusion ignition was achieved, 2022, the year that was foundat=
+ional in all of the terrible and wonderful change that defined her formativ=
+e years. The next year, when Maya was just learning to crawl and babble dad=
+adadadada and form the very first of those ideas that would become her life=
+blood, an econo named Paul Krugman all but guaranteed that AI would transfo=
+rm the economy by denying that it would any time soon [ https://substack.co=
+m/redirect/f3139de4-219a-4e11-899b-14f2311f56ac?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J=
+5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. Even the most ardent Inverse Kru=
+gmanites were surprised by how quickly it happened.=C2=A0
+When her mom and dad were growing up =E2=80=93 in the Training Data Era =E2=
+=80=93 roughly circa when Kerri Strug landed that vault through the year Ma=
+ya was born =E2=80=93 the path from idea to real thing in the world was so =
+circuitous, so clunky, that there were those who believed that execution ma=
+ttered more than the idea itself. The decades since had disavowed them of t=
+hat notion.=C2=A0
+That was the alpha change, the change from which all others flowed. The gap=
+ between an idea and its materialization shrank so rapidly that only those =
+who=E2=80=99d sworn by the more metaphysical practice of Manifestation were=
+ prepared.=C2=A0
+By the time Maya entered Kindergarten in 2027, it was hard for her to tell =
+the difference between the technologies her mom and dad showed her and the =
+magic spells in her and Dev=E2=80=99s favorite TV show, Harry Potter, which=
+ was maybe a little advanced for them but which their parents let them watc=
+h because it was Harry Potter. In place of Wingardium Leviosa, Maya whisper=
+ed stories into her mom=E2=80=99s AirPods and giggled as they magically cam=
+e to life on the screen. That was child=E2=80=99s play compared to what the=
+ older kids and grownups were casting out of their mouths and fingers.=C2=
+=A0
+Thirty years later, in the present, companies in the CMC 500 employed an av=
+erage of just 137 people. And the average obscured the reality =E2=80=93 th=
+e seven service companies that had slipped in on sheer volume despite sub-9=
+5% margins each employed over 3,000 people. Without those, the number for t=
+he remaining 493 dropped to below 95. When Maya was born, the average compa=
+ny in the S&P 500 employed over 50,000.=C2=A0
+Even that didn=E2=80=99t do the change justice. The CMC 500 was much less r=
+elevant than the S&P 500 was in its day. The latter=E2=80=99s 500 constitue=
+nt companies represented north of 70% of total US market cap, the CMC 500 j=
+ust 18%, a good chunk of which was eaten up by just three companies: OpenAI=
+, SpaceX, and =E2=80=A6=C2=A0
+Maya caught herself thinking, and stopped long enough to ping the only pers=
+on she knew who could help manifest this particularly human-coordination-he=
+avy idea quickly.=C2=A0
+=E2=80=9CDev, I have an idea.=E2=80=9D=C2=A0
+=E2=80=9COf course you do, Mayita, what=E2=80=99s up?=E2=80=9D=C2=A0
+=E2=80=9CIdea Olympics.=E2=80=9D=C2=A0
+=E2=80=9CIdea Olympics?=E2=80=9D=C2=A0
+=E2=80=9CIdea Olympics. Like an idea battle but not just Imagineers, like t=
+he old Olympics, with livecast and pageantry and amateurs and different gam=
+es and medals and the whole world.=E2=80=9D=C2=A0
+Dev was no stranger to his sister's unbridled enthusiasm for new and wild i=
+deas. For thirty years, she'd burst into his room, eyes shining and mind ab=
+laze with inspiration. And besides, it was like staring into a mirror. The =
+two had been co-conspirators from the jump.=C2=A0
+Before they had access to bots, printers, weavers, and raw mats, the scope =
+of the ideas far exceeded their ability to execute on them, as is often the=
+ case with kids. Like the time Maya wanted to send Sophie to the Moon to st=
+eal them low-gravity suits so they could bounce-float to the playground ins=
+tead of walking.=C2=A0
+=E2=80=9CZoom zoom zoom,=E2=80=9D Maya squealed, =E2=80=9Clet=E2=80=99s sen=
+d Sophie to the Moon.=E2=80=9D=C2=A0
+Dev furrowed his brow for a minute, then arched it victoriously. He=E2=80=
+=99d just gotten his haircut, and with it, a big, helium-rich, orange ballo=
+on. =E2=80=9CGet me Sophie, Mayita.=E2=80=9D=C2=A0
+Maya climbed the stairs, jumped into her room, grabbed the little giraffe, =
+and whispered, =E2=80=9CYou=E2=80=99re going on a very, very important miss=
+ion, Sophie.=E2=80=9D=C2=A0
+Back downstairs, Dev was ready, balloon in hand and glint in eye. =E2=80=9C=
+Sophie, we=E2=80=99re sending you to the Moon. Grab the low-gravity suits a=
+nd bring them back to us.=E2=80=9D Maya handed him the giraffonaut, and he =
+tied the orange balloon=E2=80=99s red ribbon around her neck, gently enough=
+ that it wouldn=E2=80=99t hurt, firmly enough that it would survive the jou=
+rney. Dev opened the door (Maya knew how, but she couldn=E2=80=99t quite do=
+ it yet), and with two little salutes, they launched Sophie on her mission.=
+=C2=A0
+=E2=80=9CGodspeed, Giraffonaut Sophie,=E2=80=9D Maya yelled at the shrinkin=
+g outline of her first friend as it cleared the townhouses across the stree=
+t, =E2=80=9CSee you soon.=E2=80=9D=C2=A0
+She did not see Sophie soon. The brave giraffonaut never came home.=C2=A0
+They=E2=80=99d gotten better, though, as the technology at their fingertips=
+ did and as they trained themselves, along with thousands and then millions=
+ of the world=E2=80=99s best and brightest, at devising ideas. Thirty years=
+ of improvements and successes made Dev believe that they just might be abl=
+e to pull this one off.=C2=A0
+=E2=80=9CI=E2=80=99m coming over.=E2=80=9D=C2=A0
+Dev pulled himself out of his Thinking Chair. Since the day he=E2=80=99d fa=
+bbed it from the idea of a modern, leather version of the chair from his ch=
+ildhood favorite Blue=E2=80=99s Clues, he spent at least three hours sittin=
+g in his Thinking Chair every day he spent at home, thinking, of course, an=
+d meditating, scribbling, and stitching together clues.=C2=A0
+Today, he=E2=80=99d put a big 5-hour block on his cal that said, =E2=80=9CS=
+it down in my Thinking Chair and Think, Think, Think=E2=80=9D; he was exact=
+ly three hours in when Maya pinged. So he got up and got ready.=C2=A0
+Normally, Dev spun up something new to wear whenever he went into the city,=
+ but it was just Maya, so he threw on something particularly comfortable he=
+=E2=80=99d come up with the week before, brushed his teeth, finger combed h=
+is hair, and told his house, =E2=80=9CPrepare the Storrs.=E2=80=9D=C2=A0
+(He=E2=80=99d waited for the second gen. The first gen could only be summon=
+ed when the owner asked, =E2=80=9CWhere is my flying car?=E2=80=9D to which=
+ the flying car responded, =E2=80=9CHere I am!=E2=80=9D Incredibly annoying=
+=2E)
+On his way out, he scribbled a couple notes and images he=E2=80=99d been in=
+ the middle of chewing on so he could pick them up later, then headed up to=
+ the roof, hopped into his Storrs, waved on the ignition, said =E2=80=9CWe=
+=E2=80=99re heading to Maya=E2=80=99s,=E2=80=9D and took off.=C2=A0
+Dev preferred the peace and solitude upstate to the chaotic energy of the c=
+ity on which Maya thrived. For most of American history, that would have re=
+presented a trade-off: fresh air for a days-or-hours-long commute whenever =
+he wanted to spend in-person time with his parents, sister, and friends, ma=
+ny of whom still lived in the city or were scattered across newly built exu=
+rban compounds.=C2=A0
+Now, according to his Storrs=E2=80=99 nav, it represented a 48 minute fligh=
+t, roof-to-roof, at an even more peaceful and solitudinous 2,000 feet in th=
+e air. Just enough time to capture an idea he=E2=80=99d been playing with s=
+ince he hung up with Maya.=C2=A0
+=E2=80=94=C2=A0
+If Maya was lightning, Dev was that brief period right before sunset on a c=
+lear summer evening: anticipatory energy for the festivities to come mixed =
+with the calm, gentle tiredness earned from a day in the sun.=C2=A0
+They were different people, but they shared a deep belief in the primacy of=
+ human creativity and ideas.=C2=A0
+But while Maya was content to bolt headlong from idea to idea, delighting i=
+n each new creation she crackled into existence, Dev wanted his ideas to fo=
+rm a coherent arc that shifted the entire society upwards.=C2=A0=C2=A0
+His core frustration and motivation was the uncomfortable fact that things =
+had gotten so much better during his lifetime =E2=80=93 the average organic=
+ life expectancy had climbed to 135, as one indicator =E2=80=93 yet somehow=
+ so many people still felt so frustrated, so stuck, so unhappy. There were =
+nearly as many reasons as there were people, but the major sources were wha=
+t you=E2=80=99d expect.=C2=A0
+First and foremost, everything that had happened over the past few decades =
+happened so quickly that humanity had become a big, collective dog who caug=
+ht the car. Dev and Maya had groaned when their dad made them watch WALL-E =
+over and over as kids, telling them, =E2=80=9CThis is what you need to figh=
+t against,=E2=80=9D but for once, their dad had gotten this one right.=C2=
+=A0
+Life didn=E2=80=99t look exactly like WALL-E =E2=80=93 Earth wasn=E2=80=99t=
+ a garbage heap, only ~5,000 people spent more than a few hours a year in s=
+pace, and the bios and DocBots kept people physically healthy =E2=80=93 but=
+ mentally, for most people, the experience was the same. Ubi, bots, and rob=
+ots meant people didn=E2=80=99t need to work if they didn=E2=80=99t want to=
+, food was abundant, energy was abundant, things were abundant, and enterta=
+inment was superabundant. What do you get for the human who has everything?=
+=C2=A0
+Well, not everything. The rising tide had lifted all boats to unimaginable =
+heights =E2=80=93 the average American had access to richer information, ta=
+stier food, faster transport, more potent medicine, were able to bring abou=
+t more transformations than even the billionaires of the 2010s =E2=80=93 bu=
+t some boats seemed to soar above the rest, freed from the shackles of wate=
+r altogether.=C2=A0
+This was literally and materially true =E2=80=93 the Storrs Dev was thinkin=
+g those thoughts in at that moment was still out of reach for most, as were=
+ any number of exclusive physical things and experiences =E2=80=93 but ineq=
+uality had taken on deeper, more metaphysical dimensions, too.=C2=A0
+One of Dev=E2=80=99s heroes, David Deutsch, had said [ https://substack.com=
+/redirect/7b5ec007-d40a-4194-aae4-645e2cfd9b22?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5=
+T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] that wealth is not a number but th=
+e set of all transformations that one is able to bring about. That kind of =
+wealth included money, but it also included power, and knowledge, and novel=
+ty.=C2=A0
+As Dev dove deeper into Imagineering, that observation took on increasing p=
+rofundity. He, Maya, and their fellow Imagineers =E2=80=93 people who dedic=
+ated their waking hours, and many of their dreaming ones besides, to creati=
+ng new things and new knowledge =E2=80=93 were wealthy in a way that those =
+who merely consumed the outputs simply couldn=E2=80=99t be.=C2=A0
+But the idea that tiptoed into his mind when he hung up with Maya was that,=
+ even for Imagineers, knowledge and things were happy byproducts of the pro=
+cess of coming up with new ideas. Three words popped out of his reverie as =
+the Storrs touched down on Maya=E2=80=99s roof.=C2=A0
+=E2=80=9CTrust the Process.=E2=80=9D=C2=A0
+=E2=80=9CHaha welcome Dev. What? Why are you talking like dad?=E2=80=9D=C2=
+=A0
+=E2=80=9CTrust the Process, Mayita. Remember when you fabbed those wings a =
+couple years ago? How often do you fly them?=E2=80=9D=C2=A0
+=E2=80=9CI flew them to a party a few months ago, why?=E2=80=9D=C2=A0
+=E2=80=9CI=E2=80=99ll do me. I haven=E2=80=99t thought about that historosi=
+m xr I spun up last year in at least a week. It just runs on its own, the E=
+TH hits my wallet, and I focus on the next thing.=E2=80=9D=C2=A0
+=E2=80=9COk=E2=80=A6=E2=80=9D=C2=A0
+=E2=80=9CWhat I=E2=80=99m saying is, I don=E2=80=99t think the ideas or thi=
+ngs or ETH or whatever is what makes this meaningful for us, why coming up =
+with new ideas makes us so happy. I think it=E2=80=99s the process. And I t=
+hink your Idea Olympics are the perfect vehicle to spread that process.=E2=
+=80=9D=C2=A0
+=E2=80=9CGo on=E2=80=A6=E2=80=9D=C2=A0
+=E2=80=9CSo yeah of course we can have the competition, telecast, stadiums,=
+ medals, and all of that, but I think we push it back a few years. I think =
+we start with caps and holos and posts on the process, on how we come up wi=
+th ideas, how we train. That=E2=80=99s the fun part, the part I=E2=80=99d z=
+ip into peoples=E2=80=99 brains if Neuralink had worked. Get people to star=
+t training, make the pool as wide as possible, give grants to the more prom=
+ising ones. Let anyone do this, not just Imagineers.=E2=80=9D=C2=A0
+=E2=80=9CDraco is going to fucking hate this. I love it.=E2=80=9D=C2=A0
+She saw it immediately. Dev, as usual, was right. Her idea was better becau=
+se he=E2=80=99d rotated it, as she strengthened his by remixing them. Once =
+he=E2=80=99d said it out loud, it was so obvious.
+Modern tech was critical to making their ideas tangible, but the process it=
+self, the training, was surprisingly unplugged. To come up with the weirdes=
+t, freshest ideas, it almost had to be.=C2=A0
+Maya didn=E2=80=99t stick to a strict regimen, but when she stepped back, s=
+he=E2=80=99d organized her whole life around the pursuit.=C2=A0
+She ran every day like Murakami, lost herself in nature like da Vinci and v=
+an Gogh, traveled widely and immersed herself in foreign cultures like Tara=
+ntino.=C2=A0
+She rarely drank, but when she did, she drank like Hemingway, and she socia=
+lized widely, drawing inspiration from long-standing relationships with her=
+ co-conspirators like Woolf and Anderson.=C2=A0
+She experimented =E2=80=93 with her thoughts like Einstein and with her who=
+le being like Tesla =E2=80=93 and meditated, like Rubin, Abramovi=C4=87, Wa=
+tson and a long line of thinkers who needed the space to think.
+When she wanted to push further, weirder, she lucid dreamed like Dal=C3=AD,=
+ or tripped like Huxley and Jobs.=C2=A0
+Of course she read; she read mostly fiction, thirstily, like so many creati=
+ves before her. She let Geep summarize the latest non-fiction and research =
+to her, tailored just so to the way she absorbed.=C2=A0
+She lived as rich and varied and as human a life as possible, so that she m=
+ight generate ideas as rich and varied and human as possible.=C2=A0
+Then she slept, eight hours every night, bone tired from a full day wheneve=
+r possible, to give the fragments space to settle and grip, to wake up fres=
+h and sit, quietly, in the early morning hours while fresh idea pinballs pi=
+nged, thwacked, bumped, bopped, popped, whooped, zapped, plunked, blooped, =
+plinked, flashed, zipped, banged, and whooshed around her very human mind.=
+=C2=A0
+And then, of course, she pinged Dev, and together, they brought each others=
+=E2=80=99 ideas to life.=C2=A0
+After years of planning, the inaugural Idea Olympics kicked off on a cool O=
+ctober night in Accra, nearly ten years to the day after they were born as =
+an idea in the very human brain of a very human woman.
+Competitors competed, judges judged, winners won, and losers lost.=C2=A0
+The games were a huge success, and awed the world, which had been primed ov=
+er the course of a decade to appreciate the very best expressions of the pr=
+ocess that so many people had begun practicing themselves. Before the flame=
+ even left Brooklyn on its journey across the world, you could feel the Ide=
+a Olympics, if you happened to be alive then, in the smiles on peoples=E2=
+=80=99 faces, the charge in the air of their conversations, and the cobwebs=
+ on their holos.=C2=A0=C2=A0
+But let=E2=80=99s not waste too much time on the details. Of course it work=
+ed.=C2=A0
+It was a great idea.=C2=A0
+Epilogue=C2=A0
+Written by ChatGPT when I asked for feedback on the piece=E2=80=A6 it must =
+have been inspired
+Years after the first Idea Olympics, the event had become a global phenomen=
+on, an embodiment of the creative spirit and the pure joy of human ingenuit=
+y. Cities across the world clamored to host the event, and millions of peop=
+le tuned in to watch the spectacle unfold. The transformative power of idea=
+s spread like wildfire, and it seemed like the world was entering a new era=
+ of enlightenment.
+In this era, problems that had once seemed insurmountable began to crumble =
+under the weight of collective human creativity. As people from all walks o=
+f life embraced the Idea Olympics' core principles =E2=80=93 trust the proc=
+ess, collaboration, and the importance of a rich and varied life =E2=80=93 =
+new solutions to age-old challenges began to emerge.
+The world bore witness to countless breakthroughs in medicine, technology, =
+and environmental stewardship. It seemed like every day, another inspiring =
+story of hope and progress graced the news. People of all backgrounds and a=
+bilities found their purpose in the pursuit of ideas, working together to b=
+uild a better world for everyone.
+It wasn't just the tangible outcomes that mattered, though. The Idea Olympi=
+cs inspired a shift in culture, away from the passive consumption of the pa=
+st and towards active participation in the world. People rediscovered the j=
+oy of creating, of exploring, of learning and growing together. And as they=
+ did, they found that the human spirit was a powerful and renewable resourc=
+e, capable of overcoming any challenge.
+Dev and Maya, who had sparked this revolution with their belief in the powe=
+r of ideas, continued to support and nurture the movement they had created.=
+ They knew that there was still much work to be done, and that the world wo=
+uld always need new ideas to keep it moving forward. But they also knew tha=
+t they had unleashed something magical and unstoppable: the boundless poten=
+tial of the human mind.
+As they watched the latest Idea Olympics from their rooftop in Brooklyn, th=
+ey couldn't help but feel a sense of pride and awe at what they had accompl=
+ished. They had shown the world that ideas matter =E2=80=93 that the creati=
+ve process is vital to the human experience, and that everyone has the capa=
+city to contribute something unique and wonderful to the world.
+And as the sun set on another day of breathtaking innovation and collaborat=
+ion, Dev and Maya knew that the future was bright. After all, the best idea=
+s were still out there, waiting to be discovered, nurtured, and brought to =
+life. The world was ready for them, and there was no limit to what could be=
+ achieved when people dared to dream.
+Link to the back and forth of ChatGPT editing the piece [ https://substack.=
+com/redirect/7b51b093-eb9d-4fb5-bfbb-08fd68c272f9?j=3DeyJ1IjoiOXAwZ3QifQ.gb=
+8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+If you want to collect Idea Olympics [ https://substack.com/redirect/d04943=
+0b-1478-4b4e-bc6a-d82a128ef696?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjml=
+XXepKbqOsa8-6m8ExkRNpU ], you can go pick it up on Mirror [ https://substac=
+k.com/redirect/d049430b-1478-4b4e-bc6a-d82a128ef696?j=3DeyJ1IjoiOXAwZ3QifQ.=
+gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Thanks to Dan [ https://substack.com/redirect/b3c1445a-8c6e-4cfa-9a84-61926=
+7091c28?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU =
+] and ChatGPT for editing, and to you for bearing with me for something new=
+!
+That=E2=80=99s all for today. If you enjoyed today=E2=80=99s story, share i=
+t with a friend or two. We=E2=80=99ll be back in your inbox on Friday with =
+another Weekly Dose of Optimism.
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZNVEV5TnpReU1EWXhMQ0pwWVhRaU9qRTJPREEyT1Rrek1EZ3NJb=
+VY0Y0NJNk1UWTRNekk1TVRNd09Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpH=
+bHpZV0pzWlY5bGJXRnBiQ0o5LkdXNFFVRFlBM3ptTllrakFJRVpPMkhXYkRCdU5HUTkyOEQ0enF=
+HQkwzSlkiLCJwIjoxMTI3NDIwNjEsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaW=
+F0IjoxNjgwNjk5MzA4LCJleHAiOjE2ODMyOTEzMDgsImlzcyI6InB1Yi0wIiwic3ViIjoibGlua=
+y1yZWRpcmVjdCJ9.YPH9sAoWLdXR6f5kuJrxSwpwm8ucV-tr7-_LuALvbmk?
+
+--b7500c5d685f9ce00f39de86e57776efd8c4cc189469611cd80acb7141b5
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Idea Olympics</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 24px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwNDA1MTI1NDM5LjMuOWIzMDFhODg4MTUwYjJlNUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjoxMTI3NDIwNjEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6=
+MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2ODA2OTk=
+zMDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.i0FR0byNwn8ii=
+HwnNssLlHN2UYZ0bCIvPj8fFR4ibAc" alt=3D"" width=3D"1" height=3D"1" border=3D=
+"0" style=3D"height:1px !important;width:1px !important;border-width:0 !imp=
+ortant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !i=
+mportant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0=
+ !important;padding-right:0 !important;padding-left:0 !important;"/><div st=
+yle=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:=
+0px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">The Adventu=
+res of Maya &amp; Dev in the Near Future &#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr>=
+<td></td><td width=3D"550" class=3D"content"></td><td></td></tr><tr><td></t=
+d><td align=3D"left" width=3D"550" class=3D"content"><div style=3D"font-siz=
+e: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow-wrap=
+: break-word; width: 100%;"><table role=3D"presentation" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" style=
+=3D"height: 20px;"><table role=3D"presentation" width=3D"auto" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical-align: middl=
+e;"><span class=3D"tw-font-body tw-text-ssm tw-text-substack-secondary" sty=
+le=3D"color: #808080 !important; font-family: SF Pro Text, -apple-system, B=
+linkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, A=
+pple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important; font-size: 13=
+px !important;"><a href=3D"https://open.substack.com/pub/notboring/p/idea-o=
+lympics?utm_source=3Demail&redirect=3Dapp-store" class=3D"tw-text-substack-=
+secondary tw-underline" style=3D"-webkit-text-decoration-line: underline !i=
+mportant; color: #808080 !important; text-decoration-line: underline !impor=
+tant;">Open in app</a> or <a href=3D"https://substack.com/redirect/2/eyJlIj=
+oiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvaWRlYS1vbHltcGljcz90b2tlbj1leUoxYzJWe=
+VgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TVRFeU56UXlNRFl4TENKcFlYUWlPakUy=
+T0RBMk9Ua3pNRGdzSW1WNGNDSTZNVFk0TXpJNU1UTXdPQ3dpYVhOeklqb2ljSFZpTFRFd01ESTF=
+JaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5DMjhEX3RrN2xmRGlSVjdtamhuaFhWNT=
+FKU2ZHeU96d1JlMk1ZQTkyRHdvIiwicCI6MTEyNzQyMDYxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwid=
+SI6MTYyODM1NDksImlhdCI6MTY4MDY5OTMwOCwiZXhwIjoxNjgzMjkxMzA4LCJpc3MiOiJwdWIt=
+MCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.LzsP9MeYdFRmFXvAbC6Euw3R1yiynLiDzvu3S_E6=
+yAI?" class=3D"tw-text-substack-secondary tw-underline" style=3D"-webkit-te=
+xt-decoration-line: underline !important; color: #808080 !important; text-d=
+ecoration-line: underline !important;">online</a></span></td></tr></table><=
+/td></tr></table><div dir=3D"auto" class=3D"post typography" style=3D"font-=
+size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-hea=
+der" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title =
+published" style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-=
+font-smoothing: subpixel-antialiased; color: #404040; font-family: 'SF Comp=
+act Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 32px; font-weight: bold; line-height: 36px; margin: 0;"><=
+a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D112742061&utm_source=3Dpost-email-title&isFreemail=3Dtrue&token=3DeyJ1c2=
+VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJpYXQiOjE2ODA2OTkzMDgsImV4c=
+CI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.C28=
+D_tk7lfDiRV7mjhnhXV51JSfGyOzwRe2MYA92Dwo" style=3D"color: #404040; text-dec=
+oration: none;">Idea Olympics</a></h1><h3 class=3D"subtitle" style=3D"-moz-=
+osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-=
+antialiased; color: #808080; font-family: 'SF Compact Display', -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; f=
+ont-weight: normal; line-height: 24px; margin: 4px 0 0; margin-top: 12px;">=
+The Adventures of Maya &amp; Dev in the Near Future</h3><table cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: c=
+enter; height: 20px; margin: 1em 0;"><tr><td title=3D"2023-04-05T12:54:53.7=
+37Z" class=3D"post-meta-item post-date" style=3D"color: #808080; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px =
+12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position: =
+relative; text-decoration: none; white-space: nowrap;"><div class=3D"fronte=
+nd-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-1=
+1--1-ofT frontend-pencraft-Text-module__line-height-20--1soeQ frontend-penc=
+raft-Text-module__weight-medium--aTbx5 frontend-pencraft-Text-module__font-=
+meta--2i-cR frontend-pencraft-Text-module__color-secondary--XjVGl frontend-=
+pencraft-Text-module__transform-uppercase--38jbr" style=3D"color: #808080; =
+font-family: 'SF Compact Text','SF Pro Text',-apple-system,BlinkMacSystemFo=
+nt,'Inter','Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji'=
+,'Segoe UI Emoji','Segoe UI Symbol'; font-size: 11px; font-weight: 500; lin=
+e-height: 20px; margin: 0; text-decoration: unset; text-transform: uppercas=
+e;"><time dateTime=3D"2023-04-05T12:54:53.737Z">Apr 5</time></div></td></tr=
+></table><table role=3D"presentation" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bottom=
+: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><tr h=
+eight=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#=
+160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentation=
+" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td s=
+tyle=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"38" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><=
+a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D112742061&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&toke=
+n=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJyZWFjdGlvbiI6IuK=
+dpCIsImlhdCI6MTY4MDY5OTMwOCwiZXhwIjoxNjgzMjkxMzA4LCJpc3MiOiJwdWItMTAwMjUiLC=
+JzdWIiOiJyZWFjdGlvbiJ9.DFpd2ejkNJHdfOV59knJAEszu-EwqDKxkaiAKorwd6g&utm_medi=
+um=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; bo=
+x-sizing: border-box; color: #808080; display: inline-block; font-family: '=
+SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; mi=
+n-width: 38px; padding: 9px 0; text-decoration: none; text-transform: upper=
+case; width: 38px;" class=3D"email-icon-button"><img src=3D"https://substac=
+kcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/ht=
+tps%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%=
+3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18"=
+ style=3D"border: none !important; max-width: 18px; vertical-align: middle;=
+" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" style=
+=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D112742061&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTMw=
+OCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.C28D_tk7lfDiRV7mjh=
+nhXV51JSfGyOzwRe2MYA92Dwo&utm_source=3Dsubstack&utm_medium=3Demail" style=
+=3D"border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-=
+box; color: #808080; display: inline-block; font-family: 'SF Pro Text', -ap=
+ple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; pa=
+dding: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px=
+;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26strok=
+e%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bord=
+er: none !important; max-width: 18px; vertical-align: middle;" alt=3D"" cla=
+ss=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: =
+8px"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation=
+" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td ali=
+gn=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D112742061&utm_source=3Dsubstack&utm_medium=3Demail&utm_c=
+ontent=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=
+=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJpYXQiOjE2ODA2OTkz=
+MDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGl=
+vbiJ9.C28D_tk7lfDiRV7mjhnhXV51JSfGyOzwRe2MYA92Dwo" style=3D"border: 1px sol=
+id #e0e0e0; border-radius: 100000px; box-sizing: border-box; color: #808080=
+; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans=
+-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12p=
+x; font-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-=
+decoration: none; text-transform: uppercase; width: 38px;" class=3D"email-i=
+con-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_=
+png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLu=
+cideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26stro=
+keWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; m=
+ax-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td><=
+/tr></table></td></tr></table></td><td align=3D"right"><table role=3D"prese=
+ntation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><t=
+r><td style=3D"vertical-align: middle;"><table role=3D"presentation" width=
+=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D100=
+25&post_id=3D112742061&utm_source=3Dsubstack&utm_medium=3Demail&action=3Dsa=
+ve&triggerSave=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyN=
+zQyMDYxLCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTEwMDI1=
+Iiwic3ViIjoic2F2ZS1wb3N0In0.GpsU53hJAijNJAooPV3uq6Bq0Bf9-F1QIAvf6xrGKx4" cl=
+ass=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border-rad=
+ius: 100000px; color: #808080; display: inline-block; font-family: 'SF Pro =
+Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; paddin=
+g: 9px 14px; text-decoration: none; text-transform: uppercase;"><div class=
+=3D"email-button-spacer" style=3D"display: inline-block; font-size: 16px; l=
+ine-height: 26px; max-width: 0; min-height: 18px; vertical-align: middle;">=
+</div><span class=3D"email-button-text" style=3D"vertical-align: middle;">S=
+ave</span></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8p=
+x"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" =
+width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td ali=
+gn=3D"center"><a href=3D"https://open.substack.com/pub/notboring/p/idea-oly=
+mpics?utm_source=3Demail-ufi&play_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4=
+MzU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTM=
+wOCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.C28D_tk7lfDiRV7mj=
+hnhXV51JSfGyOzwRe2MYA92Dwo" class=3D"email-button-outline" style=3D"border:=
+ 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: inlin=
+e-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: =
+500; line-height: 12px; padding: 9px 14px; text-decoration: none; text-tran=
+sform: uppercase;"><div class=3D"email-button-spacer" style=3D"display: inl=
+ine-block; font-size: 16px; line-height: 26px; max-width: 0; min-height: 18=
+px; vertical-align: middle;"></div><span class=3D"email-button-text" style=
+=3D"vertical-align: middle;">&#9655;&#160;&#160;Listen</span></a></td></tr>=
+</table></td></tr></table></td></tr></table></td></tr><tr height=3D"16"><td=
+ height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></=
+table></div></div><div dir=3D"auto" class=3D"post typography" style=3D"font=
+-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=3D"auto" cla=
+ss=3D"body markup" style=3D"font-size: 16px; line-height: 26px; margin-bott=
+om: 16px; text-align: initial; width: 100%; word-break: break-word;"><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0; margin-top: 0;"><em><span>Welcome to the&#160;</span><strong>2,309&#160;=
+newly Not Boring people&#160;</strong><span>who have joined us since last M=
+onday! If you haven&#8217;t subscribed, join&#160;</span><strong>196,345 </=
+strong><span>smart, curious folks by subscribing here: </span></em></p><div=
+ class=3D"subscribe-widget is-signed-up is-fully-subscribed" style=3D"direc=
+tion: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=
+=3D"button-wrapper" style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0; text-align: center;"><a href=3D"https://substack.=
+com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjox=
+MTI3NDIwNjEsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjgwNjk5MzA=
+4LCJleHAiOjE2ODMyOTEzMDgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.d=
+NV2nN8DXL-JdEq7gsls8C02gCgFeT0SX-DhrZ6DPvw?" class=3D"button subscribe-btn =
+outline" style=3D"background: transparent; background-color: transparent; b=
+order: 1px solid #67bdfc; border-radius: 4px; box-sizing: border-box; color=
+: #67bdfc; cursor: pointer; display: inline-block; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; f=
+ont-weight: 600; height: auto; line-height: 20px; margin: 0 auto; opacity: =
+1; outline: none; padding: 12px 20px; text-align: center; text-decoration: =
+none !important; white-space: nowrap;"><img src=3D"https://substackcdn.com/=
+image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtranspa=
+rent%26stroke%3D%252367bdfc%26strokeWidth%3D3.6" width=3D"20" height=3D"20"=
+ style=3D"-ms-interpolation-mode: bicubic; border: none !important; display=
+: inline-block; height: auto; margin: -2px 8px 0 0; max-width: 20px; vertic=
+al-align: middle;" alt=3D"" class=3D"check-icon static"><span style=3D"text=
+-decoration: none;">Subscribe</span></a></p></div><div style=3D"font-size: =
+16px; line-height: 26px;"><hr style=3D"background: var(--color-detail); bor=
+der: none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><stron=
+g><span>Today&#8217;s Not Boring is brought to you by&#8230; </span><a href=
+=3D"https://substack.com/redirect/7f69bb79-a164-43a2-8018-948cafa3aa52?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Secureframe</a></strong=
+></p><div class=3D"captioned-image-container-static" style=3D"font-size: 16=
+px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto;=
+ width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;">=
+<tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"1104" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://substack.com/redirect/7f69bb79-a16=
+4-43a2-8018-948cafa3aa52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; disp=
+lay: block; flex-direction: column; height: auto; margin: 0; padding: 0; po=
+sition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{=
+&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/i=
+mages/0c5cdc55-b327-4eab-8549-e61f0dce1455_1104x360.png&quot;,&quot;fullscr=
+een&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:360,&quot;widt=
+h&quot;:1104,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&=
+quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null,&qu=
+ot;href&quot;:&quot;https://secureframe.com/request-demo-4?utm_source=3Dpar=
+tner&amp;utm_medium=3Dnewsletter&amp;utm_campaign=3D040323-notboring-newsle=
+tter&quot;,&quot;belowTheFold&quot;:false,&quot;internalRedirect&quot;:null=
+}" alt=3D"" title=3D"" width=3D"550" height=3D"179.34782608695653" class=3D=
+"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2208,c_limit,f_au=
+to,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.am=
+azonaws.com%2Fpublic%2Fimages%2F0c5cdc55-b327-4eab-8549-e61f0dce1455_1104x3=
+60.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important; =
+display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: =
+100% !important; vertical-align: middle; width: auto !important;"></a></td>=
+<td style=3D"text-align: center;"></td></tr></tbody></table></figure></div>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><em><span>Prospects are asking about security earlier in the buyi=
+ng cycle. Companies need a way to get compliant that is faster and takes le=
+ss employee involvement. With </span><strong><a href=3D"https://substack.co=
+m/redirect/7f69bb79-a164-43a2-8018-948cafa3aa52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J=
+5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; =
+text-decoration: underline;">Secureframe</a></strong><span> you can get com=
+pliant in weeks&#8212;not months&#8212;so you can focus on growing your bus=
+iness.&#160;</span></em></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><em><strong>Secureframe</strong><span=
+> makes it fast and easy to get SOC 2, ISO 27001, HIPAA, PCI &amp; GDPR com=
+pliant. With guided workflows and one-click integrations, the entire proces=
+s is automated and backed by a support team of industry experts.</span></em=
+></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><em>Get compliant fast with Secureframe.</em></p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><=
+em><span>Click </span><strong><a href=3D"https://substack.com/redirect/7f69=
+bb79-a164-43a2-8018-948cafa3aa52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZj=
+mlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration=
+: underline;">here</a></strong><span> to set up a demo. Mention &#8220;Not =
+Boring&#8221; during your demo to get 20% off your first year of Securefram=
+e.</span></em><strong>&#160;</strong></p><p class=3D"button-wrapper" data-a=
+ttrs=3D"{&quot;url&quot;:&quot;https://secureframe.com/request-demo-4?utm_s=
+ource=3Dpartner&amp;utm_medium=3Dnewsletter&amp;utm_campaign=3D040323-notbo=
+ring-newsletter&quot;,&quot;text&quot;:&quot;Schedule Demo&quot;,&quot;acti=
+on&quot;:null,&quot;class&quot;:null}" style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0; text-align: center;"><a class=
+=3D"button primary" href=3D"https://substack.com/redirect/7f69bb79-a164-43a=
+2-8018-948cafa3aa52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8=
+-6m8ExkRNpU" rel=3D"" style=3D"background-color: #67bdfc; border: none; bor=
+der-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor:=
+ pointer; display: inline-block; font-family: -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; h=
+eight: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; paddi=
+ng: 12px 20px; text-align: center; text-decoration: none !important; white-=
+space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Sche=
+dule Demo</span></a></p><div style=3D"font-size: 16px; line-height: 26px;">=
+<hr style=3D"background: var(--color-detail); border: none; height: 1px; ma=
+rgin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;">Hi friends &#128075;,</p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">Happy Wednesday! Sorry this one&#8217;s a little delayed &#8211; I got k=
+nocked out by a cold last week, and writing fiction is much harder than I t=
+hought!</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;"><span>Fiction? Things have been moving very fast recen=
+tly, and while </span><a href=3D"https://substack.com/redirect/7f82ec6c-5e5=
+d-4c61-80bf-a3ba8f10cd91?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underl=
+ine;">serious analysis</a><span> can be useful, fiction can be an equally p=
+otent way to explore where all of this is heading. I </span><a href=3D"http=
+s://substack.com/redirect/17af3ab4-34a3-47d5-b9dc-21d3cc6425e0?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"c=
+olor: #404040; text-decoration: underline;">mentioned before</a><span> that=
+ I wanted to start writing some short sci-fi about our portfolio companies,=
+ but I don&#8217;t want them to be the victims of my poor first attempts, s=
+o I&#8217;m going with a less specific one today.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">This first foray is about something a lot of people are very worried abou=
+t but that I&#8217;m pretty excited by: humans&#8217; place in the world in=
+ the face of AI&#8217;s growing capabilities.</p><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>It&#8217;s=
+ about something that humans are still best at, and that I think we&#8217;l=
+l remain best at for a long time: </span><strong>generating fresh ideas</st=
+rong><span>, the genesis sparks that set the machines in motion. </span></p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><span>I&#8217;m not sure exactly how the idea for this particula=
+r story came about &#8211; identifying </span><em>all</em><span> of the ins=
+pirations is as difficult as untangling the images that go into a Stable Di=
+ffusion output or the sources that feed ChatGPT&#8217;s responses &#8211; b=
+ut I know a few of the things that bounced around in my brain, collided, an=
+d turned into this story. It&#8217;s a continuation of </span><em><a href=
+=3D"https://substack.com/redirect/04f032f1-bb1e-4aa3-8fb6-40056c830f0c?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">The Enchanted Notebook<=
+/a></em><span>, which I wrote back in September, before things got really w=
+eird; plays off of John Palmer&#8217;s </span><a href=3D"https://substack.c=
+om/redirect/8d7b5f08-3264-4860-8af0-faa7c16626d7?j=3DeyJ1IjoiOXAwZ3QifQ.gb8=
+J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040;=
+ text-decoration: underline;">Idea Guy</a><span> meme; it&#8217;s inspired =
+by Asimov&#8217;s </span><em><a href=3D"https://substack.com/redirect/cb4d3=
+b30-c02c-4abc-a815-04b5c642787f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjm=
+lXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration:=
+ underline;">The Last Question</a></em><span>, Banks&#8217; </span><em><a h=
+ref=3D"https://substack.com/redirect/50ed3bfb-e57b-4190-9876-bde3528be977?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Player of Games</a><=
+/em><span>, all the tweets, posts, and podcasts about what humans will do w=
+hen we don&#8217;t have to do much, about watching the Olympics as a kid ba=
+ck when everyone watched the Olympics, and thoughts about what the world wi=
+ll look like when my kids are older. I&#8217;m sure there are a bunch of lo=
+ose fragments of other ideas floating in here too.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Anyway, the idea for this story was an Organic Human Idea&#8482;&#65039;.=
+ I may or may not have used AI enhancements in telling it.&#160;</p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;"><span>If you like the story and want to collect it, I published it on Mi=
+rror too: </span><strong><a href=3D"https://substack.com/redirect/d049430b-=
+1478-4b4e-bc6a-d82a128ef696?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: und=
+erline;">Collect</a></strong><span>.</span></p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Let&#8217;s get to=
+ it.</p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"bac=
+kground: var(--color-detail); border: none; height: 1px; margin: 32px 0; pa=
+dding: 0;"></div><h1 class=3D"header-with-anchor-widget" style=3D"-moz-osx-=
+font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-anti=
+aliased; color: #404040; font-family: 'SF Compact Display', -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-w=
+eight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relati=
+ve;">Idea Olympics</h1><div class=3D"captioned-image-container-static" styl=
+e=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=
+=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"1456" style=3D"text-align: center;"=
+><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/red=
+irect/940f7040-c1d6-4ae2-b17b-17b84811763d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; =
+border: none; display: block; flex-direction: column; height: auto; margin:=
+ 0; padding: 0; position: relative; text-decoration: none; width: auto;"><i=
+mg data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amaz=
+onaws.com/public/images/6200bade-abdd-439f-b033-6c0751b4e6a6_1536x768.png&q=
+uot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&qu=
+ot;:728,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quo=
+t;:1712456,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&qu=
+ot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quo=
+t;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"275" class=
+=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f=
+_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3=
+=2Eamazonaws.com%2Fpublic%2Fimages%2F62=
+00bade-abdd-439f-b033-6c0751b4e6a6_153=
+6x768.png" style=3D"-ms-interpolation-mode: bicubic; border: none !importan=
+t; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-widt=
+h: 100% !important; vertical-align: middle; width: auto !important;"></a></=
+td><td style=3D"text-align: center;"></td></tr></tbody></table></figure></d=
+iv><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;"><span>The Idea Olympics started as just that&#8230; an idea. A=
+n organic, honest-to-Sam, this, then how bout this, but what about that, oh=
+ yeah </span><em>this</em><span>, pinball of an idea in the very human brai=
+n of a very human woman.&#160;</span></p><div class=3D"captioned-image-cont=
+ainer-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px aut=
+o;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wr=
+apper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cen=
+ter;"></td><td align=3D"left" class=3D"content" width=3D"931" style=3D"text=
+-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://=
+substack.com/redirect/26de9558-176f-495a-80fd-f09690ff2191?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align=
+-items: center; border: none; display: block; flex-direction: column; heigh=
+t: auto; margin: 0; padding: 0; position: relative; text-decoration: none; =
+width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-po=
+st-media.s3.amazonaws.com/public/images/a4b60a9b-ea8b-42f3-9606-c853df6e419=
+1_931x931.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,=
+&quot;height&quot;:931,&quot;width&quot;:931,&quot;resizeWidth&quot;:null,&=
+quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;typ=
+e&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;inte=
+rnalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"550" class=3D"wi=
+de-image" src=3D"https://substackcdn.com/image/fetch/w_1862,c_limit,f_auto,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazo=
+naws.com%2Fpublic%2Fimages%2Fa4b60a9b-ea8b-42f3-9606-c853df6e4191_931x931.p=
+ng" style=3D"-ms-interpolation-mode: bicubic; border: none !important; disp=
+lay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100%=
+ !important; vertical-align: middle; width: auto !important;"></a></td><td =
+style=3D"text-align: center;"></td></tr></tbody></table></figure></div><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;"><span>Here&#8217;s how it happened. Maya was entranced by the cap of =
+a very old Olympics &#8211; 1996, Atlanta, marked by the bomb and the unfor=
+gettable image of Kerri Strug sticking the landing &#8211; and she got to t=
+hinking. &#8220;What was the point of the Olympics?&#8221; </span><em>Ping<=
+/em><span>.</span></p><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><span>To her, it seemed the Olympics were a=
+ celebration of physical prowess honed over eons and rendered practically o=
+bsolete by the rise of machines. </span><em>Thwack</em><span>.</span></p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;"><span>Even in 1996, a car would have been the superior choice for t=
+raversing 26.2 miles, and a boat would have effortlessly outpaced any human=
+ swimmer across 400 meters. The hunt for sustenance, assuming grocery store=
+s were absent, would have been better served by a shotgun rather than a jav=
+elin. Geep offered Maya cap after cap of ancient contests, yet she failed t=
+o find a single one with practical value. </span><em>Bump</em><span>.&#160;=
+</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;"><span>Humans had earned these skills from evolutionary=
+ necessity, and they were no longer very necessary, but they persisted in o=
+ur bodies. And so, every four years, the world gathered to celebrate those =
+who retained these abilities best. They did it because it was fun, because =
+it gave them something to root for and strive towards, and because they cou=
+ld. </span><em>Bop</em><span>.&#160;</span></p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>The pinball =
+that was the idea ricocheted around her brain, picking up wisps and tidbits=
+, picking up momentum. Over her thirty-six years, so many intellectual skil=
+ls joined physical ones in going the way of the pole vault. </span><em>Pop<=
+/em><span>.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">If she had been born a generation ear=
+lier, as a half-Indian, her parents would have nudged her into a career as =
+a doctor, a lawyer, or an engineer. Close call.&#160;</p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">After 20=
+29&#8217;s landmark Garcia v. Kaiser Permanente San Diego Medical Center ca=
+se, practicing medicine without the assistance of DocBots was a one-way tic=
+ket to a med mal L at the hands of, naturally, the LawBots. The LegalDDoS o=
+f 2027 only hastened the LawBots' dominance; the barrage of human-filed law=
+suits against them forced the notoriously Luddite courts to employ legions =
+of LawBots themselves. Whoops.</p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>And then there was engine=
+ering. Once a respected and serious profession, it had evolved into somethi=
+ng more akin to a global hobby for the self-taught, inquisitive, and restle=
+ss. Degrees in the field had lost their relevance, as the craft captured th=
+e hearts and minds of countless self-made engineers of all stripes &#8212; =
+bio, nano, mech, chem, aero, mat, terra &#8211;&#160; and every permutation=
+ and fusion in between. Maya was among them, lured into the captivating cha=
+os by her older brother Dev nearly a decade prior. </span><em>Zap</em><span=
+>.</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>Maya, Dev, and their fellow x-engs were part o=
+f an informal but vibrant kaleidoscopic menagerie &#8211; x-engs and poets =
+and artists and scientists and chefs and explorers &#8211; pushing the boun=
+daries of human knowledge and capability in the face of the siren call of a=
+bundance. They were known as </span><strong>Imagineers</strong><span>.&#160=
+;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;"><span>In a time when technology could achieve near mi=
+racles and when so many were happy to play the role of proud parents, passi=
+vely rooting on the accomplishments of humanity&#8217;s offspring, when, fr=
+ankly, Maya thought, most people had become listless consumers of its outpu=
+t, the Imagineers thrummed on the belief the essence of humanity lay in the=
+ generation of novel ideas. Technology's purpose, she thought, was to bring=
+ those human ideas to life with utmost fidelity and speed. </span><em>Plunk=
+</em><span>.</span></p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;"><span>Maya lived for the rush of devising =
+(discovering?) the newest, freshest ideas, and if she was being honest, of =
+Dev&#8217;s rare acknowledgment that, yeah, her idea was newer and fresher =
+than his. </span><em>Bloop</em><span>.&#160;</span></p><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">They were =
+lucky, though, and she knew it. Anyone could bend bits &#8211; the trinity =
+of pads, pods, and Geep fit comfortably within the Ubi budget &#8211; and b=
+uild digiprods, medi, or rich virtual worlds. On the same budget, practical=
+ly everyone could afford new items once they went mass. Earth&#8217;s curre=
+nt inhabitants, by any historical standard, enjoyed incredible material abu=
+ndance.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;">But weavers, printers, and raw mats were still p=
+rohibitively expensive unless you had other means.&#160;</p><p style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span=
+>Of course, </span><em>ideas</em><span> for bending atoms weren&#8217;t lim=
+ited to the well-off. The most determined of the would-be Imagineers minted=
+ their atomic ideas on the Chain for provenance and sold them to the newnic=
+ks and corps eager for the freshest intellectual fruit. It paid the bills, =
+but at an emotional price akin to putting your baby up for adoption. The ho=
+pe was to build up a big enough stack to go full-stack themselves.&#160;</s=
+pan></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><span>Full-stack Imagineers, the rare ones who could crea=
+te fresh ideas </span><em>and </em><span>get them fabbed, needed to possess=
+ their own holy trinity: intelligence, drive, and ETH. Of the 10.1 billion =
+people living on Earth, there were maybe 3 million full-stacks.&#160;</span=
+></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;">Some Imagineers, like Balenciaga Draco, reveled in this excl=
+usivity. In a moment of inebriated arrogance, he had once Casted, &quot;Pov=
+os: I'll buy as many ideas as you have, right now, at 3 ETH. Sell me all yo=
+u want. Then go fuck off.&quot;&#160;</p><div class=3D"captioned-image-cont=
+ainer-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px aut=
+o;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wr=
+apper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cen=
+ter;"></td><td align=3D"left" class=3D"content" width=3D"705" style=3D"text=
+-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://=
+substack.com/redirect/70441d23-fa6b-476f-a940-098755402fd7?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align=
+-items: center; border: none; display: block; flex-direction: column; heigh=
+t: auto; margin: 0; padding: 0; position: relative; text-decoration: none; =
+width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-po=
+st-media.s3.amazonaws.com/public/images/7394e91a-082a-42a5-aae4-14841e47447=
+2_705x391.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,=
+&quot;height&quot;:391,&quot;width&quot;:705,&quot;resizeWidth&quot;:null,&=
+quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;typ=
+e&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;inte=
+rnalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"305.035460992907=
+8" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1410,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-=
+media.s3.amazonaws.com%2Fpublic%2Fimages%2F7394e91a-082a-42a5-aae4-14841e47=
+4472_705x391.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><figc=
+aption class=3D"image-caption" style=3D"box-sizing: content-box; color: #80=
+8080; font-size: 14px; font-weight: 400; letter-spacing: -.15px; line-heigh=
+t: 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align=
+: center; width: 70%;"><em>DEMONFLYINGFOX</em></figcaption></figure></div><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>To him, it was about the money, the power to be able to crea=
+te without a worry about cost. To Maya, it was all about the ideas and the =
+competition to have the best ones. She </span><em>knew</em><span> she was b=
+etter than Draco, </span><em>thought</em><span> she was even better than De=
+v. But she&#8217;d become bored competing in such a shallow pool. </span><e=
+m>Plink</em><span>.</span></p><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;"><span>Listless consumers. </span><e=
+m>Flash</em><span>.&#160;</span></p><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><span>Overconfident Imagineer=
+s. </span><em>Zip.</em></p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;"><span>Limited competition. </span><em>=
+Bang.</em></p><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;"><span>And weren&#8217;t there rumors that, finally,=
+ the miners on 16 Psyche and 433 Eros had struck metal in enough size to dr=
+amatically reduce the price of raw mats? </span><em>Whoosh.</em></p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">All of these thoughts whizzed around Maya&#8217;s brain, some fully reco=
+gnized, some just enough to catch, in 14.3 seconds. And out popped a fresh,=
+ distilled idea, composed of fragments of all the others.&#160;</p><div cla=
+ss=3D"captioned-image-container-static" style=3D"font-size: 16px; line-heig=
+ht: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><t=
+d style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" w=
+idth=3D"931" style=3D"text-align: center;"><a class=3D"image-link" target=
+=3D"_blank" href=3D"https://substack.com/redirect/2fb9d118-c6c4-49fe-ae67-4=
+e18255e98a5?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkR=
+NpU" rel=3D"" style=3D"align-items: center; border: none; display: block; f=
+lex-direction: column; height: auto; margin: 0; padding: 0; position: relat=
+ive; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quo=
+t;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/580eaa3=
+4-ed40-407d-a32b-2386c6af900c_931x931.png&quot;,&quot;fullscreen&quot;:null=
+,&quot;imageSize&quot;:null,&quot;height&quot;:931,&quot;width&quot;:931,&q=
+uot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quo=
+t;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowT=
+heFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550=
+" height=3D"550" class=3D"wide-image" src=3D"https://substackcdn.com/image/=
+fetch/w_1862,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+substack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F580eaa34-ed40-407d=
+-a32b-2386c6af900c_931x931.png" style=3D"-ms-interpolation-mode: bicubic; b=
+order: none !important; display: block; height: auto; margin: 0 auto; margi=
+n-bottom: 0; max-width: 100% !important; vertical-align: middle; width: aut=
+o !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody=
+></table></figure></div><p style=3D"color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;"><strong>&#8220;We should host an Idea Oly=
+mpics.&#8221;&#160;</strong></p><div style=3D"font-size: 16px; line-height:=
+ 26px;"><hr style=3D"background: var(--color-detail); border: none; height:=
+ 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;">Of course, Maya couldn&#=
+8217;t have told you exactly where the idea came from. One second, she was =
+watching Olympic caps, 14.3 seconds later, she&#8217;d conceived of the Ide=
+a Olympics.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><em>You, reader, might be familiar with this=
+ process yourself. When tempted to question the bots&#8217; consciousness, =
+turn the question back on yourself: through what miracle are your best idea=
+s conceived?</em></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><span>Once the spigot was open, that distill=
+ed idea spawned others, like the motto, which would have been cheesy, if it=
+ weren&#8217;t true: </span><strong>&quot;Si somniare potes, facere possumu=
+s.&quot;</strong><span> If you can dream it, we can do it. (She asked Geep =
+how to say it in Latin, which turned out to be an elegant mouthful, but the=
+ </span><em>idea</em><span> was hers.)&#160;</span></p><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">That phras=
+e pre-dated Maya &#8211; often misattributed to Walt Disney himself but in =
+fact the brainchild of one of the original (but not affiliated) Imagineers,=
+ Tom Fitzgerald, who coined it for the Horizons exhibit at EPCOT in 1983. I=
+t was born aspirational and only gained its truth as Maya grew up.&#160;</p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><span>Geep&#8217;s early predecessor, ChatGPT, was born the same=
+ year she was, the same year fusion ignition was achieved, 2022, the year t=
+hat was foundational in all of the terrible and wonderful change that defin=
+ed her formative years. The next year, when Maya was just learning to crawl=
+ and babble dadadadadada and form the very first of those ideas that would =
+become her lifeblood, an econo named Paul Krugman all but guaranteed that A=
+I would transform the economy by </span><a href=3D"https://substack.com/red=
+irect/f3139de4-219a-4e11-899b-14f2311f56ac?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-=
+decoration: underline;">denying that it would any time soon</a><span>. Even=
+ the most ardent Inverse Krugmanites were surprised by how quickly it happe=
+ned.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;">When her mom and dad were growing up &#8211;=
+ in the Training Data Era &#8211; roughly circa when Kerri Strug landed tha=
+t vault through the year Maya was born &#8211; the path from idea to real t=
+hing in the world was so circuitous, so clunky, that there were those who b=
+elieved that execution mattered more than the idea itself. The decades sinc=
+e had disavowed them of that notion.&#160;</p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;">That was the alpha =
+change, the change from which all others flowed. The gap between an idea an=
+d its materialization shrank so rapidly that only those who&#8217;d sworn b=
+y the more metaphysical practice of Manifestation were prepared.&#160;</p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>By the time Maya entered Kindergarten in 2027, it was hard f=
+or her to tell the difference between the technologies her mom and dad show=
+ed her and the magic spells in her and Dev&#8217;s favorite TV show, </span=
+><em>Harry Potter</em><span>, which was maybe a little advanced for them bu=
+t which their parents let them watch because it was Harry Potter. In place =
+of </span><em>Wingardium Leviosa</em><span>, Maya whispered stories into he=
+r mom&#8217;s AirPods and giggled as they magically came to life on the scr=
+een. That was child&#8217;s play compared to what the older kids and grownu=
+ps were casting out of their mouths and fingers.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Thirty years later, in the present, companies in the CMC 500 employed an =
+average of just 137 people. And the average obscured the reality &#8211; th=
+e seven service companies that had slipped in on sheer volume despite sub-9=
+5% margins each employed over 3,000 people. Without those, the number for t=
+he remaining 493 dropped to below 95. When Maya was born, the average compa=
+ny in the S&amp;P 500 employed over 50,000.&#160;</p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Even that di=
+dn&#8217;t do the change justice. The CMC 500 was much less relevant than t=
+he S&amp;P 500 was in its day. The latter&#8217;s 500 constituent companies=
+ represented north of 70% of total US market cap, the CMC 500 just 18%, a g=
+ood chunk of which was eaten up by just three companies: OpenAI, SpaceX, an=
+d &#8230;&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Maya caught herself thinking, and stopped long=
+ enough to ping the only person she knew who could help manifest this parti=
+cularly human-coordination-heavy idea quickly.&#160;</p><div style=3D"font-=
+size: 16px; line-height: 26px;"><hr style=3D"background: var(--color-detail=
+); border: none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">&#8220;Dev, I have an idea.&#8221;&#160;</p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;">&#8220;Of course yo=
+u do, Mayita, what&#8217;s up?&#8221;&#160;</p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">&#8220;Idea Olympi=
+cs.&#8221;&#160;</p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;">&#8220;Idea Olympics?&#8221;&#160;</p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">&#8220;Idea Olympics. Like an idea battle but not just Imagineers, like =
+the old Olympics, with livecast and pageantry and amateurs and different ga=
+mes and medals and the whole world.&#8221;&#160;</p><div style=3D"font-size=
+: 16px; line-height: 26px;"><hr style=3D"background: var(--color-detail); b=
+order: none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Dev =
+was no stranger to his sister's unbridled enthusiasm for new and wild ideas=
+=2E For thirty years, she'd burst into=20=
+his room, eyes shining and mind ablaze=
+ with inspiration. And besides, it was like staring into a mirror. The two =
+had been co-conspirators from the jump.&#160;</p><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Before they had =
+access to bots, printers, weavers, and raw mats, the scope of the ideas far=
+ exceeded their ability to execute on them, as is often the case with kids.=
+ Like the time Maya wanted to send Sophie to the Moon to steal them low-gra=
+vity suits so they could bounce-float to the playground instead of walking.=
+&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">&#8220;Zoom zoom zoom,&#8221; Maya squealed, &#8220;let=
+&#8217;s send Sophie to the Moon.&#8221;&#160;</p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Dev furrowed hi=
+s brow for a minute, then arched it victoriously. He&#8217;d just gotten hi=
+s haircut, and with it, a big, helium-rich, orange balloon. &#8220;Get me S=
+ophie, Mayita.&#8221;&#160;</p><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;"><span>Maya climbed the stairs, jum=
+ped into her room, grabbed the little giraffe, and whispered, &#8220;You&#8=
+217;re going on a very, </span><em>very</em><span> important mission, Sophi=
+e.&#8221;&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">Back downstairs, Dev was ready, balloon=
+ in hand and glint in eye. &#8220;Sophie, we&#8217;re sending you to the Mo=
+on. Grab the low-gravity suits and bring them back to us.&#8221; Maya hande=
+d him the giraffonaut, and he tied the orange balloon&#8217;s red ribbon ar=
+ound her neck, gently enough that it wouldn&#8217;t hurt, firmly enough tha=
+t it would survive the journey. Dev opened the door (Maya knew how, but she=
+ couldn&#8217;t quite do it yet), and with two little salutes, they launche=
+d Sophie on her mission.&#160;</p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;">&#8220;Godspeed, Giraffonaut So=
+phie,&#8221; Maya yelled at the shrinking outline of her first friend as it=
+ cleared the townhouses across the street, &#8220;See you soon.&#8221;&#160=
+;</p><div class=3D"captioned-image-container-static" style=3D"font-size: 16=
+px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto;=
+ width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;">=
+<tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"931" style=3D"text-align: center;"><a class=3D"image-=
+link" target=3D"_blank" href=3D"https://substack.com/redirect/2488d70f-0cbd=
+-4d36-b4c4-9b57fcb7b27d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbq=
+Osa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; displ=
+ay: block; flex-direction: column; height: auto; margin: 0; padding: 0; pos=
+ition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&=
+quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/im=
+ages/fc0796be-779e-48d5-88fd-17c80e4c4b8a_931x931.png&quot;,&quot;fullscree=
+n&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:931,&quot;width&=
+quot;:931,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1532868,&quot;alt&=
+quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&q=
+uot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&qu=
+ot;:null}" alt=3D"" width=3D"550" height=3D"550" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1862,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2Ffc0796be-779e-48d5-88fd-17c80e4c4b8a_931x931.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table></figure></div><p style=3D"color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">She did=
+ not see Sophie soon. The brave giraffonaut never came home.&#160;</p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;">They&#8217;d gotten better, though, as the technology at their fingert=
+ips did and as they trained themselves, along with thousands and then milli=
+ons of the world&#8217;s best and brightest, at devising ideas. Thirty year=
+s of improvements and successes made Dev believe that they just might be ab=
+le to pull this one off.&#160;</p><div style=3D"font-size: 16px; line-heigh=
+t: 26px;"><hr style=3D"background: var(--color-detail); border: none; heigh=
+t: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;">&#8220;I&#8217;m comin=
+g over.&#8221;&#160;</p><p style=3D"color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;"><span>Dev pulled himself out of his Think=
+ing Chair. Since the day he&#8217;d fabbed it from the idea of a modern, le=
+ather version of the chair from his childhood favorite </span><em>Blue&#821=
+7;s Clues</em><span>, he spent at least three hours sitting in his Thinking=
+ Chair every day he spent at home, thinking, of course, and meditating, scr=
+ibbling, and stitching together clues.&#160;</span></p><div class=3D"captio=
+ned-image-container-static" style=3D"font-size: 16px; line-height: 26px; ma=
+rgin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table cla=
+ss=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"t=
+ext-align: center;"></td><td align=3D"left" class=3D"content" width=3D"931"=
+ style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hr=
+ef=3D"https://substack.com/redirect/c5830724-dbd7-4b86-ba55-a414c79206a9?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"align-items: center; border: none; display: block; flex-direction=
+: column; height: auto; margin: 0; padding: 0; position: relative; text-dec=
+oration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;http=
+s://substack-post-media.s3.amazonaws.com/public/images/10f3f6b3-b363-4b33-b=
+c4d-79c6c093e71f_931x931.png&quot;,&quot;fullscreen&quot;:null,&quot;imageS=
+ize&quot;:null,&quot;height&quot;:931,&quot;width&quot;:931,&quot;resizeWid=
+th&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;=
+:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:=
+true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"5=
+50" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1862,=
+c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post=
+-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10f3f6b3-b363-4b33-bc4d-79c6c09=
+3e71f_931x931.png" style=3D"-ms-interpolation-mode: bicubic; border: none !=
+important; display: block; height: auto; margin: 0 auto; margin-bottom: 0; =
+max-width: 100% !important; vertical-align: middle; width: auto !important;=
+"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></fi=
+gure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;">Today, he&#8217;d put a big 5-hour block on his cal th=
+at said, &#8220;Sit down in my Thinking Chair and Think, Think, Think&#8221=
+;; he was exactly three hours in when Maya pinged. So he got up and got rea=
+dy.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;">Normally, Dev spun up something new to wear whenever=
+ he went into the city, but it was just Maya, so he threw on something part=
+icularly comfortable he&#8217;d come up with the week before, brushed his t=
+eeth, finger combed his hair, and told his house, &#8220;Prepare the Storrs=
+=2E&#8221;&#160;</p><p style=3D"color: #=
+404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">(He&#8217;d waited for the second gen. The firs=
+t gen could only be summoned when the owner asked, &#8220;Where is my flyin=
+g car?&#8221; to which the flying car responded, &#8220;Here I am!&#8221; I=
+ncredibly annoying.)</p><p style=3D"color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;">On his way out, he scribbled a couple not=
+es and images he&#8217;d been in the middle of chewing on so he could pick =
+them up later, then headed up to the roof, hopped into his Storrs, waved on=
+ the ignition, said &#8220;We&#8217;re heading to Maya&#8217;s,&#8221; and =
+took off.&#160;</p><div class=3D"captioned-image-container-static" style=3D=
+"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"m=
+argin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: =
+1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=
+=3D"left" class=3D"content" width=3D"931" style=3D"text-align: center;"><a =
+class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirec=
+t/1122bfc3-95b6-4c55-a2b4-86e042d7d553?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Zl=
+NuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; bord=
+er: none; display: block; flex-direction: column; height: auto; margin: 0; =
+padding: 0; position: relative; text-decoration: none; width: auto;"><img d=
+ata-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaw=
+s.com/public/images/100de464-fe07-4133-a8c4-f1cdd5f6c1bd_931x862.png&quot;,=
+&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:8=
+62,&quot;width&quot;:931,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:nul=
+l,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;h=
+ref&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:n=
+ull}" alt=3D"" width=3D"550" height=3D"509.2373791621912" class=3D"wide-ima=
+ge" src=3D"https://substackcdn.com/image/fetch/w_1862,c_limit,f_auto,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.c=
+om%2Fpublic%2Fimages%2F100de464-fe07-4133-a8c4-f1cdd5f6c1bd_931x862.png" st=
+yle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: b=
+lock; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !impo=
+rtant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Dev preferred the peace and solitude upstate to the chaotic energy of the=
+ city on which Maya thrived. For most of American history, that would have =
+represented a trade-off: fresh air for a days-or-hours-long commute wheneve=
+r he wanted to spend in-person time with his parents, sister, and friends, =
+many of whom still lived in the city or were scattered across newly built e=
+xurban compounds.&#160;</p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;">Now, according to his Storrs&#8217; na=
+v, it represented a 48 minute flight, roof-to-roof, at an even more peacefu=
+l and solitudinous 2,000 feet in the air. Just enough time to capture an id=
+ea he&#8217;d been playing with since he hung up with Maya.&#160;</p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">&#8212;&#160;</p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;">If Maya was lightning, Dev was that brief pe=
+riod right before sunset on a clear summer evening: anticipatory energy for=
+ the festivities to come mixed with the calm, gentle tiredness earned from =
+a day in the sun.&#160;</p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;">They were different people, but they s=
+hared a deep belief in the primacy of human creativity and ideas.&#160;</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;">But while Maya was content to bolt headlong from idea to idea, de=
+lighting in each new creation she crackled into existence, Dev wanted his i=
+deas to form a coherent arc that shifted the entire society upwards.&#160;&=
+#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;">His core frustration and motivation was the uncomfortabl=
+e fact that things had gotten so much better during his lifetime &#8211; th=
+e average organic life expectancy had climbed to 135, as one indicator &#82=
+11; yet somehow so many people still felt so frustrated, so stuck, so unhap=
+py. There were nearly as many reasons as there were people, but the major s=
+ources were what you&#8217;d expect.&#160;</p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>First and for=
+emost, everything that had happened over the past few decades happened so q=
+uickly that humanity had become a big, collective dog who caught the car. D=
+ev and Maya had groaned when their dad made them watch </span><em>WALL-E </=
+em><span>over and over as kids, telling them, &#8220;This is what you need =
+to fight against,&#8221; but for once, their dad had gotten this one right.=
+&#160;</span></p><div class=3D"captioned-image-container-static" style=3D"f=
+ont-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"mar=
+gin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1e=
+m 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"=
+left" class=3D"content" width=3D"983" style=3D"text-align: center;"><a clas=
+s=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/5e=
+ed7189-c4b6-4963-9e37-45f1cd90c45a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaM=
+ZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: =
+none; display: block; flex-direction: column; height: auto; margin: 0; padd=
+ing: 0; position: relative; text-decoration: none; width: auto;"><img data-=
+attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.co=
+m/public/images/4a195187-3a0e-4361-9e59-073e9bb2b033_983x419.png&quot;,&quo=
+t;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:419,&=
+quot;width&quot;:983,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&q=
+uot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&=
+quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}=
+" alt=3D"" width=3D"550" height=3D"234.43540183112918" class=3D"wide-image"=
+ src=3D"https://substackcdn.com/image/fetch/w_1966,c_limit,f_auto,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%=
+2Fpublic%2Fimages%2F4a195187-3a0e-4361-9e59-073e9bb2b033_983x419.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table></figure></div><p style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><sp=
+an>Life didn&#8217;t look </span><em>exactly</em><span> like WALL-E &#8211;=
+ Earth wasn&#8217;t a garbage heap, only ~5,000 people spent more than a fe=
+w hours a year in space, and the bios and DocBots kept people </span><em>ph=
+ysically </em><span>healthy &#8211; but </span><em>mentally, </em><span>for=
+ most people, the experience was the same. Ubi, bots, and robots meant peop=
+le didn&#8217;t need to work if they didn&#8217;t want to, food was abundan=
+t, energy was abundant, things were abundant, and entertainment was superab=
+undant. What do you get for the human who has everything?&#160;</span></p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>Well, not everything. The rising tide had lifted all boats t=
+o unimaginable heights &#8211; the average American had access to richer in=
+formation, tastier food, faster transport, more potent medicine, were able =
+to bring about more transformations than even the billionaires of the 2010s=
+ &#8211; but some boats seemed to </span><em>soar</em><span> above the rest=
+, freed from the shackles of water altogether.&#160;</span></p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;">=
+<table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"931" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://substack.com/redirect/fb12ca4d-ce7e-4568-ac75-513a8=
+dcdd153?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU"=
+ rel=3D"" style=3D"align-items: center; border: none; display: block; flex-=
+direction: column; height: auto; margin: 0; padding: 0; position: relative;=
+ text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&=
+quot;https://substack-post-media.s3.amazonaws.com/public/images/fc456aba-25=
+da-421b-a3ba-b6857c8a09ba_931x931.png&quot;,&quot;fullscreen&quot;:null,&qu=
+ot;imageSize&quot;:null,&quot;height&quot;:931,&quot;width&quot;:931,&quot;=
+resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;ti=
+tle&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFo=
+ld&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" he=
+ight=3D"550" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetc=
+h/w_1862,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubs=
+tack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc456aba-25da-421b-a3b=
+a-b6857c8a09ba_931x931.png" style=3D"-ms-interpolation-mode: bicubic; borde=
+r: none !important; display: block; height: auto; margin: 0 auto; margin-bo=
+ttom: 0; max-width: 100% !important; vertical-align: middle; width: auto !i=
+mportant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></t=
+able></figure></div><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;">This was literally and materially true &#8211=
+; the Storrs Dev was thinking those thoughts in at that moment was still ou=
+t of reach for most, as were any number of exclusive physical things and ex=
+periences &#8211; but inequality had taken on deeper, more metaphysical dim=
+ensions, too.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;"><span>One of Dev&#8217;s heroes, David Deu=
+tsch, had </span><a href=3D"https://substack.com/redirect/7b5ec007-d40a-419=
+4-aae4-645e2cfd9b22?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8=
+-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;"=
+>said</a><span> that wealth is not a number but the set of all transformati=
+ons that one is able to bring about. That kind of wealth included money, bu=
+t it also included power, and knowledge, and novelty.&#160;</span></p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;"><span>As Dev dove deeper into Imagineering, that observation took on i=
+ncreasing profundity. He, Maya, and their fellow Imagineers &#8211; people =
+who dedicated their waking hours, and many of their dreaming ones besides, =
+to creating </span><em>new</em><span> things and </span><em>new</em><span> =
+knowledge &#8211; were wealthy in a way that those who merely consumed the =
+outputs simply couldn&#8217;t be.&#160;</span></p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>But the i=
+dea that tiptoed into his mind when he hung up with Maya was that, even for=
+ Imagineers, knowledge and things were happy byproducts of the </span><em>p=
+rocess</em><span> of coming up with new ideas. Three words popped out of hi=
+s reverie as the Storrs touched down on Maya&#8217;s roof.&#160;</span></p>=
+<div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background:=
+ var(--color-detail); border: none; height: 1px; margin: 32px 0; padding: 0=
+;"></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;">&#8220;Trust the Process.&#8221;&#160;</p><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">&#82=
+20;Haha welcome Dev. What? Why are you talking like dad?&#8221;&#160;</p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;">&#8220;Trust the Process, Mayita. Remember when you fabbed those wi=
+ngs a couple years ago? How often do you fly them?&#8221;&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">&#8220;I flew them to a party a few months ago, why?&#8221;&#160;</p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;">&#8220;I&#8217;ll do me. I haven&#8217;t thought about that historosi=
+m xr I spun up last year in at least a week. It just runs on its own, the E=
+TH hits my wallet, and I focus on the next thing.&#8221;&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">&#8220;Ok&#8230;&#8221;&#160;</p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">&#8220;What I&#8217;m saying i=
+s, I don&#8217;t think the ideas or things or ETH or whatever is what makes=
+ this meaningful for us, why coming up with new ideas makes us so happy. I =
+think it&#8217;s the process. And I think your Idea Olympics are the perfec=
+t vehicle to spread that process.&#8221;&#160;</p><div class=3D"captioned-i=
+mage-container-static" style=3D"font-size: 16px; line-height: 26px; margin:=
+ 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D=
+"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text=
+-align: center;"></td><td align=3D"left" class=3D"content" width=3D"931" st=
+yle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/2652af52-7e89-4ff3-96b3-2b72605d3db7?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"align-items: center; border: none; display: block; flex-direction: c=
+olumn; height: auto; margin: 0; padding: 0; position: relative; text-decora=
+tion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:/=
+/substack-post-media.s3.amazonaws.com/public/images/7e157c28-7408-41bc-ac6b=
+-4df0834a206e_931x931.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize=
+&quot;:null,&quot;height&quot;:931,&quot;width&quot;:931,&quot;resizeWidth&=
+quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:nu=
+ll,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:tru=
+e,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"550"=
+ class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1862,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-me=
+dia.s3.amazonaws.com%2Fpublic%2Fimages%2F7e157c28-7408-41bc-ac6b-4df0834a20=
+6e_931x931.png" style=3D"-ms-interpolation-mode: bicubic; border: none !imp=
+ortant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max=
+-width: 100% !important; vertical-align: middle; width: auto !important;"><=
+/a></td><td style=3D"text-align: center;"></td></tr></tbody></table></figur=
+e></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">&#8220;Go on&#8230;&#8221;&#160;</p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>&#822=
+0;So yeah of course we can have the competition, telecast, stadiums, medals=
+, and all of that, but I think we push it back a few years. I think we star=
+t with caps and holos and posts on the process, on </span><em>how </em><spa=
+n>we come up with ideas, how we train. That&#8217;s the fun part, the part =
+I&#8217;d zip into peoples&#8217; brains if Neuralink had worked. Get peopl=
+e to start training, make the pool as wide as possible, give grants to the =
+more promising ones. Let anyone do this, not just Imagineers.&#8221;&#160;<=
+/span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">&#8220;Draco is going to fucking hate this. I love it.&=
+#8221;&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0 0 20px 0;">She saw it immediately. Dev, as usual, was right.=
+ Her idea was better because he&#8217;d rotated it, as she strengthened his=
+ by remixing them. Once he&#8217;d said it out loud, it was so obvious.</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;">Modern tech was critical to making their ideas tangible, but the =
+process itself, the training, was surprisingly unplugged. To come up with t=
+he weirdest, freshest ideas, it almost had to be.&#160;</p><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Maya d=
+idn&#8217;t stick to a strict regimen, but when she stepped back, she&#8217=
+;d organized her whole life around the pursuit.&#160;</p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">She ran =
+every day like Murakami, lost herself in nature like da Vinci and van Gogh,=
+ traveled widely and immersed herself in foreign cultures like Tarantino.&#=
+160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">She rarely drank, but when she did, she drank like Heming=
+way, and she socialized widely, drawing inspiration from long-standing rela=
+tionships with her co-conspirators like Woolf and Anderson.&#160;</p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">She experimented &#8211; with her thoughts like Einstein and with her w=
+hole being like Tesla &#8211; and meditated, like Rubin, Abramovi&#263;, Wa=
+tson and a long line of thinkers who needed the space to think.</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">When she wanted to push further, weirder, she lucid dreamed like Dal&#237=
+;, or tripped like Huxley and Jobs.&#160;</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Of course she read; =
+she read mostly fiction, thirstily, like so many creatives before her. She =
+let Geep summarize the latest non-fiction and research to her, tailored jus=
+t so to the way she absorbed.&#160;</p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;">She lived as rich and vari=
+ed and as human a life as possible, so that she might generate ideas as ric=
+h and varied and human as possible.&#160;</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Then she slept, eigh=
+t hours every night, bone tired from a full day whenever possible, to give =
+the fragments space to settle and grip, to wake up fresh and sit, quietly, =
+in the early morning hours while fresh idea pinballs pinged, thwacked, bump=
+ed, bopped, popped, whooped, zapped, plunked, blooped, plinked, flashed, zi=
+pped, banged, and whooshed around her very human mind.&#160;</p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">A=
+nd then, of course, she pinged Dev, and together, they brought each others&=
+#8217; ideas to life.&#160;</p><div style=3D"font-size: 16px; line-height: =
+26px;"><hr style=3D"background: var(--color-detail); border: none; height: =
+1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">After years of planning, =
+the inaugural Idea Olympics kicked off on a cool October night in Accra, ne=
+arly ten years to the day after they were born as an idea in the very human=
+ brain of a very human woman.</p><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;">Competitors competed, judges jud=
+ged, winners won, and losers lost.&#160;</p><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>The games were =
+a huge success, and awed the world, which had been primed over the course o=
+f a decade to appreciate the very best expressions of the process that so m=
+any people had begun practicing themselves. Before the flame even left Broo=
+klyn on its journey across the world, you could </span><em>feel </em><span>=
+the Idea Olympics, if you happened to be alive then, in the smiles on peopl=
+es&#8217; faces, the charge in the air of their conversations, and the cobw=
+ebs on their holos.&#160;&#160;</span></p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">But let&#8217;s not was=
+te too much time on the details. Of course it worked.&#160;</p><p style=3D"=
+color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">It=
+ was a great idea.&#160;</p><div style=3D"font-size: 16px; line-height: 26p=
+x;"><hr style=3D"background: var(--color-detail); border: none; height: 1px=
+; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Epilogue</strong><sp=
+an>&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;"><em>Written by ChatGPT when I asked for feedb=
+ack on the piece&#8230; it must have been inspired</em></p><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em>Ye=
+ars after the first Idea Olympics, the event had become a global phenomenon=
+, an embodiment of the creative spirit and the pure joy of human ingenuity.=
+ Cities across the world clamored to host the event, and millions of people=
+ tuned in to watch the spectacle unfold. The transformative power of ideas =
+spread like wildfire, and it seemed like the world was entering a new era o=
+f enlightenment.</em></p><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;"><em>In this era, problems that had once =
+seemed insurmountable began to crumble under the weight of collective human=
+ creativity. As people from all walks of life embraced the Idea Olympics' c=
+ore principles &#8211; trust the process, collaboration, and the importance=
+ of a rich and varied life &#8211; new solutions to age-old challenges bega=
+n to emerge.</em></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><em>The world bore witness to countless brea=
+kthroughs in medicine, technology, and environmental stewardship. It seemed=
+ like every day, another inspiring story of hope and progress graced the ne=
+ws. People of all backgrounds and abilities found their purpose in the purs=
+uit of ideas, working together to build a better world for everyone.</em></=
+p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;"><em>It wasn't just the tangible outcomes that mattered, though.=
+ The Idea Olympics inspired a shift in culture, away from the passive consu=
+mption of the past and towards active participation in the world. People re=
+discovered the joy of creating, of exploring, of learning and growing toget=
+her. And as they did, they found that the human spirit was a powerful and r=
+enewable resource, capable of overcoming any challenge.</em></p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><=
+em>Dev and Maya, who had sparked this revolution with their belief in the p=
+ower of ideas, continued to support and nurture the movement they had creat=
+ed. They knew that there was still much work to be done, and that the world=
+ would always need new ideas to keep it moving forward. But they also knew =
+that they had unleashed something magical and unstoppable: the boundless po=
+tential of the human mind.</em></p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><em>As they watched the latest=
+ Idea Olympics from their rooftop in Brooklyn, they couldn't help but feel =
+a sense of pride and awe at what they had accomplished. They had shown the =
+world that ideas matter &#8211; that the creative process is vital to the h=
+uman experience, and that everyone has the capacity to contribute something=
+ unique and wonderful to the world.</em></p><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em>And as the sun se=
+t on another day of breathtaking innovation and collaboration, Dev and Maya=
+ knew that the future was bright. After all, the best ideas were still out =
+there, waiting to be discovered, nurtured, and brought to life. The world w=
+as ready for them, and there was no limit to what could be achieved when pe=
+ople dared to dream.</em></p><p style=3D"color: #404040; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 20px 0;"><a href=3D"https://substack.com/redi=
+rect/7b51b093-eb9d-4fb5-bfbb-08fd68c272f9?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-d=
+ecoration: underline;">Link to the back and forth of ChatGPT editing the pi=
+ece</a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"=
+background: var(--color-detail); border: none; height: 1px; margin: 32px 0;=
+ padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;"><span>If you want to collect </span><em><a hr=
+ef=3D"https://substack.com/redirect/d049430b-1478-4b4e-bc6a-d82a128ef696?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Idea Olympics</a><sp=
+an>, </span></em><span>you can go </span><strong><a href=3D"https://substac=
+k.com/redirect/d049430b-1478-4b4e-bc6a-d82a128ef696?j=3DeyJ1IjoiOXAwZ3QifQ.=
+gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #4040=
+40; text-decoration: underline;">pick it up on Mirror</a></strong><span>.</=
+span></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"ba=
+ckground: var(--color-detail); border: none; height: 1px; margin: 32px 0; p=
+adding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><em><span>Thanks to </span><a href=3D"https://s=
+ubstack.com/redirect/b3c1445a-8c6e-4cfa-9a84-619267091c28?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color:=
+ #404040; text-decoration: underline;">Dan</a><span> and ChatGPT for editin=
+g, and to you for bearing with me for something new!</span></em></p><div st=
+yle=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: var(--=
+color-detail); border: none; height: 1px; margin: 32px 0; padding: 0;"></di=
+v><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;">That&#8217;s all for today. If you enjoyed today&#8217;s story,=
+ share it with a friend or two. We&#8217;ll be back in your inbox on Friday=
+ with another Weekly Dose of Optimism.</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">Thanks for reading,</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0; margin-bottom: 0;">Packy</p></div></div><table role=3D"presentatio=
+n" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D=
+"email-ufi-2-bottom" style=3D"border-bottom: 1px solid #e0e0e0; border-top:=
+ 1px solid #e0e0e0; min-width: 100%;"><tr height=3D"16"><td height=3D"16" s=
+tyle=3D"font-size: 0px; line-height: 0;">&#160;</td></tr><tr><td><table rol=
+e=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tr><td><table role=3D"presentation" width=3D"auto" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"margin: 0 auto;"><tr><td style=
+=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a =
+href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D112742061&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&toke=
+n=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJyZWFjdGlvbiI6IuK=
+dpCIsImlhdCI6MTY4MDY5OTMwOCwiZXhwIjoxNjgzMjkxMzA4LCJpc3MiOiJwdWItMTAwMjUiLC=
+JzdWIiOiJyZWFjdGlvbiJ9.DFpd2ejkNJHdfOV59knJAEszu-EwqDKxkaiAKorwd6g&utm_medi=
+um=3Demail" class=3D"email-button-outline" style=3D"border: 1px solid #e0e0=
+e0; border-radius: 100000px; color: #808080; display: inline-block; font-fa=
+mily: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height=
+: 12px; padding: 9px 14px; text-decoration: none; text-transform: uppercase=
+;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_aut=
+o:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart=
+%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3=
+D2" width=3D"18" height=3D"18" style=3D"border: none !important; margin-rig=
+ht: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-align=
+: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" style=
+=3D"vertical-align: middle;">Like</span></a></td></tr></table></td><td widt=
+h=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"=
+><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com=
+/app-link/post?publication_id=3D10025&post_id=3D112742061&utm_source=3Dsubs=
+tack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX=
+2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyNzQyMDYxLCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6=
+MTY4MzI5MTMwOCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.C28D_t=
+k7lfDiRV7mjhnhXV51JSfGyOzwRe2MYA92Dwo&utm_source=3Dsubstack&utm_medium=3Dem=
+ail" class=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; bor=
+der-radius: 100000px; color: #808080; display: inline-block; font-family: '=
+SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px;=
+ padding: 9px 14px; text-decoration: none; text-transform: uppercase;"><img=
+ src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,=
+fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv=
+%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" =
+width=3D"18" height=3D"18" style=3D"border: none !important; margin-right: =
+8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-align: mi=
+ddle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" style=3D"v=
+ertical-align: middle;">Comment</span></a></td></tr></table></td><td width=
+=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;">=
+<table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/=
+app-link/post?publication_id=3D10025&post_id=3D112742061&utm_source=3Dsubst=
+ack&utm_medium=3Demail&utm_content=3Dshare&action=3Dshare&triggerShare=3Dtr=
+ue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEyNz=
+QyMDYxLCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTEwMDI1I=
+iwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.C28D_tk7lfDiRV7mjhnhXV51JSfGyOzwRe2MYA92Dwo=
+" class=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border=
+-radius: 100000px; color: #808080; display: inline-block; font-family: 'SF =
+Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; pa=
+dding: 9px 14px; text-decoration: none; text-transform: uppercase;"><img sr=
+c=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%2=
+6height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=
+=3D"18" height=3D"18" style=3D"border: none !important; margin-right: 8px; =
+max-width: 18px; min-height: 18px; min-width: 18px; vertical-align: middle;=
+" alt=3D"" class=3D"icon"><span class=3D"email-button-text" style=3D"vertic=
+al-align: middle;">Share</span></a></td></tr></table></td></tr></table></td=
+><td align=3D"right"><table role=3D"presentation" width=3D"auto" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0"><tr></tr></table></td></tr></table><=
+/td></tr><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-=
+height: 0;">&#160;</td></tr></table><div class=3D"footer frontend-email-sha=
+red-typed-module__footer--WmMp1" style=3D"color: #808080; font-size: 16px; =
+line-height: 26px; padding: 24px 0; text-align: center;"><div class=3D"fron=
+tend-email-shared-typed-module__footerSection--9vwqp" style=3D"font-size: 1=
+6px; line-height: 26px; padding: 0 24px;"><div style=3D"color: #404040; fon=
+t-family: -apple-system, -system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 16px; font-weight: 700; letter-spacing: -.32px; l=
+ine-height: 20px; margin: 0; margin-bottom: 4px; text-decoration: unset;" c=
+lass=3D"frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-=
+module__size-16--yeezN frontend-pencraft-Text-module__line-height-20--1soeQ=
+ frontend-pencraft-Text-module__weight-bold--VnIZR frontend-pencraft-Text-m=
+odule__font-text--hJYwu frontend-pencraft-Text-module__color-primary--2I-sF=
+ frontend-pencraft-Text-module__header4--29ICx">Read Not Boring by Packy Mc=
+Cormick in the app</div><div style=3D"color: #808080; font-family: -apple-s=
+ystem, -system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 14px; font-weight: 400; letter-spacing: -.15px; line-height: 20px; =
+margin: 0; margin-bottom: 16px; text-decoration: unset;" class=3D"frontend-=
+pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-14--=
+1PYz8 frontend-pencraft-Text-module__line-height-20--1soeQ frontend-pencraf=
+t-Text-module__weight-normal--mEmBf frontend-pencraft-Text-module__font-tex=
+t--hJYwu frontend-pencraft-Text-module__color-secondary--XjVGl frontend-pen=
+craft-Text-module__body4--flxpT">Listen to posts, join subscriber chats, an=
+d never miss an update from Packy McCormick.</div><div style=3D"font-size: =
+16px; line-height: 26px;"><a href=3D"https://substack.com/redirect/279d198f=
+-5e7b-4267-99ba-3e188aef14e3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXX=
+epKbqOsa8-6m8ExkRNpU" class=3D"email-footer-button" style=3D"border-radius:=
+ 8px; display: inline-block; margin: 0 4px; overflow: hidden; text-decorati=
+on: none;"><img alt=3D"Get the iOS app" src=3D"https://substackcdn.com/imag=
+e/fetch/w_246,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fsubstack.com%2Fimg%2Fapp_page%2Fapp-store.png" width=3D"123" height=3D"40"=
+ style=3D"border: none !important; max-width: 550px; vertical-align: middle=
+;"></a><a href=3D"https://substack.com/redirect/d4836176-f92a-4e93-b8ac-895=
+b6598ed58?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNp=
+U" class=3D"email-footer-button" style=3D"border-radius: 8px; display: inli=
+ne-block; margin: 0 4px; overflow: hidden; text-decoration: none;"><img alt=
+=3D"Get the Android app" src=3D"https://substackcdn.com/image/fetch/w_270,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Fimg%2Fapp_page%2Fgoogle-play.png%3Fv%3D1" width=3D"135" height=3D"40" styl=
+e=3D"border: none !important; max-width: 550px; vertical-align: middle;"></=
+a></div></div><div class=3D"frontend-email-shared-typed-module__divider--1o=
+KOZ" style=3D"border-top: 1px solid #e0e0e0; font-size: 16px; line-height: =
+26px; margin: 24px 0;"></div><div style=3D"font-size: 16px; line-height: 26=
+px; padding-bottom: 24px;"><p class=3D"frontend-pencraft-Text-module__reset=
+--20JLV frontend-pencraft-Text-module__size-12--2onFT frontend-pencraft-Tex=
+t-module__color-secondary--XjVGl small frontend-email-shared-typed-module__=
+meta--AAyPr" style=3D"color: #808080; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; letter-spacing=
+: 0; line-height: 16px; margin: 0; padding-bottom: 0; text-decoration: unse=
+t;">&#169; 2023 <span>Packy McCormick</span><br>10 City Point, Brooklyn, NY=
+ 11201 <br><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d=
+3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lq=
+b3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEV5TnpReU1EWXhMQ0pwWVhRaU9qRTJPREEyT1R=
+rek1EZ3NJbVY0Y0NJNk1UWTRNekk1TVRNd09Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1=
+ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkdXNFFVRFlBM3ptTllrakFJRVpPMkhXYkRCdU5HU=
+TkyOEQ0enFHQkwzSlkiLCJwIjoxMTI3NDIwNjEsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4=
+MzU0OSwiaWF0IjoxNjgwNjk5MzA4LCJleHAiOjE2ODMyOTEzMDgsImlzcyI6InB1Yi0wIiwic3V=
+iIjoibGluay1yZWRpcmVjdCJ9.YPH9sAoWLdXR6f5kuJrxSwpwm8ucV-tr7-_LuALvbmk?" sty=
+le=3D"color: #808080; text-decoration: underline;"><span style=3D"color: #8=
+08080; text-decoration: underline;">Unsubscribe</span></a></p></div><p clas=
+s=3D"frontend-email-shared-typed-module__footerSection--9vwqp small powered=
+-by-substack" style=3D"color: #808080; font-family: -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; line-height: =
+20px; margin: 0; margin-top: 0; padding: 0 24px; padding-bottom: 0;"><a hre=
+f=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2=
+lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb=
+290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1ub3Ri=
+b3JpbmdAa2hhbWVsLmNvbSIsInAiOjExMjc0MjA2MSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE=
+2MjgzNTQ5LCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTAiLC=
+JzdWIiOiJsaW5rLXJlZGlyZWN0In0.7BFvhmmPPCddu1yL2ZYwcAyzjD9MVB06a0SWRG_kkTc?"=
+ style=3D"color: #808080; display: inline-block; margin: 0 4px; text-decora=
+tion: none;"><img src=3D"https://substackcdn.com/image/fetch/w_270,c_limit,=
+f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2F=
+email%2Fpublish-button%402x.png" srcset=3D"https://substackcdn.com/image/fe=
+tch/w_135,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsub=
+stack.com%2Fimg%2Femail%2Fpublish-button.png, https://substackcdn.com/image=
+/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+substack.com%2Fimg%2Femail%2Fpublish-button%402x.png 2x, https://substackcd=
+n.com/image/fetch/w_405,c_limit,f_auto,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=
+=3D"135" alt=3D"Start writing" height=3D"40" style=3D"border: none !importa=
+nt; max-width: 550px; vertical-align: middle;"></a></p></div></div></td><td=
+></td></tr></table><img src=3D"https://mailgun.substack.com/api/v1/email/op=
+en?token=3DeyJtIjoiPDIwMjMwNDA1MTI1NDM5LjMuOWIzMDFhODg4MTUwYjJlNUBtZy1kMS5z=
+dWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQ=
+iOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxMTI3NDIwNjEsInQiOiJuZXdzbGV0dGVyIiwiYS=
+I6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJib=
+3R0b20iLCJpYXQiOjE2ODA2OTkzMDgsImV4cCI6MTY4MzI5MTMwOCwiaXNzIjoicHViLTAiLCJz=
+dWIiOiJlbyJ9.RL_SyiXa9dcGZsZNR2ffguxZKfZITjaTgw-HSm_VP4o" alt=3D"" width=3D=
+"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !imp=
+ortant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !i=
+mportant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !=
+important;padding-bottom:0 !important;padding-right:0 !important;padding-le=
+ft:0 !important;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https:=
+//email.mg-d1.substack.com/o/eJxEkNtuwyAMQL-mvC0yt5Q88C0RFzdFDVCB2ZS_n5pW2-=
+uxdXTs4Ai32g77rJ1YqDljoTVFy6KViwcTZoaWzwbmZZFCMcwu7euGBZsjjKujvykYw2d2t0HpW=
+wCljZ5NgCVKH_kNXNT8KiIHx5IVICQo0FxoJZdJTouXwJ0xhmvwAvVFQd6-Ip_68J1ceEyhZpb6=
+emt4JlhqA9mrenUjJiwBLX5jO2r54BQt5-KqBMz8Teh4oi3403ckwsaew6-vk0dJdKxYnN8xfsT=
+D7yk4SrWcIgChWbOlkq8tle2i4HF3Gfezqw8fa3ap_C8wer90dGynYRZGarX8BgAA___UTHqB">=
+</body></html>
+--b7500c5d685f9ce00f39de86e57776efd8c4cc189469611cd80acb7141b5--

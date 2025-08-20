@@ -1,0 +1,2006 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp381885lko;
+        Tue, 15 Feb 2022 10:28:20 -0800 (PST)
+X-Received: by 2002:adf:e5c4:: with SMTP id a4mr187363wrn.441.1644949700335;
+        Tue, 15 Feb 2022 10:28:20 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1644949700; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zVuTPWClQqmfHBNNeQcMfM8xGARmrUw2ccAR+a44Ge2Ui/u/0yY570X2NK8E7RM6Nn
+         /03GsSjlYSUZ025sBSlnD83D2pAlOJxrnYg+FDHCObr8vkR5iHG/C5/sLYld97vo3knf
+         E1aRHNIGgIpUFzamRGV8FfsOcdUuNHDC1rdyjYkanmawfsBvb2XkwJE2lS4r7wZpa/5J
+         Awz7BWSlgABM+KCOvUg7Ec6JaZsRXcrj8wMgquZbkR0+Jc/0oAixGIRey0EfhaeoCZ7i
+         S2p1hd1w+kmaLBG38CmO0TMo3GynmrdX3NosxQke7C35beCIGk6UTnsadiIxmIFVPyTI
+         4QpQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Kn7d4FHDg7vJiunr/egCeSyKhJcv6APXlezk+iYIcKs=;
+        b=C30qpMqZKkmyxFNtBIYxEfmqxjtFIvglZSn5QpCRnYhX8P9cAvPUlXGg8gCKVSSlrW
+         LElYj+9pprtUYc5m9rYkXPO4Kx6h8X9NKavcEYDAqIw51Hgmgb8Xo0a68kKG0e+aqw2y
+         6iRxrb+/9n2gLEeIqphvHl+gGIYvAviH3xYBhqpAmPGRA3ZhaPV2sHu6XRrAjJcC85oc
+         Np52dFdpVwkNdowAN4u10FQj389NrswHfE4pZ+2DPVLblB3mbMl8ZX/lxUpCmau9VQaA
+         SQvv9CaTKMmJJHXdfKELyY6T+M3gJl5lOnwn5f/F/ntWIj3ljCaFJb0+MQR4CG7O+/BV
+         p7xw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=s3wNz0mk;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o7sor20239672wrg.11.2022.02.15.10.28.20
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Feb 2022 10:28:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=s3wNz0mk;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=Kn7d4FHDg7vJiunr/egCeSyKhJcv6APXlezk+iYIcKs=;
+        b=ezqghGmFg/KsDJeAz3HdFhVidoSzt+pnBkJ0g6E8rx8+OgaCCFGtg11otThbbAcF+L
+         j2cb/O0NYYxJ/pe6fDXcHBCsn80SBJpsDRfJaQUCoLphIOA+GdxibFkLvK/0s4MAIEdl
+         PGQQZOW6KRkPCH9W3mS5kl2MSivTbHHD6+HGvKw6h0PahoDqXwkpfRq8k0xGIVQrCQ/M
+         udNsjeTocIvdyeUwcD/CnnWB1gOyutTCOiyT1XmbF+8zB2M7ajxltwtqd3+V+KOxRdPd
+         55Poev6tyGeMwSD6vdTVjEgTuzkKY3O/03uXhN1ljSS67Cbevx3278MiTxVi88Ygdbf4
+         eXdg==
+X-Gm-Message-State: AOAM530ZeUHDQPkCivBnCe08kQUCSU+hS+BLv3cGRkIRoehLLhO1OB+s
+	8EqoKEPmmC00XqGwznzyFO8BWOf/wcPAwfRYdq6QLB8VPR9BJcnvDQ==
+X-Received: by 2002:adf:bbc8:: with SMTP id z8mr217973wrg.476.1644949699951;
+        Tue, 15 Feb 2022 10:28:19 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:a351:0:0:0:0:0 with SMTP id d17csp522188wrb;
+        Tue, 15 Feb 2022 10:28:17 -0800 (PST)
+X-Received: by 2002:a25:2c87:: with SMTP id s129mr217391ybs.562.1644949697048;
+        Tue, 15 Feb 2022 10:28:17 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1644949697; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VmuCncetQYPQfZ+eN0dDI292JyX5hezrtZXWOq2LKQBU2I9T7uL/vNFvNO+tIiPXur
+         UGmlkQvwsDwTAZ05Xb2TS1Jy7NvBK5s2XE37m49reeiQEC/Powz39/2gEzopJLWki09U
+         X6sy3EoU/MyIpR23ZdHhxL5vwk4bKlIUDKazmbJTlkspaW1J7xgkyhQSjYRXgzeG2gIs
+         QHxYHu6TUXONdoc6AMR9R2JwrmBZIgqsam36e5qThbEJntda+I9FSJKKghVj+kXK+m3Y
+         Rz+yqok/0DEr0WdR938fXaD135albu27FvpaJZialquk7NR2lPirGYHIMo928RfXQFP7
+         1OUQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Kn7d4FHDg7vJiunr/egCeSyKhJcv6APXlezk+iYIcKs=;
+        b=NVP7jVIxwAIPe0MtPEqDjRcnctpkq5x0/4ZmzIwIZtHXf3WaxfWzG+DOjuxS573W/e
+         f+ApGweHXKwN7AntpFM6PwPa/rWaPPlI52aAEbmJSkj33LZJsvzKLduskjRzVp2cF++i
+         JuQKaxx7H7qoYQ+ytTyT+b/WM5tGtrLpwlC690LUyUVfc3D54vL965PKEkVUtq1J91yO
+         Yq09PQRlpeCW97mNEqRbRBQhhdfOXKk33RxEJ2F/VazT3TY0soL73gpzU0SJ0FYuedI4
+         Si8AfWrViDk+8iMtclvneznkthpDLeySx3eqT1Sye9MYi4UwJnsr7y2IW0A1sCikN8j7
+         Es7A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=s3wNz0mk;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220215132758.26719940.285603@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220215132758.26719940.285603@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220215132758.26719940.285603@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c18sor6179305ywk.132.2022.02.15.10.28.16
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Feb 2022 10:28:17 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220215132758.26719940.285603@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJy0wcPh3OXtlki2/hTesCV/ul3rLFfJa27XMrHilkGwY3IEcguhmJNDzIeKvxdt6S9SyIyIjmnwQjuzbVPAczgYrHsL+cM=
+X-Received: by 2002:a81:7e06:: with SMTP id o6mr135184ywn.13.1644949696661;
+        Tue, 15 Feb 2022 10:28:16 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1644949696; cv=none;
+        d=google.com; s=arc-20160816;
+        b=O60hfdI4QoZr8uRaBGxCuhFejjWj6bu/AF8AmrLjYWEGry0ZSC3LeoFf4RCmHK2/NY
+         mY+DbiUy0U6sSpw2yl1feaHooJXv3lExxuoaAYqirQyDI7Vey8OQPBQH7yONsgIVTglf
+         76pQ4PwfzlxKErnIlUN+O5I8eJuCpyvB2rB8nHl/ZZjJVBD+7wVsf3UamO0nHYM7D9Gc
+         kLTzTJuv37f6vhidweXTlGQY1HEy0HGcpGtNWtwWKnJgpYQwbYyd5vXWRcLj10zaqY6m
+         VmwEw27Y9BtJfPB1eOFWdQfIpenV7wvDTP0L4w0ejXWBd8OlRVDK5l/EiuHVeSN7LaX1
+         MgJw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Kn7d4FHDg7vJiunr/egCeSyKhJcv6APXlezk+iYIcKs=;
+        b=F2JayI44qGev4L8L4D117dxuSfRyaM+EkhTJIrvuwou9o+ny/4Ehg+XVC2aPyS4Wxz
+         fbpTeqqdHmmA3rA1VaIIhZfo6jpKGn5LyQ7oeY4n6gx8MjnszTR/NGfxWPSLrbB4AfvR
+         ixaBhNfqOU73ccdtkvmhxLJgtYEeRfQeqYeIbss5DzLUObKomquD8C1F0RWVaE0a+p5C
+         vuGSVidZpi/+2vK7/jxIBtZ73iHXVlXP9lwD1HvwdTh49slvj84A8z3xLukX2yvK7xpr
+         R9qDLQNMsk9vYA80+NcLBfcci7BaXrktg820CEjSAPQIUAL2lR7gvw6IKBJG30wZ0fWg
+         k8/g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=s3wNz0mk;
+       spf=pass (google.com: domain of delivery_20220215132758.26719940.285603@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220215132758.26719940.285603@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220215132758.26719940.285603@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id h5si3247068ywm.1.2022.02.15.10.28.08
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Feb 2022 10:28:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220215132758.26719940.285603@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=AQIW6l1IFbrC1lUT95VWIUOxIUMI+O87fb0fnuYfppw=;
+ b=s3wNz0mkRIg/lYOl+BrIc3504MNiZbJOk2vPQxRqyzjIC9iMGAvbUxP+nEvy0Vf1aNZ5EoV5RRGh
+   ZiqVza9e8WAgj4i5zPMxizvEXdUKqNYvQgiJu7Q0cX4HyTIaDrgF4YAuENlOJvhIUdckEt+H4tAP
+   HfVbhyV0LF7wB2G7K+s=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id h1fobi2tkt08 for <bloomberg@khamel.com>; Tue, 15 Feb 2022 13:28:00 -0500 (envelope-from <delivery_20220215132758.26719940.285603@mx.sailthru.com>)
+Received: from nj1-farmelon.flt (172.18.20.31) by njmta-90.sailthru.com id h1fob01qqbsq for <bloomberg@khamel.com>; Tue, 15 Feb 2022 13:27:58 -0500 (envelope-from <delivery_20220215132758.26719940.285603@mx.sailthru.com>)
+Date: Tue, 15 Feb 2022 13:27:58 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220215132758.26719940.285603@sailthru.com>
+Subject: Money Stuff: You Get the Crypto Rules You Pay For
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_45645782_1941592286.1644949678736"
+Precedence: bulk
+X-Feedback-ID: 6358:26719940:campaign:sailthru
+X-TM-ID: 20220215132758.26719940.285603
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfwp8k.64df/96103fc2
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfwp8k.64df/96103fc2>, <mailto:unsubscribe_20220215132758.26719940.285603@mx.sailthru.com>
+X-rpcampaign: stjko26719940
+
+------=_Part_45645782_1941592286.1644949678736
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        BlockFiHere is a dumb model of financial regulation. There are two =
+general ways for authorities to regulate financial activities. Call one =E2=
+=80=9C
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      BlockFi
+   =20
+ =20
+Here is a dumb model of financial regulation. There are two general ways fo=
+r authorities to regulate financial activities. Call one =E2=80=9Crulemakin=
+g.=E2=80=9D=C2=A0A regulator thinks about some financial things, decides ho=
+w they should work, solicits comments from industry participants and the ge=
+neral public, and writes a rule explaining in some detail how things will w=
+ork. After that, everyone who does those things knows what the rules are an=
+d what things they are and are not allowed to do.Call the other =E2=80=9Cre=
+gulation by enforcement.=E2=80=9D The regulator doesn=E2=80=99t spend much =
+time writing specific new rules, but just relies on some general old rules =
+saying things like,=C2=A0you know, =E2=80=9Cdon=E2=80=99t use an artifice t=
+o defraud.=E2=80=9D What that means can be unclear and, more to the point, =
+if the regulators decide to go after you for using some artifices, your lif=
+e will be unpleasant even if you ultimately win. Knowing this dynamic, the =
+regulators can use enforcement actions to decide and declare what is and is=
+ not allowed. Everyone goes around doing things, and then some of them get =
+sued by the regulator and have to pay a bunch of money to settle the lawsui=
+ts. Everyone watches those lawsuits, and each lawsuit tells everyone a bit =
+more about what is and is not allowed. If the regulators sue someone for do=
+ing X, and you=E2=80=99re also doing X, you stop doing X. =E2=80=9CDon=E2=
+=80=99t do X=E2=80=9D has become a rule without any rulemaking. The first p=
+erson to get sued for X didn=E2=80=99t know that that was the rule, though,=
+ and gets in trouble and has to pay a fine.One way to think about this is t=
+hat it is unfair: That person didn=E2=80=99t know X was against the rules, =
+why should she get in trouble? Often though it does not feel that unfair, b=
+ecause X probably does look pretty bad; it=C2=A0probably=C2=A0was=C2=A0at l=
+east arguably against some general rule like =E2=80=9Cdon=E2=80=99t use any=
+ artifices.=E2=80=9D It=E2=80=99s a little random that this person got in t=
+rouble for doing X, but it=E2=80=99s not like she was totally innocent eith=
+er. The people who get fined were in some gray area; they didn=E2=80=99t kn=
+ow that what they were doing was=C2=A0not allowed, but they had some notice=
+ that it=C2=A0might not be allowed.But another way to think about it is tha=
+t regulation is expensive, and regulation by enforcement is a way to make t=
+he industry pay for regulation. In rulemaking, the regulator has to put a l=
+ot of expensive effort into figuring out what should be allowed; this is pa=
+rticularly hard when a lot of novel activities are going on, and there is a=
+ risk that the regulator will get it wrong, miss things, move too slowly, e=
+tc. In regulation by enforcement, the industry has to put a lot of expensiv=
+e effort into figuring out what is not allowed, and the risk of missing thi=
+ngs is on the industry; the regulator gets to focus its attention on what i=
+s actually happening=C2=A0and what it wants to prevent rather than theoreti=
+cal generalities. More concretely, each time the industry gets a little mor=
+e clarity =E2=80=94=C2=A0each time it learns a new X that is or is not agai=
+nst the rules =E2=80=94=C2=A0it=C2=A0pays a big fine. =E2=80=9CFines are a =
+cost of doing business,=E2=80=9D people complain about financial regulation=
+, but perhaps sometimes it is more like=C2=A0=E2=80=9Cfines are a cost of f=
+iguring out what the rules are.=E2=80=9D The regulators will tell you what =
+the rules are, but one at a time, and for $10 million per rule.=C2=A0If a c=
+rypto startup went to the U.S. Securities and Exchange Commission and said =
+=E2=80=9Cwe want regulatory clarity about what we need to do to run crypto =
+lending programs, so you should write some rules about it,=E2=80=9D the SEC=
+ would say =E2=80=9Csure, we=E2=80=99ll give that some thought in like 2036=
+.=E2=80=9D If it went to 50 different U.S.=C2=A0states and asked them for c=
+larity it would get even more confused. If it went to the SEC and said =E2=
+=80=9Clook, to speed this process along, why don=E2=80=99t we pay you $50 m=
+illion to prioritize writing these rules,=E2=80=9D that would be a very bad=
+ crime and it would to go prison.But BlockFi will give the SEC $50 million,=
+[1] and it will give some=C2=A0states another $50 million, and  now it has =
+clarity about crypto lending programs:Crypto proponents have argued for yea=
+rs that regulators shouldn=E2=80=99t apply decades-old rules to the burgeon=
+ing asset class. But in a move with sweeping implications for the industry,=
+ at least one prominent company is now planning to register its offerings w=
+ith the Securities and Exchange Commission.=C2=A0BlockFi Inc. announced on =
+Monday that it=E2=80=99d seek SEC approval for accounts that pay clients hi=
+gh yields for lending out their crypto as part of a record $100 million set=
+tlement with federal and state securities watchdogs. The plan would give th=
+e Jersey City, New Jersey-based firm the first SEC sanctioned product of it=
+s kind, immediately adding pressure on competitors to follow suit. =E2=80=
+=A6As part of the agreement announced by the SEC, current BlockFi customers=
+ can continue to earn interest on their existing investments, but the compa=
+ny must not sell the products to new American clients. The company has 60 d=
+ays to seek to comply with SEC regulations and it=E2=80=99s also seeking to=
+ register a new crypto-lending product that will satisfy the agency=E2=80=
+=99s rules.That is from a Bloomberg article about BlockFi=E2=80=99s big new=
+ plans that will give it a first-mover advantage and also about the $100 mi=
+llion fine it paid. The headline is =E2=80=9CBlockFi=E2=80=99s Plans to Reg=
+ister with SEC Augurs New Era for Crypto.=E2=80=9D The Wall Street Journal=
+=E2=80=99s headline is =E2=80=9CBlockFi to Pay Record Penalty to Settle SEC=
+ Probe of Crypto Lending Business.=E2=80=9D Both true!=C2=A0Or here is=C2=
+=A0Bloomberg=E2=80=99s Emily Chang  interviewing BlockFi Chief Executive Of=
+ficer Zac Prince about the settlement, and while she starts the interview b=
+y asking why BlockFi broke the law =E2=80=94=C2=A0which is after all what t=
+he SEC concluded here=C2=A0(BlockFi neither admitted nor denied it) =E2=80=
+=94 Prince stays on message that this settlement is about =E2=80=9Cblazing =
+a path=E2=80=9D and =E2=80=9Cfinding a regulatory construct=E2=80=9D for cr=
+ypto lending. And  here=E2=80=99s this:Kristin Smith, the executive directo=
+r of the Blockchain Association, said her trade group is =E2=80=9Ccommitted=
+ to working with Washington to establish common-sense guardrails for indust=
+ry in which to operate.=E2=80=9D She called the BlockFi settlement =E2=80=
+=9Ca step forward toward that goal.=E2=80=9DI think that you can read this =
+story as =E2=80=9CBlockFi did something illegal and got in trouble,=E2=80=
+=9D or you can=C2=A0read it as =E2=80=9CBlockFi has worked with the SEC to =
+develop=C2=A0the first U.S. regulated crypto lending product, giving it a c=
+ompetitive advantage,=E2=80=9D but I do not really think you have to choose=
+. BlockFi ventured out into the gray area, which got it (1) a big fine and =
+(2) clarity.=C2=A0It is certainly possible that I am exaggerating here. The=
+ SEC has been saying for some time that crypto yield products like this =E2=
+=80=94=C2=A0in which retail customers deposit their cryptocurrency with an =
+exchange, which then lends it out to institutional borrowers and pays the r=
+etail depositors a fixed interest rate =E2=80=94=C2=A0are securities under =
+standard interpretations of U.S. law, and I have in the past agreed=C2=A0th=
+at they are pretty obviously securities. BlockFi has real lawyers and appar=
+ently disagreed, but I do not think that the SEC would say that this was a =
+gray area.[2] Thus the $100 million fine.It also may be an exaggeration to =
+say that BlockFi has gotten a ton of clarity here, or a clear path to a leg=
+al product. It still has to write a registration statement and indenture fo=
+r its SEC-registered yield product, and the SEC=E2=80=99s examiners could o=
+bject when it does file that statement.[3] Still it seems like both sides h=
+ere think that they have found a path to compliance that works. The headlin=
+e on the SEC=E2=80=99s press release is not just about the fine; it says =
+=E2=80=9CBlockFi Agrees to Pay $100 Million in Penalties and Pursue Registr=
+ation of its Crypto Lending Product.=E2=80=9D And the SEC=E2=80=99s order g=
+oes so far as to include a picture of what it expects BlockFi=E2=80=99s leg=
+al lending product to look like:That=E2=80=99s an=C2=A0approving picture; t=
+hat=E2=80=99s, like, =E2=80=9Cthis thing is a thing that we could see our w=
+ay to allowing.=E2=80=9D You don=E2=80=99t include a picture of BlockFi=E2=
+=80=99s proposed product if you think the proposal doesn=E2=80=99t work.And=
+ it is in both sides=E2=80=99 interests to make this work: BlockFi of cours=
+e wants to have a profitable lending product, but the SEC also wants to dem=
+onstrate that it can regulate crypto activity. =E2=80=9CWe will ban all cry=
+pto activity=E2=80=9D is not, I think, a particularly viable approach for t=
+he SEC to take at this point. The SEC wants to send a message along the lin=
+es of =E2=80=9Clots of crypto things are securities and thus subject to sec=
+urities regulation, but that=E2=80=99s fine because securities regulation i=
+s totally workable for crypto things.=E2=80=9D So=C2=A0making securities re=
+gulation work for a popular crypto product=C2=A0is a goal for the SEC too.W=
+e are still in the very early stages of crypto regulation in the U.S., and =
+if you are a crypto firm you have to think a bit about the meta-regulatory =
+landscape.=C2=A0There seem to be roughly three approaches:=09Try to make yo=
+urself as immune as possible to U.S. regulation by setting up abroad, runni=
+ng your firm as a decentralized entity with no one for the SEC to yell at, =
+staying anonymous, and doing whatever egregious things you want. So far thi=
+s seems to work! Not everyone will want to move abroad and be anonymous tho=
+ugh, and this approach seems to carry some big risks.=09Try to be as law-ab=
+iding as possible, consult with the relevant U.S. authorities before doing =
+anything adventurous, and make your case to the regulators for rules that y=
+ou think will be good for crypto. This sounds good, but I am not sure it=C2=
+=A0works. When Coinbase Global Inc., a U.S. public company, wanted to launc=
+h a lending product like BlockFi=E2=80=99s, the SEC   told it not to and it=
+ didn=E2=80=99t. Last October=C2=A0Coinbase put out=C2=A0an ambitious=C2=A0=
+=E2=80=9COperational Framework of the Digital Asset Policy Proposal,=E2=80=
+=9D which it clearly hoped would spark a conversation in Washington about h=
+ow best to build a new crypto regulatory framework for crypto; I don=E2=80=
+=99t think anyone has mentioned it since.=C2=A0When Facebook (now Meta Plat=
+forms Inc.) wanted to launch a stablecoin, it put on a big show of working =
+with regulators, which gave regulators lots of chances to say no, which the=
+y did, and now=C2=A0Facebook=E2=80=99s stablecoin dream is dead. =E2=80=9CT=
+here is a certain drunk-under-the-lamppost element to current U.S. crypto r=
+egulation,=E2=80=9D   I wrote recently: =E2=80=9CIf you incorporate a compa=
+ny in the U.S. and walk into the SEC=E2=80=99s office and ask =E2=80=98hey =
+what are we allowed to do,=E2=80=99 the answer is =E2=80=98almost nothing.=
+=E2=80=99=E2=80=9D=09Try to be, you know, a medium amount of law-abiding. K=
+eep doing stuff, stake out aggressive but plausible legal positions, and wh=
+en the SEC complains be quick to settle. =E2=80=9CMove fast and break thing=
+s,=E2=80=9D =E2=80=9Cbetter to ask forgiveness than permission,=E2=80=9D et=
+c. Each time the SEC says you broke the law, you get a little more informat=
+ion about=C2=A0what the law is, and each time you negotiate a settlement, y=
+ou get an opportunity to=C2=A0influence the law. This is expensive, but may=
+be it works? Nothing in this column is ever legal advice, and in particular=
+ I hate to say=C2=A0=E2=80=9Cmaybe you should break the law a little bit.=
+=E2=80=9D But, uh, what do you conclude from this?Here=E2=80=99s what SEC C=
+ommissioner Hester Peirce concluded, in dissenting from the settlement:We o=
+ften tell companies wanting to offer products that could implicate the secu=
+rities laws to =E2=80=9Ccome in and talk to us.=E2=80=9D =C2=A0To make that=
+ invitation meaningful, however, we need to commit to working with these co=
+mpanies to craft sensible, timely, and achievable regulatory paths. =C2=A0W=
+orking with an earnest desire to reach a prudent, properly calibrated regul=
+atory outcome is important for a number of reasons. =C2=A0First, these prod=
+ucts matter to people. =C2=A0A program that allows people=E2=80=94and not j=
+ust affluent people=E2=80=94to keep their crypto assets, while still earnin=
+g a return is valuable to many Americans, as evidenced by the programs=E2=
+=80=99 popularity in the United States to date. =C2=A0The investor protecti=
+on objective of today=E2=80=99s settlement will be poorly served if retail =
+investors are ultimately shut out from participation in these products. =C2=
+=A0Second, our process speaks volumes about our integrity as a regulator. =
+=C2=A0Inviting people to come in and talk to us only to drag them through a=
+ difficult, lengthy, unproductive, and labyrinthine regulatory process cast=
+s the Commission in a bad light and thus makes us a less effective regulato=
+r. =C2=A0Third, a company that tries to do the right thing should be met ac=
+ross the table by a regulator that tries to get to a sensible result in a r=
+easonable timeframe. =C2=A0For the sake of the American public, our own rep=
+utation, and the companies that heed our call to come in and talk to us, we=
+ need to do better than we have so far at accommodating innovation through =
+thoughtful use of the exemptive authority Congress gave us.I dunno, BlockFi=
+ seems weirdly happy that it talked to the SEC. But it was an expensive con=
+versation.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Block trades
+   =20
+ =20
+Trading desks at investment banks are, famously, in the moving business, no=
+t the storage business. If you want to sell a big block of stock, an invest=
+ment bank will not want to own it; they are just not set up to own big bloc=
+ks of stock. But they are in the moving=C2=A0business, and if you come to t=
+hem looking to sell a big block of stock they will buy it from you, both be=
+cause that is how they make money (buying it from you and then reselling it=
+ at a higher price) and more deeply because that is their=C2=A0job and thei=
+r customers won=E2=80=99t like them if they say no. They are in the busines=
+s of standing ready to buy or sell stocks or bonds from their customers, an=
+d if they said no a lot they wouldn=E2=80=99t be in that business anymore.A=
+nd so the bank is in the business of buying=C2=A0stocks and bonds and then =
+quickly turning around to resell them.[4] It does not want to own the stock=
+s, but does not want to say no to buying them. So it has to have a lot of c=
+onfidence that it can resell them, preferably at a higher price than it pai=
+d. For small stock trades this is essentially a statistical question and a =
+computer answers it, but for large blocks of stock it is a harder question.=
+ When you call the bank asking it to buy $500 million of Stock X, the goal =
+is for the bank=E2=80=99s Stock X trader to be so knowledgeable about the m=
+arket for Stock X, to have so much insight into who is looking to add to or=
+ subtract from their Stock X positions and what the drivers of demand are, =
+that she can instantly put a price on it that is competitive (high enough t=
+hat you will sell to her) and yet profitable (low enough that she=E2=80=99l=
+l be able to resell=C2=A0quickly at a profit). She gets this knowledge by l=
+ong practical experience, by watching the tape, and by talking to investors=
+ (and analysts and salespeople) all day; this is her business; her whole jo=
+b is knowing who is looking to buy and sell what. So when you call her for =
+a price she thinks =E2=80=9CI bet Hedge Fund A will buy $100 million of thi=
+s down 2% and Asset Manager B is looking to add about $200 million down 1.5=
+%=E2=80=9D and keeps going down the list until she has a clear picture of h=
+ow she will sell the stock and at what price. And then she gives you a bid.=
+But this is hard and risky; she might think that Hedge Fund A wants Stock X=
+ but actually it bought a bunch yesterday and is all full up. So it will ma=
+ke her life easier if she can say =E2=80=9Chang on a minute,=E2=80=9D put y=
+ou on hold, and go call some potential buyers to see if they=E2=80=99re int=
+erested before giving you a price. The best way to get market knowledge is =
+sometimes to ask directly.Sometimes some version of this is allowed, but of=
+ten it is not.=C2=A0For instance:Federal investigators are probing the busi=
+ness of block trading on Wall Street, examining whether bankers might have =
+improperly tipped hedge-fund clients in advance of large share sales, accor=
+ding to people familiar with the situation.The Securities and Exchange Comm=
+ission sent subpoenas to firms including Morgan Stanley and Goldman Sachs G=
+roup Inc. as well as several hedge funds, asking for trading records and in=
+formation about the investors=E2=80=99 communications with bankers, some of=
+ the people said. The Justice Department also is investigating the matter, =
+some of the people said. =E2=80=A6Investigators are looking at whether bank=
+ers improperly alerted favored clients to the sales before they were public=
+ly disclosed and whether the funds benefited from the information=E2=80=94f=
+or example by shorting the shares in question. (In a short sale, an investo=
+r sells borrowed stock in hopes of buying it back at a lower price later an=
+d pocketing the difference.)Shares of companies selling stock often fall be=
+cause of an increase in supply hitting the market=E2=80=94and they do so fr=
+equently in the hours before a big block is sold, a phenomenon that has lon=
+g raised questions on Wall Street.Some of the funds that received subpoenas=
+ act as =E2=80=9Cliquidity providers=E2=80=9D to Wall Street firms, accordi=
+ng to some of the people, standing by to purchase large amounts of stock or=
+ other securities, including those that have few interested buyers.The rule=
+s governing when and how Wall Street firms can tell clients about coming bl=
+ock trades are murky. In some cases, there are questions around whether div=
+ulging certain information or acting on it is improper or illegal, lawyers =
+say.=E2=80=9CBlock trades=E2=80=9D can mean a number of different things, b=
+ut often it means a trade in which=C2=A0the company itself=C2=A0sells a big=
+ block of stock. Instead of doing a traditional offering (in which it annou=
+nces the deal and banks spend a day marketing it, then come to the company =
+with a price), it can get a bank to commit to a price (typically just after=
+ the market closes at 4 p.m., at a=C2=A0discount of a few percent to the cl=
+osing price); the bank will try to find buyers after the close and be out o=
+f the block by the time the market opens in the morning. But if it can=E2=
+=80=99t find buyers, that's the bank=E2=80=99s problem. Sometimes a company=
+ will just go to its favorite bank and ask for a price, but often the compa=
+ny will have multiple banks bid on the block and take the highest price.Gen=
+erally the banks will have some advance notice =E2=80=94=C2=A0the company m=
+ight tell them at 10 a.m. that it wants bids for a block at 4 p.m. =E2=80=
+=94=C2=A0and the bank will spend some time thinking about the right price. =
+One way to do that thinking would be to call up a bunch of hedge funds and =
+say =E2=80=9Chey if we did a block for Company X how much would you want an=
+d at what price,=E2=80=9D though that is very much frowned upon; the block =
+trade is material nonpublic information. Thus the investigation.By the way,=
+ there are lots of ways for this information to leak, beyond the obvious on=
+e of the banks just telling everyone. Here are a few:=09A bank considering =
+bidding on a block might call up some investors and ask them some general q=
+uestions. =E2=80=9CHey how are you feeling about the tech sector today,=E2=
+=80=9D the bank might ask. A smart hedge fund that is following the sector =
+might say =E2=80=9Caha, you have block coming for Tech Company X=E2=80=9D a=
+nd short the stock.=C2=A0=09A bank considering a block trade might=C2=A0wal=
+l-cross a few investors, asking them to agree not to trade in the company=
+=E2=80=99s stock for 24 hours; then the bank can feel more comfortable aski=
+ng the investors about the stock without worrying that it is tipping them. =
+But this is a fraught process. =E2=80=9CWe would like to talk to you about =
+a tech name, would you take a wall-cross,=E2=80=9D the bank might ask, and =
+the hedge fund might say =E2=80=9Caha you=C2=A0definitely=C2=A0have a block=
+ coming for Tech Company X,=E2=80=9D decline the wall-cross=C2=A0and short =
+the stock.=09The investor might=C2=A0agree=C2=A0not to trade Stock X =E2=80=
+=94=C2=A0but what if it shorts Stock Y, a correlated stock in the same sect=
+or, as a hedge? That has always been a bit murky,=C2=A0but recently the SEC=
+   has gone after this sort of =E2=80=9Cshadow trading,=E2=80=9D in which y=
+ou use inside information about one company to trade a correlated stock. Th=
+at case was about a corporate insider using information about his own compa=
+ny to shadow trade a competitor, but you could imagine the SEC   extending =
+the theory to hedge funds in this sort of scenario.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Hedge fund performance
+   =20
+ =20
+If I ran a hedge fund and had a time machine, what I would probably do woul=
+d be buy Tesla=C2=A0Inc. stock on Jan. 1, 2020, and then nothing else. I me=
+an, first I would negotiate really good investor agreements with long locku=
+ps, so that if any of my investors called me and said =E2=80=9Cwait is your=
+ hedge fund=E2=80=99s entire strategy just owning Tesla stock?=E2=80=9D I c=
+ould say =E2=80=9Cyep=E2=80=9D and hang up without them withdrawing their m=
+oney. But then I would buy as much Tesla as I could get, tell everyone to g=
+o home, lock the doors and come back at the end of the year.=C2=A0Tesla was=
+ up a ludicrous 743% in 2020, which would put me among the all-time greats =
+of hedge fund performance. My performance fees would be=C2=A020% or whateve=
+r of 743%, meaning that at the end of the year I would be able to pay mysel=
+f=C2=A0more than all of the money=C2=A0my investors put in at the beginning=
+ of the year, and they would be thrilled about it because they were up like=
+ 600% net of fees. And then I=E2=80=99d go back to them, ask for an even lo=
+nger and stricter lockup, move all the money into GameStop Corp. for 2021[5=
+] and go back to the beach.If you had a hedge fund and a time machine, you =
+could probably find=C2=A0better=C2=A0trades.[6] Tesla had more than a 50% d=
+rawdown=C2=A0between mid-February and mid-March 2020; if you had done a lit=
+tle active trading =E2=80=94=C2=A0even just selling in February and buying =
+back in March =E2=80=94=C2=A0you could have had, like, a 1,500% return inst=
+ead of 743%. My colleague John Authers runs a time-machine-driven paper hed=
+ge fund called  Hindsight Capital, which regularly finds great trades that =
+probably have a higher Sharpe ratio than mine and are certainly easier to e=
+xplain to clients. Mine, however, maximizes the ratio of returns to=C2=A0ef=
+fort. I buy one stock and forget about it. I do not do a ton of digging to =
+identify that stock, either; my investment process here consisted of (1) as=
+king myself =E2=80=9Cwhat is the stock that has most famously gone up a ton=
+ recently=E2=80=9D and (2) looking at historical prices on Bloomberg to get=
+ a number to write down. It took me two minutes. Of course=C2=A0I cannot=C2=
+=A0actually=C2=A0turn this insight into billions of dollars because I do no=
+t have a time machine but, you know, imagine how cool it would be if I did.=
+ I=E2=80=99d get to spend all year at the beach, and at the end of the year=
+ I=E2=80=99d go buy myself five beach houses.=C2=A0Meanwhile actual hedge f=
+und managers, limited by their own lack of time machines (and, in most case=
+s, of  really strict lockups), have to go around making sensible trades and=
+ hedging and diversifying and trying to capture uncorrelated returns and al=
+l that stuff, and it ends up being a hard and demanding job, even though in=
+ theory you could do the job by just buying one thing and holding it, if it=
+=E2=80=99s the right thing. Sometimes it works like that though:Karthik Sar=
+ma outearned Steve Cohen last year.The little-known hedge fund manager made=
+ an estimated $2 billion in 2021, mostly thanks to an 11-year-old wager on =
+Avis Budget Group Inc., a bet that paid off handsomely as the stock soared =
+456%. ...At SRS Investment Management, he avoids the hefty leverage many ot=
+her funds embrace, and runs a much more robust short book. Moreover, he isn=
+=E2=80=99t afraid to go big on a single investment =E2=80=94 and hang on fo=
+r as long as it takes.That helps explain how Sarma appeared near the very t=
+op of Bloomberg=E2=80=99s 2021 ranking of hedge fund earners, only slightly=
+ outdone by Citadel=E2=80=99s Ken Griffin and TCI Fund Management=E2=80=99s=
+ Chris Hohn. SRS owns about 50% of Avis through common stock and swaps, hel=
+ping to roughly triple Sarma=E2=80=99s net worth to $3 billion, according t=
+o an analysis by the Bloomberg Billionaires Index, and rewarding investors =
+in his flagship fund with a 35% gain. =E2=80=A6The Avis wager is unusual fo=
+r him. It=E2=80=99s the largest and longest he=E2=80=99s made, and the only=
+ one where he -- or anyone else at the firm -- sits on a company=E2=80=99s =
+board. Hedge funds generally avoid board seats because that limits when the=
+y can buy and sell shares. =E2=80=A6The jump in Sarma=E2=80=99s net worth w=
+as particularly large because the investment is spread across several of th=
+e firm=E2=80=99s portfolios, and he personally owns about 90% of one fund t=
+hat only holds the Avis stake.Imagine being Sarma and sitting down to write=
+ your investor letters for 2021. You start with the flagship fund: =E2=80=
+=9CI am happy to report that we were up 35% this year. Our long positions d=
+id well, led by Avis Budget, which was up 456%. On the short side, our best=
+ bet was ...=E2=80=9D and you=E2=80=99d go on in that vein, analyzing your =
+hits and misses, thinking about what you got right and what you could have =
+done better. And then you go on to write the letters for your other funds, =
+and you get to the Just Holding Avis fund, which does have some money that =
+is not yours, so I guess those investors expect a letter. And you write =E2=
+=80=9Cthe Just Holding Avis fund was up 456% this year (365% net of fees), =
+on the back of very strong performance by Avis, which was also up 456%. It =
+was a good year to be invested entirely in Avis stock,[7] and I=E2=80=99m g=
+lad we were. I guess that=E2=80=99s it?=E2=80=9DAnyway Sarma is No. 3 on =
+=E2=80=9CBloomberg=E2=80=99s 2021 ranking of hedge fund earners=E2=80=9D; N=
+os. 1 and 2 are Citadel=E2=80=99s Ken Griffin and TCI Fund Management=E2=80=
+=99s Chris Hohn. Many of the people on the list =E2=80=94=C2=A0there=E2=80=
+=99s also Izzy Englander of Millennium, Jim Simons of Renaissance Technolog=
+ies, Steve Cohen of Point72, David Shaw of D.E. Shaw, Ray Dalio of Bridgewa=
+ter, etc. =E2=80=94=C2=A0run big institutions with multiple strategies that=
+ try to use rigorous processes to generate uncorrelated alpha; they also ha=
+ve enormous amounts of assets under management and so can make a lot in fee=
+s. Meanwhile Sarma=E2=80=99s on the list because=C2=A0he bought a lot of on=
+e stock and that stock went up a lot. Just seems more pleasant, you know?
+ =20
+   =20
+      Things happen
+   =20
+ =20
+=E2=80=9CFlush with profits from buoyant equity markets, Blackstone, KKR an=
+d Carlyle Group earmarked $2mn in total pay and benefits per employee in 20=
+21.=E2=80=9D U.S. Accuses  Zero Hedge of Spreading Russian Propaganda. Half=
+ of Wall Street Staff May Be  Back At Their Desks. ECB warns eurozone lende=
+rs over leveraged loan risk. US banking regulators warn of risks in leverag=
+ed loan market.=C2=A0Cr=C3=A9dit Agricole under fire over financing of comp=
+anies with coal projects. Warren Buffett bought $1bn stake in Activision we=
+eks before Microsoft deal. At Trial, Lawyers Present Clashing Portraits of =
+Goldman Sachs Banker. Elon Musk  Donated $5.7 Billion of Tesla Shares to Ch=
+arity. SpaceX Tourists Will Make Attempt at Spacewalk During Flight.=C2=A0 =
+Trump=E2=80=99s Accountants Sever Ties, No Longer Stand By Statements. Carl=
+ Icahn is a =E2=80=9Cgreat guy but he=E2=80=99s about  smooth as a stucco b=
+athtub.=E2=80=9D Ohio mayor resigns after linking ice fishing to prostituti=
+on.=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email for=
+m, right in your inbox, please=C2=A0subscribe at this link. Or you can subs=
+cribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1]=
+ If this is your model you might ask: Why does the SEC want $50 million? I =
+think the answer is more like =E2=80=9Cthe SEC=E2=80=99s effectiveness as a=
+ regulator is to some extent measured by how many fines it extracts, so get=
+ting a big headline fine is a win for the SEC=E2=80=9D than it is like =E2=
+=80=9Cthe SEC can spend the money on cool stuff.=E2=80=9D[2] Similarly, it=
+=E2=80=99s possible that BlockFi could have gotten clarity on this issue by=
+ *writing a registration statement first*, and not launching the product un=
+til it had confirmed with the SEC that it was legal. It=E2=80=99s possible =
+that it did not do that because it was a gray area and it thought it was fi=
+ne, or because back when it launched this product crypto was an unregulated=
+ Wild West. It=E2=80=99s also possible that the SEC would have been *less* =
+helpful with that approach, though, because there was no existing fait acco=
+mpli.[3] There is also a strange issue involving the Investment Company Act=
+ that may be tricky to resolve.=C2=A0SEC Commissioner Hester Peirce dissent=
+ed from the settlement and complained that BlockFi =E2=80=9Chas a challengi=
+ng path=E2=80=9D to figure out how to comply with the Investment Company Ac=
+t.=C2=A0[4] Or vice versa, but here we are talking specifically about the b=
+uying case.[5] I kid; I started with Tesla because it=E2=80=99s enormous an=
+d liquid. There=E2=80=99s only so much money you could put into GameStop an=
+d, after my incredible run in 2020, I=E2=80=99d be too big for that trade.[=
+6] =E2=80=9CBuy Bitcoin in 2011=E2=80=9D is a really really good one but yo=
+ur Bitcoin probably all got stolen. I guess with a time machine you could g=
+et it back.[7] A better year to be in GameStop, really, which was up 688%, =
+but you can=E2=80=99t win =E2=80=99em all.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfwp8k.64df/7bb95f3f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_45645782_1941592286.1644949678736
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+BlockFiHere is a dumb model of financial regulation. There are two general =
+ways for authorities to regulate financial activities. Call one =E2=80=9C
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2eafdeb9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB2564a66c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7c04c18f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">BlockFi</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a dumb model of financial regu=
+lation. There are two general ways for authorities to regulate financial ac=
+tivities. Call one =E2=80=9Crulemaking.=E2=80=9D=C2=A0A regulator thinks ab=
+out some financial things, decides how they should work, solicits comments =
+from industry participants and the general public, and writes a rule explai=
+ning in some detail how things will work. After that, everyone who does tho=
+se things knows what the rules are and what things they are and are not all=
+owed to do.</p><p style=3D"margin: 16px 0;">Call the other =E2=80=9Cregulat=
+ion by enforcement.=E2=80=9D The regulator doesn=E2=80=99t spend much time =
+writing specific new rules, but just relies on some general old rules sayin=
+g things like,=C2=A0you know, =E2=80=9Cdon=E2=80=99t use an artifice to def=
+raud.=E2=80=9D What that means can be unclear and, more to the point, if th=
+e regulators decide to go after you for using some artifices, your life wil=
+l be unpleasant even if you ultimately win. Knowing this dynamic, the regul=
+ators can use enforcement actions to decide and declare what is and is not =
+allowed. Everyone goes around doing things, and then some of them get sued =
+by the regulator and have to pay a bunch of money to settle the lawsuits. E=
+veryone watches those lawsuits, and each lawsuit tells everyone a bit more =
+about what is and is not allowed. If the regulators sue someone for doing X=
+, and you=E2=80=99re also doing X, you stop doing X. =E2=80=9CDon=E2=80=99t=
+ do X=E2=80=9D has become a rule without any rulemaking. The first person t=
+o get sued for X didn=E2=80=99t know that that was the rule, though, and ge=
+ts in trouble and has to pay a fine.</p><p style=3D"margin: 16px 0;">One wa=
+y to think about this is that it is unfair: That person didn=E2=80=99t know=
+ X was against the rules, why should she get in trouble? Often though it do=
+es not feel <em>that</em> unfair, because X probably does look pretty bad; =
+it=C2=A0probably=C2=A0<em>was=C2=A0</em>at least arguably against some gene=
+ral rule like =E2=80=9Cdon=E2=80=99t use any artifices.=E2=80=9D It=E2=80=
+=99s a little random that this person got in trouble for doing X, but it=E2=
+=80=99s not like she was totally innocent either. The people who get fined =
+were in some gray area; they didn=E2=80=99t <em>know</em> that what they we=
+re doing was=C2=A0not allowed, but they had some notice that it=C2=A0<em>mi=
+ght</em> not be allowed.</p><p style=3D"margin: 16px 0;">But another way to=
+ think about it is that regulation is expensive, and regulation by enforcem=
+ent is a way to <em>make the industry pay for regulation</em>. In rulemakin=
+g, the regulator has to put a lot of expensive effort into figuring out wha=
+t should be allowed; this is particularly hard when a lot of novel activiti=
+es are going on, and there is a risk that the regulator will get it wrong, =
+miss things, move too slowly, etc. In regulation by enforcement, the indust=
+ry has to put a lot of expensive effort into figuring out what is not allow=
+ed, and the risk of missing things is on the industry; the regulator gets t=
+o focus its attention on <em>what is actually happening=C2=A0</em>and what =
+it wants to prevent rather than theoretical generalities. More concretely, =
+each time the industry gets a little more clarity =E2=80=94=C2=A0each time =
+it learns a new X that is or is not against the rules =E2=80=94=C2=A0it=C2=
+=A0<em>pays a big fine</em>. =E2=80=9CFines are a cost of doing business,=
+=E2=80=9D people complain about financial regulation, but perhaps sometimes=
+ it is more like=C2=A0=E2=80=9Cfines are a cost of figuring out what the ru=
+les are.=E2=80=9D The regulators will tell you what the rules are, but one =
+at a time, and for $10 million per rule.=C2=A0</p><p style=3D"margin: 16px =
+0;">If a crypto startup went to the U.S. Securities and Exchange Commission=
+ and said =E2=80=9Cwe want regulatory clarity about what we need to do to r=
+un crypto lending programs, so you should write some rules about it,=E2=80=
+=9D the SEC would say =E2=80=9Csure, we=E2=80=99ll give that some thought i=
+n like 2036.=E2=80=9D If it went to 50 different U.S.=C2=A0states and asked=
+ <em>them </em>for clarity it would get even more confused. If it went to t=
+he SEC and said =E2=80=9Clook, to speed this process along, why don=E2=80=
+=99t we pay you $50 million to prioritize writing these rules,=E2=80=9D tha=
+t would be a very bad crime and it would to go prison.</p><p style=3D"margi=
+n: 16px 0;">But BlockFi will give the SEC $50 million,[1] and it will give =
+some=C2=A0states another $50 million, and <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjItMDItMTQvYmxvY2tmaS1zLXBsYW5zLXRvLXJlZ2lzdGVyLXdpdG=
+gtc2VjLWF1Z3Vycy1uZXctZXJhLWZvci1jcnlwdG8_Y21waWQ9QkJEMDIxNTIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjE1=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4cc8a263" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> now it has clarity about crypto lending programs</a>:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">Crypto proponents have argued for years that regul=
+ators shouldn=E2=80=99t apply decades-old rules to the burgeoning asset cla=
+ss. But in a move with sweeping implications for the industry, at least one=
+ prominent company is now planning to register its offerings with the Secur=
+ities and Exchange Commission.=C2=A0</p><p style=3D"margin: 16px 0;">BlockF=
+i Inc. announced on Monday that it=E2=80=99d seek SEC approval for accounts=
+ that pay clients high yields for lending out their crypto as part of a rec=
+ord $100 million settlement with federal and state securities watchdogs. Th=
+e plan would give the Jersey City, New Jersey-based firm the first SEC sanc=
+tioned product of its kind, immediately adding pressure on competitors to f=
+ollow suit. =E2=80=A6</p><p style=3D"margin: 16px 0;">As part of the agreem=
+ent announced by the SEC, current BlockFi customers can continue to earn in=
+terest on their existing investments, but the company must not sell the pro=
+ducts to new American clients. The company has 60 days to seek to comply wi=
+th SEC regulations and it=E2=80=99s also seeking to register a new crypto-l=
+ending product that will satisfy the agency=E2=80=99s rules.</p></blockquot=
+e><p style=3D"margin: 16px 0;">That is from a Bloomberg article about Block=
+Fi=E2=80=99s big new plans that will give it a first-mover advantage and al=
+so about the $100 million fine it paid. The headline is =E2=80=9CBlockFi=E2=
+=80=99s Plans to Register with SEC Augurs New Era for Crypto.=E2=80=9D The =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ibG9ja2ZpLXRvLXBheS1yZWNvcmQtcGVuYWx0e=
+S10by1zZXR0bGUtc2VjLXByb2JlLW9mLWNyeXB0by1sZW5kaW5nLWJ1c2luZXNzLTExNjQ0ODU0=
+NDAw/607f07ceef4b8524a319a23cB3418a856" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Wall Street Journal=E2=80=
+=99s headline</a> is =E2=80=9CBlockFi to Pay Record Penalty to Settle SEC P=
+robe of Crypto Lending Business.=E2=80=9D Both true!=C2=A0</p><p style=3D"m=
+argin: 16px 0;">Or here is=C2=A0Bloomberg=E2=80=99s Emily Chang <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL3ZpZGVvcy8yMDIyLTAyLTE0L2Jsb2NrZmktdG8tcGF5LTEw=
+MC1taWxsaW9uLXRvLXNlYy1vbi1jcnlwdG8tbGVuZGluZy12aWRlbz9jbXBpZD1CQkQwMjE1MjJ=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMjAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBcf1f=
+b306" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> interviewing BlockFi Chief Executive Officer Zac Prince</a> =
+about the settlement, and while she starts the interview by asking why Bloc=
+kFi broke the law =E2=80=94=C2=A0which is after all what the SEC concluded =
+here=C2=A0(BlockFi neither admitted nor denied it) =E2=80=94 Prince stays o=
+n message that this settlement is about =E2=80=9Cblazing a path=E2=80=9D an=
+d =E2=80=9Cfinding a regulatory construct=E2=80=9D for crypto lending. And =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMTQvYmxvY2tma=
+S1zLXBsYW5zLXRvLXJlZ2lzdGVyLXdpdGgtc2VjLWF1Z3Vycy1uZXctZXJhLWZvci1jcnlwdG8_=
+Y21waWQ9QkJEMDIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cC4cc8a263" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> here=E2=80=99s this</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">Kristin Smith, the executive director of the B=
+lockchain Association, said her trade group is =E2=80=9Ccommitted to workin=
+g with Washington to establish common-sense guardrails for industry in whic=
+h to operate.=E2=80=9D She called the BlockFi settlement =E2=80=9Ca step fo=
+rward toward that goal.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0=
+;">I think that you can read this story as =E2=80=9CBlockFi did something i=
+llegal and got in trouble,=E2=80=9D or you can=C2=A0read it as =E2=80=9CBlo=
+ckFi has worked with the SEC to develop=C2=A0the first U.S. regulated crypt=
+o lending product, giving it a competitive advantage,=E2=80=9D but I do not=
+ really think you have to choose. BlockFi ventured out into the gray area, =
+which got it (1) a big fine and (2) clarity.=C2=A0</p><p style=3D"margin: 1=
+6px 0;">It is certainly possible that I am exaggerating here. The SEC has b=
+een saying for some time that crypto yield products like this =E2=80=94=C2=
+=A0in which retail customers deposit their cryptocurrency with an exchange,=
+ which then lends it out to institutional borrowers and pays the retail dep=
+ositors a fixed interest rate =E2=80=94=C2=A0are securities under standard =
+interpretations of U.S. law, and I have in the past <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDgvbGVuZGluZy1iaXRjb2lucy1pcy10=
+cmlja3k_Y21waWQ9QkJEMDIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBc284326c" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">agreed</a>=C2=A0that they are pre=
+tty obviously securities. BlockFi has real lawyers and apparently disagreed=
+, but I do not think that the SEC would say that this was a gray area.[2] T=
+hus the $100 million fine.</p><p style=3D"margin: 16px 0;">It also may be a=
+n exaggeration to say that BlockFi has gotten a ton of clarity here, or a c=
+lear path to a legal product. It still has to write a registration statemen=
+t and indenture for its SEC-registered yield product, and the SEC=E2=80=99s=
+ examiners could object when it does file that statement.[3] Still it seems=
+ like both sides here think that they have found a path to compliance that =
+works. The headline on <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26719940.285603/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMj=
+AyMi0yNg/607f07ceef4b8524a319a23cB35dad803" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">the SEC=E2=80=99s press=
+ release</a> is not just about the fine; it says =E2=80=9CBlockFi Agrees to=
+ Pay $100 Million in Penalties and Pursue Registration of its Crypto Lendin=
+g Product.=E2=80=9D And the SEC=E2=80=99s order goes so far as to include a=
+ picture of what it expects BlockFi=E2=80=99s legal lending product to look=
+ like:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/i.onxSnTey8M/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/i.onxSnTey8M/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">That=E2=80=99s an=C2=A0<em>approvi=
+ng </em>picture; that=E2=80=99s, like, =E2=80=9Cthis thing is a thing that =
+we could see our way to allowing.=E2=80=9D You don=E2=80=99t include a pict=
+ure of BlockFi=E2=80=99s proposed product if you think the proposal doesn=
+=E2=80=99t work.</p><p style=3D"margin: 16px 0;">And it is in both sides=E2=
+=80=99 interests to make this work: BlockFi of course wants to have a profi=
+table lending product, but the SEC also wants to demonstrate that it can re=
+gulate crypto activity. =E2=80=9CWe will ban all crypto activity=E2=80=9D i=
+s not, I think, a particularly viable approach for the SEC to take at this =
+point. The SEC wants to send a message along the lines of =E2=80=9Clots of =
+crypto things are securities and thus subject to securities regulation, but=
+ that=E2=80=99s fine because securities regulation is totally workable for =
+crypto things.=E2=80=9D So=C2=A0making securities regulation work for a pop=
+ular crypto product=C2=A0is a goal for the SEC too.</p><p style=3D"margin: =
+16px 0;">We are still in the very early stages of crypto regulation in the =
+U.S., and if you are a crypto firm you have to think a bit about the meta-r=
+egulatory landscape.=C2=A0There seem to be roughly three approaches:</p><ol=
+ style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Try to make yourself as immune as poss=
+ible to U.S. regulation by setting up abroad, running your firm as a decent=
+ralized entity with no one for the SEC to yell at, staying anonymous, and d=
+oing whatever egregious things you want. So far this seems to work! Not eve=
+ryone will want to move abroad and be anonymous though, and this approach s=
+eems to carry some big risks.</li>=09<li style=3D"margin-bottom: 5px;">Try =
+to be as law-abiding as possible, consult with the relevant U.S. authoritie=
+s before doing anything adventurous, and make your case to the regulators f=
+or rules that you think will be good for crypto. This sounds good, but I am=
+ not sure it=C2=A0<em>works</em>. When Coinbase Global Inc., a U.S. public =
+company, wanted to launch a lending product like BlockFi=E2=80=99s, the SEC=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDgvbGVu=
+ZGluZy1iaXRjb2lucy1pcy10cmlja3k_Y21waWQ9QkJEMDIxNTIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjE1JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCc284326c" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  told it=
+ not to and it didn=E2=80=99t</a>. Last October=C2=A0Coinbase put out=C2=A0=
+an ambitious=C2=A0=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26719940.285603/aHR0cHM6Ly9naXRodWIuY29tL2NvaW5iYXNlL2RpZ2l0YWwtYX=
+NzZXQtcG9saWN5LXByb3Bvc2Fs/607f07ceef4b8524a319a23cBbed93701" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Opera=
+tional Framework of the Digital Asset Policy Proposal</a>,=E2=80=9D which i=
+t clearly hoped would spark a conversation in Washington about how best to =
+build a new crypto regulatory framework for crypto; I don=E2=80=99t think a=
+nyone has mentioned it since.=C2=A0When Facebook (now Meta Platforms Inc.) =
+wanted to launch a stablecoin, it put on a big show of working with regulat=
+ors, which gave regulators lots of chances to say no, which they did, and n=
+ow=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.2=
+85603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtM=
+jYvd2F0Y2gtb3V0LWZvci1zaGFkb3ctdHJhZGluZz9jbXBpZD1CQkQwMjE1MjJfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMTU=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfcba2677" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>Facebook=E2=80=99s stablecoin dream is dead</a>. =E2=80=9CThere is a certa=
+in drunk-under-the-lamppost element to current U.S. crypto regulation,=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.28=
+5603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMj=
+cveW91LWdldC10aGUtY3J5cHRvLXJ1bGVzLXlvdS13YW50P2NtcGlkPUJCRDAyMTUyMl9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIy=
+MDIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfe9d1e89" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  I wrote recently</a>: =E2=80=9CIf you incorporate a company in the=
+ U.S. and walk into the SEC=E2=80=99s office and ask =E2=80=98hey what are =
+we allowed to do,=E2=80=99 the answer is =E2=80=98almost nothing.=E2=80=99=
+=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">Try to be, you know, a m=
+edium amount of law-abiding. Keep doing stuff, stake out aggressive but pla=
+usible legal positions, and when the SEC complains be quick to settle. =E2=
+=80=9CMove fast and break things,=E2=80=9D =E2=80=9Cbetter to ask forgivene=
+ss than permission,=E2=80=9D etc. Each time the SEC says you broke the law,=
+ you get a little more information about=C2=A0<em>what the law is</em>, and=
+ each time you negotiate a settlement, you get an opportunity to=C2=A0<em>i=
+nfluence the law</em>. This is expensive, but maybe it works? Nothing in th=
+is column is ever legal advice, and in particular I hate to say=C2=A0=E2=80=
+=9Cmaybe you should break the law a little bit.=E2=80=9D But, uh, what do y=
+ou conclude from this?</li></ol><p style=3D"margin: 16px 0;">Here=E2=80=99s=
+ what SEC Commissioner Hester Peirce concluded, in <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9uZXdzL3N0YXRlbWVudC9wZWlyY2UtYmxvY2tmaS0yMDIyMDIxNA/607f07ceef4b8524a319a2=
+3cB72fcb4d7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">dissenting from the settlement</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">We often tell companies wanting to offer products=
+ that could implicate the securities laws to =E2=80=9Ccome in and talk to u=
+s.=E2=80=9D =C2=A0To make that invitation meaningful, however, we need to c=
+ommit to working with these companies to craft sensible, timely, and achiev=
+able regulatory paths. =C2=A0Working with an earnest desire to reach a prud=
+ent, properly calibrated regulatory outcome is important for a number of re=
+asons. =C2=A0First, these products matter to people. =C2=A0A program that a=
+llows people=E2=80=94and not just affluent people=E2=80=94to keep their cry=
+pto assets, while still earning a return is valuable to many Americans, as =
+evidenced by the programs=E2=80=99 popularity in the United States to date.=
+ =C2=A0The investor protection objective of today=E2=80=99s settlement will=
+ be poorly served if retail investors are ultimately shut out from particip=
+ation in these products. =C2=A0Second, our process speaks volumes about our=
+ integrity as a regulator. =C2=A0Inviting people to come in and talk to us =
+only to drag them through a difficult, lengthy, unproductive, and labyrinth=
+ine regulatory process casts the Commission in a bad light and thus makes u=
+s a less effective regulator. =C2=A0Third, a company that tries to do the r=
+ight thing should be met across the table by a regulator that tries to get =
+to a sensible result in a reasonable timeframe. =C2=A0For the sake of the A=
+merican public, our own reputation, and the companies that heed our call to=
+ come in and talk to us, we need to do better than we have so far at accomm=
+odating innovation through thoughtful use of the exemptive authority Congre=
+ss gave us.</p></blockquote><p style=3D"margin: 16px 0;">I dunno, BlockFi s=
+eems weirdly happy that it talked to the SEC. But it was an expensive conve=
+rsation.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" ce=
+llpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDe9e11b57" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEe9e11b57" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFf6ef0613" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGf6ef0613" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Block trades</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Trading desks at investment banks are,=
+ famously, in the moving business, not the storage business. If you want to=
+ sell a big block of stock, an investment bank will not want to <em>own </e=
+m>it; they are just not set up to own big blocks of stock. But they are in =
+the moving=C2=A0<em>business</em>, and if you come to them looking to sell =
+a big block of stock they will buy it from you, both because that is how th=
+ey make money (buying it from you and then reselling it at a higher price) =
+and more deeply because that is their=C2=A0<em>job</em> and their customers=
+ won=E2=80=99t like them if they say no. They are in the business of standi=
+ng ready to buy or sell stocks or bonds from their customers, and if they s=
+aid no a lot they wouldn=E2=80=99t be in that business anymore.</p><p style=
+=3D"margin: 16px 0;">And so the bank is in the business of buying=C2=A0stoc=
+ks and bonds and then quickly turning around to resell them.[4] It does not=
+ want to own the stocks, but does not want to say no to buying them. So it =
+has to have a lot of confidence that it can resell them, preferably at a hi=
+gher price than it paid. For small stock trades this is essentially a stati=
+stical question and a computer answers it, but for large blocks of stock it=
+ is a harder question. When you call the bank asking it to buy $500 million=
+ of Stock X, the goal is for the bank=E2=80=99s Stock X trader to be so kno=
+wledgeable about the market for Stock X, to have so much insight into who i=
+s looking to add to or subtract from their Stock X positions and what the d=
+rivers of demand are, that she can instantly put a price on it that is comp=
+etitive (high enough that you will sell to her) and yet profitable (low eno=
+ugh that she=E2=80=99ll be able to resell=C2=A0quickly at a profit). She ge=
+ts this knowledge by long practical experience, by watching the tape, and b=
+y talking to investors (and analysts and salespeople) all day; this is her =
+business; her whole job is knowing who is looking to buy and sell what. So =
+when you call her for a price she thinks =E2=80=9CI bet Hedge Fund A will b=
+uy $100 million of this down 2% and Asset Manager B is looking to add about=
+ $200 million down 1.5%=E2=80=9D and keeps going down the list until she ha=
+s a clear picture of how she will sell the stock and at what price. And the=
+n she gives you a bid.</p><p style=3D"margin: 16px 0;">But this is hard and=
+ risky; she might think that Hedge Fund A wants Stock X but actually it bou=
+ght a bunch yesterday and is all full up. So it will make her life easier i=
+f she can say =E2=80=9Chang on a minute,=E2=80=9D put you on hold, and go c=
+all some potential buyers to see if they=E2=80=99re interested before givin=
+g you a price. The best way to get market knowledge is sometimes to ask dir=
+ectly.</p><p style=3D"margin: 16px 0;">Sometimes some version of this is al=
+lowed, but often it is not.=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26719940.285603/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWd1=
+bGF0b3JzLXByb2JlLWJsb2NrLXRyYWRpbmctYXQtbW9yZ2FuLXN0YW5sZXktZ29sZG1hbi1vdGh=
+lci13YWxsLXN0cmVldC1maXJtcy0xMTY0NDg3NTQ0OA/607f07ceef4b8524a319a23cB8f88ea=
+52" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">For instance</a>:</p><blockquote><p style=3D"margin: 16px 0;">=
+Federal investigators are probing the business of block trading on Wall Str=
+eet, examining whether bankers might have improperly tipped hedge-fund clie=
+nts in advance of large share sales, according to people familiar with the =
+situation.</p><p style=3D"margin: 16px 0;">The Securities and Exchange Comm=
+ission sent subpoenas to firms including Morgan Stanley and Goldman Sachs G=
+roup Inc. as well as several hedge funds, asking for trading records and in=
+formation about the investors=E2=80=99 communications with bankers, some of=
+ the people said. The Justice Department also is investigating the matter, =
+some of the people said. =E2=80=A6</p><p style=3D"margin: 16px 0;">Investig=
+ators are looking at whether bankers improperly alerted favored clients to =
+the sales before they were publicly disclosed and whether the funds benefit=
+ed from the information=E2=80=94for example by shorting the shares in quest=
+ion. (In a short sale, an investor sells borrowed stock in hopes of buying =
+it back at a lower price later and pocketing the difference.)</p><p style=
+=3D"margin: 16px 0;">Shares of companies selling stock often fall because o=
+f an increase in supply hitting the market=E2=80=94and they do so frequentl=
+y in the hours before a big block is sold, a phenomenon that has long raise=
+d questions on Wall Street.</p><p style=3D"margin: 16px 0;">Some of the fun=
+ds that received subpoenas act as =E2=80=9Cliquidity providers=E2=80=9D to =
+Wall Street firms, according to some of the people, standing by to purchase=
+ large amounts of stock or other securities, including those that have few =
+interested buyers.</p><p style=3D"margin: 16px 0;">The rules governing when=
+ and how Wall Street firms can tell clients about coming block trades are m=
+urky. In some cases, there are questions around whether divulging certain i=
+nformation or acting on it is improper or illegal, lawyers say.</p></blockq=
+uote><p style=3D"margin: 16px 0;">=E2=80=9CBlock trades=E2=80=9D can mean a=
+ number of different things, but often it means a trade in which=C2=A0<em>t=
+he company itself=C2=A0</em>sells a big block of stock. Instead of doing a =
+traditional offering (in which it announces the deal and banks spend a day =
+marketing it, then come to the company with a price), it can get a bank to =
+commit to a price (typically just after the market closes at 4 p.m., at a=
+=C2=A0discount of a few percent to the closing price); the bank will try to=
+ find buyers after the close and be out of the block by the time the market=
+ opens in the morning. But if it can=E2=80=99t find buyers, that's the bank=
+=E2=80=99s problem. Sometimes a company will just go to its favorite bank a=
+nd ask for a price, but often the company will have multiple banks bid on t=
+he block and take the highest price.</p><p style=3D"margin: 16px 0;">Genera=
+lly the banks will have some advance notice =E2=80=94=C2=A0the company migh=
+t tell them at 10 a.m. that it wants bids for a block at 4 p.m. =E2=80=94=
+=C2=A0and the bank will spend some time thinking about the right price. One=
+ way to do that thinking would be to call up a bunch of hedge funds and say=
+ =E2=80=9Chey if we did a block for Company X how much would you want and a=
+t what price,=E2=80=9D though that is very much frowned upon; the block tra=
+de is material nonpublic information. Thus the investigation.</p><p style=
+=3D"margin: 16px 0;">By the way, there are lots of ways for this informatio=
+n to leak, beyond the obvious one of the banks just telling everyone. Here =
+are a few:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; ma=
+rgin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">A bank considering bidd=
+ing on a block might call up some investors and ask them some general quest=
+ions. =E2=80=9CHey how are you feeling about the tech sector today,=E2=80=
+=9D the bank might ask. A smart hedge fund that is following the sector mig=
+ht say =E2=80=9Caha, you have block coming for Tech Company X=E2=80=9D and =
+short the stock.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">A bank cons=
+idering a block trade might=C2=A0<em>wall-cross </em>a few investors, askin=
+g them to agree not to trade in the company=E2=80=99s stock for 24 hours; t=
+hen the bank can feel more comfortable asking the investors about the stock=
+ without worrying that it is tipping them. But this is a fraught process. =
+=E2=80=9CWe would like to talk to you about a tech name, would you take a w=
+all-cross,=E2=80=9D the bank might ask, and the hedge fund might say =E2=80=
+=9Caha you=C2=A0<em>definitely=C2=A0</em>have a block coming for Tech Compa=
+ny X,=E2=80=9D decline the wall-cross=C2=A0and short the stock.</li>=09<li =
+style=3D"margin-bottom: 5px;">The investor might=C2=A0<em>agree=C2=A0</em>n=
+ot to trade Stock X =E2=80=94=C2=A0but what if it shorts Stock Y, a correla=
+ted stock in the same sector, as a hedge? That has always been a bit murky,=
+=C2=A0but recently the SEC <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26719940.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXRvLXNwYXJjcz9jbXBpZD1CQkQwMjE1M=
+jJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMjAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc2=
+cb6b5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  has gone after</a> this sort of =E2=80=9Cshadow trading,=
+=E2=80=9D in which you use inside information about one company to trade a =
+correlated stock. That case was about a corporate insider using information=
+ about his own company to shadow trade a competitor, but you could imagine =
+the SEC <a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.2=
+85603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtM=
+jYvd2F0Y2gtb3V0LWZvci1zaGFkb3ctdHJhZGluZz9jbXBpZD1CQkQwMjE1MjJfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMTU=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCfcba2677" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  extending the theory</a> to hedge funds in this sort of scenario.</li></=
+ol><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHd409f91d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hedge fund performance</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If I ran a hedge fund and had a time m=
+achine, what I would probably do would be buy Tesla=C2=A0Inc. stock on Jan.=
+ 1, 2020, and then nothing else. I mean, first I would negotiate really goo=
+d investor agreements with long lockups, so that if any of my investors cal=
+led me and said =E2=80=9Cwait is your hedge fund=E2=80=99s entire strategy =
+just owning Tesla stock?=E2=80=9D I could say =E2=80=9Cyep=E2=80=9D and han=
+g up without them withdrawing their money. But then I would buy as much Tes=
+la as I could get, tell everyone to go home, lock the doors and come back a=
+t the end of the year.=C2=A0Tesla was up a ludicrous 743% in 2020, which wo=
+uld put me among the all-time greats of hedge fund performance. My performa=
+nce fees would be=C2=A020% or whatever of 743%, meaning that at the end of =
+the year I would be able to pay myself=C2=A0<em>more than all of the money=
+=C2=A0</em>my investors put in at the beginning of the year, and they would=
+ be thrilled about it because they were up like 600% net of fees. And then =
+I=E2=80=99d go back to them, ask for an even longer and stricter lockup, mo=
+ve all the money into GameStop Corp. for 2021[5] and go back to the beach.<=
+/p><p style=3D"margin: 16px 0;">If <em>you</em> had a hedge fund and a time=
+ machine, you could probably find=C2=A0<em>better=C2=A0</em>trades.[6] Tesl=
+a had more than a 50% drawdown=C2=A0between mid-February and mid-March 2020=
+; if you had done a little active trading =E2=80=94=C2=A0even just selling =
+in February and buying back in March =E2=80=94=C2=A0you could have had, lik=
+e, a 1,500% return instead of 743%. My colleague John Authers runs a time-m=
+achine-driven paper hedge fund called <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMTItMzEvaGluZHNpZ2h0LWNhcGl0YWwtbWFkZS10aGUtYmVzdC=
+10cmFkZXMtaW4tMjAyMS13aXRoLWEtbGl0dGxlLWJvbGQtY29udHJhcmlhbmlzbT9jbXBpZD1CQ=
+kQwMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMjAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cBffcd05a9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Hindsight Capital</a>, which regularly finds great=
+ trades that probably have a higher Sharpe ratio than mine and are certainl=
+y easier to explain to clients. Mine, however, maximizes the ratio of retur=
+ns to=C2=A0<em>effort</em>. I buy one stock and forget about it. I do not d=
+o a ton of digging to identify that stock, either; my investment process he=
+re consisted of (1) asking myself =E2=80=9Cwhat is the stock that has most =
+famously gone up a ton recently=E2=80=9D and (2) looking at historical pric=
+es on Bloomberg to get a number to write down. It took me two minutes. Of c=
+ourse=C2=A0I cannot=C2=A0<em>actually=C2=A0</em>turn this insight into bill=
+ions of dollars because I do not have a time machine but, you know, imagine=
+ how cool it would be if I did. I=E2=80=99d get to spend all year at the be=
+ach, and at the end of the year I=E2=80=99d go buy myself five beach houses=
+.=C2=A0</p><p style=3D"margin: 16px 0;">Meanwhile actual hedge fund manager=
+s, limited by their own lack of time machines (and, in most cases, of <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDctMDUvaXQtcy1iZX=
+R0ZXItdG8tYmUtcmljaC10aGFuLXJpZ2h0P2NtcGlkPUJCRDAyMTUyMl9NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIxNSZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5696c22e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> real=
+ly strict lockups</a>), have to go around making sensible trades and hedgin=
+g and diversifying and trying to capture uncorrelated returns and all that =
+stuff, and it ends up being a hard and demanding job, even though <em>in th=
+eory </em>you could do the job by just buying one thing and holding it, if =
+it=E2=80=99s the right thing. Sometimes it <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjItMDItMTQvMTUtdG9wLWhlZGdlLWZ1bmQtbWFuYWdlcnMtbWFkZ=
+S0xNS04LWJpbGxpb24taW4tMjAyMS1yaWRpbmctbWFya2V0LXZvbGF0aWxpdHk_Y21waWQ9QkJE=
+MDIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjIwMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB03c01c8f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">works like that though</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Karthik Sarma outearned Steve Cohen last year.</p><p s=
+tyle=3D"margin: 16px 0;">The little-known hedge fund manager made an estima=
+ted $2 billion in 2021, mostly thanks to an 11-year-old wager on Avis Budge=
+t Group Inc., a bet that paid off handsomely as the stock soared 456%. ...<=
+/p><p style=3D"margin: 16px 0;">At SRS Investment Management, he avoids the=
+ hefty leverage many other funds embrace, and runs a much more robust short=
+ book. Moreover, he isn=E2=80=99t afraid to go big on a single investment =
+=E2=80=94 and hang on for as long as it takes.</p><p style=3D"margin: 16px =
+0;">That helps explain how Sarma appeared near the very top of Bloomberg=E2=
+=80=99s 2021 ranking of hedge fund earners, only slightly outdone by Citade=
+l=E2=80=99s Ken Griffin and TCI Fund Management=E2=80=99s Chris Hohn. SRS o=
+wns about 50% of Avis through common stock and swaps, helping to roughly tr=
+iple Sarma=E2=80=99s net worth to $3 billion, according to an analysis by t=
+he Bloomberg Billionaires Index, and rewarding investors in his flagship fu=
+nd with a 35% gain. =E2=80=A6</p><p style=3D"margin: 16px 0;">The Avis wage=
+r is unusual for him. It=E2=80=99s the largest and longest he=E2=80=99s mad=
+e, and the only one where he -- or anyone else at the firm -- sits on a com=
+pany=E2=80=99s board. Hedge funds generally avoid board seats because that =
+limits when they can buy and sell shares. =E2=80=A6</p><p style=3D"margin: =
+16px 0;">The jump in Sarma=E2=80=99s net worth was particularly large becau=
+se the investment is spread across several of the firm=E2=80=99s portfolios=
+, and he personally owns about 90% of one fund that only holds the Avis sta=
+ke.</p></blockquote><p style=3D"margin: 16px 0;">Imagine being Sarma and si=
+tting down to write your investor letters for 2021. You start with the flag=
+ship fund: =E2=80=9CI am happy to report that we were up 35% this year. Our=
+ long positions did well, led by Avis Budget, which was up 456%. On the sho=
+rt side, our best bet was ...=E2=80=9D and you=E2=80=99d go on in that vein=
+, analyzing your hits and misses, thinking about what you got right and wha=
+t you could have done better. And then you go on to write the letters for y=
+our other funds, and you get to the Just Holding Avis fund, which does have=
+ some money that is not yours, so I guess those investors expect a letter. =
+And you write =E2=80=9Cthe Just Holding Avis fund was up 456% this year (36=
+5% net of fees), on the back of very strong performance by Avis, which was =
+also up 456%. It was a good year to be invested entirely in Avis stock,[7] =
+and I=E2=80=99m glad we were. I guess that=E2=80=99s it?=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">Anyway Sarma is No. 3 on =E2=80=9CBloomberg=E2=80=99=
+s 2021 ranking of hedge fund earners=E2=80=9D; Nos. 1 and 2 are Citadel=E2=
+=80=99s Ken Griffin and TCI Fund Management=E2=80=99s Chris Hohn. Many of t=
+he people on the list =E2=80=94=C2=A0there=E2=80=99s also Izzy Englander of=
+ Millennium, Jim Simons of Renaissance Technologies, Steve Cohen of Point72=
+, David Shaw of D.E. Shaw, Ray Dalio of Bridgewater, etc. =E2=80=94=C2=A0ru=
+n big institutions with multiple strategies that try to use rigorous proces=
+ses to generate uncorrelated alpha; they also have enormous amounts of asse=
+ts under management and so can make a lot in fees. Meanwhile Sarma=E2=80=99=
+s on the list because=C2=A0he bought a lot of one stock and that stock went=
+ up a lot. Just seems more pleasant, you know?</p><table class=3D"header" w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=9CFlush with profits from buoya=
+nt equity markets, Blackstone, KKR and Carlyle Group earmarked <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvZGY3NGM3MzEtNGQ1MC00NDIwLTgzODAtYzgzMjA1YzRjMDU1/607f=
+07ceef4b8524a319a23cBb8a0326f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">$2mn in total pay and benefits per e=
+mployee</a> in 2021.=E2=80=9D U.S. Accuses <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjItMDItMTUvdXMtYWNjdXNlcy1maW5hbmNpYWwtd2Vic2l0ZS1vZ=
+i1zcHJlYWRpbmctcnVzc2lhbi1wcm9wYWdhbmRhP2NtcGlkPUJCRDAyMTUyMl9NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIxNSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6c67d1ad" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Zero Hedge</a> of Spreading Russian Propaganda. Half of Wall Street Staff =
+May Be <a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.28=
+5603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy9wcmV0LWluZGV4Lz9jbXBpZD=
+1CQkQwMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMjAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB56478390" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Back At Their Desks</a>. ECB warns eurozone len=
+ders over <a href=3D"https://link.mail.bloombergbusiness.com/click/26719940=
+.285603/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZmVmODFiM2MtMmI3MC00OWU1LTgxNTc=
+tZWYyMTdkZjFlMzI0/607f07ceef4b8524a319a23cBdee51b73" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">leveraged loan=
+ risk</a>. US banking regulators warn of risks in <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvZTY0MDUyMGEtYTgwNi00ZmE3LWE0OWYtZTljODQyNTJkMTc3/607f07ceef4b8524a=
+319a23cBb65c1ccd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">leveraged loan market</a>.=C2=A0Cr=C3=A9dit Agric=
+ole under fire over financing of companies with <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvM2M1N2RlNzUtY2QyOC00MjU0LWI3NjItMGYzNjAyZDM5Yjhi/607f07ceef4b8524a31=
+9a23cB3c48b934" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">coal projects</a>. Warren Buffett bought $1bn stake=
+ in <a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.28560=
+3/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGY4M2EyOGYtNGQ2NS00ODNmLWFjYzktOTc0N=
+jZjMTIwZTkx/607f07ceef4b8524a319a23cB6a7a347b" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Activision</a> weeks=
+ before Microsoft deal. At Trial, Lawyers Present Clashing Portraits of <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90cmlhbC1mb3ItZm9ybWVyLWdvbGRtYW4tc2FjaHMt=
+YmFua2VyLXNldC10by1iZWdpbi0xMTY0NDg0MDAwMT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f=
+07ceef4b8524a319a23cB843e6033" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Goldman Sachs Banker</a>. Elon Musk =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMTUvZWxvbi1td=
+XNrLWRvbmF0ZWQtNS03LWJpbGxpb24tb2YtdGVzbGEtc2hhcmVzLXRvLWNoYXJpdHk_Y21waWQ9=
+QkJEMDIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR=
+0ZXImdXRtX3Rlcm09MjIwMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a=
+319a23cBed93ec36" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Donated $5.7 Billion of Tesla Shares</a> to Char=
+ity. SpaceX Tourists Will Make Attempt at <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26719940.285603/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjA=
+yMi8wMi8xNC9zY2llbmNlL3NwYWNleC1zcGFjZXdhbGstdG91cmlzdHMuaHRtbA/607f07ceef4=
+b8524a319a23cBe645b4ec" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Spacewalk</a> During Flight.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMTQvdHJ1bXAtYWNjb3Vu=
+dGluZy1maXJtLW5vLWxvbmdlci1zdGFuZHMtYnktZmluYW5jaWFsLXN0YXRlbWVudHM_Y21waWQ=
+9QkJEMDIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIwMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cBcbe6241f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Trump=E2=80=99s Accountants</a> Sever Ties, No =
+Longer Stand By Statements. Carl Icahn is a =E2=80=9Cgreat guy but he=E2=80=
+=99s about <a href=3D"https://link.mail.bloombergbusiness.com/click/2671994=
+0.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMT=
+UvY2FybC1pY2Fobi1oYm8tZG9jdW1lbnRhcnktcmV2aWV3LXRoZS1sb25lLXdvbGYtb2Ytd2Fsb=
+C1zdHJlZXQtd29uLXQtZXZlci1zdG9wP2NtcGlkPUJCRDAyMTUyMl9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIxNSZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7bd6cc0b" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> smooth =
+as a stucco bathtub</a>.=E2=80=9D Ohio mayor resigns after linking <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aHR0cHM6L=
+y90aGVoaWxsLmNvbS9ob21lbmV3cy9zdGF0ZS13YXRjaC81OTQxNjMtb2hpby1tYXlvci1yZXNp=
+Z25zLWFmdGVyLWxpbmtpbmctaWNlLWZpc2hpbmctdG8tcHJvc3RpdHV0aW9u/607f07ceef4b85=
+24a319a23cB64923146" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">ice fishing</a> to prostitution.=C2=A0</p><p =
+style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media">=
+<em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, ri=
+ght in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/26719940.285603/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy=
+5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyN=
+jI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2cd633e9" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stu=
+ff and other great Bloomberg newsletters <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26719940.285603/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29t=
+L25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB3312712b" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p>=
+<p style=3D"margin: 16px 0;"><em>[1] If this is your model you might ask: W=
+hy does the SEC want $50 million? I think the answer is more like =E2=80=9C=
+the SEC=E2=80=99s effectiveness as a regulator is to some extent measured b=
+y how many fines it extracts, so getting a big headline fine is a win for t=
+he SEC=E2=80=9D than it is like =E2=80=9Cthe SEC can spend the money on coo=
+l stuff.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[2] Similarly, i=
+t=E2=80=99s possible that BlockFi could have gotten clarity on this issue b=
+y *writing a registration statement first*, and not launching the product u=
+ntil it had confirmed with the SEC that it was legal. It=E2=80=99s possible=
+ that it did not do that because it was a gray area and it thought it was f=
+ine, or because back when it launched this product crypto was an unregulate=
+d Wild West. It=E2=80=99s also possible that the SEC would have been *less*=
+ helpful with that approach, though, because there was no existing fait acc=
+ompli.</em></p><p style=3D"margin: 16px 0;"><em>[3] There is also a strange=
+ issue involving the Investment Company Act that may be tricky to resolve.=
+=C2=A0SEC Commissioner Hester Peirce <a href=3D"https://link.mail.bloomberg=
+business.com/click/26719940.285603/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3N0YXRl=
+bWVudC9wZWlyY2UtYmxvY2tmaS0yMDIyMDIxNA/607f07ceef4b8524a319a23cC72fcb4d7" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">dissented from the settlement</a> and complained that BlockFi =E2=80=
+=9Chas a challenging path=E2=80=9D to figure out how to comply with the Inv=
+estment Company Act.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[4] Or =
+vice versa, but here we are talking specifically about the buying case.</em=
+></p><p style=3D"margin: 16px 0;"><em>[5] I kid; I started with Tesla becau=
+se it=E2=80=99s enormous and liquid. There=E2=80=99s only so much money you=
+ could put into GameStop and, after my incredible run in 2020, I=E2=80=99d =
+be too big for that trade.</em></p><p style=3D"margin: 16px 0;"><em>[6] =E2=
+=80=9CBuy Bitcoin in 2011=E2=80=9D is a really really good one but your Bit=
+coin probably all got stolen. I guess with a time machine you could get it =
+back.</em></p><p style=3D"margin: 16px 0;"><em>[7] A better year to be in G=
+ameStop, really, which was up 688%, but you can=E2=80=99t win =E2=80=99em a=
+ll.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB43c4f033" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb746707f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe58be73c" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB7573b391" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjcxOTk0MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcwMDU1NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI9d8457ce" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26719940&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2671994=
+0.285603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBff6605d1" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26719940.285603/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC50d32016" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26719940.285603/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB2a8fa32b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26719940.285603/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc8ba55f9" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+c24ee14" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26719940.285603/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+43b8a52" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D267199=
+40&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D267199=
+40&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D267199=
+40&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D267199=
+40&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D267199=
+40&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27005543&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfwp8k.64df/7bb95f3f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_45645782_1941592286.1644949678736--
+

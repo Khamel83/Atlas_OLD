@@ -1,0 +1,2522 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c60f:b0:ed:4f57:7601 with SMTP id fd15csp797321rwb;
+        Wed, 18 Jan 2023 11:47:24 -0800 (PST)
+X-Received: by 2002:a05:600c:a4d:b0:3db:1d6:16f7 with SMTP id c13-20020a05600c0a4d00b003db01d616f7mr3864392wmq.23.1674071244182;
+        Wed, 18 Jan 2023 11:47:24 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1674071244; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=NXKoS44DXGgIP3rmhhDTNby0RvBsolR3t9T4Ex41dOLbWEOdPUFOjpIviZ9bkcs5Mt
+         qY4aiGO5DjSXzhaj8HMJii+XtskRTSlHNKyrp6EAo8wPEeABBvd0Dqm+kPNdV7DMZpyN
+         lbqzF78My5nuvMABCKzO2H9S+2Y+9t+/sJ9j9xOCZkSvGBhKzqY50Wg7cWCKVkk71XA3
+         CqBoGSCOvhvqum9Pg26nqgTpG8bQ6U6Erc2GEQLLX6E4F/aqofVl37RaDqOTWsL+fezF
+         Nw+OGwiAnjAu4urx3Yi14fjn8OBetUa3KWXtTbapXyRjGzXOT3s9enRkua8RUh8LRp8u
+         nLLw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=5DtlVpLC7ShgUq2A6u1g46t1XvWaFpBA50odxS0XwOk=;
+        b=Zxx8DymTCgMU5O/Bu90DCCj5v8uzdOnUQlJvS8SnKX83x7ZTvK45g9A9xoGUuVnfOQ
+         WSrOtFoRVTWNop9G9OljOu84NvBGNwMSNsTVaygOAj0zd6AE/PH8FP34C0nLi9cySyLU
+         v4YORsQjuiuY+nMAsJLNJW+TeQ6EQe9sF5Anq2sipB/wkcp26GwIga00agBG9Mx9b9Dy
+         XzuIPbnbF8J0JANA6RTm/lG5zCu0ei44RH/zDz0lQHEcjV0WYo3cXdcOr5cG4TQhPHgG
+         7KcbBl7uJGZm4Y4c3TmYEWd3OKV3Dra+Z+qmqlpA3CzbG/LI502HKgZfJAEQTPaMKrYa
+         V9cA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YPIxS6eb;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u2-20020a5d6da2000000b00278daacae86sor3335769wrs.62.2023.01.18.11.47.24
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 18 Jan 2023 11:47:24 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YPIxS6eb;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=5DtlVpLC7ShgUq2A6u1g46t1XvWaFpBA50odxS0XwOk=;
+        b=Z7wQGqEksYUROwmujf5Nau62R0rEt37CX3jvybxnvVduzgC9IMPfxkbbEh14wtABZ2
+         2lgKj0tIceO/9qv5OIHOC1/kjsSXxUbL+JqoLwAeKmd6IXOItspYRZRhysjOYZV8oF0V
+         pXwVFPYNXu5YwWJ7kROKV6YtNj6mLcT0awYFLAfKHsZThFVawmP/PTn/ZVxx0B6o5TcZ
+         2KgWUVW33zH5TLG+1iNEH2brVXxjoq8iVtiEOFckwzvNb7+A8l1rBCXW3DNn8tAo76ML
+         h47ce9Ax6Do/Bnum1UhRo0cIePOtfJDKDqg9d+lHTToCA5leKxvhsgTB1gIKr9KKBVvZ
+         prog==
+X-Gm-Message-State: AFqh2kpu3coaGl+A1hJm1gLgCcvaRGW/ClBgOM6eyPgbvNA+1qwZXzcD
+	s0DR+AdRfJaqPpfOe0Q+yJBu7Q1eVHtbaNGPB1t0WFV9WM4LYopnGg==
+X-Received: by 2002:a5d:6b05:0:b0:2bc:7f48:4cea with SMTP id v5-20020a5d6b05000000b002bc7f484ceamr246699wrw.140.1674071243819;
+        Wed, 18 Jan 2023 11:47:23 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c08:0:0:0:0 with SMTP id ba8csp1597671wrb;
+        Wed, 18 Jan 2023 11:47:20 -0800 (PST)
+X-Received: by 2002:a92:cd82:0:b0:303:85e0:1ff6 with SMTP id r2-20020a92cd82000000b0030385e01ff6mr8084798ilb.6.1674071239867;
+        Wed, 18 Jan 2023 11:47:19 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1674071239; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=uFgMwSaMPAXpljBsixgBs7X0TKzWkyKASYJA5bQpp3mrjP43CpmWd+c2irkNKxlK46
+         pcLhW9w6Rhx5gVAC9PgeFAS+Oe7hC4HCObpV9V74fGjs50bdMNqfWPCxYQF1drCP4Sfy
+         ZfS19jl+h4UZj806QLRRVVfogf4layOCDEeJjFkEVW3bNHJWQguqMVNzshQB++6wa/2f
+         qqfVQ9EaPmAbJFKFDRxQc2pw2c1GYf5f5QOXB3VimMNr/l9w6uG8Ba1/yDoYCieWqWwF
+         1gCbaaTrverxX5ZvG9aWUWyXqz12CpshiL1Nc94jHbkihYrSEQSbk0NSKJOsflsDrgC7
+         L83A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=5DtlVpLC7ShgUq2A6u1g46t1XvWaFpBA50odxS0XwOk=;
+        b=QlH/V7qU1VNZVHrnke1pvCAMELigWNE5jbB9tt+p5kF6GHaRetYz21Q+YbeUEwVKvU
+         A4iWO34mdC2cNjwdFpuhdKIzNBsnHrOkMchF47Ycx07i3uVsk1dKfSX323E9ds7YN0aI
+         CNH6biTTDWdy/Nxev9/5wVwflnhpzRMzCW2DmS8HGVgr+3+H3rMRVnT8pamPi+Au/d4+
+         txaC9SjIFIFJmfesy8Qg95h3j8XMYkuF3ZXmHxKqzDNxWNZ5vyTTYav0aHHqNexPFT2g
+         sn0hRd0Rgh0P8g0zQla4844Hmi8wiVX81RNjub3Ioby3p3BCyiq4ocEBnxL3QbS7vsFB
+         i5rg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YPIxS6eb;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230118144652.30288429.269516@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230118144652.30288429.269516@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230118144652.30288429.269516@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r14-20020a92760e000000b0030d77bc02a6sor395021ilc.107.2023.01.18.11.47.19
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 18 Jan 2023 11:47:19 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230118144652.30288429.269516@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXu4tWn1jROuHJH3TkOTlTeSqx/2qARlDv8L1zI7O3QQLP7rOQPuV4q2szwSzwBbEyWFaUwQ/jNei0yNxsvZkoRkl1tVxog=
+X-Received: by 2002:a05:6e02:6cc:b0:30c:4846:57c3 with SMTP id p12-20020a056e0206cc00b0030c484657c3mr6521991ils.4.1674071239472;
+        Wed, 18 Jan 2023 11:47:19 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1674071239; cv=none;
+        d=google.com; s=arc-20160816;
+        b=GHltHvPyiYAd+ozzp+GSB/T9Xqi+bz5KR7wt4Mub1OMu+CjIWWvtHMc0a51/VjtgLI
+         15b9YzH6lOAXI+Cn27Gf9ztqM2sXAWdrsGC8+uoFcxzSRRm7oXS1bEaWf51tX+1Ef7tY
+         RZtvr42g/yHDvLlO8YnDTxE4VlgrUSKeiph91LUdSFFm+4IaBP8gRwZyZs4T2PDODnyi
+         HBePVJ+ZljXUKn2U/19hDjRhokfoA/ggzj0xwr6xUHLM6Zeb6aAXVx77YVb7BZj9TIHb
+         6+nNzGx0dnV5zYNM8fx5MakOPYQTG41Hrxu8V8l7jkdA08Dlr6yjSGpkQuZqvjDRFPSa
+         nm5Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=5DtlVpLC7ShgUq2A6u1g46t1XvWaFpBA50odxS0XwOk=;
+        b=J/5KMto8MtcTcdD+B79zSfFjqhZZdoladYANu+s7sa4XQfnfXSYL74ZWApFO02Nmjt
+         BVlSHO5EfQnLRyM4eDABH5nYKZXMYaDz2UfV8mKr1HWYLOqw+17raHNDreo0vLBe8G7J
+         ciwS9G4SSLVjgDl7smME64DY/Mr9m68MtFxx9CvRVjId11+NHlyfnfc0cUpWxfoUNdSO
+         sWwChm6a+Y4022pU9wQ+bY6KYPhoBKTtUDHrH0g/Ye4RAO7gIo4QIB0ft6VDHYnRY18d
+         3DfV2tP8dqq+zD9ZnAfSaNq6NcYipOJxLcyNHNDjCFcQZQVxsO6aLarnVcArAgJMvkCs
+         TcSA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YPIxS6eb;
+       spf=pass (google.com: domain of delivery_20230118144652.30288429.269516@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230118144652.30288429.269516@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230118144652.30288429.269516@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id 7-20020a056e020ca700b0030d87b97b25si2542662ilg.4.2023.01.18.11.47.19
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 18 Jan 2023 11:47:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230118144652.30288429.269516@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=TAYJ3dHBUD6gba1crAAS7dPZkpZyr/r3ZIuAAff1PPo=;
+ b=YPIxS6ebHRKh6+sS0QT8M5pDmL/11KCJE7IbwkxmDwOlZzpnwdD7ajUaid4kRsQ2dI1PdHa/iJ9I
+   SJCz6CT93853+tvPeM9JxKQ/dllecw9kjGWE+jM8NZ8YN9ZLdD/I+AUhqpBX5Qa2KMvUCcajSg13
+   Jjd/AZzQl4UAoyVbwPU=
+Received: from nj1-mta31.sailthru.com (204.153.120.166) by bloomberg-b.sailthru.com id hp16cc30nu8d for <bloomberg@khamel.com>; Wed, 18 Jan 2023 14:47:18 -0500 (envelope-from <delivery_20230118144652.30288429.269516@mx.sailthru.com>)
+Date: Wed, 18 Jan 2023 14:46:52 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230118144652.30288429.269516@sailthru.com>
+Subject: Money Stuff: Slicing Cash Flows for Better Ratings
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_12944660_346592534.1674071212953"
+Precedence: bulk
+X-Feedback-ID: 6358:30288429:campaign:sailthru
+X-TM-ID: 20230118144652.30288429.269516
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmidnight.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci16p9.5ryk/f2fa6941
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci16p9.5ryk/f2fa6941>, <mailto:unsubscribe_20230118144652.30288429.269516@mx.sailthru.com>
+X-rpcampaign: stjko30288429
+
+------=_Part_12944660_346592534.1674071212953
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        We talk from time to time around here about the cash-flow-slicing b=
+usiness. The way it goes is: You have some business that will make somewh
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      CFO ratings
+   =20
+ =20
+
+We talk from  time to  time around here about the cash-flow-slicing busines=
+s. The way it goes is:
+=09You have some business that will make somewhere between $75 and $150 nex=
+t year.=09You can sell it to one owner who gets=C2=A0the cash flows from th=
+e business. If it makes $75, she gets $75; if it gets $100, she gets $100; =
+if it gets $150, she gets $150; etc.=09Her ownership stake is worth some=C2=
+=A0amount of money, presumably between $75 and $150. Let=E2=80=99s say it=
+=E2=80=99s $100. She would pay $100 for this ownership stake.=09
+Or, you can divide up the cash flows. A senior bondholder gets the first $5=
+0 of cash flows: If the business makes $75, she gets $50; if it makes $150,=
+ she gets $50. A junior bondholder gets the next $30: If the business makes=
+ $75, he gets $25; if it makes $80 or $100 or $150, he gets $30. And then a=
+=C2=A0shareholder gets whatever is left, whatever the business makes above =
+$80: If it makes $75 or $80, she gets zero; if it makes $100, she gets $20;=
+ if it makes $150, she gets $70.=C2=A0=09Here, the senior bond is much safe=
+r=C2=A0than the unitary ownership claim: In Steps 1-3, the owner puts up $1=
+00 and could lose money (get back $75) or make money (get back $150) or som=
+ewhere in between, but in Step 4, the senior bondholder always gets back $5=
+0. The junior bond is also safer than total ownership, with less variance i=
+n its returns: It gets back $30 in almost every case, unless things go quit=
+e=C2=A0badly. The shareholder in Step 4, though, takes much more risk than =
+the total owner in Steps 1-3: The total owner always gets back at least $75=
+, while the levered shareholder here might get back $0.=09You can sell the =
+senior bond=C2=A0plus the junior bond=C2=A0plus=C2=A0the shares for some am=
+ount of money, presumably between $75 and 150. Let=E2=80=99s say it=E2=80=
+=99s $105.=09$105 is more than $100 so this is a good trade. You have creat=
+ed $5 of value by slicing the cash flows.
+
+This is one of the main things that happens in finance. It describes how co=
+mpanies work =E2=80=94=C2=A0they issue debt and equity, etc. =E2=80=94=C2=
+=A0and your mortgage, and banks. In its purest form, where you just have so=
+me set of cash flows and you slice them up into junior and senior claims, i=
+t is often called =E2=80=9Csecuritization,=E2=80=9D or=C2=A0=E2=80=9Cstruct=
+ured finance.=E2=80=9D
+Why would this work? Why would the sliced-up claims (senior bonds, junior b=
+onds, shares) be worth more ($105) than a single unitary claim ($100)? Ther=
+e is  a famous theorem saying that it shouldn=E2=80=99t work, that the valu=
+e of the cash flows shouldn=E2=80=99t depend on how you slice them up. But =
+of course people do slice them up.
+  [1]
+ At least sometimes, it seems, there is more demand for a very safe cash fl=
+ow=C2=A0plus=C2=A0a very risky cash flow=C2=A0than there is for a single bl=
+ended kinda-risky cash flow.
+Why would that be?=C2=A0You could tell=C2=A0psychological=C2=A0stories, sto=
+ries about conservative investors wanting safe assets and aggressive invest=
+ors wanting risky assets and nobody wanting stuff in the middle. But it is =
+often useful to think about a story of=C2=A0ratings=C2=A0and regulation.=C2=
+=A0Schematically:
+=09You are a bank or an insurance company; you are in the business of takin=
+g money (deposits, premiums) from customers and investing it until they nee=
+d it. You use the money to buy investment=C2=A0assets, and you make money=
+=C2=A0if the assets return more money than you need to give back to the cus=
+tomers. Your regulators require you to have a certain amount of capital: Fo=
+r every $100 of assets that you own, you can have, say, $92 of deposits and=
+ $8 of your own money. The $8 is your capital.=09But the regulators =E2=80=
+=9Crisk-weight=E2=80=9D your assets: Really, you need capital equal to 8% o=
+f your risk-weighted assets, and different assets count differently. US Tre=
+asury bills might get a 0% risk weight: You can buy $100 of Treasury bills =
+with $100 of deposits and $0 of capital. Business loans might get a 100% ri=
+sk weight: You need $8 of capital to buy $100 of loans. Bitcoin might get a=
+  1,250% risk weight: You need $100 of capital to buy $100 of Bitcoin; you =
+can=E2=80=99t use depositor money at all.
+  [2]
+
+=09Capital=C2=A0is, by general agreement, expensive.=C2=A0All else equal, y=
+ou would rather buy $100 of assets with $99 of deposits and $1 of your own =
+money than with $80 of deposits and $20 of your own money. On the other han=
+d, you=E2=80=99d rather buy higher-yielding assets than lower-yielding asse=
+ts. Higher-yielding assets are often riskier, which means they have higher =
+risk weights and require more capital.=09Your job is to optimize this: You =
+want to get the highest=C2=A0yields with the lowest capital requirements. I=
+f there are two investments with the same risk and returns, but one of them=
+ has lower capital requirements, you should choose that one.=09Someone offe=
+rs you an attractive, kinda risky investment. It has a 50% risk weight. If =
+you buy $100 of it, it counts as $50 of risk-weighted assets, so you need $=
+4=C2=A0of capital.=09Some financial engineer=C2=A0finds a way to slice that=
+ investment into a very safe senior bond and a very risky equity investment=
+. The slicing produces 80% senior bond and 20% risky equity. The senior bon=
+d has a 0% risk weight =E2=80=94=C2=A0it=E2=80=99s as good as Treasury bill=
+s =E2=80=94=C2=A0and so requires $0 of capital. The very risky equity has a=
+ 200% risk-weight: If you buy $20 of it, it counts as $40 of risk-weighted =
+assets, so you need $3.20 of capital.=09You buy $80 of the safe bond and $2=
+0 of the risky equity, so you=C2=A0need a total of $3.20 of capital. You ha=
+ve saved $0.80 of capital.=09But you bought the same thing. You had $100 of=
+ stuff that required $4 of capital, you sliced it into an $80 tranche and a=
+ $20 tranche, and somehow magically those two tranches add up to require $3=
+.20 of capital.
+
+It is not quite true that the story of the 2008 financial crisis is =E2=80=
+=9Cinstead of making mortgage loans, holding them, giving them a 50% risk w=
+eight and holding 4% capital against them, banks made mortgage loans, slice=
+d them up into securitizations, bought highly rated tranches of them, and h=
+eld much less capital against them,=E2=80=9D but it is kind of true, and wo=
+rth keeping in mind.
+  [3]
+
+Similarly, if you are an insurance company, some private equity=C2=A0 firm =
+might come to you and ask you to invest $100 in a private equity=C2=A0fund =
+or a high-yield private credit fund. And you will say, sure, sounds great, =
+but I am a regulated insurance company, and my regulators prefer that I mos=
+tly invest my money in safe bonds. I can do some private equity investing, =
+but not too=C2=A0much; mostly I just buy bonds with good credit ratings.=C2=
+=A0
+And then the PE firm will say: Okay, what if we sliced our fund into junior=
+ and senior tranches? You can invest in both. The senior tranche is=C2=A0a=
+=C2=A0bond, which pays back your money with interest as long as our private=
+ equity fund doesn=E2=80=99t perform disastrously. And the junior tranche i=
+s an=C2=A0equity=C2=A0upside stake, which pays back whatever the return on =
+the fund is, minus whatever the bond pays. You put, say, $80 into the bond =
+and $20 into the equity stake.=C2=A0
+This is the same thing: Buying a whole stake in the fund is economically id=
+entical to buying (1) a senior claim on the fund plus (2) a junior claim on=
+ the fund; you are just slicing up the cash flows. But now you can go to yo=
+ur regulator and say =E2=80=9Coh no it=E2=80=99s not $100 of equity; it=E2=
+=80=99s $20 of equity and $80 of=C2=A0bonds.=E2=80=9D Your regulator is muc=
+h more comfortable with you buying bonds than buying equity, so you get bet=
+ter regulatory treatment and can do more of it. You go and get the bonds ra=
+ted by a credit ratings firm, and from your regulator=E2=80=99s perspective=
+ you have transformed $100 of risky scary private equity investment into (1=
+) $80 of safe A+ rated corporate bonds plus (2) $20 of risky scary private =
+equity investment.=C2=A0
+We  talked a while back about a form of this trade, called a =E2=80=9Ccolla=
+teralized fund obligation,=E2=80=9D or CFO. (I am oversimplifying it: Often=
+ you don=E2=80=99t just slice up=C2=A0one=C2=A0private equity investment; y=
+ou put a bunch of different private equity investments into a box and slice=
+ up their total cash flows.)=C2=A0Yesterday the Financial Times reported th=
+at  insurance regulators don=E2=80=99t like it:
+
+US regulators are cracking down on investment vehicles used by private equi=
+ty groups over fears that rating agencies are downplaying the products=E2=
+=80=99 dangers, exposing insurers to undue risks.
+The vehicles are known as =E2=80=9Ccollateralised fund obligations=E2=80=9D=
+, a name that echoes the =E2=80=9Ccollateralised debt obligations=E2=80=9D =
+that played a big role in the 2008 financial crisis. They parcel up stakes =
+in hundreds of private equity-owned companies into products intended to div=
+ersify risk and so obtain better credit ratings.
+A year-long investigation by the National Association of Insurance Commissi=
+oners, a US regulatory group, has found that rating agencies can understate=
+ the risk of CFOs to insurers, which are among the vehicles=E2=80=99 main i=
+nvestors, according to people familiar with the matter.
+The NAIC, which coordinates US insurance regulators, has now decided to ass=
+ess the risk of individual CFOs, supplanting credit rating agencies =E2=80=
+=94 a similar initiative to steps the regulator took to rein in mortgage-ba=
+cked securities in the wake of the financial crisis.
+
+The NAIC report is  here (in Microsoft Word download format, sorry), and it=
+=C2=A0doesn=E2=80=99t=C2=A0exactly find =E2=80=9Cthat rating agencies can u=
+nderstate the risk of CFOs to insurers.=E2=80=9D=C2=A0Instead, what it find=
+s is that=C2=A0this is too good of a regulatory arbitrage:
+
+These investments are being reported as bonds and receiving a bond risk-bas=
+ed capital (RBC) factor based upon the mechanical assignment of NAIC Design=
+ations that rely upon Credit Rating Provider (CRP) ratings through the fili=
+ng exempt process. The use of CRP ratings would not be permitted for the fu=
+nd or equity investments which underly these notes if the equity or fund in=
+vestment were held directly. ...
+The structure may permit in-substance equity and fund investments to obtain=
+ improved RBC treatment than what would be received if the investment had b=
+een directly reported. =C2=A0In addition to improved RBC treatment, the str=
+uctures could permit entities to hold more underlying equity / fund investm=
+ents than what would be permitted under state investment law. =E2=80=A6
+Equity and fund investments that are structured through another legal entit=
+y have been able to qualify as =E2=80=98bonds=E2=80=99 under the current de=
+finition due to their legal form (instead of substance as with the proposed=
+ bond definition) and bypass reporting requirements for equity and fund inv=
+estments. These structures have sometimes been referred to generically as =
+=E2=80=9CRated Notes=E2=80=9D, but they may be called other names. The name=
+ may change but the general framework is the same: an equity or fund invest=
+ment is transformed into what the insurer reports as a bond through the ins=
+ertion of an intervening entity, which issues a note that, due to a CRP rat=
+ing, receives the statutory treatment of a bond for accounting, reporting, =
+RBC and NAIC Designation purposes. This process exploits the inherent weakn=
+ess within the Filing Exempt process where anything with a CRP rating is as=
+sumed to be a =E2=80=9Cbond=E2=80=9D and automatically treated as such desp=
+ite its underlying assets, structure, or risk. =E2=80=A6
+
+It gives an example of an insurance company investing in a private credit f=
+und that lends money to risky companies with B credit ratings. Just investi=
+ng directly in that fund is risky =E2=80=94=C2=A0it=E2=80=99s single-B cred=
+it investing =E2=80=94 and has high capital requirements. But if you slice =
+that fund into a 90% senior claim and a 10% junior claim, and then=C2=A0sel=
+l =E2=80=9C=E2=80=98investment units=E2=80=99 comprised of 90% Senior Notes=
+ and 10% limited partnership interest,=E2=80=9D the senior claim is safe, t=
+he junior claim is risky, and the combined =E2=80=9Cunit=E2=80=9D has a low=
+er capital requirement than investing directly in the fund:
+By investing in the investment units issued by the Debt Feeder Fund, an ins=
+urer is able circumvent regulatory guidance by transforming the Main Fund=
+=E2=80=99s investments in =E2=80=9CB=E2=80=9D rated loans into a much highe=
+r rated note due to the intervening legal entity. =C2=A0An insurer investin=
+g in the investment unit (note and equity) would be able to dramatically re=
+duce its risk-based capital versus reporting an LP Interest investment in t=
+he main fund holding =E2=80=9CB=E2=80=9D rated loans but be exposed to iden=
+tical economic risk.=C2=A0=E2=80=A6=C2=A0The insurer making this investment=
+ could reduce its risk-based capital by 56.6%, an RBC factor reduction of 5=
+.40%, if it invested in the investment unit (note and equity) with the note=
+ rated by a CRP instead of investing in the underlying assets directly whil=
+e maintaining the exact same economic exposure.
+Yep, that's the game!=C2=A0Finance is, in large part,=C2=A0about finding ne=
+w ways to slice cash flows that will get better regulatory treatment than t=
+he old ways to slice cash flows. And financial regulation is, in large part=
+, about noticing the new ways that people are slicing cash flows, and adjus=
+ting the regulations=C2=A0so that the new ways get treated the same as the =
+old ways. Or worse! Part of the goal here is logical consistency and treati=
+ng economically similar things similarly, but part of the goal is to=C2=A0d=
+eter people from doing this, so the regulators might want to treat the new =
+ways worse.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      FTX
+   =20
+ =20
+
+FTX Trading Ltd., Sam Bankman-Fried=E2=80=99s bankrupt crypto exchange, has=
+ been under new management since filing for bankruptcy last November,
+  [4]
+=C2=A0and the new managers have two related but distinct jobs. One job is t=
+o maximize the recovery of the bankruptcy estate: They have to round up all=
+ of FTX=E2=80=99s assets, sell them for as much money as possible, and give=
+ the money to FTX=E2=80=99s creditors (meaning mostly its customers). The o=
+ther job=C2=A0is to explain what went wrong to land FTX =E2=80=94=C2=A0whic=
+h a week before filing for bankruptcy looked like a large, stable and succe=
+ssful crypto exchange =E2=80=94=C2=A0in bankruptcy. The explaining itself m=
+ight help maximize recovery =E2=80=94=C2=A0if the explanation of what went =
+wrong is =E2=80=9Cprior management stole the money,=E2=80=9D the bankruptcy=
+ estate can sue the prior managers to get the money back =E2=80=94=C2=A0tho=
+ugh that is not its only purpose. It can also help=C2=A0prosecute prior man=
+agement, and provide a certain emotional and intellectual closure.
+Yesterday  FTX=C2=A0=E2=80=9Cannounced that their top level management and =
+advisors met with the members of and advisors to the Official Committee of =
+Unsecured Creditors=E2=80=9D to give the creditors an update on what they h=
+ave found. Here is  the update,
+  [5]
+=C2=A0prepared by FTX=E2=80=99s advisers (Alvarez & Marsal, Sullivan & Crom=
+well and Perella Weinberg Partners), which covers both recoveries and expla=
+nation. I want to start with the explanation part. The   basic explanation =
+of   what went wrong at FTX=C2=A0is that FTX loaned billions of dollars to=
+=C2=A0Alameda Research, a trading firm founded and mostly owned by Bankman-=
+Fried. Alameda lost the money, rendering FTX insolvent. And now=C2=A0FTX=E2=
+=80=99s advisers say that they=C2=A0=E2=80=9Chave uncovered the mechanics b=
+ehind how Alameda Research had the ability to borrow without collateral eff=
+ectively unlimited amounts from customers and how a small group of individu=
+als had the ability [to] remove digital assets from the exchange without be=
+ing recorded on the exchange ledger.=E2=80=9D
+That discussion is on slide 19:
+
+
+   =20
+
+If you were a normal=C2=A0customer at FTX, you were not allowed to have a n=
+egative balance in your account. If you put up $100 of money to buy $200 of=
+ crypto, and your crypto lost $50 of value, then your account balance was $=
+50. If it lost another $50 of value, then your balance was=C2=A0$0 and you =
+were liquidated. Your account could never be worth -$10; you got liquidated=
+ before that.
+If you were a=C2=A0market maker=C2=A0on FTX, though, you=C2=A0were=C2=A0all=
+owed to have a negative balance: Effectively, FTX would lend you the money =
+so you could open a position without depositing the money first, or have th=
+e market move against you without instant liquidation.=C2=A0In FTX=E2=80=99=
+s code, most accounts had a =E2=80=9Cborrow=E2=80=9D flag set to zero, mean=
+ing that they could not have negative balances, but some 4,000 accounts had=
+ the borrow flag set to some positive number, meaning that FTX would lend t=
+hem the money up to some credit limit. Of those 4,000 accounts, 41=C2=A0had=
+ credit limits of $1 million to $150 million. One =E2=80=94=C2=A0Alameda =
+=E2=80=94=C2=A0had a higher limit. Alameda=E2=80=99s limit was=C2=A0$65 bil=
+lion. (Slide 18 shows a code snippet, showing that the actual limit was $65=
+,355,999,994.)=C2=A0=E2=80=9CFTX will allow Alameda to have a negative bala=
+nce of up to $65 billion=E2=80=9D is functionally equivalent to =E2=80=9CAl=
+ameda can use as much of FTX=E2=80=99s customer money as it wants.=E2=80=9D
+There was another flag in the code, though, =E2=80=9Ccan_withdraw_below_bor=
+row.=E2=80=9D The =E2=80=9Cborrow=E2=80=9D flag determines how negative you=
+r account can be and keep trading: If your borrow flag is set to $10 millio=
+n, and you put on some trades and they move against you and you end up with=
+ a balance of negative $5 million, then you can keep the trades on. But if =
+you went to FTX and tried to cash out $4=C2=A0million to spend on groceries=
+=C2=A0=E2=80=94=C2=A0giving you a total balance of negative $9=C2=A0million=
+, still within your credit limit=C2=A0=E2=80=94=C2=A0FTX wouldn=E2=80=99t g=
+ive you the money. You could use your credit limit to trade on FTX, but not=
+ to take out cash. =E2=80=9CNo, you still owe us $5 million, pay us that fi=
+rst, we=E2=80=99re not letting you take any cash out before you pay us what=
+ you owe,=E2=80=9D FTX would quite reasonably say. Unless you had the =E2=
+=80=9Ccan_withdraw_below_borrow=E2=80=9D flag set to =E2=80=9Ctrue.=E2=80=
+=9D=C2=A0Then FTX would say =E2=80=9Csure, here=E2=80=99s the money.=E2=80=
+=9D
+One account had that flag set, says the presentation: Alameda. To the tune =
+of $65 billion. Setting the borrow flag to $65 billion and the can_withdraw=
+_below_borrow flag to true is functionally equivalent to =E2=80=9CAlameda c=
+an take as much of FTX=E2=80=99s customer money as it wants, remove it from=
+ the exchange, and spend it on whatever.=E2=80=9D (Slides 16 and 17 give yo=
+u a sense of what =E2=80=9Cwhatever=E2=80=9D meant, including $253 million =
+of Bahamas real estate =E2=80=94=C2=A0including $12.9 million for =E2=80=9C=
+The Conch Shack=E2=80=9D??? =E2=80=94=C2=A0and $93 million of political don=
+ations.)
+The presentation describes this setting as =E2=80=9CGod Mode,=E2=80=9D
+  [6]
+=C2=A0which I am not sure is a technical term found in FTX=E2=80=99s actual=
+ codebase or documentation, but you get the idea. FTX   built a video game =
+for other people to trade crypto, but FTX =E2=80=94=C2=A0or rather its affi=
+liate Alameda =E2=80=94=C2=A0had a cheat code. Everyone else got to trade c=
+rypto, and if they made money, they could take out the money that they made=
+. Alameda got to trade crypto, and it got to take out as much money as it w=
+anted, whether or not it made money. It was playing in God Mode.
+But most of the presentation is about recoveries: how much stuff FTX has fo=
+und, what it thinks it=E2=80=99s worth, and how much it can pay to creditor=
+s. The headlines here are =E2=80=9CFTX Debtors have identified approximatel=
+y $5.5 billion of liquid assets to date,=E2=80=9D consisting of $1.7 billio=
+n of cash, $3.5 billion of =E2=80=9Cliquid crypto currency and FTT tokens=
+=E2=80=9D and $0.3 billion of securities. But =E2=80=9Cinvestigation has co=
+nfirmed shortfalls at both International and U.S. Exchanges.=E2=80=9D
+Two points here. One is that we have   previously discussed the importance =
+of FTX US. Basically all the stuff above about borrow flags and credit limi=
+ts applies to=C2=A0what is sometimes called FTX International, FTX=E2=80=99=
+s main exchange, which is based the Bahamas and meant to serve non-US custo=
+mers. FTX International is definitely insolvent; it loaned all that money t=
+o Alameda, which lost it. But FTX US is a separate, tamer, more regulated b=
+usiness that was meant to serve US customers. It had much less in the way o=
+f margin and futures trading; in a loose sense its business was just taking=
+ customers=E2=80=99 money, converting it into crypto, and holding the crypt=
+o for the customers. If FTX International is missing customer money, then t=
+hat can perhaps be explained as =E2=80=9Cit=E2=80=99s hard to run a futures=
+ exchange, we were extending credit to traders, and one trader blew up.=E2=
+=80=9D That=E2=80=99s a thing that happens in finance sometimes, though obv=
+iously the =E2=80=9CGod Mode=E2=80=9D stuff is bad. But if FTX US is missin=
+g customer money =E2=80=94=C2=A0as FTX=E2=80=99s management says it is =E2=
+=80=94=C2=A0then that can only really be theft.
+And so Sam Bankman-Fried, who is facing criminal charges for blowing up FTX=
+, has a strong interest in arguing that FTX US is fine. Yesterday  he repli=
+ed to the FTX=E2=80=99s presentation on his Substack, mainly to argue that =
+FTX US is still fine. Specifically:
+
+In the presentation that S&C formally filed on the Delaware Chapter 11 cour=
+t docket, S&C failed to include $428m in FTX US=E2=80=99s bank accounts as =
+an asset:
+1. $181m of digital assets, not including $428m USD in banks
+2. More than $181m of customer balances, including USD
+3. Thus, they concluded that FTX US had a =E2=80=9Cshortfall=E2=80=9D
+Later in the same report, S&C reveals that FTX US has an additional $428m U=
+SD in bank accounts, on top of the $181m of tokens=E2=80=94for roughly $609=
+m of total assets.
+Customer balances are likely around $199m, and certainly less than $497m (w=
+hich they were a day earlier before massive withdrawals).
+Thus FTX US had at least $111m, and likely around $400m, of excess cash on =
+top of what was required to match customer balances.
+
+I suppose if FTX US customers had crypto balances of $200 million and FTX U=
+S had $180 million of crypto and $400 million of cash, that would be=C2=A0w=
+eird=C2=A0=E2=80=94=C2=A0why wasn=E2=80=99t FTX US just holding all of thei=
+r crypto in a box for them? isn=E2=80=99t that mismatch risky? =E2=80=94=C2=
+=A0but more or less fine.
+  [7]
+=C2=A0What=E2=80=99s bad is if the customers had balances of $200 million a=
+nd FTX US had only $180 million total; then you=E2=80=99d have to conclude =
+that the extra $20 million went missing in bad ways. Bankman-Fried argues t=
+hat it did not.
+The other point is that, when FTX was floundering into bankruptcy, I was ra=
+ther harsh about Bankman-Fried=E2=80=99s insistence that its huge stash of =
+FTT tokens was valuable. I wrote   things like:
+
+FTX issues a token called FTT. The attributes of this token are, like, it e=
+ntitles you to some discounts and stuff, but the main attribute is that FTX=
+ periodically uses a portion of its profits to buy back FTT tokens. This ma=
+kes FTT kind of like stock in FTX: The higher FTX=E2=80=99s profits are, th=
+e higher the price of FTT will be. It is not actually stock in FTX =E2=80=
+=94 in fact FTX is a company and has stock and venture capitalists bought i=
+t, etc. =E2=80=94 but it is a lot like stock in FTX. FTT is a bet on FTX=E2=
+=80=99s future profits.
+But it is also a crypto token, which means that a customer can come to [FTX=
+] and post $100 worth of FTT as collateral and borrow $50 worth of Bitcoin,=
+ or dollars, or whatever, against that collateral, just as they would with =
+any other token. =E2=80=A6
+If you think of the token as =E2=80=9Cmore or less stock,=E2=80=9D and you =
+think of a crypto exchange as a securities broker-dealer, this is completel=
+y insane. If you go to an investment bank and say =E2=80=9Clend me $1 billi=
+on, and I will post $2 billion of your stock as collateral,=E2=80=9D you ar=
+e messing with very dark magic and they will say no. The problem with this =
+is that it is wrong-way risk. (It is also, at least sometimes, illegal.) If=
+ people start to worry about the investment bank=E2=80=99s financial health=
+, its stock will go down, which means that its collateral will be less valu=
+able, which means that its financial health will get worse, which means tha=
+t its stock will go down, etc. It is a death spiral.
+
+ And:
+It is striking that the balance sheet that FTX circulated to potential resc=
+uers=C2=A0consisted=C2=A0mostly=C2=A0of stuff it made up. Its balance sheet=
+ consisted mostly of stuff it made up! Stuff it made up! You can=E2=80=99t =
+do that!=C2=A0
+One thing I will say about this harshness is that it is very context-depend=
+ent. In 2021, when FTT traded near $80 per token, and when FTX looked like =
+a successful and widely respected crypto exchange, it =E2=80=A6=C2=A0well,=
+=C2=A0it would still have been a bad idea for FTX=C2=A0to=C2=A0lend money t=
+o Alameda secured by FTT tokens, fine, but it would not have been crazy to =
+say things like =E2=80=9CAlameda is worth many billions of dollars because =
+of its huge stash of FTT tokens.=E2=80=9D The FTT tokens were valuable, the=
+ source of their value =E2=80=94 market confidence in FTX=E2=80=99s future =
+cash flows and utility =E2=80=94=C2=A0seemed reasonable, Alameda had a lot =
+of them, it=E2=80=99s all fine.
+In November 2022,=C2=A0though, when FTX was hurtling toward bankruptcy and =
+Bankman-Fried was seeking rescue financing, I thought it was pretty weird f=
+or him to market Alameda=E2=80=99s stash of FTT tokens as being worth hundr=
+eds of millions of dollars. Once you are days from bankruptcy, you can=E2=
+=80=99t expect to get hundreds of millions of dollars for=C2=A0your stock. =
+Your stock is probably going to be wiped out in bankruptcy. FTT is=C2=A0clo=
+se enough to FTX stock that, in November 2022, FTX could not really count o=
+n getting much money for it.
+Now it=E2=80=99s January 2023 and FTX is very much=C2=A0in=C2=A0bankruptcy =
+and=C2=A0still, when FTX=E2=80=99s advisers list its $3.3 billion of liquid=
+ crypto assets, the second-biggest single holding (behind $685 million of S=
+olana tokens) is $529 million of FTT. Those tokens are valuable to the exte=
+nt that (1) FTX comes back as a popular exchange and the FTT tokens let hol=
+ders get valuable discounts on FTX fees and (2) FTX comes back as a popular=
+ exchange and uses some of its fee revenue to buy back FTT tokens. How like=
+ly are those outcomes? How likely do you think FTX=E2=80=99s bankruptcy adv=
+isers think those outcomes are? FTX is going around showing the world the c=
+ode that allowed Alameda to take all of its customers=E2=80=99 money. Confi=
+dence in FTX is not coming back, not if FTX=E2=80=99s current managers have=
+ anything to say about it. They are=C2=A0going to have a hard time shopping=
+ their stash of FTT tokens. The explanation undermines the recovery.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      10% of everything is securities fraud
+   =20
+ =20
+
+Sure:=C2=A0
+
+[Alexander] Dyck is a professor of finance at the University of Toronto, wh=
+o just published a provocative new study on the pervasiveness of corporate =
+fraud. The study has been passed around in the world of academia in recent =
+weeks, and has become a fascination among general counsels, corporate leade=
+rs and investors.
+It suggests that only about a third of frauds in public companies actually =
+come to light, and that fraud is disturbingly common. Mr. Dyck and his co-a=
+uthors estimate that about 40 percent of companies are committing accountin=
+g violations and that 10 percent are committing what is considered securiti=
+es fraud, destroying 1.6 percent of equity value each year =E2=80=94 about =
+$830 billion in 2021.
+=E2=80=9CWhat people don=E2=80=99t get is how widespread the problem of cor=
+porate fraud is,=E2=80=9D Dyck said about his study, which was published in=
+ the Review of Accounting Studies this month.
+
+Here is the study, =E2=80=9C How pervasive is corporate fraud,=E2=80=9D by =
+Dyck, Adair Morse and Luigi Zingales.=C2=A0 Basically the idea is that Arth=
+ur Andersen didn=E2=80=99t catch fraud at Enron, and then Enron went bankru=
+pt and Arthur Andersen disappeared as a result, so all of Arthur Andersen=
+=E2=80=99s old clients needed to find new auditors, and those new auditors =
+had strong incentives to catch frauds at Arthur Andersen clients, and you c=
+ould use the resulting increase in fraud-catching to estimate how much othe=
+rwise uncaught fraud there is:
+Our evidence suggests that in normal times only one-third of corporate frau=
+ds are detected. We estimate that on average 10% of large publicly traded f=
+irms are committing securities fraud every year, with a 95% confidence inte=
+rval of 7%-14%.
+I am not sure I am persuaded. But I am committed to the bit, and I often sa=
+y that =E2=80=9Ceverything is securities fraud,=E2=80=9D that every bad thi=
+ng that a public company does can be characterized as securities fraud, bec=
+ause public companies do not disclose all of their bad actions in real time=
+. Do 10% of public companies do undisclosed bad things each year, things th=
+at would lead to securities fraud lawsuits if they were discovered, but tha=
+t mostly go undiscovered? Sure yeah seems reasonable.
+
+ =20
+   =20
+      Where all the children are above average
+   =20
+ =20
+
+If you meet all of the expectations of your job at Meta Platforms Inc., the=
+n you have not met all the expectations, because there is an unstated (well=
+, somewhat stated)=C2=A0meta-expectation that you will exceed expectations.=
+ The Information  reports:
+
+Company leaders have told some managers that employees who receive a =E2=80=
+=9Cmeets all expectations=E2=80=9D grade in their performance review have t=
+o up their game, said a current manager. In the past, employees receiving s=
+uch a grade were told that was a positive sign.
+The new message comes amid one of the most intense performance-review cycle=
+s in the company=E2=80=99s history, in which Meta managers are ratcheting u=
+p pressure on the workforce. It follows Meta=E2=80=99s layoff of 13% of its=
+ workforce, or 11,000 people, in November. Now, as fears of a recession mou=
+nt, some employees worry more job cuts could be on the horizon.
+
+This is semantically irritating =E2=80=94=C2=A0shouldn=E2=80=99t =E2=80=9Cm=
+eets all expectations=E2=80=9D include meeting the meta-expectation that yo=
+u exceed the other expectations? =E2=80=94=C2=A0but practically reasonable;=
+ the message is =E2=80=9Cyou have to blow us away every day if you want to =
+keep working here,=E2=80=9D which is a nice thing to aspire to.=C2=A0(Also =
+I mean, fine, grade inflation is everywhere.) Incidentally Meta=E2=80=99s h=
+ighest performance grade (above =E2=80=9Cexceeds expectations=E2=80=9D and =
+=E2=80=9Cgreatly exceeds expectations=E2=80=9D) is =E2=80=9Credefines expec=
+tations,=E2=80=9D which I am not sure is entirely a good thing. =E2=80=9CTh=
+is person makes me expect things I had never expected before=E2=80=9D: Coul=
+d go either way.
+I was going to make a joke about how it is hard to run a company where you =
+fire=C2=A0your=C2=A0average employees every year, but actually that seems p=
+lausible=C2=A0in big tech in 2023? Like, you have 90,000 employees, you ran=
+k them, you fire the bottom 50,000, now you have 40,000 employees, you rank=
+ them next year, you fire the bottom 25,000, now you have 15,000 employees,=
+ you rank them the next year, you fire the bottom 8,000, etc., I don=E2=80=
+=99t know, the Elon Musk Twitter experience teaches that you can repeatedly=
+ fire half of your workforce and it might be fine, or fine-ish.=C2=A0
+Speaking of the Elon Musk Twitter experience, Twitter is   selling off its =
+office espresso machines? And here is a  New York Magazine cover story abou=
+t Musk=E2=80=99s =E2=80=9Cextremely hardcore=E2=80=9D regime at Twitter tha=
+t I found kind of upsetting to read? Like I feel like there are, in the wor=
+ld, cushy jobs, and there are hardcore jobs, and some people want hardcore =
+jobs building rockets for SpaceX and other people want cushy jobs selling a=
+ds at Twitter. And if you start a company, you can start a hardcore company=
+ or a cushy company or something in between, but if there=E2=80=99s an alre=
+ady-existing large public company it is very hard to transition it from one=
+ end of the scale to another.
+  [8]
+=C2=A0When you select yourself into a cushy job and it suddenly, through th=
+e market for corporate control, becomes hardcore, that=E2=80=99s pretty rou=
+gh on you. Apparently thousands of Twitter employees who six months ago wer=
+e working reasonable hours for good pay with great snacks have decided =E2=
+=80=9Cokay guess I=E2=80=99ll be sleeping at the office from now on,=E2=80=
+=9D but presumably thousands of others had arranged their lives in such a w=
+ay that they had to go home and see their families at night? I just don=E2=
+=80=99t understand how you can take a cushy company=C2=A0and turn it hardco=
+re without replacing all the employees and giving the new employees somethi=
+ng inspiring to be hardcore about.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+The New   Bankers to the World Aren=E2=80=99t on Wall Street.   Bonuses Wil=
+l =E2=80=98Absolutely=E2=80=99 Fall, Says JPMorgan=E2=80=99s Co-Head of Inv=
+estment Banking. Solomon Says Goldman Pushed Too Quickly Into   Consumer Ba=
+nking. Big Banks Might Face  Breakup, Top Regulator Says. Credit Suisse Chi=
+ef   Not Concerned Over Conflicts in Klein Deal.=C2=A0A  Crypto Magnate Saw=
+ the Risks and Still Was Hammered.=C2=A0  Party City Files Bankruptcy After=
+ Pandemic Recovery Falters. =E2=80=9CNow imagine the frozen buffalo chicken=
+ tenders are cryptocurrency, the buckets we put the chicken tenders in are =
+digital wallets, our parents are the bank, the individual magnets are one r=
+ecord of a transaction, the fridge is a =E2=80=98block=E2=80=99 of transact=
+ions,  the process of launching the fridge into space is =E2=80=98mining,=
+=E2=80=99 the reward for launching the fridge into space is one cryptocurre=
+ncy, and the record of launching each fridge into outer space is the =E2=80=
+=98chain=E2=80=99 that connects the =E2=80=98blocks=E2=80=99 that are the f=
+ridges.=E2=80=9D=C2=A0Prostitutes  gather in Davos for annual meeting of gl=
+obal elite - where demand for sexual services rockets during economic summi=
+t.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] An important answer that I am not going to discuss further here, but =
+that is often important in real life, is taxes. Generally, in the US, compa=
+nies can deduct the interest they pay on debt, but they can=E2=80=99t deduc=
+t dividends to shareholders. My dumb toy schematic doesn=E2=80=99t mention =
+interest explicitly, but in fact the deductibility of interest is a major e=
+xception to Modigliani-Miller and part of the reason that a lot of companie=
+s use debt financing.=20
+
+
+  [2] This stuff is all in the ballpark of right, for US banks, but don=E2=
+=80=99t take it too literally. Actual capital requirements are more nuanced=
+, and there are backup regimes so that you can't really buy T-bills with ze=
+ro capital.=20
+
+
+  [3] Friedman and Kraus=E2=80=99s =E2=80=9CEngineering the Financial Crisi=
+s=E2=80=9D is a book on related topics. And here is a  US Government Accoun=
+tability Office report from 2016 titled =E2=80=9CMortgage-Related Assets: C=
+apital Requirements Vary Depending on Type of Asset.=E2=80=9D
+
+
+  [4] Technically FTX appointed a new chief executive officer, John Ray, mo=
+ments *before* filing for bankruptcy, but it was part of the same process.
+
+
+  [5] In auto-downloading PDF format, sorry. You can find it on  the docket=
+ site under =E2=80=9CJanuary 17, 2023 =E2=80=93 Maximizing FTX Recoveries: =
+Management & Committee Meeting Presentation.=E2=80=9D
+
+
+  [6] It also describes a different setting =E2=80=94 that allowed a =E2=80=
+=9Csmall group of individuals=E2=80=9D to =E2=80=9Cmove assets (crypto) by =
+accessing the private keys to initiate a direct on-chain transaction.=E2=80=
+=9D Obviously one simple way to steal customer money from a crypto exchange=
+ would be to use the exchange=E2=80=99s private keys to send all of its cry=
+pto to your own wallet, but that doesn=E2=80=99t seem to be a big part of t=
+he FTX story. Though there seems to have been some draining of accounts sho=
+rtly after the bankruptcy filing, and =E2=80=9CInvestigation is underway to=
+ determine whether any off-ledger misuse of such access occurred.=E2=80=9D
+
+
+  [7] Also I=E2=80=99m not sure that=E2=80=99s what happened; the presentat=
+ion doesn't get into details but it=E2=80=99s conceivable that FTX US=E2=80=
+=99s situation was, like, $181 million of crypto customer balances, $50 mil=
+lion of dollar customer balances, $181 million of crypto assets and $400 mi=
+llion of cash, exactly matching the customer exposures but with some extra =
+cash cushion. That doesn=E2=80=99t seem to be what the FTX presentation imp=
+lies, but it doesn=E2=80=99t quite rule it out either.
+
+
+  [8] Are there examples of a company jarringly transitioning from extremel=
+y hardcore to extremely cushy? I am tempted to say =E2=80=9Cinvestment bank=
+s after 2008,=E2=80=9D but I know that=E2=80=99s not true. Presumably some =
+hard-charging startups have been bought by big companies and then started c=
+oasting, but that=E2=80=99s not really the same.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci16p9.5ryk/6e9c86f2.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_12944660_346592534.1674071212953
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+We talk from time to time around here about the cash-flow-slicing business.=
+ The way it goes is: You have some business that will make somewh
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBb26f35ba" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB5c083544"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC869e0ecf" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">CFO ratings</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We talk from <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1sb2=
+9raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZD1CQkQwMTE4MjNfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTgmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB24bb5e4b" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> time</a=
+> to <a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.2695=
+16/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMjgv=
+ZnR4LXMtYmxvY2tmaS1yZXNjdWUtZGlkbi10LXdvcms_Y21waWQ9QkJEMDExODIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMT=
+E4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa2543315" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> time</a> around here about the cash-flow-slicing business. The way it g=
+oes is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You have some business that will make=
+ somewhere between $75 and $150 next year.</li>=09<li style=3D"margin-botto=
+m: 5px;">You can sell it to one owner who gets=C2=A0the cash flows from the=
+ business. If it makes $75, she gets $75; if it gets $100, she gets $100; i=
+f it gets $150, she gets $150; etc.</li>=09<li style=3D"margin-bottom: 5px;=
+">Her ownership stake is worth some=C2=A0amount of money, presumably betwee=
+n $75 and $150. Let=E2=80=99s say it=E2=80=99s $100. She would pay $100 for=
+ this ownership stake.</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Or</em>, you can divide up the cash flows. A senior bondholder gets the=
+ first $50 of cash flows: If the business makes $75, she gets $50; if it ma=
+kes $150, she gets $50. A junior bondholder gets the next $30: If the busin=
+ess makes $75, he gets $25; if it makes $80 or $100 or $150, he gets $30. A=
+nd then a=C2=A0shareholder gets whatever is left, whatever the business mak=
+es above $80: If it makes $75 or $80, she gets zero; if it makes $100, she =
+gets $20; if it makes $150, she gets $70.=C2=A0</li>=09<li style=3D"margin-=
+bottom: 5px;">Here, the senior bond is much <em>safer=C2=A0</em>than the un=
+itary ownership claim: In Steps 1-3, the owner puts up $100 and could lose =
+money (get back $75) or make money (get back $150) or somewhere in between,=
+ but in Step 4, the senior bondholder always gets back $50. The junior bond=
+ is also safer than total ownership, with less variance in its returns: It =
+gets back $30 in almost every case, unless things go quite=C2=A0badly. The =
+shareholder in Step 4, though, takes much more risk than the total owner in=
+ Steps 1-3: The total owner always gets back at least $75, while the levere=
+d shareholder here might get back $0.</li>=09<li style=3D"margin-bottom: 5p=
+x;">You can sell the senior bond=C2=A0<em>plus </em>the junior bond=C2=A0<e=
+m>plus=C2=A0</em>the shares for some amount of money, presumably between $7=
+5 and 150. Let=E2=80=99s say it=E2=80=99s $105.</li>=09<li style=3D"margin-=
+bottom: 5px;">$105 is more than $100 so this is a good trade. You have crea=
+ted $5 of value by slicing the cash flows.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is one of the main things that happens in=
+ finance. It describes how companies work =E2=80=94=C2=A0they issue debt an=
+d equity, etc. =E2=80=94=C2=A0and your mortgage, and banks. In its purest f=
+orm, where you just have some set of cash flows and you slice them up into =
+junior and senior claims, it is often called =E2=80=9Csecuritization,=E2=80=
+=9D or=C2=A0=E2=80=9Cstructured finance.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Why would this work? Why would the sliced-up c=
+laims (senior bonds, junior bonds, shares) be worth more ($105) than a sing=
+le unitary claim ($100)? There is <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30288429.269516/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTW9=
+kaWdsaWFuaSVFMiU4MCU5M01pbGxlcl90aGVvcmVt/607f07ceef4b8524a319a23cB0265325d=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> a famous theorem</a> saying that it shouldn=E2=80=99t work, that=
+ the value of the cash flows shouldn=E2=80=99t depend on how you slice them=
+ up. But of course people do slice them up.<a class=3D"footnote-index" href=
+=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[1]</span>
+</a> At least sometimes, it seems, there is more demand for a very safe cas=
+h flow=C2=A0<em>plus=C2=A0</em>a very risky cash flow=C2=A0than there is fo=
+r a single blended kinda-risky cash flow.</p>
+<p style=3D"margin: 16px 0;">Why would that be?=C2=A0You could tell=C2=A0ps=
+ychological=C2=A0stories, stories about conservative investors wanting safe=
+ assets and aggressive investors wanting risky assets and nobody wanting st=
+uff in the middle. But it is often useful to think about a story of=C2=A0<e=
+m>ratings=C2=A0</em>and <em>regulation.=C2=A0</em>Schematically:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You are a bank or an insurance compan=
+y; you are in the business of taking money (deposits, premiums) from custom=
+ers and investing it until they need it. You use the money to buy investmen=
+t=C2=A0assets, and you make money=C2=A0if the assets return more money than=
+ you need to give back to the customers. Your regulators require you to hav=
+e a certain amount of capital: For every $100 of assets that you own, you c=
+an have, say, $92 of deposits and $8 of your own money. The $8 is your capi=
+tal.</li>=09<li style=3D"margin-bottom: 5px;">But the regulators =E2=80=9Cr=
+isk-weight=E2=80=9D your assets: Really, you need capital equal to 8% of yo=
+ur risk-weighted assets, and different assets count differently. US Treasur=
+y bills might get a 0% risk weight: You can buy $100 of Treasury bills with=
+ $100 of deposits and $0 of capital. Business loans might get a 100% risk w=
+eight: You need $8 of capital to buy $100 of loans. Bitcoin might get a <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTAvbWF5YmUt=
+Z2FtZXN0b3AtaXMtZ29vZC1ub3c_Y21waWQ9QkJEMDExODIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE4JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB746eee11" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> 1,250% risk =
+weight</a>: You need $100 of capital to buy $100 of Bitcoin; you can=E2=80=
+=99t use depositor money at all.<a class=3D"footnote-index" href=3D"#footno=
+te-2" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Capital=C2=A0is, by general agree=
+ment, expensive.=C2=A0All else equal, you would rather buy $100 of assets w=
+ith $99 of deposits and $1 of your own money than with $80 of deposits and =
+$20 of your own money. On the other hand, you=E2=80=99d rather buy higher-y=
+ielding assets than lower-yielding assets. Higher-yielding assets are often=
+ riskier, which means they have higher risk weights and require more capita=
+l.</li>=09<li style=3D"margin-bottom: 5px;">Your job is to optimize this: Y=
+ou want to get the highest=C2=A0yields with the lowest capital requirements=
+. If there are two investments with the same risk and returns, but one of t=
+hem has lower capital requirements, you should choose that one.</li>=09<li =
+style=3D"margin-bottom: 5px;">Someone offers you an attractive, kinda risky=
+ investment. It has a 50% risk weight. If you buy $100 of it, it counts as =
+$50 of risk-weighted assets, so you need $4=C2=A0of capital.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">Some financial engineer=C2=A0finds a way to slic=
+e that investment into a very safe senior bond and a very risky equity inve=
+stment. The slicing produces 80% senior bond and 20% risky equity. The seni=
+or bond has a 0% risk weight =E2=80=94=C2=A0it=E2=80=99s as good as Treasur=
+y bills =E2=80=94=C2=A0and so requires $0 of capital. The very risky equity=
+ has a 200% risk-weight: If you buy $20 of it, it counts as $40 of risk-wei=
+ghted assets, so you need $3.20 of capital.</li>=09<li style=3D"margin-bott=
+om: 5px;">You buy $80 of the safe bond and $20 of the risky equity, so you=
+=C2=A0need a total of $3.20 of capital. You have saved $0.80 of capital.</l=
+i>=09<li style=3D"margin-bottom: 5px;">But you bought the <em>same thing</e=
+m>. You had $100 of stuff that required $4 of capital, you sliced it into a=
+n $80 tranche and a $20 tranche, and somehow magically those two tranches a=
+dd up to require $3.20 of capital.</li>
+</ol>
+<p style=3D"margin: 16px 0;">It is not quite true that the story of the 200=
+8 financial crisis is =E2=80=9Cinstead of making mortgage loans, holding th=
+em, giving them a 50% risk weight and holding 4% capital against them, bank=
+s made mortgage loans, sliced them up into securitizations, bought highly r=
+ated tranches of them, and held much less capital against them,=E2=80=9D bu=
+t it is kind of true, and worth keeping in mind.<a class=3D"footnote-index"=
+ href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Similarly, if you are an insurance company, so=
+me private equity=C2=A0 firm might come to you and ask you to invest $100 i=
+n a private equity=C2=A0fund or a high-yield private credit fund. And you w=
+ill say, sure, sounds great, but I am a regulated insurance company, and my=
+ regulators prefer that I mostly invest my money in safe bonds. I can do so=
+me private equity investing, but not <em>too=C2=A0</em>much; mostly I just =
+buy bonds with good credit ratings.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And then the PE firm will say: Okay, what if w=
+e sliced our fund into junior and senior tranches? You can invest in both. =
+The senior tranche is=C2=A0a=C2=A0<em>bond</em>, which pays back your money=
+ with interest as long as our private equity fund doesn=E2=80=99t perform d=
+isastrously. And the junior tranche is an=C2=A0<em>equity=C2=A0</em>upside =
+stake, which pays back whatever the return on the fund is, minus whatever t=
+he bond pays. You put, say, $80 into the bond and $20 into the equity stake=
+.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is the same thing: Buying a whole stake i=
+n the fund is economically identical to buying (1) a senior claim on the fu=
+nd plus (2) a junior claim on the fund; you are just slicing up the cash fl=
+ows. But now you can go to your regulator and say =E2=80=9Coh no it=E2=80=
+=99s not $100 of equity; it=E2=80=99s $20 of equity and $80 of=C2=A0<em>bon=
+ds</em>.=E2=80=9D Your regulator is much more comfortable with you buying b=
+onds than buying equity, so you get better regulatory treatment and can do =
+more of it. You go and get the bonds rated by a credit ratings firm, and fr=
+om your regulator=E2=80=99s perspective you have transformed $100 of risky =
+scary private equity investment into (1) $80 of safe A+ rated corporate bon=
+ds plus (2) $20 of risky scary private equity investment.=C2=A0</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMTEtMjgvZnR4LXMtYmxvY2tmaS1yZXNjdWUtZGlkbi10LXdvcms_Y21w=
+aWQ9QkJEMDExODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cCa2543315" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> talked a while back</a> about a form of this=
+ trade, called a =E2=80=9Ccollateralized fund obligation,=E2=80=9D or CFO. =
+(I am oversimplifying it: Often you don=E2=80=99t just slice up=C2=A0<em>on=
+e=C2=A0</em>private equity investment; you put a bunch of different private=
+ equity investments into a box and slice up their total cash flows.)=C2=A0Y=
+esterday the Financial Times reported that <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbn=
+QvYjgyZGNhNDMtOWE5Mi00ZmMzLWFjYTgtZTQyNDVkNWNmNWYzP3NoYXJlVHlwZT1ub25naWZ0/=
+607f07ceef4b8524a319a23cBc0a3cb7e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> insurance regulators don=E2=80=
+=99t like it</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">US regulators are cracking down on investment =
+vehicles used by private equity groups over fears that rating agencies are =
+downplaying the products=E2=80=99 dangers, exposing insurers to undue risks=
+.</p>
+<p style=3D"margin: 16px 0;">The vehicles are known as =E2=80=9Ccollaterali=
+sed fund obligations=E2=80=9D, a name that echoes the =E2=80=9Ccollateralis=
+ed debt obligations=E2=80=9D that played a big role in the 2008 financial c=
+risis. They parcel up stakes in hundreds of private equity-owned companies =
+into products intended to diversify risk and so obtain better credit rating=
+s.</p>
+<p style=3D"margin: 16px 0;">A year-long investigation by the National Asso=
+ciation of Insurance Commissioners, a US regulatory group, has found that r=
+ating agencies can understate the risk of CFOs to insurers, which are among=
+ the vehicles=E2=80=99 main investors, according to people familiar with th=
+e matter.</p>
+<p style=3D"margin: 16px 0;">The NAIC, which coordinates US insurance regul=
+ators, has now decided to assess the risk of individual CFOs, supplanting c=
+redit rating agencies =E2=80=94 a similar initiative to steps the regulator=
+ took to rein in mortgage-backed securities in the wake of the financial cr=
+isis.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The NAIC report is <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly9jb250ZW50Lm5haWMub=
+3JnL3NpdGVzL2RlZmF1bHQvZmlsZXMvaW5saW5lLWZpbGVzLzIwMjItMDE1LjAxJTIwVGFzayUy=
+MEZvcmNlJTIwMjAyMiUyMEFtZW5kJTIwUFAlMjBTdHJ1Y3R1cmVkJTIwRXF1aXR5JTIwYW5kJTI=
+wRnVuZHNWMTAuZG9jeA/607f07ceef4b8524a319a23cBafd1d292" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> here</a> (i=
+n Microsoft Word download format, sorry), and it=C2=A0<em>doesn=E2=80=99t=
+=C2=A0</em>exactly find =E2=80=9Cthat rating agencies can understate the ri=
+sk of CFOs to insurers.=E2=80=9D=C2=A0Instead, what it finds is that=C2=A0<=
+em>this is too good of a regulatory arbitrage:</em></p>
+<blockquote>
+<p style=3D"margin: 16px 0;">These investments are being reported as bonds =
+and receiving a bond risk-based capital (RBC) factor based upon the mechani=
+cal assignment of NAIC Designations that rely upon Credit Rating Provider (=
+CRP) ratings through the filing exempt process. The use of CRP ratings woul=
+d not be permitted for the fund or equity investments which underly these n=
+otes if the equity or fund investment were held directly. ...</p>
+<p style=3D"margin: 16px 0;">The structure may permit in-substance equity a=
+nd fund investments to obtain improved RBC treatment than what would be rec=
+eived if the investment had been directly reported. =C2=A0In addition to im=
+proved RBC treatment, the structures could permit entities to hold more und=
+erlying equity / fund investments than what would be permitted under state =
+investment law. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Equity and fund investments that are structure=
+d through another legal entity have been able to qualify as =E2=80=98bonds=
+=E2=80=99 under the current definition due to their legal form (instead of =
+substance as with the proposed bond definition) and bypass reporting requir=
+ements for equity and fund investments. These structures have sometimes bee=
+n referred to generically as =E2=80=9CRated Notes=E2=80=9D, but they may be=
+ called other names. The name may change but the general framework is the s=
+ame: an equity or fund investment is transformed into what the insurer repo=
+rts as a bond through the insertion of an intervening entity, which issues =
+a note that, due to a CRP rating, receives the statutory treatment of a bon=
+d for accounting, reporting, RBC and NAIC Designation purposes. This proces=
+s exploits the inherent weakness within the Filing Exempt process where any=
+thing with a CRP rating is assumed to be a =E2=80=9Cbond=E2=80=9D and autom=
+atically treated as such despite its underlying assets, structure, or risk.=
+ =E2=80=A6</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It gives an example of an insurance company in=
+vesting in a private credit fund that lends money to risky companies with B=
+ credit ratings. Just investing directly in that fund is risky =E2=80=94=C2=
+=A0it=E2=80=99s single-B credit investing =E2=80=94 and has high capital re=
+quirements. But if you slice that fund into a 90% senior claim and a 10% ju=
+nior claim, and then=C2=A0sell =E2=80=9C=E2=80=98investment units=E2=80=99 =
+comprised of 90% Senior Notes and 10% limited partnership interest,=E2=80=
+=9D the senior claim is safe, the junior claim is risky, and the combined =
+=E2=80=9Cunit=E2=80=9D has a lower capital requirement than investing direc=
+tly in the fund:</p>
+<blockquote><p style=3D"margin: 16px 0;">By investing in the investment uni=
+ts issued by the Debt Feeder Fund, an insurer is able circumvent regulatory=
+ guidance by transforming the Main Fund=E2=80=99s investments in =E2=80=9CB=
+=E2=80=9D rated loans into a much higher rated note due to the intervening =
+legal entity. =C2=A0An insurer investing in the investment unit (note and e=
+quity) would be able to dramatically reduce its risk-based capital versus r=
+eporting an LP Interest investment in the main fund holding =E2=80=9CB=E2=
+=80=9D rated loans but be exposed to identical economic risk.=C2=A0=E2=80=
+=A6=C2=A0The insurer making this investment could reduce its risk-based cap=
+ital by 56.6%, an RBC factor reduction of 5.40%, if it invested in the inve=
+stment unit (note and equity) with the note rated by a CRP instead of inves=
+ting in the underlying assets directly while maintaining the exact same eco=
+nomic exposure.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yep, that's the game!=C2=A0Finance is, in larg=
+e part,=C2=A0about finding new ways to slice cash flows that will get bette=
+r regulatory treatment than the old ways to slice cash flows. And financial=
+ <em>regulation</em> is, in large part, about noticing the new ways that pe=
+ople are slicing cash flows, and adjusting the regulations=C2=A0so that the=
+ new ways get treated the same as the old ways. Or worse! Part of the goal =
+here is logical consistency and treating economically similar things simila=
+rly, but part of the goal is to=C2=A0<em>deter people from doing this</em>,=
+ so the regulators might want to treat the new ways worse.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD5b9fe222" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE5b9fe222" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFf6a50a61" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGf6a50a61" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHcf9cdc78" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIcf9cdc78" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">FTX Trading Ltd., Sam Bankman-Fried=E2=80=99s =
+bankrupt crypto exchange, has been under new management since filing for ba=
+nkruptcy last November,<a class=3D"footnote-index" href=3D"#footnote-4" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0and the new managers have two related but distinct jobs. One job =
+is to maximize the recovery of the bankruptcy estate: They have to round up=
+ all of FTX=E2=80=99s assets, sell them for as much money as possible, and =
+give the money to FTX=E2=80=99s creditors (meaning mostly its customers). T=
+he other job=C2=A0is to explain what went wrong to land FTX =E2=80=94=C2=A0=
+which a week before filing for bankruptcy looked like a large, stable and s=
+uccessful crypto exchange =E2=80=94=C2=A0in bankruptcy. The explaining itse=
+lf might help maximize recovery =E2=80=94=C2=A0if the explanation of what w=
+ent wrong is =E2=80=9Cprior management stole the money,=E2=80=9D the bankru=
+ptcy estate can sue the prior managers to get the money back =E2=80=94=C2=
+=A0though that is not its only purpose. It can also help=C2=A0<em>prosecute=
+ </em>prior management, and provide a certain emotional and intellectual cl=
+osure.</p>
+<p style=3D"margin: 16px 0;">Yesterday <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cucHJuZXdzd2lyZS5jb20vbm=
+V3cy1yZWxlYXNlcy9mdHgtZGVidG9ycy1wcm92aWRlLWFkZGl0aW9uYWwtaW5mb3JtYXRpb24td=
+G8tY3VzdG9tZXJzLWFuZC1vdGhlci1zdGFrZWhvbGRlcnMtMzAxNzIzNzcwLmh0bWw/607f07ce=
+ef4b8524a319a23cB3114609b" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> FTX</a>=C2=A0=E2=80=9Cannounced that th=
+eir top level management and advisors met with the members of and advisors =
+to the Official Committee of Unsecured Creditors=E2=80=9D to give the credi=
+tors an update on what they have found. Here is <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly9yZXN0cnVjdHVyaW5nL=
+nJhLmtyb2xsLmNvbS9GVFgvSG9tZS1Eb3dubG9hZFBERj9pZDE9TVRRek9EVTFOUSUzRCUzRCZp=
+ZDI9MA/607f07ceef4b8524a319a23cBc7d725bb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> the update</a>,<a class=
+=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0prepared by FTX=E2=80=99s advisers (Alvarez &amp; Marsal, Sulliva=
+n &amp; Cromwell and Perella Weinberg Partners), which covers both recoveri=
+es and explanation. I want to start with the explanation part. The <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1m=
+cmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1=
+CQkQwMTE4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzAxMTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBa5fc3a8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  basic explanation</a> of <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWE=
+tZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwMTE4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTgmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBec8ae74c" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  what went wrong=
+ at FTX</a>=C2=A0is that FTX loaned billions of dollars to=C2=A0Alameda Res=
+earch, a trading firm founded and mostly owned by Bankman-Fried. Alameda lo=
+st the money, rendering FTX insolvent. And now=C2=A0FTX=E2=80=99s advisers =
+say that they=C2=A0=E2=80=9Chave uncovered the mechanics behind how Alameda=
+ Research had the ability to borrow without collateral effectively unlimite=
+d amounts from customers and how a small group of individuals had the abili=
+ty [to] remove digital assets from the exchange without being recorded on t=
+he exchange ledger.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">That discussion is on slide 19:</p>
+<div class=3D"body-image" style=3D"margin: 20px 0px;">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iD_V.CWTliQc/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iD_V.CWTliQc/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]-->
+</div><p style=3D"margin: 16px 0;">If you were a normal=C2=A0customer at FT=
+X, you were not allowed to have a negative balance in your account. If you =
+put up $100 of money to buy $200 of crypto, and your crypto lost $50 of val=
+ue, then your account balance was $50. If it lost another $50 of value, the=
+n your balance was=C2=A0$0 and you were liquidated. Your account could neve=
+r be worth -$10; you got liquidated before that.</p>
+<p style=3D"margin: 16px 0;">If you were a=C2=A0<em>market maker=C2=A0</em>=
+on FTX, though, you=C2=A0<em>were=C2=A0</em>allowed to have a negative bala=
+nce: Effectively, FTX would lend you the money so you could open a position=
+ without depositing the money first, or have the market move against you wi=
+thout instant liquidation.=C2=A0In FTX=E2=80=99s code, most accounts had a =
+=E2=80=9Cborrow=E2=80=9D flag set to zero, meaning that they could not have=
+ negative balances, but some 4,000 accounts had the borrow flag set to some=
+ positive number, meaning that FTX would lend them the money up to some cre=
+dit limit. Of those 4,000 accounts, 41=C2=A0had credit limits of $1 million=
+ to $150 million. One =E2=80=94=C2=A0Alameda =E2=80=94=C2=A0had a higher li=
+mit. Alameda=E2=80=99s limit was=C2=A0$65 billion. (Slide 18 shows a code s=
+nippet, showing that the actual limit was $65,355,999,994.)=C2=A0=E2=80=9CF=
+TX will allow Alameda to have a negative balance of up to $65 billion=E2=80=
+=9D is functionally equivalent to =E2=80=9CAlameda can use as much of FTX=
+=E2=80=99s customer money as it wants.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There was another flag in the code, though, =
+=E2=80=9Ccan_withdraw_below_borrow.=E2=80=9D The =E2=80=9Cborrow=E2=80=9D f=
+lag determines how negative your account can be and keep trading: If your b=
+orrow flag is set to $10 million, and you put on some trades and they move =
+against you and you end up with a balance of negative $5 million, then you =
+can keep the trades on. But if you went to FTX and tried to cash out $4=C2=
+=A0million to spend on groceries=C2=A0=E2=80=94=C2=A0giving you a total bal=
+ance of negative $9=C2=A0million, still within your credit limit=C2=A0=E2=
+=80=94=C2=A0FTX wouldn=E2=80=99t give you the money. You could use your cre=
+dit limit to trade on FTX, but not to take out cash. =E2=80=9CNo, you still=
+ owe us $5 million, pay us that first, we=E2=80=99re not letting you take a=
+ny cash out before you pay us what you owe,=E2=80=9D FTX would quite reason=
+ably say. Unless you had the =E2=80=9Ccan_withdraw_below_borrow=E2=80=9D fl=
+ag set to =E2=80=9Ctrue.=E2=80=9D=C2=A0Then FTX would say =E2=80=9Csure, he=
+re=E2=80=99s the money.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">One account had that flag set, says the presen=
+tation: Alameda. To the tune of $65 billion. Setting the borrow flag to $65=
+ billion and the can_withdraw_below_borrow flag to true is functionally equ=
+ivalent to =E2=80=9CAlameda can take as much of FTX=E2=80=99s customer mone=
+y as it wants, remove it from the exchange, and spend it on whatever.=E2=80=
+=9D (Slides 16 and 17 give you a sense of what =E2=80=9Cwhatever=E2=80=9D m=
+eant, including $253 million of Bahamas real estate =E2=80=94=C2=A0includin=
+g $12.9 million for =E2=80=9CThe Conch Shack=E2=80=9D??? =E2=80=94=C2=A0and=
+ $93 million of political donations.)</p>
+<p style=3D"margin: 16px 0;">The presentation describes this setting as =E2=
+=80=9CGod Mode,=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0which I am not sure is a technical term found in FTX=E2=80=99s ac=
+tual codebase or documentation, but you get the idea. FTX <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLXRoZS1jcnlwdG8tc3RvcnktRlRYLWNvbGxhcHNlLW=
+1hdHQtbGV2aW5lLz9jbXBpZD1CQkQwMTE4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTgmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cBa7da3289" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  built a video game</a>=
+ for other people to trade crypto, but FTX =E2=80=94=C2=A0or rather its aff=
+iliate Alameda =E2=80=94=C2=A0had a cheat code. Everyone else got to trade =
+crypto, and if they made money, they could take out the money that they mad=
+e. Alameda got to trade crypto, and it got to take out as much money as it =
+wanted, whether or not it made money. It was playing in God Mode.</p>
+<p style=3D"margin: 16px 0;">But most of the presentation is about recoveri=
+es: how much stuff FTX has found, what it thinks it=E2=80=99s worth, and ho=
+w much it can pay to creditors. The headlines here are =E2=80=9CFTX Debtors=
+ have identified approximately $5.5 billion of liquid assets to date,=E2=80=
+=9D consisting of $1.7 billion of cash, $3.5 billion of =E2=80=9Cliquid cry=
+pto currency and FTT tokens=E2=80=9D and $0.3 billion of securities. But =
+=E2=80=9Cinvestigation has confirmed shortfalls at both International and U=
+.S. Exchanges.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Two points here. One is that we have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMTIvanBtb3JnYW4t=
+c2F5cy1mcmFuay13YXMtZnJhdWQ_Y21waWQ9QkJEMDExODIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE4JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB938666bf" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  previously =
+discussed</a> the importance of FTX US. Basically all the stuff above about=
+ borrow flags and credit limits applies to=C2=A0what is sometimes called FT=
+X International, FTX=E2=80=99s main exchange, which is based the Bahamas an=
+d meant to serve non-US customers. FTX International is definitely insolven=
+t; it loaned all that money to Alameda, which lost it. But FTX US is a sepa=
+rate, tamer, more regulated business that was meant to serve US customers. =
+It had much less in the way of margin and futures trading; in a loose sense=
+ its business was just taking customers=E2=80=99 money, converting it into =
+crypto, and holding the crypto for the customers. If FTX International is m=
+issing customer money, then that can perhaps be explained as =E2=80=9Cit=E2=
+=80=99s hard to run a futures exchange, we were extending credit to traders=
+, and one trader blew up.=E2=80=9D That=E2=80=99s a thing that happens in f=
+inance sometimes, though obviously the =E2=80=9CGod Mode=E2=80=9D stuff is =
+bad. But if FTX US is missing customer money =E2=80=94=C2=A0as FTX=E2=80=99=
+s management says it is =E2=80=94=C2=A0then that can only really be theft.<=
+/p>
+<p style=3D"margin: 16px 0;">And so Sam Bankman-Fried, who is facing crimin=
+al charges for blowing up FTX, has a strong interest in arguing that FTX US=
+ is fine. Yesterday <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30288429.269516/aHR0cHM6Ly9zYW1iZi5zdWJzdGFjay5jb20vcC9mdHgtdXMtYmFsYW5jZ=
+S11cGRhdGUtMjAyMy0wMS0xNw/607f07ceef4b8524a319a23cBb90a4c66" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> he re=
+plied to the FTX=E2=80=99s presentation on his Substack</a>, mainly to argu=
+e that FTX US is still fine. Specifically:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In the presentation that S&amp;C formally file=
+d on the Delaware Chapter 11 court docket, S&amp;C failed to include $428m =
+in FTX US=E2=80=99s bank accounts as an asset:</p>
+<p style=3D"margin: 16px 0;">1. $181m of digital assets, not including $428=
+m USD in banks</p>
+<p style=3D"margin: 16px 0;">2. More than $181m of customer balances, inclu=
+ding USD</p>
+<p style=3D"margin: 16px 0;">3. Thus, they concluded that FTX US had a =E2=
+=80=9Cshortfall=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Later in the same report, S&amp;C reveals that=
+ FTX US has an additional $428m USD in bank accounts, on top of the $181m o=
+f tokens=E2=80=94for roughly $609m of total assets.</p>
+<p style=3D"margin: 16px 0;">Customer balances are likely around $199m, and=
+ certainly less than $497m (which they were a day earlier before massive wi=
+thdrawals).</p>
+<p style=3D"margin: 16px 0;">Thus FTX US had at least $111m, and likely aro=
+und $400m, of excess cash on top of what was required to match customer bal=
+ances.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I suppose if FTX US customers had crypto balan=
+ces of $200 million and FTX US had $180 million of crypto and $400 million =
+of cash, that would be=C2=A0<em>weird=C2=A0</em>=E2=80=94=C2=A0why wasn=E2=
+=80=99t FTX US just holding all of their crypto in a box for them? isn=E2=
+=80=99t that mismatch risky? =E2=80=94=C2=A0but more or less fine.<a class=
+=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0What=E2=80=99s bad is if the customers had balances of $200 milli=
+on and FTX US had only $180 million total; then you=E2=80=99d have to concl=
+ude that the extra $20 million went missing in bad ways. Bankman-Fried argu=
+es that it did not.</p>
+<p style=3D"margin: 16px 0;">The other point is that, when FTX was flounder=
+ing into bankruptcy, I was rather harsh about Bankman-Fried=E2=80=99s insis=
+tence that its huge stash of FTT tokens was valuable. I wrote <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC=
+1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwM=
+TE4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMzAxMTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cCa5fc3a8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  things like</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">FTX issues a token called FTT. The attributes =
+of this token are, like, it entitles you to some discounts and stuff, but t=
+he main attribute is that FTX periodically uses a portion of its profits to=
+ buy back FTT tokens. This makes FTT kind of like stock in FTX: The higher =
+FTX=E2=80=99s profits are, the higher the price of FTT will be. It is not a=
+ctually stock in FTX =E2=80=94 in fact FTX is a company and has stock and v=
+enture capitalists bought it, etc. =E2=80=94 but it is a lot like stock in =
+FTX. FTT is a bet on FTX=E2=80=99s future profits.</p>
+<p style=3D"margin: 16px 0;">But it is also a crypto token, which means tha=
+t a customer can come to [FTX] and post $100 worth of FTT as collateral and=
+ borrow $50 worth of Bitcoin, or dollars, or whatever, against that collate=
+ral, just as they would with any other token. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">If you think of the token as =E2=80=9Cmore or =
+less stock,=E2=80=9D and you think of a crypto exchange as a securities bro=
+ker-dealer, this is completely insane. If you go to an investment bank and =
+say =E2=80=9Clend me $1 billion, and I will post $2 billion of your stock a=
+s collateral,=E2=80=9D you are messing with very dark magic and they will s=
+ay no. The problem with this is that it is wrong-way risk. (It is also, at =
+least sometimes, illegal.) If people start to worry about the investment ba=
+nk=E2=80=99s financial health, its stock will go down, which means that its=
+ collateral will be less valuable, which means that its financial health wi=
+ll get worse, which means that its stock will go down, etc. It is a death s=
+piral.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDA=
+xMTgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMDExOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cB61d46f8c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> And</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">It is striking that the balance sh=
+eet that FTX circulated to potential rescuers=C2=A0consisted=C2=A0<em>mostl=
+y=C2=A0</em>of stuff it made up. Its balance sheet consisted mostly of stuf=
+f it made up! Stuff it made up! You can=E2=80=99t do that!=C2=A0</p></block=
+quote>
+<p style=3D"margin: 16px 0;">One thing I will say about this harshness is t=
+hat it is very context-dependent. In 2021, when FTT traded near $80 per tok=
+en, and when FTX looked like a successful and widely respected crypto excha=
+nge, it =E2=80=A6=C2=A0well,=C2=A0it would still have been a bad idea for F=
+TX=C2=A0to=C2=A0<em>lend money to Alameda secured by FTT tokens</em>, fine,=
+ but it would not have been crazy to say things like =E2=80=9CAlameda is wo=
+rth many billions of dollars because of its huge stash of FTT tokens.=E2=80=
+=9D The FTT tokens were valuable, the source of their value =E2=80=94 marke=
+t confidence in FTX=E2=80=99s future cash flows and utility =E2=80=94=C2=A0=
+seemed reasonable, Alameda had a lot of them, it=E2=80=99s all fine.</p>
+<p style=3D"margin: 16px 0;">In November 2022,=C2=A0though, when FTX was hu=
+rtling toward bankruptcy and Bankman-Fried was seeking rescue financing, I =
+thought it was pretty weird for him to market Alameda=E2=80=99s stash of FT=
+T tokens as being worth hundreds of millions of dollars. Once you are days =
+from bankruptcy, you can=E2=80=99t expect to get hundreds of millions of do=
+llars for=C2=A0<em>your stock</em>. Your stock is probably going to be wipe=
+d out in bankruptcy. FTT is=C2=A0close enough to FTX stock that, in Novembe=
+r 2022, FTX could not really count on getting much money for it.</p>
+<p style=3D"margin: 16px 0;">Now it=E2=80=99s January 2023 and FTX is very =
+much=C2=A0<em>in=C2=A0</em>bankruptcy and=C2=A0<em>still</em>, when FTX=E2=
+=80=99s advisers list its $3.3 billion of liquid crypto assets, the second-=
+biggest single holding (behind $685 million of Solana tokens) is $529 milli=
+on of FTT. Those tokens are valuable to the extent that (1) FTX comes back =
+as a popular exchange and the FTT tokens let holders get valuable discounts=
+ on FTX fees and (2) FTX comes back as a popular exchange and uses some of =
+its fee revenue to buy back FTT tokens. How likely are those outcomes? How =
+likely do you think FTX=E2=80=99s bankruptcy advisers think those outcomes =
+are? FTX is going around showing the world the code that allowed Alameda to=
+ take all of its customers=E2=80=99 money. Confidence in FTX is not coming =
+back, not if FTX=E2=80=99s current managers have anything to say about it. =
+They are=C2=A0going to have a hard time shopping their stash of FTT tokens.=
+ The explanation undermines the recovery.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJa9d18b97" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">10% of everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30288429.269516/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMS8xNC9i=
+dXNpbmVzcy9kZWFsYm9vay9ob3ctY29tbW9uLWlzLWNvcnBvcmF0ZS1mcmF1ZC5odG1sP3NtaWQ=
+9dHctZGVhbGJvb2smc210eXA9Y3Vy/607f07ceef4b8524a319a23cBf7bc3c77" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Sure</a>:=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">[Alexander] Dyck is a professor of finance at =
+the University of Toronto, who just published a provocative new study on th=
+e pervasiveness of corporate fraud. The study has been passed around in the=
+ world of academia in recent weeks, and has become a fascination among gene=
+ral counsels, corporate leaders and investors.</p>
+<p style=3D"margin: 16px 0;">It suggests that only about a third of frauds =
+in public companies actually come to light, and that fraud is disturbingly =
+common. Mr. Dyck and his co-authors estimate that about 40 percent of compa=
+nies are committing accounting violations and that 10 percent are committin=
+g what is considered securities fraud, destroying 1.6 percent of equity val=
+ue each year =E2=80=94 about $830 billion in 2021.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhat people don=E2=80=99t get is how =
+widespread the problem of corporate fraud is,=E2=80=9D Dyck said about his =
+study, which was published in the Review of Accounting Studies this month.<=
+/p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is the study, =E2=80=9C<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly9saW5rLnNw=
+cmluZ2VyLmNvbS9hcnRpY2xlLzEwLjEwMDcvczExMTQyLTAyMi0wOTczOC01I1NlYzk/607f07c=
+eef4b8524a319a23cB27bd843c" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> How pervasive is corporate fraud</a>,=
+=E2=80=9D by Dyck, Adair Morse and Luigi Zingales.=C2=A0 Basically the idea=
+ is that Arthur Andersen didn=E2=80=99t catch fraud at Enron, and then Enro=
+n went bankrupt and Arthur Andersen disappeared as a result, so all of Arth=
+ur Andersen=E2=80=99s old clients needed to find new auditors, and those ne=
+w auditors had strong incentives to catch frauds at Arthur Andersen clients=
+, and you could use the resulting increase in fraud-catching to estimate ho=
+w much otherwise uncaught fraud there is:</p>
+<blockquote><p style=3D"margin: 16px 0;">Our evidence suggests that in norm=
+al times only one-third of corporate frauds are detected. We estimate that =
+on average 10% of large publicly traded firms are committing securities fra=
+ud every year, with a 95% confidence interval of 7%-14%.</p></blockquote>
+<p style=3D"margin: 16px 0;">I am not sure I am persuaded. But I am committ=
+ed to the bit, and I often say that =E2=80=9C<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJ=
+lbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRD=
+AxMTgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIzMDExOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB8433b287" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">everything is securities fraud</a>,=E2=80=9D that eve=
+ry bad thing that a public company does can be characterized as securities =
+fraud, because public companies do not disclose all of their bad actions in=
+ real time. Do 10% of public companies do undisclosed bad things each year,=
+ things that would lead to securities fraud lawsuits if they were discovere=
+d, but that mostly go undiscovered? Sure yeah seems reasonable.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Where all the children are above average</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you meet all of the expectations of your jo=
+b at Meta Platforms Inc., then you have not met all the expectations, becau=
+se there is an unstated (well, somewhat stated)=C2=A0meta-expectation that =
+you will exceed expectations. The Information <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXR=
+pb24uY29tL2FydGljbGVzL21ldGEtcHJlc3N1cmVzLWF2ZXJhZ2UtcmF0ZWQtZW1wbG95ZWVzLX=
+RvLXVwLXRoZWlyLWdhbWU_cmM9MWJkaTVo/607f07ceef4b8524a319a23cB2aacf010" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Company leaders have told some managers that e=
+mployees who receive a =E2=80=9Cmeets all expectations=E2=80=9D grade in th=
+eir performance review have to up their game, said a current manager. In th=
+e past, employees receiving such a grade were told that was a positive sign=
+.</p>
+<p style=3D"margin: 16px 0;">The new message comes amid one of the most int=
+ense performance-review cycles in the company=E2=80=99s history, in which M=
+eta managers are ratcheting up pressure on the workforce. It follows Meta=
+=E2=80=99s layoff of 13% of its workforce, or 11,000 people, in November. N=
+ow, as fears of a recession mount, some employees worry more job cuts could=
+ be on the horizon.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is semantically irritating =E2=80=94=C2=
+=A0shouldn=E2=80=99t =E2=80=9Cmeets <em>all</em> expectations=E2=80=9D incl=
+ude meeting the meta-expectation that you exceed the other expectations? =
+=E2=80=94=C2=A0but practically reasonable; the message is =E2=80=9Cyou have=
+ to blow us away every day if you want to keep working here,=E2=80=9D which=
+ is a nice thing to aspire to.=C2=A0(Also I mean, fine, grade inflation is =
+everywhere.) Incidentally Meta=E2=80=99s highest performance grade (above =
+=E2=80=9Cexceeds expectations=E2=80=9D and =E2=80=9Cgreatly exceeds expecta=
+tions=E2=80=9D) is =E2=80=9Credefines expectations,=E2=80=9D which I am not=
+ sure is entirely a good thing. =E2=80=9CThis person makes me expect things=
+ I had never expected before=E2=80=9D: Could go either way.</p>
+<p style=3D"margin: 16px 0;">I was going to make a joke about how it is har=
+d to run a company where you fire=C2=A0your=C2=A0average employees every ye=
+ar, but actually that seems plausible=C2=A0in big tech in 2023? Like, you h=
+ave 90,000 employees, you rank them, you fire the bottom 50,000, now you ha=
+ve 40,000 employees, you rank them next year, you fire the bottom 25,000, n=
+ow you have 15,000 employees, you rank them the next year, you fire the bot=
+tom 8,000, etc., I don=E2=80=99t know, the Elon Musk Twitter experience tea=
+ches that you can repeatedly fire half of your workforce and it might be fi=
+ne, or fine-ish.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Speaking of the Elon Musk Twitter experience, =
+Twitter is <a href=3D"https://link.mail.bloombergbusiness.com/click/3028842=
+9.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMT=
+cvb24tc2FsZS10d2l0dGVyLWF1Y3Rpb25zLXN0YXR1ZXMtY29mZmVlLW1hY2hpbmVzLWFzLW11c=
+2stc3RydWdnbGVzLXRvLXBheS1yZW50P2NtcGlkPUJCRDAxMTgyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOCZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc309d24b" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  sellin=
+g off its office espresso machines</a>? And here is a <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly9ueW1hZy5jb20=
+vaW50ZWxsaWdlbmNlci9hcnRpY2xlL2Vsb24tbXVzay10d2l0dGVyLXRha2VvdmVyLmh0bWw/60=
+7f07ceef4b8524a319a23cB1588bec1" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> New York Magazine cover story</a>=
+ about Musk=E2=80=99s =E2=80=9Cextremely hardcore=E2=80=9D regime at Twitte=
+r that I found kind of upsetting to read? Like I feel like there are, in th=
+e world, cushy jobs, and there are hardcore jobs, and some people want hard=
+core jobs building rockets for SpaceX and other people want cushy jobs sell=
+ing ads at Twitter. And if you start a company, you can start a hardcore co=
+mpany or a cushy company or something in between, but if there=E2=80=99s an=
+ already-existing large public company it is very hard to transition it fro=
+m one end of the scale to another.<a class=3D"footnote-index" href=3D"#foot=
+note-8" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[8]</span>
+</a>=C2=A0When you select yourself into a cushy job and it suddenly, throug=
+h the market for corporate control, becomes hardcore, that=E2=80=99s pretty=
+ rough on you. Apparently thousands of Twitter employees who six months ago=
+ were working reasonable hours for good pay with great snacks have decided =
+=E2=80=9Cokay guess I=E2=80=99ll be sleeping at the office from now on,=E2=
+=80=9D but presumably thousands of others had arranged their lives in such =
+a way that they had to go home and see their families at night? I just don=
+=E2=80=99t understand how you can take a cushy company=C2=A0and turn it har=
+dcore without replacing all the employees and giving the new employees some=
+thing inspiring to be hardcore <em>about</em>.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The New <a href=3D"https://link.mail.bloomberg=
+business.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFw=
+aGljcy8yMDIzLW1pZGRsZS1lYXN0LXdlYWx0aC1mdW5kcy13aXRoLW1vcmUtbW9uZXktdGhhbi1=
+1ay1nZHAtYmVjb21lLXdvcmxkLWJhbmtlcnMvP2NtcGlkPUJCRDAxMTgyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOCZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBdbdd4127" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Bankers to the World</a> Aren=E2=80=99t on Wall Street. <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvYmFua2VyLWJvbnVzZXMtd2lsbC=
+1hYnNvbHV0ZWx5LWZhbGwtanBtb3JnYW4tcy1yYWdoYXZhbi1zYXlzP2NtcGlkPUJCRDAxMTgyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMDExOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0f1=
+eaa77" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Bonuses Will =E2=80=98Absolutely=E2=80=99 Fall</a>, Says J=
+PMorgan=E2=80=99s Co-Head of Investment Banking. Solomon Says Goldman Pushe=
+d Too Quickly Into <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+MtMDEtMTgvc29sb21vbi1zYXlzLWdvbGRtYW4tcHVzaGVkLXRvby1xdWlja2x5LWludG8tY29uc=
+3VtZXItYmFua2luZz9jbXBpZD1CQkQwMTE4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB84ce6003" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  Consumer Banking</a>.=
+ Big Banks Might Face <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30288429.269516/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90b28tYmlnLXRvLW1=
+hbmFnZS1iYW5rcy1tYXktZmFjZS1icmVha3VwLXRvcC1yZWd1bGF0b3Itc2F5cy0xMTY3Mzk4Mj=
+gwMT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB5d66ce45" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Breakup</a>, Top Regulator Says. Credit Suisse Chief <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvY3JlZGl0LXN1aXNzZS1jaGllZi1ub=
+3QtY29uY2VybmVkLW92ZXItY29uZmxpY3RzLWluLWtsZWluLWRlYWw_Y21waWQ9QkJEMDExODIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBc441=
+f22c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Not Concerned</a> Over Conflicts in Klein Deal.=C2=A0A <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hLWNyeXB0by1tYWduYXRlLXNhdy10aGUtcmlza3MtY=
+W5kLXN0aWxsLXdhcy1oYW1tZXJlZC0xMTY3Mzk3OTQxMj9tb2Q9aXRwX3dzaiZydT15YWhvbw/6=
+07f07ceef4b8524a319a23cB1ae09364" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Crypto Magnate</a> Saw the Risks=
+ and Still Was Hammered.=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30288429.269516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMDEtMTgvcGFydHktY2l0eS1maWxlcy1mb3ItYmFua3J1cHRjeS1hZnRlci1wYW=
+5kZW1pYy1yZWNvdmVyeS1mYWx0ZXJzP2NtcGlkPUJCRDAxMTgyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOCZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0a8cb513" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  Party C=
+ity</a> Files Bankruptcy After Pandemic Recovery Falters. =E2=80=9CNow imag=
+ine the frozen buffalo chicken tenders are cryptocurrency, the buckets we p=
+ut the chicken tenders in are digital wallets, our parents are the bank, th=
+e individual magnets are one record of a transaction, the fridge is a =E2=
+=80=98block=E2=80=99 of transactions, <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30288429.269516/aHR0cHM6Ly9tc3BlaXNlci5zdWJzdGFjay5jb20=
+vcC90aGUtZHVtYmVzdC1leHBsYW5hdGlvbi1vZi1ibG9ja2NoYWlu/607f07ceef4b8524a319a=
+23cBdd5c1ad1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> the process of launching the fridge into space</a> i=
+s =E2=80=98mining,=E2=80=99 the reward for launching the fridge into space =
+is one cryptocurrency, and the record of launching each fridge into outer s=
+pace is the =E2=80=98chain=E2=80=99 that connects the =E2=80=98blocks=E2=80=
+=99 that are the fridges.=E2=80=9D=C2=A0Prostitutes <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30288429.269516/aHR0cHM6Ly93d3cuZGFpbHltY=
+WlsLmNvLnVrL25ld3MvYXJ0aWNsZS0xMTY0MzU4NS9Qcm9zdGl0dXRlcy1nYXRoZXItRGF2b3Mt=
+YW5udWFsLW1lZXRpbmctZ2xvYmFsLWVsaXRlLWRlbWFuZC1za3lyb2NrZXRzLmh0bWw/607f07c=
+eef4b8524a319a23cB122b7ede" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> gather in Davos</a> for annual meeting=
+ of global elite - where demand for sexual services rockets during economic=
+ summit.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30288429.269516/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB574501a9" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30288429.269516/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB39998494" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] An important answer that I am not going to=
+ discuss further here, but that is often important in real life, is taxes. =
+Generally, in the US, companies can deduct the interest they pay on debt, b=
+ut they can=E2=80=99t deduct dividends to shareholders. My dumb toy schemat=
+ic doesn=E2=80=99t mention interest explicitly, but in fact the deductibili=
+ty of interest is a major exception to Modigliani-Miller and part of the re=
+ason that a lot of companies use debt financing. </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This stuff is all in the ballpark of right=
+, for US banks, but don=E2=80=99t take it too literally. Actual capital req=
+uirements are more nuanced, and there are backup regimes so that you can't =
+really buy T-bills with zero capital. </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Friedman and Kraus=E2=80=99s =E2=80=9C<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aHR0cH=
+M6Ly93d3cucGVubnByZXNzLm9yZy85NzgwODEyMjQzNTc0L2VuZ2luZWVyaW5nLXRoZS1maW5hb=
+mNpYWwtY3Jpc2lzLw/607f07ceef4b8524a319a23cB635970e6" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Engineering th=
+e Financial Crisis</a>=E2=80=9D is a book on related topics. And here is a =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cuZ2FvLmdvdi9hc3NldHMvZ2FvLTE3LTkzLnBkZg/607f07ceef4b8524a319a2=
+3cBdaa13eb4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> US Government Accountability Office report from 2016<=
+/a> titled =E2=80=9CMortgage-Related Assets: Capital Requirements Vary Depe=
+nding on Type of Asset.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Technically FTX appointed a new chief exec=
+utive officer, John Ray, moments *before* filing for bankruptcy, but it was=
+ part of the same process.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] In auto-downloading PDF format, sorry. You=
+ can find it on <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+288429.269516/aHR0cHM6Ly9yZXN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS9GVFgv/607f07ce=
+ef4b8524a319a23cBf16a5ebc" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> the docket site</a> under =E2=80=9CJanu=
+ary 17, 2023 =E2=80=93 Maximizing FTX Recoveries: Management &amp; Committe=
+e Meeting Presentation.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] It also describes a different setting =E2=
+=80=94 that allowed a =E2=80=9Csmall group of individuals=E2=80=9D to =E2=
+=80=9Cmove assets (crypto) by accessing the private keys to initiate a dire=
+ct on-chain transaction.=E2=80=9D Obviously one simple way to steal custome=
+r money from a crypto exchange would be to use the exchange=E2=80=99s priva=
+te keys to send all of its crypto to your own wallet, but that doesn=E2=80=
+=99t seem to be a big part of the FTX story. Though there seems to have bee=
+n some draining of accounts shortly after the bankruptcy filing, and =E2=80=
+=9CInvestigation is underway to determine whether any off-ledger misuse of =
+such access occurred.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Also I=E2=80=99m not sure that=E2=80=99s w=
+hat happened; the presentation doesn't get into details but it=E2=80=99s co=
+nceivable that FTX US=E2=80=99s situation was, like, $181 million of crypto=
+ customer balances, $50 million of dollar customer balances, $181 million o=
+f crypto assets and $400 million of cash, exactly matching the customer exp=
+osures but with some extra cash cushion. That doesn=E2=80=99t seem to be wh=
+at the FTX presentation implies, but it doesn=E2=80=99t quite rule it out e=
+ither.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Are there examples of a company jarringly =
+transitioning from extremely hardcore to extremely cushy? I am tempted to s=
+ay =E2=80=9Cinvestment banks after 2008,=E2=80=9D but I know that=E2=80=99s=
+ not true. Presumably some hard-charging startups have been bought by big c=
+ompanies and then started coasting, but that=E2=80=99s not really the same.=
+</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBbd6cccc8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa8b87065" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB33816050" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd94d24b1" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDI4ODQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTc5NDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cKab579b24" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30288429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB153f2ddf" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30288429.269516/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCbb0c7620" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30288429.269516/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB06bd3925" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30288429.269516/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd1d15a24" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+6523447" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30288429.269516/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+24aa6c5" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D302884=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D302884=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D302884=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D302884=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D302884=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30557945&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci16p9.5ryk/6e9c86f2.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_12944660_346592534.1674071212953--
+

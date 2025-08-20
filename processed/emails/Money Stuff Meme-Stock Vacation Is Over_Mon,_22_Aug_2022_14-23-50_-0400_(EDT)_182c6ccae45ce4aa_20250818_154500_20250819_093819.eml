@@ -1,0 +1,2126 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:4201:b0:b5:9df0:5e91 with SMTP id kn1csp582402rwb;
+        Mon, 22 Aug 2022 11:24:39 -0700 (PDT)
+X-Received: by 2002:a17:903:41c6:b0:16e:fb38:e2c7 with SMTP id u6-20020a17090341c600b0016efb38e2c7mr21427567ple.75.1661192679072;
+        Mon, 22 Aug 2022 11:24:39 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1661192679; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=yAx1uNqmq3J/oJahQQZ7C/S1xs4aP4RAuTxONCg78xPPNZymgotvFxSugcNXFc8rU4
+         FckhnVY32/geegpFR5FDh7OhtGB2EehChFmnReiwuypBiqsrqgCb0qYXxg2T46pPw8jo
+         a8rzm0TYOsXRSeoAaCqSZoUD/H4PZ/7dQECEkiHIInttxcioJDugy0T8V+8s+blhegO1
+         aObCWeYi0pdXbl1vQ6anbqvHIvlGpHYY2CGP/LawOOR0/rBTXbHrgRBZkV2fOmxR7SRX
+         G9ryWicgSL4zIE6fV6x+HPK8DJtqA3IO1bSWpD4cMZwFBi4GnkAyuxpBjU+4MmEemqv3
+         NxDg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=9oZDZ4zK2BCL3X2RMIfP4BVUXAK68WY7w9eLsisDMVI=;
+        b=HxhnsfAhySQlxf8fkU6R1TPAgaD+weLSncPymAqSVjH+uMfOUL54zwCzazvGVfWOIu
+         psqiyoT9AX1ReKxJHxpvbiTmrDvD7xZZdy8TYtKihpSypR8qNYtoNAgK3T99bWvRRrJd
+         XUBWwK74FeGN3yHi62ZaG2SHHtzNhmjuJGcw2GW/WLHSc6trNjfsr24iDWA5P25dHzl6
+         TJZ7xeX2LMXWoBR/UxCQ4wZIHRr6KHWiigIy642nDWJQWRLfBtON0jFFCyI8CKTh6Oxr
+         qe8AvjeZ5mQfM4gZJsCUXWh+wG00qlyPPx/GIQZ7E1nAde4hSgZfXwZFUwvpB2QfTZfz
+         Gr8A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PNA0uNvu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f5-20020a170902ab8500b0016cae5f04d6sor5472664plr.150.2022.08.22.11.24.38
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 22 Aug 2022 11:24:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PNA0uNvu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc;
+        bh=9oZDZ4zK2BCL3X2RMIfP4BVUXAK68WY7w9eLsisDMVI=;
+        b=Peo6D3uLWtH83M0cwPdoAtWjEtizqOZhemQKw+SJll8d5mXXuaNUHk8AG/l7/HWZqY
+         Mdcu3JPBCIdBCOrsviBiV2UhjTai7n6UQoqp4gzXFzuysZwtZIaez7J20Is9gDfaki3q
+         iD4dJeS4jGeHGrO1ux/q4OS/DBY2xukI+rvll4piYbjwoZQXVty/WjN0KWWEY4hxlML7
+         C8R9Ht7Zhin3g6QNN/O2WRb4vFEFRt6lIXaR8an0KwpacoELFMhUjR9CeP6GOGg/xnyZ
+         i5dOlXf7tmMvxRxtTXWSX9lHya7wuxsY2OY/gWPVvH61a9R4RA9Q2+GVix+hrOHCbj0M
+         LvZg==
+X-Gm-Message-State: ACgBeo3hnLxPD0NTI6KswVsBTLP1JPYmT6UiyeHMxrYQUf9KmJ5wt3DZ
+	Z8/CkdW4+Pd4geafDrpUxC1/Xqlwz4RJzld4P5eHARCXPJAH6lohgg==
+X-Received: by 2002:a17:902:820b:b0:170:f3ae:bd0e with SMTP id x11-20020a170902820b00b00170f3aebd0emr20983587pln.143.1661192678706;
+        Mon, 22 Aug 2022 11:24:38 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90b:17cb:0:0:0:0 with SMTP id me11csp1467354pjb;
+        Mon, 22 Aug 2022 11:24:35 -0700 (PDT)
+X-Received: by 2002:a02:b60d:0:b0:343:5ddd:66b3 with SMTP id h13-20020a02b60d000000b003435ddd66b3mr10244532jam.8.1661192675599;
+        Mon, 22 Aug 2022 11:24:35 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1661192675; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zkVpuDNYnAjxm21xPZsgNlFaptYWufNGw7xsU3Y7F6D43RCDMbOtYn34IiBmuCFw9M
+         jX5AWoh2ok4zYh6+J3N5ltRK0K0vOZiknQSZ1ObW6Dwz+F/XdcQ8pfyHPTOZZc3uZPe2
+         j5aBeYpmgJuaTvwBb9FJI6Y6cblFggJKnitg19B/n3qMuLtrM135BpPGQ/Bk7oE1y6rg
+         rodyfu+4xZKRFGShXl+7x5AN0Eyqn+l+EpsKAZA0UOIkV0fZkswdebJfS1TgKDt5dUHf
+         tJVf82pm6sXv95YVYnlKwlKhDuU5hbWrblEq+RtWgzJg++c0WtSuD9K2yufAUpn2wQOp
+         IuLQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=9oZDZ4zK2BCL3X2RMIfP4BVUXAK68WY7w9eLsisDMVI=;
+        b=vU6gi2CpoT7210jzEozqPr/czPmsoJnK+yV2OEbKBp6z1BuOKxFwdkJ83JhI8OK+ex
+         0zFNBKQz87Q2U9DyQdeMX3QPTBXyjRLg3Qw4ZDDJqWmGFTzJZwD3QdbuYfRfBPvAI4ik
+         Zur6nCXPfJQBSfajHOHP1E/vkeFj2/ogXIriZJVG9lorrVNzDJywg2VH8NQtt/lZdhuj
+         1p/SuEJOC4neCu58dJMLVKVPhN9nJ4+WgSkIOuGIQvAZbUCHkGx823i1wuM5GcNrRYWn
+         0XwtsGHBH01e+FS4WZpPXNtQan3q3G2+8XL0pNQh2MqGfh/OJY1TQOdJoMaVTrS0CDhH
+         sFEA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PNA0uNvu;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220822142350.28811558.259586@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220822142350.28811558.259586@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220822142350.28811558.259586@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s189-20020a0251c6000000b003436736c9e0sor3466460jaa.52.2022.08.22.11.24.35
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 22 Aug 2022 11:24:35 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220822142350.28811558.259586@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR5yDTa/4d3uEAIyu1iFtqNAvhw/j8tI+W15OLVIiOzyOCCCli223x3oYGRj+UozkPZyBoyucy0lKVuGArHWqwJgyvVTuVs=
+X-Received: by 2002:a05:6638:19cd:b0:349:d288:39c6 with SMTP id bi13-20020a05663819cd00b00349d28839c6mr3895865jab.196.1661192675214;
+        Mon, 22 Aug 2022 11:24:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1661192675; cv=none;
+        d=google.com; s=arc-20160816;
+        b=kNymeC8f+liW4qDTIcivYHa4Av8/+0ZGgXyNkKzq7KvG9mBDY4gc+Eh97rFsyB+QnA
+         BYIy0g7FhDxqQYhV7tqMkm/dAzUqhL9dPpp+kGb4Rspj9+T6lbys4la5p3ppDd55OUCB
+         kpyV2dvGgEsqK/LRo7NYdvmHis6gpZcAn3gXgOWz8C10Fc43TjD+t20ezpIQlV67I2Sy
+         fY1dVBmZthGAJa/j1wLDOnDQxJingLDeeqW3+Zp5J256prTVon8JjUo7BhqWfHLsMzLz
+         VMVJ+DYMwLejxG6lnTv4rG3ltLsY0CPmMxxoXDcJUbinVFJ2LH3ZNFGW1CtTxOaix3Fr
+         2VAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=9oZDZ4zK2BCL3X2RMIfP4BVUXAK68WY7w9eLsisDMVI=;
+        b=wGf9ZhLlR2va3PsIo8oHnCm6EQ98JmV5HA98ijGF8lyyyMTcpSjHjOVJc0JvLH6QRl
+         mZkz1d3Pd7aFTCs42t1DI+4E5qmlpbl9YiA078aevpTFAObjNAR3gWd0zaKxmtp92Yr6
+         Z1FvqZ7tQALeL1/hO1QvbW7RG/bHkkAv+BZLHi4R8j1VRd7Y5DssuLdYS0NLncZhHm7E
+         SknYWr0L+MFzaBK+7o4lnekyE7zzFHpLaE/47zHIS5jhJHxzetZ2KBbl6pyQeWta/rOi
+         Q6fa9O8bXKIUHE8Y92xuiTC9ZdET24mELccdU4WLs08otkI/e7lIQzLRJElqaMgO41gB
+         0P/Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PNA0uNvu;
+       spf=pass (google.com: domain of delivery_20220822142350.28811558.259586@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220822142350.28811558.259586@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220822142350.28811558.259586@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id g17-20020a056638061100b00349d0b68f0asi240932jar.4.2022.08.22.11.24.34
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 22 Aug 2022 11:24:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220822142350.28811558.259586@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=mu7jllw6AbApoW0SuQO5CXiu26hJVEvpZxQYUUgIr5U=;
+ b=PNA0uNvu/wDNGfNt69Q8JPo86n0gxo7FE2cYKLJfkAcMNEyUgQDPeLeVzd3YUJkCOYt2CaVx79Qd
+   tAGezjOSXJNKzyM9D/dlGkSNMsE/+uL8s/QF1DxsLmLtCx7F4sC2psaHEJCNGTlwbD8cZz0ziy1g
+   29oaR8J/JTiXv+WVPlI=
+Received: from mtast-04.sailthru.com (204.153.121.10) by pmta29.sailthru.com id h0f4u42sd4sb for <bloomberg@khamel.com>; Mon, 22 Aug 2022 14:24:34 -0400 (envelope-from <delivery_20220822142350.28811558.259586@mx.sailthru.com>)
+Received: from nj1-illcherry.flt (172.18.20.10) by mtast-04.sailthru.com id h0f4u41s6j08 for <bloomberg@khamel.com>; Mon, 22 Aug 2022 14:23:50 -0400 (envelope-from <delivery_20220822142350.28811558.259586@mx.sailthru.com>)
+Date: Mon, 22 Aug 2022 14:23:50 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220822142350.28811558.259586@sailthru.com>
+Subject: Money Stuff: Meme-Stock Vacation Is Over
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_32822_599602215.1661192630650"
+Precedence: bulk
+X-Feedback-ID: 6358:28811558:campaign:sailthru
+X-TM-ID: 20220822142350.28811558.259586
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ch5j52.5kaq/dd373988
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ch5j52.5kaq/dd373988>, <mailto:unsubscribe_20220822142350.28811558.259586@mx.sailthru.com>
+X-rpcampaign: stjko28811558
+
+------=_Part_32822_599602215.1661192630650
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Here is a simplistic, wrong, but almost plausible history of stock-=
+market investing: Stock markets were invented to let people finance produ
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Eternal September
+   =20
+ =20
+Here is a simplistic, wrong, but almost plausible history of stock-market i=
+nvesting:=09Stock markets were invented to let people finance productive bu=
+sinesses and share in the profits. You and 100 other people give a railroad=
+ company some money to build tracks, it builds tracks, it runs trains, it m=
+akes money, it pays you all a nice 7% dividend out of the money it makes.=
+=09Markets quickly became a way for=C2=A0people to gamble on speculative ve=
+ntures. You couldn=E2=80=99t get a ton of financial information about those=
+ investments, so you were just guessing which ones were good. You bought st=
+ocks because you thought other people would buy them. =E2=80=9CThe professi=
+onal investor is forced to concern himself with the anticipation of impendi=
+ng changes, in the news or in the atmosphere, of the kind by which experien=
+ce shows that the mass psychology of the market is most influenced,=E2=80=
+=9D  wrote Keynes in 1936. =E2=80=9CThe actual, private object of the most =
+skilled investment today is =E2=80=98to beat the gun,=E2=80=99 as the Ameri=
+cans so well express it, to outwit the crowd, and to pass the bad, or depre=
+ciating, half-crown to the other fellow.=E2=80=9D If you wanted to analyze =
+how much to pay for a stock, you would concern yourself with questions of=
+=C2=A0mood. You would =E2=80=9Cread the tape,=E2=80=9D get a sense of how t=
+he market=C2=A0felt, and then buy if you thought people were going to be bu=
+llish and sell if you thought they=E2=80=99d be bearish. The profits of the=
+ underlying business=C2=A0might=C2=A0affect the mood, but they were not you=
+r primary concern. The mood was.=09But in 1934,  Benjamin Graham invented d=
+iscounted cash flow analysis,[1] and stocks became (again) a way to bet on =
+the future profits of productive enterprises. If you wanted to analyze a st=
+ock, you=E2=80=99d analyze its operations and build a spreadsheet and predi=
+ct its future financial results and do some math to those results to get a =
+current value. If the value was higher than the price, you=E2=80=99d buy th=
+e stock. There were reasons that this approach became dominant. The crash o=
+f 1929 and the ensuing depression meant that the mood was=C2=A0bad, so inve=
+sting in productive businesses was relatively more attractive than betting =
+on mass enthusiasm. The creation of the modern US system of securities regu=
+lation in the 1930s meant that stock manipulation was=C2=A0harder to do, wh=
+ile getting financial information about companies was easier: You actually=
+=C2=A0could=C2=A0analyze cash flows. But, also, doing math to sober busines=
+s analyses just seems more=C2=A0professional. If investing is a game of mas=
+s psychology and gambling, then it is not quite respectable=C2=A0to make yo=
+ur living from it. If investing is a business of building complex quantitat=
+ive models to allocate capital to its best uses, then it is much more reput=
+able and impressive, and you can hire lots of Harvard applied-math majors t=
+o do it.=09In roughly 2021 the pendulum swung back again. Now the way you i=
+nvest in stocks is by guessing which stocks other people will want to buy, =
+math and financial statements are worthless, and the reputable finance busi=
+nesspeople keep getting blown up by online gamblers.And so now, if you want=
+ to analyze the value of a stock, you will   ask questions like =E2=80=9Cwh=
+en do college students come back to school and start gambling again?=E2=80=
+=9DThe recent resurgence in retail-trading favorites won=E2=80=99t let up a=
+nytime soon, says Jaime Rogozinski, founder of the popular chat forum WallS=
+treetBets.=E2=80=9CSummer vacation is over, everyone is back in school and =
+that=E2=80=99s when the activity gets to kick back up,=E2=80=9D Rogozinski =
+said in an interview with Bloomberg Markets.The drivers are the same as the=
+y were in January 2021: relatively distressed, highly shorted companies are=
+ once again getting pushed higher by day trader enthusiasm. And the frenzy =
+is likely to continue =E2=80=9Cas long as we don=E2=80=99t disable a buy bu=
+tton,=E2=80=9D says Rogozinski, who no longer moderates the Reddit forum.=
+=C2=A0On the other hand here=E2=80=99s a college student who  made the most=
+ of his summer vacation:A 20-year-old university student has made a roughly=
+ $110mn gain by selling a stake in struggling retailer Bed Bath & Beyond, a=
+fter its stock price soared during a month of frenzied trading reminiscent =
+of last year=E2=80=99s meme stock boom.Jake Freeman, an applied mathematics=
+ and economics major at the University of Southern California, acquired nea=
+rly 5mn shares in Bed Bath & Beyond in July, according to regulatory filing=
+s, after dismal earnings and the ousting of its chief executive sent its st=
+ock price plummeting.Freeman bought his stake at under $5.50 a share. On Tu=
+esday, Bed Bath & Beyond surged to more than $27 a share. As the stock soar=
+ed, Freeman sold more than $130mn worth of stock from his TD Ameritrade and=
+ Interactive Brokers accounts.Freeman=E2=80=99s sale was well-timed. Shares=
+ in Bed Bath & Beyond tumbled more than 20 per cent on Thursday after the i=
+nvestor and meme-stock champion Ryan Cohen disclosed on Wednesday evening t=
+hat he intended to sell his entire stake of almost 12 per cent in the compa=
+ny.That=E2=80=99s from the Financial Times last Thursday; here is a follow-=
+up about how Freeman tried to give Bed Bath & Beyond Inc. some  meme-y corp=
+orate finance advice:The novel solution he proposed for Bed Bath involved u=
+sing the high volatility in its stock price to offer bondholders a deal tha=
+t would lighten its senior debt load from $1.2bn to $500mn. The plan hinged=
+ on the company offering stock warrants and convertible notes to debt holde=
+rs in exchange for reducing the company=E2=80=99s leverage. If the company =
+repaired its balance sheet and the share price recovered, the warrants woul=
+d go up in value.Here=E2=80=99s his  July letter to the company outlining t=
+he proposal. In one sense it=E2=80=99s a fairly straightforward distressed =
+debt restructuring idea: If you=E2=80=99re a company with bonds trading at =
+20 to 40 cents on the dollar,[2] then you can try to buy those bonds back f=
+or 30 to 50 cents=E2=80=99 worth of new bonds, giving=C2=A0you=C2=A0less de=
+bt and your bondholders a nice profit. In another sense, it is a complicate=
+d way to say =E2=80=9Clook, you are a meme stock, which means that investor=
+s want to YOLO your call options, so what you should do is create some call=
+ options and sell them to pay off your debt.=E2=80=9D Warrants and converti=
+bles are company-issued call options, and call options are the meme-iest wa=
+y to trade meme stocks.Really the corporate-finance advice that you=E2=80=
+=99d=C2=A0like=C2=A0to give to a meme-stock issuer is: Every Monday, if you=
+r stock is trading at $10, sell a bunch of warrants with a $20 strike price=
+ expiring on Friday, for say $1 each.=C2=A0If your stock doubles, you sold =
+stock at $20, which is a lot better than you expected. If, much more likely=
+, your stock doesn=E2=80=99t=C2=A0double, then you=E2=80=99ve made a free $=
+1, every week. People want to overpay to gamble on your stock =E2=80=94=C2=
+=A0they are buying short-dated listed call options anyway =E2=80=94=C2=A0so=
+ you might as well let them overpay you. In practice this is tricky: It=C2=
+=A0seems weird to do=C2=A0one-week=C2=A0warrants, and anyway a warrant isn=
+=E2=80=99t quite the same thing as a weekly listed call option.=C2=A0(In fa=
+ct warrants on meme-y stocks seem much=C2=A0less=C2=A0attractive to retail =
+investors than the underlying stock.[3]) Still, the basic advice of =E2=80=
+=9Cyou are a meme stock so you ought to be selling options to gamblers=E2=
+=80=9D feels correct.Notice, though, that Bed Bath & Beyond ignored his adv=
+ice and the stock soared for  purely meme reasons:In August, Bed Bath share=
+s started soaring following renewed momentum on Reddit, where moderators of=
+ the WallStreetBets channel had lifted a ban on discussing the stock. It ca=
+talysed a furious rally in Bed Bath shares that Freeman said caught him off=
+ guard. =E2=80=9C[People] were really hyping it up on WallStreetBets, which=
+ just led to more and more fear of missing out,=E2=80=9D he said.At the sta=
+rt of last week, the shares climbed higher still after Ryan Cohen, the chai=
+r of GameStop and a meme stock figurehead, filed documents with the SEC on =
+Monday detailing a previous=C2=A0purchase in February and March of a large =
+number of call options in Bed Bath =E2=80=94 derivatives that can deliver a=
+ windfall if a stock rises in value.It=E2=80=99s not cleverly harnessing me=
+me-stock volatility to clean up the balance sheet. It=E2=80=99s message boa=
+rds and misreading=C2=A0the actions of =E2=80=9Ca meme stock figurehead.=E2=
+=80=9D It=E2=80=99s mass psychology, not corporate finance. In a sense, if =
+you buy a big chunk of a meme stock and give the company advice on how to d=
+o meme corporate finance, you are doing the right thing. (Meme-stock activi=
+sts =E2=80=9Ccan nudge companies to be dumber so their stocks will go up,=
+=E2=80=9D   I once wrote.) In another sense, if you buy a meme stock and th=
+ink about corporate finance at all, you are making a mistake.In other meme-=
+stock news, I entirely missed   the rise and fall of AMTD Digital Inc. this=
+ summer, which I feel pretty good about. At its peak it was worth $470 bill=
+ion, and not because of cash flows.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      What=E2=80=99s Adam Neumann up to?
+   =20
+ =20
+An important   running   theme of this column is that one of the best thing=
+s you can do for your financial career is lose a billion dollars. This is n=
+ot necessarily=C2=A0actionable=C2=A0advice, for most people; it requires so=
+meone trusting you with a billion dollars to lose. But if you ever do find =
+yourself in a position where you can lose a billion dollars of someone else=
+=E2=80=99s money, and you do it, that could open up a lot of doors to you. =
+Losing a billion dollars tends to be a high-profile affair;=C2=A0it will de=
+finitely get your name out there. People will be impressed that you were en=
+trusted with a billion dollars, and that you took a big swing and lost it. =
+And they will assume that you learned important lessons and, next time, won=
+=E2=80=99t lose it.I doubt anyone has ever incinerated more venture-capital=
+ist money with   more delirious joy than WeWork Inc. founder Adam Neumann, =
+so  he gets to try again:Neumann=E2=80=99s new company Flow wants to transf=
+orm the residential rental real estate market. Notably, it has the financia=
+l support of Andreessen Horowitz, the prominent Silicon Valley venture capi=
+tal firm that was an early investor in everything from Facebook to Airbnb. =
+The backing of Andreessen Horowitz, considered royalty among early-stage in=
+vestors, is a powerful sign of support, and perhaps a rebuke to Neumann=E2=
+=80=99s critics, who have described his leadership of WeWork as a cautionar=
+y tale of corporate hubris.Andreessen Horowitz is investing about $350 mill=
+ion in Flow, according to three people briefed on the deal. The investment,=
+ the largest individual check Andreessen Horowitz has ever written in a rou=
+nd of funding to a company, values Flow at more than $1 billion before it e=
+ven officially opens its doors.Here=E2=80=99s Marc Andreessen=E2=80=99s  bl=
+og post about the investment:Adam is a visionary leader who revolutionized =
+the second largest asset class in the world =E2=80=94 commercial real estat=
+e =E2=80=94 by bringing community and brand to an industry in which neither=
+ existed before. Adam, and the story of WeWork, have been exhaustively chro=
+nicled, analyzed, and fictionalized =E2=80=93 sometimes accurately. For all=
+ the energy put into covering the story, it=E2=80=99s often under appreciat=
+ed that only one person has fundamentally redesigned the office experience =
+and led a paradigm-changing global company in the process: Adam Neumann. We=
+ understand how difficult it is to build something like this and we love se=
+eing repeat-founders build on past successes by growing from lessons learne=
+d. For Adam, the successes and lessons are plenty and we are excited to go =
+on this journey with him and his colleagues building the future of living.W=
+e think it is natural that for his first venture since WeWork, Adam returns=
+ to the theme of connecting people through transforming their physical spac=
+es and building communities where people spend the most time: their homes. =
+Residential real estate =E2=80=94 the world=E2=80=99s largest asset class =
+=E2=80=94 is ready for exactly this change.You can sort of model the Andree=
+ssen Horowitz thesis as:=09=E2=80=9CSoftware is eating the world,=E2=80=9D =
+in Andreessen=E2=80=99s famous phrase. Lots of traditional industries have =
+been swallowed up by software companies.=09Why shouldn=E2=80=99t residentia=
+l real estate, =E2=80=9Cthe world=E2=80=99s largest asset class,=E2=80=9D a=
+lso become a software business, infinitely scalable with software-company m=
+argins?And you can sort of model the Adam Neumann thesis as:=09Venture capi=
+talists keep investing in my real estate companies at software-company mult=
+iples.=09I=E2=80=99m gonna let them.Arguably what is most revolutionary abo=
+ut WeWork is that it=C2=A0  extracted $17 billion of investments from SoftB=
+ank Group Corp. and has a current market capitalization of about $3.1 billi=
+on, while=C2=A0 Neumann is a billionaire. If you can do that trade, you sho=
+uld, as often as possible.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Anti-ESG
+   =20
+ =20
+The problem is that =E2=80=9CESG=E2=80=9D can be used to refer to several s=
+lightly different things[4]:=09An ESG investor might look at environmental,=
+ social and governance factors to evaluate the financial prospects and risk=
+s of an investment. If sea levels rise, this coastal-hotels business might =
+be in trouble; if the world gets serious about combatting climate change an=
+d so imposes restrictions on carbon emissions, this coal-mining business mi=
+ght not be able to sell its coal. These are financial risks like any other,=
+ and should inform investment decisions.=09A big diversified investor that =
+owns lots of shares of lots of companies will spend most of her time thinki=
+ng about systematic risks, because she has diversified away idiosyncratic r=
+isk. Climate change or social upheaval might be bad for all of her companie=
+s, so when she talks to the managers of her companies she will spend less t=
+ime telling them how to optimize their widget factories and more time askin=
+g them about global warming.=09An investor who wants, not just to make mone=
+y for herself, but also to make the world better, might try to do that thro=
+ugh her investing. (By buying stocks of good companies and avoiding stocks =
+of evil companies, or by buying stocks of evil companies and lobbying them =
+to stop doing evil things, or something else.)=09An asset manager who wants=
+ to make a lot of money might change the name of the XYZ Large-Cap Fund to =
+the XYZ ESG Fund, without making many other changes, because (1) lots of in=
+vestors want ESG funds, (2) they don=E2=80=99t particularly care about what=
+ is in those funds, and (3) you can charge=C2=A0higher fees for=C2=A0ESG fu=
+nds.For a long time, it was useful for big asset managers not to insist too=
+ much on any distinctions between these things. If your clients vaguely ass=
+ume that you are=C2=A0both=C2=A0maximizing their returns by being thoughtfu=
+l about systemic risks,=C2=A0and=C2=A0making the world better, then they wi=
+ll be happy to pay your fees.=C2=A0But these things=C2=A0are=C2=A0different=
+, and in some tension. In particular, not everyone agrees on what will make=
+ the world better, and ESG-investing-as-environmental-activism has become p=
+olitically controversial and might no longer be good advertising. But ESG-i=
+nvesting-as-a-way-to-look-at-systematic-risks remains important. If you are=
+ a big systematic investor and you genuinely think that no one will use coa=
+l in 10 years, then you probably won=E2=80=99t want to fund a coal mine. Bu=
+t you=E2=80=99ll make that call quietly, because if some US politicians fin=
+d out that you are =E2=80=9Cdiscriminating=E2=80=9D against coal=C2=A0then =
+you=E2=80=99ll get in trouble and lose business. The ESG financial analysis=
+=C2=A0makes sense, but the feel-good ESG marketing overlay doesn't work the=
+ way it used to.Anyway here=E2=80=99s a Bloomberg News article from last we=
+ek about how ESG people  don=E2=80=99t like to say =E2=80=9CESG=E2=80=9D an=
+ymore:A number of sustainable investing champions say it=E2=80=99s time for=
+ the =E2=80=9CESG=E2=80=9D label to be shelved and replaced by something le=
+ss likely to draw attacks from both the political right and left.Robert Ecc=
+les, a professor who=E2=80=99s spent the past 12 years researching sustaina=
+bility at Harvard Business School and now University of Oxford=E2=80=99s Sa=
+id Business School, says the term =E2=80=9Cjust doesn=E2=80=99t have value =
+anymore. Let=E2=80=99s change the conversation.=E2=80=9D =E2=80=A6Instead, =
+he says he=E2=80=99s happy to talk about =E2=80=9Cmaterial risk factors.=E2=
+=80=9D=E2=80=9CI know it=E2=80=99s a boring term, but it=E2=80=99s accurate=
+,=E2=80=9D he said. =E2=80=9CWe never have to say whether they=E2=80=99re a=
+n E, S or G issue. We can say we=E2=80=99re talking about carbon emissions =
+or labor practices.=E2=80=9DI=E2=80=99ll probably still say =E2=80=9CESG,=
+=E2=80=9D but I see where they=E2=80=99re coming from.
+ =20
+   =20
+      Equifax insider trading
+   =20
+ =20
+In July 2017, credit reporting company Equifax Inc. was hacked, disclosing =
+=E2=80=9Cpersonally identifiable information of millions of consumers.=E2=
+=80=9D In September 2017, Equifax publicly disclosed the hack, and its stoc=
+k fell 14%. In between those events, Equifax apparently went around telling=
+ lots of people about the hack without disclosing it publicly, and all of t=
+hem insider traded? I mean,   not really all of them. But it is striking   =
+how many  insider trading cases came out of that hack. One model here is th=
+at Equifax mobilized an unusual number of people to look into the hack, man=
+y of them were not seasoned financial professionals, and so a lot of them i=
+nsider traded in dumb obvious ways that got them caught. Another model is t=
+hat insider trading on a data breach is somehow more offensive=C2=A0than in=
+sider trading on, say, a merger, so the Securities and Exchange Commission =
+put more effort into catching insider traders=C2=A0than it usually does.Any=
+way here=E2=80=99s a good one from last week:The SEC's complaint, filed in =
+the Northern District of Georgia, states that Equifax engaged a Chicago-bas=
+ed public relations firm in August 2017 to assist with handling the inquiri=
+es expected to be generated by the announcement of the intrusion and breach=
+. According to the complaint, Ann M. Dishinger, who worked as a finance man=
+ager at the public relations firm, learned about the Equifax breach through=
+ her position and tipped her significant other, Lawrence M. Palmer (L. Palm=
+er), with the nonpublic news. The SEC alleges that L. Palmer then contacted=
+ a former business client and arranged for the client to purchase out-of-th=
+e-money Equifax put options in the client's brokerage account with the unde=
+rstanding that the client and L. Palmer would split any trading profits obt=
+ained.The guy was the romantic partner of finance manager at a public relat=
+ions firm hired by Equifax=E2=80=99s outside counsel, which is pretty far r=
+emoved from the source of the information; if he knew about the hack and tr=
+aded on it, think about how many other people did. And Palmer was allegedly=
+ unsophisticated enough  that he had to ask =E2=80=9Ca former business asso=
+ciate=E2=80=9D of his =E2=80=9Cfor advice on how to purchase options that w=
+ould take advantage of what he thought would be bad news for the company.=
+=E2=80=9D The associate recommended put options and apparently gave Palmer =
+a brief options tutorial, and then Palmer allegedly =E2=80=9Casked his form=
+er business associate to purchase $1,000 in Equifax put options in his brok=
+erage account, claiming that he himself did not have a brokerage account an=
+d suggesting that the circumstances were so urgent that he did not have tim=
+e to open his own account.=E2=80=9DThe associate bought the options, and th=
+en this allegedly happened:L. Palmer later reimbursed his former business a=
+ssociate for $1,000 of the funds used to purchase the put options. In the m=
+emo section of the check, L. Palmer wrote the words =E2=80=9CBlue Horseshoe=
+.=E2=80=9D=E2=80=9CBlue Horseshoe=E2=80=9D was an apparent reference to Mic=
+hael Douglas=E2=80=99s instruction to Charlie Sheen in the 1987 movie=C2=A0=
+Wall Street=C2=A0to use a coded message to convey inside information, namel=
+y, =E2=80=9C[y]ou tell the man that Blue Horseshoe loves Anacott Steel.=E2=
+=80=9DWhat!? I promise, the SEC has seen =E2=80=9CWall Street.=E2=80=9D You=
+=E2=80=99d be better off writing =E2=80=9Cillegal insider trading=E2=80=9D =
+in the memo section of the check.   My assumption is that everyone who uses=
+ codewords to commit crimes is doing so because it=C2=A0feels cool, not bec=
+ause they want to conceal their crimes.=C2=A0
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+I have been away from this column for about a month, and my last columns in=
+ July were more or less entirely about Elon Musk=E2=80=99s fight to walk aw=
+ay from his deal to buy Twitter Inc. I have to say that I don=E2=80=99t fee=
+l like I=E2=80=99ve missed much? Since my   last column, Musk filed his  an=
+swer and counterclaims to Twitter=E2=80=99s lawsuit, but there=E2=80=99s no=
+thing really new there. Musk=E2=80=99s defense is still that (1) Twitter pr=
+omised him that fewer than 5% of its monetizable daily active users are bot=
+s and (2) Twitter is conducting a massive long-running fraud, it has many f=
+ewer users than it claims, and its executives have conspired to deceive inv=
+estors and advertisers and cover up its lack of real users. Point (1) is ju=
+st false =E2=80=94=C2=A0the merger agreement is public and you can read it,=
+ and Musk never negotiated at all for any information about bots=C2=A0=E2=
+=80=94=C2=A0and Point (2) is a=C2=A0weird conspiracy theory with absolutely=
+ no evidence for it. But I have said all of this before and nothing has cha=
+nged. The trial   starts on October 17 and I guess I=E2=80=99ll see you the=
+n in Delaware?Meanwhile Musk continues to get up to stuff. When he tried to=
+ get out of the Twitter deal,   I wrote:Elon Musk is the richest person in =
+the world, and, like many other rich people, he has some unusual and expens=
+ive hobbies. One of his hobbies is that he sometimes likes to pretend that =
+he will acquire public companies.=C2=A0He seems to find this fun, and why n=
+ot? When he pretends that he=E2=80=99ll buy a public company, it creates a =
+big drama with him at the center of it. He gets to boss people around, mobi=
+lize legions of bankers and lawyers and financing sources and random hanger=
+s-on hoping to get the deal done, and then when he gets bored he can tell a=
+ll those people to go home. =E2=80=9CHaha got you,=E2=80=9D he can say, and=
+ they can all have a good laugh, or he can anyway.It is a=C2=A0weird hobby,=
+ isn=E2=80=99t it? These dramas always seem to end unpleasantly for him: Wh=
+en he pretended he was going to buy Tesla Inc., he ended up paying a multim=
+illion-dollar fraud settlement to the SEC and having restrictions put on hi=
+s Twitter use, which he then ignored. When he pretended he was going to buy=
+ Twitter, he got, uh, sued for $44 billion is I guess what is going on now.=
+ From the outside, this all seems bad, and you might expect him to say =E2=
+=80=9Cyou know what, it isn=E2=80=99t worth it, I am going to stop pretendi=
+ng to buy companies.=E2=80=9D But,   no:Elon Musk joked on Twitter about bu=
+ying Manchester United Plc, letting 4 1/2 hours go by before clarifying he =
+was kidding about purchasing the English football club listed on the New Yo=
+rk Stock Exchange.The world=E2=80=99s richest person sent his initial missi=
+ve about the storied club in a reply to an earlier post about his political=
+ allegiances. When a Tesla Inc. fan account asked whether Musk was serious,=
+ he replied no, he isn=E2=80=99t buying any sports teams. =E2=80=A6Musk=E2=
+=80=99s Manchester United tweets could attract fresh regulatory attention, =
+since the club has traded on the NYSE since 2012.He cannot stop himself fro=
+m pretending to buy public companies! What if he ever wants to actually buy=
+ a company? At this point, if you run a company, and Elon Musk shows up wit=
+h an offer to buy your company, there=E2=80=99s like an 80% chance that he=
+=E2=80=99s kidding.=C2=A0Even=C2=A0if he has bankers and lawyers and fully =
+committed financing and a signed merger agreement, he=E2=80=99s probably ki=
+dding. I assume that there is some sort of business-genius negotiation stra=
+tegy here that I am missing, and that when he actually does want to buy a c=
+ompany the board will be so terrified by his maniacal track record that the=
+y=E2=80=99ll just say =E2=80=9Cfine, take it, it=E2=80=99s free, just let u=
+s leave quietly.=E2=80=9D[5]Elsewhere, =E2=80=9CTesla has had   at least fo=
+ur top lawyers since its last full-time general counsel Jonathan Chang depa=
+rted in December 2019,=E2=80=9D no kidding.
+ =20
+   =20
+      What is Martin Shkreli up to?
+   =20
+ =20
+The purest form of meme-stock investing has been enabled by cryptocurrency.=
+ In the olden days, before he went to prison, if you wanted to invest in =
+=E2=80=9Chey, Martin Shkreli does funny stuff, I like that, let me put $100=
+ into that,=E2=80=9D you=E2=80=99d have to buy shares in his biotech compan=
+y. And that stock would go up and down partly based on Martin Shkreli=E2=80=
+=99s ability to attract attention to himself but also partly based on, you =
+know, its actual business results. But now Shkreli is   banned from running=
+ public companies. Instead, he has =E2=80=9CDruglike, a Web3 drug discovery=
+ software platform,=E2=80=9D=C2=A0with a token called =E2=80=9CMartin Shkre=
+li Inu,=E2=80=9D and if you want to invest in his general attention-seeking=
+ ability that seems like a good pure play.   Though of course:Martin Shkrel=
+i Inu, a token worth fractions of a penny that was launched by the notoriou=
+s =E2=80=9CPharma Bro=E2=80=9D last month, plunged more than 90% at one poi=
+nt [August 12], Binance data shows. The drop came after an unidentified wal=
+let that appears to belong to Shkreli sold a massive stake in the coin.=C2=
+=A0Asked about the plunge on the social media site Discord, an account beli=
+eved to be run by Shrkeli responded: =E2=80=9CI got hacked.=E2=80=9D A repr=
+esentative for Shkreli declined to comment.A series of blockchain transacti=
+ons show a crypto wallet account named 0xshkreli.eth transfer more than 160=
+ billion tokens to an unidentified wallet early Friday, according to Ethers=
+can, which tracks blockchain transactions.Yeah I mean if you bought Martin =
+Shkreli Inu tokens and Martin Shkreli rug-pulled you (or,=C2=A0even better,=
+ if he  got hacked while trying to download porn, as he is apparently claim=
+ing,=C2=A0and the hacker rug-pulled you), that seems about right. Crypto ha=
+s created a way to tokenize and trade the aesthetic experience of getting s=
+cammed by Martin Shkreli, and the people who bought it got exactly what the=
+y paid for.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Credit Suisse Investment Bankers Are Bracing for   Brutal Cutbacks. Warren =
+Buffett Not Expected to Bid for Control of  Occidental Following Approval f=
+or Bigger Stake. What Ethereum=E2=80=99s Big =E2=80=98Merge=E2=80=99 Means =
+in Crypto Land. Citi Fined =C2=A313 Million Over   Struggles to Monitor UK =
+Trades.=C2=A0Seized   Superyacht to Be Auctioned to Pay JPMorgan Loan.What =
+Can  Fancy Feast=E2=80=99s New Restaurant Teach Us About Ourselves?If you'd=
+ like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your =
+inbox, please=C2=A0subscribe at this link. Or you can subscribe to Money St=
+uff and other great Bloomberg newsletters here. Thanks![1] Again, this hist=
+ory is wrong and I am kidding. Graham is the =E2=80=9Cfather of value inves=
+ting,=E2=80=9D and Security Analysis was published in 1934, but Wikipedia t=
+ells me that DCF valuation was popularized by John Burr Williams in 1938, a=
+nd was an explicit rejection of the Keynesian =E2=80=9Ccasino=E2=80=9D view=
+.=C2=A0[2] Per Freeman=E2=80=99s letter in July, though Bloomberg shows me =
+similar numbers =E2=80=94=C2=A0call it 18 to 38 cents on the dollar for the=
+ three series of bonds =E2=80=94=C2=A0today.[3] We=E2=80=99ve talked about =
+this in connection with  Nikola Corp. and  Digital World Acquisition Corp.,=
+ both companies whose stocks soared on retail enthusiasm but whose warrants=
+ traded at much lower implied prices.[4] There is a significant contingent =
+of ESG purists who think that only the first category of what I describe he=
+re is =E2=80=9Creally ESG,=E2=80=9D and the rest is something else (=E2=80=
+=9Csocially responsible investing,=E2=80=9D etc.). Here I acknowledge that =
+these purists exist and will email me to complain. But lots of people use =
+=E2=80=9CESG=E2=80=9D pretty loosely, and so will I.[5] Arguably that kind=
+=C2=A0of  happened with Twitter?
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ch5j52.5kaq/2d82bb8b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_32822_599602215.1661192630650
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Here is a simplistic, wrong, but almost plausible history of stock-market i=
+nvesting: Stock markets were invented to let people finance produ
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBff951566" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MjImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB73b770e2"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC9acc3abe" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Eternal September</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a simplistic, wrong, but almos=
+t plausible history of stock-market investing:</p><ol style=3D"list-style-t=
+ype: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-b=
+ottom: 5px;">Stock markets were invented to let people finance productive b=
+usinesses and share in the profits. You and 100 other people give a railroa=
+d company some money to build tracks, it builds tracks, it runs trains, it =
+makes money, it pays you all a nice 7% dividend out of the money it makes.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Markets quickly became a way for=
+=C2=A0people to gamble on speculative ventures. You couldn=E2=80=99t get a =
+ton of financial information about those investments, so you were just gues=
+sing which ones were good. You bought stocks because you thought other peop=
+le would buy them. =E2=80=9CThe professional investor is forced to concern =
+himself with the anticipation of impending changes, in the news or in the a=
+tmosphere, of the kind by which experience shows that the mass psychology o=
+f the market is most influenced,=E2=80=9D <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cubWFyeGlzdHMub3JnL3J=
+lZmVyZW5jZS9zdWJqZWN0L2Vjb25vbWljcy9rZXluZXMvZ2VuZXJhbC10aGVvcnkvY2gxMi5odG=
+0/607f07ceef4b8524a319a23cB6e9e443e" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> wrote Keynes in 1936</a>. =E2=
+=80=9CThe actual, private object of the most skilled investment today is =
+=E2=80=98to beat the gun,=E2=80=99 as the Americans so well express it, to =
+outwit the crowd, and to pass the bad, or depreciating, half-crown to the o=
+ther fellow.=E2=80=9D If you wanted to analyze how much to pay for a stock,=
+ you would concern yourself with questions of=C2=A0<em>mood</em>. You would=
+ =E2=80=9Cread the tape,=E2=80=9D get a sense of how the market=C2=A0<em>fe=
+lt</em>, and then buy if you thought people were going to be bullish and se=
+ll if you thought they=E2=80=99d be bearish. The profits of the underlying =
+business=C2=A0<em>might=C2=A0</em>affect the mood, but they were not your p=
+rimary concern. The mood was.</li>=09<li style=3D"margin-bottom: 5px;">But =
+in 1934, <a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.=
+259586/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQmVuamFtaW5fR3JhaGFt/607f07c=
+eef4b8524a319a23cBe780ee94" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Benjamin Graham</a> invented discounte=
+d cash flow analysis,[1] and stocks became (again) a way to bet on the futu=
+re profits of productive enterprises. If you wanted to analyze a stock, you=
+=E2=80=99d analyze its operations and build a spreadsheet and predict its f=
+uture financial results and do some math to those results to get a current =
+value. If the value was higher than the price, you=E2=80=99d buy the stock.=
+ There were reasons that this approach became dominant. The crash of 1929 a=
+nd the ensuing depression meant that the mood was=C2=A0<em>bad</em>, so inv=
+esting in productive businesses was relatively more attractive than betting=
+ on mass enthusiasm. The creation of the modern US system of securities reg=
+ulation in the 1930s meant that stock manipulation was=C2=A0harder to do, w=
+hile getting financial information about companies was easier: You actually=
+=C2=A0<em>could=C2=A0</em>analyze cash flows. But, also, doing math to sobe=
+r business analyses just seems more=C2=A0<em>professional</em>. If investin=
+g is a game of mass psychology and gambling, then it is not quite respectab=
+le=C2=A0to make your living from it. If investing is a business of building=
+ complex quantitative models to allocate capital to its best uses, then it =
+is much more reputable and impressive, and you can hire lots of Harvard app=
+lied-math majors to do it.</li>=09<li style=3D"margin-bottom: 5px;">In roug=
+hly 2021 the pendulum swung back again. Now the way you invest in stocks is=
+ by guessing which stocks other people will want to buy, math and financial=
+ statements are worthless, and the reputable finance businesspeople keep ge=
+tting blown up by online gamblers.</li></ol><p style=3D"margin: 16px 0;">An=
+d so now, if you want to analyze the value of a stock, you will <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDgtMTcvd2FsbHN0cmVldGJldHMt=
+Zm91bmRlci1zYXlzLWJhY2stdG8tc2Nob29sLXNwdXJzLW1lbWUtbWFuaWEtYW5ldz9jbXBpZD1=
+CQkQwODIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMjA4MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB9672238d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  ask questions like</a> =E2=80=9Cwhen do college=
+ students come back to school and start gambling again?=E2=80=9D</p><blockq=
+uote><p style=3D"margin: 16px 0;">The recent resurgence in retail-trading f=
+avorites won=E2=80=99t let up anytime soon, says Jaime Rogozinski, founder =
+of the popular chat forum WallStreetBets.</p><p style=3D"margin: 16px 0;">=
+=E2=80=9CSummer vacation is over, everyone is back in school and that=E2=80=
+=99s when the activity gets to kick back up,=E2=80=9D Rogozinski said in an=
+ interview with Bloomberg Markets.</p><p style=3D"margin: 16px 0;">The driv=
+ers are the same as they were in January 2021: relatively distressed, highl=
+y shorted companies are once again getting pushed higher by day trader enth=
+usiasm. And the frenzy is likely to continue =E2=80=9Cas long as we don=E2=
+=80=99t disable a buy button,=E2=80=9D says Rogozinski, who no longer moder=
+ates the Reddit forum.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">O=
+n the other hand here=E2=80=99s a college student who <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuZnQuY29=
+tL2NvbnRlbnQvMWIyMWJiMDgtNjU5MC00OWM2LThiYWEtNWFkOGM1MjdmYmNj/607f07ceef4b8=
+524a319a23cB0e027c4d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> made the most of his summer vacation</a>:</p=
+><blockquote><p style=3D"margin: 16px 0;">A 20-year-old university student =
+has made a roughly $110mn gain by selling a stake in struggling retailer Be=
+d Bath &amp; Beyond, after its stock price soared during a month of frenzie=
+d trading reminiscent of last year=E2=80=99s meme stock boom.</p><p style=
+=3D"margin: 16px 0;">Jake Freeman, an applied mathematics and economics maj=
+or at the University of Southern California, acquired nearly 5mn shares in =
+Bed Bath &amp; Beyond in July, according to regulatory filings, after disma=
+l earnings and the ousting of its chief executive sent its stock price plum=
+meting.</p><p style=3D"margin: 16px 0;">Freeman bought his stake at under $=
+5.50 a share. On Tuesday, Bed Bath &amp; Beyond surged to more than $27 a s=
+hare. As the stock soared, Freeman sold more than $130mn worth of stock fro=
+m his TD Ameritrade and Interactive Brokers accounts.</p><p style=3D"margin=
+: 16px 0;">Freeman=E2=80=99s sale was well-timed. Shares in Bed Bath &amp; =
+Beyond tumbled more than 20 per cent on Thursday after the investor and mem=
+e-stock champion Ryan Cohen disclosed on Wednesday evening that he intended=
+ to sell his entire stake of almost 12 per cent in the company.</p></blockq=
+uote><p style=3D"margin: 16px 0;">That=E2=80=99s from the Financial Times l=
+ast Thursday; here is a follow-up about how Freeman tried to give Bed Bath =
+&amp; Beyond Inc. some <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/28811558.259586/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjgzMTQ0YmQtODMwZS=
+00ZTFkLWE5YTEtYTFlZTFiYTYxZGFi/607f07ceef4b8524a319a23cB6d94b879" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ meme-y corporate finance advice</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">The novel solution he proposed for Bed Bath involved using the high =
+volatility in its stock price to offer bondholders a deal that would lighte=
+n its senior debt load from $1.2bn to $500mn. The plan hinged on the compan=
+y offering stock warrants and convertible notes to debt holders in exchange=
+ for reducing the company=E2=80=99s leverage. If the company repaired its b=
+alance sheet and the share price recovered, the warrants would go up in val=
+ue.</p></blockquote><p style=3D"margin: 16px 0;">Here=E2=80=99s his <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4NjE1OC8wMDAxOTM5MjEwMjIwMDAw=
+MDIvZXgucGRm/607f07ceef4b8524a319a23cB65c5fc42" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> July letter to the=
+ company</a> outlining the proposal. In one sense it=E2=80=99s a fairly str=
+aightforward distressed debt restructuring idea: If you=E2=80=99re a compan=
+y with bonds trading at 20 to 40 cents on the dollar,[2] then you can try t=
+o buy those bonds back for 30 to 50 cents=E2=80=99 worth of new bonds, givi=
+ng=C2=A0you=C2=A0less debt and your bondholders a nice profit. In another s=
+ense, it is a complicated way to say =E2=80=9Clook, you are a meme stock, w=
+hich means that investors want to YOLO your call options, so what you shoul=
+d do is create some call options and sell them to pay off your debt.=E2=80=
+=9D Warrants and convertibles are company-issued call options, and call opt=
+ions are the meme-iest way to trade meme stocks.</p><p style=3D"margin: 16p=
+x 0;">Really the corporate-finance advice that you=E2=80=99d=C2=A0<em>like=
+=C2=A0</em>to give to a meme-stock issuer is: Every Monday, if your stock i=
+s trading at $10, sell a bunch of warrants with a $20 strike price expiring=
+ on Friday, for say $1 each.=C2=A0If your stock doubles, you sold stock at =
+$20, which is a lot better than you expected. If, much more likely, your st=
+ock <em>doesn=E2=80=99t=C2=A0</em>double, then you=E2=80=99ve made a free $=
+1, every week. People want to overpay to gamble on your stock =E2=80=94=C2=
+=A0they are buying short-dated listed call options anyway =E2=80=94=C2=A0so=
+ you might as well let them overpay <em>you</em>. In practice this is trick=
+y: It=C2=A0seems weird to do=C2=A0<em>one-week=C2=A0</em>warrants, and anyw=
+ay a warrant isn=E2=80=99t quite the same thing as a weekly listed call opt=
+ion.=C2=A0(In fact warrants on meme-y stocks seem much=C2=A0<em>less=C2=A0<=
+/em>attractive to retail investors than the underlying stock.[3]) Still, th=
+e basic advice of =E2=80=9Cyou are a meme stock so you ought to be selling =
+options to gamblers=E2=80=9D feels correct.</p><p style=3D"margin: 16px 0;"=
+>Notice, though, that Bed Bath &amp; Beyond ignored his advice and the stoc=
+k soared for <a href=3D"https://link.mail.bloombergbusiness.com/click/28811=
+558.259586/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjgzMTQ0YmQtODMwZS00ZTFkLWE5=
+YTEtYTFlZTFiYTYxZGFi/607f07ceef4b8524a319a23cC6d94b879" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> purely mem=
+e reasons</a>:</p><blockquote><p style=3D"margin: 16px 0;">In August, Bed B=
+ath shares started soaring following renewed momentum on Reddit, where mode=
+rators of the WallStreetBets channel had lifted a ban on discussing the sto=
+ck. It catalysed a furious rally in Bed Bath shares that Freeman said caugh=
+t him off guard. =E2=80=9C[People] were really hyping it up on WallStreetBe=
+ts, which just led to more and more fear of missing out,=E2=80=9D he said.<=
+/p><p style=3D"margin: 16px 0;">At the start of last week, the shares climb=
+ed higher still after Ryan Cohen, the chair of GameStop and a meme stock fi=
+gurehead, filed documents with the SEC on Monday detailing a previous=C2=A0=
+purchase in February and March of a large number of call options in Bed Bat=
+h =E2=80=94 derivatives that can deliver a windfall if a stock rises in val=
+ue.</p></blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s not cleverly =
+harnessing meme-stock volatility to clean up the balance sheet. It=E2=80=99=
+s message boards and misreading<em>=C2=A0</em>the actions of =E2=80=9Ca mem=
+e stock figurehead.=E2=80=9D It=E2=80=99s mass psychology, not corporate fi=
+nance. In a sense, if you buy a big chunk of a meme stock and give the comp=
+any advice on how to do meme corporate finance, you are doing the right thi=
+ng. (Meme-stock activists =E2=80=9Ccan nudge companies to be dumber so thei=
+r stocks will go up,=E2=80=9D <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMTEtMDQvbWFjeS1zLXRhcmdldGVkLWJ5LW1lbWUtYWN0aXZpc3RzP2NtcG=
+lkPUJCRDA4MjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzb=
+GV0dGVyJnV0bV90ZXJtPTIyMDgyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8=
+524a319a23cB00b67154" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  I once wrote</a>.) In another sense, if you=
+ buy a meme stock and think about corporate finance at all, you are making =
+a mistake.</p><p style=3D"margin: 16px 0;">In other meme-stock news, I enti=
+rely missed <a href=3D"https://link.mail.bloombergbusiness.com/click/288115=
+58.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItM=
+DgtMDQvYW10ZC1kaWdpdGFsLXRoZS0yMDAtYmlsbGlvbi1idWJibGUtc3RvY2staXMtbm8tZ2Ft=
+ZXN0b3A_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB59589b35" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  the rise and fall of AMTD Digit=
+al Inc. this summer</a>, which I feel pretty good about. At its peak it was=
+ worth $470 billion, and not because of cash flows.</p><table class=3D"live=
+intent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0=
+">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD70010366" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE70010366" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFc654297a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGc654297a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">What=E2=80=99s Adam Neumann up to?</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">An important <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTAvbWF5YmUtZ2FtZXN0b3AtaXMtZ29vZC=
+1ub3c_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cB7317ef08" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  running</a> <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGFzLWEtdG91Z2gtZ3=
+JlZW4tYWN0aXZpc3Q_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB8b1e9a25" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  theme</a> of this col=
+umn is that one of the best things you can do for your financial career is =
+lose a billion dollars. This is not necessarily=C2=A0<em>actionable=C2=A0</=
+em>advice, for most people; it requires someone trusting you with a billion=
+ dollars to lose. But if you ever do find yourself in a position where you =
+can lose a billion dollars of someone else=E2=80=99s money, and you do it, =
+that could open up a lot of doors to you. Losing a billion dollars tends to=
+ be a high-profile affair;=C2=A0it will definitely get your name out there.=
+ People will be impressed that you were entrusted with a billion dollars, a=
+nd that you took a big swing and lost it. And they will assume that you lea=
+rned important lessons and, next time, won=E2=80=99t lose it.</p><p style=
+=3D"margin: 16px 0;">I doubt anyone has ever incinerated more venture-capit=
+alist money with <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+8811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MTktMTAtMjMvaG93LWRvLXlvdS1saWtlLXdlLW5vdz9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4Mj=
+ImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9fb7e550" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  more delirious joy</a> than WeWork Inc. founder Adam Neumann, so <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6=
+Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wOC8xNS9idXNpbmVzcy9kZWFsYm9vay9hZGFtLW5ldW1=
+hbm4tZmxvdy1uZXctY29tcGFueS13ZXdvcmstcmVhbC1lc3RhdGUuaHRtbA/607f07ceef4b852=
+4a319a23cB325639c2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> he gets to try again</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">Neumann=E2=80=99s new company Flow wants to trans=
+form the residential rental real estate market. Notably, it has the financi=
+al support of Andreessen Horowitz, the prominent Silicon Valley venture cap=
+ital firm that was an early investor in everything from Facebook to Airbnb.=
+ The backing of Andreessen Horowitz, considered royalty among early-stage i=
+nvestors, is a powerful sign of support, and perhaps a rebuke to Neumann=E2=
+=80=99s critics, who have described his leadership of WeWork as a cautionar=
+y tale of corporate hubris.</p><p style=3D"margin: 16px 0;">Andreessen Horo=
+witz is investing about $350 million in Flow, according to three people bri=
+efed on the deal. The investment, the largest individual check Andreessen H=
+orowitz has ever written in a round of funding to a company, values Flow at=
+ more than $1 billion before it even officially opens its doors.</p></block=
+quote><p style=3D"margin: 16px 0;">Here=E2=80=99s Marc Andreessen=E2=80=99s=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/a=
+HR0cHM6Ly9hMTZ6LmNvbS8yMDIyLzA4LzE1L2ludmVzdGluZy1pbi1mbG93Lw/607f07ceef4b8=
+524a319a23cBbc4e3c09" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> blog post about the investment</a>:</p><bloc=
+kquote><p style=3D"margin: 16px 0;">Adam is a visionary leader who revoluti=
+onized the second largest asset class in the world =E2=80=94 commercial rea=
+l estate =E2=80=94 by bringing community and brand to an industry in which =
+neither existed before. Adam, and the story of WeWork, have been exhaustive=
+ly chronicled, analyzed, and fictionalized =E2=80=93 sometimes accurately. =
+For all the energy put into covering the story, it=E2=80=99s often under ap=
+preciated that only one person has fundamentally redesigned the office expe=
+rience and led a paradigm-changing global company in the process: Adam Neum=
+ann. We understand how difficult it is to build something like this and we =
+love seeing repeat-founders build on past successes by growing from lessons=
+ learned. For Adam, the successes and lessons are plenty and we are excited=
+ to go on this journey with him and his colleagues building the future of l=
+iving.</p><p style=3D"margin: 16px 0;">We think it is natural that for his =
+first venture since WeWork, Adam returns to the theme of connecting people =
+through transforming their physical spaces and building communities where p=
+eople spend the most time: their homes. Residential real estate =E2=80=94 t=
+he world=E2=80=99s largest asset class =E2=80=94 is ready for exactly this =
+change.</p></blockquote><p style=3D"margin: 16px 0;">You can sort of model =
+the Andreessen Horowitz thesis as:</p><ol style=3D"list-style-type: decimal=
+; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;"=
+>=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558=
+.259586/aHR0cHM6Ly9hMTZ6LmNvbS8yMDExLzA4LzIwL3doeS1zb2Z0d2FyZS1pcy1lYXRpbmc=
+tdGhlLXdvcmxkLw/607f07ceef4b8524a319a23cB0d61a426" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Software is eati=
+ng the world</a>,=E2=80=9D in Andreessen=E2=80=99s famous phrase. Lots of t=
+raditional industries have been swallowed up by software companies.</li>=09=
+<li style=3D"margin-bottom: 5px;">Why shouldn=E2=80=99t residential real es=
+tate, =E2=80=9Cthe world=E2=80=99s largest asset class,=E2=80=9D also becom=
+e a software business, infinitely scalable with software-company margins?</=
+li></ol><p style=3D"margin: 16px 0;">And you can sort of model the Adam Neu=
+mann thesis as:</p><ol style=3D"list-style-type: decimal; padding-left: 40p=
+x; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Venture capitalist=
+s keep investing in my real estate companies at software-company multiples.=
+</li>=09<li style=3D"margin-bottom: 5px;">I=E2=80=99m gonna let them.</li><=
+/ol><p style=3D"margin: 16px 0;">Arguably what is most revolutionary about =
+WeWork is that it=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMTAtMjAvd2V3b3JrLXN0b2NrLXdlLXdpbGwtc29mdGJhbmstZXZlci1tYWtlLWl0cy0xN=
+y1iaWxsaW9uLWJhY2s_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cBbaddd536" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  extracted $17 billio=
+n of investments</a> from SoftBank Group Corp. and has a current market cap=
+italization of about $3.1 billion, while=C2=A0<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMjEvd2hhdC1pcy1hZGFtLW5ldW1hbm4tcy1uZXQtd2=
+9ydGgtd2V3b3JrLWZvdW5kZXItaGFzLTItMy1iaWxsaW9uLWZvcnR1bmU_Y21waWQ9QkJEMDgyM=
+jIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8=
+2b2d2fc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Neumann is a billionaire</a>. If you can do that trade, y=
+ou should, as often as possible.</p><table class=3D"liveintent-flex-ad" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH2355a20a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Anti-ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The problem is that =E2=80=9CESG=E2=80=
+=9D can be used to refer to several slightly different things[4]:</p><ol st=
+yle=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<l=
+i style=3D"margin-bottom: 5px;">An ESG investor might look at environmental=
+, social and governance factors to evaluate the financial prospects and ris=
+ks of an investment. If sea levels rise, this coastal-hotels business might=
+ be in trouble; if the world gets serious about combatting climate change a=
+nd so imposes restrictions on carbon emissions, this coal-mining business m=
+ight not be able to sell its coal. These are financial risks like any other=
+, and should inform investment decisions.</li>=09<li style=3D"margin-bottom=
+: 5px;">A big diversified investor that owns lots of shares of lots of comp=
+anies will spend most of her time thinking about systematic risks, because =
+she has diversified away idiosyncratic risk. Climate change or social uphea=
+val might be bad for all of her companies, so when she talks to the manager=
+s of her companies she will spend less time telling them how to optimize th=
+eir widget factories and more time asking them about global warming.</li>=
+=09<li style=3D"margin-bottom: 5px;">An investor who wants, not just to mak=
+e money for herself, but also to make the world better, might try to do tha=
+t through her investing. (By buying stocks of good companies and avoiding s=
+tocks of evil companies, or by buying stocks of evil companies and lobbying=
+ them to stop doing evil things, or something else.)</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">An asset manager who wants to make a lot of money might =
+change the name of the XYZ Large-Cap Fund to the XYZ ESG Fund, without maki=
+ng many other changes, because (1) lots of investors want ESG funds, (2) th=
+ey don=E2=80=99t particularly care about what is in those funds, and (3) yo=
+u can charge=C2=A0higher fees for=C2=A0ESG funds.</li></ol><p style=3D"marg=
+in: 16px 0;">For a long time, it was useful for big asset managers not to i=
+nsist too much on any distinctions between these things. If your clients va=
+guely assume that you are=C2=A0<em>both=C2=A0</em>maximizing their returns =
+by being thoughtful about systemic risks,=C2=A0<em>and=C2=A0</em>making the=
+ world better, then they will be happy to pay your fees.=C2=A0</p><p style=
+=3D"margin: 16px 0;">But these things=C2=A0<em>are=C2=A0</em>different, and=
+ in some tension. In particular, not everyone agrees on what will make the =
+world better, and ESG-investing-as-environmental-activism has become politi=
+cally controversial and might no longer be good advertising. But ESG-invest=
+ing-as-a-way-to-look-at-systematic-risks remains important. If you are a bi=
+g systematic investor and you genuinely think that no one will use coal in =
+10 years, then you probably won=E2=80=99t want to fund a coal mine. But you=
+=E2=80=99ll make that call quietly, because if <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cubnl0aW1lcy5jb2=
+0vMjAyMi8wNS8yNy9jbGltYXRlL3JlcHVibGljYW5zLWJsYWNrcm9jay1jbGltYXRlLmh0bWw/6=
+07f07ceef4b8524a319a23cB45df2b1d" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">some US politicians</a> find out =
+that you are <a href=3D"https://link.mail.bloombergbusiness.com/click/28811=
+558.259586/aHR0cHM6Ly93d3cucG9saXRpY28uY29tL25ld3MvMjAyMi8wNi8xNC9iYW5rcy1s=
+ZXR0ZXItd2VzdC12aXJnaW5pYS1ib3ljb3R0LWZvc3NpbC1mdWVscy0wMDAzOTI0Ng/607f07ce=
+ef4b8524a319a23cB17b254b0" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">=E2=80=9Cdiscriminating=E2=80=9D against=
+ coal</a>=C2=A0then you=E2=80=99ll get in trouble and lose business. The ES=
+G financial analysis=C2=A0makes sense, but the feel-good ESG marketing over=
+lay doesn't work the way it used to.</p><p style=3D"margin: 16px 0;">Anyway=
+ here=E2=80=99s a Bloomberg News article from last week about how ESG peopl=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDgtMTcvLWhhdGl=
+uZy1lc2ctYWR2b2NhdGVzLXJldGhpbmstbGFiZWwtYXMtdXMtY3VsdHVyZS13YXJzLWJpdGU_Y2=
+1waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cB4f5cdb92" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> don=E2=80=99t like to say =E2=80=9CESG=E2=
+=80=9D anymore</a>:</p><blockquote><p style=3D"margin: 16px 0;">A number of=
+ sustainable investing champions say it=E2=80=99s time for the =E2=80=9CESG=
+=E2=80=9D label to be shelved and replaced by something less likely to draw=
+ attacks from both the political right and left.</p><p style=3D"margin: 16p=
+x 0;">Robert Eccles, a professor who=E2=80=99s spent the past 12 years rese=
+arching sustainability at Harvard Business School and now University of Oxf=
+ord=E2=80=99s Said Business School, says the term =E2=80=9Cjust doesn=E2=80=
+=99t have value anymore. Let=E2=80=99s change the conversation.=E2=80=9D =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">Instead, he says he=E2=80=99s hap=
+py to talk about =E2=80=9Cmaterial risk factors.=E2=80=9D</p><p style=3D"ma=
+rgin: 16px 0;">=E2=80=9CI know it=E2=80=99s a boring term, but it=E2=80=99s=
+ accurate,=E2=80=9D he said. =E2=80=9CWe never have to say whether they=E2=
+=80=99re an E, S or G issue. We can say we=E2=80=99re talking about carbon =
+emissions or labor practices.=E2=80=9D</p></blockquote><p style=3D"margin: =
+16px 0;">I=E2=80=99ll probably still say =E2=80=9CESG,=E2=80=9D but I see w=
+here they=E2=80=99re coming from.</p><table class=3D"header" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Equifax insider trading</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In July 2017, credit reporting company=
+ Equifax Inc. was hacked, disclosing =E2=80=9Cpersonally identifiable infor=
+mation of millions of consumers.=E2=80=9D In September 2017, Equifax public=
+ly disclosed the hack, and its stock fell 14%. In between those events, Equ=
+ifax apparently went around telling lots of people about the hack without d=
+isclosing it publicly, and all of them insider traded? I mean, <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDktMDgvZGF0YS1icmVhY2hlc=
+y1hbmQtbGFzdC1sb29rcz9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MjImdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB529bab88" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  not really all of=
+ them</a>. But it is striking <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMTgtMDMtMTUvaXMtaW5zaWRlci1ndWVzc2luZy1pbGxlZ2FsP2NtcGlkPUJCRD=
+A4MjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIyMDgyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cBd7e460d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  how</a> many <a href=3D"https://link.mail.bloomberg=
+business.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTgtMDctMDEvZXF1aWZheC1oYWNrLXdhcy1mYXItZnJvbS1jb3ZlcnQ=
+_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cBcbde5f86" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> insider</a> trading cases came out of t=
+hat hack. One model here is that Equifax mobilized an unusual number of peo=
+ple to look into the hack, many of them were not seasoned financial profess=
+ionals, and so a lot of them insider traded in dumb obvious ways that got t=
+hem caught. Another model is that insider trading on a data breach is someh=
+ow more <em>offensive=C2=A0</em>than insider trading on, say, a merger, so =
+the Securities and Exchange Commission put more effort into catching inside=
+r traders=C2=A0than it usually does.</p><p style=3D"margin: 16px 0;">Anyway=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/a=
+HR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2xpdHJlbGVhc2VzLzIwMjIvbHIyNTQ3MC5o=
+dG0/607f07ceef4b8524a319a23cBbf649ada" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">here=E2=80=99s a good one fr=
+om last week</a>:</p><blockquote><p style=3D"margin: 16px 0;">The SEC's com=
+plaint, filed in the Northern District of Georgia, states that Equifax enga=
+ged a Chicago-based public relations firm in August 2017 to assist with han=
+dling the inquiries expected to be generated by the announcement of the int=
+rusion and breach. According to the complaint, Ann M. Dishinger, who worked=
+ as a finance manager at the public relations firm, learned about the Equif=
+ax breach through her position and tipped her significant other, Lawrence M=
+. Palmer (L. Palmer), with the nonpublic news. The SEC alleges that L. Palm=
+er then contacted a former business client and arranged for the client to p=
+urchase out-of-the-money Equifax put options in the client's brokerage acco=
+unt with the understanding that the client and L. Palmer would split any tr=
+ading profits obtained.</p></blockquote><p style=3D"margin: 16px 0;">The gu=
+y was the romantic partner of finance manager at a public relations firm hi=
+red by Equifax=E2=80=99s outside counsel, which is pretty far removed from =
+the source of the information; if he knew about the hack and traded on it, =
+think about how many other people did. And Palmer was allegedly unsophistic=
+ated enough <a href=3D"https://link.mail.bloombergbusiness.com/click/288115=
+58.259586/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMi9jb=
+21wMjU0NzAucGRm/607f07ceef4b8524a319a23cB88521b56" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> that he had to<=
+/a> ask =E2=80=9Ca former business associate=E2=80=9D of his =E2=80=9Cfor a=
+dvice on how to purchase options that would take advantage of what he thoug=
+ht would be bad news for the company.=E2=80=9D The associate recommended pu=
+t options and apparently gave Palmer a brief options tutorial, and then Pal=
+mer allegedly =E2=80=9Casked his former business associate to purchase $1,0=
+00 in Equifax put options in his brokerage account, claiming that he himsel=
+f did not have a brokerage account and suggesting that the circumstances we=
+re so urgent that he did not have time to open his own account.=E2=80=9D</p=
+><p style=3D"margin: 16px 0;">The associate bought the options, and then th=
+is allegedly happened:</p><blockquote><p style=3D"margin: 16px 0;">L. Palme=
+r later reimbursed his former business associate for $1,000 of the funds us=
+ed to purchase the put options. In the memo section of the check, L. Palmer=
+ wrote the words =E2=80=9CBlue Horseshoe.=E2=80=9D</p><p style=3D"margin: 1=
+6px 0;">=E2=80=9CBlue Horseshoe=E2=80=9D was an apparent reference to Micha=
+el Douglas=E2=80=99s instruction to Charlie Sheen in the 1987 movie=C2=A0<e=
+m>Wall Street=C2=A0</em>to use a coded message to convey inside information=
+, namely, =E2=80=9C[y]ou tell the man that Blue Horseshoe loves Anacott Ste=
+el.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">What!? I promise,=
+ the SEC has seen =E2=80=9CWall Street.=E2=80=9D You=E2=80=99d be better of=
+f writing =E2=80=9Cillegal insider trading=E2=80=9D in the memo section of =
+the check. <a href=3D"https://link.mail.bloombergbusiness.com/click/2881155=
+8.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMD=
+EtMDQvZG9uLXQtY2FsbC1icmliZXMtY2hpY2tlbnM_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIy=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5310c582" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  My assumption</a> is that everyone who uses codewords to commit crimes i=
+s doing so because it=C2=A0feels cool, not because they want to conceal the=
+ir crimes.=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I have been away from this column for =
+about a month, and my last columns in July were more or less entirely about=
+ Elon Musk=E2=80=99s fight to walk away from his deal to buy Twitter Inc. I=
+ have to say that I don=E2=80=99t feel like I=E2=80=99ve missed much? Since=
+ my <a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.25958=
+6/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTgvZ=
+Wxvbi13YW50cy10by1maWdodC10aGUtYm90cz9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MjImdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB51bdef68" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  l=
+ast column</a>, Musk filed his <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28811558.259586/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdX=
+NlcnMvaXFqV0hCRmRmeElVL3JKUDV1VGpGbnAxRS92MA/607f07ceef4b8524a319a23cBa931d=
+579" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> answer and counterclaims</a> to Twitter=E2=80=99s lawsuit, bu=
+t there=E2=80=99s nothing really new there. Musk=E2=80=99s defense is still=
+ that (1) Twitter promised him that fewer than 5% of its monetizable daily =
+active users are bots and (2) Twitter is conducting a massive long-running =
+fraud, it has many fewer users than it claims, and its executives have cons=
+pired to deceive investors and advertisers and cover up its lack of real us=
+ers. Point (1) is just false =E2=80=94=C2=A0the merger agreement is public =
+and you can read it, and Musk never negotiated at all for any information a=
+bout bots=C2=A0=E2=80=94=C2=A0and Point (2) is a=C2=A0weird conspiracy theo=
+ry with absolutely no evidence for it. But I have said all of this before a=
+nd nothing has changed. The trial <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDctMjkvbXVzay10d2l0dGVyLXRyaWFsLXdpbGwtc3RhcnQtb2N0LTE3LW=
+RlbGF3YXJlLWp1ZGdlLXJ1bGVzP2NtcGlkPUJCRDA4MjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgyMiZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2f34833e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  starts on O=
+ctober 17</a> and I guess I=E2=80=99ll see you then in Delaware?</p><p styl=
+e=3D"margin: 16px 0;">Meanwhile Musk continues to get up to stuff. When he =
+tried to get out of the Twitter deal, <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjItMDctMDkvZWxvbi1zLW91dD9jbXBpZD1CQkQwODIyMjJfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+jA4MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB333ede40" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  I wrote</a>:</p><blockquote><p style=3D"margin: 16px 0;">Elon Musk=
+ is the richest person in the world, and, like many other rich people, he h=
+as some unusual and expensive hobbies. One of his hobbies is that he someti=
+mes likes to pretend that he will acquire public companies.=C2=A0He seems t=
+o find this fun, and why not? When he pretends that he=E2=80=99ll buy a pub=
+lic company, it creates a big drama with him at the center of it. He gets t=
+o boss people around, mobilize legions of bankers and lawyers and financing=
+ sources and random hangers-on hoping to get the deal done, and then when h=
+e gets bored he can tell all those people to go home. =E2=80=9CHaha got you=
+,=E2=80=9D he can say, and they can all have a good laugh, or he can anyway=
+.</p></blockquote><p style=3D"margin: 16px 0;">It is a=C2=A0<em>weird </em>=
+hobby, isn=E2=80=99t it? These dramas always seem to end unpleasantly for h=
+im: When he pretended he was going to buy Tesla Inc., he ended up paying a =
+multimillion-dollar fraud settlement to the SEC and having restrictions put=
+ on his Twitter use, which he then ignored. When he pretended he was going =
+to buy Twitter, he got, uh, sued for $44 billion is I guess what is going o=
+n now. From the outside, this all seems bad, and you might expect him to sa=
+y =E2=80=9Cyou know what, it isn=E2=80=99t worth it, I am going to stop pre=
+tending to buy companies.=E2=80=9D But, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjItMDgtMTcvZWxvbi1tdXNrLXR3ZWV0cy10aGF0LWhlLXMtYnV5aW5n=
+LW1hbmNoZXN0ZXItdW5pdGVkP2NtcGlkPUJCRDA4MjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgyMiZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe5af384f" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  no</a>:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Elon Musk joked on Twitter about buy=
+ing Manchester United Plc, letting 4 1/2 hours go by before clarifying he w=
+as kidding about purchasing the English football club listed on the New Yor=
+k Stock Exchange.</p><p style=3D"margin: 16px 0;">The world=E2=80=99s riche=
+st person sent his initial missive about the storied club in a reply to an =
+earlier post about his political allegiances. When a Tesla Inc. fan account=
+ asked whether Musk was serious, he replied no, he isn=E2=80=99t buying any=
+ sports teams. =E2=80=A6</p><p style=3D"margin: 16px 0;">Musk=E2=80=99s Man=
+chester United tweets could attract fresh regulatory attention, since the c=
+lub has traded on the NYSE since 2012.</p></blockquote><p style=3D"margin: =
+16px 0;">He cannot stop himself from pretending to buy public companies! Wh=
+at if he ever wants to actually buy a company? At this point, if you run a =
+company, and Elon Musk shows up with an offer to buy your company, there=E2=
+=80=99s like an 80% chance that he=E2=80=99s kidding.=C2=A0<em>Even=C2=A0if=
+ he has bankers and lawyers and fully committed financing and a signed merg=
+er agreement</em>, he=E2=80=99s probably kidding. I assume that there is so=
+me sort of business-genius negotiation strategy here that I am missing, and=
+ that when he actually does want to buy a company the board will be so terr=
+ified by his maniacal track record that they=E2=80=99ll just say =E2=80=9Cf=
+ine, take it, it=E2=80=99s free, just let us leave quietly.=E2=80=9D[5]</p>=
+<p style=3D"margin: 16px 0;">Elsewhere, =E2=80=9CTesla has had <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDgtMTcvdGVzbGEtbGVnYWwtY2hpZ=
+WYtd2hvLWxlZC1wdXJjaGFzaW5nLXByb2JlLWhhcy1sZWZ0LWF1dG9tYWtlcj9jbXBpZD1CQkQw=
+ODIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjA4MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBcb1f5dd6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  at least four top lawyers</a> since its last full-ti=
+me general counsel Jonathan Chang departed in December 2019,=E2=80=9D no ki=
+dding.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">What is Martin Shkreli up to?</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The purest form of meme-stock investin=
+g has been enabled by cryptocurrency. In the olden days, before he went to =
+prison, if you wanted to invest in =E2=80=9Chey, Martin Shkreli does funny =
+stuff, I like that, let me put $100 into that,=E2=80=9D you=E2=80=99d have =
+to buy shares in his biotech company. And that stock would go up and down p=
+artly based on Martin Shkreli=E2=80=99s ability to attract attention to him=
+self but also partly based on, you know, its actual business results. But n=
+ow Shkreli is <a href=3D"https://link.mail.bloombergbusiness.com/click/2881=
+1558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDI=
+tMjQvLXBoYXJtYS1icm8tc2hrcmVsaS1iYW5uZWQtZm9yLWxpZmUtZnJvbS1wdWJsaWMtY29tcG=
+FueS1yb2xlcz9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB90d9e496" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  banned from running public=
+ companies</a>. Instead, he has =E2=80=9CDruglike, a Web3 drug discovery so=
+ftware platform,=E2=80=9D=C2=A0with a token called =E2=80=9CMartin Shkreli =
+Inu,=E2=80=9D and if you want to invest in his general attention-seeking ab=
+ility that seems like a good pure play. <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjItMDItMjQvLXBoYXJtYS1icm8tc2hrcmVsaS1iYW5uZWQtZm9yLWxp=
+ZmUtZnJvbS1wdWJsaWMtY29tcGFueS1yb2xlcz9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MjImdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC90d9e496" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Though of course</a>:</p><blockquote><p style=3D"margin: 16px 0;">Martin =
+Shkreli Inu, a token worth fractions of a penny that was launched by the no=
+torious =E2=80=9CPharma Bro=E2=80=9D last month, plunged more than 90% at o=
+ne point [August 12], Binance data shows. The drop came after an unidentifi=
+ed wallet that appears to belong to Shkreli sold a massive stake in the coi=
+n.=C2=A0</p><p style=3D"margin: 16px 0;">Asked about the plunge on the soci=
+al media site Discord, an account believed to be run by Shrkeli responded: =
+=E2=80=9CI got hacked.=E2=80=9D A representative for Shkreli declined to co=
+mment.</p><p style=3D"margin: 16px 0;">A series of blockchain transactions =
+show a crypto wallet account named 0xshkreli.eth transfer more than 160 bil=
+lion tokens to an unidentified wallet early Friday, according to Etherscan,=
+ which tracks blockchain transactions.</p></blockquote><p style=3D"margin: =
+16px 0;">Yeah I mean if you bought Martin Shkreli Inu tokens and Martin Shk=
+reli rug-pulled you (or,=C2=A0even better, if he <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93ZWIzaXNnb2luZ2dy=
+ZWF0LmNvbS8_aWQ9bWFydGluLXNoa3JlbGktZHVtcHMtaGlzLXByb2plY3RzLXRva2VuLWluLWh=
+hY2s/607f07ceef4b8524a319a23cB7b65df90" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> got hacked while trying to=
+ download porn</a>, as he is apparently claiming,=C2=A0and the hacker rug-p=
+ulled you), that seems about right. Crypto has created a way to tokenize an=
+d trade the aesthetic experience of getting scammed by Martin Shkreli, and =
+the people who bought it got exactly what they paid for.</p><table class=3D=
+"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Credit Suisse Investment Bankers Are B=
+racing for <a href=3D"https://link.mail.bloombergbusiness.com/click/2881155=
+8.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDgtMj=
+EvY3JlZGl0LXN1aXNzZS1pbnZlc3RtZW50LWJhbmtlcnMtYnJhY2UtZm9yLWpvYi1jdXRzLXBvc=
+3NpYmxlLWRpdmlzaW9uLXNodXRkb3duP2NtcGlkPUJCRDA4MjIyMl9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgyMiZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB78de405c" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  Brutal=
+ Cutbacks</a>. Warren Buffett Not Expected to Bid for Control of <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9hcnRpY2xlcy93YXJyZW4tYnVmZmV0dC1ub3QtZXhwZWN0ZWQtdG8tYmlkLWZ=
+vci1jb250cm9sLW9mLW9jY2lkZW50YWwtZm9sbG93aW5nLXN0YWtlLWJvb3N0LTExNjYxMDk5OT=
+I0P21vZD1ocF9sZWFkX3BvczQ/607f07ceef4b8524a319a23cB57ea829e" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Occid=
+ental</a> Following Approval for Bigger Stake. What Ethereum=E2=80=99s Big =
+=E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.=
+259586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93aGF0LWV0aGVyZXVtcy1iaWctbWVy=
+Z2UtbWVhbnMtaW4tY3J5cHRvLWxhbmQtMTE2NjA5NTgzNTE_bW9kPWl0cF93c2omcnU9eWFob28=
+/607f07ceef4b8524a319a23cB712ef4de" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Merge</a>=E2=80=99 Means in Cry=
+pto Land. Citi Fined =C2=A313 Million Over <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjItMDgtMTkvY2l0aS1maW5lZC0xMi02LW1pbGxpb24tYnktdWstZ=
+m9yLXRyYWRpbmctc3VydmVpbGxhbmNlLWZhaWxpbmdzP2NtcGlkPUJCRDA4MjIyMl9NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDg=
+yMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf2fe4b3a" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Struggles to Monitor</a> UK Trades.=C2=A0Seized <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDgtMjEvc2VpemVkLXJ1c3NpYW4tc3VwZXJ5YW=
+NodC10by1iZS1hdWN0aW9uZWQtdG8tcGF5LWpwbW9yZ2FuLWxvYW4_Y21waWQ9QkJEMDgyMjIyX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB61a5c=
+a79" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Superyacht</a> to Be Auctioned to Pay JPMorgan Loan.What Can=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/a=
+HR0cHM6Ly93d3cuZ3J1YnN0cmVldC5jb20vMjAyMi8wOC9jaG9pcmUtc2ljaGEtZmFuY3ktZmVh=
+c3QtcmVzdGF1cmFudC5odG1sPyZ1dG1fc291cmNlPWZiJnV0bV9tZWRpdW09c29jaWFsX3BhaWQ=
+mdXRtX2NhbXBhaWduPWNvbnRlbnRfbWlkJnV0bV9jb250ZW50PTFQX3NpdGV2aXNpdG9ycyZ1dG=
+1fdGVybT1mYW5jeWZlYXN0cmVzdGF1cmFudF82Mjk1NzU2NDE4NDA3JmZiY2xpZD1Jd0FSMjNHR=
+2RZdXpGRkpDWEJKSHhlaGJnSjNDLWpVV1M0cDFUV3RXcXdkcW9xMjJ0SW1MdHc5ZjBZalhNX2Fl=
+bV9BWF85d0IyUERiclR5X0xSTVhIeWtRb2t3MlFUems2V0p2c0JEa09OTU1rZW0zZUotM3p0TE0=
+5RFlqSE1LV2xWbmxqWjVzaUUtUFhlcTUtaU51VEtqZXhvS1pqdU05eVY5Wjl1YkdyU0Z2S21OMm=
+FnQlVvTkNxQWR1N2pHbl8weFJhRQ/607f07ceef4b8524a319a23cB65b7f00f" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Fa=
+ncy Feast=E2=80=99s New Restaurant</a> Teach Us About Ourselves?</p><p styl=
+e=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>=
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28811558.259586/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb2=
+0vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5Y=
+zI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB00fc40c0" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuff a=
+nd other great Bloomberg newsletters <a href=3D"https://link.mail.bloomberg=
+business.com/click/28811558.259586/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25l=
+d3NsZXR0ZXJz/607f07ceef4b8524a319a23cB6e5b3b2a" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><p s=
+tyle=3D"margin: 16px 0;"><em>[1] Again, this history is wrong and I am kidd=
+ing. Graham is the =E2=80=9Cfather of value investing,=E2=80=9D and Securit=
+y Analysis was published in 1934, but <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28811558.259586/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2k=
+vVmFsdWF0aW9uX3VzaW5nX2Rpc2NvdW50ZWRfY2FzaF9mbG93cw/607f07ceef4b8524a319a23=
+cBb1c903ba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Wikipedia tells me</a> that DCF valuation was populariz=
+ed by John Burr Williams in 1938, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28811558.259586/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSm9=
+obl9CdXJyX1dpbGxpYW1zI1RoZW9yeQ/607f07ceef4b8524a319a23cBe52f3d57" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+and was</a> an explicit rejection of the Keynesian =E2=80=9Ccasino=E2=80=9D=
+ view.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[2] Per Freeman=E2=80=
+=99s letter in July, though Bloomberg shows me similar numbers =E2=80=94=C2=
+=A0call it 18 to 38 cents on the dollar for the three series of bonds =E2=
+=80=94=C2=A0today.</em></p><p style=3D"margin: 16px 0;"><em>[3] We=E2=80=99=
+ve talked about this in connection with <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjAtMDctMjEvcGVvcGxlLWxvdmVkLW5pa29sYS1idXQtbm90LWl0=
+cy13YXJyYW50cz9jbXBpZD1CQkQwODIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MjImdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmY/607f07ceef4b8524a319a23cB4fa2dc24" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Nikola Corp.</a> and <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTMvdGhlLXR=
+ydW1wLXNwYWMtcGlwZS1pcy1mcmVlLW1vbmV5P2NtcGlkPUJCRDA4MjIyMl9NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgyMiZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB789cc23b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Digital World Acquisition Corp.</a>, both companies whose stocks soared on=
+ retail enthusiasm but whose warrants traded at much lower implied prices.<=
+/em></p><p style=3D"margin: 16px 0;"><em>[4] There is a significant conting=
+ent of ESG purists who think that only the first category of what I describ=
+e here is =E2=80=9Creally ESG,=E2=80=9D and the rest is something else (=E2=
+=80=9Csocially responsible investing,=E2=80=9D etc.). Here I acknowledge th=
+at these purists exist and will email me to complain. But lots of people us=
+e =E2=80=9CESG=E2=80=9D pretty loosely, and so will I.</em></p><p style=3D"=
+margin: 16px 0;"><em>[5] Arguably that kind=C2=A0of <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/28811558.259586/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMDIvdHdpdHRlci1zLWJvYXJkLWdhdmUt=
+dXA_Y21waWQ9QkJEMDgyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB512660b4" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> happened with Twitter</a>?</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB7d7bb54e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa32f6d5b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB616e5bea" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB68b5a476" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODgxMTU1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkwNzExNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI2426cf97" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28811558&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBc1c3d744" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28811558.259586/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC850254c2" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28811558.259586/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc99703a4" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28811558.259586/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5860dc27" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+02e2da1" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28811558.259586/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+4697c1d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D288115=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D288115=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D288115=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D288115=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D288115=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29071144&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ch5j52.5kaq/2d82bb8b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_32822_599602215.1661192630650--
+

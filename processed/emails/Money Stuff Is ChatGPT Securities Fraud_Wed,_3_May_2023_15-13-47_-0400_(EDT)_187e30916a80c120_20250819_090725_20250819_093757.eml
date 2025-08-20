@@ -1,0 +1,2092 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp469189rwb;
+        Wed, 3 May 2023 12:13:56 -0700 (PDT)
+X-Received: by 2002:adf:dbc3:0:b0:2ef:ba4f:c821 with SMTP id e3-20020adfdbc3000000b002efba4fc821mr820107wrj.36.1683141236439;
+        Wed, 03 May 2023 12:13:56 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1683141236; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jr80+xpDiVOJhKtU7tiKklUnzGSSrsupLSsMYkZValVZx8jpjEdfneqnMY98K0/8gK
+         WZZBNWEESITjCLbv7uCuT+tj+FLWh3il2wDeI5MFsgH5/nJSahgQlDblx8ejYl/875g/
+         WfV6Kw/2w3dLXKW5/EtD8IvlOFKnVrUTdN7wALfWu73QypAKV7Z0TOmFv+yrMPnAIlKV
+         gWOgTRgxPBCcg7cvvM0R4NOMMv11iQ2aXIL12X/LA0udhsQAQgjhBqn0I8vtRg0n8qa7
+         ZgLZuA9RvLTFmU6oKr3CpKkklaefZl+Y8Q8q8CFX90fJ428mKCH37+PVYzYTUidFS6b5
+         dp8g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=qDV/Ff40Q5dBf8pQRGG33UwJfhNvT24ZNnSDBc/n0cQ=;
+        b=EbtI5+q2c775N6fPd67XokcF21qZwPY+RxRhZvNeBfJLzOOc9G61zHWSFB2mjBJQSV
+         Hn+eeIIXUVZtKYkSMD5lJsWOEfxapQqi08FKvFH5EFsJFcwMuSyRX6sQefAR7l1umQLW
+         5r0e+CYhkmfFnM3sTdcV4I+oqjPcLg6sRimM2Omzl/TNZSMhm3+6OkZ6oLKDfUF+wT2A
+         FdmArJj9v5tqbIVEYw2KO4lsI7mW7tWWEQ+xlf5xhQhgkKVqXPGK48/LhF+W9+pNImMy
+         wlvpPKjy4weVm8GRufS3u0pMvj3vGufb2PrMg3n/AxCDGKmgvETWWI5g5n3og6fcRQic
+         kLYg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g6nRa9iY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id az8-20020adfe188000000b00306288d0138sor284139wrb.1.2023.05.03.12.13.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 03 May 2023 12:13:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g6nRa9iY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683141236; x=1685733236;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=qDV/Ff40Q5dBf8pQRGG33UwJfhNvT24ZNnSDBc/n0cQ=;
+        b=NpAYWjoHsd3t3p4DIj89fLSxz57EtpcNVlY6z/HLvPDaQFaXTZvWcQMVtRHNvMrrnk
+         AKZSTM7KJqkwPUdetH+Lu5419S71g4mcMit7wB4vOquD2mGfWbRWxgairRP/gySin+Ov
+         TDXdfcL8BTsWAaiOKDddX45vf64l/VD0qSXA7a6eILy409vD/Nh5wAK0zaM6uVwlNEk5
+         0cRPPXGVDxDva2Y4vHWcRXlwgIGze9SSqlOJoM9oq4skFlzUcs+tO1CNtDE8mZLf0VG4
+         iz2th/rQjkH6AG31IFAzlEdZbCjwplp3YQQ5wPxK4zd31H8uKnKe9/U6fFJ4Ia63OSnK
+         Sbhw==
+X-Gm-Message-State: AC+VfDwIme39TtT3KJRhYTQfEA8XSsIKUhzV19q8jkONPPsYvoAJ0qpQ
+	YgnG4KYavJgJJDinZvhzJEumsnl+TdPZwVAvDZB91yIXyFoiaKmLgA==
+X-Received: by 2002:a05:6000:92:b0:306:2dd0:bb9c with SMTP id m18-20020a056000009200b003062dd0bb9cmr190163wrx.13.1683141235995;
+        Wed, 03 May 2023 12:13:55 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ee03:0:0:0:0:0 with SMTP id y3csp1247465wrn;
+        Wed, 3 May 2023 12:13:53 -0700 (PDT)
+X-Received: by 2002:ac2:5dd2:0:b0:4f1:3e3a:1904 with SMTP id x18-20020ac25dd2000000b004f13e3a1904mr412810lfq.55.1683141232739;
+        Wed, 03 May 2023 12:13:52 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1683141232; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZHY3SmLmcdlR217R2zmftCnXKO0aWk/Zv05S6T+usRWTM5FNj3m6RsOTXkPd6YBMSV
+         kpQzJOquw2iKMuJISTkkbUxgY+buIjIoh3ir50K+OdbHFPkudLwsKAtMFFtHeFR0ZlEx
+         xfOAF1Wln9syQpI7qFYFYfBg95oDt7ggKiUyKJ+taUfNeIXYUnNunVNmhi24L2blPmkr
+         oXf6+sJgm9pwUrqvm5o8NSKdCYTbOlKEYTpYKSvIZNN+NRxAfvYvn/+1ETLpPBwzZe1Z
+         PxrNlIx/a/TV/aDSTcSzHid+/q1NJzb4XIz2PNLDMTKWtzzdd4O+K5xfBf/xvlyemGLG
+         B9rQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=qDV/Ff40Q5dBf8pQRGG33UwJfhNvT24ZNnSDBc/n0cQ=;
+        b=c3PTaMlUbMQHHSy7ePUPlqvZpbcrKttbUFrzVos/VaihbMT4uu7y0Y29L+yOD0w156
+         +bSCbue8y0715YY3vocyZUyKJV1sf5LSWX9Eu0WaGPfZzBE0PscDRFS5k/Qaw50bRWOl
+         mjRPMTSlmGAMgt/XtUr335e8SadRWPyUzXEDb4ruyOZPh0chAl9/117vnPmgzYnJka2p
+         rcPEdr5q3G8394HuI8XP51HxfSttO5CggFfFC/iEE1KnGa0tVXvk0J5BL9FQI/7RD+mX
+         mNiU/c66cwVxJwrhbSbyx8mwIg0GkMBrPjVAGuxS3kRnT8C4wFqsoQ4QiokFkvEycjaj
+         2WEA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g6nRa9iY;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230503151347.31366713.261431@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230503151347.31366713.261431@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230503151347.31366713.261431@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p9-20020ac24ec9000000b004eb5134c21bsor661932lfr.20.2023.05.03.12.13.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 03 May 2023 12:13:52 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230503151347.31366713.261431@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ4V+zbwqTOfkjprwJ+jgJsB21WgMIQ/XSNadwpmEe4nAZx/siQXWFG0auwSbQZVfLZJSLUmGXws27DVTrd2RJ0kHgSBR1s=
+X-Received: by 2002:a19:ee0c:0:b0:4dd:9a38:fcc with SMTP id g12-20020a19ee0c000000b004dd9a380fccmr1275663lfb.63.1683141232417;
+        Wed, 03 May 2023 12:13:52 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1683141232; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vgZd9Tdr8gpmXh9iXcZmW6qdS5nhl1AKOZ1A7hmo68RUgtyvYTu62H8lPQkQtwSlwI
+         FEDl7m8+mGBfTcisSSBuD/gwjOdVlyusLIQ6ncu+ZIzpzo8hGSPPb21BhORKm3DVI/iw
+         MxnQJBAppa6paHQCCbsWMWEtKVZNquGoGn/rOLC2tdx/bWNkO+BE8FTOJf5oKQ5oe5Xx
+         IPvTNr5xdkzMqPI8X59adpoiL+DXe36MWXSsJ1UMINBw6NOBQGexXlhcHJzTN9ww+e6p
+         Z+MNDopffotYY4X5gmogzcGYvaxhgpdrc6cwA6e61MTOOR7Ap0t9xZoFTQSjB4rcRWe/
+         ToYA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=qDV/Ff40Q5dBf8pQRGG33UwJfhNvT24ZNnSDBc/n0cQ=;
+        b=SeI9OS9LDInZU9RJk9lZB0T8J49L8MOcI2tVphF7GfdMeyJb3CaraT+ZJZT47RysOR
+         f9HWYlGwZjD4vKInR4BcYe4R3cAdmYFDBHWjTyhZ0RLeYNTeW6TzWdUaUBCH+/3jYJW3
+         CZxI2Zdu30IVoxN5TCWpTDQ9ndRxaNXDc2YGn6Zbcn5YYYL1INGiNB+h2/wcBc/uC3DG
+         jyXiZ2ekQif+7w8Q30WYSPbtbGIw+aBQFq6iPCn7ZJ4qDh0Ej85LIWO7W7HnhLSCHVBm
+         2jq4yzSVuNb5PkwEtYkLjcwGXSPI+2KpOMAEMGqKfDYi0Np42wLysdeXl9ajPPLoXZ9s
+         DYDg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g6nRa9iY;
+       spf=pass (google.com: domain of delivery_20230503151347.31366713.261431@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230503151347.31366713.261431@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230503151347.31366713.261431@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id g33-20020a0565123ba100b004efe97e3546si1924231lfv.10.2023.05.03.12.13.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 03 May 2023 12:13:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230503151347.31366713.261431@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=3WHE0LOmBmWEvWYP9y86o+YvO+AlZiGn2BEsrMJsq6s=;
+ b=g6nRa9iY97PixHo2gyRy/7Nv/ECnyH0DgvU1X6XQlmPmw+4ms54PpdAoesjOuvqQtM+wQ2Glrmio
+   mRd8x4uSwIUDN6DfJoeObNn1idgJv7iSWeOekn/Ralnr+Xfb+1Uxkd7NZmVAgoJCe3iC2pVND3Dq
+   TPBKnJtgPgs3k93sCv0=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id haap6s30nu8g for <bloomberg@khamel.com>; Wed, 3 May 2023 15:13:50 -0400 (envelope-from <delivery_20230503151347.31366713.261431@mx.sailthru.com>)
+Received: from nj1-hotpine.flt (172.18.20.40) by njmta-90.sailthru.com id haap6s1qqbs4 for <bloomberg@khamel.com>; Wed, 3 May 2023 15:13:47 -0400 (envelope-from <delivery_20230503151347.31366713.261431@mx.sailthru.com>)
+Date: Wed, 3 May 2023 15:13:47 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230503151347.31366713.261431@sailthru.com>
+Subject: Money Stuff: Is ChatGPT Securities Fraud?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_851157_1854302691.1683141227766"
+Precedence: bulk
+X-Feedback-ID: 6358:31366713:campaign:sailthru
+X-TM-ID: 20230503151347.31366713.261431
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotpine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cioapl.5lpz/6cb72667
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cioapl.5lpz/6cb72667>, <mailto:unsubscribe_20230503151347.31366713.261431@mx.sailthru.com>
+X-rpcampaign: stjko31366713
+
+------=_Part_851157_1854302691.1683141227766
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I suppose we will end up finding a number of answers to that questi=
+on. Will some ChatGPT-style large language model manage to do some inside
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Is ChatGPT securities fraud?
+   =20
+ =20
+
+I suppose we will end up finding a number of answers to that question. Will=
+ some ChatGPT-style large language model manage to do some insider trading?=
+ Will it, like, ingest some corpus of data that includes inside information=
+, and then use it to answer questions like =E2=80=9Cwhich stocks should I b=
+uy?=E2=80=9D Will some big company=E2=80=99s corporate development departme=
+nt use the model to answer questions like =E2=80=9Cshould we buy Company X =
+and what price should we pay for it,=E2=80=9D and will the developers of th=
+e model use that information nefariously? Will the model itself become sent=
+ient, get a Robinhood account and use that information nefariously? Etc.
+Or I mean will someone ask ChatGPT a question like =E2=80=9Cwhat companies =
+are frauds,=E2=80=9D and ChatGPT will cheerfully and confidently say =E2=80=
+=9Coh Company Y is a total fraud, their revenues are super inflated,=E2=80=
+=9D and then people will short the stock, and then it will turn out that Co=
+mpany Y is fine and ChatGPT is just really good at confidently making stuff=
+ up? Is that securities fraud? By whom? (Or: Ask =E2=80=9Cwhat stocks are g=
+ood,=E2=80=9D ChatGPT says =E2=80=9CCompany Z is great, they have found a c=
+ure for cancer and their revenue will double,=E2=80=9D people buy the stock=
+, it was all made up.) Will sell-side analysts or journalists use ChatGPT t=
+o do their work, and will ChatGPT introduce market-moving factual mistakes?=
+=C2=A0
+Lots of fun possibilities. But the most immediate way in which ChatGPT is g=
+oing to be securities fraud is the usual =E2=80=9Ceverything is securities =
+fraud=E2=80=9D way:
+=09ChatGPT is going to be disruptive to some number of businesses and indus=
+tries.=09Some companies will lose money because ChatGPT disrupts their busi=
+ness.=09This will be bad, for them, and their stocks will drop.=09Every bad=
+ thing that happens to a public company can be characterized as securities =
+fraud: =E2=80=9CYou didn=E2=80=99t sufficiently warn us about the bad thing=
+, so we bought the stock thinking it was good, but then the bad thing happe=
+ned and the stock dropped, so we were defrauded.=E2=80=9D
+
+ChatGPT risk factors are  starting to be included in securities=C2=A0offeri=
+ng documents, and the   risks are starting to be realized:
+
+Chegg Inc. plummeted 42% after warning that the ChatGPT tool is threatening=
+ growth of its homework-help services, one of the most notable market react=
+ions yet to signs that generative AI is upending industries.
+The company, which offers online guidance for students taking tests and wri=
+ting essays, also gave revenue and profit forecasts for the current quarter=
+ that fell well short of analysts=E2=80=99 estimates. Chegg makes much of i=
+ts money from subscriptions, which start at $15.95 a month, a revenue sourc=
+e that=E2=80=99s in peril if students see AI chatbots as an alternative to =
+paying.
+The impact of ChatGPT, an OpenAI tool that surged in popularity last year, =
+began to be felt this spring, Chief Executive Officer Dan Rosensweig said i=
+n prepared remarks accompanying Chegg=E2=80=99s first-quarter earnings Mond=
+ay.
+
+And I tell you what, when I see that a public company has=C2=A0announced ba=
+d news and its stock dropped, I look for the lawsuits. We are early yet =E2=
+=80=94=C2=A0the stock dropped=C2=A0yesterday=C2=A0=E2=80=94=C2=A0but lawyer=
+s move fast; I have not yet seen any lawsuits filed, but at least  two law =
+ firms have announced =E2=80=9Cinvestigations=E2=80=9D of Chegg and are loo=
+king for clients.
+At this point the lawsuits seem a bit far-fetched: =E2=80=9CYou should have=
+ warned us months ago that artificial intelligence would hurt your business=
+=E2=80=9D is unfair given how quickly ChatGPT has exploded from nowhere to =
+become a cultural and business phenomenon. But now everyone is on notice! I=
+f you are not warning your shareholders now=C2=A0about how AI could hurt yo=
+ur business, and then it does hurt your business, you=E2=80=99re gonna get =
+sued.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Hindenburg v. Icahn
+   =20
+ =20
+
+Yesterday short seller Hindenburg Research=C2=A0released a short report on =
+Carl Icahn=E2=80=99s company, Icahn Enterprises LP, and it is just mechanic=
+ally very neat. Here is the schematic claim:
+=09You have a company that is 85% owned by one guy. It owns $100 worth of s=
+tuff.=09Every year it declares a 45% dividend, meaning that it pays out $45=
+ of cash from its $100 worth of stuff.=09The main guy says =E2=80=9Cthat=E2=
+=80=99s okay, no dividend for me, just give me my dividend in extra shares.=
+=E2=80=9D Everyone else gets cash.=09That means the company only has to com=
+e up with $6.75 of cash for that 30% dividend.=09The market is like =E2=80=
+=9Cthis is amazing, this company has a huge dividend,=E2=80=9D and the stoc=
+k trades up. It trades to a market capitalization of=C2=A0$300, three times=
+ its net asset value, purely as a dividend investment. This gives it a 15% =
+dividend yield, i.e., the $45 dividend divided by the $300 stock value is 1=
+5%, making it one of the highest-yielding stocks available.=09The company t=
+akes advantage of this fact to sell stock: It sells 2.25% of the company ($=
+6.75=C2=A0worth of stock) to raise the money to pay out the $6.75 cash divi=
+dend. (Implicitly it also sells $38.25 of stock to the main guy=C2=A0in lie=
+u of=C2=A0his cash dividend, keeping=C2=A0his stake at 85%.
+  [1]
+)
+
+That is, the two central claims here are that Icahn Enterprises is=C2=A0ove=
+rvalued, relative to its reported net asset value, because investors are to=
+o dazzled by its high dividend:
+
+IEP trades at a 218% premium to its last reported net asset value (NAV), va=
+stly higher than all comparables. =E2=80=A6
+A reason for IEP=E2=80=99s extreme premium to NAV, based on a review of ret=
+ail investor-oriented media, is that average investors are attracted to (a)=
+ IEP=E2=80=99s large dividend yield and (b) the prospect of investing along=
+side Wall Street legend Carl Icahn. Institutional investors have virtually =
+no ownership in IEP.
+Icahn Enterprises=E2=80=99 current dividend yield is ~15.8%, making it the =
+highest dividend yield of any U.S. large cap company by far, with the next =
+closest at ~9.9%.
+
+And that the dividend is in some sense=C2=A0fake, because it comes not from=
+ earnings but from selling new stock:
+
+As a result of the company=E2=80=99s elevated unit price, its annual divide=
+nd rate equates to an absurd 50.5% of last reported indicative net asset va=
+lue.
+The company=E2=80=99s outlier dividend is made possible (for now) because C=
+arl Icahn owns roughly 85% of IEP and has been largely taking dividends in =
+units (instead of cash), reducing the overall cash outlay required to meet =
+the dividend payment for remaining unitholders.
+The dividend is entirely unsupported by IEP=E2=80=99s cash flow and investm=
+ent performance, which has been negative for years. IEP=E2=80=99s investmen=
+t portfolio has lost ~53% since 2014. The company=E2=80=99s free cash flow =
+figures show IEP has cumulatively burned ~$4.9 billion over the same period=
+.
+
+There are other claims, including that Icahn Enterprises overvalues some of=
+ its assets in computing its net asset value, and that it makes bad investm=
+ents and so has negative operating cash flow in a way that further shrinks =
+the asset value and makes the dividend unsustainable, but those are less in=
+teresting than the main schematic story. ( Icahn Enterprises responded: =E2=
+=80=9CWe believe the self-serving short seller report published by=C2=A0Hin=
+denburg Research=C2=A0today was intended solely to generate profits on Hind=
+enburg's short position at the expense of IEP's long-term unitholders. We s=
+tand by our public disclosures and we believe that IEP's performance will s=
+peak for itself over the long term as it always has.=E2=80=9D)
+That main story is ...=C2=A0what is that? Here=E2=80=99s what Hindenburg ca=
+lls it:
+In brief, Icahn has been using money taken in from new investors to pay out=
+ dividends to old investors. Such ponzi-like economic structures are sustai=
+nable only to the extent that new money is willing to risk being the last o=
+ne =E2=80=9Cholding the bag=E2=80=9D.
+Look, I personally do not view the term =E2=80=9Cponzi-like economic struct=
+ure=E2=80=9D as a=C2=A0pejorative =E2=80=94=C2=A0many of my favorite econom=
+ic structures are Ponzi-like =E2=80=94=C2=A0and=C2=A0agree that this schema=
+tic structure seems Ponzi-like, but in a fun way.
+Basically the accusation is that the shares trade for more than they are wo=
+rth, so Icahn is selling more shares for more than they are worth in order =
+to pay a big dividend to his shareholders. Which =E2=80=A6=C2=A0I think=C2=
+=A0is simply correct corporate finance?=C2=A0If your shares are trading for=
+ more than they are worth, you should sell as many shares as you can, and i=
+f you don=E2=80=99t have any good use for the money you should use it to pa=
+y a dividend.=C2=A0It is=C2=A0strange=C2=A0corporate finance, but it checks=
+ out. Icahn Enterprises does disclose its indicative net asset value (thoug=
+h Hindenburg quibbles with its calculations), so=C2=A0no one is exactly=C2=
+=A0deceived=C2=A0here. If you buy the stock, you know. you=E2=80=99re payin=
+g a=C2=A0huge premium to the net asset value.
+But is it =E2=80=9Csustainable only to the extent that new money is willing=
+ to risk being the last one =E2=80=98holding the bag=E2=80=99=E2=80=9D? I d=
+on=E2=80=99t know. I think if you look at that schematic description, it se=
+ems sustainable for a long time, even in the absence of new money (or inves=
+ting gains or operating cash flow, ha), as long as Carl Icahn is willing to=
+ risk being the last one holding the bag. The schematic description is some=
+thing like: =E2=80=9CCarl Icahn is the majority owner of=C2=A0a bag of cash=
+, and he keeps giving people some of the=C2=A0cash in exchange for an incre=
+asing share of the smaller bag of cash.=E2=80=9D
+If =E2=80=94=C2=A0using my schematic numbers above =E2=80=94=C2=A0the stock=
+ fell from $300 (overvalued relative to the $100 of assets) to $50 (underva=
+lued relative to the $100 of assets), the main guy might be perfectly happy=
+ to keep paying out $6.75=C2=A0of cash dividends to outside shareholders in=
+ order to increase his share of the now undervalued pot. If the shares trad=
+ed for less than they were worth, Icahn Enterprises should stop selling sha=
+res, but the dividend mechanism essentially lets Icahn=C2=A0buy=C2=A0shares=
+: Everyone else gets a cash dividend,
+  [2]
+ but Icahn himself takes his dividend in stock, valued at its current tradi=
+ng price,
+  [3]
+=C2=A0meaning that if the shares become cheap he is effectively buying shar=
+es cheap. He gets an increasing share of a decreasing bag of cash, but his =
+share increases faster than the bag shrinks.
+  [4]
+=C2=A0When your stock is overvalued, you sell stock; when your stock is und=
+ervalued, you buy it back. Somehow Icahn is doing both!
+Still in some sense the core of Hindenburg=E2=80=99s thesis is =E2=80=9Cthi=
+s stock trades at a 218% premium to net asset value, which is weirdly high,=
+=E2=80=9D and it=E2=80=99s hard to argue with that, though also a bit hard =
+to see why the market never noticed it before.=C2=A0The stock closed at $50=
+.42 on Monday; it was trading around $32.69 at noonish today. Still plenty =
+of room to sell stock to fund dividends though.
+
+ =20
+   =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      APE Amendment
+  [5]
+
+
+   =20
+ =20
+
+We have  talked a  few times about a problem that AMC Entertainment Holding=
+s Inc. has, and its clever solution. The problem is that AMC, a meme-stock =
+company, would like to sell bushels of stock to its enthusiastic retail sha=
+reholders to raise money to buy gold mines or whatever, but it has already =
+sold so much stock that it is out of authorized shares: Its corporate chart=
+er only allows it to issue about 524 million shares, and it has sold pretty=
+ much all of them. It can amend the charter, but, under Delaware law, that =
+requires a majority vote of all of AMC=E2=80=99s shares, and for the most p=
+art retail shareholders =E2=80=94=C2=A0even enthusiastic meme-stock retail =
+shareholders =E2=80=94 just don=E2=80=99t vote. So it can=E2=80=99t get eno=
+ugh votes to amend the charter.
+The solution was to issue a new class of stock =E2=80=94=C2=A0called APEs, =
+AMC Preferred Equity units =E2=80=94=C2=A0that votes with the common stock,=
+ to sell a lot of APEs to sympathetic hedge funds who will vote to amend th=
+e charter, and to make it so that the APEs, in effect, automatically vote: =
+If you own some APEs and don=E2=80=99t vote them, your APEs are voted propo=
+rtionally to how all the other APEs are voted.=C2=A0
+AMC did this, it worked =E2=80=94=C2=A0it got, by its own count, a majority=
+ of its shares to vote for the charter amendment=C2=A0=E2=80=94=C2=A0but so=
+me shareholders sued and AMC is stuck in a bit of a limbo. (It reached a se=
+ttlement in the lawsuit, but some shareholders objected to the settlement, =
+and a Delaware judge is  going to hear arguments next month.) The claim in =
+the lawsuit is basically that the APEs are a complicated trick to get aroun=
+d the voting requirements of Delaware law (which is true), and that this sh=
+ould not be allowed (which is debatable).
+Delaware is where most US public companies are incorporated. A  number of o=
+ther  companies have had to deal with this problem of meme-stock governance=
+ recently, and have used similar approaches, issuing weird preferred stocks=
+ with weird voting mechanics to deal with the problem of retail shareholder=
+s who don=E2=80=99t vote. It is  not ideal. On the one hand, these companie=
+s are probably=C2=A0right, as a matter of corporate finance, that they shou=
+ld issue more stock, and they are probably=C2=A0right, as a matter of respo=
+nsiveness to their shareholders, that it is what a majority of their shareh=
+olders want. On the other hand, it is not a great precedent for Delaware co=
+urts to allow corporate directors to rig shareholder votes to get the resul=
+ts that they want: If you allow too much of this, then a company whose shar=
+eholders=C2=A0don=E2=80=99t=C2=A0want to do something will issue a lot of w=
+eird preferred stock to allied investors to get a different result.
+But at least the AMC situation is really about solving an inconvenience in =
+Delaware law, which is that the law requires a majority of all voting share=
+s to approve an increase in the number of authorized shares. If 39% of shar=
+eholders vote yes, 1% vote no and 60% don=E2=80=99t bother to vote, you can=
+=E2=80=99t increase the number of shares, even though it seems clear that m=
+ost of your shareholders want you to =E2=80=94=C2=A0it=E2=80=99s just that =
+a lot of them don=E2=80=99t vote. Fixing this problem with weird preferred =
+stock is clever, but has its own complications. It might be better to fix i=
+t by=C2=A0changing Delaware law=C2=A0to make it more convenient for the mem=
+e-stock era.
+Here is a client  memo from Richards, Layton & Finger, a leading Delaware l=
+aw firm:
+
+Legislation proposing to amend the General Corporation Law of the State of =
+Delaware (the =E2=80=9CDGCL=E2=80=9D) is expected to be introduced to the D=
+elaware General Assembly for consideration during its 2023 regular session.=
+ =C2=A0If enacted, the 2023 amendments to the DGCL will, among other things=
+, make the following changes: =E2=80=A6
+Section 242 will be revised to (i) eliminate the need to obtain the default=
+ vote of stockholders for charter amendments effecting specified types of f=
+orward stock splits and associated increases in the authorized number of sh=
+ares, and (ii) reduce the minimum stockholder vote required to authorize a =
+charter amendment increasing or decreasing the authorized shares of a class=
+, or effecting a reverse split of the shares of a class, in circumstances w=
+here the shares of such class are listed on a national securities exchange =
+immediately before the amendment becomes effective and meet the listing req=
+uirements of such exchange after the amendment becomes effective.
+
+That is, the law might be changed to fix the APE problem. The memo goes on:
+In recent years, due to a wider dispersion of shares among retail holders a=
+nd policies in which brokerage firms decline to exercise their discretionar=
+y authority to vote shares held in =E2=80=9Cstreet name,=E2=80=9D many publ=
+ic corporations have encountered significant difficulty in securing various=
+ stockholder votes and, in particular, a vote necessary to effect a reverse=
+ stock split to help a corporation maintain the minimum share price amount =
+necessary to be listed on a national securities exchange. =C2=A0The lack of=
+ interest and participation among stockholders and beneficial owners in the=
+se critical votes is often attributable not to the merits of the proposal=
+=E2=80=94few stockholders, it would seem, would support a de-listing that w=
+ould assuredly diminish the liquidity of the stock=E2=80=94but to =E2=80=9C=
+rational apathy=E2=80=9D among retail and other dispersed investors, each o=
+f whom individually owns too few shares to have a vested interest in the co=
+rporation but all of whom collectively represent a significant portion of t=
+he voting base. =C2=A0New Section 242(d)(2) provides that a corporation may=
+ amend its certificate of incorporation to increase or decrease the authori=
+zed shares of a class of stock, or to effect a reverse stock split in respe=
+ct of a class of stock, without obtaining the vote or votes otherwise requi=
+red by Section 242(b) (i.e., at least a majority in voting power of the out=
+standing stock entitled to vote thereon) if (i) the shares ... are listed o=
+n a national exchange =E2=80=A6, (ii) at a meeting of stockholders at which=
+ a vote is taken for and against the proposed amendment, the votes cast for=
+ the amendment exceed the votes cast against the amendment, and (iii) the a=
+mendment increases or decreases the number of shares of a class of stock th=
+at has not opted out of the class vote. ...=C2=A0 As new Section 242(d)(2) =
+refers only to votes cast for or against an amendment, it makes clear that =
+abstentions have no effect on whether the required approval is obtained. =
+=C2=A0
+This seems like a rational change in the law for the meme-stock era, and a =
+better solution than the APE stuff.
+Meanwhile the APE lawsuit is still ongoing, and I=E2=80=99m not sure which =
+way this cuts? On the one hand, the new law, if adopted, suggests that AMC =
+was right to identify a problem and fix it; it=E2=80=99s hard to say that A=
+MC shouldn=E2=80=99t have gotten around the shareholder voting requirement =
+when the Delaware legislature now agrees that the requirement was too stric=
+t. On the other hand, if there is going to be=C2=A0a legislative fix, you k=
+ind of don=E2=80=99t need the clunky APE mechanic anymore, which might make=
+ a judge less inclined to approve it.
+
+ =20
+   =20
+      People are worried about stock buybacks
+   =20
+ =20
+
+There is an obvious, popular but not particularly good reason to be worried=
+ about stock buybacks, which is something like =E2=80=9Ccompanies should no=
+t spend their money on buying back their own stock, but on building factori=
+es and paying higher salaries and researching new products and paying down =
+debt and building up a cash reserve in case of disaster.=E2=80=9D
+  [6]
+=C2=A0This reason is probably true about some companies at some times, but =
+as a general theory it sort of misunderstands corporate finance. The point =
+of a company is to do some things that (1) it can do and (2) have positive =
+expected value. Some companies =E2=80=94=C2=A0often in the early stages of =
+their lives =E2=80=94=C2=A0have a lot of opportunities and not much cash, s=
+o they sell shares to investors to raise cash to pursue opportunities. Many=
+ other companies =E2=80=94=C2=A0often in the later stages of their lives =
+=E2=80=94=C2=A0have a lot of cash (from previous successes) and dwindling o=
+pportunities, so they give money back to the investors who funded them earl=
+ier. It is implausible that a company would always have just enough cash fr=
+om its previous operations to invest in valuable future projects. Sometimes=
+ they have less money than opportunity and sell stock to raise money; other=
+ times they have less opportunity than money and use money to buy back stoc=
+k.
+From the investor=E2=80=99s perspective, they buy stock from a company to b=
+et that it will do good business, and then the company buys it back when th=
+e bet pays off. If companies could never buy back stock, then the bets coul=
+d never pay off.
+  [7]
+=C2=A0Why would you put money into a company if you could never get it back=
+?
+  [8]
+
+And yet people=C2=A0are=C2=A0worried about stock buybacks, and there are so=
+me sort of hipster reasons to worry about stock buybacks that don=E2=80=99t=
+ suffer from this problem. One is that stock buybacks are a way to juice ex=
+ecutive pay. The theory is something like: Executives get paid a lot in sto=
+ck, which dilutes existing shareholders. Shareholders would be sad if they =
+noticed this dilution, so companies spend shareholder money to buy back sto=
+ck to minimize the dilution, which=C2=A0leads to executives being overpaid.
+This theory also does not make very much sense =E2=80=94=C2=A0the stock-bas=
+ed pay, and the buybacks, are public information, and the executive pay is =
+set in some sort of market that seems imperfect, but surely not mainly beca=
+use of stock buybacks. But you can refine it.
+One refinement goes like this: Buybacks create an opportunity for executive=
+s to=C2=A0sell=C2=A0stock at a profit. An executive owns stock, she wants s=
+ome cash, she knows that if she just dumped her shares in the open market t=
+he price would go down, so she makes her company announce a stock buyback, =
+which pushes up the price (because it sends a bullish signal, and also just=
+ because the company is buying shares and moving the price up). And then sh=
+e sells her stock while the company is buying. Effectively, she sells stock=
+=C2=A0into=C2=A0the buyback; she uses shareholder money to cash out her own=
+ stock.=C2=A0
+This theory (1) does seem bad, if true, (2) has some empirical support and =
+(3) seems popular within the US Securities and Exchange Commission. In part=
+icular, former SEC Commissioner Robert Jackson is a proponent of this theor=
+y, and while he was at the SEC he did research supporting it. From  a 2018 =
+speech:
+
+We dove into the data, studying 385 buybacks over the last fifteen months. =
+We matched those buybacks by hand to information on executive stock sales a=
+vailable in SEC filings. First, we found that a buyback announcement leads =
+to a big jump in stock price: in the 30 days after the announcements we stu=
+died, firms enjoy abnormal returns of more than 2.5%. That=E2=80=99s unsurp=
+rising: when a public company in the United States announces that it thinks=
+ the stock is cheap, investors bid up its price.
+What did surprise us, however, was how commonplace it is for executives to =
+use buybacks as a chance to cash out. In half of the buybacks we studied, a=
+t least one executive sold shares in the month following the buyback announ=
+cement. In fact, twice as many companies have insiders selling in the eight=
+ days after a buyback announcement as sell on an ordinary day. So right aft=
+er the company tells the market that the stock is cheap, executives overwhe=
+lmingly decide to sell.
+And, in the process, executives take a lot of cash off the table. On averag=
+e, in the days before a buyback announcement, executives trade in relativel=
+y small amounts=E2=80=94less than $100,000 worth. But during the eight days=
+ following a buyback announcement, executives on average sell more than $50=
+0,000 worth of stock each day=E2=80=94a fivefold increase. Thus, executives=
+ personally capture the benefit of the short-term stock-price pop created b=
+y the buyback announcement.
+Now, let=E2=80=99s be clear: this trading is not necessarily illegal. But i=
+t is troubling, because it is yet another piece of evidence that executives=
+ are spending more time on short-term stock trading than long-term value cr=
+eation. It=E2=80=99s one thing for a corporate board and top executives to =
+decide that a buyback is the right thing to do with the company=E2=80=99s c=
+apital. It=E2=80=99s another for them to use that decision as an opportunit=
+y to pocket some cash at the expense of the shareholders they have a duty t=
+o protect, the workers they employ, or the communities they serve.
+
+Today the SEC  adopted new rules on stock buybacks. The rules do three main=
+ things. One is that they will require companies to disclose, at the end of=
+ each quarter,=C2=A0daily=C2=A0information about how many shares they bough=
+t each day of that quarter and at what prices. I suspect that most of the t=
+ime this will be sort of voluminous and boring, but every so often it will =
+be revealing. (If a company announced=C2=A0bad news one day in the middle o=
+f a quarter, did it stop its stock buyback the day before the announcement?=
+ A week before? If it did, that seems almost insider-trader-y; the company =
+acted on the news before it announced it. If it didn=E2=80=99t, that seems =
+dumb.)
+Another thing that the rules will do is require companies to disclose, each=
+ quarter, =E2=80=9Cthe objectives or rationales for its share repurchases a=
+nd the process or criteria used to determine the amount of repurchases.=E2=
+=80=9D This seems like a nod to the theory that stock buybacks are bad beca=
+use companies should be using the money for better purposes instead: Compan=
+ies will have to=C2=A0say=C2=A0something like =E2=80=9Cwe decided that a st=
+ock buyback is a better use of our cash than other possible uses of cash,=
+=E2=80=9D which is clarifying and perhaps embarrassing. Also, in US securit=
+ies disclosure, it=E2=80=99s something to sue about. When these rules were =
+first proposed in 2021,   I wrote:
+
+=E2=80=9CThe objective or rationale for its share repurchases=E2=80=9D is g=
+oing to get real formulaic real quick? Part of the point here is just to ma=
+ke it a tiny bit more annoying for companies to buy back stock by making th=
+em type this somewhat embarrassing formulaic declaration.
+But part of the point is of course that everything is securities fraud. Now=
+ companies will need to say, in their securities filings, that they are buy=
+ing back stock for good reasons and not to enrich their executives. And now=
+ disgruntled shareholders will be able to sue, saying =E2=80=9Cactually you=
+ bought back stock to enrich your executives and lied about it in your secu=
+rities filings.=E2=80=9D
+
+Or, I mean, you write in the disclosure =E2=80=9Cwe decided to buy back sto=
+ck at $50 because we thought the stock was undervalued,=E2=80=9D and then s=
+omething bad happens and the stock falls to $40, and you get sued for sayin=
+g it was undervalued at $50?
+But a third thing that the rules will do is require disclosure about execut=
+ives selling into the buyback: =E2=80=9CIssuers will also be required to in=
+clude a checkbox indicating whether certain officers and directors traded i=
+n the relevant securities in the four business days before or after the ann=
+ouncement of the repurchase plan or program,=E2=80=9D and will have to disc=
+lose =E2=80=9Cany policies and procedures relating to purchases and sales o=
+f the issuer=E2=80=99s securities during a repurchase program by its office=
+rs and directors, including any restriction on such transactions.=E2=80=9D=
+=C2=A0
+In general, a lot of SEC rules are written in code, and in particular =E2=
+=80=9Ccompanies will have to disclose any policies restricting X=E2=80=9D m=
+eans =E2=80=9Ccompanies should not allow X=E2=80=9D: The SEC here is convey=
+ing its preference that companies=C2=A0not allow their executives to sell i=
+nto stock buybacks. In the fights over stock buybacks, this strikes me as k=
+ind of a weird niche concern, but it=E2=80=99s the SEC=E2=80=99s weird nich=
+e concern. If you think that stock buybacks are bad specifically because th=
+ey give executives an opportunity to sell stock, then the simple solution i=
+s to restrict executives from selling stock during stock buybacks, and that=
+ is, sort of, what the SEC is doing here.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+US Turns to Familiar Name to Clean Up $114 Billion Banking Mess:   BlackRoc=
+k. Wall Street Rattled by Selloff, Trading Halts at Two   Small Banks. Why =
+Washington  Let JPMorgan Buy First Republic. Three failed US banks had one =
+thing in common:  KPMG. Schwartz kicks off  Carlyle tenure with lots of lis=
+tening but no big ideas. SEC=E2=80=99s Gensler   Blasts Hedge Fund Fees as =
+Agency Readies Rules. Shell, BP and Total  out-trade Vitol, Trafigura, Merc=
+uria and Gunvor.=C2=A0Olive Garden Owner to Buy Ruth=E2=80=99s Hospitality =
+Group. Harley-Davidson Struggles With  Repossessing Bikes From Owners Late =
+With Payments. SEC Alleges  Son and Father-in-Law Touted Faith to Target Ch=
+urch Members in $20 Million Offering Fraud.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Say that the main shareholder owns 85 shares and everyone else owns 1=
+5. Net asset value is $100 ($1 per share) and the market cap is $300 ($3 pe=
+r share). The main shareholder takes his dividend in shares ($38.25 of shar=
+es); everyone else gets it in cash ($6.75 of cash). The main shareholder ge=
+ts an extra 12.75 shares ($38.25 divided by $3 share price), giving him a t=
+otal of 97.75 shares; the other shareholders keep their 15 shares, and 2.25=
+ new shares are sold to fund the cash dividend, for a total of 115 shares. =
+The main shareholder now owns 85% of the pot (97.75 divided by 130), which =
+still has a value of $100.
+
+
+  [2] Everyone can elect stock, and some outside investors do, though most =
+don=E2=80=99t.
+
+
+  [3] From Icahn Enterprises=E2=80=99 filings: =E2=80=9CDepositary unithold=
+ers who elect to receive (or who are deemed to have elected to receive) add=
+itional depositary units will receive units valued at the volume weighted a=
+verage trading price of the units during the five consecutive trading days =
+ending=E2=80=9D shortly before the dividend payment date.
+
+
+  [4] Again using the math from footnote 1. Say that the main shareholder o=
+wns 85 shares and everyone else owns 15. Net asset value is $100 ($1 per sh=
+are) and the market cap is $50 ($0.50 per share) because the stock price ha=
+s fallen. The company declares a dividend of $45 again, for a whopping 90% =
+dividend yield. The main shareholder takes his dividend in shares ($38.25 o=
+f shares); everyone else gets it in cash ($6.75 of cash). The main sharehol=
+der gets an extra 76.5 shares ($38.25 divided by $0.50 share price), giving=
+ him a total of 161.5 shares; the other shareholders keep their 15 shares. =
+No new shares are sold. The main shareholder now owns 91.5% of the pot, whi=
+ch has a value of $93.25 ($100 minus the $6.75 cash dividend); this makes h=
+is stake worth $85.33, up from $85 before the dividend. (This does not alwa=
+ys work; if the shares are only slightly undervalued he ends up a net loser=
+.)
+
+
+  [5] Ann Lipton  gave it this name on Twitter.
+
+
+  [6] This sentence is implicitly about spending internal cash flow, but th=
+ere=E2=80=99s a variant on it that is about debt financing, =E2=80=9Ccompan=
+ies should not borrow money just to buy back stock.=E2=80=9D The problem wi=
+th the one in the text is that it assumes unlimited positive-net-present-va=
+lue projects that the company can spend money on; the problem with the debt=
+ one is that it assumes that the capital structure of every company is alre=
+ady optimal.
+
+
+  [7] I mean, there could be dividends, but dividends to me are kind of the=
+ same thing as buybacks? Except for tax? Others disagree. Still others thin=
+k that dividends are also bad.
+
+
+  [8] Another obvious and popular reason to be worried about stock buybacks=
+ is that they are stock manipulation: Companies that buy back their stock a=
+re pushing up the price (by buying stock), which makes the price artificial=
+ly high, which is deceptive. (Until 1982, this theory was popular enough th=
+at open-market stock buybacks were rare, but in 1982 the US Securities and =
+Exchange Commission adopted a rule saying that buybacks that followed certa=
+in procedures would not be treated as stock manipulation.) I tend to think =
+that companies buying their stock because they think it is good is no more =
+manipulative than anyone else buying their stock because they think it is g=
+ood, but you do hear this theory sometimes.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cioapl.5lpz/40685728.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_851157_1854302691.1683141227766
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I suppose we will end up finding a number of answers to that question. Will=
+ some ChatGPT-style large language model manage to do some inside
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBae8c296d"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTM2NjcxMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE2MjgxNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB0b67c244" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31366713&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31628144&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Is ChatGPT securities fraud?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I suppose we will end up finding a number of a=
+nswers to that question. Will some ChatGPT-style large language model manag=
+e to do some insider trading? Will it, like, ingest some corpus of data tha=
+t includes inside information, and then use it to answer questions like =E2=
+=80=9Cwhich stocks should I buy?=E2=80=9D Will some big company=E2=80=99s c=
+orporate development department use the model to answer questions like =E2=
+=80=9Cshould we buy Company X and what price should we pay for it,=E2=80=9D=
+ and will the developers of the model use that information nefariously? Wil=
+l the model itself become sentient, get a Robinhood account and use that in=
+formation nefariously? Etc.</p>
+<p style=3D"margin: 16px 0;">Or I mean will someone ask ChatGPT a question =
+like =E2=80=9Cwhat companies are frauds,=E2=80=9D and ChatGPT will cheerful=
+ly and confidently say =E2=80=9Coh Company Y is a total fraud, their revenu=
+es are super inflated,=E2=80=9D and then people will short the stock, and t=
+hen it will turn out that Company Y is fine and ChatGPT is just really good=
+ at confidently making stuff up? Is that securities fraud? By whom? (Or: As=
+k =E2=80=9Cwhat stocks are good,=E2=80=9D ChatGPT says =E2=80=9CCompany Z i=
+s great, they have found a cure for cancer and their revenue will double,=
+=E2=80=9D people buy the stock, it was all made up.) Will sell-side analyst=
+s or journalists use ChatGPT to do their work, and will ChatGPT introduce m=
+arket-moving factual mistakes?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Lots of fun possibilities. But the most immedi=
+ate way in which ChatGPT is going to be securities fraud is the usual =E2=
+=80=9Ceverything is securities fraud=E2=80=9D way:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">ChatGPT is going to be disruptive to =
+some number of businesses and industries.</li>=09<li style=3D"margin-bottom=
+: 5px;">Some companies will lose money because ChatGPT disrupts their busin=
+ess.</li>=09<li style=3D"margin-bottom: 5px;">This will be bad, for them, a=
+nd their stocks will drop.</li>=09<li style=3D"margin-bottom: 5px;">Every b=
+ad thing that happens to a public company can be characterized as securitie=
+s fraud: =E2=80=9CYou didn=E2=80=99t sufficiently warn us about the bad thi=
+ng, so we bought the stock thinking it was good, but then the bad thing hap=
+pened and the stock dropped, so we were defrauded.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">ChatGPT risk factors are <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly85ZmluLmNvbS9=
+pbnNpZ2h0cy9jaGF0Z3B0LWlzLXRoZS1uZXctcmlzay1mYWN0b3ItYnV6endvcmQ/607f07ceef=
+4b8524a319a23cB6d8831bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> starting to be included in securities=C2=
+=A0offering documents</a>, and the <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMDUtMDIvY2hlZ2ctcGx1bmdlcy1hZnRlci13YXJuaW5nLXRoYXQtYWkta=
+XMtdGhyZWF0ZW5pbmctaXRzLWJ1c2luZXNzP2NtcGlkPUJCRDA1MDMyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMyZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6e12d1bc" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  ri=
+sks are starting to be realized</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Chegg Inc. plummeted 42% after warning that th=
+e ChatGPT tool is threatening growth of its homework-help services, one of =
+the most notable market reactions yet to signs that generative AI is upendi=
+ng industries.</p>
+<p style=3D"margin: 16px 0;">The company, which offers online guidance for =
+students taking tests and writing essays, also gave revenue and profit fore=
+casts for the current quarter that fell well short of analysts=E2=80=99 est=
+imates. Chegg makes much of its money from subscriptions, which start at $1=
+5.95 a month, a revenue source that=E2=80=99s in peril if students see AI c=
+hatbots as an alternative to paying.</p>
+<p style=3D"margin: 16px 0;">The impact of ChatGPT, an OpenAI tool that sur=
+ged in popularity last year, began to be felt this spring, Chief Executive =
+Officer Dan Rosensweig said in prepared remarks accompanying Chegg=E2=80=99=
+s first-quarter earnings Monday.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And I tell you what, when I see that a public =
+company has=C2=A0announced bad news and its stock dropped, I look for the l=
+awsuits. We are early yet =E2=80=94=C2=A0the stock dropped=C2=A0<em>yesterd=
+ay=C2=A0</em>=E2=80=94=C2=A0but lawyers move fast; I have not yet seen any =
+lawsuits filed, but at least <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31366713.261431/aHR0cHM6Ly93d3cuZ2xvYmVuZXdzd2lyZS5jb20vbmV3cy1y=
+ZWxlYXNlLzIwMjMvMDUvMDMvMjY2MDQ3NC8wL2VuL0NIR0ctQWxlcnQtTW9uc2V5LUxhdy1GaXJ=
+tLW9mLVdvaGwtRnJ1Y2h0ZXItTExQLUludmVzdGlnYXRpbmctQ2hlZ2ctSW5jLWZvci1Qb3Rlbn=
+RpYWwtU2VjdXJpdGllcy1MYXctVmlvbGF0aW9ucy5odG1s/607f07ceef4b8524a319a23cBbba=
+fea4b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> two</a> law <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/31366713.261431/aHR0cHM6Ly93d3cuYWJjMjcuY29tL2J1c2luZXNzL3ByZXNzL=
+XJlbGVhc2VzL2dsb2JlbmV3c3dpcmUvODgzMDU2Mi9pbnZlc3RpZ2F0aW9uLWFsZXJ0LWtlc3Ns=
+ZXItdG9wYXotbWVsdHplci1jaGVjay1sbHAtaXMtaW52ZXN0aWdhdGluZy1zZWN1cml0aWVzLWZ=
+yYXVkLWNsYWltcy1vbi1iZWhhbGYtb2YtY2hlZ2ctaW5jLW55c2UtY2hnZy1pbnZlc3RvcnMv/6=
+07f07ceef4b8524a319a23cB1b18dec4" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> firms</a> have announced =E2=80=
+=9Cinvestigations=E2=80=9D of Chegg and are looking for clients.</p>
+<p style=3D"margin: 16px 0;">At this point the lawsuits seem a bit far-fetc=
+hed: =E2=80=9CYou should have warned us months ago that artificial intellig=
+ence would hurt your business=E2=80=9D is unfair given how quickly ChatGPT =
+has exploded from nowhere to become a cultural and business phenomenon. But=
+ now everyone is on notice! If you are not warning your shareholders now=C2=
+=A0about how AI could hurt your business, and then it does hurt your busine=
+ss, you=E2=80=99re gonna get sued.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTM2NjcxMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE2MjgxNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCe146dea7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31366713&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31628144&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTM2NjcxMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE2MjgxNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDe146dea7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31366713&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31628144&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hindenburg v. Icahn</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Yesterday short seller Hindenburg Research=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431=
+/aHR0cHM6Ly9oaW5kZW5idXJncmVzZWFyY2guY29tL2ljYWhuLw/607f07ceef4b8524a319a23=
+cBeabfb7d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">released a short report on Carl Icahn=E2=80=99s company=
+</a>, Icahn Enterprises LP, and it is just mechanically very neat. Here is =
+the schematic claim:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You have a company that is 85% owned =
+by one guy. It owns $100 worth of stuff.</li>=09<li style=3D"margin-bottom:=
+ 5px;">Every year it declares a 45% dividend, meaning that it pays out $45 =
+of cash from its $100 worth of stuff.</li>=09<li style=3D"margin-bottom: 5p=
+x;">The main guy says =E2=80=9Cthat=E2=80=99s okay, no dividend for me, jus=
+t give me my dividend in extra shares.=E2=80=9D Everyone else gets cash.</l=
+i>=09<li style=3D"margin-bottom: 5px;">That means the company only has to c=
+ome up with $6.75 of cash for that 30% dividend.</li>=09<li style=3D"margin=
+-bottom: 5px;">The market is like =E2=80=9Cthis is amazing, this company ha=
+s a huge dividend,=E2=80=9D and the stock trades up. It trades to a market =
+capitalization of=C2=A0$300, three times its net asset value, purely as a d=
+ividend investment. This gives it a 15% dividend yield, i.e., the $45 divid=
+end divided by the $300 stock value is 15%, making it one of the highest-yi=
+elding stocks available.</li>=09<li style=3D"margin-bottom: 5px;">The compa=
+ny takes advantage of this fact to sell stock: It sells 2.25% of the compan=
+y ($6.75=C2=A0worth of stock) to raise the money to pay out the $6.75 cash =
+dividend. (Implicitly it also sells $38.25 of stock to the main guy=C2=A0<e=
+m>in lieu of=C2=A0</em>his cash dividend, keeping=C2=A0<em>his </em>stake a=
+t 85%.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>)</li>
+</ol>
+<p style=3D"margin: 16px 0;">That is, the two central claims here are that =
+Icahn Enterprises is=C2=A0<em>overvalued</em>, relative to its reported net=
+ asset value, because investors are too dazzled by its high dividend:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">IEP trades at a 218% premium to its last repor=
+ted net asset value (NAV), vastly higher than all comparables. =E2=80=A6</p=
+>
+<p style=3D"margin: 16px 0;">A reason for IEP=E2=80=99s extreme premium to =
+NAV, based on a review of retail investor-oriented media, is that average i=
+nvestors are attracted to (a) IEP=E2=80=99s large dividend yield and (b) th=
+e prospect of investing alongside Wall Street legend Carl Icahn. Institutio=
+nal investors have virtually no ownership in IEP.</p>
+<p style=3D"margin: 16px 0;">Icahn Enterprises=E2=80=99 current dividend yi=
+eld is ~15.8%, making it the highest dividend yield of any U.S. large cap c=
+ompany by far, with the next closest at ~9.9%.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And that the dividend is in some sense=C2=A0<e=
+m>fake</em>, because it comes not from earnings but from selling new stock:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As a result of the company=E2=80=99s elevated =
+unit price, its annual dividend rate equates to an absurd 50.5% of last rep=
+orted indicative net asset value.</p>
+<p style=3D"margin: 16px 0;">The company=E2=80=99s outlier dividend is made=
+ possible (for now) because Carl Icahn owns roughly 85% of IEP and has been=
+ largely taking dividends in units (instead of cash), reducing the overall =
+cash outlay required to meet the dividend payment for remaining unitholders=
+.</p>
+<p style=3D"margin: 16px 0;">The dividend is entirely unsupported by IEP=E2=
+=80=99s cash flow and investment performance, which has been negative for y=
+ears. IEP=E2=80=99s investment portfolio has lost ~53% since 2014. The comp=
+any=E2=80=99s free cash flow figures show IEP has cumulatively burned ~$4.9=
+ billion over the same period.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are other claims, including that Icahn E=
+nterprises overvalues some of its assets in computing its net asset value, =
+and that it makes bad investments and so has negative operating cash flow i=
+n a way that further shrinks the asset value and makes the dividend unsusta=
+inable, but those are less interesting than the main schematic story. (<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aHR0cH=
+M6Ly93d3cuaWVscC5jb20vbmV3cy1yZWxlYXNlcy9uZXdzLXJlbGVhc2UtZGV0YWlscy9pY2Fob=
+i1lbnRlcnByaXNlcy1pc3N1ZXMtc3RhdGVtZW50LXJlZ2FyZGluZy1zaG9ydC1zZWxsZXItcmVw=
+b3J0/607f07ceef4b8524a319a23cBac5dc2f7" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Icahn Enterprises responde=
+d</a>: =E2=80=9CWe believe the self-serving short seller report published b=
+y=C2=A0Hindenburg Research=C2=A0today was intended solely to generate profi=
+ts on Hindenburg's short position at the expense of IEP's long-term unithol=
+ders. We stand by our public disclosures and we believe that IEP's performa=
+nce will speak for itself over the long term as it always has.=E2=80=9D)</p=
+>
+<p style=3D"margin: 16px 0;">That main story is ...=C2=A0what is that? Here=
+=E2=80=99s what Hindenburg calls it:</p>
+<blockquote><p style=3D"margin: 16px 0;">In brief, Icahn has been using mon=
+ey taken in from new investors to pay out dividends to old investors. Such =
+ponzi-like economic structures are sustainable only to the extent that new =
+money is willing to risk being the last one =E2=80=9Cholding the bag=E2=80=
+=9D.</p></blockquote>
+<p style=3D"margin: 16px 0;">Look, I personally do not view the term =E2=80=
+=9Cponzi-like economic structure=E2=80=9D as a=C2=A0<em>pejorative</em> =E2=
+=80=94=C2=A0many of my favorite economic structures are Ponzi-like =E2=80=
+=94=C2=A0and=C2=A0agree that this schematic structure seems Ponzi-like, but=
+ in a fun way.</p>
+<p style=3D"margin: 16px 0;">Basically the accusation is that the shares tr=
+ade for more than they are worth, so Icahn is selling more shares for more =
+than they are worth in order to pay a big dividend to his shareholders. Whi=
+ch =E2=80=A6=C2=A0I think=C2=A0is simply correct corporate finance?=C2=A0If=
+ your shares are trading for more than they are worth, you should sell as m=
+any shares as you can, and if you don=E2=80=99t have any good use for the m=
+oney you should use it to pay a dividend.=C2=A0It is=C2=A0<em>strange=C2=A0=
+</em>corporate finance, but it checks out. Icahn Enterprises does disclose =
+its indicative net asset value (though Hindenburg quibbles with its calcula=
+tions), so=C2=A0no one is exactly=C2=A0<em>deceived</em>=C2=A0here. If you =
+buy the stock, you know. you=E2=80=99re paying a=C2=A0huge premium to the n=
+et asset value.</p>
+<p style=3D"margin: 16px 0;">But is it =E2=80=9Csustainable only to the ext=
+ent that new money is willing to risk being the last one =E2=80=98holding t=
+he bag=E2=80=99=E2=80=9D? I don=E2=80=99t know. I think if you look at that=
+ schematic description, it seems sustainable for a long time, even in the a=
+bsence of new money (or investing gains or operating cash flow, ha), as lon=
+g as <em>Carl Icahn</em> is willing to risk being the last one holding the =
+bag. The schematic description is something like: =E2=80=9CCarl Icahn is th=
+e majority owner of=C2=A0a bag of cash, and he keeps giving people some of =
+the=C2=A0cash in exchange for an increasing share of the smaller bag of cas=
+h.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">If =E2=80=94=C2=A0using my schematic numbers a=
+bove =E2=80=94=C2=A0the stock fell from $300 (overvalued relative to the $1=
+00 of assets) to $50 (undervalued relative to the $100 of assets), the main=
+ guy might be perfectly happy to keep paying out $6.75=C2=A0of cash dividen=
+ds to outside shareholders in order to increase his share of the now <em>un=
+dervalued</em> pot. If the shares traded for less than they were worth, Ica=
+hn Enterprises should stop <em>selling</em> shares, but the dividend mechan=
+ism essentially lets Icahn=C2=A0<em>buy=C2=A0</em>shares: Everyone else get=
+s a cash dividend,<a class=3D"footnote-index" href=3D"#footnote-2" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> but Icahn himself takes his dividend in stock, valued at its current t=
+rading price,<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0meaning that if the shares become cheap he is effectively buying =
+shares cheap. He gets an increasing share of a decreasing bag of cash, but =
+his share increases faster than the bag shrinks.<a class=3D"footnote-index"=
+ href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[4]</span>
+</a>=C2=A0When your stock is overvalued, you sell stock; when your stock is=
+ undervalued, you buy it back. Somehow Icahn is doing both!</p>
+<p style=3D"margin: 16px 0;">Still in some sense the core of Hindenburg=E2=
+=80=99s thesis is =E2=80=9Cthis stock trades at a 218% premium to net asset=
+ value, which is weirdly high,=E2=80=9D and it=E2=80=99s hard to argue with=
+ that, though also a bit hard to see why the market never noticed it before=
+.=C2=A0The stock closed at $50.42 on Monday; it was trading around $32.69 a=
+t noonish today. Still plenty of room to sell stock to fund dividends thoug=
+h.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">APE Amendment<a class=3D"footnote-index" href=3D"#footnote-5" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>
+</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjItMDgtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDA1MDMyM19NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IzMDUwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB936be8c1"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> talked</a> a <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlkPUJCRDA1MDMyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDUwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8d8154b=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> few times</a> about a problem that AMC Entertainment Holdings=
+ Inc. has, and its clever solution. The problem is that AMC, a meme-stock c=
+ompany, would like to sell bushels of stock to its enthusiastic retail shar=
+eholders to raise money to buy gold mines or whatever, but it has already s=
+old so much stock that it is out of authorized shares: Its corporate charte=
+r only allows it to issue about 524 million shares, and it has sold pretty =
+much all of them. It can amend the charter, but, under Delaware law, that r=
+equires a majority vote of all of AMC=E2=80=99s shares, and for the most pa=
+rt retail shareholders =E2=80=94=C2=A0even enthusiastic meme-stock retail s=
+hareholders =E2=80=94 just don=E2=80=99t vote. So it can=E2=80=99t get enou=
+gh votes to amend the charter.</p>
+<p style=3D"margin: 16px 0;">The solution was to issue a new class of stock=
+ =E2=80=94=C2=A0called APEs, AMC Preferred Equity units =E2=80=94=C2=A0that=
+ votes with the common stock, to sell a lot of APEs to sympathetic hedge fu=
+nds who will vote to amend the charter, and to make it so that the APEs, in=
+ effect, automatically vote: If you own some APEs and don=E2=80=99t vote th=
+em, your APEs are voted proportionally to how all the other APEs are voted.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">AMC did this, it worked =E2=80=94=C2=A0it got,=
+ by its own count, a majority of its shares to vote for the charter amendme=
+nt=C2=A0=E2=80=94=C2=A0but some shareholders sued and AMC is stuck in a bit=
+ of a limbo. (It reached a settlement in the lawsuit, but some shareholders=
+ objected to the settlement, and a Delaware judge is <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly9uZXdzLmJsb29t=
+YmVyZ2xhdy5jb20vZXNnL2FtYy1qdWRnZS1zZXRzLWp1bmUtMjktc2V0dGxlbWVudC1oZWFyaW5=
+nLXNpZ25hbHMtbm8tc2hvcnRjdXRz/607f07ceef4b8524a319a23cB4f434073" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ going to hear arguments next month</a>.) The claim in the lawsuit is basic=
+ally that the APEs are a complicated trick to get around the voting require=
+ments of Delaware law (which is true), and that this should not be allowed =
+(which is debatable).</p>
+<p style=3D"margin: 16px 0;">Delaware is where most US public companies are=
+ incorporated. A <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjMtMDItMTYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvLWN1c3RvZHk_Y21waWQ9QkJEMDUwMzI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMwNTAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB131=
+4899a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> number</a> of other <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDItMjgvYW1jLXMtYXBlcy1oYXZlLXRvLXdhaXQ_Y21waWQ9QkJE=
+MDUwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjMwNTAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cBa004ce50" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> companies</a> have had to deal with this problem of =
+meme-stock governance recently, and have used similar approaches, issuing w=
+eird preferred stocks with weird voting mechanics to deal with the problem =
+of retail shareholders who don=E2=80=99t vote. It is <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTgvcHVycGxlLWR1bXBzLWl0cy1wcnB=
+scz9jbXBpZD1CQkQwNTAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cB665b066c" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> not ideal</a>. On the one hand, thes=
+e companies are probably=C2=A0<em>right</em>, as a matter of corporate fina=
+nce, that they should issue more stock, and they are probably=C2=A0<em>righ=
+t</em>, as a matter of responsiveness to their shareholders, that it is wha=
+t a majority of their shareholders want. On the other hand, it is not a gre=
+at precedent for Delaware courts to allow corporate directors to rig shareh=
+older votes to get the results that they want: If you allow too much of thi=
+s, then a company whose shareholders=C2=A0<em>don=E2=80=99t=C2=A0</em>want =
+to do something will issue a lot of weird preferred stock to allied investo=
+rs to get a different result.</p>
+<p style=3D"margin: 16px 0;">But at least the AMC situation is really about=
+ solving an inconvenience in Delaware law, which is that the law requires a=
+ majority of all voting shares to approve an increase in the number of auth=
+orized shares. If 39% of shareholders vote yes, 1% vote no and 60% don=E2=
+=80=99t bother to vote, you can=E2=80=99t increase the number of shares, ev=
+en though it seems clear that most of your shareholders want you to =E2=80=
+=94=C2=A0it=E2=80=99s just that a lot of them don=E2=80=99t vote. Fixing th=
+is problem with weird preferred stock is clever, but has its own complicati=
+ons. It might be better to fix it by=C2=A0<em>changing Delaware law=C2=A0</=
+em>to make it more convenient for the meme-stock era.</p>
+<p style=3D"margin: 16px 0;">Here is a client <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cucmxmLmNvbS8yMDI=
+zLXByb3Bvc2VkLWFtZW5kbWVudHMtdG8tdGhlLWdlbmVyYWwtY29ycG9yYXRpb24tbGF3LW9mLX=
+RoZS1zdGF0ZS1vZi1kZWxhd2FyZS8/607f07ceef4b8524a319a23cBbc88117f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ memo from Richards, Layton &amp; Finger</a>, a leading Delaware law firm:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Legislation proposing to amend the General Cor=
+poration Law of the State of Delaware (the =E2=80=9CDGCL=E2=80=9D) is expec=
+ted to be introduced to the Delaware General Assembly for consideration dur=
+ing its 2023 regular session. =C2=A0If enacted, the 2023 amendments to the =
+DGCL will, among other things, make the following changes: =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Section 242 will be revised to (i) eliminate t=
+he need to obtain the default vote of stockholders for charter amendments e=
+ffecting specified types of forward stock splits and associated increases i=
+n the authorized number of shares, and (ii) reduce the minimum stockholder =
+vote required to authorize a charter amendment increasing or decreasing the=
+ authorized shares of a class, or effecting a reverse split of the shares o=
+f a class, in circumstances where the shares of such class are listed on a =
+national securities exchange immediately before the amendment becomes effec=
+tive and meet the listing requirements of such exchange after the amendment=
+ becomes effective.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is, the law might be changed to fix the A=
+PE problem. The memo goes on:</p>
+<blockquote><p style=3D"margin: 16px 0;">In recent years, due to a wider di=
+spersion of shares among retail holders and policies in which brokerage fir=
+ms decline to exercise their discretionary authority to vote shares held in=
+ =E2=80=9Cstreet name,=E2=80=9D many public corporations have encountered s=
+ignificant difficulty in securing various stockholder votes and, in particu=
+lar, a vote necessary to effect a reverse stock split to help a corporation=
+ maintain the minimum share price amount necessary to be listed on a nation=
+al securities exchange. =C2=A0The lack of interest and participation among =
+stockholders and beneficial owners in these critical votes is often attribu=
+table not to the merits of the proposal=E2=80=94few stockholders, it would =
+seem, would support a de-listing that would assuredly diminish the liquidit=
+y of the stock=E2=80=94but to =E2=80=9Crational apathy=E2=80=9D among retai=
+l and other dispersed investors, each of whom individually owns too few sha=
+res to have a vested interest in the corporation but all of whom collective=
+ly represent a significant portion of the voting base. =C2=A0New Section 24=
+2(d)(2) provides that a corporation may amend its certificate of incorporat=
+ion to increase or decrease the authorized shares of a class of stock, or t=
+o effect a reverse stock split in respect of a class of stock, without obta=
+ining the vote or votes otherwise required by Section 242(b) (i.e., at leas=
+t a majority in voting power of the outstanding stock entitled to vote ther=
+eon) if (i) the shares ... are listed on a national exchange =E2=80=A6, (ii=
+) at a meeting of stockholders at which a vote is taken for and against the=
+ proposed amendment, the votes cast for the amendment exceed the votes cast=
+ against the amendment, and (iii) the amendment increases or decreases the =
+number of shares of a class of stock that has not opted out of the class vo=
+te. ...=C2=A0 As new Section 242(d)(2) refers only to votes cast for or aga=
+inst an amendment, it makes clear that abstentions have no effect on whethe=
+r the required approval is obtained. =C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">This seems like a rational change in the law f=
+or the meme-stock era, and a better solution than the APE stuff.</p>
+<p style=3D"margin: 16px 0;">Meanwhile the APE lawsuit is still ongoing, an=
+d I=E2=80=99m not sure which way this cuts? On the one hand, the new law, i=
+f adopted, suggests that AMC was right to identify a problem and fix it; it=
+=E2=80=99s hard to say that AMC shouldn=E2=80=99t have gotten around the sh=
+areholder voting requirement when the Delaware legislature now agrees that =
+the requirement was too strict. On the other hand, if there is going to be=
+=C2=A0a legislative fix, you kind of don=E2=80=99t need the clunky APE mech=
+anic anymore, which might make a judge less inclined to approve it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">People are worried about stock buybacks</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is an obvious, popular but not particula=
+rly good reason to be worried about stock buybacks, which is something like=
+ =E2=80=9Ccompanies should not spend their money on buying back their own s=
+tock, but on building factories and paying higher salaries and researching =
+new products and paying down debt and building up a cash reserve in case of=
+ disaster.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0This reason is probably true about some companies at some times, =
+but as a general theory it sort of misunderstands corporate finance. The po=
+int of a company is to do some things that (1) it can do and (2) have posit=
+ive expected value. Some companies =E2=80=94=C2=A0often in the early stages=
+ of their lives =E2=80=94=C2=A0have a lot of opportunities and not much cas=
+h, so they sell shares to investors to raise cash to pursue opportunities. =
+Many other companies =E2=80=94=C2=A0often in the later stages of their live=
+s =E2=80=94=C2=A0have a lot of cash (from previous successes) and dwindling=
+ opportunities, so they give money back to the investors who funded them ea=
+rlier. It is implausible that a company would always have just enough cash =
+from its previous operations to invest in valuable future projects. Sometim=
+es they have less money than opportunity and sell stock to raise money; oth=
+er times they have less opportunity than money and use money to buy back st=
+ock.</p>
+<p style=3D"margin: 16px 0;">From the investor=E2=80=99s perspective, they =
+buy stock from a company to bet that it will do good business, and then the=
+ company buys it back when the bet pays off. If companies could never buy b=
+ack stock, then the bets could never pay off.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[7]</span>
+</a>=C2=A0Why would you put money into a company if you could never get it =
+back?<a class=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[8]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And yet people=C2=A0<em>are=C2=A0</em>worried =
+about stock buybacks, and there are some sort of hipster reasons to worry a=
+bout stock buybacks that don=E2=80=99t suffer from this problem. One is tha=
+t stock buybacks are a way to juice executive pay. The theory is something =
+like: Executives get paid a lot in stock, which dilutes existing shareholde=
+rs. Shareholders would be sad if they noticed this dilution, so companies s=
+pend shareholder money to buy back stock to minimize the dilution, which=C2=
+=A0leads to executives being overpaid.</p>
+<p style=3D"margin: 16px 0;">This theory also does not make very much sense=
+ =E2=80=94=C2=A0the stock-based pay, and the buybacks, are public informati=
+on, and the executive pay is set in some sort of market that seems imperfec=
+t, but surely not mainly because of stock buybacks. But you can refine it.<=
+/p>
+<p style=3D"margin: 16px 0;">One refinement goes like this: Buybacks create=
+ an opportunity for executives to=C2=A0<em>sell=C2=A0</em>stock at a profit=
+. An executive owns stock, she wants some cash, she knows that if she just =
+dumped her shares in the open market the price would go down, so she makes =
+her company announce a stock buyback, which pushes up the price (because it=
+ sends a bullish signal, and also just because the company is buying shares=
+ and moving the price up). And then she sells her stock while the company i=
+s buying. Effectively, she sells stock=C2=A0<em>into=C2=A0</em>the buyback;=
+ she uses shareholder money to cash out her own stock.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This theory (1) does seem bad, if true, (2) ha=
+s some empirical support and (3) seems popular within the US Securities and=
+ Exchange Commission. In particular, former SEC Commissioner Robert Jackson=
+ is a proponent of this theory, and while he was at the SEC he did research=
+ supporting it. From <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31366713.261431/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3NwZWVjaC9zcGVlY2gtamFj=
+a3Nvbi0wNjExMTg/607f07ceef4b8524a319a23cBe9eeb930" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> a 2018 speech</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">We dove into the data, studying 385 buybacks o=
+ver the last fifteen months. We matched those buybacks by hand to informati=
+on on executive stock sales available in SEC filings. First, we found that =
+a buyback announcement leads to a big jump in stock price: in the 30 days a=
+fter the announcements we studied, firms enjoy abnormal returns of more tha=
+n 2.5%. That=E2=80=99s unsurprising: when a public company in the United St=
+ates announces that it thinks the stock is cheap, investors bid up its pric=
+e.</p>
+<p style=3D"margin: 16px 0;">What did surprise us, however, was how commonp=
+lace it is for executives to use buybacks as a chance to cash out. In half =
+of the buybacks we studied, at least one executive sold shares in the month=
+ following the buyback announcement. In fact, twice as many companies have =
+insiders selling in the eight days after a buyback announcement as sell on =
+an ordinary day. So right after the company tells the market that the stock=
+ is cheap, executives overwhelmingly decide to sell.</p>
+<p style=3D"margin: 16px 0;">And, in the process, executives take a lot of =
+cash off the table. On average, in the days before a buyback announcement, =
+executives trade in relatively small amounts=E2=80=94less than $100,000 wor=
+th. But during the eight days following a buyback announcement, executives =
+on average sell more than $500,000 worth of stock each day=E2=80=94a fivefo=
+ld increase. Thus, executives personally capture the benefit of the short-t=
+erm stock-price pop created by the buyback announcement.</p>
+<p style=3D"margin: 16px 0;">Now, let=E2=80=99s be clear: this trading is n=
+ot necessarily illegal. But it is troubling, because it is yet another piec=
+e of evidence that executives are spending more time on short-term stock tr=
+ading than long-term value creation. It=E2=80=99s one thing for a corporate=
+ board and top executives to decide that a buyback is the right thing to do=
+ with the company=E2=80=99s capital. It=E2=80=99s another for them to use t=
+hat decision as an opportunity to pocket some cash at the expense of the sh=
+areholders they have a duty to protect, the workers they employ, or the com=
+munities they serve.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Today the SEC <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3=
+ByZXNzLXJlbGVhc2UvMjAyMy04NQ/607f07ceef4b8524a319a23cBab104d46" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> ad=
+opted new rules</a> on stock buybacks. The rules do three main things. One =
+is that they will require companies to disclose, at the end of each quarter=
+,=C2=A0<em>daily=C2=A0</em>information about how many shares they bought ea=
+ch day of that quarter and at what prices. I suspect that most of the time =
+this will be sort of voluminous and boring, but every so often it will be r=
+evealing. (If a company announced=C2=A0bad news one day in the middle of a =
+quarter, did it stop its stock buyback the day before the announcement? A w=
+eek before? If it did, that seems almost insider-trader-y; the company acte=
+d on the news before it announced it. If it didn=E2=80=99t, that seems dumb=
+.)</p>
+<p style=3D"margin: 16px 0;">Another thing that the rules will do is requir=
+e companies to disclose, each quarter, =E2=80=9Cthe objectives or rationale=
+s for its share repurchases and the process or criteria used to determine t=
+he amount of repurchases.=E2=80=9D This seems like a nod to the theory that=
+ stock buybacks are bad because companies should be using the money for bet=
+ter purposes instead: Companies will have to=C2=A0<em>say=C2=A0</em>somethi=
+ng like =E2=80=9Cwe decided that a stock buyback is a better use of our cas=
+h than other possible uses of cash,=E2=80=9D which is clarifying and perhap=
+s embarrassing. Also, in US securities disclosure, it=E2=80=99s something t=
+o sue about. When these rules were first proposed in 2021, <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTYvdGhlLXNlYy1oYXMtYmlnL=
+XBsYW5zP2NtcGlkPUJCRDA1MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cBd08cdac4" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  I wrote</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe objective or rationale for its sh=
+are repurchases=E2=80=9D is going to get real formulaic real quick? Part of=
+ the point here is just to make it a tiny bit more annoying for companies t=
+o buy back stock by making them type this somewhat embarrassing formulaic d=
+eclaration.</p>
+<p style=3D"margin: 16px 0;">But part of the point is of course that everyt=
+hing is securities fraud. Now companies will need to say, in their securiti=
+es filings, that they are buying back stock for good reasons and not to enr=
+ich their executives. And now disgruntled shareholders will be able to sue,=
+ saying =E2=80=9Cactually you bought back stock to enrich your executives a=
+nd lied about it in your securities filings.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Or, I mean, you write in the disclosure =E2=80=
+=9Cwe decided to buy back stock at $50 because we thought the stock was und=
+ervalued,=E2=80=9D and then something bad happens and the stock falls to $4=
+0, and you get sued for saying it was undervalued at $50?</p>
+<p style=3D"margin: 16px 0;">But a third thing that the rules will do is re=
+quire disclosure about executives selling into the buyback: =E2=80=9CIssuer=
+s will also be required to include a checkbox indicating whether certain of=
+ficers and directors traded in the relevant securities in the four business=
+ days before or after the announcement of the repurchase plan or program,=
+=E2=80=9D and will have to disclose =E2=80=9Cany policies and procedures re=
+lating to purchases and sales of the issuer=E2=80=99s securities during a r=
+epurchase program by its officers and directors, including any restriction =
+on such transactions.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">In general, a lot of SEC rules are written in =
+code, and in particular =E2=80=9Ccompanies will have to disclose any polici=
+es restricting X=E2=80=9D means =E2=80=9Ccompanies should not allow X=E2=80=
+=9D: The SEC here is conveying its preference that companies=C2=A0<em>not a=
+llow their executives to sell into stock buybacks. </em>In the fights over =
+stock buybacks, this strikes me as kind of a weird niche concern, but it=E2=
+=80=99s the SEC=E2=80=99s weird niche concern. If you think that stock buyb=
+acks are bad specifically because they give executives an opportunity to se=
+ll stock, then the simple solution is to restrict executives from selling s=
+tock during stock buybacks, and that is, sort of, what the SEC is doing her=
+e.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">US Turns to Familiar Name to Clean Up $114 Bil=
+lion Banking Mess: <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+MtMDUtMDMvZmRpYy1jb3VudHMtb24tYmxhY2tyb2NrLWxhcnJ5LWZpbmstdG8tcGljay11cC1hZ=
+nRlci1zdmItc2lnbmF0dXJlP2NtcGlkPUJCRDA1MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09=
+ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMyZ1dG1fY2FtcGFpZ24=
+9bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf8c6f837" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  BlackRock</a>.=
+ Wall Street Rattled by Selloff, Trading Halts at Two <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDMvd2FsbC1zdHJlZXQtcmF0dGxlZC1ieS=
+1iYW5rLXNlbGxvZmYtYXMtcGFjd2VzdC13ZXN0ZXJuLWFsbGlhbmNlLXNsaWRlP2NtcGlkPUJCR=
+DA1MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIzMDUwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cBe6bcc999" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  Small Banks</a>. Why Washington <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9ob3ctd2FzaGluZ3Rvbi1nb3Qtb24tYm9hcmQtd2l0aC1hLWJpZy1iYW5=
+rLWRlYWwtZm9yLWZpcnN0LXJlcHVibGljLTYwOTE4OGFhP21vZD1pdHBfd3NqJnJ1PXlhaG9v/6=
+07f07ceef4b8524a319a23cB9ce0d239" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Let JPMorgan</a> Buy First Repub=
+lic. Three failed US banks had one thing in common: <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuZnQuY29tL=
+2NvbnRlbnQvZmViMzM5MTQtNDkzZS00NjdjLWI2N2UtMjhmY2QxYjM4MTRk/607f07ceef4b852=
+4a319a23cB94c67c9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> KPMG</a>. Schwartz kicks off <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvYmU1MjU5ZGUtZWU5OS00YTlmLWEzM2QtZTFkMjhiYzc4ZmY5/607f07c=
+eef4b8524a319a23cBe1660bdf" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Carlyle tenure</a> with lots of listen=
+ing but no big ideas. SEC=E2=80=99s Gensler <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDIvc2VjLXMtZ2Vuc2xlci1ibGFzdHMtaGVkZ2UtZnVu=
+ZC1mZWVzLWFzLWFnZW5jeS1yZWFkaWVzLW5ldy1ydWxlcz9jbXBpZD1CQkQwNTAzMjNfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMz=
+A1MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5878ca10" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  Blasts Hedge Fund Fees</a> as Agency Readies Rules. Shell, BP and T=
+otal <a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.2614=
+31/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTgyMzI3YTctOGZmNy00NjcxLWJhYWMtY2Rl=
+YWVhZTEzNWRm/607f07ceef4b8524a319a23cB2c8dfb48" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> out-trade</a> Vito=
+l, Trafigura, Mercuria and Gunvor.=C2=A0<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlc=
+y9vbGl2ZS1nYXJkZW4tb3duZXItdG8tYnV5LXJ1dGhzLWNocmlzLXN0ZWFrLWhvdXNlLTIyOTg0=
+MzAwP21vZD1ocF9sZWFkX3BvczY/607f07ceef4b8524a319a23cB23c54d81" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Oliv=
+e Garden Owner</a> to Buy Ruth=E2=80=99s Hospitality Group. Harley-Davidson=
+ Struggles With <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+366713.261431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZXBvLW1lbi1oYWdnbGUtd=
+2l0aC1oYXJsZXktZGF2aWRzb24tb3Zlci1yZWNvdmVyeS1mZWVzLWE3MzFhNGZhP21vZD1sZWFk=
+X2ZlYXR1cmVfYmVsb3dfYV9wb3Mx/607f07ceef4b8524a319a23cBbc450701" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Re=
+possessing Bikes</a> From Owners Late With Payments. SEC Alleges <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93=
+d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy04NA/607f07ceef4b8524a319a23c=
+B234c44b0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Son and Father-in-Law</a> Touted Faith to Target Church=
+ Members in $20 Million Offering Fraud.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31366713.261431/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB8e44826d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31366713.261431/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB193562ae" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] <em>Say that the main shareholder owns 85 =
+shares and everyone else owns 15. Net asset value is $100 ($1 per share) an=
+d the market cap is $300 ($3 per share). The main shareholder takes his div=
+idend in shares ($38.25 of shares); everyone else gets it in cash ($6.75 of=
+ cash). The main shareholder gets an extra 12.75 shares ($38.25 divided by =
+$3 share price), giving him a total of 97.75 shares; the other shareholders=
+ keep their 15 shares, and 2.25 new shares are sold to fund the cash divide=
+nd, for a total of 115 shares. The main shareholder now owns 85% of the pot=
+ (97.75 divided by 130), which still has a value of $100.</em></p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Everyone can elect stock, and some outside=
+ investors do, though most don=E2=80=99t.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] From <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0F=
+yY2hpdmVzL2VkZ2FyL2RhdGEvODEzNzYyLzAwMDE1NTgzNzAyMjAwMjE1MC90bWItMjAyMTEyMz=
+F4MTBrLmh0bSNJdGVtOEZpbmFuY2lhbFN0YXRlbWVudHNhbmRTdXBwbGVtZW50YXJ5/607f07ce=
+ef4b8524a319a23cBb4525eea" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">Icahn Enterprises=E2=80=99 filings</a>: =
+=E2=80=9CDepositary unitholders who elect to receive (or who are deemed to =
+have elected to receive) additional depositary units will receive units val=
+ued at the volume weighted average trading price of the units during the fi=
+ve consecutive trading days ending=E2=80=9D shortly before the dividend pay=
+ment date.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] <em>Again using the math from footnote 1. =
+Say that the main shareholder owns 85 shares and everyone else owns 15. Net=
+ asset value is $100 ($1 per share) and the market cap is $50 ($0.50 per sh=
+are) because the stock price has fallen. The company declares a dividend of=
+ $45 again, for a whopping 90% dividend yield. The main shareholder takes h=
+is dividend in shares ($38.25 of shares); everyone else gets it in cash ($6=
+.75 of cash). The main shareholder gets an extra 76.5 shares ($38.25 divide=
+d by $0.50 share price), giving him a total of 161.5 shares; the other shar=
+eholders keep their 15 shares. No new shares are sold. The main shareholder=
+ now owns 91.5% of the pot, which has a value of $93.25 ($100 minus the $6.=
+75 cash dividend); this makes his stake worth $85.33, up from $85 before th=
+e dividend. (This does not always work; if the shares are only slightly und=
+ervalued he ends up a net loser.)</em></p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Ann Lipton <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31366713.261431/aHR0cHM6Ly90d2l0dGVyLmNvbS9hbm5tb=
+GlwdG9uL3N0YXR1cy8xNjUzMzkwMjYwODk2Njg2MDgw/607f07ceef4b8524a319a23cB054186=
+2d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> gave it this name on Twitter</a>.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] This sentence is implicitly about spending=
+ internal cash flow, but there=E2=80=99s a variant on it that is about debt=
+ financing, =E2=80=9Ccompanies should not borrow money just to buy back sto=
+ck.=E2=80=9D The problem with the one in the text is that it assumes unlimi=
+ted positive-net-present-value projects that the company can spend money on=
+; the problem with the debt one is that it assumes that the capital structu=
+re of every company is already optimal.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I mean, there could be dividends, but divi=
+dends to me are kind of the same thing as buybacks? Except for tax? Others =
+disagree. Still others think that dividends are also bad.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Another obvious and popular reason to be w=
+orried about stock buybacks is that they are stock manipulation: Companies =
+that buy back their stock are pushing up the price (by buying stock), which=
+ makes the price artificially high, which is deceptive. (Until 1982, this t=
+heory was popular enough that open-market stock buybacks were rare, but in =
+1982 the US Securities and Exchange Commission <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31366713.261431/aHR0cHM6Ly93d3cuZWNmci5nb3YvY3=
+VycmVudC90aXRsZS0xNy9jaGFwdGVyLUlJL3BhcnQtMjQwL3N1YnBhcnQtQS9zdWJqZWN0LWdyb=
+3VwLUVDRlI3MWUyZDIyNjQ3OTE4YjAvc2VjdGlvbi0yNDAuMTBiLTE4/607f07ceef4b8524a31=
+9a23cBe5378cbc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">adopted a rule</a> saying that buybacks that follow=
+ed certain procedures would not be treated as stock manipulation.) I tend t=
+o think that companies buying their stock because they think it is good is =
+no more manipulative than anyone else buying their stock because they think=
+ it is good, but you do hear this theory sometimes.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB68fd2249" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBd92102cf" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc5eb04b0" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBb40ab1d2" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB58537121" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.2614=
+31/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB16d94553" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31366713.261431/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5cff43f9" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31366713.261431/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB2ba5ef7c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31366713.261431/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa3cccca5" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+3b65790" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31366713.261431/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+480544f" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cioapl.5lpz/40685728.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_851157_1854302691.1683141227766--
+

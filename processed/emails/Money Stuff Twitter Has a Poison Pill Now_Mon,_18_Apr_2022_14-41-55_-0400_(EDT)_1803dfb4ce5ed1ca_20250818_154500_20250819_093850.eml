@@ -1,0 +1,2448 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp2663030lkb;
+        Mon, 18 Apr 2022 11:42:01 -0700 (PDT)
+X-Received: by 2002:adf:eb12:0:b0:207:b333:5e7d with SMTP id s18-20020adfeb12000000b00207b3335e7dmr9220200wrn.585.1650307320975;
+        Mon, 18 Apr 2022 11:42:00 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1650307320; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fQXHeY6kAK6t4chmzaHlMaMzRWj56bhksNZXOGyG9WYCFJm0P5+pHb9IMvgZJocDAa
+         lCfGFyp8q+WKHPOsalM8f4G076uF0vwIe2f7azn1+8YEHROw03eQsqaupZARqC7sTQMI
+         aHk8qBpMyl3UH0dvFkx4KMqbJZ1tAAOcF/YiIapsR3Fg9SYb1YvIx88VkEiFamc24ibH
+         9Hu8t0uFCttDKpzYJTUCUNHegRZHBotsTMij517YdhVosCOnA0SZsRrq0v5/DKJnFtmQ
+         PBwP6uioWFcUaYmcl57BrGEOtXFUjB1JHP5tHR/Gv+NoC+QoaFGXJRO0quGxt62rd5LT
+         vSUQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=4BKLWqKFjYS4c1WRinG7sAUfRj2PKBzG1E6Ul2B0wnA=;
+        b=xn8omwGflpaK9DoksPkcR2h/Z5A1eOiVfjk9fG7Xctk2Iw0n5mwoNZRfC8gU6PhXxb
+         ssU9udyi2yJb2aZ13kr2lNkSjkRIor6vczn14YrQp9gIW4z470p5ySJf05w4YURQQuGe
+         k1mK2Yf7N4si7x2ylbZSLhZDKP+UCkaL0FlcJV2iMlnN1tM7MTfGX3UUfUhSR3ZWzHwf
+         95hL9nxKnpJp5ixLQdzjWtI6cwK2RMgI/hFLeit31lI/dYAu5ltLYaMD5q133+3nM1Rn
+         gzQUCnfSKey2HLKAZf8XCAiOA8BVYYvMT1YMd1Cq1LJPMBLXNMOBE5XCgbwpPhnqyNP2
+         gNeg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="E8S/MIuJ";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bd14-20020a05600c1f0e00b00389cf31fda8sor20756wmb.31.2022.04.18.11.42.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 18 Apr 2022 11:42:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="E8S/MIuJ";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=4BKLWqKFjYS4c1WRinG7sAUfRj2PKBzG1E6Ul2B0wnA=;
+        b=mas/grWzllr5HdQfhTzwtb+JUjwuYzShbNYeMzjcFaYNAiadOSAkpS6FwvJdtg+BMj
+         uAgvLqT3TqqODzojPqJTwNDwu2m45//tYmzTmM/i8tQ+W7OXlvG/JjmUaDAKkJIX3pf2
+         5zrSmUfXEcV/LlrSE22z7jzzGr5rxqxWLTL743VG0VNFpxy2ZBndOyIS9pNv24UBQXjA
+         t4SHlJ0Vjn7yfsqsqUrDJi8DJh1otYulEILogX15NAuYr1hGh/n4Q6OhMeyyRhfhEA7W
+         uz39rQccYZucxYjcGB3B1ckMTzCgf1Td9zTDc0Mncrd5ALCp0qZFinI2bMV7rTaPfzvV
+         izQg==
+X-Gm-Message-State: AOAM5302a0c+nbgsfRMeSeu8TDV4trjA1Cb0IWxzcib5xV9wU8Y60hFl
+	JQeWG2gIUxb9qdWjTTLuiVp6mGlVznten1c8XoQo1LoD0t/fc24c2w==
+X-Received: by 2002:a05:600c:29c7:b0:38e:c58d:7b00 with SMTP id s7-20020a05600c29c700b0038ec58d7b00mr12660411wmd.47.1650307320677;
+        Mon, 18 Apr 2022 11:42:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ed45:0:0:0:0:0 with SMTP id u5csp120940wro;
+        Mon, 18 Apr 2022 11:41:57 -0700 (PDT)
+X-Received: by 2002:ab0:70d7:0:b0:359:f05c:38bb with SMTP id r23-20020ab070d7000000b00359f05c38bbmr2876792ual.76.1650307317518;
+        Mon, 18 Apr 2022 11:41:57 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1650307317; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=m8hW84tN5qmL5aRFjmJTkQ1/1VGiOPyOPUTqD0HWOutPZAMtpEgJnIHv8J9qJyq5Rb
+         0zECpscQp0ZER+BiMUtIYIRDXC4VD4nuA5vYqvcOXJCf1HSygoAVD63jCxeD5d08HQ4z
+         VaJEctR6OEez/eH1g0w4qubi4zBpOC+tjTeqFjPrVXfM9m+VI7uBL5LKnN6V8SuUVis4
+         i+a+jo0CIEL3NrUW2Tbdl9srCZY6K9VI2Pvgl3hcuGh3Sh9lGvSMp/RfuQKE0rVooNRw
+         MQiZFmHbeWwwJL9rT0H/U0GTBSGg1i36HrNAML+dmfddH1vfOJQAOAtP540UhLyz+u4N
+         ldKA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=4BKLWqKFjYS4c1WRinG7sAUfRj2PKBzG1E6Ul2B0wnA=;
+        b=badvVVwaCRtbG8suWiqv/woqDMvv0SXRf49kqcKLUzw1C/yGzRVeL9NjHe9ngCtKdc
+         H3cZp/R6+iWfD15umoMg2aWAWumW4kwnYTxOWMKTKoawAfm6oF7h/QpUN3mRL9xKzsMr
+         1r7OoS0P01OA2dyfo0XaKe4zFUe1cPlnGcANk87xOwqKqfwFC+W7ETuBw0Wr1tZNfoof
+         f0scSLBCpMqwnX2B6vvMsI+5OXAKGEZOCE/IWYnvJOwltqPP8gnVyTHb6r4yOWFw40sd
+         TZavyZ+19XTOt2jdg0BJzLqmmx5nKerEngD2sexUJJ8UKw6pmrX3uIR9mMg+JXqfMyw/
+         GsRw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="E8S/MIuJ";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220418144155.27407897.282598@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220418144155.27407897.282598@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220418144155.27407897.282598@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h2-20020a1fd002000000b00344d1f1974esor2063999vkg.12.2022.04.18.11.41.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 18 Apr 2022 11:41:57 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220418144155.27407897.282598@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJy7If7bPjXW01Y6slnz+80c7xCR2kveKdw3TfnscL1f9yH0tpp4U9hxNyk7Qb0quAhIZ7cQYC2rD4i57A8Lvrr74u3Z150=
+X-Received: by 2002:a05:6122:e1f:b0:348:e42e:e4c5 with SMTP id bk31-20020a0561220e1f00b00348e42ee4c5mr3222201vkb.41.1650307316856;
+        Mon, 18 Apr 2022 11:41:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1650307316; cv=none;
+        d=google.com; s=arc-20160816;
+        b=aPBPyA/mpYl4Mu9K0F/9bjtBvcpUvA+9iS1xdLpd+I5z1l0ChK6g7J/PKuZ3GJU3Gp
+         JF/X6u5iDiA3yxgDQ78f9b9d9MWVWDlRJi0S2xEGG3OMAwn3s/KO4kM5iMjA8BTMiNa8
+         bC8yybqCFGbuuQXlcQYrNaEiwDXrfjck95UAy4fULtHm1yB+sZXTY/kr+L8Do+K0N/N2
+         jlUfsDRsDy4wY9vPK/u7j46pyOSpPFpHG+1kn60m8VF2tFxjM6aOygh12X8i15aEtdB1
+         CTvZQZU04XzQG17Na0Qfb9q6pJi4wDBB6nwOO5q8gZ+v8Ix5GExguPbfZz35vOzVY41w
+         TdOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=4BKLWqKFjYS4c1WRinG7sAUfRj2PKBzG1E6Ul2B0wnA=;
+        b=HNU6VgJbcthFzVWRbKNCmLQZ2Yv/iQcjytB/gcCpjQyBt9dWaZPoUoMEDThqSuWVic
+         hhjq3mm99DnDqAkpo2RF0lIJXVd2+780R1r3Py4g/3/1+/qBZWL/t/HAVCsJ98dUUmAk
+         ysMX2612KC4GaHwCDrpDc9QoRrrZ5SAJSXPuPUI3P0YcsK8HOrvhy8Frsz+V7m6KZNOs
+         tT124Wza8pPLMYoIIgOGL3R284/GibCQg2I3Bb10QITfmJsFJGJuhlocEFzAY9LEWuJS
+         BqnKwjyFgOhyxWiXBIlWfYGKmdurE8GldAVuOr284Acgd/GNqba8IXba5PSOp82IaNdW
+         Hz2g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="E8S/MIuJ";
+       spf=pass (google.com: domain of delivery_20220418144155.27407897.282598@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220418144155.27407897.282598@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220418144155.27407897.282598@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id 5-20020a056122070500b0034911e6ef9fsi820550vki.4.2022.04.18.11.41.56
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 Apr 2022 11:41:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220418144155.27407897.282598@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=GwBoCUxIjq2pB3eOg2Gs4boPN6LKy5dzBTOmXAXWR/c=;
+ b=E8S/MIuJ9ZnbFe02B82pKCi491lli7qjWimh9sX3EbOMNUVH/Ek1inMQodrY5BMU525sAMZu2IEO
+   Uup4m26Kl0leXMdDZBfZIw+PC4o7cSFqmJtgC/UJuulqADG3k9lSDl6GrUQwhjpMMm7G6S24y/Cj
+   QU+gUOYlWw0+yFwoldo=
+Received: from njmta-90.sailthru.com (173.228.155.90) by pmta29.sailthru.com id hbmof82sd4so for <bloomberg@khamel.com>; Mon, 18 Apr 2022 14:41:56 -0400 (envelope-from <delivery_20220418144155.27407897.282598@mx.sailthru.com>)
+Received: from nj1-illcherry.flt (172.18.20.10) by njmta-90.sailthru.com id hbmof81qqbs5 for <bloomberg@khamel.com>; Mon, 18 Apr 2022 14:41:55 -0400 (envelope-from <delivery_20220418144155.27407897.282598@mx.sailthru.com>)
+Date: Mon, 18 Apr 2022 14:41:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220418144155.27407897.282598@sailthru.com>
+Subject: Money Stuff: Twitter Has a Poison Pill Now
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1691637_1000752217.1650307315315"
+Precedence: bulk
+X-Feedback-ID: 6358:27407897:campaign:sailthru
+X-TM-ID: 20220418144155.27407897.282598
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgbg2h.621y/9192e7b1
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgbg2h.621y/9192e7b1>, <mailto:unsubscribe_20220418144155.27407897.282598@mx.sailthru.com>
+X-rpcampaign: stjko27407897
+
+------=_Part_1691637_1000752217.1650307315315
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Poison pillsHere are some things you could do[1]: Buy 51% of the st=
+ock of a public company in the open market over time, just buying wheneve
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Poison pills
+   =20
+ =20
+Here are some things you could do[1]:=09Buy 51% of the stock of a public co=
+mpany in the open market over time, just buying whenever anyone sells, look=
+ing for any blocks of stock that come loose, paying the market price for ea=
+ch trade, etc. To put numbers on it, let=E2=80=99s say you start buying at =
+around $40 per share and finish at around $50 per share. (Your buying, and =
+the legally required disclosure of your ownership, will push up the price.)=
+ Once you have 51%, you take control, vote out the board, vote in your budd=
+ies, elect a new chief executive officer and run the company however you wa=
+nt.=09Buy 51% of the stock of a public company in a tender offer. A tender =
+offer is just a big coordinated public offer to buy stock, open=C2=A0to all=
+ shareholders at the same price.=C2=A0You announce to all shareholders, =E2=
+=80=9CI want to buy 51% of this company and I=E2=80=99ll pay $50 per share =
+in cash, but I won=E2=80=99t buy more than 51%.=E2=80=9D More than 51% tend=
+er, you prorate the offer (not buying all the shares that are tendered), yo=
+u get to exactly 51%, paying $50 per share. You proceed as above, taking co=
+ntrol of the board etc.=09You acquire 51% of the company and take control o=
+f the board, as in either Thing 1 or Thing 2. Then you propose a merger at =
+$30 per share. The new board =E2=80=94=C2=A0your buddies =E2=80=94=C2=A0agr=
+ees, and submits it to a shareholder vote. You vote your 51% of the shares =
+in favor, and the merger happens; you acquire the remaining 49% of the stoc=
+k at $30 per share. The holders of that 49% =E2=80=94=C2=A0who did not sell=
+ to you at $50 in the first step =E2=80=94=C2=A0are forced to sell to you a=
+t $30 in the second step. (That=E2=80=99s how mergers work: When the merger=
+ happens, the stock is automatically converted into whatever the merger con=
+sideration is, here $30 in cash.)=09Same as Thing 1, but instead of buying =
+51% you buy, I don=E2=80=99t know, 30%. At 30% you just need to convince a =
+few other shareholders to vote with you to kick out the board, etc. As the =
+biggest shareholder, you might have effective control even without a majori=
+ty.=09Offer to buy 100% of the stock of the company in a tender offer. Anno=
+unce to all shareholders, =E2=80=9CI want to buy 100% of this company and I=
+=E2=80=99ll pay $50 per share in cash. But let me warn you. If I get above =
+51%, but not to 100%, I will definitely do a second-step merger (as in Thin=
+g 3), and I=E2=80=99ll do it at $30 per share. So if you want $50, you bett=
+er tender now, because if you don=E2=80=99t you=E2=80=99re getting $30.=E2=
+=80=9D Shareholders might think that $50 is too low, and might not want to =
+tender. But they can=E2=80=99t be sure that 51% of the stock=C2=A0won=E2=80=
+=99t=C2=A0tender, and they don=E2=80=99t want to be left out. So they tende=
+r for $50 to avoid getting stuck with $30. (This is called a =E2=80=9Ctwo-t=
+ier tender offer.=E2=80=9D)=09Same as Thing 5 but you don=E2=80=99t make th=
+e threat explicit. =E2=80=9CI want to buy 100% of this company and I=E2=80=
+=99ll pay $50 per share in cash,=E2=80=9D you say. But you have a reputatio=
+n for being tough, and a history of treating minority shareholders poorly. =
+The threat is implicit, so shareholders tender at $50 to avoid ending up=C2=
+=A0in the minority of a company that you control.These are the things, the =
+classic things.=C2=A0They are =E2=80=9Ccoercive takeover tactics,=E2=80=9D =
+in the lingo. They are ways for someone =E2=80=94=C2=A0a =E2=80=9Ccorporate=
+ raider,=E2=80=9D=C2=A0in the lingo =E2=80=94=C2=A0to take over a company w=
+ithout paying a fair price for it, or without offering every shareholder th=
+e same price. Or, I mean, arguably=C2=A0without paying a fair price; you mi=
+ght think that some of these things are fine. (If you can get 51% of the sh=
+areholders of a company to sell you their stock in market transactions, wha=
+t=E2=80=99s the problem?) But boards of directors of public companies gener=
+ally take a dim view of these things. They think of themselves as fiduciari=
+es for all of the shareholders, and they do not like the idea of someone bu=
+ying the company out from under them.=C2=A0Instead, the board of directors =
+will prefer a nice tidy negotiation between the buyer and the board. The bu=
+yer comes to the board and offers a merger, and they negotiate the terms wi=
+th each other. If the board agrees to a deal, it will generally involve the=
+ buyer paying the same price to every shareholder, and it will be a price t=
+hat the board thinks reflects the full=C2=A0value of the company. Once the =
+buyer has an agreement with the board, they will go out together, buyer and=
+ board, and seek shareholder approval. (Either by signing a merger agreemen=
+t and submitting it to a shareholder vote, or by doing a tender offer in wh=
+ich the buyer asks to buy all the shares from shareholders=C2=A0directly, b=
+ut on terms approved by the board.) If the board does not agree to the deal=
+, the buyer goes away peacefully and does not cause trouble by buying more =
+stock, launching a tender offer to shareholders without board approval, or =
+running a proxy fight in which the buyer tries to replace the board with it=
+s own nominees. That is the dignified, controlled way that corporate boards=
+ generally prefer to do mergers-and-acquisitions negotiations.Many buyers l=
+ike to do M&A this way too. (If you are taking over a company, it helps to =
+be friendly with the people running the company! You=E2=80=99ll need them t=
+o help you run the company!) But some buyers =E2=80=94=C2=A0the corporate r=
+aiders, etc. =E2=80=94=C2=A0like to retain the ability to go hostile, to do=
+ unsolicited tender offers or proxy fights if the board rejects their offer=
+s. For one thing, sometimes boards are unreasonable, and going directly to =
+the shareholders is the only way to get a deal done. For another thing, the=
+=C2=A0threat=C2=A0of going hostile can be helpful in negotiations with the =
+board.In the U.S., the board has a powerful tool in this fight. It is=C2=A0=
+the poison pill.=C2=A0(Everyone calls it that, though its technical legal n=
+ame is a =E2=80=9Cshareholder rights plan.=E2=80=9D) The board of directors=
+ of a company, feeling threatened=C2=A0by a big acquirer of its=C2=A0stock =
+or a corporate raider proposing to buy the company, will adopt a =E2=80=9Cs=
+hareholder rights plan.=E2=80=9D The gist of the plan is that if anyone =E2=
+=80=94=C2=A0meaning, basically, the buyer =E2=80=94=C2=A0acquires more than=
+ X% of the company=E2=80=99s stock (often X is 15 or 20), then that person=
+=E2=80=99s shares go poof. You can=E2=80=99t actually do that =E2=80=94=C2=
+=A0you can=E2=80=99t make one shareholder=E2=80=99s shares go poof =E2=80=
+=94=C2=A0but you can get arbitrarily close by allowing all of the=C2=A0othe=
+r shareholders of the company to buy many=C2=A0more=C2=A0shares at a discou=
+nt, or by giving them more shares for free. So you say =E2=80=9Cif anyone g=
+oes above 15% of the stock, then we will distribute one free share of stock=
+ for each existing share,=C2=A0except=C2=A0that the person who went above 1=
+5% doesn=E2=80=99t get any of the free stock.=E2=80=9D So if someone gets 1=
+5%, then everyone=C2=A0else=E2=80=99s shares get doubled, taking the acquir=
+er down to about 8%.[2] (In theory you could do this repeatedly, so that th=
+e acquirer could=C2=A0never=C2=A0get a controlling stake.)The actual mechan=
+ics are a bit more complicated than that, but not worth worrying about[3]; =
+even the summary in the previous paragraph=C2=A0is not worth worrying about=
+. The point is that the pill makes it very bad for anyone to get above 15% =
+of the stock =E2=80=94=C2=A0it basically makes their stock go poof =E2=80=
+=94 so nobody does. For a long time it was common to say that a poison pill=
+ had never been triggered;=C2=A0that is not quite true anymore, but it is s=
+till close enough. When a board adopts a poison pill, for all practical pur=
+poses that prevents a buyer from buying more than 15% of the=C2=A0stock, ei=
+ther in the open market or in a tender offer. So it forces the buyer to neg=
+otiate with the board. If the buyer wants to buy the company, it has to str=
+ike a deal with the board (which will then get rid of the pill); it can=E2=
+=80=99t just go directly to the shareholders to buy stock, because the pill=
+ will make its shares go poof.(Some disclosure: The poison pill was invente=
+d by the law firm of Wachtell, Lipton, Rosen & Katz, where I worked briefly=
+ in the mid-2000s. In my discussion of takeover defenses and tactics, I am =
+drawing on Wachtell=E2=80=99s =E2=80=9CTakeover Law and Practice=E2=80=9D g=
+uide, which is worth reading if you want more detail on how this all works.=
+ But I worked there a long time ago and any errors or oversimplifications h=
+ere are not the firm=E2=80=99s fault.)The poison pill is a bizarre and dras=
+tic thing for a board to do =E2=80=94=C2=A0to make one shareholder=E2=80=99=
+s stock go poof! =E2=80=94=C2=A0and when it was invented in the 1980s there=
+ was some skepticism that it was legal. But the Delaware Supreme Court=C2=
+=A0approved it, in a 1985 decision, noting that the board=E2=80=99s reason =
+for=C2=A0=E2=80=9Cthe adoption of the Rights Plan was in reaction to what i=
+t perceived to be the threat in the market place of coercive two-tier tende=
+r offers=E2=80=9D (my Thing 5 above). Basically the idea was that (1) corpo=
+rate raiders sometimes do bad coercive things to take over companies, (2) b=
+oards have a fiduciary duty to=C2=A0stop them and (3) drastic measures, lik=
+e the poison pill, are justified to stop coercive takeover tactics.But the =
+pill quickly became a standard feature of corporate defense even against no=
+t-very-coercive actions. Boards of directors have successfully used poison =
+pills to block non-coercive, all-shares-at-the-same-price tender offers, an=
+d to put limits on activists=E2=80=99 ability to run=C2=A0proxy fights. The=
+ broad general rule is that the board gets to decide on takeovers, and that=
+ if it acts in good faith to prevent a change of control, it can, even if s=
+hareholders would prefer to take the money.So what does this have to do wit=
+h Elon Musk.This weekend, Twitter Inc.=E2=80=99s board=C2=A0 adopted a pois=
+on pill to protect itself against Elon Musk=E2=80=99s  plan to maybe acquir=
+e the company. You can read Twitter=E2=80=99s press release here; here is a=
+ more detailed summary of the pill, and here and here are the actual legal =
+documents. The main mechanism of the pill is that if Musk or anyone else ac=
+quires more than 15% of Twitter's stock, then every=C2=A0other=C2=A0Twitter=
+ shareholder will have the right to pay $210 to acquire $420 worth of Twitt=
+er stock (at then-current market prices). 420 IS A WEED JOKE. Otherwise the=
+se numbers are sort of arbitrary =E2=80=94=C2=A0again, pills don=E2=80=99t =
+get triggered, so the particular numbers don=E2=80=99t matter=C2=A0=E2=80=
+=94=C2=A0and I imagine the conversation went like this:Lawyer: The pill wil=
+l be structured to let other shareholders buy a large amount of stock at a =
+discount to dilute Musk=E2=80=99s stake.Twitter: How much stock?Lawyer: It =
+doesn=E2=80=99t really matter, but=C2=A0a lot, enough to swamp Musk. Typica=
+lly the exercise price would be=C2=A0like $100 to $200, and you=E2=80=99d g=
+et twice as much stock, like, $200 to $400 worth.Twitter: We are defending =
+against Elon Musk here and ordinary tactics are not enough. We need to harn=
+ess the power of the number 420.=C2=A0Lawyer: Okay then $420 worth of stock=
+, whatever.Another, perhaps more practical=C2=A0provision of the pill says =
+that the board can just exchange each right for one share of stock, for fre=
+e, meaning in essence that the board can double everyone else=E2=80=99s num=
+ber of shares of Twitter while holding Musk=E2=80=99s constant, without ask=
+ing anyone to put in more money.=C2=A0This weekend, Musk tweeted =E2=80=9CL=
+ove Me Tender.=E2=80=9D Because he is engaged in an annoying meme-driven ma=
+ybe-hostile-takeover-battle, everyone interpreted this to mean something li=
+ke =E2=80=9Cmaybe I will do a tender offer for Twitter, or maybe not, who k=
+nows, aren=E2=80=99t I a little scamp.=E2=80=9D With the pill in place, he =
+more or less can=E2=80=99t. He has to negotiate with the board, or run a pr=
+oxy fight to replace the board,[4] or get other shareholders to pressure th=
+e board to get rid of the pill, or I suppose sue the board to get rid of th=
+e pill.There is a popular belief that, since Musk offered a cash acquisitio=
+n at a price that is a decent premium to the market price, the board is som=
+ehow either obligated to accept his deal or at least obligated to let the s=
+hareholders decide.[5] This is wrong. The board gets to decide. From Wachte=
+ll=E2=80=99s takeover guide:It seems clear that the target may, if it meets=
+ the relevant standard, =E2=80=9Cjust say no=E2=80=9D to an acquisition pro=
+posal.=C2=A0Targets of unsolicited offers have been successful in rejecting=
+ such proposals in order to follow their own strategic plans. =E2=80=A6Whil=
+e a rights plan [i.e. poison pill]=C2=A0is often the most useful tool for s=
+taving off a hostile bid, it is not necessary to successfully =E2=80=9Cjust=
+ say no=E2=80=9D in every situation. What is typically necessary=E2=80=94an=
+d what a rights plan is designed to protect=E2=80=94is a thoughtful long-te=
+rm plan that was developed by a board and management whom long-term shareho=
+lders trust to deliver value.The basic legal rule here is=C2=A0the =E2=80=
+=9Cbusiness judgment rule,=E2=80=9D=C2=A0which is that the board of directo=
+rs runs the company and courts do not generally second-guess their decision=
+s if they are made carefully and in good faith. If Twitter=E2=80=99s board =
+is advised by good bankers and lawyers, has no serious conflicts of interes=
+t,=C2=A0takes Musk=E2=80=99s offer seriously, and concludes that keeping Tw=
+itter independent and executing its strategic plan will be worth more to sh=
+areholders than Musk=E2=80=99s $54.20, then it can decline Musk=E2=80=99s o=
+ffer.There are other relevant rules. One is that, if the board=C2=A0does=C2=
+=A0decide to sell the company for cash, it needs to maximize value for shar=
+eholders. This is called the board=E2=80=99s =E2=80=9CRevlon duty,=E2=80=9D=
+ but it is=C2=A0pretty limited. It does=C2=A0not=C2=A0mean that the board h=
+as to sell to Musk if his offer is higher than the current stock price. It =
+just means that, if=C2=A0the board decides to sell for cash, it needs to ma=
+ximize value.[6] But even if the board does decide to sell, it could concei=
+vably take another offer at a=C2=A0lower price than Musk=E2=80=99s bid, if =
+either (1) the other deal is for=C2=A0stock, whose valuation is more subjec=
+tive=C2=A0or (2) the other deal is, in the board=E2=80=99s judgment, more l=
+ikely to be completed, for instance because it has actual financing and Mus=
+k=E2=80=99s doesn=E2=80=99t really.Another relevant rule is that, if the bo=
+ard says no, any defensive measures it puts in place have to be reasonable.=
+ This is called the =E2=80=9CUnocal standard.=E2=80=9D The board needs to s=
+how that it has =E2=80=9Creasonable grounds for believing that a danger to =
+corporate policy and effectiveness existed,=E2=80=9D and that its defensive=
+ measures were =E2=80=9Creasonable in relation to the threat posed.=E2=80=
+=9D This is also not that high a bar, though: The poison pill is a fairly s=
+tandard defensive measure at this point, and the board=E2=80=99s conclusion=
+ that a takeover price is =E2=80=9Cinadequate=E2=80=9D is generally enough =
+of a threat.Why would Twitter's=C2=A0board of directors want to stop Elon M=
+usk? There is one main reason, which is that they (might) believe, in good =
+faith, that the company is worth more than the $54.20 per share that he has=
+ offered to pay for it. This is of course a debatable point. Twitter was tr=
+ading in the $70s last summer, so there is some recent evidence that it mig=
+ht be worth more than $54.20. But in the weeks before Musk built his stake,=
+ it was trading in the $30s, so the market no longer believes that. Twitter=
+=E2=80=99s own performance is what caused the price decline, and it is not =
+obvious that it will turn around soon.Awkwardly, Twitter=E2=80=99s own advi=
+ser, Goldman Sachs Group Inc. (disclosure: I also used to work there) put a=
+ $30 price target on Twitter in February. (Twitter has also  hired JPMorgan=
+; Bloomberg tells me its most recent price target is $56.)=C2=A0I know this=
+ because Musk tweeted out the research report. Goldman=E2=80=99s research a=
+nalysts, who put out this price target, are pretty independent from its inv=
+estment bankers, who are advising Twitter, and there=E2=80=99s no reason th=
+at the bankers could not find the $54.20 price inadequate even as the analy=
+sts think Twitter would be lucky to get $30. But it is the sort of thing th=
+at Musk rightly makes fun of. Still, enough  shareholders and analysts seem=
+ to think that $54.20 is inadequate that Twitter=E2=80=99s board, in its in=
+dependent business judgment, could conclude the same thing.=C2=A0And so the=
+ board put in place a poison pill to stop Musk from going directly to the s=
+hareholders with his $54.20 bid. Maybe now Musk and the board will negotiat=
+e a higher price, perhaps $69. Or maybe now the board will find a higher bi=
+dder. Or maybe not; maybe the board will just say no to Musk and that will =
+be that. It is not the most=C2=A0common=C2=A0result in these situations, ju=
+st because then the stock would probably go back down, at least in the shor=
+t run, and shareholders would be mad. But it is a thing that the board can =
+do, and that a court generally won=E2=80=99t second-guess.But I also want t=
+o spend some time on=C2=A0other=C2=A0reasons that a board of directors migh=
+t want to stop Elon Musk, reasons in the general =E2=80=9Ccoercive takeover=
+ tactics=E2=80=9D bucket. Let me just list a few things that the board=E2=
+=80=99s lawyers might say if this poison pill ever gets litigated.First, Mu=
+sk=C2=A0did=C2=A0acquire 9.1% of the company secretly, in the open market, =
+paying prices in the high $30s to get a start on his takeover without payin=
+g a control premium. Crucially, he seems to have done some of this acquirin=
+g=C2=A0illegally:=C2=A0He was required by law to disclose his ownership sta=
+ke, and probably his intention to take over the company, by March 24, but h=
+e waited until April 4 to make that disclosure, and claimed to be a passive=
+ investor when he finally did. This delay allowed him to buy an extra 13 mi=
+llion shares at lower prices,  saving him (and costing shareholders)=C2=A0o=
+n the order of $140 million.The consensus seems to be that the U.S. Securit=
+ies and Exchange Commission can=E2=80=99t do much about this, and while the=
+re is a shareholder lawsuit about it already, it=E2=80=99s not clear that t=
+hat will accomplish much either. Sometimes companies will ask courts to =E2=
+=80=9Csterilize=E2=80=9D an acquirer=E2=80=99s shares, preventing him from =
+voting them, if he acquired them in violation of the disclosure rules, but =
+those requests don=E2=80=99t have much success. Basically Musk seems to hav=
+e broken the law to buy his shares, but=C2=A0no one can do much about it.Bu=
+t Twitter can stop him from buying=C2=A0more=C2=A0stock secretly, by implem=
+enting the pill. It can=C2=A0reasonably argue=C2=A0that it is protecting sh=
+areholders from being tricked by illegal secret stock accumulation, and tha=
+t Musk has already demonstrated that he is willing to do illegal secret sto=
+ck accumulation.=C2=A0Second, Musk has arguably made at least one coercive =
+threat: He has said, in his public communications to the board, that if he =
+can=E2=80=99t buy Twitter at $54.20 he will dump his 9.1% stake, driving do=
+wn the stock price. This does not strike me as a particularly bad coercive =
+threat =E2=80=94=C2=A0it doesn=E2=80=99t really leave Twitter worse off tha=
+n it was before he arrived =E2=80=94=C2=A0but Tulane law professor Ann Lipt=
+on argued on Twitter=C2=A0that =E2=80=9Cshareholders asked to vote or tende=
+r on this offer would be doing so under threat, which the Board is legally =
+entitled to protect against,=E2=80=9D and I think it is certainly an argume=
+nt that the board could make.Third, Musk has said that he wants to buy all =
+of Twitter at $54.20 per share. But he has also implied that he=C2=A0doesn=
+=E2=80=99t. At a conference last week, Musk  said that he intends =E2=80=9C=
+to retain as many shareholders as is allowed by the law in a private compan=
+y.=E2=80=9D It is not at all clear what he means by that, or how seriously =
+he means it. But it is reminiscent of what he said when he briefly pretende=
+d he was going to take Tesla Inc. private: He wanted to allow Tesla=E2=80=
+=99s existing public shareholders to roll over into the private company. (I=
+t was not clear then either what he meant.) And, crucially,=C2=A0 that was =
+part of his financing plan:=C2=A0He claimed that his takeover of Tesla woul=
+d not require the full amount of cash to buy out all the shares, because he=
+ assumed a lot of public shareholders would roll over.The financing for Mus=
+k=E2=80=99s Twitter bid  is also murky, and I suppose it might rely on the =
+same sort of vague wishful assumption that a lot of shareholders will roll =
+over. Musk will need about $40 billion to buy out all of Twitter=E2=80=99s =
+shares that he does not already own, but what if his plan is to spend, say,=
+ $25 billion, and to assume that holders of the other $15 billion will roll=
+ their stock over into a new Twitter, controlled by Elon Musk?If he negotia=
+tes a merger with the board, then the board can insist on protections for t=
+he shareholders: It can require that shareholders be given a choice of cash=
+ or stock, that there be enough funding for everyone to elect cash, that th=
+e shareholders=C2=A0get full disclosure before electing, etc. Maybe some sh=
+areholders will want to roll their shares into Musk Twitter.But if Musk lau=
+nches a hostile tender offer=C2=A0without negotiating with the board, he mi=
+ght try to finesse this point. He might offer to buy, you know, 75% of the =
+company or whatever, saying =E2=80=9CI am confident that a lot of sharehold=
+ers will want to keep their shares so I am not offering to buy it all.=E2=
+=80=9D You might end up in coercive-takeover territory, where some sharehol=
+ders want to cash out but can=E2=80=99t, or where some shareholders rush to=
+ cash out because they fear getting stuck with stock in a Musk-controlled T=
+witter.[7] This would be pretty weird, and I do not think it is particularl=
+y likely, but it is a possibility given his history and his statements and =
+his caginess about his financing. And I could see Twitter=E2=80=99s board j=
+ustifying the pill on these grounds too, as a way to prevent Musk from buyi=
+ng less than all of Twitter on the cheap.Anyway this Wednesday is April 20,=
+ that is, 4/20, the holiest day of the year for people who can=E2=80=99t st=
+op making=C2=A0weed jokes, like Musk and, now, Twitter. I assume that on We=
+dnesday morning either they will sign a friendly deal, or Musk will launch =
+his tender offer (despite the pill!?). Otherwise they=E2=80=99ll have to wa=
+it until June 9.Elsewhere in all this:=09At FT Alphaville,  Sujeet Indap bu=
+ilt an LBO model suggesting that there=E2=80=99s a way for a Twitter acquis=
+ition to work out.=09At the Diff,  Byrne Hobart has some strategic suggesti=
+ons for whoever ends up owning Twitter.=09Here is   a Bloomberg News story =
+from last week about Elon Musk=E2=80=99s retail-investor fans buying Twitte=
+r stock. They don=E2=80=99t seem to be buying=C2=A0that much, though: =E2=
+=80=9CThe $423.9 million added from retail traders since the disclosure of =
+his stake, for instance, equals about 1.2% of Twitter=E2=80=99s current mar=
+ket value.=E2=80=9D Meanwhile, given the stock price, it does not seem like=
+ merger arbitrageurs are piling into Twitter stock because they expect a de=
+al to get done.=09Recently Musk has been going around complaining that, whe=
+n he pretended in 2018 that he was going to take Tesla Inc. private, he rea=
+lly did have =E2=80=9Cfunding secured.=E2=80=9D I   remember reading=C2=A0t=
+he Securities and Exchange Commission=E2=80=99s complaint against Musk in 2=
+018, and it seemed pretty clear that he had had only the vaguest of chats a=
+bout funding; in the subsequent years he has never provided any evidence at=
+ all that he actually had the funding.=C2=A0He signed a settlement with the=
+ SEC over this incident, and his  current complaining seems like  a violati=
+on of that settlement. None of this matters to the Twitter bid, I guess, bu=
+t it remains annoying.=09Also a judge seems to have ruled that, when he sai=
+d he had =E2=80=9Cfunding secured,=E2=80=9D   that was false?=C2=A0
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Meanwhile in crypto
+   =20
+ =20
+Here=E2=80=99s a trade you can=E2=80=99t do:=09Find a small publicly traded=
+ bank. Say it=E2=80=99s a bank with $10 billion of assets, with an equity m=
+arket capitalization of $1 billion. (These are realistic numbers; the marke=
+t value of a bank=E2=80=99s stock will generally be much lower than the val=
+ue of its assets, because most of those assets are in effect owed to its de=
+positors.[8])=09Buy 51% of the stock for $510 million or whatever.=C2=A0=09=
+Vote out the board, vote in a new board and=C2=A0make yourself the chief ex=
+ecutive officer.=09Take the $10 billion in the vault and send it to yoursel=
+f, making $10 billion on your $510 million investment.=09Smirk =E2=80=9Cwha=
+t, I own the bank, I take the money,=C2=A0that=E2=80=99s how it works.=E2=
+=80=9DThat=E2=80=99s not how it works,=C2=A0you can=E2=80=99t do this,[9] i=
+f you did do it you would go to prison, but you=E2=80=99d be stopped well b=
+efore that point. But in its outlines it is a tempting and elegant=C2=A0tra=
+de, and we have  talked about variations=C2=A0that work a little better. (T=
+he guy we talked about=C2=A0did=C2=A0go to prison, though he did get the mo=
+ney first, so his version worked only a little better.)The basic idea of th=
+e trade is that there exist in the world some very large=C2=A0pots of money=
+ =E2=80=94=C2=A0banks, insurance companies, asset managers, etc. =E2=80=94=
+=C2=A0that are=C2=A0controlled=C2=A0by relatively small=C2=A0companies. It =
+takes a smaller amount of money to buy control of the=C2=A0company, and the=
+n you get to decide what to do with the larger pot of money that the compan=
+y manages. In the world of traditional finance, this is a well-known proble=
+m, and those pots of money tend to be very carefully regulated to guard aga=
+inst some opportunist taking control of them on the cheap and draining the =
+money from the pot.In crypto, etc. etc. etc. etc. etc. you know how this is=
+ gonna go. Here=E2=80=99s Anthony Lee Zhang on Twitter:Beanstalk, a moderat=
+ely popular new algo-stable protocol, just got attacked for $80MThis one is=
+ a very interesting hack: rather than exploit a bug in the code, it was a "=
+governance attack". My understanding is that holders of beanstalk equity to=
+ken holders can vote on changes to the protocol: literally, chunks of code =
+that are added to the protocolThe way an algo-stable works, there's an equi=
+ty layer and a debt (stablecoins) layer, and possibly a bunch of reserves, =
+so the equity layer effectively has control over a bunch of "stuff" that th=
+e protocol ownsHence, a fairly simple attack:1. Propose a piece of code to =
+the protocol that says "send the entire treasury to my address A"2. Buy a b=
+unch of equity tokens and vote the change in3. Send the entire treasury to =
+your address AAnd here is CoinDesk=E2=80=99s summary:The attacker took out =
+a flash loan on lending platform Aave which enabled them to amass a large a=
+mount of Beanstalk=E2=80=99s native governance token, Stalk. With the votin=
+g power granted by these Stalk tokens, the attacker was able to quickly pas=
+s a malicious governance proposal that drained all protocol funds into a pr=
+ivate Ethereum wallet.Various crypto pots of money are controlled by govern=
+ance tokens, and the market capitalization of the governance token is often=
+ a lot lower than the value in the pot, for basically the same reasons that=
+ the market capitalization of a bank is generally much lower than the value=
+ of the bank=E2=80=99s assets. And the governance token can, by majority vo=
+te, decide what to do with the pot. (Sometimes =E2=80=94=C2=A0many pots are=
+ better designed than this!) And in crypto, you can often do a series of tr=
+ansactions as a single integrated=C2=A0transaction, in which you take out a=
+ flash loan to buy all the governance tokens, vote the governance tokens to=
+ give yourself the pot of money, use some of the pot to repay the flash loa=
+n and keep the rest for yourself =E2=80=94=C2=A0all at once. And so someone=
+ did.=C2=A0Again: You could do exactly this trade with a=C2=A0bank, instead=
+ of a stablecoin, if banks were stupidly designed. But they are not![8] Thi=
+s is=C2=A0obvious to banking people but perhaps not to everyone: The way a =
+bank works is that it takes deposits (and owes money back to depositors) an=
+d uses them to make loans, buy bonds, etc. A bank with $10 billion of asset=
+s might have $9 billion of deposits and $1 billion of equity value. It has =
+$10 billion of stuff, it owes $9 billion back to depositors, so there=E2=80=
+=99s $1 billion left over, which belongs to its shareholders.=C2=A0The poin=
+t is just that banks are very *leveraged*; they fund most of their assets w=
+ith deposits, so the assets are worth way more than the equity value of the=
+ bank. JPMorgan Chase & Co. has a market capitalization of about $370 billi=
+on.[9] Among other things because they don=E2=80=99t keep the deposits in c=
+ash in the vaults, etc., though that is not actually as big an obstacle as =
+it seems. The trick is to sell the bank=E2=80=99s $10 billion of assets, le=
+nd the $10 billion to yourself instead, and use it to buy yachts. That tric=
+k also does not work, though, usually.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Hedging vs. manipulation
+   =20
+ =20
+Two years ago this week, the price of oil futures became negative. It was w=
+eird and we  talked about it a  bunch.  One thing that we  talked about was=
+ the trade-at-settlement mechanism. The way TAS works is that, sometime in =
+the middle of the trading day, I agree to buy futures from you at the end o=
+f the day, for whatever the closing (settlement) price happens to be (plus =
+or minus a few pennies of premium or discount). We agree on a quantity but =
+not a price; we just take whatever the closing price is as the price for ou=
+r trade.You might be doing this because you are a price-insensitive natural=
+ seller. I, on the other hand, might be an arbitrageur or market maker or p=
+rop trader; I might not want to end up owning all those futures. I will hed=
+ge my transaction: I=E2=80=99ll buy 100 contracts from you via TAS, and the=
+n sell 100 contracts in the market =E2=80=94=C2=A0at actual prices =E2=80=
+=94=C2=A0to end up flat. I might try to do this hedging sometime near the c=
+lose of trading that day, so that my selling prices will roughly match the =
+settlement price at which I am buying.If I do a lot of selling=C2=A0right a=
+t the close, that will have a tendency to drive down the closing price. If =
+there are no other big=C2=A0buyers=C2=A0right at the close, this can be ver=
+y lucrative for me. For instance if the price is $20, half an hour before t=
+he close, and I start selling a bunch and the price drops to $10, and if I =
+sell some more and it drops to $0, and I sell even more and it drops to neg=
+ative $10, and so forth, I might end up selling my contracts at an average =
+price of, say, negative $10, and then I buy from you at the settlement pric=
+e of, say, negative $37.63, which was the actual closing price of West Texa=
+s Intermediate crude futures on April 20, 2020. So I make $27.63 per barrel=
+.=C2=A0A point that I often make is that it is very hard, in this scenario,=
+ to distinguish proper=C2=A0=E2=80=9Chedging=E2=80=9D (I am long TAS, so I =
+hedge by selling futures)=C2=A0from improper =E2=80=9Cmanipulation=E2=80=9D=
+ (I am long TAS, so I push down the settlement price by selling futures). O=
+r rather, two related points that I often make are:=09It is hard to disting=
+uish hedging from manipulation just by looking at trading history, but=09Th=
+e way people distinguish these things in practice is by looking at the trad=
+ers=E2=80=99 chat logs and see if they say things like =E2=80=9Cboy I reall=
+y manipulated that price, hope I don=E2=80=99t go to prison.=E2=80=9DAnyway=
+ the people who made money trading TAS oil contracts that day  had some bad=
+ chat logs:At 3:29 p.m. on April 20, 2020 -- the only day that oil prices h=
+ave ever dropped below zero -- a British trader sent a message to his buddi=
+es: =E2=80=9CWe pushed each other so hard for years for this one moment =E2=
+=80=A6 And we f[******] blitzed it boys.=E2=80=9DMoments earlier, one of hi=
+s colleague wrote on their WhatsApp message group, =E2=80=9CPlease don=E2=
+=80=99t tell anyone what happened today lads x.=E2=80=9DThose written excha=
+nges among traders dubbed the =E2=80=9CEssex Boys,=E2=80=9D who made $700 m=
+illion when oil collapsed, were cited by a U.S. judge who gave the green li=
+ght to a proposed class-action lawsuit filed against them in August 2020. H=
+is ruling was unsealed Tuesday in Chicago.=C2=A0 ...=E2=80=9CThe content of=
+ their communications, along with the high degree of correlative trading am=
+ong most of them, give rise to a highly plausible inference of an agreement=
+ among them,=E2=80=9D the judge wrote in his unsealed order, which included=
+ excerpts of messages between the traders.=C2=A0Yep! That is how it works.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Russia Has Found No Place Yet to  Invest Reserves After Sanctions. Can Russ=
+ia Pay its 2022 Dollar Bond Obligation in Rubles? Bank of America Traders G=
+et Boost From Market Volatility,  Beat Estimates. Ex-Bank of America Trader=
+ Pleads Guilty to  Treasury Spoofing. Homeowner Groups Seek to Stop Investo=
+rs From Buying Houses to Rent. Goldman=E2=80=99s  Youngest Black Partner Le=
+aving to Start His Own Fund.  Infowars Files for Bankruptcy Amid Sandy Hook=
+ Lawsuits.=C2=A0 Evergreen Ship Lodged in Chesapeake for a Month Moving Aga=
+in.=C2=A0FDA Probes Lucky Charms=E2=80=99 Possible Link to Illnesses.=C2=A0=
+Man wins $450K lawsuit after surprise work birthday party triggers panic at=
+tack.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, r=
+ight in your inbox, please=C2=A0subscribe at this link. Or you can subscrib=
+e to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Don=
+=E2=80=99t take this too literally. Some of these things are pretty hard to=
+ do. The second-step merger in Thing 3, for instance, would probably be sub=
+ject to entire fairness review as I describe it in the text, and you=E2=80=
+=99d be unlikely to get away with it. Even in Thing 1, your appointed direc=
+tors will have fiduciary duties to all shareholders, and buying 51% in the =
+open market seems hard. I am describing these things to illustrate the conc=
+epts, not because they can really all be done.[2] That is, the acquirer has=
+ 15 shares and everyone else combines for 85. Then everyone else gets doubl=
+ed, giving them 170, while the acquirer still only has 15, or 15/185 =3D 8.=
+1% of the stock.[3] The traditional =E2=80=9Cflip-in=E2=80=9D pill operates=
+ by distributing =E2=80=9Crights=E2=80=9D to shareholders, basically option=
+s to buy shares; if an acquirer =E2=80=9Ctriggers=E2=80=9D the pill by goin=
+g above 15%, then the rights become exercisable. Generally the rights have =
+an exercise price that is rather higher than the current stock price, and y=
+ou can buy stock with a current market value of 200% of the exercise price.=
+ So you have to pay, say, $210 to get $420 worth of stock. Shareholders wou=
+ld be expected to exercise the rights, buying a lot of stock and diluting t=
+he acquirer. Modern pills also have an =E2=80=9Cexchange=E2=80=9D provision=
+ that works like I said in the text: Instead of asking shareholders to put =
+up a bunch more cash (which they might not do!), the exchange provision jus=
+t gives every shareholder one free share in exchange for their rights, dilu=
+ting the acquirer.[4] Which would take forever. Twitter=E2=80=99s annual me=
+eting to elect directors is already scheduled for May 25, and Musk is proba=
+bly too late to=C2=A0run a proxy fight for that meeting. Also Twitter has a=
+ classified board, meaning that only one-third of directors are elected eac=
+h year, so he would have to win two proxy fights to get a board majority. I=
+ncidentally, Twitter is trying to *get rid of* the classified board, which =
+requires an 80% vote of shareholders, though I wonder if it regrets that ef=
+fort given Musk=E2=80=99s arrival.[5] William Cohan suggests that if =E2=80=
+=9Cthe $54.20 price is =E2=80=98fair,=E2=80=99 from a financial point of vi=
+ew,=E2=80=9D then Twitter=E2=80=99s board =E2=80=9Cwill have little choice =
+but to accept Musk=E2=80=99s offer.=E2=80=9D This is not quite how it works=
+. In general, a board can reject an offer that it thinks is inadequate. Som=
+etimes it will get an opinion from a financial adviser saying that the offe=
+r is inadequate. In general, a board can accept an offer that it thinks is =
+fair; almost always, it will get an opinion from a financial adviser saying=
+ that the offer is fair. *These are different words*, and while they may no=
+t *mean* anything different, they allow for wiggle room. Thus a board can r=
+eject an offer of $54.20 per share and get an =E2=80=9Cinadequacy=E2=80=9D =
+opinion saying $54.20 is inadequate, and then later decide it has no choice=
+ but to accept the same offer and get a =E2=80=9Cfairness=E2=80=9D opinion =
+saying $54.20 is fair, and the opinions will be from the same bank and base=
+d on the same facts, and it=E2=80=99s all fine. =E2=80=9CThe price can be c=
+onsidered fair but still inadequate,=E2=80=9D wrote Steven Davidoff about t=
+his practice in 2008, and: =E2=80=9CSince financial valuation is a subjecti=
+ve exercise and there are no set, agreed guidelines or practices for it, th=
+ere is substantial leeway for investment banks to arrive at their client's =
+desired conclusion.=E2=80=9D The narrow point here is that, if Twitter want=
+ed to do this deal, it could probably get a fairness opinion from its advis=
+ers saying that $54.20 is =E2=80=9Cfair,=E2=80=9D but=C2=A0that does not in=
+ any way obligate Twitter to take the deal.[6] I am oversimplifying when I =
+say =E2=80=9Csell for cash,=E2=80=9D though it is a customary oversimplific=
+ation. Delaware law has an annoying concept of a =E2=80=9Cchange of control=
+,=E2=80=9D in which selling a company for cash changes its control, because=
+ the shareholders are cashed out and someone else controls the company, whi=
+le selling it for stock does not, because the shareholders remain sharehold=
+ers of the acquirer. But if the acquirer is itself a controlled company =E2=
+=80=94=C2=A0if it has one big shareholder who will own a majority of the su=
+rviving company, etc. =E2=80=94=C2=A0then that is also a =E2=80=9Cchange of=
+ control=E2=80=9D and implicates Revlon. None of that seems important here.=
+[7] Twitter=E2=80=99s board might add that Musk, as a controlling sharehold=
+er, has some history of disregard for minority shareholder rights. Currentl=
+y some Tesla shareholders are  suing Musk over Tesla=E2=80=99s takeover of =
+SolarCity, another company that Musk controlled, arguing that the takeover =
+benefited Musk at the expense of public shareholders. I don=E2=80=99t know =
+how strong that case is, but again it=E2=80=99s something for the board to =
+mention. Incidentally a ruling on that case is expected this month. Fun!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgbg2h.621y/d49f8314.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_1691637_1000752217.1650307315315
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Poison pillsHere are some things you could do[1]: Buy 51% of the stock of a=
+ public company in the open market over time, just buying wheneve
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBc59e61f9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBecc4301b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCb64cd791" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Poison pills</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here are some things you could do[1]:<=
+/p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px =
+0;">=09<li style=3D"margin-bottom: 5px;">Buy 51% of the stock of a public c=
+ompany in the open market over time, just buying whenever anyone sells, loo=
+king for any blocks of stock that come loose, paying the market price for e=
+ach trade, etc. To put numbers on it, let=E2=80=99s say you start buying at=
+ around $40 per share and finish at around $50 per share. (Your buying, and=
+ the legally required disclosure of your ownership, will push up the price.=
+) Once you have 51%, you take control, vote out the board, vote in your bud=
+dies, elect a new chief executive officer and run the company however you w=
+ant.</li>=09<li style=3D"margin-bottom: 5px;">Buy 51% of the stock of a pub=
+lic company in a tender offer. A tender offer is just a big coordinated pub=
+lic offer to buy stock, open=C2=A0to all shareholders at the same price.=C2=
+=A0You announce to all shareholders, =E2=80=9CI want to buy 51% of this com=
+pany and I=E2=80=99ll pay $50 per share in cash, but I won=E2=80=99t buy mo=
+re than 51%.=E2=80=9D More than 51% tender, you prorate the offer (not buyi=
+ng all the shares that are tendered), you get to exactly 51%, paying $50 pe=
+r share. You proceed as above, taking control of the board etc.</li>=09<li =
+style=3D"margin-bottom: 5px;">You acquire 51% of the company and take contr=
+ol of the board, as in either Thing 1 or Thing 2. Then you propose a merger=
+ at $30 per share. The new board =E2=80=94=C2=A0your buddies =E2=80=94=C2=
+=A0agrees, and submits it to a shareholder vote. You vote your 51% of the s=
+hares in favor, and the merger happens; you acquire the remaining 49% of th=
+e stock at $30 per share. The holders of that 49% =E2=80=94=C2=A0who did no=
+t sell to you at $50 in the first step =E2=80=94=C2=A0are forced to sell to=
+ you at $30 in the second step. (That=E2=80=99s how mergers work: When the =
+merger happens, the stock is automatically converted into whatever the merg=
+er consideration is, here $30 in cash.)</li>=09<li style=3D"margin-bottom: =
+5px;">Same as Thing 1, but instead of buying 51% you buy, I don=E2=80=99t k=
+now, 30%. At 30% you just need to convince a few other shareholders to vote=
+ with you to kick out the board, etc. As the biggest shareholder, you might=
+ have effective control even without a majority.</li>=09<li style=3D"margin=
+-bottom: 5px;">Offer to buy 100% of the stock of the company in a tender of=
+fer. Announce to all shareholders, =E2=80=9CI want to buy 100% of this comp=
+any and I=E2=80=99ll pay $50 per share in cash. But let me warn you. If I g=
+et above 51%, but not to 100%, I will definitely do a second-step merger (a=
+s in Thing 3), and I=E2=80=99ll do it at $30 per share. So if you want $50,=
+ you better tender now, because if you don=E2=80=99t you=E2=80=99re getting=
+ $30.=E2=80=9D Shareholders might think that $50 is too low, and might not =
+want to tender. But they can=E2=80=99t be sure that 51% of the stock=C2=A0<=
+em>won=E2=80=99t=C2=A0</em>tender, and they don=E2=80=99t want to be left o=
+ut. So they tender for $50 to avoid getting stuck with $30. (This is called=
+ a =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/274078=
+97.282598/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVW5vY2FsX0NvcnAuX3YuX01lc=
+2FfUGV0cm9sZXVtX0NvLg/607f07ceef4b8524a319a23cBd082aa10" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">two-tier t=
+ender offer</a>.=E2=80=9D)</li>=09<li style=3D"margin-bottom: 5px;">Same as=
+ Thing 5 but you don=E2=80=99t make the threat explicit. =E2=80=9CI want to=
+ buy 100% of this company and I=E2=80=99ll pay $50 per share in cash,=E2=80=
+=9D you say. But you have a reputation for being tough, and a history of tr=
+eating minority shareholders poorly. The threat is implicit, so shareholder=
+s tender at $50 to avoid ending up=C2=A0in the minority of a company that y=
+ou control.</li></ol><p style=3D"margin: 16px 0;">These are the things, the=
+ classic things.=C2=A0They are =E2=80=9Ccoercive takeover tactics,=E2=80=9D=
+ in the lingo. They are ways for someone =E2=80=94=C2=A0a =E2=80=9Ccorporat=
+e raider,=E2=80=9D=C2=A0in the lingo =E2=80=94=C2=A0to take over a company =
+without paying a fair price for it, or without offering every shareholder t=
+he same price. Or, I mean, <em>arguably=C2=A0</em>without paying a fair pri=
+ce; you might think that some of these things are fine. (If you can get 51%=
+ of the shareholders of a company to sell you their stock in market transac=
+tions, what=E2=80=99s the problem?) But boards of directors of public compa=
+nies generally take a dim view of these things. They think of themselves as=
+ fiduciaries for all of the shareholders, and they do not like the idea of =
+someone buying the company out from under them.=C2=A0</p><p style=3D"margin=
+: 16px 0;">Instead, the board of directors will prefer a nice tidy negotiat=
+ion between the buyer and the board. The buyer comes to the board and offer=
+s a merger, and they negotiate the terms with each other. If the board agre=
+es to a deal, it will generally involve the buyer paying the same price to =
+every shareholder, and it will be a price that the board thinks reflects th=
+e full=C2=A0value of the company. Once the buyer has an agreement with the =
+board, they will go out together, buyer and board, and seek shareholder app=
+roval. (Either by signing a merger agreement and submitting it to a shareho=
+lder vote, or by doing a tender offer in which the buyer asks to buy all th=
+e shares from shareholders=C2=A0directly, but on terms approved by the boar=
+d.) If the board does not agree to the deal, the buyer goes away peacefully=
+ and does not cause trouble by buying more stock, launching a tender offer =
+to shareholders without board approval, or running a proxy fight in which t=
+he buyer tries to replace the board with its own nominees. That is the dign=
+ified, controlled way that corporate boards generally prefer to do mergers-=
+and-acquisitions negotiations.</p><p style=3D"margin: 16px 0;">Many buyers =
+like to do M&amp;A this way too. (If you are taking over a company, it help=
+s to be friendly with the people running the company! You=E2=80=99ll need t=
+hem to help you run the company!) But some buyers =E2=80=94=C2=A0the corpor=
+ate raiders, etc. =E2=80=94=C2=A0like to retain the ability to go hostile, =
+to do unsolicited tender offers or proxy fights if the board rejects their =
+offers. For one thing, sometimes boards are unreasonable, and going directl=
+y to the shareholders is the only way to get a deal done. For another thing=
+, the=C2=A0<em>threat=C2=A0</em>of going hostile can be helpful in negotiat=
+ions with the board.</p><p style=3D"margin: 16px 0;">In the U.S., the board=
+ has a powerful tool in this fight. It is=C2=A0the poison pill.=C2=A0(Every=
+one calls it that, though its technical legal name is a =E2=80=9Cshareholde=
+r rights plan.=E2=80=9D) The board of directors of a company, feeling threa=
+tened=C2=A0by a big acquirer of its=C2=A0stock or a corporate raider propos=
+ing to buy the company, will adopt a =E2=80=9Cshareholder rights plan.=E2=
+=80=9D The gist of the plan is that if anyone =E2=80=94=C2=A0meaning, basic=
+ally, the buyer =E2=80=94=C2=A0acquires more than X% of the company=E2=80=
+=99s stock (often X is 15 or 20), then that person=E2=80=99s shares go poof=
+. You can=E2=80=99t actually do that =E2=80=94=C2=A0you can=E2=80=99t make =
+one shareholder=E2=80=99s shares go poof =E2=80=94=C2=A0but you can get arb=
+itrarily close by allowing all of the=C2=A0<em>other </em>shareholders of t=
+he company to buy many=C2=A0<em>more=C2=A0</em>shares at a discount, or by =
+giving them more shares for free. So you say =E2=80=9Cif anyone goes above =
+15% of the stock, then we will distribute one free share of stock for each =
+existing share,=C2=A0<em>except=C2=A0</em>that the person who went above 15=
+% doesn=E2=80=99t get any of the free stock.=E2=80=9D So if someone gets 15=
+%, then everyone=C2=A0<em>else</em>=E2=80=99s shares get doubled, taking th=
+e acquirer down to about 8%.[2] (In theory you could do this repeatedly, so=
+ that the acquirer could=C2=A0<em>never=C2=A0</em>get a controlling stake.)=
+</p><p style=3D"margin: 16px 0;">The actual mechanics are a bit more compli=
+cated than that, but not worth worrying about[3]; even the summary in the p=
+revious paragraph=C2=A0is not worth worrying about. The point is that the p=
+ill makes it very bad for anyone to get above 15% of the stock =E2=80=94=C2=
+=A0it basically makes their stock go poof =E2=80=94 so nobody does. For a l=
+ong time it was common to say that a poison pill had never been triggered;=
+=C2=A0that is <a href=3D"https://link.mail.bloombergbusiness.com/click/2740=
+7897.282598/aHR0cHM6Ly93d3cubHcuY29tL3VwbG9hZC9wdWJjb250ZW50L19wZGYvcHViMjU=
+2M18xLnBkZg/607f07ceef4b8524a319a23cB1c6ce284" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">not quite true</a> a=
+nymore, but it is still <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27407897.282598/aHR0cHM6Ly93d3cuZGVhbGxhd3llcnMuY29tL2Jsb2cvMjAxOC8wN=
+y9wb2lzb24tcGlsbHMtdWgtdGhhdHMtbm90LWhvdy10aGV5LXdvcmsuaHRtbA/607f07ceef4b8=
+524a319a23cBc47c0670" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">close enough</a>. When a board adopts a poiso=
+n pill, for all practical purposes that prevents a buyer from buying more t=
+han 15% of the=C2=A0stock, either in the open market or in a tender offer. =
+So it forces the buyer to negotiate with the board. If the buyer wants to b=
+uy the company, it has to strike a deal with the board (which will then get=
+ rid of the pill); it can=E2=80=99t just go directly to the shareholders to=
+ buy stock, because the pill will make its shares go poof.</p><p style=3D"m=
+argin: 16px 0;">(Some disclosure: The poison pill was invented by the law f=
+irm of Wachtell, Lipton, Rosen &amp; Katz, where I worked briefly in the mi=
+d-2000s. In my discussion of takeover defenses and tactics, I am drawing on=
+ Wachtell=E2=80=99s =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/27407897.282598/aHR0cHM6Ly93d3cud2xyay5jb20vd2ViZG9jcy93bHJrbmV3=
+L0NsaWVudE1lbW9zL1dMUksvV0xSSy4yNzA5NC4yMC5wZGY/607f07ceef4b8524a319a23cB82=
+bb9e9f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Takeover Law and Practice</a>=E2=80=9D guide, which is wort=
+h reading if you want more detail on how this all works. But I worked there=
+ a long time ago and any errors or oversimplifications here are not the fir=
+m=E2=80=99s fault.)</p><p style=3D"margin: 16px 0;">The poison pill is a bi=
+zarre and drastic thing for a board to do =E2=80=94=C2=A0to make one shareh=
+older=E2=80=99s stock go poof! =E2=80=94=C2=A0and when it was invented in t=
+he 1980s there was some skepticism that it was legal. But the Delaware Supr=
+eme Court=C2=A0approved it, in <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27407897.282598/aHR0cHM6Ly9sYXcuanVzdGlhLmNvbS9jYXNlcy9kZWxhd2=
+FyZS9zdXByZW1lLWNvdXJ0LzE5ODUvNTAwLWEtMmQtMTM0Ni0xLmh0bWw/607f07ceef4b8524a=
+319a23cBbecba7ac" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">a 1985 decision</a>, noting that the board=E2=80=
+=99s reason for=C2=A0=E2=80=9Cthe adoption of the Rights Plan was in reacti=
+on to what it perceived to be the threat in the market place of coercive tw=
+o-tier tender offers=E2=80=9D (my Thing 5 above). Basically the idea was th=
+at (1) corporate raiders sometimes do bad coercive things to take over comp=
+anies, (2) boards have a fiduciary duty to=C2=A0<em>stop them </em>and (3) =
+drastic measures, like the poison pill, are justified to stop coercive take=
+over tactics.</p><p style=3D"margin: 16px 0;">But the pill quickly became a=
+ standard feature of corporate defense even against not-very-coercive actio=
+ns. Boards of directors have successfully used poison pills to block non-co=
+ercive, all-shares-at-the-same-price tender offers, and to put limits on ac=
+tivists=E2=80=99 ability to run=C2=A0proxy fights. The broad general rule i=
+s that the board gets to decide on takeovers, and that if it acts in good f=
+aith to prevent a change of control, it can, even if shareholders would pre=
+fer to take the money.</p><p style=3D"margin: 16px 0;">So what does this ha=
+ve to do with Elon Musk.</p><p style=3D"margin: 16px 0;">This weekend, Twit=
+ter Inc.=E2=80=99s board=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjItMDQtMTUvdHdpdHRlci1hZG9wdHMtcG9pc29uLXBpbGwtdG8td2FyZC1vZmYtbX=
+Vzay10YWtlb3Zlcj9jbXBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cBda146cd4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> adopted a poison pill</=
+a> to protect itself against Elon Musk=E2=80=99s <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMTUvc3VyZS1lbG9uLW11c2stbWlnaHQtYnV=
+5LXR3aXR0ZXI_Y21waWQ9QkJEMDQxODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDE4JnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB1f887661" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> plan to maybe acquire the c=
+ompany</a>. You can read Twitter=E2=80=99s <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTA3NDYyL2QyOTY3NDBkZXg5OTEua=
+HRt/607f07ceef4b8524a319a23cB8cb2200a" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">press release</a> here; here=
+ is a more detailed <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27407897.282598/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL=
+2RhdGEvMTQxODA5MS8wMDAxMTkzMTI1MjIxMDc0NjIvZDI5Njc0MGQ4ay5odG0/607f07ceef4b=
+8524a319a23cBb20b3721" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">summary of the pill</a>, and <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTA3NDYyL2Qy=
+OTY3NDBkZXg0MS5odG0/607f07ceef4b8524a319a23cB4fc970a6" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">here</a> and=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/a=
+HR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEy=
+NTIyMTA3NDYyL2QyOTY3NDBkZXgzMS5odG0/607f07ceef4b8524a319a23cBb8240f3f" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">here</a> are the actual legal documents. The main mechanism of the pill=
+ is that if Musk or anyone else acquires more than 15% of Twitter's stock, =
+then every=C2=A0<em>other=C2=A0</em>Twitter shareholder will have the right=
+ to pay $210 to acquire $420 worth of Twitter stock (at then-current market=
+ prices). 420 IS A WEED JOKE. Otherwise these numbers are sort of arbitrary=
+ =E2=80=94=C2=A0again, pills don=E2=80=99t get triggered, so the particular=
+ numbers don=E2=80=99t matter=C2=A0=E2=80=94=C2=A0and I imagine the convers=
+ation went like this:</p><blockquote><p style=3D"margin: 16px 0;"><strong>L=
+awyer:</strong> The pill will be structured to let other shareholders buy a=
+ large amount of stock at a discount to dilute Musk=E2=80=99s stake.</p><p =
+style=3D"margin: 16px 0;"><strong>Twitter:</strong> How much stock?</p><p s=
+tyle=3D"margin: 16px 0;"><strong>Lawyer:</strong> It doesn=E2=80=99t really=
+ matter, but=C2=A0a lot, enough to swamp Musk. Typically the exercise price=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/a=
+HR0cHM6Ly9tYWNhYmFjdXMuY29tL2RlZmVuc2UvcG9pc29uLXBpbGw/607f07ceef4b8524a319=
+a23cB96aca7e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">would be</a>=C2=A0like $100 to $200, and you=E2=80=
+=99d get twice as much stock, like, $200 to $400 worth.</p><p style=3D"marg=
+in: 16px 0;"><strong>Twitter:</strong> We are defending against Elon Musk h=
+ere and ordinary tactics are not enough. We need to harness the power of th=
+e number 420.=C2=A0</p><p style=3D"margin: 16px 0;"><strong>Lawyer:</strong=
+> Okay then $420 worth of stock, whatever.</p></blockquote><p style=3D"marg=
+in: 16px 0;">Another, perhaps more practical=C2=A0provision of the pill say=
+s that the board can just exchange each right for one share of stock, for f=
+ree, meaning in essence that the board can double everyone else=E2=80=99s n=
+umber of shares of Twitter while holding Musk=E2=80=99s constant, without a=
+sking anyone to put in more money.=C2=A0</p><p style=3D"margin: 16px 0;">Th=
+is weekend, Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7407897.282598/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxNTQwNTI2=
+NDc0MDEzNDkxOA/607f07ceef4b8524a319a23cB04f3fb97" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">tweeted</a> =E2=
+=80=9CLove Me Tender.=E2=80=9D Because he is engaged in an annoying meme-dr=
+iven maybe-hostile-takeover-battle, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDQtMTcvbXVzay1rZWVwcy1pbnZlc3RvcnMtb24tdGhlaXItdG9lcy13=
+aXRoLWxvdmUtbWUtdGVuZGVyLXR3ZWV0P2NtcGlkPUJCRDA0MTgyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQxOCZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0875e164" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">everyon=
+e interpreted this</a> to mean something like =E2=80=9Cmaybe I will do a te=
+nder offer for Twitter, or maybe not, who knows, aren=E2=80=99t I a little =
+scamp.=E2=80=9D With the pill in place, he more or less can=E2=80=99t. He h=
+as to negotiate with the board, or run a proxy fight to replace the board,[=
+4] or get other shareholders to pressure the board to get rid of the pill, =
+or I suppose sue the board to get rid of the pill.</p><p style=3D"margin: 1=
+6px 0;">There is a <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/27407897.282598/aHR0cHM6Ly90d2l0dGVyLmNvbS9BdmlrL3N0YXR1cy8xNTE0OTk4MzA5MT=
+kwMDQ5Nzk1/607f07ceef4b8524a319a23cB30c077e7" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">popular</a> <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6L=
+y9wdWNrLm5ld3MvdGhlLXR3aXR0ZXItYm9hcmRzLXBhbmljLXJvb20v/607f07ceef4b8524a31=
+9a23cB9287fc03" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">belief</a> that, since Musk offered a cash acquisit=
+ion at a price that is a decent premium to the market price, the board is s=
+omehow either obligated to accept his deal or at least obligated to let the=
+ shareholders decide.[5] This is wrong. The board gets to decide. From <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cH=
+M6Ly93d3cud2xyay5jb20vd2ViZG9jcy93bHJrbmV3L0NsaWVudE1lbW9zL1dMUksvV0xSSy4yN=
+zA5NC4yMC5wZGY/607f07ceef4b8524a319a23cC82bb9e9f" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Wachtell=E2=80=99=
+s takeover guide</a>:</p><blockquote><p style=3D"margin: 16px 0;">It seems =
+clear that the target may, if it meets the relevant standard, =E2=80=9Cjust=
+ say no=E2=80=9D to an acquisition proposal.=C2=A0Targets of unsolicited of=
+fers have been successful in rejecting such proposals in order to follow th=
+eir own strategic plans. =E2=80=A6</p><p style=3D"margin: 16px 0;">While a =
+rights plan [i.e. poison pill]=C2=A0is often the most useful tool for stavi=
+ng off a hostile bid, it is not necessary to successfully =E2=80=9Cjust say=
+ no=E2=80=9D in every situation. What is typically necessary=E2=80=94and wh=
+at a rights plan is designed to protect=E2=80=94is a thoughtful long-term p=
+lan that was developed by a board and management whom long-term shareholder=
+s trust to deliver value.</p></blockquote><p style=3D"margin: 16px 0;">The =
+basic legal rule here is=C2=A0the =E2=80=9Cbusiness judgment rule,=E2=80=9D=
+=C2=A0which is that the board of directors runs the company and courts do n=
+ot generally second-guess their decisions if they are made carefully and in=
+ good faith. If Twitter=E2=80=99s board is advised by good bankers and lawy=
+ers, has no serious conflicts of interest,=C2=A0takes Musk=E2=80=99s offer =
+seriously, and concludes that keeping Twitter independent and executing its=
+ strategic plan will be worth more to shareholders than Musk=E2=80=99s $54.=
+20, then it can decline Musk=E2=80=99s offer.</p><p style=3D"margin: 16px 0=
+;">There are other relevant rules. One is that, if the board=C2=A0<em>does=
+=C2=A0</em>decide to sell the company for cash, it needs to maximize value =
+for shareholders. This is called the board=E2=80=99s =E2=80=9CRevlon duty,=
+=E2=80=9D but it is=C2=A0pretty limited. It does=C2=A0<em>not=C2=A0</em>mea=
+n that the board has to sell to Musk if his offer is higher than the curren=
+t stock price. It just means that, <em>if=C2=A0</em>the board <em>decides t=
+o sell for cash</em>, it needs to maximize value.[6] But even if the board =
+does decide to sell, it could conceivably take another offer at a=C2=A0lowe=
+r price than Musk=E2=80=99s bid, if either (1) the other deal is for=C2=A0<=
+em>stock</em>, whose valuation is more subjective=C2=A0or (2) the other dea=
+l is, in the board=E2=80=99s judgment, more likely to be completed, for ins=
+tance because it has actual financing and Musk=E2=80=99s doesn=E2=80=99t re=
+ally.</p><p style=3D"margin: 16px 0;">Another relevant rule is that, if the=
+ board says no, any defensive measures it puts in place have to be reasonab=
+le. This is called the =E2=80=9CUnocal standard.=E2=80=9D The board <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6L=
+y93d3cud2xyay5jb20vd2ViZG9jcy93bHJrbmV3L0NsaWVudE1lbW9zL1dMUksvV0xSSy4yNzA5=
+NC4yMC5wZGY/607f07ceef4b8524a319a23cD82bb9e9f" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">needs to show</a> th=
+at it has =E2=80=9Creasonable grounds for believing that a danger to corpor=
+ate policy and effectiveness existed,=E2=80=9D and that its defensive measu=
+res were =E2=80=9Creasonable in relation to the threat posed.=E2=80=9D This=
+ is also not that high a bar, though: The poison pill is a fairly standard =
+defensive measure at this point, and the board=E2=80=99s conclusion that a =
+takeover price is =E2=80=9Cinadequate=E2=80=9D is generally enough of a thr=
+eat.</p><p style=3D"margin: 16px 0;">Why would Twitter's=C2=A0board of dire=
+ctors want to stop Elon Musk? There is one main reason, which is that they =
+(might) believe, in good faith, that the company is worth more than the $54=
+.20 per share that he has offered to pay for it. This is of course a debata=
+ble point. Twitter was trading in the $70s last summer, so there is some re=
+cent evidence that it might be worth more than $54.20. But in the weeks bef=
+ore Musk built his stake, it was trading in the $30s, so the market no long=
+er believes that. Twitter=E2=80=99s own performance is what caused the pric=
+e decline, and it is not obvious that it will turn around soon.</p><p style=
+=3D"margin: 16px 0;">Awkwardly, Twitter=E2=80=99s own adviser, Goldman Sach=
+s Group Inc. (disclosure: I also used to work there) put a $30 price target=
+ on Twitter in February. (Twitter has also <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjItMDQtMTUvdHdpdHRlci1icmluZ3Mtb24tanBtb3JnYW4tYXMtY=
+WR2aXNlci1hbG9uZ3NpZGUtZ29sZG1hbj9jbXBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9faf0dc0" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> hired =
+JPMorgan</a>; Bloomberg tells me its most recent price target is $56.)=C2=
+=A0I know this because Musk <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27407897.282598/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvM=
+TUxNDcyNjk4MDkwOTk0ODkyOA/607f07ceef4b8524a319a23cB286b0fd2" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">tweete=
+d out the research report</a>. Goldman=E2=80=99s research analysts, who put=
+ out this price target, are pretty independent from its investment bankers,=
+ who are advising Twitter, and there=E2=80=99s no reason that the bankers c=
+ould not find the $54.20 price inadequate even as the analysts think Twitte=
+r would be lucky to get $30. But it is the sort of thing that Musk rightly =
+makes fun of. Still, enough <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjItMDQtMTQvYmlsbGlvbmFpcmUtcHJpbmNlLWFsd2FsZWVkLXJlamVjdHMtbXVzay1z=
+LXR3aXR0ZXItYmlkP2NtcGlkPUJCRDA0MTgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQxOCZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cB30cf77c6" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> shareholders</a> and <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR=
+0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9uZXdzL25vLWJvYXJkLWluLWFtZXJpY2EtaXMtZ29pbm=
+ctdG8tdGFrZS10aGF0LW51bWJlci1hbmFseXN0LW9uLW11c2tzLXR3aXR0ZXItb2ZmZXItMTkwN=
+DQyMzM0Lmh0bWw/607f07ceef4b8524a319a23cBd00db632" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">analysts</a> seem=
+ to think that $54.20 is inadequate that Twitter=E2=80=99s board, in its in=
+dependent business judgment, could conclude the same thing.=C2=A0</p><p sty=
+le=3D"margin: 16px 0;">And so the board put in place a poison pill to stop =
+Musk from going directly to the shareholders with his $54.20 bid. Maybe now=
+ Musk and the board will negotiate a higher price, perhaps $69. Or maybe no=
+w the board will find a higher bidder. Or maybe not; maybe the board will j=
+ust say no to Musk and that will be that. It is not the most=C2=A0<em>commo=
+n=C2=A0</em>result in these situations, just because then the stock would p=
+robably go back down, at least in the short run, and shareholders would be =
+mad. But it is a thing that the board can do, and that a court generally wo=
+n=E2=80=99t second-guess.</p><p style=3D"margin: 16px 0;">But I also want t=
+o spend some time on=C2=A0<em>other=C2=A0</em>reasons that a board of direc=
+tors might want to stop Elon Musk, reasons in the general =E2=80=9Ccoercive=
+ takeover tactics=E2=80=9D bucket. Let me just list a few things that the b=
+oard=E2=80=99s lawyers might say if this poison pill ever gets litigated.</=
+p><p style=3D"margin: 16px 0;">First, Musk=C2=A0<em>did=C2=A0</em>acquire 9=
+.1% of the company secretly, in the open market, paying prices in the high =
+$30s to get a start on his takeover without paying a control premium. Cruci=
+ally, he seems to have done some of this acquiring=C2=A0<em>illegally:=C2=
+=A0</em>He was required by law to disclose his ownership stake, and probabl=
+y his intention to take over the company, by March 24, but he waited until =
+April 4 to make that disclosure, and claimed to be a passive investor when =
+he finally did. This delay allowed him to buy an extra 13 million shares at=
+ lower prices, <a href=3D"https://link.mail.bloombergbusiness.com/click/274=
+07897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDQxODIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDE4=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3c7d5c2c" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> saving him (and costing shareholders)=C2=A0on the order of $140 million</=
+a>.</p><p style=3D"margin: 16px 0;">The consensus seems to be that the U.S.=
+ Securities and Exchange Commission can=E2=80=99t do much about this, and w=
+hile there is a <a href=3D"https://link.mail.bloombergbusiness.com/click/27=
+407897.282598/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCR=
+mRmeElVL3J5Q2tjRmNPWEFtOC92MA/607f07ceef4b8524a319a23cB999696e1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+shareholder lawsuit about it already</a>, it=E2=80=99s not clear that that =
+will accomplish much either. Sometimes companies will ask courts to =E2=80=
+=9Csterilize=E2=80=9D an acquirer=E2=80=99s shares, preventing him from vot=
+ing them, if he acquired them in violation of the disclosure rules, but tho=
+se requests <a href=3D"https://link.mail.bloombergbusiness.com/click/274078=
+97.282598/aHR0cHM6Ly93d3cuZGVhbGxhd3llcnMuY29tL2Jsb2cvMjAxMS8wNy9zZWN0aW9uL=
+TEzZC1yZXBvcnRpbmctY3N4LWNhc2UtaGlnaGxpZ2h0cy1uZWVkLWZvci1zZWMtYWN0aW9uLW9u=
+LWRlcml2YXRpdmVzLmh0bWw/607f07ceef4b8524a319a23cB2edd2b37" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">don=E2=
+=80=99t have much success</a>. Basically Musk seems to have broken the law =
+to buy his shares, but=C2=A0no one can do much about it.</p><p style=3D"mar=
+gin: 16px 0;">But Twitter can stop him from buying=C2=A0<em>more=C2=A0</em>=
+stock secretly, by implementing the pill. It can=C2=A0reasonably argue=C2=
+=A0that it is protecting shareholders from being tricked by illegal secret =
+stock accumulation, and that Musk has already demonstrated that he is willi=
+ng to do illegal secret stock accumulation.=C2=A0</p><p style=3D"margin: 16=
+px 0;">Second, Musk has arguably made at least one coercive threat: He <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cH=
+M6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzAwMDE0MTgwOTEvMDAwMTEwNDY1O=
+TIyMDQ1NjQxL3RtMjIxMjc0OGQxX3NjMTNkYS5odG0/607f07ceef4b8524a319a23cB2cc88d1=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">has said</a>, in his public communications to the board, that =
+if he can=E2=80=99t buy Twitter at $54.20 he will dump his 9.1% stake, driv=
+ing down the stock price. This does not strike me as a particularly bad coe=
+rcive threat =E2=80=94=C2=A0it doesn=E2=80=99t really leave Twitter worse o=
+ff than it was before he arrived =E2=80=94=C2=A0but Tulane law professor An=
+n Lipton <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.=
+282598/aHR0cHM6Ly90d2l0dGVyLmNvbS9hbm5tbGlwdG9uL3N0YXR1cy8xNTE0NTU3MzE2MzEz=
+NjI0NTc2P3M9MTEmdD1WYjVycVFMSTVoaWVJV2tHdk9SVzdB/607f07ceef4b8524a319a23cB6=
+e6563e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">argued on Twitter</a>=C2=A0that =E2=80=9Cshareholders aske=
+d to vote or tender on this offer would be doing so under threat, which the=
+ Board is legally entitled to protect against,=E2=80=9D and I think it is c=
+ertainly an argument that the board could make.</p><p style=3D"margin: 16px=
+ 0;">Third, Musk has said that he wants to buy all of Twitter at $54.20 per=
+ share. But he has also implied that he=C2=A0<em>doesn=E2=80=99t</em>. At a=
+ conference last week, Musk <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjItMDQtMTQvbXVzay1zYXlzLWhlLXMtbm90LXN1cmUtaGUtbGwtc3VjY2VlZC13aXRo=
+LXR3aXR0ZXItYWNxdWlzaXRpb24_Y21waWQ9QkJEMDQxODIyX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDE4JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0979b70a" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> said that he=
+ intends</a> =E2=80=9Cto retain as many shareholders as is allowed by the l=
+aw in a private company.=E2=80=9D It is not at all clear what he means by t=
+hat, or how seriously he means it. But it is reminiscent of what he said wh=
+en he briefly pretended he was going to take Tesla Inc. private: He wanted =
+to allow Tesla=E2=80=99s existing public shareholders to roll over into the=
+ private company. (It was not clear then either what he meant.) And, crucia=
+lly,=C2=A0<em><a href=3D"https://link.mail.bloombergbusiness.com/click/2740=
+7897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTg=
+tMDgtMTMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1zby1zZW=
+N1cmU_Y21waWQ9QkJEMDQxODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cB0a952f94" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> that was part of his financing pla=
+n</a>:=C2=A0</em>He claimed that his takeover of Tesla would not require th=
+e full amount of cash to buy out all the shares, because he assumed a lot o=
+f public shareholders would roll over.</p><p style=3D"margin: 16px 0;">The =
+financing for Musk=E2=80=99s Twitter bid <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMDQtMTUvc3VyZS1lbG9uLW11c2stbWlnaHQtYnV5LXR3aXR=
+0ZXI_Y21waWQ9QkJEMDQxODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cC1f887661" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> is also murky</a>, and I suppose it=
+ might rely on the same sort of vague wishful assumption that a lot of shar=
+eholders will roll over. Musk will need about $40 billion to buy out all of=
+ Twitter=E2=80=99s shares that he does not already own, but what if his pla=
+n is to spend, say, $25 billion, and to assume that holders of the other $1=
+5 billion will roll their stock over into a new Twitter, controlled by Elon=
+ Musk?</p><p style=3D"margin: 16px 0;">If he negotiates a merger with the b=
+oard, then the board can insist on protections for the shareholders: It can=
+ require that shareholders be given a choice of cash or stock, that there b=
+e enough funding for everyone to elect cash, that the shareholders=C2=A0get=
+ full disclosure before electing, etc. Maybe some shareholders <em>will</em=
+> want to roll their shares into Musk Twitter.</p><p style=3D"margin: 16px =
+0;">But if Musk launches a hostile tender offer=C2=A0<em>without</em> negot=
+iating with the board, he might try to finesse this point. He might offer t=
+o buy, you know, 75% of the company or whatever, saying =E2=80=9CI am confi=
+dent that a lot of shareholders will want to keep their shares so I am not =
+offering to buy it all.=E2=80=9D You might end up in coercive-takeover terr=
+itory, where some shareholders want to cash out but can=E2=80=99t, or where=
+ some shareholders rush to cash out because they fear getting stuck with st=
+ock in a Musk-controlled Twitter.[7] This would be pretty weird, and I do n=
+ot think it is particularly likely, but it is a possibility given his histo=
+ry and his statements and his caginess about his financing. And I could see=
+ Twitter=E2=80=99s board justifying the pill on these grounds too, as a way=
+ to prevent Musk from buying less than all of Twitter on the cheap.</p><p s=
+tyle=3D"margin: 16px 0;">Anyway this Wednesday is April 20, that is, 4/20, =
+the holiest day of the year for people who can=E2=80=99t stop making=C2=A0w=
+eed jokes, like Musk and, now, Twitter. I assume that on Wednesday morning =
+either they will sign a friendly deal, or Musk will launch his tender offer=
+ (despite the pill!?). Otherwise they=E2=80=99ll have to wait until June 9.=
+</p><p style=3D"margin: 16px 0;">Elsewhere in all this:</p><ul style=3D"lis=
+t-style-type: disc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"ma=
+rgin-bottom: 5px;">At FT Alphaville, <a href=3D"https://link.mail.bloomberg=
+business.com/click/27407897.282598/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzUy=
+YWVhNjctOWU2YS00ZTA0LWFkYzItNzQ0YmM0ZTBiNzM4P3NoYXJlVHlwZT1ub25naWZ0/607f07=
+ceef4b8524a319a23cBc6f2d866" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Sujeet Indap</a> built an LBO model s=
+uggesting that there=E2=80=99s a way for a Twitter acquisition to work out.=
+</li>=09<li style=3D"margin-bottom: 5px;">At the Diff, <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cudGhlZG=
+lmZi5jby9wL3RvLWVsb24tc3ViamVjdC1jb25ncmF0dWxhdGlvbnM/607f07ceef4b8524a319a=
+23cB7949e7b6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Byrne Hobart</a> has some strategic suggestions for =
+whoever ends up owning Twitter.</li>=09<li style=3D"margin-bottom: 5px;">He=
+re is <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282=
+598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTQvbXV=
+zay1zLXJldGFpbC1pbnZlc3Rvci1hcm15LWNvdWxkLW9mZmVyLXR3aXR0ZXItdGFrZW92ZXItaG=
+9wZT9jbXBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB094331ef" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  a Bloomberg News story from last w=
+eek</a> about Elon Musk=E2=80=99s retail-investor fans buying Twitter stock=
+. They don=E2=80=99t seem to be buying=C2=A0<em>that much</em>, though: =E2=
+=80=9CThe $423.9 million added from retail traders since the disclosure of =
+his stake, for instance, equals about 1.2% of Twitter=E2=80=99s current mar=
+ket value.=E2=80=9D Meanwhile, given the stock price, it does not seem like=
+ merger arbitrageurs are piling into Twitter stock because they expect a de=
+al to get done.</li>=09<li style=3D"margin-bottom: 5px;">Recently Musk has =
+been going around complaining that, when he pretended in 2018 that he was g=
+oing to take Tesla Inc. private, he really did have =E2=80=9Cfunding secure=
+d.=E2=80=9D I <a href=3D"https://link.mail.bloombergbusiness.com/click/2740=
+7897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTg=
+tMDktMjgvbXVzay1zLXRlc2xhLWZ1bi1kb2VzLW5vdC1hbXVzZS1zZWM_Y21waWQ9QkJEMDQxOD=
+IyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjIwNDE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB81=
+187278" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  remember reading</a>=C2=A0the Securities and Exchange Com=
+mission=E2=80=99s complaint against Musk in 2018, and it seemed pretty clea=
+r that he had had only the vaguest of chats about funding; in the subsequen=
+t years he has never provided any evidence at all that he actually had the =
+funding.=C2=A0He signed a settlement with the SEC over this incident, and h=
+is <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598=
+/aHR0cHM6Ly90d2l0dGVyLmNvbS9LZXViaWtvL3N0YXR1cy8xNTE0OTQ0Mzc5MzMyNDgxMDI0L3=
+Bob3RvLzI/607f07ceef4b8524a319a23cB107583e1" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> current complaining</=
+a> seems like <a href=3D"https://link.mail.bloombergbusiness.com/click/2740=
+7897.282598/aHR0cHM6Ly90d2l0dGVyLmNvbS9vcnRoZXJlYWJvb3Qvc3RhdHVzLzE1MTQ2NjU=
+5MzMzMzk2MDI5NDk/607f07ceef4b8524a319a23cBb8b4e9f8" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> a violation of=
+ that settlement</a>. None of this matters to the Twitter bid, I guess, but=
+ it remains annoying.</li>=09<li style=3D"margin-bottom: 5px;">Also a judge=
+ seems to have ruled that, when he said he had =E2=80=9Cfunding secured,=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.28=
+2598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTYvbX=
+Vzay1nby1wcml2YXRlLXR3ZWV0LXJ1bGVkLWZhbHNlLWJ5LWp1ZGdlLXRlc2xhLWludmVzdG9yc=
+y1zYXk_Y21waWQ9QkJEMDQxODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cB72d63225" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  that was false</a>?=C2=A0</li></=
+ul><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=
+=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDf69597e1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEf69597e1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF9fba437e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG9fba437e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile in crypto</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s a trade you can=E2=80=
+=99t do:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; marg=
+in: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Find a small publicly tra=
+ded bank. Say it=E2=80=99s a bank with $10 billion of assets, with an equit=
+y market capitalization of $1 billion. (These are realistic numbers; the ma=
+rket value of a bank=E2=80=99s stock will generally be much lower than the =
+value of its assets, because most of those assets are in effect owed to its=
+ depositors.[8])</li>=09<li style=3D"margin-bottom: 5px;">Buy 51% of the st=
+ock for $510 million or whatever.=C2=A0</li>=09<li style=3D"margin-bottom: =
+5px;">Vote out the board, vote in a new board and=C2=A0make yourself the ch=
+ief executive officer.</li>=09<li style=3D"margin-bottom: 5px;">Take the $1=
+0 billion in the vault and send it to yourself, making $10 billion on your =
+$510 million investment.</li>=09<li style=3D"margin-bottom: 5px;">Smirk =E2=
+=80=9Cwhat, I own the bank, I take the money,=C2=A0that=E2=80=99s how it wo=
+rks.=E2=80=9D</li></ol><p style=3D"margin: 16px 0;">That=E2=80=99s not how =
+it works,=C2=A0you can=E2=80=99t do this,[9] if you did do it you would go =
+to prison, but you=E2=80=99d be stopped well before that point. But in its =
+outlines it is a tempting and elegant=C2=A0trade, and we have <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMDEvaW5zdXJhbmNlLWlzLX=
+doZXJlLXRoZS1tb25leS1pcz9jbXBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB01dcc07c" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> talked about va=
+riations</a>=C2=A0that work a little better. (The guy we talked about=C2=A0=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pbnN1cmFuY2UtZXhlY3V0aXZlLWdyZWctbGluZ=
+GJlcmctc2VudGVuY2VkLXRvLXNldmVuLXllYXJzLWFuZC10aHJlZS1tb250aHMtaW4tcHJpc29u=
+LTExNTk3ODc3MzY3/607f07ceef4b8524a319a23cBd8ac13e7" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"><em>did=C2=A0</=
+em>go to prison</a>, though he did get the money first, so his version work=
+ed only a little better.)</p><p style=3D"margin: 16px 0;">The basic idea of=
+ the trade is that there exist in the world some very large=C2=A0pots of mo=
+ney =E2=80=94=C2=A0banks, insurance companies, asset managers, etc. =E2=80=
+=94=C2=A0that are=C2=A0<em>controlled=C2=A0</em>by relatively small<em>=C2=
+=A0companies</em>. It takes a smaller amount of money to buy control of the=
+=C2=A0company, and then you get to decide what to do with the larger pot of=
+ money that the company manages. In the world of traditional finance, this =
+is a well-known problem, and those pots of money tend to be very carefully =
+regulated to guard against some opportunist taking control of them on the c=
+heap and draining the money from the pot.</p><p style=3D"margin: 16px 0;">I=
+n crypto, etc. etc. etc. etc. etc. you know how this is gonna go. Here=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.2=
+82598/aHR0cHM6Ly90d2l0dGVyLmNvbS9hbnRob255bGVlemhhbmcvc3RhdHVzLzE1MTU3MDIyN=
+zYzOTYxMzAzMDc_cz0yMSZ0PU5Qb0FVbDJnMVRPc0pNWHRPUW5UNVE/607f07ceef4b8524a319=
+a23cBf5232c92" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Anthony Lee Zhang on Twitter</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">Beanstalk, a moderately popular new algo-stable p=
+rotocol, just got attacked for $80M</p><p style=3D"margin: 16px 0;">This on=
+e is a very interesting hack: rather than exploit a bug in the code, it was=
+ a "governance attack". My understanding is that holders of beanstalk equit=
+y token holders can vote on changes to the protocol: literally, chunks of c=
+ode that are added to the protocol</p><p style=3D"margin: 16px 0;">The way =
+an algo-stable works, there's an equity layer and a debt (stablecoins) laye=
+r, and possibly a bunch of reserves, so the equity layer effectively has co=
+ntrol over a bunch of "stuff" that the protocol owns</p><p style=3D"margin:=
+ 16px 0;">Hence, a fairly simple attack:</p><p style=3D"margin: 16px 0;">1.=
+ Propose a piece of code to the protocol that says "send the entire treasur=
+y to my address A"<br />2. Buy a bunch of equity tokens and vote the change=
+ in<br />3. Send the entire treasury to your address A</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">And here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/27407897.282598/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL3RlY2gv=
+MjAyMi8wNC8xNy9hdHRhY2tlci1kcmFpbnMtMTgybS1mcm9tLWJlYW5zdGFsay1zdGFibGVjb2l=
+uLXByb3RvY29sLw/607f07ceef4b8524a319a23cBbc60bbad" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">CoinDesk=E2=80=
+=99s summary</a>:</p><blockquote><p style=3D"margin: 16px 0;">The attacker =
+took out a flash loan on lending platform Aave which enabled them to amass =
+a large amount of Beanstalk=E2=80=99s native governance token, Stalk. With =
+the voting power granted by these Stalk tokens, the attacker was able to qu=
+ickly pass a malicious governance proposal that drained all protocol funds =
+into a private Ethereum wallet.</p></blockquote><p style=3D"margin: 16px 0;=
+">Various crypto pots of money are controlled by governance tokens, and the=
+ market capitalization of the governance token is often a lot lower than th=
+e value in the pot, for basically the same reasons that the market capitali=
+zation of a bank is generally much lower than the value of the bank=E2=80=
+=99s assets. And the governance token can, by majority vote, decide what to=
+ do with the pot. (Sometimes =E2=80=94=C2=A0many pots are better designed t=
+han this!) And in crypto, you can often do a series of transactions as a si=
+ngle integrated=C2=A0transaction, in which you take out a flash loan to buy=
+ all the governance tokens, vote the governance tokens to give yourself the=
+ pot of money, use some of the pot to repay the flash loan and keep the res=
+t for yourself =E2=80=94=C2=A0all at once. And so someone did.=C2=A0</p><p =
+style=3D"margin: 16px 0;">Again: You could do exactly this trade with a=C2=
+=A0<em>bank</em>, instead of a stablecoin, if banks were stupidly designed.=
+ But they are not!</p><p style=3D"margin: 16px 0;"><em>[8] This is=C2=A0obv=
+ious to banking people but perhaps not to everyone: The way a bank works is=
+ that it takes deposits (and owes money back to depositors) and uses them t=
+o make loans, buy bonds, etc. A bank with $10 billion of assets might have =
+$9 billion of deposits and $1 billion of equity value. It has $10 billion o=
+f stuff, it owes $9 billion back to depositors, so there=E2=80=99s $1 billi=
+on left over, which belongs to its shareholders.=C2=A0The point is just tha=
+t banks are very *leveraged*; they fund most of their assets with deposits,=
+ so the assets are worth way more than the equity value of the bank. JPMorg=
+an Chase &amp; Co. has a market capitalization of about $370 billion.</em><=
+/p><p style=3D"margin: 16px 0;"><em>[9] Among other things because they don=
+=E2=80=99t keep the deposits in cash in the vaults, etc., though that is no=
+t actually as big an obstacle as it seems. The trick is to sell the bank=E2=
+=80=99s $10 billion of assets, lend the $10 billion to yourself instead, an=
+d use it to buy yachts. That trick also does not work, though, usually.</em=
+></p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHb2060c8b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hedging vs. manipulation</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Two years ago this week, the price of =
+oil futures became negative. It was weird and we <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMjIvbm9ib2R5LXdhbnRzLW11Y2gtb2lsLXJ=
+pZ2h0LW5vdz9jbXBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cBe08f7f2a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> talked</a> about it a <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMjAvdGhlcmUtcy1=
+ub3doZXJlLXRvLXB1dC10aGUtb2lsP2NtcGlkPUJCRDA0MTgyMl9NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQxOCZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB66a1efdc" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> bunch</a>=
+. <a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDgtMDQvc29=
+tZS1wZW9wbGUtbWFkZS1tb25leS1vbi1uZWdhdGl2ZS1vaWwtcHJpY2VzP2NtcGlkPUJCRDA0MT=
+gyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIyMDQxOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+62ce2756" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> One thing</a> that we <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjAtMDQtMjkvaXQtcy1hLWdvb2QtdGltZS10by1jdXQtZGl2aWR=
+lbmRzP2NtcGlkPUJCRDA0MTgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQxOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB9e48173d" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> talked about</a> was the trade-at=
+-settlement mechanism. The way TAS works is that, sometime in the middle of=
+ the trading day, I agree to buy futures from you at the end of the day, fo=
+r whatever the closing (settlement) price happens to be (plus or minus a fe=
+w pennies of premium or discount). We agree on a quantity but not a price; =
+we just take whatever the closing price is as the price for our trade.</p><=
+p style=3D"margin: 16px 0;">You might be doing this because you are a price=
+-insensitive natural seller. I, on the other hand, might be an arbitrageur =
+or market maker or prop trader; I might not want to end up owning all those=
+ futures. I will hedge my transaction: I=E2=80=99ll buy 100 contracts from =
+you via TAS, and then sell 100 contracts in the market =E2=80=94=C2=A0at ac=
+tual prices =E2=80=94=C2=A0to end up flat. I might try to do this hedging s=
+ometime near the close of trading that day, so that my selling prices will =
+roughly match the settlement price at which I am buying.</p><p style=3D"mar=
+gin: 16px 0;">If I do a lot of selling=C2=A0<em>right at the close</em>, th=
+at will have a tendency to drive down the closing price. If there are no ot=
+her big=C2=A0<em>buyers=C2=A0</em>right at the close, this can be very lucr=
+ative for me. For instance if the price is $20, half an hour before the clo=
+se, and I start selling a bunch and the price drops to $10, and if I sell s=
+ome more and it drops to $0, and I sell even more and it drops to negative =
+$10, and so forth, I might end up selling my contracts at an average price =
+of, say, negative $10, and then I buy from you at the settlement price of, =
+say, negative $37.63, which was the actual closing price of West Texas Inte=
+rmediate crude futures on April 20, 2020. So I make $27.63 per barrel.=C2=
+=A0</p><p style=3D"margin: 16px 0;">A point that I often make is that it is=
+ very hard, in this scenario, to distinguish proper=C2=A0=E2=80=9Chedging=
+=E2=80=9D (I am long TAS, so I hedge by selling futures)=C2=A0from improper=
+ =E2=80=9Cmanipulation=E2=80=9D (I am long TAS, so I push down the settleme=
+nt price by selling futures). Or rather, two related points that I often ma=
+ke are:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margi=
+n: 16px 0;">=09<li style=3D"margin-bottom: 5px;">It is hard to distinguish =
+hedging from manipulation just by looking at trading history, but</li>=09<l=
+i style=3D"margin-bottom: 5px;">The way people distinguish these things in =
+practice is by looking at the traders=E2=80=99 chat logs and see if they sa=
+y things like =E2=80=9Cboy I really manipulated that price, hope I don=E2=
+=80=99t go to prison.=E2=80=9D</li></ol><p style=3D"margin: 16px 0;">Anyway=
+ the people who made money trading TAS oil contracts that day <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTMvLXBsZWFzZS1kb24tdC10ZW=
+xsLWVzc2V4LWJveXMtdGV4dHMtc3B1ci1qdWRnZS10by1hbGxvdy1zdWl0P2NtcGlkPUJCRDA0M=
+TgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDQxOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Bcf9d2796" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> had some bad chat logs</a>:</p><blockquote><p style=3D"=
+margin: 16px 0;">At 3:29 p.m. on April 20, 2020 -- the only day that oil pr=
+ices have ever dropped below zero -- a British trader sent a message to his=
+ buddies: =E2=80=9CWe pushed each other so hard for years for this one mome=
+nt =E2=80=A6 And we f[******] blitzed it boys.=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">Moments earlier, one of his colleague wrote on their WhatsApp =
+message group, =E2=80=9CPlease don=E2=80=99t tell anyone what happened toda=
+y lads x.=E2=80=9D</p><p style=3D"margin: 16px 0;">Those written exchanges =
+among traders dubbed the =E2=80=9CEssex Boys,=E2=80=9D who made $700 millio=
+n when oil collapsed, were cited by a U.S. judge who gave the green light t=
+o a proposed class-action lawsuit filed against them in August 2020. His ru=
+ling was unsealed Tuesday in Chicago.=C2=A0 ...</p><p style=3D"margin: 16px=
+ 0;">=E2=80=9CThe content of their communications, along with the high degr=
+ee of correlative trading among most of them, give rise to a highly plausib=
+le inference of an agreement among them,=E2=80=9D the judge wrote in his un=
+sealed order, which included excerpts of messages between the traders.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">Yep! That is how it works.=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Russia Has Found No Place Yet to <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTgvcnVzc2lhLWhhcy=
+1mb3VuZC1uby1wbGFjZS15ZXQtdG8taW52ZXN0LXJlc2VydmVzLWFmdGVyLXNhbmN0aW9ucz9jb=
+XBpZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cB44d44980" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> Invest Reserves</a> After Sanctions. Can R=
+ussia Pay its 2022 Dollar Bond Obligation <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuY3JlZGl0c2xpcHMub3J=
+nL2NyZWRpdHNsaXBzLzIwMjIvMDQvY2FuLXJ1c3NpYS1wYXktaXRzLTIwMjItZG9sbGFyLWJvbm=
+Qtb2JsaWdhdGlvbi1pbi1ydWJsZXMtbW9yZS1kb2RneS1ydXNzaWFuLWJvbmQtY2xhdXNlcy5od=
+G1s/607f07ceef4b8524a319a23cB2456e10e" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">in Rubles</a>? Bank of Ameri=
+ca Traders Get Boost From Market Volatility, <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTgvYm9mYS10cmFkZXJzLWdldC1ib29zdC1mcm9tLW1=
+hcmtldC12b2xhdGlsaXR5LWJlYXQtZXN0aW1hdGVzP2NtcGlkPUJCRDA0MTgyMl9NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQxO=
+CZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe16f84a8" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Beat Estimates</a>. Ex-Bank of America Trader Pleads Guilty to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTUvZXgtYmFuay1vZi1h=
+bWVyaWNhLXRyYWRlci1wbGVhZHMtZ3VpbHR5LXRvLXRyZWFzdXJ5LXNwb29maW5nP2NtcGlkPUJ=
+CRDA0MTgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIyMDQxOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB24be6f11" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Treasury Spoofing</a>. Homeowner Groups Seek to <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR=
+0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob21lb3duZXItZ3JvdXBzLXNlZWstdG8tc3RvcC=
+1pbnZlc3RvcnMtZnJvbS1idXlpbmctaG91c2VzLXRvLXJlbnQtMTE2NTAyNzQyMDM_bW9kPWhwX=
+2xlYWRfcG9zMTA/607f07ceef4b8524a319a23cB1eda321f" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Stop Investors</a=
+> From Buying Houses to Rent. Goldman=E2=80=99s <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTgvZ29sZG1hbi1zLXlvdW5nZXN0LWJsYWNrLXBh=
+cnRuZXItbGVhdmluZy10by1zdGFydC1oaXMtb3duLWZ1bmQ_Y21waWQ9QkJEMDQxODIyX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+IwNDE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5fa7f1b0" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Youngest Black Partner</a> Leaving to Start His Own Fund. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTgvYWxleC1qb25lcy1z=
+LWluZm93YXJzLWZpbGVzLWZvci1iYW5rcnVwdGN5LWFtaWQtc2FuZHktaG9vay1zdWl0cz9jbXB=
+pZD1CQkQwNDE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMjA0MTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB5ef2fcef" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Infowars</a> Files for Bankruptcy Amid Sandy=
+ Hook Lawsuits.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjItMDQtMTcvZXZlcmdyZWVuLXNoaXAtbG9kZ2VkLWluLWNoZXNhcGVha2UtZm9yLWEtbW9udGg=
+tbW92aW5nLWFnYWluP2NtcGlkPUJCRDA0MTgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQxOCZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cBab1b3150" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Evergreen Ship</a> Lo=
+dged in Chesapeake for a Month Moving Again.=C2=A0FDA Probes <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9mZGEtcHJvYmVzLWx1Y2t5LWNoYXJtcy1wb3NzaWJsZS1saW5rLXR=
+vLWlsbG5lc3Nlcy0xMTY1MDEzMDUzOQ/607f07ceef4b8524a319a23cB8b819588" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Lucky Charms=E2=80=99</a> Possible Link to Illnesses.=C2=A0Man wins $450K l=
+awsuit after <a href=3D"https://link.mail.bloombergbusiness.com/click/27407=
+897.282598/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMDQvMTgvbWFuLXdpbnMtNDUway1hZnRl=
+ci1vZmZpY2UtYmlydGhkYXktcGFydHktYW54aWV0eS1hdHRhY2sv/607f07ceef4b8524a319a2=
+3cB428a5c99" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">surprise work birthday party</a> triggers panic attack=
+.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer=
+-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email =
+form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27407897.282598/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidX=
+NpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY=
+2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBc6935cb0" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly9sb2dpbi5ibG9vbWJl=
+cmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBdcba0fa4" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></s=
+pan></p><p style=3D"margin: 16px 0;"><em>[1] Don=E2=80=99t take this too li=
+terally. Some of these things are pretty hard to do. The second-step merger=
+ in Thing 3, for instance, would probably be subject to entire fairness rev=
+iew as I describe it in the text, and you=E2=80=99d be unlikely to get away=
+ with it. Even in Thing 1, your appointed directors will have fiduciary dut=
+ies to all shareholders, and buying 51% in the open market seems hard. I am=
+ describing these things to illustrate the concepts, not because they can r=
+eally all be done.</em></p><p style=3D"margin: 16px 0;"><em>[2] That is, th=
+e acquirer has 15 shares and everyone else combines for 85. Then everyone e=
+lse gets doubled, giving them 170, while the acquirer still only has 15, or=
+ 15/185 =3D 8.1% of the stock.</em></p><p style=3D"margin: 16px 0;"><em>[3]=
+ The traditional =E2=80=9Cflip-in=E2=80=9D pill operates by distributing =
+=E2=80=9Crights=E2=80=9D to shareholders, basically options to buy shares; =
+if an acquirer =E2=80=9Ctriggers=E2=80=9D the pill by going above 15%, then=
+ the rights become exercisable. Generally the rights have an exercise price=
+ that is rather higher than the current stock price, and you can buy stock =
+with a current market value of 200% of the exercise price. So you have to p=
+ay, say, $210 to get $420 worth of stock. Shareholders would be expected to=
+ exercise the rights, buying a lot of stock and diluting the acquirer. Mode=
+rn pills also have an =E2=80=9Cexchange=E2=80=9D provision that works like =
+I said in the text: Instead of asking shareholders to put up a bunch more c=
+ash (which they might not do!), the exchange provision just gives every sha=
+reholder one free share in exchange for their rights, diluting the acquirer=
+.</em></p><p style=3D"margin: 16px 0;"><em>[4] Which would take forever. Tw=
+itter=E2=80=99s annual meeting to elect directors is already <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE0MDM2MTIyMDE0MDQ5L25=
+5MjAwMDE5MjF4M19kZWYxNGEuaHRt/607f07ceef4b8524a319a23cB585221c2" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+scheduled for May 25</a>, and Musk is probably too late to=C2=A0run a proxy=
+ fight for that meeting. Also Twitter has a classified board, meaning that =
+only one-third of directors are elected each year, so he would have to win =
+two proxy fights to get a board majority. Incidentally, Twitter is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE0MDM2MTIyMDE0=
+MDQ5L255MjAwMDE5MjF4M19kZWYxNGEuaHRtI3RQNA/607f07ceef4b8524a319a23cB0a42435=
+a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">trying to *get rid of* the classified board</a>, which require=
+s an 80% vote of shareholders, though I wonder if it regrets that effort gi=
+ven Musk=E2=80=99s arrival.</em></p><p style=3D"margin: 16px 0;"><em>[5] Wi=
+lliam Cohan <a href=3D"https://link.mail.bloombergbusiness.com/click/274078=
+97.282598/aHR0cHM6Ly9wdWNrLm5ld3MvdGhlLXR3aXR0ZXItYm9hcmRzLXBhbmljLXJvb20v/=
+607f07ceef4b8524a319a23cC9287fc03" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">suggests</a> that if =E2=80=9Cth=
+e $54.20 price is =E2=80=98fair,=E2=80=99 from a financial point of view,=
+=E2=80=9D then Twitter=E2=80=99s board =E2=80=9Cwill have little choice but=
+ to accept Musk=E2=80=99s offer.=E2=80=9D This is not quite how it works. I=
+n general, a board can reject an offer that it thinks is inadequate. Someti=
+mes it will get an opinion from a financial adviser saying that the offer i=
+s inadequate. In general, a board can accept an offer that it thinks is fai=
+r; almost always, it will get an opinion from a financial adviser saying th=
+at the offer is fair. *These are different words*, and while they may not *=
+mean* anything different, they allow for wiggle room. Thus a board can reje=
+ct an offer of $54.20 per share and get an =E2=80=9Cinadequacy=E2=80=9D opi=
+nion saying $54.20 is inadequate, and then later decide it has no choice bu=
+t to accept the same offer and get a =E2=80=9Cfairness=E2=80=9D opinion say=
+ing $54.20 is fair, and the opinions will be from the same bank and based o=
+n the same facts, and it=E2=80=99s all fine. =E2=80=9CThe price can be cons=
+idered fair but still inadequate,=E2=80=9D <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMj=
+AwOC8wMy8zMC9idXNpbmVzcy93b3JsZGJ1c2luZXNzLzMwaWh0LWRlYWwuMS4xMTUyNzY5MC5od=
+G1s/607f07ceef4b8524a319a23cBb54b97e8" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">wrote Steven Davidoff</a> ab=
+out this practice in 2008, and: =E2=80=9CSince financial valuation is a sub=
+jective exercise and there are no set, agreed guidelines or practices for i=
+t, there is substantial leeway for investment banks to arrive at their clie=
+nt's desired conclusion.=E2=80=9D The narrow point here is that, if Twitter=
+ wanted to do this deal, it could probably get a fairness opinion from its =
+advisers saying that $54.20 is =E2=80=9Cfair,=E2=80=9D but=C2=A0that does n=
+ot in any way obligate Twitter to take the deal.</em></p><p style=3D"margin=
+: 16px 0;"><em>[6] I am oversimplifying when I say =E2=80=9Csell for cash,=
+=E2=80=9D though it is a customary oversimplification. Delaware law has an =
+annoying concept of a =E2=80=9Cchange of control,=E2=80=9D in which selling=
+ a company for cash changes its control, because the shareholders are cashe=
+d out and someone else controls the company, while selling it for stock doe=
+s not, because the shareholders remain shareholders of the acquirer. But if=
+ the acquirer is itself a controlled company =E2=80=94=C2=A0if it has one b=
+ig shareholder who will own a majority of the surviving company, etc. =E2=
+=80=94=C2=A0then that is also a =E2=80=9Cchange of control=E2=80=9D and imp=
+licates Revlon. None of that seems important here.</em></p><p style=3D"marg=
+in: 16px 0;"><em>[7] Twitter=E2=80=99s board might add that Musk, as a cont=
+rolling shareholder, has some history of disregard for minority shareholder=
+ rights. Currently some Tesla shareholders are <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27407897.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTgvbXVzay1lbmdpbmVlcmVkLXNvbGFyY2l0eS1wd=
+XJjaGFzZS1hcy1iYWlsb3V0LWludmVzdG9ycy1hcmd1ZT9jbXBpZD1CQkQwNDE4MjJfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA=
+0MTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc8c5b788" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> suing Musk over Tesla=E2=80=99s takeover of SolarCity</a>, another co=
+mpany that Musk controlled, arguing that the takeover benefited Musk at the=
+ expense of public shareholders. I don=E2=80=99t know how strong that case =
+is, but again it=E2=80=99s something for the board to mention. Incidentally=
+ a ruling on that case is expected this month. Fun!</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB1c8dfb7d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB993dfea2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB9e2cca88" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9512ae69" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzQwNzg5NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc2OTA0OTUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI276414a9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27407897&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2740789=
+7.282598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB25e96387" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27407897.282598/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC072a1b08" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27407897.282598/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4dc38402" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27407897.282598/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB203856f4" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+8be6bf3" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27407897.282598/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+a82f075" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D274078=
+97&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D274078=
+97&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D274078=
+97&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D274078=
+97&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D274078=
+97&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27690495&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgbg2h.621y/d49f8314.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_1691637_1000752217.1650307315315--
+

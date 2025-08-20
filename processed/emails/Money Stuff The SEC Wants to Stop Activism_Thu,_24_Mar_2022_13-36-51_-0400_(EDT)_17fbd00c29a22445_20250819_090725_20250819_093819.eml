@@ -1,0 +1,2251 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:63c7:0:b0:1a5:fa8c:80ab with SMTP id n7csp4985217lkk;
+        Thu, 24 Mar 2022 10:36:58 -0700 (PDT)
+X-Received: by 2002:a05:6000:1841:b0:204:ebf:1181 with SMTP id c1-20020a056000184100b002040ebf1181mr5706765wri.681.1648143418029;
+        Thu, 24 Mar 2022 10:36:58 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1648143418; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VyeoqzAuMX/M43RsCK1ZLYcThHrhipWEoJ3XDEzD1tfBBUkCVfgTB+F9yxwHqa+A1Q
+         LxdtwQ/y3ZbeF18dhQbqlxmzputSNoUXq/Dk1NTu5YvZAmoSY7Xsggx3vW4EvF5KRPJ+
+         gpB9g3dpNqYtQFq102kEPsr0FeAx3XGrQJYu5UfaZefUSSD9PvZkC4prYwDEVS3g9DUH
+         beYIKdAAzfd6NLoCE2gfU7b8eDNH8Mm5O4RfwXN5EAyx9tylDHlzD+PyxBSqWENl/FH7
+         X5ecRk05ZIbGuwVvU5YHqvqmKdrBbg8/pZlTXvrFuNm1dkC+VlB0pgG+MpXVyBJyibLD
+         GZzw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=vx8bDYR7/IA13Oqki71lyIiC94lhmTLwf529QqAWvEo=;
+        b=BUk18k6BNv5Ul2CO9QtMW8gWZARFn5lXvxqNZAoFrvQVnf/jVSTyfZf/G3VoHZ60J5
+         5Oh+36e+iG9HDTDJtaX/sf2iGzXhuyvaY2T642YneBBst5qp9S1PPVP0U6OMbvsd1HpB
+         hK0PjcT4DZoD6LW0MTWLmiIlhRYRyIUBIscTKmL1NpJrvGWAM7nhxMW99JAvO6QubX3Q
+         b3b0KEvTDROscOfJlxYs/vOBCRZCXG2ts708W84F28EprRYJqfvYoELbJBNjF6JexlVf
+         5ay6DUbx0nPH2LdNtldOQJmdiy5zvvwaMiMpXDikKdRA3Kssky2HJoA7cFtWaHTcKZcO
+         kbEQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=X2Jc2v1y;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o13-20020a5d4a8d000000b002041a8b29a7sor231607wrq.10.2022.03.24.10.36.57
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 24 Mar 2022 10:36:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=X2Jc2v1y;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=vx8bDYR7/IA13Oqki71lyIiC94lhmTLwf529QqAWvEo=;
+        b=T9DdUou6AXChafsMBUsRylW1Jj2fsMZD1EeZvvC+JASaR/cKt2BJi9n94Gl8G6fWm/
+         UH08ZQFRQ304jTOvzqgR74Mdw/EN6ReLv0Nk7hNmI0cW5UM1N/7X9fMTdmPLK689Z25W
+         +WJXuE8+9PKFzV8BXH32nImiqfGmiS1I5tTuHp9rPcae6Ck/3P3Ppm2gSLghmUxEiLik
+         +fmx/LgSr01yyMFb1U6I4abAvbY5KjZgcEvFcf7FX/qskoVZGC9mWqIGLFPqBJwrcNu5
+         A3AGN/Dn1uVyh/uFqsHhkLqyQizoaq87yOSDTPK0ye1C/Z5gZ7YBSN5jfbckf6vUjXYC
+         Kl4g==
+X-Gm-Message-State: AOAM531LvHfN2BdYXqhuk07SIYFOmwAS8HfvK5FI+ySKW3x4ii6d221B
+	7AyYTgutySb79AEah0RuxP3pGq/vUfPEn0vkIE+5zsLCvv18xg8UPw==
+X-Received: by 2002:adf:d1eb:0:b0:205:81f4:5e0c with SMTP id g11-20020adfd1eb000000b0020581f45e0cmr5688013wrd.381.1648143417666;
+        Thu, 24 Mar 2022 10:36:57 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f410:0:0:0:0:0 with SMTP id g16csp3933740wro;
+        Thu, 24 Mar 2022 10:36:54 -0700 (PDT)
+X-Received: by 2002:a63:2dc6:0:b0:380:2287:82ac with SMTP id t189-20020a632dc6000000b00380228782acmr4792168pgt.443.1648143413979;
+        Thu, 24 Mar 2022 10:36:53 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1648143413; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fPnEEJEXPjFcfTYLXUHRSr+CsWJLtHrDV/fqtP03vDkanTt6Nu2L81MZnO7S8VpQWH
+         tuYe+zyApcThueNDLzTyLnpnIV7gs/OcD8prSem7Vgq5HvftZLt/yrbRbcGGStRd2vyX
+         iGYjowFYZjskaEYot68GiEnwzbaUYABOv8sQFDqQRDvBZFhjbvIN6omZVbP+CJPloaCn
+         xp1/fSTUFfzGRtexkl3E4Nw+ZvRijk+LZppld5ApRkj3KXyU9lRIx6qlA7LgDV5ZCTCn
+         /yIWVA0Mt1znIoddpJbCV1GqUPWzjKAB63x1nVrvdQ9s4JM40oN587p+g8u0EjtS+sZ/
+         EwJQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vx8bDYR7/IA13Oqki71lyIiC94lhmTLwf529QqAWvEo=;
+        b=mSeuZa1PvFjuEiuriMyGVw2JwXGV3knm9p7mO6ojC4VAoC2VQR8S8WLGdKtTxjCvtW
+         JkbQuEFkWFyf1BhsEdVSPYQhf7sOFHgPuUAKrcUN+WmAAp8TJUkAhHdt46TT7IeWpru6
+         RQwh9ZKlwfXC3Qf8acTQvEuWeI6OfQVSMHcOkDAqHlHTArPL+s20THOq1gAISBn9+YD/
+         myTly2bmaC7xzdZg236zEPbaQ/zmYxjDwdXJlu264VjlalHtXe/ZwpESj5RJCjvwIRPj
+         ExXhYIG2hi8oc4amCQDQtIVr612KgaChXNKBUpLXrj0k9QZmO4xoy/gnTeltA3Qv6RbU
+         nFsg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=X2Jc2v1y;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220324133651.27137501.259601@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220324133651.27137501.259601@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220324133651.27137501.259601@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g6-20020a170902868600b0014ffe5181f0sor13222plo.16.2022.03.24.10.36.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 24 Mar 2022 10:36:53 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220324133651.27137501.259601@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxp5Cdk9NY/Sx3rkwjQO2FffV9SAUdeEFyzEL+udy2E37smeZEBBe+mI9Q5mj4YF8yru6+YQYhT+bYczifG3n1rFgj+Hzk=
+X-Received: by 2002:a17:90b:3e82:b0:1c7:2920:7c54 with SMTP id rj2-20020a17090b3e8200b001c729207c54mr19647400pjb.2.1648143413465;
+        Thu, 24 Mar 2022 10:36:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1648143413; cv=none;
+        d=google.com; s=arc-20160816;
+        b=F483FfkVxGddYguxpJbzx0xsWRfBug7/yWROwyzEVA4cDYQMFvKocLjBrC46ZptdDH
+         jiCcrwTD7zXYTdDCd/LPnVJfTxKXKyrELS+MkEiv+YM2JtjmUlSGu2LI8qZavKJYyu4G
+         vwJXD8XPVwEE61ukzSOf9gBlAM3TP9rpFO7evqNEbKvOO1eAxLpohZbUQMKOm/Qfcf+n
+         UDvl4e2NtcVacIvnFYYXUhaKAzOvO4Ho1fS/4bO2b/Agn8og5kc/eDzaoUB4t/v7Q2xG
+         rAwuoEJmbSGVzxrztQyZAiv11cKhWIR9I+gcRd/dwDARYzTeuQCHDpA1zU7XzOrut+AA
+         93LQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vx8bDYR7/IA13Oqki71lyIiC94lhmTLwf529QqAWvEo=;
+        b=GYbtzBLY2B9CFrho2qXOcUPaVtTC1UOALfBxdddg0HIOTu4n7glTta3ZhWALOZdFWw
+         frmBZUvF3Tly/uoJsAvrml0Bx3T4VIoAixlODRd4Y73LJxv1slGbu2usF0aWm4ypnO8d
+         DfO95IZWRHzV65FjaHYbH90fuTzvEtuP93eNvNL1YLbesRXlnQ3SaQ5gZaRsYRUZKNsO
+         dTc7b692sU5ffY9WrIpChCcMlqg19H+Uy4ep3U+Sbv6Kow6ks3XQKQc/lF6sOjdRCHGj
+         6IOae/4OU57dSRjWgJiRbK14rJjfc6qZqMk27UvvWzgD7kFGNIx6AZGSuqDgA83pVi7t
+         1z8A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=X2Jc2v1y;
+       spf=pass (google.com: domain of delivery_20220324133651.27137501.259601@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220324133651.27137501.259601@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220324133651.27137501.259601@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id v2-20020a17090a7c0200b001c65f6ff758si430314pjf.2.2022.03.24.10.36.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 24 Mar 2022 10:36:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220324133651.27137501.259601@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=E0CYCArtmlY8+qY5vViOjOA52pJB21jQlOm1dh7Cl24=;
+ b=X2Jc2v1yrjK7Y0eF3V0lGYfY2TR/o+DHu3R2hNcfSPXcf9IdvCR/+/Aclt49VNvBZk3HRzOx+PPH
+   DvjGcUEkJTAeQYoCPLKB+z524mgfkZ/xlvYHBAkHSwZcOh5sFadChSY9WE4tRPogvwpiIXhRwlgv
+   B8VrYrSGysMUeWazk0A=
+Received: from njmta-90.sailthru.com (173.228.155.90) by pmta29.sailthru.com id h7im382sd4si for <bloomberg@khamel.com>; Thu, 24 Mar 2022 13:36:52 -0400 (envelope-from <delivery_20220324133651.27137501.259601@mx.sailthru.com>)
+Received: from nj1-rawolive.flt (172.18.20.13) by njmta-90.sailthru.com id h7im381qqbsf for <bloomberg@khamel.com>; Thu, 24 Mar 2022 13:36:51 -0400 (envelope-from <delivery_20220324133651.27137501.259601@mx.sailthru.com>)
+Date: Thu, 24 Mar 2022 13:36:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220324133651.27137501.259601@sailthru.com>
+Subject: Money Stuff: The SEC Wants to Stop Activism
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8188650_103850464.1648143411716"
+Precedence: bulk
+X-Feedback-ID: 6358:27137501:campaign:sailthru
+X-TM-ID: 20220324133651.27137501.259601
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-rawolive.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg5nfh.5kb5/29a79853
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg5nfh.5kb5/29a79853>, <mailto:unsubscribe_20220324133651.27137501.259601@mx.sailthru.com>
+X-rpcampaign: stjko27137501
+
+------=_Part_8188650_103850464.1648143411716
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+ActivismThe way activist investing works in the U.S. is generally that an
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Activism
+   =20
+ =20
+The way activist investing works in the U.S. is generally that an activist =
+investor quietly buys up a chunk of a company=E2=80=99s stock, announces th=
+at she owns the stock, and goes to the company=E2=80=99s managers asking th=
+em to change something about their strategy or operations. Sometimes the ma=
+nagers agree,=C2=A0there is a productive conversation,=C2=A0the activist he=
+lps the company improve, the stock goes up and eventually the activist sell=
+s at a profit. Sometimes the managers disagree, and the activist tries to p=
+ressure them into doing what she wants. She might wage a public campaign, w=
+riting open letters explaining her position. She might talk to other shareh=
+olders =E2=80=94=C2=A0big institutional holders who don=E2=80=99t wage acti=
+vist campaigns themselves but who own a lot of stock =E2=80=94=C2=A0to pers=
+uade them that she is right. If lots of shareholders agree with her, but th=
+e managers still don=E2=80=99t, she might launch a proxy fight: She will no=
+minate some people to the company=E2=80=99s board of directors and try to g=
+et them elected to replace some of the existing directors. If enough other =
+shareholders vote with her, her candidates will win and join the board and =
+presumably do the things she wants. Hopefully the things she wants are good=
+ and the stock will go up and she will sell at a profit.Sometimes this does=
+n=E2=80=99t work: Managers ignore the activist, other shareholders disagree=
+ with her, she loses the proxy fight, etc. Other times it sort of works, bu=
+t is bad: The company does what the activist wants, or at least enough to m=
+ake shareholders satisfied, but it turns out to be wrong and the stock goes=
+ down.In general though it seems obviously good that activism=C2=A0exists. =
+For one thing, it often does make companies more valuable: An activist shar=
+eholder, who owns a big chunk of the company and only makes money if the st=
+ock goes up, will sometimes have better incentives and motivations than a c=
+hief executive officer who owns less of the company and collects a large sa=
+lary even if the stock goes down.More fundamentally, though, activism is on=
+e of the few ways that shareholders can exercise real power over the compan=
+ies that they theoretically own. As we  often discuss around here, if a com=
+pany=E2=80=99s board and managers want to ignore their shareholders, they m=
+ostly can. The only ways that shareholders in the U.S. can actually=C2=A0fi=
+re=C2=A0the board and CEO=C2=A0of a public company are (1) a proxy fight or=
+ (2) a hostile takeover.They don=E2=80=99t=C2=A0do=C2=A0that very often. Bu=
+t this is the=C2=A0background=C2=A0that makes other, softer forms of pressu=
+re work. If BlackRock Inc. calls up a company and says =E2=80=9Cwe are a bi=
+g shareholder and we=E2=80=99d like you to reduce your greenhouse gas emiss=
+ions,=E2=80=9D the executives will generally listen to BlackRock and care w=
+hat it thinks, because they know that, if they don=E2=80=99t, BlackRock wil=
+l become disgruntled, and if enough big shareholders become disgruntled eno=
+ugh an activist might show up and win a proxy fight. (Sometimes the disgrun=
+tled big institutional shareholders will quietly=C2=A0invite=C2=A0an activi=
+st to show up; this is  informally called an =E2=80=9CRFA,=E2=80=9D or =E2=
+=80=9Crequest for activist.=E2=80=9D) There just isn=E2=80=99t that much th=
+at BlackRock can do on its own: The board controls the company, board elect=
+ions are not competitive (outside of proxy fights)=C2=A0and most of what sh=
+areholders vote on is non-binding; BlackRock has a lot of shares, and so a =
+lot of votes, but it can't do much with them. But if an activist shows up, =
+BlackRock =E2=80=94=C2=A0or other shareholders =E2=80=94=C2=A0can vote out =
+the board. And the managers know that, which is why they feel the need to k=
+eep shareholders happy.=E2=80=9CKeep shareholders happy=E2=80=9D is a very =
+generic goal. Historically it meant things like having high profits. Later =
+it meant things like doing stock buybacks. Increasingly, it means doing goo=
+d environmental, social and governance things, as big shareholders become m=
+ore diversified and more focused on ESG. And when companies=C2=A0don=E2=80=
+=99t=C2=A0do the ESG things that shareholders want, there will be  ESG acti=
+vists and  proxy fights, because activism is the enforcement mechanism that=
+ shareholders use to influence companies.Recently, though, the U.S. Securit=
+ies and Exchange Commission has proposed some rules to =E2=80=A6=C2=A0stop =
+activism? This seems bad, and also like a strange priority for the SEC to h=
+ave.Even stranger is SEC Chair Gary Gensler=E2=80=99s  stated reason for ge=
+tting rid of activism. Gensler thinks activism is bad because:=09Activists =
+buy stock in the target company quietly,=C2=A0before=C2=A0they do activism;=
+=09When they do activism =E2=80=94=C2=A0or even when they just announce the=
+ir plans to do activism, or just announce that they bought stock =E2=80=94 =
+the stock goes up;=09The people who=C2=A0sold=C2=A0them their stock, before=
+ the activism, don=E2=80=99t get the benefit of that stock-price increase.O=
+r in his words, from January:=E2=80=9CI would anticipate we=E2=80=99d have =
+something on that,=E2=80=9D Gensler said, adding that he is worried about =
+=E2=80=9Cinformation asymmetry.=E2=80=9D =E2=80=A6=E2=80=9CIt=E2=80=99s mat=
+erial nonpublic information that there=E2=80=99s an activist acquiring stoc=
+k, who has an intent to influence and generally speaking, there=E2=80=99s a=
+ pop if you look at the economics from the day they announced =E2=80=A6 the=
+re=E2=80=99s usually a pop in the stock at least single-digit percent,=E2=
+=80=9D Gensler said. =E2=80=9CSo the selling shareholders during those days=
+ don=E2=80=99t have some material information.=E2=80=9DThis is a weird comp=
+laint! If an activist buys 5% of the stock quietly, and then announces that=
+ she owns the stock, and the stock goes up, she gets 5% of the gains =E2=80=
+=94=C2=A0and the other shareholders, the moms and pops and index funds and =
+corporate insiders and whoever else, get the other 95%. Yes the shareholder=
+s who sold her the stock missed out on the gains, but they sold the stock v=
+oluntarily. Yes there was an =E2=80=9Cinformation asymmetry,=E2=80=9D in th=
+at the activist knew she was buying the stock to do activism and the sellin=
+g shareholders did not, but there is a similar information asymmetry in eve=
+ry stock transaction: When I buy stock, I know who the buyer is (me) and wh=
+y I am buying, but the person selling me the stock does not.Also though: If=
+ you get rid of activism, then activism won=E2=80=99t ever cause stock-pric=
+e increases (because it won=E2=80=99t happen), so=C2=A0nobody=C2=A0will get=
+ the benefit of it! The 95% of shareholders who would have benefited from a=
+ctivism won=E2=80=99t, and the 5% who would have missed out will still miss=
+ out.=C2=A0I am being a bit=C2=A0hyperbolic, but not, I think,=C2=A0that=C2=
+=A0hyperbolic. Gensler seems to have decided that it=E2=80=99s bad that an =
+activist can buy a lot of stock in secret, and would like to crack down on =
+it, so new rules will require activists to disclose their presence and inte=
+ntions before buying too much stock. This is something that corporate manag=
+ers and their lawyers have wanted for years =E2=80=94=C2=A0my old law firm,=
+ Wachtell, Lipton, Rosen & Katz, has been pushing it for over a decade =E2=
+=80=94=C2=A0but it is bad for activists. It is expensive to do activism, ru=
+n proxy fights, etc., and activists do it because they can make money. They=
+ make money by buying at the pre-activism price, hopefully pushing the pric=
+e up, and then selling at the post-activism price. If=C2=A0they have to do =
+most of their buying at the post-activism price, then they can=E2=80=99t ma=
+ke money so they won=E2=80=99t do activism.There are two different SEC rule=
+ proposals that are designed to accomplish this. The more obvious one is=C2=
+=A0the proposal to change the beneficial ownership reporting=C2=A0rules tha=
+t govern=C2=A0when investors need to disclose their stock holdings. (Activi=
+sts disclose their holdings on a form called=C2=A0Schedule 13D, and these a=
+re often called the =E2=80=9C13D rules.=E2=80=9D) The way the rules work no=
+w is that, if you acquire 5% or more of a company=E2=80=99s stock, you need=
+ to disclose your holdings within 10 days. This gives you time to go above =
+5%: If you acquire 5% of the stock on Day 1, you can buy some more on Days =
+2, 3, etc., until you file your Schedule 13D on Day 10. So you might own 9%=
+ or more of the stock by then. (Activists tend not to go above 10%.) The SE=
+C proposal would cut this down to five days. Gensler:Investors currently ca=
+n withhold market moving information from other shareholders for 10 days af=
+ter crossing the 5 percent threshold before filing a Schedule 13D, which cr=
+eates an information asymmetry between these investors and other shareholde=
+rs. The filing of Schedule 13D can have a material impact on a company's sh=
+are price, so it is important that shareholders get that information sooner=
+.This is a change,=C2=A0but not a particularly important one;=C2=A0most act=
+ivists don=E2=80=99t actually use the full 10 days anyway.The subtler but=
+=C2=A0more important change is the SEC=E2=80=99s proposal to require public=
+ disclosure of=C2=A0swaps=C2=A0positions. A total return swap is a contract=
+ between a bank and an investor (a hedge fund, etc.) referencing some under=
+lying stock[1]; the bank agrees to pay the investor however much the stock =
+goes up, and the investor agrees to pay the bank however much it goes down.=
+[2] This gives the investor a position that is economically equivalent to o=
+wning the stock: She makes money if the stock goes up and loses money if it=
+ goes down. But she does not=C2=A0actually=C2=A0own the stock.=C2=A0(The ba=
+nks will often hedge these swaps by buying the stock for themselves, though=
+ this is not contractually required or always true.)Late last year the SEC =
+proposed a new rule =E2=80=9Cto require any person with a large security-ba=
+sed swap position to publicly report certain information related to the pos=
+ition.=E2=80=9D=C2=A0We  talked about it at the time; the SEC=E2=80=99s dis=
+cussion of the rule focused on (1) weird stuff in the market for credit def=
+ault swaps and (2) the blowup at Archegos Capital Management, which lost a =
+lot of money using total return swaps. The SEC=E2=80=99s proposed rule says=
+ that if you buy more than $300 million of a stock on swap,[3] you have to =
+publicly disclose your position within one business day. There seems to be =
+a vague idea that this would somehow have prevented=C2=A0the Archegos blowu=
+p, though I am not sure how. (The concern with Archegos was that nobody kne=
+w about all of its swaps positions, but that seems false =E2=80=94=C2=A0in =
+fact its bankers  were quite aware of its huge concentrated positions =E2=
+=80=94=C2=A0and in any case the SEC already has=C2=A0rules requiring report=
+ing of swap positions=C2=A0to the SEC, though not to the public.)But this r=
+ule is also very bad for activists. Many=C2=A0activists, when they are quie=
+tly buying up stock in a target company, don=E2=80=99t actually buy stock. =
+Instead they buy the stock on swap.=C2=A0There are various reasons to do th=
+is =E2=80=94=C2=A0you can potentially get better financial and leverage ter=
+ms from a swap than from buying the stock directly =E2=80=94=C2=A0but there=
+ is one particularly important one. There is a U.S. antitrust rule (the Har=
+t-Scott-Rodino Act, or HSR) that requires activists to notify the target co=
+mpany and wait 30 days before buying more than $101 million of a company=E2=
+=80=99s stock. Here is a summary, from a comment letter filed this week on =
+the SEC=E2=80=99s proposal by a group called the Council for Investor Right=
+s and Corporate Accountability[4]:Under current law, the HSR Act generally =
+prohibits an activist investor from acquiring voting securities with a valu=
+e in excess of $101 million without making a filing with the appropriate go=
+vernmental agency, notifying the target company of the making of such filin=
+g, and waiting a period of at least 30 days before it can continue to acqui=
+re additional voting securities of the issuer. In many cases, this notifica=
+tion threshold is well below the minimum position size that an activist inv=
+estor needs to acquire to make the investment of its time, resources and ca=
+pital worthwhile. The HSR Act, however, is focused solely on the acquisitio=
+n of voting securities and therefore activist investors have long used [swa=
+ps], typically cash-settled [swaps], to accumulate their desired sufficient=
+ economic position without the need to make an HSR Act filing. The Proposed=
+ Rule would make this long-standing approach irrelevant, as it would compel=
+ public disclosure of the [swaps] position thereby tipping management and t=
+he board of directors of the target company to the investment and allowing =
+them to take measures (including possible public disclosure to run up the s=
+tock price) to the detriment of the activist investor.Here is another comme=
+nt letter from Elliott Investment Management LP, which does a lot of activi=
+sm:In our activist investments, as well as our non-activist investments, ou=
+r firm frequently acquires cash-settled [swaps] as part of the overall mix =
+of securities in a given position. This approach allows us to buy a portion=
+ of our position and gain economic exposure without triggering the kind of =
+=E2=80=9Cherding=E2=80=9D behavior that often accompanies public disclosure=
+, and without notifying the company before our ideas have fully matured. Th=
+e Proposed Rule will eliminate that approach. Instead, the new disclosure r=
+egime contemplated by the Proposed Rule gives activist investors three pote=
+ntial paths: (1) purchasing cash-settled [swaps]=C2=A0up to the new (and ve=
+ry low) reporting threshold, or triggering a filing that would significantl=
+y limit the prospect of a sufficiently profitable investment (with concomit=
+ant loss of confidentiality, and thus of intellectual property) far earlier=
+ than is currently the case, (2) acquiring common stock and triggering a no=
+tification under the Hart-Scott-Rodino Antitrust Improvements Act of 1976 a=
+t what, for most public companies, is a de minimis level of ownership,=C2=
+=A0or (3) deciding to stop pursuing activist opportunities entirely.By forc=
+ing investors to choose one of these paths, the new disclosure regime will =
+have a perverse chilling effect on exactly the kind of engagement with comp=
+anies that is most likely to create value for all shareholders and the U.S.=
+ market generally. If an activist with a successful track record of creatin=
+g sustainable value is forced to make a public disclosure prematurely, then=
+ =E2=80=9Cherding=E2=80=9D behavior by new entrants into the stock may make=
+ the securities too expensive, preventing an economically worthwhile positi=
+on from being built and thereby pricing the activist out of the investment.=
+And here is a comment letter from Harvard Law School professor Lucian Bebch=
+uk:For hedge fund activists that accumulate economic positions in a target =
+with significant market value through equity swaps, the Equity Swap Rule wo=
+uld lead to disclosure of the activist=E2=80=99s potential interest in enga=
+ging with the company at a much earlier time and stage of accumulation than=
+ under current rules. Disclosure at such an early stage would curtail the a=
+bility of such activists to accumulate a position prior to their initial di=
+sclosure. Such early disclosure would also enable management to start engag=
+ing in defensive actions much earlier than under current rules. Altogether,=
+ for such activists, the Equity Swap Rule would substantially reduce their =
+payoffs and considerably discourage their activities.Activists worry that, =
+if they can=E2=80=99t buy more than $300 million of stock on swap (roughly =
+1% of the median S&P 500 company), or more than $101 million in actual stoc=
+k, they will not be able to quietly build a meaningful position in a large =
+public company. They will have to disclose their involvement before=C2=A0bu=
+ying=C2=A0most of their position, which will push up the price of that posi=
+tion, which will make it uneconomical to do activism. If the expected value=
+ of Elliott=E2=80=99s activism in a $20 billion company is $4 billion, and =
+Elliott can buy 5% of the stock at the pre-activism price ($1 billion worth=
+) and then do the activism, it will in expectation make a 20% return on its=
+ investment ($200 million) and=C2=A0other=C2=A0shareholders will make $3.8 =
+billion. If Elliott has to disclose its intentions first, the stock will tr=
+ade up 20% to reflect the=C2=A0expected=C2=A0value of Elliott=E2=80=99s inv=
+olvement, Elliott will have to pay $1.2 billion for its position, and in ex=
+pectation it won=E2=80=99t make any money.[5]=C2=A0So it won=E2=80=99t do t=
+he trade.This concern is perhaps a bit exaggerated: You can still buy a lit=
+tle=C2=A0stock quietly, and you could imagine finding ways around the rule.=
+=C2=A0In the SEC=E2=80=99s rule proposals there is a strange distinction be=
+tween =E2=80=9Cswaps,=E2=80=9D which are covered by the proposed swaps rule=
+ and have to be disclosed one business day after you reach $300 million, an=
+d =E2=80=9Ccash-settled derivatives,=E2=80=9D which are covered by the prop=
+osed 13D changes and have to be disclosed five business days after you reac=
+h 5% of the stock. A swap=C2=A0is=C2=A0a cash-settled derivative, and there=
+ is no sensible reason why you would distinguish between these things. Pres=
+umably banks and hedge funds will try to find ways to characterize their tr=
+ades as =E2=80=9Ccash-settled derivatives=E2=80=9D rather than =E2=80=9Cswa=
+ps.=E2=80=9D (My understanding =E2=80=94=C2=A0not legal advice! =E2=80=94 i=
+s that if you call a thing a =E2=80=9Ccash-settled forward,=E2=80=9D it wil=
+l count as a swap, but if you call it a =E2=80=9Ccash-settled call option w=
+ith a strike price of $0.10,=E2=80=9D it will count as a derivative. Those =
+are all the same thing, economically.)Meanwhile the proposed 13D rules also=
+ seem bad for activists. Not so much because they require disclosure of 5% =
+stock ownership within five days, but because they change how the SEC think=
+s about =E2=80=9Cgroups.=E2=80=9D A group, as a technical term in securitie=
+s law,=C2=A0is bad. You don=E2=80=99t want to be in a group. If two shareho=
+lders are part of a group=C2=A0with each other, then their share ownership =
+is added up for the purposes of the 13D rules; if I own 3% and you own 3% a=
+nd we are a group then we=E2=80=99re over 5% and have to disclose our stake=
+. We have to file our Schedule 13D jointly, which means that we=E2=80=99re =
+both responsible for what it says about how many shares we each own and wha=
+t our plans are. Even worse, if our shares add up to more than 10%, we are =
+subject to Section 16 rules, which limit our ability to sell the stock.Here=
+ is how the SEC currently defines a =E2=80=9Cgroup=E2=80=9D:When two or mor=
+e persons agree to act together for the purpose of acquiring, holding, voti=
+ng or disposing of equity securities of an issuer, the group formed thereby=
+ shall be deemed to have acquired beneficial ownership, for purposes of sec=
+tions 13(d) and (g) of the Act, as of the date of such agreement, of all eq=
+uity securities of that issuer beneficially owned by any such persons.The S=
+EC=E2=80=99s new proposal would get rid of the words =E2=80=9Cagree to,=E2=
+=80=9D because =E2=80=9Can agreement is not a necessary element of group fo=
+rmation=E2=80=9D:These amendments would make clear that the determination a=
+s to whether two or more persons are acting as a group does not depend sole=
+ly on the presence of an express agreement and that, depending on the parti=
+cular facts and circumstances, concerted actions by two or more persons for=
+ the purpose of acquiring, holding or disposing of securities of an issuer =
+are sufficient to constitute the formation of a group.I don=E2=80=99t parti=
+cularly know what that means, and I don=E2=80=99t think anyone else does ei=
+ther. But it is=C2=A0vaguer=C2=A0than the previous rule, and thus more dang=
+erous. In particular: One thing that activists do, when they are trying to =
+make changes at a company, is call up=C2=A0other=C2=A0shareholders =E2=80=
+=94=C2=A0big institutional shareholders who don=E2=80=99t do activism but w=
+ho have a lot of votes =E2=80=94=C2=A0and try to persuade them. An activist=
+ is not going to, like, sign an agreement with BlackRock or Vanguard saying=
+ that they will work together, but they might try to=C2=A0talk to BlackRock=
+ and say =E2=80=9Cthis is why you should vote with us.=E2=80=9D Under the o=
+ld rules, they could do that. Under the new rules, where any =E2=80=9Cconce=
+rted actions=E2=80=9D create a group, it might be riskier for BlackRock to =
+talk to activists. Preventing shareholders from talking to each other is ba=
+d for activism. It is also just bad for shareholders: If the managers can k=
+eep the shareholders separated, then they have more power to ignore them.An=
+other part of the new rules would =E2=80=9Cspecify that if a person, in adv=
+ance of filing a Schedule 13D, discloses to any other person that such fili=
+ng will be made and such other person acquires securities in the covered cl=
+ass for which the Schedule 13D will be filed, those persons shall be deemed=
+ to have formed a group.=E2=80=9D The SEC refers to this as =E2=80=9Ctippin=
+g=E2=80=9D: If I tell you that I=E2=80=99m going to do activism in a stock,=
+ and you go buy the stock before I disclose my activism, then that seems un=
+fair to everyone else, so the SEC will treat us as=C2=A0a group as a sort o=
+f punishment. Again, though, this seems designed to scare the BlackRocks of=
+ the world away from talking to activists: If BlackRock meets with an activ=
+ist, and the activist says =E2=80=9Cwe were thinking of doing activism in C=
+ompany X, what do you think,=E2=80=9D then is BlackRock locked up from trad=
+ing in Company X? If it=C2=A0buys Company X shares, is it in a group with t=
+he activist? What if BlackRock puts out a =E2=80=9Crequest for activist=E2=
+=80=9D in Company X?=C2=A0If the company=E2=80=99s managers want to fight b=
+ack against the activist, can they demand records of everyone the activist =
+talked to in the month before buying her position? The safer move for big i=
+nstitutional investors might just be to avoid talking to activists, which w=
+ill make activism much harder.Overall the effect of these rules seems to be=
+ to stop activists from (1) making money from activism and (2) talking to o=
+ther shareholders. And so there will be less activism, and corporate manage=
+rs will have more ability to do what they want without listening to shareho=
+lders.=C2=A0This is weird! We  talked this week about the SEC=E2=80=99s hug=
+e new proposed climate disclosure regime for public companies. Basically sh=
+areholders of public companies increasingly pressure them to do better on e=
+nvironmental, social and governance issues, and the SEC has decided that th=
+at is good. So it is helping shareholders get some of what they want from c=
+ompanies (climate disclosure), and=C2=A0giving the shareholders more tools =
+to pressure the companies to do more of what they want (lower emissions, et=
+c.). At the same time, though, it is reducing shareholders=E2=80=99 ability=
+ to=C2=A0actually pressure companies:=C2=A0It is making activism harder, wh=
+ich makes it easier for corporate managers to ignore shareholders. The shar=
+eholders can have the ESG things that the SEC wants, but not the ESG things=
+ that they want.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Nickel
+   =20
+ =20
+If you are a commodities trader, and you short nickel, and there is a short=
+ squeeze and the=C2=A0price of nickel rises from about $25,000 a ton to $40=
+,000, $80,000, eventually over $100,000 a ton, you will get increasingly fr=
+antic margin calls from your brokers. At some point they will say =E2=80=9C=
+this is just too much risk, you need to cover some of your position by buyi=
+ng back some nickel.=E2=80=9D You will not like this advice, because it is =
+very expensive to buy nickel at $100,000 a ton, and if you buy it back now =
+you will have lost a lot of money on your short bet. =E2=80=9CNo thank you,=
+=E2=80=9D you might=C2=A0reply. =E2=80=9CI=E2=80=99d prefer to wait until n=
+ickel is back at $25,000 a ton;=C2=A0then I=E2=80=99ll buy it back.=E2=80=
+=9DYour brokers will not like this answer, because, you know, that=E2=80=99=
+s not how this works! Sure yes if the price goes down you will be happier t=
+o cover your short, but the price went=C2=A0up, and you need to cover your =
+short=C2=A0now. =E2=80=9CI=E2=80=99ll wait until the short squeeze ends to =
+cover my short=E2=80=9D just fundamentally misunderstands short squeezes.Un=
+less you are the world=E2=80=99s biggest nickel producer and have a short p=
+osition so enormous that it endangers the solvency of a bunch of brokers, i=
+n which case, sure, why not, take as much time as you need, we=E2=80=99ll e=
+ven cancel some trades and shut down the exchange for you  if that helps:Th=
+e Chinese tycoon whose big short bet on nickel was the focus of an unpreced=
+ented short squeeze has covered some of his position, according to people f=
+amiliar with the matter.Xiang Guangda, the owner of nickel and stainless-st=
+eel giant Tsingshan Holding Group Co., bought contracts on the London Metal=
+ Exchange to reduce his short bet as the nickel market briefly unfroze this=
+ week, the people said, asking not to be identified as the information wasn=
+=E2=80=99t public.The move reduces the size of the potential pain for Xiang=
+ and his banks as nickel prices soar once again -- prices on the LME are up=
+ more than 30% over the past two days. However, the businessman and his all=
+ies have only reduced a portion of their total short position, and still ho=
+ld large bets on falling prices, the people said. =E2=80=A6Tsingshan and it=
+s peers have covered tens of thousands of tons of their short positions, on=
+e of the people said. Xiang had short holdings of over 150,000 tons when th=
+e market was halted on March 8, and his business and trading partners held =
+additional large short positions on top of that. ...Xiang previously told h=
+is banks that he didn=E2=80=99t want reduce his short position, Bloomberg r=
+eported March 10.However, the nickel price has dropped sharply since then, =
+falling as low as $26,675 a ton this week, compared with a closing price of=
+ $48,078 a ton on March 7 -- the last day of trading that the LME allowed t=
+o stand when it closed the market.He =E2=80=9Ctold his banks that he didn=
+=E2=80=99t want to reduce his short position,=E2=80=9D I love it. =E2=80=9C=
+Owe your banker [150 tons of nickel] and you are at his mercy; owe him [150=
+,000 tons] and the position is reversed.=E2=80=9DAnyway after  trading limi=
+t-down last Wednesday, Thursday and Friday and this Monday,  nickel =E2=80=
+=9Csurged by the exchange=E2=80=99s daily limit of 15% on both Wednesday an=
+d Thursday=E2=80=9D this week. At basically no point =E2=80=94=C2=A0except =
+Tuesday=C2=A0=E2=80=94=C2=A0did the price of LME nickel reflect supply and =
+demand. Last week the price was artificially high so no one wanted to buy; =
+this week the price finally got low enough for the short sellers to cover, =
+but then they all wanted to cover at once, it went up again, and the exchan=
+ge stopped trading. What a hilarious market.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Rubles for gas
+   =20
+ =20
+We  talked yesterday about Vladimir Putin=E2=80=99s plan to make European c=
+ountries pay for Russian gas in rubles rather than euros. I was not so sure=
+ about the macroeconomics there =E2=80=94=C2=A0the Europeans=C2=A0get=C2=A0=
+the rubles by paying for them in euros, no? =E2=80=94=C2=A0but, whatever, f=
+ine. I am also not so sure about the contractual regime. Bloomberg News  re=
+ports:For the utilities who buy gas from Gazprom, the demand to pay in rubl=
+es could lead to disputes and contract negotiations, threatening to disrupt=
+ the smooth supply of gas to the region. Europe gets about 40% of it gas fr=
+om Russia and is already grappling with fallout of record prices this winte=
+r. German energy giants Uniper SE and RWE AG declined to comment, as did It=
+aly=E2=80=99s Eni SpA.=E2=80=9CIf Gazprom refuses to deliver gas when buyer=
+s pay their invoices in the original contract currency, usually euros, buye=
+rs may bring the case to arbitration,=E2=80=9D said Anise Ganbold, an analy=
+st at Aurora Energy Research.And here is the Financial Times:Contracts for =
+Russian pipeline gas exports to Europe are typically denominated in euros. =
+Russian media has previously reported that most already include an option t=
+o pay in roubles but several European gas analysts thought it was unlikely =
+that supply contracts would include that clause. Without such a provision, =
+contracts would have to be renegotiated.Vinicius Romano, senior analyst at =
+Rystad Energy, said that =E2=80=9Cinsisting on rouble payments may give buy=
+ers cause to re-open other aspects of their contracts, such as the duration=
+, and simply speed up their exit from Russian gas altogether=E2=80=9D.Alfre=
+d Stern, chief executive of OMV, the Austrian petrochemicals group, told lo=
+cal media that it would continue to pay for Russian gas in euros and the co=
+ntract did not allow for a change to roubles.And the chairman of French uti=
+lity group Engie also said its contracts did not include an option to pay i=
+n roubles.I don=E2=80=99t know? I feel like normal commercial=C2=A0relation=
+ships are a little bit suspended here, when Russia has invaded a European c=
+ountry? Like if you are a client of Gazprom and they start invoicing you in=
+ rubles, your choices are (1) pay the rubles, (2) stop getting the gas, or =
+(3) pay in euros and see if they=E2=80=99re bluffing. The choice depends on=
+ how much you need the gas and how much you think Gazprom needs the rubles =
+(or euros); it does not really depend that much on what your=C2=A0contract=
+=C2=A0says. You can go to arbitration if you want, but if=C2=A0the decision=
+s of an arbitrator were=C2=A0binding on Vladimir Putin the entire situation=
+ would be very different.
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+A non-fungible token is basically a receipt saying that you have bought it.=
+ You have bought what? The receipt. Sometimes something else occurs =E2=80=
+=94=C2=A0the receipt points to a digital image file hosted on a web server,=
+ or somebody  burns a  work of art before selling you the receipt, or whate=
+ver =E2=80=94=C2=A0but fundamentally the NFT consists of the receipt. This =
+receipt generally lives on a decentralized computerized database associated=
+ with some cryptocurrency, but artists came up with the idea of selling a r=
+eceipt=C2=A0for money and calling it art long before the invention of the b=
+lockchain. Yves Klein is a particularly good one and you can buy one of his=
+ NFTs now:Auction house Sotheby's said it expects to fetch up to $551,000 f=
+or an unusual item -- a receipt for a piece of invisible art by French arti=
+st Yves Klein.Sotheby's said Klein sold numerous pieces of imaginary art, w=
+hich he dubbed Zones of Immaterial Pictorial Sensibility, in exchange for a=
+ weight of pure gold, and he would issue receipts to the buyers.The receipt=
+ up for auction April 6 is dated Dec. 7, 1959, just a few years before the =
+artist's death in 1963. =E2=80=A6"Some have likened the transfer of a zone =
+of sensitivity and the invention of receipts as an ancestor of the NFT, whi=
+ch itself allows the exchange of immaterial works," the auction catalog sta=
+tes. "If we add that Klein kept a register of the successive owners of the =
+'zones,' it is easy to find here another revolutionary concept -- the 'bloc=
+kchain.'"Yes, right, keeping a list in a notebook is basically the blockcha=
+in, why not.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Uber Reaches Deal to List All New York City Taxis on Its App.=C2=A0Russia P=
+uts Floor Under Stock Market Selloff as  Trading Resumes. Russian Grab for =
+Foreign Jets Spurs Jump in  Insurance Claims. An Alleged Fraud Uncovered by=
+ a Short Seller Ends in Gunfire. Ex-Boeing Pilot  Acquitted in Criminal Cas=
+e Tied to 737-Max. Credit Suisse loses case over banker who stole from bill=
+ionaire clients. Japan=E2=80=99s regulator calls for indictment of top brok=
+erage and traders. Toshiba Shareholders Reject Plan to Break Into Two Parts=
+.=C2=A0=C2=A0Dimon  Pushed White House for =E2=80=98Marshall Plan=E2=80=99 =
+on Domestic Gas.=C2=A0Teen Suspected by Cyber Researchers of Being  Lapsus$=
+ Mastermind. Chelsea to be allowed =C2=A330mn cash injection from parent co=
+mpany. Next-Generation Securitization: NFTs, Tokenization, and the Monetiza=
+tion of =E2=80=9CThings.=E2=80=9D Lessons From 19 Years in the Metaverse. T=
+esla Faces Local Backlash Over Plan for  Massive Gigafactory Party.=C2=A0El=
+on Musk's Latest Dance Moves Could Be Predictive of a Much Higher Price Tar=
+get for Tesla (TSLA) - Analyst.If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at th=
+is link. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters here. Thanks![1] Or bond, etc., but here the concern is equities.[2=
+] Or vice versa, if the investor wants to be short, which is less relevant =
+for activism.[3] Actually the lesser of $300 million or 5% of the stock, wi=
+th complicated rules for disclosure of combined swap-plus-stock positions. =
+For small companies the 5% limit is binding and basically works like the 13=
+D rules but with a one-day deadline instead of five days. For large compani=
+es, $300 million just isn=E2=80=99t very much of the stock.[4] Comments on =
+the swaps proposal were due this week, which is mainly why I=E2=80=99m writ=
+ing about it now. You can read the comments here. A lot of them are from =
+=E2=80=A6=C2=A0retail investors talking about dark pools? That has nothing =
+to do with the proposal, but I think GameStop may have broken the SEC=E2=80=
+=99s commenting system. But there are a lot of real ones too. I should add:=
+ There are proposals to change the HSR rules to exempt most shareholder act=
+ivism, which I guess would solve much of the problem here?[5] I mean, reall=
+y, it can buy like $300 million on swap at the old price and the rest at th=
+e new price (up 20%), for a blended cost of $1.14 billion and an expected p=
+rofit of $60 million (5.3%), but these numbers are all pretty fake.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg5nfh.5kb5/cdc96db8.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8188650_103850464.1648143411716
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.Activism=
+The way activist investing works in the U.S. is generally that an
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBcf5bc542" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBdb618e79"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC9decf267" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Activism</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The way activist investing works in th=
+e U.S. is generally that an activist investor quietly buys up a chunk of a =
+company=E2=80=99s stock, announces that she owns the stock, and goes to the=
+ company=E2=80=99s managers asking them to change something about their str=
+ategy or operations. Sometimes the managers agree,=C2=A0there is a producti=
+ve conversation,=C2=A0the activist helps the company improve, the stock goe=
+s up and eventually the activist sells at a profit. Sometimes the managers =
+disagree, and the activist tries to pressure them into doing what she wants=
+. She might wage a public campaign, writing open letters explaining her pos=
+ition. She might talk to other shareholders =E2=80=94=C2=A0big institutiona=
+l holders who don=E2=80=99t wage activist campaigns themselves but who own =
+a lot of stock =E2=80=94=C2=A0to persuade them that she is right. If lots o=
+f shareholders agree with her, but the managers still don=E2=80=99t, she mi=
+ght launch a proxy fight: She will nominate some people to the company=E2=
+=80=99s board of directors and try to get them elected to replace some of t=
+he existing directors. If enough other shareholders vote with her, her cand=
+idates will win and join the board and presumably do the things she wants. =
+Hopefully the things she wants are good and the stock will go up and she wi=
+ll sell at a profit.</p><p style=3D"margin: 16px 0;">Sometimes this doesn=
+=E2=80=99t work: Managers ignore the activist, other shareholders disagree =
+with her, she loses the proxy fight, etc. Other times it sort of works, but=
+ is bad: The company does what the activist wants, or at least enough to ma=
+ke shareholders satisfied, but it turns out to be wrong and the stock goes =
+down.</p><p style=3D"margin: 16px 0;">In general though it seems obviously =
+good that activism=C2=A0<em>exists</em>. For one thing, it often does make =
+companies more valuable: An activist shareholder, who owns a big chunk of t=
+he company and only makes money if the stock goes up, will sometimes have b=
+etter incentives and motivations than a chief executive officer who owns le=
+ss of the company and collects a large salary even if the stock goes down.<=
+/p><p style=3D"margin: 16px 0;">More fundamentally, though, activism is one=
+ of the few ways that shareholders can exercise real power over the compani=
+es that they theoretically own. As we <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaH=
+Q_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB73dfaa88" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> often discuss around here</a>, if a co=
+mpany=E2=80=99s board and managers want to ignore their shareholders, they =
+mostly can. The only ways that shareholders in the U.S. can actually=C2=A0<=
+em>fire=C2=A0</em>the board and CEO=C2=A0of a public company are (1) a prox=
+y fight or (2) a hostile takeover.</p><p style=3D"margin: 16px 0;">They don=
+=E2=80=99t=C2=A0<em>do=C2=A0</em>that very often. But this is the=C2=A0<em>=
+background=C2=A0</em>that makes other, softer forms of pressure work. If Bl=
+ackRock Inc. calls up a company and says =E2=80=9Cwe are a big shareholder =
+and we=E2=80=99d like you to reduce your greenhouse gas emissions,=E2=80=9D=
+ the executives will generally listen to BlackRock and care what it thinks,=
+ because they know that, if they don=E2=80=99t, BlackRock will become disgr=
+untled, and if enough big shareholders become disgruntled enough an activis=
+t might show up and win a proxy fight. (Sometimes the disgruntled big insti=
+tutional shareholders will quietly=C2=A0<em>invite=C2=A0</em>an activist to=
+ show up; this is <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTQtMDMtMTkvYWN0aXZpc3QtaGVkZ2UtZnVuZHMtYXJlLW1ha2luZy1mcmllbmRzP2NtcGlkPU=
+JCRDAzMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIyMDMyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB5d4b3e35" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> informally called</a> an =E2=80=9CRFA,=E2=80=9D =
+or =E2=80=9Crequest for activist.=E2=80=9D) There just isn=E2=80=99t that m=
+uch that BlackRock can do on its own: The board controls the company, board=
+ elections are not competitive (outside of proxy fights)=C2=A0and most of w=
+hat shareholders vote on is non-binding; BlackRock has a lot of shares, and=
+ so a lot of votes, but it can't do much with them. But if an activist show=
+s up, BlackRock =E2=80=94=C2=A0or other shareholders =E2=80=94=C2=A0can vot=
+e out the board. And the managers know that, which is why they feel the nee=
+d to keep shareholders happy.</p><p style=3D"margin: 16px 0;">=E2=80=9CKeep=
+ shareholders happy=E2=80=9D is a very generic goal. Historically it meant =
+things like having high profits. Later it meant things like doing stock buy=
+backs. Increasingly, it means doing good environmental, social and governan=
+ce things, as big shareholders become more diversified and more focused on =
+ESG. And when companies=C2=A0<em>don=E2=80=99t=C2=A0</em>do the ESG things =
+that shareholders want, there will be <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMTAtMjgvZGFuLWxvZWItd2FudHMtYS1jbGVhbi1zaGVsbC1hbm=
+QtYS1kaXJ0eS1zaGVsbD9jbXBpZD1CQkQwMzI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjQmdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cBdce306fc" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> ESG activists</a> a=
+nd <a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjcvZX=
+h4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzI0=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC73dfaa88" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> proxy fights</a>, because activism is the enforcement mechanism that shar=
+eholders use to influence companies.</p><p style=3D"margin: 16px 0;">Recent=
+ly, though, the U.S. Securities and Exchange Commission has proposed some r=
+ules to =E2=80=A6=C2=A0stop activism? This seems bad, and also like a stran=
+ge priority for the SEC to have.</p><p style=3D"margin: 16px 0;">Even stran=
+ger is SEC Chair Gary Gensler=E2=80=99s <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMDEtMjAvYS1nb29kLXJlcHV0YXRpb24taXMtZXhwZW5zaXZl=
+P2NtcGlkPUJCRDAzMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cBf24b6dc0" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> stated reason for getting rid of activ=
+ism</a>. Gensler thinks activism is bad because:</p><ul style=3D"list-style=
+-type: disc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bo=
+ttom: 5px;">Activists buy stock in the target company quietly,=C2=A0<em>bef=
+ore=C2=A0</em>they do activism;</li>=09<li style=3D"margin-bottom: 5px;">Wh=
+en they do activism =E2=80=94=C2=A0or even when they just announce their pl=
+ans to do activism, or just announce that they bought stock =E2=80=94 the s=
+tock goes up;</li>=09<li style=3D"margin-bottom: 5px;">The people who=C2=A0=
+<em>sold=C2=A0</em>them their stock, before the activism, don=E2=80=99t get=
+ the benefit of that stock-price increase.</li></ul><p style=3D"margin: 16p=
+x 0;">Or <a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.=
+259601/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMi8wMS8xOS9zZWMtZXllcy10aWdodGVyLWRp=
+c2Nsb3N1cmUtZGVhZGxpbmVzLWZvci1oZWRnZS1mdW5kcy1idWlsZGluZy1iaWctc3Rha2VzLWl=
+uLWNvbXBhbmllcy5odG1s/607f07ceef4b8524a319a23cB39993d8e" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">in his wor=
+ds</a>, from January:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9C=
+I would anticipate we=E2=80=99d have something on that,=E2=80=9D Gensler sa=
+id, adding that he is worried about =E2=80=9Cinformation asymmetry.=E2=80=
+=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s materia=
+l nonpublic information that there=E2=80=99s an activist acquiring stock, w=
+ho has an intent to influence and generally speaking, there=E2=80=99s a pop=
+ if you look at the economics from the day they announced =E2=80=A6 there=
+=E2=80=99s usually a pop in the stock at least single-digit percent,=E2=80=
+=9D Gensler said. =E2=80=9CSo the selling shareholders during those days do=
+n=E2=80=99t have some material information.=E2=80=9D</p></blockquote><p sty=
+le=3D"margin: 16px 0;">This is a weird complaint! If an activist buys 5% of=
+ the stock quietly, and then announces that she owns the stock, and the sto=
+ck goes up, she gets 5% of the gains =E2=80=94=C2=A0and the other sharehold=
+ers, the moms and pops and index funds and corporate insiders and whoever e=
+lse, get the other 95%. Yes the shareholders who sold her the stock missed =
+out on the gains, but they sold the stock voluntarily. Yes there was an =E2=
+=80=9Cinformation asymmetry,=E2=80=9D in that the activist knew she was buy=
+ing the stock to do activism and the selling shareholders did not, but ther=
+e is a similar information asymmetry in every stock transaction: When I buy=
+ stock, I know who the buyer is (me) and why I am buying, but the person se=
+lling me the stock does not.</p><p style=3D"margin: 16px 0;">Also though: I=
+f you get rid of activism, then activism won=E2=80=99t ever cause stock-pri=
+ce increases (because it won=E2=80=99t happen), so=C2=A0<em>nobody=C2=A0</e=
+m>will get the benefit of it! The 95% of shareholders who would have benefi=
+ted from activism won=E2=80=99t, and the 5% who would have missed out will =
+still miss out.=C2=A0</p><p style=3D"margin: 16px 0;">I am being a bit=C2=
+=A0hyperbolic, but not, I think,=C2=A0<em>that=C2=A0</em>hyperbolic. Gensle=
+r seems to have decided that it=E2=80=99s bad that an activist can buy a lo=
+t of stock in secret, and would like to crack down on it, so new rules will=
+ require activists to disclose their presence and intentions before buying =
+too much stock. This is something that corporate managers and their lawyers=
+ have wanted for years =E2=80=94=C2=A0my old law firm, Wachtell, Lipton, Ro=
+sen &amp; Katz, has been <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wZXRpdGlvbnMvMjAx=
+MS9wZXRuNC02MjQucGRm/607f07ceef4b8524a319a23cBc9a52dd4" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">pushing it<=
+/a> for over a decade =E2=80=94=C2=A0but it is bad for activists. It is exp=
+ensive to do activism, run proxy fights, etc., and activists do it because =
+they can make money. They make money by buying at the pre-activism price, h=
+opefully pushing the price up, and then selling at the post-activism price.=
+ If=C2=A0they have to do most of their buying at the post-activism price, t=
+hen they can=E2=80=99t make money so they won=E2=80=99t do activism.</p><p =
+style=3D"margin: 16px 0;">There are two different SEC rule proposals that a=
+re designed to accomplish this. The more obvious one is=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0yMg/607f07ceef4b8524a319a23cB549=
+34e05" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">the proposal</a> to change the beneficial ownership reportin=
+g=C2=A0rules that govern=C2=A0when investors need to disclose their stock h=
+oldings. (Activists disclose their holdings on a form called=C2=A0Schedule =
+13D, and these are often called the =E2=80=9C13D rules.=E2=80=9D) The way t=
+he rules work now is that, if you acquire 5% or more of a company=E2=80=99s=
+ stock, you need to disclose your holdings within 10 days. This gives you t=
+ime to go above 5%: If you acquire 5% of the stock on Day 1, you can buy so=
+me more on Days 2, 3, etc., until you file your Schedule 13D on Day 10. So =
+you might own 9% or more of the stock by then. (Activists tend not to go ab=
+ove 10%.) The SEC proposal would cut this down to five days. <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0yMg/607f07ceef4b8524a319a23cC549=
+34e05" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Gensler</a>:</p><blockquote><p style=3D"margin: 16px 0;">Inv=
+estors currently can withhold market moving information from other sharehol=
+ders for 10 days after crossing the 5 percent threshold before filing a Sch=
+edule 13D, which creates an information asymmetry between these investors a=
+nd other shareholders. The filing of Schedule 13D can have a material impac=
+t on a company's share price, so it is important that shareholders get that=
+ information sooner.</p></blockquote><p style=3D"margin: 16px 0;">This is a=
+ change,=C2=A0but not a particularly important one;=C2=A0most activists don=
+=E2=80=99t actually use the full 10 days anyway.</p><p style=3D"margin: 16p=
+x 0;">The subtler but=C2=A0more important change is the SEC=E2=80=99s <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yNTk/607f07ceef4b8524a3=
+19a23cBc81c2854" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">proposal to require public disclosure of=C2=A0<em>=
+swaps=C2=A0</em>positions</a>. A total return swap is a contract between a =
+bank and an investor (a hedge fund, etc.) referencing some underlying stock=
+[1]; the bank agrees to pay the investor however much the stock goes up, an=
+d the investor agrees to pay the bank however much it goes down.[2] This gi=
+ves the investor a position that is economically equivalent to owning the s=
+tock: She makes money if the stock goes up and loses money if it goes down.=
+ But she does not=C2=A0<em>actually=C2=A0</em>own the stock.=C2=A0(The bank=
+s will often hedge these swaps by buying the stock for themselves, though t=
+his is not contractually required or always true.)</p><p style=3D"margin: 1=
+6px 0;">Late last year the SEC <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbG=
+Vhc2UvMjAyMS0yNTk/607f07ceef4b8524a319a23cCc81c2854" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">proposed a new=
+ rule</a> =E2=80=9Cto require any person with a large security-based swap p=
+osition to publicly report certain information related to the position.=E2=
+=80=9D=C2=A0We <a href=3D"https://link.mail.bloombergbusiness.com/click/271=
+37501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+EtMTItMTYvdGhlLXNlYy1oYXMtYmlnLXBsYW5zP2NtcGlkPUJCRDAzMjQyMl9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMyNCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8deed117" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ talked about it at the time</a>; the SEC=E2=80=99s discussion of the rule =
+focused on (1) weird stuff in the market for credit default swaps and (2) t=
+he blowup at Archegos Capital Management, which lost a lot of money using t=
+otal return swaps. The SEC=E2=80=99s proposed rule says that if you buy mor=
+e than $300 million of a stock on swap,[3] you have to publicly disclose yo=
+ur position within one business day. There seems to be a vague idea that th=
+is would somehow have prevented=C2=A0the Archegos blowup, though I am not s=
+ure how. (The concern with Archegos was that nobody knew about all of its s=
+waps positions, but that seems false =E2=80=94=C2=A0in fact its bankers <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVn=
+b3Mtd2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMz=
+I0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB54353376" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> were quite aware</a> of its huge concentrated positions =E2=80=94=C2=A0=
+and in any case the SEC <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9maW5hbC8yMDE1LzM0L=
+Tc0MjQ0LnBkZg/607f07ceef4b8524a319a23cB03c7ab99" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">already has=C2=A0r=
+ules</a> requiring reporting of swap positions=C2=A0<em>to the SEC</em>, th=
+ough not to the public.)</p><p style=3D"margin: 16px 0;">But this rule is a=
+lso very bad for activists. Many=C2=A0activists, when they are quietly buyi=
+ng up stock in a target company, don=E2=80=99t actually buy stock. Instead =
+they buy the stock on swap.=C2=A0There are various reasons to do this =E2=
+=80=94=C2=A0you can potentially get better financial and leverage terms fro=
+m a swap than from buying the stock directly =E2=80=94=C2=A0but there is on=
+e particularly important one. There is a U.S. antitrust rule (the Hart-Scot=
+t-Rodino Act, or HSR) that requires activists to notify the target company =
+and wait 30 days before buying more than $101 million of a company=E2=80=99=
+s stock. Here is a summary, from a <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb21tZW50cy9zNy=
+0zMi0xMC9zNzMyMTAtMjAxMjA3NDctMjcyOTExLnBkZg/607f07ceef4b8524a319a23cBf6ea0=
+e57" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">comment letter</a> filed this week on the SEC=E2=80=99s propos=
+al by a group called the Council for Investor Rights and Corporate Accounta=
+bility[4]:</p><blockquote><p style=3D"margin: 16px 0;">Under current law, t=
+he HSR Act generally prohibits an activist investor from acquiring voting s=
+ecurities with a value in excess of $101 million without making a filing wi=
+th the appropriate governmental agency, notifying the target company of the=
+ making of such filing, and waiting a period of at least 30 days before it =
+can continue to acquire additional voting securities of the issuer. In many=
+ cases, this notification threshold is well below the minimum position size=
+ that an activist investor needs to acquire to make the investment of its t=
+ime, resources and capital worthwhile. The HSR Act, however, is focused sol=
+ely on the acquisition of voting securities and therefore activist investor=
+s have long used [swaps], typically cash-settled [swaps], to accumulate the=
+ir desired sufficient economic position without the need to make an HSR Act=
+ filing. The Proposed Rule would make this long-standing approach irrelevan=
+t, as it would compel public disclosure of the [swaps] position thereby tip=
+ping management and the board of directors of the target company to the inv=
+estment and allowing them to take measures (including possible public discl=
+osure to run up the stock price) to the detriment of the activist investor.=
+</p></blockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9jb21tZW50cy9zNy0zMi0xMC9zNzMyMTAtMjAxMjA3NTAtMjcyOTEzLnBkZg/607f07ceef4=
+b8524a319a23cB6030ed23" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">another comment letter</a> from Elliott Inv=
+estment Management LP, which does a lot of activism:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">In our activist investments, as well as our non-activ=
+ist investments, our firm frequently acquires cash-settled [swaps] as part =
+of the overall mix of securities in a given position. This approach allows =
+us to buy a portion of our position and gain economic exposure without trig=
+gering the kind of =E2=80=9Cherding=E2=80=9D behavior that often accompanie=
+s public disclosure, and without notifying the company before our ideas hav=
+e fully matured. The Proposed Rule will eliminate that approach. Instead, t=
+he new disclosure regime contemplated by the Proposed Rule gives activist i=
+nvestors three potential paths: (1) purchasing cash-settled [swaps]=C2=A0up=
+ to the new (and very low) reporting threshold, or triggering a filing that=
+ would significantly limit the prospect of a sufficiently profitable invest=
+ment (with concomitant loss of confidentiality, and thus of intellectual pr=
+operty) far earlier than is currently the case, (2) acquiring common stock =
+and triggering a notification under the Hart-Scott-Rodino Antitrust Improve=
+ments Act of 1976 at what, for most public companies, is a<em> de minimis</=
+em> level of ownership,=C2=A0or (3) deciding to stop pursuing activist oppo=
+rtunities entirely.</p><p style=3D"margin: 16px 0;">By forcing investors to=
+ choose one of these paths, the new disclosure regime will have a perverse =
+chilling effect on exactly the kind of engagement with companies that is mo=
+st likely to create value for all shareholders and the U.S. market generall=
+y. If an activist with a successful track record of creating sustainable va=
+lue is forced to make a public disclosure prematurely, then =E2=80=9Cherdin=
+g=E2=80=9D behavior by new entrants into the stock may make the securities =
+too expensive, preventing an economically worthwhile position from being bu=
+ilt and thereby pricing the activist out of the investment.</p></blockquote=
+><p style=3D"margin: 16px 0;">And here is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb21tZW5=
+0cy9zNy0zMi0xMC9zNzMyMTAtMjAxMjA1NzgtMjcyNzYzLnBkZg/607f07ceef4b8524a319a23=
+cBc85987d9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">a comment letter</a> from Harvard Law School professor =
+Lucian Bebchuk:</p><blockquote><p style=3D"margin: 16px 0;">For hedge fund =
+activists that accumulate economic positions in a target with significant m=
+arket value through equity swaps, the Equity Swap Rule would lead to disclo=
+sure of the activist=E2=80=99s potential interest in engaging with the comp=
+any at a much earlier time and stage of accumulation than under current rul=
+es. Disclosure at such an early stage would curtail the ability of such act=
+ivists to accumulate a position prior to their initial disclosure. Such ear=
+ly disclosure would also enable management to start engaging in defensive a=
+ctions much earlier than under current rules. Altogether, for such activist=
+s, the Equity Swap Rule would substantially reduce their payoffs and consid=
+erably discourage their activities.</p></blockquote><p style=3D"margin: 16p=
+x 0;">Activists worry that, if they can=E2=80=99t buy more than $300 millio=
+n of stock on swap (<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb21tZW50cy9zNy0zMi0xMC9zNzMyM=
+TAtMjAxMjA3ODEtMjcyOTYxLnBkZg/607f07ceef4b8524a319a23cB16677a9d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+roughly 1%</a> of the median S&amp;P 500 company), or more than $101 millio=
+n in actual stock, they will not be able to quietly build a meaningful posi=
+tion in a large public company. They will have to disclose their involvemen=
+t <em>before=C2=A0</em>buying=C2=A0most of their position, which will push =
+up the price of that position, which will make it uneconomical to do activi=
+sm. If the expected value of Elliott=E2=80=99s activism in a $20 billion co=
+mpany is $4 billion, and Elliott can buy 5% of the stock at the pre-activis=
+m price ($1 billion worth) and then do the activism, it will in expectation=
+ make a 20% return on its investment ($200 million) and=C2=A0<em>other=C2=
+=A0</em>shareholders will make $3.8 billion. If Elliott has to disclose its=
+ intentions first, the stock will trade up 20% to reflect the=C2=A0expected=
+<em>=C2=A0</em>value of Elliott=E2=80=99s involvement, Elliott will have to=
+ pay $1.2 billion for its position, and in expectation it won=E2=80=99t mak=
+e any money.[5]=C2=A0So it won=E2=80=99t do the trade.</p><p style=3D"margi=
+n: 16px 0;">This concern is perhaps a bit exaggerated: You can still buy a =
+<em>little=C2=A0</em>stock quietly, and you could imagine finding ways arou=
+nd the rule.=C2=A0In the SEC=E2=80=99s rule proposals there is a strange di=
+stinction between =E2=80=9Cswaps,=E2=80=9D which are covered by the propose=
+d swaps rule and have to be disclosed one business day after you reach $300=
+ million, and =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIyLz=
+MzLTExMDMwLnBkZg/607f07ceef4b8524a319a23cBb19847d9" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">cash-settled de=
+rivatives</a>,=E2=80=9D which are covered by the proposed 13D changes and h=
+ave to be disclosed five business days after you reach 5% of the stock. A s=
+wap=C2=A0<em>is=C2=A0</em>a cash-settled derivative, and there is no sensib=
+le reason why you would distinguish between these things. Presumably banks =
+and hedge funds will try to find ways to characterize their trades as =E2=
+=80=9Ccash-settled derivatives=E2=80=9D rather than =E2=80=9Cswaps.=E2=80=
+=9D (My understanding =E2=80=94=C2=A0not legal advice! =E2=80=94 is that if=
+ you call a thing a =E2=80=9Ccash-settled forward,=E2=80=9D it will count a=
+s a swap, but if you call it a =E2=80=9Ccash-settled call option with a str=
+ike price of $0.10,=E2=80=9D it will count as a derivative. Those are all t=
+he same thing, economically.)</p><p style=3D"margin: 16px 0;">Meanwhile the=
+ proposed 13D rules also seem bad for activists. Not so much because they r=
+equire disclosure of 5% stock ownership within five days, but because they =
+change how the SEC thinks about =E2=80=9Cgroups.=E2=80=9D A group, as a tec=
+hnical term in securities law,=C2=A0is bad. You don=E2=80=99t want to be in=
+ a group. If two shareholders are part of a group=C2=A0with each other, the=
+n their share ownership is added up for the purposes of the 13D rules; if I=
+ own 3% and you own 3% and we are a group then we=E2=80=99re over 5% and ha=
+ve to disclose our stake. We have to file our Schedule 13D jointly, which m=
+eans that we=E2=80=99re both responsible for what it says about how many sh=
+ares we each own and what our plans are. Even worse, if our shares add up t=
+o more than 10%, we are subject to <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9kaXZpc2lvbnMvY2=
+9ycGZpbi9ndWlkYW5jZS9zZWMxNmludGVycC5odG0/607f07ceef4b8524a319a23cBfc78d855=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Section 16 rules</a>, which limit our ability to sell the stock.<=
+/p><p style=3D"margin: 16px 0;">Here is how the SEC currently <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3c=
+ubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xM2QtNQ/607f07ceef4b8524a319a23=
+cBffc93ee5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">defines a =E2=80=9Cgroup=E2=80=9D</a>:</p><blockquote><=
+p style=3D"margin: 16px 0;">When two or more persons agree to act together =
+for the purpose of acquiring, holding, voting or disposing of equity securi=
+ties of an issuer, the group formed thereby shall be deemed to have acquire=
+d beneficial ownership, for purposes of sections 13(d) and (g) of the Act, =
+as of the date of such agreement, of all equity securities of that issuer b=
+eneficially owned by any such persons.</p></blockquote><p style=3D"margin: =
+16px 0;">The SEC=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27137501.259601/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMD=
+IyLzMzLTExMDMwLnBkZg/607f07ceef4b8524a319a23cCb19847d9" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">new proposa=
+l</a> would get rid of the words =E2=80=9Cagree to,=E2=80=9D because =E2=80=
+=9Can agreement is not a necessary element of group formation=E2=80=9D:</p>=
+<blockquote><p style=3D"margin: 16px 0;">These amendments would make clear =
+that the determination as to whether two or more persons are acting as a gr=
+oup does not depend solely on the presence of an express agreement and that=
+, depending on the particular facts and circumstances, concerted actions by=
+ two or more persons for the purpose of acquiring, holding or disposing of =
+securities of an issuer are sufficient to constitute the formation of a gro=
+up.</p></blockquote><p style=3D"margin: 16px 0;">I don=E2=80=99t particular=
+ly know what that means, and I don=E2=80=99t think anyone else does either.=
+ But it is=C2=A0<em>vaguer=C2=A0</em>than the previous rule, and thus more =
+dangerous. In particular: One thing that activists do, when they are trying=
+ to make changes at a company, is call up=C2=A0<em>other=C2=A0</em>sharehol=
+ders =E2=80=94=C2=A0big institutional shareholders who don=E2=80=99t do act=
+ivism but who have a lot of votes =E2=80=94=C2=A0and try to persuade them. =
+An activist is not going to, like, sign an agreement with BlackRock or Vang=
+uard saying that they will work together, but they might try to=C2=A0<em>ta=
+lk </em>to BlackRock and say =E2=80=9Cthis is why you should vote with us.=
+=E2=80=9D Under the old rules, they could do that. Under the new rules, whe=
+re any =E2=80=9Cconcerted actions=E2=80=9D create a group, it might be risk=
+ier for BlackRock to talk to activists. Preventing shareholders from talkin=
+g to each other is bad for activism. It is also just bad for shareholders: =
+If the managers can keep the shareholders separated, then they have more po=
+wer to ignore them.</p><p style=3D"margin: 16px 0;">Another part of the new=
+ rules would =E2=80=9Cspecify that if a person, in advance of filing a Sche=
+dule 13D, discloses to any other person that such filing will be made and s=
+uch other person acquires securities in the covered class for which the Sch=
+edule 13D will be filed, those persons shall be deemed to have formed a gro=
+up.=E2=80=9D The SEC refers to this as =E2=80=9Ctipping=E2=80=9D: If I tell=
+ you that I=E2=80=99m going to do activism in a stock, and you go buy the s=
+tock before I disclose my activism, then that seems unfair to everyone else=
+, so the SEC will treat us as=C2=A0a group as a sort of punishment. Again, =
+though, this seems designed to scare the BlackRocks of the world away from =
+talking to activists: If BlackRock meets with an activist, and the activist=
+ says =E2=80=9Cwe were thinking of doing activism in Company X, what do you=
+ think,=E2=80=9D then is BlackRock locked up from trading in Company X? If =
+it=C2=A0buys Company X shares, is it in a group with the activist? What if =
+BlackRock puts out a =E2=80=9Crequest for activist=E2=80=9D in Company X?=
+=C2=A0If the company=E2=80=99s managers want to fight back against the acti=
+vist, can they demand records of everyone the activist talked to in the mon=
+th before buying her position? The safer move for big institutional investo=
+rs might just be to avoid talking to activists, which will make activism mu=
+ch harder.</p><p style=3D"margin: 16px 0;">Overall the effect of these rule=
+s seems to be to stop activists from (1) making money from activism and (2)=
+ talking to other shareholders. And so there will be less activism, and cor=
+porate managers will have more ability to do what they want without listeni=
+ng to shareholders.=C2=A0</p><p style=3D"margin: 16px 0;">This is weird! We=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjIvdGhl=
+LXNlYy13aWxsLXJlZ3VsYXRlLWNsaW1hdGU_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzI0JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3a1a1868" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> talk=
+ed this week</a> about the SEC=E2=80=99s huge new proposed climate disclosu=
+re regime for public companies. Basically shareholders of public companies =
+increasingly pressure them to do better on environmental, social and govern=
+ance issues, and the SEC has decided that that is good. So it is helping sh=
+areholders get some of what they want from companies (climate disclosure), =
+and=C2=A0giving the shareholders more tools to pressure the companies to do=
+ more of what they want (lower emissions, etc.). At the same time, though, =
+it is reducing shareholders=E2=80=99 ability to=C2=A0<em>actually pressure =
+companies:=C2=A0</em>It is making activism harder, which makes it easier fo=
+r corporate managers to ignore shareholders. The shareholders can have the =
+ESG things that the SEC wants, but not the ESG things that they want.</p><t=
+able class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"0=
+" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD920b5f91" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE920b5f91" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFd7102f1f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGd7102f1f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nickel</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you are a commodities trader, and y=
+ou short nickel, and there is a short squeeze and the=C2=A0price of nickel =
+rises from about $25,000 a ton to $40,000, $80,000, eventually over $100,00=
+0 a ton, you will get increasingly frantic margin calls from your brokers. =
+At some point they will say =E2=80=9Cthis is just too much risk, you need t=
+o cover some of your position by buying back some nickel.=E2=80=9D You will=
+ not like this advice, because it is very expensive to buy nickel at $100,0=
+00 a ton, and if you buy it back now you will have lost a lot of money on y=
+our short bet. =E2=80=9CNo thank you,=E2=80=9D you might=C2=A0reply. =E2=80=
+=9CI=E2=80=99d prefer to wait until nickel is back at $25,000 a ton;=C2=A0<=
+em>then </em>I=E2=80=99ll buy it back.=E2=80=9D</p><p style=3D"margin: 16px=
+ 0;">Your brokers will not like this answer, because, you know, that=E2=80=
+=99s not how this works! Sure yes if the price goes down you will be happie=
+r to cover your short, but the price went=C2=A0<em>up</em>, and you need to=
+ cover your short=C2=A0<em>now</em>. =E2=80=9CI=E2=80=99ll wait until the s=
+hort squeeze ends to cover my short=E2=80=9D just fundamentally misundersta=
+nds short squeezes.</p><p style=3D"margin: 16px 0;">Unless you are the worl=
+d=E2=80=99s biggest nickel producer and have a short position so enormous t=
+hat it endangers the solvency of a bunch of brokers, in which case, sure, w=
+hy not, take as much time as you need, we=E2=80=99ll even cancel some trade=
+s and shut down the exchange for you <a href=3D"https://link.mail.bloomberg=
+business.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDMtMjQvbmlja2VsLXR5Y29vbi1jb3ZlcmVkLXBhcnQtb2YtaGlzLWJ=
+pZy1zaG9ydC1wb3NpdGlvbi10aGlzLXdlZWs_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzI0JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB78a8cc1d" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> if =
+that helps</a>:</p><blockquote><p style=3D"margin: 16px 0;">The Chinese tyc=
+oon whose big short bet on nickel was the focus of an unprecedented short s=
+queeze has covered some of his position, according to people familiar with =
+the matter.</p><p style=3D"margin: 16px 0;">Xiang Guangda, the owner of nic=
+kel and stainless-steel giant Tsingshan Holding Group Co., bought contracts=
+ on the London Metal Exchange to reduce his short bet as the nickel market =
+briefly unfroze this week, the people said, asking not to be identified as =
+the information wasn=E2=80=99t public.</p><p style=3D"margin: 16px 0;">The =
+move reduces the size of the potential pain for Xiang and his banks as nick=
+el prices soar once again -- prices on the LME are up more than 30% over th=
+e past two days. However, the businessman and his allies have only reduced =
+a portion of their total short position, and still hold large bets on falli=
+ng prices, the people said. =E2=80=A6</p><p style=3D"margin: 16px 0;">Tsing=
+shan and its peers have covered tens of thousands of tons of their short po=
+sitions, one of the people said. Xiang had short holdings of over 150,000 t=
+ons when the market was halted on March 8, and his business and trading par=
+tners held additional large short positions on top of that. ...</p><p style=
+=3D"margin: 16px 0;">Xiang previously told his banks that he didn=E2=80=99t=
+ want reduce his short position, Bloomberg reported March 10.</p><p style=
+=3D"margin: 16px 0;">However, the nickel price has dropped sharply since th=
+en, falling as low as $26,675 a ton this week, compared with a closing pric=
+e of $48,078 a ton on March 7 -- the last day of trading that the LME allow=
+ed to stand when it closed the market.</p></blockquote><p style=3D"margin: =
+16px 0;">He =E2=80=9Ctold his banks that he didn=E2=80=99t want to reduce h=
+is short position,=E2=80=9D I love it. =E2=80=9COwe your banker [150 tons o=
+f nickel] and you are at his mercy; owe him [150,000 tons] and <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly9xdW=
+90ZWludmVzdGlnYXRvci5jb20vMjAxOS8wNC8yMy9iYW5rLw/607f07ceef4b8524a319a23cB9=
+d09acb8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">the position is reversed</a>.=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">Anyway after <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjItMDMtMTcvbmlja2VsLWNhbi10LWZpbmQtYS1wcmljZT9jbXBpZD1CQkQwMzI0Mj=
+JfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMjAzMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBcb7=
+32cbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> trading limit-down</a> last Wednesday, Thursday and Friday =
+and this Monday, <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjIt=
+MDMtMjQvbmlja2VsLXR5Y29vbi1jb3ZlcmVkLXBhcnQtb2YtaGlzLWJpZy1zaG9ydC1wb3NpdGl=
+vbi10aGlzLXdlZWs_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzI0JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cC78a8cc1d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> nickel</a> =E2=80=9Csur=
+ged by the exchange=E2=80=99s daily limit of 15% on both Wednesday and Thur=
+sday=E2=80=9D this week. At basically no point =E2=80=94=C2=A0except Tuesda=
+y=C2=A0=E2=80=94=C2=A0did the price of LME nickel reflect supply and demand=
+. Last week the price was artificially high so no one wanted to buy; this w=
+eek the price finally got low enough for the short sellers to cover, but th=
+en they all wanted to cover at once, it went up again, and the exchange sto=
+pped trading. What a hilarious market.</p><table class=3D"liveintent-flex-a=
+d" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH25ba20d4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Rubles for gas</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMDMtMjMvZ2FtZXN0b3AtaGlyZWQtc29tZS1jb25zdWx0YW50=
+cz9jbXBpZD1CQkQwMzI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB887365e1" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> talked yesterday</a> about Vladimir P=
+utin=E2=80=99s plan to make European countries pay for Russian gas in ruble=
+s rather than euros. I was not so sure about the macroeconomics there =E2=
+=80=94=C2=A0the Europeans=C2=A0<em>get=C2=A0</em>the rubles by paying for t=
+hem in euros, no? =E2=80=94=C2=A0but, whatever, fine. I am also not so sure=
+ about the contractual regime. Bloomberg News <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjMvcHV0aW4td2FudHMtaG9zdGlsZS1zdGF0ZXMtdG=
+8tcGF5LXJ1Ymxlcy1mb3ItZ2FzLWludGVyZmF4LXNheXM_Y21waWQ9QkJEMDMyNDIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIw=
+MzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1f7df075" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> reports</a>:</p><blockquote><p style=3D"margin: 16px 0;">For the util=
+ities who buy gas from Gazprom, the demand to pay in rubles could lead to d=
+isputes and contract negotiations, threatening to disrupt the smooth supply=
+ of gas to the region. Europe gets about 40% of it gas from Russia and is a=
+lready grappling with fallout of record prices this winter. German energy g=
+iants Uniper SE and RWE AG declined to comment, as did Italy=E2=80=99s Eni =
+SpA.</p><p style=3D"margin: 16px 0;">=E2=80=9CIf Gazprom refuses to deliver=
+ gas when buyers pay their invoices in the original contract currency, usua=
+lly euros, buyers may bring the case to arbitration,=E2=80=9D said Anise Ga=
+nbold, an analyst at Aurora Energy Research.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">And here is <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27137501.259601/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzVmZTg2MWEtNj=
+ViYy00MjQ4LTlkYTUtOWI1YTg4ODk3YTUw/607f07ceef4b8524a319a23cBadfb0cef" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">the Financial Times</a>:</p><blockquote><p style=3D"margin: 16px 0;">Con=
+tracts for Russian pipeline gas exports to Europe are typically denominated=
+ in euros. Russian media has previously reported that most already include =
+an option to pay in roubles but several European gas analysts thought it wa=
+s unlikely that supply contracts would include that clause. Without such a =
+provision, contracts would have to be renegotiated.</p><p style=3D"margin: =
+16px 0;">Vinicius Romano, senior analyst at Rystad Energy, said that =E2=80=
+=9Cinsisting on rouble payments may give buyers cause to re-open other aspe=
+cts of their contracts, such as the duration, and simply speed up their exi=
+t from Russian gas altogether=E2=80=9D.</p><p style=3D"margin: 16px 0;">Alf=
+red Stern, chief executive of OMV, the Austrian petrochemicals group, told =
+local media that it would continue to pay for Russian gas in euros and the =
+contract did not allow for a change to roubles.</p><p style=3D"margin: 16px=
+ 0;">And the chairman of French utility group Engie also said its contracts=
+ did not include an option to pay in roubles.</p></blockquote><p style=3D"m=
+argin: 16px 0;">I don=E2=80=99t know? I feel like normal commercial=C2=A0re=
+lationships are a little bit suspended here, when Russia has invaded a Euro=
+pean country? Like if you are a client of Gazprom and they start invoicing =
+you in rubles, your choices are (1) pay the rubles, (2) stop getting the ga=
+s, or (3) pay in euros and see if they=E2=80=99re bluffing. The choice depe=
+nds on how much you need the gas and how much you think Gazprom needs the r=
+ubles (or euros); it does not really depend that much on what your=C2=A0<em=
+>contract=C2=A0</em>says. You can go to arbitration if you want, but if=C2=
+=A0the decisions of an arbitrator were=C2=A0binding on Vladimir Putin the e=
+ntire situation would be very different.</p><table class=3D"header" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A non-fungible token is basically a re=
+ceipt saying that you have bought it. You have bought what? The receipt. So=
+metimes something else occurs =E2=80=94=C2=A0the receipt <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly9tb3hpZS5v=
+cmcvMjAyMi8wMS8wNy93ZWIzLWZpcnN0LWltcHJlc3Npb25zLmh0bWw/607f07ceef4b8524a31=
+9a23cB800a2e5f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">points to a digital image file hosted on a web serv=
+er</a>, or somebody <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjEtMDUtMjQvbWVycmlsbC1seW5jaC1wdXRzLWRvd24tdGhlLXBob25lP2NtcGlkPUJCRDAz=
+MjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIyMDMyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB9904084e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> burns</a> a <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDUtMTAvZWxvbi1tdXNrLXMtc25sLWRlYnV0LWRpZG4tdC1oZWxwLXR=
+oZS1kb2dlY29pbi1idWxscz9jbXBpZD1CQkQwMzI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjQmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB375ff695" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> work</a> of <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDktMTAvbW9uZXktc=
+3R1ZmYtZnVuZ2libGUtc2xpY2VzLW9mLW5vbi1mdW5naWJsZS10b2tlbnM_Y21waWQ9QkJEMDMy=
+NDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjIwMzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+e16588e0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">art</a> before selling you the receipt, or whatever =E2=
+=80=94=C2=A0but fundamentally the NFT consists of the receipt. This receipt=
+ generally lives on a decentralized computerized database associated with s=
+ome cryptocurrency, but artists came up with the idea of selling a receipt=
+=C2=A0for money and calling it art long before the invention of the blockch=
+ain. Yves Klein is a particularly good one and you can <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cudXBpLm=
+NvbS9PZGRfTmV3cy8yMDIyLzAzLzIzL1NvdGhlYnlzLVl2ZXMtS2xlaW4taW52aXNpYmxlLWFyd=
+HdvcmstcmVjZWlwdC1hdWN0aW9uLzk0OTE2NDgwNTgzNzYv/607f07ceef4b8524a319a23cBf6=
+8257cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">buy one of his NFTs now</a>:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">Auction house Sotheby's said it expects to fetch up to $551,0=
+00 for an unusual item -- a receipt for a piece of invisible art by French =
+artist Yves Klein.</p><p style=3D"margin: 16px 0;">Sotheby's said Klein sol=
+d numerous pieces of imaginary art, which he dubbed Zones of Immaterial Pic=
+torial Sensibility, in exchange for a weight of pure gold, and he would iss=
+ue receipts to the buyers.</p><p style=3D"margin: 16px 0;">The receipt up f=
+or auction April 6 is dated Dec. 7, 1959, just a few years before the artis=
+t's death in 1963. =E2=80=A6</p><p style=3D"margin: 16px 0;">"Some have lik=
+ened the transfer of a zone of sensitivity and the invention of receipts as=
+ an ancestor of the NFT, which itself allows the exchange of immaterial wor=
+ks," the auction catalog states. "If we add that Klein kept a register of t=
+he successive owners of the 'zones,' it is easy to find here another revolu=
+tionary concept -- the 'blockchain.'"</p></blockquote><p style=3D"margin: 1=
+6px 0;">Yes, right, keeping a list in a notebook is basically the blockchai=
+n, why not.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Uber Reaches Deal to List All <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy91YmVyLXJlYWNoZXMtZGVhbC10by1saXN0LWFsbC1uZXct=
+eW9yay1jaXR5LXRheGlzLW9uLWl0cy1hcHAtMTE2NDgxMjMyMDE_bW9kPWhwX2xlYWRfcG9zMQ/=
+607f07ceef4b8524a319a23cB8442c7b4" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">New York City Taxis</a> on Its A=
+pp.=C2=A0Russia Puts Floor Under Stock Market Selloff as <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjQvcnVzc2lhbi1zdG9ja3MtcmVzdW1=
+lLWxvY2FsLXRyYWRpbmctYWZ0ZXItcmVjb3JkLWxvbmctc2h1dGRvd24_Y21waWQ9QkJEMDMyND=
+IyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjIwMzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB98=
+71e6d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Trading Resumes</a>. Russian Grab for Foreign Jets Spurs J=
+ump in <a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.25=
+9601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjMvcn=
+Vzc2lhLXNlaXppbmctZm9yZWlnbi1qZXRzLXRyaWdnZXJzLXN1cmdlLWluLWluc3VyYW5jZS1jb=
+GFpbXM_Y21waWQ9QkJEMDMyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cB3be5c793" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Insurance Claims</a>. An Alleged =
+Fraud Uncovered by a Short Seller <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27137501.259601/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hbi1=
+hbGxlZ2VkLWZyYXVkLXVuY292ZXJlZC1ieS1hLXNob3J0LXNlbGxlci1lbmRzLWluLWd1bmZpcm=
+UtMTE2NDgwNTEyMTU_bW9kPWhwX2xlYWRfcG9zNg/607f07ceef4b8524a319a23cB0a0445e0"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Ends in Gunfire</a>. Ex-Boeing Pilot <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjMvZXgtYm9laW5nLXBpbG90LWFjcXVpdHRlZC1pbi=
+1jcmltaW5hbC1jYXNlLXRpZWQtdG8tNzM3LW1heD9jbXBpZD1CQkQwMzI0MjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjQm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB78c95cf4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Acquitted</a> in Criminal Case Tied to 737-Max. Credit Suisse loses case o=
+ver banker who <a href=3D"https://link.mail.bloombergbusiness.com/click/271=
+37501.259601/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGJjNWFmM2MtMTJhZS00MWJlLT=
+kyNTktMzlmZjAwZjkzZGNl/607f07ceef4b8524a319a23cB1ab62c76" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">stole fro=
+m billionaire clients</a>. Japan=E2=80=99s regulator <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuZnQuY29t=
+L2NvbnRlbnQvN2M0YmE5N2ItNTg5OC00Mzg1LWFiYTctOTc2NDU3MzJmMTMz/607f07ceef4b85=
+24a319a23cB74b9fd1d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">calls for indictment</a> of top brokerage and=
+ traders. Toshiba Shareholders <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27137501.259601/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90b3NoaW=
+JhLXNoYXJlaG9sZGVycy1yZWplY3QtcGxhbi10by1icmVhay1pbnRvLXR3by1wYXJ0cy0xMTY0O=
+DA5MzAzNT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB6ebf5c6c" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Reject Plan</a> to Break Into Two Parts.=C2=A0=C2=A0Dimon <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjMvZGltb24tcHVzaGVkLXdo=
+aXRlLWhvdXNlLWZvci1tYXJzaGFsbC1wbGFuLW9uLWRvbWVzdGljLWdhcz9jbXBpZD1CQkQwMzI=
+0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMjAzMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+af4dd9be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Pushed White House</a> for =E2=80=98Marshall Plan=E2=80=
+=99 on Domestic Gas.=C2=A0Teen Suspected by Cyber Researchers of Being <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjMvdGVlbi1zdXNwZ=
+WN0ZWQtYnktY3liZXItcmVzZWFyY2hlcnMtb2YtYmVpbmctbGFwc3VzLW1hc3Rlcm1pbmQ_Y21w=
+aWQ9QkJEMDMyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjIwMzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cB2972916c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Lapsus$ Mastermind</a>. Chelsea to be allowe=
+d =C2=A330mn <a href=3D"https://link.mail.bloombergbusiness.com/click/27137=
+501.259601/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzVjNTBkZGUtZDYwMS00Y2EwLTlh=
+NjktZDMzYTIzYTJhMDFm/607f07ceef4b8524a319a23cB6cb4a099" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">cash inject=
+ion</a> from parent company. <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/27137501.259601/aHR0cHM6Ly9jb3JwZ292Lmxhdy5oYXJ2YXJkLmVkdS8yMDIy=
+LzAzLzIzL25leHQtZ2VuZXJhdGlvbi1zZWN1cml0aXphdGlvbi1uZnRzLXRva2VuaXphdGlvbi1=
+hbmQtdGhlLW1vbmV0aXphdGlvbi1vZi10aGluZ3Mv/607f07ceef4b8524a319a23cB9119d8ba=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Next-Generation Securitization</a>: NFTs, Tokenization, and the M=
+onetization of =E2=80=9CThings.=E2=80=9D Lessons From 19 Years in <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6L=
+y9uZXdzbGV0dGVycy50aGVhdGxhbnRpYy5jb20vZ2FsYXh5LWJyYWluLzYyMzNlY2FmZGM1NTFh=
+MDAyMDg5ZmIxNS9sZXNzb25zLWZyb20tMTkteWVhcnMtaW4tdGhlLW1ldGF2ZXJzZS8/607f07c=
+eef4b8524a319a23cBff424a2d" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">the Metaverse</a>. Tesla Faces Local Ba=
+cklash Over Plan for <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/27137501.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjItMDMtMjMvdGVzbGEtZmFjZXMtYmFja2xhc2gtb3Zlci1tdXNrLXBsYW4tZm9yLXRleGFzLWd=
+pZ2FmYWN0b3J5LXBhcnR5P2NtcGlkPUJCRDAzMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMyNCZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBefb12af8" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Massive Gigafacto=
+ry Party</a>.=C2=A0Elon Musk's Latest <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cuc3RyZWV0aW5zaWRlci5jb20=
+vQW5hbHlzdCtDb21tZW50cy9FbG9uK011c2tzK0xhdGVzdCtEYW5jZStNb3ZlcytDb3VsZCtCZS=
+tQcmVkaWNhdGl2ZStvZithK011Y2grSGlnaGVyK1ByaWNlK1RhcmdldCtmb3IrVGVzbGErKFRTT=
+EEpKy0rQW5hbHlzdC8xOTgxNDUxMy5odG1s/607f07ceef4b8524a319a23cB231f24a9" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Dance Moves</a> Could Be Predictive of a Much Higher Price Target for T=
+esla (TSLA) - Analyst.</p><p style=3D"margin: 16px 0;"><span class=3D"news-=
+designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cDovL2xpbmsub=
+WFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFz=
+aD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBe5b=
+ccf70" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">subscribe at this link</a>. Or y=
+ou can subscribe to Money Stuff and other great Bloomberg newsletters <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM=
+6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB292c=
+7529" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">here=
+</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Or bond, =
+etc., but here the concern is equities.</em></p><p style=3D"margin: 16px 0;=
+"><em>[2] Or vice versa, if the investor wants to be short, which is less r=
+elevant for activism.</em></p><p style=3D"margin: 16px 0;"><em>[3] Actually=
+ the lesser of $300 million or 5% of the stock, with complicated rules for =
+disclosure of combined swap-plus-stock positions. For small companies the 5=
+% limit is binding and basically works like the 13D rules but with a one-da=
+y deadline instead of five days. For large companies, $300 million just isn=
+=E2=80=99t very much of the stock.</em></p><p style=3D"margin: 16px 0;"><em=
+>[4] Comments on the swaps proposal were due this week, which is mainly why=
+ I=E2=80=99m writing about it now. You can read the comments <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9jb21tZW50cy9zNy0zMi0xMC9zNzMyMTAuaHRt/607f07ceef4b8524a319a23cB7=
+1ecc7fe" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>. A lot of them are from =E2=80=A6=C2=A0retail inv=
+estors talking about dark pools? That has nothing to do with the proposal, =
+but I think GameStop may have broken the SEC=E2=80=99s commenting system. B=
+ut there are a lot of real ones too. I should add: There are <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27137501.259601/aHR0cHM6Ly9jb3Jw=
+Z292Lmxhdy5oYXJ2YXJkLmVkdS8yMDIwLzEwLzMwL3Byb3Bvc2VkLWhzci1ydWxlLWNoYW5nZS1=
+3b3VsZC1iZW5lZml0LWFjdGl2aXN0cy8/607f07ceef4b8524a319a23cB0179082f" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>proposals to change the HSR rules</a> to exempt most shareholder activism,=
+ which I guess would solve much of the problem here?</em></p><p style=3D"ma=
+rgin: 16px 0;"><em>[5] I mean, really, it can buy like $300 million on swap=
+ at the old price and the rest at the new price (up 20%), for a blended cos=
+t of $1.14 billion and an expected profit of $60 million (5.3%), but these =
+numbers are all pretty fake.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc7cda26b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8aa43a78" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd3bd86a7" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8764a8a8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzEzNzUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczOTcxMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI7013b6c6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27137501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2713750=
+1.259601/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB2c2dd544" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27137501.259601/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC91c81f6a" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27137501.259601/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB70caee94" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27137501.259601/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8b2d03fe" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+df94d89" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27137501.259601/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+cbeda89" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D271375=
+01&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D271375=
+01&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D271375=
+01&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D271375=
+01&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D271375=
+01&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27397102&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg5nfh.5kb5/cdc96db8.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8188650_103850464.1648143411716--
+

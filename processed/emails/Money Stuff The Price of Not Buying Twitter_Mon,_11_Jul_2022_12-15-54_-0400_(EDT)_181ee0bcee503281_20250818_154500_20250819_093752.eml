@@ -1,0 +1,2278 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a17:902:9a01:b0:16a:54e8:a1d8 with SMTP id v1csp3143917plp;
+        Mon, 11 Jul 2022 09:16:00 -0700 (PDT)
+X-Received: by 2002:a05:600c:5026:b0:3a2:ea0c:ea8a with SMTP id n38-20020a05600c502600b003a2ea0cea8amr2311096wmr.53.1657556160363;
+        Mon, 11 Jul 2022 09:16:00 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1657556160; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=rQNSqAz5MVrBlmdaEQHuJGP1GtR361SEhdB0XebOtCj1SiMQB68FYWgv3kXFmWhG3Q
+         dInIX1UeC5C+eiSimTohNvB961w86W8iRzBdNoDCpdXwDVwKEuM3w2Qgt0fDWekcezc0
+         tRNqkJPWci/PZkDYki80ug/rHyoo2qh4NEWZcWhDpQ2U4wWmQ72rq/tQ+YMq+UMmJHym
+         szDy7Q6d0IL5+W7jND/ln8HVyTG2zUVQt0Iz/pmFmkOyRYozuJo7oua3KVYzDhbB66sI
+         hvYMbtLONHMdFympgxFG2CH8E4Fz+a+4y0HX2k2GTBVFPOdRX5DswCjS/gSySr34ks5V
+         tT6w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=sunQuRM8enD7p8L2CqKM2CCD+zk3rNUjXVNxkVxM1PQ=;
+        b=yZYmlnTVC8I2ncOHYYYSReqObQgx74X6rux1AlRJPg62TQ5nwapGyH5dh+F9gCMlxp
+         xKiq9Qlofs/9YYprs5TWe+k97z6mYP7M8Ywh0OrWJrXTNihNuWkK1od1w7yD3QVWVQak
+         jGEFvMB5DOA1wlhpUi71kYLBOvLu/qdk+7qNLzzOhbT+sjz3x/OFQ8CMQORjeNAO8uTi
+         6/kB+H4TljnwOfZ/t9p3K6qjVQAMumdzFcXOFpv6SqLLzdjN9yeEsInO8meQxVNFk03/
+         6m7br55vQPELJN8aGAlmB7kvJFG+ZwgU9WJCpdMydgnjaUpr2HINDn33ZVeum1rtcNSB
+         Cdxg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=W5hLZTAk;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c13-20020adfa70d000000b0021d7de8f685sor2578527wrd.61.2022.07.11.09.16.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 11 Jul 2022 09:16:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=W5hLZTAk;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=sunQuRM8enD7p8L2CqKM2CCD+zk3rNUjXVNxkVxM1PQ=;
+        b=BLcgVW00Y2Yiy7/1Snq7z/w/NP4eZYsAcDY8Nf08aBbptFp0uHxFp3g9YeghpE9RFr
+         JyhQR7+GBa3H2CT3zTx8yxoK8O0JGnzRLbOCKu+pxzyvKoJVJB6+MLZ3uKmNpnjPZkdl
+         xOf1bPQnPCbNhxo5RzdJ50BbzC7dsrPznbjh05v718wMaj328wWI/z1Dx4H0h1YUBy3v
+         gI73c/3FTFhMDTNpp8am9kXeaw8lA4MsAdl9g7mF0Ta/eyFIskvnRyrhxxiRHEqgmj09
+         ycV5AVNNxRq9xsPz4pVw8pOXE5TWCRynKKsgHOa6Z4jnz+WbCXPGJKJ44wQtUjP+0MOZ
+         Foag==
+X-Gm-Message-State: AJIora/BJIwv1NwluGk8y523f5qucFOwJPiRW+xoaSFfVioSAVeZzbsV
+	2MuMTvX++wAo0DHR/Yq+5hgC0xGYYfRSGjQGafvsVUVYQ7lHwQJ1uw==
+X-Received: by 2002:adf:e5ca:0:b0:21d:68ff:18f0 with SMTP id a10-20020adfe5ca000000b0021d68ff18f0mr17924690wrn.331.1657556159900;
+        Mon, 11 Jul 2022 09:15:59 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fb8e:0:0:0:0:0 with SMTP id a14csp2514797wrr;
+        Mon, 11 Jul 2022 09:15:56 -0700 (PDT)
+X-Received: by 2002:a25:bb06:0:b0:66d:9beb:9f23 with SMTP id z6-20020a25bb06000000b0066d9beb9f23mr17845862ybg.280.1657556156268;
+        Mon, 11 Jul 2022 09:15:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1657556156; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JMJcDO/u8hbt6HUWzzRuLmgUHs5Si5MhI3nLa7qZznVyKGvyGrczgeAaJ57Ws8vPFS
+         7fvct+0g8go42iNpjeAPosouy803W/WM0aUnY7QqJ20RqVEUQLDGXVYEi/Otylmq+YCN
+         oyMNDZtv+PgMASRrWy+bqX3CPK+ukxE3qbyFzuCKtDekS2jZkNUAUkwfhv5MGWykMT/D
+         l+pGYx12kA3C90DiJUSCDL9UpFAIYnD4fklVCduvYyGNwJ0sJ0HN+u2nFsb805awbMMW
+         VcFNGMH4Bzacb+hTX9V2C1BXctVeouZ7E4ukDiWyIK3Q107k/kkAdZFX55HHoX3UR+5D
+         Tv+w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=sunQuRM8enD7p8L2CqKM2CCD+zk3rNUjXVNxkVxM1PQ=;
+        b=07LtInoKiLUltlekfFBWGgi17UJ92V+b/B0H3GuJ/XibqLAVK4tFIimFa57sRfb5Tc
+         7q57kD48PL1JrBnqWTvMu+gHJqHHkUkWtoYlm4mcdDHcO9WH2sNDHB8mEwK/1e8tIiyM
+         Qb38WyOlihlIC7ynrPGf1fmPLgsYKtb2t3moiaZbanFVdQfhlUQCXf6rnjce0yrotd4t
+         Z6YStmvL/sPOvFbOhdHUwUg9TGoIZAZwM0CXLlmX+3QoAgXeZtEShAzmDk3nRM0/Ub8Z
+         qPU4O0oEqtODE2h32gC6rI8vDHcxcxO4R7Y9HMtf8LloRADmiE9bAfYNPfSd7rFZl5Jc
+         cImg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=W5hLZTAk;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220711121554.28338609.272590@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220711121554.28338609.272590@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220711121554.28338609.272590@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 192-20020a2505c9000000b0066eec658cb7sor2282886ybf.40.2022.07.11.09.15.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 11 Jul 2022 09:15:56 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220711121554.28338609.272590@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1v7T23nupZMtijw5tv2hWdoX6TNfwcyfC0E0pZ8Nv/fEH1TFTw9d7yZ8iVuUKiFlWDWgvEFmBOI2Lphz6fZ3/GI68vM1gg=
+X-Received: by 2002:a25:cfc3:0:b0:66f:1fa1:e1f6 with SMTP id f186-20020a25cfc3000000b0066f1fa1e1f6mr6525190ybg.522.1657556155882;
+        Mon, 11 Jul 2022 09:15:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1657556155; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yuOPcpuelGuCCa3BnXz+y2vT/MnuT95AuddURLRLtDhFzZ8sHY/+x7BseMdz+nLjBz
+         d+5Gqv3+RkK2TeQel+Z06PiRtUsSpPVCy6Zc/gMw4GEW+LEAtN+8ETr4pIBE0rkkhZG2
+         soTFING5+rVAhsKKJd29HCYCsJDQhqhGR4i3+cp7vy9Ru60kLcpdPX2iLcCnUGSpCNWo
+         cXxb9h9tmkuCo9eMJ67xJV2gvrrV8guQzfXCTvki4DEh16PPa/i5SIe/aawg8JjS1M6G
+         IwhhuVigGYw8q4owqGvoykr83VCS6MftkDbhMoKG8J1FUVuacpeZGVpJlrwJXQmDC8Qw
+         gwDA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=sunQuRM8enD7p8L2CqKM2CCD+zk3rNUjXVNxkVxM1PQ=;
+        b=h+Jh+vvTsmQUCw9yzbqt42GtaBcOt1dLKJtXPvSyk6Ab7g6a0Lc7tX2e6rNvjm9CEX
+         1dmgNU/CNQ8E3r7O+OLr8uYVY2QUw4L1rbwmEy/oFaCdn72pPZZ5fXvzIzJDJDzHhjq2
+         my6BXQPispg/iIh4tbn/0iSTNDWDQGqrM3/lSHG9QgkoaD5VfqNg6Kp2KA2Cu2Rwi6+N
+         O115SDRq/mJenBq6A0iLArnNW6PMvX7Cgo+wy6h96G82dM1VGPtFK2tZeE1bXxdMBVPI
+         xkaShYBOZlNINTzn9+VAYAV1Vdd3ui57mLxaJEQBKoodhVi2tq90BZxGNcijmXPSedQA
+         2zIg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=W5hLZTAk;
+       spf=pass (google.com: domain of delivery_20220711121554.28338609.272590@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220711121554.28338609.272590@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220711121554.28338609.272590@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id be5-20020a05690c008500b0031c93664a8esi193912ywb.3.2022.07.11.09.15.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 11 Jul 2022 09:15:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220711121554.28338609.272590@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=EDu/m1b38JG86EFWgIgzbrOTNA8AwAuBuSI9nrKEs6Y=;
+ b=W5hLZTAkqV4vTLtRzAiq1SEUcg2TLyR1dv2ScX19nxIa24r65LQxSAQCO/oCZ4qqriN8aIUOb9vH
+   esJ2s61BFHnGHebSwxa5nM6EoaQ1zD4rw8+aVva1RX1lMLLq/ougnc/N0h6cX+gUqdL02G4HsYuT
+   34d8BXHQL7YguM9/KlI=
+Received: from njmta-53.sailthru.com (173.228.155.53) by pmta29.sailthru.com id hph6bm2sd4s9 for <bloomberg@khamel.com>; Mon, 11 Jul 2022 12:15:55 -0400 (envelope-from <delivery_20220711121554.28338609.272590@mx.sailthru.com>)
+Received: from nj1-wetcopper.flt (172.18.20.36) by njmta-53.sailthru.com id hph6bm1qqbsk for <bloomberg@khamel.com>; Mon, 11 Jul 2022 12:15:54 -0400 (envelope-from <delivery_20220711121554.28338609.272590@mx.sailthru.com>)
+Date: Mon, 11 Jul 2022 12:15:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220711121554.28338609.272590@sailthru.com>
+Subject: Money Stuff: The Price of Not Buying Twitter
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7107386_957222079.1657556154334"
+Precedence: bulk
+X-Feedback-ID: 6358:28338609:campaign:sailthru
+X-TM-ID: 20220711121554.28338609.272590
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgve7l.5uby/cc50f5f4
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgve7l.5uby/cc50f5f4>, <mailto:unsubscribe_20220711121554.28338609.272590@mx.sailthru.com>
+X-rpcampaign: stjko28338609
+
+------=_Part_7107386_957222079.1657556154334
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Oh ElonOne question that might be important is: How much is Twitter=
+ Inc. worth if Elon Musk does not buy it? If Twitter announced today =E2=80=
+=9Cwe=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+One question that might be important is: How much is Twitter Inc. worth if =
+Elon Musk does=C2=A0not=C2=A0buy it? If Twitter announced today =E2=80=9Cwe=
+ have agreed to terminate our deal with Elon Musk with no money changing ha=
+nds, never mind,=E2=80=9D what would happen to the stock? Well, it would go=
+ down.=C2=A0I don=E2=80=99t know how much. But just to put a number on it, =
+let=E2=80=99s assume that it would trade to $25 per share,=C2=A0that that i=
+s Twitter=E2=80=99s stand-alone value.[1] That is not investing advice or e=
+ven a real estimate, but it=E2=80=99s helpful to have a placeholder.At Musk=
+=E2=80=99s $54.20 deal price, Twitter is worth about $44 billion; at $25 it=
+ would be worth about $20 billion. The difference is $24 billion, or $29.20=
+ per share. Musk is paying $24 billion over Twitter=E2=80=99s stand-alone v=
+alue. Or he isn=E2=80=99t. In April he agreed to pay $44 billion to buy Twi=
+tter; last Friday he announced that he will try to get out of the deal. We =
+ talked about this on Saturday.Note that Twitter should, in theory, be indi=
+fferent between (1) closing the deal and (2) getting a check from Musk=C2=
+=A0for $24 billion. If Musk paid Twitter the $24 billion=C2=A0difference in=
+ cash, Twitter could pay it out as a dividend to its shareholders. Instead =
+of having $54.20 in cash, they=E2=80=99d have $29.20 in cash and a share of=
+ stock worth $25, and should be just as happy.[2]In contract law, that is t=
+he=C2=A0normal=C2=A0remedy for breach of contract. It is called =E2=80=9Cex=
+pectation damages.=E2=80=9D If Musk signed a deal to buy a thing for $54.20=
+, and then he refused to pay and had no good reason for backing out of the =
+deal, and the seller had to turn around and sell the thing to someone else =
+for $25 instead, then the seller could go to court and demand that Musk pay=
+ the $29.20 difference.=C2=A0Merger agreements are contracts, and in theory=
+=C2=A0a jilted seller could sue a buyer for expectation damages, but in pra=
+ctice merger agreements often=C2=A0limit the availability of damages. In pa=
+rticular, the Twitter merger agreement (Section 8.3(c)) says that Twitter c=
+an=E2=80=99t get more than $1 billion of damages from Musk, which is also t=
+he amount of the reverse=C2=A0termination fee that Musk has to pay Twitter =
+in certain circumstances.[3]So if Musk has no good reason to walk away from=
+ the deal =E2=80=94=C2=A0and I think he obviously does not, though he=E2=80=
+=99ll=C2=A0argue otherwise in court =E2=80=94=C2=A0and Twitter sues him for=
+ damages, it can=E2=80=99t get more than $1 billion. Its=C2=A0actual=C2=A0e=
+xpectation damages are something like $24 billion. The capped damages are n=
+owhere close to enough to compensate Twitter for the lost deal.But, as we d=
+iscussed on=C2=A0Saturday, Twitter has a better option. It=C2=A0can sue for=
+ specific performance, and ask a Delaware judge to order Musk to pay, not $=
+1 billion or $24 billion, but the whole $44 billion=C2=A0to actually close =
+the deal and buy Twitter.[4] This is more fraught and complicated than suin=
+g for damages; specific performance is not the most normal remedy in contra=
+ct law, and for reasons we  discussed on Saturday=C2=A0there are lots of re=
+asons that it might be particularly difficult here. Forcing a guy to buy a =
+company that he doesn=E2=80=99t want is a very drastic move, and nobody rea=
+lly=C2=A0wants=C2=A0to do it. But the merger agreement does say that Twitte=
+r is entitled to specific performance of Musk=E2=80=99s obligations, and th=
+at each party =E2=80=9Cagrees that it will not oppose the granting of an in=
+junction, specific performance and other equitable relief on the basis that=
+ any other=C2=A0party has an adequate remedy at law or that any award of sp=
+ecific performance is not an appropriate remedy for any reason at law or in=
+ equity.=E2=80=9DAnd so, if this dispute ends up in court, there are three =
+things that the court can do:=09Agree with Musk, and let him terminate the=
+=C2=A0deal without paying anything.[5]=09Agree with Twitter that Musk is bo=
+und by his contract, and then make him pay $1 billion, the maximum availabl=
+e damages, for breaching the contract.=09Agree with Twitter that Musk is bo=
+und by his contract, and then order specific performance, making him pay $4=
+4 billion to actually buy Twitter.I will ignore the first possibility, not =
+only because I think it is unlikely but also because it is=C2=A0functionall=
+y the same as the second. On the scale of Twitter=E2=80=99s market capitali=
+zation, or of Musk=E2=80=99s wealth, letting Musk walk away for $0 is not m=
+eaningfully different from letting him walk away for $1 billion. In either =
+case, Musk is fine, and Twitter is not.=C2=A0So=C2=A0the possible outcomes =
+of litigation are extremely binary: He pays $44 billion and buys Twitter, o=
+r he pays zero-to-$1-billion and does not. And there is nothing in between.=
+ A court can=E2=80=99t say =E2=80=9Cman, this is really bad, but I am not g=
+oing to force you to buy Twitter because that seems cruel to everyone, so I=
+ will make you pay $10 billion of damages to compensate Twitter and send a =
+message.=E2=80=9D Nope! It=E2=80=99s $44 billion or $1 billion.Also, though=
+, the possible outcomes of litigation are extremely=C2=A0terrible. Letting =
+the world=E2=80=99s richest person get out of a deal for a nominal fee beca=
+use he got bored with it undermines the rule of law and the predictability =
+of Delaware merger agreements. But forcing an unwilling buyer to own a=C2=
+=A0big public company =E2=80=94=C2=A0with thousands of employees and an out=
+sized influence on politics and culture =E2=80=94 seems bad for the buyer, =
+the employees, the users and the world.=C2=A0Nobody wants either of these o=
+utcomes.[6] But they are the only available outcomes in court.Now: They are=
+ not the only possible outcomes in the=C2=A0world. They are the only possib=
+le outcomes in=C2=A0court. If Twitter and Musk go to court and fight to the=
+ death and a court enters a final judgment, it will be for one of those thi=
+ngs, $1 billion or $44 billion. But because the outcomes are so drastically=
+ different, and so binary, and so=C2=A0bad, and because no one is entirely=
+=C2=A0sure which one it will be, the two sides have a lot of incentive to t=
+ry to=C2=A0settle=C2=A0for something in between.There are two possible sort=
+s of settlement:=09Musk buys Twitter for less, or=09Musk walks away for mor=
+e.Musk and Twitter could agree that he will close the deal, but will pay le=
+ss than $54.20 per share. I don=E2=80=99t know what the number is. More tha=
+n the $25ish per share that I have been assuming Twitter is worth without M=
+usk. More, probably, than the $36.81 closing price of Twitter on Friday, be=
+fore Musk tried to get out of the deal. These sorts of renegotiations happe=
+n sometimes and usually result in=C2=A0pretty modest price cuts, but it is =
+hard at this point to imagine Musk agreeing to pay, like, $52.69. He will w=
+ant a big price cut ($35?) and Twitter will want a small one ($52?) and it =
+might be hard to reach agreement.If they do, though, they will sign a revis=
+ed merger agreement at the reduced price, and I=E2=80=99d expect it to=C2=
+=A0be ironclad: Twitter is not going to be fooled=C2=A0again=C2=A0by Musk=
+=E2=80=99s cavalier approach to contracts, and if they agree to reprice the=
+ deal Musk will need to waive essentially all of his closing conditions and=
+ give up the damages cap. Basically the merger agreement will have to be re=
+placed with a one-page agreement saying =E2=80=9CElon Musk will buy Twitter=
+ for $46.90 in cash no matter what.=E2=80=9D (We  talked recently about Tho=
+ma Bravo=E2=80=99s deal to buy Anaplan Inc., which Thoma Bravo tried to get=
+ out of on pretexts that were almost as flimsy as Musk=E2=80=99s here. Anap=
+lan was pretty annoyed about it, but agreed to a 3.4% price cut =E2=80=94=
+=C2=A0the equivalent of a price of $52.35 per share in this deal =E2=80=94=
+=C2=A0and in exchange Thoma Bravo waived most of its closing conditions; th=
+e deal=C2=A0closed last month.)But nobody at Twitter actually wants Musk to=
+ buy Twitter, do they? Repricing the deal might be good for Twitter=E2=80=
+=99s shareholders, who would get cashed out of this mess, and for its senio=
+r executives, who will get severance payments (and get to stop being Twitte=
+r executives),=C2=A0but it seems pretty bad for Twitter=E2=80=99s employees=
+ and users and the world to have someone who hates Twitter grudgingly buy=
+=C2=A0it.The other option is that they could agree that he=C2=A0won=E2=80=
+=99t=C2=A0close the deal, but will pay Twitter more than $1 billion to walk=
+ away. (And then Twitter will use the money to =E2=80=A6 hire back all the =
+people who left because of the deal? Pay a dividend? Do a stock buyback?) A=
+gain the bid/ask seems wide: For Musk, paying $2 billion would be twice as =
+bad as paying $1 billion, but for Twitter getting $20 billion would still l=
+eave it in a worse position than closing the deal.=C2=A0But if they can wor=
+k out a deal like this =E2=80=94=C2=A0Musk pays Twitter $5 billion or $10 b=
+illion or whatever to walk away =E2=80=94=C2=A0then that seems better=C2=A0=
+to me than having a disgruntled Musk buy Twitter at a lower price. You migh=
+t reasonably disagree. In particular, that deal would leave Twitter=E2=80=
+=99s board and executives in charge of running Twitter, and I don=E2=80=99t=
+ get the sense that they want to run Twitter any more than Musk does. (Woul=
+d you?) Shareholders would get some cash, but would still be Twitter shareh=
+olders, and would have to hope that present management could overcome all t=
+his distraction (and the bot problem, lol) and run the business effectively=
+.As for Twitter=E2=80=99s users, and its role in public discourse =E2=80=A6=
+=C2=A0I don=E2=80=99t know? A few months ago,=C2=A0when Musk was pretending=
+ that he would buy Twitter, there were a lot of critics, but there were als=
+o people who were excited, who thought that he=C2=A0might find a more robus=
+t business model for Twitter, or even =E2=80=9Cextend the light of consciou=
+sness=E2=80=9D through his management of the company. If he pays Twitter to=
+ back=C2=A0out, then the light of consciousness will remain unexpanded.Anyw=
+ay, these outcomes are bad =E2=80=94=C2=A0everything is bad =E2=80=94=C2=A0=
+but they are better than the binary outcomes in court, and I suppose it wou=
+ld be good if one of them happened.[7] If Musk wrote Twitter a check that w=
+as much bigger than $1 billion, then Twitter=E2=80=99s shareholders would b=
+e, not made whole, but at least mollified. And he might be=C2=A0a little ch=
+astened, and might stop going around pretending to buy public companies jus=
+t to cause chaos. And Twitter would remain Twitter, which, you know, could =
+be better, but could also be worse.Of course there are obstacles here. Elon=
+ Musk is rich, weird and stubborn, and might not settle even when it=E2=80=
+=99s in his best interests. Twitter=E2=80=99s directors are in an awkward s=
+pot: They are under a ton of scrutiny, they have a good legal case, and the=
+y will probably=C2=A0be sued by disgruntled shareholders if they settle for=
+ anything less than specific performance at $54.20 per share, even if doing=
+ so is in shareholders=E2=80=99 best interests. Nothing about this deal has=
+ been especially rational so far, and there is no reason to assume that it =
+will settle rationally now. But it would be nice.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Twitter: bankers
+   =20
+ =20
+In general, investment bankers would prefer that the deals they work on clo=
+se. Twitter=E2=80=99s bankers =E2=80=94=C2=A0mainly Goldman Sachs Group Inc=
+. and=C2=A0JPMorgan Chase & Co. =E2=80=94=C2=A0will get paid a lot of money=
+ if Musk buys Twitter; they will get paid less if he doesn=E2=80=99t. If he=
+ pays a huge settlement to walk away, I=E2=80=99m not sure what the banks w=
+ill get out of it, though I assume the bankers thought about this and their=
+ engagement letters cover that scenario. Elon Musk sometimes pretends to bu=
+y public companies, and if you are hired to advise on a possibly-pretend de=
+al you will want to get paid anyway.Musk=E2=80=99s bankers =E2=80=94=C2=A0a=
+ group led by Morgan Stanley =E2=80=94=C2=A0have a more complicated set of =
+incentives. If the deal closes, they will get big fees for advising on the =
+merger, and bigger fees for lining up Musk=E2=80=99s $13 billion debt finan=
+cing. But that debt financing is=C2=A0committed; the banks are on the hook =
+to put up the $13 billion themselves, even if they can=E2=80=99t find any o=
+ther buyers for the debt.=C2=A0In general, the market for buyout debt is a =
+lot softer now than it was in April when the banks agreed to finance this d=
+eal, and banks have sold=C2=A0other big buyout loans at  80-something cents=
+ on the dollar. A price like that would eat through Musk=E2=80=99s banks=E2=
+=80=99 fees and leave them with losses of perhaps a billion dollars or more=
+ on the debt financing. Bloomberg=E2=80=99s Davide Scigliuzzo  reported bac=
+k in May:The lenders forged a deal with Musk based on a maximum interest ra=
+te of 11.75% for the $3 billion unsecured portion of the financing package,=
+ which is expected to be replaced by a bond with ratings in the CCC tier, a=
+ccording to a person with knowledge of the matter. Yet the average yield on=
+ similarly rated junk securities soared past=C2=A012%=C2=A0last week as inv=
+estors pulled back from=C2=A0risk amid fears over rampant inflation, a pote=
+ntial recession and the war in Ukraine.Selling the debt at a yield above 11=
+.75% would force the banks to incur a hit on the fees they will earn for un=
+derwriting the transaction, and could result in outright losses if the rate=
+ climbs above 12.125%, said the person, who asked not to be identified when=
+ discussing a private transaction.That number is now  closer to 13%, implyi=
+ng that the banks would take a nine-digit loss just on the $3 billion unsec=
+ured bond portion of the financing. I suspect Musk=E2=80=99s banks=C2=A0wil=
+l be very happy to get out of this deal.Still it is definitely the case tha=
+t they  wasted a lot of time:=E2=80=9CHe did burn bankers for tons of time,=
+=E2=80=9D said Susan Wolford, a former investment banker who was vice chair=
+ and ran the tech group at Bank of Montreal. =E2=80=9CYou have to take this=
+ to committee, you have to do all the work for something that large.=E2=80=
+=9D =E2=80=A6While deal teams at the banks toiled over holiday weekends and=
+ through sleepless nights to get Musk to the finish line, it=E2=80=99s the =
+nature of the business for those efforts to often go to waste, they said. U=
+sually that happens before a deal gets announced, though, one person acknow=
+ledged.That quote is from a Bloomberg News article about how the banks woul=
+d do it all over again anyway, because (1) financial-market memories are ve=
+ry short, (2) investment bankers are ostentatious workaholics so they don=
+=E2=80=99t mind wasting all this time on a pretend deal, and (3)=C2=A0Musk =
+is very rich so there=E2=80=99s always a=C2=A0chance=C2=A0that he=E2=80=99l=
+l do a deal for real and they=E2=80=99ll get paid.=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Twitter: bots
+   =20
+ =20
+Musk=E2=80=99s supposed excuse for terminating his deal to buy Twitter is t=
+hat he imagines, with no evidence, that bot accounts make up more than 5% o=
+f Twitter=E2=80=99s monetizable daily active users. The theory is that Twit=
+ter says that fewer than 5% of mDAUs are bots, but if the number was really=
+, like, 25%, then Twitter has been lying to shareholders and advertisers an=
+d that would be bad.But here is a funny Twitter thread from Daniel McCarthy=
+ at Emory arguing that if Twitter has lots of bots, then that=E2=80=99s=C2=
+=A0good. After all, Twitter=E2=80=99s revenue is what it is; nobody is disp=
+uting that Twitter=E2=80=99s publicly reported financial information is cor=
+rect. Twitter had $1.2 billion of revenue last quarter, with 229 million re=
+ported average monetizable daily active users. If 5% of those mDAUs are bot=
+s, then Twitter makes something like $5.52 per (non-bot) user per quarter. =
+But if 25% of the users are bots, then Twitter makes something like $6.99 p=
+er user per quarter: Each real Twitter user generates more revenue than you=
+ thought, because there are fewer of them than you thought. Also, because t=
+here are fewer of them, the potential for future growth is higher: There ar=
+e more people out there who don=E2=80=99t use Twitter yet and could be pers=
+uaded. If it turns out that Twitter has many fewer users than everyone thou=
+ght, that is=C2=A0good=C2=A0for Twitter=E2=80=99s future business prospects=
+, and thus for its valuation.Now, this is not a complete=C2=A0analysis: If =
+Twitter=C2=A0has=C2=A0been lying about its users to advertisers, the advert=
+isers will be mad, and that probably won=E2=80=99t be good for future reven=
+ue. And of course all of this is dumb because there is no evidence at all t=
+hat Twitter has been lying about the bots; Musk is just making stuff up to =
+get out of the deal.Still! Deep down, McCarthy is right. If you take Musk a=
+t his word, then the more bots there are now, the better this deal is for h=
+im. Musk agreed to buy Twitter for more than its market value. To justify t=
+hat price, he would want to have some plan to=C2=A0improve=C2=A0Twitter, to=
+ make the business better, so that it would be worth more than its market p=
+rice. If in fact it is the case that Twitter has lots of bots, then getting=
+ rid of the bots and growing the number of actual users would be a good pla=
+n that could make Twitter more valuable. The more bots there are now, the m=
+ore upside there is for Musk.=C2=A0And this analysis is so correct that it =
+was in fact Musk=E2=80=99s analysis!=C2=A0Like, he said that! In the press =
+release announcing the deal on April 25, Musk said: =E2=80=9CI also want to=
+ make Twitter better than ever by enhancing the product with new features, =
+making the algorithms open source to increase trust, defeating the spam bot=
+s, and authenticating all humans. Twitter has tremendous potential =E2=80=
+=93 I look forward to working with the company and the community of users t=
+o unlock it.=E2=80=9D The business proposition for this merger was that Twi=
+tter has too many bots and not enough people, and that this created an oppo=
+rtunity for someone to reduce the bots and increase the people, and that Mu=
+sk was the right person to seize that opportunity.=C2=A0How are we still ta=
+lking about this!
+ =20
+   =20
+      Oh Celsius
+   =20
+ =20
+Celsius Network LLC is (was?) a crypto brokerage that took crypto deposits =
+from customers,  paid 18% interest on those deposits=C2=A0and then invested=
+ the money in crypto loans and complex algorithmic=C2=A0trading strategies.=
+Okay let me stop=C2=A0there. Read that sentence again. What does it say? If=
+ you said =E2=80=9Cit says Celsius Network was a Ponzi scheme,=E2=80=9D the=
+n, congratulations, you have been paying attention to crypto. Oh, I kid, I =
+kid. Not every crypto banking platform is a Ponzi, and I don=E2=80=99t=C2=
+=A0know if Celsius was. But=C2=A0the very least surprising piece of news in=
+ the whole world=C2=A0would be =E2=80=9Cthis 18%-crypto-interest product wa=
+s a Ponzi.=E2=80=9D =E2=80=9COoooooooh we will take your cryptocurrency and=
+ give you 18% interest on it by investing it in secret things=E2=80=9D! I=
+=E2=80=99m sorry! What do you think that means? =E2=80=9CEither the bank is=
+ lying or Celsius is lying,=E2=80=9D Celsius Chief Executive Officer Alex M=
+ashinsky  once told Bloomberg Businessweek, and I am pretty sure that as a =
+matter of formal logic that statement reduces to =E2=80=9Clol I=E2=80=99m r=
+unning a Ponzi.=E2=80=9DAnyway Celsius  blew a hole in its balance sheet by=
+ making unsecured loans to crypto hedge funds,=C2=A0froze withdrawals a mon=
+th ago and hasn=E2=80=99t reopened since. Also=C2=A0a guy who managed money=
+ for it=C2=A0sued Celsius on Thursday, claiming that (1) Celsius was a Ponz=
+i and (2)  he deserves a=C2=A0bigger cut of the loot:Celsius Network, the c=
+rypto lender that froze assets last month, used customer funds to manipulat=
+e the price of its proprietary token and lost hundreds of millions of dolla=
+rs by failing to hedge risk, a former money manager for the company said in=
+ a lawsuit. =E2=80=A6But Celsius was in fact struggling to cover the payout=
+s and suffered =E2=80=9Csevere exchange rate losses=E2=80=9D due to the flu=
+ctuating values of different coins, according to a complaint filed Thursday=
+ in New York state court by KeyFi Inc., the company founded by the former m=
+oney manager, Jason Stone.Stone, who called Celsius a Ponzi scheme in the c=
+omplaint, said it cheated him out of potentially hundreds of millions of do=
+llars in pay.=C2=A0The complaint is a wild ride. At the center of it is a k=
+ind of exchange-rate=C2=A0risk. Celsius took deposits of crypto assets from=
+ its customers, promising them something like 18% interest.=C2=A0It then in=
+vested them in various risky strategies to earn that 18% interest, includin=
+g giving hundreds of millions of dollars of assets to Stone and KeyFi to in=
+vest. But its liabilities (to depositors) were denominated in crypto, and i=
+ts investments were denominated in dollars, and crypto =E2=80=94=C2=A0durin=
+g most of the relevant period, though not now! =E2=80=94=C2=A0mostly went u=
+p:Celsius=E2=80=99 customers provide it with crypto-assets, and expect to r=
+eceive those assets back in the same form. Celsius provided similar assets =
+to Stone and KeyFi to invest, but provided for profits to be evaluated in U=
+SD. This created a risk for Celsius that KeyFi might earn it a USD profit, =
+but that, if the crypto-asset appreciated in value, it might not be able to=
+ profitably repurchase the base crypto-asset.For example, if Celsius provid=
+ed KeyFi with 100 ether worth $100,000 in total (or $1,000 per token), and =
+KeyFi=E2=80=99s investments returned a mixture of coins comprised of 50 eth=
+er and a mix of other coins worth $150,000 in total, it cannot be disputed =
+that that would constitute a profitable investment in USD. If, however, ove=
+r the same period, ether=E2=80=99s price rose to $1,250 per token, and Cels=
+ius needed to convert its USD investment into ether, it would have to use s=
+ome of these USD profits to do so. If ether=E2=80=99s price rose even furth=
+er, it might overtake the profits and require Celsius to use its own funds =
+to purchase the ether. This potential risk, which is a product of Celsius=
+=E2=80=99 relationships with its customers and need to return funds to them=
+ in the same kind as were deposited, is unaddressed in the parties=E2=80=99=
+ agreement and thus remained with Celsius.Great stuff. If Celsius gave KeyF=
+i 100 Ether worth $100,000, and KeyFi did its magic and handed back 80 Ethe=
+r worth $120,000, then KeyFi could say =E2=80=9Clook we made you a 20% prof=
+it.=E2=80=9D And then Celsius=E2=80=99s depositors would say =E2=80=9Cwe wa=
+nt our 100 Ether back=E2=80=9D and Celsius would =E2=80=A6=C2=A0uh =E2=80=
+=A6=C2=A0say =E2=80=9Ceither the bank is lying or we are lying!=E2=80=9D an=
+d grin and run away? I don=E2=80=99t know. Crypto is so funny man:Celsius r=
+epresented to Stone that it was tracking his DeFi activity, balancing his r=
+isk through various hedging strategies =E2=80=A6.Celsius=E2=80=99 owners an=
+d managers have even boasted publicly about being savvy about managing exch=
+ange rate risks. In DeFi investment =E2=80=9Cimpermanent loss=E2=80=9D refe=
+rs to losses caused by exchange rate volatility. On May 20, 2021, Celsius C=
+EO Alex Mashinsky wrote on Twitter that DeFi =E2=80=9Clooks easy until you =
+get bitten or understand the impact of impermanent loss and volatility.=E2=
+=80=9D Mashinksy=E2=80=99s tweet then touted the sophistication of Celsius =
+with the tagline =E2=80=9CUnbank Yourself and let us manage these rough wat=
+ers for you.=E2=80=9D =E2=80=A6Critically, Celsius has failed to provide Ke=
+yFi or Stone with an accounting reflecting any of the hedging transactions =
+it was supposed to make on Stone and Celsius KeyFi=E2=80=99s behalf. This i=
+s because, on information and belief, Celsius lied to Stone and never engag=
+ed in these transactions.I love that, in crypto, when the price of your tok=
+ens move against you, that is called =E2=80=9Cimpermanent loss.=E2=80=9D If=
+ you sell 100 Ether=C2=A0at $1,000=C2=A0to buy 10,000 RandomCoins at $10, a=
+nd then a month later RandomCoin is worth $5 and Ether is worth $2,000 and=
+=C2=A0you sell your RandomCoins for 25 Ether, you shrug and say =E2=80=9Cim=
+permanent loss!=E2=80=9D And you hope that=C2=A0someone =E2=80=94=C2=A0not =
+you for some reason! =E2=80=94=C2=A0was hedging that risk by buying Ether f=
+utures and selling RandomCoin futures. The future of finance is so good.The=
+ specific dispute between KeyFi and Celsius is over whether KeyFi made any =
+profits for Celsius: KeyFi thinks it did (in dollars) and wants a cut, but =
+Celsius apparently thinks it did not (in crypto). But the broader implicati=
+ons of that dispute are =E2=80=A6=C2=A0well =E2=80=A6=C2=A0I mean, the=C2=
+=A0customers=C2=A0want their crypto back, and if Celsius has losses (in cry=
+pto) that=E2=80=99s not great. The p-word gets thrown around:As mentioned a=
+bove, Celsius paid a portion of interest on deposits in CEL tokens and a po=
+rtion of interest in other crypto-assets such as bitcoin and ether. With re=
+spect to consumers who chose to be paid in the crypto-asset they deposited =
+(rather than CEL tokens), Celsius logged those liabilities on its books in =
+a U.S. dollar denominated basis from 2018 through 2020 despite the fact tha=
+t it paid its customers out in the underlying token. It then failed to mark=
+-to-market those assets in its internal ledger as those crypto-assets appre=
+ciated, creating a substantial hole in its accounting.Throughout 2020 and 2=
+021, crypto-assets such as bitcoin and ether substantially appreciated comp=
+ared to the dollar. Yet Celsius failed to update its ledger in order reflec=
+t the increased dollar value of its liabilities at least at any time before=
+ 2021. The accounting error=C2=A0masked hundreds of millions of dollars in =
+liabilities that Celsius was not prepared to pay out. When Jason Stone left=
+ Celsius, Celsius had a $100-$200 million hole on its balance sheet that it=
+ could not fully explain or resolve. Despite this balance sheet insolvency,=
+ Celsius continues to take on more customer assets, which means it continue=
+s to accrue considerable liabilities to the detriment of its current credit=
+ors.In January 2021, the crypto-markets began a bull cycle which caused Cel=
+sius (who had recklessly and fraudulently failed to hedge its investments) =
+to suffer severe exchange rate losses.In January 2021, the price of ether i=
+ncreased over 50% in just a couple of days and continued to climb over the =
+next few weeks, going from a low of 0.24 BTC per ether on January 1 to a hi=
+gh of 0.45 BTC per ether token on February 4.Celsius had massive liabilitie=
+s to depositors denominated in ether but had not maintained ETH holdings eq=
+ual to those liabilities. Instead, Celsius had authorized DeFi strategies t=
+hat resulted in the shifting of assets from ether to other cryptocurrencies=
+ and (inexplicably) had failed to hedge against this well-known risk.=C2=A0=
+As customers sought to withdraw their ether deposits, Celsius was forced to=
+ buy ether in the open market at historically high prices, suffering heavy =
+losses. Faced with a liquidity crisis, Celsius began to offer double-digit =
+interest rates in order to lure new depositors, whose funds were used to re=
+pay earlier depositors and creditors. Thus, while Celsius continued to mark=
+et itself as a transparent and well capitalized business, in reality, it ha=
+d become a Ponzi scheme.These are just allegations in a complaint, and I do=
+n=E2=80=99t know if they=E2=80=99re true. One thing that is going on here i=
+s, like, uncovered interest rate parity? Schematically, if you have one cur=
+rency (Ether), and you don=E2=80=99t like the interest rate you can earn on=
+ that currency, and you notice that some other currency (some random crypto=
+currency you find in your DeFi strategy) pays an 18% interest rate, and you=
+ think =E2=80=9Caha, I will just exchange my Ether for that random cryptocu=
+rrency, earn 18% interest, and then swap that random currency back for Ethe=
+r,=E2=80=9D then you have made a pretty basic foreign-exchange mistake. If =
+one currency (the random coin) pays a higher interest rate than another (Et=
+her), then that implies that Ether is expected to appreciate against the ra=
+ndom coin, because there are no free lunches in financial markets. For a lo=
+ng time, though, there were many many many free lunches in crypto markets, =
+so you could do this sort of thing and think you were being smart.By the wa=
+y, if you believe this story =E2=80=94=C2=A0that Celsius was a Ponzi done i=
+n by the rising prices of cryptocurrencies =E2=80=94=C2=A0then you might th=
+ink that it would have been=C2=A0rescued=C2=A0by the recent crash in crypto=
+ prices? Schematically, Celsius allegedly took deposits of 100 Ether worth =
+$100,000, turned them into $120,000, and then owed the customers 118 Ether =
+worth $236,000. If Ether crashed back down to $1,000 then everything should=
+ be fine! And yet it isn=E2=80=99t.Also this, from the Block, is very funny=
+:Celsius remained unable to make any public statements due to legal advice,=
+ but people with knowledge of the situation told The Block the firm was loo=
+king to avoid lengthy bankruptcy proceedings. Sources said Celsius believes=
+ much of its retail clientele would prefer the firm avoid bankruptcy and th=
+at users could show their support by engaging "HODL Mode" in their Celsius =
+account, a security feature that keeps users from withdrawing or sending fu=
+nds while activated, in the hopes that the legal team would see the strengt=
+h of feeling existing among users.Yes look the depositors of any bank would=
+ prefer that the bank avoid bankruptcy! =E2=80=9CClick this button if you w=
+ould prefer that we not be bankrupt.=E2=80=9D I=E2=80=99m sure that will he=
+lp.
+ =20
+   =20
+      Oh Axie
+   =20
+ =20
+Axie Infinity is a Ponzi scheme that was wrapped in a video game. New users=
+ had to spend money to buy stuff in the video game, which allowed early use=
+rs to sell their video-game stuff at a profit as long as new users kept sho=
+wing up to buy it. Also you could play the video game I guess. Then the Pon=
+zi scheme collapsed through some combination of (1) cooling enthusiasm for =
+crypto and (2) Axie got hacked. But the video game is still there! It=E2=80=
+=99s still fun! People still play it, right? Ahahahahaha no come on:General=
+ partner Arianna Simpson touted Axie Infinity as part of a =E2=80=9Cplay-to=
+-earn revolution,=E2=80=9D saying the ability to own and sell in-game digit=
+al assets would drive loyalty to the platform. Daily platform users reached=
+ a high of 2.7 million in November, according to data from Sky Mavis.As the=
+ crypto boom has crumpled amid inflationary fears and a broader market down=
+turn, the prices of Axie=E2=80=99s in-game tokens crashed, and Axie users f=
+led the platform. As of July 4, the site had 368,456 daily active users, do=
+wn 86% from November, a drop that came after hackers stole more than $500 m=
+illion worth of cryptocurrency from the game in March.If you play a play-to=
+-earn game and you earn less money than you paid to play it, because the pr=
+ice of the in-game tokens has crashed, then the play-to-earn part doesn=E2=
+=80=99t really work does it? What you are left with is just paying a lot of=
+ money to play a video game. Which people do all the time! There is a whole=
+ giant video-game industry that makes fun games and sells them to people fo=
+r money!=C2=A0But that=E2=80=99s apparently=C2=A0not why people played=C2=
+=A0Axie.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+The Global  Tax Revolution for Tech Giants Is Delayed to 2024. Global Inves=
+tors Dump Bonds of Chinese Banks That Lent Heavily to Russia. Wirecard forg=
+ed client details to secure =E2=82=AC900mn investment from SoftBank. Uber  =
+Lobbied Politicians, Broke Laws in Global Push: Reports. Trump left Sarasot=
+a media company weeks before federal subpoenas were issued. =E2=80=9CMadiso=
+n Square Garden Entertainment Corp. recently informed attorneys who filed s=
+hareholder litigation against it that they cannot enter any of the company'=
+s iconic concert or event venues while the litigation is pending.=E2=80=9D =
+Starbucks quietly yanked new chicken sandwich after it gave customers diarr=
+hea. Fake cricket league.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in=
+ handy email form, right in your inbox, please=C2=A0subscribe at this link.=
+ Or you can subscribe to Money Stuff and other great Bloomberg newsletters =
+here. Thanks![1]=C2=A0Twitter=E2=80=99s stock closed at $35.27 per share th=
+e day before Musk started buying it in January, so that is in a sense the u=
+naffected price of the stock. Since then the market, and the social-media i=
+ndustry, and Twitter=E2=80=99s business have not done so great, and Musk ha=
+s spent a lot of time specifically undermining Twitter. The stock closed at=
+ $36.81 on Friday, reflecting some probability of the deal with Musk closin=
+g at $54.20 per share and some probability of it not doing that. It opened =
+at $34.60 this morning, after Musk said he=E2=80=99d try to get out of the =
+deal and Twitter said he couldn=E2=80=99t. Incidentally if you want Twitter=
+=E2=80=99s bankers=E2=80=99 views on Twitter=E2=80=99s stand-alone value as=
+ of April 25, you can find them on pages 67-68, 70-71, 78 and=C2=A079-80 he=
+re.=C2=A0[2] Obviously these things are not complete equivalents. In partic=
+ular,=C2=A0I am ignoring tax consequences.=C2=A0[3] It can=E2=80=99t get bo=
+th the fee and damages; the cap is $1 billion, not $2 billion. =E2=80=9CIn =
+no event shall Equity Investor, Parent or Acquisition Sub collectively be s=
+ubject to an aggregate amount for monetary damages (including any payment o=
+f the Parent Termination Fee) in excess of an aggregate amount equal to the=
+ Parent Termination Fee,=E2=80=9D=C2=A0says the agreement.[4] I am saying $=
+44 billion for simplicity (that=E2=80=99s the deal value that  Bloomberg re=
+ports). Actually it is more complicated: Musk would have to put up $33.5 bi=
+llion of his own equity commitment, along with $13 billion of debt financin=
+g from his banks; Twitter could only get specific performance if the debt f=
+inancing is available. (Note that $44 billion is almost, but not quite, $33=
+.5 billion plus $13 billion, for reasons that are not especially important =
+here.) We discussed this issue on Saturday and I will not rehash it here; I=
+ am just going to shorthand this as making Musk pay $44 billion.=C2=A0[5]=
+=C2=A0There are scenarios in which Twitter could have to pay a $1 billion t=
+ermination fee to Musk, but none of them are relevant here. That=E2=80=99s =
+basically if Twitter terminates the deal to take a better offer from someon=
+e else; it won=E2=80=99t. There is no scenario where Musk goes to court and=
+ says =E2=80=9CI want out of this deal because of bots=E2=80=9D and the jud=
+ge says =E2=80=9Cyou=E2=80=99re right, you poor dear, Twitter really misled=
+ you about those bots, I will make *them* pay *you* a billion dollars.=E2=
+=80=9D[6]=C2=A0Another bad thing about fighting to death in court is that i=
+t is expensive, since you have to pay a lot of lawyers. Yesterday  Bloomber=
+g reported that Twitter had hired Wachtell, Lipton, Rosen & Katz (disclosur=
+e: where I used to work), while Musk has hired Quinn Emanuel Urquhart & Sul=
+livan LLP, and they are not cheap. Be a little careful with this one, thoug=
+h. Litigating to the death is expensive for Musk, since he has to pay lawye=
+rs. It is expensive for Twitter if it loses (that is, if it doesn=E2=80=99t=
+ get specific performance), since it has to pay lawyers. But if Twitter *wi=
+ns*, and a court orders Musk to close the deal at $54.20, and he does, then=
+ effectively *Musk* is paying Twitter=E2=80=99s legal bills: The legal fees=
+ come out of Twitter=E2=80=99s cash on hand, and now Musk owns Twitter and =
+pays shareholders $54.20 per share without deducting those legal fees. So T=
+witter does not exactly have incentives to be economical with lawyers, if i=
+t thinks it has a good case.[7] Dave Hoffman, a law professor at Penn, has =
+a good Twitter thread about this, arguing that =E2=80=9Cthe court will want=
+ Musk's team to think that she will grant [specific performance], but will =
+also desperately hope the case settles=E2=80=9D: Settling for a large amoun=
+t of money to avoid an order of specific performance is strictly better tha=
+n ordering specific performance. He adds=C2=A0that =E2=80=9Cthe best result=
+ for everyone except for Twitter's shareholders is a monetary settlement, a=
+t somewhere between $1 and $10B.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgve7l.5uby/59187378.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7107386_957222079.1657556154334
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Oh ElonOne question that might be important is: How much is Twitter Inc. wo=
+rth if Elon Musk does not buy it? If Twitter announced today =E2=80=9Cwe=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe3368ce5/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzExMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB8e96e98d/email"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC27ee792f/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One question that might be important i=
+s: How much is Twitter Inc. worth if Elon Musk does=C2=A0<em>not=C2=A0</em>=
+buy it? If Twitter announced today =E2=80=9Cwe have agreed to terminate our=
+ deal with Elon Musk with no money changing hands, never mind,=E2=80=9D wha=
+t would happen to the stock? Well, it would go down.=C2=A0I don=E2=80=99t k=
+now how much. But just to put a number on it, let=E2=80=99s assume that it =
+would trade to $25 per share,=C2=A0that that is Twitter=E2=80=99s stand-alo=
+ne value.[1] That is not investing advice or even a real estimate, but it=
+=E2=80=99s helpful to have a placeholder.</p><p style=3D"margin: 16px 0;">A=
+t Musk=E2=80=99s $54.20 deal price, Twitter is worth about $44 billion; at =
+$25 it would be worth about $20 billion. The difference is $24 billion, or =
+$29.20 per share. Musk is paying $24 billion over Twitter=E2=80=99s stand-a=
+lone value. Or he isn=E2=80=99t. In April he agreed to pay $44 billion to b=
+uy Twitter; last Friday he announced that he will try to get out of the dea=
+l. We <a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272=
+590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMDk=
+vZWxvbi1zLW91dD9jbXBpZD1CQkQwNzExMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cB1286f227/email" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> talked about this =
+on Saturday</a>.</p><p style=3D"margin: 16px 0;">Note that Twitter should, =
+in theory, be indifferent between (1) closing the deal and (2) getting a ch=
+eck from Musk=C2=A0for $24 billion. If Musk paid Twitter the $24 billion=C2=
+=A0difference in cash, Twitter could pay it out as a dividend to its shareh=
+olders. Instead of having $54.20 in cash, they=E2=80=99d have $29.20 in cas=
+h and a share of stock worth $25, and should be just as happy.[2]</p><p sty=
+le=3D"margin: 16px 0;">In contract law, that is the=C2=A0<em>normal=C2=A0</=
+em>remedy for breach of contract. It is called =E2=80=9Cexpectation damages=
+.=E2=80=9D If Musk signed a deal to buy a thing for $54.20, and then he ref=
+used to pay and had no good reason for backing out of the deal, and the sel=
+ler had to turn around and sell the thing to someone else for $25 instead, =
+then the seller could go to court and demand that Musk pay the $29.20 diffe=
+rence.=C2=A0</p><p style=3D"margin: 16px 0;">Merger agreements are contract=
+s, and in theory=C2=A0a jilted seller could sue a buyer for expectation dam=
+ages, but in practice merger agreements often=C2=A0limit the availability o=
+f damages. In particular, the Twitter merger agreement (<a href=3D"https://=
+link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMx=
+MTlkcHJlcjE0YS5odG0jYW54YXRvYzI4MzExOV83Nw/607f07ceef4b8524a319a23cBc1cabba=
+9/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Section 8.3(c)</a>) says that Twitter can=E2=80=99t get mo=
+re than $1 billion of damages from Musk, which is also the amount of the re=
+verse=C2=A0termination fee that Musk has to pay Twitter in certain circumst=
+ances.[3]</p><p style=3D"margin: 16px 0;">So if Musk has no good reason to =
+walk away from the deal =E2=80=94=C2=A0and I think he obviously does not, t=
+hough he=E2=80=99ll=C2=A0argue otherwise in court =E2=80=94=C2=A0and Twitte=
+r sues him for damages, it can=E2=80=99t get more than $1 billion. Its=C2=
+=A0<em>actual=C2=A0</em>expectation damages are something like $24 billion.=
+ The capped damages are nowhere close to enough to compensate Twitter for t=
+he lost deal.</p><p style=3D"margin: 16px 0;">But, as we discussed on=C2=A0=
+Saturday, Twitter has a better option. It=C2=A0can sue for specific perform=
+ance, and ask a Delaware judge to order Musk to pay, not $1 billion or $24 =
+billion, but the whole $44 billion=C2=A0to actually close the deal and buy =
+Twitter.[4] This is more fraught and complicated than suing for damages; sp=
+ecific performance is not the most normal remedy in contract law, and for r=
+easons we <a href=3D"https://link.mail.bloombergbusiness.com/click/28338609=
+.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDc=
+tMDkvZWxvbi1zLW91dD9jbXBpZD1CQkQwNzExMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MTEmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cC1286f227/email" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> discussed on S=
+aturday</a>=C2=A0there are lots of reasons that it might be particularly di=
+fficult here. Forcing a guy to buy a company that he doesn=E2=80=99t want i=
+s a very drastic move, and nobody really=C2=A0<em>wants=C2=A0</em>to do it.=
+ But the merger agreement <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/28338609.272590/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXR=
+hLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYz=
+I4MzExOV85MA/607f07ceef4b8524a319a23cB91b6e175/email" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">does <em>say<=
+/em></a> that Twitter is entitled to specific performance of Musk=E2=80=99s=
+ obligations, and that each party =E2=80=9Cagrees that it will not oppose t=
+he granting of an injunction, specific performance and other equitable reli=
+ef on the basis that any other=C2=A0party has an adequate remedy at law or =
+that any award of specific performance is not an appropriate remedy for any=
+ reason at law or in equity.=E2=80=9D</p><p style=3D"margin: 16px 0;">And s=
+o, if this dispute ends up in court, there are three things that the court =
+can do:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margi=
+n: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Agree with Musk, and let h=
+im terminate the=C2=A0deal without paying anything.[5]</li>=09<li style=3D"=
+margin-bottom: 5px;">Agree with Twitter that Musk is bound by his contract,=
+ and then make him pay $1 billion, the maximum available damages, for breac=
+hing the contract.</li>=09<li style=3D"margin-bottom: 5px;">Agree with Twit=
+ter that Musk is bound by his contract, and then order specific performance=
+, making him pay $44 billion to actually buy Twitter.</li></ol><p style=3D"=
+margin: 16px 0;">I will ignore the first possibility, not only because I th=
+ink it is unlikely but also because it is=C2=A0<em>functionally the same as=
+ the second. </em>On the scale of Twitter=E2=80=99s market capitalization, =
+or of Musk=E2=80=99s wealth, letting Musk walk away for $0 is not meaningfu=
+lly different from letting him walk away for $1 billion. In either case, Mu=
+sk is fine, and Twitter is not.=C2=A0</p><p style=3D"margin: 16px 0;">So=C2=
+=A0the possible outcomes of litigation are extremely binary: He pays $44 bi=
+llion and buys Twitter, or he pays zero-to-$1-billion and does not. And the=
+re is nothing in between. A court can=E2=80=99t say =E2=80=9Cman, this is r=
+eally bad, but I am not going to force you to buy Twitter because that seem=
+s cruel to everyone, so I will make you pay $10 billion of damages to compe=
+nsate Twitter and send a message.=E2=80=9D Nope! It=E2=80=99s $44 billion o=
+r $1 billion.</p><p style=3D"margin: 16px 0;">Also, though, the possible ou=
+tcomes of litigation are extremely=C2=A0<em>terrible</em>. Letting the worl=
+d=E2=80=99s richest person get out of a deal for a nominal fee because he g=
+ot bored with it undermines the rule of law and the predictability of Delaw=
+are merger agreements. But forcing an unwilling buyer to own a=C2=A0big pub=
+lic company =E2=80=94=C2=A0with thousands of employees and an outsized infl=
+uence on politics and culture =E2=80=94 seems bad for the buyer, the employ=
+ees, the users and the world.=C2=A0Nobody wants either of these outcomes.[6=
+] But they are the only available outcomes in court.</p><p style=3D"margin:=
+ 16px 0;">Now: They are not the only possible outcomes in the=C2=A0<em>worl=
+d</em>. They are the only possible outcomes in=C2=A0<em>court</em>. If Twit=
+ter and Musk go to court and fight to the death and a court enters a final =
+judgment, it will be for one of those things, $1 billion or $44 billion. Bu=
+t because the outcomes are so drastically different, and so binary, and so=
+=C2=A0bad, and because no one is entirely=C2=A0sure which one it will be, t=
+he two sides have a lot of incentive to try to=C2=A0<em>settle=C2=A0</em>fo=
+r something in between.</p><p style=3D"margin: 16px 0;">There are two possi=
+ble sorts of settlement:</p><ol style=3D"list-style-type: decimal; padding-=
+left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Musk buys=
+ Twitter for less, or</li>=09<li style=3D"margin-bottom: 5px;">Musk walks a=
+way for more.</li></ol><p style=3D"margin: 16px 0;">Musk and Twitter could =
+agree that he will close the deal, but will pay less than $54.20 per share.=
+ I don=E2=80=99t know what the number is. More than the $25ish per share th=
+at I have been assuming Twitter is worth without Musk. More, probably, than=
+ the $36.81 closing price of Twitter on Friday, before Musk tried to get ou=
+t of the deal. These sorts of renegotiations happen sometimes and usually r=
+esult in=C2=A0pretty modest price cuts, but it is hard at this point to ima=
+gine Musk agreeing to pay, like, $52.69. He will want a big price cut ($35?=
+) and Twitter will want a small one ($52?) and it might be hard to reach ag=
+reement.</p><p style=3D"margin: 16px 0;">If they do, though, they will sign=
+ a revised merger agreement at the reduced price, and I=E2=80=99d expect it=
+ to=C2=A0be ironclad: Twitter is not going to be fooled=C2=A0<em>again=C2=
+=A0</em>by Musk=E2=80=99s cavalier approach to contracts, and if they agree=
+ to reprice the deal Musk will need to waive essentially all of his closing=
+ conditions and give up the damages cap. Basically the merger agreement wil=
+l have to be replaced with a one-page agreement saying =E2=80=9CElon Musk w=
+ill buy Twitter for $46.90 in cash no matter what.=E2=80=9D (We <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMTMvbWVyZ2VyLWJ1eWVy=
+LXMtcmVtb3JzZS1zb21ldGltZXMtd29ya3M_Y21waWQ9QkJEMDcxMTIyX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzExJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB564f5169/email" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> talked recently</a> about Thoma Bravo=E2=80=99s deal to buy Anaplan Inc.,=
+ which Thoma Bravo tried to get out of on pretexts that were almost as flim=
+sy as Musk=E2=80=99s here. Anaplan was pretty annoyed about it, but agreed =
+to a 3.4% price cut =E2=80=94=C2=A0the equivalent of a price of $52.35 per =
+share in this deal =E2=80=94=C2=A0and in exchange Thoma Bravo waived most o=
+f its closing conditions; the deal=C2=A0<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlc=
+y9lZGdhci9kYXRhLzE1NDA3NTUvMDAwMTE5MzEyNTIyMTc4MjgyL2QzMzM5ODZkZXg5OTEuaHRt=
+/607f07ceef4b8524a319a23cB083f71e9/email" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">closed last month</a>.)<=
+/p><p style=3D"margin: 16px 0;">But nobody at Twitter actually wants Musk t=
+o buy Twitter, do they? Repricing the deal might be good for Twitter=E2=80=
+=99s shareholders, who would get cashed out of this mess, and for its senio=
+r executives, who will get severance payments (and get to stop being Twitte=
+r executives),=C2=A0but it seems pretty bad for Twitter=E2=80=99s employees=
+ and users and the world to have someone who hates Twitter grudgingly buy=
+=C2=A0it.</p><p style=3D"margin: 16px 0;">The other option is that they cou=
+ld agree that he=C2=A0<em>won=E2=80=99t=C2=A0</em>close the deal, but will =
+pay Twitter more than $1 billion to walk away. (And then Twitter will use t=
+he money to =E2=80=A6 hire back all the people who left because of the deal=
+? Pay a dividend? Do a stock buyback?) Again the bid/ask seems wide: For Mu=
+sk, paying $2 billion would be twice as bad as paying $1 billion, but for T=
+witter getting <em>$20 </em>billion would still leave it in a worse positio=
+n than closing the deal.=C2=A0</p><p style=3D"margin: 16px 0;">But if they =
+can work out a deal like this =E2=80=94=C2=A0Musk pays Twitter $5 billion o=
+r $10 billion or whatever to walk away =E2=80=94=C2=A0then that seems bette=
+r=C2=A0to me than having a disgruntled Musk buy Twitter at a lower price. Y=
+ou might reasonably disagree. In particular, that deal would leave Twitter=
+=E2=80=99s board and executives in charge of running Twitter, and I <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMDIvdHdpdHRlci1z=
+LWJvYXJkLWdhdmUtdXA_Y21waWQ9QkJEMDcxMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzExJnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cB6e101cd8/email" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">don=E2=80=99t g=
+et the sense</a> that they want to run Twitter any more than Musk does. (Wo=
+uld you?) Shareholders would get some cash, but would still be Twitter shar=
+eholders, and would have to hope that present management could overcome all=
+ this distraction (and the bot problem, lol) and run the business effective=
+ly.</p><p style=3D"margin: 16px 0;">As for Twitter=E2=80=99s users, and its=
+ role in public discourse =E2=80=A6=C2=A0I don=E2=80=99t know? A few months=
+ ago,=C2=A0when Musk was pretending that he would buy Twitter, there were a=
+ lot of critics, but there were also people who were excited, who thought t=
+hat he=C2=A0might find a more robust business model for Twitter, <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMjYvbXVzay1pcy10aGUtc2l=
+uZ3VsYXItc29sdXRpb24taS10cnVzdC1mb3ItdHdpdHRlci1kb3JzZXktc2F5cz9jbXBpZD1CQk=
+QwNzExMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMjA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBab6df0a9/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">or even</a> =E2=80=9Cextend the light of cons=
+ciousness=E2=80=9D through his management of the company. If he pays Twitte=
+r to back=C2=A0out, then the light of consciousness will remain unexpanded.=
+</p><p style=3D"margin: 16px 0;">Anyway, these outcomes are bad =E2=80=94=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272=
+590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMDkvbXV=
+zay1lZmZvcnQtdG8ta2lsbC1kZWFsLWxlYXZlcy10d2l0dGVyLXdpdGgtb25seS1iYWQtb3B0aW=
+9ucz9jbXBpZD1CQkQwNzExMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB3b7e3613/email" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">everything is bad</a> =E2=80=
+=94=C2=A0but they are better than the binary outcomes in court, and I suppo=
+se it would be good if one of them happened.[7] If Musk wrote Twitter a che=
+ck that was much bigger than $1 billion, then Twitter=E2=80=99s shareholder=
+s would be, not made whole, but at least mollified. And he might be=C2=A0a =
+little chastened, and might stop going around pretending to buy public comp=
+anies just to cause chaos. And Twitter would remain Twitter, which, you kno=
+w, could be better, but could also be worse.</p><p style=3D"margin: 16px 0;=
+">Of course there are obstacles here. Elon Musk is rich, weird and stubborn=
+, and might not settle even when it=E2=80=99s in his best interests. Twitte=
+r=E2=80=99s directors are in an awkward spot: They are under a ton of scrut=
+iny, they have a good legal case, and they will probably=C2=A0be sued by di=
+sgruntled shareholders if they settle for anything less than specific perfo=
+rmance at $54.20 per share, even if doing so is in shareholders=E2=80=99 be=
+st interests. Nothing about this deal has been especially rational so far, =
+and there is no reason to assume that it will settle rationally now. But it=
+ would be nice.</p><table class=3D"liveintent-sponsored-content" width=3D"a=
+uto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD3353e70f/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE3353e70f/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFd9792b55/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGd9792b55/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Twitter: bankers</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In general, investment bankers would p=
+refer that the deals they work on close. Twitter=E2=80=99s bankers =E2=80=
+=94=C2=A0mainly Goldman Sachs Group Inc. and=C2=A0JPMorgan Chase &amp; Co. =
+=E2=80=94=C2=A0will get paid a lot of money if Musk buys Twitter; they will=
+ get paid less if he doesn=E2=80=99t. If he pays a huge settlement to walk =
+away, I=E2=80=99m not sure what the banks will get out of it, though I assu=
+me the bankers thought about this and their engagement letters cover that s=
+cenario. Elon Musk sometimes pretends to buy public companies, and if you a=
+re hired to advise on a possibly-pretend deal you will want to get paid any=
+way.</p><p style=3D"margin: 16px 0;">Musk=E2=80=99s bankers =E2=80=94=C2=A0=
+a group led by Morgan Stanley =E2=80=94=C2=A0have a more complicated set of=
+ incentives. If the deal closes, they will <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZG=
+VyLmNvbS9lbG9uLW11c2stYnV5LXR3aXR0ZXItYnJlYWt1cC1iYW5rLWZlZXMtaG93LW11Y2gtM=
+jAyMi03/607f07ceef4b8524a319a23cBfcd1b8d8/email" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">get big fees</a> f=
+or advising on the merger, and bigger fees for lining up Musk=E2=80=99s <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIy=
+MDQ4MTI4L3RtMjIxMzIyOWQxX2V4OTktYy5odG0/607f07ceef4b8524a319a23cBd4baedb7/e=
+mail" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">$13 billion debt financing</a>. But that debt financing is=C2=
+=A0<em>committed</em>; the banks are on the hook to put up the $13 billion =
+themselves, even if they can=E2=80=99t find any other buyers for the debt.=
+=C2=A0</p><p style=3D"margin: 16px 0;">In general, the market for buyout de=
+bt is a lot softer now than it was in April when the banks agreed to financ=
+e this deal, and banks have sold=C2=A0other big buyout loans at <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMjMvd2FsbC1zdHJlZXQtZmFj=
+ZXMtYmlsbGlvbi1kb2xsYXItbG9zc2VzLW9uLXNpbmtpbmctYnV5b3V0LWRlYnQ_Y21waWQ9QkJ=
+EMDcxMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjIwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB6b0c09e9/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> 80-something cents on the dollar</a>. A pric=
+e like that would eat through Musk=E2=80=99s banks=E2=80=99 fees and leave =
+them with losses of perhaps a billion dollars or more on the debt financing=
+. Bloomberg=E2=80=99s Davide Scigliuzzo <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjItMDUtMjYvbXVzay1zLXR3aXR0ZXItYmFua2Vycy1mYWNlLXBvdGVu=
+dGlhbC1oaXQtb24tcmlza2llc3QtZGVidD9jbXBpZD1CQkQwNzExMjJfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MTEmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB48e72f2f/email" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ reported back in May</a>:</p><blockquote><p style=3D"margin: 16px 0;">The =
+lenders forged a deal with Musk based on a maximum interest rate of 11.75% =
+for the $3 billion unsecured portion of the financing package, which is exp=
+ected to be replaced by a bond with ratings in the CCC tier, according to a=
+ person with knowledge of the matter. Yet the average yield on similarly ra=
+ted junk securities soared past=C2=A012%=C2=A0last week as investors pulled=
+ back from=C2=A0risk amid fears over rampant inflation, a potential recessi=
+on and the war in Ukraine.</p><p style=3D"margin: 16px 0;">Selling the debt=
+ at a yield above 11.75% would force the banks to incur a hit on the fees t=
+hey will earn for underwriting the transaction, and could result in outrigh=
+t losses if the rate climbs above 12.125%, said the person, who asked not t=
+o be identified when discussing a private transaction.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">That number is now <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDYtMjMvd2FsbC1zdHJlZXQtZmFjZXMtYmlsbGlvbi1kb2xs=
+YXItbG9zc2VzLW9uLXNpbmtpbmctYnV5b3V0LWRlYnQ_Y21waWQ9QkJEMDcxMTIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNz=
+ExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC6b0c09e9/email"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> closer to 13%</a>, implying that the banks would take a nine-digi=
+t loss just on the $3 billion unsecured bond portion of the financing. I su=
+spect Musk=E2=80=99s banks=C2=A0will be very happy to get out of this deal.=
+</p><p style=3D"margin: 16px 0;">Still it is definitely the case that they =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMDkvYmFua2Vyc=
+y1sb29rLXBhc3QtbXVzay1zLXR3aXR0ZXItZmlja2xlbmVzcy1mb3ItZnV0dXJlLWRlYWxzP2Nt=
+cGlkPUJCRDA3MTEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIyMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB74fcd2ff/email" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> wasted a lot of time</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">=E2=80=9CHe did burn bankers for tons of =
+time,=E2=80=9D said Susan Wolford, a former investment banker who was vice =
+chair and ran the tech group at Bank of Montreal. =E2=80=9CYou have to take=
+ this to committee, you have to do all the work for something that large.=
+=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">While deal teams at the=
+ banks toiled over holiday weekends and through sleepless nights to get Mus=
+k to the finish line, it=E2=80=99s the nature of the business for those eff=
+orts to often go to waste, they said. Usually that happens before a deal ge=
+ts announced, though, one person acknowledged.</p></blockquote><p style=3D"=
+margin: 16px 0;">That quote is from a Bloomberg News article about how the =
+banks would do it all over again anyway, because (1) financial-market memor=
+ies are very short, (2) investment bankers are ostentatious workaholics so =
+they don=E2=80=99t mind wasting all this time on a pretend deal, and (3)=C2=
+=A0Musk is very rich so there=E2=80=99s always a=C2=A0<em>chance=C2=A0</em>=
+that he=E2=80=99ll do a deal for real and they=E2=80=99ll get paid.=C2=A0</=
+p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH9e134e06/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Twitter: bots</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Musk=E2=80=99s supposed excuse for ter=
+minating his deal to buy Twitter is that he imagines, with no evidence, tha=
+t bot accounts make up more than 5% of Twitter=E2=80=99s monetizable daily =
+active users. The theory is that Twitter says that fewer than 5% of mDAUs a=
+re bots, but if the number was really, like, 25%, then Twitter has been lyi=
+ng to shareholders and advertisers and that would be bad.</p><p style=3D"ma=
+rgin: 16px 0;">But here is <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28338609.272590/aHR0cHM6Ly90d2l0dGVyLmNvbS9kX21jY2FyL3N0YXR1cy8xNT=
+Q2MTU1NTI3MDU0NTI4NTEyP3M9MTEmdD00bFVmTl9fSTFPSE1KYUs4ZTN1STln/607f07ceef4b=
+8524a319a23cBcedd80f4/email" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">a funny Twitter thread</a> from Daniel=
+ McCarthy at Emory arguing that if Twitter has lots of bots, then that=E2=
+=80=99s=C2=A0<em>good</em>. After all, Twitter=E2=80=99s revenue is what it=
+ is; nobody is disputing that Twitter=E2=80=99s publicly reported financial=
+ information is correct. Twitter had <a href=3D"https://link.mail.bloomberg=
+business.com/click/28338609.272590/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0Fy=
+Y2hpdmVzL2VkZ2FyL2RhdGEvMTQxODA5MS8wMDAxNDE4MDkxMjIwMDAwNzUvdHd0ci0yMDIyMDM=
+zMS5odG0jaWJkZjU2MmY0OTRlOTRiMTM5M2RlNDE4NTU5YzMxNWQ5XzI1/607f07ceef4b8524a=
+319a23cB8954da71/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">$1.2 billion of revenue</a> last quarter, w=
+ith 229 million reported average monetizable daily active users. If 5% of t=
+hose mDAUs are bots, then Twitter makes something like $5.52 per (non-bot) =
+user per quarter. But if 25% of the users are bots, then Twitter makes some=
+thing like $6.99 per user per quarter: Each real Twitter user generates mor=
+e revenue than you thought, because there are fewer of them than you though=
+t. Also, because there are fewer of them, the potential for future growth i=
+s higher: There are more people out there who don=E2=80=99t use Twitter yet=
+ and could be persuaded. If it turns out that Twitter has many fewer users =
+than everyone thought, that is=C2=A0<em>good=C2=A0</em>for Twitter=E2=80=99=
+s future business prospects, and thus for its valuation.</p><p style=3D"mar=
+gin: 16px 0;">Now, this is not a complete=C2=A0analysis: If Twitter=C2=A0<e=
+m>has=C2=A0</em>been lying about its users to advertisers, the advertisers =
+will be mad, and that probably won=E2=80=99t be good for future revenue. An=
+d of course all of this is dumb because there is no evidence at all that Tw=
+itter has been lying about the bots; Musk is just making stuff up to get ou=
+t of the deal.</p><p style=3D"margin: 16px 0;">Still! Deep down, McCarthy i=
+s right. If you take Musk at his word, then the more bots there are now, <e=
+m>the better this deal is for him</em>. Musk agreed to buy Twitter for more=
+ than its market value. To justify that price, he would want to have some p=
+lan to=C2=A0<em>improve=C2=A0</em>Twitter, to make the business better, so =
+that it would be worth more than its market price. If in fact it is the cas=
+e that Twitter has lots of bots, then getting rid of the bots and growing t=
+he number of actual users would be a good plan that could make Twitter more=
+ valuable. The more bots there are now, the more upside there is for Musk.=
+=C2=A0</p><p style=3D"margin: 16px 0;">And this analysis is so correct that=
+ <em>it was in fact Musk=E2=80=99s analysis!=C2=A0</em>Like, he said that! =
+In <a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5Mz=
+EyNTIyMTE3NzIwL2QzMTkxOTBkZXg5OTEuaHRt/607f07ceef4b8524a319a23cB93ac0a97/em=
+ail" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">the press release announcing the deal</a> on April 25, Musk sa=
+id: =E2=80=9CI also want to make Twitter better than ever by enhancing the =
+product with new features, making the algorithms open source to increase tr=
+ust, defeating the spam bots, and authenticating all humans. Twitter has tr=
+emendous potential =E2=80=93 I look forward to working with the company and=
+ the community of users to unlock it.=E2=80=9D The business proposition for=
+ this merger was that Twitter has too many bots and not enough people, and =
+that this created an opportunity for someone to reduce the bots and increas=
+e the people, and that Musk was the right person to seize that opportunity.=
+=C2=A0How are we still talking about this!</p><table class=3D"header" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Celsius</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Celsius Network LLC is (was?) a crypto=
+ brokerage that took crypto deposits from customers, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjcvY2Vsc2l1cy1zLTE4LXlpZWxkcy1vbi1=
+jcnlwdG8tYXJlLXRlbXB0aW5nLWFuZC1kcmF3aW5nLXNjcnV0aW55P2NtcGlkPUJCRDA3MTEyMl=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIyMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6bfc=
+3a91/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> paid 18% interest</a> on those deposits=C2=A0and then =
+invested the money in crypto loans and complex algorithmic=C2=A0trading str=
+ategies.</p><p style=3D"margin: 16px 0;">Okay let me stop=C2=A0there. Read =
+that sentence again. What does it say? If you said =E2=80=9Cit says Celsius=
+ Network was a Ponzi scheme,=E2=80=9D then, congratulations, you have been =
+paying attention to crypto. Oh, I kid, I kid. Not every crypto banking plat=
+form is a Ponzi, and I don=E2=80=99t=C2=A0know if Celsius was. But=C2=A0<em=
+>the very least surprising piece of news in the whole world=C2=A0</em>would=
+ be =E2=80=9Cthis 18%-crypto-interest product was a Ponzi.=E2=80=9D =E2=80=
+=9COoooooooh we will take your cryptocurrency and give you 18% interest on =
+it by investing it in secret things=E2=80=9D! I=E2=80=99m sorry! What do yo=
+u think that means? =E2=80=9CEither the bank is lying or Celsius is lying,=
+=E2=80=9D Celsius Chief Executive Officer Alex Mashinsky <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjcvY2Vsc2l1cy1zLTE4LXlpZWxkcy1=
+vbi1jcnlwdG8tYXJlLXRlbXB0aW5nLWFuZC1kcmF3aW5nLXNjcnV0aW55P2NtcGlkPUJCRDA3MT=
+EyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIyMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZiN4ajR5N3Z6a2c_c3JlZj0xa0pW=
+TnFuVQ/607f07ceef4b8524a319a23cBb5a45f8c/email" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> once told Bloomber=
+g Businessweek</a>, and I am pretty sure that as a matter of formal logic t=
+hat statement reduces to =E2=80=9Clol I=E2=80=99m running a Ponzi.=E2=80=9D=
+</p><p style=3D"margin: 16px 0;">Anyway Celsius <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMjkvY3J5cHRvLWxvdmVzLWl0cy1zaGFkb3ct=
+YmFua3M_Y21waWQ9QkJEMDcxMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB29a59034/email" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> blew a hole in its balance=
+ sheet</a> by making unsecured loans to crypto hedge funds,=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMTMvbWVyZ2VyLWJ1eWV=
+yLXMtcmVtb3JzZS1zb21ldGltZXMtd29ya3M_Y21waWQ9QkJEMDcxMTIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzExJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC564f5169/email" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">froze withdrawals</a> a month ago and hasn=E2=80=99t reopened since. Also=
+=C2=A0a guy who managed money for it=C2=A0sued Celsius on Thursday, claimin=
+g that (1) Celsius was a Ponzi and (2) <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjItMDctMDcvZW1iYXR0bGVkLWNyeXB0by1sZW5kZXItY2Vsc2l1cy1hY=
+2N1c2VkLW9mLWZyYXVkLWJ5LWV4LWVtcGxveWVlP2NtcGlkPUJCRDA3MTEyMl9NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDcxMSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB58c99966/email" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> he deserves a=C2=A0bigger cut of the loot</a>:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Celsius Network, the crypto lender that froze assets=
+ last month, used customer funds to manipulate the price of its proprietary=
+ token and lost hundreds of millions of dollars by failing to hedge risk, a=
+ former money manager for the company said in a lawsuit. =E2=80=A6</p><p st=
+yle=3D"margin: 16px 0;">But Celsius was in fact struggling to cover the pay=
+outs and suffered =E2=80=9Csevere exchange rate losses=E2=80=9D due to the =
+fluctuating values of different coins, according to a complaint filed Thurs=
+day in New York state court by KeyFi Inc., the company founded by the forme=
+r money manager, Jason Stone.</p><p style=3D"margin: 16px 0;">Stone, who ca=
+lled Celsius a Ponzi scheme in the complaint, said it cheated him out of po=
+tentially hundreds of millions of dollars in pay.=C2=A0</p></blockquote><p =
+style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28338609.272590/aHR0cHM6Ly9pYXBwcy5jb3VydHMuc3RhdGUubnkudXMvbnl=
+zY2VmL1ZpZXdEb2N1bWVudD9kb2NJbmRleD1SdkYzME16MklaVzYzczFtamphdTJRPT0/607f07=
+ceef4b8524a319a23cBa59b1eed/email" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">complaint</a> is a wild ride. At=
+ the center of it is a kind of exchange-rate=C2=A0risk. Celsius took deposi=
+ts of crypto assets from its customers, promising them something like 18% i=
+nterest.=C2=A0It then invested them in various risky strategies to earn tha=
+t 18% interest, including giving hundreds of millions of dollars of assets =
+to Stone and KeyFi to invest. But its liabilities (to depositors) were deno=
+minated in crypto, and its investments were denominated in dollars, and cry=
+pto =E2=80=94=C2=A0during most of the relevant period, though not now! =E2=
+=80=94=C2=A0mostly went up:</p><blockquote><p style=3D"margin: 16px 0;">Cel=
+sius=E2=80=99 customers provide it with crypto-assets, and expect to receiv=
+e those assets back in the same form. Celsius provided similar assets to St=
+one and KeyFi to invest, but provided for profits to be evaluated in USD. T=
+his created a risk for Celsius that KeyFi might earn it a USD profit, but t=
+hat, if the crypto-asset appreciated in value, it might not be able to prof=
+itably repurchase the base crypto-asset.</p><p style=3D"margin: 16px 0;">Fo=
+r example, if Celsius provided KeyFi with 100 ether worth $100,000 in total=
+ (or $1,000 per token), and KeyFi=E2=80=99s investments returned a mixture =
+of coins comprised of 50 ether and a mix of other coins worth $150,000 in t=
+otal, it cannot be disputed that that would constitute a profitable investm=
+ent in USD. If, however, over the same period, ether=E2=80=99s price rose t=
+o $1,250 per token, and Celsius needed to convert its USD investment into e=
+ther, it would have to use some of these USD profits to do so. If ether=E2=
+=80=99s price rose even further, it might overtake the profits and require =
+Celsius to use its own funds to purchase the ether. This potential risk, wh=
+ich is a product of Celsius=E2=80=99 relationships with its customers and n=
+eed to return funds to them in the same kind as were deposited, is unaddres=
+sed in the parties=E2=80=99 agreement and thus remained with Celsius.</p></=
+blockquote><p style=3D"margin: 16px 0;">Great stuff. If Celsius gave KeyFi =
+100 Ether worth $100,000, and KeyFi did its magic and handed back 80 Ether =
+worth $120,000, then KeyFi could say =E2=80=9Clook we made you a 20% profit=
+.=E2=80=9D And then Celsius=E2=80=99s depositors would say =E2=80=9Cwe want=
+ our 100 Ether back=E2=80=9D and Celsius would =E2=80=A6=C2=A0uh =E2=80=A6=
+=C2=A0say =E2=80=9Ceither the bank is lying or we are lying!=E2=80=9D and g=
+rin and run away? I don=E2=80=99t know. Crypto is so funny man:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Celsius represented to Stone that it was t=
+racking his DeFi activity, balancing his risk through various hedging strat=
+egies =E2=80=A6.</p><p style=3D"margin: 16px 0;">Celsius=E2=80=99 owners an=
+d managers have even boasted publicly about being savvy about managing exch=
+ange rate risks. In DeFi investment =E2=80=9Cimpermanent loss=E2=80=9D refe=
+rs to losses caused by exchange rate volatility. On May 20, 2021, Celsius C=
+EO Alex Mashinsky wrote on Twitter that DeFi =E2=80=9Clooks easy until you =
+get bitten or understand the impact of impermanent loss and volatility.=E2=
+=80=9D Mashinksy=E2=80=99s tweet then touted the sophistication of Celsius =
+with the tagline =E2=80=9CUnbank Yourself and let us manage these rough wat=
+ers for you.=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">Critically,=
+ Celsius has failed to provide KeyFi or Stone with an accounting reflecting=
+ any of the hedging transactions it was supposed to make on Stone and Celsi=
+us KeyFi=E2=80=99s behalf. This is because, on information and belief, Cels=
+ius lied to Stone and never engaged in these transactions.</p></blockquote>=
+<p style=3D"margin: 16px 0;">I love that, in crypto, when the price of your=
+ tokens move against you, that is called =E2=80=9Cimpermanent loss.=E2=80=
+=9D If you sell 100 Ether=C2=A0at $1,000=C2=A0to buy 10,000 RandomCoins at =
+$10, and then a month later RandomCoin is worth $5 and Ether is worth $2,00=
+0 and=C2=A0you sell your RandomCoins for 25 Ether, you shrug and say =E2=80=
+=9Cimpermanent loss!=E2=80=9D And you hope that=C2=A0someone =E2=80=94=C2=
+=A0not you for some reason! =E2=80=94=C2=A0was hedging that risk by buying =
+Ether futures and selling RandomCoin futures. The future of finance is so g=
+ood.</p><p style=3D"margin: 16px 0;">The specific dispute between KeyFi and=
+ Celsius is over whether KeyFi made any profits for Celsius: KeyFi thinks i=
+t did (in dollars) and wants a cut, but Celsius apparently thinks it did no=
+t (in crypto). But the broader implications of that dispute are =E2=80=A6=
+=C2=A0well =E2=80=A6=C2=A0I mean, the=C2=A0<em>customers=C2=A0</em>want the=
+ir crypto back, and if Celsius has losses (in crypto) that=E2=80=99s not gr=
+eat. The p-word gets thrown around:</p><blockquote><p style=3D"margin: 16px=
+ 0;">As mentioned above, Celsius paid a portion of interest on deposits in =
+CEL tokens and a portion of interest in other crypto-assets such as bitcoin=
+ and ether. With respect to consumers who chose to be paid in the crypto-as=
+set they deposited (rather than CEL tokens), Celsius logged those liabiliti=
+es on its books in a U.S. dollar denominated basis from 2018 through 2020 d=
+espite the fact that it paid its customers out in the underlying token. It =
+then failed to mark-to-market those assets in its internal ledger as those =
+crypto-assets appreciated, creating a substantial hole in its accounting.</=
+p><p style=3D"margin: 16px 0;">Throughout 2020 and 2021, crypto-assets such=
+ as bitcoin and ether substantially appreciated compared to the dollar. Yet=
+ Celsius failed to update its ledger in order reflect the increased dollar =
+value of its liabilities at least at any time before 2021. The accounting e=
+rror=C2=A0masked hundreds of millions of dollars in liabilities that Celsiu=
+s was not prepared to pay out. When Jason Stone left Celsius, Celsius had a=
+ $100-$200 million hole on its balance sheet that it could not fully explai=
+n or resolve. Despite this balance sheet insolvency, Celsius continues to t=
+ake on more customer assets, which means it continues to accrue considerabl=
+e liabilities to the detriment of its current creditors.</p><p style=3D"mar=
+gin: 16px 0;">In January 2021, the crypto-markets began a bull cycle which =
+caused Celsius (who had recklessly and fraudulently failed to hedge its inv=
+estments) to suffer severe exchange rate losses.</p><p style=3D"margin: 16p=
+x 0;">In January 2021, the price of ether increased over 50% in just a coup=
+le of days and continued to climb over the next few weeks, going from a low=
+ of 0.24 BTC per ether on January 1 to a high of 0.45 BTC per ether token o=
+n February 4.</p><p style=3D"margin: 16px 0;">Celsius had massive liabiliti=
+es to depositors denominated in ether but had not maintained ETH holdings e=
+qual to those liabilities. Instead, Celsius had authorized DeFi strategies =
+that resulted in the shifting of assets from ether to other cryptocurrencie=
+s and (inexplicably) had failed to hedge against this well-known risk.=C2=
+=A0</p><p style=3D"margin: 16px 0;">As customers sought to withdraw their e=
+ther deposits, Celsius was forced to buy ether in the open market at histor=
+ically high prices, suffering heavy losses. Faced with a liquidity crisis, =
+Celsius began to offer double-digit interest rates in order to lure new dep=
+ositors, whose funds were used to repay earlier depositors and creditors. T=
+hus, while Celsius continued to market itself as a transparent and well cap=
+italized business, in reality, it had become a Ponzi scheme.</p></blockquot=
+e><p style=3D"margin: 16px 0;">These are just allegations in a complaint, a=
+nd I don=E2=80=99t know if they=E2=80=99re true. One thing that is going on=
+ here is, like, <a href=3D"https://link.mail.bloombergbusiness.com/click/28=
+338609.272590/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSW50ZXJlc3RfcmF0ZV9wY=
+XJpdHk/607f07ceef4b8524a319a23cB743a7fcc/email" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">uncovered interest =
+rate parity</a>? Schematically, if you have one currency (Ether), and you d=
+on=E2=80=99t like the interest rate you can earn on that currency, and you =
+notice that some other currency (some random cryptocurrency you find in you=
+r DeFi strategy) pays an 18% interest rate, and you think =E2=80=9Caha, I w=
+ill just exchange my Ether for that random cryptocurrency, earn 18% interes=
+t, and then swap that random currency back for Ether,=E2=80=9D then you hav=
+e made a pretty basic foreign-exchange mistake. If one currency (the random=
+ coin) pays a higher interest rate than another (Ether), then that implies =
+that Ether is expected to appreciate against the random coin, because there=
+ are no free lunches in financial markets. For a long time, though, there w=
+ere many many many free lunches in crypto markets, so you could do this sor=
+t of thing and think you were being smart.</p><p style=3D"margin: 16px 0;">=
+By the way, if you believe this story =E2=80=94=C2=A0that Celsius was a Pon=
+zi done in by the rising prices of cryptocurrencies =E2=80=94=C2=A0then you=
+ might think that it would have been=C2=A0<em>rescued=C2=A0</em>by the rece=
+nt crash in crypto prices? Schematically, Celsius allegedly took deposits o=
+f 100 Ether worth $100,000, turned them into $120,000, and then owed the cu=
+stomers 118 Ether worth $236,000. If Ether crashed back down to $1,000 then=
+ everything should be fine! And yet it isn=E2=80=99t.</p><p style=3D"margin=
+: 16px 0;">Also this, from the Block, <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cudGhlYmxvY2suY28vcG9zdC8=
+xNTY4MDUvY2Vsc2l1cy1oaXJlcy1uZXctcmVzdHJ1Y3R1cmluZy1sYXd5ZXJzLXRvLWhlbHAtbm=
+F2aWdhdGUtaXRzLW9wdGlvbnMtd3Nq/607f07ceef4b8524a319a23cB3f5187ad/email" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">is very funny</a>:</p><blockquote><p style=3D"margin: 16px 0;">Celsius=
+ remained unable to make any public statements due to legal advice, but peo=
+ple with knowledge of the situation told The Block the firm was looking to =
+avoid lengthy bankruptcy proceedings. Sources said Celsius believes much of=
+ its retail clientele would prefer the firm avoid bankruptcy and that users=
+ could show their support by engaging "HODL Mode" in their Celsius account,=
+ a security feature that keeps users from withdrawing or sending funds whil=
+e activated, in the hopes that the legal team would see the strength of fee=
+ling existing among users.</p></blockquote><p style=3D"margin: 16px 0;">Yes=
+ look the depositors of any bank would prefer that the bank avoid bankruptc=
+y! =E2=80=9CClick this button if you would prefer that we not be bankrupt.=
+=E2=80=9D I=E2=80=99m sure that will help.</p><table class=3D"header" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Axie</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Axie Infinity is a Ponzi scheme that w=
+as wrapped in a video game. New users had to spend money to buy stuff in th=
+e video game, which allowed early users to sell their video-game stuff at a=
+ profit as long as new users kept showing up to buy it. Also you could play=
+ the video game I guess. Then the Ponzi scheme collapsed through some combi=
+nation of (1) cooling enthusiasm for crypto and (2) Axie got hacked. But th=
+e video game is still there! It=E2=80=99s still fun! People still play it, =
+right? <a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.27=
+2590/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tcm91dC1kZWZsYXRlcy1zb2=
+1lLXdlYjMtc3RhcnR1cHMtYnVveWVkLWJ5LXB1c2gtaW50by1kaWdpdGFsLXRva2Vucy0xMTY1N=
+zM1OTE4MA/607f07ceef4b8524a319a23cBedce9db2/email" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Ahahahahaha no c=
+ome on</a>:</p><blockquote><p style=3D"margin: 16px 0;">General partner Ari=
+anna Simpson touted Axie Infinity as part of a =E2=80=9Cplay-to-earn revolu=
+tion,=E2=80=9D saying the ability to own and sell in-game digital assets wo=
+uld drive loyalty to the platform. Daily platform users reached a high of 2=
+.7 million in November, according to data from Sky Mavis.</p><p style=3D"ma=
+rgin: 16px 0;">As the crypto boom has crumpled amid inflationary fears and =
+a broader market downturn, the prices of Axie=E2=80=99s in-game tokens cras=
+hed, and Axie users fled the platform. As of July 4, the site had 368,456 d=
+aily active users, down 86% from November, a drop that came after hackers s=
+tole more than $500 million worth of cryptocurrency from the game in March.=
+</p></blockquote><p style=3D"margin: 16px 0;">If you play a play-to-earn ga=
+me and you earn less money than you paid to play it, because the price of t=
+he in-game tokens has crashed, then the play-to-earn part doesn=E2=80=99t r=
+eally work does it? What you are left with is just paying a lot of money to=
+ play a video game. Which people do all the time! There is a whole giant vi=
+deo-game industry that makes fun games and sells them to people for money!=
+=C2=A0But that=E2=80=99s apparently=C2=A0not why people played=C2=A0<em>Axi=
+e</em>.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The Global <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMTEvdGhlLWdsb2JhbC10YXgtcmV2b2x1dGlvbi1m=
+b3ItdGVjaC1naWFudHMtaXMtZGVsYXllZC10by0yMDI0P2NtcGlkPUJCRDA3MTEyMl9NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMD=
+cxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb287c536/emai=
+l" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Tax Revolution</a> for Tech Giants Is Delayed to 2024. Global=
+ Investors Dump Bonds of <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28338609.272590/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nbG9iYWwtaW52=
+ZXN0b3JzLWR1bXAtYm9uZHMtb2YtY2hpbmVzZS1iYW5rcy10aGF0LWxlbnQtaGVhdmlseS10by1=
+ydXNzaWEtMTE2NTc1MzE4MDA_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524a319a23cB14=
+782574/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Chinese Banks</a> That Lent Heavily to Russia. Wireca=
+rd <a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590=
+/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOTk2YzNjOWItYzA5NS00MmM5LWJhZjktZDA3Yj=
+FiMzE5Yzlk/607f07ceef4b8524a319a23cB166a0005/email" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">forged client d=
+etails</a> to secure =E2=82=AC900mn investment from SoftBank. Uber <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMTAvdWJlci1sb2JiaWVk=
+LXBvbGl0aWNpYW5zLWJyb2tlLWxhd3MtaW4tZ2xvYmFsLXB1c2gtcmVwb3J0cy1zYXk_Y21waWQ=
+9QkJEMDcxMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cBaa21f568/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Lobbied Politicians</a>, Broke Laws in Gl=
+obal Push: Reports. Trump left <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28338609.272590/aHR0cHM6Ly93d3cuaGVyYWxkdHJpYnVuZS5jb20vc3Rvcn=
+kvbmV3cy8yMDIyLzA3LzA3L3RydW1wLWxlYXZlcy1ib2FyZC1zb2NpYWwtbWVkaWEtY29tcGFue=
+S1mbG9yaWRhLWZlZGVyYWwtaW52ZXN0aWdhdGlvbi83ODI4NTM0MDAxLw/607f07ceef4b8524a=
+319a23cB985502cf/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Sarasota media company</a> weeks before fed=
+eral subpoenas were issued. =E2=80=9CMadison Square Garden Entertainment Co=
+rp. recently informed <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/28338609.272590/aHR0cHM6Ly93d3cubGF3MzYwLmNvbS9zZWN1cml0aWVzL2FydGljbGV=
+zLzE1MDk0MjkvbWFkaXNvbi1zcXVhcmUtZ2FyZGVuLWJhbnMtc3VpbmctYXR0eXMtZnJvbS12ZW=
+51ZXM/607f07ceef4b8524a319a23cB4bc607fc/email" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">attorneys who filed =
+shareholder litigation against it</a> that they cannot enter any of the com=
+pany's iconic concert or event venues while the litigation is pending.=E2=
+=80=9D Starbucks quietly yanked <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28338609.272590/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMDcvMDgvc3Rhc=
+mJ1Y2tzLXF1aWV0bHkteWFua2VkLW5ldy1jaGlja2VuLXNhbmR3aWNoLWFmdGVyLWl0LWdhdmUt=
+Y3VzdG9tZXJzLWRpYXJyaGVhLz91dG1fbWVkaXVtPVNvY2lhbEZsb3cmdXRtX3NvdXJjZT1OWVB=
+Ud2l0dGVyJnV0bV9jYW1wYWlnbj1Tb2NpYWxGbG93/607f07ceef4b8524a319a23cB78127cd7=
+/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">new chicken sandwich</a> after it gave customers diarrhea. =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly90aW1lc29maW5kaWEuaW5kaWF0aW1lcy5jb20vY2l0eS9haG1lZGFiYWQvZmFrZS1pc=
+GwtaW4tZ3VqYXJhdC12aWxsYWdlLWR1cGVzLXJ1c3NpYW4tcHVudGVycy9hcnRpY2xlc2hvdy85=
+Mjc4OTk3Ni5jbXM/607f07ceef4b8524a319a23cBbadd8be4/email" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Fake crick=
+et league</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed=
+-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in=
+ handy email form, right in your inbox, please=C2=A0<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/28338609.272590/aHR0cDovL2xpbmsubWFpbC5ib=
+G9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIy=
+MzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB320e3934/em=
+ail" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you=
+ can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB9f6b38=
+42/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1]=C2=A0=
+Twitter=E2=80=99s stock closed at $35.27 per share the day before <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDQy=
+ODYzL3RtMjIxMTc1N2QxX3NjMTNkLmh0bQ/607f07ceef4b8524a319a23cB7a981709/email"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Musk started buying it</a> in January, so that is in a sense the u=
+naffected price of the stock. Since then the market, and the social-media i=
+ndustry, and Twitter=E2=80=99s business have not done so great, and Musk ha=
+s spent a lot of time specifically undermining Twitter. The stock closed at=
+ $36.81 on Friday, reflecting some probability of the deal with Musk closin=
+g at $54.20 per share and some probability of it not doing that. It opened =
+at $34.60 this morning, after Musk said he=E2=80=99d try to get out of the =
+deal and Twitter said he couldn=E2=80=99t. Incidentally if you want Twitter=
+=E2=80=99s bankers=E2=80=99 views on Twitter=E2=80=99s stand-alone value as=
+ of April 25, you can find them on pages 67-68, 70-71, 78 and=C2=A079-80 <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTI=
+yMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jdG9jMjgzMTE5XzUz/607f07ceef4b8524a319a=
+23cBf1d363cb/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">here</a>.=C2=A0</em></p><p style=3D"margin: 1=
+6px 0;"><em>[2] Obviously these things are not complete equivalents. In par=
+ticular,=C2=A0I am ignoring tax consequences.=C2=A0</em></p><p style=3D"mar=
+gin: 16px 0;"><em>[3] It can=E2=80=99t get both the fee and damages; the ca=
+p is $1 billion, not $2 billion. =E2=80=9CIn no event shall Equity Investor=
+, Parent or Acquisition Sub collectively be subject to an aggregate amount =
+for monetary damages (including any payment of the Parent Termination Fee) =
+in excess of an aggregate amount equal to the Parent Termination Fee,=E2=80=
+=9D=C2=A0says the agreement.</em></p><p style=3D"margin: 16px 0;"><em>[4] I=
+ am saying $44 billion for simplicity (that=E2=80=99s the deal value that <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMDgvbXVzay1zYX=
+lzLWhlLXMtdGVybWluYXRpbmctNDQtYmlsbGlvbi1kZWFsLXRvLWJ1eS10d2l0dGVyP2NtcGlkP=
+UJCRDA3MTEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIyMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cBc42fa4c3/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Bloomberg reports</a>). Actually it is mo=
+re complicated: Musk would have to put up $33.5 billion of his own equity c=
+ommitment, along with $13 billion of debt financing from his banks; Twitter=
+ could only get specific performance if the debt financing is available. (N=
+ote that $44 billion is almost, but not quite, $33.5 billion plus $13 billi=
+on, for reasons that are not especially important here.) We discussed this =
+issue on Saturday and I will not rehash it here; I am just going to shortha=
+nd this as making Musk pay $44 billion.=C2=A0</em></p><p style=3D"margin: 1=
+6px 0;"><em>[5]=C2=A0There are scenarios in which Twitter could have to pay=
+ a $1 billion termination fee to Musk, but none of them are relevant here. =
+That=E2=80=99s basically if Twitter terminates the deal to take a better of=
+fer from someone else; it won=E2=80=99t. There is no scenario where Musk go=
+es to court and says =E2=80=9CI want out of this deal because of bots=E2=80=
+=9D and the judge says =E2=80=9Cyou=E2=80=99re right, you poor dear, Twitte=
+r really misled you about those bots, I will make *them* pay *you* a billio=
+n dollars.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[6]=C2=A0Anoth=
+er bad thing about fighting to death in court is that it is expensive, sinc=
+e you have to pay a lot of lawyers. Yesterday <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjItMDctMTAvdHdpdHRlci1hc3NlbWJsZXMtbGVnYWwtdGVhbS=
+10by1zdWUtbXVzay1vdmVyLWRyb3BwZWQtdGFrZW92ZXI_Y21waWQ9QkJEMDcxMTIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIw=
+NzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5e6d8df9/emai=
+l" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Bloomberg reported</a> that Twitter had hired Wachtell, Lipto=
+n, Rosen &amp; Katz (disclosure: where I used to work), while Musk has hire=
+d Quinn Emanuel Urquhart &amp; Sullivan LLP, and they are not cheap. Be a l=
+ittle careful with this one, though. Litigating to the death is expensive f=
+or Musk, since he has to pay lawyers. It is expensive for Twitter if it los=
+es (that is, if it doesn=E2=80=99t get specific performance), since it has =
+to pay lawyers. But if Twitter *wins*, and a court orders Musk to close the=
+ deal at $54.20, and he does, then effectively *Musk* is paying Twitter=E2=
+=80=99s legal bills: The legal fees come out of Twitter=E2=80=99s cash on h=
+and, and now Musk owns Twitter and pays shareholders $54.20 per share witho=
+ut deducting those legal fees. So Twitter does not exactly have incentives =
+to be economical with lawyers, if it thinks it has a good case.</em></p><p =
+style=3D"margin: 16px 0;"><em>[7] Dave Hoffman, a law professor at Penn, ha=
+s a <a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.27259=
+0/aHR0cHM6Ly90d2l0dGVyLmNvbS9Ib2ZmUHJvZi9zdGF0dXMvMTU0NTgxNzUzNjU5OTY1ODQ5N=
+g/607f07ceef4b8524a319a23cB659b9a74/email" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">good Twitter thread</a> =
+about this, <a href=3D"https://link.mail.bloombergbusiness.com/click/283386=
+09.272590/aHR0cHM6Ly90d2l0dGVyLmNvbS9Ib2ZmUHJvZi9zdGF0dXMvMTU0NTgxNzU0MzIwO=
+Tg0ODgzMw/607f07ceef4b8524a319a23cB00e135ea/email" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">arguing that</a>=
+ =E2=80=9Cthe court will want Musk's team to think that she will grant [spe=
+cific performance], but will also desperately hope the case settles=E2=80=
+=9D: Settling for a large amount of money to avoid an order of specific per=
+formance is strictly better than ordering specific performance. <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/28338609.272590/aHR0cHM6Ly90d=
+2l0dGVyLmNvbS9Ib2ZmUHJvZi9zdGF0dXMvMTU0NTgxOTEwMzA1MDU3OTk2OA/607f07ceef4b8=
+524a319a23cBc2324dce/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">He adds</a>=C2=A0that =E2=80=9Cthe best=
+ result for everyone except for Twitter's shareholders is a monetary settle=
+ment, at somewhere between $1 and $10B.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB64676b2e/email" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7782b8bb/email" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB16df084a/emai=
+l" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf0f30472/email" style=3D"text-=
+decoration: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODMzODYwOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg2MTExOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI37eb743f/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28338609&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB85ea660b/em=
+ail" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28338609.272590/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC7ad492b6/email" style=3D"color: #666666; text-decoration: none;" alias=
+=3D"Unsubscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28338609.272590/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b85=
+24a319a23cBaabe9442/email" style=3D"color: #666666; text-decoration: none;"=
+ target=3D"_blank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/28338609.272590/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZW=
+RiYWNrP2FsY21waWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB1c4a2a54/email" style=
+=3D"color: #666666; text-decoration: none;" target=3D"_blank">Contact Us</a=
+></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+576c9e5/email" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28338609.272590/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+352558d/email" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D283386=
+09&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D283386=
+09&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D283386=
+09&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D283386=
+09&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D283386=
+09&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28611199&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgve7l.5uby/59187378.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7107386_957222079.1657556154334--
+

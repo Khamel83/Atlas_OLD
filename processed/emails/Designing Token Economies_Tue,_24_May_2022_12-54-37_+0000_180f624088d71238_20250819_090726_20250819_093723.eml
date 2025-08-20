@@ -1,0 +1,2442 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:5b99:0:b0:1e5:5fe1:39f with SMTP id x25csp4520480lke;
+        Tue, 24 May 2022 05:56:38 -0700 (PDT)
+X-Received: by 2002:a05:600c:268a:b0:397:48d4:f6ad with SMTP id 10-20020a05600c268a00b0039748d4f6admr3703943wmt.134.1653396998448;
+        Tue, 24 May 2022 05:56:38 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1653396998; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=u3dSbnsMvoeyLolPQ3G1SP54wAuhrMHhFW2GDDNSDg6uiyu988sotxuxULc4/TW54G
+         eK9rhhFhFS70dtquzW9ZhOSDG2gGOvZSmJq+U3fAXvHo/wAOHczxaK6XZSyeN25kT6UL
+         7Z8VULHBvZBsF3zGeiO/M2wdjCBpctAZsTenFXOWS//68zn4G8NuM39YVHHNwwXwhMuk
+         j4+BaTXgPm/W8li1qcuYr/wNn0lfGw0MMDqnezwlBQ42i7KilHU8YJqBOPZMCk0enAma
+         lzB+LcdNkAgHRgq0hHvw5NHdn+hk0OX9j7nv28/zrDbcc3Jl7wthBDF1NuWzeljBZvCh
+         1mWg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-owner:list-url:list-post:sender:list-unsubscribe
+         :list-archive:date:references:in-reply-to:reply-to:list-id
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=Yvg/8gDCx+pMG4u8GUu8BCDICe9t6DP6or4Yi6nURBg=;
+        b=QBDkv6cB8+5avP7G5tqUAgJvFVmCpifERTIZlNDKDEfdugMcpUyjZb6UIp01qBVJqh
+         lqmtPdJdq5zUKtVylla4rl99++C89U32vJEIJ4cp9oQsDOLXQzxPrUUMcyP2SEucCYkV
+         EfviF444/QUgm2I4w8K5t33DFn9UuA/v3tG6WXs1DGJWKVRKvKrDIIXPSX54EgaijFSM
+         eXw/QApJJFnPPqAcHBdTbQoAYxc1CKWecbFeVJJ2knNOvRGdSmcNBnCD1I1z8AAmdg/Z
+         qsVBAGIj5nzimbNRbfB7znq8ZqXT4BanCHF71UgXOHfzIr62Y/E+eRtZwvJOj0qEMJkq
+         F8uA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=p4G2TJgR;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l9-20020a5d6689000000b00207a359e9c5sor6786865wru.67.2022.05.24.05.56.37
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 24 May 2022 05:56:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=p4G2TJgR;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-unsubscribe-post:list-id:reply-to:in-reply-to
+         :references:date:list-archive:list-unsubscribe:sender:list-post
+         :list-url:list-owner:message-id;
+        bh=Yvg/8gDCx+pMG4u8GUu8BCDICe9t6DP6or4Yi6nURBg=;
+        b=ZZs3wOuaYx5kcnQuHbEKmjDYyHRrDI6PclVBr570CCdVecPaY0LvFlfj8W6HEpuiMw
+         wqwgUH5JJjfAHY5N0IEXGrh/xhYefXptMmG9tIRWWOQW7rahOiCgy8EaZq5zbOdQ8rtE
+         M/50k/fhDRY0minBS01Y9qEsQs5QZaxKf61wO0oK0xuX9D8yGSIsqrfCJ9UitKNnDMGL
+         Yu8/nxBWD2PhRtZvj9IAyz6KiZO/L8nFsIAlYuKLgzyh9RvKBxfOeOELxgtRF84vqlG2
+         mTa/BUBT+RhDdKeBv4wi2C3AKGQDKR+3oaL0Tm3jWcuikR2unW4oPusZ9uYQvZUDtdC/
+         V/EA==
+X-Gm-Message-State: AOAM5315HcDEXLuCj0pPnFIuiJHpVOW4SLS/OmaQ4ZWZxnUePx5Jelui
+	ej0ULoZJoXrLBDkdy9tYxQxIuRqAzExQjdq3L3tBZejig3SzbKZ+og==
+X-Received: by 2002:a5d:648e:0:b0:20f:d9b6:a35f with SMTP id o14-20020a5d648e000000b0020fd9b6a35fmr9130622wri.333.1653396997599;
+        Tue, 24 May 2022 05:56:37 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5042:0:0:0:0:0 with SMTP id h2csp3993955wrt;
+        Tue, 24 May 2022 05:56:33 -0700 (PDT)
+X-Received: by 2002:a81:5889:0:b0:2ff:19b:3746 with SMTP id m131-20020a815889000000b002ff019b3746mr28077603ywb.56.1653396993463;
+        Tue, 24 May 2022 05:56:33 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1653396993; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BZoe40TKn6GRIKIZlvfr1NRSHH2i+shtFJaJiSxWd3LxnQUpsOjXcZPOfQtj1/7uL9
+         AR4hHZNYn/4MYp77howtnMynceekVyKC9oXlowWP2W5eJOTzBzz0J+21YnsTcKutASWQ
+         JYNdqgQxNtgkdSZvZFYscqXteKb+YYn4VXEqOiOl9GiJ25kI9mMqLYJBvmM7k/S6UrQs
+         g+DB/ES3zVEtOlBo0ujpL/ezMr8QKGBchnFO2mVkjcAvY9OpA4kQCa+vh4l/dMdRBLAi
+         U2f6/cFxrXX1/7D7uuQK7AviZT7fICA5Nm7fh5dBecPOLpT+8kNRNLtd9fqZkRW5yzEc
+         BSyA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-owner:list-url:list-post:sender:list-unsubscribe
+         :list-archive:date:references:in-reply-to:reply-to:list-id
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=Yvg/8gDCx+pMG4u8GUu8BCDICe9t6DP6or4Yi6nURBg=;
+        b=X9m1Vun1xeCQTSqigyw2wA/0jaqNxNnPaRKeoYfRD01F4/e/13hOwV38AlDqNcxveN
+         qLK1qL2nE+b73WPh10+2nO4aqmyiF+9OXHXJlvhAQC9VFu0WJTFRS6m3fqRXuIrzDZlJ
+         lq+6tWmIYQcn0omwiyokgRQBPRDRzS9doqmU7K/yNnXUMajhXAFrSYAqq17owftAGQ+z
+         XNVOF8JdP1QGuSpgi+So6bassWYJSc1STg7kuW7ql8RTxIpEQ7aUPPY9YEbYjPwh8+X9
+         vwWtUetY50pW3ATd1P2JUBv8QzASGs/HZw8FUvQsQnd2x24nBN6TSdiGJVN7FupAT5We
+         0VHg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=p4G2TJgR;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n203-20020a2559d4000000b0064dbbbeec31sor5844464ybb.54.2022.05.24.05.56.33
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 24 May 2022 05:56:33 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxC2kWw3Ru8zs6b46YTzUBZVjiWFudefwKvLPbIe1fwLSPNICbQX5CRSm8bNORIJ5gv2g2xSajg0kPoXtX9rPrvEHcppfc=
+X-Received: by 2002:a25:b90e:0:b0:64f:cda3:644f with SMTP id x14-20020a25b90e000000b0064fcda3644fmr10541335ybj.595.1653396993137;
+        Tue, 24 May 2022 05:56:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1653396993; cv=none;
+        d=google.com; s=arc-20160816;
+        b=utfgUaIz0lCaBhvXUCH1Rl+3ZhWWQgVfIP+3L2vuIIgYekQTtumzD1s5hwUaHyE3an
+         b7MCGtIUofUjPafdQspx2q3zow8WMMj0rUIg2JDRw40r55r3BtNmafCkuSovsTnbn1On
+         jQIcqmsX4Lv1p3hSXLGGOSt+hrBcCPFYopGEms5HTKpr5xHFxEeriUw3ikLSYoi9do3K
+         IHUq6s9Jze64d/mINLqeaterRUuAE1FZn1ujtDlLAHL3qgs5TN4wK+s0u9J6NG05Vqr2
+         AlQgKk7lzl11Ywd5h9MKaEGKM8vJN98iBv6ix6crlRPvByNrbFTqBDQuDT+XvdCgAQZN
+         uZ9g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-owner:list-url:list-post:sender:list-unsubscribe
+         :list-archive:date:references:in-reply-to:reply-to:list-id
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=Yvg/8gDCx+pMG4u8GUu8BCDICe9t6DP6or4Yi6nURBg=;
+        b=r0RpOmbJL9UI2dBvnCRJPnE0vcJGeNBRvZVq7lWvkMH9vmx98A8qLyDd0VL478gjTT
+         rVyFRSqLKd0aU1Y/ZOvXL0omekLggf+9XoFZIMn8NyqXrZGM55JXOJtMzN5rsPYzs7tZ
+         +YepVlBeczxVmB7gmbjsDc+iCD3gHixtwC8fmCRxBnqS4M6XgdkxSP54F3cad/oWZt1h
+         sJOctPhig675mPvGHbDyxc6usPr/VXA3xS0uwQl+zeRHL36mJAcZGDZkFVT/yC3QmNWc
+         I4nBe+JeVFu0r+dbvP9TU61PH2C9+z9r2XvyAnjC51DgQOvM6oEUYeWom9ajfBWrzYOr
+         TcUw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=p4G2TJgR;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 159.135.228.254 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-228-254.static.mg2.substack.com (mg-228-254.static.mg2.substack.com. [159.135.228.254])
+        by gmr-mx.google.com with UTF8SMTPS id i12-20020a056902128c00b00634581eb904si980120ybu.2.2022.05.24.05.56.02
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 24 May 2022 05:56:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 159.135.228.254 as permitted sender) client-ip=159.135.228.254;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1653396992; h=Message-Id: List-Owner: List-Post: Sender:
+ Sender: List-Unsubscribe: List-Archive: Date: References: In-Reply-To:
+ Reply-To: List-Id: To: To: From: From: Subject: Subject: Content-Type:
+ Mime-Version; bh=Yvg/8gDCx+pMG4u8GUu8BCDICe9t6DP6or4Yi6nURBg=; b=p4G2TJgR55570SAMVfYvVMlMTRAntiCz7XWITby9kGO6aGpLQlAFps2fb2yARf9Heu7weO3U
+ 91upEIljcSWfIJ6gDTWePG6UWBb8wDA48y+PVyh9+RmnASP5xanKfRFoEqbQZ339p5GRQQLD
+ 7C+PqPVW4GLktJlZaAuiYyHfSeU=
+X-Mailgun-Sending-Ip: 159.135.228.254
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n19.prod.us-west-2.postgun.com with HTTP id 628cd59c2491c3e6d5426972;
+ Tue, 24 May 2022 12:54:49 GMT
+X-Mailgun-Batch-Id: 628cd599c172fc5066dac79c
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="e348e36945914e5cc4ae5777f00e030ee7ccb75b04a6400e5010d547e99a"
+Subject: Designing Token Economies
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Id: <notboring.substack.com>
+Reply-To: Not Boring
+ <reply+xf7td&9p0gt&&3c1275dbcb8db9e35ccc5679b53f40a2d5e0e79f8feb70f20e89d386c0506546@mg1.substack.com>
+In-Reply-To: <post-56137297@substack.com>
+References: <post-56137297@substack.com>
+Date: Tue, 24 May 2022 12:54:37 +0000
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.r1u6yl1W1DD4HxqIRYmy84GJ-LQFk8kxtsQNtGW12ns>
+Sender: Not Boring <notboring@substack.com>
+List-Post: <https://www.notboring.co/p/designing-token-economies>
+List-Url: <https://www.notboring.co/>
+List-Owner: <mailto:notboring@substack.com>
+Message-Id: <20220524125437.3.29e4b71650e1426b@mg2.substack.com>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1653396887652", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"56137297", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--e348e36945914e5cc4ae5777f00e030ee7ccb75b04a6400e5010d547e99a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/designing-token-eco=
+nomies
+
+Welcome to the=C2=A01,925=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0125,070=
+ smart, curious folks by subscribing here:
+=F0=9F=8E=A7=C2=A0 If you=E2=80=99d rather listen to this essay, head over =
+to Spotify [https://substack.com/redirect/1c624d67-73a7-41c7-849c-555244ffa=
+331?u=3D16283549] or=C2=A0Apple Podcasts [https://substack.com/redirect/fe9=
+a99ae-708e-4dff-96ee-719266f6ba6a?u=3D16283549]
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Masterworks [https=
+://substack.com/redirect/f5a42aa1-a710-4373-b347-69ba7e69dba9?u=3D16283549]
+Last week, I left out an unexpected detail out of my deep dive: Even Issac =
+Newton couldn't resist a good meme stock.
+In 1720, Newton's friends invested in the South Sea Trading Company (the GM=
+E of their day). But while his friends all got rich, he invested what would=
+ now be worth $4,000,000 at the top and lost it all in a week.
+If Issac Newton could lose everything in the pursuit of riches, it could ha=
+ppen to anyone. That's why I make my portfolio =E2=80=9Cidiot-proof=E2=80=
+=9D with safe-haven assets with solid upside like fine art.
+As an investment, art checks a lot of boxes:
+=E2=9C=85  Inflation resistant: art can help protect your wealth from infla=
+tion
+=E2=9C=85  Risk-adjusted performance: Nearly 0 correlation to equities acco=
+rding to Citi=C2=A0
+=E2=9C=85  Appreciation: contemporary art appreciated by 14% annually (1995=
+-2021)=C2=A0
+As an asset class, art isn=E2=80=99t a GME or South Sea. You won=E2=80=99t =
+10x your investment in 24 hours, but you probably won=E2=80=99t lose 90% of=
+ it either.
+Luckily, art investing is easier than ever. With Masterworks, you can inves=
+t in million dollar paintings without millions of dollars in the bank. Plus=
+ they=E2=80=99ve compiled a metric ton of data, and pick quality works for =
+you.=20
+I=E2=80=99m no art expert, but I can invest like one with Masterworks. Use =
+my private link [https://substack.com/redirect/f5a42aa1-a710-4373-b347-69ba=
+7e69dba9?u=3D16283549] to get priority access today.*
+Hi friends =F0=9F=91=8B ,
+Happy Tuesday!
+I was a dumb optimist in the bull market, I=E2=80=99m gonna continue to be =
+a dumb optimist in the bear. The technological and cultural shifts I was ex=
+cited about like three weeks ago haven=E2=80=99t gone anywhere, and in fact=
+, the bear market might give builders more breathing room to get weird.=C2=
+=A0
+One of the areas in which I think we=E2=80=99ll see the most progress durin=
+g the bear is token design. This last cycle was full of very early attempts=
+ to build new forms of organization and new economies, and I think that ove=
+r the next [insert length of bear market], people are going to experiment w=
+ith new models focused less on price and more on creating sustainable new w=
+orlds.=C2=A0
+One of the questions that=E2=80=99s been lodged in my brain as I=E2=80=99ve=
+ been thinking about this is whether protocols behave more like companies o=
+r countries. What are the competitive and cooperative dynamics at play? How=
+ important is it to own the reserve currency of [web3, the metaverse, the G=
+reat Online Game]?=C2=A0
+Unfortunately, I=E2=80=99m not smart enough to answer that question on my o=
+wn. Fortunately, I=E2=80=99m friends with someone who is: Tina He [https://=
+substack.com/redirect/4ac0a2e6-f9da-49dc-835b-b5be68f87309?u=3D16283549]. T=
+ina is the founder of Station [https://substack.com/redirect/c8d729de-0832-=
+4e06-a2a5-1d9b46fad54b?u=3D16283549], which I was lucky enough to invest in=
+ via Not Boring Capital, and the author of one of my favorite Substacks, Fa=
+kepixels [https://substack.com/redirect/8d11b608-75f4-4744-b646-f78c35f7a48=
+7?u=3D16283549].=C2=A0 A few months ago, on a catch up call, she told me th=
+at after Station, she wants to become a token designer. I didn=E2=80=99t ev=
+en know that was a thing, but she talked about combining economics and code=
+, aligning incentives, and creating new digital economies. It=E2=80=99s a b=
+eautiful idea: coordinating human behavior and resource allocation through =
+smart token design.=C2=A0
+So when Tina tweeted this=E2=80=A6
+=E2=80=A6 I replied that Protocols as Nations was on the to-write list, she=
+ asked how she could contribute, and we decided to join forces to write it =
+up.=C2=A0
+The result is better than I could have hoped for. I think this can be a go-=
+to resource for people designing DAOs and protocols, people building new wo=
+rlds.=C2=A0
+Let=E2=80=99s get to it.
+Designing Token Economies [ https://www.notboring.co/p/designing-token-econ=
+omies?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6M=
+TY1MzM5Njg4NywiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.KaxIeLT=
+ZmJK02rZq1XZv1tIp3HyBSeYO_g4f60AsMOk ]
+(Psssst=E2=80=A6 Click this =F0=9F=91=86=F0=9F=91=86  to read the full piec=
+e online)
+When trying to understand tokens, it=E2=80=99s tempting to draw from what w=
+e already know.=C2=A0
+Sometimes, tokens function like equity in a company, and owning a token is =
+akin to holding a stake in the project=E2=80=99s potential upside. Other ti=
+mes, tokens function like a =E2=80=9Ctoken-of-gratitude=E2=80=9D and symbol=
+ize goodwill among close friends in the purest sense. The wide-ranging role=
+ isn=E2=80=99t a bug but a feature representing value in the most abstract =
+sense, whose meaning is given by the system's very design.=C2=A0 In other w=
+ords, a token doesn=E2=80=99t necessarily have any intrinsic value but rela=
+tive value. It=E2=80=99s the encapsulation of a unit of value universally r=
+ecognizable and enforceable by a system.=C2=A0
+Tokens are barely a new concept. Shells and beads were the earliest types o=
+f tokens as a medium of exchange. Others that we=E2=80=99re familiar with t=
+oday=C2=A0=E2=80=94=C2=A0casino chips, credit card points, stock certificat=
+es, concert tickets, and club memberships =E2=80=93 are all forms of tokens=
+ as they represent a unit of value universally recognized and enforced by t=
+he system that issues that token. When the respective systems fail to enfor=
+ce and recognize the value of these tokens, the jurisdiction can step in to=
+ protect the token holders.=C2=A0
+Think about the last token you interacted with =E2=80=94=C2=A0What does it =
+allow you to do that you otherwise cannot? Why are you holding it and want =
+to own more of it? What happens if you discard or transfer ownership of you=
+r tokens? To many, the answer to these questions would be =E2=80=9Cgetting =
+even more tokens.=E2=80=9D To others, holding tokens allows for participati=
+on rights in projects and communities that they care deeply about. The form=
+er speaks to the economics of holding a token, the latter to access rights.=
+=C2=A0
+A token design is poor when there=E2=80=99s value misalignment between valu=
+e accrual in the system and value accrual to the token. Gabriel Shapiro [ht=
+tps://substack.com/redirect/1a6ec96a-fdf4-4e3e-8700-72ef5fd9937b?u=3D162835=
+49] aptly describes tokens like UNI, COMP, and the recently launched APE, a=
+s =E2=80=9Cvalue by association,=E2=80=9D as he acutely identifies the frag=
+mentation in value streams for the protocols aforementioned =E2=80=94=C2=A0=
+the prime slice has been preserved for the insiders, while the =E2=80=9Cill=
+usion of power=E2=80=9D gets distributed to the rest.=C2=A0
+One of the reasons that there is so much confusion around token design, and=
+ value accrual specifically, is that tokens, and the DAOs and protocols tha=
+t issue them, are so multifaceted. Sometimes, the issuers want them to beha=
+ve like shares in a corporation. Others issue =E2=80=9Cgovernance=E2=80=9D =
+rights to skirt regulations while insiders pump the tokens in the hope of g=
+etting out before the price tumbles. Others still want to build and unify d=
+igital nations. Often, even the issuers aren=E2=80=99t clear exactly what t=
+hey want to do with the token, but they know that tokens are a great way to=
+ capture value.
+While token design isn=E2=80=99t the only important aspect of creating a ne=
+w protocol or digital economy =E2=80=93 delivering value to users should al=
+ways be priority #1 or else the token=E2=80=99s price will inevitably crumb=
+le =E2=80=93 it=E2=80=99s a critical one. Just like a messy cap table can i=
+nflict mortal wounds on a startup or poor monetary policy can derail a nati=
+on=E2=80=99s economy, bad token design can doom a protocol before it even g=
+ets off the ground. The crypto graveyard is littered with examples of good =
+projects whose token designs cemented their eventual demise from day one =
+=E2=80=93 maybe the tokenomics encouraged too much growth, too fast =E2=80=
+=93 and we=E2=80=99ll cover some of them here. There are others whose token=
+ designs allow them to do things that non-web3 companies can=E2=80=99t by p=
+roperly aligning incentives in the system, and connecting the system to the=
+ larger ecosystem. We=E2=80=99ll cover those, too.=C2=A0
+Why does it matter? Everything is falling apart. Terra collapsed largely th=
+anks to its token design. Projects that attracted millions or billions of d=
+ollars with the promise of absurd APYs are learning the truth of the old ad=
+age, =E2=80=9CEasy come, easy go.=E2=80=9D The regulators are coming.=C2=A0=
+ Tokens that were worth a lot of fiat a couple weeks ago are worth a lot le=
+ss today.
+All of those reasons and more are exactly why it=E2=80=99s critical to unde=
+rstand good token design today. Not only because good token design can help=
+ avoid catastrophic outcomes, but because, assuming we=E2=80=99re entering =
+a sustained bear market, now is the perfect time to experiment with novel t=
+oken designs without the pressure of the expectation of high prices and =E2=
+=80=9Cup only.=E2=80=9D=C2=A0
+Tokens are naturally economic; they have a price attached from inception, a=
+nd are instantly tradeable on liquid, global, 24/7 markets. But tokens can =
+be much more than that. They=E2=80=99re programmable primitives that allow =
+DAOs and protocols to signal what matters in their ecosystem, to reward goo=
+d participation, to trade with each other and build interconnected webs of =
+support, and to support new forms of digital organizations and nations.=C2=
+=A0
+So what are you building? Are you building a club or a co-op, a corporation=
+ or a country?=C2=A0
+Protocols can be all of the above, so we=E2=80=99ll start by walking throug=
+h how they compare to companies and countries, before laying out a framewor=
+k for token analysis, and imagining what the world will look like when the =
+dust settles. We hope that it=E2=80=99s useful to the builders, contributor=
+s, and investors alike.=C2=A0
+We know you wanted a break, anon, but it=E2=80=99s time to jump back down t=
+he rabbit hole.=C2=A0 =F0=9F=95=B3 =F0=9F=90=87
+Definitions
+A quick pause here to define three key terms will pay dividends throughout =
+the piece.=C2=A0
+Protocol: a system of logic that coordinates exchange between suppliers and=
+ consumers of a service, based on rules written into the code. SMTP, which =
+coordinates email, and Ethereum, are both protocols. Only Ethereum captures=
+ value, thanks to ETH tokens.
+Token: a unit of value universally recognized and enforced by the system th=
+at issues it. There are different kinds of tokens =E2=80=93 including gover=
+nance tokens, DeFi tokens, non-fungible tokens, security tokens =E2=80=93 a=
+ll designed to do different things. Tokens are code, and as such, can be pr=
+ogrammed to do nearly anything its creator dreams up.=C2=A0=C2=A0
+DAO (Decentralized Autonomous Organization): a group organized around a mis=
+sion that coordinates through a shared set of rules enforced on a blockchai=
+n. (Linda Xie [https://substack.com/redirect/5c7fb1c9-1c54-4b25-a842-58d4b6=
+f3f482?u=3D16283549]) Protocols are governed by DAOs once the protocol has =
+a token and is fully decentralized.=C2=A0
+Protocols as Companies
+The easiest analogy for protocols is that they=E2=80=99re like corporations=
+, but digital. DAOs are Digitally-Native Corps.=C2=A0
+Thinking of protocols as companies is convenient from a strategy perspectiv=
+e. There are countless books written on and frameworks created for corporat=
+e strategy. We talk about them a lot in Not Boring. Competitive Strategy, 7=
+ Powers, 5 Forces, Good Strategy, Bad Strategy. The list goes on. Most of t=
+he people creating and running protocols come from the corporate world (wit=
+h the exception of those who come from academia, either as professors or st=
+udents). It=E2=80=99s tempting to port those ideas and experiences over.=C2=
+=A0
+It=E2=80=99s convenient from a finance perspective, too. There are rules an=
+d textbooks and models and an entire industry built on valuing companies. T=
+o understand companies, we need to understand how value gets created, the s=
+ustainability and defensibility of the value creation (unit economics and m=
+oat), as well as governance and control dynamics (management team).
+We derive the value of a company by looking at its net assets (or equity, w=
+hich is the value of all assets minus that of all liabilities). Savvy inves=
+tors would look at a company=E2=80=99s assets and assess the quality of eac=
+h source cash flow to conclude a fair value. Not all cash flow is created e=
+qual.=C2=A0
+Good managers of traditional businesses understand the investor lens, thus =
+focusing most of the company=E2=80=99s resources to improve the core assets=
+ that drive enterprise value and ignore or spend minimal effort on the rest=
+=2E Employees are allowed and encouraged=20=
+to contribute ideas from the bottom-=
+up, but it=E2=80=99s up to the CEO, and sometimes the board, to decide whic=
+h of these ideas will compound value to the core assets.=C2=A0
+For a company like Meta, the core asset is the user data and the algorithm =
+that=E2=80=99s able to surface the right content for higher conversion. The=
+ trillion gigabrain things that Zuck seems to be orchestrating =E2=80=94=C2=
+=A0from the fashionable Instagram to the highly utilitarian WhatsApp =E2=80=
+=94 are all meant to collect more data, diversify sources the of data, incr=
+ease the quality of the data, and de-risk the irrelevance of the data, ther=
+eby increasing core asset quality and its revenue-generating potential. Eve=
+rything feeds the core. The absence of this kind of compounding focus is wh=
+y companies that do a bunch of unrelated stuff, like conglomerates, often g=
+et valued at a discount.
+Investors on Twitter are taking initiatives to value protocols similarly. A=
+n investor can conduct a DCF (discounted cash flow) analysis to understand =
+value accrual to xSUSHI holders by projecting the growth  [https://substack=
+=2Ecom/redirect/8467c0ee-8089-4715-a2a3-6=
+54a5a59c5eb?u=3D16283549]of the 0.05=
+% fee on all protocol transactions. In addition to its core DEX (decentrali=
+zed exchange), Sushiswap, offers a diverse set of financial products from l=
+ending [https://substack.com/redirect/e6e88c95-b223-49d7-948e-ab897c0513b0?=
+u=3D16283549] to an NFT marketplace [https://substack.com/redirect/9cf7d00a=
+-cd0b-4bf3-b487-265f867c75ac?u=3D16283549]. Investors may discount these no=
+n-core, auxiliary cashflows [https://substack.com/redirect/8467c0ee-8089-47=
+15-a2a3-654a5a59c5eb?u=3D16283549] as they=E2=80=99re still early and highl=
+y speculative, and focus on valuing the protocol based mainly on its DEX fe=
+es. Here, protocols seem similar to companies.=C2=A0
+Both companies and protocols are trying to coordinate human and financial c=
+apital to accomplish a set of goals. A company=E2=80=99s main goal is to pr=
+oduce a return on capital invested. Many protocols certainly share a simila=
+r goal of generating profits, but these objectives tend to be much more div=
+erse =E2=80=94=C2=A0from maintaining a piece of public digital infrastructu=
+re to creating one of the most cost-efficient lending platform [https://sub=
+stack.com/redirect/a82ef904-720c-4e20-a1dd-4c477d248b6e?u=3D16283549]s in t=
+he world.=C2=A0
+When you look at all of the functions of companies and protocols or DAOs li=
+ne-by-line, the parallels are clear:
+With a quick glance at the table above, it=E2=80=99s striking that DAOs and=
+ companies do many of the same things. Both have =E2=80=9Ctokens=E2=80=9D o=
+f sorts, both need to establish governance models, both write governing law=
+s, etc.=C2=A0 A closer inspection shows that there are major differences wi=
+thin key line items.=C2=A0
+Governance is where the analogy breaks down most cleanly: corporate governa=
+nce and protocol governance are very different. The former relies on centra=
+lized management, while the latter relies on the good judgment of token hol=
+ders.=C2=A0
+Protocols can run like corporations for a while in the beginning, when the =
+founders and core team need to make the fast, life-or-death decisions start=
+ups need to make. But after they=E2=80=99ve progressively decentralized [ht=
+tps://substack.com/redirect/98448b88-4f2d-4f30-a001-0f1582d2652c?u=3D162835=
+49], protocols need to fully hand over the reins to their communities. This=
+ presents a difficult trade-off: it=E2=80=99s challenging for a protocol to=
+ retain both corporate-like efficiency and include token holders in decisio=
+n-making. =C2=A0
+That=E2=80=99s one of a few internal areas in which companies and protocols=
+ diverge.=C2=A0
+Externally, where companies and protocols derive their competitive advantag=
+e and how they distribute value =E2=80=93 how they sustain profits and spli=
+t them up =E2=80=93 differ wildly as well.=C2=A0
+In an excellent recent article for Harvard Business review, Why Build in We=
+b3 [https://substack.com/redirect/4ac3fdd2-5bac-46f2-ba28-625141913ed0?u=3D=
+16283549], Jad Esber [https://substack.com/redirect/a1ff8c7e-7eab-4695-a84d=
+-377f7598ed13?u=3D16283549] and Scott Kominers [https://substack.com/redire=
+ct/51704e97-9806-4feb-937a-e88c60b4f0d7?u=3D16283549] explain that companie=
+s building in web3 have a different set of competitive advantages than comp=
+anies building in web 2.0. In web 2.0, as highlighted above, one of the gre=
+atest sources of strength is data ownership and the most dominant moat, the=
+ strongest of the 7 Powers, is network effects.=C2=A0=C2=A0
+Every action we perform on Facebook (lol we don=E2=80=99t use Facebook, but=
+ go with us) stays on Facebook=E2=80=99s servers. All of that data allows F=
+acebook to build features that keep you more engaged with the product and t=
+o help advertisers target you better. Then, as more of your friends engage =
+with Facebook, there=E2=80=99s more of an incentive for you to use, and con=
+tinue to use, Facebook. You know this story.=C2=A0
+Web3, according to Esber and Kominers, is built different:=C2=A0
+It=E2=80=99s based on the premise that there=E2=80=99s an alternative to ex=
+ploiting users for data to make money =E2=80=94 and that instead, building =
+open platforms that share value with users directly will create more value =
+for everyone, including the platform.
+In Web3, instead of platforms having full control of the underlying data, u=
+sers typically own [https://substack.com/redirect/17588fc5-ec84-49e9-a9ce-a=
+557d8599e90?u=3D16283549] whatever content they have created [https://subst=
+ack.com/redirect/fd78e9fa-19a3-4202-b024-c866fb530188?u=3D16283549] (such a=
+s posts or videos), as well as digital objects they have purchased. Moreove=
+r, these digital assets are typically created according to interoperable st=
+andards on public blockchains, instead of being privately hosted on a compa=
+ny=E2=80=99s servers.
+Data ownership and portability might be the most important difference betwe=
+en web 2.0 and web3 from a strategic perspective. The implications of that =
+subtle shift =E2=80=93 while far from realized in the current instantiation=
+s of many web3 projects =E2=80=93 are tectonic.=C2=A0
+Take Lens Protocol [https://substack.com/redirect/c4b4f5b2-caa5-4c89-bc47-4=
+30d1fe3119e?u=3D16283549], a =E2=80=9Cdecentralized social graph.=E2=80=9D =
+Lens lets creators own their creations and take them anywhere in web3. It a=
+lso creates a shared database of that content, and of the connections betwe=
+en people, that anyone can build on top of. Facebook, Twitter, and the like=
+ derive power from the data they own and from the strength of the social gr=
+aphs that only they have access to. Lens envisions an internet where that=
+=E2=80=99s flipped, where the data and social graphs are out in the open fo=
+r anyone to build on top of.
+As web3 developer Miguel Piedrafita tweeted:=C2=A0
+That not only means that a richer ecosystem of applications can flourish by=
+ tapping into a growing source of content and connections, it also means th=
+at the sources of power and where value accrues shift completely. Don=E2=80=
+=99t like the Twitter algorithm? Great, tap into all of the underlying data=
+ and build something different. Building new social products has essentiall=
+y been a dead-end =E2=80=93 it=E2=80=99s practically impossible to bootstra=
+p the network effects built up by incumbents over the years =E2=80=93 but L=
+ens Protocol aims to eliminate that cold-start problem for social app devel=
+opers, which could lead to more social apps.
+As Esber and Kominers write:=C2=A0
+The dynamics of Web3 are less zero-sum, which means a platform=E2=80=99s ov=
+erall value creation opportunity can be bigger. Building on an interoperabl=
+e infrastructure layer makes it easy for platforms to plug into broader con=
+tent networks, thereby expanding the scale and types of value they can prov=
+ide their users.
+While the value creation opportunity can be bigger, there are still open qu=
+estions about value capture. As Packy wrote in Shopify and the Hard Thing A=
+bout Easy Things [https://substack.com/redirect/14086356-eb8e-443e-9f7e-f2e=
+fb02628b6?u=3D16283549], =E2=80=9CHere=E2=80=99s the hard thing about easy =
+things: if everyone can do something, there=E2=80=99s no advantage to doing=
+ it, but you still have to do it anyway just to keep up.=E2=80=9D If the pr=
+otocols make it easier for developers to build applications, more people ma=
+y build applications and compete away profits.=C2=A0
+New web3 primitives might spell trouble for the incumbent networks, but it=
+=E2=80=99s still unclear where the value accrues in this new world. Esber a=
+nd Kominers propose that sharing infrastructure drives =E2=80=9Ctowards a g=
+reater emphasis on platform design as a competitive advantage=E2=80=9D and =
+that =E2=80=9Cuser insight will continue to differentiate consumer apps.=E2=
+=80=9D That seems to be a less durable competitive advantage than the incum=
+bents enjoy.=C2=A0
+In Why Decentralization Matters [https://substack.com/redirect/c5a84c0a-b10=
+e-4b6b-a08e-cd61b724940f?u=3D16283549], Chris Dixon [https://substack.com/r=
+edirect/b1895bc6-2864-43c2-bb9c-e5f57e0ef21a?u=3D16283549] explains that =
+=E2=80=9Cas platforms move up the adoption S-Curve, their power over users =
+and 3rd parties steadily grows,=E2=80=9D and they move from friendly =E2=80=
+=9Cattract=E2=80=9D moves =E2=80=93 like designing more delightful platform=
+s and opening APIs to developers =E2=80=93 to adversarial =E2=80=9Cextract=
+=E2=80=9D ones =E2=80=93 like prioritizing features that get users to click=
+ on ads and locking down APIs.=C2=A0
+In web3, when the content and connections are open and available for anyone=
+ to build on top of, it=E2=80=99s much harder for applications to move to t=
+he =E2=80=9Cextract=E2=80=9D phase, which happens to be the phase in which =
+most of the profits are generated. Dissatisfied users can pick up and move =
+to another app, and dissatisfied developers can either fork the project or =
+start their own on top of the same infrastructure, content, and connections=
+=2E That=E2=80=99s likely healthier for u=
+sers, developers, and the overall ec=
+osystem, but presents a murky profitability picture for applications.=C2=A0
+It seems, then, that value may accrue to the protocols, which can take adva=
+ntage of cross-side (=E2=80=9Cindirect=E2=80=9D) network effects, in which =
+two groups of participants =E2=80=93 users and app developers =E2=80=93 att=
+ract each other. As more developers build on top of Lens Protocol, for exam=
+ple, they attract more users, who share more of their content and connectio=
+ns with the protocol, which makes it a more obvious choice for the next dev=
+eloper. Lens Protocol can take a lot of nibbles in the form of fees, benefi=
+ting from the overall growth of usage on the platform without concern for t=
+he stickiness of any particular application built on top.=C2=A0
+But not so fast! In the classic Protocols as Minimally Extractive Coordinat=
+ors [https://substack.com/redirect/269fcf32-bdc4-4fa1-9665-dd1225642880?u=
+=3D16283549], Chris Burniske observes that, =E2=80=9CAs coordinators of exc=
+hange, protocols should be minimally extractive.=E2=80=9D If a protocol=E2=
+=80=99s fees are too high, if it moves from =E2=80=9Cattract=E2=80=9D to =
+=E2=80=9Cextract,=E2=80=9D developers will leave and bring their users with=
+ them. So protocols are incentivized to keep fees low enough to retain deve=
+lopers while still taking a small enough margin such that it doesn=E2=80=99=
+t make economic sense for a new protocol to try to compete. That said, prot=
+ocols can still make money. As Burniske clarifies (emphasis ours):=C2=A0
+I should note minimal extraction doesn=E2=80=99t mean cryptoassets that cap=
+italize protocols will capture minimal value; if something is minimally ext=
+ractive, but globally produced and consumed, the coordinating asset can cap=
+ture a significant amount of value.
+In theory, web3 will create more value by making it easier for applications=
+ to build on top of open protocols and databases, capture more value throug=
+h tokens that are intrinsically linked to the use of the protocols and appl=
+ications, and importantly, share value with builders and users, building to=
+ken-powered network effects.=C2=A0
+Here, too, it=E2=80=99s still so early, and that thesis will need to be pro=
+ven at scale. But if it is, it will likely be because of potentially the bi=
+ggest difference between web 2.0 companies and web3 protocols: the cryptoas=
+sets, or tokens.=C2=A0
+Tokens can give both applications and protocols superpowers =E2=80=93 like =
+power boosts on their strengths =E2=80=93 provided they start from a place =
+of creating real user value. For the scope of this piece, we=E2=80=99ll foc=
+us on protocols.=C2=A0
+Protocols need to do many of the same things that companies do, but they al=
+so face additional challenges in coordinating decentralized groups of user/=
+owner/contributors/voters. Luckily, they have an ace up their sleeves, toke=
+ns, that give them potential advantages in both coordinating activity and c=
+apturing value, often alongside their builders and users. In that sense, th=
+ey=E2=80=99re not building companies as much as they=E2=80=99re building ec=
+onomies. =C2=A0=C2=A0
+These strategic differences suggest that protocols might be more similar to=
+ open source software projects, a comparison that=E2=80=99s frequently made=
+, with some key differences like native tokens and the fact that contributo=
+rs get paid. A less obvious comparison, though, is that protocols might beh=
+ave a lot more like countries than companies.=C2=A0
+To learn about Protocols as Countries, a Framework for Token Design, and Wh=
+at the World Looks Like When the Dust Settles=E2=80=A6=20
+Thanks to Tina [https://substack.com/redirect/4ac0a2e6-f9da-49dc-835b-b5be6=
+8f87309?u=3D16283549] for lending us her brilliance, to Dan [https://substa=
+ck.com/redirect/20daffc9-ea41-4302-8082-f92f997caa71?u=3D16283549] for edit=
+ing, and to Conner Swenberg and Mind Apivessa for inspiring thoughts that i=
+nformed this piece!
+Important programming note: we=E2=80=99re taking off next week for Memorial=
+ Day. We=E2=80=99ll be back to our regularly scheduled programming the foll=
+owing week!=20
+Thanks for reading, and see you in a couple weeks!=20
+Packy
+*See important reg A disclosures [https://substack.com/redirect/dfe2f3dc-69=
+04-464f-93c7-93786aabd74d?u=3D16283549]
+
+Unsubscribe https://www.notboring.co/action/disable_email?token=3DeyJ1c2VyX=
+2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoi=
+cHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.r1u6yl1W1DD4HxqIRYmy84GJ-LQFk8=
+kxtsQNtGW12ns
+--e348e36945914e5cc4ae5777f00e030ee7ccb75b04a6400e5010d547e99a
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Designing Token Economies</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    margin: 40px -16px 0 -16px;
+    padding: 22px 0 4px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    width: 552px;
+    padding: 37px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-row .modal-cell .modal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-block {
+    display: block !important;
+  }
+  .md\:tw-flex {
+    display: flex !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNTI0MTI1NDM3LjMuMjllNGI3MTY1MGUxNDI2YkBtZzIuc3Vic3RhY2suY29tPiIsInUiOj=
+E2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvb=
+SIsInAiOjU2MTM3Mjk3LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1=
+LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNjUzMzk2ODg3LCJ=
+pc3MiOiJwdWItMCIsInN1YiI6ImVvIn0._fD3pOF0Lvppple_EEJLi0TmMbAf4dpyV5kmdWEJK9=
+E" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impo=
+rtant;width:1px !important;border-width:0 !important;margin-top:0 !importan=
+t;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !impor=
+tant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !=
+important;padding-left:0 !important;"/><div style=3D"display:none;font-size=
+:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;o=
+verflow:hidden;" class=3D"preview">A Collaboration with Station's Tina He &=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"prese=
+ntation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" cl=
+ass=3D"email-body-container"><tr><td></td><td width=3D"550" class=3D"conten=
+t"></td><td></td></tr><tr><td></td><td align=3D"left" width=3D"550" class=
+=3D"content"><div style=3D"font-size: 16px; line-height: 26px; margin: 0 au=
+to; max-width: 550px; overflow-wrap: break-word; width: 100%;"><div markup=
+=3D"" style=3D"font-size: 16px; line-height: 40px; margin-bottom: 8px; text=
+-align: right;"><a href=3D"https://substack.com/app-link/post?publication_i=
+d=3D10025&post_id=3D56137297&utm_source=3Demail" class=3D"tw-font-body tw-t=
+ext-ssm tw-text-substack-secondary" style=3D"color: rgb(102,102,102) !impor=
+tant; font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Inter, S=
+egoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI =
+Emoji, Segoe UI Symbol !important; font-size: 13px !important;">Open in bro=
+wser</a></div><div dir=3D"auto" class=3D"post typography" style=3D"font-siz=
+e: 16px; line-height: 26px; padding: 9.6px 0;"><div class=3D"post-header" s=
+tyle=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title short =
+published" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoo=
+thing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+40px; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=
+=3D"https://www.notboring.co/p/designing-token-economies?token=3DeyJ1c2VyX2=
+lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoic=
+HViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.KaxIeLTZmJK02rZq1XZv1tIp3HyBSeY=
+O_g4f60AsMOk" style=3D"color: #1a1a1a; text-decoration: none;">Designing To=
+ken Economies</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothi=
+ng: antialiased; -webkit-font-smoothing: antialiased; color: #767676; font-=
+family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 20px; font-weight: normal; line-height: 1=
+=2E16em; margin: 4px 0 8px; margin-top: 8=
+px;">A Collaboration with Station's =
+Tina He</h3><table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta c=
+ustom" style=3D"align-items: center; height: 20px; margin: 1em 0;"><tr><td =
+title=3D"2022-05-24T12:54:44.743Z" class=3D"post-meta-item post-date" style=
+=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; =
+padding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relat=
+ive; text-decoration: none; white-space: nowrap;"><time dateTime=3D"2022-05=
+-24T12:54:44.743Z">May 24</time></td><td class=3D"post-meta-item icon" styl=
+e=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px;=
+ padding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: rela=
+tive; text-decoration: none; text-indent: 3px; white-space: nowrap;"><span =
+class=3D"post-meta-icon like-reaction-button"><a href=3D"https://www.notbor=
+ing.co/api/v1/post/email-reaction?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zd=
+F9pZCI6NTYxMzcyOTcsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjUzMzk2ODg3LCJpc3MiOiJw=
+dWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ9.yTx3WePrjxF7eQLd1UG0XlORm1_GJN7Gcjw2gj=
+Ui9mA" class=3D"like-button" style=3D"color: #767676; display: block; text-=
+decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_s=
+cale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fic=
+on%2FLucideHeart%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26stroke%3D%252=
+3757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none=
+ !important; display: inline-block; float: left; height: 14px; max-width: 1=
+6px; vertical-align: top; width: auto;" alt=3D""></a></span></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; text-indent: 3px;=
+ white-space: nowrap;"><a class=3D"" href=3D"https://www.notboring.co/p/des=
+igning-token-economies/comments?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9=
+pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG=
+9zdC1yZWFjdGlvbiJ9.KaxIeLTZmJK02rZq1XZv1tIp3HyBSeYO_g4f60AsMOk&amp;utm_sour=
+ce=3Dsubstack&amp;utm_medium=3Demail" style=3D"color: #767676; display: blo=
+ck; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch=
+/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+=2Ecom%2Ficon%2FLucideComments%3Fv%3D2%26=
+height%3D32%26fill%3Dtransparent%26s=
+troke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"=
+border: none !important; display: inline-block; float: left; height: 14px; =
+max-width: 16px; vertical-align: top; width: auto;" alt=3D"Comment" class=
+=3D"comment-icon post-meta-icon"></a></td><td class=3D"post-meta-item icon"=
+ style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont, '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: =
+14px; margin-right: 0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-=
+right: 0; padding-top: 0; position: relative; text-decoration: none; text-i=
+ndent: 3px; white-space: nowrap;"><span><a href=3D"https://www.notboring.co=
+/p/designing-token-economies?utm_source=3Dsubstack&utm_medium=3Demail&utm_c=
+ontent=3Dshare&action=3Dshare&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwiaWF0IjoxN=
+jUzMzk2ODg3LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.My6FJZrd=
+fAHdM4z3syOl6cX2z-VIYw9yhFHaJyUQ1O0" style=3D"color: #767676; display: bloc=
+k; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/=
+w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Ficon%2FLucideShare%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26strok=
+e%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"bord=
+er: none !important; display: inline-block; float: left; height: 14px; max-=
+width: 16px; vertical-align: top; width: auto;" alt=3D"Share" class=3D"reco=
+mmend-icon post-meta-icon"></a></span></td></tr></table></div></div><div di=
+r=3D"auto" class=3D"post typography" style=3D"font-size: 16px; line-height:=
+ 26px; padding: 9.6px 0;"><div dir=3D"auto" class=3D"body markup" style=3D"=
+font-size: 16px; line-height: 26px; margin-bottom: 12px; text-align: initia=
+l; width: 100%; word-break: break-word;"><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0; margin-top: 0;"><em>Welcom=
+e to the&nbsp;<strong>1,925&nbsp;newly Not Boring people&nbsp;</strong>who =
+have joined us since last Monday! If you haven&#8217;t subscribed, join&nbs=
+p;<strong>125,070 </strong>smart, curious folks by subscribing here:</em></=
+p><div class=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapp=
+er" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0; text-align: center;"><a href=3D"https://www.notboring.co/subscribe=
+?utm_source=3Dpost&amp;utm_medium=3Demail&amp;utm_source=3Dsubscribe-widget=
+&amp;utm_content=3D56137297" class=3D"button primary subscribe-btn" style=
+=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing=
+: border-box; color: #ffffff !important; cursor: pointer; display: inline-b=
+lock; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height=
+: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-alig=
+n: center; text-decoration: none !important; white-space: nowrap;"><span st=
+yle=3D"color: #ffffff; text-decoration: none;">Subscribe now</span></a></p>=
+</div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">&#127911;<em>&nbsp; If you&#8217;d rather listen to this ess=
+ay, head over to <strong><a href=3D"https://substack.com/redirect/1c624d67-=
+73a7-41c7-849c-555244ffa331?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a;=
+ text-decoration: underline;">Spotify</a> </strong>or&nbsp;<strong><a href=
+=3D"https://substack.com/redirect/fe9a99ae-708e-4dff-96ee-719266f6ba6a?u=3D=
+16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Ap=
+ple Podcasts</a></strong></em></p><div style=3D"font-size: 16px; line-heigh=
+t: 26px;"><hr style=3D"background: #e5e5e5; border: none; height: 1px; marg=
+in: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><strong>Today&#8217;s Not Boring =
+is brought to you by&#8230; <a href=3D"https://substack.com/redirect/38be5b=
+d5-96ae-428b-af48-97aa910a5268?u=3D16283549" rel=3D"" style=3D"color: #1a1a=
+1a; text-decoration: underline;">Masterworks</a></strong></p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>L=
+ast week, I left out an unexpected detail out of my deep dive:</em> <em>Eve=
+n <strong>Issac Newton</strong> couldn't resist a good meme stock.</em></p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;"><em>In 1720, Newton's friends invested in the South Sea Trading Co=
+mpany (the GME of their day). But while his friends all got rich, he invest=
+ed what would now be worth $4,000,000 at the top and lost it all in a week.=
+</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;"><em>If Issac Newton could lose everything in the pursuit =
+of riches, it could happen to anyone. That's why I make <strong>my portfoli=
+o </strong>&#8220;<strong>idiot-proof&#8221; with safe-haven assets with so=
+lid upside</strong> like fine art.</em></p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>As an investment, a=
+rt checks a lot of boxes:</em></p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><strong>&#9989;</strong><em><str=
+ong>  Inflation resistant: </strong>art can help protect your wealth from i=
+nflation</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;"><strong>&#9989;  </strong><em><strong>Risk-adjust=
+ed performance: </strong>Nearly 0 correlation to equities according to Citi=
+&nbsp;</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;"><strong>&#9989;  </strong><em><strong>Appreciation:=
+ </strong>contemporary art appreciated by 14% annually (1995-2021)&nbsp;</e=
+m></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;"><em>As an asset class, art isn&#8217;t a GME or South Sea. Y=
+ou won&#8217;t 10x your investment in 24 hours, but you probably won&#8217;=
+t lose 90% of it either.</em></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><em>Luckily, art investing is eas=
+ier than ever. With Masterworks, you can invest in million dollar paintings=
+ without millions of dollars in the bank. Plus they&#8217;ve compiled a met=
+ric ton of data, and pick quality works for you. </em></p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>I&#8=
+217;m no art expert, but I can invest like one with Masterworks. Use <stron=
+g><a href=3D"https://substack.com/redirect/38be5bd5-96ae-428b-af48-97aa910a=
+5268?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">my private link</a></strong> to get priority access today.*</em></p>=
+<div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background:=
+ #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">Hi friends &#128075; ,</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">Happy Tuesday!</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I was=
+ a dumb optimist in the bull market, I&#8217;m gonna continue to be a dumb =
+optimist in the bear. The technological and cultural shifts I was excited a=
+bout like three weeks ago haven&#8217;t gone anywhere, and in fact, the bea=
+r market might give builders more breathing room to get weird.&nbsp;</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">One of the areas in which I think we&#8217;ll see the most progress d=
+uring the bear is <strong>token design</strong>. This last cycle was full o=
+f very early attempts to build new forms of organization and new economies,=
+ and I think that over the next [insert length of bear market], people are =
+going to experiment with new models focused less on price and more on creat=
+ing sustainable new worlds.&nbsp;</p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">One of the questions that&#82=
+17;s been lodged in my brain as I&#8217;ve been thinking about this is whet=
+her protocols behave more like companies or countries. What are the competi=
+tive and cooperative dynamics at play? How important is it to own the reser=
+ve currency of [web3, the metaverse, the Great Online Game]?&nbsp;</p><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">Unfortunately, I&#8217;m not smart enough to answer that question on my=
+ own. Fortunately, I&#8217;m friends with someone who is: <a href=3D"https:=
+//substack.com/redirect/4ac0a2e6-f9da-49dc-835b-b5be68f87309?u=3D16283549" =
+rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Tina He</a>.=
+ Tina is the founder of <a href=3D"https://substack.com/redirect/c8d729de-0=
+832-4e06-a2a5-1d9b46fad54b?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; =
+text-decoration: underline;">Station</a>, which I was lucky enough to inves=
+t in via Not Boring Capital, and the author of one of my favorite Substacks=
+, <a href=3D"https://substack.com/redirect/8d11b608-75f4-4744-b646-f78c35f7=
+a487?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">Fakepixels</a>.&nbsp; A few months ago, on a catch up call, she told=
+ me that after Station, she wants to become a <strong>token designer</stron=
+g>. I didn&#8217;t even know that was a thing, but she talked about combini=
+ng economics and code, aligning incentives, and creating new digital econom=
+ies. It&#8217;s a beautiful idea: coordinating human behavior and resource =
+allocation through smart token design.&nbsp;</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">So when Tina tweet=
+ed this&#8230;</p><div class=3D"tweet" style=3D"background: #fff; border: 1=
+px solid #e1e8ed; border-radius: 5px; direction: ltr; display: block; font:=
+ normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif;=
+ font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; pa=
+dding: 20px 20px 11.6px 20px;"><a href=3D"https://substack.com/redirect/27b=
+0499d-1061-4606-86e2-9e635ea9f0a5?u=3D16283549" target=3D"_blank" rel=3D"" =
+style=3D"color: black; display: block; text-decoration: none; white-space: =
+pre-wrap;"><div class=3D"tweet-header" style=3D"display: block; font-size: =
+16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;"><img c=
+lass=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image/twitter_nam=
+e/w_36/fkpxls.jpg" alt=3D"Twitter avatar for @fkpxls" style=3D"-ms-interpol=
+ation-mode: bicubic; border: none !important; border-radius: 50%; display: =
+block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; verti=
+cal-align: middle; width: 36px;"><span class=3D"tweet-author-name" style=3D=
+"color: #1c2022; display: block; font-weight: 700;">tina he &#128644;&#1277=
+60; </span><span class=3D"tweet-author" style=3D"color: #697882; display: b=
+lock; font-size: 14px;">@fkpxls</span></div>everybody tryna become a reserv=
+e currency......=20
+
+how are communities strategizing their forex reserves in the treasury? whic=
+h one do they pick?
+
+is this the geopolitics of the pluriverse?</a><a href=3D"https://substack.c=
+om/redirect/27b0499d-1061-4606-86e2-9e635ea9f0a5?u=3D16283549" target=3D"_b=
+lank" rel=3D"" style=3D"color: black; display: block; text-decoration: none=
+; white-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"color: #6978=
+82; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; t=
+ext-decoration: none;"><p class=3D"tweet-date" style=3D"border-bottom: 1px =
+solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height=
+: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">April 10th 20=
+22</p><span class=3D"likes" style=3D"display: inline-block; margin-right: 8=
+px;"><span class=3D"like-count" style=3D"color: #1c2022; font-weight: bold;=
+">10</span> Likes</span></div></a></div><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">&#8230; I replied that Pro=
+tocols as Nations was on the to-write list, she asked how she could contrib=
+ute, and we decided to join forces to write it up.&nbsp;</p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The re=
+sult is better than I could have hoped for. I think this can be a go-to res=
+ource for people designing DAOs and protocols, people building new worlds.&=
+nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px; =
+line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none; height:=
+ 1px; margin: 25.6px 0; padding: 0;"></div><h1 style=3D"-moz-osx-font-smoot=
+hing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; fon=
+t-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-height: 1.=
+16em; margin: 1em 0 0.625em 0;"><strong><a href=3D"https://www.notboring.co=
+/p/designing-token-economies?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZC=
+I6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zd=
+C1yZWFjdGlvbiJ9.KaxIeLTZmJK02rZq1XZv1tIp3HyBSeYO_g4f60AsMOk" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Designing Token Economies<=
+/a></strong></h1><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">(Psssst&#8230; Click this &#128070;&#128070;  to =
+read the full piece online)</p><div class=3D"captioned-image-container-stat=
+ic" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-=
+align: center;"><figure style=3D"display: inline-block; margin: 0 auto; wid=
+th: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: =
+1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=
+=3D"left" class=3D"content" width=3D"1200" style=3D"text-align: center;"><a=
+ class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redire=
+ct/883e8a4b-d228-455a-a339-6bd460f10c04?u=3D16283549" rel=3D"" style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img=
+ data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-=
+9518-adb32be77984.s3.amazonaws.com/public/images/3b125f8c-05fd-4f6c-938f-d0=
+bc91f32de8_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&q=
+uot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeWidth&q=
+uot;:null,&quot;bytes&quot;:430299,&quot;alt&quot;:null,&quot;title&quot;:n=
+ull,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null}" alt=3D""=
+ width=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://substackc=
+dn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.co=
+m%2Fpublic%2Fimages%2F3b125f8c-05fd-4f6c-938f-d0bc91f32de8_1200x600.png" st=
+yle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: b=
+lock; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !impo=
+rtant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>When trying to understand tokens, it&#8217;s tempting to draw from what we=
+ already know.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">Sometimes, tokens function like equity in =
+a company, and owning a token is akin to holding a stake in the project&#82=
+17;s potential upside. Other times, tokens function like a &#8220;token-of-=
+gratitude&#8221; and symbolize goodwill among close friends in the purest s=
+ense. The wide-ranging role isn&#8217;t a bug but a feature representing va=
+lue in the most abstract sense, whose meaning is given by the system's very=
+ design.&nbsp; In other words, a token doesn&#8217;t necessarily have any i=
+ntrinsic value but relative value. It&#8217;s the encapsulation of a unit o=
+f value universally recognizable and enforceable by a system.&nbsp;</p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">Tokens are barely a new concept. Shells and beads were the earliest ty=
+pes of tokens as a medium of exchange. Others that we&#8217;re familiar wit=
+h today&nbsp;&#8212;&nbsp;casino chips, credit card points, stock certifica=
+tes, concert tickets, and club memberships &#8211; are all forms of tokens =
+as they represent a unit of value universally recognized and enforced by th=
+e system that issues that token. When the respective systems fail to enforc=
+e and recognize the value of these tokens, the jurisdiction can step in to =
+protect the token holders.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;">Think about the last token you=
+ interacted with &#8212;&nbsp;<em>What does it allow you to do that you oth=
+erwise cannot? Why are you holding it and want to own more of it? What happ=
+ens if you discard or transfer ownership of your tokens? </em>To many, the =
+answer to these questions would be &#8220;getting even more tokens.&#8221; =
+To others, holding tokens allows for participation rights in projects and c=
+ommunities that they care deeply about. The former speaks to the economics =
+of holding a token, the latter to access rights.&nbsp;</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">A <stron=
+g>token design</strong> is poor when there&#8217;s value misalignment betwe=
+en value accrual in the system and value accrual to the token. <a href=3D"h=
+ttps://substack.com/redirect/bf15918c-4d76-4908-9e00-1f3e91c60828?u=3D16283=
+549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Gabriel=
+ Shapiro</a> aptly describes tokens like UNI, COMP, and the recently launch=
+ed APE, as &#8220;value by association,&#8221; as he acutely identifies the=
+ fragmentation in value streams for the protocols aforementioned &#8212;&nb=
+sp;the prime slice has been preserved for the insiders, while the &#8220;il=
+lusion of power&#8221; gets distributed to the rest.&nbsp;</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">One =
+of the reasons that there is so much confusion around token design, and val=
+ue accrual specifically, is that tokens, and the DAOs and protocols that is=
+sue them, are so multifaceted. Sometimes, the issuers want them to behave l=
+ike shares in a <strong>corporation</strong>. Others issue &#8220;governanc=
+e&#8221; rights to skirt regulations while insiders pump the tokens in the =
+hope of getting out before the price tumbles. Others still want to build an=
+d unify digital <strong>nations. </strong>Often, even the issuers aren&#821=
+7;t clear exactly what they want to do with the token, but they know that t=
+okens are a great way to capture value.</p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">While token design isn&=
+#8217;t the only important aspect of creating a new protocol or digital eco=
+nomy &#8211; delivering value to users should always be priority #1 or else=
+ the token&#8217;s price will inevitably crumble &#8211; it&#8217;s a criti=
+cal one. Just like a messy cap table can inflict mortal wounds on a startup=
+ or poor monetary policy can derail a nation&#8217;s economy, bad token des=
+ign can doom a protocol before it even gets off the ground. The crypto grav=
+eyard is littered with examples of good projects whose token designs cement=
+ed their eventual demise from day one &#8211; maybe the tokenomics encourag=
+ed too much growth, too fast &#8211; and we&#8217;ll cover some of them her=
+e. There are others whose token designs allow them to do things that non-we=
+b3 companies can&#8217;t by properly aligning incentives in the system, and=
+ connecting the system to the larger ecosystem. We&#8217;ll cover those, to=
+o.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">Why does it matter? Everything is falling apart. Terra=
+ collapsed largely thanks to its token design. Projects that attracted mill=
+ions or billions of dollars with the promise of absurd APYs are learning th=
+e truth of the old adage, &#8220;Easy come, easy go.&#8221; The regulators =
+are coming.&nbsp; Tokens that were worth a lot of fiat a couple weeks ago a=
+re worth a lot less today.</p><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">All of those reasons and more are <e=
+m>exactly</em> why it&#8217;s critical to understand good token design toda=
+y. Not only because good token design can help avoid catastrophic outcomes,=
+ but because, assuming we&#8217;re entering a sustained bear market, now is=
+ the <em>perfect</em> time to experiment with novel token designs without t=
+he pressure of the expectation of high prices and &#8220;up only.&#8221;&nb=
+sp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">Tokens are naturally economic; they have a price attached f=
+rom inception, and are instantly tradeable on liquid, global, 24/7 markets.=
+ But tokens can be much more than that. They&#8217;re programmable primitiv=
+es that allow DAOs and protocols to signal what matters in their ecosystem,=
+ to reward good participation, to trade with each other and build interconn=
+ected webs of support, and to support new forms of digital organizations an=
+d nations.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">So what are you building? Are you building a c=
+lub or a co-op, a corporation or a country?&nbsp;</p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Protocols can=
+ be all of the above, so we&#8217;ll start by walking through how they <str=
+ong>compare to companies and countries</strong>, before laying out a <stron=
+g>framework for token analysis</strong>, and imagining <strong>what the wor=
+ld will look like</strong> when the dust settles. We hope that it&#8217;s u=
+seful to the builders, contributors, and investors alike.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>We know you wanted a break, anon, but it&#8217;s time to jump back down th=
+e rabbit hole.&nbsp; &#128371; &#128007;</p><h3 style=3D"-moz-osx-font-smoo=
+thing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; fo=
+nt-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-heigh=
+t: 1.16em; margin: 1em 0 0.625em 0;"><strong>Definitions</strong></h3><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">A quick pause here to define three key terms will pay dividends through=
+out the piece.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;"><strong>Protocol: </strong>a system of log=
+ic that coordinates exchange between suppliers and consumers of a service, =
+based on rules written into the code. SMTP, which coordinates email, and Et=
+hereum, are both protocols. Only Ethereum captures value, thanks to ETH tok=
+ens.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;"><strong>Token: </strong>a unit of value universally recogn=
+ized and enforced by the system that issues it. There are different kinds o=
+f tokens &#8211; including governance tokens, DeFi tokens, non-fungible tok=
+ens, security tokens &#8211; all designed to do different things. Tokens ar=
+e code, and as such, can be programmed to do nearly anything its creator dr=
+eams up.&nbsp;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;"><strong>DAO (Decentralized Autonomous Orga=
+nization)</strong>: a group organized around a mission that coordinates thr=
+ough a shared set of rules enforced on a blockchain. (<a href=3D"https://su=
+bstack.com/redirect/5c7fb1c9-1c54-4b25-a842-58d4b6f3f482?u=3D16283549" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Linda Xie</a>) =
+Protocols are governed by DAOs once the protocol has a token and is fully d=
+ecentralized.&nbsp;</p><h3 style=3D"-moz-osx-font-smoothing: antialiased; -=
+webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compac=
+t Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1e=
+m 0 0.625em 0;"><strong>Protocols as Companies</strong></h3><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The ea=
+siest analogy for protocols is that they&#8217;re like corporations, but di=
+gital. DAOs are Digitally-Native Corps.&nbsp;</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thinking of proto=
+cols as companies is convenient from a strategy perspective. There are coun=
+tless books written on and frameworks created for corporate strategy. We ta=
+lk about them a lot in Not Boring. <em>Competitive Strategy, 7 Powers, 5 Fo=
+rces, Good Strategy, Bad Strategy</em>. The list goes on. Most of the peopl=
+e creating and running protocols come from the corporate world (with the ex=
+ception of those who come from academia, either as professors or students).=
+ It&#8217;s tempting to port those ideas and experiences over.&nbsp;</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">It&#8217;s convenient from a finance perspective, too. There are rule=
+s and textbooks and models and an entire industry built on valuing companie=
+s. To understand companies, we need to understand how value gets created, t=
+he sustainability and defensibility of the value creation (unit economics a=
+nd moat), as well as governance and control dynamics (management team).</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">We derive the value of a company by looking at its net assets (or =
+equity, which is the value of all assets minus that of all liabilities). Sa=
+vvy investors would look at a company&#8217;s assets and assess the quality=
+ of each source cash flow to conclude a fair value. Not all cash flow is cr=
+eated equal.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">Good managers of traditional businesses unde=
+rstand the investor lens, thus focusing most of the company&#8217;s resourc=
+es to improve the core assets that drive enterprise value and ignore or spe=
+nd minimal effort on the rest. Employees are allowed and encouraged to cont=
+ribute ideas from the bottom-up, but it&#8217;s up to the CEO, and sometime=
+s the board, to decide which of these ideas will compound value to the core=
+ assets.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">For a company like Meta, the core asset is the u=
+ser data and the algorithm that&#8217;s able to surface the right content f=
+or higher conversion. The trillion gigabrain things that Zuck seems to be o=
+rchestrating &#8212;&nbsp;from the fashionable Instagram to the highly util=
+itarian WhatsApp &#8212; are all meant to collect more data, diversify sour=
+ces the of data, increase the quality of the data, and de-risk the irreleva=
+nce of the data, thereby increasing core asset quality and its revenue-gene=
+rating potential. Everything feeds the core. The absence of this kind of co=
+mpounding focus is why companies that do a bunch of unrelated stuff, like c=
+onglomerates, often get valued at a discount.</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Investors on Twit=
+ter are taking initiatives to value protocols similarly. An investor can co=
+nduct a DCF (discounted cash flow) analysis to understand value accrual to =
+xSUSHI holders by <a href=3D"https://substack.com/redirect/8467c0ee-8089-47=
+15-a2a3-654a5a59c5eb?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-d=
+ecoration: underline;">projecting the growth </a>of the 0.05% fee on all pr=
+otocol transactions. In addition to its core DEX (decentralized exchange), =
+Sushiswap, offers a diverse set of financial products from <a href=3D"https=
+://substack.com/redirect/e6e88c95-b223-49d7-948e-ab897c0513b0?u=3D16283549"=
+ rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">lending</a>=
+ to an <a href=3D"https://substack.com/redirect/9cf7d00a-cd0b-4bf3-b487-265=
+f867c75ac?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: =
+underline;">NFT marketplace</a>. Investors may <a href=3D"https://substack.=
+com/redirect/8467c0ee-8089-4715-a2a3-654a5a59c5eb?u=3D16283549" rel=3D"" st=
+yle=3D"color: #1a1a1a; text-decoration: underline;">discount these non-core=
+, auxiliary cashflows</a> as they&#8217;re still early and highly speculati=
+ve, and focus on valuing the protocol based mainly on its DEX fees. Here, p=
+rotocols seem similar to companies.&nbsp;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Both companies and pr=
+otocols are trying to <strong>coordinate human and financial capital to acc=
+omplish a set of goals</strong>. A company&#8217;s main goal is to produce =
+a return on capital invested. Many protocols certainly share a similar goal=
+ of generating profits, but these objectives tend to be much more diverse &=
+#8212;&nbsp;from maintaining a piece of public digital infrastructure to cr=
+eating one of the most <a href=3D"https://substack.com/redirect/a82ef904-72=
+0c-4e20-a1dd-4c477d248b6e?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; t=
+ext-decoration: underline;">cost-efficient lending platform</a>s in the wor=
+ld.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;">When you look at all of the functions of companies an=
+d protocols or DAOs line-by-line, the parallels are clear:</p><div class=3D=
+"captioned-image-container-static" style=3D"font-size: 16px; line-height: 2=
+6px; margin-bottom: 16px; text-align: center;"><figure style=3D"display: in=
+line-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-a=
+lign: center;"></td><td align=3D"left" class=3D"content" width=3D"1456" sty=
+le=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/d05f35b5-0315-467a-aa0e-3641845c4c15?u=3D=
+16283549" rel=3D"" style=3D"align-items: center; border: none; display: blo=
+ck; flex-direction: column; height: auto; margin: 0; padding: 0; text-decor=
+ation: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:=
+//bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/im=
+ages/b01384df-2d04-409d-a60c-6ced2e90a620_1600x900.png&quot;,&quot;fullscre=
+en&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:819,&quot;width=
+&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&q=
+uot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&q=
+uot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"309.375" class=3D"w=
+ide-image" src=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437=
+e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb01384df-2d04-409d=
+-a60c-6ced2e90a620_1600x900.png" style=3D"-ms-interpolation-mode: bicubic; =
+border: none !important; display: block; height: auto; margin: 0 auto; marg=
+in-bottom: 0; max-width: 100% !important; vertical-align: middle; width: au=
+to !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbod=
+y></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">With a quick glance at the table above, i=
+t&#8217;s striking that DAOs and companies do many of the same things. Both=
+ have &#8220;tokens&#8221; of sorts, both need to establish governance mode=
+ls, both write governing laws, etc.&nbsp; A closer inspection shows that th=
+ere are major differences within key line items.&nbsp;</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>=
+Governance</strong><em><strong> </strong></em>is where the analogy breaks d=
+own most cleanly: corporate governance and protocol governance are very dif=
+ferent. The former relies on centralized management, while the latter relie=
+s on the good judgment of token holders.&nbsp;</p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Protocols can ru=
+n like corporations for a while in the beginning, when the founders and cor=
+e team need to make the fast, life-or-death decisions startups need to make=
+=2E But after they&#8217;ve <a href=3D"ht=
+tps://substack.com/redirect/98448b88=
+-4f2d-4f30-a001-0f1582d2652c?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a=
+; text-decoration: underline;">progressively decentralized</a>, protocols n=
+eed to fully hand over the reins to their communities. This presents a diff=
+icult trade-off: <strong>it&#8217;s challenging for a protocol to retain bo=
+th corporate-like efficiency </strong><em><strong>and</strong></em><strong>=
+ include token holders in decision-making. </strong>&nbsp;</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That=
+&#8217;s one of a few <em>internal </em>areas in which companies and protoc=
+ols diverge.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;"><em>Externally, </em>where companies and pro=
+tocols derive their<strong> competitive advantage </strong>and how they <st=
+rong>distribute value &#8211; </strong>how they sustain profits and split t=
+hem up &#8211; differ wildly as well.&nbsp;</p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In an excellent rec=
+ent article for Harvard Business review, <em><a href=3D"https://substack.co=
+m/redirect/4ac3fdd2-5bac-46f2-ba28-625141913ed0?u=3D16283549" rel=3D"" styl=
+e=3D"color: #1a1a1a; text-decoration: underline;">Why Build in Web3</a></em=
+>, <a href=3D"https://substack.com/redirect/a1ff8c7e-7eab-4695-a84d-377f759=
+8ed13?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">Jad Esber</a> and <a href=3D"https://substack.com/redirect/51704e97=
+-9806-4feb-937a-e88c60b4f0d7?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a=
+; text-decoration: underline;">Scott Kominers</a> explain that companies bu=
+ilding in web3 have a different set of competitive advantages than companie=
+s building in web 2.0. In web 2.0, as highlighted above, one of the greates=
+t sources of strength is <strong>data ownership</strong> and the most domin=
+ant moat, the strongest of the <em>7 Powers</em>, is <strong>network effect=
+s</strong>.&nbsp;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">Every action we perform on Facebook (lo=
+l we don&#8217;t use Facebook, but go with us) stays on Facebook&#8217;s se=
+rvers. All of that data allows Facebook to build features that keep you mor=
+e engaged with the product and to help advertisers target you better. Then,=
+ as more of your friends engage with Facebook, there&#8217;s more of an inc=
+entive for you to use, and continue to use, Facebook. You know this story.&=
+nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">Web3, according to Esber and Kominers, is built different=
+:&nbsp;</p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 1em=
+ 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0; margin-left: 1em;"><em>It&#8217;s based on the premise that th=
+ere&#8217;s an alternative to exploiting users for data to make money &#821=
+2; and that instead, building <strong>open platforms</strong> that <strong>=
+share value with users</strong> directly will <strong>create more value for=
+ everyone, including the platform</strong>.</em></p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1e=
+m;"><em>In Web3, instead of platforms having full control of the underlying=
+ data, <strong>users typically <a href=3D"https://substack.com/redirect/175=
+88fc5-ec84-49e9-a9ce-a557d8599e90?u=3D16283549" rel=3D"" style=3D"color: #1=
+a1a1a; text-decoration: underline;">own</a> whatever content they have <a h=
+ref=3D"https://substack.com/redirect/1b282b40-46da-4b6f-a408-ab4e2f6f17da?u=
+=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;"=
+>created</a></strong> (such as posts or videos), as well as <strong>digital=
+ objects</strong> they have purchased. Moreover, these digital assets are <=
+strong>typically created according to interoperable standards on public blo=
+ckchains</strong>, instead of being privately hosted on a company&#8217;s s=
+ervers.</em></p></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Data ownership and portability might =
+be the most important difference between web 2.0 and web3 from a strategic =
+perspective. The implications of that subtle shift &#8211; while far from r=
+ealized in the current instantiations of many web3 projects &#8211; are tec=
+tonic.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">Take <a href=3D"https://substack.com/redirect/c4b4=
+f5b2-caa5-4c89-bc47-430d1fe3119e?u=3D16283549" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">Lens Protocol</a>, a &#8220;decentralize=
+d social graph.&#8221; Lens lets creators own their creations and take them=
+ anywhere in web3. It also creates a <strong>shared database</strong> of th=
+at content, and of the connections between people, that anyone can build on=
+ top of. Facebook, Twitter, and the like derive power from the data they ow=
+n and from the strength of the social graphs that only they have access to.=
+ Lens envisions an internet where that&#8217;s flipped, where the data and =
+social graphs are out in the open for anyone to build on top of.</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">As web3 developer Miguel Piedrafita tweeted:&nbsp;</p><div class=3D"tweet=
+" style=3D"background: #fff; border: 1px solid #e1e8ed; border-radius: 5px;=
+ direction: ltr; display: block; font: normal normal 16px/1.4 Helvetica, Ro=
+boto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; =
+margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;"><a hre=
+f=3D"https://substack.com/redirect/d9806efe-af8b-4885-8812-5b8e694e056e?u=
+=3D16283549" target=3D"_blank" rel=3D"" style=3D"color: black; display: blo=
+ck; text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-head=
+er" style=3D"display: block; font-size: 16px; line-height: 1.2; margin-bott=
+om: 14px; text-decoration: none;"><img class=3D"tweet-user-avatar" src=3D"h=
+ttps://substackcdn.com/image/twitter_name/w_36/m1guelpf.jpg" alt=3D"Twitter=
+ avatar for @m1guelpf" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; border-radius: 50%; display: block; float: left; height: 36p=
+x; margin: 0 8px 0 0; max-width: 100%; vertical-align: middle; width: 36px;=
+"><span class=3D"tweet-author-name" style=3D"color: #1c2022; display: block=
+; font-weight: 700;">$MIGUEL Piedrafita </span><span class=3D"tweet-author"=
+ style=3D"color: #697882; display: block; font-size: 14px;">@m1guelpf</span=
+></div>&#127793; <span class=3D"tweet-fake-link" style=3D"color: #1ca1f2; t=
+ext-decoration: none;">@LensProtocol</span> is such an amazing source of in=
+spiration.
+
+They've basically created the perfect decentralized social storage, indexed=
+ by default and with stellar APIs for devs &#129321;
+
+Wanna recreate twitter, reddit or <span class=3D"tweet-fake-link" style=3D"=
+color: #1ca1f2; text-decoration: none;">@viamirror</span>? You just need to=
+ make a frontend! <div class=3D"tweet-photos-container" style=3D"display: f=
+lex; font-size: 16px; height: 350px; line-height: 26px;"><div class=3D"twee=
+t-photo-wrapper " style=3D"-moz-box-sizing: border-box; -webkit-box-sizing:=
+ border-box; border: 1px solid #e1e8ed; border-radius: 5px; box-sizing: bor=
+der-box; font-size: 16px; height: 100%; line-height: 26px; width: 100%;"><i=
+mg class=3D"tweet-photo" src=3D"https://substackcdn.com/image/fetch/w_600,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.c=
+om%2Fmedia%2FFTWm8QMX0AApV_p.jpg" alt=3D"Image" style=3D"-ms-interpolation-=
+mode: bicubic; border: none !important; border-radius: 5px; display: block;=
+ height: 100%; margin: 0 auto; max-width: 100%; object-fit: cover; vertical=
+-align: middle; width: 100%;"></div></div></a><a href=3D"https://substack.c=
+om/redirect/d9806efe-af8b-4885-8812-5b8e694e056e?u=3D16283549" target=3D"_b=
+lank" rel=3D"" style=3D"color: black; display: block; text-decoration: none=
+; white-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"color: #6978=
+82; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; t=
+ext-decoration: none;"><p class=3D"tweet-date" style=3D"border-bottom: 1px =
+solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height=
+: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">May 22nd 2022=
+</p><span class=3D"retweets" style=3D"display: inline-block; margin-right: =
+8px;"><span class=3D"rt-count" style=3D"color: #1c2022; font-weight: bold;"=
+>31</span> Retweets</span><span class=3D"likes" style=3D"display: inline-bl=
+ock; margin-right: 8px;"><span class=3D"like-count" style=3D"color: #1c2022=
+; font-weight: bold;">373</span> Likes</span></div></a></div><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That =
+not only means that a richer ecosystem of applications can flourish by tapp=
+ing into a growing source of content and connections, it also means that th=
+e sources of power and where value accrues shift completely. Don&#8217;t li=
+ke the Twitter algorithm? Great, tap into all of the underlying data and bu=
+ild something different. Building new social products has essentially been =
+a dead-end &#8211; it&#8217;s practically impossible to bootstrap the netwo=
+rk effects built up by incumbents over the years &#8211; but Lens Protocol =
+aims to eliminate that cold-start problem for social app developers, which =
+could lead to more social apps.</p><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;">As Esber and Kominers write:&nb=
+sp;</p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0; margin-left: 1em;"><em>The dynamics of Web3 are less zero-sum, whi=
+ch means a platform&#8217;s overall <strong>value creation opportunity can =
+be bigger</strong>. Building on an interoperable infrastructure layer makes=
+ it easy for platforms to plug into <strong>broader content networks</stron=
+g>, thereby expanding the scale and types of value they can provide their u=
+sers.</em></p></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">While the value <em>creation</em> oppor=
+tunity can be bigger, there are still open questions about value <em>captur=
+e</em>. As Packy wrote in <em><a href=3D"https://substack.com/redirect/1408=
+6356-eb8e-443e-9f7e-f2efb02628b6?u=3D16283549" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">Shopify and the Hard Thing About Easy Th=
+ings</a></em>, &#8220;<strong>Here&#8217;s the hard thing about easy things=
+:</strong> if everyone can do something, there&#8217;s no advantage to doin=
+g it, but you still have to do it anyway just to keep up.&#8221; If the <st=
+rong>protocols </strong>make it easier for developers to build <strong>appl=
+ications</strong>, more people may build applications and compete away prof=
+its.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">New web3 primitives might spell trouble for the incu=
+mbent networks, but it&#8217;s still unclear where the value accrues in thi=
+s new world. Esber and Kominers propose that sharing infrastructure drives =
+&#8220;towards a greater emphasis on platform design as a competitive advan=
+tage&#8221; and that &#8220;user insight will continue to differentiate con=
+sumer apps.&#8221; That seems to be a less durable competitive advantage th=
+an the incumbents enjoy.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">In <em><a href=3D"https://substa=
+ck.com/redirect/c5a84c0a-b10e-4b6b-a08e-cd61b724940f?u=3D16283549" rel=3D""=
+ style=3D"color: #1a1a1a; text-decoration: underline;">Why Decentralization=
+ Matters</a></em>, <a href=3D"https://substack.com/redirect/b1895bc6-2864-4=
+3c2-bb9c-e5f57e0ef21a?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-=
+decoration: underline;">Chris Dixon</a> explains that &#8220;as platforms m=
+ove up the adoption S-Curve, their power over users and 3rd parties steadil=
+y grows,&#8221; and they move from friendly &#8220;attract&#8221; moves &#8=
+211; like designing more delightful platforms and opening APIs to developer=
+s &#8211; to adversarial &#8220;extract&#8221; ones &#8211; like prioritizi=
+ng features that get users to click on ads and locking down APIs.&nbsp;</p>=
+<div class=3D"captioned-image-container-static" style=3D"font-size: 16px; l=
+ine-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"700" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://substack.com/redirect/dd2cb9fc-5268-423e-9ea3-93628=
+9236aec?u=3D16283549" rel=3D"" style=3D"align-items: center; border: none; =
+display: block; flex-direction: column; height: auto; margin: 0; padding: 0=
+; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:=
+&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.c=
+om/public/images/2be09178-aa88-4cce-868c-fb022512c593_700x301.png&quot;,&qu=
+ot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:301,=
+&quot;width&quot;:700,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&=
+quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&q=
+uot;href&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"236.5" cl=
+ass=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1400,c_limi=
+t,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-=
+baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2be09178-a=
+a88-4cce-868c-fb022512c593_700x301.png" style=3D"-ms-interpolation-mode: bi=
+cubic; border: none !important; display: block; height: auto; margin: 0 aut=
+o; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; wi=
+dth: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr=
+></tbody></table><figcaption class=3D"image-caption" style=3D"color: #76767=
+6; font-family: sans-serif; font-size: 14px; font-weight: 300; line-height:=
+ 1.4em; text-align: center;"><em>Chris Dixon</em></figcaption></figure></di=
+v><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;">In web3, when the content and connections are open and available=
+ for anyone to build on top of, it&#8217;s much harder for applications to =
+move to the &#8220;extract&#8221; phase, which happens to be the phase in w=
+hich most of the profits are generated. Dissatisfied users can pick up and =
+move to another app, and dissatisfied developers can either fork the projec=
+t or start their own on top of the same infrastructure, content, and connec=
+tions. That&#8217;s likely healthier for users, developers, and the overall=
+ ecosystem, but presents a murky profitability picture for applications.&nb=
+sp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">It seems, then, that value may accrue to the <strong>protoc=
+ols</strong>, which can take advantage of cross-side (&#8220;indirect&#8221=
+;) network effects, in which two groups of participants &#8211; users and a=
+pp developers &#8211; attract each other. As more developers build on top o=
+f Lens Protocol, for example, they attract more users, who share more of th=
+eir content and connections with the protocol, which makes it a more obviou=
+s choice for the next developer. Lens Protocol can take a lot of nibbles in=
+ the form of fees, benefiting from the overall growth of usage on the platf=
+orm without concern for the stickiness of any particular application built =
+on top.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">But not so fast! In the classic <em><a href=3D"ht=
+tps://substack.com/redirect/269fcf32-bdc4-4fa1-9665-dd1225642880?u=3D162835=
+49" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Protocol=
+s as Minimally Extractive Coordinators</a>,</em> Chris Burniske observes th=
+at, &#8220;As coordinators of exchange, protocols should be <em>minimally e=
+xtractive</em>.&#8221;<em> </em>If a protocol&#8217;s fees are too high, if=
+ it moves from &#8220;attract&#8221; to &#8220;extract,&#8221; developers w=
+ill leave and bring their users with them. So protocols are incentivized to=
+ keep fees low enough to retain developers while still taking a small enoug=
+h margin such that it doesn&#8217;t make economic sense for a new protocol =
+to try to compete. That said, protocols can still make money. As Burniske c=
+larifies (emphasis ours):&nbsp;</p><blockquote style=3D"border-left: 4px so=
+lid #67bdfc; margin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0; margin-left: 1em;"><em>I should note m=
+inimal extraction doesn&#8217;t mean <strong>cryptoassets that capitalize p=
+rotocols</strong> will capture minimal value; if something is minimally ext=
+ractive, but globally produced and consumed, <strong>the coordinating asset=
+ can capture a significant amount of value</strong>.</em></p></blockquote><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">In theory, web3 will <strong>create more value</strong> by making i=
+t easier for applications to build on top of open protocols and databases, =
+<strong>capture more value</strong> through tokens that are intrinsically l=
+inked to the use of the protocols and applications, and importantly, <stron=
+g>share value with builders and users</strong>, building token-powered netw=
+ork effects.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">Here, too, it&#8217;s still so early, and th=
+at thesis will need to be proven at scale. But if it is, it will likely be =
+because of potentially the biggest difference between web 2.0 companies and=
+ web3 protocols: the cryptoassets, or <strong>tokens</strong>.&nbsp;</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">Tokens can give both applications and protocols superpowers &#8211; l=
+ike power boosts on their strengths &#8211; <strong>provided they start fro=
+m a place of creating real user value</strong>. For the scope of this piece=
+, we&#8217;ll focus on protocols.&nbsp;</p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Protocols need to do ma=
+ny of the same things that companies do, but they also face additional chal=
+lenges in coordinating decentralized groups of user/owner/contributors/vote=
+rs. Luckily, they have an ace up their sleeves, tokens, that give them pote=
+ntial advantages in both coordinating activity and capturing value, often a=
+longside their builders and users. In that sense, they&#8217;re not buildin=
+g companies as much as they&#8217;re building <strong>economies. </strong>&=
+nbsp;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">These strategic differences suggest that protocols =
+might be more similar to open source software projects, a comparison that&#=
+8217;s frequently made, with some key differences like native tokens and th=
+e fact that contributors get paid. A less obvious comparison, though, is th=
+at protocols might behave a lot more like countries than companies.&nbsp;</=
+p><h4 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing=
+: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125=
+em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><stro=
+ng>To learn about Protocols as Countries, a Framework for Token Design, and=
+ What the World Looks Like When the Dust Settles&#8230; </strong></h4><p cl=
+ass=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://www.not=
+boring.co/p/designing-token-economies?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwic=
+G9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoicHViLTEwMDI1Iiwic3Vi=
+IjoicG9zdC1yZWFjdGlvbiJ9.KaxIeLTZmJK02rZq1XZv1tIp3HyBSeYO_g4f60AsMOk&quot;,=
+&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;action&quot;:nul=
+l,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button pri=
+mary" href=3D"https://www.notboring.co/p/designing-token-economies?token=3D=
+eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4Nyw=
+iaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.KaxIeLTZmJK02rZq1XZv1=
+tIp3HyBSeYO_g4f60AsMOk" rel=3D"" style=3D"background-color: #67bdfc; border=
+: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !importa=
+nt; cursor: pointer; display: inline-block; font-family: -apple-system, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-wei=
+ght: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; outlin=
+e: none; padding: 12px 20px; text-align: center; text-decoration: none !imp=
+ortant; white-space: nowrap;"><span style=3D"color: #ffffff; text-decoratio=
+n: none;">Continue Reading Online</span></a></p><div style=3D"font-size: 16=
+px; line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none; hei=
+ght: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Thanks to <a hr=
+ef=3D"https://substack.com/redirect/4ac0a2e6-f9da-49dc-835b-b5be68f87309?u=
+=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;"=
+>Tina</a> for lending us her brilliance, to <a href=3D"https://substack.com=
+/redirect/20daffc9-ea41-4302-8082-f92f997caa71?u=3D16283549" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Dan</a> for editing, and t=
+o Conner Swenberg and Mind Apivessa for inspiring thoughts that informed th=
+is piece!</em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr st=
+yle=3D"background: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; pa=
+dding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">Important programming note: <strong>we&#8217;re t=
+aking off next week for Memorial Day</strong>. We&#8217;ll be back to our r=
+egularly scheduled programming the following week! </p><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thanks for =
+reading, and see you in a couple weeks! </p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Packy</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margi=
+n-bottom: 0;"><em>*See important reg A <a href=3D"https://substack.com/redi=
+rect/7492f295-4f26-4c03-a0dc-6603e1be0986?u=3D16283549" rel=3D"" style=3D"c=
+olor: #1a1a1a; text-decoration: underline;">disclosures</a></em></p></div><=
+/div><table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom b=
+ig alternative-meta centered" style=3D"margin: 0 auto;"><tr style=3D"align-=
+items: center; display: flex;"><td class=3D"post-meta-item icon" style=3D"c=
+olor: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', =
+Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; padd=
+ing: 0px 12px 0px 0; padding-right: 24px; position: relative; text-decorati=
+on: none; text-indent: 3px; white-space: nowrap;"><span class=3D"post-meta-=
+icon like-reaction-button"><a href=3D"https://www.notboring.co/api/v1/post/=
+email-reaction?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcs=
+InJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjUzMzk2ODg3LCJpc3MiOiJwdWItMTAwMjUiLCJzdWI=
+iOiJyZWFjdGlvbiJ9.yTx3WePrjxF7eQLd1UG0XlORm1_GJN7Gcjw2gjUi9mA" class=3D"lik=
+e-button button post-meta-button" style=3D"align-items: center; background-=
+color: transparent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizi=
+ng: border-box; color: #1a1a1a; cursor: pointer; display: flex; font-family=
+: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 16px; font-weight: normal; height: auto; line-height: 15px; margin: 0=
+; opacity: 1; outline: none; padding: 10px 16px; text-align: center; text-d=
+ecoration: none; text-indent: 0px; white-space: nowrap;"><img src=3D"https:=
+//substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D3=
+6%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"1=
+8" height=3D"18" style=3D"border: none !important; display: inline-block; f=
+loat: left; height: 14px; margin-right: 4px; max-width: 18px; vertical-alig=
+n: top; width: auto;" alt=3D""><span class=3D"like-count" style=3D"color: #=
+1a1a1a; margin-left: 7px;">Like</span></a></span></td><td class=3D"post-met=
+a-item icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; =
+line-height: 18px; padding: 0px 12px 0px 0; padding-right: 24px; position: =
+relative; text-decoration: none; text-indent: 3px; white-space: nowrap;"><a=
+ href=3D"https://www.notboring.co/p/designing-token-economies/comments?toke=
+n=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg=
+4NywiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.KaxIeLTZmJK02rZq1=
+XZv1tIp3HyBSeYO_g4f60AsMOk&amp;utm_source=3Dsubstack&amp;utm_medium=3Demail=
+" class=3D"post-meta-button button" style=3D"align-items: center; backgroun=
+d-color: transparent; border: 1px solid #e0ecf6; border-radius: 4px; box-si=
+zing: border-box; color: #1a1a1a; cursor: pointer; display: flex; font-fami=
+ly: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 16px; font-weight: normal; height: auto; line-height: 15px; margin:=
+ 0; opacity: 1; outline: none; padding: 10px 16px; text-align: center; text=
+-decoration: none; white-space: nowrap;"><img src=3D"https://substackcdn.co=
+m/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%=
+2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D36%26fill%3Dtr=
+ansparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"=
+18" style=3D"border: none !important; display: inline-block; float: left; h=
+eight: 14px; margin-right: 4px; max-width: 18px; vertical-align: top; width=
+: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"><span class=
+=3D"meta-button-label">Comment</span></a></td><td class=3D"post-meta-item i=
+con" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-hei=
+ght: 18px; margin-right: 0; padding: 0px 12px 0px 0; padding-right: 0; posi=
+tion: relative; text-decoration: none; text-indent: 3px; white-space: nowra=
+p;"><span><a href=3D"https://www.notboring.co/p/designing-token-economies?u=
+tm_source=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&action=3Dshare&=
+token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwiaWF0IjoxNjUzMzk2ODg3LCJpc3MiOiJwdWItMTA=
+wMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.My6FJZrdfAHdM4z3syOl6cX2z-VIYw9yhFHaJy=
+UQ1O0" class=3D"button post-meta-button" style=3D"align-items: center; back=
+ground-color: transparent; border: 1px solid #e0ecf6; border-radius: 4px; b=
+ox-sizing: border-box; color: #1a1a1a; cursor: pointer; display: flex; font=
+-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 16px; font-weight: normal; height: auto; line-height: 15px; ma=
+rgin: 0; opacity: 1; outline: none; padding: 10px 16px; text-align: center;=
+ text-decoration: none; white-space: nowrap;"><img src=3D"https://substackc=
+dn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D2%26height%3D36%26fill%3D=
+transparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=
+=3D"18" style=3D"border: none !important; display: inline-block; float: lef=
+t; height: 14px; margin-right: 4px; max-width: 18px; vertical-align: top; w=
+idth: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"><span cl=
+ass=3D"meta-button-label">Share</span></a></span></td></tr></table><div cla=
+ss=3D"container-border" style=3D"border-top: 1px solid #e0ecf6; box-sizing:=
+ border-box; font-size: 16px; line-height: 26px; margin: 32px 0 0; width: 1=
+00%;"></div><div class=3D"post-cta" style=3D"font-size: 16px; line-height: =
+26px; margin: 24px 0 40px;"><p style=3D"font-size: 16px; font-style: italic=
+; line-height: 26px; margin: 24px 0 0; margin-top: 0;"><span>If you liked t=
+his post from <a href=3D"https://substack.com/redirect/29e9b590-0028-4daf-b=
+ff1-e22719ada714?u=3D16283549">Not Boring by Packy McCormick</a>, why not s=
+hare it?</span></p><p class=3D"cta-box" style=3D"font-size: 16px; font-styl=
+e: italic; line-height: 26px; margin: 24px 0 0; text-align: center;"><a rol=
+e=3D"button" href=3D"https://substack.com/redirect/045e475a-d2fd-4d4c-b3f8-=
+ba16d1becb7f?u=3D16283549" class=3D"button primary twitter-link" style=3D"b=
+ackground-color: #67bdfc; border: 0px solid #67bdfc; border-radius: 4px; bo=
+rder-width: 13px 20px 13px 18px; box-sizing: content-box; color: #ffffff !i=
+mportant; cursor: pointer; display: inline-block; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 17px; fo=
+nt-style: normal; font-weight: 300; height: 24px; line-height: 24px; margin=
+: 0; opacity: 1; outline: none; padding: 0; text-align: center; text-decora=
+tion: none !important; vertical-align: middle; white-space: nowrap;"><img s=
+rc=3D"https://substackcdn.com/image/fetch/w_23.1,c_scale,f_png,q_auto:good,=
+fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%=
+26height%3D42%26stroke%3D%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=
+=3D"21" style=3D"border: none !important; display: inline-block; height: 21=
+px; margin-right: 8px; max-width: 11.55px; vertical-align: middle; width: 2=
+1px;" alt=3D""><span style=3D"color: #ffffff; text-decoration: none;">Share=
+</span></a></p></div><div class=3D"footer" style=3D"background: #f8f8f8 !im=
+portant; color: #bcbcbc; font-size: 16px; line-height: 26px; margin-top: 24=
+px; padding: 32px; text-align: center;"><p class=3D"small" style=3D"color: =
+#bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 13px; line-height: 26px; margin-bottom: 0; paddin=
+g-bottom: 30px;">&#169; 2022 <span>Packy McCormick</span> <a href=3D"https:=
+//www.notboring.co/action/disable_email?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSw=
+icG9zdF9pZCI6NTYxMzcyOTcsImlhdCI6MTY1MzM5Njg4NywiaXNzIjoicHViLTEwMDI1Iiwic3=
+ViIjoiZGlzYWJsZV9lbWFpbCJ9.r1u6yl1W1DD4HxqIRYmy84GJ-LQFk8kxtsQNtGW12ns" sty=
+le=3D"color: #bcbcbc;"><span style=3D"color: #bcbcbc; text-decoration: unde=
+rline;">Unsubscribe</span></a><br>10 City Point, Brooklyn, NY 11201</p><p c=
+lass=3D"small powered-by-substack" style=3D"color: #bcbcbc; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 13px; line-height: 26px; margin-bottom: 0; margin-top: 0; padding-bottom:=
+ 0;"><a href=3D"https://substack.com/redirect/0e657f31-4769-4c4b-9590-b13c8=
+e84af66?u=3D16283549" style=3D"color: #bcbcbc; display: inline-block; margi=
+n: 8px 4px 0; text-decoration: none;"><img alt=3D"Publish on Substack" src=
+=3D"https://substackcdn.com/image/fetch/w_393,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-on-su=
+bstack.png" width=3D"196" height=3D"40" style=3D"border: none !important; m=
+argin-top: 3px; max-width: 550px; vertical-align: middle;"></a><a href=3D"h=
+ttps://substack.com/redirect/55756749-072c-4c6e-a13a-84a3905ea46f?u=3D16283=
+549" style=3D"color: #bcbcbc; display: inline-block; margin: 8px 4px 0; tex=
+t-decoration: none;"><img alt=3D"Get the app" src=3D"https://substackcdn.co=
+m/image/fetch/w_277,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fsubstack.com%2Fimg%2Femail%2Fget-the-app.png" width=3D"138" height=
+=3D"40" style=3D"border: none !important; margin-top: 3px; max-width: 550px=
+; vertical-align: middle;"></a></p></div></div></td><td></td></tr></table><=
+img src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiP=
+DIwMjIwNTI0MTI1NDM3LjMuMjllNGI3MTY1MGUxNDI2YkBtZzIuc3Vic3RhY2suY29tPiIsInUi=
+OjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmN=
+vbSIsInAiOjU2MTM3Mjk3LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMD=
+I1LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoiYm90dG9tIiwiaWF0IjoxNjUzMzk2O=
+Dg3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.dsyRqjJigNS4cOWkwlhkPD4C4mnyRUJIAqGG=
+nrOu8sk" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px=
+ !important;width:1px !important;border-width:0 !important;margin-top:0 !im=
+portant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 =
+!important;padding-top:0 !important;padding-bottom:0 !important;padding-rig=
+ht:0 !important;padding-left:0 !important;"/><img width=3D"1px" height=3D"1=
+px" alt=3D"" src=3D"https://email.mg2.substack.com/o/eJxFUMuOhCAQ_JrlaHiDB7=
+6FgLQOGYUJtrPx7xf1sLdOV6VeU0BYajvdp-5IYAt59QsUaP2ffEDHtBJi1NYarThJTiZmlSV59=
+3ODm--wHUA-R1zzFDDX4nNyjFKuyMtJTtU8GmFBGDXCLKiNQhgTo0hW0UguXx-OlKFM4OAL7awF=
+yFS3DQpeUg-lH0ozYfhoSHac8i7MJeNKCjOIgY8go-lhKTDJdfyRdFv4sB9xxzC9h65HmisVY22=
+5LB1-v8IG6w307P4yPErG00MJcYX01MJnmGOHdtfS3AolxycTnh9wBX73FRChke6Wap-k_Bv9AW=
+Rtdig"></body></html>
+--e348e36945914e5cc4ae5777f00e030ee7ccb75b04a6400e5010d547e99a--

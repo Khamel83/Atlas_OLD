@@ -1,0 +1,2293 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:791:b0:dc:4011:408e with SMTP id n17csp892594rwj;
+        Wed, 9 Nov 2022 12:15:08 -0800 (PST)
+X-Received: by 2002:adf:ab1d:0:b0:236:6301:c77 with SMTP id q29-20020adfab1d000000b0023663010c77mr38764310wrc.119.1668024907652;
+        Wed, 09 Nov 2022 12:15:07 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1668024907; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=l8lHvej482nvr7ZkfHpErIARYIQDpU5ThPh3TAZ+ysuFGcS81xF4x6T8qfhYv++ZJP
+         Yh7CQt7Dd2aBWQ4ny7ZgwAB5LN+T2zsXw6wttmqcDcCtH+gegQ1EQ1rrk8lpLnsYvQjk
+         NmHjcz6n4roObMIrwsMEOUl1xH8/qomR+BwH+JE6rLo0D7nJ8UmmFHpKyNMhXtDZuXs1
+         L6PkeVjXEfzWYsBtdhflA+N34mAtRfPYNd0EdXrMbVYg8H2qCzTUovlJLhbygHzs9HjC
+         zh9WFl52bJYpPbuhA4krPRh7skqbQO9UVE9g2c2D4ZWRAyyRbT7ZxReEHumxoY1kGS84
+         3LVQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=XU7/ExFODKiBgX0GQcWQNma6ipwuXlk7OOtmLrGRgtg=;
+        b=0T/73elEhgbEtyNvzQsZaxAquET18p3BVIbGmPc8x6qpbOATdKC5ZX2hcrzvOzJ3CV
+         Q5TooyK3uxEeB+8YhD/6hewZFwhd28IEnKEpOG9PQxwYQYtH3XLsUyMdnXKiNR6utXPm
+         NFL20Gwz+sJ9ug38PMUiK/ZvKqy2w623fNgtXpOihUKMqJCcYPW+o4mXsBnJQ5qwXVdx
+         q8M8N2JNt0P7r7tpGz9nSL/eG5jhknuGATaRpK8eANNfBbaxIP4vJRQfNOpf6xEKsQ/c
+         p9dAk56Qw/iHwWGcCbam0aS8zQOgGTafb58vERu2SvQLuh8SF/a9f9HkEMvJx+5rgFtv
+         eQsA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=I+LjeXDW;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y8-20020a056000168800b0022ebd9c2664sor7050000wrd.77.2022.11.09.12.15.07
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Nov 2022 12:15:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=I+LjeXDW;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=XU7/ExFODKiBgX0GQcWQNma6ipwuXlk7OOtmLrGRgtg=;
+        b=dKGPPyAHI/U41IK3nzW1W/warJTPnr89YmeLqleF+g0skrcIN3UiE3v6Qs87YsJNiB
+         4VDCm8j8Qbx55seIJmgQtiXbJFEgSjXlujsiABFS3X9EKHzCcQGPJNgcY/L9VQw4rx2B
+         QY6IsOLiOTpvP7ZINTrB4HnF76gvg+xMbygkxsqGQ6G2pbbwO5kyGLNa49xCV2/motoC
+         c2ArRem12IMxvg9nZ1YdZu/PDFvjnEXwnq/mM4xtKfqFvh4XoQU/v7bCBvdO8PXFfTPZ
+         3JkkQCDwL7lwAsv6M2Sz8WIErn9wKiJuB9ZvfiMnwRXlNt+/7E6ohI67bQCvcEZcgd0G
+         R+6w==
+X-Gm-Message-State: ACrzQf1L4bhmnBdSu457ZQsHyKK4qv8GprbMJPGe4nIxJ1Rm6wN01W/6
+	Afaj6V4sRVGV+skXn8Fth+I+JoZyDCJyJOav2XC++4sMXNQsrTiceA==
+X-Received: by 2002:adf:f8c2:0:b0:236:9cd1:6748 with SMTP id f2-20020adff8c2000000b002369cd16748mr38097530wrq.283.1668024906913;
+        Wed, 09 Nov 2022 12:15:06 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f647:0:0:0:0:0 with SMTP id x7csp529383wrp;
+        Wed, 9 Nov 2022 12:15:03 -0800 (PST)
+X-Received: by 2002:a1f:2c54:0:b0:3af:2d66:7059 with SMTP id s81-20020a1f2c54000000b003af2d667059mr13941577vks.14.1668024902694;
+        Wed, 09 Nov 2022 12:15:02 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1668024902; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SNqbteUzoUQQ0eKQU9UGV97HGRo3/Ey6n7pjPrRcBxh8jXumvZGjPkYrWyPJgp0Tr5
+         XTjtZKAvJGMhZ2fQ0a3V9sdcF05ZtxSvWA4d+3riJ5/tmJU2yB9/1i8h5mu+zMyxZgis
+         iB6E6XWbXuxli7hzOBUHyfELMcQrjATS4xRpWk1O7AQUAhgNjA5AeO+Ya4PYHPk6EdoZ
+         dbUmk/1+F+x+ECiB3QzUw58eH/mFvKcEQ8WIy0Eo4fUYSebka4khKSSJ9oK5dVfMwqBS
+         yuBQMA7iNI6eeB4OBaw6w0O8DIvZ2082UOVZdLt7NCkuQNBa29A3e3ur5PK/BYA5f0cS
+         /m+w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=XU7/ExFODKiBgX0GQcWQNma6ipwuXlk7OOtmLrGRgtg=;
+        b=yAcvg+P3jxF3BcYgyoES9Hi2tLfvR1B3RVebeB9aAMKLE1z3TceN3WLsmPXxNq99Wp
+         QFR0YT6s/ua6tZNBfLLI6vEXnc3OKb2c/394ps7x4r6GHp/wPcw1ZSWALYjfle/Htd0P
+         BUFIFohc/VjBqB+UYAwwwfkf1rGBw4Ds9ms4MtYyB4UcGmfeYFGBztnTOQ52PsA8lqeh
+         VMcRtGGWCOHryufqnOWZH4y0yC8iG0SLRqKB3RaYJNNG0jrafBu4330VHr0jW+RH4nBr
+         VeStLMz2vu+izO/9x31AOFqCW9WY82Qpt1/u8AcjnVP8tsZKU6lWzjzb/UKTq48v5OX6
+         FHwQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=I+LjeXDW;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221109151452.29648502.256510@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221109151452.29648502.256510@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221109151452.29648502.256510@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h19-20020a056102359300b003a6c078fcfbsor5741515vsu.86.2022.11.09.12.15.02
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Nov 2022 12:15:02 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20221109151452.29648502.256510@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMsMyM5UnSeLCTgp2l8P4TjtZ8ThRzICPJbZyNUEYvGI/e+c5lLgTuKWj7Tbom6vEDZYjCk816dKIN8SEQL+ixB4cgsqLDj+A7Q=
+X-Received: by 2002:a67:af05:0:b0:3ab:89bb:2066 with SMTP id v5-20020a67af05000000b003ab89bb2066mr1658342vsl.21.1668024902372;
+        Wed, 09 Nov 2022 12:15:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1668024902; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FvEDX/zwbfne86qPem/h10db+9qgfJ4qVbSjLPheO1wvZ24cjxm1L692fHNntT2Y7o
+         /JDyWmsx/RpJ9XMe+sCBCqGeOGqlEiEB4MWJQfIdF+VH+Af+s3OP/8TGlQFq3t0U4RbK
+         xf0ausNRp6gn5pPGTBdScOGX0SbhtbfZ9vAQT6+K64/O0JOaUc4QkbV9B+iA4k2l3QPM
+         7xQ+ZsFbBPPP/u4cS6wvRHmMe6OCryZtJr3dukuXyIO7srfXDJ7XPcc/LlibQLiH93BH
+         eI5lnWscLYGvudwu0n896V5sQKGPNDN9bJT0lrRALjenXeeYF3O0vOUs4s+QZrR2Razv
+         mRMw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=XU7/ExFODKiBgX0GQcWQNma6ipwuXlk7OOtmLrGRgtg=;
+        b=gI/xEUPChN7c2FQ1G7R6nkw/m2CPiS3XqlhctxL+CtgTjusVMB9pZqSDSjWRFnJUt1
+         LlIKd86CBQB7U4nvyritL7ThtaGhk3KsLjodLqWYLQHJ/5ObzZ7CycygQDi1ZgfJtQ4C
+         cu3Y6lInh/4eXqdVTFnh7ilKAkdO4X1NUH1D5OKP6mlcHvUKDoxB+znXzCVb6Op8g2MU
+         n51sRGBUvYqa20/WkbQj+YRwyu/I+39bL6jBNBGhrWf1RHLqGy1QefS1uM9dXfIuKSW8
+         3ExKFKfgzMPCa6mmn/Z3/entp/L90LdpCVKzFSpQhO+unB5PO+MU8NIk3rcZWDRs1XRh
+         y8zA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=I+LjeXDW;
+       spf=pass (google.com: domain of delivery_20221109151452.29648502.256510@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20221109151452.29648502.256510@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221109151452.29648502.256510@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id d76-20020a1f9b4f000000b003b87533e1eesi687532vke.3.2022.11.09.12.15.02
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 09 Nov 2022 12:15:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20221109151452.29648502.256510@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=OCaiEjUXwgNnrndnadINcYhCtftimX8miXUWj+8hCs0=;
+ b=I+LjeXDWf9GcPrsnH+fZRcKXyBW8Vv272lGjrvnkhrn0B8qsN9yyTsq5JTHJwo9EWbEw+a+1AEDi
+   9qno5Z13Rwpv5bLtLxmPjMPT7A1xsLH/T+ZU4Bnf8fPN64v7qZG3qnJWeF/P5DjTPJsOXE4w16X9
+   i03WmT3NoG6Am0R+Zco=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id hdg54a30nu85 for <bloomberg@khamel.com>; Wed, 9 Nov 2022 15:15:01 -0500 (envelope-from <delivery_20221109151452.29648502.256510@mx.sailthru.com>)
+Received: from nj1-wetcopper.flt (172.18.20.36) by njmta-90.sailthru.com id hdg54a1qqbsh for <bloomberg@khamel.com>; Wed, 9 Nov 2022 15:14:52 -0500 (envelope-from <delivery_20221109151452.29648502.256510@mx.sailthru.com>)
+Date: Wed, 9 Nov 2022 15:14:52 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221109151452.29648502.256510@sailthru.com>
+Subject: Money Stuff: FTX Had a Death Spiral
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30873762_120659234.1668024892691"
+Precedence: bulk
+X-Feedback-ID: 6358:29648502:campaign:sailthru
+X-TM-ID: 20221109151452.29648502.256510
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chngxi.5hxa/aa946d84
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chngxi.5hxa/aa946d84>, <mailto:unsubscribe_20221109151452.29648502.256510@mx.sailthru.com>
+X-rpcampaign: stjko29648502
+
+------=_Part_30873762_120659234.1668024892691
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        So how could this happen? I don=E2=80=99t know, but let me speculat=
+e a little bit.Let=E2=80=99s start with Coinbase. Coinbase Global Inc. runs=
+ a cryptocurre
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      FTX
+   =20
+ =20
+
+So how could   this happen? I don=E2=80=99t know, but let me speculate a li=
+ttle bit.
+Let=E2=80=99s start with Coinbase. Coinbase Global Inc. runs a cryptocurren=
+cy exchange. When FTX.com, one of the largest crypto exchanges, was instant=
+aneously vaporized yesterday,  Coinbase put out a statement, the gist of wh=
+ich was =E2=80=9Cdon=E2=80=99t worry,=C2=A0we are not going to be instantan=
+eously vaporized.=E2=80=9D The part that I want to focus on is this paragra=
+ph:
+There can=E2=80=99t be a =E2=80=9Crun on the bank=E2=80=9D at Coinbase. As =
+you can review in our publicly filed, audited financial statements, we hold=
+ customer assets 1:1. Any institutional lending activity at Coinbase is at =
+the discretion of the customer and backed by collateral. We have no gating =
+for client loan recalls or withdrawals.
+The way it works is roughly that you open an account and send dollars to Co=
+inbase, and then you tell Coinbase =E2=80=9CI=E2=80=99d like to buy some Bi=
+tcoin with those dollars,=E2=80=9D and Coinbase buys Bitcoin and holds on t=
+o it for you=C2=A0and  charges you a fee for that transaction. You can chec=
+k your account balance, and Coinbase says =E2=80=9Cyou have 0.5 Bitcoin=E2=
+=80=9D or whatever. That 0.5=C2=A0Bitcoin is, in the general case,=C2=A0hel=
+d by Coinbase; it has possession of the Bitcoin.
+  [1]
+=C2=A0But it is held in a custody account=C2=A0for you.  Coinbase says:
+
+Your funds are your funds, and your crypto is your crypto: Coinbase maintai=
+ns internal systems, like a bank or a broker. Our fully audited ledger iden=
+tifies your account, your fiat and crypto holdings, and tracks your account=
+ activity in real time. There=E2=80=99s never a situation where customer fu=
+nds could be confused with corporate assets.
+We will never repurpose your funds: We do not lend or take any action with =
+your assets, unless you specifically instruct us to. Many banks and financi=
+al institutions use customer funds for commercial purposes including lendin=
+g and trading, meaning that they often hold only a fraction of their custom=
+er assets at any given time. Coinbase always holds customer assets 1:1. Thi=
+s means that funds are available to our customers 24 hours a day, 7 days a =
+week, 365 days of the year.
+
+The analogy is: Imagine a weird sort of bank. You come to the bank with $10=
+0 in paper bills, and you deposit it in the bank, and the bank takes your p=
+aper bills and sticks them in an envelope with your name on it. Then it sti=
+cks the envelope in a vault, and if at any point you ask for your money bac=
+k, it opens the vault and hands you your envelope. This sounds like a bad b=
+usiness model: The bank needs to pay for real estate and tellers and vaults=
+, and it is not doing anything with your money. But the other weird thing a=
+bout this bank is that, every day, you come in and say =E2=80=9Chey I=E2=80=
+=99d like to exchange my dollars for euros=E2=80=9D or =E2=80=9Cmy euros fo=
+r pounds=E2=80=9D or whatever, and each time you do that the bank charges y=
+ou a dollar. So you have $100, which you exchange for =E2=82=AC99, which yo=
+u exchange for =C2=A398, which you exchange for $97, etc.,
+  [2]
+=C2=A0paying the bank $1 each time. If all of the bank=E2=80=99s customers =
+do this every day, then the bank makes plenty of money to pay for real esta=
+te and tellers and vaults and executive bonuses, without doing anything els=
+e with your money. It just takes the $100 out of your envelope and replaces=
+ it with =E2=82=AC99, etc., always keeping exactly the right amount of mone=
+y (in whatever currency you like that day) in exactly your envelope.
+  [3]
+
+And then if one day every single customer walked into the bank at the same =
+time and said =E2=80=9Cwe would like our money back,=E2=80=9D the bank woul=
+d just hand them all their envelopes. Don=E2=80=99t get me wrong, this woul=
+d be a catastrophe for the bank: If everyone took their envelopes back, the=
+n presumably they would stop changing money at the bank and paying fees, an=
+d the bank would stop making money, and it would no longer be able to pay f=
+or real estate or tellers or vaults or executive bonuses. It would go out o=
+f business in fairly short order. But it would not go out of business=C2=A0=
+that minute. It would actually have enough money to give all the customers =
+their money back, because it kept all the customers=E2=80=99 money in their=
+ own envelopes the whole time.
+No actual bank works that way.=C2=A0Real banks take deposits but don=E2=80=
+=99t keep the money in envelopes; they lend it out.
+  [4]
+=C2=A0Most classically, they borrow short to lend long, taking checking dep=
+osits that can be withdrawn at any time, and using them to make long-term m=
+ortgages. This makes them vulnerable to runs,  Diamond-Dybvig, It=E2=80=99s=
+ a Wonderful Life, etc., everyone knows all this.
+But in theory=C2=A0a cryptocurrency exchange could work that way, and at a =
+high level of generality Coinbase sort of does.
+  [5]
+=C2=A0Historically =E2=80=94=C2=A0not so much now, but until early this yea=
+r anyway =E2=80=94=C2=A0cryptocurrencies were volatile and exciting and peo=
+ple were jazzed to trade them a lot, so you could make a lot of money by ju=
+st charging fees without doing anything else with customer assets. And that=
+ is a run-proof business. If everyone takes their money out at once,=C2=A0y=
+ou have the money.
+But then one day a customer comes to you and says =E2=80=9CI have $10,000, =
+but I am really bullish on Bitcoin, so I would like to buy $20,000 worth of=
+ Bitcoin. Why don=E2=80=99t you lend me $10,000 so I can buy=C2=A0$20,000 o=
+f Bitcoin, so I can get more excitement?=E2=80=9D This is called a margin l=
+oan.
+Or =E2=80=94=C2=A0equivalently =E2=80=94=C2=A0a customer comes to you and s=
+ays =E2=80=9CI have $20,000 of Bitcoin in my account, and I need some cash =
+this month. I don=E2=80=99t want to sell my Bitcoin, because I am a true be=
+liever and also do not want to realize gains for tax purposes. Could you ju=
+st=C2=A0lend=C2=A0me $10,000, secured by my $20,000 of Bitcoin? You know I=
+=E2=80=99m good for it: If I don=E2=80=99t pay you back, you can sell my Bi=
+tcoin and pay yourself back from the proceeds.=E2=80=9D=C2=A0
+You might just say =E2=80=9Cno, that=E2=80=99s dumb, Bitcoin is volatile, b=
+uying $10,000 of Bitcoin is plenty of excitement.=E2=80=9D (In fact Coinbas=
+e  shut down margin trading in 2020.) But your competitors probably offer l=
+oans, and it is tempting for you to do it too. So you say, sure, fine, I=E2=
+=80=99ll take your $10,000 and put $20,000 of Bitcoin in your account.
+But where do you get the money that you are lending to the customer? Well, =
+you have to borrow it too. Ordinarily the way that you will borrow it is by=
+ putting up the customer=E2=80=99s Bitcoin as collateral to your lender, ju=
+st as the customer puts up its Bitcoin as collateral to you. If the custome=
+r defaults, you still have to pay your lender (and then you get the Bitcoin=
+ back and can sell it to pay off your customer=E2=80=99s liability to you);=
+ if you default, the lender sells the Bitcoin.
+But who are the lenders? Oh, various possibilities. But one general point i=
+s that while some customers will want to borrow dollars to buy Bitcoin, oth=
+er customers will want to=C2=A0borrow Bitcoin.=C2=A0One reason to borrow Bi=
+tcoin is to=C2=A0buy dollars, that is, to=C2=A0short Bitcoin:=C2=A0I borrow=
+ one Bitcoin, I sell it for $20,000, a week later Bitcoin drops to $18,000,=
+ I buy back the one Bitcoin for $18,000, I return it to my lender and I kee=
+p the $2,000. There are variations on this trade (I borrow Bitcoin and sell=
+ it for Ethereum, betting on the relative value between the tokens, etc.). =
+It is necessarily a leveraged trade; I can=E2=80=99t short Bitcoin without =
+borrowing it.
+  [6]
+
+If you are a crypto=C2=A0exchange, this is a nice opportunity. You have Cus=
+tomer A who has Bitcoin and wants to borrow dollars, and Customer B who has=
+ dollars and wants to borrow Bitcoin. (By =E2=80=9Cdollars,=E2=80=9D for a =
+crypto exchange, I mostly mean =E2=80=9Cdollar-denominated stablecoins,=E2=
+=80=9D though potentially also dollars.) You take some of Customer A=E2=80=
+=99s Bitcoin and lend it to Customer B, and you take some of Customer B=E2=
+=80=99s dollars and lend them to Customer A. Each of them is overcollateral=
+ized =E2=80=94=C2=A0you only lend Customer A half the value of her Bitcoin,=
+ and you only lend Customer B half the value of his dollars =E2=80=94=C2=A0=
+so you feel pretty safe. And they both pay you interest.
+But there are risks. One day Customer A might come in, pay off her dollar l=
+oan, and ask to take her Bitcoin back. You don=E2=80=99t have her Bitcoin, =
+or not all of them anyway; some of them are with Customer B. Customer B=C2=
+=A0owes=C2=A0them to you =E2=80=94=C2=A0ultimately you=E2=80=99re good for =
+it =E2=80=94=C2=A0but you don=E2=80=99t have them now. There is a timing pr=
+oblem.
+The solution to this is pretty much to have some extra cash =E2=80=94=C2=A0=
+some of your own capital =E2=80=94=C2=A0to bridge these timing problems. Ev=
+entually you=E2=80=99ll get the rest of the Bitcoin=C2=A0back from Customer=
+ B, but for now you just pay Customer A out of your own Bitcoin stash.
+But the timing problem is also connected to a real economic risk. If the pr=
+ice of Bitcoin falls by 90%, Customer B will be thrilled. He will come to y=
+ou and say =E2=80=9Chere=E2=80=99s my=C2=A0Bitcoin back, I=E2=80=99d like t=
+o withdraw my dollars.=E2=80=9D But you don=E2=80=99t have his dollars, or =
+not all of them; half of them are with Customer A. Your dollar loan to Cust=
+omer A is now underwater: You loaned her 50% of the value of her Bitcoin, b=
+ut Bitcoin fell by 90%, so she owes you more than her collateral is worth. =
+You call her up and ask her for more money =E2=80=94=C2=A0a =E2=80=9Cmargin=
+ call=E2=80=9D =E2=80=94 but she, sensibly,=C2=A0doesn=E2=80=99t answer the=
+ phone.
+  [7]
+=C2=A0You have to pay Customer B out of your own capital, and you don=E2=80=
+=99t get it back from Customer A. You've just lost money. Actually that=E2=
+=80=99s the best outcome. The worst outcome is that you don=E2=80=99t have =
+enough capital, you go bankrupt, and Customer B does not get his money back=
+.
+Everyone knows=C2=A0this, which is why crypto exchanges =E2=80=94=C2=A0and =
+securities broker-dealers, who have the same basic business model =E2=80=94=
+=C2=A0spend most of their time thinking about risk management. Before the p=
+rice of Bitcoin drops too far, you will be calling up Customer A for more m=
+argin, and if she doesn=E2=80=99t answer the phone you will liquidate her p=
+osition to pay back the loan you made. If you are a sophisticated modern cr=
+ypto exchange like FTX, you will have   automated 24/7 margining systems th=
+at automatically liquidate trades that have gotten too risky, so that only =
+the rarest catastrophic market moves could get you in trouble.
+But sometimes market moves are catastrophic, and in particular, sometimes s=
+ecurities broker-dealers and crypto exchanges will have =E2=80=9Crun on the=
+ bank=E2=80=9D risks. If everyone knows that you are in this situation =E2=
+=80=94=C2=A0that you have a lot of Bitcoin collateral and Bitcoin prices ar=
+e falling =E2=80=94=C2=A0people will expect you to have to liquidate your B=
+itcoin collateral, so they will expect Bitcoin prices to fall, so they will=
+ sell Bitcoin, which will cause Bitcoin prices to fall, which will cause yo=
+ur long-Bitcoin customers to default, which will cause you to liquidate Bit=
+coin at lower and lower prices, etc., until you are bankrupt.
+Now let=E2=80=99s add one more crypto element. If you are a crypto exchange=
+, you might  issue your own crypto token. FTX issues a token called FTT. Th=
+e attributes of this token are, like, it entitles you to some discounts and=
+ stuff, but the main attribute is that FTX periodically uses=C2=A0a portion=
+ of its profits to buy back FTT tokens. This makes FTT=C2=A0kind of like=C2=
+=A0stock=C2=A0in FTX: The higher FTX=E2=80=99s profits are, the higher the =
+price of FTT will be.
+  [8]
+=C2=A0It is not=C2=A0actually=C2=A0stock in FTX =E2=80=94=C2=A0in fact FTX =
+is a company and has stock and venture capitalists bought it, etc. =E2=80=
+=94=C2=A0but it is a lot=C2=A0like=C2=A0stock in FTX.=C2=A0FTT is a bet on =
+FTX=E2=80=99s future profits.
+But it is also a crypto token, which means that a customer can come to you =
+and post $100=C2=A0worth of FTT as collateral and borrow=C2=A0$50 worth of =
+Bitcoin, or dollars, or whatever, against that collateral, just as they wou=
+ld with any other token. Or something; you might set the margin requirement=
+s higher or lower, letting customers borrow 25% or 50% or 95% of the value =
+of their FTT token collateral.
+If you think of the token as =E2=80=9Cmore or less stock,=E2=80=9D and you =
+think of a crypto exchange as a securities broker-dealer,=C2=A0this is comp=
+letely insane. If you go to an investment bank and say =E2=80=9Clend me $1 =
+billion, and I will post $2 billion of your stock as collateral,=E2=80=9D y=
+ou are messing with very dark magic=C2=A0and they will say no.
+  [9]
+=C2=A0The problem with this is that it is=C2=A0wrong-way risk. (It is also,=
+ at least sometimes,  illegal.)=C2=A0If people start to worry about the inv=
+estment bank=E2=80=99s financial health, its stock will go down, which mean=
+s that its collateral will be less valuable, which means that its financial=
+ health will get worse, which means that its stock will go down, etc. It is=
+ a=C2=A0death spiral. In general it should not be possible to bankrupt an i=
+nvestment bank by shorting its stock. If one of the bank=E2=80=99s main ass=
+ets is its own stock =E2=80=94=C2=A0is a leveraged bet on its own stock=C2=
+=A0=E2=80=94 then it is easy=C2=A0to bankrupt it by shorting its stock.
+The worst case is something like:
+=09You have 100 Customer As who are long Bitcoin on margin: They each have =
+1 Bitcoin in their accounts and owe you $10,000.=09You have 100 Customer Bs=
+ who are short Bitcoin on margin: They each have $20,000 in their account a=
+nd owe you 0.5 Bitcoin.=09You have loaned 50 of the Customer As=E2=80=99 Bi=
+tcoins to the Customer Bs, and $1 million of the Customer Bs=E2=80=99 dolla=
+rs to the Customer As. You keep the other=C2=A050 Bitcoins and $1 million a=
+s collateral.=09Your accounts show that you owe clients 100 Bitcoins and $2=
+ million, and that they owe you back 50 Bitcoins and $1 million, and you ha=
+ve 50 Bitcoins and $1 million on hand, so everything balances.=09You have o=
+ne Customer C who says =E2=80=9Chi I would like to borrow 50 Bitcoins and $=
+1 million, I will secure that loan with 150,000 FTT, each of which is worth=
+ $20.=E2=80=9D=09You say =E2=80=9Csure, sounds good,=E2=80=9D and hand over=
+ all your collateral.=09Now you have 150,000 of FTT, worth $3 million, as c=
+ollateral (and no Bitcoins or dollars).=09Your accounts show that you owe c=
+lients 100 Bitcoins and $2 million and 150,000 FTT, and=C2=A0they owe you b=
+ack 100 Bitcoins and $2 million, and you have 150,000 FTT of collateral, so=
+ everything balances.
+
+But then if the value of FTT drops to zero, you have=C2=A0nothing. You have=
+ no Bitcoins to give to the customers to whom you owe Bitcoins, no dollars =
+to give to the customers to whom you owe dollars. You just have to call up =
+Customer C and say =E2=80=9Chey we need all those dollars and Bitcoins back=
+.=E2=80=9D But Customer C will not want to give you back all those valuable=
+ dollars and Bitcoins in exchange for now-worthless FTT. Also the fact that=
+ Customer C had all that FTT in the first place is not a great sign. It is =
+an FTT whale, and FTT is now worthless. Has it been borrowing elsewhere aga=
+inst FTT? Are all those debts coming due?=C2=A0
+Now let=E2=80=99s add a few more FTX-specific elements. One is that FTX is =
+ an exchange for levered traders, offering products like perpetual futures =
+and leveraged tokens that build in margin lending. So whereas the=C2=A0basi=
+c model of Coinbase is =E2=80=9Cthey buy Bitcoin for you and put it in an e=
+nvelope,=E2=80=9D the basic model of FTX has to be =E2=80=9Cthey lend you m=
+oney to buy crypto and then make use of your crypto to get the money.=E2=80=
+=9D In financial terms, they have to=C2=A0rehypothecate your collateral; yo=
+u can=E2=80=99t expect them to just keep it in an envelope if they=E2=80=99=
+re lending you the money to buy it.
+The other is that FTX is closely associated with a hedge fund called Alamed=
+a Research. Sam Bankman-Fried founded Alameda to do crypto arbitrage and ma=
+rket-making trades, and then he founded FTX to basically have a better exch=
+ange for Alameda to trade on. Alameda has lots of FTT, and  last week Coind=
+esk reported on its balance sheet; the gist of that report was =E2=80=9Cwow=
+ its balance sheet is mostly FTT=E2=80=9D:
+
+The financials make concrete what industry-watchers already suspect: Alamed=
+a is big. As of June 30, the company=E2=80=99s assets amounted to $14.6 bil=
+lion. Its single biggest asset: $3.66 billion of =E2=80=9Cunlocked FTT.=E2=
+=80=9D The third-largest entry on the assets side of the accounting ledger?=
+ A $2.16 billion pile of =E2=80=9CFTT collateral.=E2=80=9D
+There are more FTX tokens among its $8 billion of liabilities: $292 million=
+ of =E2=80=9Clocked FTT.=E2=80=9D (The liabilities are dominated by $7.4 bi=
+llion of loans.)
+
+That is not in itself a reason for a run on FTX! It might be a reason for t=
+he price of FTT to go down, if you think that Alameda has too much of it an=
+d might need to sell it.
+The reason for a run on FTX is that you think that Alameda is, in my termin=
+ology, Customer C. The reason for a run on FTX is if you think that FTX loa=
+ned Alameda a bunch of customer assets and got back FTT in exchange. If=C2=
+=A0that=E2=80=99s=C2=A0the case, then a crash in the price of FTT will dest=
+abilize FTX.=C2=A0If you=E2=80=99re worried about that, you should take you=
+r money out of FTX before the crash. If everyone is worried about that, the=
+y will all take their money out of FTX. But FTX doesn=E2=80=99t have their =
+money; it has FTT, and a loan to Alameda. If they all take their money out,=
+ that=E2=80=99s a bank run.
+And all of this is self-fulfilling: If you are worried about FTX=E2=80=99s =
+business, then the price of FTT should go down. If the price of FTT goes do=
+wn, then FTX=E2=80=99s business is riskier, because it has less collateral.=
+ If, say, the operator of the biggest crypto exchange gently raises one eye=
+brow and says =E2=80=9CFTT, eh?=E2=80=9D that can be enough to topple FTX. =
+FTT goes down, leaving FTX undercapitalized, leading to customer withdrawal=
+s, leading to ruin.
+Anyway it is still early and confusing but that seems to be the story of FT=
+X. Coindesk reported on Alameda=E2=80=99s FTT exposure, and then=C2=A0Chang=
+peng =E2=80=9CCZ=E2=80=9D Zhao, the founder of Binance Holdings Ltd., the l=
+argest crypto exchange, raised eyebrows by  tweeting that Binance would sel=
+l its FTT holdings =E2=80=9Cdue to recent revelations.=E2=80=9D People worr=
+ied that this would tank the price of FTT and put pressure on FTX, so they =
+started   withdrawing money from FTX. FTX didn=E2=80=99t have the money, an=
+d Bankman-Fried  started calling around asking for a loan or a bailout. Eve=
+ntually he called CZ himself, and  they announced a non-binding letter of i=
+ntent for   Binance to acquire FTX and make customers whole. Bankman-Fried=
+=E2=80=99s fortune   basically vanished, as did his =E2=80=9C  emperor aura=
+.=E2=80=9D Venture capital investors in FTX =E2=80=94=C2=A0which last raise=
+d money at a $32 billion valuation =E2=80=94=C2=A0are  probably getting zer=
+oed,=C2=A0the price of  FTT collapsed, and now   regulators are investigati=
+ng.
+In this description I have drawn on Twitter threads from  Jon Wu,  Lucas Nu=
+zzi=C2=A0and an anonymous =E2=80=9CWassie Lawyer,=E2=80=9D who make argumen=
+ts along these lines, as well as this Substack post from  Byrne Hobart. But=
+ the most informed view is probably that of CZ himself, who=C2=A0tweeted th=
+is morning:
+
+Two big lessons:=C2=A0
+1: Never use a token you created as collateral.=C2=A0
+2: Don=E2=80=99t borrow if you run a crypto business. Don't use capital "ef=
+ficiently". Have a large reserve.
+Binance has never used BNB for collateral, and we have never taken on debt.
+
+=E2=80=9CNever use a token you created as collateral=E2=80=9D suggests, to =
+me, that FTX=C2=A0accepted=C2=A0its FTT token as collateral, probably from =
+Alameda, probably in exchange for borrowing assets that it owes to customer=
+s. And that that went wrong in roughly the way I have outlined.
+One other point here is that if this is the story, then it is not a=C2=A0li=
+quidity=C2=A0crisis but a=C2=A0solvency=C2=A0one. That is, the problem is n=
+ot a timing mismatch, in which FTX=E2=80=99s customers asked for their cash=
+ back but FTX did not have enough ready cash because it had long-term but m=
+oney-good loans out. The problem is that FTX took its customers=E2=80=99 mo=
+ney and traded it for a pile of magic beans, and now the beans are worthles=
+s and there=E2=80=99s a huge hole in the balance sheet.   On that note:
+
+Changpeng Zhao moved fast when Sam Bankman-Fried=E2=80=99s FTX.com was on t=
+he brink, offering to take it over and stem any further crypto contagion.
+Within hours, he was forced to reconsider.=C2=A0
+For starters, Binance executives quickly found themselves staring into a fi=
+nancial black hole -- a gap between liabilities and assets at FTX that=E2=
+=80=99s probably in the billions, and possibly more than $6 billion, accord=
+ing to a person familiar with the matter.=C2=A0
+On top of that, US regulators are circling FTX, investigating whether the f=
+irm properly handled customer funds, as well as its relationship with other=
+ parts of Bankman-Fried=E2=80=99s crypto empire, Bloomberg News reported We=
+dnesday.=C2=A0
+It makes for a tricky decision for Zhao, known in the crypto world as CZ: F=
+ollow through with rescuing his onetime top rival and shoulder the financia=
+l and regulatory burdens, or let FTX crumble and sort through the potential=
+ wreckage? Zhao himself admits there was no =E2=80=9Cmaster plan=E2=80=9D t=
+o take over FTX.
+His answer, at least for now, is that the financial hole appears too deep. =
+Binance is unlikely to follow through on its takeover of FTX, according to =
+the person familiar, who wasn=E2=80=99t authorized to publicly discuss the =
+matter.
+
+Seems bad.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      WhatsApp
+   =20
+ =20
+
+Do you think that there is a big financial firm in the US that got through =
+the entire pandemic without any employees doing any business over WhatsApp =
+or text messages from their personal phone? It seems somewhat unlikely. So =
+much business is about personal relationships, and texting and WhatsApp can=
+ feel more personal than your firm email account. And since you were not vi=
+siting clients in person during the pandemic, or sitting in your office, yo=
+u might have been a bit more inclined to use your personal cell phone to co=
+mmunicate.
+The US Securities and Exchange Commission and Commodity Futures Trading Com=
+mission have=C2=A0concluded that that=E2=80=99s illegal, and fined all the =
+banks for doing it, because they all did it.   The fine is $200 million per=
+ bank (SEC and CFTC combined). I mean, there=E2=80=99s a little bit of diff=
+erentiation, but not too much. Almost all=C2=A0the big investment banks pai=
+d the same fine, and there was a lower tier of fine for smaller banks. Nobo=
+dy cares very much about how culpable each bank is, or how many bad message=
+s it sent. (With one exception: Bank of America Corp. paid a bit more for b=
+eing a bit more culpable.) It is just a weird sort of one-off tax on big ba=
+nks, like a backdoor windfall profits tax. =E2=80=9CWhatsApp, everyone pay =
+$200 million.=E2=80=9D Okay.
+Anyway  private equity is next:
+
+Financial regulators are looking at the biggest private equity firms=E2=80=
+=99 use of WhatsApp and other messaging apps for work, in a signal that the=
+ US is ramping up its push to police Wall Street=E2=80=99s electronic commu=
+nications.=C2=A0
+Apollo Global Management Inc., Carlyle Group Inc. and KKR & Co. said in reg=
+ulatory filings this week that they received letters from the Securities an=
+d Exchange Commission on their use of electronic messaging for business.
+
+Just a weird business all around. Everybody used WhatsApp and now everybody=
+ writes checks.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+ Huh:
+
+Tesla Inc. Chief Executive Officer Elon Musk sold at least $3.95 billion of=
+ the electric-vehicle maker=E2=80=99s shares just days after closing his bu=
+yout of Twitter Inc.
+Musk unloaded 19.5 million shares, according to regulatory filings on Tuesd=
+ay in New York, his first disposals since August. The documents didn=E2=80=
+=99t indicate that the transactions were pre-planned.
+The world=E2=80=99s richest person followed through with his takeover of th=
+e social-media platform in October, after spending months trying to get out=
+ of it. In August, Musk had said he was done offloading Tesla stock and tha=
+t it was important to avoid an =E2=80=9Cemergency sale=E2=80=9D of the shar=
+es in case he was forced to close the Twitter acquisition and struggled to =
+bring in additional equity partners.
+
+What is he doing with the money? Some possibilities:
+=09He used 100% of the proceeds of his previous sales to pay for Twitter, a=
+nd now is selling more to pay his year-end tax bill=C2=A0on those previous =
+sales.=09He got to closing and realized he didn=E2=80=99t actually have eno=
+ugh cash to pay for Twitter, so  someone loaned him the money for a week an=
+d now he is paying it back.=09Twitter has to pay more than $1 billion a yea=
+r to service its debt and seems to be driving away advertisers; maybe Musk =
+is planning to pay its bills for a while, and needs this cash to do that.=
+=09Having closed the deal for Twitter and spent a few days wreaking havoc, =
+Musk has gotten bored and moved on to some other expensive hobby, which we =
+will hear about in due time.=09Index funds?
+
+One popular, odd theory of Musk=E2=80=99s deal for Twitter is that he just =
+wanted to diversify his Tesla holdings. Simply selling billions of dollars =
+of Tesla stock would have upset his fans, driven down the stock price and u=
+ndermined his image as a committed true believer. But selling billions of d=
+ollars of Tesla stock=C2=A0to fund a weird quest to buy Twitter=C2=A0would =
+=E2=80=A6=C2=A0I mean, be a distraction at least.
+I think economically that theory makes very little sense, given that Musk h=
+as lost billions of dollars on every part of this trade: He ended up =E2=80=
+=9Cobviously overpaying for Twitter,=E2=80=9D  in his words, and Tesla=E2=
+=80=99s stock is down 50% since he started messing with Twitter. But it sur=
+e has been a distraction! If you are a Tesla shareholder, or anyone else re=
+ally, it is hard to care that much about Elon Musk dumping $4 billion of Te=
+sla stock in November 2022. He=C2=A0just has so much else going on.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Barclays Joins Rivals in   Culling Investment-Banking Staff.=C2=A0Tiger Glo=
+bal Slashes Value of  Private Tech Bets by Billions, Documents Show. Opposi=
+tion shadows  Cerberus windfall from Albertsons supermarket deal. Twitter s=
+ays  user growth has picked up since Elon Musk took over. EDF Employees Cha=
+llenge   Chairman=E2=80=99s Role in $10 Billion Buyout. Tyson Foods CFO Arr=
+est Adds to  Governance Challenges for Board. National Park Service Asks Vi=
+sitors to  Please Stop Licking Toads. Martin Shkreli tells Do Kwon =E2=80=
+=9CJail is not that bad.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Coinbase does offer a noncustodial wallet where you can trade on Coin=
+base and hold your Bitcoins yourself.
+
+
+  [2] This is sort of a dumb joke but presumably a new generation is coming=
+ up just intuitively assuming that $1 =3D =E2=82=AC1 =3D =C2=A31, which is =
+very convenient. In the olden days the values were all different!
+
+
+  [3] In this dumb model I am eliding the *exchange* function and just assu=
+ming the bank acts as principal, though in fact Coinbase mostly operates as=
+ an exchange. So really it is like I want to trade dollars for euros and yo=
+u want to trade euros for dollars so the bank takes $100 from me and gives =
+$99 of it to you (and keeps $1) and takes =E2=82=AC100 from you and gives =
+=E2=82=AC99 of it to me (and keeps =E2=82=AC1).
+
+
+  [4] The lower bound is that they take it and lend it to the Federal Reser=
+ve, which is called =E2=80=9Cnarrow banking=E2=80=9D and basically as good =
+as keeping it in envelopes, but which is   strongly disfavored by US author=
+ities.
+
+
+  [5] I want to be careful to say that I am not an expert on Coinbase=E2=80=
+=99s business models and do not want to, like, endorse it. Don=E2=80=99t go=
+ put all your money in Coinbase because I said so or anything! And in fact =
+Coinbase does have other revenue models besides charging trading fees, some=
+ of which are more run-vulnerable than what I say in the text. (Most notabl=
+y, there *are* loan products. =E2=80=9CWe provide retail and commercial loa=
+ns to qualified customers secured by their crypto asset holdings on our pla=
+tform, which exposes us to the risk of our borrowers=E2=80=99 inability to =
+repay such loans,=E2=80=9D says a risk factor in  Coinbase=E2=80=99s Form 1=
+0-K.) But Coinbase=E2=80=99s claims this week, and its securities filings, =
+suggest that the dominant business model is boringly segregating customer m=
+oney and charging fees.
+
+
+  [6] Well, I can, using futures, but futures are just a synthetic form of =
+the leveraged transaction in the text. If I short Bitcoin at $20,000 via fu=
+tures and put up $4,000 of collateral, that is a leveraged trade; if Bitcoi=
+n goes above $24,000 then my collateral is gone. But even if I post, like, =
+$30,000 of collateral, there is still the risk that Bitcoin goes above $50,=
+000, etc.=20
+
+
+  [7] As a legal/contractual matter, you may or may not have =E2=80=9Crecou=
+rse=E2=80=9D against her =E2=80=94 you may or may not be able to sue her fo=
+r the extra money=E2=80=94 but as a practical matter you are a crypto excha=
+nge, don=E2=80=99t count on getting that money back.
+
+
+  [8] In modern US stock markets, buybacks are the principal way of returni=
+ng profits to shareholders, meaning that the connection between stock price=
+s and corporate profits is in practice =E2=80=9Cwhen there are profits the =
+company buys back stock=E2=80=9D =E2=80=94 just like with FTT.
+
+
+  [9] They=E2=80=99ll probably lend you like $100 against $200 of their sto=
+ck, in an ordinary-course transaction; they just won=E2=80=99t do too much =
+of it.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chngxi.5hxa/5620d242.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_30873762_120659234.1668024892691
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+So how could this happen? I don=E2=80=99t know, but let me speculate a litt=
+le bit.Let=E2=80=99s start with Coinbase. Coinbase Global Inc. runs a crypt=
+ocurre
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB735a3821" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9862eaf1"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCe9d01503" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">So how could <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDgvYmluYW5jZS1zLXpoYW8tc2JmLWVkLWZ0eC1zLW=
+JhbmttYW4tZnJpZWQ_Y21waWQ9QkJEMTEwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTA5JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB2d902925" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  this</a> happen? I do=
+n=E2=80=99t know, but let me speculate a little bit.</p>
+<p style=3D"margin: 16px 0;">Let=E2=80=99s start with Coinbase. Coinbase Gl=
+obal Inc. runs a cryptocurrency exchange. When FTX.com, one of the largest =
+crypto exchanges, was instantaneously vaporized yesterday, <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuY2=
+9pbmJhc2UuY29tL2Jsb2cvb3VyLWFwcHJvYWNoLXRvLXRyYW5zcGFyZW5jeS1yaXNrLW1hbmFnZ=
+W1lbnQtYW5kLWNvbnN1bWVyLXByb3RlY3Rpb24/607f07ceef4b8524a319a23cB475d95f8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Coinbase put out a statement</a>, the gist of which was =E2=80=9Cdo=
+n=E2=80=99t worry,=C2=A0<em>we</em> are not going to be instantaneously vap=
+orized.=E2=80=9D The part that I want to focus on is this paragraph:</p>
+<blockquote><p style=3D"margin: 16px 0;">There can=E2=80=99t be a =E2=80=9C=
+run on the bank=E2=80=9D at Coinbase. As you can review in our publicly fil=
+ed, audited financial statements, we hold customer assets 1:1. Any institut=
+ional lending activity at Coinbase is at the discretion of the customer and=
+ backed by collateral. We have no gating for client loan recalls or withdra=
+wals.</p></blockquote>
+<p style=3D"margin: 16px 0;">The way it works is roughly that you open an a=
+ccount and send dollars to Coinbase, and then you tell Coinbase =E2=80=9CI=
+=E2=80=99d like to buy some Bitcoin with those dollars,=E2=80=9D and Coinba=
+se buys Bitcoin and holds on to it for you=C2=A0and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly9oZWxwLmNvaW5iY=
+XNlLmNvbS9lbi9jb2luYmFzZS90cmFkaW5nLWFuZC1mdW5kaW5nL3ByaWNpbmctYW5kLWZlZXMv=
+ZmVlcw/607f07ceef4b8524a319a23cB4ec08b3c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> charges you a fee</a> f=
+or that transaction. You can check your account balance, and Coinbase says =
+=E2=80=9Cyou have 0.5 Bitcoin=E2=80=9D or whatever. That 0.5=C2=A0Bitcoin i=
+s, in the general case,=C2=A0<em>held by Coinbase</em>; it has possession o=
+f the Bitcoin.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: none !important; backgroun=
+d-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0But it is held in a custody account=C2=A0<em>for you</em>. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6=
+Ly93d3cuY29pbmJhc2UuY29tL2Jsb2cvc2V0dGluZy10aGUtcmVjb3JkLXN0cmFpZ2h0LXlvdXI=
+tZnVuZHMtYXJlLXNhZmUtYXQtY29pbmJhc2UtYW5kLWFsd2F5cy13aWxsLWJl/607f07ceef4b8=
+524a319a23cBf5b5e79e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Coinbase says</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Your funds are your funds, and your crypto is =
+your crypto: Coinbase maintains internal systems, like a bank or a broker. =
+Our fully audited ledger identifies your account, your fiat and crypto hold=
+ings, and tracks your account activity in real time. There=E2=80=99s never =
+a situation where customer funds could be confused with corporate assets.</=
+p>
+<p style=3D"margin: 16px 0;">We will never repurpose your funds: We do not =
+lend or take any action with your assets, unless you specifically instruct =
+us to. Many banks and financial institutions use customer funds for commerc=
+ial purposes including lending and trading, meaning that they often hold on=
+ly a fraction of their customer assets at any given time. Coinbase always h=
+olds customer assets 1:1. This means that funds are available to our custom=
+ers 24 hours a day, 7 days a week, 365 days of the year.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The analogy is: Imagine a weird sort of bank. =
+You come to the bank with $100 in paper bills, and you deposit it in the ba=
+nk, and the bank takes your paper bills and sticks them in an envelope with=
+ your name on it. Then it sticks the envelope in a vault, and if at any poi=
+nt you ask for your money back, it opens the vault and hands you your envel=
+ope. This sounds like a bad business model: The bank needs to pay for real =
+estate and tellers and vaults, and it is not doing anything with your money=
+. But the other weird thing about this bank is that, every day, you come in=
+ and say =E2=80=9Chey I=E2=80=99d like to exchange my dollars for euros=E2=
+=80=9D or =E2=80=9Cmy euros for pounds=E2=80=9D or whatever, and each time =
+you do that the bank charges you a dollar. So you have $100, which you exch=
+ange for =E2=82=AC99, which you exchange for =C2=A398, which you exchange f=
+or $97, etc.,<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0paying the bank $1 each time. If all of the bank=E2=80=99s custom=
+ers do this every day, then the bank makes plenty of money to pay for real =
+estate and tellers and vaults and executive bonuses, without doing anything=
+ else with your money. It just takes the $100 out of your envelope and repl=
+aces it with =E2=82=AC99, etc., always keeping exactly the right amount of =
+money (in whatever currency you like that day) in exactly your envelope.<a =
+class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And then if one day every single customer walk=
+ed into the bank at the same time and said =E2=80=9Cwe would like our money=
+ back,=E2=80=9D the bank would just hand them all their envelopes. Don=E2=
+=80=99t get me wrong, this would be a catastrophe for the bank: If everyone=
+ took their envelopes back, then presumably they would stop changing money =
+at the bank and paying fees, and the bank would stop making money, and it w=
+ould no longer be able to pay for real estate or tellers or vaults or execu=
+tive bonuses. It would go out of business in fairly short order. But it wou=
+ld not go out of business=C2=A0<em>that minute</em>. It would actually have=
+ enough money to give all the customers their money back, because it kept a=
+ll the customers=E2=80=99 money in their own envelopes the whole time.</p>
+<p style=3D"margin: 16px 0;">No actual <em>bank</em> works that way.=C2=A0R=
+eal banks take deposits but don=E2=80=99t keep the money in envelopes; they=
+ lend it out.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0Most classically, they borrow short to lend long, taking checking=
+ deposits that can be withdrawn at any time, and using them to make long-te=
+rm mortgages. This makes them vulnerable to runs, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly9lbi53aWtpcGVkaWE=
+ub3JnL3dpa2kvRGlhbW9uZCVFMiU4MCU5M0R5YnZpZ19tb2RlbA/607f07ceef4b8524a319a23=
+cB98448892" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Diamond-Dybvig</a>, <em>It=E2=80=99s a Wonderful Life<=
+/em>, etc., everyone knows all this.</p>
+<p style=3D"margin: 16px 0;">But in theory=C2=A0a <em>cryptocurrency exchan=
+ge</em> could work that way, and at a high level of generality Coinbase sor=
+t of does.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0Historically =E2=80=94=C2=A0not so much now, but until early this=
+ year anyway =E2=80=94=C2=A0cryptocurrencies were volatile and exciting and=
+ people were jazzed to trade them a lot, so you could make a lot of money b=
+y just charging fees without doing anything else with customer assets. And =
+that is a run-proof business. If everyone takes their money out at once,=C2=
+=A0<em>you have the money</em>.</p>
+<p style=3D"margin: 16px 0;">But then one day a customer comes to you and s=
+ays =E2=80=9CI have $10,000, but I am really bullish on Bitcoin, so I would=
+ like to buy $20,000 worth of Bitcoin. Why don=E2=80=99t you lend me $10,00=
+0 so I can buy=C2=A0$20,000 of Bitcoin, so I can get more excitement?=E2=80=
+=9D This is called a margin loan.</p>
+<p style=3D"margin: 16px 0;">Or =E2=80=94=C2=A0equivalently =E2=80=94=C2=A0=
+a customer comes to you and says =E2=80=9CI have $20,000 of Bitcoin in my a=
+ccount, and I need some cash this month. I don=E2=80=99t want to sell my Bi=
+tcoin, because I am a true believer and also do not want to realize gains f=
+or tax purposes. Could you just=C2=A0<em>lend=C2=A0</em>me $10,000, secured=
+ by my $20,000 of Bitcoin? You know I=E2=80=99m good for it: If I don=E2=80=
+=99t pay you back, you can sell my Bitcoin and pay yourself back from the p=
+roceeds.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">You might just say =E2=80=9Cno, that=E2=80=99s=
+ dumb, Bitcoin is volatile, buying $10,000 of Bitcoin is plenty of exciteme=
+nt.=E2=80=9D (In fact Coinbase <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29648502.256510/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL21hcmtldHMvMj=
+AyMC8xMS8yNC9jb2luYmFzZS13aWxsLXN1c3BlbmQtYWxsLW1hcmdpbi10cmFkaW5nLXRvbW9yc=
+m93LWNpdGluZy1jZnRjLWd1aWRhbmNlLw/607f07ceef4b8524a319a23cB60d07380" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> shut down margin trading</a> in 2020.) But your competitors probably off=
+er loans, and it is tempting for you to do it too. So you say, sure, fine, =
+I=E2=80=99ll take your $10,000 and put $20,000 of Bitcoin in your account.<=
+/p>
+<p style=3D"margin: 16px 0;">But where do you get the money that you are le=
+nding to the customer? Well, you have to borrow it too. Ordinarily the way =
+that you will borrow it is by putting up the customer=E2=80=99s Bitcoin as =
+collateral to your lender, just as the customer puts up its Bitcoin as coll=
+ateral to you. If the customer defaults, you still have to pay your lender =
+(and then you get the Bitcoin back and can sell it to pay off your customer=
+=E2=80=99s liability to you); if you default, the lender sells the Bitcoin.=
+</p>
+<p style=3D"margin: 16px 0;">But who are the lenders? Oh, various possibili=
+ties. But one general point is that while some customers will want to borro=
+w dollars to buy Bitcoin, other customers will want to=C2=A0<em>borrow Bitc=
+oin.=C2=A0</em>One reason to borrow Bitcoin is to=C2=A0<em>buy dollars</em>=
+, that is, to=C2=A0<em>short Bitcoin:=C2=A0</em>I borrow one Bitcoin, I sel=
+l it for $20,000, a week later Bitcoin drops to $18,000, I buy back the one=
+ Bitcoin for $18,000, I return it to my lender and I keep the $2,000. There=
+ are variations on this trade (I borrow Bitcoin and sell it for Ethereum, b=
+etting on the relative value between the tokens, etc.). It is necessarily a=
+ leveraged trade; I can=E2=80=99t short Bitcoin without borrowing it.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">If you are a crypto=C2=A0<em>exchange</em>, th=
+is is a nice opportunity. You have Customer A who has Bitcoin and wants to =
+borrow dollars, and Customer B who has dollars and wants to borrow Bitcoin.=
+ (By =E2=80=9Cdollars,=E2=80=9D for a crypto exchange, I mostly mean =E2=80=
+=9Cdollar-denominated stablecoins,=E2=80=9D though potentially also dollars=
+.) You take some of Customer A=E2=80=99s Bitcoin and lend it to Customer B,=
+ and you take some of Customer B=E2=80=99s dollars and lend them to Custome=
+r A. Each of them is overcollateralized =E2=80=94=C2=A0you only lend Custom=
+er A half the value of her Bitcoin, and you only lend Customer B half the v=
+alue of his dollars =E2=80=94=C2=A0so you feel pretty safe. And they both p=
+ay you interest.</p>
+<p style=3D"margin: 16px 0;">But there are risks. One day Customer A might =
+come in, pay off her dollar loan, and ask to take her Bitcoin back. You don=
+=E2=80=99t have her Bitcoin, or not all of them anyway; some of them are wi=
+th Customer B. Customer B=C2=A0<em>owes=C2=A0</em>them to you =E2=80=94=C2=
+=A0ultimately you=E2=80=99re good for it =E2=80=94=C2=A0but you don=E2=80=
+=99t have them now. There is a timing problem.</p>
+<p style=3D"margin: 16px 0;">The solution to this is pretty much to have so=
+me extra cash =E2=80=94=C2=A0some of your own capital =E2=80=94=C2=A0to bri=
+dge these timing problems. Eventually you=E2=80=99ll get the rest of the Bi=
+tcoin=C2=A0back from Customer B, but for now you just pay Customer A out of=
+ your own Bitcoin stash.</p>
+<p style=3D"margin: 16px 0;">But the timing problem is also connected to a =
+real economic risk. If the price of Bitcoin falls by 90%, Customer B will b=
+e thrilled. He will come to you and say =E2=80=9Chere=E2=80=99s my=C2=A0Bit=
+coin back, I=E2=80=99d like to withdraw my dollars.=E2=80=9D But you don=E2=
+=80=99t have his dollars, or not all of them; half of them are with Custome=
+r A. Your dollar loan to Customer A is now underwater: You loaned her 50% o=
+f the value of her Bitcoin, but Bitcoin fell by 90%, so she owes you more t=
+han her collateral is worth. You call her up and ask her for more money =E2=
+=80=94=C2=A0a =E2=80=9Cmargin call=E2=80=9D =E2=80=94 but she, sensibly,=C2=
+=A0doesn=E2=80=99t answer the phone.<a class=3D"footnote-index" href=3D"#fo=
+otnote-7" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[7]</span>
+</a>=C2=A0You have to pay Customer B out of your own capital, and you don=
+=E2=80=99t get it back from Customer A. You've just lost money. Actually th=
+at=E2=80=99s the best outcome. The worst outcome is that you don=E2=80=99t =
+have enough capital, you go bankrupt, and Customer B does not get his money=
+ back.</p>
+<p style=3D"margin: 16px 0;">Everyone knows=C2=A0<em>this</em>, which is wh=
+y crypto exchanges =E2=80=94=C2=A0and securities broker-dealers, who have t=
+he same basic business model =E2=80=94=C2=A0spend most of their time thinki=
+ng about risk management. Before the price of Bitcoin drops too far, you wi=
+ll be calling up Customer A for more margin, and if she doesn=E2=80=99t ans=
+wer the phone you will liquidate her position to pay back the loan you made=
+. If you are a sophisticated modern crypto exchange like FTX, you will have=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDEvY3J5=
+cHRvLWNsZWFyaW5nLWFuZC1jcmVkaXQ_Y21waWQ9QkJEMTEwOTIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTA5JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6cbfdefd" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  automat=
+ed 24/7 margining systems</a> that automatically liquidate trades that have=
+ gotten too risky, so that only the rarest catastrophic market moves could =
+get you in trouble.</p>
+<p style=3D"margin: 16px 0;">But sometimes market moves are catastrophic, a=
+nd in particular, sometimes securities broker-dealers and crypto exchanges =
+will have =E2=80=9Crun on the bank=E2=80=9D risks. If everyone knows that y=
+ou are in this situation =E2=80=94=C2=A0that you have a lot of Bitcoin coll=
+ateral and Bitcoin prices are falling =E2=80=94=C2=A0people will expect you=
+ to have to liquidate your Bitcoin collateral, so they will expect Bitcoin =
+prices to fall, so they will sell Bitcoin, which will cause Bitcoin prices =
+to fall, which will cause your long-Bitcoin customers to default, which wil=
+l cause you to liquidate Bitcoin at lower and lower prices, etc., until you=
+ are bankrupt.</p>
+<p style=3D"margin: 16px 0;">Now let=E2=80=99s add one more crypto element.=
+ If you are a crypto exchange, you might <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2xl=
+YXJuL3doYXQtaXMtYW4tZXhjaGFuZ2UtdG9rZW4v/607f07ceef4b8524a319a23cB87b3593d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> issue your own crypto token</a>. FTX issues a token called FTT. T=
+he attributes of this token are, like, it entitles you to some discounts an=
+d stuff, but the main attribute is that FTX periodically uses=C2=A0a portio=
+n of its profits to buy back FTT tokens. This makes FTT=C2=A0<em>kind of </=
+em>like=C2=A0<em>stock=C2=A0</em>in FTX: The higher FTX=E2=80=99s profits a=
+re, the higher the price of FTT will be.<a class=3D"footnote-index" href=3D=
+"#footnote-8" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[8]</span>
+</a>=C2=A0It is not=C2=A0<em>actually=C2=A0</em>stock in FTX =E2=80=94=C2=
+=A0in fact FTX is a company and has stock and venture capitalists bought it=
+, etc. =E2=80=94=C2=A0but it is a lot=C2=A0<em>like=C2=A0</em>stock in FTX.=
+=C2=A0FTT is a bet on FTX=E2=80=99s future profits.</p>
+<p style=3D"margin: 16px 0;">But it is also a crypto token, which means tha=
+t a customer can come to you and post $100=C2=A0worth of FTT as collateral =
+and borrow=C2=A0$50 worth of Bitcoin, or dollars, or whatever, against that=
+ collateral, just as they would with any other token. Or something; you mig=
+ht set the margin requirements higher or lower, letting customers borrow 25=
+% or 50% or 95% of the value of their FTT token collateral.</p>
+<p style=3D"margin: 16px 0;">If you think of the token as =E2=80=9Cmore or =
+less stock,=E2=80=9D and you think of a crypto exchange as a securities bro=
+ker-dealer,=C2=A0<em>this is completely insane. </em>If you go to an invest=
+ment bank and say =E2=80=9Clend me $1 billion, and I will post $2 billion o=
+f your stock as collateral,=E2=80=9D you are messing with very dark magic=
+=C2=A0and they will say no.<a class=3D"footnote-index" href=3D"#footnote-9"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a>=C2=A0The problem with this is that it is=C2=A0<em>wrong-way risk. </em=
+>(It is also, at least sometimes, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29648502.256510/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDczZWZ=
+hZTItMGUyYy0xMWU3LWIwMzAtNzY4OTU0Mzk0NjIz/607f07ceef4b8524a319a23cBd1177c43=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> illegal</a>.)=C2=A0If people start to worry about the investment=
+ bank=E2=80=99s financial health, its stock will go down, which means that =
+its collateral will be less valuable, which means that its financial health=
+ will get worse, which means that its stock will go down, etc. It is a=C2=
+=A0death spiral. In general it should not be possible to bankrupt an invest=
+ment bank by shorting its stock. If one of the bank=E2=80=99s main assets i=
+s its own stock =E2=80=94=C2=A0is a <em>leveraged bet on its own stock=C2=
+=A0</em>=E2=80=94 then it is <em>easy=C2=A0</em>to bankrupt it by shorting =
+its stock.</p>
+<p style=3D"margin: 16px 0;">The worst case is something like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You have 100 Customer As who are long=
+ Bitcoin on margin: They each have 1 Bitcoin in their accounts and owe you =
+$10,000.</li>=09<li style=3D"margin-bottom: 5px;">You have 100 Customer Bs =
+who are short Bitcoin on margin: They each have $20,000 in their account an=
+d owe you 0.5 Bitcoin.</li>=09<li style=3D"margin-bottom: 5px;">You have lo=
+aned 50 of the Customer As=E2=80=99 Bitcoins to the Customer Bs, and $1 mil=
+lion of the Customer Bs=E2=80=99 dollars to the Customer As. You keep the o=
+ther=C2=A050 Bitcoins and $1 million as collateral.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Your accounts show that you owe clients 100 Bitcoins and =
+$2 million, and that they owe you back 50 Bitcoins and $1 million, and you =
+have 50 Bitcoins and $1 million on hand, so everything balances.</li>=09<li=
+ style=3D"margin-bottom: 5px;">You have one Customer C who says =E2=80=9Chi=
+ I would like to borrow 50 Bitcoins and $1 million, I will secure that loan=
+ with 150,000 FTT, each of which is worth $20.=E2=80=9D</li>=09<li style=3D=
+"margin-bottom: 5px;">You say =E2=80=9Csure, sounds good,=E2=80=9D and hand=
+ over all your collateral.</li>=09<li style=3D"margin-bottom: 5px;">Now you=
+ have 150,000 of FTT, worth $3 million, as collateral (and no Bitcoins or d=
+ollars).</li>=09<li style=3D"margin-bottom: 5px;">Your accounts show that y=
+ou owe clients 100 Bitcoins and $2 million and 150,000 FTT, and=C2=A0they o=
+we you back 100 Bitcoins and $2 million, and you have 150,000 FTT of collat=
+eral, so everything balances.</li>
+</ol>
+<p style=3D"margin: 16px 0;">But then if the value of FTT drops to zero, yo=
+u have=C2=A0<em>nothing</em>. You have no Bitcoins to give to the customers=
+ to whom you owe Bitcoins, no dollars to give to the customers to whom you =
+owe dollars. You just have to call up Customer C and say =E2=80=9Chey we ne=
+ed all those dollars and Bitcoins back.=E2=80=9D But Customer C will not wa=
+nt to give you back all those valuable dollars and Bitcoins in exchange for=
+ now-worthless FTT. Also the fact that Customer C had all that FTT in the f=
+irst place is not a great sign. It is an FTT whale, and FTT is now worthles=
+s. Has it been borrowing elsewhere against FTT? Are all those debts coming =
+due?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Now let=E2=80=99s add a few more FTX-specific =
+elements. One is that FTX is <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29648502.256510/aHR0cHM6Ly9mdHguY29tL2ludGw/607f07ceef4b8524a319=
+a23cB343a30b0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> an exchange for levered traders</a>, offering produ=
+cts like perpetual futures and leveraged tokens that build in margin lendin=
+g. So whereas the=C2=A0basic model of Coinbase is =E2=80=9Cthey buy Bitcoin=
+ for you and put it in an envelope,=E2=80=9D the basic model of FTX has to =
+be =E2=80=9Cthey lend you money to buy crypto and then make use of your cry=
+pto to get the money.=E2=80=9D In financial terms, they have to=C2=A0<em>re=
+hypothecate your collateral</em>; you can=E2=80=99t expect them to just kee=
+p it in an envelope if they=E2=80=99re lending you the money to buy it.</p>
+<p style=3D"margin: 16px 0;">The other is that FTX is closely associated wi=
+th a hedge fund called Alameda Research. Sam Bankman-Fried founded Alameda =
+to do crypto arbitrage and market-making trades, and then he founded FTX to=
+ basically have a better exchange for Alameda to trade on. Alameda has lots=
+ of FTT, and <a href=3D"https://link.mail.bloombergbusiness.com/click/29648=
+502.256510/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzLzIwMjIvMTEvMDIvZGl2=
+aXNpb25zLWluLXNhbS1iYW5rbWFuLWZyaWVkcy1jcnlwdG8tZW1waXJlLWJsdXItb24taGlzLXR=
+yYWRpbmctdGl0YW4tYWxhbWVkYXMtYmFsYW5jZS1zaGVldC8/607f07ceef4b8524a319a23cB8=
+cd98e1e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> last week Coindesk reported on its balance sheet</a>; the=
+ gist of that report was =E2=80=9Cwow its balance sheet is mostly FTT=E2=80=
+=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The financials make concrete what industry-wat=
+chers already suspect: Alameda is big. As of June 30, the company=E2=80=99s=
+ assets amounted to $14.6 billion. Its single biggest asset: $3.66 billion =
+of =E2=80=9Cunlocked FTT.=E2=80=9D The third-largest entry on the assets si=
+de of the accounting ledger? A $2.16 billion pile of =E2=80=9CFTT collatera=
+l.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There are more FTX tokens among its $8 billion=
+ of liabilities: $292 million of =E2=80=9Clocked FTT.=E2=80=9D (The liabili=
+ties are dominated by $7.4 billion of loans.)</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is not in itself a reason for a run on FT=
+X! It might be a reason for the price of FTT to go down, if you think that =
+Alameda has too much of it and might need to sell it.</p>
+<p style=3D"margin: 16px 0;">The reason for a run on FTX is that you think =
+that Alameda is, in my terminology, Customer C. The reason for a run on FTX=
+ is if you think that FTX loaned Alameda a bunch of customer assets and got=
+ back FTT in exchange. If=C2=A0<em>that=E2=80=99s=C2=A0</em>the case, then =
+a crash in the price of FTT will destabilize FTX.=C2=A0If you=E2=80=99re wo=
+rried about that, you should take your money out of FTX before the crash. I=
+f everyone is worried about that, they will all take their money out of FTX=
+. But FTX doesn=E2=80=99t have their money; it has FTT, and a loan to Alame=
+da. If they all take their money out, that=E2=80=99s a bank run.</p>
+<p style=3D"margin: 16px 0;">And all of this is self-fulfilling: If you are=
+ worried about FTX=E2=80=99s business, then the price of FTT should go down=
+. If the price of FTT goes down, then FTX=E2=80=99s business is riskier, be=
+cause it has less collateral. If, say, the operator of the biggest crypto e=
+xchange gently raises one eyebrow and says =E2=80=9CFTT, eh?=E2=80=9D that =
+can be enough to topple FTX. FTT goes down, leaving FTX undercapitalized, l=
+eading to customer withdrawals, leading to ruin.</p>
+<p style=3D"margin: 16px 0;">Anyway it is still early and confusing but tha=
+t seems to be the story of FTX. Coindesk reported on Alameda=E2=80=99s FTT =
+exposure, and then=C2=A0Changpeng =E2=80=9CCZ=E2=80=9D Zhao, the founder of=
+ Binance Holdings Ltd., the largest crypto exchange, raised eyebrows by <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0c=
+HM6Ly90d2l0dGVyLmNvbS9jel9iaW5hbmNlL3N0YXR1cy8xNTg5MjgzNDIxNzA0MjkwMzA2/607=
+f07ceef4b8524a319a23cB7cb5bfd2" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> tweeting</a> that Binance would se=
+ll its FTT holdings =E2=80=9Cdue to recent revelations.=E2=80=9D People wor=
+ried that this would tank the price of FTT and put pressure on FTX, so they=
+ started <a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.=
+256510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDkv=
+cGFuaWNreS1mdHgtY2xpZW50cy13aXRoZHJldy00MzAtbWlsbGlvbi1vZi1iaXRjb2luLWluLWp=
+1c3QtZm91ci1kYXlzP2NtcGlkPUJCRDExMDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTEwOSZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cBda23a142" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  withdrawing money fr=
+om FTX</a>. FTX didn=E2=80=99t have the money, and Bankman-Fried <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly90=
+d2l0dGVyLmNvbS9saXpyaG9mZm1hbi9zdGF0dXMvMTU5MDAyMTI5OTI5NTc2ODU3OA/607f07ce=
+ef4b8524a319a23cB2a4fae6d" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> started calling around</a> asking for a=
+ loan or a bailout. Eventually he called CZ himself, and <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly90d2l0dGVy=
+LmNvbS9jel9iaW5hbmNlL3N0YXR1cy8xNTkwMDEzNjEzNTg2NDExNTIw/607f07ceef4b8524a3=
+19a23cBc52a9ac7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> they announced</a> a non-binding letter of intent=
+ for <a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.2565=
+10/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDgvY3J5=
+cHRvLWV4Y2hhbmdlLWJpbmFuY2UtdG8tYnV5LXJpdmFsLWZ0eC1jb20tdGVybXMtdW5kaXNjbG9=
+zZWQ_Y21waWQ9QkJEMTEwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB2588e70e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Binance to acquire FTX</a> and mak=
+e customers whole. Bankman-Fried=E2=80=99s fortune <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDgvc2JmLW5ldC13b3J0aC1pcy1ldmlzY2VyY=
+XRlZC1pbi1kYXlzLXdpdGgtYmluYW5jZS1zZXQtdG8tYnV5LWZ0eD9jbXBpZD1CQkQxMTA5MjJf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMjExMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB76a7e=
+9e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  basically vanished</a>, as did his =E2=80=9C<a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDkvZnR4LWJpbmFuY2UtZGVhbC1zY=
+W0tYmFua21hbi1mcmllZC1zLWRvd25mYWxsLXN0dW5zLWNyeXB0by13b3JsZD9jbXBpZD1CQkQx=
+MTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjExMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBb8ebdbfa" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  emperor aura</a>.=E2=80=9D Venture capital investors=
+ in FTX =E2=80=94=C2=A0which last raised money at a $32 billion valuation =
+=E2=80=94=C2=A0are <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/29648502.256510/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL2Z0eC=
+12ZW50dXJlLWludmVzdG9ycy1mZWFyLXRvdGFsLXdpcGVvdXQtaW4tYmluYW5jZS1yZXNjdWUtZ=
+GVhbD91dG1fY29udGVudD1hcnRpY2xlLTkxMDcmdXRtX3NvdXJjZT1zZyZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9jYW1wYWlnbj1hcnRpY2xlX2VtYWlsJnJjPTFiZGk1aA/607f07ceef4b8524a319=
+a23cB40532085" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> probably getting zeroed</a>,=C2=A0the price of <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cH=
+M6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGNlYTgxYjktNzBjMy00ODZkLTk2MjItYjljZGQ4NGRhM=
+2Zj/607f07ceef4b8524a319a23cB8e909b8a" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> FTT collapsed</a>, and now =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDkvdXMtcHJvY=
+mVzLWZ0eC1lbXBpcmUtb3Zlci1oYW5kbGluZy1vZi1jbGllbnQtZnVuZHMtYW5kLWxlbmRpbmc_=
+Y21waWQ9QkJEMTEwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cBc550abfe" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  regulators are investigating</a>.</p>
+<p style=3D"margin: 16px 0;">In this description I have drawn on Twitter th=
+reads from <a href=3D"https://link.mail.bloombergbusiness.com/click/2964850=
+2.256510/aHR0cHM6Ly90d2l0dGVyLmNvbS9qb253dV8vc3RhdHVzLzE1OTAwOTk2NzY3NDQ2ND=
+Y2NTY/607f07ceef4b8524a319a23cBcb69b30f" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Jon Wu</a>, <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly90d=
+2l0dGVyLmNvbS9MdWNhc051enppL3N0YXR1cy8xNTkwMTIyNTkwMjA2ODI0NDQ4P3M9MjA/607f=
+07ceef4b8524a319a23cB1e093b06" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Lucas Nuzzi</a>=C2=A0and an anonymo=
+us =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/296485=
+02.256510/aHR0cHM6Ly90d2l0dGVyLmNvbS93YXNzaWVsYXd5ZXIvc3RhdHVzLzE1ODk5MjkzO=
+DQyNjk3NDYxODM/607f07ceef4b8524a319a23cBd5dfe560" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Wassie Lawyer</a>=
+,=E2=80=9D who make arguments along these lines, as well as this Substack p=
+ost from <a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.=
+256510/aHR0cHM6Ly93d3cudGhlZGlmZi5jby9wL2Z0eC1yaXA/607f07ceef4b8524a319a23c=
+B895c4fbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Byrne Hobart</a>. But the most informed view is probabl=
+y that of CZ himself, who=C2=A0<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29648502.256510/aHR0cHM6Ly90d2l0dGVyLmNvbS9jel9iaW5hbmNlL3N0YX=
+R1cy8xNTkwMTAzMTU5NTA2MzQxODg4/607f07ceef4b8524a319a23cB09a17b2a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+tweeted this morning</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Two big lessons:=C2=A0</p>
+<p style=3D"margin: 16px 0;">1: Never use a token you created as collateral=
+.=C2=A0</p>
+<p style=3D"margin: 16px 0;">2: Don=E2=80=99t borrow if you run a crypto bu=
+siness. Don't use capital "efficiently". Have a large reserve.</p>
+<p style=3D"margin: 16px 0;">Binance has never used BNB for collateral, and=
+ we have never taken on debt.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CNever use a token you created as coll=
+ateral=E2=80=9D suggests, to me, that FTX=C2=A0<em>accepted=C2=A0</em>its F=
+TT token as collateral, probably from Alameda, probably in exchange for bor=
+rowing assets that it owes to customers. And that that went wrong in roughl=
+y the way I have outlined.</p>
+<p style=3D"margin: 16px 0;">One other point here is that if this is the st=
+ory, then it is not a=C2=A0<em>liquidity=C2=A0</em>crisis but a=C2=A0<em>so=
+lvency=C2=A0</em>one. That is, the problem is not a timing mismatch, in whi=
+ch FTX=E2=80=99s customers asked for their cash back but FTX did not have e=
+nough ready cash because it had long-term but money-good loans out. The pro=
+blem is that FTX took its customers=E2=80=99 money and traded it for a pile=
+ of magic beans, and now the beans are worthless and there=E2=80=99s a huge=
+ hole in the balance sheet. <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjItMTEtMDkvYmluYW5jZS1zZWVuLWxpa2VseS10by1iYWxrLWF0LWZ0eC1kZWFsLWFm=
+dGVyLXNwb3R0aW5nLWRlZXAtaG9sZT9jbXBpZD1CQkQxMTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMDkmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbe0101ae" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  On that =
+note</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Changpeng Zhao moved fast when Sam Bankman-Fri=
+ed=E2=80=99s FTX.com was on the brink, offering to take it over and stem an=
+y further crypto contagion.</p>
+<p style=3D"margin: 16px 0;">Within hours, he was forced to reconsider.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">For starters, Binance executives quickly found=
+ themselves staring into a financial black hole -- a gap between liabilitie=
+s and assets at FTX that=E2=80=99s probably in the billions, and possibly m=
+ore than $6 billion, according to a person familiar with the matter.=C2=A0<=
+/p>
+<p style=3D"margin: 16px 0;">On top of that, US regulators are circling FTX=
+, investigating whether the firm properly handled customer funds, as well a=
+s its relationship with other parts of Bankman-Fried=E2=80=99s crypto empir=
+e, Bloomberg News reported Wednesday.=C2=A0</p>
+<p style=3D"margin: 16px 0;">It makes for a tricky decision for Zhao, known=
+ in the crypto world as CZ: Follow through with rescuing his onetime top ri=
+val and shoulder the financial and regulatory burdens, or let FTX crumble a=
+nd sort through the potential wreckage? Zhao himself admits there was no =
+=E2=80=9Cmaster plan=E2=80=9D to take over FTX.</p>
+<p style=3D"margin: 16px 0;">His answer, at least for now, is that the fina=
+ncial hole appears too deep. Binance is unlikely to follow through on its t=
+akeover of FTX, according to the person familiar, who wasn=E2=80=99t author=
+ized to publicly discuss the matter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Seems bad.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD5ab63356" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE5ab63356" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF0a1d4387" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG0a1d4387" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">WhatsApp</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Do you think that there is a big financial fir=
+m in the US that got through the entire pandemic without any employees doin=
+g any business over WhatsApp or text messages from their personal phone? It=
+ seems somewhat unlikely. So much business is about personal relationships,=
+ and texting and WhatsApp can feel more personal than your firm email accou=
+nt. And since you were not visiting clients in person during the pandemic, =
+or sitting in your office, you might have been a bit more inclined to use y=
+our personal cell phone to communicate.</p>
+<p style=3D"margin: 16px 0;">The US Securities and Exchange Commission and =
+Commodity Futures Trading Commission have=C2=A0<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjAvanBtb3JnYW4tc2VudC10aGUtd3JvbmctZ=
+W1haWxzP2NtcGlkPUJCRDExMDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTEwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cBb2fe41da" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">concluded that that=E2=80=99s il=
+legal</a>, and fined all the banks for doing it, because they all did it. <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMjgvdGhlLW=
+RlbGktd2FzLWFsbGVnZWRseS1hLWZyYXVkP2NtcGlkPUJCRDExMDkyMl9NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTEwOSZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc3f12501" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  The=
+ fine is $200 million per bank</a> (SEC and CFTC combined). I mean, there=
+=E2=80=99s a little bit of differentiation, but not too much. Almost all=C2=
+=A0the big investment banks paid the same fine, and there was a lower tier =
+of fine for smaller banks. Nobody cares very much about how culpable each b=
+ank is, or how many bad messages it sent. (With one exception: Bank of Amer=
+ica Corp. paid a bit more for being a bit more culpable.) It is just a weir=
+d sort of one-off tax on big banks, like a backdoor windfall profits tax. =
+=E2=80=9CWhatsApp, everyone pay $200 million.=E2=80=9D Okay.</p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMTEtMDkvc2VjLXMtaW52ZXN0aWdhdGlvbi1pbnRvLXdoYXRzYXBwLXVz=
+ZS1leHBhbmRzLXRvLXByaXZhdGUtZXF1aXR5P2NtcGlkPUJCRDExMDkyMl9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTEwOSZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBac792a72" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> pr=
+ivate equity is next</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Financial regulators are looking at the bigges=
+t private equity firms=E2=80=99 use of WhatsApp and other messaging apps fo=
+r work, in a signal that the US is ramping up its push to police Wall Stree=
+t=E2=80=99s electronic communications.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Apollo Global Management Inc., Carlyle Group I=
+nc. and KKR &amp; Co. said in regulatory filings this week that they receiv=
+ed letters from the Securities and Exchange Commission on their use of elec=
+tronic messaging for business.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Just a weird business all around. Everybody us=
+ed WhatsApp and now everybody writes checks.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH6294e703" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMTEtMDkvbXVzay1zZWxscy0zLTk1LWJpbGxpb24tb2YtdGVzbGEtc3RvY2stYWZ=
+0ZXItdHdpdHRlci10YWtlb3Zlcj9jbXBpZD1CQkQxMTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMDkmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6f7ada3b" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Huh</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Tesla Inc. Chief Executive Officer Elon Musk s=
+old at least $3.95 billion of the electric-vehicle maker=E2=80=99s shares j=
+ust days after closing his buyout of Twitter Inc.</p>
+<p style=3D"margin: 16px 0;">Musk unloaded 19.5 million shares, according t=
+o regulatory filings on Tuesday in New York, his first disposals since Augu=
+st. The documents didn=E2=80=99t indicate that the transactions were pre-pl=
+anned.</p>
+<p style=3D"margin: 16px 0;">The world=E2=80=99s richest person followed th=
+rough with his takeover of the social-media platform in October, after spen=
+ding months trying to get out of it. In August, Musk had said he was done o=
+ffloading Tesla stock and that it was important to avoid an =E2=80=9Cemerge=
+ncy sale=E2=80=9D of the shares in case he was forced to close the Twitter =
+acquisition and struggled to bring in additional equity partners.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What is he doing with the money? Some possibil=
+ities:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">He used 100% of the proceeds of his p=
+revious sales to pay for Twitter, and now is selling more to pay his year-e=
+nd tax bill=C2=A0on those previous sales.</li>=09<li style=3D"margin-bottom=
+: 5px;">He got to closing and realized he didn=E2=80=99t actually have enou=
+gh cash to pay for Twitter, so <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29648502.256510/aHR0cHM6Ly90d2l0dGVyLmNvbS9JdmFuVGhlSy9zdGF0dX=
+MvMTU5MDE1MzY1NDA4MjA4ODk2MQ/607f07ceef4b8524a319a23cB1daabded" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> so=
+meone loaned him the money</a> for a week and now he is paying it back.</li=
+>=09<li style=3D"margin-bottom: 5px;">Twitter has to pay more than $1 billi=
+on a year to service its debt and seems to be driving away advertisers; may=
+be Musk is planning to pay its bills for a while, and needs this cash to do=
+ that.</li>=09<li style=3D"margin-bottom: 5px;">Having closed the deal for =
+Twitter and spent a few days wreaking havoc, Musk has gotten bored and move=
+d on to some other expensive hobby, which we will hear about in due time.</=
+li>=09<li style=3D"margin-bottom: 5px;">Index funds?</li>
+</ol>
+<p style=3D"margin: 16px 0;">One popular, odd theory of Musk=E2=80=99s deal=
+ for Twitter is that he just wanted to diversify his Tesla holdings. Simply=
+ selling billions of dollars of Tesla stock would have upset his fans, driv=
+en down the stock price and undermined his image as a committed true believ=
+er. But selling billions of dollars of Tesla stock=C2=A0<em>to fund a weird=
+ quest to buy Twitter=C2=A0</em>would =E2=80=A6=C2=A0I mean, be a distracti=
+on at least.</p>
+<p style=3D"margin: 16px 0;">I think economically that theory makes very li=
+ttle sense, given that Musk has lost billions of dollars on every part of t=
+his trade: He ended up =E2=80=9Cobviously overpaying for Twitter,=E2=80=9D =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbG9uLW11c2stc2VsbHMtYWxtb3N0LTQtYmlsb=
+Glvbi1vZi10ZXNsYS1zdG9jay1hZnRlci1jb21wbGV0aW5nLXR3aXR0ZXItdGFrZW92ZXItMTE2=
+Njc5NTc5ODM_bW9kPWhwX2xlYWRfcG9zMQ/607f07ceef4b8524a319a23cB598a55c4" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> in his words</a>, and Tesla=E2=80=99s stock is down 50% since he starte=
+d messing with Twitter. But it sure has been a distraction! If you are a Te=
+sla shareholder, or anyone else really, it is hard to care that much about =
+Elon Musk dumping $4 billion of Tesla stock in November 2022. He=C2=A0just =
+has so much else going on.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Barclays Joins Rivals in <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDgvYmFyY2xheXMtam9pbnMtcml2YWxzLW=
+luLWN1bGxpbmctaW52ZXN0bWVudC1iYW5raW5nLWhlYWRjb3VudD9jbXBpZD1CQkQxMTA5MjJfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMjExMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8d85b6=
+56" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Culling Investment-Banking Staff</a>.=C2=A0Tiger Global Slas=
+hes Value of <a href=3D"https://link.mail.bloombergbusiness.com/click/29648=
+502.256510/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3RpZ2VyLWds=
+b2JhbC1zbGFzaGVzLXZhbHVlLW9mLXByaXZhdGUtdGVjaC1iZXRzLWJ5LWJpbGxpb25zLWRvY3V=
+tZW50cy1zaG93P3V0bV9zb3VyY2U9c2cmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249YX=
+J0aWNsZV9lbWFpbCZ1dG1fY29udGVudD1hcnRpY2xlLTkxMTAmcmM9MWJkaTVo/607f07ceef4b=
+8524a319a23cBf48a9f9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Private Tech Bets</a> by Billions, Document=
+s Show. Opposition shadows <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29648502.256510/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGNmMmI4MjUtY2=
+RlMi00MDhmLWIxM2YtMzhmMWRlMjc2MGFhP3NoYXJlVHlwZT1ub25naWZ0/607f07ceef4b8524=
+a319a23cB279f6b84" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Cerberus windfall</a> from Albertsons supermark=
+et deal. Twitter says <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/29648502.256510/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjhkZmVkYjctZGNiOC0=
+0Y2EzLWJlNzQtM2FjNTkzNzZkNTli/607f07ceef4b8524a319a23cB696483b0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ user growth has picked up</a> since Elon Musk took over. EDF Employees Cha=
+llenge <a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.25=
+6510/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMDkvZW=
+RmLWVtcGxveWVlcy1jaGFsbGVuZ2UtY2hhaXJtYW4tcy1yb2xlLWluLTEwLWJpbGxpb24tYnV5b=
+3V0P2NtcGlkPUJCRDExMDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTEwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB7d41b0f0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Chairman=E2=80=99s Role</a> in $10=
+ Billion Buyout. Tyson Foods CFO Arrest Adds to <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/29648502.256510/aHR0cHM6Ly93d3cud3NqLmNvbS9hc=
+nRpY2xlcy90eXNvbi1mb29kcy1jZm8tYXJyZXN0LWFkZHMtdG8tZ292ZXJuYW5jZS1jaGFsbGVu=
+Z2VzLWZvci1ib2FyZC0xMTY2NzkzOTkzNT9tb2Q9aHBfbGlzdGFfcG9zNQ/607f07ceef4b8524=
+a319a23cBe7df9038" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Governance Challenges</a> for Board. National P=
+ark Service Asks Visitors to <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29648502.256510/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMS8wNy91=
+cy9saWNraW5nLXRvYWRzLXRveGljLmh0bWw_c21pZD10dy1zaGFyZQ/607f07ceef4b8524a319=
+a23cB082c5ad3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Please Stop Licking Toads</a>. Martin Shkreli tells=
+ Do Kwon =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+29648502.256510/aHR0cHM6Ly90d2l0dGVyLmNvbS9CVENfQXJjaGl2ZS9zdGF0dXMvMTU5MDA=
+1NDM1NDc1Njk3MjU0NA/607f07ceef4b8524a319a23cBeebc6d6a" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Jail is not =
+that bad</a>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29648502.256510/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB771add8f" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29648502.256510/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb9e4387d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Coinbase does offer a noncustodial wallet =
+where you can trade on Coinbase and hold your Bitcoins yourself.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This is sort of a dumb joke but presumably=
+ a new generation is coming up just intuitively assuming that $1 =3D =E2=82=
+=AC1 =3D =C2=A31, which is very convenient. In the olden days the values we=
+re all different!</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] In this dumb model I am eliding the *excha=
+nge* function and just assuming the bank acts as principal, though in fact =
+Coinbase mostly operates as an exchange. So really it is like I want to tra=
+de dollars for euros and you want to trade euros for dollars so the bank ta=
+kes $100 from me and gives $99 of it to you (and keeps $1) and takes =E2=82=
+=AC100 from you and gives =E2=82=AC99 of it to me (and keeps =E2=82=AC1).</=
+p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The lower bound is that they take it and l=
+end it to the Federal Reserve, which is called =E2=80=9Cnarrow banking=E2=
+=80=9D and basically as good as keeping it in envelopes, but which is <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMDgvdGhlLWZlZC=
+12ZXJzdXMtdGhlLW5hcnJvdy1iYW5rP2NtcGlkPUJCRDExMDkyMl9NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTEwOSZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8fd54fc4" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  strongl=
+y disfavored</a> by US authorities.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I want to be careful to say that I am not =
+an expert on Coinbase=E2=80=99s business models and do not want to, like, e=
+ndorse it. Don=E2=80=99t go put all your money in Coinbase because I said s=
+o or anything! And in fact Coinbase does have other revenue models besides =
+charging trading fees, some of which are more run-vulnerable than what I sa=
+y in the text. (Most notably, there *are* loan products. =E2=80=9CWe provid=
+e retail and commercial loans to qualified customers secured by their crypt=
+o asset holdings on our platform, which exposes us to the risk of our borro=
+wers=E2=80=99 inability to repay such loans,=E2=80=9D says a risk factor in=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/a=
+HR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTY3OTc4OC8w=
+MDAxNjc5Nzg4MjIwMDAwMzEvY29pbi0yMDIxMTIzMS5odG0jaTgyOWY1NTVhY2RiYTRhYTg5Yzk=
+xMThlMmQ2ZmY3YjUyXzE4Nw/607f07ceef4b8524a319a23cB090c5029" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Coinbas=
+e=E2=80=99s Form 10-K</a>.) But Coinbase=E2=80=99s claims this week, and it=
+s securities filings, suggest that the dominant business model is boringly =
+segregating customer money and charging fees.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Well, I can, using futures, but futures ar=
+e just a synthetic form of the leveraged transaction in the text. If I shor=
+t Bitcoin at $20,000 via futures and put up $4,000 of collateral, that is a=
+ leveraged trade; if Bitcoin goes above $24,000 then my collateral is gone.=
+ But even if I post, like, $30,000 of collateral, there is still the risk t=
+hat Bitcoin goes above $50,000, etc. </p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] As a legal/contractual matter, you may or =
+may not have =E2=80=9Crecourse=E2=80=9D against her =E2=80=94 you may or ma=
+y not be able to sue her for the extra money=E2=80=94 but as a practical ma=
+tter you are a crypto exchange, don=E2=80=99t count on getting that money b=
+ack.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] In modern US stock markets, buybacks are t=
+he principal way of returning profits to shareholders, meaning that the con=
+nection between stock prices and corporate profits is in practice =E2=80=9C=
+when there are profits the company buys back stock=E2=80=9D =E2=80=94 just =
+like with FTT.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] They=E2=80=99ll probably lend you like $10=
+0 against $200 of their stock, in an ordinary-course transaction; they just=
+ won=E2=80=99t do too much of it.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB9e355394" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB25c43acc" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc2115144" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBb2bc5d24" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTY0ODUwMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5MDUwMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI2a0e9abc" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29648502&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBc5f5baf5" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29648502.256510/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC1fc92ddf" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29648502.256510/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB87b97cd2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29648502.256510/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBdf8df7c8" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+f2ada1d" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29648502.256510/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+6fc2ea4" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D296485=
+02&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D296485=
+02&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D296485=
+02&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D296485=
+02&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D296485=
+02&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29905012&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chngxi.5hxa/5620d242.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_30873762_120659234.1668024892691--
+

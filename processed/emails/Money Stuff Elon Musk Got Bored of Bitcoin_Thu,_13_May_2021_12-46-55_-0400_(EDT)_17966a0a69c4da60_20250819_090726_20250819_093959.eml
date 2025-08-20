@@ -1,0 +1,1700 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:ca10:0:b029:f7:875:abe8 with SMTP id z16csp456570lkq;
+        Thu, 13 May 2021 09:47:55 -0700 (PDT)
+X-Received: by 2002:a05:6402:19b9:: with SMTP id o25mr46278884edz.192.1620924475010;
+        Thu, 13 May 2021 09:47:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1620924475; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cIosPq1NieWljdP2Bq/pTw/f26iJMu5T5TLqbwmsa5It9Tuyr3Wgk4wfXlvzVPBt1S
+         aAz9KDmv7EmGN5bRWmigWsa8Z49U4A9jJGuHW06O/nS+eqPhRwc3Y86Ow8pwVMWZDP0c
+         6cZKHThzXan55hpi4Xbre0obHKylSb82Wb9XODG1LvgG78QeqqCHInhYnATkpvslAChw
+         WtCZH9n1C/pMorL1/ZELY0UzUgKLX8WSEJvAnXebYPZ2ZuQf8/U8cGHYXAQJgy41E7F1
+         bS3+YPd7nMQtx6a12h1fpl6WSfymPZ+lNG/0WaN3mn7r0SUZs/OVO3M5kClI8JVsV7kO
+         q3Pg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=h3DYOIPqTQp24xywlahbg9uLBt2EDyyifgz0+yrbuwA=;
+        b=LBVvCo/RZku5Pre+D88HNWdCBGd1Rprvk2JaojV0zS9ctuqVsgsYAPaOvcxQRzjRgW
+         aFW34ZAbxyIrP47a1OHHmy+N2QR1YjHC/A7m9Be0jALPSD/YX/F5XXcaUwNdxm4QhkBc
+         URfQ99ojtiHUeU35q4712I75t7qiVt4aTrrYSty4SLhs6j5UuzTGxxXmekVl7Fd4WoYg
+         vX7cgCvzhV+7Oen7E+4xZpNKoY1U9wFrietkY+9+VocJt0zhG5UD184IP67oQchhuQ8i
+         6uOyPuGfskzul1Fe66bRJzjwX1XMDPE4dzgvGyYurrLWwLubwOnY4oBCkiPw7BYn8rcx
+         bRAQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=foZIVuxL;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id lj25sor2312912ejb.65.2021.05.13.09.47.54
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 13 May 2021 09:47:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=foZIVuxL;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=h3DYOIPqTQp24xywlahbg9uLBt2EDyyifgz0+yrbuwA=;
+        b=qTmHBV2frp00c/7GaKv8i4YzvnzjSyaZL2YGkS1kvtM6eJqlwaPl46XMDbTezFr5io
+         Lo1zZAtNF6+knurvgGuM6+x/tQw2U/Vv1XnGc+G8Rgwkgayugj5bOEzU6z+e2EUym/LH
+         MERRmcaooSdhQxCzK/yyiQ0xnn2lKeD0vHOC0oULRwsTxZqUUlY4pa1chrOEqhpRoKLB
+         +rSnp0D2u/YYTzQiefE1OlZixmUCtSqOhzeSnAQDZz8d/oKo874mKi3emXSPVv5Pdnji
+         LYNOWYanXtxVy5dBe4zhx+QxDMdLn+Gi1ID7D4QtErRPJPgJ0+S4/c+Z/1Y53Qn4ENRJ
+         3DCw==
+X-Gm-Message-State: AOAM532uRizD1/3Cm/MgP0TM6/UvWKSOckFG7Toe7GlCob2U/xhH92SH
+	gG2z6fc90K9OYuy/8S29HjOqCQZLBdxP7P/eBvHpymAps2BbTw1Tfw==
+X-Received: by 2002:a17:906:8a51:: with SMTP id gx17mr44237699ejc.549.1620924474782;
+        Thu, 13 May 2021 09:47:54 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp513932ecn;
+        Thu, 13 May 2021 09:47:51 -0700 (PDT)
+X-Received: by 2002:a17:90a:ea10:: with SMTP id w16mr44838506pjy.46.1620924471007;
+        Thu, 13 May 2021 09:47:51 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1620924471; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bTFEVyc8hrxnl/tlLn8+34TVUmpywALCMD8wxPNi2i6gSRp0kYlcWhzRJNfPylawyl
+         2xuLs+Kqx+O7IqGQD83exfMvkxaaLWm/UoUnObhkAjTVDfTIwamOgxBbHz0y8N16QBiE
+         1fLUnyHYqSw1TSaF2OFCmRFNj7Xf3te2WqTW+gUNm3fPwH0W9hU03mHJF+MBEll+3Ai3
+         aHP0vBMDr+pLlfJZpr0XV9zYV/676on9cj914dQIN+bpsOJ8o6bXKlPhB6OTWm4ImzIp
+         uSde40iMHbB+zG4Ae7t7BBy2Dta2vKdfNZ1PktWV3flz9x5g09lHvZVp0QwJn62lUFHP
+         1Z1A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=h3DYOIPqTQp24xywlahbg9uLBt2EDyyifgz0+yrbuwA=;
+        b=KQd4R48kGGuFMAPB9lwMpqsnfkcv7T8qKtz4kIsj0x3OUL+md9RQNp0k/bOFeCqlPQ
+         5QAnl6QKioGNq9mOCQkX/qH3SI0GaAb3qDAHqjGNPB8NKPGZHCS+/93QIfaDsiHHOVX5
+         76ltwL1EpDAHLHMW0oNZT1DDp/zt57+lpl1PZkepvvmFfnLypBYhlP05Q94Ct4y+fRD6
+         JeYcngYA1V1ERr8Gp/rK1BgKpYu0PwChPrr8+2ZFLTuDHfxdniHgSkOdsHE1MiEkaSsG
+         7wmWH4g/OhNTM89SPAImE6ZRg96vU78kfLbX4OSGO3TD6XVzOqDWZmsInZcidp1ngpbl
+         HrLg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=foZIVuxL;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210513124655.23834416.275264@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210513124655.23834416.275264@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210513124655.23834416.275264@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p5sor5658150pjo.40.2021.05.13.09.47.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 13 May 2021 09:47:50 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210513124655.23834416.275264@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyDB/BSdyzy+TYnaAPG2+pNzQemqZDPADxt+HWA+CRWzDUQDOiYxo18FyrAGOPiT1PIJf4FWibqp3eDDoHLWs74Ki1IHFc=
+X-Received: by 2002:a17:90b:514:: with SMTP id r20mr6309843pjz.193.1620924470358;
+        Thu, 13 May 2021 09:47:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1620924470; cv=none;
+        d=google.com; s=arc-20160816;
+        b=CXyHpIwBsYjCmkbThJzpfQR/BYDpyJbp/jhMyvHMXFIdks5RT8mCOnB6B+dnbhs56o
+         lGHgw0jaDGXHyQ2HOllZUVW9UAparh65tQlXCwssWtEgb+cJggfkSFbU0JzkfVML70ke
+         mOZmnYNk/XOw+DcqDEXoe0PlyRTTF9SqDk3+bJWuypxMXklkEHwlse0cfREb2w36f9bv
+         LmxyfMkjikt1/z1V3fc+h3qrFhU+n6q6+bzdqOdtUc53ySQwhXb2jr2vUt8JVZTPmW6d
+         WgG2tw/BdD8jY4ibTqkdV/0AL4HENdT6k2UDzAwHbupYGrenRp8+LafcqE9R0dEIkXW+
+         JmGA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=h3DYOIPqTQp24xywlahbg9uLBt2EDyyifgz0+yrbuwA=;
+        b=c/GbS1XTCmARlBe1pNLpL7g7pwYKd0TAduZ7xxNhgZuZ+JN1F9LOWdAyKMlFPCUXzP
+         IuPv1YzFNAuHJGwqsBIVWs0wxweFkwdyTPdpgMHcfBkjSS8vySZgnQaMqrF1DmCMmi+u
+         SVq0ltPpuPndecEw+iTxWfkF0Wbw4BmNmB12z3QL8/RWycJXDCIMgO7ehceO3yK69AH/
+         eduqM9T36iKFxE4DApqodIzCIftbgEVw1oTu21GA0le6Zl0/mQLCES30ATv6pg8DfL28
+         Y9wOJm4eTBflem/gGxfja55Dznb4W9WaNPoYzMPMk/1p3Jzd6wJ2Zm+mca4yDoJYkVIp
+         ks1g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=foZIVuxL;
+       spf=pass (google.com: domain of delivery_20210513124655.23834416.275264@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210513124655.23834416.275264@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210513124655.23834416.275264@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id a6si247045pgk.0.2021.05.13.09.47.50
+        for <khamel83@gmail.com>;
+        Thu, 13 May 2021 09:47:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210513124655.23834416.275264@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=C0STxmutXqduIKCCLVD8rcVu9eE=;
+ b=foZIVuxLzlLspT30sPe/F4xIR6Rp3FBmnaKAVbrgf+SubRITMjP2h6MA6ald28tUuL45iXyDEzKl
+   FeMUEmxBp4eZTh+8kTRXSLTZmYP4ZTk0w/MgMMEiDAPnJXExbys363KWO2I+WJIUFyusJfXnwI1p
+   uNh2dV70aL8fXHQLZ1o=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hjlc3c1qqbs2 for <bloomberg@khamel.com>; Thu, 13 May 2021 12:47:49 -0400 (envelope-from <delivery_20210513124655.23834416.275264@mx.sailthru.com>)
+Received: from nj1-farmelon.flt (172.18.20.31) by njmta-180.sailthru.com id hjlc3a1qqbs4 for <bloomberg@khamel.com>; Thu, 13 May 2021 12:46:55 -0400 (envelope-from <delivery_20210513124655.23834416.275264@mx.sailthru.com>)
+Date: Thu, 13 May 2021 12:46:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210513124655.23834416.275264@sailthru.com>
+Subject: Money Stuff: Elon Musk Got Bored of Bitcoin
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_19547215_338303635.1620924415166"
+Precedence: bulk
+X-TM-ID: 20210513124655.23834416.275264
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce6ur4.5we8/a13027e1
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce6ur4.5we8/a13027e1>, <mailto:unsubscribe_20210513124655.23834416.275264@mx.sailthru.com>
+X-rpcampaign: stjko23834416
+
+------=_Part_19547215_338303635.1620924415166
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ffffff !important;
+  }
+}
+[data-ogsc] body {
+  color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+  .body-component a, .body-component a:visited {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+    background-color: #3e3e3e !important;
+  }
+  .body-component h1 a, .body-component h1 a:visited {
+    color: #ffffff !important;
+  }
+}
+
+[data-ogsc] .body-component a, [data-ogsc] .body-component a:visited {
+  color: #ffffff !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+[data-ogsc] .body-component h1 a, [data-ogsc] .body-component h1 a:visited =
+{
+  color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+  .social-component a {
+    color: #ffffff !important;
+  }
+  .social-component td {
+    border-color: #ffffff !important;
+  }
+}
+
+[data-ogsc] .social-component a {
+  color: #ffffff !important;
+}
+[data-ogsc] .social-component td {
+  border-color: #ffffff !important;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+ =20
+   =20
+      Programming note: Money Stuff will be off tomorrow, back on Monday.Te=
+sla & BitcoinApparently someone sat Elon Musk down and told him=C2=A0where =
+Bitcoins come from? Yesterday he tweeted:Tesla has suspended vehicle purcha=
+ses using Bitcoin. We are concerned about rapidly increasing use of fossil =
+fuels for Bitcoin mining and transactions, especially coal, which has the w=
+orst emissions of any fuel.Cryptocurrency is a good idea on many levels and=
+ we believe it has a promising future, but this cannot come at great cost t=
+o the environment.Tesla will not be selling any Bitcoin and we intend to us=
+e it for transactions as soon as mining transitions to more sustainable ene=
+rgy. We are also looking at other cryptocurrencies that use <1% of Bitcoin=
+=E2=80=99s energy/transaction.Elon Musk=E2=80=99s whims are among the main =
+drivers of Bitcoin=E2=80=99s price,  so:The largest cryptocurrency dropped =
+as much as 15% to just above $46,000, before paring some of the retreat. It=
+ was down about 6% to $51,210 as of 7:03 a.m. in London on Thursday. Other =
+tokens such Ether and Dogecoin also slid. The rush to sell briefly caused o=
+utages at some cryptocurrency exchanges.=C2=A0Look, you know what I think. =
+The funny move here would be if Tesla Inc. had dumped all its Bitcoins at t=
+he highs. (It  sold about 10% of its Bitcoins in March =E2=80=9Cessentially=
+ to prove liquidity of Bitcoin,=E2=80=9D but I suppose that could have been=
+ a test run for a larger sale?) And then maybe gone short too for good meas=
+ure. And then Elon Musk announces =E2=80=9Coh actually Bitcoin is bad now l=
+ol,=E2=80=9D and the price plummets, and he grins his impish grin and we=E2=
+=80=99re all like oh, Elon, you got us again.I have no reason to believe th=
+at this is what happened, though I note that=C2=A0technically=C2=A0Musk=E2=
+=80=99s=C2=A0statement says that Tesla =E2=80=9Cwill not be=C2=A0selling an=
+y=C2=A0Bitcoin,=E2=80=9D not that it hasn=E2=80=99t already. I=E2=80=99m ju=
+st saying,=C2=A0if I=C2=A0was Elon Musk, that=E2=80=99s what I would do. Th=
+en of course I=E2=80=99d buy more Bitcoins after the price falls, I=E2=80=
+=99d tweet =E2=80=9CBitcoin is great again,=E2=80=9D the price would go up,=
+ I=E2=80=99d sell my Bitcoins, I=E2=80=99d tweet =E2=80=9Coh no it=E2=80=99=
+s bad again,=E2=80=9D the price would go down, I=E2=80=99d buy more Bitcoin=
+s, I=E2=80=99d tweet =E2=80=9Cback to great,=E2=80=9D etc. etc. etc. This w=
+ould be vastly more profitable, for Tesla, than making cars, and it would c=
+apitalize on Musk=E2=80=99s core skill of trolling people on Twitter. How l=
+ong do you think he could keep this up? I think the answer is=C2=A0=E2=80=
+=9Cfar longer than I could remain sane while watching it happen.=E2=80=9D[1=
+]=C2=A0Again, though, I don=E2=80=99t think this is what happened; I assume=
+ that Tesla has kept most of its Bitcoin stash and is not profiting from Mu=
+sk=E2=80=99s tweets. As far as I can tell he has only limited interest in m=
+anipulating the price of Bitcoin =E2=80=94=C2=A0or Dogecoin, or Tesla stock=
+, or the other assets whose prices he can control=C2=A0with his tweets =E2=
+=80=94=C2=A0for profit. He=E2=80=99ll do it for fun, sure, occasionally, bu=
+t not in a way that serves his rational self-interest. I assume that what a=
+ctually happened is pretty much what Musk said: He got into cryptocurrency =
+on a whim because it fit with his image of being fun and futuristic and ann=
+oying, and then someone explained to him that it doesn=E2=80=99t fit with h=
+is image of being good for the environment, and on a whim he decided to coo=
+l it on the Bitcoin stuff for a while.=C2=A0And when Elon Musk announces a =
+decision on Twitter, he will often  stick with that decision for hours, som=
+etimes even days at a time. Surely by next week he=E2=80=99ll be tweeting, =
+like, =E2=80=9Cwe are building a giant battery in the desert to mine Bitcoi=
+n, Bitcoin is good again, you can use it to pay for Teslas,=E2=80=9D and th=
+e price will shoot back up, and I=E2=80=99ll once again hit the button that=
+ auto-generates this column.My Bloomberg Opinion colleague Liam Denning  po=
+ints out that =E2=80=9CMusk=E2=80=99s move may also indicate that Teslas we=
+ren=E2=80=99t flying off the shelves as a result of accepting Bitcoin payme=
+nt,=E2=80=9D and in fact it=E2=80=99s not entirely clear whether Tesla has =
+sold any cars for Bitcoins.[2] I hope it hasn=E2=80=99t. I hope Musk can ma=
+ke the price of Bitcoin go up or down by 10%=C2=A0by announcing that Tesla =
+will or will not accept Bitcoins for cars, without ever actually accepting =
+any Bitcoins for any cars either way. There=E2=80=99s something pure about =
+that: The price of Bitcoin depends on Elon Musk=E2=80=99s=C2=A0attitude=C2=
+=A0toward it, not on the existence of any grubby commercial transactions in=
+ which Bitcoins are exchanged for cars.[3] The source of value for Bitcoin =
+is not its=C2=A0use as a currency=C2=A0or=C2=A0economic importance; the sou=
+rce of value for Bitcoin =E2=80=94=C2=A0for everything =E2=80=94=C2=A0is si=
+mple proximity to Elon Musk.Anyway, since Musk is looking for alternatives,=
+=C2=A0I have a coin that uses <1% of Bitcoin=E2=80=99s energy per transacti=
+on!=C2=A0It is called ExcelCoin.[4] Instead of relying on proof-of-work, bu=
+rning tons of energy to mine coins to reward people for keeping track of th=
+e ledger of transactions, as Bitcoin does, ExcelCoin relies on me keeping t=
+rack of the list of transactions in Microsoft Excel. If you want to buy Exc=
+elCoins, you just wire me money and I add some ExcelCoins to the line with =
+your name on it, in my Excel spreadsheet. If you want to buy a Tesla with E=
+xcelCoins,=C2=A0you send me an email saying =E2=80=9Csend my ExcelCoins to =
+Tesla,=E2=80=9D I deduct the ExcelCoins from your line in Excel and add the=
+m to Tesla=E2=80=99s line, and I send Tesla an email saying =E2=80=9Cyou=E2=
+=80=99ve got the ExcelCoins, hand over the car.=E2=80=9D If you want to red=
+eem your ExcelCoins for dollars, well, well, well, well, well, well, let=E2=
+=80=99s discuss that some other time.Also dollars, banks pretty much do thi=
+s with dollars! They use more electricity than I do running Excel but, you =
+know.Elsewhere in tech celebrities ambiguously endorsing=C2=A0Bitcoin:Mark =
+Zuckerberg shared a picture of his pet goats on Monday, introducing them to=
+ the world as Bitcoin and Max. The picture quickly set social media abuzz w=
+ith speculation about the significance of the name "Bitcoin". Bitcoin inves=
+tors took it as an endorsement of the cryptocurrency from the Facebook foun=
+der, while meme-makers took the opportunity and flooded social media with h=
+ilarious memes.=C2=A0Not a bad effort, but I don=E2=80=99t think Zuckerberg=
+ is going to steal back much Bitcoin-related attention from Musk with a cou=
+ple of goats. Maybe if he tweets =E2=80=9CI killed Bitcoin with my own two =
+hands and then roasted it and served it to Elon Musk=C2=A0for dinner,=E2=80=
+=9D that might do it.DarkSide=C2=A0My Fifth Law of Insider Trading says tha=
+t you should not insider trade  by planting bombs at a company and buying p=
+ut options on its stock.[5] This law exists because someone did it, to Boru=
+ssia Dortmund GmbH, and got in trouble. I sometimes extend the Fifth Law me=
+taphorically to mean that you should not bet against a company=E2=80=99s st=
+ock price and then=C2=A0do crimes to the company to make its stock go down.=
+ Because you will get in trouble for the other crimes, as well as for the s=
+ecurities-law violations.Still if we just assume that you are in the busine=
+ss of successfully doing lots of big crimes, I suppose there is a case for =
+adding insider trading to the menu? Like if your day job is doing economic =
+crimes that bring companies to their knees, you have useful information abo=
+ut which companies will be brought to their knees, and you could probably p=
+rofit from it? I hope it is very clear that this is neither legal nor inves=
+ting advice.=C2=A0Here is  a=C2=A0story about DarkSide, the ransomware coll=
+ective that shut down Colonial Pipeline Co.=E2=80=99s fuel pipelines.=C2=A0=
+DarkSide is just a fascinating business. We talked the other day about  its=
+ compliance and reputational-risk functions, and this story covers its fran=
+chise-based business model:The platform supplies affiliates with tools and =
+follow-up services in much the same way McDonald=E2=80=99s Corp. supplies l=
+ocal store owners with pre-made soft serve and frozen hamburger patties.=E2=
+=80=9CThese guys provide the marketing, the people who handle customer succ=
+ess, as well as the actual ransomware,=E2=80=9D said Mark Arena, chief exec=
+utive officer of the cybersecurity firm Intel 471, which tracks DarkSide. =
+=E2=80=9CFortune 500 CEOs would be impressed with the efficiency of the bus=
+iness model.=E2=80=9D=E2=80=9CCustomer success=E2=80=9D! I assume that=E2=
+=80=99s Arena=E2=80=99s jargon, not DarkSide=E2=80=99s, but what if it=E2=
+=80=99s DarkSide=E2=80=99s? Like you pay to use the DarkSide platform, and =
+you deploy it and hack a company=E2=80=99s computers, and you call the comp=
+any and say =E2=80=9Cgive us money,=E2=80=9D and the company says no and ha=
+ngs up on you, and you don=E2=80=99t know what to do, so you call the toll-=
+free number listed on DarkSide=E2=80=99s website and it=E2=80=99s like =E2=
+=80=9Cpress 1 for new orders, 2 for the status of existing orders, or 0 for=
+ customer support,=E2=80=9D and you press 0 and get a friendly operator who=
+ talks you through the process for how to extort a ransom, and you get what=
+ you need, and before you hang up you take a brief survey to rate your expe=
+rience, and the LinkedIn page of the person fielding your call says not =E2=
+=80=9Ccustomer support representative=E2=80=9D but rather =E2=80=9Ccustomer=
+ success ninja=E2=80=9D because that=E2=80=99s how titles work in tech thes=
+e days.=C2=A0Actually you don=E2=80=99t even need to call customer success =
+to get advice on negotiating the ransom because they=E2=80=99ll do it for y=
+ou:[DarkSide provides]=C2=A0not just the actual ransomware used to encrypt =
+data on a victims=E2=80=99 computers, but also services like making calls t=
+o those victims and also hosting a website where sensitive data stolen duri=
+ng attacks can be posted. Ransom demands easily reach into the millions of =
+dollars for large companies, and DarkSide takes a 10% to 25% cut off the to=
+p of any payment, according to Intel 471=E2=80=99s Arena.But the story also=
+ mentions another possible profit center:At one point the group offered to =
+provide stock traders with insider information from victim companies, which=
+ they could use to make money on the market -- a move that appeared to be a=
+n attempt to cultivate a Robin Hood-esque reputation for spreading corporat=
+e wealth, according to screen shots of the group=E2=80=99s blog provided by=
+ eSentire.From the screen shot:Now our team and partners encrypt many compa=
+nies that are trading on NASDAQ and other stock exchanges.If the company re=
+fuses to pay, we are ready to provide information before the publication, s=
+o that it would be possible to earn in the reduction price of shares.Write =
+to us in =E2=80=98Contact Us=E2=80=99 and we will provide you with detailed=
+ information.A customer success ninja will get right back to you. I dunno, =
+I am on record saying that you shouldn=E2=80=99t do this, and just to be cl=
+ear let me go on record again saying=C2=A0you absolutely shouldn=E2=80=99t =
+do this, but I do see where they=E2=80=99re coming from? One problem with e=
+xtortion as a business is that, if the victim pays you, you get money; if t=
+he victim doesn=E2=80=99t pay you, you blow up the victim but you don=E2=80=
+=99t really get anything out of it. If the victims all said no, you would c=
+ause a lot of havoc, but you wouldn=E2=80=99t make any money and you=E2=80=
+=99d eventually have to find another line of work. But with listed public c=
+ompanies, you can make a profit directly from the havoc.[6] As a ransom dem=
+and, =E2=80=9Cgive us $5 million or we=E2=80=99ll destroy your computers, w=
+e don=E2=80=99t want to but we=E2=80=99ll do it=E2=80=9D seems inferior to =
+=E2=80=9Cgive us $10 million or we=E2=80=99ll destroy your computers, we=E2=
+=80=99d love to do that actually because we bought a bunch of puts on your =
+stock, we=E2=80=99re giving you a chance to pay the ransom but we=E2=80=99d=
+ be perfectly happy if you don=E2=80=99t.=E2=80=9DIn any case  here=E2=80=
+=99s another bizarre fact about DarkSide and Colonial Pipeline:Colonial Pip=
+eline Co. paid nearly $5 million to Eastern European hackers on Friday, con=
+tradicting reports earlier this week that the company had no intention of p=
+aying an extortion fee to help restore the country=E2=80=99s largest fuel p=
+ipeline, according to two people familiar with the transaction.The company =
+paid the hefty ransom in untraceable cryptocurrency within hours after the =
+attack, underscoring the immense pressure faced by the Georgia-based operat=
+or to get gasoline and jet fuel flowing again to major cities along the Eas=
+tern Seaboard, those people said=E2=80=A6.Once they received the payment, t=
+he hackers provided the operator with a decrypting tool to restore its disa=
+bled computer network. The tool was so slow that the company continued usin=
+g its own backups to help restore the system, one of the people familiar wi=
+th the company=E2=80=99s efforts said.Colonial paid the ransom=C2=A0last Fr=
+iday=C2=A0and didn=E2=80=99t reopen until yesterday afternoon? That=E2=80=
+=99s not great customer success management.Elsewhere in crime:=C2=A0=E2=80=
+=9CMan Used Coinbase to Pay Hitman in Bitcoin for Wife's Murder, FBI Says.=
+=E2=80=9D Don=E2=80=99t do that either.=C2=A0SPAC SPAC SPACIf you are the l=
+eading investment bank in a gigantic boom time for initial public offerings=
+, you will make a lot of money. The biggest and hottest private companies w=
+ill hire you to lead their IPOs, and they will pay you premium fees, and yo=
+ur IPOs will be popular and people will buy them and you will earn the big =
+fees and get rich.Then the boom will end and the stocks whose IPOs you unde=
+rwrote will go down. That=E2=80=99s kind of what happens when booms end: A =
+thing was popular so it went up a lot, then it stops being popular so it go=
+es down. Maybe your IPOs will go down less than other banks=E2=80=99 IPOs, =
+because, as the leading bank, you were particularly good at picking the bes=
+t companies to take public. Or maybe your IPOs will go down more than other=
+ banks=E2=80=99 IPOs, because, as the leading bank, you were particularly g=
+ood at picking the zeitgeist-iest companies to take public; your IPOs were =
+the most concentrated examples of what people wanted in the boom, and the o=
+nes that had the most to lose when the boom ended.Either way you keep the m=
+oney. You sold a particular service, the service of taking companies public=
+, and you provided that service and collected a fee. You were, in some limi=
+ted sense,=C2=A0vouching=C2=A0for the companies you took public =E2=80=94=
+=C2=A0your name on the prospectus gave investors confidence that a deal was=
+ the sort of deal you approved of =E2=80=94=C2=A0but only in a limited way;=
+ you were not guaranteeing that the price would go up. The investors had to=
+ do their own work and make up their own minds about whether to buy the IPO=
+s. If the stock goes down after they buy, that=E2=80=99s on them; you keep =
+your fees.One model you could have for special purpose acquisition companie=
+s is that they are like venture capital funds that are open to retail inves=
+tors. The sponsor of a SPAC raises money from public investors and then fin=
+ds a good company to invest the money in. The sponsor negotiates an investm=
+ent in the company at a price they both think is fair, and then the sponsor=
+ and the SPAC shareholders invest their money together. The sponsor=E2=80=
+=99s compensation comes in the form of shares of the company, same as the s=
+hareholders, so incentives are aligned. If the investment does well, the sp=
+onsor gets rich; if not, not.Another model you could have for SPACs is that=
+ they are a special=C2=A0way to do an IPO, and the sponsor of a SPAC is mos=
+tly  very well compensated for the service of=C2=A0taking a company public =
+and helping it raise money. The sponsor of a SPAC lines up investors (by ra=
+ising the SPAC), finds a company, and negotiates a price that the sponsor a=
+nd the company think will get the deal done. Then the sponsor and the compa=
+ny go out and pitch the investors =E2=80=94=C2=A0the people who put money i=
+nto the SPAC originally =E2=80=94=C2=A0on the deal. (They generally also pi=
+tch other, new investors to do a PIPE deal, a private investment in public =
+equity, alongside the SPAC.) The investors do their own work to decide whet=
+her to vote for the deal, and whether to withdraw the money they put into t=
+he SPAC. (The PIPE investors do their own work to decide whether to invest =
+too.) If the sponsor does the job right, the shareholders will approve the =
+deal and leave their money in. As a reward, the sponsor will get a big chun=
+k of equity in the new company. If the stock goes up, this equity will be w=
+orth a lot and the sponsor will get very rich. If the stock goes down, this=
+ equity will=C2=A0still be worth quite a bit of money=C2=A0=E2=80=94=C2=A0a=
+ large pile of money that goes down by 50% is still a large pile of money=
+=C2=A0=E2=80=94=C2=A0and the sponsor will be pretty rich anyway.Which makes=
+ sense, because the sponsor did what he or she was hired to do, as it were:=
+ The sponsor took the company public and raised money for it. The sponsor w=
+as, in some limited sense,=C2=A0vouching=C2=A0for the company he or she too=
+k public, but only in a limited way: The company disclosed all the relevant=
+ information, shareholders got to do their own work and make their own deci=
+sions, and the sponsor was not guaranteeing anything. If the SPAC=E2=80=99s=
+ investors don=E2=80=99t=C2=A0like the deal when it=E2=80=99s announced, th=
+ey can get their money back with interest; if they keep their money in that=
+=E2=80=99s their decision.I think that both of these models have some truth=
+ to them. SPAC sponsors vouch for companies=C2=A0more=C2=A0than IPO underwr=
+iters do, and they have=C2=A0more=C2=A0skin in the game. They have more inc=
+entives to do deals that work, they have more risk if they do deals that do=
+n=E2=80=99t work, and investors reasonably expect them to work harder to pi=
+ck good companies than an underwriting bank would. (Also even prolific SPAC=
+ sponsors do many=C2=A0fewer=C2=A0deals than a typical underwriter bank, so=
+ they ought to be pickier.) But these differences are not absolute, and whe=
+n a SPAC deal doesn=E2=80=99t work out, I think it is a little bit reasonab=
+le for the sponsor to say =E2=80=9Chey don=E2=80=99t look at me, I was just=
+ here for the fees.=E2=80=9DAnyway  here=E2=80=99s a story about Chamath Pa=
+lihapitiya, the leading SPAC sponsor during a SPAC boom:In a blue blazer an=
+d glasses, and accompanied by a bulletpointed slide deck, the Facebook-exec=
+utive-turned-venture-capitalist explained how Clover Health Investments Cor=
+p. uses powerful machine-learning software to recommend treatments that kee=
+p people healthier. He predicted confidently that the insurer=E2=80=99s rev=
+enue would triple in two years and that its stock would increase tenfold in=
+ a decade. He granted that, yes, he=E2=80=99d received a stake in Clover fo=
+r setting up the deal to take it public, but he said his interests were ali=
+gned with those of other investors, because he and his partners had also pu=
+t about $171 million into the company themselves. =E2=80=9CThere is no way =
+that I can win unless the stock goes up,=E2=80=9D he told CNBC=E2=80=99s Sq=
+uawk Box, slicing his hand through the air to punctuate each word. =E2=80=
+=9CThis is not some get-rich-quick scheme, at least for me.=E2=80=9DWhat Pa=
+lihapitiya said was partially true, in that someone who=E2=80=99s already w=
+ealthy enough to be part-owner of the Golden State Warriors can=E2=80=99t b=
+y definition get rich quick. But the way the deal was structured made it al=
+most impossible for him to lose. Even as investors who bought the stock aft=
+er watching him on TV would lose 28%, as of May 11, Palihapitiya and his pa=
+rtners would almost double their money, much of which was borrowed to begin=
+ with.On Feb. 4, short seller Hindenburg Research published a negative repo=
+rt about an undisclosed Justice Department investigation into Clover, causi=
+ng the stock to drop. And:The SPAC boom turned to a bust not long after the=
+ Hindenburg report. Since then, SPAC shares have dropped 17% on average as =
+of May 11, as measured by the IPOX SPAC Index. Palihapitiya=E2=80=99s SPACs=
+, which had climbed quicker, fell faster, too, dropping 50% on average. Vir=
+gin Galactic was the worst of the group, crashing 68% as it delayed a plann=
+ed test flight and Palihapitiya sold $200 million in stock. ...The hedge fu=
+nds that invested in the SPAC that merged with Clover made money=E2=80=94fi=
+lings show most sold and pocketed a quick gain around the time the deal was=
+ announced. Palihapitiya and his partners did even better. Because they gav=
+e themselves 20.7 million shares for putting the deal together, their $171 =
+million investment has almost doubled to $320 million. A week after the Hin=
+denburg report, Palihapitiya said he controlled a $10=C2=A0billion to $15 b=
+illion fortune, triple what he=E2=80=99d told another interviewer 10 months=
+ earlier, and compared himself to Warren Buffett.I mean, it=E2=80=99s not r=
+eally the Warren Buffett approach, but it=E2=80=99s certainly an approach. =
+If you time a boom right, and you do the deals that epitomize the boom, you=
+ will get very rich. When the boom ends somebody will lose a lot of money, =
+but there=E2=80=99s no reason it has to be you.A tax tradeHere=E2=80=99s a =
+hypothetical situation.=09You buy a bunch of a new joke cryptocurrency, an =
+alternative coin based on a meme,=C2=A0for approximately $0.=09Then the pri=
+ce of that altcoin=C2=A0shoots up so that your stash is worth $100,000.=09=
+=E2=80=9CWorth=E2=80=9D $100,000 in the sense that, if you multiply the tra=
+ding price of the coin by the number of coins you own, you get $100,000. Bu=
+t if you actually tried to sell all your coins into a very thin market, you=
+ would crash the price and end up with much less money, say $50,000.=09Let=
+=E2=80=99s assume that your capital-gains tax rate is 20%. If you sold your=
+ coins, you would end up with $40,000=C2=A0after tax (a $50,000 sale price =
+minus 20% tax).=09Let=E2=80=99s also assume that you have, say,=C2=A0$500,0=
+00 of ordinary income this year.=C2=A0Also let=E2=80=99s assume that you pa=
+y a 45% tax rate=C2=A0on ordinary income.=09Instead of selling the joke cry=
+ptocurrency for $50,000, you can donate it to charity.=09If you donate it, =
+you take a $100,000=C2=A0tax deduction, because that=E2=80=99s the fair val=
+ue of your stash at the time of the donation.=09If you=C2=A0pay a 45% tax r=
+ate, that $100,000 tax deduction is worth $45,000 to you.=09Donating the jo=
+ke crypto is worth more to you than selling it.I should emphasize that none=
+ of this is legal or tax advice and there are nuances that make=C2=A0this w=
+ork less well than that schematic description.[7] Still at some level it ha=
+s an appeal. We  recently discussed a similar trade with low-basis stock, b=
+ut with alternative cryptocurrencies it=E2=80=99s arguably even more attrac=
+tive. For one thing you are more likely to have a low basis in an altcoin, =
+because when you bought it a week ago you probably paid like a thousandth o=
+f a cent. For another thing the=C2=A0market value of an altcoin is more lik=
+ely to be volatile due to limited volume and liquidity; you are more likely=
+ to be able to push the price up to donate it at a high valuation, whereas =
+if you sell you are more likely to crash the price.=C2=A0On the other hand =
+if you have suddenly become=C2=A0an altcoin millionaire you are somewhat le=
+ss likely to also have=C2=A0millions of dollars of ordinary income to shelt=
+er.Here=E2=80=99s a story about Vitalik Buterin donating a billion dollars=
+=E2=80=99 worth of nonsense to Covid relief:Vitalik Buterin, co-creator of =
+the crypto network Ethereum, donated more than $1 billion on Wednesday to a=
+ relief fund to combat the spread of Covid-19 in India.At least, it was $1 =
+billion when he made the donation=E2=80=94in a cryptocurrency that few had =
+heard of and whose value plunged right after news of the donation spread.In=
+ more conventional terms, the donation would rank among the philanthropy=E2=
+=80=99s biggest strokes. But little is conventional: The currency, Shiba In=
+u coin, has been around for less than a year, and is one of a bevy of alter=
+native cryptocurrencies that have exploded in popularity and price in recen=
+t months. Its value changes wildly by the hour. Unlike with cash, or even b=
+itcoin, it is hard to use Shiba Inu coin to buy things. =E2=80=A6The transf=
+er was equivalent to about $1 billion at the time Mr. Buterin made it, mult=
+iplying the price of the coin on an exchange by the 50.7 trillion coins he =
+sent. But memecoin prices are exceptionally volatile, and few are traded in=
+ sufficient quantity to absorb a giant sale should someone want to turn coi=
+ns into spendable currencies.Indeed, the transfer drove the price of the Sh=
+iba Inu token down by about 35%, according to data on Uniswap, a =E2=80=9CD=
+eFi=E2=80=9D platform on which it trades.We  talked briefly about Shiba Inu=
+ coin yesterday; it is somehow a Dogecoin parody worth (yesterday) $26 bill=
+ion. There is a =E2=80=9Cwoof paper.=E2=80=9D Presumably the India Covid-Cr=
+ypto Relief Fund can convert it into real money at some value, presumably h=
+undreds of millions of dollars, and presumably Buterin didn=E2=80=99t pay v=
+ery much for it. So the fund is better off for the donation, and he=E2=80=
+=99s not appreciably worse off. I don=E2=80=99t know his tax situation and =
+I have no reason to think that (1) he has a billion dollars of 2021 income =
+to shelter or (2) he=E2=80=99s going to try to get a billion-dollar charita=
+ble deduction for this move.[8] But one could try.=C2=A0Things happenU.S.  =
+Producer Prices Top Forecasts, Adding to Inflation Pressure. Citigroup Star=
+ts  Early Intake Program to Hire More Women Bankers. =E2=80=9CGreensill Cap=
+ital collapsed because it lost insurance coverage for the loans it offered =
+=E2=80=94 not because of its risky business model, Lex Greensill insisted i=
+n testimony on Tuesday.=E2=80=9D Bill Gross=E2=80=99s Successor to  Quit at=
+ 44 and Hit the Road With Kids. Office-space salesman thinks people should =
+buy=C2=A0more office space. South Korean couples are wooing each other with=
+ Tesla stocks =E2=80=94 not flowers =E2=80=94 while dating.=C2=A0Police Arr=
+est Tesla Driver, Saying He Operated Car From Back Seat.If you'd like to ge=
+t=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, plea=
+se=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and oth=
+er great Bloomberg newsletters here. Thanks![1] Would it be illegal? I feel=
+ like the answer is =E2=80=9Ceventually.=E2=80=9D If you do this, like, thr=
+ee times, you can say =E2=80=9CI kept changing my mind.=E2=80=9D You have n=
+o obligation to disclose your own intentions or desires before trading, and=
+ it=E2=80=99s perfectly reasonable to buy/sell Bitcoins first and *then* tw=
+eet that Bitcoin is good/bad. After about the third time, though, all of th=
+is gets less plausible, and regulators are increasingly going to interpret =
+your trading plus tweeting as dishonest market manipulation rather than hon=
+est changes of heart. On the other hand, if you are Elon Musk, you have bui=
+lt up enough of a track record of whimsical inconsistency that maybe you ca=
+n get away with it for a bit longer.[2]=C2=A0Ugh, fine, Googling =E2=80=9CI=
+ bought a Tesla with Bitcoin=E2=80=9D turns up a=C2=A0few results. Still th=
+ere is no particular reason to believe that the number of Bitcoin-based Tes=
+la sales is material either to Tesla=E2=80=99s business or to the volume of=
+ Bitcoin transactions. [3] By the way: Coindesk has reported that=C2=A0Tesl=
+a=E2=80=99s refund policy for cars bought with Bitcoins is that you get bac=
+k (1) your Bitcoins or (2) the dollar value at the time you paid, *at Tesla=
+=E2=80=99s option*, which is a really cool embedded put option. Presumably =
+if you buy a Tesla with Bitcoin and ask for your money back, if Bitcoin has=
+ gone up Tesla will give you the dollars (and keep=C2=A0the gains on Bitcoi=
+n), but if Bitcoin has gone down Tesla will give you your Bitcoins back (an=
+d avoid the losses). Arguably a better business model than =E2=80=9Csell go=
+od cars at a fair price=E2=80=9D would be =E2=80=9Csell lots of terrible ca=
+rs for Bitcoins, pay a lot of refunds, and profit from the embedded put opt=
+ion=C2=A0in your refund policy.=E2=80=9D The cars could be=C2=A0a loss lead=
+er for Bitcoin volatility trading. Dynamically hedge it! Ugh I really shoul=
+d run Tesla, I=E2=80=99d have about as much fun as Musk does but it would b=
+e different fun.[4] Please do not email me to say that there=E2=80=99s alre=
+ady a thing called ExcelCoin, I don=E2=80=99t care, it was new to me when I=
+ tweeted about it in 2017.[5] I think that there=E2=80=99s an argument that=
+ this is not actually insider trading: You are trading on material nonpubli=
+c information (about the bombs), but it is information about your own inten=
+tions (to bomb the company) and thus arguably not obtained in breach of a d=
+uty of confidence. On the other hand, the information was obtained *illegal=
+ly*, in the sense that you shouldn=E2=80=99t have been planting bombs. Mayb=
+e it is market manipulation. In any case the rule =E2=80=94=C2=A0against in=
+sider trading and market manipulation =E2=80=94=C2=A0is Rule 10b-5, which p=
+rohibits =E2=80=9Cany device, scheme, or artifice to defraud =E2=80=A6=C2=
+=A0in connection with the purchase or sale of any security.=E2=80=9D Probab=
+ly covers this? My point in formulating the Fifth Law was really that *this=
+ doesn=E2=80=99t matter*, because whatever securities-law violation it is i=
+t is also *terrorism*, and that=E2=80=99s *worse* than insider trading: You=
+ will get in more trouble for the bombs than you will for the trading.=C2=
+=A0But in metaphorical extensions of the Fifth Law that is sometimes less t=
+rue.[6] Or Colonial Pipeline Co. is not a public company, but presumably if=
+ you knew that a big U.S. fuel pipeline=C2=A0was going to be shut down for =
+a week you could have made some good trades.[7] For one thing there are var=
+ious limits on charitable deductions, etc. But also the Internal Revenue Se=
+rvice might object to your valuation. Here is its guidance on the fair mark=
+et value of donated property; given that there is an active-ish market for =
+the joke cryptocurrency, I think you=E2=80=99d probably value it like a sto=
+ck or bond, but the IRS has plenty of caveats about how if the market value=
+ does not reflect the actual selling price that you=E2=80=99d get =E2=80=94=
+=C2=A0including due to owning a large illiquid stake =E2=80=94 then you hav=
+e to correct it.[8] Rex Salisbury suggested this idea on Twitter.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce6ur4.5we8/c41ca1c5.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_19547215_338303635.1620924415166
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" /><meta name=3D"color=
+-scheme" content=3D"light dark" /><meta name=3D"supported-color-schemes" co=
+ntent=3D"light dark" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+@media (prefers-color-scheme: dark) {
+body {
+color: #ffffff !important;
+}
+}
+[data-ogsc] body {
+color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+.body-component a, .body-component a:visited {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff !important;
+background-color: #3e3e3e !important;
+}
+.body-component h1 a, .body-component h1 a:visited {
+color: #ffffff !important;
+}
+}
+[data-ogsc] .body-component a, [data-ogsc] .body-component a:visited {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff !important;
+}
+[data-ogsc] .body-component h1 a, [data-ogsc] .body-component h1 a:visited =
+{
+color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+.social-component a {
+color: #ffffff !important;
+}
+.social-component td {
+border-color: #ffffff !important;
+}
+}
+[data-ogsc] .social-component a {
+color: #ffffff !important;
+}
+[data-ogsc] .social-component td {
+border-color: #ffffff !important;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB9bc=
+9e92f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><h2 style=3D"font-weight=
+: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif;=
+ letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bo=
+ttom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0=
+;">Tesla &amp; Bitcoin</h2><p style=3D"margin: 16px 0;">Apparently someone =
+sat Elon Musk down and told him=C2=A0where Bitcoins come from? Yesterday <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0=
+cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTM5MjYwMjA0MTAyNTg0MzIwMw/607f=
+07ceef4b8524a319a23cBf201de11" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">he tweeted</a>:</p><blockquote><p style=3D"margin: 16p=
+x 0;">Tesla has suspended vehicle purchases using Bitcoin. We are concerned=
+ about rapidly increasing use of fossil fuels for Bitcoin mining and transa=
+ctions, especially coal, which has the worst emissions of any fuel.</p><p s=
+tyle=3D"margin: 16px 0;">Cryptocurrency is a good idea on many levels and w=
+e believe it has a promising future, but this cannot come at great cost to =
+the environment.</p><p style=3D"margin: 16px 0;">Tesla will not be selling =
+any Bitcoin and we intend to use it for transactions as soon as mining tran=
+sitions to more sustainable energy. We are also looking at other cryptocurr=
+encies that use &lt;1% of Bitcoin=E2=80=99s energy/transaction.</p></blockq=
+uote><p style=3D"margin: 16px 0;">Elon Musk=E2=80=99s whims are among the m=
+ain drivers of Bitcoin=E2=80=99s price, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjEtMDUtMTIvbXVzay1zYXlzLXRlc2xhLXN1c3BlbmRpbmctYml0Y29p=
+bi1wdXJjaGFzZXMtY2l0aW5nLWVuZXJneS11c2U/607f07ceef4b8524a319a23cBce1097f5" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> so</a>:</=
+p><blockquote><p style=3D"margin: 16px 0;">The largest cryptocurrency dropp=
+ed as much as 15% to just above $46,000, before paring some of the retreat.=
+ It was down about 6% to $51,210 as of 7:03 a.m. in London on Thursday. Oth=
+er tokens such Ether and Dogecoin also slid. The rush to sell briefly cause=
+d outages at some cryptocurrency exchanges.=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">Look, <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjEtMDItMjIvZWxlY3RyaWMtYmlsbHMtYXJlLWEtZ2FtYmxlLXRvbw/607f07ceef=
+4b8524a319a23cBcb099be7" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">you know what I think</a>. The funny move here would be if T=
+esla Inc. had dumped all its Bitcoins at the highs. (It <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMjgvZWxvbi1tdXNrLW1hZGUtdGVz=
+bGEtc29tZS1tb25leS1vbi1iaXRjb2lu/607f07ceef4b8524a319a23cB40c29017" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> sold about 10%</=
+a> of its Bitcoins in March =E2=80=9Cessentially to prove liquidity of Bitc=
+oin,=E2=80=9D but I suppose that could have been a test run for a larger sa=
+le?) And then maybe gone short too for good measure. And then Elon Musk ann=
+ounces =E2=80=9Coh actually Bitcoin is bad now lol,=E2=80=9D and the price =
+plummets, and he grins his impish grin and we=E2=80=99re all like oh, Elon,=
+ you got us again.</p><p style=3D"margin: 16px 0;">I have no reason to beli=
+eve that this is what happened, though I note that=C2=A0<em>technically=C2=
+=A0</em>Musk=E2=80=99s=C2=A0statement says that Tesla =E2=80=9C<em>will not=
+ </em>be<em>=C2=A0</em>selling any=C2=A0Bitcoin,=E2=80=9D not that it <em>h=
+asn=E2=80=99t already</em>. I=E2=80=99m just saying,=C2=A0if <em>I=C2=A0</e=
+m>was Elon Musk, that=E2=80=99s what I would do. Then of course I=E2=80=99d=
+ buy more Bitcoins after the price falls, I=E2=80=99d tweet =E2=80=9CBitcoi=
+n is great again,=E2=80=9D the price would go up, I=E2=80=99d sell my Bitco=
+ins, I=E2=80=99d tweet =E2=80=9Coh no it=E2=80=99s bad again,=E2=80=9D the =
+price would go down, I=E2=80=99d buy more Bitcoins, I=E2=80=99d tweet =E2=
+=80=9Cback to great,=E2=80=9D etc. etc. etc. This would be vastly more prof=
+itable, for Tesla, than making cars, and it would capitalize on Musk=E2=80=
+=99s core skill of trolling people on Twitter. How long do you think he cou=
+ld keep this up? I think the answer is=C2=A0=E2=80=9Cfar longer than I coul=
+d remain sane while watching it happen.=E2=80=9D[1]=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">Again, though, I don=E2=80=99t think this is what happened; =
+I assume that Tesla has kept most of its Bitcoin stash and is not profiting=
+ from Musk=E2=80=99s tweets. As far as I can tell he has only limited inter=
+est in manipulating the price of Bitcoin =E2=80=94=C2=A0or Dogecoin, or Tes=
+la stock, or the other assets whose prices he can control=C2=A0with his twe=
+ets =E2=80=94=C2=A0<em>for profit</em>. He=E2=80=99ll do it for fun, sure, =
+occasionally, but not in a way that serves his rational self-interest. I as=
+sume that what actually happened is pretty much what Musk said: He got into=
+ cryptocurrency on a whim because it fit with his image of being fun and fu=
+turistic and annoying, and then someone explained to him that it doesn=E2=
+=80=99t fit with his image of being good for the environment, and on a whim=
+ he decided to cool it on the Bitcoin stuff for a while.=C2=A0</p><p style=
+=3D"margin: 16px 0;">And when Elon Musk announces a decision on Twitter, he=
+ will often <a href=3D"https://link.mail.bloombergbusiness.com/click/238344=
+16.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtM=
+TMvbXVzay1zLWJpdGNvaW4tYmFja3BlZGFsaW5nLWlzLWxhdGVzdC1pbi1sb25nLWxpbmUtb2Yt=
+dHVybmFib3V0cw/607f07ceef4b8524a319a23cB6f55d9a6" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> stick with that decision</a> for h=
+ours, sometimes even days at a time. Surely by next week he=E2=80=99ll be t=
+weeting, like, =E2=80=9Cwe are building a giant battery in the desert to mi=
+ne Bitcoin, Bitcoin is good again, you can use it to pay for Teslas,=E2=80=
+=9D and the price will shoot back up, and I=E2=80=99ll once again hit the b=
+utton that auto-generates this column.</p><p style=3D"margin: 16px 0;">My B=
+loomberg Opinion colleague Liam Denning <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDUtMTMvZWxvbi1tdXNrLWNvbnZlbmllbnRseS1pZ25vcmVk=
+LWJpdGNvaW4tcy1pbmNvbnZlbmllbnQtdHJ1dGg/607f07ceef4b8524a319a23cB8d980cbf" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> points ou=
+t</a> that =E2=80=9CMusk=E2=80=99s move may also indicate that Teslas weren=
+=E2=80=99t flying off the shelves as a result of accepting Bitcoin payment,=
+=E2=80=9D and in fact it=E2=80=99s not entirely clear whether Tesla has sol=
+d any cars for Bitcoins.[2] I hope it hasn=E2=80=99t. I hope Musk can make =
+the price of Bitcoin go up or down by 10%=C2=A0by announcing that Tesla wil=
+l or will not accept Bitcoins for cars, without ever actually accepting any=
+ Bitcoins for any cars either way. There=E2=80=99s something pure about tha=
+t: The price of Bitcoin depends on Elon Musk=E2=80=99s=C2=A0<em>attitude=C2=
+=A0</em>toward it, not on the existence of any grubby commercial transactio=
+ns in which Bitcoins are exchanged for cars.[3] The source of value for Bit=
+coin is not its=C2=A0<em>use as a currency=C2=A0</em>or=C2=A0<em>economic i=
+mportance</em>; the source of value for Bitcoin =E2=80=94=C2=A0for everythi=
+ng =E2=80=94=C2=A0is <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjEtMDItMDgvZWxvbi1tdXNrLXdvcmtzLWhpcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYml=
+0Y29pbg/607f07ceef4b8524a319a23cB3bd992eb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">simple proximity to Elon Musk</a>.</p><p s=
+tyle=3D"margin: 16px 0;">Anyway, since Musk is looking for alternatives,=C2=
+=A0I have a coin that uses &lt;1% of Bitcoin=E2=80=99s energy per transacti=
+on!=C2=A0It is called ExcelCoin.[4] Instead of relying on proof-of-work, bu=
+rning tons of energy to mine coins to reward people for keeping track of th=
+e ledger of transactions, as Bitcoin does, ExcelCoin relies on me keeping t=
+rack of the list of transactions in Microsoft Excel. If you want to buy Exc=
+elCoins, you just wire me money and I add some ExcelCoins to the line with =
+your name on it, in my Excel spreadsheet. If you want to buy a Tesla with E=
+xcelCoins,=C2=A0you send me an email saying =E2=80=9Csend my ExcelCoins to =
+Tesla,=E2=80=9D I deduct the ExcelCoins from your line in Excel and add the=
+m to Tesla=E2=80=99s line, and I send Tesla an email saying =E2=80=9Cyou=E2=
+=80=99ve got the ExcelCoins, hand over the car.=E2=80=9D If you want to red=
+eem your ExcelCoins for dollars, well, well, well, well, well, well, let=E2=
+=80=99s discuss that some other time.</p><p style=3D"margin: 16px 0;">Also =
+dollars, banks pretty much do this with dollars! They use more electricity =
+than I do running Excel but, you know.</p><p style=3D"margin: 16px 0;">Else=
+where in <a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.=
+275264/aHR0cHM6Ly93d3cubmR0di5jb20vb2ZmYmVhdC9tYXJrLXp1Y2tlcmJlcmdzLWdvYXQt=
+cGljLXNwYXJrcy1iaXRjb2luLXNwZWN1bGF0aW9uLWRldGFpbHMtaGVyZS0yNDM5NjQ4/607f07=
+ceef4b8524a319a23cB750e3458" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">tech celebrities ambiguously endorsing=C2=A0Bitcoin</a>:=
+</p><blockquote><p style=3D"margin: 16px 0;">Mark Zuckerberg shared a pictu=
+re of his pet goats on Monday, introducing them to the world as Bitcoin and=
+ Max. The picture quickly set social media abuzz with speculation about the=
+ significance of the name "Bitcoin". Bitcoin investors took it as an endors=
+ement of the cryptocurrency from the Facebook founder, while meme-makers to=
+ok the opportunity and flooded social media with hilarious memes.=C2=A0</p>=
+</blockquote><p style=3D"margin: 16px 0;">Not a bad effort, but I don=E2=80=
+=99t think Zuckerberg is going to steal back much Bitcoin-related attention=
+ from Musk with a couple of goats. Maybe if he tweets =E2=80=9CI <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93=
+d3cuY25iYy5jb20vMjAxOS8wMS8yNC9tYXJrLXp1Y2tlcmJlcmctb25jZS1raWxsZWQtYS1nb2F=
+0LS1hbmQtc2VydmVkLWl0LXRvLWphY2stZG9yc2V5LS5odG1sIzp-OnRleHQ9SXQncyUyMGElMj=
+BkaW5uZXIlMjB0aGUlMjBUd2l0dGVyLGFuZCUyMHNlbnQlMjB0byUyMHRoZSUyMGJ1dGNoZXIu/=
+607f07ceef4b8524a319a23cB176f32c4" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">killed Bitcoin with my own two hands</a> and then =
+roasted it and served it to Elon Musk=C2=A0for dinner,=E2=80=9D that might =
+do it.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&qu=
+ot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; b=
+order-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; =
+margin-top: 30px; margin-bottom: 0;">DarkSide=C2=A0</h2><p style=3D"margin:=
+ 16px 0;">My <a href=3D"https://link.mail.bloombergbusiness.com/click/23834=
+416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgt=
+MDgtMTIvdGhlLTEwLWxhd3Mtb2YtaW5zaWRlci10cmFkaW5n/607f07ceef4b8524a319a23cB2=
+aeda8f6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">F=
+ifth Law of Insider Trading</a> says that you should not insider trade <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDQtMjEvanVpY2Uta=
+GFja2luZy1hbmQtbW9ydGdhZ2UtdGVjaA/607f07ceef4b8524a319a23cB37ca62cb" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> by planting bom=
+bs at a company and buying put options on its stock</a>.[5] This law exists=
+ because someone did it, to Borussia Dortmund GmbH, and got in trouble. I s=
+ometimes extend the Fifth Law metaphorically to mean that you should not be=
+t against a company=E2=80=99s stock price and then=C2=A0do crimes to the co=
+mpany to make its stock go down. Because you will get in trouble for the ot=
+her crimes, as well as for the securities-law violations.</p><p style=3D"ma=
+rgin: 16px 0;">Still if we just assume that you are in the business of succ=
+essfully doing lots of big crimes, I suppose there is a case for adding ins=
+ider trading to the menu? Like if your day job is doing economic crimes tha=
+t bring companies to their knees, you have useful information about which c=
+ompanies will be brought to their knees, and you could probably profit from=
+ it? I hope it is very clear that this is neither legal nor investing advic=
+e.=C2=A0</p><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTIvZGFya3NpZGUtaGFja2Vycy1taW50LW1vbmV=
+5LXdpdGgtcmFuc29td2FyZS1mcmFuY2hpc2U/607f07ceef4b8524a319a23cB06592aeb" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> a=C2=A0story=
+ about DarkSide</a>, the ransomware collective that shut down Colonial Pipe=
+line Co.=E2=80=99s fuel pipelines.=C2=A0DarkSide is just a fascinating busi=
+ness. We talked the other day about <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMDUtMTEvY3J5cHRvLW1hcmtldHMtYXJlLXdoZXJlLXRoZS1mdW4t=
+aXM/607f07ceef4b8524a319a23cBa3c8145b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> its compliance and reputational-risk function=
+s</a>, and this story covers its franchise-based business model:</p><blockq=
+uote><p style=3D"margin: 16px 0;">The platform supplies affiliates with too=
+ls and follow-up services in much the same way McDonald=E2=80=99s Corp. sup=
+plies local store owners with pre-made soft serve and frozen hamburger patt=
+ies.</p><p style=3D"margin: 16px 0;">=E2=80=9CThese guys provide the market=
+ing, the people who handle customer success, as well as the actual ransomwa=
+re,=E2=80=9D said Mark Arena, chief executive officer of the cybersecurity =
+firm Intel 471, which tracks DarkSide. =E2=80=9CFortune 500 CEOs would be i=
+mpressed with the efficiency of the business model.=E2=80=9D</p></blockquot=
+e><p style=3D"margin: 16px 0;">=E2=80=9CCustomer success=E2=80=9D! I assume=
+ that=E2=80=99s Arena=E2=80=99s jargon, not DarkSide=E2=80=99s, but what if=
+ it=E2=80=99s DarkSide=E2=80=99s? Like you pay to use the DarkSide platform=
+, and you deploy it and hack a company=E2=80=99s computers, and you call th=
+e company and say =E2=80=9Cgive us money,=E2=80=9D and the company says no =
+and hangs up on you, and you don=E2=80=99t know what to do, so you call the=
+ toll-free number listed on DarkSide=E2=80=99s website and it=E2=80=99s lik=
+e =E2=80=9Cpress 1 for new orders, 2 for the status of existing orders, or =
+0 for customer support,=E2=80=9D and you press 0 and get a friendly operato=
+r who talks you through the process for how to extort a ransom, and you get=
+ what you need, and before you hang up you take a brief survey to rate your=
+ experience, and the LinkedIn page of the person fielding your call says no=
+t =E2=80=9Ccustomer support representative=E2=80=9D but rather =E2=80=9Ccus=
+tomer success ninja=E2=80=9D because that=E2=80=99s how titles work in tech=
+ these days.=C2=A0</p><p style=3D"margin: 16px 0;">Actually you don=E2=80=
+=99t even need to call customer success to get advice on negotiating the ra=
+nsom because they=E2=80=99ll do it for you:</p><blockquote><p style=3D"marg=
+in: 16px 0;">[DarkSide provides]=C2=A0not just the actual ransomware used t=
+o encrypt data on a victims=E2=80=99 computers, but also services like maki=
+ng calls to those victims and also hosting a website where sensitive data s=
+tolen during attacks can be posted. Ransom demands easily reach into the mi=
+llions of dollars for large companies, and DarkSide takes a 10% to 25% cut =
+off the top of any payment, according to Intel 471=E2=80=99s Arena.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">But the story also mentions another p=
+ossible profit center:</p><blockquote><p style=3D"margin: 16px 0;">At one p=
+oint the group offered to provide stock traders with insider information fr=
+om victim companies, which they could use to make money on the market -- a =
+move that appeared to be an attempt to cultivate a Robin Hood-esque reputat=
+ion for spreading corporate wealth, according to screen shots of the group=
+=E2=80=99s blog provided by eSentire.</p></blockquote><p style=3D"margin: 1=
+6px 0;">From the screen shot:</p><blockquote><p style=3D"margin: 16px 0;">N=
+ow our team and partners encrypt many companies that are trading on NASDAQ =
+and other stock exchanges.</p><p style=3D"margin: 16px 0;">If the company r=
+efuses to pay, we are ready to provide information before the publication, =
+so that it would be possible to earn in the reduction price of shares.</p><=
+p style=3D"margin: 16px 0;">Write to us in =E2=80=98Contact Us=E2=80=99 and=
+ we will provide you with detailed information.</p></blockquote><p style=3D=
+"margin: 16px 0;">A customer success ninja will get right back to you. I du=
+nno, I am on record saying that you shouldn=E2=80=99t do this, and just to =
+be clear let me go on record again saying=C2=A0<em>you absolutely shouldn=
+=E2=80=99t do this</em>, but I do see where they=E2=80=99re coming from? On=
+e problem with extortion as a business is that, if the victim pays you, you=
+ get money; if the victim doesn=E2=80=99t pay you, you blow up the victim b=
+ut you don=E2=80=99t really get anything out of it. If the victims all said=
+ no, you would cause a lot of havoc, but you wouldn=E2=80=99t make any mone=
+y and you=E2=80=99d eventually have to find another line of work. But with =
+listed public companies, you can make a profit directly from the havoc.[6] =
+As a ransom demand, =E2=80=9Cgive us $5 million or we=E2=80=99ll destroy yo=
+ur computers, we don=E2=80=99t want to but we=E2=80=99ll do it=E2=80=9D see=
+ms inferior to =E2=80=9Cgive us $10 million or we=E2=80=99ll destroy your c=
+omputers, we=E2=80=99d love to do that actually because we bought a bunch o=
+f puts on your stock, we=E2=80=99re giving you a chance to pay the ransom b=
+ut we=E2=80=99d be perfectly happy if you don=E2=80=99t.=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">In any case <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjEtMDUtMTMvY29sb25pYWwtcGlwZWxpbmUtcGFpZC1oYWNrZXJzLW5lYXJse=
+S01LW1pbGxpb24taW4tcmFuc29t/607f07ceef4b8524a319a23cB8ccd553e" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> here=E2=80=99s anothe=
+r bizarre fact</a> about DarkSide and Colonial Pipeline:</p><blockquote><p =
+style=3D"margin: 16px 0;">Colonial Pipeline Co. paid nearly $5 million to E=
+astern European hackers on Friday, contradicting reports earlier this week =
+that the company had no intention of paying an extortion fee to help restor=
+e the country=E2=80=99s largest fuel pipeline, according to two people fami=
+liar with the transaction.</p><p style=3D"margin: 16px 0;">The company paid=
+ the hefty ransom in untraceable cryptocurrency within hours after the atta=
+ck, underscoring the immense pressure faced by the Georgia-based operator t=
+o get gasoline and jet fuel flowing again to major cities along the Eastern=
+ Seaboard, those people said=E2=80=A6.</p><p style=3D"margin: 16px 0;">Once=
+ they received the payment, the hackers provided the operator with a decryp=
+ting tool to restore its disabled computer network. The tool was so slow th=
+at the company continued using its own backups to help restore the system, =
+one of the people familiar with the company=E2=80=99s efforts said.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">Colonial paid the ransom=C2=A0<em>las=
+t Friday=C2=A0</em>and didn=E2=80=99t reopen until <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTIvYW1lcmljYS1zLWxhcmdlc3QtZ2Fzb2xpb=
+mUtcGlwZWxpbmUtcmVzdGFydGluZy1hZnRlci1jeWJlcmF0dGFjaw/607f07ceef4b8524a319a=
+23cB92dbdda3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">yesterday afternoon</a>? That=E2=80=99s not great customer success mana=
+gement.</p><p style=3D"margin: 16px 0;">Elsewhere in crime:=C2=A0=E2=80=9CM=
+an Used Coinbase to <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/23834416.275264/aHR0cHM6Ly9kZWNyeXB0LmNvLzcwNDIwL21hbi11c2VkLWNvaW5iYXNlL=
+WhpdG1hbi1iaXRjb2luLWZiaQ/607f07ceef4b8524a319a23cBcef6fd8e" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Pay Hitman in Bitcoin</a=
+> for Wife's Murder, FBI Says.=E2=80=9D Don=E2=80=99t do that either.=C2=A0=
+</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, A=
+rial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-=
+bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin=
+-top: 30px; margin-bottom: 0;">SPAC SPAC SPAC</h2><p style=3D"margin: 16px =
+0;">If you are the leading investment bank in a gigantic boom time for init=
+ial public offerings, you will make a lot of money. The biggest and hottest=
+ private companies will hire you to lead their IPOs, and they will pay you =
+premium fees, and your IPOs will be popular and people will buy them and yo=
+u will earn the big fees and get rich.</p><p style=3D"margin: 16px 0;">Then=
+ the boom will end and the stocks whose IPOs you underwrote will go down. T=
+hat=E2=80=99s kind of what happens when booms end: A thing was popular so i=
+t went up a lot, then it stops being popular so it goes down. Maybe your IP=
+Os will go down less than other banks=E2=80=99 IPOs, because, as the leadin=
+g bank, you were particularly good at picking the best companies to take pu=
+blic. Or maybe your IPOs will go down more than other banks=E2=80=99 IPOs, =
+because, as the leading bank, you were particularly good at picking the zei=
+tgeist-iest companies to take public; your IPOs were the most concentrated =
+examples of what people wanted in the boom, and the ones that had the most =
+to lose when the boom ended.</p><p style=3D"margin: 16px 0;">Either way you=
+ keep the money. You sold a particular service, the service of taking compa=
+nies public, and you provided that service and collected a fee. You were, i=
+n some limited sense,=C2=A0<em>vouching=C2=A0</em>for the companies you too=
+k public =E2=80=94=C2=A0your name on the prospectus gave investors confiden=
+ce that a deal was the sort of deal you approved of =E2=80=94=C2=A0but only=
+ in a limited way; you were not guaranteeing that the price would go up. Th=
+e investors had to do their own work and make up their own minds about whet=
+her to buy the IPOs. If the stock goes down after they buy, that=E2=80=99s =
+on them; you keep your fees.</p><p style=3D"margin: 16px 0;">One model you =
+could have for special purpose acquisition companies is that they are like =
+venture capital funds that are open to retail investors. The sponsor of a S=
+PAC raises money from public investors and then finds a good company to inv=
+est the money in. The sponsor negotiates an investment in the company at a =
+price they both think is fair, and then the sponsor and the SPAC shareholde=
+rs invest their money together. The sponsor=E2=80=99s compensation comes in=
+ the form of shares of the company, same as the shareholders, so incentives=
+ are aligned. If the investment does well, the sponsor gets rich; if not, n=
+ot.</p><p style=3D"margin: 16px 0;">Another model you could have for SPACs =
+is that they are a special=C2=A0way to do an IPO, and the sponsor of a SPAC=
+ is mostly <a href=3D"https://link.mail.bloombergbusiness.com/click/2383441=
+6.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMD=
+QtMjYvZ2FtZXN0b3Atcy1jZW8tZ29lcy1vdXQtb24tdG9w/607f07ceef4b8524a319a23cBbb9=
+7031e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> ve=
+ry well compensated for the service</a> of=C2=A0taking a company public and=
+ helping it raise money. The sponsor of a SPAC lines up investors (by raisi=
+ng the SPAC), finds a company, and negotiates a price that the sponsor and =
+the company think will get the deal done. Then the sponsor and the company =
+go out and pitch the investors =E2=80=94=C2=A0the people who put money into=
+ the SPAC originally =E2=80=94=C2=A0on the deal. (They generally also pitch=
+ other, new investors to do a PIPE deal, a private investment in public equ=
+ity, alongside the SPAC.) The investors do their own work to decide whether=
+ to vote for the deal, and whether to withdraw the money they put into the =
+SPAC. (The PIPE investors do their own work to decide whether to invest too=
+.) If the sponsor does the job right, the shareholders will approve the dea=
+l and leave their money in. As a reward, the sponsor will get a big chunk o=
+f equity in the new company. If the stock goes up, this equity will be wort=
+h a lot and the sponsor will get very rich. If the stock goes down, this eq=
+uity will=C2=A0<em>still be worth quite a bit of money</em>=C2=A0=E2=80=94=
+=C2=A0a large pile of money that goes down by 50% is still a large pile of =
+money=C2=A0=E2=80=94=C2=A0and the sponsor will be pretty rich anyway.</p><p=
+ style=3D"margin: 16px 0;">Which makes sense, because the sponsor did what =
+he or she was hired to do, as it were: The sponsor took the company public =
+and raised money for it. The sponsor was, in some limited sense,=C2=A0vouch=
+ing<em>=C2=A0</em>for the company he or she took public, but only in a limi=
+ted way: The company disclosed all the relevant information, shareholders g=
+ot to do their own work and make their own decisions, and the sponsor was n=
+ot guaranteeing anything. If the SPAC=E2=80=99s investors don=E2=80=99t=C2=
+=A0like the deal when it=E2=80=99s announced, they can get their money back=
+ with interest; if they keep their money in that=E2=80=99s their decision.<=
+/p><p style=3D"margin: 16px 0;">I think that both of these models have some=
+ truth to them. SPAC sponsors vouch for companies=C2=A0<em>more=C2=A0</em>t=
+han IPO underwriters do, and they have=C2=A0<em>more=C2=A0</em>skin in the =
+game. They have more incentives to do deals that work, they have more risk =
+if they do deals that don=E2=80=99t work, and investors reasonably expect t=
+hem to work harder to pick good companies than an underwriting bank would. =
+(Also even prolific SPAC sponsors do many=C2=A0<em>fewer=C2=A0</em>deals th=
+an a typical underwriter bank, so they ought to be pickier.) But these diff=
+erences are not absolute, and when a SPAC deal doesn=E2=80=99t work out, I =
+think it is a little bit reasonable for the sponsor to say =E2=80=9Chey don=
+=E2=80=99t look at me, I was just here for the fees.=E2=80=9D</p><p style=
+=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1c=
+mVzLzIwMjEtMDUtMTMvc3BhYy1raW5nLWNoYW1hdGgtcGFsaWhhcGl0aXlhLWhvcGVzLWhpcy1o=
+eXBlLXdpbGwta2VlcC1tZXNtZXJpemluZy15b3UjOn46dGV4dD1UaGUlMjBTUEFDJTIwS2luZyU=
+yMElzJTIwRG9pbmcsYWJzb2x1dGVseSUyMHBheSUyMG9mZiUyMGZvciUyMGhpbS4/607f07ceef=
+4b8524a319a23cB0c5a18de" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> here=E2=80=99s a story about Chamath Palihapitiya</a>, the =
+leading SPAC sponsor during a SPAC boom:</p><blockquote><p style=3D"margin:=
+ 16px 0;">In a blue blazer and glasses, and accompanied by a bulletpointed =
+slide deck, the Facebook-executive-turned-venture-capitalist explained how =
+Clover Health Investments Corp. uses powerful machine-learning software to =
+recommend treatments that keep people healthier. He predicted confidently t=
+hat the insurer=E2=80=99s revenue would triple in two years and that its st=
+ock would increase tenfold in a decade. He granted that, yes, he=E2=80=99d =
+received a stake in Clover for setting up the deal to take it public, but h=
+e said his interests were aligned with those of other investors, because he=
+ and his partners had also put about $171 million into the company themselv=
+es. =E2=80=9CThere is no way that I can win unless the stock goes up,=E2=80=
+=9D he told CNBC=E2=80=99s Squawk Box, slicing his hand through the air to =
+punctuate each word. =E2=80=9CThis is not some get-rich-quick scheme, at le=
+ast for me.=E2=80=9D</p><p style=3D"margin: 16px 0;">What Palihapitiya said=
+ was partially true, in that someone who=E2=80=99s already wealthy enough t=
+o be part-owner of the Golden State Warriors can=E2=80=99t by definition ge=
+t rich quick. But the way the deal was structured made it almost impossible=
+ for him to lose. Even as investors who bought the stock after watching him=
+ on TV would lose 28%, as of May 11, Palihapitiya and his partners would al=
+most double their money, much of which was borrowed to begin with.</p></blo=
+ckquote><p style=3D"margin: 16px 0;">On Feb. 4, short seller Hindenburg Res=
+earch published a negative report about an undisclosed Justice Department i=
+nvestigation into Clover, causing the stock to drop. And:</p><blockquote><p=
+ style=3D"margin: 16px 0;">The SPAC boom turned to a bust not long after th=
+e Hindenburg report. Since then, SPAC shares have dropped 17% on average as=
+ of May 11, as measured by the IPOX SPAC Index. Palihapitiya=E2=80=99s SPAC=
+s, which had climbed quicker, fell faster, too, dropping 50% on average. Vi=
+rgin Galactic was the worst of the group, crashing 68% as it delayed a plan=
+ned test flight and Palihapitiya sold $200 million in stock. ...</p><p styl=
+e=3D"margin: 16px 0;">The hedge funds that invested in the SPAC that merged=
+ with Clover made money=E2=80=94filings show most sold and pocketed a quick=
+ gain around the time the deal was announced. Palihapitiya and his partners=
+ did even better. Because they gave themselves 20.7 million shares for putt=
+ing the deal together, their $171 million investment has almost doubled to =
+$320 million. A week after the Hindenburg report, Palihapitiya said he cont=
+rolled a $10=C2=A0billion to $15 billion fortune, triple what he=E2=80=99d =
+told another interviewer 10 months earlier, and compared himself to Warren =
+Buffett.</p></blockquote><p style=3D"margin: 16px 0;">I mean, it=E2=80=99s =
+not really the Warren Buffett approach, but it=E2=80=99s certainly an appro=
+ach. If you time a boom right, and you do the deals that epitomize the boom=
+, you will get very rich. When the boom ends somebody will lose a lot of mo=
+ney, but there=E2=80=99s no reason it has to be you.</p><h2 style=3D"font-w=
+eight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-s=
+erif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; bord=
+er-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bott=
+om: 0;">A tax trade</h2><p style=3D"margin: 16px 0;">Here=E2=80=99s a hypot=
+hetical situation.</p><ol style=3D"list-style-type: decimal; padding-left: =
+40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You buy a bunch=
+ of a new joke cryptocurrency, an alternative coin based on a meme,=C2=A0fo=
+r approximately $0.</li>=09<li style=3D"margin-bottom: 5px;">Then the price=
+ of that altcoin=C2=A0shoots up so that your stash is worth $100,000.</li>=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9CWorth=E2=80=9D $100,000 in th=
+e sense that, if you multiply the trading price of the coin by the number o=
+f coins you own, you get $100,000. But if you actually tried to sell all yo=
+ur coins into a very thin market, you would crash the price and end up with=
+ much less money, say $50,000.</li>=09<li style=3D"margin-bottom: 5px;">Let=
+=E2=80=99s assume that your capital-gains tax rate is 20%. If you sold your=
+ coins, you would end up with $40,000=C2=A0after tax (a $50,000 sale price =
+minus 20% tax).</li>=09<li style=3D"margin-bottom: 5px;">Let=E2=80=99s also=
+ assume that you have, say,=C2=A0$500,000 of ordinary income this year.=C2=
+=A0Also let=E2=80=99s assume that you pay a 45% tax rate=C2=A0on ordinary i=
+ncome.</li>=09<li style=3D"margin-bottom: 5px;">Instead of selling the joke=
+ cryptocurrency for $50,000, you can donate it to charity.</li>=09<li style=
+=3D"margin-bottom: 5px;">If you donate it, you take a $100,000=C2=A0tax ded=
+uction, because that=E2=80=99s the fair value of your stash at the time of =
+the donation.</li>=09<li style=3D"margin-bottom: 5px;">If you=C2=A0pay a 45=
+% tax rate, that $100,000 tax deduction is worth $45,000 to you.</li>=09<li=
+ style=3D"margin-bottom: 5px;">Donating the joke crypto is worth more to yo=
+u than selling it.</li></ol><p style=3D"margin: 16px 0;">I should emphasize=
+ that none of this is legal or tax advice and there are nuances that make=
+=C2=A0this work less well than that schematic description.[7] Still at some=
+ level it has an appeal. We <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjEtMDQtMjgvZWxvbi1tdXNrLW1hZGUtdGVzbGEtc29tZS1tb25leS1vbi1iaXRj=
+b2lu/607f07ceef4b8524a319a23cC40c29017" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> recently discussed</a> a similar trade with =
+low-basis stock, but with alternative cryptocurrencies it=E2=80=99s arguabl=
+y even more attractive. For one thing you are more likely to have a low bas=
+is in an altcoin, because when you bought it a week ago you probably paid l=
+ike a thousandth of a cent. For another thing the=C2=A0market value of an a=
+ltcoin is more likely to be volatile due to limited volume and liquidity; y=
+ou are more likely to be able to push the price up to donate it at a high v=
+aluation, whereas if you sell you are more likely to crash the price.=C2=A0=
+</p><p style=3D"margin: 16px 0;">On the other hand if you have suddenly bec=
+ome=C2=A0an altcoin millionaire you are somewhat less likely to also have=
+=C2=A0millions of dollars of ordinary income to shelter.</p><p style=3D"mar=
+gin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23834416.275264/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldGhlcmV1=
+bS1sdW1pbmFyeS1tYWtlcy0xLWJpbGxpb24tY292aWQtMTktZG9uYXRpb25pbi1zaGliYS1pbnU=
+tY29pbi0xMTYyMDg2MjU1MD9tb2Q9aHBfZmVhdHN0X3BvczM/607f07ceef4b8524a319a23cB9=
+7f6acb1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">a=
+ story about Vitalik Buterin</a> donating a billion dollars=E2=80=99 worth =
+of nonsense to Covid relief:</p><blockquote><p style=3D"margin: 16px 0;">Vi=
+talik Buterin, co-creator of the crypto network Ethereum, donated more than=
+ $1 billion on Wednesday to a relief fund to combat the spread of Covid-19 =
+in India.</p><p style=3D"margin: 16px 0;">At least, it was $1 billion when =
+he made the donation=E2=80=94in a cryptocurrency that few had heard of and =
+whose value plunged right after news of the donation spread.</p><p style=3D=
+"margin: 16px 0;">In more conventional terms, the donation would rank among=
+ the philanthropy=E2=80=99s biggest strokes. But little is conventional: Th=
+e currency, Shiba Inu coin, has been around for less than a year, and is on=
+e of a bevy of alternative cryptocurrencies that have exploded in popularit=
+y and price in recent months. Its value changes wildly by the hour. Unlike =
+with cash, or even bitcoin, it is hard to use Shiba Inu coin to buy things.=
+ =E2=80=A6</p><p style=3D"margin: 16px 0;">The transfer was equivalent to a=
+bout $1 billion at the time Mr. Buterin made it, multiplying the price of t=
+he coin on an exchange by the 50.7 trillion coins he sent. But memecoin pri=
+ces are exceptionally volatile, and few are traded in sufficient quantity t=
+o absorb a giant sale should someone want to turn coins into spendable curr=
+encies.</p><p style=3D"margin: 16px 0;">Indeed, the transfer drove the pric=
+e of the Shiba Inu token down by about 35%, according to data on Uniswap, a=
+ =E2=80=9CDeFi=E2=80=9D platform on which it trades.</p></blockquote><p sty=
+le=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDUtMTIvdGhlLWhlcnR6LWdhbWJsZXJzLXdlcmUtcmlnaHQ/607f07ceef4b85=
+24a319a23cB10cb5e88" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> talked briefly</a> about Shiba Inu coin yesterday; it is some=
+how a Dogecoin parody worth (yesterday) $26 billion. There is a =E2=80=9C<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0=
+cHM6Ly9naXRodWIuY29tL3NoeXRvc2hpa3VzYW1hL3NoaWJhd29vZnBhcGVyL3Jhdy9tYWluL1N=
+ISUJBSU5VX0Vjb3N5c3RlbV9XT09GX1BhcGVyLnBkZg/607f07ceef4b8524a319a23cB4b599e=
+3d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">woof p=
+aper</a>.=E2=80=9D Presumably the India Covid-Crypto Relief Fund can conver=
+t it into real money at some value, presumably hundreds of millions of doll=
+ars, and presumably Buterin didn=E2=80=99t pay very much for it. So the fun=
+d is better off for the donation, and he=E2=80=99s not appreciably worse of=
+f. I don=E2=80=99t know his tax situation and I have no reason to think tha=
+t (1) he has a billion dollars of 2021 income to shelter or (2) he=E2=80=99=
+s going to try to get a billion-dollar charitable deduction for this move.[=
+8] But one could try.=C2=A0</p><h2 style=3D"font-weight: bold; font-family:=
+ &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1p=
+x; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; =
+padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Things happen</h2=
+><p style=3D"margin: 16px 0;">U.S. <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/23834416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjEtMDUtMTMvdS1zLXByb2R1Y2VyLXByaWNlcy1pbmNyZWFzZWQtYnktbW9yZ=
+S10aGFuLWZvcmVjYXN0LWluLWFwcmls/607f07ceef4b8524a319a23cBdd03ae6e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Producer Prices</=
+a> Top Forecasts, Adding to Inflation Pressure. Citigroup Starts <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTMvY2l0aWdyb3VwLXN0YXJ=
+0cy1lYXJseS1pbnRha2UtcHJvZ3JhbS10by1oaXJlLW1vcmUtd29tZW4tYmFua2Vycw/607f07c=
+eef4b8524a319a23cBa56ff554" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Early Intake Program</a> to Hire More Women Bankers. =E2=
+=80=9CGreensill Capital collapsed because it <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20v=
+MjAyMS8wNS8xMS9idXNpbmVzcy9ncmVlbnNpbGwtZGF2aWQtY2FtZXJvbi5odG1s/607f07ceef=
+4b8524a319a23cB13bae374" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">lost insurance coverage</a> for the loans it offered =E2=80=
+=94 not because of its risky business model, Lex Greensill insisted in test=
+imony on Tuesday.=E2=80=9D Bill Gross=E2=80=99s Successor to <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTIvYmlsbC1ncm9zcy1zLXN1Y2N=
+lc3Nvci10by1xdWl0LWF0LTQ0LWFuZC1oaXQtdGhlLXJvYWQtd2l0aC1raWRz/607f07ceef4b8=
+524a319a23cB57b2d081" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Quit at 44</a> and Hit the Road With Kids. Office-space sales=
+man thinks people should <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23834416.275264/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93ZXdvcmstY2Vv=
+LXNheXMtd29ya2Vycy13aG8td2FudC1iYWNrLWludG8tdGhlLW9mZmljZS1hcmUtdGhlLW1vc3Q=
+tZW5nYWdlZC0xMTYyMDgzNzAxOD9tb2Q9ZTJ0dw/607f07ceef4b8524a319a23cB392ad447" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">buy=C2=A0m=
+ore office space</a>. South Korean couples are wooing each other with <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM=
+6Ly93d3cuaW5zaWRlci5jb20veW91bmcta29yZWFuLWNvdXBsZXMtYXJlLWdpZnRpbmctdGVzbG=
+Etc3RvY2tzLW5vdC1mbG93ZXJzLTIwMjEtNQ/607f07ceef4b8524a319a23cB3897e069" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Tesla stocks<=
+/a> =E2=80=94 not flowers =E2=80=94 while dating.=C2=A0Police Arrest Tesla =
+Driver, Saying He Operated Car <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23834416.275264/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wb2xpY2=
+UtYXJyZXN0LXRlc2xhLWRyaXZlci13aG8tb3BlcmF0ZWQtY2FyLWZyb20tYmFjay1zZWF0LWluL=
+WNhbGlmb3JuaWEtMTE2MjA4NTE3OTE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524=
+a319a23cB542e3f85" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">From Back Seat</a>.</p><p style=3D"margin: 16px 0;"><span class=3D=
+"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=
+=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cDovL=
+2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdu=
+dXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319=
+a23cB75b4c0c1" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">subscribe at this link</=
+a>. Or you can subscribe to Money Stuff and other great Bloomberg newslette=
+rs <a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264=
+/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a=
+23cBd228ef0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] W=
+ould it be illegal? I feel like the answer is =E2=80=9Ceventually.=E2=80=9D=
+ If you do this, like, three times, you can say =E2=80=9CI kept changing my=
+ mind.=E2=80=9D You have no obligation to disclose your own intentions or d=
+esires before trading, and it=E2=80=99s perfectly reasonable to buy/sell Bi=
+tcoins first and *then* tweet that Bitcoin is good/bad. After about the thi=
+rd time, though, all of this gets less plausible, and regulators are increa=
+singly going to interpret your trading plus tweeting as dishonest market ma=
+nipulation rather than honest changes of heart. On the other hand, if you a=
+re Elon Musk, you have built up enough of a track record of whimsical incon=
+sistency that maybe you can get away with it for a bit longer.</em></p><p s=
+tyle=3D"margin: 16px 0;"><em>[2]=C2=A0Ugh, fine, Googling =E2=80=9CI bought=
+ a Tesla with Bitcoin=E2=80=9D <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23834416.275264/aHR0cHM6Ly90d2l0dGVyLmNvbS9lZHdpbndlZS9zdGF0dX=
+MvMTM3NTA5NTY5NzUwNzExOTEwND9sYW5nPWVu/607f07ceef4b8524a319a23cB4abf2885" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">turns up</a=
+> a=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.=
+275264/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1GNTNzRllvVFJLUQ/607f07cee=
+f4b8524a319a23cB636c92fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">few results</a>. Still there is no particular reason to bel=
+ieve that the number of Bitcoin-based Tesla sales is material either to Tes=
+la=E2=80=99s business or to the volume of Bitcoin transactions. </em></p><p=
+ style=3D"margin: 16px 0;"><em>[3] By the way: <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuY29pbmRlc2suY2=
+9tL2J1eS10ZXNsYS1iaXRjb2luLWxlbW9uLXJlZnVuZD9jYW1wYWlnbl9pZD00JmVtYz1lZGl0X=
+2RrXzIwMjEwNTEzJmluc3RhbmNlX2lkPTMwNzMyJm5sPWRlYWxib29rJnJlZ2lfaWQ9MTI1MzI3=
+NzUmc2VnbWVudF9pZD01Nzk0NyZ0ZT0xJnVzZXJfaWQ9M2M1YzI1Nzk5NDBiNDJhY2JkOTVkOWJ=
+hMjA2MzFkODM/607f07ceef4b8524a319a23cBb543f97a" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Coindesk has reported</a> that=C2=A0T=
+esla=E2=80=99s refund policy for cars bought with Bitcoins is that you get =
+back (1) your Bitcoins or (2) the dollar value at the time you paid, *at Te=
+sla=E2=80=99s option*, which is a really cool embedded put option. Presumab=
+ly if you buy a Tesla with Bitcoin and ask for your money back, if Bitcoin =
+has gone up Tesla will give you the dollars (and keep=C2=A0the gains on Bit=
+coin), but if Bitcoin has gone down Tesla will give you your Bitcoins back =
+(and avoid the losses). Arguably a better business model than =E2=80=9Csell=
+ good cars at a fair price=E2=80=9D would be =E2=80=9Csell lots of terrible=
+ cars for Bitcoins, pay a lot of refunds, and profit from the embedded put =
+option=C2=A0in your refund policy.=E2=80=9D The cars could be=C2=A0a loss l=
+eader for Bitcoin volatility trading. Dynamically hedge it! Ugh I really sh=
+ould run Tesla, I=E2=80=99d have about as much fun as Musk does but it woul=
+d be different fun.</em></p><p style=3D"margin: 16px 0;"><em>[4] Please do =
+not email me to say that there=E2=80=99s already <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly9jb2lubWFya2V0Y2Fw=
+LmNvbS9jdXJyZW5jaWVzL2V4Y2VsY29pbi8/607f07ceef4b8524a319a23cB6ae34a1e" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">a thing called=
+ ExcelCoin</a>, I don=E2=80=99t care, it was new to me when I <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly90d2l=
+0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXMvODg1NTIyOTg3OTIyOTcyNjcy/607f07ceef4b8=
+524a319a23cB08eb67fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">tweeted about it in 2017</a>.</em></p><p style=3D"margin: 16px=
+ 0;"><em>[5] I think that there=E2=80=99s an argument that this is not actu=
+ally insider trading: You are trading on material nonpublic information (ab=
+out the bombs), but it is information about your own intentions (to bomb th=
+e company) and thus arguably not obtained in breach of a duty of confidence=
+. On the other hand, the information was obtained *illegally*, in the sense=
+ that you shouldn=E2=80=99t have been planting bombs. Maybe it is market ma=
+nipulation. In any case the rule =E2=80=94=C2=A0against insider trading and=
+ market manipulation =E2=80=94=C2=A0is <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2=
+Nmci90ZXh0LzE3LzI0MC4xMGItNQ/607f07ceef4b8524a319a23cB34f4ec34" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Rule 10b-5</a>, which=
+ prohibits =E2=80=9Cany device, scheme, or artifice to defraud =E2=80=A6=C2=
+=A0in connection with the purchase or sale of any security.=E2=80=9D Probab=
+ly covers this? My point in formulating the Fifth Law was really that *this=
+ doesn=E2=80=99t matter*, because whatever securities-law violation it is i=
+t is also *terrorism*, and that=E2=80=99s *worse* than insider trading: You=
+ will get in more trouble for the bombs than you will for the trading.=C2=
+=A0But in metaphorical extensions of the Fifth Law that is sometimes less t=
+rue.</em></p><p style=3D"margin: 16px 0;"><em>[6] Or Colonial Pipeline Co. =
+is not a public company, but presumably if you knew that a big U.S. fuel pi=
+peline=C2=A0was going to be shut down for a week you could have made some g=
+ood trades.</em></p><p style=3D"margin: 16px 0;"><em>[7] For one thing ther=
+e are various limits on charitable deductions, etc. But also the Internal R=
+evenue Service might object to your valuation. Here is <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/23834416.275264/aHR0cHM6Ly93d3cuaXJzLm=
+dvdi9wdWJsaWNhdGlvbnMvcDU2MQ/607f07ceef4b8524a319a23cBed3ef0e2" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">its guidance</a> on t=
+he fair market value of donated property; given that there is an active-ish=
+ market for the joke cryptocurrency, I think you=E2=80=99d probably value i=
+t like a stock or bond, but the IRS has plenty of caveats about how if the =
+market value does not reflect the actual selling price that you=E2=80=99d g=
+et =E2=80=94=C2=A0including due to owning a large illiquid stake =E2=80=94 =
+then you have to correct it.</em></p><p style=3D"margin: 16px 0;"><em>[8] R=
+ex Salisbury <a href=3D"https://link.mail.bloombergbusiness.com/click/23834=
+416.275264/aHR0cHM6Ly90d2l0dGVyLmNvbS9yZXhzYWxpc2J1cnkvc3RhdHVzLzEzOTI1OTMx=
+NzkwOTQ4ODQzNTI/607f07ceef4b8524a319a23cBa03ae65a" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">suggested this idea on Twitter</a>=
+.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB45b61f8e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf7990733" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc3aa966a" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23834416.275264/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8484dd86" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2383=
+4416.275264/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBdb6a03fb" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23834416.275264/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC35fae31c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23834416.275264/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc4217618" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23834416.275264/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBcd50e777" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce6ur4.5we8/c41ca1c5.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_19547215_338303635.1620924415166--
+

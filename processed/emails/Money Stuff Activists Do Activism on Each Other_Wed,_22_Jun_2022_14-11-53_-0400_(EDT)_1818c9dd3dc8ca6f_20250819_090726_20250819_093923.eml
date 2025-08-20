@@ -1,0 +1,1890 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4e10:0:b0:1f2:501d:c564 with SMTP id q16csp4404701lko;
+        Wed, 22 Jun 2022 11:12:42 -0700 (PDT)
+X-Received: by 2002:a05:6000:1ac8:b0:21b:9239:8f28 with SMTP id i8-20020a0560001ac800b0021b92398f28mr4473166wry.517.1655921562524;
+        Wed, 22 Jun 2022 11:12:42 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1655921562; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=l9Kk8+nPdj7xs53K4hV6JLXMsf7uNp8rEdye5eZJyAejy1N+sZJTcxTMsMZsMQRmH7
+         cULaPWE3wsG4z5ZvDRWGiCJzU0I1nLIYjBtJOafzSpMtXd58vt1BK0Ub6JlDDoNNLGV0
+         ytwtA+cBIkoYZJSY/izXyUtVSKkYeZfq/8MBjDiQT0tn5WPrNKhBGUZR0aWkk/5vZI9L
+         8rIn0xsqOA7ZY7dDh49v+mvX5UHrZFhUUH08phHu1cdssydCtdYacrVv94kMNLxwhfQm
+         VkDAjjsb8YUUyWXK67b767sYlX9FMG3qqNAojwjP3PwdFbqxFPygQCjX90y0NlCBpkup
+         DEIw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=TzlcuDODI9UH8bk3y5HRdUBiqf0AxcGNW3Fav9RczOI=;
+        b=se2Sawh/D0aVYCNKQFq4FgIosocJZq1dVTmfCFeO2zd/7gO0KOWXg8mQOGFoN0S5En
+         wcx32gBx4oeZ2993YtcR/ZQ1kQTj85aGJ0xuAguP9To6yXruc/H/SvzstsyX2q6Alwzv
+         RIhBoI8BMwOKTjvlmUa+MVzGQjMP47CIs1wibbv+jCbLwAbMhwC9nXjzWG8l73yFhlVQ
+         IkifRekCF7y4D2W59XJF/FL6Y/E2ilpEDfXuZZ7iawxvF6FzvfLSenWzsMQCsID/fMr9
+         8PJrjX8CS6my/BK1oaXsNWOYq4lqv39EEfkrOgAYEJECLKV64dgE7s+zeo3+STSkXSbF
+         p04g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Gknok07y;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i24-20020a05600c401800b0039dbd9daa42sor45738wmm.16.2022.06.22.11.12.42
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 22 Jun 2022 11:12:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Gknok07y;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=TzlcuDODI9UH8bk3y5HRdUBiqf0AxcGNW3Fav9RczOI=;
+        b=U1AsO47ClPNrfePnPT+YCw0BOlwKRtxaynv6HwShYQxZwjMm9eN9euIS0skVPVn0f0
+         vGfjNZw0pb5KwYm0STjHEF6ivh4YFRhEAcB6QzosfO/N0k6PmwysLvo+D8jka4aMLJb0
+         e7eQ9TebE/oATed2ekNdudMczK4DuEHSGoDL/Mn2fqF/o6Jwli6ZwvpFffJJ2F5kuKfA
+         tSdbweSQLXj9urazrhFNSQxA25VyFRy114z3c1rcjcq418eTryzWGWVJzGQBTCfNvH7V
+         jbO9wEAS7VssEM4AKII5qOg+/Xb+cK7DI5wF3TNy/T/bKVI6zHM4jQkLEek8yTHcFzgP
+         L4XA==
+X-Gm-Message-State: AJIora/lhZLZf0RsFkRHL3v4Xn5h8gKYTqaWawPSJOLO38uEtPZ94oDu
+	xSxNSO4KB9tZ3MBE2VFF6HczgU5CCo1DW0F2G0dHC1WQGoy1QG2YWg==
+X-Received: by 2002:a7b:cb82:0:b0:39e:f9cf:12b7 with SMTP id m2-20020a7bcb82000000b0039ef9cf12b7mr24107184wmi.135.1655921562160;
+        Wed, 22 Jun 2022 11:12:42 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f1c9:0:0:0:0:0 with SMTP id z9csp3861463wro;
+        Wed, 22 Jun 2022 11:12:39 -0700 (PDT)
+X-Received: by 2002:a2e:8083:0:b0:25a:7034:f9c3 with SMTP id i3-20020a2e8083000000b0025a7034f9c3mr2598047ljg.195.1655921559664;
+        Wed, 22 Jun 2022 11:12:39 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1655921559; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=GQTXc7mcYovrJTM5nudYlzn0zos19aXaTAocmwXr+YX0kh5nj8i40VWzBQHFNgiytE
+         5nkWxJ/rTNTAaTccFdcCDolFUEWMu+6JIoG0uayD1Qs1H1tPQ3cj0j/xhXfr98QCHj36
+         wDHHL9gC5cnRUAIUrLSY0LxBjbWKyvpw2I1tFR0Ak5hHE43w5hQkQlxWflmsEiWa1e/S
+         RwIrEzosFxlx6PPZ0kN5Xa5XxgqacUQgi2h1i9z3JS0BgQdieQpdjzA0+s3e+ri/8R7W
+         uRuz+RtGv2OXztBnClCAEMERiVC/5UoRXRx/1ly8hcn6RUxOAj8ayc7RUM07kUgiGrhl
+         ERYw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=TzlcuDODI9UH8bk3y5HRdUBiqf0AxcGNW3Fav9RczOI=;
+        b=RhyPM7mWgAxRa5SQF5uwcV1ASFS0ELooOmHR8Sr8yUb94me8j+bIOonEXyGczjaoxt
+         7rCJwfSfxxBtST0b7Rkc7LTAqQGTi0RnHGiZFrhjwtU/c5jLKc5bMOy78M21PcJ8DI/W
+         voPj/2C2KjNvoRcDgXBs3mlOqzzQD4IbViouLMjXm5S8jqyAZ3LXX6ZeUgM9Yfijpr5j
+         /EQmo2MRZGBaxA4MLD8svzQ9jBbW//z1EKO9P8gE/XHQBWMiFMjIY13cdGCr4GtFuBY+
+         iPcNhwi3ViRmVH43PY7iAEOan+pFpF8pw/V70b7vc7/zNN/AYqAc5zF736bR0C0FhNP7
+         1p6A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Gknok07y;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220622141153.28141627.276598@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220622141153.28141627.276598@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220622141153.28141627.276598@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c16-20020a196550000000b00479543652aasor1285125lfj.130.2022.06.22.11.12.39
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 22 Jun 2022 11:12:39 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220622141153.28141627.276598@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1s6sXHX9VwBkz2kzTYyixDlX4bPGpZAypjfzwD5F7xUc2JRlmTiR8SCzhg9/N2mgRCg5KAR8RvdHu0c7ALnpJcndevLYlk=
+X-Received: by 2002:a05:6512:3408:b0:479:5933:fb7 with SMTP id i8-20020a056512340800b0047959330fb7mr2881333lfr.300.1655921559387;
+        Wed, 22 Jun 2022 11:12:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1655921559; cv=none;
+        d=google.com; s=arc-20160816;
+        b=F5Z7JdgxYkVHB72AwzFp5k/WoUL6hvPIKMx6I0eqxcMbv/VWLgLdFB1E8Dks6WClAK
+         V5FW71QJeM9ckHRRBTYq2cbyQaU+i6IgKGsHX9XUZ2UKN7A2wNByDFD8ClRmvUga1fUf
+         h9nlRNNnGvwudqPXK7lgJJFboj++KQ2ys60cbmUMuVHf1S5i/aIz1UEsTZUr4Q+xywSR
+         T+E4STAKqPYsvi5g1sLxODwp6MovMrEBeuVbIVu9kkb2cNhvPDZ1i71G+4H5F5wvkLjf
+         YdrJDrYXn/vi3T+/Ku9jF/RQZxXbfORBLIo1uK2XDlnrUUTj9GJYFt8HosPoorxoaAFx
+         MrEQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=TzlcuDODI9UH8bk3y5HRdUBiqf0AxcGNW3Fav9RczOI=;
+        b=qnj+gsTdwhQs/KbFVVzhevMQnDPrxojocbXMrxcWMqHaFcw0u3U8O9cCgFqsBaJg8r
+         VDkQSUk1shMDYlyjS+nssQRytxUAe2XuDQkt5eKvzl5AEow1clHOnM+hDhcNtQu7x7BH
+         1dpywPQJ4KHg076dJjsgxeUJ8XZz3YijgZuxj5ccqG+lFRyPfFnOEtJeLpsC3KNknOR0
+         xSs0famBY+DhdBIajcKVr3DJu1qRpsn1oekaa1wxfDEIHUM/JU5wEgSQ+szmJfFmBwL4
+         9OlQfRJfrtjE22d4Z13uQkCTpayiPCkPnvX5y1hml7zwLbP+k6bmNvHUh9NF3mxGXJny
+         y4Nw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Gknok07y;
+       spf=pass (google.com: domain of delivery_20220622141153.28141627.276598@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220622141153.28141627.276598@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220622141153.28141627.276598@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id i34-20020a0565123e2200b0047fa023c4f6si22471lfv.7.2022.06.22.11.12.38
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 22 Jun 2022 11:12:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220622141153.28141627.276598@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=ja3tw08pnXrRv/cwXSg7rTGa36QFqYO5gpexZqzTy6E=;
+ b=Gknok07ypOoLkdo9e9VjUweze8YGBH9vAB47U0eaLqh2uBph/9etYDPJbFA7raNMf7NvrvFHhF9/
+   KqqKQTE6TfpVszBCZyI87IZ9aH3BT/5Ej1Vmb4p+cKhy/H4x5wyXMQxdnhL8Ae9Mywa0jai/woVD
+   oZI5tawRSyPUhu4zUqs=
+Received: from njmta-149.sailthru.com (173.228.155.149) by pmta29.sailthru.com id hmddpa2sd4sv for <bloomberg@khamel.com>; Wed, 22 Jun 2022 14:12:37 -0400 (envelope-from <delivery_20220622141153.28141627.276598@mx.sailthru.com>)
+Received: from nj1-badmanatee.flt (172.18.20.11) by njmta-149.sailthru.com id hmddp81qqbs0 for <bloomberg@khamel.com>; Wed, 22 Jun 2022 14:11:53 -0400 (envelope-from <delivery_20220622141153.28141627.276598@mx.sailthru.com>)
+Date: Wed, 22 Jun 2022 14:11:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220622141153.28141627.276598@sailthru.com>
+Subject: Money Stuff: Activists Do Activism on Each Other
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_72851688_1751853463.1655921513422"
+Precedence: bulk
+X-Feedback-ID: 6358:28141627:campaign:sailthru
+X-TM-ID: 20220622141153.28141627.276598
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-badmanatee.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgr67v.5xfa/a37834f2
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgr67v.5xfa/a37834f2>, <mailto:unsubscribe_20220622141153.28141627.276598@mx.sailthru.com>
+X-rpcampaign: stjko28141627
+
+------=_Part_72851688_1751853463.1655921513422
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Activist vs. activistTraditionally activist hedge funds are, uh, he=
+dge funds. They are privately managed pools of capital in which the inves
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Activist vs. activist
+   =20
+ =20
+Traditionally activist hedge funds are, uh, hedge funds. They are privately=
+ managed pools of capital in which the investors =E2=80=94=C2=A0the limited=
+ partners =E2=80=94=C2=A0do not get much in the way of voting rights. If th=
+e investors in an activist fund do not approve of its activism, they can (p=
+robably, eventually) withdraw their money and invest it somewhere else, but=
+ they can=E2=80=99t, like, vote out the hedge fund=E2=80=99s manager and in=
+stall someone else. Activist hedge funds are not generally themselves susce=
+ptible to activism.In theory you could run an activist strategy out of, say=
+, a mutual fund run by a publicly traded asset manager. But then someone mi=
+ght do an activism on you: try to replace you as manager of the fund, mount=
+ a hostile takeover of your asset-management firm, whatever. This would be =
+embarrassing for you.=C2=A0On the other hand, if you run a hedge fund, your=
+ most important  goal is to continue to  run a hedge fund. One way to do th=
+at is by setting up a permanent capital vehicle: Do some sort of offering o=
+f some sort of entity whose shareholders=C2=A0can=E2=80=99t=C2=A0just get t=
+heir money back, so that you have capital to invest even if investors lose =
+faith in you. Often this entails listing the entity publicly and giving it =
+some voting rights. This can be trouble.Nelson Peltz has some activists:A L=
+ondon-listed fund linked to Nelson Peltz=E2=80=99s Trian Fund Management ha=
+s come under pressure from a group of insurgent investors seeking to shake =
+up its board =E2=80=9Cto improve governance and restore trust=E2=80=9D.Pelt=
+z, known for waging campaigns against the management of companies including=
+ consumer goods group Unilever and asset manager Janus Henderson, has found=
+ himself the target of investors demanding changes at his Trian Investors 1=
+ fund.A committee of investors =E2=80=94 made up of asset managers Global V=
+alue Fund, Invesco, Janus Henderson Investors UK Limited and hedge fund Pel=
+ham Capital =E2=80=94 has served notice to convene an extraordinary general=
+ meeting of its shareholders.Trian Investors 1 was not exactly supposed to =
+be a permanent capital vehicle but:When Trian Investors 1 was listed in Sep=
+tember 2018 it set out to invest into a single publicly listed target, work=
+ to improve the business and then exit the investment and return capital to=
+ shareholders. This model is similar to that employed by Edward Bramson=E2=
+=80=99s activist vehicle, Sherborne Investors.However, last year, ahead of =
+its AGM, the board of Trian Fund 1 proposed a series of changes to the inve=
+stment policy that the committee believes would financially benefit the man=
+ager. Crucially, these changes would=C2=A0allow it to own multiple=C2=A0inv=
+estments simultaneously, and instead=C2=A0of returning all capital and prof=
+its to shareholders=C2=A0after exiting an investment, the manager could rei=
+nvest them.The classic activist move is to demand that corporate managers r=
+eturn capital to shareholders, while the managers say =E2=80=9Cno we have a=
+ long-term plan to enhance shareholder value and would like to use that cap=
+ital ourselves, trust us.=E2=80=9D The applications to fund management are =
+obvious. Also:The participation of the Janus Henderson fund in the activist=
+ group puts the US asset manager in a delicate position since Peltz has bee=
+n pushing for sweeping changes at the company and in February won a seat on=
+ its board.Trian is activisting Janus, and Janus is activisting Trian. The =
+future of activist investing might be all the activists activisting each ot=
+her.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      DAO governance
+   =20
+ =20
+We have talked a lot recently about the mechanics of public-company mergers=
+ and acquisitions. One feature of public M&A that is somewhat odd, when you=
+ think about it in a certain light, is that mergers are subject to sharehol=
+der vote. So in an all-cash acquisition (a big company buying a smaller one=
+, a private equity leveraged buyout, Elon Musk buying Twitter Inc., whateve=
+r), the buyer =E2=80=94=C2=A0Elon Musk or a private equity partner or the c=
+hief executive officer of the acquiring company =E2=80=94=C2=A0will sign a =
+merger agreement that legally binds the buyer to complete the deal (mostly!=
+), while the seller =E2=80=94=C2=A0the chief executive officer of the targe=
+t company =E2=80=94=C2=A0will sign a merger agreement that=C2=A0doesn=E2=80=
+=99t=C2=A0legally bind the target company to complete the deal. In the merg=
+er agreement, the target company generally agrees to something like =E2=80=
+=9Cwe=E2=80=99ll ask our shareholders to approve this deal, and if they do =
+then we=E2=80=99ll do it. But if they don=E2=80=99t, we won=E2=80=99t.=E2=
+=80=9DMost of the time, the shareholders approve the deal, because most of =
+the time the deal is at a premium to the current stock price and shareholde=
+rs are pretty money-motivated. But this is not a law of nature or anything,=
+ and if, for instance, the stock market and the target=E2=80=99s business g=
+et a lot stronger in the months between the signing of the merger agreement=
+ and the shareholder vote, the shareholders could say =E2=80=9Cnah we=E2=80=
+=99re happier on our own=E2=80=9D and vote down the deal. Which they can ju=
+st do. They=E2=80=99re not legally bound by the merger agreement; they can =
+always second-guess what their agents =E2=80=94=C2=A0the board and the CEO =
+=E2=80=94=C2=A0decided.Mergers work this way because it is a specific requi=
+rement of corporate law; the relevant state corporate laws generally requir=
+e a shareholder vote to complete a merger. There are a few other corporate =
+decisions that require shareholder votes,=C2=A0but most don=E2=80=99t. You =
+could imagine a world where every corporate decision =E2=80=94=C2=A0hiring =
+a new employee, selling stock to a new investor, borrowing money from a ban=
+k, signing a contract with a customer or supplier, changing the color of th=
+e logo =E2=80=94=C2=A0was subject to a shareholder vote, but it would be a =
+very=C2=A0unpleasant thing to imagine. How annoying that would be!Or you co=
+uld imagine a slightly different world where the managers of the company co=
+uld do all this stuff =E2=80=94=C2=A0hiring and raising money and signing c=
+ontracts =E2=80=94=C2=A0without consulting the shareholders, but the shareh=
+olders always had a free option to reject the managers=E2=80=99 actions. Th=
+e CEO hires a new chief technology officer, she signs a contract, she start=
+s work, a shareholder says =E2=80=9Chey I don=E2=80=99t like this new CTO,=
+=E2=80=9D the shareholder submits a shareholder proposal to reject her cont=
+ract, the proposal passes at the annual meeting, and the CEO has to call th=
+e CTO in and say =E2=80=9Clook, I know we signed a contract saying you=E2=
+=80=99d be the CTO and get a $5 million equity award, but you have to under=
+stand that that contract was contingent on shareholder approval, or at leas=
+t on shareholder non-rejection, and the shareholders have rejected it for s=
+omewhat whimsical reasons so now the contract isn=E2=80=99t binding.=E2=80=
+=9D This seems like a chaotic and bad way to run a company.A DAO, or a dece=
+ntralized autonomous organization, is like a corporation except that:=09Ins=
+tead of having annual meetings with highly circumscribed ways for sharehold=
+ers to submit non-binding proposals to management, the DAO has a continuous=
+ Discord chat where shareholders can submit=C2=A0proposals anytime they wan=
+t, and those proposals can concern core functions of how the company is run=
+, and the shareholder vote on those proposals is at least kind of binding o=
+n management.=09All the shareholders are really into crypto.And so one thin=
+g that happens is that a DAO can enter into a contract, meaning that the ma=
+nagers of its legal entity can sign a contract binding that legal entity to=
+ do something, and then someone in the Discord chat can say =E2=80=9Cnah I =
+don=E2=80=99t like that contract,=E2=80=9D and then the Discord chat can vo=
+te to reject it, and then =E2=80=A6=C2=A0uh =E2=80=A6=C2=A0I dunno? I think=
+ under traditional legal principles, if the officers of a legal entity sign=
+ a contract binding that legal entity to do something, a later vote by a Di=
+scord chat to reject the contract doesn=E2=80=99t carry much weight. But I =
+think a lot of people who are really into crypto would disagree.Here=E2=80=
+=99s some DAO stuff:On May 20, Honey Barrel, whose online bio describes the=
+m only as a =E2=80=9Cvanquisher of non-frens,=E2=80=9D woke up and chose ch=
+aos. They=E2=80=99re a member of Merit Circle DAO, a decentralized autonomo=
+us organization worth over $370 million that loans non-fungible tokens to p=
+eople who play crypto games but can=E2=80=99t afford the buy-in, according =
+to crypto research startup DeepDAO. In a 2,000-word post on the Merit Circl=
+e DAO forum, Honey Barrel proclaimed that certain Merit Circle investors we=
+ren=E2=80=99t pulling their weight.Their solution? Break the contract with =
+the investor in question, Yield Guild Games, return its money, and show the=
+ world that DAOs aren=E2=80=99t to be messed with. In the normal startup wo=
+rld, one angry blog post would have gotten lost in the depths of tech Twitt=
+er. But in the DAO world, where anyone who holds a token gets a say in the =
+group=E2=80=99s future, the post lit a fire.The proposal from Honey Barrel=
+=E2=80=94an average, albeit vocal member of the organization=E2=80=94threat=
+ens to usher in a new, distinctly investor-unfriendly era in the DAO world.=
+ Because if one DAO breaks its legal contract with an investor, what=E2=80=
+=99s to stop others from doing the same? For venture capital firms that hav=
+e put millions into DAOs=E2=80=94including giants such as Andreessen Horowi=
+tz, Union Square Ventures, Sequoia Capital and Paradigm=E2=80=94the ripple =
+effects could be existential.The proposal passed. The DAO voted to kick one=
+ Merit Circle investor =E2=80=94=C2=A0Yield Guild Games =E2=80=94=C2=A0out =
+of the DAO. YGG had bought its tokens from Merit Circle Ltd. (the legal ent=
+ity connected to the DAO) for about $0.03 each; they were trading at about =
+$1 at the time of the proposal. Merit Circle=E2=80=99s management team, who=
+ presumably understood that =E2=80=9Crefund money to investors who aren=E2=
+=80=99t pulling their weight=E2=80=9D isn=E2=80=99t really a thing, took th=
+is proposal as obliging them =E2=80=9Cto renegotiate the terms of the finan=
+cial agreements made between the DAO and Yield Guild Games=E2=80=9D; they n=
+egotiated an agreement with YGG to buy them out at $0.32, a 10x return on t=
+heir investment but still well below market value, and got the DAO to appro=
+ve that. (Here is a useful Twitter thread from Tim Connors.) Merit Circle a=
+nd YGG put out a rather peeved joint statement:The proposal singled out one=
+ early stakeholder on the basis that it had not provided enough value in re=
+lation to how many tokens it held. Merit Circle Ltd does not agree with thi=
+s view. Yield Guild Games added value in many different ways although they =
+were not often called upon to do so. They were also one of the first ones t=
+o post their transparency & accountability thread to share and create a dia=
+logue with the community.After taking in the proposal and observing the com=
+munity=E2=80=99s feedback, Merit Circle Ltd reached out to Yield Guild Game=
+s. Yield Guild Games worked with Merit Circle Ltd in the hopes of helping M=
+erit Circle Ltd find a workable solution to appease their community whilst =
+honoring the SAFT that Merit Circle Ltd had signed.We both recognized the a=
+rbitrary nature of the MIP-13 proposal and the danger a precedent like this=
+ could set for the Merit Circle DAO and the industry as a whole if agreemen=
+ts are not upheld and investors are not respected. The chosen tool was too =
+crude and did not do justice to prior agreements.The divergence between the=
+ prior agreement and the DAOs proposal would have likely led to legal actio=
+n against Merit Circle Ltd. While the legal question is one that could prob=
+ably be argued at length, both parties agreed it was better to settle. This=
+ would spare both parties from a costly, time-consuming, legal process with=
+ uncertain outcomes. None of the parties had to settle, but both parties ch=
+ose the constructive path to help Merit Circle move forward.Everything is l=
+egal enough (because they settled), but still unnerving. Contracts with DAO=
+s don=E2=80=99t entirely count, if the DAO can reject them. And DAOs don=E2=
+=80=99t entirely count, if the managers can reject the vote of the DAO by s=
+aying =E2=80=9Cwell we signed a contract.=E2=80=9DBy the way, one is tempte=
+d to say, like, =E2=80=9Csmart contracts on the blockchain can solve this=
+=E2=80=9D? Like in a world where the DAO irrevocably issues tokens to inves=
+tors =E2=80=94=C2=A0or one where the DAO=C2=A0revocably=C2=A0issues the tok=
+ens, with revocation explicitly contingent on a token-holder vote or on obj=
+ective measures of performance or whatever =E2=80=94=C2=A0you don=E2=80=99t=
+ have this ambiguity. But in a world where the DAO=E2=80=99s legal entity i=
+s doing normal legal-entity stuff, but also vaguely beholden to the vote of=
+ the DAO, you kind of get the worst of everything.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Egan-Jones
+   =20
+ =20
+Egan-Jones Ratings Co. is a ratings agency that gives credit ratings to deb=
+t deals. The way credit ratings generally work is that an issuer comes to t=
+he ratings agency and asks for a rating, the agency considers the deal and =
+gives it a rating, and the issuer pays the agency for the rating. This crea=
+tes some obvious conflicts of interest that are mostly regulated in=C2=A0ob=
+vious ways. The US Securities and Exchange Commission rules require, for in=
+stance, that the ratings-agency employees who solicit issuers for business,=
+ manage their relationships and collect the fees have to be separate=C2=A0f=
+rom the employees who do the ratings. And there has to be enough process an=
+d documentation that the agency can say =E2=80=9Cwe gave this AAA rating be=
+cause it was justified by the credit, not because they paid us a lot of mon=
+ey.=E2=80=9D=C2=A0In practice this separation seems hard, or at least=C2=A0=
+awkward, to enforce. You can=E2=80=99t really have a rating agency where th=
+e person giving the rating doesn=E2=80=99t=C2=A0talk=C2=A0to the issuer: Yo=
+u need to talk to the issuer to understand the thing that you are rating. I=
+f you talk to the issuer about the deal, and then you say =E2=80=9Cokay I=
+=E2=80=99m giving you a BBB+ rating,=E2=80=9D and the issuer says =E2=80=9C=
+that=E2=80=99s ridiculous, it should be A+ at least, I will never use your =
+ratings agency again, kiss those fees goodbye,=E2=80=9D you=C2=A0can=C2=A0=
+=E2=80=94=C2=A0arguably you=C2=A0should=C2=A0=E2=80=94=C2=A0reply =E2=80=9C=
+that is none of my concern, good day sir,=E2=80=9D but that isn=E2=80=99t e=
+asy. You do get paid out of those fees, after all.Egan-Jones, and its found=
+er and chief executive officer Sean Egan,=C2=A0got in trouble with the SEC =
+yesterday for an assortment of awkwardnesses. Here=E2=80=99s a good one:On =
+July 11, 2019, Client A engaged EJR to issue a rating for a real estate tra=
+nsaction. Although EJR=E2=80=99s typical turnaround time for that type of r=
+ating was approximately five days, on July 23, EJR discovered that the clie=
+nt relationship manager for Client A had failed to submit the ratings reque=
+st to the ratings group.On July 31, Client A emailed EJR=E2=80=99s client r=
+elationship manager to ask about the status of the rating and the reason fo=
+r the delay. In those emails to EJR, Client A complained that the delay was=
+ =E2=80=9Cbeyond ridiculous=E2=80=9D and demanded that the rating be issued=
+ that day by 5:00 p.m. Client A also threatened to cancel the pending ratin=
+g request and stop doing business with EJR.Egan =E2=80=94 who at the time w=
+as EJR=E2=80=99s president and the head of EJR=E2=80=99s ratings group =E2=
+=80=94 spoke to the client relationship manager and stated that Client A wa=
+s an important client for EJR and that he was concerned that EJR could lose=
+ Client A=E2=80=99s business.Later on July 31, Egan called Client A and pro=
+mised that EJR would provide the requested rating later that day. Egan also=
+ told Client A that the client relationship manager was being replaced.=C2=
+=A0This was technically not allowed, or at least frowned upon: Egan was mea=
+nt to be on the ratings side, not the marketing side, so emailing the clien=
+t about replacing the relationship manager was awkward. On the other hand h=
+e=E2=80=99s the CEO and his name is on the door, so when the client was dis=
+pleased he stepped in. The relationship manager really shouldn=E2=80=99t ha=
+ve sat on the request!But Egan also joined the Ratings Review Committee tha=
+t rated the deal:At around 4:30 p.m. on July 31, a half hour before Client =
+A=E2=80=99s deadline, EJR convened an RRC by telephone to vote on a propose=
+d rating for Client A. Egan and a senior EJR analyst (=E2=80=9CAnalyst 1=E2=
+=80=9D) were the voting members of the committee, with Analyst 1 serving as=
+ the chairperson. The presenting analyst on the committee (the =E2=80=9CPre=
+senting Analyst=E2=80=9D) recommended a rating of BBB+ for the transaction.=
+ However, during the RRC meeting, Analyst 1 requested certain information a=
+bout the transaction that she believed was essential for determining an acc=
+urate rating. Because EJR did not have the information that she sought, Ana=
+lyst 1 abstained from voting on the proposed rating. Without a majority of =
+voting members in support, the proposed rating was not approved by the RRC.=
+At approximately 5:13 p.m., Client A sent Egan an email stating: =E2=80=9CW=
+e are passed [sic] 5pm. Where is the rating?=E2=80=9DAt approximately 5:17 =
+p.m., Egan became the chairperson of the RRC. Analyst 1 was replaced with a=
+nother EJR analyst (=E2=80=9CAnalyst 2=E2=80=9D) as the second voting membe=
+r.At 5:21 p.m., Egan and Analyst 2 voted to approve the proposed BBB+ ratin=
+g, which EJR then issued.Again, frowned upon: The analyst didn=E2=80=99t wa=
+nt to approve the rating because some information was missing, and Egan ove=
+rruled her and approved the rating anyway.=C2=A0Again, understandable: Egan=
+-Jones had blown the deadline and annoyed a customer, so asking for more in=
+formation after the deadline would be too awkward. It=E2=80=99s probably fi=
+ne!The customer didn=E2=80=99t think so:Client A, however, was displeased w=
+ith the BBB+ rating, and emailed the Presenting Analyst asking why the rati=
+ng only was BBB+ and noted that EJR had recently rated another, similar tra=
+nsaction for Client A two notches higher. When the Presenting Analyst attem=
+pted to explain the reason for the BBB+ rating, Client A replied, =E2=80=9C=
+Surely you jest. I recommend you go back and verify your models. You must h=
+ave missed something.=E2=80=9D Client A then forwarded those emails to Egan=
+ and asked Egan to call to discuss the rating. ..=C2=A0On August 6 and Augu=
+st 7, 2019, Client A emailed Egan asking him whether there was any =E2=80=
+=9Cupdate=E2=80=9D on the rating.Around this time, Egan, in his capacity as=
+ a member of the prior RRC that had approved the BBB+ rating on July 31, di=
+rected the Presenting Analyst to develop a new rating tool in light of Clie=
+nt A=E2=80=99s concerns about the BBB+ rating. On August 12, EJR convened a=
+nother RRC, with Egan as a voting member and an analyst who had not partici=
+pated in either of the two prior RRCs as the RRC chair and second voting me=
+mber (=E2=80=9CAnalyst 3=E2=80=9D). Neither Analyst 1 nor Analyst 2 was inv=
+ited to serve on this new RRC.The Presenting Analyst again proposed a ratin=
+g of BBB+. Notwithstanding the Presenting Analyst=E2=80=99s recommendation,=
+ and although EJR had received no substantive information from Client A to =
+support a higher rating, Egan and Analyst 3, relying on the new rating tool=
+ referenced above, voted to increase the rating one notch to A-.Yeah I mean=
+ you shouldn=E2=80=99t do that. But at this point Egan was in the customer-=
+service business, and he had a demanding and aggrieved=C2=A0customer, so th=
+e customer got its A- rating. You can tell this as a story about the inhere=
+nt conflicts of interest involved in an issuer-pays ratings model, but it i=
+s not obvious that the=C2=A0fees=C2=A0were the main motivating factor here.=
+ Arguably the irate emails from the customer were what did it. Nobody wants=
+ to get=C2=A0mean emails, and if a one-notch ratings upgrade is what it tak=
+es to stop the mean emails, then that is a small price to pay.There are ass=
+orted other=C2=A0violations in the SEC order, and=C2=A0Egan-Jones agreed to=
+ pay about $1.8 million of fines and disgorgement=C2=A0without admitting or=
+ denying the findings. One that I liked is that, due to an earlier SEC run-=
+in, Egan-Jones is not allowed to rate asset-backed securities or municipal =
+bonds. But the boundary between =E2=80=9Casset-backed security=E2=80=9D and=
+ =E2=80=9Ccomplicated debt of a corporate issuer=E2=80=9D is a bit fuzzy, s=
+o:In late 2016, Client C engaged EJR to rate two tranches of a transaction =
+involving the financing of certain receivables. On January 19, 2017, EJR pr=
+ovided Client C with an indicative rating on the transaction, but at the sa=
+me time questioned whether the transaction might constitute an ABS. EJR ask=
+ed Client C to provide it with the transaction documents to evaluate whethe=
+r the transaction was an ABS.In February and March 2017, EJR issued two mor=
+e indicative ratings on the transaction. EJR informed Client C at this time=
+ that Client C =E2=80=9Cmight be bumping into structured finance if [it] pl=
+an[s] to structure with various tranche [sic].=E2=80=9DBased on a term shee=
+t and other materials received from Client C, on May 3, 2017, EJR issued th=
+e final rating for two tranches of Client C=E2=80=99s transaction in the co=
+rporate ratings class, in which EJR was registered as an NRSRO, rather than=
+ the ABS class in which EJR=E2=80=99s registration had been revoked. EJR is=
+sued those ratings notwithstanding that Client C had not provided the reque=
+sted transaction documents and the question of whether the transaction was =
+an ABS remained unresolved at that time.Eventually Egan-Jones decided that =
+it was an ABS, =E2=80=9Cbut did not withdraw the May 2017 NRSRO rating. Ins=
+tead, EJR told Client C that it would need to restructure the transaction a=
+s a loan or as a note from an operating company in order to receive an upda=
+ted NRSRO rating in the corporate ratings class.=E2=80=9D (Weirdly, the cli=
+ent agreed.)Similarly, the boundaries between corporate bonds and municipal=
+ bonds can be a little vague: Corporations sometimes do projects with or fo=
+r municipalities, and issue bonds to fund them, and those bonds can be corp=
+orate or municipal or somewhere in between. So Egan-Jones rated two =E2=80=
+=9CProperty Assessed Clean Energy (=E2=80=98PACE=E2=80=99)=E2=80=9D bonds f=
+or a corporate client. I don=E2=80=99t know what that is, but then neither =
+did Egan-Jones:=C2=A0=E2=80=9CThe ratings team that generated the rating wa=
+s unfamiliar with the PACE program, and conducted general internet research=
+ on the bond.=E2=80=9D I sympathize. They concluded=C2=A0that it was not a =
+municipal bond; the SEC disagreed.=C2=A0
+ =20
+   =20
+      Twitter Stuff
+   =20
+ =20
+We  talked last week about Thoma Bravo=E2=80=99s deal to acquire Anaplan In=
+c. Thoma Bravo had signed a merger agreement to buy Anaplan for $66 per sha=
+re, but then the market crashed and Thoma Bravo regretted its choices. So i=
+t called Anaplan up and said, in effect, you have to cut the price or we wi=
+ll try to find an excuse to get out of the deal. Anaplan grudgingly agreed =
+to cut the price to $63.75. In exchange, it got:=09Considerably more certai=
+nty that the deal would close, as Thoma Bravo waived various closing condit=
+ions and agreed to a much higher breakup fee; and=09The satisfaction of wri=
+ting a merger proxy statement explaining in great and peevish detail how Th=
+oma Bravo dishonorably demanded a discount on the deal it had agreed to.Wou=
+ld=C2=A0you pay $400 million of shareholder money for the right to vent pub=
+licly about your merger partner retrading the deal? I see the appeal. Anywa=
+y the deal closed today, at $63.75, so it all worked out.Meanwhile, yesterd=
+ay Twitter Inc. filed the revised proxy statement for its deal with Elon Mu=
+sk.=C2=A0Elon Musk signed a merger agreement to buy Twitter for $54.20 per =
+share, but then the market crashed and Musk regretted his choices. So he st=
+arted tweeting excuses to get out of the deal. Those excuses are  not very =
+ good, and as far as I know the deal is still on and Twitter has not agreed=
+ to any sort of price cut. On the other hand Musk=C2=A0keeps talking about =
+those excuses, and Twitter=E2=80=99s stock closed yesterday at $38.91, whic=
+h is very much not $54.20, so the=C2=A0market certainly thinks that he=E2=
+=80=99ll either get out of the deal or get a lower price.In a better world,=
+ Twitter=E2=80=99s revised proxy would be like Anaplan=E2=80=99s, laying ou=
+t a detailed timeline of Twitter=E2=80=99s negotiations with Musk since sig=
+ning the merger agreement, and expressing Twitter=E2=80=99s annoyance with =
+Musk=E2=80=99s excuses. But=C2=A0I suppose that is not a=C2=A0good idea for=
+ Twitter at this point.=C2=A0Here is more or less all they say about it, fr=
+om the Questions and Answers section of the revised proxy:Q: What is the cu=
+rrent status of the transaction?A: Twitter is committed to completing the t=
+ransaction on the agreed price and terms as promptly as practicable. Twitte=
+r and its representatives, and Mr. Musk and his representatives, are meetin=
+g regularly to discuss the transaction and the remaining actions necessary =
+to close the transaction. In connection with these discussions, in accordan=
+ce with the merger agreement, Twitter is providing Mr. Musk and his represe=
+ntatives with information concerning Twitter. Twitter stands behind the acc=
+uracy of its public disclosures, including with respect to its estimates of=
+ false and spam accounts, and is providing information to Mr. Musk related =
+to such disclosures.That is not a particularly complete answer to =E2=80=9C=
+what is the current status of the transaction,=E2=80=9D but I don=E2=80=99t=
+ think anyone knows the real answer.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Powell Says Fed Needs Compelling Evidence of Inflation Slowdown to Alter Ra=
+te-Rise Path. BlackRock Urges SEC to Change  Climate-Risk Disclosure Plan. =
+Binance.US Eliminates Spot Trading Fees on Bitcoin.=C2=A0Former manager at =
+crypto exchange Huobi accused of illicit trading.=C2=A0Short Sellers Are  H=
+aving a Field Day Betting Against Crypto Stocks. Dallas Cowboys Owner Score=
+s on Billion-Dollar Natural-Gas Gambit. Switzerland Imports  Russian Gold f=
+or First Time Since War. Lawyers Make Final Arguments in Fraud Case Against=
+ Former Theranos President. Hong Kong=E2=80=99s landmark Jumbo floating res=
+taurant sinks at sea.=C2=A0The tiny mites that have sex on our faces have a=
+ problem.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email for=
+m, right in your inbox, please=C2=A0subscribe at this link. Or you can subs=
+cribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgr67v.5xfa/20e7d4e2.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_72851688_1751853463.1655921513422
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Activist vs. activistTraditionally activist hedge funds are, uh, hedge fund=
+s. They are privately managed pools of capital in which the inves
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBbaf087c1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB51f0d9fb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCbcd6e883" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Activist vs. activist</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Traditionally activist hedge funds are=
+, uh, hedge funds. They are privately managed pools of capital in which the=
+ investors =E2=80=94=C2=A0the limited partners =E2=80=94=C2=A0do not get mu=
+ch in the way of voting rights. If the investors in an activist fund do not=
+ approve of its activism, they can (probably, eventually) withdraw their mo=
+ney and invest it somewhere else, but they can=E2=80=99t, like, vote out th=
+e hedge fund=E2=80=99s manager and install someone else. Activist hedge fun=
+ds are not generally themselves susceptible to activism.</p><p style=3D"mar=
+gin: 16px 0;">In theory you could run an activist strategy out of, say, a m=
+utual fund run by a publicly traded asset manager. But then someone might d=
+o an activism on you: try to replace you as manager of the fund, mount a ho=
+stile takeover of your asset-management firm, whatever. This would be embar=
+rassing for you.=C2=A0</p><p style=3D"margin: 16px 0;">On the other hand, i=
+f you run a hedge fund, your most important <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMDQvbWVsdmluLWNhcGl0YWwtaW1wcm92ZXMtZnJv=
+bS1nYW1lc3RvcC1yZWRkaXQtc3RydWdnbGU_Y21waWQ9QkJEMDYyMjIyX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIyJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB642acb70" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> goal=
+</a> is to continue to <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMTgtMDctMDUvaXQtcy1iZXR0ZXItdG8tYmUtcmljaC10aGFuLXJpZ2h0P2NtcGlkPUJCR=
+DA2MjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIyMDYyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cB9fb5b712" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> run a hedge fund</a>. One way to do that is by sett=
+ing up a permanent capital vehicle: Do some sort of offering of some sort o=
+f entity whose shareholders=C2=A0<em>can=E2=80=99t=C2=A0</em>just get their=
+ money back, so that you have capital to invest even if investors lose fait=
+h in you. Often this entails listing the entity publicly and giving it some=
+ voting rights. This can be trouble.</p><p style=3D"margin: 16px 0;"><a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aHR0cHM6=
+Ly93d3cuZnQuY29tL2NvbnRlbnQvNWFiNmYzZTQtYjJlNi00MjA0LTg0NjAtNzZhNWYwMTg4Y2Y=
+3/607f07ceef4b8524a319a23cB0ef7ae12" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Nelson Peltz has some activist=
+s</a>:</p><blockquote><p style=3D"margin: 16px 0;">A London-listed fund lin=
+ked to Nelson Peltz=E2=80=99s Trian Fund Management has come under pressure=
+ from a group of insurgent investors seeking to shake up its board =E2=80=
+=9Cto improve governance and restore trust=E2=80=9D.</p><p style=3D"margin:=
+ 16px 0;">Peltz, known for waging campaigns against the management of compa=
+nies including consumer goods group Unilever and asset manager Janus Hender=
+son, has found himself the target of investors demanding changes at his Tri=
+an Investors 1 fund.</p><p style=3D"margin: 16px 0;">A committee of investo=
+rs =E2=80=94 made up of asset managers Global Value Fund, Invesco, Janus He=
+nderson Investors UK Limited and hedge fund Pelham Capital =E2=80=94 has se=
+rved notice to convene an extraordinary general meeting of its shareholders=
+.</p></blockquote><p style=3D"margin: 16px 0;">Trian Investors 1 was not ex=
+actly supposed to be a permanent capital vehicle but:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">When Trian Investors 1 was listed in September 2018 =
+it set out to invest into a single publicly listed target, work to improve =
+the business and then exit the investment and return capital to shareholder=
+s. This model is similar to that employed by Edward Bramson=E2=80=99s activ=
+ist vehicle, Sherborne Investors.</p><p style=3D"margin: 16px 0;">However, =
+last year, ahead of its AGM, the board of Trian Fund 1 proposed a series of=
+ changes to the investment policy that the committee believes would financi=
+ally benefit the manager. Crucially, these changes would=C2=A0allow it to o=
+wn multiple=C2=A0investments simultaneously, and instead=C2=A0of returning =
+all capital and profits to shareholders=C2=A0after exiting an investment, t=
+he manager could reinvest them.</p></blockquote><p style=3D"margin: 16px 0;=
+">The classic activist move is to demand that corporate managers return cap=
+ital to shareholders, while the managers say =E2=80=9Cno we have a long-ter=
+m plan to enhance shareholder value and would like to use that capital ours=
+elves, trust us.=E2=80=9D The applications to fund management are obvious. =
+Also:</p><blockquote><p style=3D"margin: 16px 0;">The participation of the =
+Janus Henderson fund in the activist group puts the US asset manager in a d=
+elicate position since Peltz has been pushing for sweeping changes at the c=
+ompany and in February won a seat on its board.</p></blockquote><p style=3D=
+"margin: 16px 0;">Trian is activisting Janus, and Janus is activisting Tria=
+n. The future of activist investing might be all the activists activisting =
+each other.</p><table class=3D"liveintent-sponsored-content" width=3D"auto"=
+ cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD0663641a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE0663641a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF43564f6a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG43564f6a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">DAO governance</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have talked a lot recently about th=
+e mechanics of public-company mergers and acquisitions. One feature of publ=
+ic M&amp;A that is somewhat odd, when you think about it in a certain light=
+, is that mergers are subject to shareholder vote. So in an all-cash acquis=
+ition (a big company buying a smaller one, a private equity leveraged buyou=
+t, Elon Musk buying Twitter Inc., whatever), the buyer =E2=80=94=C2=A0Elon =
+Musk or a private equity partner or the chief executive officer of the acqu=
+iring company =E2=80=94=C2=A0will sign a merger agreement that legally bind=
+s the buyer to complete the deal (mostly!), while the seller =E2=80=94=C2=
+=A0the chief executive officer of the target company =E2=80=94=C2=A0will si=
+gn a merger agreement that=C2=A0<em>doesn=E2=80=99t=C2=A0</em>legally bind =
+the target company to complete the deal. In the merger agreement, the targe=
+t company generally agrees to something like =E2=80=9Cwe=E2=80=99ll ask our=
+ shareholders to approve this deal, and if they do then we=E2=80=99ll do it=
+. But if they don=E2=80=99t, we won=E2=80=99t.=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">Most of the time, the shareholders approve the deal, because m=
+ost of the time the deal is at a premium to the current stock price and sha=
+reholders are pretty money-motivated. But this is not a law of nature or an=
+ything, and if, for instance, the stock market and the target=E2=80=99s bus=
+iness get a lot stronger in the months between the signing of the merger ag=
+reement and the shareholder vote, the shareholders could say =E2=80=9Cnah w=
+e=E2=80=99re happier on our own=E2=80=9D and vote down the deal. Which they=
+ can just do. They=E2=80=99re not legally bound by the merger agreement; th=
+ey can always second-guess what their agents =E2=80=94=C2=A0the board and t=
+he CEO =E2=80=94=C2=A0decided.</p><p style=3D"margin: 16px 0;">Mergers work=
+ this way because it is a <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/28141627.276598/aHR0cHM6Ly9kZWxjb2RlLmRlbGF3YXJlLmdvdi90aXRsZTgvYzA=
+wMS9zYzA5L2luZGV4Lmh0bWw/607f07ceef4b8524a319a23cB5adc96f3" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">specifi=
+c requirement of corporate law</a>; the relevant state corporate laws gener=
+ally require a shareholder vote to complete a merger. There are a few other=
+ corporate decisions that require shareholder votes,=C2=A0but most don=E2=
+=80=99t. You could imagine a world where every corporate decision =E2=80=94=
+=C2=A0hiring a new employee, selling stock to a new investor, borrowing mon=
+ey from a bank, signing a contract with a customer or supplier, changing th=
+e color of the logo =E2=80=94=C2=A0was subject to a shareholder vote, but i=
+t would be a very=C2=A0unpleasant thing to imagine. How annoying that would=
+ be!</p><p style=3D"margin: 16px 0;">Or you could imagine a slightly differ=
+ent world where the managers of the company could do all this stuff =E2=80=
+=94=C2=A0hiring and raising money and signing contracts =E2=80=94=C2=A0with=
+out consulting the shareholders, but the shareholders always had a free opt=
+ion to reject the managers=E2=80=99 actions. The CEO hires a new chief tech=
+nology officer, she signs a contract, she starts work, a shareholder says =
+=E2=80=9Chey I don=E2=80=99t like this new CTO,=E2=80=9D the shareholder su=
+bmits a shareholder proposal to reject her contract, the proposal passes at=
+ the annual meeting, and the CEO has to call the CTO in and say =E2=80=9Clo=
+ok, I know we signed a contract saying you=E2=80=99d be the CTO and get a $=
+5 million equity award, but you have to understand that that contract was c=
+ontingent on shareholder approval, or at least on shareholder non-rejection=
+, and the shareholders have rejected it for somewhat whimsical reasons so n=
+ow the contract isn=E2=80=99t binding.=E2=80=9D This seems like a chaotic a=
+nd bad way to run a company.</p><p style=3D"margin: 16px 0;">A DAO, or a de=
+centralized autonomous organization, is like a corporation except that:</p>=
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Instead of having annual meetings wit=
+h highly circumscribed ways for shareholders to submit non-binding proposal=
+s to management, the DAO has a continuous Discord chat where shareholders c=
+an submit=C2=A0proposals anytime they want, and those proposals can concern=
+ core functions of how the company is run, and the shareholder vote on thos=
+e proposals is at least kind of binding on management.</li>=09<li style=3D"=
+margin-bottom: 5px;">All the shareholders are really into crypto.</li></ol>=
+<p style=3D"margin: 16px 0;">And so one thing that happens is that a DAO ca=
+n enter into a contract, meaning that the managers of its legal entity can =
+sign a contract binding that legal entity to do something, and then someone=
+ in the Discord chat can say =E2=80=9Cnah I don=E2=80=99t like that contrac=
+t,=E2=80=9D and then the Discord chat can vote to reject it, and then =E2=
+=80=A6=C2=A0uh =E2=80=A6=C2=A0I dunno? I think under traditional legal prin=
+ciples, if the officers of a legal entity sign a contract binding that lega=
+l entity to do something, a later vote by a Discord chat to reject the cont=
+ract doesn=E2=80=99t carry much weight. But I think a lot of people who are=
+ really into crypto would disagree.</p><p style=3D"margin: 16px 0;">Here=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.2=
+76598/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3Rva2Vucy1mb3Itd=
+2UtYnV0LW5vdC1mb3ItdGhlZS1ob3ctYS1kYW8tdHVybmVkLWFnYWluc3Qtb25lLW9mLWl0cy1l=
+YXJsaWVzdC1pbnZlc3RvcnM/607f07ceef4b8524a319a23cB0ac6a405" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">some DAO=
+ stuff</a>:</p><blockquote><p style=3D"margin: 16px 0;">On May 20, Honey Ba=
+rrel, whose online bio describes them only as a =E2=80=9Cvanquisher of non-=
+frens,=E2=80=9D woke up and chose chaos. They=E2=80=99re a member of Merit =
+Circle DAO, a decentralized autonomous organization worth over $370 million=
+ that loans non-fungible tokens to people who play crypto games but can=E2=
+=80=99t afford the buy-in, according to crypto research startup DeepDAO. In=
+ a 2,000-word post on the Merit Circle DAO forum, Honey Barrel proclaimed t=
+hat certain Merit Circle investors weren=E2=80=99t pulling their weight.</p=
+><p style=3D"margin: 16px 0;">Their solution? Break the contract with the i=
+nvestor in question, Yield Guild Games, return its money, and show the worl=
+d that DAOs aren=E2=80=99t to be messed with. In the normal startup world, =
+one angry blog post would have gotten lost in the depths of tech Twitter. B=
+ut in the DAO world, where anyone who holds a token gets a say in the group=
+=E2=80=99s future, the post lit a fire.</p><p style=3D"margin: 16px 0;">The=
+ proposal from Honey Barrel=E2=80=94an average, albeit vocal member of the =
+organization=E2=80=94threatens to usher in a new, distinctly investor-unfri=
+endly era in the DAO world. Because if one DAO breaks its legal contract wi=
+th an investor, what=E2=80=99s to stop others from doing the same? For vent=
+ure capital firms that have put millions into DAOs=E2=80=94including giants=
+ such as Andreessen Horowitz, Union Square Ventures, Sequoia Capital and Pa=
+radigm=E2=80=94the ripple effects could be existential.</p></blockquote><p =
+style=3D"margin: 16px 0;">The proposal passed. The DAO voted to kick one Me=
+rit Circle investor =E2=80=94=C2=A0Yield Guild Games =E2=80=94=C2=A0out of =
+the DAO. YGG had bought its tokens from Merit Circle Ltd. (the legal entity=
+ connected to the DAO) for about $0.03 each; they were trading at about $1 =
+at the time of the proposal. Merit Circle=E2=80=99s management team, who pr=
+esumably understood that =E2=80=9Crefund money to investors who aren=E2=80=
+=99t pulling their weight=E2=80=9D isn=E2=80=99t really a thing, <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28141627.276598/aHR0cHM6Ly90=
+d2l0dGVyLmNvbS9pdHN0aW1jb25ub3JzL3N0YXR1cy8xNTM2NzM0MTUyOTE3MDEyNDgx/607f07=
+ceef4b8524a319a23cBedc09fe1" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">took this proposal</a> as obliging the=
+m =E2=80=9Cto renegotiate the terms of the financial agreements made betwee=
+n the DAO and Yield Guild Games=E2=80=9D; they negotiated an agreement with=
+ YGG to buy them out at $0.32, a 10x return on their investment but still w=
+ell below market value, and got the DAO to approve that. (Here is a useful =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9pdHN0aW1jb25ub3JzL3N0YXR1cy8xNTM2NzM0MTA0NDIyNTIyO=
+Dgx/607f07ceef4b8524a319a23cBcb2bb8ed" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Twitter thread</a> from Tim =
+Connors.) Merit Circle and YGG put out a rather peeved <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28141627.276598/aHR0cHM6Ly9tZWRpdW0uY2=
+9tL3lpZWxkLWd1aWxkLWdhbWVzL21lcml0LWNpcmNsZS1kYW8teWllbGQtZ3VpbGQtZ2FtZXMta=
+m9pbnQtc3RhdGVtZW50LTYyOGQyZTkzM2ZjZg/607f07ceef4b8524a319a23cB8efcc0b9" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">joint statement</a>:</p><blockquote><p style=3D"margin: 16px 0;">The =
+proposal singled out one early stakeholder on the basis that it had not pro=
+vided enough value in relation to how many tokens it held. Merit Circle Ltd=
+ does not agree with this view. Yield Guild Games added value in many diffe=
+rent ways although they were not often called upon to do so. They were also=
+ one of the first ones to post their transparency &amp; accountability thre=
+ad to share and create a dialogue with the community.</p><p style=3D"margin=
+: 16px 0;">After taking in the proposal and observing the community=E2=80=
+=99s feedback, Merit Circle Ltd reached out to Yield Guild Games. Yield Gui=
+ld Games worked with Merit Circle Ltd in the hopes of helping Merit Circle =
+Ltd find a workable solution to appease their community whilst honoring the=
+ SAFT that Merit Circle Ltd had signed.</p><p style=3D"margin: 16px 0;">We =
+both recognized the arbitrary nature of the MIP-13 proposal and the danger =
+a precedent like this could set for the Merit Circle DAO and the industry a=
+s a whole if agreements are not upheld and investors are not respected. The=
+ chosen tool was too crude and did not do justice to prior agreements.</p><=
+p style=3D"margin: 16px 0;">The divergence between the prior agreement and =
+the DAOs proposal would have likely led to legal action against Merit Circl=
+e Ltd. While the legal question is one that could probably be argued at len=
+gth, both parties agreed it was better to settle. This would spare both par=
+ties from a costly, time-consuming, legal process with uncertain outcomes. =
+None of the parties had to settle, but both parties chose the constructive =
+path to help Merit Circle move forward.</p></blockquote><p style=3D"margin:=
+ 16px 0;">Everything is legal enough (because they settled), but still unne=
+rving. Contracts with DAOs don=E2=80=99t entirely count, if the DAO can rej=
+ect them. And DAOs don=E2=80=99t entirely count, if the managers can reject=
+ the vote of the DAO by saying =E2=80=9Cwell we signed a contract.=E2=80=9D=
+</p><p style=3D"margin: 16px 0;">By the way, one is tempted to say, like, =
+=E2=80=9Csmart contracts on the blockchain can solve this=E2=80=9D? Like in=
+ a world where the DAO irrevocably issues tokens to investors =E2=80=94=C2=
+=A0or one where the DAO=C2=A0<em>revocably=C2=A0</em>issues the tokens, wit=
+h revocation explicitly contingent on a token-holder vote or on objective m=
+easures of performance or whatever =E2=80=94=C2=A0you don=E2=80=99t have th=
+is ambiguity. But in a world where the DAO=E2=80=99s legal entity is doing =
+normal legal-entity stuff, but also vaguely beholden to the vote of the DAO=
+, you kind of get the worst of everything.</p><table class=3D"liveintent-fl=
+ex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHb5a1e280" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Egan-Jones</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Egan-Jones Ratings Co. is a ratings ag=
+ency that gives credit ratings to debt deals. The way credit ratings genera=
+lly work is that an issuer comes to the ratings agency and asks for a ratin=
+g, the agency considers the deal and gives it a rating, and the issuer pays=
+ the agency for the rating. This creates some obvious conflicts of interest=
+ that are mostly regulated in=C2=A0obvious ways. The US Securities and Exch=
+ange Commission <a href=3D"https://link.mail.bloombergbusiness.com/click/28=
+141627.276598/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xN=
+2ctNQ/607f07ceef4b8524a319a23cB66c9d1e7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">rules require</a>, for i=
+nstance, that the ratings-agency employees who solicit issuers for business=
+, manage their relationships and collect the fees have to be separate=C2=A0=
+from the employees who do the ratings. And there has to be enough process a=
+nd documentation that the agency can say =E2=80=9Cwe gave this AAA rating b=
+ecause it was justified by the credit, not because they paid us a lot of mo=
+ney.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">In practice this separa=
+tion seems hard, or at least=C2=A0<em>awkward</em>, to enforce. You can=E2=
+=80=99t really have a rating agency where the person giving the rating does=
+n=E2=80=99t=C2=A0<em>talk=C2=A0</em>to the issuer: You need to talk to the =
+issuer to understand the thing that you are rating. If you talk to the issu=
+er about the deal, and then you say =E2=80=9Cokay I=E2=80=99m giving you a =
+BBB+ rating,=E2=80=9D and the issuer says =E2=80=9Cthat=E2=80=99s ridiculou=
+s, it should be A+ at least, I will never use your ratings agency again, ki=
+ss those fees goodbye,=E2=80=9D you=C2=A0<em>can=C2=A0</em>=E2=80=94=C2=A0a=
+rguably you=C2=A0<em>should=C2=A0</em>=E2=80=94=C2=A0reply =E2=80=9Cthat is=
+ none of my concern, good day sir,=E2=80=9D but that isn=E2=80=99t easy. Yo=
+u do get paid out of those fees, after all.</p><p style=3D"margin: 16px 0;"=
+>Egan-Jones, and its founder and chief executive officer Sean Egan,=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0xMTE/607f07ceef4b852=
+4a319a23cBb8d1cf05" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">got in trouble with the SEC yesterday</a> for=
+ an assortment of awkwardnesses. <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/28141627.276598/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2Fk=
+bWluLzIwMjIvMzQtOTUxMjcucGRm/607f07ceef4b8524a319a23cB3d8779f3" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Her=
+e=E2=80=99s a good one</a>:</p><blockquote><p style=3D"margin: 16px 0;">On =
+July 11, 2019, Client A engaged EJR to issue a rating for a real estate tra=
+nsaction. Although EJR=E2=80=99s typical turnaround time for that type of r=
+ating was approximately five days, on July 23, EJR discovered that the clie=
+nt relationship manager for Client A had failed to submit the ratings reque=
+st to the ratings group.</p><p style=3D"margin: 16px 0;">On July 31, Client=
+ A emailed EJR=E2=80=99s client relationship manager to ask about the statu=
+s of the rating and the reason for the delay. In those emails to EJR, Clien=
+t A complained that the delay was =E2=80=9Cbeyond ridiculous=E2=80=9D and d=
+emanded that the rating be issued that day by 5:00 p.m. Client A also threa=
+tened to cancel the pending rating request and stop doing business with EJR=
+.</p><p style=3D"margin: 16px 0;">Egan =E2=80=94 who at the time was EJR=E2=
+=80=99s president and the head of EJR=E2=80=99s ratings group =E2=80=94 spo=
+ke to the client relationship manager and stated that Client A was an impor=
+tant client for EJR and that he was concerned that EJR could lose Client A=
+=E2=80=99s business.</p><p style=3D"margin: 16px 0;">Later on July 31, Egan=
+ called Client A and promised that EJR would provide the requested rating l=
+ater that day. Egan also told Client A that the client relationship manager=
+ was being replaced.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Thi=
+s was technically not allowed, or at least frowned upon: Egan was meant to =
+be on the ratings side, not the marketing side, so emailing the client abou=
+t replacing the relationship manager was awkward. On the other hand he=E2=
+=80=99s the CEO and his name is on the door, so when the client was displea=
+sed he stepped in. The relationship manager really shouldn=E2=80=99t have s=
+at on the request!</p><p style=3D"margin: 16px 0;">But Egan also joined the=
+ Ratings Review Committee that rated the deal:</p><blockquote><p style=3D"m=
+argin: 16px 0;">At around 4:30 p.m. on July 31, a half hour before Client A=
+=E2=80=99s deadline, EJR convened an RRC by telephone to vote on a proposed=
+ rating for Client A. Egan and a senior EJR analyst (=E2=80=9CAnalyst 1=E2=
+=80=9D) were the voting members of the committee, with Analyst 1 serving as=
+ the chairperson. The presenting analyst on the committee (the =E2=80=9CPre=
+senting Analyst=E2=80=9D) recommended a rating of BBB+ for the transaction.=
+ However, during the RRC meeting, Analyst 1 requested certain information a=
+bout the transaction that she believed was essential for determining an acc=
+urate rating. Because EJR did not have the information that she sought, Ana=
+lyst 1 abstained from voting on the proposed rating. Without a majority of =
+voting members in support, the proposed rating was not approved by the RRC.=
+</p><p style=3D"margin: 16px 0;">At approximately 5:13 p.m., Client A sent =
+Egan an email stating: =E2=80=9CWe are passed [sic] 5pm. Where is the ratin=
+g?=E2=80=9D</p><p style=3D"margin: 16px 0;">At approximately 5:17 p.m., Ega=
+n became the chairperson of the RRC. Analyst 1 was replaced with another EJ=
+R analyst (=E2=80=9CAnalyst 2=E2=80=9D) as the second voting member.</p><p =
+style=3D"margin: 16px 0;">At 5:21 p.m., Egan and Analyst 2 voted to approve=
+ the proposed BBB+ rating, which EJR then issued.</p></blockquote><p style=
+=3D"margin: 16px 0;">Again, frowned upon: The analyst didn=E2=80=99t want t=
+o approve the rating because some information was missing, and Egan overrul=
+ed her and approved the rating anyway.=C2=A0Again, understandable: Egan-Jon=
+es had blown the deadline and annoyed a customer, so asking for more inform=
+ation after the deadline would be too awkward. It=E2=80=99s probably fine!<=
+/p><p style=3D"margin: 16px 0;">The customer didn=E2=80=99t think so:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Client A, however, was displeased wi=
+th the BBB+ rating, and emailed the Presenting Analyst asking why the ratin=
+g only was BBB+ and noted that EJR had recently rated another, similar tran=
+saction for Client A two notches higher. When the Presenting Analyst attemp=
+ted to explain the reason for the BBB+ rating, Client A replied, =E2=80=9CS=
+urely you jest. I recommend you go back and verify your models. You must ha=
+ve missed something.=E2=80=9D Client A then forwarded those emails to Egan =
+and asked Egan to call to discuss the rating. ..=C2=A0</p><p style=3D"margi=
+n: 16px 0;">On August 6 and August 7, 2019, Client A emailed Egan asking hi=
+m whether there was any =E2=80=9Cupdate=E2=80=9D on the rating.</p><p style=
+=3D"margin: 16px 0;">Around this time, Egan, in his capacity as a member of=
+ the prior RRC that had approved the BBB+ rating on July 31, directed the P=
+resenting Analyst to develop a new rating tool in light of Client A=E2=80=
+=99s concerns about the BBB+ rating. On August 12, EJR convened another RRC=
+, with Egan as a voting member and an analyst who had not participated in e=
+ither of the two prior RRCs as the RRC chair and second voting member (=E2=
+=80=9CAnalyst 3=E2=80=9D). Neither Analyst 1 nor Analyst 2 was invited to s=
+erve on this new RRC.</p><p style=3D"margin: 16px 0;">The Presenting Analys=
+t again proposed a rating of BBB+. Notwithstanding the Presenting Analyst=
+=E2=80=99s recommendation, and although EJR had received no substantive inf=
+ormation from Client A to support a higher rating, Egan and Analyst 3, rely=
+ing on the new rating tool referenced above, voted to increase the rating o=
+ne notch to A-.</p></blockquote><p style=3D"margin: 16px 0;">Yeah I mean yo=
+u shouldn=E2=80=99t do that. But at this point Egan was in the customer-ser=
+vice business, and he had a demanding and aggrieved=C2=A0customer, so the c=
+ustomer got its A- rating. You can tell this as a story about the inherent =
+conflicts of interest involved in an issuer-pays ratings model, but it is n=
+ot obvious that the=C2=A0<em>fees=C2=A0</em>were the main motivating factor=
+ here. Arguably the irate emails from the customer were what did it. Nobody=
+ wants to get=C2=A0mean emails, and if a one-notch ratings upgrade is what =
+it takes to stop the mean emails, then that is a small price to pay.</p><p =
+style=3D"margin: 16px 0;">There are assorted other=C2=A0violations in the S=
+EC order, and=C2=A0Egan-Jones agreed to pay about $1.8 million of fines and=
+ disgorgement=C2=A0without admitting or denying the findings. One that I li=
+ked is that, due to an <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/28141627.276598/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMj=
+AxMy0yMDEzLTdodG0/607f07ceef4b8524a319a23cB35b57675" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">earlier SEC ru=
+n-in</a>, Egan-Jones is not allowed to rate asset-backed securities or muni=
+cipal bonds. But the boundary between =E2=80=9Casset-backed security=E2=80=
+=9D and =E2=80=9Ccomplicated debt of a corporate issuer=E2=80=9D is a bit f=
+uzzy, so:</p><blockquote><p style=3D"margin: 16px 0;">In late 2016, Client =
+C engaged EJR to rate two tranches of a transaction involving the financing=
+ of certain receivables. On January 19, 2017, EJR provided Client C with an=
+ indicative rating on the transaction, but at the same time questioned whet=
+her the transaction might constitute an ABS. EJR asked Client C to provide =
+it with the transaction documents to evaluate whether the transaction was a=
+n ABS.</p><p style=3D"margin: 16px 0;">In February and March 2017, EJR issu=
+ed two more indicative ratings on the transaction. EJR informed Client C at=
+ this time that Client C =E2=80=9Cmight be bumping into structured finance =
+if [it] plan[s] to structure with various tranche [sic].=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">Based on a term sheet and other materials received f=
+rom Client C, on May 3, 2017, EJR issued the final rating for two tranches =
+of Client C=E2=80=99s transaction in the corporate ratings class, in which =
+EJR was registered as an NRSRO, rather than the ABS class in which EJR=E2=
+=80=99s registration had been revoked. EJR issued those ratings notwithstan=
+ding that Client C had not provided the requested transaction documents and=
+ the question of whether the transaction was an ABS remained unresolved at =
+that time.</p></blockquote><p style=3D"margin: 16px 0;">Eventually Egan-Jon=
+es decided that it was an ABS, =E2=80=9Cbut did not withdraw the May 2017 N=
+RSRO rating. Instead, EJR told Client C that it would need to restructure t=
+he transaction as a loan or as a note from an operating company in order to=
+ receive an updated NRSRO rating in the corporate ratings class.=E2=80=9D (=
+Weirdly, the client agreed.)</p><p style=3D"margin: 16px 0;">Similarly, the=
+ boundaries between corporate bonds and municipal bonds can be a little vag=
+ue: Corporations sometimes do projects with or for municipalities, and issu=
+e bonds to fund them, and those bonds can be corporate or municipal or some=
+where in between. So Egan-Jones rated two =E2=80=9CProperty Assessed Clean =
+Energy (=E2=80=98PACE=E2=80=99)=E2=80=9D bonds for a corporate client. I do=
+n=E2=80=99t know what that is, but then neither did Egan-Jones:=C2=A0=E2=80=
+=9CThe ratings team that generated the rating was unfamiliar with the PACE =
+program, and conducted general internet research on the bond.=E2=80=9D I sy=
+mpathize. They concluded=C2=A0that it was not a municipal bond; the SEC dis=
+agreed.=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Twitter Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMDYtMTMvbWVyZ2VyLWJ1eWVyLXMtcmVtb3JzZS1zb21ldGlt=
+ZXMtd29ya3M_Y21waWQ9QkJEMDYyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIyJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBf48286e3" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> talked last week</a> about T=
+homa Bravo=E2=80=99s deal to acquire Anaplan Inc. Thoma Bravo had signed a =
+merger agreement to buy Anaplan for $66 per share, but then the market cras=
+hed and Thoma Bravo regretted its choices. So it called Anaplan up and said=
+, in effect, you have to cut the price or we will try to find an excuse to =
+get out of the deal. Anaplan grudgingly agreed to cut the price to $63.75. =
+In exchange, it got:</p><ol style=3D"list-style-type: decimal; padding-left=
+: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Considerably =
+more certainty that the deal would close, as Thoma Bravo waived various clo=
+sing conditions and agreed to a much higher breakup fee; and</li>=09<li sty=
+le=3D"margin-bottom: 5px;">The satisfaction of writing a <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/28141627.276598/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE1NDA3NTUvMDAwMTE5MzEyNTIyMTcxNjc3L2QzMzc=
+1NzVkZGVmYTE0YS5odG0jdG9jMzM3NTc1Xzc/607f07ceef4b8524a319a23cBb991f91a" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">merger proxy statement</a> explaining in great and peevish detail how =
+Thoma Bravo dishonorably demanded a discount on the deal it had agreed to.<=
+/li></ol><p style=3D"margin: 16px 0;">Would=C2=A0<em>you </em>pay $400 mill=
+ion of shareholder money for the right to vent publicly about your merger p=
+artner retrading the deal? I see the appeal. Anyway the deal <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/28141627.276598/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE1NDA3NTUvMDAwMTE5MzEyNTIyMTc4MjgyL2Q=
+zMzM5ODZkZXg5OTEuaHRt/607f07ceef4b8524a319a23cBa612aeb9" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">closed tod=
+ay</a>, at $63.75, so it all worked out.</p><p style=3D"margin: 16px 0;">Me=
+anwhile, yesterday Twitter Inc. <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28141627.276598/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhc=
+i9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0/607f=
+07ceef4b8524a319a23cB5bf5546f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">filed the revised proxy statement</a=
+> for its deal with Elon Musk.=C2=A0Elon Musk signed a merger agreement to =
+buy Twitter for $54.20 per share, but then the market crashed and Musk regr=
+etted his choices. So he started tweeting excuses to get out of the deal. T=
+hose excuses are <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+8141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlkPUJ=
+CRDA2MjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIyMDYyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cBc3d59019" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> not</a> very <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZ=
+D1CQkQwNjIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yMjA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cBa05130d5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> good</a>, and as far as I know the deal is s=
+till on and Twitter has not agreed to any sort of price cut. On the other h=
+and Musk=C2=A0keeps talking about those excuses, and Twitter=E2=80=99s stoc=
+k closed yesterday at $38.91, which is very much not $54.20, so the=C2=A0<e=
+m>market</em> certainly thinks that he=E2=80=99ll either get out of the dea=
+l or get a lower price.</p><p style=3D"margin: 16px 0;">In a better world, =
+Twitter=E2=80=99s revised proxy would be like Anaplan=E2=80=99s, laying out=
+ a detailed timeline of Twitter=E2=80=99s negotiations with Musk since sign=
+ing the merger agreement, and expressing Twitter=E2=80=99s annoyance with M=
+usk=E2=80=99s excuses. But=C2=A0I suppose that is not a=C2=A0good idea for =
+Twitter at this point.=C2=A0Here is more or less all they say about it, fro=
+m the <a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276=
+598/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE=
+5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jdG9jMjgzMTE5XzI2/607f07ceef4b8=
+524a319a23cB70c0d453" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Questions and Answers section</a> of the revi=
+sed proxy:</p><blockquote><p style=3D"margin: 16px 0;"><strong>Q: What is t=
+he current status of the transaction?</strong></p><p style=3D"margin: 16px =
+0;">A: Twitter is committed to completing the transaction on the agreed pri=
+ce and terms as promptly as practicable. Twitter and its representatives, a=
+nd Mr. Musk and his representatives, are meeting regularly to discuss the t=
+ransaction and the remaining actions necessary to close the transaction. In=
+ connection with these discussions, in accordance with the merger agreement=
+, Twitter is providing Mr. Musk and his representatives with information co=
+ncerning Twitter. Twitter stands behind the accuracy of its public disclosu=
+res, including with respect to its estimates of false and spam accounts, an=
+d is providing information to Mr. Musk related to such disclosures.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">That is not a particularly complete a=
+nswer to =E2=80=9Cwhat is the current status of the transaction,=E2=80=9D b=
+ut I don=E2=80=99t think anyone knows the real answer.=C2=A0</p><table clas=
+s=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Powell Says Fed Needs Compelling Evide=
+nce of Inflation Slowdown to Alter <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28141627.276598/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wb3=
+dlbGwtc2F5cy1mZWQtbmVlZHMtY29tcGVsbGluZy1ldmlkZW5jZS1vZi1pbmZsYXRpb24tc2xvd=
+2Rvd24tdG8tYWx0ZXItcmF0ZS1yaXNlLXBhdGgtMTE2NTU5MDQ2MTY_bW9kPWhwX2xlYWRfcG9z=
+MQ/607f07ceef4b8524a319a23cBdc5cd73d" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Rate-Rise Path</a>. BlackRock=
+ Urges SEC to Change <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjItMDYtMjEvYmxhY2tyb2NrLWNhbGxzLW9uLXNlYy10by1jaGFuZ2UtY2xpbWF0ZS1yaXNrLWR=
+pc2Nsb3N1cmUtcGxhbj9jbXBpZD1CQkQwNjIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjImdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cBb22634e6" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Climate-Risk Disclos=
+ure</a> Plan. Binance.US <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28141627.276598/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iaW5hbmNlLXVz=
+LWVsaW1pbmF0ZXMtc3BvdC10cmFkaW5nLWZlZXMtb24tYml0Y29pbi0xMTY1NTg5ODM2MD9yZWZ=
+saW5rPWUydHdta3Rz/607f07ceef4b8524a319a23cB577d6545" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Eliminates Spo=
+t Trading Fees</a> on Bitcoin.=C2=A0Former manager at crypto exchange Huobi=
+ accused of <a href=3D"https://link.mail.bloombergbusiness.com/click/281416=
+27.276598/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmY1OWI3NWEtOGM0OC00MWY5LTljM=
+TYtNTljMTYyMmRlMzM5/607f07ceef4b8524a319a23cB12b287a7" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">illicit trad=
+ing</a>.=C2=A0Short Sellers Are <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjItMDYtMjEvc2hvcnQtc2VsbGVycy1oYXZpbmctYS1maWVsZC1kYXktYmV0dGlu=
+Zy1hZ2FpbnN0LWNyeXB0by1zdG9ja3M_Y21waWQ9QkJEMDYyMjIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIyJnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1ada9c09" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Having a=
+ Field Day</a> Betting Against Crypto Stocks. Dallas Cowboys Owner Scores o=
+n Billion-Dollar <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+8141627.276598/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kYWxsYXMtY293Ym95cy1v=
+d25lci1zY29yZXMtb24tYmlsbGlvbi1kb2xsYXItbmF0dXJhbC1nYXMtZ2FtYml0LTExNjU1ODc=
+wODM4P21vZD1ocF9sZWFkX3BvczEx/607f07ceef4b8524a319a23cBb3946eec" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Natural-Gas Gambit</a>. Switzerland Imports <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28141627.276598/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDYtMjEvc3dpdHplcmxhbmQtaW1wb3J0cy1ydXNzaWFuLWdv=
+bGQtZm9yLWZpcnN0LXRpbWUtc2luY2UtaW52YXNpb24_Y21waWQ9QkJEMDYyMjIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNj=
+IyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbb7f001d" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Russian Gold</a> for First Time Since War. Lawyers Make Final Arguments=
+ in Fraud Case Against Former <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28141627.276598/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wcm9zZWN=
+1dG9ycy1tYWtlLWZpbmFsLWFyZ3VtZW50cy1hZ2FpbnN0LWZvcm1lci10aGVyYW5vcy1wcmVzaW=
+RlbnQtMTE2NTU4NDUyNTE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB=
+e934f977" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Theranos</a> President. Hong Kong=E2=80=99s landmark Jumb=
+o floating restaurant <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/28141627.276598/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3dvcmxkLzIwMjI=
+vMDYvMjAvanVtYm8tZmxvYXRpbmctcmVzdGF1cmFudC1ob25nLWtvbmcv/607f07ceef4b8524a=
+319a23cBafbccefd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">sinks at sea</a>.=C2=A0The tiny mites that have s=
+ex on our faces <a href=3D"https://link.mail.bloombergbusiness.com/click/28=
+141627.276598/aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL25ld3NiZWF0LTYxODk0MTg2/607f=
+07ceef4b8524a319a23cB28269088" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">have a problem</a>.</p><p style=3D"m=
+argin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you=
+'d like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in you=
+r inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/28141627.276598/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9p=
+bi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWN=
+lYTY3YQ/607f07ceef4b8524a319a23cB28c916e7" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">subscribe at this link</a>. Or you can subscribe to Money Stuff and oth=
+er great Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28141627.276598/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZX=
+R0ZXJz/607f07ceef4b8524a319a23cBa65ec701" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">here</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6d0af407" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB2f1c9b14" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB94b4fb16" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB90037e2e" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODE0MTYyNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0MTgyMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIb53664b8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28141627&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB4df8e937" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28141627.276598/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa5437ff3" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28141627.276598/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB89097103" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28141627.276598/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8bbaa85d" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+5c73654" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28141627.276598/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+5494c2b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D281416=
+27&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D281416=
+27&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D281416=
+27&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D281416=
+27&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D281416=
+27&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28418225&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgr67v.5xfa/20e7d4e2.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_72851688_1751853463.1655921513422--
+

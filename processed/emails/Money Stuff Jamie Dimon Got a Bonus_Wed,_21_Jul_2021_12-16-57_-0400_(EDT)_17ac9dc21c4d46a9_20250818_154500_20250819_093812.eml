@@ -1,0 +1,1590 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp6489448lkb;
+        Wed, 21 Jul 2021 09:18:05 -0700 (PDT)
+X-Received: by 2002:a17:906:6b8a:: with SMTP id l10mr39746203ejr.509.1626884284831;
+        Wed, 21 Jul 2021 09:18:04 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1626884284; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=rmqvCEWSaBQUig0VVsJhfPkivo//zgtL5luZ/RMah0R65W94eFM1s2g0/iD9+KykO1
+         qAv9QKaH/F+YNdSXP/6g8eeP3yTN85anIEDXxKgIJVpLNgamRVq2PtadR7ianbK6f6ln
+         W+nzQRnXrF5swd6HXl7mPvXemPtj8sxzN3GuuBFMOCzCFFPFC/bpbdxflz0BECNqY6hf
+         rvYGZEP58xQIzn17hUPRmGz77E6xNDx1hIdUUL0IMnbZnv2JiS7QNpFL6lc/3QVXf1QS
+         WOVrfh0IWhkw7hEg2N7PKsAMX/KzT5kWT3BTjqLu2q+urwLMIK/sPztQAixz9mMOcJD4
+         eibQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=hc1qRABLtz17pP1L5uk6hn4EOp4q8hDeH+MZ1ZNTLGA=;
+        b=lo1ndjDlkXVqWb6tQWLsT6VJZFtSJXH+pdJdyJGQlfbwD9cC2CdUdYewcaau9YWM+X
+         R7p+L7X6CNHvtGfLzCATL9mqOHy2qLluK+VpIXwFZ6dzDgfyqEP+6mRnnZsA27eHHIsO
+         13qo5oj3w1YwKbdNBcZwlaxUQq7blJMZoEFKx5l5WnxQCIdOUiPKoDwDxSWqgrQfAEJ+
+         myp70sRYyGMj5VDHZBr97LR2uNBcHpGbKtgjMHjnqVqkDpYeHNhsOAN3ykQLIpJ+XLce
+         y39e05AQBDV2/2RvsiSqk8BZkM6IrE4PF+XXbehArKkxBuykT0NPT9uBeE8SOdpGS6t+
+         G0+Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6VO6qG++;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m12sor2009514ejg.26.2021.07.21.09.18.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 21 Jul 2021 09:18:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6VO6qG++;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=hc1qRABLtz17pP1L5uk6hn4EOp4q8hDeH+MZ1ZNTLGA=;
+        b=LqFWhD+SubzWxOZEc7XhgrjplcHpODr/QW8Ci9wRlJKo8QGvGBGTwiPvQwR+I7cXT/
+         +wQ5c36IPderXiJ4DgYIgxWBNS+9b2KGEQ1xZiq/KyBZAlY6nG4pBSzlIAqcDCCQ8Laq
+         ld5xRCdLiNDce6KIQ5/R9ttKylcYo6cIwa6QKvANuDSb5/yaGwJ+upcbCvIiCYaimnvU
+         TdU86Lq9J+RtzM+RPjz1YCBCtnEGadhc0/zjlirjzE3kgykna8tK8fX9fS2Ygq0zX7BS
+         ohnw+QcVTk1SQIYaL7rZUT0My4qJue0nSj8nwaTkJeYFmS0Z6Vc7h2J4bimw/vc2lK8d
+         kVyQ==
+X-Gm-Message-State: AOAM533PQ8Iwo3wgd5wk80Ya+ZEAqwjlmjM5/waC2817FyL6PiqBvtCj
+	weeruh7tWEcSHoKZKONKtkielDh9q7FFtVDY5cN0tPB88QUGk9RjdA==
+X-Received: by 2002:a17:907:6289:: with SMTP id nd9mr38812476ejc.384.1626884284579;
+        Wed, 21 Jul 2021 09:18:04 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:314a:0:0:0:0:0 with SMTP id k10csp6698741ecs;
+        Wed, 21 Jul 2021 09:18:02 -0700 (PDT)
+X-Received: by 2002:a2e:8116:: with SMTP id d22mr20071987ljg.113.1626884282076;
+        Wed, 21 Jul 2021 09:18:02 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1626884282; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=RhsultfsfpToQ/sjsjtpBS8hZTJXfWVRFkMIhjmOP47neBJXLmn89KOd1/PGmMqs6H
+         1EtNIym3dpoIlr432AyzBWxLQA9/+lTcqlipbMQ32A9Gzoa3UtcZbjEwCYzTv4q5kR9O
+         Mu7A6YYlAgC8CCYjfMAk1cT2cN4OSEi5kA9pgac0zigKY/v3NlJHrRa9pATu4uvrzA/E
+         AmHaD/nq/y1R3JF+cYYGQKj37yNMzoFm/wNGq1BERqIHs8Nu14yAMR7VDIEpL9SatW53
+         NX7WROfFxOiKN1OtU+VFmk1J+wFW6c4HdtWHqiBwOJ4KjfcWgMtrvcOQUw6tX/cFL7a7
+         f/nA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hc1qRABLtz17pP1L5uk6hn4EOp4q8hDeH+MZ1ZNTLGA=;
+        b=0V9VlBxFB7AgoBfGPGr78eG5yJ7H6x39gUCLaWbkFaV9vXF5E0W41El4zLQAEeAJ1G
+         BF8J3+HclnXUtaBNpjrnLfc3En/OenisZU9SQLbj4G4+uERpj1Lep0QLCyjIPdKfIYsz
+         yKO1DfbaGzSxr7LAXXiFbv5gSahD5J+6w33I+V2JAsiSZLArp06DBzfvXk0ky1PdT8n6
+         AlEf0+AIUqISczaqasdDxZD7mnSISprXbR/Lm6xufVpEpYhyBggEoCUAMog+7xQ0AZeR
+         NTwsuDJAPjjXe5LGGDTWapsKKJXeupyjwOMeNV6NEWu7sFZf1sZ/UFiSyjstYgYIUsB2
+         vWRw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6VO6qG++;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210721121657.24514165.265021@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210721121657.24514165.265021@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210721121657.24514165.265021@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 22sor795649lfz.52.2021.07.21.09.18.01
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 21 Jul 2021 09:18:02 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210721121657.24514165.265021@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwrxyeMyjAGzLbGYGhdIShk+zB/Wmp03VaxvvaxXmn0Lwr282C0+W8qsATL3JjsxWLVXhPIXvweKs40NMqktX+x5V71O8k=
+X-Received: by 2002:ac2:5095:: with SMTP id f21mr26727828lfm.139.1626884281455;
+        Wed, 21 Jul 2021 09:18:01 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1626884281; cv=none;
+        d=google.com; s=arc-20160816;
+        b=I6RBzxuO88mRn3jYPeyTbaqXeCJtulA8HzQTHQfT4XoHXZueAVUe90HWHRL9+FpmKP
+         7uvLPaFRm7cVu8wDexf9BYbK40e/IBrXIy891jEOe+XvZ1qwCqUhkeOI4zcvGmos5z8T
+         aZuCrtTJNVD66GqSbvAkA1sw00+GrlHYMyGsgFE4oO+/FTr4NzHw7FpaZo/owKZXqkmM
+         trWaRhymUKlZW+1/xvvPt/GGa+Nrnksh353q/6sUq7c2QHvtEG5EK5CtIUhKksySAZ+V
+         zhzgp894gvCvdprqzoBtgIOuyASgHa0UHveOCKA0IhgC2flqJsPXuyDDa27SEmdDxkrG
+         e/5A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hc1qRABLtz17pP1L5uk6hn4EOp4q8hDeH+MZ1ZNTLGA=;
+        b=r7hnO8fPikAaDGzIPcSe2qQD8dXW1mT+AgWit/7MK8Ut7CXXgbXlfDs54x6CRZLmHM
+         PkoAjlS2V1jxJCzgx9uGdVYzHxkkjIF2aEJGgiCjHRovsXoIxOwfK3GzguVJAojSZDVg
+         Xd9UIj69TUZBrHZNJZHlT/DcxpARxAl+1KXRFwlDfdMxhw1SAPuFQsIaXzJrfE6yTitr
+         rVCTPIc0p5jQLpHqkDv71ft1B1rIBchdmshRB336J7ThZ0ifGgYKJFc3apAfvO0QKOde
+         peSiavOBc9oFByU07pgSzdTndgvt9mNN7aeDauv+y5SjUzcwvtTijfJp2mX/rzIZjLWw
+         4cGA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6VO6qG++;
+       spf=pass (google.com: domain of delivery_20210721121657.24514165.265021@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210721121657.24514165.265021@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210721121657.24514165.265021@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id b12si992169lfb.9.2021.07.21.09.18.00
+        for <khamel83@gmail.com>;
+        Wed, 21 Jul 2021 09:18:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210721121657.24514165.265021@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=eAYA0nECip7gzDiPv6zPgBdG1vk=;
+ b=6VO6qG++lx71gfqyXaWLIvDc8oNkD1kyW8spral0ZpBziRPzuYEzjNcLwzXNGxwjijxDcCsJpxy5
+   mLszEabhvSHQTIysMEANeRXYyGA5WeZINzfzNcP5tuBicnZKSn+e2fsUYjpQU/EMnpqq6HUE6ma9
+   7ASB2fQbyUyhPCcwHgA=
+Received: from mtast-04.sailthru.com (204.153.121.10) by bloomberg-b.sailthru.com id hv14bi1qqbs4 for <bloomberg@khamel.com>; Wed, 21 Jul 2021 12:18:00 -0400 (envelope-from <delivery_20210721121657.24514165.265021@mx.sailthru.com>)
+Received: from nj1-madforest.flt (172.18.20.33) by mtast-04.sailthru.com id hv14bg1s6j0o for <bloomberg@khamel.com>; Wed, 21 Jul 2021 12:16:57 -0400 (envelope-from <delivery_20210721121657.24514165.265021@mx.sailthru.com>)
+Date: Wed, 21 Jul 2021 12:16:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210721121657.24514165.265021@sailthru.com>
+Subject: Money Stuff: Jamie Dimon Got a Bonus
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11107887_553991818.1626884217533"
+Precedence: bulk
+X-Feedback-ID: 6358:24514165:campaign:sailthru
+X-TM-ID: 20210721121657.24514165.265021
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23celf91.5ohp/ec1b8ec1
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23celf91.5ohp/ec1b8ec1>, <mailto:unsubscribe_20210721121657.24514165.265021@mx.sailthru.com>
+X-rpcampaign: stjko24514165
+
+------=_Part_11107887_553991818.1626884217533
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Executive comp
+   =20
+ =20
+What happened  here?Jamie Dimon=E2=80=99s five-year retirement joke just go=
+t serious.The billionaire chief executive officer of JPMorgan Chase & Co. w=
+as granted a special gift to persuade him to lead the biggest U.S. lender f=
+or another =E2=80=9Csignificant number of years.=E2=80=9D He was awarded 1.=
+5 million stock appreciation rights, which are like options and will let hi=
+m capture a profit if the stock price rises in the coming years. =E2=80=A6=
+=E2=80=9CThis special award reflects the board=E2=80=99s desire for Mr. Dim=
+on to continue to lead the firm for a further significant number of years,=
+=E2=80=9D JPMorgan=E2=80=99s board said in a regulatory filing Tuesday.Dimo=
+n=E2=80=99s options are worth around $50 million on paper, according to Ter=
+ry Adamson, an equity-valuation specialist who=E2=80=99s the managing direc=
+tor of Technical Compensation Advisors. JPMorgan didn=E2=80=99t disclose it=
+s own valuation of them.The board gave the award to motivate Dimon, who alr=
+eady has a $2.1 billion fortune, to keep doing his job well. Dimon, who rec=
+eived $31.5 million in compensation for 2020, won=E2=80=99t be able to exer=
+cise the options for at least five years, and must hold any net shares gain=
+ed from the award until mid-2031.July is not a particularly traditional tim=
+e for financial-industry bonuses? Was he =E2=80=A6=C2=A0considering taking =
+another job? Did he get an exciting=C2=A0offer to build a mid-tier regional=
+ bank into a global powerhouse, and JPMorgan scrambled to match it? Or did =
+he come to the board and say =E2=80=9Chey I=E2=80=99ve been doing this for =
+a long time, I=E2=80=99ve had a good run, I=E2=80=99ve accomplished most of=
+ what I want to accomplish, I=E2=80=99ve provided well for my family what w=
+ith my $2.1 billion fortune, and now I=E2=80=99d like to retire and spend m=
+ore time with them=E2=80=9D and the board was like =E2=80=9Coh no, we need =
+you to stick around for another decade, would increasing your net worth by =
+2.4% change your mind=E2=80=9D and he was like =E2=80=9Coh man I could real=
+ly use 50 million more dollars, I=E2=80=99ll do it=E2=80=9D?=C2=A0My model =
+for executive compensation at the very high end =E2=80=94=C2=A0where Dimon =
+and, like, Elon Musk reside =E2=80=94=C2=A0is that these are people who hav=
+e moved beyond being motivated by money, who cannot realistically buy any m=
+ore lifestyle with more money, but it=E2=80=99s still nice to feel loved, a=
+nd the love language of a public-company board is pretty much always going =
+to be options grants. My model is that the board got together and said =E2=
+=80=9Chey Jamie has been doing a great job lately but he looks a little tir=
+ed, we should do something to cheer him up and let him know that we=E2=80=
+=99re thinking of him,=E2=80=9D and one director suggested leaving a Post-I=
+t note on his monitor saying =E2=80=9Cjust wanted to say that we appreciate=
+ you,=E2=80=9D and another director was like =E2=80=9Chey that's a great id=
+ea but let's also put $50 million under the note=E2=80=9D and everyone else=
+ was like =E2=80=9Coh well of course yes $50 million.=E2=80=9D And he walke=
+d in to see the filing and was like =E2=80=9Coh that was nice of them=E2=80=
+=9D and smiled for a minute and got back to work and never thought of the $=
+50 million again, it's just $50 million, who cares.It is weird though. It i=
+s hard for me to imagine how an extra $50 million could add anything to Dim=
+on=E2=80=99s motivation. (=E2=80=9CThe purpose of this award is to motivate=
+ your future performance for future services,=E2=80=9D says the award agree=
+ment.) Presumably he already cares a lot about his reputation, and about=C2=
+=A0the bank that he helped to build and that he=E2=80=99s run for the last =
+16 years? And to the extent he=E2=80=99s motivated by money, presumably his=
+ 9.4 million shares of JPMorgan stock already provide a lot of incentive to=
+ make the stock go up.On the other hand it does seem like this award would =
+be=C2=A0bad=C2=A0for the motivation of Dimon=E2=80=99s senior lieutenants a=
+nd potential successors? It has been a long-running joke in finance that Di=
+mon=E2=80=99s successors keep leaving before he does. The latest round of =
+=E2=80=9Chere are some new Jamie Dimon=C2=A0successors=E2=80=9D was just tw=
+o months ago; it can=E2=80=99t be all that reassuring for them that the boa=
+rd almost immediately decided to give Dimon $50 million more to stick aroun=
+d until they leave too.=C2=A0
+ =20
+   =20
+      Crypto interest
+   =20
+ =20
+A lot of the legal action in crypto in the U.S. is about whether various cr=
+ypto things are securities. If a crypto thing is a security, then it basica=
+lly needs to be=C2=A0(1)=C2=A0registered with the U.S. Securities and Excha=
+nge Commission, (2) only sold to =E2=80=9Caccredited investors=E2=80=9D (wi=
+th $1 million of net worth or $200,000 of annual income)=C2=A0or (3) not of=
+fered in the U.S. If it=E2=80=99s not a security, then there=E2=80=99s a lo=
+t more flexibility to sell it and trade it widely.Some crypto things are se=
+curities, some are not, and a lot are sort of unclear. Bitcoin is not a sec=
+urity. Ethereum is probably not a security. A few years ago there was a big=
+ vogue for initial coin offerings=C2=A0to fund all sorts of platforms and b=
+usinesses, which were sold widely because people thought they might not be =
+securities; the SEC  took a very hard line that they were basically all sec=
+urities, and the ICO boom died down.A very popular crypto thing these days =
+is what I=E2=80=99ll loosely call =E2=80=9Clending programs.=E2=80=9D You o=
+wn some cryptocurrency coins, you pop them into some sort of pool, the pool=
+ uses your coins to make money (by market making, or by proprietary trading=
+, or by lending them out to people who want to borrow crypto), and the pool=
+ shares the money it makes with you. Lots of =E2=80=9Cyield farming=E2=80=
+=9D and =E2=80=9Cautomated market making=E2=80=9D programs have this basic =
+structure, and it is very popular in the decentralized-finance world.It is =
+also obviously a security? In U.S. law, the =E2=80=9CHowey test=E2=80=9D sa=
+ys that something is a security if =E2=80=9Cthere is the investment of mone=
+y in a common enterprise with a reasonable expectation of profits to be der=
+ived from the efforts of others.=E2=80=9D The test comes from a 1946 Suprem=
+e Court case=C2=A0in which investors bought rows of orange trees in Florida=
+ and agreed to let the Howey Company manage the trees, harvest and sell the=
+ fruit, and give the investors a share of the proceeds. Oranges, and orange=
+ trees, and land, are not securities, but=C2=A0that deal=C2=A0is a security=
+: You are buying orange trees, letting someone else manage them, and collec=
+ting a yield from their managerial efforts.=C2=A0Similarly, Bitcoins are no=
+t a security, but buying Bitcoins, popping them into a pool managed by some=
+one else, and collecting a yield from that pool is pretty clearly a securit=
+y? I suppose if the =E2=80=9Csomeone else=E2=80=9D is a smart contract rath=
+er than a human manager =E2=80=94=C2=A0if it's an automated market maker wh=
+ere you can review the source code for yourself=C2=A0and where no one has d=
+iscretion to change it =E2=80=94=C2=A0then you have an interesting argument=
+. (Maybe it=E2=80=99s not a security because the profits are not =E2=80=9Cd=
+erived from the efforts of others,=E2=80=9D exactly, or maybe it=C2=A0is=C2=
+=A0a security but there=E2=80=99s no one for the SEC to sue.) But if some c=
+orporate entity manages the lending or trading or market-making pool then t=
+here is going to be trouble.So we  talked last month about an SEC enforceme=
+nt action against BitConnect, a Bitcoin pooled-investment product that supp=
+osedly earned its yield from a proprietary =E2=80=9CTrading Bot=E2=80=9D th=
+ough it might have actually been a Ponzi. The SEC=E2=80=99s case, though, w=
+as agnostic about the Ponzi stuff; the SEC=E2=80=99s point was that it was =
+an=C2=A0unregistered securities offering.And now here=E2=80=99s this:New Je=
+rsey ordered the cryptocurrency platform BlockFi Inc to stop offering inter=
+est-bearing accounts that have raised $14.7 billion from investors, the sta=
+te's acting attorney general said on Tuesday.A cease and desist order from =
+New Jersey's Bureau of Securities said BlockFi's accounts were not register=
+ed with that office or exempt from registration, and their sale violated Ne=
+w Jersey securities laws. ...According to the order, investors can buy Bloc=
+kFi Interest Accounts by depositing cryptocurrencies such as Bitcoin and Et=
+hereum with the company, which uses them to fund lending operations and pro=
+prietary trading.The order said BlockFi offers yields from 0.25% to 7.5%, d=
+epending on how much and which assets are deposited. ...BlockFi said in a s=
+tatement it disagreed with the order because the accounts were not securiti=
+es.It also said it remained fully operational for existing New Jersey clien=
+ts, and believed its products are "lawful and appropriate for crypto market=
+ participants."Here are the Bureau of Securities press release and order. I=
+ suppose the question is whether the interest accounts are=C2=A0pooled inve=
+stments=C2=A0(in proprietary trading or lending operations) or just=C2=A0lo=
+ans to BlockFi denominated in Bitcoin, which would not be a security. =E2=
+=80=9CBlockFi states that the interest rates payable by BlockFi on BIAs are=
+ subject to change in BlockFi=E2=80=99s sole discretion and may change mont=
+hly,=E2=80=9D says the Bureau=E2=80=99s order, which quotes BlockFi=E2=80=
+=99s website saying =E2=80=9Cthe interest we are able to pay is based on th=
+e yield we=E2=80=99re able to generate.=E2=80=9D It sure sounds like an inv=
+estment of money in a common enterprise with a reasonable expectation of pr=
+ofits to be derived from the efforts of others? I think there are going to =
+be more cases like this.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+For over 20 years, Selective Search Matchmakers have protected our clients=
+=E2=80=99 time, privacy and preferences in their search for love. Customize=
+d searches that employ proven executive search methodologies have resulted =
+in love for thousands of couples.
+
+Get started with a complimentary consultation.
+
+                                    Selective Search LLC.
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Insider hacking
+   =20
+ =20
+If you hack into a company=E2=80=99s computers and steal its earnings relea=
+se=C2=A0before it=E2=80=99s public, and then you trade the company=E2=80=99=
+s stock based on the earnings release, is that insider trading? There is an=
+ argument that it isn=E2=80=99t: You are not an=C2=A0insider, you had no du=
+ty of trust and confidence to the company, you just hacked into its compute=
+rs and stole inside information. By the letter of the Securities and Exchan=
+ge Commission=E2=80=99s insider trading rule, it would seem that you are no=
+t guilty of insider trading.My slightly more expansive view of the matter i=
+s that =E2=80=9Cinsider trading=E2=80=9D means (1) trading on material nonp=
+ublic information that (2) you got in a bad way. Getting material nonpublic=
+ information by hacking is clearly a bad way to get it, so you insider trad=
+ed. This is, I think, fairly intuitive. We have talked a  couple of  times =
+about an insider trading bill that has been proposed in Congress and passed=
+ the=C2=A0House of Representatives that uses this intuitive standard (=E2=
+=80=9Cobtained wrongfully=E2=80=9D), but it is not yet the law.So it=E2=80=
+=99s a bit murky but, you know, don=E2=80=99t actually do this. Even if it =
+is not =E2=80=9Cinsider trading,=E2=80=9D you=E2=80=99re gonna get in troub=
+le for it. Insider trading is not a separate crime; it is a variety of secu=
+rities fraud, a violation of Section 10(b) of the Exchange Act, which prohi=
+bits using =E2=80=9Cany manipulative or deceptive device=E2=80=9D =E2=80=9C=
+in connection with the purchase or sale of any security,=E2=80=9D and of Ru=
+le 10b-5, which prohibits using =E2=80=9Cany device, scheme, or artifice to=
+ defraud =E2=80=A6=C2=A0in connection with the purchase or sale of any secu=
+rity.=E2=80=9D=C2=A0Insider trading is just treated as a kind of =E2=80=9Cm=
+anipulative or deceptive device.=E2=80=9D But so is hacking, probably. If i=
+t=E2=80=99s not insider trading, it=E2=80=99s exactly as bad as insider tra=
+ding and prohibited by exactly the same statute.=C2=A0 We talked way back i=
+n 2015 about some hackers who hacked into the news wires =E2=80=94=C2=A0the=
+ services that store companies=E2=80=99 press releases before they are rele=
+ased =E2=80=94=C2=A0and got thousands of earnings releases early, and then =
+sold those earnings releases to traders who used them to make money. =E2=80=
+=9CBig hacker insider trading charges,=E2=80=9D I called them. Were they? T=
+wo traders were convicted of securities fraud based on this, and they appea=
+led, and on Monday the U.S. Court of Appeals for the Second Circuit decided=
+ the appeals.[1] One of the traders argued that he could not have committed=
+ securities fraud:To challenge his convictions on these substantive securit=
+ies fraud counts, Korchevsky first argues that the government could not pro=
+ve he engaged in a =E2=80=9Cscheme or artifice to defraud=E2=80=9D within t=
+he meaning of Rule 10b-5. Specifically, he claims the proof necessarily fai=
+led because he did not owe a fiduciary duty to investors or potential inves=
+tors in the companies whose press releases were stolen, and because any dec=
+eption employed to obtain the releases did not target the investors. Second=
+, Korchevsky argues that the type of=C2=A0computer hacking used to access M=
+arketwired=E2=80=99s systems=E2=80=94the conduct charged in Count Four=E2=
+=80=94did not constitute a =E2=80=9Cdeceptive device or contrivance=E2=80=
+=9D within the meaning of Section 10(b).The Second Circuit disagreed:First,=
+ we dispatch Korchevsky=E2=80=99s contention that he did not engage in a =
+=E2=80=9Cscheme or artifice to defraud.=E2=80=9D Although a fiduciary duty =
+is relevant to other securities violations=E2=80=94e.g., insider trading=E2=
+=80=94it need not be shown to prove the securities fraud charged here: frau=
+dulent trading in securities by an outsider.=C2=A0Further, Korchevsky=E2=80=
+=99s assertion that the deception must have targeted investors contradicts =
+the plain language of Rule 10b-5. The deception need only be =E2=80=9Cin co=
+nnection with the purchase or sale of any security,=E2=80=9D and here it wa=
+s. The newswire hacking directly prompted and enabled the charged securitie=
+s trading. Indeed, the ensuing trades needed to occur soon after a press re=
+lease was illicitly obtained from=C2=A0a newswire=E2=80=99s servers, but be=
+fore the newswire could publish the release, in order to maximize the hacke=
+d information=E2=80=99s value.Second, we find that the hack of Marketwired=
+=E2=80=99s systems qualified as a =E2=80=9Cdeceptive device or contrivance=
+=E2=80=9D under Section 10(b). ...=C2=A0Every time the hackers attempted to=
+ access parts of the system by entering stolen credentials, they misreprese=
+nted themselves to be authorized users. =E2=80=9C[M]isrepresenting one=E2=
+=80=99s identity in order to gain access to information that is otherwise o=
+ff limits, and then stealing that information is plainly =E2=80=98deceptive=
+=E2=80=99 within the ordinary meaning of the word.=E2=80=9DThe logic there =
+feels a little strange =E2=80=94=C2=A0they deceived Marketwired, which allo=
+wed them to make money from=C2=A0investors; all in all they did securities =
+fraud, but don=E2=80=99t ask=C2=A0who=C2=A0they defrauded =E2=80=94=C2=A0un=
+til you remember that it=E2=80=99s exactly the logic of insider trading. =
+=E2=80=9CInsider trading is not about fairness, it=E2=80=99s about theft,=
+=E2=80=9D I  often  say: In insider trading, you get in trouble for the com=
+bination of (1) betraying your duty of confidence to the owner of the infor=
+mation (your employer, your  golf buddy, etc.) and (2) using the informatio=
+n to make money by trading stock with strangers. You are I suppose doing a =
+securities fraud on the people who trade with you, but you=E2=80=99re not r=
+eally deceiving them; it=E2=80=99s the combination of betraying one person =
+and making money from another that creates insider trading. Same with hacki=
+ng-based insider trading. Which I am going to continue to call =E2=80=9Cins=
+ider trading=E2=80=9D even if the Second Circuit doesn=E2=80=99t.
+ =20
+   =20
+      Wall Street culture
+   =20
+ =20
+My shameful secret vice is I basically agree  with this:There=E2=80=99s a r=
+eason junior bankers just starting out on Wall Street work 12-hour days, si=
+x days a week, says Mary Erdoes, chief executive officer of JPMorgan Chase =
+& Co.=E2=80=99s asset and wealth management business. ...=C2=A0In an episod=
+e of =E2=80=9CBloomberg Wealth with David Rubenstein,=E2=80=9D she invoked =
+the concept that it takes 10,000 hours of practice and devotion to compete =
+at an elite level.=E2=80=9CIf you think 10,000 hours is about what you need=
+ to master any subject, if someone comes in and has a regular, eight-hour-a=
+-day job, five days a week, it=E2=80=99s gonna take about five years to hav=
+e a base-level mastery,=E2=80=9D she said to Rubenstein, the co-founder of =
+Carlyle Group, on Bloomberg TV. =E2=80=9COn Wall Street, it=E2=80=99s more =
+like 12 hours a day, six days a week. That cuts you down to about two and a=
+ half years before you become mastered in something.=E2=80=9DYeah it=E2=80=
+=99s fine. I think you probably do get better, faster, at making leveraged =
+buyout models if you do it 80 hours a week instead of 40 hours a week, and =
+that is useful both for you and for your employer.I also think, though, tha=
+t there is a signaling benefit to it that is almost detached from the conte=
+nt. If you go to Wall Street and spend two years working 80 or 100-hour wee=
+ks building LBO models, and everyone knows that that=E2=80=99s how it works=
+, then people will assume that your LBO-model-building skills are=C2=A0impr=
+essive. Not just that you=E2=80=99re good at building LBO models, I mean, b=
+ut also that that=E2=80=99s a fancy skill to have. =E2=80=9COh, wow, you ha=
+ve mastered a skill that requires years of grueling labor and total commitm=
+ent,=E2=80=9D they will say. Then they will hire you for some job that=C2=
+=A0doesn=E2=80=99t=C2=A0require building LBO models, because they assume th=
+at=C2=A0you=E2=80=99re smart and knowledgeable,=C2=A0or they will pay=C2=A0=
+your bank lots of money to advise on their merger, because they assume that=
+ the bank has arcane and hard-to-acquire skills. Whereas if you spent 40 ho=
+urs a week building LBO models everyone would be like =E2=80=9Cmeh that can=
+=E2=80=99t be that hard.=E2=80=9D None of this has anything to do with what=
+ goes into an LBO model; it=E2=80=99s just about the hours that you (ostent=
+atiously) work.I have  written=C2=A0recently about the tension between the =
+old model of Wall Street analyst programs as sort of a universal finishing =
+school for smart ambitious people, versus a gentler model of Wall Street an=
+alyst programs as just a normal job. If it=E2=80=99s an elite finishing sch=
+ool =E2=80=94=C2=A0like a medical residency =E2=80=94=C2=A0then I suppose i=
+t should be 80 hours a week; becoming elite is hard, and not for just anyon=
+e. If it=E2=80=99s just a job then, you know, sure, take the weekend off,  =
+play a sport, whatever. I think that if you are entering a Wall Street anal=
+yst program, you probably want to take the weekend off (I sure do!), but=C2=
+=A0also want it to retain its mystique as an elite finishing school. Those =
+things are in tension.
+ =20
+   =20
+      Not this again
+   =20
+ =20
+This is gonna be great:What are the odds that two companies with almost ide=
+ntical names would go public on the same exact day?However rare, this is ha=
+ppening.=C2=A0Zevia PBC, which makes zero-sugar beverages, and=C2=A0Zenvia =
+Inc., which will hold all share capital in data source aggregator Direct On=
+e, are both expected to price initial public offerings on Wednesday.It=E2=
+=80=99s an improbable coincidence hitting the calendar for new issues and c=
+ould potentially lead to mistaken-identity trades. Even their tickers are s=
+imilar: Zevia will use the symbol ZVIA and Zenvia will use the symbol ZENV.=
+Signal vs.  Signal, COKE vs.  Coca-Cola, Zoom vs.  Zoom, Snapchat vs.  SNAP=
+, Nest vs.  Nestor, now Zevia vs. Zenvia. Now we just need=C2=A0Elon Musk t=
+o tweet =E2=80=9CI love drinking zero-sugar beverages while looking at aggr=
+egated data and I=E2=80=99m going to buy Znevia for $420.69 per share=E2=80=
+=9D and see what happens.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Fed Chair Powell Enjoys Support For Reappointment, but He=E2=80=99s Not a L=
+ock. Nasdaq Teams With Citi, Other Banks on  Private-Stock Marketplace. Cry=
+pto Exchange FTX Valued at $18 Billion in Funding Round.=C2=A0Vegas  Mother=
+-Son Duo Swindled Investors in Crypto Scam, SEC Says. Car Owners Return to =
+Highways, and Their Insurers Pick Up Tab for Accidents.=C2=A0Zero-Down Mort=
+gages Stoke U.S.  Subprime-Like Fears in Canada. Evergrande Bonds Pledged a=
+t  53% Discount in China Funding Market. Bill Gross to  Contest Neighbor=E2=
+=80=99s Latest Complaint About Loud Music. =E2=80=9CAirbnb for backyard poo=
+ls.=E2=80=9D Why does Jeff Bezos=E2=80=99s rocket look like that?=C2=A0Dogs=
+ will ignore you if they know you are lying, unlike young children.=C2=A0Bu=
+siness showers.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy ema=
+il form, right in your inbox, please=C2=A0subscribe at this link. Or you ca=
+n subscribe to Money Stuff and other great Bloomberg newsletters here. Than=
+ks![1] This question =E2=80=94=C2=A0is trading on hacked press releases sec=
+urities fraud? =E2=80=94=C2=A0was raised by only one of the two appellants,=
+ Vitaly Korchevsky. The *other* appellant, Vladislav Khalupsky, was represe=
+nted by my wife=E2=80=99s law firm, though she did not work on the case.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23celf91.5ohp/268cedfa.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_11107887_553991818.1626884217533
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB6bb2e66e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB1da7b9e=
+a">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Executive comp</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">What happened <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjAvanBtb3JnYW4tYm9hcmQtYXdhcmRzLWNlb=
+y1kaW1vbi1zdG9jay1vcHRpb25zLXRvLXN0YXktYXQtYmFuaw/607f07ceef4b8524a319a23cB=
+844ff28f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ here</a>?</p><blockquote><p style=3D"margin: 16px 0;">Jamie Dimon=E2=80=99=
+s five-year retirement joke just got serious.</p><p style=3D"margin: 16px 0=
+;">The billionaire chief executive officer of JPMorgan Chase &amp; Co. was =
+granted a special gift to persuade him to lead the biggest U.S. lender for =
+another =E2=80=9Csignificant number of years.=E2=80=9D He was awarded 1.5 m=
+illion stock appreciation rights, which are like options and will let him c=
+apture a profit if the stock price rises in the coming years. =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">=E2=80=9CThis special award reflects the board=
+=E2=80=99s desire for Mr. Dimon to continue to lead the firm for a further =
+significant number of years,=E2=80=9D JPMorgan=E2=80=99s board said in a re=
+gulatory filing Tuesday.</p><p style=3D"margin: 16px 0;">Dimon=E2=80=99s op=
+tions are worth around $50 million on paper, according to Terry Adamson, an=
+ equity-valuation specialist who=E2=80=99s the managing director of Technic=
+al Compensation Advisors. JPMorgan didn=E2=80=99t disclose its own valuatio=
+n of them.</p><p style=3D"margin: 16px 0;">The board gave the award to moti=
+vate Dimon, who already has a $2.1 billion fortune, to keep doing his job w=
+ell. Dimon, who received $31.5 million in compensation for 2020, won=E2=80=
+=99t be able to exercise the options for at least five years, and must hold=
+ any net shares gained from the award until mid-2031.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">July is not a particularly traditional time for fin=
+ancial-industry bonuses? Was he =E2=80=A6=C2=A0considering taking another j=
+ob? Did he get an exciting=C2=A0offer to build a mid-tier regional bank int=
+o a global powerhouse, and JPMorgan scrambled to match it? Or did he come t=
+o the board and say =E2=80=9Chey I=E2=80=99ve been doing this for a long ti=
+me, I=E2=80=99ve had a good run, I=E2=80=99ve accomplished most of what I w=
+ant to accomplish, I=E2=80=99ve provided well for my family what with my $2=
+.1 billion fortune, and now I=E2=80=99d like to retire and spend more time =
+with them=E2=80=9D and the board was like =E2=80=9Coh no, we need you to st=
+ick around for another decade, would increasing your net worth by 2.4% chan=
+ge your mind=E2=80=9D and he was like =E2=80=9Coh man I could really use 50=
+ million more dollars, I=E2=80=99ll do it=E2=80=9D?=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">My model for executive compensation at the very high end =E2=
+=80=94=C2=A0where Dimon and, like, <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMTgtMDMtMjMvZWxvbi1tdXNrLXBheS1wYWNrYWdlLXNob3dzLXRlc2xhL=
+XMtbG92ZQ/607f07ceef4b8524a319a23cB4fbf8470" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">Elon Musk</a> reside =E2=80=94=C2=A0is t=
+hat these are people who have moved beyond being motivated by money, who ca=
+nnot realistically buy any more lifestyle with more money, but it=E2=80=99s=
+ still nice to feel loved, and the love language of a public-company board =
+is pretty much always going to be options grants. My model is that the boar=
+d got together and said =E2=80=9Chey Jamie has been doing a great job latel=
+y but he looks a little tired, we should do something to cheer him up and l=
+et him know that we=E2=80=99re thinking of him,=E2=80=9D and one director s=
+uggested leaving a Post-It note on his monitor saying =E2=80=9Cjust wanted =
+to say that we appreciate you,=E2=80=9D and another director was like =E2=
+=80=9Chey that's a great idea but let's also put $50 million under the note=
+=E2=80=9D and everyone else was like =E2=80=9Coh well of course yes $50 mil=
+lion.=E2=80=9D And he walked in to see <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0=
+FyY2hpdmVzL2VkZ2FyL2RhdGEvMTk2MTcvMDAwMDAxOTYxNzIxMDAwMzcxL2pwbS0yMDIxMDcyM=
+C5odG0/607f07ceef4b8524a319a23cB3e4cc3e2" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">the filing</a> and was like =E2=80=9Coh th=
+at was nice of them=E2=80=9D and smiled for a minute and got back to work a=
+nd never thought of the $50 million again, it's just $50 million, who cares=
+.</p><p style=3D"margin: 16px 0;">It is weird though. It is hard for me to =
+imagine how an extra $50 million could add anything to Dimon=E2=80=99s moti=
+vation. (=E2=80=9CThe purpose of this award is to motivate your future perf=
+ormance for future services,=E2=80=9D says <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE5NjE3LzAwMDAwMTk2MTcyMTAwMDM3MS90ZXJtc2FuZGNvbmRpdGlvb=
+nMuaHRt/607f07ceef4b8524a319a23cB5c740780" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">the award agreement</a>.) Presumably he al=
+ready cares a lot about his reputation, and about=C2=A0the bank that he hel=
+ped to build and that he=E2=80=99s run for the last 16 years? And to the ex=
+tent he=E2=80=99s motivated by money, presumably his <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9BcmNoaXZlcy9lZGdhci9kYXRhLzE5NjE3LzAwMDAwMTk2MTcyMTAwMDI3NS9hMjAyMXByb3h=
+5c3RhdGVtZW50Lmh0bSNpYTQ4M2Q0ZDI2NGU2NGE2YmFhNjdmNGQ2YWY0YzgyY2RfMTA3Mw/607=
+f07ceef4b8524a319a23cBa3ce96b0" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">9.4 million shares</a> of JPMorgan stock already prov=
+ide a lot of incentive to make the stock go up.</p><p style=3D"margin: 16px=
+ 0;">On the other hand it does seem like this award would be=C2=A0<em>bad=
+=C2=A0</em>for the motivation of Dimon=E2=80=99s senior lieutenants and pot=
+ential successors? It has been a long-running joke in finance that Dimon=E2=
+=80=99s successors <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24514165.265021/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qLXAtbW9yZ2FuLWNoYX=
+NlLW9wZXJhdGluZy1jaGllZi1tYXR0aGV3LXphbWVzLWxlYXZpbmctYmFuay0xNDk2OTQ1NTUx/=
+607f07ceef4b8524a319a23cBf939e966" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">keep leaving before he does</a>. The latest round =
+of =E2=80=9Chere are some new Jamie Dimon=C2=A0successors=E2=80=9D was <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cH=
+M6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNS8xOS9idXNpbmVzcy9kZWFsYm9vay9qcG1vcmdhb=
+i1kaW1vbi1zdWNjZXNzaW9uLmh0bWw/607f07ceef4b8524a319a23cB64439f76" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">just two months ag=
+o</a>; it can=E2=80=99t be all that reassuring for them that the board almo=
+st immediately decided to give Dimon $50 million more to stick around until=
+ they leave too.=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto interest</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A lot of the legal action in crypto in=
+ the U.S. is about whether various crypto things are securities. If a crypt=
+o thing is a security, then it basically needs to be=C2=A0(1)=C2=A0register=
+ed with the U.S. Securities and Exchange Commission, (2) only sold to =E2=
+=80=9Caccredited investors=E2=80=9D (with $1 million of net worth or $200,0=
+00 of annual income)=C2=A0or (3) not offered in the U.S. If it=E2=80=99s no=
+t a security, then there=E2=80=99s a lot more flexibility to sell it and tr=
+ade it widely.</p><p style=3D"margin: 16px 0;">Some crypto things are secur=
+ities, some are not, and a lot are sort of unclear. Bitcoin is not a securi=
+ty. Ethereum is <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+514165.265021/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAxOC8wNi8xNC9iaXRjb2luLWFuZC1ld=
+GhlcmV1bS1hcmUtbm90LXNlY3VyaXRpZXMtYnV0LXNvbWUtY3J5cHRvY3VycmVuY2llcy1tYXkt=
+YmUtc2VjLW9mZmljaWFsLXNheXMuaHRtbA/607f07ceef4b8524a319a23cBb756bbcb" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">probably not a =
+security</a>. A few years ago there was a big vogue for initial coin offeri=
+ngs=C2=A0to fund all sorts of platforms and businesses, which were sold wid=
+ely because people thought they might not be securities; the SEC <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMTQvdGhlLXNlYy1yZWF=
+sbHktZG9lc24tdC1saWtlLWljb3M/607f07ceef4b8524a319a23cB7d4349a3" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> took a very hard lin=
+e</a> that they were basically all securities, and the ICO boom died down.<=
+/p><p style=3D"margin: 16px 0;">A very popular crypto thing these days is w=
+hat I=E2=80=99ll loosely call =E2=80=9Clending programs.=E2=80=9D You own s=
+ome cryptocurrency coins, you pop them into some sort of pool, the pool use=
+s your coins to make money (by market making, or by proprietary trading, or=
+ by lending them out to people who want to borrow crypto), and the pool sha=
+res the money it makes with you. Lots of =E2=80=9Cyield farming=E2=80=9D an=
+d =E2=80=9Cautomated market making=E2=80=9D programs have this basic struct=
+ure, and it is very popular in the decentralized-finance world.</p><p style=
+=3D"margin: 16px 0;">It is also obviously a security? In U.S. law, the =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265=
+021/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb3JwZmluL2ZyYW1ld29yay1pbnZlc3RtZW50LWNvbnR=
+yYWN0LWFuYWx5c2lzLWRpZ2l0YWwtYXNzZXRz/607f07ceef4b8524a319a23cBab79eaa1" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Howey test</=
+a>=E2=80=9D says that something is a security if =E2=80=9Cthere is the inve=
+stment of money in a common enterprise with a reasonable expectation of pro=
+fits to be derived from the efforts of others.=E2=80=9D The test comes from=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/a=
+HR0cHM6Ly9zdXByZW1lLmp1c3RpYS5jb20vY2FzZXMvZmVkZXJhbC91cy8zMjgvMjkzLw/607f0=
+7ceef4b8524a319a23cB4219c332" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">a 1946 Supreme Court case</a>=C2=A0in which investors b=
+ought rows of orange trees in Florida and agreed to let the Howey Company m=
+anage the trees, harvest and sell the fruit, and give the investors a share=
+ of the proceeds. Oranges, and orange trees, and land, are not securities, =
+but=C2=A0<em>that deal=C2=A0</em>is a security: You are buying orange trees=
+, letting someone else manage them, and collecting a yield from their manag=
+erial efforts.=C2=A0</p><p style=3D"margin: 16px 0;">Similarly, Bitcoins ar=
+e not a security, but buying Bitcoins, popping them into a pool managed by =
+someone else, and collecting a yield from that pool is pretty clearly a sec=
+urity? I suppose if the =E2=80=9Csomeone else=E2=80=9D is a smart contract =
+rather than a human manager =E2=80=94=C2=A0if it's an automated market make=
+r where you can review the source code for yourself=C2=A0and where no one h=
+as discretion to change it =E2=80=94=C2=A0then you have an interesting argu=
+ment. (Maybe it=E2=80=99s not a security because the profits are not =E2=80=
+=9Cderived from the efforts of others,=E2=80=9D exactly, or maybe it=C2=A0<=
+em>is=C2=A0</em>a security but there=E2=80=99s no one for the SEC to sue.) =
+But if some corporate entity manages the lending or trading or market-makin=
+g pool then there is going to be trouble.</p><p style=3D"margin: 16px 0;">S=
+o we <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.2650=
+21/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDMv=
+YW1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw/607f07ceef4b8524a319a23cB2c4ab0=
+5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> talke=
+d last month</a> about an SEC enforcement action against BitConnect, a Bitc=
+oin pooled-investment product that supposedly earned its yield from a propr=
+ietary =E2=80=9CTrading Bot=E2=80=9D though it might have actually been a P=
+onzi. The SEC=E2=80=99s case, though, was agnostic about the Ponzi stuff; t=
+he SEC=E2=80=99s point was that it was an=C2=A0<em>unregistered securities =
+offering</em>.</p><p style=3D"margin: 16px 0;">And now <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cucmV1dG=
+Vycy5jb20vbGVnYWwvdHJhbnNhY3Rpb25hbC9uZXctamVyc2V5LW9yZGVycy1ibG9ja2ZpLWNye=
+XB0b2N1cnJlbmN5LWZpcm0tc3RvcC1vZmZlcmluZy1pbnRlcmVzdC1iZWFyaW5nLTIwMjEtMDct=
+MjAv/607f07ceef4b8524a319a23cB6e6e773d" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">here=E2=80=99s this</a>:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">New Jersey ordered the cryptocurrency platform Bloc=
+kFi Inc to stop offering interest-bearing accounts that have raised $14.7 b=
+illion from investors, the state's acting attorney general said on Tuesday.=
+</p><p style=3D"margin: 16px 0;">A cease and desist order from New Jersey's=
+ Bureau of Securities said BlockFi's accounts were not registered with that=
+ office or exempt from registration, and their sale violated New Jersey sec=
+urities laws. ...</p><p style=3D"margin: 16px 0;">According to the order, i=
+nvestors can buy BlockFi Interest Accounts by depositing cryptocurrencies s=
+uch as Bitcoin and Ethereum with the company, which uses them to fund lendi=
+ng operations and proprietary trading.</p><p style=3D"margin: 16px 0;">The =
+order said BlockFi offers yields from 0.25% to 7.5%, depending on how much =
+and which assets are deposited. ...</p><p style=3D"margin: 16px 0;">BlockFi=
+ said in a statement it disagreed with the order because the accounts were =
+not securities.</p><p style=3D"margin: 16px 0;">It also said it remained fu=
+lly operational for existing New Jersey clients, and believed its products =
+are "lawful and appropriate for crypto market participants."</p></blockquot=
+e><p style=3D"margin: 16px 0;">Here are the Bureau of Securities <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93=
+d3cubmpvYWcuZ292L25ldy1qZXJzZXktYnVyZWF1LW9mLXNlY3VyaXRpZXMtb3JkZXJzLWNyeXB=
+0b2N1cnJlbmN5LWNvbXBhbnktYmxvY2tmaS10by1zdG9wLW9mZmVyaW5nLWludGVyZXN0LWJlYX=
+JpbmctYWNjb3VudHMv/607f07ceef4b8524a319a23cBcd3b6aba" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">press release</a> and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6L=
+y93d3cubmouZ292L29hZy9uZXdzcmVsZWFzZXMyMS9CbG9ja0ZpLUNlYXNlLWFuZC1EZXNpc3Qt=
+T3JkZXIucGRm/607f07ceef4b8524a319a23cBdee31888" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">order</a>. I suppose the question is =
+whether the interest accounts are=C2=A0<em>pooled investments</em>=C2=A0(in=
+ proprietary trading or lending operations) or just=C2=A0<em>loans to Block=
+Fi denominated in Bitcoin</em>, which would not be a security. =E2=80=9CBlo=
+ckFi states that the interest rates payable by BlockFi on BIAs are subject =
+to change in BlockFi=E2=80=99s sole discretion and may change monthly,=E2=
+=80=9D says the Bureau=E2=80=99s order, which quotes BlockFi=E2=80=99s webs=
+ite saying =E2=80=9Cthe interest we are able to pay is based on the yield w=
+e=E2=80=99re able to generate.=E2=80=9D It sure sounds like an investment o=
+f money in a common enterprise with a reasonable expectation of profits to =
+be derived from the efforts of others? I think there are going to be more c=
+ases like this.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;">For over 20 years, Selective Search Matchmak=
+ers have protected our clients=E2=80=99 time, privacy and preferences in th=
+eir search for love. Customized searches that employ proven executive searc=
+h methodologies have resulted in love for thousands of couples.</p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24514165.265021/aHR0cHM6Ly93d3cuc2VsZWN0aXZlc2VhcmNoLmNvbS9ibG=
+9vbWJlcmc_dXRtX3NvdXJjZT1ibG9vbWJlcmcmdXRtX21lZGl1bT1wcmludCZ1dG1fY2FtcGFpZ=
+249bWVubm93JnV0bV9jb250ZW50PXB1cnN1aXRz/607f07ceef4b8524a319a23cBbf47625d" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: underline;"><strong>Get started with a comp=
+limentary consultation.</strong></a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Selective Search=
+ LLC.</p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Insider hacking</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you hack into a company=E2=80=99s c=
+omputers and steal its earnings release=C2=A0before it=E2=80=99s public, an=
+d then you trade the company=E2=80=99s stock based on the earnings release,=
+ is that insider trading? There is an argument that it isn=E2=80=99t: You a=
+re not an=C2=A0<em>insider</em>, you had no duty of trust and confidence to=
+ the company, you just hacked into its computers and stole inside informati=
+on. By the letter of the Securities and Exchange Commission=E2=80=99s <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM=
+6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xMGI1LTE/607f07ceef4b85=
+24a319a23cBf375e3ed" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">insider trading rule</a>, it would seem that you are not guilt=
+y of insider trading.</p><p style=3D"margin: 16px 0;">My slightly more expa=
+nsive view of the matter is that =E2=80=9Cinsider trading=E2=80=9D means (1=
+) trading on material nonpublic information that (2) you got in a bad way. =
+Getting material nonpublic information by hacking is clearly a bad way to g=
+et it, so you insider traded. This is, I think, fairly intuitive. We have t=
+alked a <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.2=
+65021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDQtM=
+DEvYW5vdGhlci1wb2xpdGljaWFuLXdhbnRzLXRvLWJhbi1pbnNpZGVyLXRyYWRpbmc/607f07ce=
+ef4b8524a319a23cBc18d4ff7" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> couple</a> of <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMTktMTItMDYvZ3JlZW4tYm9uZHMtd2l0aG91dC10aGUtYm9uZHM/607f07ce=
+ef4b8524a319a23cBdd385385" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> times</a> about an insider trading bill that has been pro=
+posed in Congress and passed the=C2=A0House of Representatives that uses th=
+is intuitive standard (=E2=80=9Cobtained wrongfully=E2=80=9D), but it is no=
+t yet the law.</p><p style=3D"margin: 16px 0;">So it=E2=80=99s a bit murky =
+but, you know, don=E2=80=99t actually do this. Even if it is not =E2=80=9Ci=
+nsider trading,=E2=80=9D you=E2=80=99re gonna get in trouble for it. Inside=
+r trading is not a separate crime; it is a variety of securities fraud, a v=
+iolation of <a href=3D"https://link.mail.bloombergbusiness.com/click/245141=
+65.265021/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzE1Lzc4ag/60=
+7f07ceef4b8524a319a23cB25ef30ed" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Section 10(b)</a> of the Exchange Act, which prohibi=
+ts using =E2=80=9Cany manipulative or deceptive device=E2=80=9D =E2=80=9Cin=
+ connection with the purchase or sale of any security,=E2=80=9D and of <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cH=
+M6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xMGItNQ/607f07ceef4b85=
+24a319a23cBb95189c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Rule 10b-5</a>, which prohibits using =E2=80=9Cany device, sch=
+eme, or artifice to defraud =E2=80=A6=C2=A0in connection with the purchase =
+or sale of any security.=E2=80=9D=C2=A0Insider trading is just treated as a=
+ kind of =E2=80=9Cmanipulative or deceptive device.=E2=80=9D But so is hack=
+ing, probably. If it=E2=80=99s not insider trading, it=E2=80=99s exactly as=
+ bad as insider trading and prohibited by exactly the same statute.=C2=A0</=
+p><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMTUtMDgtMTEvd2h5LW5vdC1pbnNpZGVyLXRyYWRlLW9uLWV2ZXJ5LWNvbXBhb=
+nkt/607f07ceef4b8524a319a23cB5234bf45" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> We talked</a> way back in 2015 about some hac=
+kers who hacked into the news wires =E2=80=94=C2=A0the services that store =
+companies=E2=80=99 press releases before they are released =E2=80=94=C2=A0a=
+nd got thousands of earnings releases early, and then sold those earnings r=
+eleases to traders who used them to make money. =E2=80=9CBig hacker insider=
+ trading charges,=E2=80=9D I called them. Were they? Two traders were convi=
+cted of securities fraud based on this, and they appealed, and on Monday th=
+e U.S. Court of Appeals for the Second Circuit <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuY2EyLnVzY291cn=
+RzLmdvdi9sbi8xOS0xOTdfb3BuLnBkZg/607f07ceef4b8524a319a23cBa33f9f19" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">decided the appea=
+ls</a>.[1] One of the traders argued that he could not have committed secur=
+ities fraud:</p><blockquote><p style=3D"margin: 16px 0;">To challenge his c=
+onvictions on these substantive securities fraud counts, Korchevsky first a=
+rgues that the government could not prove he engaged in a =E2=80=9Cscheme o=
+r artifice to defraud=E2=80=9D within the meaning of Rule 10b-5. Specifical=
+ly, he claims the proof necessarily failed because he did not owe a fiducia=
+ry duty to investors or potential investors in the companies whose press re=
+leases were stolen, and because any deception employed to obtain the releas=
+es did not target the investors. Second, Korchevsky argues that the type of=
+=C2=A0computer hacking used to access Marketwired=E2=80=99s systems=E2=80=
+=94the conduct charged in Count Four=E2=80=94did not constitute a =E2=80=9C=
+deceptive device or contrivance=E2=80=9D within the meaning of Section 10(b=
+).</p></blockquote><p style=3D"margin: 16px 0;">The Second Circuit disagree=
+d:</p><blockquote><p style=3D"margin: 16px 0;">First, we dispatch Korchevsk=
+y=E2=80=99s contention that he did not engage in a =E2=80=9Cscheme or artif=
+ice to defraud.=E2=80=9D Although a fiduciary duty is relevant to other sec=
+urities violations=E2=80=94e.g., insider trading=E2=80=94it need not be sho=
+wn to prove the securities fraud charged here: fraudulent trading in securi=
+ties by an outsider.=C2=A0Further, Korchevsky=E2=80=99s assertion that the =
+deception must have targeted investors contradicts the plain language of Ru=
+le 10b-5. The deception need only be =E2=80=9Cin connection with the purcha=
+se or sale of any security,=E2=80=9D and here it was. The newswire hacking =
+directly prompted and enabled the charged securities trading. Indeed, the e=
+nsuing trades needed to occur soon after a press release was illicitly obta=
+ined from=C2=A0a newswire=E2=80=99s servers, but before the newswire could =
+publish the release, in order to maximize the hacked information=E2=80=99s =
+value.</p><p style=3D"margin: 16px 0;">Second, we find that the hack of Mar=
+ketwired=E2=80=99s systems qualified as a =E2=80=9Cdeceptive device or cont=
+rivance=E2=80=9D under Section 10(b). ...=C2=A0Every time the hackers attem=
+pted to access parts of the system by entering stolen credentials, they mis=
+represented themselves to be authorized users. =E2=80=9C[M]isrepresenting o=
+ne=E2=80=99s identity in order to gain access to information that is otherw=
+ise off limits, and then stealing that information is plainly =E2=80=98dece=
+ptive=E2=80=99 within the ordinary meaning of the word.=E2=80=9D</p></block=
+quote><p style=3D"margin: 16px 0;">The logic there feels a little strange =
+=E2=80=94=C2=A0they deceived <em>Marketwired</em>, which allowed them to ma=
+ke money from=C2=A0<em>investors</em>; all in all they did securities fraud=
+, but don=E2=80=99t ask=C2=A0<em>who=C2=A0</em>they defrauded =E2=80=94=C2=
+=A0until you remember that it=E2=80=99s exactly the logic of insider tradin=
+g. =E2=80=9CInsider trading is not about fairness, it=E2=80=99s about theft=
+,=E2=80=9D I <a href=3D"https://link.mail.bloombergbusiness.com/click/24514=
+165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTkt=
+MDMtMTMveW91LWhhdmUtdG8tcGF5LXRoZS1yaWdodC1wZXJzb24/607f07ceef4b8524a319a23=
+cB50f3cb5f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> often</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/24514=
+165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUt=
+MTAtMDUvanVzdGljZXMtYXJlbi10LWludGVyZXN0ZWQtaW4taW5zaWRlci10cmFkaW5nLWNhc2U=
+/607f07ceef4b8524a319a23cB524fb16d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> say</a>: In insider trading, you get in trouble =
+for the combination of (1) betraying your duty of confidence to the owner o=
+f the information (your employer, your <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMTQtMDgtMTgvb25lLWdvbGYtY291cnNlLXRoYXQtcy1ncmVhdC1mb=
+3Itc3RvY2stdGlwcw/607f07ceef4b8524a319a23cBd8deeaa9" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> golf buddy</a>, etc.) and (2) u=
+sing the information to make money by trading stock with strangers. You are=
+ I suppose doing a securities fraud on the people who trade with you, but y=
+ou=E2=80=99re not really deceiving them; it=E2=80=99s the combination of be=
+traying one person and making money from another that creates insider tradi=
+ng. Same with hacking-based insider trading. Which I am going to continue t=
+o call =E2=80=9Cinsider trading=E2=80=9D even if the Second Circuit doesn=
+=E2=80=99t.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Wall Street culture</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">My shameful secret vice is I basically=
+ agree <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.26=
+5021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjAvd2=
+FsbC1zdHJlZXQtanBtb3JnYW4tZXhlYy1zYXlzLXdoeS1iYW5rZXJzLW5lZWQtdG8td29yay03M=
+i1ob3Vycy1hLXdlZWs/607f07ceef4b8524a319a23cBfabd16c6" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> with this</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">There=E2=80=99s a reason junior bankers just s=
+tarting out on Wall Street work 12-hour days, six days a week, says Mary Er=
+does, chief executive officer of JPMorgan Chase &amp; Co.=E2=80=99s asset a=
+nd wealth management business. ...=C2=A0In an episode of =E2=80=9CBloomberg=
+ Wealth with David Rubenstein,=E2=80=9D she invoked the concept that it tak=
+es 10,000 hours of practice and devotion to compete at an elite level.</p><=
+p style=3D"margin: 16px 0;">=E2=80=9CIf you think 10,000 hours is about wha=
+t you need to master any subject, if someone comes in and has a regular, ei=
+ght-hour-a-day job, five days a week, it=E2=80=99s gonna take about five ye=
+ars to have a base-level mastery,=E2=80=9D she said to Rubenstein, the co-f=
+ounder of Carlyle Group, on Bloomberg TV. =E2=80=9COn Wall Street, it=E2=80=
+=99s more like 12 hours a day, six days a week. That cuts you down to about=
+ two and a half years before you become mastered in something.=E2=80=9D</p>=
+</blockquote><p style=3D"margin: 16px 0;">Yeah it=E2=80=99s fine. I think y=
+ou probably do get better, faster, at making leveraged buyout models if you=
+ do it 80 hours a week instead of 40 hours a week, and that is useful both =
+for you and for your employer.</p><p style=3D"margin: 16px 0;">I also think=
+, though, that there is a signaling benefit to it that is almost detached f=
+rom the content. If you go to Wall Street and spend two years working 80 or=
+ 100-hour weeks building LBO models, and everyone knows that that=E2=80=99s=
+ how it works, then people will assume that your LBO-model-building skills =
+are=C2=A0impressive. Not just that you=E2=80=99re good at building LBO mode=
+ls, I mean, but also that that=E2=80=99s a fancy skill to have. =E2=80=9COh=
+, wow, you have mastered a skill that requires years of grueling labor and =
+total commitment,=E2=80=9D they will say. Then they will hire you for some =
+job that=C2=A0<em>doesn=E2=80=99t=C2=A0</em>require building LBO models, be=
+cause they assume that=C2=A0you=E2=80=99re smart and knowledgeable,=C2=A0or=
+ they will pay=C2=A0<em>your bank </em>lots of money to advise on their mer=
+ger, because they assume that the bank has arcane and hard-to-acquire skill=
+s. Whereas if you spent 40 hours a week building LBO models everyone would =
+be like =E2=80=9Cmeh that can=E2=80=99t be that hard.=E2=80=9D None of this=
+ has anything to do with what goes into an LBO model; it=E2=80=99s just abo=
+ut the hours that you (ostentatiously) work.</p><p style=3D"margin: 16px 0;=
+">I have <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.=
+265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDct=
+MTIvZ29sZG1hbi1kb2Vzbi10LXdhbnQtbWVyY2VuYXJpZXM/607f07ceef4b8524a319a23cBac=
+a93f6f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> w=
+ritten=C2=A0recently</a> about the tension between the old model of Wall St=
+reet analyst programs as sort of a universal finishing school for smart amb=
+itious people, versus a gentler model of Wall Street analyst programs as ju=
+st a normal job. If it=E2=80=99s an elite finishing school =E2=80=94=C2=A0l=
+ike a medical residency =E2=80=94=C2=A0then I suppose it should be 80 hours=
+ a week; becoming elite is hard, and not for just anyone. If it=E2=80=99s j=
+ust a job then, you know, sure, take the weekend off, <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjAvYmlsbC1hY2ttYW4tcy10aHJlZS=
+1zcGFjcy13ZXJlLXRvby1tYW55/607f07ceef4b8524a319a23cBe7dfce42" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> play a sport</a>, what=
+ever. I think that if you are entering a Wall Street analyst program, you p=
+robably want to take the weekend off (I sure do!), but=C2=A0also want it to=
+ retain its mystique as an elite finishing school. Those things are in tens=
+ion.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Not this again</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24514165.265021/aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJn=
+LmNvbS9uZXdzL3N0b3JpZXMvUVdLQlQzVDBHMUtY/607f07ceef4b8524a319a23cB0f28df3a"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">gonna be =
+great</a>:</p><blockquote><p style=3D"margin: 16px 0;">What are the odds th=
+at two companies with almost identical names would go public on the same ex=
+act day?</p><p style=3D"margin: 16px 0;">However rare, this is happening.=
+=C2=A0Zevia PBC, which makes zero-sugar beverages, and=C2=A0Zenvia Inc., wh=
+ich will hold all share capital in data source aggregator Direct One, are b=
+oth expected to price initial public offerings on Wednesday.</p><p style=3D=
+"margin: 16px 0;">It=E2=80=99s an improbable coincidence hitting the calend=
+ar for new issues and could potentially lead to mistaken-identity trades. E=
+ven their tickers are similar: Zevia will use the symbol ZVIA and Zenvia wi=
+ll use the symbol ZENV.</p></blockquote><p style=3D"margin: 16px 0;">Signal=
+ vs. <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.2650=
+21/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTMv=
+ZnJhdWQtaXMtbm8tZnVuLXdpdGhvdXQtZnJpZW5kcw/607f07ceef4b8524a319a23cB2925a2f=
+7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Signal=
+</a>, COKE vs. <a href=3D"https://link.mail.bloombergbusiness.com/click/245=
+14165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMT=
+ktMTItMDIvdGhlLWJsYWNrbWFpbC1idXNpbmVzcy1pc24tdC1lYXN5/607f07ceef4b8524a319=
+a23cB10e19746" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Coca-Cola</a>, Zoom vs. <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMTktMTItMDIvdGhlLWJsYWNrbWFpbC1idXNpbmVzcy1pc24tdC1lYXN5/607f0=
+7ceef4b8524a319a23cC10e19746" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Zoom</a>, Snapchat vs. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMTctMDItMDkvcXVhc2ktaW5kZXhlcnMtZ3Jvd3RoLWFuZC1j=
+b25mdXNpb24/607f07ceef4b8524a319a23cB8fddba01" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> SNAP</a>, Nest vs. <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDEtMTYvaW5zaWRlci10cmFkaW5nLWx=
+hdy1jYW4tdC1oYW5kbGUtbmVzdC1hbmQtbmVzdG9y/607f07ceef4b8524a319a23cB055098db=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Nestor<=
+/a>, now Zevia vs. Zenvia. Now we just need=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTMvZnJhdWQtaXMtbm8tZnVuLXdpdGhvdXQ=
+tZnJpZW5kcw/607f07ceef4b8524a319a23cC2925a2f7" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Elon Musk to tweet</a> =E2=80=9CI love=
+ drinking zero-sugar beverages while looking at aggregated data and I=E2=80=
+=99m going to buy Znevia for $420.69 per share=E2=80=9D and see what happen=
+s.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Fed Chair Powell <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy9mZWQtY2hhaXItcG93ZWxsLWVuam95cy1zdXBwb3J0LWZvci1yZWFwcG9pbn=
+RtZW50LWJ1dC1oZXMtbm90LWEtbG9jay0xMTYyNjg1OTgwMz9tb2Q9bGF0ZXN0X2hlYWRsaW5lc=
+w/607f07ceef4b8524a319a23cBa3b215db" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Enjoys Support</a> For Reappointment, but He=E2=
+=80=99s Not a Lock. Nasdaq Teams With Citi, Other Banks on <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjAvbmFzZGFxLXRlYW1zLXdpdGgtY=
+2l0aS1vdGhlci1iYW5rcy1vbi1wcml2YXRlLXN0b2NrLW1hcmtldHBsYWNl/607f07ceef4b852=
+4a319a23cB6fc4348b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Private-Stock Marketplace</a>. Crypto Exchange <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9jcnlwdG8tZXhjaGFuZ2UtZnR4LXZhbHVlZC1hdC0xOC1iaWxsaW9uLW=
+luLWZ1bmRpbmctcm91bmQtMTE2MjY4MDA0NTU_bW9kPWl0cF93c2omcnU9eWFob28/607f07cee=
+f4b8524a319a23cBa0eff99b" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">FTX</a> Valued at $18 Billion in Funding Round.=C2=A0Vegas =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMTkvY3J5cHRvL=
+XNjYW0tdmVnYXMtbW90aGVyLXNvbi1zd2luZGxlZC0xMi1taWxsaW9uLWZyb20taW52ZXN0b3Jz=
+LXNlYy1zYXlz/607f07ceef4b8524a319a23cB572f4d37" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Mother-Son Duo</a> Swindled Investor=
+s in Crypto Scam, SEC Says. Car Owners Return to Highways, and <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy9jYXItb3duZXJzLXJldHVybi10by1oaWdod2F5cy1hbmQtdGhla=
+XItaW5zdXJlcnMtcGljay11cC10YWItZm9yLWFjY2lkZW50cy0xMTYyNjc3MzU4MT9tb2Q9aXRw=
+X3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB76f2e90d" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Their Insurers</a> Pick Up Tab =
+for Accidents.=C2=A0Zero-Down Mortgages Stoke U.S. <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjEvemVyby1kb3duLW1vcnRnYWdlcy1zdG9rZ=
+S11LXMtc3VicHJpbWUtbGlrZS1mZWFycy1pbi1jYW5hZGE/607f07ceef4b8524a319a23cB7f9=
+3306b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Su=
+bprime-Like Fears</a> in Canada. Evergrande Bonds Pledged at <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjEvZXZlcmdyYW5kZS1ib25kcy1=
+wbGVkZ2VkLWF0LTUzLWRpc2NvdW50LWluLWNoaW5hLWZ1bmRpbmctbWFya2V0/607f07ceef4b8=
+524a319a23cBee1d16ed" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> 53% Discount</a> in China Funding Market. Bill Gross to <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjAvZ3Jvc3MtdG8tY2=
+9udGVzdC1uZWlnaGJvci1zLWxhdGVzdC1jb21wbGFpbnQtYWJvdXQtbG91ZC1tdXNpYw/607f07=
+ceef4b8524a319a23cB2a8e0732" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Contest Neighbor=E2=80=99s Latest Complaint</a> About L=
+oud Music. =E2=80=9CAirbnb for <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24514165.265021/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wb29sLX=
+N1bW1lci1haXJibmItMTE2MjYzODA0MDg_bW9kPWhwX2xpc3RjX3BvczM/607f07ceef4b8524a=
+319a23cB776b0253" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">backyard pools</a>.=E2=80=9D Why does Jeff Bezos=E2=80=99s rocket <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR=
+0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3NjaWVuY2UvMjAyMS9qdWwvMjAvamVmZi1iZXpvcy=
+1yb2NrZXQtZGVzaWduLWFuLWlucXVpcnk/607f07ceef4b8524a319a23cB26b5f6b5" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">look like that</=
+a>?=C2=A0Dogs will ignore you if they <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24514165.265021/aHR0cHM6Ly93d3cubmV3c2NpZW50aXN0LmNvbS9=
+hcnRpY2xlLzIyODQ2MTEtZG9ncy13aWxsLWlnbm9yZS15b3UtaWYtdGhleS1rbm93LXlvdS1hcm=
+UtbHlpbmctdW5saWtlLXlvdW5nLWNoaWxkcmVuLz91dG1fdGVybT1BdXRvZmVlZCZ1dG1fY2Ftc=
+GFpZ249ZWNob2JveCZ1dG1fbWVkaXVtPXNvY2lhbCZ1dG1fc291cmNlPVR3aXR0ZXIjRWNob2Jv=
+eD0xNjI2ODgxNDY2/607f07ceef4b8524a319a23cB28f811a5" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">know you are lying</a>, unlike yo=
+ung children.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24514165.265021/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNy8xOS9idXNpbmVzcy=
+9zbWFsbGJ1c2luZXNzL2J1c2luZXNzLXNob3dlcnMtc3RhcnR1cHMuaHRtbA/607f07ceef4b85=
+24a319a23cB22c4e74f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Business showers</a>.</p><p style=3D"margin: 16px 0;"><span cl=
+ass=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Mone=
+y=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aHR0c=
+DovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1z=
+aWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524=
+a319a23cB9ccf4c7a" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">subscribe at this li=
+nk</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsl=
+etters <a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.26=
+5021/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a=
+319a23cBdf910d47" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[=
+1] This question =E2=80=94=C2=A0is trading on hacked press releases securit=
+ies fraud? =E2=80=94=C2=A0was raised by only one of the two appellants, Vit=
+aly Korchevsky. The *other* appellant, Vladislav Khalupsky, was represented=
+ by my wife=E2=80=99s law firm, though she did not work on the case.</em></=
+p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB53ca8330" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB2ee904cf" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5457bee5" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24514165.265021/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB61ed3b64" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2451416=
+5.265021/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB0d126943" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24514165.265021/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC1f50c922" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24514165.265021/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5e25d18c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24514165.265021/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB728d226a" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23celf91.5ohp/268cedfa.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_11107887_553991818.1626884217533--
+

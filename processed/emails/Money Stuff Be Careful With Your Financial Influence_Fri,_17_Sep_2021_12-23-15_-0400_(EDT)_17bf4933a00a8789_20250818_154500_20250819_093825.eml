@@ -1,0 +1,1745 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:712:b0:13b:de3:276c with SMTP id o18csp2573730lki;
+        Fri, 17 Sep 2021 09:24:55 -0700 (PDT)
+X-Received: by 2002:a17:907:2bdb:: with SMTP id gv27mr12813221ejc.483.1631895895048;
+        Fri, 17 Sep 2021 09:24:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1631895895; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=xQ9Q990pNdokj6qgRXa8ioyLQdOq9+fBnxmOC6cVZkwepjB/we+KwKQPetWaOTU01u
+         WQezkMXeX1SDYhnRxBuFzgfSCT66LHvUWYjE61aW+AV+QuX0W720Ys/pqbKaH24VnhTQ
+         OQGKgKQeg+NBrOgyxJo7AJsiQkypBVQLne/2d5ApQf4MqBwUS8e6xM8rRY5B6AlBwsSq
+         TSENQ/w64NoDlFuEGJ331L1tVmKR487CP2JoPucRwCVTonjAPDMnubHjdOqoJ+P7VLBG
+         nrKIClw8oxj+J08gyZfwf6TyovGU3moCbTHgT0DrxwjvuhCT256Rbh1m5tJYyMlGNbmL
+         HXBQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=vb5RsX72nPSMR5kudA+h7SVEipS/hsumqM71117dYOo=;
+        b=dLNvS1M+sC9FtalOtnVT+0a/V4iyFB01fqkWbO9x6W138WWPVQFbSd7HvzMY8VNToa
+         FKpQH2u+VvK9SdYO7mY6MCfetgq56+ELVALtWxBIvik0jJUH2iWtlCSdjdhsgkT45oeL
+         pmfP1GbVjyw50jdz05Nuf/dxsNSO1QJWlC0TReVvccBh6L+dMYBwGHEvFhgyYAKGs8GO
+         doxZZK1sbEWWTha5fNmFVWabduqfexILLzVazFZafCRv9sMNzlzk696zLQAYwoWKdWh0
+         0VTVW1vkgik1/lK6J3FBmpRTJuBwGIkQ299rwaOybE/34YjQ7tcLD9iFocReGaoXI3sg
+         t0OA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZtPgyZd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o15sor1401253edc.21.2021.09.17.09.24.54
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 17 Sep 2021 09:24:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZtPgyZd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=vb5RsX72nPSMR5kudA+h7SVEipS/hsumqM71117dYOo=;
+        b=Dkt61pOuIj+hk4+TlBwlmEebMYPgWIZsA7pRdCTSLNQw57GtWAsCYrHsst1QWQeNsO
+         ejJBv1kSGMtXtppQ8aJxCIqt9jnaR5CYi7/tbpHYqHfRjQrXiwSjsW2H9aPwVRrHZtNM
+         CkmA//VMJhhr/GWhT9UgptetbLX1ApbXCWOFjZtlUWGCYGFaarRZiIF4HF3ag0YPXMCi
+         L9vB0IGV46paqPBDzWBBHveymWy+7tBrh+WJrPc0QimGBFMxbowfjf+CrE3HUU4xOqOL
+         vc2q8P31oxZez7PqBbyAbifywkf44uN2VQnKOdgDi94h/k4CfOxU2gtJmb/jugddSxaY
+         3LoA==
+X-Gm-Message-State: AOAM533mRoblafiq9jCVnU5ZcG8qYQhZQC5jhLXnjI81wrSShR+/QfZ/
+	2RY4cQvJPn7Yv4kYkTNZ3xNATT2Dmcn1dQEdMtd150Qyy3f63eG9M8gR
+X-Received: by 2002:a50:d98a:: with SMTP id w10mr3940168edj.120.1631895894498;
+        Fri, 17 Sep 2021 09:24:54 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:a245:0:0:0:0:0 with SMTP id dh5csp2721916ecb;
+        Fri, 17 Sep 2021 09:24:51 -0700 (PDT)
+X-Received: by 2002:a05:620a:4505:: with SMTP id t5mr7849226qkp.125.1631895891355;
+        Fri, 17 Sep 2021 09:24:51 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1631895891; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=MGAl3nScQ2RI4kBjxLWHF2q/5l7nec/6y/I1SZZlah9ImymNv8ufXUkBXdh8qSkjwc
+         DW+UXLvBNosinVkwHvlz/K8M2PXoE+++fgYDBaKzdmqtLyLQdnU+ZMUlPuecnXXITNfR
+         m/DkJDKFqRQEKEga0ZLlk7Fmo6tmB4wK9RRRRMYDXwGCeCqKZdGcnYrGBM7IjPI/2qVF
+         V3Cz1Od6cBFzyAdFo6a9R3zrGq+nVSN1ENtLV+K7xATwX0IaDyystXLDkuWItXcr0YLb
+         +FreupSmAEAM2Mqsh4q5IYDKXoE+HhTb8J43jLG909qLTEWcVhxbY0iecxEwUZss5vwj
+         FaQg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vb5RsX72nPSMR5kudA+h7SVEipS/hsumqM71117dYOo=;
+        b=nYpM97jEBfw//8FAUtB7zO+zTtJGriwqRMhbyufgHHdKJBzLJCEXJUWZRGdhC2CPtx
+         p5eu0Gs3bCPHigZVI4Tv3dNQ9iH9QLfcXXBguaNkfJlLg1IOAyXw8hubgjsGJcgJe0S6
+         0hAymoE+kjottkR2pu3UDHQtFcYNdM1lM1hCn1h6U7T14OAgpidEh8d+fF6W1Lf0WsDj
+         LBJT+vH785b/3XyOhGosjph5mpwUkafMvilFYnsuorLoeW1ccYw2OW+Vn+t5+UMfov/i
+         IxCPLQuRMiMYTym6/co7xJI4/rEEX2/FpiRFCcqIWfdCt6jutjSx0xVGg6Ei6AO99dKn
+         WGqw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZtPgyZd;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210917122315.25071678.256555@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210917122315.25071678.256555@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210917122315.25071678.256555@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f5sor2951379qkh.105.2021.09.17.09.24.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 17 Sep 2021 09:24:51 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210917122315.25071678.256555@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyLVrJ/ACI6KdhLyq+Sev/z5WRN5NLV0Tcepqyq3xzdIG3k/id6txeEsksTJ9fZ5VFwDP6o6pRC7kQ1SfJrocm2TvwWbIs=
+X-Received: by 2002:ae9:ea19:: with SMTP id f25mr11413327qkg.341.1631895890658;
+        Fri, 17 Sep 2021 09:24:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1631895890; cv=none;
+        d=google.com; s=arc-20160816;
+        b=t7FkgrxR0vMzVYCeTdADlf7buwcchPy/dwEM/xiVcq0YCatsDi3Hpxrqmu9gPhD90Y
+         oY1EYemToMaMxg/8qXSh79IrxJpeAC99JkQa/EzNPoxy9/TlTMzJIWOj/w2fvveNYg2Q
+         gglr4P2vJZQSUeJKmwkCVc7C1QOuAmaTecN5xVQMWhfh57XAi7RhOIt9W1bicZCQSvKR
+         umKCNgLpVCn3ziEYAe9aTeLmV7NsdyrBKRi40RbtbfY+31IIzGi57JoyLq7t8nfWmyE2
+         TMnPQU9NnkKJHVLQqxQAAxnh35w42+CT0qyBo4vB66MxI96QnZJ6I4yyEsvSEugkuXQI
+         wu0g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vb5RsX72nPSMR5kudA+h7SVEipS/hsumqM71117dYOo=;
+        b=ODNbDhalGy0tM3XzpLRbDdL7z8oxrq75NG0x54xtkxeCnmB1DfOnQWzFGruGRUZxeP
+         r8L3BXvAJn05dhJWu35VGKfItTsEKly/xNskvwD/f7zou1KCpYoAwF04VCdUueH+geEn
+         4yJxN1Mj1l0EllPJQoRgw4U1wU8zvr/6VTOc955tp4k92hJegc08xb5cTUo48awC/DkG
+         1N/6fZqm0emwEmWeLJBu443sArb5/FTFYYgLXS/23V5evkhTQrhiX9NrAJpkHWvj3smO
+         nja8ewesOjtJ0vWnlPHW1wx7wrzgR6KHvFi8YBuiKtOdreco3/Vw3YmIB2qewWk/2NMK
+         rYiA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZtPgyZd;
+       spf=pass (google.com: domain of delivery_20210917122315.25071678.256555@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210917122315.25071678.256555@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210917122315.25071678.256555@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id a21si1086745qtm.3.2021.09.17.09.24.50
+        for <khamel83@gmail.com>;
+        Fri, 17 Sep 2021 09:24:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210917122315.25071678.256555@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=kJkZZYUB+J9hMhrjxHvZaN1lb8E=;
+ b=VZtPgyZdDxxJ0lv/jaNSKYMUK7w+y/eRtOBJc5Q/97OPqpQocPEK9jYhfhzk8J28VUwWuX3dBbJJ
+   fuSnUzugHzjnvpqkCqutiaaBV+Yh3M2Jjq0wEfD/s2TVVnvU+3WB1W7fCtORiGFEh93LkYBH8PIv
+   x0IJebWRMPX03Y0Q3To=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id h8j0l41qqbsd for <bloomberg@khamel.com>; Fri, 17 Sep 2021 12:24:50 -0400 (envelope-from <delivery_20210917122315.25071678.256555@mx.sailthru.com>)
+Received: from nj1-rawolive.flt (172.18.20.13) by njmta-149.sailthru.com id h8j0l41qqbsd for <bloomberg@khamel.com>; Fri, 17 Sep 2021 12:23:15 -0400 (envelope-from <delivery_20210917122315.25071678.256555@mx.sailthru.com>)
+Date: Fri, 17 Sep 2021 12:23:15 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210917122315.25071678.256555@sailthru.com>
+Subject: Money Stuff: Be Careful With Your Financial Influence
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13708537_1629641835.1631895795668"
+Precedence: bulk
+X-Feedback-ID: 6358:25071678:campaign:sailthru
+X-TM-ID: 20210917122315.25071678.256555
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-rawolive.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cexdfi.5hyj/e55549cc
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cexdfi.5hyj/e55549cc>, <mailto:unsubscribe_20210917122315.25071678.256555@mx.sailthru.com>
+X-rpcampaign: stjko25071678
+
+------=_Part_13708537_1629641835.1631895795668
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Positive and negative finfluence
+   =20
+ =20
+So on the one hand, the state of Massachusetts fined Massachusetts Mutual L=
+ife Insurance Co. $4 million for letting Keith Gill do the GameStop thing:M=
+r. Gill, known as =E2=80=9CRoaring Kitty=E2=80=9D on YouTube and =E2=80=9CD=
+eepF=E2=80=94ingValue=E2=80=9D on Reddit, became an Internet folk hero in J=
+anuary, thanks to his prescient bets on GameStop stock. For months leading =
+up to the GameStop trading frenzy in January=E2=80=94during which nonprofes=
+sional traders sent the company=E2=80=99s shares soaring to a record high=
+=E2=80=94Mr. Gill posted videos and messages discussing why he was putting =
+large sums of money into the stock. =E2=80=A6At the time, Mr. Gill was regi=
+stered as a broker at MML Investors Services LLC, a broker-dealer and inves=
+tment adviser whose parent company is MassMutual. His role was director of =
+education and wellness, and he was responsible for creating educational mat=
+erials used by the company and its client-facing registered agents. ...The =
+office of William Galvin, the Secretary of the Commonwealth of Massachusett=
+s, opened an inquiry into the matter earlier this year. His office said tha=
+t while MML prohibited broker-dealer employees from discussing securities o=
+n social media, the company didn=E2=80=99t have =E2=80=9Creasonable policie=
+s and procedures in place to detect and monitor=E2=80=9D such activity. At =
+one point in mid-January, Mr. Galvin=E2=80=99s office said, two employees i=
+ncluding Mr. Gill=E2=80=99s manager were made aware of his social-media act=
+ivity. MML didn=E2=80=99t take any immediate action, the regulator said.Her=
+e=C2=A0is the consent order, which is very puzzling in that it =E2=80=A6=C2=
+=A0doesn=E2=80=99t say what Mass Mutual, or Gill, did wrong? The gist of it=
+ is:=09Gill worked as =E2=80=9Cdirector of education and wellness=E2=80=9D =
+for a Mass Mutual brand called =E2=80=9CIn Good Company,=E2=80=9D okay.=09H=
+e did a lot of posting about GameStop Corp. on Reddit, Twitter and YouTube,=
+ becoming a huge celebrity during its January rally. Those posts did not us=
+e his real name or mention his Mass Mutual affiliation, though his YouTube =
+videos did show his face. =E2=80=9CGill ran rampant on his personal social =
+media,=E2=80=9D the consent order says, =E2=80=9Cfrequently and extensively=
+ posting regarding generic and specific securities.=E2=80=9D=09He also trad=
+ed a lot of GameStop stock and options.=09Mass Mutual =E2=80=9Cfailed reaso=
+nably to supervise him.=E2=80=9DMass Mutual had policies prohibiting its em=
+ployees =E2=80=9Cfrom discussing generic securities and company business on=
+ social media,=E2=80=9D and I guess he violated them, but I am just not sur=
+e I understand why regulators would care about that. Did Gill mislead anyon=
+e? Was he providing unsuitable financial advice in his capacity as a regist=
+ered person? Was he =E2=80=9Cmanipulating the value of GameStop stock,=E2=
+=80=9D as his boss at In Good Company said in an email quoted by the regula=
+tors? I dunno, in a sense, but not I think in an illegal sense. He said he =
+liked the stock, and people agreed with him, so the stock went up. Seems fi=
+ne, or fine-ish.=C2=A0By the way, surely Keith Gill has done more to teach =
+ordinary people about the financial system than every other =E2=80=9Cfinanc=
+ial wellness educator=E2=80=9D in the history of the world combined? Like G=
+ameStop was=C2=A0very much a teachable moment, in a way that whatever In Go=
+od Company was up to probably was not. (Do you=C2=A0know what In Good Compa=
+ny was up to?) The guy explained how stock trading works=C2=A0to Congress. =
+Ooh, he violated a social-media policy, who cares.=C2=A0On the other hand, =
+ what=E2=80=99s all this then:At first no one could explain why business wa=
+s picking up at Betterment, a robo adviser aimed at newbie investors. There=
+ were about 10,000 signups in one day.=C2=A0Then came the answer: A 25-year=
+-old TikToker from Tennessee was posting videos describing how to retire a =
+millionaire by using the platform.His name is Austin Hankwitz, and he=E2=80=
+=99s managed to land one of the hottest new gigs: full-time =E2=80=9Cfinflu=
+encer.=E2=80=9D =E2=80=A6Once Betterment saw the traction it was getting th=
+rough Hankwitz=E2=80=99s posts, it hired him within a month to plug its ser=
+vices via social media.Wealthfront, another robo adviser, has partnered wit=
+h about 15 influencers including Haley Sacks =E2=80=94 known on Instagram a=
+s Mrs. Dow Jones =E2=80=94 according to Kate Wauck, the firm=E2=80=99s chie=
+f communications officer.=C2=A0=E2=80=9CQuite frankly, they=E2=80=99re just=
+ better at telling our story than we are,=E2=80=9D she said.I =E2=80=A6=C2=
+=A0okay =E2=80=A6=C2=A0so =E2=80=A6=C2=A0some guy on TikTok is like =E2=80=
+=9Cyou=E2=80=99ll be a millionaire if you use Betterment=E2=80=9D and Bette=
+rment was like =E2=80=9Coh thanks, nice of you to say, here=E2=80=99s some =
+money, keep saying that,=E2=80=9D and he did, and =E2=80=A6=C2=A0Mass Mutua=
+l gets in trouble for Keith Gill using Reddit under a pseudonym?I do feel l=
+ike there is a=C2=A0traditional old-school view in the financial industry t=
+hat if anyone at a regulated firm so much as looks at social media, that=E2=
+=80=99s illegal, and the completely unexplained Mass Mutual fine reinforces=
+ that belief. And then there is the more modern view of, like, go nuts,=C2=
+=A0pay some teens to pitch crypto on TikTok:Smash that like button, Wall St=
+reet: The teens and 20-somethings who steer online conversation =E2=80=94 a=
+bout life hacks, beauty products, Hollywood blockbusters, you name it =E2=
+=80=94 are now blazing their way into finance. Influencers like Hankwitz ca=
+n translate concepts like passive investing or tax harvesting into digestib=
+le social media videos using playful twists, music and colorful captions, m=
+aking investment products and the like feel accessible to millennials and G=
+en Z-ers. =E2=80=A6Hankwitz charges anywhere from $4,500 to $8,000 per post=
+ on his TikTok page. He said Fundrise, a real estate investment platform, p=
+ays him every month to post two videos on his TikTok, and also offers him a=
+ monthly bonus of as much as $2,000 based on how many people he pushes to t=
+he platform. BlockFi, a cryptocurrency trading platform, offers him $25 per=
+ person pushed to the platform through his unique code. And stock trading a=
+pp Public.com offered him a monthly retainer and company equity for a contr=
+act that includes replacing the Yahoo Finance stock charts on his videos wi=
+th theirs.=C2=A0These quotes are all from Misyrlena Egkolfopoulou=E2=80=99s=
+ Bloomberg article, titled =E2=80=9CWall Street Influencers Are Making $500=
+,000, Topping Even Bankers,=E2=80=9D and I could quote it endlessly:To get =
+there, creators have to develop a certain persona =E2=80=94 and on FinTok a=
+nd its Instagram counterpart, there=E2=80=99s enough variety for everyone. =
+Creators from a variety of ages, backgrounds and ethnicities offer advice a=
+bout how to open a Roth IRA, how to invest in real estate, how trading opti=
+ons makes more sense if you compare it to buying makeup, or how to use astr=
+ology to predict the price of Bitcoin.=C2=A0It is all legal-ish:Betterment=
+=E2=80=99s compliance and legal teams perform detailed reviews of their soc=
+ial media partners=E2=80=99 scripts. Influencers will then shoot the video =
+and send it back to compliance for a second review. Wealthfront said that i=
+t does extensive background checks on the influencers that get selected to =
+partner with them before signing any contracts. It also includes stipulatio=
+ns in the contract that allow Wealthfront to cancel if certain terms are vi=
+olated by the creators.=C2=A0The main law that governs financial influencer=
+s is the Investment Advisers Act of 1940, which specifies what qualifies as=
+ investment advice and who must register with state and federal regulators =
+in order to provide it. But there=E2=80=99s one exemption that reduces the =
+risk to influencers, according to Joshua Escalante Troesh, a registered fin=
+ancial adviser and founder of Purposeful Strategic Partners: Unregistered i=
+ndividuals can dispense financial advice if they do so through a =E2=80=9Cp=
+ublication of regular and general circulation.=E2=80=9D=C2=A0I suppose that=
+=E2=80=99s how Money Stuff gets away with dispensing financial advice, haha=
+ha no just kidding=C2=A0nothing here is ever financial advice.=C2=A0Get you=
+r financial advice from TikTok!
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Financial literacy
+   =20
+ =20
+Not that the traditional channels are always better! I am a long-time skept=
+ic of =E2=80=9Cfinancial literacy=E2=80=9D  education, which consists essen=
+tially of giving people quizzes about compound interest as a substitute for=
+ a decent social safety net. At Axios yesterday Felix Salmon had a very goo=
+d column skewering =E2=80=9Cthe financial literacy industrial complex,=E2=
+=80=9D and I recommend that you read it. He writes: =E2=80=9CThe main reaso=
+n that teens get targeted is they=E2=80=99re a captive audience for financi=
+al education campaigns, many of which come with branding from large financi=
+al services companies.=E2=80=9DThe purest possible mechanism of =E2=80=9Cfi=
+nancial literacy=E2=80=9D is (1) a banker comes to your school, (2) the ban=
+ker tells you that to have a good life you need to start depositing money i=
+n the bank, (3) your teacher nods approvingly, (4) you believe them and dep=
+osit money in the bank and (5) the bank steals it. Here is an incredible an=
+ecdote=C2=A0that Salmon quotes from Lauren Willis of Loyola Law School:To t=
+each children about the banking system, a U.S. primary school walked its st=
+udents to a local bank where each opened a savings account into which each =
+deposited $5. Implicit in this activity is the message that the bank is tru=
+stworthy. Another bank then acquired that bank and charged all low balance =
+accountholders a monthly maintenance fee that wiped out the children=E2=80=
+=99s savings. The children may have learned a more important lesson about t=
+he financial sector than the school intended.I love this so much. If I stil=
+l worked at Goldman Sachs Group Inc. I=E2=80=99d be pitching elementary sch=
+ools on teaching financial literacy through over-the-counter derivatives. =
+=E2=80=9CThe way to build wealth is to invest in over-the-counter derivativ=
+es as soon as possible, kids. Here, have some over-the-counter derivatives,=
+ don=E2=80=99t be shy.=E2=80=9D If someone=C2=A0comes to your school to sel=
+l you financial products, what kind of edge do you think you have? What kin=
+d of edge do you think they have?=C2=A0We  talked on Wednesday about Robinh=
+ood Markets Inc.=E2=80=99s plan to go to colleges and sign people up for tr=
+ading accounts. We sure did! That is a thing we talked about on Wednesday.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Issuer-paid ratings
+   =20
+ =20
+The way credit ratings work is that a company goes to a credit-ratings firm=
+ and asks it to rate the company=E2=80=99s bonds, and the ratings firm rate=
+s the bond, and the issuer pays the firm for the rating. One standard lesso=
+n of the 2008 financial crisis is that if an issuer is paying for a rating,=
+ the rating might be too generous.=C2=A0There are some  reasons to quibble =
+with that standard interpretation, but broadly speaking it makes sense. The=
+re are=C2=A0obvious incentive problems.Meanwhile the World Bank is funded b=
+y some countries, and it also rates countries. It doesn=E2=80=99t give them=
+ a credit rating, but it publishes a =E2=80=9CDoing Business=E2=80=9D repor=
+t rating countries on, you know, how good it is to do business in those cou=
+ntries. If you are a country you want to get a good rating in that report s=
+o that more businesses will want to do business in you. If you are a countr=
+y that funds the World Bank, etc. etc. etc., this really writes itself but =
+here you go:The World Bank canceled a prominent report rating the business =
+environment of the world=E2=80=99s countries after an investigation conclud=
+ed that senior bank management pressured staff to alter data affecting the =
+ranking of China and other nations.The leaders implicated include then Worl=
+d Bank Chief Executive Kristalina Georgieva, now managing director of the I=
+nternational Monetary Fund, and then World Bank President Jim Yong Kim. ...=
+The Doing Business report has been the subject of an external probe into th=
+e integrity of the report=E2=80=99s data. On Thursday, the bank released th=
+e results of that investigation, which concluded that senior bank leaders i=
+ncluding Ms. Georgieva were involved in pressuring economists to improve Ch=
+ina=E2=80=99s 2018 ranking. At the time, she and others were attempting to =
+persuade China to support a boost in the bank=E2=80=99s funding. =E2=80=A6C=
+hinese officials in 2017 and 2018 were eager to see their ranking improve, =
+and so Mr. Kim and Ms. Georgieva and their staff held a series of meetings =
+to discuss ways that the report=E2=80=99s methodology could be altered to i=
+mprove China=E2=80=99s rankings, according to the investigative report by t=
+he law firm WilmerHale.The World Bank was in the middle of difficult intern=
+ational negotiations to receive a $13 billion capital increase. Despite bei=
+ng the world=E2=80=99s second largest economy, China is the No. 3 sharehold=
+er at the World Bank, following the U.S. and Japan, and Beijing was eager t=
+o see its power increased as part of a deal for more funding. =E2=80=A6Alth=
+ough the data-gathering process for the 2018 report was finished, the World=
+ Bank=E2=80=99s economists reopened the data tables and altered China=E2=80=
+=99s data, the investigative report said. Instead of ranking 85th among the=
+ world=E2=80=99s countries, China climbed to 78th due to the alterations.It=
+ is popular in certain strands of financial regulatory thought to assume th=
+at the financial industry responds to incentives but that governments and i=
+ntergovernmental organizations do not. But if you can get a billion dollars=
+ by moving China from 85th to 78th in a necessarily subjective multi-factor=
+ ranking, why wouldn=E2=80=99t you?
+ =20
+   =20
+      15c2-11
+   =20
+ =20
+My Bloomberg Opinion colleague Brian Chappatta  has a good column on an abs=
+olutely bizarre U.S. Securities and Exchange Commission rule change. Basica=
+lly there=E2=80=99s a rule, Rule 15c2-11, that says that a broker or dealer=
+ cannot =E2=80=9Cpublish any quotation for a security or ...=C2=A0submit an=
+y such quotation for publication, in any quotation medium, unless=E2=80=9D =
+there is a certain amount of publicly available information about the issue=
+r (a prospectus, an annual report, etc.), the dealer has reviewed the infor=
+mation, and the=C2=A0dealer thinks it is reliable. The rule is clearly and =
+explicitly aimed at the over-the-counter stock market, that is, the =E2=80=
+=9Cpink sheets=E2=80=9D where penny stocks trade when they can=E2=80=99t qu=
+alify to list on a stock exchange. Brokers and dealers quote those stocks, =
+some of which have current public information and some of which are for com=
+panies that disappeared years ago and trade vestigially on the pink sheets.=
+ Tons of fraud happens in that market, and one way that the SEC tries to pr=
+event that fraud is by prohibiting brokers from quoting the fraudier stocks=
+. And last year the SEC updated Rule 15c2-11 to, I don=E2=80=99t know, =E2=
+=80=9Crecognize advances in communications technologies=E2=80=9D is what th=
+e SEC said:=E2=80=9CThese retail investor-focused improvements to Rule 15c2=
+-11 are long overdue,=E2=80=9D said SEC Chairman Jay Clayton. =C2=A0=E2=80=
+=9CThe technological advancements that have taken place since the rule was =
+last amended enable us to require that information in the OTC market be mor=
+e timely, enabling investors to make better informed investment decisions, =
+and reducing fraud in these markets where retail presence is significant an=
+d, unfortunately, pump-and-dump and other frauds are too common.=E2=80=9D=
+=C2=A0=E2=80=9CThe amended rule represents another important step in our ti=
+reless and proactive efforts to protect retail investors from being victimi=
+zed by microcap fraud,=E2=80=9D said Stephanie Avakian, Director of the Div=
+ision of Enforcement. =E2=80=A6Prior to today=E2=80=99s amendments, certain=
+ of the rule=E2=80=99s previous exceptions permitted broker-dealers to main=
+tain a quoted market for an issuer=E2=80=99s security in perpetuity, in the=
+ absence of current and publicly available information about the issuer, an=
+d even when the issuer no longer exists. =C2=A0Recognizing the ease with wh=
+ich information sharing takes place today, the amendments generally prohibi=
+t broker-dealers from publishing quotations for an issuer=E2=80=99s securit=
+y when issuer information is not current and publicly available, subject to=
+ certain exceptions.Fine, fine, all seems fine. But technically the rule sa=
+ys =E2=80=9Ca security,=E2=80=9D not =E2=80=9Ca penny stock.=E2=80=9D And w=
+hile the over-the-counter=C2=A0stock=C2=A0market is basically a place to fl=
+eece retail investors with penny stocks, the over-the-counter=C2=A0bond mar=
+ket is just the bond market. If you buy a corporate bond or an asset-backed=
+ security, you do it over the counter, based on a dealer quote.=C2=A0=E2=80=
+=9CSecurities that trade on the OTC market are primarily owned by retail in=
+vestors,=E2=80=9D says the SEC release updating Rule 15c2-11, which is just=
+ not at all true! It is true of=C2=A0stocks=C2=A0that trade OTC, but those =
+are small; the bond market is very big, very institutional, and very over-t=
+he-counter.And while some bond issuers (public companies) have the required=
+ public information, many (some asset-backed security trusts, private compa=
+nies with bonds) do not. For many bonds the rule will make it more complica=
+ted and time-consuming and difficult for dealers to quote markets; for othe=
+r bonds it will just make it impossible. And apparently everyone just assum=
+ed that the rule did not apply to bonds, but=C2=A0when the SEC updated it l=
+ast year, someone thought to call them up and say =E2=80=9Cyou don=E2=80=99=
+t mean bonds too do you?=E2=80=9D and the SEC was like =E2=80=9Coh sure we =
+do, bonds too, why not.=E2=80=9D Oops!=C2=A0Chappatta:There=E2=80=99s one b=
+ig problem: The rule, which had long been understood to safeguard retail in=
+vestors from penny stocks and other =E2=80=9Cpump-and-dump=E2=80=9D schemes=
+, doesn=E2=80=99t explicitly exclude fixed-income assets, except for munici=
+pal bonds. The Bond Dealers of America, a trade association for securities =
+dealers and banks specializing in fixed income, says SEC staff have informa=
+lly confirmed that the rule applies equally to both equities and debt.Here =
+is a joint letter from the Bond Dealers of America and the Securities Indus=
+try and Financial Markets Association asking the SEC to exempt bonds from t=
+he rule. The deadline for complying with the rule is Sept. 28, and after th=
+at maybe no one will be allowed to publish bond quotes anymore? Seems weird=
+. =E2=80=9CPeople are worried about bond market liquidity=E2=80=9D used to =
+be a big theme around here and, uh, banning bond quotes might bring that ba=
+ck.
+ =20
+   =20
+      Rude
+   =20
+ =20
+You know Leo Rosten=E2=80=99s famous definition of chutzpah, right?=C2=A0=
+=E2=80=9CThat quality enshrined in a man who, having killed his mother and =
+father, throws himself on the mercy of the court because he is an orphan.=
+=E2=80=9D Here that in the form of a=C2=A0financial research note:Deutsche =
+Bank has pulled a research report accusing German financial regulators and =
+the country=E2=80=99s outgoing conservative-led government of serious failu=
+res less than two weeks ahead of the hotly contested federal election.On Tu=
+esday, Deutsche Bank Research, the bank=E2=80=99s macroeconomic think-tank,=
+ published a 20-page analysis outlining a =E2=80=9Creform agenda for German=
+y=E2=80=99s financial sector=E2=80=9D =E2=80=94 it was removed just a few h=
+ours later.The report, which was published in German and seen by the Financ=
+ial Times, described an =E2=80=9Calmost unprecedented loss of importance=E2=
+=80=9D of German banks on the global stage over the past 15 years. It blame=
+d regulators and policymakers for the decline.Hmm do you have anything to s=
+ay about any particular German banks, Deutsche Bank Research team?=C2=A0Wit=
+hout directly referring to Germany=E2=80=99s largest lender, the report cit=
+ed Deutsche=E2=80=99s own scandals =E2=80=94 such as =E2=80=9Cmoney launder=
+ing, rate rigging, mis-selling of US mortgages or sanction violations=E2=80=
+=9D =E2=80=94 as examples of regulatory failure and the decline of the coun=
+try=E2=80=99s banking sector.Deutsche Bank has already paid billions of eur=
+os in settlements, while 70 current and former employees, including board m=
+embers, are under criminal investigation for their potential role in the cu=
+m-ex tax fraud, when investors fraudulently reclaimed dividend tax that was=
+ never paid.=E2=80=9CThe previous set-up [of German financial regulators] h=
+as proven not fit for purpose, as a flurry of fresh scandals has shown,=E2=
+=80=9D the report said, lambasting BaFin for failing to uncover the miscond=
+uct and accusing it of lacking =E2=80=9Creal auditing qualities=E2=80=9D.Pe=
+rfect. =E2=80=9CHow incompetent=C2=A0is our regulator? They didn=E2=80=99t =
+even catch all the bad stuff we did!=E2=80=9D Thanks for that Deutsche Bank=
+.
+ =20
+   =20
+      Elsewhere
+   =20
+ =20
+At 1:30 p.m. New York time today (Sept. 17), I'll be speaking with my Bloom=
+berg Opinion colleague Brooke Sutherland, of the Industrial Strength newsle=
+tter,=C2=A0about the Boeing shareholder lawsuit that we previously  discuss=
+ed here. You can watch the discussion live on Twitter.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+CEO=E2=80=99s Father Gets a $3.6 Billion Stock Windfall at Carvana. Evergra=
+nde=E2=80=99s Woes Fuel Selloff in Chinese Property Shares. Palm Oil Giant=
+=E2=80=99s Industry-Beating  ESG Score Hides Razed Forests.=C2=A0Mailchimp =
+employees are furious after the company's founders promised to never sell, =
+withheld equity, and then sold it for $12 billion. Fannie-Freddie Poised to=
+ Get Less Stringent  Capital Requirements. Invesco in Talks to Merge With S=
+tate Street=E2=80=99s Asset-Management Business. AQR hedge fund suffers $10=
+bn in outflows. Crypto Kid Fraudster Gets 7 1/2-Years for Ponzi Scheme. Peo=
+ple are worried about stock buybacks. Let Me Say This With As Much Sensitiv=
+ity As I Can: Wow, That=E2=80=99s a Lot of Dead People and Crime.=C2=A0=C2=
+=A0Sex 'emerged in ancient Scottish lake.'If you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0subs=
+cribe at this link. Or you can subscribe to Money Stuff and other great Blo=
+omberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cexdfi.5hyj/90235de8.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_13708537_1629641835.1631895795668
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cBe282f5ca" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 5px;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBd0f4a07a"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC55368e14" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Positive and negative finfluence</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">So on the one hand, the state of Massa=
+chusetts fined Massachusetts Mutual Life Insurance Co. $4 million for <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tYXNzbXV0dWFsLWZpbmVkLW92ZXItc29jaWFsLW1lZG=
+lhLXRyYWRpbmctYWN0aXZpdHktb2YtZW1wbG95ZWVzLWluY2x1ZGluZy1nYW1lc3RvcC10cmFkZ=
+XIta2VpdGgtZ2lsbC0xMTYzMTgxNDIxMj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8=
+524a319a23cBa9a4c241" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">letting Keith Gill do the GameStop thing</a>:</p><blockquote><=
+p style=3D"margin: 16px 0;">Mr. Gill, known as =E2=80=9CRoaring Kitty=E2=80=
+=9D on YouTube and =E2=80=9CDeepF=E2=80=94ingValue=E2=80=9D on Reddit, beca=
+me an Internet folk hero in January, thanks to his prescient bets on GameSt=
+op stock. For months leading up to the GameStop trading frenzy in January=
+=E2=80=94during which nonprofessional traders sent the company=E2=80=99s sh=
+ares soaring to a record high=E2=80=94Mr. Gill posted videos and messages d=
+iscussing why he was putting large sums of money into the stock. =E2=80=A6<=
+/p><p style=3D"margin: 16px 0;">At the time, Mr. Gill was registered as a b=
+roker at MML Investors Services LLC, a broker-dealer and investment adviser=
+ whose parent company is MassMutual. His role was director of education and=
+ wellness, and he was responsible for creating educational materials used b=
+y the company and its client-facing registered agents. ...</p><p style=3D"m=
+argin: 16px 0;">The office of William Galvin, the Secretary of the Commonwe=
+alth of Massachusetts, opened an inquiry into the matter earlier this year.=
+ His office said that while MML prohibited broker-dealer employees from dis=
+cussing securities on social media, the company didn=E2=80=99t have =E2=80=
+=9Creasonable policies and procedures in place to detect and monitor=E2=80=
+=9D such activity. At one point in mid-January, Mr. Galvin=E2=80=99s office=
+ said, two employees including Mr. Gill=E2=80=99s manager were made aware o=
+f his social-media activity. MML didn=E2=80=99t take any immediate action, =
+the regulator said.</p></blockquote><p style=3D"margin: 16px 0;">Here=C2=A0=
+is <a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555=
+/aHR0cHM6Ly93d3cuc2VjLnN0YXRlLm1hLnVzL3NjdC9jdXJyZW50L3NjdG1hc3NtdXR1YWwvTU=
+1MSVMtQ29uc2VudC1PcmRlci1FLTIwMjEtMDAwNC5wZGY/607f07ceef4b8524a319a23cB56f1=
+e9ef" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+consent order</a>, which is very puzzling in that it =E2=80=A6=C2=A0doesn=
+=E2=80=99t say what Mass Mutual, or Gill, did wrong? The gist of it is:</p>=
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Gill worked as =E2=80=9Cdirector of e=
+ducation and wellness=E2=80=9D for a Mass Mutual brand called =E2=80=9CIn G=
+ood Company,=E2=80=9D okay.</li>=09<li style=3D"margin-bottom: 5px;">He did=
+ a lot of posting about GameStop Corp. on Reddit, Twitter and YouTube, beco=
+ming a huge celebrity during its January rally. Those posts did not use his=
+ real name or mention his Mass Mutual affiliation, though his YouTube video=
+s did show his face. =E2=80=9CGill ran rampant on his personal social media=
+,=E2=80=9D the consent order says, =E2=80=9Cfrequently and extensively post=
+ing regarding generic and specific securities.=E2=80=9D</li>=09<li style=3D=
+"margin-bottom: 5px;">He also traded a lot of GameStop stock and options.</=
+li>=09<li style=3D"margin-bottom: 5px;">Mass Mutual =E2=80=9Cfailed reasona=
+bly to supervise him.=E2=80=9D</li></ol><p style=3D"margin: 16px 0;">Mass M=
+utual had policies prohibiting its employees =E2=80=9Cfrom discussing gener=
+ic securities and company business on social media,=E2=80=9D and I guess he=
+ violated them, but I am just not sure I understand why regulators would ca=
+re about that. Did Gill mislead anyone? Was he providing unsuitable financi=
+al advice in his capacity as a registered person? Was he =E2=80=9Cmanipulat=
+ing the value of GameStop stock,=E2=80=9D as his boss at In Good Company sa=
+id in an email quoted by the regulators? I dunno, in a sense, but not I thi=
+nk in an illegal sense. He said he liked the stock, and people agreed with =
+him, so the stock went up. Seems fine, or fine-ish.=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">By the way, surely Keith Gill has done more to teach ordinar=
+y people about the financial system than every other =E2=80=9Cfinancial wel=
+lness educator=E2=80=9D in the history of the world combined? Like GameStop=
+ was=C2=A0very much a teachable moment, in a way that whatever In Good Comp=
+any was up to probably was not. (Do <em>you=C2=A0</em>know what In Good Com=
+pany was up to?) The guy explained how stock trading works=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDItMTgvZ2FtZXN0b3AtaGVh=
+cmluZy10YWtlcy10aGUtZnVuLW91dC1vZi1yb2Jpbmhvb2QtYW5kLXJlZGRpdC1rbGI0eXN0ag/=
+607f07ceef4b8524a319a23cB792518ba" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"><em>to Congress</em></a>. Ooh, he violated a socia=
+l-media policy, who cares.=C2=A0</p><p style=3D"margin: 16px 0;">On the oth=
+er hand, <a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.=
+256555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTcv=
+c29jaWFsLW1lZGlhLWluZmx1ZW5jZXJzLWluY29tZS1hZHZlcnRpc2luZy13YWxsLXN0cmVldC1=
+wcm9kdWN0cw/607f07ceef4b8524a319a23cB2b83be66" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> what=E2=80=99s all this then</a>:</p>=
+<blockquote><p style=3D"margin: 16px 0;">At first no one could explain why =
+business was picking up at Betterment, a robo adviser aimed at newbie inves=
+tors. There were about 10,000 signups in one day.=C2=A0</p><p style=3D"marg=
+in: 16px 0;">Then came the answer: A 25-year-old TikToker from Tennessee wa=
+s posting videos describing how to retire a millionaire by using the platfo=
+rm.</p><p style=3D"margin: 16px 0;">His name is Austin Hankwitz, and he=E2=
+=80=99s managed to land one of the hottest new gigs: full-time =E2=80=9Cfin=
+fluencer.=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">Once Bettermen=
+t saw the traction it was getting through Hankwitz=E2=80=99s posts, it hire=
+d him within a month to plug its services via social media.</p><p style=3D"=
+margin: 16px 0;">Wealthfront, another robo adviser, has partnered with abou=
+t 15 influencers including Haley Sacks =E2=80=94 known on Instagram as Mrs.=
+ Dow Jones =E2=80=94 according to Kate Wauck, the firm=E2=80=99s chief comm=
+unications officer.=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9CQuite fr=
+ankly, they=E2=80=99re just better at telling our story than we are,=E2=80=
+=9D she said.</p></blockquote><p style=3D"margin: 16px 0;">I =E2=80=A6=C2=
+=A0okay =E2=80=A6=C2=A0so =E2=80=A6=C2=A0some guy on TikTok is like =E2=80=
+=9Cyou=E2=80=99ll be a millionaire if you use Betterment=E2=80=9D and Bette=
+rment was like =E2=80=9Coh thanks, nice of you to say, here=E2=80=99s some =
+money, keep saying that,=E2=80=9D and he did, and =E2=80=A6=C2=A0Mass Mutua=
+l gets in trouble for Keith Gill using Reddit under a pseudonym?</p><p styl=
+e=3D"margin: 16px 0;">I do feel like there is a=C2=A0traditional old-school=
+ view in the financial industry that if anyone at a regulated firm so much =
+as looks at social media, that=E2=80=99s illegal, and the completely unexpl=
+ained Mass Mutual fine reinforces that belief. And then there is the more m=
+odern view of, like, go nuts,=C2=A0pay some teens to pitch crypto on TikTok=
+:</p><blockquote><p style=3D"margin: 16px 0;">Smash that like button, Wall =
+Street: The teens and 20-somethings who steer online conversation =E2=80=94=
+ about life hacks, beauty products, Hollywood blockbusters, you name it =E2=
+=80=94 are now blazing their way into finance. Influencers like Hankwitz ca=
+n translate concepts like passive investing or tax harvesting into digestib=
+le social media videos using playful twists, music and colorful captions, m=
+aking investment products and the like feel accessible to millennials and G=
+en Z-ers. =E2=80=A6</p><p style=3D"margin: 16px 0;">Hankwitz charges anywhe=
+re from $4,500 to $8,000 per post on his TikTok page. He said Fundrise, a r=
+eal estate investment platform, pays him every month to post two videos on =
+his TikTok, and also offers him a monthly bonus of as much as $2,000 based =
+on how many people he pushes to the platform. BlockFi, a cryptocurrency tra=
+ding platform, offers him $25 per person pushed to the platform through his=
+ unique code. And stock trading app Public.com offered him a monthly retain=
+er and company equity for a contract that includes replacing the Yahoo Fina=
+nce stock charts on his videos with theirs.=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">These quotes are all from Misyrlena Egkolfopoulou=E2=
+=80=99s Bloomberg article, titled =E2=80=9CWall Street Influencers Are Maki=
+ng $500,000, Topping Even Bankers,=E2=80=9D and I could quote it endlessly:=
+</p><blockquote><p style=3D"margin: 16px 0;">To get there, creators have to=
+ develop a certain persona =E2=80=94 and on FinTok and its Instagram counte=
+rpart, there=E2=80=99s enough variety for everyone. Creators from a variety=
+ of ages, backgrounds and ethnicities offer advice about how to open a Roth=
+ IRA, how to invest in real estate, how trading options makes more sense if=
+ you compare it to buying makeup, or how to use astrology to predict the pr=
+ice of Bitcoin.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">It is al=
+l legal-ish:</p><blockquote><p style=3D"margin: 16px 0;">Betterment=E2=80=
+=99s compliance and legal teams perform detailed reviews of their social me=
+dia partners=E2=80=99 scripts. Influencers will then shoot the video and se=
+nd it back to compliance for a second review. Wealthfront said that it does=
+ extensive background checks on the influencers that get selected to partne=
+r with them before signing any contracts. It also includes stipulations in =
+the contract that allow Wealthfront to cancel if certain terms are violated=
+ by the creators.=C2=A0</p><p style=3D"margin: 16px 0;">The main law that g=
+overns financial influencers is the Investment Advisers Act of 1940, which =
+specifies what qualifies as investment advice and who must register with st=
+ate and federal regulators in order to provide it. But there=E2=80=99s one =
+exemption that reduces the risk to influencers, according to Joshua Escalan=
+te Troesh, a registered financial adviser and founder of Purposeful Strateg=
+ic Partners: Unregistered individuals can dispense financial advice if they=
+ do so through a =E2=80=9Cpublication of regular and general circulation.=
+=E2=80=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">I suppose that=
+=E2=80=99s how Money Stuff gets away with dispensing financial advice, haha=
+ha no just kidding=C2=A0<em>nothing here is ever financial advice</em>.=C2=
+=A0Get your financial advice from TikTok!</p><table class=3D"liveintent-spo=
+nsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD9c177f56" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE9c177f56" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF25a6f22a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG25a6f22a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Financial literacy</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Not that the traditional channels are =
+always better! I am a <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25071678.256555/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXMvNzc=
+1MDQyMDEzODc2MTU4NDY0/607f07ceef4b8524a319a23cB8021b6a2" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">long-time skeptic</a> of =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256=
+555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDItMTQ=
+vaXMtdml4LW1hbmlwdWxhdGVkLW9yLWhlZGdlZA/607f07ceef4b8524a319a23cBdba4135f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">financial =
+literacy</a>=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25071678.256555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMTYtMTAtMDYvbWFya2V0LWludGVncml0eS1hbmQtaGVkZ2UtZnVuZC1tb3JhbGU/607f07=
+ceef4b8524a319a23cB05a350e7" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> education</a>, which consists essentially of giving peo=
+ple quizzes about compound interest as a substitute for a decent social saf=
+ety net. At Axios yesterday <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25071678.256555/aHR0cHM6Ly93d3cuYXhpb3MuY29tL2ZpbmFuY2lhbC1saXRlc=
+mFjeS1pbmR1c3RyaWFsLWNvbXBsZXgtNjE3MTFhYTktN2VlYS00YjI2LWI2ODQtMDM3MTkzODdh=
+MGNiLmh0bWw/607f07ceef4b8524a319a23cB1edcd8e7" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Felix Salmon had a very good column</a=
+> skewering =E2=80=9Cthe financial literacy industrial complex,=E2=80=9D an=
+d I recommend that you read it. He writes: =E2=80=9CThe main reason that te=
+ens get targeted is they=E2=80=99re a captive audience for financial educat=
+ion campaigns, many of which come with branding from large financial servic=
+es companies.=E2=80=9D</p><p style=3D"margin: 16px 0;">The purest possible =
+mechanism of =E2=80=9Cfinancial literacy=E2=80=9D is (1) a banker comes to =
+your school, (2) the banker tells you that to have a good life you need to =
+start depositing money in the bank, (3) your teacher nods approvingly, (4) =
+you believe them and deposit money in the bank and (5) the bank steals it. =
+Here is an <a href=3D"https://link.mail.bloombergbusiness.com/click/2507167=
+8.256555/aHR0cHM6Ly93d3cuYXhpb3MuY29tL25ld3NsZXR0ZXJzL2F4aW9zLWNhcGl0YWw/60=
+7f07ceef4b8524a319a23cBee140b95" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">incredible anecdote</a>=C2=A0that Salmon quotes from=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/a=
+HR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM4NTU4=
+MzA/607f07ceef4b8524a319a23cBd16c2f1c" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">Lauren Willis of Loyola Law School</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">To teach children about the banking s=
+ystem, a U.S. primary school walked its students to a local bank where each=
+ opened a savings account into which each deposited $5. Implicit in this ac=
+tivity is the message that the bank is trustworthy. Another bank then acqui=
+red that bank and charged all low balance accountholders a monthly maintena=
+nce fee that wiped out the children=E2=80=99s savings. The children may hav=
+e learned a more important lesson about the financial sector than the schoo=
+l intended.</p></blockquote><p style=3D"margin: 16px 0;">I love this so muc=
+h. If I still worked at Goldman Sachs Group Inc. I=E2=80=99d be pitching el=
+ementary schools on teaching financial literacy through over-the-counter de=
+rivatives. =E2=80=9CThe way to build wealth is to invest in over-the-counte=
+r derivatives as soon as possible, kids. Here, have some over-the-counter d=
+erivatives, don=E2=80=99t be shy.=E2=80=9D If someone=C2=A0<em>comes to you=
+r school to sell you financial products</em>, what kind of edge do you thin=
+k you have? What kind of edge do you think they have?=C2=A0We <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMTUvZG9uLXQtYnV5LXRoZS=
+1iYWQtZGF0YQ/607f07ceef4b8524a319a23cB2a49700f" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> talked on Wednesday</a> about Robinh=
+ood Markets Inc.=E2=80=99s plan to go to colleges and sign people up for tr=
+ading accounts. We sure did! That is a thing we talked about on Wednesday.<=
+/p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH97c44d00" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Issuer-paid ratings</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The way credit ratings work is that a =
+company goes to a credit-ratings firm and asks it to rate the company=E2=80=
+=99s bonds, and the ratings firm rates the bond, and the issuer pays the fi=
+rm for the rating. One standard lesson of the 2008 financial crisis is that=
+ if an issuer is paying for a rating, the rating might be too generous.=C2=
+=A0There are some <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25071678.256555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTktMDgtMDgvY3JlZGl0LXJhdGluZ3MtYXJlLXN0aWxsLWNyZWRpdC1yYXRpbmdz/607f07cee=
+f4b8524a319a23cB43adc090" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> reasons to quibble</a> with that standard interpretation, =
+but broadly speaking it makes sense. There are=C2=A0obvious incentive probl=
+ems.</p><p style=3D"margin: 16px 0;">Meanwhile the World Bank is funded by =
+some countries, and it also rates countries. It doesn=E2=80=99t give them a=
+ credit rating, but it publishes a =E2=80=9CDoing Business=E2=80=9D report =
+rating countries on, you know, how good it is to do business in those count=
+ries. If you are a country you want to get a good rating in that report so =
+that more businesses will want to do business in you. If you are a country =
+that funds the World Bank, etc. etc. etc., this really writes itself but <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93b3JsZC1iYW5rLWNhbmNlbHMtZmxhZ3NoaXAtZG9=
+pbmctYnVzaW5lc3MtcmVwb3J0LWFmdGVyLWludmVzdGlnYXRpb24tMTE2MzE4MTE2NjM_bW9kPW=
+l0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBf52bab30" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">here you go</a>:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">The World Bank canceled a prominent report=
+ rating the business environment of the world=E2=80=99s countries after an =
+investigation concluded that senior bank management pressured staff to alte=
+r data affecting the ranking of China and other nations.</p><p style=3D"mar=
+gin: 16px 0;">The leaders implicated include then World Bank Chief Executiv=
+e Kristalina Georgieva, now managing director of the International Monetary=
+ Fund, and then World Bank President Jim Yong Kim. ...</p><p style=3D"margi=
+n: 16px 0;">The Doing Business report has been the subject of an external p=
+robe into the integrity of the report=E2=80=99s data. On Thursday, the bank=
+ released the results of that investigation, which concluded that senior ba=
+nk leaders including Ms. Georgieva were involved in pressuring economists t=
+o improve China=E2=80=99s 2018 ranking. At the time, she and others were at=
+tempting to persuade China to support a boost in the bank=E2=80=99s funding=
+. =E2=80=A6</p><p style=3D"margin: 16px 0;">Chinese officials in 2017 and 2=
+018 were eager to see their ranking improve, and so Mr. Kim and Ms. Georgie=
+va and their staff held a series of meetings to discuss ways that the repor=
+t=E2=80=99s methodology could be altered to improve China=E2=80=99s ranking=
+s, according to the investigative report by the law firm WilmerHale.</p><p =
+style=3D"margin: 16px 0;">The World Bank was in the middle of difficult int=
+ernational negotiations to receive a $13 billion capital increase. Despite =
+being the world=E2=80=99s second largest economy, China is the No. 3 shareh=
+older at the World Bank, following the U.S. and Japan, and Beijing was eage=
+r to see its power increased as part of a deal for more funding. =E2=80=A6<=
+/p><p style=3D"margin: 16px 0;">Although the data-gathering process for the=
+ 2018 report was finished, the World Bank=E2=80=99s economists reopened the=
+ data tables and altered China=E2=80=99s data, the investigative report sai=
+d. Instead of ranking 85th among the world=E2=80=99s countries, China climb=
+ed to 78th due to the alterations.</p></blockquote><p style=3D"margin: 16px=
+ 0;">It is popular in certain strands of financial regulatory thought to as=
+sume that the financial industry responds to incentives but that government=
+s and intergovernmental organizations do not. But if you can get a billion =
+dollars by moving China from 85th to 78th in a necessarily subjective multi=
+-factor ranking, why wouldn=E2=80=99t you?</p><table class=3D"header" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">15c2-11</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">My Bloomberg Opinion colleague Brian C=
+happatta <a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.=
+256555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDkt=
+MTYvYS1iaWctYm9uZC1tYXJrZXQtaGVhZGFjaGUtY291cnRlc3ktb2YtdGhlLXNlYw/607f07ce=
+ef4b8524a319a23cB321ad63d" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> has a good column</a> on an absolutely bizarre U.S. Secur=
+ities and Exchange Commission rule change. Basically there=E2=80=99s a rule=
+, Rule 15c2-11, that says that a broker or dealer cannot =E2=80=9Cpublish a=
+ny quotation for a security or ...=C2=A0submit any such quotation for publi=
+cation, in any quotation medium, unless=E2=80=9D there is a certain amount =
+of publicly available information about the issuer (a prospectus, an annual=
+ report, etc.), the dealer has reviewed the information, and the=C2=A0deale=
+r thinks it is reliable. The rule is clearly and explicitly aimed at the ov=
+er-the-counter <em>stock</em> market, that is, the =E2=80=9Cpink sheets=E2=
+=80=9D where penny stocks trade when they can=E2=80=99t qualify to list on =
+a stock exchange. Brokers and dealers quote those stocks, some of which hav=
+e current public information and some of which are for companies that disap=
+peared years ago and trade vestigially on the pink sheets. Tons of fraud ha=
+ppens in that market, and one way that the SEC tries to prevent that fraud =
+is by prohibiting brokers from quoting the fraudier stocks. And last year t=
+he SEC updated Rule 15c2-11 to, I don=E2=80=99t know, =E2=80=9Crecognize ad=
+vances in communications technologies=E2=80=9D is <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMC0yMTI/607f07ceef4b8524a319a23cB9e5934e8" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">what the SEC =
+said</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CThese retail=
+ investor-focused improvements to Rule 15c2-11 are long overdue,=E2=80=9D s=
+aid SEC Chairman Jay Clayton. =C2=A0=E2=80=9CThe technological advancements=
+ that have taken place since the rule was last amended enable us to require=
+ that information in the OTC market be more timely, enabling investors to m=
+ake better informed investment decisions, and reducing fraud in these marke=
+ts where retail presence is significant and, unfortunately, pump-and-dump a=
+nd other frauds are too common.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px =
+0;">=E2=80=9CThe amended rule represents another important step in our tire=
+less and proactive efforts to protect retail investors from being victimize=
+d by microcap fraud,=E2=80=9D said Stephanie Avakian, Director of the Divis=
+ion of Enforcement. =E2=80=A6</p><p style=3D"margin: 16px 0;">Prior to toda=
+y=E2=80=99s amendments, certain of the rule=E2=80=99s previous exceptions p=
+ermitted broker-dealers to maintain a quoted market for an issuer=E2=80=99s=
+ security in perpetuity, in the absence of current and publicly available i=
+nformation about the issuer, and even when the issuer no longer exists. =C2=
+=A0Recognizing the ease with which information sharing takes place today, t=
+he amendments generally prohibit broker-dealers from publishing quotations =
+for an issuer=E2=80=99s security when issuer information is not current and=
+ publicly available, subject to certain exceptions.</p></blockquote><p styl=
+e=3D"margin: 16px 0;">Fine, fine, all seems fine. But technically the rule =
+says =E2=80=9Ca security,=E2=80=9D not =E2=80=9Ca penny stock.=E2=80=9D And=
+ while the over-the-counter=C2=A0<em>stock=C2=A0</em>market is basically a =
+place to fleece retail investors with penny stocks, the over-the-counter=C2=
+=A0<em>bond </em>market is just the bond market. If you buy a corporate bon=
+d or an asset-backed security, you do it over the counter, based on a deale=
+r quote.=C2=A0=E2=80=9CSecurities that trade on the OTC market are primaril=
+y owned by retail investors,=E2=80=9D says the SEC release updating Rule 15=
+c2-11, which is just not at all true! It is true of=C2=A0<em>stocks=C2=A0</=
+em>that trade OTC, but those are small; the bond market is very big, very i=
+nstitutional, and very over-the-counter.</p><p style=3D"margin: 16px 0;">An=
+d while some bond issuers (public companies) have the required public infor=
+mation, many (some asset-backed security trusts, private companies with bon=
+ds) do not. For many bonds the rule will make it more complicated and time-=
+consuming and difficult for dealers to quote markets; for other bonds it wi=
+ll just make it impossible. And apparently everyone just assumed that the r=
+ule did not apply to bonds, but=C2=A0when the SEC updated it last year, som=
+eone thought to call them up and say =E2=80=9Cyou don=E2=80=99t mean bonds =
+too do you?=E2=80=9D and the SEC was like =E2=80=9Coh sure we do, bonds too=
+, why not.=E2=80=9D Oops!=C2=A0Chappatta:</p><blockquote><p style=3D"margin=
+: 16px 0;">There=E2=80=99s one big problem: The rule, which had long been u=
+nderstood to safeguard retail investors from penny stocks and other =E2=80=
+=9Cpump-and-dump=E2=80=9D schemes, doesn=E2=80=99t explicitly exclude fixed=
+-income assets, except for municipal bonds. The Bond Dealers of America, a =
+trade association for securities dealers and banks specializing in fixed in=
+come, says SEC staff have informally confirmed that the rule applies equall=
+y to both equities and debt.</p></blockquote><p style=3D"margin: 16px 0;">H=
+ere is <a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.25=
+6555/aHR0cHM6Ly9kMzFoemxoazZkaTJoNS5jbG91ZGZyb250Lm5ldC8yMDIxMDgwNi9jNi83ZS=
+9hYy9jMy83NWRjMmFhNGZjYmIwZGRhZDAyZTU3MWEvU0lGTUEtQkRBX0RyYWZ0X0V4ZW1wdGlvb=
+l9SZXF1ZXN0XzE1YzItMTFfMjAyMS0wOC0wNl9fMDAzX19BY3RpdmVVU18xODkzMDM1NjBfX0Fj=
+dGl2ZVVTXzFfLkRPQ1gucGRm/607f07ceef4b8524a319a23cBc67b9dbc" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">a joint letter</a> from t=
+he Bond Dealers of America and the Securities Industry and Financial Market=
+s Association asking the SEC to exempt bonds from the rule. The deadline fo=
+r complying with the rule is Sept. 28, and after that maybe no one will be =
+allowed to publish bond quotes anymore? Seems weird. =E2=80=9CPeople are wo=
+rried about bond market liquidity=E2=80=9D used to be a big theme around he=
+re and, uh, banning bond quotes might bring that back.</p><table class=3D"h=
+eader" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Rude</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">You know Leo Rosten=E2=80=99s <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6L=
+y9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ2h1dHpwYWg/607f07ceef4b8524a319a23cB1a58108=
+9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">famous =
+definition of chutzpah</a>, right?=C2=A0=E2=80=9CThat quality enshrined in =
+a man who, having killed his mother and father, throws himself on the mercy=
+ of the court because he is an orphan.=E2=80=9D Here that in the form of a=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256=
+555/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTgxNjQwYjItNWY3NS00OWIyLWJiODctZjA=
+5Yjk5MTYyZjdj/607f07ceef4b8524a319a23cB47458c9f" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">financial research note</a>:</p><blo=
+ckquote><p style=3D"margin: 16px 0;">Deutsche Bank has pulled a research re=
+port accusing German financial regulators and the country=E2=80=99s outgoin=
+g conservative-led government of serious failures less than two weeks ahead=
+ of the hotly contested federal election.</p><p style=3D"margin: 16px 0;">O=
+n Tuesday, Deutsche Bank Research, the bank=E2=80=99s macroeconomic think-t=
+ank, published a 20-page analysis outlining a =E2=80=9Creform agenda for Ge=
+rmany=E2=80=99s financial sector=E2=80=9D =E2=80=94 it was removed just a f=
+ew hours later.</p><p style=3D"margin: 16px 0;">The report, which was publi=
+shed in German and seen by the Financial Times, described an =E2=80=9Calmos=
+t unprecedented loss of importance=E2=80=9D of German banks on the global s=
+tage over the past 15 years. It blamed regulators and policymakers for the =
+decline.</p></blockquote><p style=3D"margin: 16px 0;">Hmm do you have anyth=
+ing to say about any particular German banks, Deutsche Bank Research team?=
+=C2=A0</p><blockquote><p style=3D"margin: 16px 0;">Without directly referri=
+ng to Germany=E2=80=99s largest lender, the report cited Deutsche=E2=80=99s=
+ own scandals =E2=80=94 such as =E2=80=9Cmoney laundering, rate rigging, mi=
+s-selling of US mortgages or sanction violations=E2=80=9D =E2=80=94 as exam=
+ples of regulatory failure and the decline of the country=E2=80=99s banking=
+ sector.</p><p style=3D"margin: 16px 0;">Deutsche Bank has already paid bil=
+lions of euros in settlements, while 70 current and former employees, inclu=
+ding board members, are under criminal investigation for their potential ro=
+le in the cum-ex tax fraud, when investors fraudulently reclaimed dividend =
+tax that was never paid.</p><p style=3D"margin: 16px 0;">=E2=80=9CThe previ=
+ous set-up [of German financial regulators] has proven not fit for purpose,=
+ as a flurry of fresh scandals has shown,=E2=80=9D the report said, lambast=
+ing BaFin for failing to uncover the misconduct and accusing it of lacking =
+=E2=80=9Creal auditing qualities=E2=80=9D.</p></blockquote><p style=3D"marg=
+in: 16px 0;">Perfect. =E2=80=9CHow incompetent=C2=A0is our regulator? They =
+didn=E2=80=99t even catch all the bad stuff we did!=E2=80=9D Thanks for tha=
+t Deutsche Bank.</p><table class=3D"header" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">At 1:30 p.m. New York time today (Sept=
+. 17), I'll be speaking with my Bloomberg Opinion colleague Brooke Sutherla=
+nd, of the <a href=3D"https://link.mail.bloombergbusiness.com/click/2507167=
+8.256555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL2luZH=
+VzdHJpYWwtc3RyZW5ndGg/607f07ceef4b8524a319a23cBcac06e35" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Industrial Strength newslett=
+er</a>,=C2=A0about the Boeing shareholder lawsuit that we previously <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMTMvYm9hcmRzLWh=
+hdmUtdG8tcGF5LWF0dGVudGlvbg/607f07ceef4b8524a319a23cBee2cbe99" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> discussed here</a>. Y=
+ou can watch the discussion <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25071678.256555/aHR0cHM6Ly90d2l0dGVyLmNvbS9pL2Jyb2FkY2FzdHMvMVlxS=
+0RlTndRTVZHVg/607f07ceef4b8524a319a23cBb2b3a0b5" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">live on Twitter</a>.</p><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">CEO=E2=80=99s <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9jZW9zLWRhZC1nZXRzLWEtMy02LWJpbGxpb24tc3RvY2std2luZGZhbGwtYXQtY=
+2FydmFuYS0xMTYzMTc5MTgwMT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a=
+23cB7b3892b6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Father</a> Gets a $3.6 Billion Stock Windfall at Carvana. Evergrande=E2=
+=80=99s Woes <a href=3D"https://link.mail.bloombergbusiness.com/click/25071=
+678.256555/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldmVyZ3JhbmRlcy13b2VzLWZ1=
+ZWwtc2VsbG9mZi1pbi1jaGluZXNlLXByb3BlcnR5LXNoYXJlcy0xMTYzMTc3NzkxMj9tb2Q9aXR=
+wX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB867116ba" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Fuel Selloff</a> in Chinese Pr=
+operty Shares. Palm Oil Giant=E2=80=99s Industry-Beating <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDktMTUvcGFsbS1vaWwtZ2lhbnQtcy1pbmR=
+1c3RyeS1iZWF0aW5nLWVzZy1zY29yZS1oaWRlcy1yYXplZC1mb3Jlc3Rz/607f07ceef4b8524a=
+319a23cBe98b48ef" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> ESG Score</a> Hides Razed Forests.=C2=A0Mailchimp employees are fu=
+rious after the company's founders <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25071678.256555/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS=
+9tYWlsY2hpbXAtaW5zaWRlcnMtcmVhY3QtdG8tZW1wbG95ZWVzLWdldHRpbmctbm8tZXF1aXR5L=
+TIwMjEtOQ/607f07ceef4b8524a319a23cB07ecb6cc" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">promised to never sell</a>, withheld equ=
+ity, and then sold it for $12 billion. Fannie-Freddie Poised to Get Less St=
+ringent <a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.2=
+56555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTUvZ=
+mFubmllLWZyZWRkaWUtcG9pc2VkLXRvLWdldC1sZXNzLXN0cmluZ2VudC1jYXBpdGFsLXJlcXVp=
+cmVtZW50cw/607f07ceef4b8524a319a23cB647568a3" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Capital Requirements</a>. <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy9pbnZlc2NvLWluLXRhbGtzLXRvLW1lcmdlLXdpdGgtc3RhdGUtc=
+3RyZWV0cy1hc3NldC1tYW5hZ2VtZW50LWJ1c2luZXNzLTExNjMxODI5NDI1P21vZD1ocF9sZWFk=
+X3BvczU/607f07ceef4b8524a319a23cB7bb206e4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Invesco</a> in Talks to Merge With State S=
+treet=E2=80=99s Asset-Management Business. <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbn=
+QvYzgwYTVkOTktNTdhZi00ZGMzLTk3YmEtOGM2MjBkNDZlYjcy/607f07ceef4b8524a319a23c=
+Bdb256046" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>AQR</a> hedge fund suffers $10bn in outflows. Crypto Kid Fraudster Gets 7 =
+1/2-Years for Ponzi Scheme. People are worried about <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25071678.256555/aHR0cHM6Ly93d3cuZnQuY29t=
+L2NvbnRlbnQvODViYWRkMTktYzUyYy00MDYyLTg4ZjAtNGVhNjc5YzUyYTNh/607f07ceef4b85=
+24a319a23cB17d44bc9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">stock buybacks</a>. Let Me Say This With As Much Sensitivity A=
+s I Can: Wow, That=E2=80=99s a Lot of <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25071678.256555/aHR0cHM6Ly9zbGF0ZS5jb20vbmV3cy1hbmQtcG9=
+saXRpY3MvMjAyMS8wOS9hbGV4LW11cmRhdWdoLWludmVzdGlnYXRpb25zLWV4cGxhaW5lZC1zb3=
+V0aC1jYXJvbGluYS1tdXJkZXItZnJhdWQtb2JzdHJ1Y3Rpb24tb2YtanVzdGljZS1tYXliZS1tb=
+3JlLmh0bWw/607f07ceef4b8524a319a23cBe303eca2" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Dead People and Crime</a>.=C2=A0=C2=A0S=
+ex '<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.25655=
+5/aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL3NjaWVuY2UtZW52aXJvbm1lbnQtMjk2NjE0NDY/6=
+07f07ceef4b8524a319a23cBa72965fd" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">emerged</a> in ancient Scottish lake.'</p><p style=
+=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>I=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/25071678.256555/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20=
+vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5Yz=
+I1YWNlYTY3YQ/607f07ceef4b8524a319a23cBace5be36" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuff an=
+d other great Bloomberg newsletters <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25071678.256555/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld=
+3NsZXR0ZXJz/607f07ceef4b8524a319a23cB3d4484eb" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe707eaf4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8402a9bf" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf9c8693b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf1a6a536" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTA3MTY3OCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzMjgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI5d3fee42" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25071678&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2507167=
+8.256555/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB21811a26" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25071678.256555/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4c57c114" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25071678.256555/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB2863dbbe" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25071678.256555/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBca91bd37" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+a6a1984" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25071678.256555/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+86917b0" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D250716=
+78&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D250716=
+78&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D250716=
+78&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D250716=
+78&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D250716=
+78&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25328233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cexdfi.5hyj/90235de8.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_13708537_1629641835.1631895795668--
+

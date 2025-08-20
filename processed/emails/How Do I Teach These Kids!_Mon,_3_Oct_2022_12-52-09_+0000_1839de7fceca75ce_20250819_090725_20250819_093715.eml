@@ -1,0 +1,2905 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:7290:b0:c5:6d1d:3c13 with SMTP id w16csp1481529rwf;
+        Mon, 3 Oct 2022 05:52:50 -0700 (PDT)
+X-Received: by 2002:a17:90b:1e45:b0:202:fbc9:3df1 with SMTP id pi5-20020a17090b1e4500b00202fbc93df1mr12406371pjb.72.1664801569934;
+        Mon, 03 Oct 2022 05:52:49 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1664801569; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IKKp5lYbrhFBARR27jZVeg1RhQwZVVbRceoMerJNpo7Q5lyKswgTF+UmYisCGo39Yh
+         xpjtnu89YQNYKpZ1cmdphS4/SVgB3df5HcPKXNZ9YqQXSpophbkBwYJObAGB7MMaxHyX
+         CuBcp8GZRPDyeAz+uu+OW5SjbDrR3XoaQJ3KBn06dmrEPmQPnO+Sb/xaQVDXIic4HHKK
+         wVc/mBmrPvQioPZH9UtAAuPe+QH0ly4jNQGz12zX2EvPqRC3pR0D09ubwEXPqzDNDhms
+         sJ4gp1RdJDpTZxAArGOJZJcI0F9xPKZvy2mbCDSiAKfcRgrM6O97gM5SYPvy7HPjnooJ
+         8TFg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:list-id:list-url:list-unsubscribe-post:list-archive
+         :list-post:message-id:date:list-unsubscribe:reply-to:list-owner
+         :references:in-reply-to:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=s4WgBeJwIyWJguWLJaqxlMDcqjWM/uFJpdlw/E2DHUc=;
+        b=fd21Zyjv9XKF3AkLbSuLAFROlOGulkLIHtRWBwBFCLZdtvyY7KhPxyy7DQpwjecaAW
+         7M9qtamdCrtrxpFEZ+6Cw7iom85eCyrIY9VTBBROC/6XexeKDpIcTmPCXSKJo3bVk71Z
+         SHIwtQUoYtUWZuvvcoEvj/Wr356oEOlRhltEAkQ0oOzbbSwNQJG7tNtil6KjZsLZjipR
+         xHsY6SBiUXwc7rwq3WSO/CYSaGRmbw6+w7C9vCAzhcgyCruZFx9rvwvuOPKW2Sacd07d
+         98PXTke+58GDWzaJtW5m8ZlEt0vN7mX2eisEmN2Rzv6Y4NwloZf5SR6ehOmOm0MMwCYt
+         Z+4w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=RT1iA0rH;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b22-20020a170902d89600b0016cf16653ecsor2147650plz.107.2022.10.03.05.52.49
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 03 Oct 2022 05:52:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=RT1iA0rH;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=sender:list-id:list-url:list-unsubscribe-post:list-archive
+         :list-post:message-id:date:list-unsubscribe:reply-to:list-owner
+         :references:in-reply-to:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc:subject:date;
+        bh=s4WgBeJwIyWJguWLJaqxlMDcqjWM/uFJpdlw/E2DHUc=;
+        b=wZKCK1HQZ4t+Y02GYCTF8kIpJfRdDPj1XoL3nvr80VMVXBfX+uD2zjpwxlaslaPHRv
+         +UvDR3Y3b1grNHmgTlNW+Gjb2U/yW+x/qFSMjfB8+X7EqYY73nrsuUvmP/NezALcLv+G
+         IQ3Z94hVQ+DW1lCzbZ44OBvnFCCU2B+AKzNlcHXbyft9kTxvOfAMbLwlw+tlc4AVBFMs
+         SuJ8hEL+OxhewOU0Jo4yj7TSwmNIj7PSV123C/8ANzntMwvAYIsl22Pl+AjCZAikXyUX
+         oBJz5gTGZrNjaKY9U+8CYbdDa3WV3yv7m9svw/kvTM5sA+R/442RmchQL6A2Gp0Z505/
+         AvYg==
+X-Gm-Message-State: ACrzQf1IdiTKCD88itKggxuexC/UkuYmBFy4xh/dxHqmmG+Pq1zDz8K1
+	SQ5cRpiMt58DEBrGX2dINxhRzewFUvQTzB6kQ2BoiVofdwFpNxQfnA==
+X-Received: by 2002:a17:902:c950:b0:178:4544:55c1 with SMTP id i16-20020a170902c95000b00178454455c1mr22509756pla.168.1664801569492;
+        Mon, 03 Oct 2022 05:52:49 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:7289:0:0:0:0 with SMTP id e9csp671779pjg;
+        Mon, 3 Oct 2022 05:52:46 -0700 (PDT)
+X-Received: by 2002:a63:461c:0:b0:44b:f2f:3362 with SMTP id t28-20020a63461c000000b0044b0f2f3362mr7903350pga.357.1664801566600;
+        Mon, 03 Oct 2022 05:52:46 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1664801566; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BvjSq687vqn8se1j6t++BuUxD4RZl/ZO21X933KKcIjdxExwtBjvhfcZwvyLstjxOP
+         u9b3GctBaBDiKPBUc2n1fms7nHov4nYarR6sFYCnTQlcjKiT8O6SfWmbjXpYMR/8uEve
+         z01CAAcuPsfxUCu2G0XnkfW4ev4rnnQtBNmPJEBhcBkqDGahJhKtaXSKW2pJOlmYVw8s
+         AuN2aofIFvzVqJvawAty1kNZq3pmZ8psjTzfSOl3cLX7LbGLtM4o3b9CXcbmlh5E8WHQ
+         MqqBauZB1Nrr8SmRdxMHiBOOu4577Yds/CKJ/1Evnh3l+0qbQ4LzK7i+Rz1zmBqS+qne
+         HkUw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:list-id:list-url:list-unsubscribe-post:list-archive
+         :list-post:message-id:date:list-unsubscribe:reply-to:list-owner
+         :references:in-reply-to:to:from:subject:mime-version:dkim-signature;
+        bh=s4WgBeJwIyWJguWLJaqxlMDcqjWM/uFJpdlw/E2DHUc=;
+        b=NtYDj6h9EUzqL1DQzx0C5Mj5ZqaJBKWzPdruG/yTDQS5bSjzocOLrHoP+pq8t7nvau
+         HtQ+0f47kRsRGdooFRfWbjxsU29S6sRmbZ7WfrZAvNPO4hvaU593Y21FEpu6HJSW4gSb
+         JVrH+ukBjl/zn4KtwACYx73HPRsH+sGGDkJuoCNyhl6Tqj8oG29rUAj2/rn8en67+2zT
+         lLfI+8vhIhekrc0cUEmnK2gZKcg/6lZSMlr+xkWk/d/tG+yfw4CIl7ftyGv/1/OBh02N
+         iT/nNxbvSIeg1qWxlXidWmYxJJtIhd2Y9q6kdRkrW2yOZrqsAK8wE/rJbYLXQXA4Gy0K
+         tjGw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=RT1iA0rH;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q14-20020a170902f78e00b0017f5755e6c4sor1286011pln.160.2022.10.03.05.52.46
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 03 Oct 2022 05:52:46 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMsMyM77LLgI37Ghg4xIulnsL/s9ffn6N4XSAbv5Qgdd6hrd05tHPn+E+7SS28+OEkDlEFfhuNPFwFBjWMPJd0Ozk3sKc1ri4uE=
+X-Received: by 2002:a17:90b:4b43:b0:202:e09c:664d with SMTP id mi3-20020a17090b4b4300b00202e09c664dmr12038974pjb.120.1664801566271;
+        Mon, 03 Oct 2022 05:52:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1664801566; cv=none;
+        d=google.com; s=arc-20160816;
+        b=dwxewCSoIV0GL+8RE8IE7hJ36xkkAb/qjuxBXLdP3iybN07FNfbjHBXFFWOP83Q/Ax
+         liZBdXoAc0JzmRbh984JamwLl2oTIvbbAc9Tys6cVWFjnndw0QAabDnTMT6CrUSZVwHc
+         WRXOxEatKJTR37F0eGtimVcTyi39kXgDLiG3l91ggv6cWzHIRa4btY6V7oOq23SWLebV
+         ggiNruE9lZUye+XqCv5xmNKTLcwfB2ESQO9Yl9BB+TAYEh7IBQXxLmMisxZFmx0asPGy
+         THxoqFBhvf2DaYBxHYNFHFnXNj/ASPag/baIWFUxLRUcotmuvM8QVHHLdSzHNH0zHA/k
+         wa1w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:list-id:list-url:list-unsubscribe-post:list-archive
+         :list-post:message-id:date:list-unsubscribe:reply-to:list-owner
+         :references:in-reply-to:to:from:subject:mime-version:dkim-signature;
+        bh=s4WgBeJwIyWJguWLJaqxlMDcqjWM/uFJpdlw/E2DHUc=;
+        b=cC89COQ7pKdNWE40SVl16zry9mgq1nDXsEgQ2EyA7vOwGyFgUXym5Xt5cA2kTsVrix
+         6kNkLQmF1Tlw7Xli6hAnw8LmdwFZVb/xKaR8Hu3RfsCDwiCoV4lMvxORGve1+U2oTwcl
+         gHYikEBXfLnOMYx3DhghHS7Spj0ot73/KNhyZpdIBNSIGslCsJUtuYgv1iUaTswPdns3
+         +9fTMDmaTgYbsu4HsS+sYGUJTrmf2YrAdQt49AhAyZuJrwlrevIZ4vfnlEMNmq9bUB1E
+         WoAMn+MVowqIuFxuZ9mHhJzsrusM8d0uurO/O+cGEd1Lb5WCTY8LHivLBmb2q1F6JBDO
+         Y+vw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=RT1iA0rH;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.197.117 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mg-197-117.substack.com (mg-197-117.substack.com. [161.38.197.117])
+        by gmr-mx.google.com with UTF8SMTPS id b7-20020a056a0002c700b00560eeb33bbasi177752pft.6.2022.10.03.05.52.40
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 03 Oct 2022 05:52:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.197.117 as permitted sender) client-ip=161.38.197.117;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1664801550; x=1664887950; h=Sender: Sender: List-Id:
+ List-Archive: List-Post: Message-Id: Date: List-Unsubscribe: Reply-To:
+ List-Owner: References: In-Reply-To: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=s4WgBeJwIyWJguWLJaqxlMDcqjWM/uFJpdlw/E2DHUc=; b=RT1iA0rHvxyzjROwW8y22o/ZSe4cLGbX5Pb96v7gK/pxqrKZdi2djpI10enbfptJObtfOzlo
+ 81WCIAKrZ0hDlMYhZ1HrgQeWhXk2VTLMhUhwtefQ7F3M0iyhHEE/0ehaYE6e0IurQkRqdh9l
+ SN6ETMlC1AFa9CAcmqdAo8cd/tI=
+X-Mailgun-Sending-Ip: 161.38.197.117
+X-Mailgun-Sid: WyI1OTU0MCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMzliMDhjNiJd
+Received: from <unknown> (<unknown> []) by d7f51416a8b6 with HTTP id
+ 633adb0e1d869894ef7c36b5; Mon, 03 Oct 2022 12:52:27 GMT
+X-Mailgun-Batch-Id: 633adb0c063f2a8ba8b1ec96
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="118bb1dca9814ded3df071956a2845b0853d4ab011ad15389f5772914a50"
+Subject: How Do I Teach These Kids?!
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+In-Reply-To: <post-76252429@substack.com>
+References: <post-76252429@substack.com>
+List-Owner: <mailto:notboring@substack.com>
+Reply-To: Not Boring
+ <reply+19ecr1&9p0gt&&8be4d7b20b9a51041fcb0a5300df0130286378de451431c85d1051072d670c3b@mg1.substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk56WXlOVEkwTWprc0ltbGhkQ0k2TVRZMk5EZ3dNVFUwTXl3aVpYaHdJam94TmpZM016a3pOVFF6TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUprYVhOaFlteGxYMlZ0WVdsc0luMC44RldlWkYzZzBub3ExUzVNV1hiNXF2SUNDUE5DRjhDd1hDZ1dydkw4RGhrIiwicCI6NzYyNTI0MjksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjY0ODAxNTQzLCJleHAiOjE2NjczOTM1NDMsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.JrJFFeW5UGE5wvcgUjHfnFiPukEZuv_eagCRGVira84?>
+Date: Mon, 3 Oct 2022 12:52:09 +0000
+Message-Id: <20221003125209.3.88c2d889a120ba6e@mg-d1.substack.com>
+List-Post: <https://www.notboring.co/p/how-do-i-teach-these-kids>
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Url: <https://www.notboring.co/>
+List-Id: <notboring.substack.com>
+Sender: Not Boring <notboring@substack.com>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1664801544715", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "76252429", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--118bb1dca9814ded3df071956a2845b0853d4ab011ad15389f5772914a50
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/how-do-i-teach-thes=
+e-kids
+
+Welcome to the=C2=A0873=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Monday =E2=80=94 I need to take breaks more often! If you have=
+n=E2=80=99t subscribed, join=C2=A0155,416 smart, curious folks by subscribi=
+ng here:=20
+=F0=9F=8E=A7=C2=A0 For the audio version, listen on Spotify [ https://subst=
+ack.com/redirect/664b9af5-2cdb-46aa-9bf2-6343cae921d0?r=3D9p0gt ] or=C2=A0A=
+pple Podcasts [ https://substack.com/redirect/0376bd8f-5a40-42bc-96f4-dca88=
+ac78d54?r=3D9p0gt ]
+Hi friends =F0=9F=91=8B,=C2=A0
+Happy Monday! Big week here at Not Boring HQ: Friday was Puja and my 5th an=
+niversary (Happy Anniversary Puj!), tomorrow is Dev=E2=80=99s 2nd birthday,=
+ and Thursday is Maya=E2=80=99s 2-month birthday.=C2=A0
+Last year, when Dev turned 1, I wrote Dad Life [ https://substack.com/redir=
+ect/f472625b-1103-4c0b-b318-442a63ac4fc1?r=3D9p0gt ], a piece about working=
+ and raising a kid at the same time. I wasn=E2=80=99t planning on writing a=
+ similar piece for his birthday this year, but I=E2=80=99ve been thinking a=
+ lot about a related question and the timing worked perfectly.=C2=A0
+The question is: how the hell are you supposed to educate a kid today?=C2=
+=A0
+Dev and Maya get a blank educational slate to start with. Puja and I are re=
+sponsible for figuring out how to give them the best education possible, on=
+e that helps them love learning, have fun, and get prepared for life beyond=
+ school. I don=E2=80=99t think the answer is as simple as =E2=80=9CGet them=
+ into the best schools possible.=E2=80=9D I think it=E2=80=99s a lot more c=
+omplicated than that, and will only get more complicated as things move fas=
+ter.=C2=A0
+This isn=E2=80=99t meant to be a complete survey and analysis of the modern=
+ educational system, it=E2=80=99s more of an exploration of how I=E2=80=99m=
+ thinking about it personally in the very specific context of Dev and Maya=
+=E2=80=99s education. What=E2=80=99s the best way to prepare my two kids?=
+=C2=A0
+And I don=E2=80=99t have the answers =E2=80=93 there=E2=80=99s probably no =
+=E2=80=9Cright=E2=80=9D answer. Instead, this is meant to start a conversat=
+ion, and selfishly, to give me some more direction as I think through it. I=
+=E2=80=99d love to hear your thoughts, jump in here:=C2=A0
+Let=E2=80=99s get to it.=20
+How Do I Teach These Kids?!
+Now that we have kids, my most important job is raising them. I want them t=
+o be happy and kind and smart and creative and hard-working and a little de=
+vilish. I remember walking around holding Dev when he was really little and=
+ telling him those things, listing the qualities I wanted to instill in him=
+ as if he could absorb the words and make them so. In reality, it=E2=80=99s=
+ a lot harder than that.=C2=A0
+A timely example. Last night, after we had our family over to celebrate his=
+ birthday, I gave him a bath, put him in his pajamas, and started reading h=
+im a book, Goodnight, Goodnight Construction Site [ https://substack.com/re=
+direct/587a0ef8-165f-4851-b9fe-d708f6707e6e?r=3D9p0gt ] to be exact. As we =
+were finishing =E2=80=93 =E2=80=9CGreat work today! Now=E2=80=A6shh=E2=80=
+=A6goodnight!=E2=80=9D =E2=80=93 my mind was already on getting back to wor=
+k and finishing this piece. I was tired, and starting back up after a long =
+day was already daunting enough. When he asked, =E2=80=9CCan we read one mo=
+re book please?=E2=80=9D I started to shake my head no, tell him it was tim=
+e to go to sleep, that dad had to work=E2=80=A6 and then I remembered what =
+I was about to go work on: an essay about educating him and his sister. The=
+ hypocrisy was too thick. We read another book.=C2=A0
+There are a million little trade-offs like that, though rarely quite so on =
+the nose. Historically, the way to deal with a big lump of those trade-offs=
+ is, eventually, to try to put your kids in the best schools possible and m=
+ake sure that they=E2=80=99re doing their homework and getting good grades =
+and doing all of the extracurriculars, which serve double duty as resume fi=
+llers and extra childcare.=C2=A0
+But thanks to the pandemic and our jobs, Puja and I have been lucky enough =
+to be home most of the time, getting to spend time with Dev and Maya, getti=
+ng to watch them get smarter every day, like little human large language mo=
+dels with big emotions. At the same time, the real large language models ha=
+ve been getting stronger by the day, surprisingly upending creative work fi=
+rst, which has made me reflect on what the world will look like when they=
+=E2=80=99re older, and how to prepare them for that world. What will people=
+ need to know in a world in which the Enchanted Notebook [ https://substack=
+=2Ecom/redirect/2cee0fbb-b004-4b22-90e1-9960416bbc3e?r=3D9p0gt ] exists?
+While we=E2=80=99ll still put them in school =E2=80=93 Dev started a couple=
+ weeks ago, for a few hours three days a week =E2=80=93 it=E2=80=99s become=
+ clear that if we want them to grow up to be uniquely them to the fullest o=
+f their potential, and stay ahead of seemingly daily advances, we need to d=
+o a lot more than that.=C2=A0
+The question is, what? And I guess another one is, how? How do we teach the=
+se kids?!=C2=A0
+There are these charts that pop up every once in a while that show how much=
+ graduates of certain majors make or which majors are becoming more popular=
+=2E=C2=A0
+One that has recently caught peoples=E2=80=99 attention is this chart that =
+shows that computer science degrees are on the rise, and humanities degrees=
+ are on an equal and opposite decline. This chart has caused either celebra=
+tion (=E2=80=9CGood! People are studying things that will help them get job=
+s.=E2=80=9D) or anguish (=E2=80=9COh no! The death of humanities will lead =
+to a duller, less ethical and moral society.=E2=80=9D).=C2=A0
+I don=E2=80=99t have a strong view. What struck me when I looked at the cha=
+rt, and the related hot takes on Twitter, was just how hard it must be for =
+educational institutions at all levels to keep up with the increasing rate =
+of change in the world.=C2=A0
+It=E2=80=99s an oft-cited fact that the modern education system was created=
+ during the Industrial Revolution to prepare children to grow up to work in=
+ factories. =E2=80=9CFactory schools,=E2=80=9D as they were called, sprang =
+up in Prussia in the 19th Century and quickly spread throughout the industr=
+ialized world, to teach kids to be =E2=80=9Cpunctual, docile, and sober [ h=
+ttps://substack.com/redirect/aef0cc00-ae0f-4e4a-bd5e-23fcba4385ba?r=3D9p0gt=
+ ].=E2=80=9D Moving from the family farm to the corporate factory required =
+a different set of skills and behaviors, and schools stepped in to teach th=
+em.=C2=A0
+That model worked well, and persisted for two centuries, in part, I would g=
+uess, because the types of jobs that people were going to get after school,=
+ and the skills they would need for those jobs, stayed relatively static. A=
+nd a literate, numerate population trained to follow orders generalized wel=
+l. The Man in the Gray Flannel Suit [ https://substack.com/redirect/fdf3b1f=
+3-4141-4059-8ffb-6d8ce875205e?r=3D9p0gt ] worked in an office instead of a =
+factory, and wore nicer clothes, but was still expected to be punctual, doc=
+ile, and sober.=C2=A0
+While some of the details have changed, the system works largely the same w=
+ay today, even among the top students at the best schools.=C2=A0
+When I asked people for their favorite essays [ https://substack.com/redire=
+ct/1f76ab8e-ffe5-432d-a08d-c9c3f82a027b?r=3D9p0gt ], William Deresiewicz=E2=
+=80=99s Solitude and Leadership [ https://substack.com/redirect/b81e9f98-cc=
+b7-48b7-8f45-7f685fab657d?r=3D9p0gt ] was one of the most frequently-recomm=
+ended (I marked it up with notes in Readwise Reader here [ https://substack=
+=2Ecom/redirect/2f59b15c-2732-42d6-b810-8=
+dc135be3545?r=3D9p0gt ]). The essay =
+is the transcript of a talk Deresiewicz, a former Yale English professor an=
+d author, gave to the incoming plebe class at West Point in 2009.=C2=A0
+While at Yale, Deresiewicz spent some time on the admissions committee, whe=
+re he experienced this:=C2=A0
+Well, it turned out that a student who had six or seven extracurriculars wa=
+s already in trouble. Because the students who got in=E2=80=94in addition t=
+o perfect grades and top scores=E2=80=94usually had 10 or 12.
+So what I saw around me were great kids who had been trained to be world-cl=
+ass hoop jumpers. Any goal you set them, they could achieve. Any test you g=
+ave them, they could pass with flying colors. They were, as one of them put=
+ it herself, =E2=80=9Cexcellent sheep.=E2=80=9D
+I definitely want my kids to be able to get into schools like Yale, if they=
+ want and if that still matters then, but I definitely don=E2=80=99t want t=
+hem to be excellent sheep. Excellent sheep seldom make history.=C2=A0
+While I don=E2=80=99t have answers to the very difficult question of how to=
+ educate millions of kids, kids of all backgrounds and levels of income and=
+ aptitude and parental support, and I don=E2=80=99t envy those who have to =
+come up with those answers, it=E2=80=99s become pretty clear to me that opt=
+imizing just for my own kids, the factory school model, or the more modern =
+excellent sheep model, won=E2=80=99t work.=C2=A0
+I say that as an excellent sheep myself. I was lucky enough to go to great =
+private schools and to Duke. I was a good student. I did a lot of extracurr=
+iculars. I remember one weekend in high school when I had a debate tourname=
+nt one night, ran in Pennsylvania Cross Country State Championship (and fin=
+ished All-State) the next morning, and drove back to my high school to perf=
+orm in the school play that same night. In college, I studied econ, because=
+ I wanted to go into finance, and then spent four years in a finance job I =
+didn=E2=80=99t love doing work I didn=E2=80=99t really care about and that =
+I realized I was worse at than a lot of people who were plain smarter and a=
+ctually loved the work.=C2=A0
+It took me a decade post-college, and unemployment at the start of a global=
+ pandemic, to find the thing that I was uniquely good at: writing a newslet=
+ter, of all things.
+I think that a lot of the things I did, in a roundabout way, contributed to=
+ what Not Boring has become. Debate helped me frame an argument, finance he=
+lped me use a spreadsheet, running helped me put in countless hours of hard=
+ work with almost no benefit to show for it for over a year. In retrospect,=
+ I wouldn=E2=80=99t change a thing about my education because I=E2=80=99m r=
+eally happy with where it=E2=80=99s all led. Serendipity is part of the pro=
+cess, and my parents raised us to be able to follow it. They led by example=
+ =E2=80=93 both leaving good, stable jobs to start their own things =E2=80=
+=93 and as a result, my sister, brother, and I all started our own things.=
+=C2=A0
+But I also want our kids to be better off than us, something that only a de=
+pressing 32% of Americans expect to be true for their children:
+Finances aside, Dev and Maya will set their own definitions of =E2=80=9Cbet=
+ter off=E2=80=9D and their own goals in life, but when I think about how I =
+want to guide them, the words =E2=80=9CPhilosopher King and Queen=E2=80=9D =
+come to mind.=C2=A0
+The idea, put forth by Plato in The Republic, is that the ideal polis, the =
+kallipolis, or beautiful city, should be ruled by philosophers who love kno=
+wledge, who seek truth and ideals instead of power. It=E2=80=99s an idea as=
+ beautiful as it is impractical. Plato is essentially calling for benevolen=
+t dictatorship and assuming that there exist people who absolute power woul=
+dn=E2=80=99t corrupt absolutely. If some people throughout history may have=
+ fit the bill, they=E2=80=99re too few and far between for benevolent dicta=
+torship to be a realistic form of governance, so we=E2=80=99re left with de=
+mocracy, =E2=80=9Cthe worst form of government =E2=80=93 except for all the=
+ others that have been tried.=E2=80=9D=C2=A0
+I still think it=E2=80=99s a good north star for raising a kid, particularl=
+y when those kids are going to grow up into a world in which they=E2=80=99l=
+l have more power at their fingertips than our generation can even imagine.=
+ Dev and Maya won=E2=80=99t be Philosopher King and Queen of the United Sta=
+tes, but they=E2=80=99ll be Philosopher King and Queen of their own little =
+worlds.=C2=A0
+They and their fellow Gen Alphas will command personalized AI and govern de=
+centralized organizations and access overwhelming amounts of information an=
+d bring ideas to life with Enchanted Notebooks [ https://substack.com/redir=
+ect/2cee0fbb-b004-4b22-90e1-9960416bbc3e?r=3D9p0gt ] and shape biology itse=
+lf, and I think that it=E2=80=99s going to be important for them to grow up=
+ with a philosopher=E2=80=99s love of truth and wisdom and a benevolent mon=
+arch=E2=80=99s sense of fairness and goodness. And above all else, I want t=
+hem to have a critical curiosity and pragmatic optimism, a willingness to e=
+xplore new things openly and excitedly but with a more incisive and critica=
+l eye than I have.=C2=A0
+And I think that the Factory School / Excellent Sheep model is increasingly=
+ incapable of making that happen.=C2=A0
+For one thing, I have no idea what skills are going to be in-demand in twen=
+ty years, when Dev would graduate college, or twenty-two, when Maya would. =
+There=E2=80=99s no factory job waiting on the other side, the corporate lad=
+der gets more slippery every year, and the well-worn banking/consulting/law=
+/medicine path seems less certain.=C2=A0
+Ok, well duh consulting and banking aren=E2=80=99t the sure-things they onc=
+e were. Everyone who makes real money today knows how to code. That=E2=80=
+=99s why college students are abandoning the humanities in favor of compute=
+r science. Teach a kid to code, feed her for a lifetime. We sent Dev to a s=
+chool that will start to teach him the very basics of coding next year, whe=
+n he=E2=80=99s three. That=E2=80=99s the obviously right call, right?=C2=A0
+Not so fast.=C2=A0
+Ok, so then I=E2=80=99ll teach my kids ~*prompt engineering*~. If AI is the=
+ future, then we should teach our kids to get really good at getting AI to =
+do exactly what they want, like this young genius, Urdagirl69.=C2=A0
+This Reddit post [ https://substack.com/redirect/51346938-9481-4db4-b5bc-97=
+88c37feb84?r=3D9p0gt ] went viral last week. An enterprising young student =
+figured out that she could use GPT-3 to help write her essays (she used it =
+as a starting point, and then made the essays her own). Writing good essays=
+ became so easy, in fact, that she was able to write her classmates=E2=80=
+=99 essays, too, for a $100 profit.=C2=A0
+One teacher replied that, =E2=80=9CIf I learned that my students were submi=
+tting AI-written papers, I=E2=80=99d quit. Grading something an AI wrote is=
+ an incredibly depressing waste of my life.=E2=80=9D=C2=A0
+While I sympathize with the teacher =E2=80=93 spending your life grading pa=
+pers written by AI does seem incredibly depressing =E2=80=93 I want to teac=
+h my kids to be more like Urdagirl69. By that, I don=E2=80=99t specifically=
+ mean that I want to teach them how to use GPT-3 to write essays and build =
+a modern paper-farm lemonade stand, but that I want to teach them to have t=
+he curiosity, agency, and initiative to use whatever tools they have at the=
+ir disposal to do the best work possible.=C2=A0
+Urdagirl69 seems excellent, but not sheep-like. GPT-3 will be ancient, anci=
+ent technology by the time Dev and Maya are assigned their first essay, but=
+ the erudite impishness required to seek out and deploy whatever the curren=
+t most advanced technology is in order to do their work, even if it=E2=80=
+=99s kind of against the rules, is something I want to instill in them.=C2=
+=A0
+That doesn=E2=80=99t mean that there shouldn=E2=80=99t be rules, or that we=
+ should teach them to break the rules for rule-breaking=E2=80=99s sake. Set=
+ting boundaries seems important, if only so they can find creative ways aro=
+und them.=C2=A0
+On a recent Lunar Society podcast episode [ https://substack.com/redirect/2=
+f02832a-8125-44d1-baf0-7af1dafb3328?r=3D9p0gt ], Dwarkesh Patel asked Tyler=
+ Cowen if we should just let high schoolers go wild and educate themselves =
+without structure, and Cowen=E2=80=99s response seems instructive for desig=
+ning educational systems in a world in which kids can write essays with AI:=
+=C2=A0
+=E2=80=9CI think they need some structure, but you have to let them rebel a=
+gainst it, and do their own thing also.=E2=80=9D=C2=A0
+To read the rest of the piece, including thoughts from Patrick Collison, Er=
+ik Hoel, and Emad Mostaque and the 10 things I=E2=80=99m going to focus on:
+Thanks to Dan [ https://substack.com/redirect/98d0fa2c-0ae5-4f8f-9d13-09ec8=
+4991f08?r=3D9p0gt ] and Puja [ https://substack.com/redirect/fd6edcd7-40ac-=
+4c11-82f8-fcc32d2bc226?r=3D9p0gt ] for reading and editing!=20
+That=E2=80=99s all for today. See you back here Friday for your Weekly Dose=
+ of Optimism. Have a great week.=20
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOell5TlRJME1qa3NJbWxoZENJNk1UWTJORGd3TVRVME15d2laW=
+Gh3SWpveE5qWTNNemt6TlRRekxDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FY=
+TmhZbXhsWDJWdFlXbHNJbjAuOEZXZVpGM2cwbm9xMVM1TVdYYjVxdklDQ1BOQ0Y4Q3dYQ2dXcnZ=
+MOERoayIsInAiOjc2MjUyNDI5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQzLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbmstc=
+mVkaXJlY3QifQ.XG5S_88XQNIG24j0qTVNbaNlCzYftkcFxcTiNkSz948?
+--118bb1dca9814ded3df071956a2845b0853d4ab011ad15389f5772914a50
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>How Do I Teach These Kids?!</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-relative {
+    position: relative !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-ml-0 {
+    margin-left: 0px !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-max-h-\[60vh\] {
+    max-height: 60vh !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-w-\[500px\] {
+    width: 500px !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-gap-3 {
+    gap: 0.75rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+  .sm\:tw-text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+  .sm\:tw-text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-pencraft-FlexBox-module__flex-direction-mobile-column--SxTLO {
+    flex-direction: column;
+  }
+  .frontend-pencraft-FlexBox-module__flex-direction-mobile-row--1-UBk {
+    flex-direction: row;
+  }
+  .frontend-pencraft-FlexBox-module__flex-direction-mobile-row-reverse--3zz=
+i5 {
+    flex-direction: row-reverse;
+  }
+  .frontend-pencraft-FlexBox-module__flex-direction-mobile-column-reverse--=
+2DHdq {
+    flex-direction: column-reverse;
+  }
+  .frontend-pencraft-FlexBox-module__flex-wrap-mobile-nowrap--2pRIw {
+    flex-wrap: nowrap;
+  }
+  .frontend-pencraft-FlexBox-module__flex-wrap-mobile-wrap--3bv29 {
+    flex-wrap: wrap;
+  }
+  .frontend-pencraft-FlexBox-module__flex-wrap-mobile-wrap-reverse--2FKBX {
+    flex-wrap: wrap-reverse;
+  }
+  .frontend-pencraft-FlexBox-module__flex-justify-mobile-start--2ZR4L {
+    justify-content: flex-start;
+  }
+  .frontend-pencraft-FlexBox-module__flex-justify-mobile-space-between--3QF=
+3f {
+    justify-content: space-between;
+  }
+  .frontend-pencraft-FlexBox-module__flex-justify-mobile-center--3pjlk {
+    justify-content: center;
+  }
+  .frontend-pencraft-FlexBox-module__flex-justify-mobile-end--1dkmN {
+    justify-content: flex-end;
+  }
+  .frontend-pencraft-FlexBox-module__flex-align-mobile-start--3enX4 {
+    align-items: flex-start;
+  }
+  .frontend-pencraft-FlexBox-module__flex-align-mobile-end--1MkFN {
+    align-items: flex-end;
+  }
+  .frontend-pencraft-FlexBox-module__flex-align-mobile-center--j-SPn {
+    align-items: center;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-0--3wOdW {
+    gap: 0;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-4--1BwAi {
+    gap: 4px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-6--2z7Tb {
+    gap: 6px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-8--3hJ-O {
+    gap: 8px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-12--11xWu {
+    gap: 12px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-16--1b_qR {
+    gap: 16px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-20--MfQyO {
+    gap: 20px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-24--3KuBc {
+    gap: 24px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-32--3L3NT {
+    gap: 32px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-40--2PtCW {
+    gap: 40px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-48--2-eRg {
+    gap: 48px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-56--3g-Di {
+    gap: 56px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-80--19QWA {
+    gap: 80px;
+  }
+  .frontend-pencraft-FlexBox-module__flex-gap-mobile-120--1smaJ {
+    gap: 120px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-0--RNejj {
+    padding: 0;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-4--33_7O {
+    padding: 4px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-6--2bop_ {
+    padding: 6px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-8--3CnGY {
+    padding: 8px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-12--3za9v {
+    padding: 12px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-16--2VVdc {
+    padding: 16px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-20--ELKIF {
+    padding: 20px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-24--EbdwN {
+    padding: 24px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-32--LepBC {
+    padding: 32px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-40--3THhs {
+    padding: 40px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-48--1AhGd {
+    padding: 48px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-56--MrZAE {
+    padding: 56px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-80--2l5fJ {
+    padding: 80px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-mobile-120--gPV2Y {
+    padding: 120px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-0--3XTU- {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-4--25h_r {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-6--2AaRS {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-8--1zWXe {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-12--3fu26 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-16--kbO7y {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-20--1ZoV1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-24--1LBok {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-32--1th65 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-40--1FGQr {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-48--U9Efp {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-56--OrGoY {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-80--3vQKv {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-y-mobile-120--1AKzu {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-0--kMwXC {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-4--1mEeX {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-6--1DLXO {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-8--3a6hZ {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-12--7oDDT {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-16--3LLpJ {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-20--1nx1D {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-24--2zLmG {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-32--1nmD2 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-40--b0gGk {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-48--rPfUU {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-56--18e-I {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-80--2ezfB {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-x-mobile-120--1_tYZ {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-0--2QAjP {
+    padding-top: 0;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-4--1KQww {
+    padding-top: 4px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-6--EQRtF {
+    padding-top: 6px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-8--1LbT7 {
+    padding-top: 8px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-12--2Msm2 {
+    padding-top: 12px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-16--35Vv8 {
+    padding-top: 16px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-20--JfMyT {
+    padding-top: 20px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-24--2UvOi {
+    padding-top: 24px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-32--9wUA8 {
+    padding-top: 32px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-40--2Zb3_ {
+    padding-top: 40px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-48--2yft_ {
+    padding-top: 48px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-56--67hJl {
+    padding-top: 56px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-80--WfftE {
+    padding-top: 80px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-top-mobile-120--3gi2O {
+    padding-top: 120px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-0--237jn {
+    padding-bottom: 0;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-4--36z3q {
+    padding-bottom: 4px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-6--uMIFj {
+    padding-bottom: 6px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-8--1dWwx {
+    padding-bottom: 8px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-12--3esqB {
+    padding-bottom: 12px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-16--1Q5Fc {
+    padding-bottom: 16px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-20--1GJv4 {
+    padding-bottom: 20px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-24--CpN7l {
+    padding-bottom: 24px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-32--HU3u8 {
+    padding-bottom: 32px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-40--KZIb6 {
+    padding-bottom: 40px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-48--2Sl4J {
+    padding-bottom: 48px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-56--2U9vX {
+    padding-bottom: 56px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-80--VVZl2 {
+    padding-bottom: 80px;
+  }
+  .frontend-pencraft-FlexBox-module__padding-bottom-mobile-120--pFPG_ {
+    padding-bottom: 120px;
+  }
+}
+
+
+@media (max-width: 1168px) {
+  .frontend-components-NavBadge-module__responsive--3TOrk {
+    right: 2px;
+    width: 6px;
+    height: 6px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .frontend-components-NavBadge-module__responsive--3TOrk {
+    right: auto;
+    bottom: -2px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-pencraft-Text-module__marketingHeading1xl--3eMsM.frontend-pencr=
+aft-Text-module__marketingHeading1xl--3eMsM {
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-pencraft-Text-module__marketingHeading1--2faSI.frontend-pencraf=
+t-Text-module__marketingHeading1--2faSI {
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-pencraft-Text-module__marketingHeading2--3kVJM.frontend-pencraf=
+t-Text-module__marketingHeading2--3kVJM {
+    font-size: 32px;
+    line-height: 33.79px;
+  }
+  .frontend-pencraft-Text-module__marketingHeading3--3VbJ0.frontend-pencraf=
+t-Text-module__marketingHeading3--3VbJ0 {
+    font-size: 28px;
+    line-height: 34.72px;
+  }
+  .frontend-pencraft-Text-module__marketingQuote--1DD9-.frontend-pencraft-T=
+ext-module__marketingQuote--1DD9- {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+
+@media (max-width: var(--nav-bp-2)) {
+  .frontend-reader2-Page-module__linkRow--1QoCL.frontend-reader2-Page-modul=
+e__isPadded--Gbh4N {
+    padding: 12px 0;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-login-typo_handler-EmailTypoHandler-module__wrapper--3KwYe {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-MarketingBenefits-module__image--2QUft {
+    max-width: 320px;
+    width: 100%;
+  }
+  .frontend-substack-MarketingBenefits-module__text--SaPmW {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-MarketingFaq-module__question--2rUpu {
+    padding-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-MarketingHero-module__hero--3h-vI {
+    padding-top: 164px;
+    padding-bottom: 80px;
+    height: auto;
+  }
+  .frontend-substack-MarketingHero-module__heroInnerRow--2eFw1 {
+    height: auto;
+  }
+  .frontend-substack-MarketingHero-module__heroImg--bOtm8 {
+    flex-basis: auto !important;
+    max-width: 342px;
+  }
+  .frontend-substack-MarketingHero-module__heroText--1wSRq {
+    flex-basis: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-substack-cohort-CohortSection-module__container--1kCbv {
+    padding: 80px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-cohort-HeadingBodyLockup-module__container--3cJOk {
+    margin: 0 auto;
+    text-align: center !important;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-cohort-ComparisonChart-module__container--3mgsM {
+    padding: 4px 8px;
+  }
+  .frontend-substack-cohort-ComparisonChart-module__cell--3MIa5 {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 2px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-HomePageLeaderboard-module__itemRank--11Q67 {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-home_page-module__home--28JuV section h2 {
+    margin-top: 80px;
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY {
+    padding: 0 24px 80px 24px;
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY > div {
+    margin-top: 0;
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__accordion--FrMcl {
+    flex-basis: auto;
+  }
+  .frontend-substack-home_page-module__readingExperience--3sCWK {
+    max-height: 100px;
+    max-width: 100%;
+  }
+  .frontend-substack-home_page-module__readingExperiencesImage--3YmzM {
+    width: 110%;
+    flex-basis: auto;
+  }
+  .frontend-substack-home_page-module__expandCollapseButton--3UjfI {
+    top: 34px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-substack-PublicationThreadAppLinkPage-module__threadsLinkContai=
+ner--3JR5W {
+    width: calc(100vw - 80px);
+  }
+}
+
+
+@media @phone {
+  .frontend-components-add_to_podcast-module__rssFeed--2tDOK {
+    margin-top: 48px;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-account-groups-GroupManagement-module__groupSubWrapper--OIOo2 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 825px) {
+  .frontend-reader2-PostViewer-module__navArrows--3IjkT {
+    opacity: 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .frontend-reader2-MobileLibraryPage-module__librarySection---VCGN {
+    padding: 8px 0;
+    gap: 0;
+    border: none;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .frontend-reader2-MobileLibraryPage-module__libraryIcon--1YAbp {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+  .frontend-reader2-ManageSubscriptionPage-module__highlightButtons--1lIV5 =
+{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .frontend-editor-post-AudioEducationModal-module__modalContainer--3-T0R {
+    height: 524px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIxMDAzMTI1MjA5LjMuODhjMmQ4ODlhMTIwYmE2ZUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo3NjI1MjQyOSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2NDgwMTU=
+0NCwiZXhwIjoxNjY3MzkzNTQ0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.TkmFPMr_L-ZJZJ=
+W1U5nWpGzn0GMMsvba4UYrmOwLzUs" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/><div sty=
+le=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:0=
+px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Thoughts on =
+educating my kids in a fast-changing world &#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-container"><=
+tr><td></td><td width=3D"550" class=3D"content"></td><td></td></tr><tr><td>=
+</td><td align=3D"left" width=3D"550" class=3D"content"><div style=3D"font-=
+size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow-w=
+rap: break-word; width: 100%;"><table role=3D"presentation" width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" st=
+yle=3D"height: 40px;"><table role=3D"presentation" width=3D"auto" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical-align: mi=
+ddle;"><a href=3D"https://open.substack.com/pub/notboring/p/how-do-i-teach-=
+these-kids?utm_source=3Demail" class=3D"tw-font-body tw-text-ssm tw-text-su=
+bstack-secondary" style=3D"color: #808080 !important; font-family: SF Pro T=
+ext, -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica,=
+ Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !imp=
+ortant; font-size: 13px !important;">Open in browser</a></td></tr></table><=
+/td></tr></table><div dir=3D"auto" class=3D"post typography" style=3D"font-=
+size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-hea=
+der" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title =
+short published" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-fon=
+t-smoothing: antialiased; color: #404040; font-family: 'SF Compact Display'=
+, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 40px; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><=
+a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D76252429&utm_source=3Dpost-email-title&isFreemail=3Dtrue&token=3DeyJ1c2V=
+yX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzYyNTI0MjksImlhdCI6MTY2NDgwMTU0MywiZXhwIj=
+oxNjY3MzkzNTQzLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ie5pb=
+WTMNtM66GQHkJGu332vCLEMBJfJAxZSYj3Tkx0" style=3D"color: #404040; text-decor=
+ation: none;">How Do I Teach These Kids?!</a></h1><h3 class=3D"subtitle" st=
+yle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antial=
+iased; color: #767676; font-family: 'SF Compact Display', -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-we=
+ight: normal; line-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Tho=
+ughts on educating my kids in a fast-changing world</h3><table cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: c=
+enter; height: 20px; margin: 1em 0;"><tr><td title=3D"2022-10-03T12:52:14.6=
+69Z" class=3D"post-meta-item post-date" style=3D"color: #767676; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px =
+12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position: =
+relative; text-decoration: none; white-space: nowrap;"><time dateTime=3D"20=
+22-10-03T12:52:14.669Z">Oct 3</time></td></tr></table><table role=3D"presen=
+tation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" cla=
+ss=3D"email-ufi-2-top" style=3D"border-bottom: 1px solid #e0e0e0; border-to=
+p: 1px solid #e0e0e0;"><tr height=3D"16"><td height=3D"16" style=3D"font-si=
+ze: 0px; line-height: 0;">&#160;</td></tr><tr><td><table role=3D"presentati=
+on" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td=
+><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0"><tr><td style=3D"vertical-align: middle;"><table role=3D=
+"presentation" width=3D"36" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/post?pu=
+blication_id=3D10025&post_id=3D76252429&utm_source=3Dsubstack&isFreemail=3D=
+true&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzYy=
+NTI0MjksInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjY0ODAxNTQzLCJleHAiOjE2NjczOTM1NDM=
+sImlzcyI6InB1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.xPj9ISgts-oVxDyGD3u5khvHzq=
+VLZYPkQvFhRSvVXXs&utm_medium=3Demail" style=3D"border: 1px solid #e0e0e0; b=
+order-radius: 100000px; color: #808080; display: inline-block; font-family:=
+ 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; =
+padding: 9px 0; text-decoration: none; text-transform: uppercase; width: 36=
+px;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/=
+fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsub=
+stack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke=
+%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"borde=
+r: none !important; max-width: 18px; vertical-align: middle;" alt=3D"" clas=
+s=3D"icon"></a></td></tr></table></td><td width=3D"8"></td><td style=3D"ver=
+tical-align: middle;"><table role=3D"presentation" width=3D"36" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"h=
+ttps://substack.com/app-link/post?publication_id=3D10025&post_id=3D76252429=
+&utm_source=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtrue=
+&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzYyNTI0MjksImlhdCI6MTY2ND=
+gwMTU0MywiZXhwIjoxNjY3MzkzNTQzLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlY=
+WN0aW9uIn0.ie5pbWTMNtM66GQHkJGu332vCLEMBJfJAxZSYj3Tkx0&utm_source=3Dsubstac=
+k&utm_medium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 10=
+0000px; color: #808080; display: inline-block; font-family: 'SF Pro Text', =
+-apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 12px; font-weight: 500; line-height: 1; padding: 9px 0; =
+text-decoration: none; text-transform: uppercase; width: 36px;" class=3D"em=
+ail-icon-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_sca=
+le,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon=
+%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%252380808=
+0%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !impo=
+rtant; max-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></=
+a></td></tr></table></td><td width=3D"8"></td><td style=3D"vertical-align: =
+middle;"><table role=3D"presentation" width=3D"36" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substa=
+ck.com/app-link/post?publication_id=3D10025&post_id=3D76252429&utm_source=
+=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&action=3Dshare&triggerSh=
+are=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZC=
+I6NzYyNTI0MjksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQzLCJpc3MiOiJwdWItM=
+TAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ie5pbWTMNtM66GQHkJGu332vCLEMBJfJAxZS=
+Yj3Tkx0" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color=
+: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-system=
+, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 12px; font-weight: 500; line-height: 1; padding: 9px 0; text-decorati=
+on: none; text-transform: uppercase; width: 36px;" class=3D"email-icon-butt=
+on"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShar=
+e%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%=
+3D2" width=3D"18" height=3D"18" style=3D"border: none !important; max-width=
+: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td></tr></ta=
+ble></td></tr></table></td><td align=3D"right"><table role=3D"presentation"=
+ width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td st=
+yle=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center">=
+<a href=3D"https://open.substack.com/pub/notboring/p/how-do-i-teach-these-k=
+ids?utm_source=3Demail-ufi&play_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4Mz=
+U0OSwicG9zdF9pZCI6NzYyNTI0MjksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQzL=
+CJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ie5pbWTMNtM66GQHkJGu=
+332vCLEMBJfJAxZSYj3Tkx0" class=3D"email-button-outline" style=3D"border: 1p=
+x solid #e0e0e0; border-radius: 100000px; color: #808080; display: inline-b=
+lock; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; font-weight: 500=
+; line-height: 1; padding: 11.5px 14px; text-decoration: none; text-transfo=
+rm: uppercase;">&#9655;&#160;&#160;Listen</a></td></tr></table></td><td wid=
+th=3D"8"></td><td style=3D"vertical-align: middle;"><table role=3D"presenta=
+tion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><=
+td align=3D"center"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0=
+cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvaG93LWRvLWktdGVhY2gtdGhlc2Uta2lkcz91dG1fc29=
+1cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qST=
+RNelUwT1N3aWNHOXpkRjlwWkNJNk56WXlOVEkwTWprc0ltbGhkQ0k2TVRZMk5EZ3dNVFUwTXl3a=
+VpYaHdJam94TmpZM016a3pOVFF6TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUp6=
+WVhabExYQnZjM1FpZlEuZl93bjVkNmRWSWhHelVvNTJFT2J3bExxXy1UMFRVV1F3ejBQSElBM2Z=
+NbyZhY3Rpb249c2F2ZSIsInAiOjc2MjUyNDI5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyOD=
+M1NDksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQzLCJpc3MiOiJwdWItMCIsInN1Y=
+iI6ImxpbmstcmVkaXJlY3QifQ.z_9w60UYK07kdtt5wt8-faL36a30y_56xxb_8tfQ0PM?" cla=
+ss=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border-radi=
+us: 100000px; color: #808080; display: inline-block; font-family: 'SF Pro T=
+ext', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto,=
+ Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol'; font-size: 13px; font-weight: 500; line-height: 1; padding: 1=
+1.5px 14px; text-decoration: none; text-transform: uppercase;">SAVE</a></td=
+></tr></table></td></tr></table></td></tr></table></td></tr><tr height=3D"1=
+6"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td><=
+/tr></table></div></div><div dir=3D"auto" class=3D"post typography" style=
+=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=3D"a=
+uto" class=3D"body markup" style=3D"font-size: 16px; line-height: 26px; mar=
+gin-bottom: 12px; text-align: initial; width: 100%; word-break: break-word;=
+"><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0; margin-top: 0;"><em><span>Welcome to the&#160;</span><strong>873=
+&#160;newly Not Boring people&#160;</strong><span>who have joined us since =
+last Monday &#8212; I need to take breaks more often! If you haven&#8217;t =
+subscribed, join&#160;</span><strong>155,416 </strong><span>smart, curious =
+folks by subscribing here: </span></em></p><div class=3D"subscribe-widget i=
+s-signed-up is-fully-subscribed" style=3D"direction: ltr; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text=
+-align: center;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM=
+6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjo3NjI1MjQyOSwicyI6MTAwMjUsImYiOn=
+RydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjQ4MDE1NDMsImV4cCI6MTY2NzM5MzU0MywiaXNzI=
+joicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.G6cW35kQBqFEqHwkB0z_9FS7fSaH8doF=
+SXTaocnxtoM?" class=3D"button subscribe-btn outline" style=3D"background: t=
+ransparent; background-color: transparent; border: 1px solid #67bdfc; borde=
+r-radius: 4px; box-sizing: border-box; color: #67bdfc; cursor: pointer; dis=
+play: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; =
+line-height: 20px; margin: 0 auto; opacity: 1; outline: none; padding: 12px=
+ 20px; text-align: center; text-decoration: none !important; white-space: n=
+owrap;"><img src=3D"https://substackcdn.com/image/fetch/w_40,c_scale,f_png,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucide=
+Check%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%252367bdfc%26s=
+trokeWidth%3D2" width=3D"20" height=3D"20" style=3D"-ms-interpolation-mode:=
+ bicubic; border: none !important; display: inline-block; height: auto; mar=
+gin: 0 auto; margin-right: 0.5rem; max-width: 20px; vertical-align: middle;=
+" alt=3D"" class=3D"check-icon static"><span style=3D"text-decoration: none=
+;">Subscribe</span></a></p></div><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;"><span>&#127911;</span><em><span>=
+&#160; For the audio version, listen on </span><strong><a href=3D"https://s=
+ubstack.com/redirect/664b9af5-2cdb-46aa-9bf2-6343cae921d0?r=3D9p0gt" rel=3D=
+"" style=3D"color: #404040; text-decoration: underline;">Spotify</a><span> =
+</span></strong><span>or&#160;</span><strong><a href=3D"https://substack.co=
+m/redirect/0376bd8f-5a40-42bc-96f4-dca88ac78d54?r=3D9p0gt" rel=3D"" style=
+=3D"color: #404040; text-decoration: underline;">Apple Podcasts</a></strong=
+></em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"b=
+ackground: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"=
+></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;">Hi friends &#128075;,&#160;</p><p style=3D"color: #404040;=
+ font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Happy Monday! Big=
+ week here at Not Boring HQ: Friday was Puja and my 5th anniversary (Happy =
+Anniversary Puj!), tomorrow is Dev&#8217;s 2nd birthday, and Thursday is Ma=
+ya&#8217;s 2-month birthday.&#160;</p><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Last year, when Dev t=
+urned 1, I wrote </span><em><a href=3D"https://substack.com/redirect/f47262=
+5b-1103-4c0b-b318-442a63ac4fc1?r=3D9p0gt" rel=3D"" style=3D"color: #404040;=
+ text-decoration: underline;">Dad Life</a></em><span>, a piece about workin=
+g and raising a kid at the same time. I wasn&#8217;t planning on writing a =
+similar piece for his birthday this year, but I&#8217;ve been thinking a lo=
+t about a related question and the timing worked perfectly.&#160;</span></p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><span>The question is: </span><strong>how the hell are you suppo=
+sed to educate a kid today?</strong><span>&#160;</span></p><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Dev an=
+d Maya get a blank educational slate to start with. Puja and I are responsi=
+ble for figuring out how to give them the best education possible, one that=
+ helps them love learning, have fun, and get prepared for life beyond schoo=
+l. I don&#8217;t think the answer is as simple as &#8220;Get them into the =
+best schools possible.&#8221; I think it&#8217;s a lot more complicated tha=
+n that, and will only get more complicated as things move faster.&#160;</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>This isn&#8217;t meant to be a complete survey and analysis=
+ of the modern educational system, it&#8217;s more of an exploration of how=
+ I&#8217;m thinking about it personally in the very specific context of Dev=
+ and Maya&#8217;s education. </span><strong>What&#8217;s the best way to pr=
+epare </strong><em><strong>my </strong></em><strong>two kids?</strong><span=
+>&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">And I don&#8217;t have the answers &#8211; ther=
+e&#8217;s probably no &#8220;right&#8221; answer. Instead, this is meant to=
+ start a conversation, and selfishly, to give me some more direction as I t=
+hink through it. I&#8217;d love to hear your thoughts, jump in here:&#160;<=
+/p><div class=3D"tweet" style=3D"background: #fff; border: 1px solid #e1e8e=
+d; border-radius: 4px; direction: ltr; display: block; font: normal normal =
+16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16p=
+x; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20p=
+x 11.6px 20px;"><a href=3D"https://substack.com/redirect/2bdddefb-1207-46f3=
+-afe9-17c671426221?r=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: bl=
+ack; display: block; text-decoration: none; white-space: pre-wrap;"><div cl=
+ass=3D"tweet-header" style=3D"display: block; font-size: 16px; line-height:=
+ 1.2; margin-bottom: 14px; text-decoration: none;"><img class=3D"tweet-user=
+-avatar" src=3D"https://substackcdn.com/image/twitter_name/w_36/packyM.jpg"=
+ alt=3D"Twitter avatar for @packyM" loading=3D"lazy" style=3D"-ms-interpola=
+tion-mode: bicubic; border: none !important; border-radius: 50%; display: b=
+lock; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; vertic=
+al-align: middle; width: 36px;"><span class=3D"tweet-author-name" style=3D"=
+color: #1c2022; display: block; font-weight: 700;">Packy McCormick </span><=
+span class=3D"tweet-author" style=3D"color: #697882; display: block; font-s=
+ize: 14px;">@packyM</span></div><span>A question I've been thinking a lot a=
+bout is how, when everything is changing so fast and kids are already writi=
+ng essays using GPT-3, I should educate my kids.=20
+
+How can we prepare them for a world we can't predict?
+
+I'd love to hear your best ideas, articles, and resources:</span></a><a hre=
+f=3D"https://substack.com/redirect/2bdddefb-1207-46f3-afe9-17c671426221?r=
+=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: black; display: block;=
+ text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-footer"=
+ style=3D"color: #697882; display: block; font-size: 14px; line-height: 26p=
+x; margin-top: 10px; text-decoration: none;"><p class=3D"tweet-date" style=
+=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-=
+size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-botto=
+m: 10px;">October 3rd 2022</p><span class=3D"likes" style=3D"display: inlin=
+e-block; margin-right: 8px;"><span class=3D"like-count" style=3D"color: #1c=
+2022; font-weight: bold;">2</span><span> Likes</span></span></div></a></div=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;">Let&#8217;s get to it. </p><div style=3D"font-size: 16px; line-h=
+eight: 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1px; =
+margin: 48px 0; padding: 0;"></div><h1 class=3D"header-with-anchor-widget" =
+style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: anti=
+aliased; color: #404040; font-family: 'SF Compact Display', -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-w=
+eight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relati=
+ve;">How Do I Teach These Kids?!</h1><div class=3D"captioned-image-containe=
+r-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px;=
+ text-align: center;"><figure style=3D"display: inline-block; margin: 0 aut=
+o; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding=
+-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td a=
+lign=3D"left" class=3D"content" width=3D"900" style=3D"text-align: center;"=
+><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/red=
+irect/b1ef1cdb-0644-4f0d-b631-73dd89c30dc6?r=3D9p0gt" rel=3D"" style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; position: relative; text-decoration: none=
+; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer=
+-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5627a7=
+b7-c9a5-40f6-886e-64a0226562f3_900x507.png&quot;,&quot;fullscreen&quot;:nul=
+l,&quot;imageSize&quot;:null,&quot;height&quot;:507,&quot;width&quot;:900,&=
+quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&qu=
+ot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;below=
+TheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"55=
+0" height=3D"309.8333333333333" class=3D"wide-image" src=3D"https://substac=
+kcdn.com/image/fetch/w_1800,c_limit,f_auto,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com%2Fpublic%2Fimages%2F5627a7b7-c9a5-40f6-886e-64a0226562f3_900x507.png" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !imp=
+ortant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Now that we have kids, my most important job is raising them. I want them=
+ to be happy and kind and smart and creative and hard-working and a little =
+devilish. I remember walking around holding Dev when he was really little a=
+nd telling him those things, listing the qualities I wanted to instill in h=
+im as if he could absorb the words and make them so. In reality, it&#8217;s=
+ a lot harder than that.&#160;</p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>A timely example. Last ni=
+ght, after we had our family over to celebrate his birthday, I gave him a b=
+ath, put him in his pajamas, and started reading him a book, </span><em><a =
+href=3D"https://substack.com/redirect/587a0ef8-165f-4851-b9fe-d708f6707e6e?=
+r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">G=
+oodnight, Goodnight Construction Site</a><span> </span></em><span>to be exa=
+ct. As we were finishing &#8211; </span><em>&#8220;Great work today! Now&#8=
+230;shh&#8230;goodnight!&#8221;</em><span> &#8211; my mind was already on g=
+etting back to work and finishing this piece. I was tired, and starting bac=
+k up after a long day was already daunting enough. When he asked, &#8220;Ca=
+n we read one more book please?&#8221; I started to shake my head no, tell =
+him it was time to go to sleep, that dad had to work&#8230; and then I reme=
+mbered what I was about to go work </span><em>on</em><span>: an essay about=
+ educating him and his sister. The hypocrisy was too thick. We read another=
+ book.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;">There are a million little trade-offs like=
+ that, though rarely quite so on the nose. Historically, the way to deal wi=
+th a big lump of those trade-offs is, eventually, to try to put your kids i=
+n the best schools possible and make sure that they&#8217;re doing their ho=
+mework and getting good grades and doing all of the extracurriculars, which=
+ serve double duty as resume fillers and extra childcare.&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>But thanks to the pandemic and our jobs, Puja and I have been lucky=
+ enough to be home most of the time, getting to spend time with Dev and May=
+a, getting to watch them get smarter every day, like little human large lan=
+guage models with big emotions. At the same time, the real large language m=
+odels have been getting stronger by the day, surprisingly upending creative=
+ work first, which has made me reflect on what the world will look like whe=
+n they&#8217;re older, and how to prepare them for that world. What will pe=
+ople need to know in a world in which the </span><em><a href=3D"https://sub=
+stack.com/redirect/2cee0fbb-b004-4b22-90e1-9960416bbc3e?r=3D9p0gt" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Enchanted Notebook</=
+a><span> </span></em><span>exists?</span></p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">While we&#8217;ll st=
+ill put them in school &#8211; Dev started a couple weeks ago, for a few ho=
+urs three days a week &#8211; it&#8217;s become clear that if we want them =
+to grow up to be uniquely them to the fullest of their potential, and stay =
+ahead of seemingly daily advances, we need to do a lot more than that.&#160=
+;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;">The question is, what? And I guess another one is, how? How =
+do we teach these kids?!&#160;</p><div style=3D"font-size: 16px; line-heigh=
+t: 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1px; marg=
+in: 48px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;">There are these charts that pop up=
+ every once in a while that show how much graduates of certain majors make =
+or which majors are becoming more popular.&#160;</p><div class=3D"captioned=
+-image-container-static" style=3D"font-size: 16px; line-height: 26px; margi=
+n-bottom: 16px; text-align: center;"><figure style=3D"display: inline-block=
+; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px au=
+to; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cent=
+er;"></td><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-=
+align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://s=
+ubstack.com/redirect/6e087998-1628-449a-8d5d-e9e1c9a558dc?r=3D9p0gt" rel=3D=
+"" style=3D"align-items: center; border: none; display: block; flex-directi=
+on: column; height: auto; margin: 0; padding: 0; position: relative; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/publi=
+c/images/f5b2be60-2c2f-4366-9bab-a4e9b82fee9e_908x495.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:495,&quot;wi=
+dth&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt=
+&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:n=
+ull,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=
+=3D"" width=3D"550" height=3D"299.8348017621145" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5b2be60-2c2f-4366-9bab-a4e9b82f=
+ee9e_908x495.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><figc=
+aption class=3D"image-caption" style=3D"color: #767676; font-family: sans-s=
+erif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-align: ce=
+nter;"><em><a href=3D"https://substack.com/redirect/92284631-70bd-4cac-80d0=
+-74f3ca16beff?r=3D9p0gt" rel=3D"">Revelio Labs</a></em></figcaption></figur=
+e></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">One that has recently caught peoples&#8217; attention is =
+this chart that shows that computer science degrees are on the rise, and hu=
+manities degrees are on an equal and opposite decline. This chart has cause=
+d either celebration (&#8220;Good! People are studying things that will hel=
+p them get jobs.&#8221;) or anguish (&#8220;Oh no! The death of humanities =
+will lead to a duller, less ethical and moral society.&#8221;).&#160;</p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;">I don&#8217;t have a strong view. What struck me when I looked at t=
+he chart, and the related hot takes on Twitter, was just how hard it must b=
+e for educational institutions at all levels to keep up with the increasing=
+ rate of change in the world.&#160;</p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>It&#8217;s an oft-ci=
+ted fact that the modern education system was created during the Industrial=
+ Revolution to prepare children to grow up to work in factories. &#8220;Fac=
+tory schools,&#8221; as they were called, sprang up in Prussia in the 19th =
+Century and quickly spread throughout the industrialized world, to teach ki=
+ds to be &#8220;</span><a href=3D"https://substack.com/redirect/aef0cc00-ae=
+0f-4e4a-bd5e-23fcba4385ba?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text=
+-decoration: underline;">punctual, docile, and sober</a><span>.&#8221; Movi=
+ng from the family farm to the corporate factory required a different set o=
+f skills and behaviors, and schools stepped in to teach them.&#160;</span><=
+/p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;"><span>That model worked well, and persisted for two centuries,=
+ in part, I would guess, because the types of jobs that people were going t=
+o get after school, and the skills they would need for those jobs, stayed r=
+elatively static. And a literate, numerate population trained to follow ord=
+ers generalized well. </span><em><a href=3D"https://substack.com/redirect/f=
+df3b1f3-4141-4059-8ffb-6d8ce875205e?r=3D9p0gt" rel=3D"" style=3D"color: #40=
+4040; text-decoration: underline;">The Man in the Gray Flannel Suit</a></em=
+><span> worked in an office instead of a factory, and wore nicer clothes, b=
+ut was still expected to be punctual, docile, and sober.&#160;</span></p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;">While some of the details have changed, the system works largely th=
+e same way today, even among the top students at the best schools.&#160;</p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><span>When I </span><a href=3D"https://substack.com/redirect/1f7=
+6ab8e-ffe5-432d-a08d-c9c3f82a027b?r=3D9p0gt" rel=3D"" style=3D"color: #4040=
+40; text-decoration: underline;">asked people for their favorite essays</a>=
+<span>, William Deresiewicz&#8217;s </span><em><a href=3D"https://substack.=
+com/redirect/b81e9f98-ccb7-48b7-8f45-7f685fab657d?r=3D9p0gt" rel=3D"" style=
+=3D"color: #404040; text-decoration: underline;">Solitude and Leadership</a=
+></em><span> was one of the most frequently-recommended (I marked it up wit=
+h </span><a href=3D"https://substack.com/redirect/2f59b15c-2732-42d6-b810-8=
+dc135be3545?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: u=
+nderline;">notes in Readwise Reader here</a><span>). The essay is the trans=
+cript of a talk Deresiewicz, a former Yale English professor and author, ga=
+ve to the incoming plebe class at West Point in 2009.&#160;</span></p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;">While at Yale, Deresiewicz spent some time on the admissions committee=
+, where he experienced this:&#160;</p><blockquote style=3D"border-left: 4px=
+ solid #67bdfc; margin: 20px 0;"><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em>Well, it =
+turned out that a student who had six or seven extracurriculars was already=
+ in trouble. Because the students who got in&#8212;in addition to perfect g=
+rades and top scores&#8212;usually had 10 or 12.</em></p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-le=
+ft: 20px;"><em><span>So what I saw around me were great kids who had been t=
+rained to be </span><strong>world-class hoop jumpers</strong><span>. Any go=
+al you set them, they could achieve. Any test you gave them, they could pas=
+s with flying colors. They were, as one of them put it herself, &#8220;</sp=
+an><strong>excellent sheep.</strong><span>&#8221;</span></em></p></blockquo=
+te><div class=3D"captioned-image-container-static" style=3D"font-size: 16px=
+; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure styl=
+e=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"i=
+mage-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td=
+ style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wi=
+dth=3D"908" style=3D"text-align: center;"><a class=3D"image-link" target=3D=
+"_blank" href=3D"https://substack.com/redirect/7bae267c-c1af-4f47-acee-8b2c=
+1221f85d?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; di=
+splay: block; flex-direction: column; height: auto; margin: 0; padding: 0; =
+position: relative; text-decoration: none; width: auto;"><img data-attrs=3D=
+"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77=
+984.s3.amazonaws.com/public/images/a34cac34-cd2b-4d0f-8b9c-5cab6dc1e896_908=
+x458.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot=
+;height&quot;:458,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;=
+bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quo=
+t;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalR=
+edirect&quot;:null}" alt=3D"" width=3D"550" height=3D"277.42290748898677" c=
+lass=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa34cac34-=
+cd2b-4d0f-8b9c-5cab6dc1e896_908x458.png" style=3D"-ms-interpolation-mode: b=
+icubic; border: none !important; display: block; height: auto; margin: 0 au=
+to; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; w=
+idth: auto !important;"></a></td><td style=3D"text-align: center;"></td></t=
+r></tbody></table><figcaption class=3D"image-caption" style=3D"color: #7676=
+76; font-family: sans-serif; font-size: 14px; font-weight: 300; line-height=
+: 1.4em; text-align: center;"><em>Excellent Sheep Jumping Through Hoops, St=
+able Diffusion</em></figcaption></figure></div><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>I definitely=
+ want my kids to be able to get into schools like Yale, if they want and if=
+ that still matters then, but I definitely </span><em>don&#8217;t</em><span=
+> want them to be excellent sheep. Excellent sheep seldom make history.&#16=
+0;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;">While I don&#8217;t have answers to the very difficu=
+lt question of how to educate millions of kids, kids of all backgrounds and=
+ levels of income and aptitude and parental support, and I don&#8217;t envy=
+ those who have to come up with those answers, it&#8217;s become pretty cle=
+ar to me that optimizing just for my own kids, the factory school model, or=
+ the more modern excellent sheep model, won&#8217;t work.&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">I say that as an excellent sheep myself. I was lucky enough to go to grea=
+t private schools and to Duke. I was a good student. I did a lot of extracu=
+rriculars. I remember one weekend in high school when I had a debate tourna=
+ment one night, ran in Pennsylvania Cross Country State Championship (and f=
+inished All-State) the next morning, and drove back to my high school to pe=
+rform in the school play that same night. In college, I studied econ, becau=
+se I wanted to go into finance, and then spent four years in a finance job =
+I didn&#8217;t love doing work I didn&#8217;t really care about and that I =
+realized I was worse at than a lot of people who were plain smarter and act=
+ually loved the work.&#160;</p><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;">It took me a decade post-college, =
+and unemployment at the start of a global pandemic, to find the thing that =
+I was uniquely good at: writing a newsletter, of all things.</p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I=
+ think that a lot of the things I did, in a roundabout way, contributed to =
+what Not Boring has become. Debate helped me frame an argument, finance hel=
+ped me use a spreadsheet, running helped me put in countless hours of hard =
+work with almost no benefit to show for it for over a year. In retrospect, =
+I wouldn&#8217;t change a thing about my education because I&#8217;m really=
+ happy with where it&#8217;s all led. Serendipity is part of the process, a=
+nd my parents raised us to be able to follow it. They led by example &#8211=
+; both leaving good, stable jobs to start their own things &#8211; and as a=
+ result, my sister, brother, and I all started our own things.&#160;</p><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;">But I also want our kids to be better off than us, something that on=
+ly a depressing 32% of Americans expect to be true for their children:</p><=
+div class=3D"captioned-image-container-static" style=3D"font-size: 16px; li=
+ne-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D=
+"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image=
+-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td sty=
+le=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=
+=3D"608" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_b=
+lank" href=3D"https://substack.com/redirect/abe1291e-5550-4dde-b40d-1e1f451=
+8a292?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; displ=
+ay: block; flex-direction: column; height: auto; margin: 0; padding: 0; pos=
+ition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&=
+quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984=
+=2Es3.amazonaws.com/public/images/004e39f=
+d-6da4-4b2e-83f6-6415c713e94b_608x33=
+5.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;he=
+ight&quot;:335,&quot;width&quot;:608,&quot;resizeWidth&quot;:null,&quot;byt=
+es&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:=
+null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedi=
+rect&quot;:null}" alt=3D"" width=3D"550" height=3D"303.04276315789474" clas=
+s=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1216,c_limit,=
+f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F004e39fd-6da=
+4-4b2e-83f6-6415c713e94b_608x335.png" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: block; height: auto; margin: 0 auto;=
+ margin-bottom: 0; max-width: 100% !important; vertical-align: middle; widt=
+h: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr><=
+/tbody></table><figcaption class=3D"image-caption" style=3D"color: #767676;=
+ font-family: sans-serif; font-size: 14px; font-weight: 300; line-height: 1=
+=2E4em; text-align: center;"><em>Pew Rese=
+arch, 2021</em></figcaption></figure=
+></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;"><span>Finances aside, Dev and Maya will set their own defi=
+nitions of &#8220;better off&#8221; and their own goals in life, but when I=
+ think about how I want to guide them, the words </span><strong>&#8220;Phil=
+osopher King and Queen&#8221;</strong><span> come to mind.&#160;</span></p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>The idea, put forth by Plato in </span><em>The Republic</em=
+><span>, is that the ideal polis, the </span><em>kallipolis</em><span>, or =
+beautiful city, should be ruled by philosophers who love knowledge, who see=
+k truth and ideals instead of power. It&#8217;s an idea as beautiful as it =
+is impractical. Plato is essentially calling for benevolent dictatorship an=
+d assuming that there exist people who absolute power wouldn&#8217;t corrup=
+t absolutely. If some people throughout history may have fit the bill, they=
+&#8217;re too few and far between for benevolent dictatorship to be a reali=
+stic form of governance, so we&#8217;re left with democracy, &#8220;the wor=
+st form of government &#8211; except for all the others that have been trie=
+d.&#8221;&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">I still think it&#8217;s a good north s=
+tar for raising a kid, particularly when those kids are going to grow up in=
+to a world in which they&#8217;ll have more power at their fingertips than =
+our generation can even imagine. Dev and Maya won&#8217;t be Philosopher Ki=
+ng and Queen of the United States, but they&#8217;ll be Philosopher King an=
+d Queen of their own little worlds.&#160;</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>They and their=
+ fellow Gen Alphas will command personalized AI and govern decentralized or=
+ganizations and access overwhelming amounts of information and bring ideas =
+to life with </span><em><a href=3D"https://substack.com/redirect/2cee0fbb-b=
+004-4b22-90e1-9960416bbc3e?r=3D9p0gt" rel=3D"" style=3D"color: #404040; tex=
+t-decoration: underline;">Enchanted Notebooks</a></em><span> and shape biol=
+ogy itself, and I think that it&#8217;s going to be important for them to g=
+row up with a </span><strong>philosopher&#8217;s love of truth and wisdom</=
+strong><span> and a </span><strong>benevolent monarch&#8217;s sense of fair=
+ness and goodness</strong><span>. And above all else, I want them to have a=
+ </span><strong>critical curiosity</strong><span> and </span><strong>pragma=
+tic optimism</strong><span>, a willingness to explore new things openly and=
+ excitedly but with a more incisive and critical eye than I have.&#160;</sp=
+an></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;">And I think that the Factory School / Excellent Sheep mode=
+l is increasingly incapable of making that happen.&#160;</p><p style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">For o=
+ne thing, I have no idea what skills are going to be in-demand in twenty ye=
+ars, when Dev would graduate college, or twenty-two, when Maya would. There=
+&#8217;s no factory job waiting on the other side, the corporate ladder get=
+s more slippery every year, and the well-worn banking/consulting/law/medici=
+ne path seems less certain.&#160;</p><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Ok, well duh consultin=
+g and banking aren&#8217;t the sure-things they once were. Everyone who mak=
+es </span><em>real </em><span>money today knows how to code. That&#8217;s w=
+hy college students are abandoning the humanities in favor of computer scie=
+nce. Teach a kid to code, feed her for a lifetime. We sent Dev to a school =
+that will start to teach him the very basics of coding next year, when he&#=
+8217;s three. That&#8217;s the obviously right call, right?&#160;</span></p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;">Not so fast.&#160;</p><div class=3D"tweet" style=3D"background: =
+#fff; border: 1px solid #e1e8ed; border-radius: 4px; direction: ltr; displa=
+y: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calib=
+ri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-w=
+idth: 520px; padding: 20px 20px 11.6px 20px;"><a href=3D"https://substack.c=
+om/redirect/3a42c534-44ce-49e7-89ec-6c3092b37900?r=3D9p0gt" target=3D"_blan=
+k" rel=3D"" style=3D"color: black; display: block; text-decoration: none; w=
+hite-space: pre-wrap;"><div class=3D"tweet-header" style=3D"display: block;=
+ font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: n=
+one;"><img class=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image=
+/twitter_name/w_36/amasad.jpg" alt=3D"Twitter avatar for @amasad" loading=
+=3D"lazy" style=3D"-ms-interpolation-mode: bicubic; border: none !important=
+; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 =
+8px 0 0; max-width: 100%; vertical-align: middle; width: 36px;"><span class=
+=3D"tweet-author-name" style=3D"color: #1c2022; display: block; font-weight=
+: 700;">Amjad Masad &#10261; </span><span class=3D"tweet-author" style=3D"c=
+olor: #697882; display: block; font-size: 14px;">@amasad</span></div><span>=
+In the next 2 years you&#8217;ll be able to talk to your </span><span class=
+=3D"tweet-fake-link" style=3D"color: #1ca1f2; text-decoration: none;">@Repl=
+it</span><span> mobile app and it will instantly generate software for you.
+
+It&#8217;s what Siri *should* have been!</span></a><a href=3D"https://subst=
+ack.com/redirect/3a42c534-44ce-49e7-89ec-6c3092b37900?r=3D9p0gt" target=3D"=
+_blank" rel=3D"" style=3D"color: black; display: block; text-decoration: no=
+ne; white-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"color: #69=
+7882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px;=
+ text-decoration: none;"><p class=3D"tweet-date" style=3D"border-bottom: 1p=
+x solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-heig=
+ht: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">October 1st=
+ 2022</p><span class=3D"retweets" style=3D"display: inline-block; margin-ri=
+ght: 8px;"><span class=3D"rt-count" style=3D"color: #1c2022; font-weight: b=
+old;">63</span><span> Retweets</span></span><span class=3D"likes" style=3D"=
+display: inline-block; margin-right: 8px;"><span class=3D"like-count" style=
+=3D"color: #1c2022; font-weight: bold;">1,097</span><span> Likes</span></sp=
+an></div></a></div><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Ok, so then I&#8217;ll teach my kids ~*prompt =
+engineering*~. If AI is the future, then we should teach our kids to get re=
+ally good at getting AI to do exactly what they want, like this young geniu=
+s, Urdagirl69.&#160;</p><div class=3D"captioned-image-container-static" sty=
+le=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: =
+center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100=
+%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"753" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/5deb06=
+18-5378-480c-aac8-c23afe442c72?r=3D9p0gt" rel=3D"" style=3D"align-items: ce=
+nter; border: none; display: block; flex-direction: column; height: auto; m=
+argin: 0; padding: 0; position: relative; text-decoration: none; width: aut=
+o;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/7bd7b11e-9ac1-4852=
+-83a5-c74971ea35aa_753x301.png&quot;,&quot;fullscreen&quot;:null,&quot;imag=
+eSize&quot;:null,&quot;height&quot;:301,&quot;width&quot;:753,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quo=
+t;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot=
+;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D=
+"219.8539176626826" class=3D"wide-image" src=3D"https://substackcdn.com/ima=
+ge/fetch/w_1506,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic=
+%2Fimages%2F7bd7b11e-9ac1-4852-83a5-c74971ea35aa_753x301.png" style=3D"-ms-=
+interpolation-mode: bicubic; border: none !important; display: block; heigh=
+t: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vert=
+ical-align: middle; width: auto !important;"></a></td><td style=3D"text-ali=
+gn: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" =
+style=3D"color: #767676; font-family: sans-serif; font-size: 14px; font-wei=
+ght: 300; line-height: 1.4em; text-align: center;"><em>Urdagirl69 on Reddit=
+</em></figcaption></figure></div><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;"><span>This </span><a href=3D"htt=
+ps://substack.com/redirect/51346938-9481-4db4-b5bc-9788c37feb84?r=3D9p0gt" =
+rel=3D"" style=3D"color: #404040; text-decoration: underline;">Reddit post<=
+/a><span> went viral last week. An enterprising young student figured out t=
+hat she could use GPT-3 to help write her essays (she used it as a starting=
+ point, and then made the essays her own). Writing good essays became so ea=
+sy, in fact, that she was able to write her classmates&#8217; essays, too, =
+for a $100 profit.&#160;</span></p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">One teacher replied that, &#82=
+20;If I learned that my students were submitting AI-written papers, I&#8217=
+;d quit. Grading something an AI wrote is an incredibly depressing waste of=
+ my life.&#8221;&#160;</p><div class=3D"captioned-image-container-static" s=
+tyle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align=
+: center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 1=
+00%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0=
+ 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"lef=
+t" class=3D"content" width=3D"718" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/98a=
+366be-2e88-48e5-914d-a8c8fd7d3e6b?r=3D9p0gt" rel=3D"" style=3D"align-items:=
+ center; border: none; display: block; flex-direction: column; height: auto=
+; margin: 0; padding: 0; position: relative; text-decoration: none; width: =
+auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/17734f4a-6856-4=
+c2c-92b4-5b4f6058bd4b_718x384.png&quot;,&quot;fullscreen&quot;:null,&quot;i=
+mageSize&quot;:null,&quot;height&quot;:384,&quot;width&quot;:718,&quot;resi=
+zeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&=
+quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&q=
+uot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=
+=3D"294.15041782729804" class=3D"wide-image" src=3D"https://substackcdn.com=
+/image/fetch/w_1436,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2F17734f4a-6856-4c2c-92b4-5b4f6058bd4b_718x384.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; font=
+-weight: 300; line-height: 1.4em; text-align: center;"><em>ahumanlikeyou on=
+ Reddit</em></figcaption></figure></div><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>While I sympathize =
+with the teacher &#8211; spending your life grading papers written by AI </=
+span><em>does</em><span> seem incredibly depressing &#8211; I want to teach=
+ my kids to be more like Urdagirl69. By that, I don&#8217;t specifically me=
+an that I want to teach them how to use GPT-3 to write essays and build a m=
+odern paper-farm lemonade stand, but that I want to teach them to have the =
+curiosity, agency, and initiative to use whatever tools they have at their =
+disposal to do the best work possible.&#160;</span></p><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Urdagirl69=
+ seems excellent, but not sheep-like. GPT-3 will be ancient, ancient techno=
+logy by the time Dev and Maya are assigned their first essay, but the erudi=
+te impishness required to seek out and deploy whatever the current most adv=
+anced technology is in order to do their work, even if it&#8217;s kind of a=
+gainst the rules, is something I want to instill in them.&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">That doesn&#8217;t mean that there shouldn&#8217;t be rules, or that we s=
+hould teach them to break the rules for rule-breaking&#8217;s sake. Setting=
+ boundaries seems important, if only so they can find creative ways around =
+them.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;"><span>On a recent </span><a href=3D"https://substa=
+ck.com/redirect/2f02832a-8125-44d1-baf0-7af1dafb3328?r=3D9p0gt" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Lunar Society podcast e=
+pisode</a><span>, Dwarkesh Patel asked Tyler Cowen if we should just let hi=
+gh schoolers go wild and educate themselves without structure, and Cowen&#8=
+217;s response seems instructive for designing educational systems in a wor=
+ld in which kids can write essays with AI:&#160;</span></p><div class=3D"tw=
+eet" style=3D"background: #fff; border: 1px solid #e1e8ed; border-radius: 4=
+px; direction: ltr; display: block; font: normal normal 16px/1.4 Helvetica,=
+ Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26p=
+x; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;"><a =
+href=3D"https://substack.com/redirect/824b61ae-8dfa-4ce1-ab57-2e04bd3ec890?=
+r=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: black; display: block=
+; text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-header=
+" style=3D"display: block; font-size: 16px; line-height: 1.2; margin-bottom=
+: 14px; text-decoration: none;"><img class=3D"tweet-user-avatar" src=3D"htt=
+ps://substackcdn.com/image/twitter_name/w_36/dwarkesh_sp.jpg" alt=3D"Twitte=
+r avatar for @dwarkesh_sp" loading=3D"lazy" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; border-radius: 50%; display: block; flo=
+at: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; vertical-align:=
+ middle; width: 36px;"><span class=3D"tweet-author-name" style=3D"color: #1=
+c2022; display: block; font-weight: 700;">Dwarkesh Patel </span><span class=
+=3D"tweet-author" style=3D"color: #697882; display: block; font-size: 14px;=
+">@dwarkesh_sp</span></div><span>How </span><span class=3D"tweet-fake-link"=
+ style=3D"color: #1ca1f2; text-decoration: none;">@tylercowen</span><span> =
+would run a high school: </span><div class=3D"tweet-photos-container" style=
+=3D"display: flex; font-size: 16px; height: 350px; line-height: 26px;"><div=
+ class=3D"tweet-photo-wrapper " style=3D"-moz-box-sizing: border-box; -webk=
+it-box-sizing: border-box; border: 1px solid #e1e8ed; border-radius: 4px; b=
+ox-sizing: border-box; font-size: 16px; height: 100%; line-height: 26px; wi=
+dth: 100%;"><img class=3D"tweet-photo" src=3D"https://substackcdn.com/image=
+/upload/w_728,c_limit/l_twitter_play_button_rvaygk,w_120/xelcywdsij7c0yw6re=
+le" alt=3D"Image" loading=3D"lazy" style=3D"-ms-interpolation-mode: bicubic=
+; border: none !important; border-radius: 4px; display: block; height: 100%=
+; margin: 0 auto; max-width: 100%; object-fit: cover; vertical-align: middl=
+e; width: 100%;"></div></div></a><a href=3D"https://substack.com/redirect/8=
+24b61ae-8dfa-4ce1-ab57-2e04bd3ec890?r=3D9p0gt" target=3D"_blank" rel=3D"" s=
+tyle=3D"color: black; display: block; text-decoration: none; white-space: p=
+re-wrap;"><div class=3D"tweet-footer" style=3D"color: #697882; display: blo=
+ck; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: =
+none;"><p class=3D"tweet-date" style=3D"border-bottom: 1px solid #e1e8ed; c=
+olor: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0=
+; margin-bottom: 10px; padding-bottom: 10px;">October 1st 2022</p><span cla=
+ss=3D"retweets" style=3D"display: inline-block; margin-right: 8px;"><span c=
+lass=3D"rt-count" style=3D"color: #1c2022; font-weight: bold;">2</span><spa=
+n> Retweets</span></span><span class=3D"likes" style=3D"display: inline-blo=
+ck; margin-right: 8px;"><span class=3D"like-count" style=3D"color: #1c2022;=
+ font-weight: bold;">22</span><span> Likes</span></span></div></a></div><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;">&#8220;I think they need some structure, but you have to let them re=
+bel against it, and do their own thing also.&#8221;&#160;</p><div style=3D"=
+font-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; bord=
+er: none; height: 1px; margin: 48px 0; padding: 0;"></div><h4 class=3D"head=
+er-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webk=
+it-font-smoothing: antialiased; color: #404040; font-family: 'SF Compact Di=
+splay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0 =
+0.625em 0; position: relative;">To read the rest of the piece, including th=
+oughts from Patrick Collison, Erik Hoel, and Emad Mostaque and the 10 thing=
+s I&#8217;m going to focus on:</h4><p class=3D"button-wrapper" data-attrs=
+=3D"{&quot;url&quot;:&quot;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6=
+Ly93d3cubm90Ym9yaW5nLmNvL3AvaG93LWRvLWktdGVhY2gtdGhlc2Uta2lkcz90b2tlbj1leUo=
+xYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TnpZeU5USTBNamtzSW1saGRDST=
+ZNVFkyTkRnd01UVTBNeXdpWlhod0lqb3hOalkzTXprek5UUXpMQ0pwYzNNaU9pSndkV0l0TVRBd=
+01qVWlMQ0p6ZFdJaU9pSndiM04wTFhKbFlXTjBhVzl1SW4wLmllNXBiV1RNTnRNNjZHUUhrSkd1=
+MzMydkNMRU1CSmZKQXhaU1lqM1RreDAiLCJwIjo3NjI1MjQyOSwicyI6MTAwMjUsImYiOnRydWU=
+sInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjQ4MDE1NDMsImV4cCI6MTY2NzM5MzU0MywiaXNzIjoicH=
+ViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.jGoWe5w-v50yNRC7OOW6Sz5cP4B0Co_Dp3-Q2=
+mO9t4s?&quot;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;ac=
+tion&quot;:null,&quot;class&quot;:null}" style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0; text-align: center;"><a clas=
+s=3D"button primary" href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cH=
+M6Ly93d3cubm90Ym9yaW5nLmNvL3AvaG93LWRvLWktdGVhY2gtdGhlc2Uta2lkcz90b2tlbj1le=
+UoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TnpZeU5USTBNamtzSW1saGRD=
+STZNVFkyTkRnd01UVTBNeXdpWlhod0lqb3hOalkzTXprek5UUXpMQ0pwYzNNaU9pSndkV0l0TVR=
+Bd01qVWlMQ0p6ZFdJaU9pSndiM04wTFhKbFlXTjBhVzl1SW4wLmllNXBiV1RNTnRNNjZHUUhrSk=
+d1MzMydkNMRU1CSmZKQXhaU1lqM1RreDAiLCJwIjo3NjI1MjQyOSwicyI6MTAwMjUsImYiOnRyd=
+WUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjQ4MDE1NDMsImV4cCI6MTY2NzM5MzU0MywiaXNzIjoi=
+cHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.jGoWe5w-v50yNRC7OOW6Sz5cP4B0Co_Dp3-=
+Q2mO9t4s?" rel=3D"" style=3D"background-color: #67bdfc; border: none; borde=
+r-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor: p=
+ointer; display: inline-block; font-family: -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; hei=
+ght: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding=
+: 12px 20px; text-align: center; text-decoration: none !important; white-sp=
+ace: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Contin=
+ue Reading Online</span></a></p><div style=3D"font-size: 16px; line-height:=
+ 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1px; margin=
+: 48px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 20px 0;"><em><span>Thanks to </span><a href=
+=3D"https://substack.com/redirect/98d0fa2c-0ae5-4f8f-9d13-09ec84991f08?r=3D=
+9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Dan</=
+a><span> and </span><a href=3D"https://substack.com/redirect/fd6edcd7-40ac-=
+4c11-82f8-fcc32d2bc226?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-de=
+coration: underline;">Puja</a><span> for reading and editing!</span></em><s=
+pan> </span></p><div style=3D"font-size: 16px; line-height: 26px;"><hr styl=
+e=3D"background: #ebebeb; border: none; height: 1px; margin: 48px 0; paddin=
+g: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;">That&#8217;s all for today. See you back here Friday=
+ for your Weekly Dose of Optimism. Have a great week. </p><p style=3D"color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Thanks =
+for reading, </p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0; margin-bottom: 0;">Packy</p></div></div><table ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom big alternative=
+-meta centered" style=3D"margin: 0 auto;"><tr style=3D"align-items: center;=
+ display: flex;"><td class=3D"post-meta-item icon" style=3D"color: #767676;=
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 14px; height: 100%; line-height: 18px; padding: 0px 12px =
+0px 0; padding-right: 16px; position: relative; text-decoration: none; text=
+-indent: 3px; white-space: nowrap;"><span class=3D"post-meta-icon like-reac=
+tion-button"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D76252429&utm_source=3Dsubstack&isFreemail=3Dtrue&submitL=
+ike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzYyNTI0MjksInJl=
+YWN0aW9uIjoi4p2kIiwiaWF0IjoxNjY0ODAxNTQzLCJleHAiOjE2NjczOTM1NDMsImlzcyI6InB=
+1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.xPj9ISgts-oVxDyGD3u5khvHzqVLZYPkQvFhRS=
+vVXXs&utm_medium=3Demail" class=3D"like-button button post-meta-button" sty=
+le=3D"align-items: center; background-color: transparent; border: 1px solid=
+ #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; curso=
+r: pointer; display: flex; font-family: -apple-system, BlinkMacSystemFont, =
+'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Seg=
+oe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: 600; height:=
+ auto; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10=
+px 16px; text-align: center; text-decoration: none; text-indent: 0px; white=
+-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_28,c_sca=
+le,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon=
+%2FLucideHeart%3Fv%3D4%26height%3D28%26fill%3Dtransparent%26stroke%3D%25237=
+57575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !=
+important; display: inline-block; float: left; height: 14px; margin-right: =
+4px; max-width: 14px; vertical-align: top; width: auto;" alt=3D""><span cla=
+ss=3D"like-count" style=3D"color: #1a1a1a; margin-left: 7px;">Like</span></=
+a></span></td><td class=3D"post-meta-item icon" style=3D"color: #767676; fo=
+nt-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 14px; height: 100%; line-height: 18px; padding: 0px 12px 0px=
+ 0; padding-right: 16px; position: relative; text-decoration: none; text-in=
+dent: 3px; white-space: nowrap;"><a href=3D"https://substack.com/app-link/p=
+ost?publication_id=3D10025&post_id=3D76252429&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6NzYyNTI0MjksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQz=
+LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ie5pbWTMNtM66GQHkJG=
+u332vCLEMBJfJAxZSYj3Tkx0&utm_source=3Dsubstack&utm_medium=3Demail" class=3D=
+"post-meta-button button" style=3D"align-items: center; background-color: t=
+ransparent; border: 1px solid #ebebeb; border-radius: 4px; box-sizing: bord=
+er-box; color: #1a1a1a; cursor: pointer; display: flex; font-family: -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16=
+px; font-weight: 600; height: auto; line-height: 15px; margin: 0; opacity: =
+1; outline: none; padding: 10px 16px; text-align: center; text-decoration: =
+none; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch=
+/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+=2Ecom%2Ficon%2FLucideComments%3Fv%3D4%26=
+height%3D28%26fill%3Dtransparent%26s=
+troke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"=
+border: none !important; display: inline-block; float: left; height: 14px; =
+margin-right: 4px; max-width: 14px; vertical-align: top; width: auto;" alt=
+=3D"Comment" class=3D"comment-icon post-meta-icon"><span class=3D"meta-butt=
+on-label">Comment</span></a></td><td class=3D"post-meta-item icon" style=3D=
+"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; ma=
+rgin-right: 0; padding: 0px 12px 0px 0; padding-right: 0; position: relativ=
+e; text-decoration: none; text-indent: 3px; white-space: nowrap;"><span><a =
+href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D76252429&utm_source=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&ac=
+tion=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjox=
+NjI4MzU0OSwicG9zdF9pZCI6NzYyNTI0MjksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3Mzk=
+zNTQzLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ie5pbWTMNtM66G=
+QHkJGu332vCLEMBJfJAxZSYj3Tkx0" class=3D"button post-meta-button" style=3D"a=
+lign-items: center; background-color: transparent; border: 1px solid #ebebe=
+b; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: poin=
+ter; display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 16px; font-weight: 600; height: auto; =
+line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16px=
+; text-align: center; text-decoration: none; white-space: nowrap;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26=
+height%3D28%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" =
+width=3D"14" height=3D"14" style=3D"border: none !important; display: inlin=
+e-block; float: left; height: 14px; margin-right: 4px; max-width: 14px; ver=
+tical-align: top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-=
+meta-icon"><span class=3D"meta-button-label">Share</span></a></span></td></=
+tr></table><div class=3D"container-border" style=3D"border-top: 1px solid r=
+gba(204, 204, 204, 0.5); box-sizing: border-box; font-size: 16px; line-heig=
+ht: 26px; margin: 32px 0 0; width: 100%;"></div><div class=3D"post-cta" sty=
+le=3D"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D=
+"font-size: 16px; font-style: italic; line-height: 26px; margin: 24px 0 0; =
+margin-top: 0;"><span>If you liked this post from <a href=3D"https://substa=
+ck.com/redirect/16ebf80c-7df1-4563-b2b2-5324c991b960?r=3D9p0gt">Not Boring =
+by Packy McCormick</a>, why not share it?</span></p><p class=3D"cta-box" st=
+yle=3D"font-size: 16px; font-style: italic; line-height: 26px; margin: 24px=
+ 0 0; text-align: center;"><a role=3D"button" href=3D"https://substack.com/=
+redirect/ff69c3ad-0a1e-4acd-9a6e-c710b905ffdc?r=3D9p0gt" class=3D"button pr=
+imary twitter-link" style=3D"background-color: #67bdfc; border: 0px solid #=
+67bdfc; border-radius: 4px; border-width: 13px 20px 13px 18px; box-sizing: =
+content-box; color: #ffffff !important; cursor: pointer; display: inline-bl=
+ock; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, He=
+lvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol'; font-size: 17px; font-style: normal; font-weight: 300; height: 2=
+4px; line-height: 24px; margin: 0; opacity: 1; outline: none; padding: 0; t=
+ext-align: center; text-decoration: none !important; vertical-align: middle=
+; white-space: nowrap;"><span style=3D"color: #ffffff; text-decoration: non=
+e;">Share</span></a></p></div><div class=3D"footer hasMargin" style=3D"back=
+ground: #f5f5f5 !important; color: #808080; font-size: 16px; line-height: 2=
+6px; margin-top: 24px; padding: 24px; text-align: center;"><p class=3D"smal=
+l" style=3D"color: #808080; font-family: -apple-system, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22px; margi=
+n: 0; padding-bottom: 16px;">&#169; 2022 <span>Packy McCormick</span><br>10=
+ City Point, Brooklyn, NY 11201 <br><a href=3D"https://substack.com/redirec=
+t/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3R=
+va2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOell5TlRJME1qa3=
+NJbWxoZENJNk1UWTJORGd3TVRVME15d2laWGh3SWpveE5qWTNNemt6TlRRekxDSnBjM01pT2lKd=
+2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuOEZXZVpGM2cwbm9x=
+MVM1TVdYYjVxdklDQ1BOQ0Y4Q3dYQ2dXcnZMOERoayIsInAiOjc2MjUyNDI5LCJzIjoxMDAyNSw=
+iZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NDgwMTU0MywiZXhwIjoxNjY3MzkzNTQzLC=
+Jpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.XG5S_88XQNIG24j0qTVNbaNlCz=
+YftkcFxcTiNkSz948?" style=3D"color: #808080;"><span style=3D"color: #808080=
+; text-decoration: underline;">Unsubscribe</span></a></p><p class=3D"small =
+powered-by-substack" style=3D"color: #808080; font-family: -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-h=
+eight: 22px; margin: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https=
+://substack.com/redirect/bbbcfa68-90b6-4db1-bad3-163d18d1bef3?r=3D9p0gt" st=
+yle=3D"color: #808080; display: inline-block; margin: 8px 4px 0; text-decor=
+ation: none;"><img src=3D"https://substackcdn.com/image/fetch/w_260,c_limit=
+,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2=
+Femail%2Fapp-button%402x.png" srcset=3D"https://substackcdn.com/image/fetch=
+/w_130,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Fimg%2Femail%2Fapp-button.png, https://substackcdn.com/image/fetch/=
+w_260,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstac=
+k.com%2Fimg%2Femail%2Fapp-button%402x.png 2x, https://substackcdn.com/image=
+/fetch/w_390,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+substack.com%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"130" alt=3D"G=
+et the app" height=3D"40" style=3D"border: none !important; max-width: 550p=
+x; vertical-align: middle;"></a><a href=3D"https://substack.com/redirect/9d=
+270c1e-7f3d-46ba-80a6-d36362378ee7?r=3D9p0gt" style=3D"color: #808080; disp=
+lay: inline-block; margin: 8px 4px 0; text-decoration: none;"><img src=3D"h=
+ttps://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_prog=
+ressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402=
+x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2F=
+publish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_aut=
+o,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail=
+%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_=
+limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F=
+img%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writin=
+g" height=3D"40" style=3D"border: none !important; max-width: 550px; vertic=
+al-align: middle;"></a></p></div></div></td><td></td></tr></table><img src=
+=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIx=
+MDAzMTI1MjA5LjMuODhjMmQ4ODlhMTIwYmE2ZUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTY=
+yODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb2=
+0iLCJwIjo3NjI1MjQyOSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyN=
+SwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY2NDgwMTU0=
+NCwiZXhwIjoxNjY3MzkzNTQ0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.jEHz61tYVVsZxRV=
+IZ5VQqgbBvA-y9CZn8fj8lKsglEE" alt=3D"" width=3D"1" height=3D"1" border=3D"0=
+" style=3D"height:1px !important;width:1px !important;border-width:0 !impor=
+tant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !imp=
+ortant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !=
+important;padding-right:0 !important;padding-left:0 !important;"/><img widt=
+h=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg-d1.substack.com/o=
+/eJxFkEuOwyAQRE8z7MaCtiGw4CyIT8dBsSHC7Yx8-8GxNLNr9adedUVPONd22FfdiOHq8-JmLN=
+h6PzlPVig1aS7kNN2EZMmOJnAdFcubuzf8HFhqO7LXHpYcPeVaXE5WcA6SPawyiHiXdzMaEVQE0=
+Aq0NgqSMmNMip1g5_eUsUS0-MZ21IIs1nXFQqfUtdKLmwIJExiWLXCAjhhF73AzjIPWEVIX9gJ4=
+8Aq_Jr7O30kM2x428vE5dEXWbKkUastl7gvPh19x-Qy6e3ci95LpcFh8WDBdj9GVzb5h-zzW_Y9=
+yMpcrOl5oC_5sCxJhY52Wag-l_IMY_oUo-S9QF3p3"></body></html>
+--118bb1dca9814ded3df071956a2845b0853d4ab011ad15389f5772914a50--

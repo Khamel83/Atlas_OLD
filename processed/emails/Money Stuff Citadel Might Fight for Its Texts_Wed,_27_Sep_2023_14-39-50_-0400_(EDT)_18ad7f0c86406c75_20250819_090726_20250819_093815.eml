@@ -1,0 +1,1995 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:611e:b0:13e:ba3b:de11 with SMTP id 30csp2450781rws;
+        Wed, 27 Sep 2023 11:39:56 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEPjrZKUcp4/rBT5mCRgU0q8xHaY2URrAvfE8WLFo7/we9v/usrYty3Yun/iT3qqcJhwXzD
+X-Received: by 2002:a19:c219:0:b0:503:2683:ec7b with SMTP id l25-20020a19c219000000b005032683ec7bmr2424379lfc.33.1695839995963;
+        Wed, 27 Sep 2023 11:39:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1695839995; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=T+DB/VM1JHQABun1qDwom34Le3qLhOHAotu5U+B/z6LzdCc3B0HqYYQQUTf0K59Kym
+         NZHSC3+IXPm8+PnPid12WIoUGxY+uhJ0RpIv7qxUm8XrAEcrxrwGkJZWCb7ZdDE5rJzK
+         YZzfnvbu9k7dPQth4HoTJry4kUVtjwIbmItLoqrT3NumLyUmnvzLYjC8pV4QqHp2G22Q
+         us+X49Vu+G8jM5l53GvZlAaKiJ0rkz4jUXejGhj/kadecpYBU0cctAFVVKp094G21mFF
+         sEPQ5N7WnOBaa2w/dP5Chkada34idT1Q6LWjwWvjFlec1j+timCVAY694nSDe9k+mfSR
+         xosw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=+PVIlMsY6rjOr3xFTMJkzd9Tj7eHUICNjVi90gd7ntI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=tWGnr8k9ZcttDxl5h16sMUYGPoxP2cNkNAT3vRa81Sqpg8ariWO7o6MvjS1cqnlaOM
+         M7gXZWQnMr7OtaDIwbWDMrnBvDmpeu9v3yFBljI69/FLC3Q3oKU7NGdIOnHb0hX8lYxB
+         lyjE94iaiGp3qDtlco9TjByB3PZb9Ye9bQPmY+CDQIhlDCUyLex54dyJZbBWBVcwltb0
+         PrBG/1bNiW129+6802E2V6Qhwv2wr0WvO9VvWE9VK8xh2qfJBmUPFOga+T5cftKhN9Gy
+         /bb9X0EoXvuUJS7Tatc8ULbnlSuDpS92GBWD5n3WQ5XlxyPCRLEiekHOZ35y1e1nint5
+         cTNg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y5XvZ0x+;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 2a00:1450:4864:20::32e as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-wm1-x32e.google.com (mail-wm1-x32e.google.com. [2a00:1450:4864:20::32e])
+        by mx.google.com with ESMTPS id s2-20020aa7c542000000b005307ccabbe3si13438650edr.646.2023.09.27.11.39.55
+        for <zoheri@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 27 Sep 2023 11:39:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 2a00:1450:4864:20::32e as permitted sender) client-ip=2a00:1450:4864:20::32e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y5XvZ0x+;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 2a00:1450:4864:20::32e as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Received: by mail-wm1-x32e.google.com with SMTP id 5b1f17b1804b1-405497850dbso98362415e9.0
+        for <zoheri@gmail.com>; Wed, 27 Sep 2023 11:39:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695839995; x=1696444795;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+PVIlMsY6rjOr3xFTMJkzd9Tj7eHUICNjVi90gd7ntI=;
+        b=s/s4aiFU0iiZCyUjZCu6kTO/GRfkv3FMzUiSFGoggR7zI3B3b4/xdkuHLpNCPgAVgz
+         Tu5hXO9EyxHIjzRetMykRiXX7qLv14DSLQsu5pvgGcD98ZtVilrF2moPF6gfpIW3klcz
+         /06LNrK70qeccHTGIh9SE6Y9QO4kKn8ycoynlTawm7m8tuKtvBwQt5JnJx2OuAJl4fUi
+         AV15P/3j5QUPVfWI7mNcdyLyYOH2vsbERIvzqll7PJ3gNm+t7ZRYoN2wxUcIvcN/FSGC
+         x4rObfbrrzvI2R3923SqiSVr6vQI3Ucg55xID9Y/jaXE3NwgMOaI4oBlyg69T9MbVD+N
+         WAPg==
+X-Gm-Message-State: AOJu0YwaEMvZs39lNed1c/ntUTM1kBrRqBLnjgQbMBs28lLxR5MHm16O
+	FMlLgC1pFxcu8A8xjETVUVQTCU0XbidmCpEIbbweq/uFj5L+mxSEQQ==
+X-Received: by 2002:a7b:cd99:0:b0:405:499a:7fc1 with SMTP id y25-20020a7bcd99000000b00405499a7fc1mr2769179wmj.40.1695839995252;
+        Wed, 27 Sep 2023 11:39:55 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1e90:b0:323:3a1d:ee52 with SMTP id dd16csp861329wrb;
+        Wed, 27 Sep 2023 11:39:51 -0700 (PDT)
+X-Received: by 2002:a25:b312:0:b0:d09:34f4:6698 with SMTP id l18-20020a25b312000000b00d0934f46698mr3162993ybj.36.1695839991506;
+        Wed, 27 Sep 2023 11:39:51 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1695839991; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QxppuSo+dL+EvHm+6Tml7xlyMS4A8a0RyYMGZLZXULlnNQA+hl63CWlxBmPMthAMxM
+         RgtZGBYoOH293X9IQi8XrRIxH5PIQgeUi+MPbIPUDnjChgJ46z5sSLLIyoosYWUHtbUH
+         5/UgNWs2s5JhgEEGo9SCNlAHP+azmtKeTJouaXahfpH1pk5vHkL2iTLzFpF2Rm2wibi7
+         pqBKTHGDbi3GbDMYkbBeZeZrTrWopw/Y0weCDmTw7xH9uzw9pY8KOlaTI3Qvc4GXyxYg
+         N6QvQS+X5uvZ7tx+w6hQYXH7tuZ2q/YU7aPT4QuLi9n1f7rjdDSDXolVce8VXt8q5OqI
+         CkwQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+PVIlMsY6rjOr3xFTMJkzd9Tj7eHUICNjVi90gd7ntI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=QKah8Un0X9LGfITnq3rpJdRbULYdWijUq6R0AJ3WYQ+1pzqhqN8UaIqkkpc7cdKZfD
+         08wUta64Srud1aoanfhJx4pjy7en0ywu4fHV4S6B7osc63R5suzmIoZJIFOZXJu1WJlV
+         6DwEPW4r0U/jMRILHU3bspd/KyDDZx0990lqjBfjHpZNJLLAbnwE0oue8/Nuni8vyekH
+         FEixfC6xjDNEUFyPUgRXUiy7Vr6Qt5OeiuFfyiC+ZSn/5lPB8YOjMfrXKKalXFxWuBwz
+         RsLL5r8dHhkXVaXwFbNi+n2fEs4B0Fvh9G2y0NAEY79SyqsDbbzwpRfXBUiIr8pXsszn
+         +I3w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y5XvZ0x+;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230927143950.32851551.261423@mx.sailthru.com does not designate 2607:f8b0:4864:20::b2b as permitted sender) smtp.mailfrom=delivery_20230927143950.32851551.261423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230927143950.32851551.261423@mx.sailthru.com>
+Received: from mail-yb1-xb2b.google.com (mail-yb1-xb2b.google.com. [2607:f8b0:4864:20::b2b])
+        by mx.google.com with ESMTPS id s10-20020a056902120a00b00d7bb59bf37dsi6847067ybu.427.2023.09.27.11.39.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 27 Sep 2023 11:39:51 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230927143950.32851551.261423@mx.sailthru.com does not designate 2607:f8b0:4864:20::b2b as permitted sender) client-ip=2607:f8b0:4864:20::b2b;
+Received: by mail-yb1-xb2b.google.com with SMTP id 3f1490d57ef6-d865854ef96so10708143276.2
+        for <khamel83@gmail.com>; Wed, 27 Sep 2023 11:39:51 -0700 (PDT)
+X-Received: by 2002:a25:214:0:b0:d78:5d61:ddee with SMTP id 20-20020a250214000000b00d785d61ddeemr2827393ybc.30.1695839991112;
+        Wed, 27 Sep 2023 11:39:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1695839991; cv=none;
+        d=google.com; s=arc-20160816;
+        b=aldUL1cOCln3/Hid6XvTj70Wbfv3T1DaNlr2lXrhG7gFV/wC+zb8Q35fKct8y2dMRK
+         LeRbM15tsjecEhyPEJPWsMCTpu12wNCGniAdRBRZTIq009BfdB/zVtAyqf1PIwlzzPQd
+         UIR9xM6kq75GBxX06duaxTNy+KqO8r1/rdlGB3VtWv3rWdoNPdZXJ76BSjoiv13xJkLI
+         G7qgeuxaOYlHceeRrGybjeAz6PTQA6AHtwChoF26K/Z1lLzRhWcW48HzjpNU3Hek3OBB
+         vfrO39E5oVdKdXN057guneQdErN+dCBu/ff1knKI5dX4n8Beq536lz8ED1m0qp0EdMoU
+         dBzQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+PVIlMsY6rjOr3xFTMJkzd9Tj7eHUICNjVi90gd7ntI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=f7THMCY3y/EhB2XAEOvGrMiHhdrvu+ha3MDBvRZPPURX0oJB3RaWJqCZHxz+kZbzH8
+         Zuf6hxMZbq55QlLYba0XGTz+tlAKmoLb9pU1Pv+Q0VKCTfs+UU7n2bITo3J5KhTgRIy9
+         X+xftSDvPXtkWmAsb7tO66iWKIj8rmDuXCQ/dwuH+M05fYN2P8cXLZICJpdUyAMPW/vw
+         4xVZ4hvyk7C9xWJ50zMjM8sxDjUtboAvaVXdtRYMsS/uaHTUlDrSWaDSLzBN2MoFMfg2
+         H0Hms8qLtOU5gISzWMFRV2AVfpajiUybJxaoGXvBbCH2Lh0JoQjxg+Nz8gXQPIqj8uYR
+         1lyA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y5XvZ0x+;
+       spf=pass (google.com: domain of delivery_20230927143950.32851551.261423@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230927143950.32851551.261423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230927143950.32851551.261423@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id p62-20020a25d841000000b00d866d666ad6si935541ybg.0.2023.09.27.11.39.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 27 Sep 2023 11:39:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230927143950.32851551.261423@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=1GvTREhd9eLIUH+ri6+9bIApCz31v5LiUPK7wGY01I0=;
+ b=Y5XvZ0x+ko0KrFvZdQDTbB/ymHuP+CuRvaN97bPH4xjQs358ZKujajxniJNxgzAj5fzo62DnLnmG
+   tGsVCqBpj8brzbQTQRuQRU/fLnjtQTJU7S3CnFUqtHIzekR/cdDYOW6XYnjUqfMYDdLY6CSxQ15F
+   FaQOfctOFgmNFbeND+o=
+Received: from aws1-mta-relay6.sailthru.cloud (10.55.61.156) by pmta29.sailthru.com id h2hrfc2sd4sh for <bloomberg@khamel.com>; Wed, 27 Sep 2023 13:39:50 -0500 (envelope-from <delivery_20230927143950.32851551.261423@mx.sailthru.com>)
+Date: Wed, 27 Sep 2023 14:39:50 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230927143950.32851551.261423@sailthru.com>
+Subject: Money Stuff: Citadel Might Fight for Its Texts
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_24442143_2065777381.1695839990639"
+Precedence: bulk
+x-job: 6358-32851551-20230927
+X-Feedback-ID: 6358:32851551:campaign:sailthru
+X-TM-ID: 20230927143950.32851551.261423
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-72-7.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjk4f3.5lpr/7c09b062
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjk4f3.5lpr/7c09b062>, <mailto:unsubscribe_20230927143950.32851551.261423@mx.sailthru.com>
+X-rpcampaign: stjko32851551
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_24442143_2065777381.1695839990639
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The US Securities and Exchange Commission has a rule that, if you w=
+ork in the financial industry, you are only allowed to communicate about=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Citadel cell phones
+   =20
+ =20
+
+The US Securities and Exchange Commission has a rule that, if you work in t=
+he financial industry, you are only allowed to communicate=C2=A0about work =
+with your colleagues and customers using systems =E2=80=94=C2=A0like your f=
+irm email account or=C2=A0Bloomberg messaging =E2=80=94 that your firm can =
+archive and review. You are not allowed to use WhatsApp or Signal or iMessa=
+ge or text messaging from your personal phone. Financial industry employees=
+ have to =E2=80=9Cconduct their communications about business matters withi=
+n only official channels, and they must maintain and preserve those communi=
+cations,=E2=80=9D as SEC Chair Gary Gensler put it last year, when he fined=
+ 15=C2=A0banks a total of $1.1 billion for using WhatsApp.
+This is a weird rule that the SEC has. For one thing, it is obviously not t=
+he rule. Gensler=C2=A0cannot possibly have meant=C2=A0that investment banke=
+rs and traders are only allowed to communicate about business using corpora=
+te email and Bloomberg messages and recorded phone lines; he is=C2=A0surely=
+=C2=A0aware that sometimes a banker will turn to the colleague sitting next=
+ to her and say, aloud, =E2=80=9Chey did you finish that pitch deck yet,=E2=
+=80=9D and that she will sometimes fly out to meet with a client in a confe=
+rence room (or on a golf course) and talk business face to face. Plenty of =
+business communication still occurs informally, in person, and it can=E2=80=
+=99t=C2=A0be preserved until you get every employee into augmented reality =
+goggles that record everything.
+For another thing, this rule =E2=80=94=C2=A0that you have to do business co=
+mmunications only on official channels =E2=80=94=C2=A0is a somewhat new int=
+erpretation of the SEC=E2=80=99s=C2=A0actual written rules=C2=A0say. When a=
+ll those banks got in trouble last year, they got in trouble for violating =
+SEC Rule 17-4(b)(4), which requires broker-dealers to =E2=80=9Cpreserve for=
+ a period of not less than three years =E2=80=A6=C2=A0originals of all comm=
+unications received and copies of all communications sent (and any approval=
+s thereof) by the member, broker or dealer (including inter-office memorand=
+a and communications) relating to its business as such.=E2=80=9D I have  po=
+inted out before that this rule was written in 1948, when =E2=80=9Cinter-of=
+fice memoranda=E2=80=9D were a thing, and when it made sense to talk about =
+keeping =E2=80=9Coriginals=E2=80=9D and =E2=80=9Ccopies=E2=80=9D of communi=
+cations because they were written on typewriters with carbon paper.
+This record-keeping requirement was originally meant to apply to fairly=C2=
+=A0formal=C2=A0written communications, because it was written=C2=A0back whe=
+n written communications were necessarily formal. But now that everyone tex=
+ts all the time, the requirement has become=C2=A0vastly broader:=C2=A0Every=
+thing that would have been an informal face-to-face chat in 1948 is a text =
+message now, and so is swept up in the SEC=E2=80=99s interpretation of its =
+rule. It doesn=E2=80=99t seem like quite what the rule meant.
+But you can see why the SEC loves its current rule, Gensler=E2=80=99s rule,=
+ the one about all communications being on preserved official channels. The=
+re are two reasons:
+=09This rule is really good for regulation and enforcement. If all business=
+ communications have to occur on official channels and be preserved, then t=
+he SEC will have an easy time investigating misbehavior: If it has any susp=
+icions about anything, it can call a firm and say =E2=80=9Cgive me all the=
+=C2=A0messages that Employee X sent about Topic Y last year,=E2=80=9D and t=
+he firm will run a search and hand over the messages. It can call=C2=A0ever=
+y=C2=A0firm and ask them that. The firms themselves will do it voluntarily:=
+ Their compliance people will constantly run searches on their internal mes=
+sages, looking for keywords like =E2=80=9Cfraud=E2=80=9D or whatever, and t=
+hen hand anything bad over to the SEC. There are not a lot of areas where e=
+very crime is meticulously documented in written electronic messages that a=
+re preserved and handed over to regulators. Obviously the coverage is not p=
+erfect, and there will still be golf courses and in-person meetings, but I =
+suppose in the long run technology (goggles, etc.)=C2=A0might stamp those o=
+ut too and the SEC will achieve a perfect panopticon.=09This rule is=C2=A0n=
+ew, so it is=C2=A0lucrative. Financial firms and their employees=C2=A0reall=
+y did not know=C2=A0about the SEC rule that nobody could use WhatsApp to me=
+ssage their colleagues, because, again, that=E2=80=99s a somewhat=C2=A0nove=
+l interpretation of the actual rules. And so when the SEC decided, in about=
+=C2=A02021 =E2=80=94=C2=A0when everyone was working from home due to Covid =
+and sending lots of text messages =E2=80=94 that texting about work was ill=
+egal, every single bank was doing illegal things. And so the SEC could just=
+ kind of go down the line and extract a $125 million fine from each of them=
+. It didn=E2=80=99t have to prove any=C2=A0bad=C2=A0behavior: It got sample=
+s of the bankers=E2=80=99=C2=A0text and WhatsApp messages and, as far as I =
+can tell, never found a single text message relating to any sort of miscond=
+uct. It just had to prove that there were text messages about business and,=
+ boom, $125 million. =E2=80=9CIt is not literally the case that the US Secu=
+rities and Exchange Commission is a for-profit business whose goal is to ma=
+ximize its revenue,=E2=80=9D  I once wrote, about this business, but, man. =
+This is a profitable business.
+
+The SEC extracted all of those fines through settlements with the banks. I =
+suppose the banks could say =E2=80=9Cno, see you in court,=E2=80=9D but I d=
+on=E2=80=99t think any have. The SEC=E2=80=99s interpretation of the rule i=
+s aggressive, but it=E2=80=99s logical, and it is pretty risky for the bank=
+s to fight the SEC on this.
+Anyway this rule is so good that, after fining the banks $125 million each =
+for violating it, the SEC has moved on to other financial firms. It has lon=
+g  been reported that hedge funds, private equity firms and other investmen=
+t managers  are next: There are a lot of them, they have deep pockets, sure=
+ly they=E2=80=99ve sent some text messages. It would be good, for the SEC, =
+to extract money out of them, and it would be good to=C2=A0apply=C2=A0Gensl=
+er=E2=80=99s rule to them going forward, so that if they do any crimes in t=
+he future they will have meticulous records of those crimes to hand over to=
+ the SEC.
+There is a bit of a problem with moving on to investment managers, which is=
+ that Rule 17-4(b)(4) =E2=80=94=C2=A0the rule that=C2=A0requires broker-dea=
+lers to preserve their communications, and that the SEC uses as the basis f=
+or its =E2=80=9Conly official channels=E2=80=9D rule =E2=80=94=C2=A0does no=
+t apply to investment managers. Investment managers=C2=A0do=C2=A0have a com=
+munications-preservation rule, Rule 204-2(a)(7), but it is narrower, coveri=
+ng external communications about specific topics (investment recommendation=
+s and advice, trade orders, etc.), not the manager=E2=80=99s =E2=80=9Cbusin=
+ess as such.=E2=80=9D In January a bunch of asset-management=C2=A0trade ass=
+ociations sent a letter to the SEC arguing =E2=80=9Cthat the SEC is attempt=
+ing to exceed its authority under the Advisers Act andengaging in rulemakin=
+g by enforcement through its current sweep regarding off-channel communicat=
+ions,=E2=80=9D and that Rule 204-2(a)(7) does not cover the sort of intra-d=
+esk text messaging that the SEC has been going after at the banks.
+Still I basically assume that the SEC will just go down the line extracting=
+ flat but lower-than-$125-million fines from all the hedge funds, private e=
+quity firms, etc. But maybe not? Bloomberg=E2=80=99s  Austin Weinstein repo=
+rts:
+
+Citadel is preparing to push back against the Securities and Exchange Commi=
+ssion=E2=80=99s WhatsApp probe, taking a harder line than the almost two do=
+zen banks that have paid hefty settlements over the past two years.
+Ken Griffin=E2=80=99s hedge fund has told industry peers that it plans to b=
+attle the SEC if the regulator moves against Citadel, according to people f=
+amiliar with the talks. And it=E2=80=99s willing to take the agency to cour=
+t, said the people, who asked not to be identified discussing private conve=
+rsations.
+The Miami-based firm would be the first to fight the SEC over any allegatio=
+ns of untracked communications. As a hedge fund, it would likely argue that=
+ it=E2=80=99s not subject to the same rules as Wall Street banks like JPMor=
+gan Chase & Co. and Bank of America Corp., which agreed to pay more than $2=
+.5 billion to settle US regulators=E2=80=99 investigations into their emplo=
+yees using unofficial messaging platforms for business.
+
+Sure, good for them.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Sculptor
+   =20
+ =20
+
+The schematic math of the Sculptor Capital Management Inc. situation is:
+=09Sculptor is a publicly traded asset manager with about $30 billion of as=
+sets under management, roughly half=C2=A0in collateralized loan obligations=
+ and the rest in hedge fund and real estate strategies.=09Those $30 billion=
+ of client assets pay Sculptor fees of more than $400=C2=A0million per year=
+.=09Of those fees, more than $300 million per year goes to Sculptor=E2=80=
+=99s employees, with much of it concentrated among the senior people=C2=A0m=
+anaging its funds. Its chief executive officer and chief investment officer=
+, Jimmy Levin, made $49 million in 2022 and $146 million in 2021.
+  [1]
+
+=09A bit less than $0 per year goes to Sculptor=E2=80=99s shareholders: The=
+ firm reported net losses in each of the last two years.=09Being a Sculptor=
+ hedge fund manager is quite lucrative, but=C2=A0being a Sculptor sharehold=
+er is not particularly.=09This is not a weird anomaly! Being a hedge fund m=
+anager is lucrative, and Sculptor is a hedge fund management firm that empl=
+oys hedge fund managers. Most hedge fund management firms are privately hel=
+d, and roughly all of the money goes to the managers. To compete for talent=
+, Sculptor also pays roughly all of its money to its managers. The sharehol=
+ders get squeezed. Jimmy Levin did not invent this or anything. Dan Och, Sc=
+ulptor=E2=80=99s founder and former CEO/CIO, =E2=80=9Ctook home $3.3 billio=
+n since 2007 as Sculptor=E2=80=99s stock price tanked by 96%.=E2=80=9D That=
+=E2=80=99s just how it works!=09The result is that Sculptor=E2=80=99s stock=
+ price is fairly cheap, since the cash flows to shareholders are a bit less=
+ than zero.=09But if you buy=C2=A0all=C2=A0of Sculptor, you can make=C2=A0y=
+ourself=C2=A0the CEO, and pay yourself all the fees.
+
+As I  wrote last month:
+If you have a public company where most of the cash flows go, not to the sh=
+areholders, but to the CEO, then it is cheap to become a shareholder and lu=
+crative to become the CEO. But if you buy enough shares you can make yourse=
+lf the CEO. There is an arbitrage.
+I kind of don=E2=80=99t understand why more hedge fund managers are not bid=
+ding to buy Sculptor. But a bunch of them are, in a consortium led by Boaz =
+Weinstein, and Bloomberg=E2=80=99s Katherine Burton and Hema Parmar  report=
+ed yesterday:
+
+Boaz Weinstein made his name trading in esoteric corners of the credit mark=
+ets. But his most audacious bet yet may be trying to catapult his hedge fun=
+d firm into the ranks of the industry=E2=80=99s largest players.
+To do that, the 50-year-old head of Saba Capital Management is attempting t=
+o buy his way to the top. He=E2=80=99s bidding =E2=80=94 with a group of bi=
+llionaire pals including Bill Ackman, Marc Lasry and Jeff Yass =E2=80=94 fo=
+r Sculptor Capital Management Inc., a beleaguered publicly traded money man=
+ager he aims to subsume into his $4 billion firm.
+Weinstein=E2=80=99s assets under management could balloon to more than $20 =
+billion if he wins Sculptor, requiring only a $700 million investment backe=
+d by deep-pocketed friends. While Weinstein=E2=80=99s group made the highes=
+t bid, it was rejected for a lower one from Rithm Capital Corp. Sculptor, w=
+hich said Rithm=E2=80=99s offer was more certain, won=E2=80=99t let Weinste=
+in speak directly to investors or stockholders. =E2=80=A6
+Like the chess master he is, Weinstein saw a way to exploit weak competitio=
+n and build his empire. Saba=E2=80=99s main fund is slightly niche =E2=80=
+=93 short bonds, long volatility =E2=80=94 and while he=E2=80=99s added som=
+e other strategies, growing assets is a slow game.
+So when Sculptor put itself on the block late last year, Weinstein assemble=
+d his all-star team and made a bid. In July, Sculptor picked Rithm =E2=80=
+=94 a firm that started out in mortgage servicing rights =E2=80=94 which ag=
+reed to pay $11.15 a share, or $639 million. Sculptor rejected Weinstein=E2=
+=80=99s higher bid, which now stands at $12.76. =E2=80=A6
+Under Weinstein=E2=80=99s plan, Sculptor would be run as its own brand with=
+in Saba. With the current CIO in a lesser role, or even gone, Weinstein cou=
+ld use the extra money =E2=80=93 Levin was paid $145 million in 2021 =E2=80=
+=94 to help retain strategy heads and others among its 100 investment profe=
+ssionals.
+
+You do have to pay most of the money to the managers.=C2=A0Burton also  rep=
+orted last week:
+
+Boaz Weinstein would offer Sculptor Capital Management Inc. clients the cha=
+nce to join his investment in the money manager under the same terms as his=
+ billionaire backers, according to people familiar with the plan.
+The Saba Capital Management founder and his co-investors view the plan as a=
+ sweetener for clients, who must give their approval in order for Weinstein=
+=E2=80=99s bid for Sculptor to go through.
+
+It=E2=80=99s an odd sweetener? The reason that Sculptor=E2=80=99s board has=
+ given for preferring Rithm is that Rithm would keep Levin, and it thinks t=
+hat Sculptor=E2=80=99s clients would prefer to have Levin manage their mone=
+y rather than Weinstein. (Since, after all, they are=C2=A0still clients of =
+Sculptor, which Levin runs, and they are not currently=C2=A0clients of Saba=
+, which Weinstein runs.) We have  talked about this situation a lot; Sculpt=
+or=E2=80=99s reasoning strikes me as plausible but weirdly uncertain. (Why =
+not ask the clients?) By offering the clients a sweetener, Weinstein is try=
+ing to reassure the board that the clients will consent to him taking over.
+But why would the clients want to own the firm? I feel like the lesson of S=
+culptor is:
+=09A well-run hedge fund probably makes money for its clients. (Though Scul=
+ptor=E2=80=99s =E2=80=9Cmain fund has annualized at about 6% since 2018, an=
+d its returns more closely track the S&P 500 than other multi-strategy firm=
+s,=E2=80=9D report Burton and Parmar.)=09It definitely makes money for its=
+=C2=A0managers.=09The=C2=A0shareholders of the management company, not nece=
+ssarily?
+
+You have to make money for the clients, you have to pay the investment mana=
+gers, and the shareholders just get what=E2=80=99s left over. It makes tota=
+l sense for Weinstein to want to=C2=A0buy and run=C2=A0Sculptor; it makes a=
+ bit less sense for anyone else to want to=C2=A0help him buy it=C2=A0as an =
+outside=C2=A0passive investor. Though I guess Ackman, Lasry and Yass are in=
+, which is an endorsement of the idea. Presumably they have to get paid too=
+.
+
+ =20
+   =20
+      Binance
+   =20
+ =20
+
+Two key=20
+questions in crypto regulation are:
+=09Will US regulators (and particularly the SEC) remain as hostile to crypt=
+o as they are right now, or will the US become more crypto-friendly through=
+ some combination of congressional legislation, court rulings that go again=
+st the SEC, personnel changes at regulators, etc.?=09If the US=C2=A0does=C2=
+=A0remain super hostile to crypto, will that be bad for crypto=C2=A0globall=
+y, or will it just mean that crypto becomes a non-US thing? In general, US =
+regulators and prosecutors are very=C2=A0good at using the power of the US =
+government and the reach of the dollar system to impose US decisions on glo=
+bal finance. If you are a   French bank providing financing to a Cuban comp=
+any, and the US doesn=E2=80=99t like that, it will stop you. But crypto is =
+different! Crypto is anonymous and borderless and irreversible and censorsh=
+ip-resistant; if the US decides to ban crypto then it can maybe (maybe) cut=
+ US citizens off from the joys of crypto, but it can=E2=80=99t interfere wi=
+th crypto=E2=80=99s global growth. Or that is an idea anyway.
+
+This year US   regulators have brought   cases against Binance, the world=
+=E2=80=99s biggest crypto exchange. When the SEC sued Binance,   I wrote th=
+at Binance=E2=80=99s somewhat cynical attitude=C2=A0to US regulation seemed=
+ smart:
+Binance noticed that it's illegal to run a crypto exchange in the US, and d=
+id it anyway, but minimized and compartmentalized its US exposure: It has r=
+elatively few US customers and seems to keep most of its business out of th=
+e US.
+Well. You can keep your business out of the US, but you can=E2=80=99t keep =
+the US out of your business. Today the Wall Street Journal has a report on =
+how things are going at Binance. =E2=80=9CThe World=E2=80=99s Biggest Crypt=
+o Firm Is Melting Down,=E2=80=9D is the headline:
+
+Under threat of enforcement actions by U.S. agencies, Binance=E2=80=99s emp=
+ire is quaking. Over the past three months, more than a dozen senior execut=
+ives have left, and the exchange has laid off at least 1,500 employees this=
+ year to cut costs and prepare for a decline in business. And while Binance=
+ still looms large in crypto, its dominance is dwindling.=C2=A0
+Binance now handles about half of all trades where cryptocurrencies are dir=
+ectly bought and sold, down from about 70% at the start of the year, accord=
+ing to data provider Kaiko. =E2=80=A6
+Yi He, Binance=E2=80=99s co-founder and chief marketing officer, vowed to o=
+vercome the troubles in a message to Binance staff last month.
+=E2=80=9CEvery battle is a do-or-die situation, and the only thing that can=
+ defeat us is ourselves,=E2=80=9D she wrote in the message viewed by the Jo=
+urnal. =E2=80=9CWe have won countless times, and we need to win this time a=
+s well.=E2=80=9D =E2=80=A6
+=E2=80=9CYou just can=E2=80=99t quantify what would happen to the industry =
+if Binance disappeared, given it has been responsible for fostering a huge =
+amount of innovation and growth,=E2=80=9D said Anthony Georgiades, a genera=
+l partner at Innovating Capital, a fund that invests in early-growth compan=
+ies. =E2=80=A6
+Pressure from the DOJ was partly responsible for [Binance co-founder Changp=
+eng] Zhao=E2=80=99s decision to begin winding down Binance=E2=80=99s busine=
+ss in Russia, once one of its most important markets, the person said. Over=
+ the following two weeks, Binance barred customers from using the sanctione=
+d banks and forced out the executives managing its Russia business. It said=
+ it was considering a full withdrawal from Russia.
+
+Can US regulators ban crypto trading in Russia? No? But, also, kind of?
+
+ =20
+   =20
+      Late 13D filings
+   =20
+ =20
+
+Huh:
+
+The Securities and Exchange Commission today announced charges against six =
+officers, directors, and major shareholders of public companies for failing=
+ to timely report information about their holdings and transactions in comp=
+any stock. Five publicly-traded companies were also charged for contributin=
+g to the filing failures by insiders or failing to report their insiders=E2=
+=80=99 filing delinquencies.
+The charges stem from an SEC enforcement initiative focused on Form 4 and S=
+chedules 13D and 13G reports that company insiders are required to file reg=
+arding their holdings of company stock. Form 4 is a report that corporate o=
+fficers, directors, and certain beneficial owners of more than 10 percent o=
+f a registered class of a company=E2=80=99s stock must use to report their =
+transactions in company stock within two business days. Schedules 13D and 1=
+3G are reports that beneficial owners of more than 5 percent of a registere=
+d class of a company=E2=80=99s stock must use to report their holdings and =
+intentions with respect to the company. These ownership reports give invest=
+ors and other market participants the opportunity to evaluate whether the h=
+oldings and transactions of company insiders could be indicative of the com=
+pany=E2=80=99s future prospects. SEC enforcement staff used data analytics =
+to identify the charged insiders as repeatedly filing these reports late. S=
+ome filings were delayed by weeks, months, or even years. The reporting req=
+uirements apply irrespective of whether the trades were profitable and rega=
+rdless of a person=E2=80=99s reasons for the transactions.
+=E2=80=9CTimely disclosure of insider transactions is critically important =
+to both investors and the fair, orderly and efficient operation of our secu=
+rities markets. According to today=E2=80=99s orders, the insiders and compa=
+nies charged in these matters in the aggregate deprived investors of timely=
+ information about over $90 million in transactions,=E2=80=9D said Gurbir S=
+. Grewal, Director of the SEC=E2=80=99s Director of Enforcement. =E2=80=9CT=
+hese enforcement actions also make clear that we will not hesitate to charg=
+e companies for causing their insiders=E2=80=99 disclosure violations where=
+ the companies took on the responsibility for making relevant filings for t=
+heir insiders, and then acted negligently.=E2=80=9D
+
+How about that! There=E2=80=99s a list of names. Do you know who is not on =
+it? Last year, Elon Musk  bought $2.6 billion worth of stock in Twitter Inc=
+., as the first step in ultimately buying the company. This triggered a req=
+uirement that he file a disclosure form, which he did 11 days late, buying =
+more stock in the meantime. When he=C2=A0did=C2=A0file the form,=C2=A0the s=
+tock went up a lot, because the market correctly assumed it meant he would =
+buy the rest of Twitter. By waiting to disclose his purchases until he was =
+done, Musk personally  saved about $143 million.=C2=A0And today the SEC bro=
+ught cases against six other people for late filings on transactions that t=
+otaled $90 million. Okay!=C2=A0
+At this point I should=C2=A0submit a whistleblower claim.
+  [2]
+=C2=A0I suppose Musk did not=C2=A0repeatedly=C2=A0file disclosure forms lat=
+e, but on the other hand he definitely repeatedly violates SEC disclosure r=
+ules. I get why they would not want to bother enforcing the securities laws=
+ against him. He=E2=80=99s very annoying! And yet that is kind of the job.
+
+ =20
+   =20
+      Volcano bond
+   =20
+ =20
+
+Back in 2021, the government of El Salvador hit on what  I thought was a  p=
+retty good  idea, for 2021:
+=09Issue a sovereign bond worth $50.=09Buy $25 worth of Bitcoin.=09Staple t=
+hem together and sell=C2=A0the package =E2=80=94=C2=A0$50 of bond and $25 o=
+f Bitcoin =E2=80=94=C2=A0for $100.=09On the blockchain! You could do stuff =
+like that, if you did it on the blockchain.=09Use some of the money to buy =
+the Bitcoins that go into the package, some to buy more=C2=A0Bitcoins to ga=
+mble with El Salvador=E2=80=99s public treasury, and the rest to fund infra=
+structure projects.=09Also there was a volcano involved? The volcano would =
+generate energy to mine Bitcoins? Why not.
+
+Man, crypto in 2021 was just wild. For one thing, people would make stuff u=
+p =E2=80=94=C2=A0new cryptocurrencies, new JPEGs =E2=80=94=C2=A0and sell th=
+em for millions of dollars. But also, like,=C2=A0math=C2=A0became kind of w=
+oozy, and you could take a crypto thing with a market value of $75 and wave=
+ your hands around for a bit and sell it=C2=A0for $100. There were perpetua=
+l motion machines everywhere.
+Or not. El Salvador tried it, but they never actually sold the bonds, and n=
+ow it is 2023 and Frank Muci reports:
+
+The proposal to tokenize a sovereign bond on a blockchain is now officially=
+ dead. This summer, Forbes contributor and Tether/Bitfinex spokesperson Jav=
+ier Bastardo wrote that El Salvador will =E2=80=9Ctweak the investment sche=
+me from issuing public debt [the volcano bond] to private equity funding ro=
+unds by the Volcano Energy initiative [a joint venture with the government,=
+ private firms and crypto companies]=E2=80=9D.=C2=A0
+In other words, some joint venture will raise equity to fund wind and solar=
+ energy capacity, but there won=E2=80=99t be debt or a bond. There won=E2=
+=80=99t be geothermal energy from the volcano as originally advertised eith=
+er, oh well. This post is an obituary, a requiem for the volcano bond and t=
+he insanity that was crypto just two years ago.=C2=A0
+
+It is a little hard to believe that any of this was real, and of course in =
+an important sense it wasn=E2=80=99t.=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+OpenAI Seeks New Valuation of Up to $90 Billion in Sale of Existing Shares.=
+ UK regulator to launch review of private market valuations. China Puts   E=
+vergrande=E2=80=99s Billionaire Founder Under Police Control.  Rising Loan =
+Costs Are Hurting Riskier Companies.  McKinsey pays out another $230mn to s=
+ettle opioid cases. DOJ Steps Up Probe of Credit Suisse and UBS Over=20
+Sanctions Breaches. Jailed oligarch  accuses TPG of colluding with Kremlin =
+to seize $14bn assets. Top-rated US companies turn to convertible bonds as =
+rising interest rates bite. A $12 Million Request to Cover a=20
+Crypto Scam Sank a Bank CEO. Katy Perry Refuses to Back Down in=20
+Fight Over $15 Million Mansion. Disney quietly removes jizz from  Star Wars=
+ continuity. =E2=80=9CMusk=E2=80=99s  gonzo realtime biographer Matt Levine=
+ ...=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] These numbers are a bit unfair, since a lot of that pay is in stock.
+
+
+  [2] I kid; the SEC has actually asked Musk about this. I guess they were =
+satisfied with his answers? Why?
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjk4f3.5lpr/b4c71c76.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_24442143_2065777381.1695839990639
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The US Securities and Exchange Commission has a rule that, if you work in t=
+he financial industry, you are only allowed to communicate about=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB21c1fa3d"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjg1MTU1MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMxMTI5NzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB3f004946" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32851551&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33112974&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Citadel cell phones</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The US Securities and Exchange Commission has =
+a rule that, if you work in the financial industry, you are only allowed to=
+ communicate=C2=A0about work with your colleagues and customers using syste=
+ms =E2=80=94=C2=A0like your firm email account or=C2=A0Bloomberg messaging =
+=E2=80=94 that your firm can archive and review. You are not allowed to use=
+ WhatsApp or Signal or iMessage or text messaging from your personal phone.=
+ Financial industry employees have to =E2=80=9Cconduct their communications=
+ about business matters within only official channels, and they must mainta=
+in and preserve those communications,=E2=80=9D as SEC Chair Gary Gensler <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0xNzQ/607f07ceef4b852=
+4a319a23cBc6db2938" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">put it last year</a>, when he fined 15=C2=A0b=
+anks a total of $1.1 billion for using WhatsApp.</p>
+<p style=3D"margin: 16px 0;">This is a weird rule that the SEC has. For one=
+ thing, it is obviously not the rule. Gensler=C2=A0<em>cannot possibly have=
+ meant=C2=A0</em>that investment bankers and traders are only allowed to co=
+mmunicate about business using corporate email and Bloomberg messages and r=
+ecorded phone lines; he is=C2=A0<em>surely=C2=A0</em>aware that sometimes a=
+ banker will turn to the colleague sitting next to her and say, aloud, =E2=
+=80=9Chey did you finish that pitch deck yet,=E2=80=9D and that she will so=
+metimes fly out to meet with a client in a conference room (or on a golf co=
+urse) and talk business face to face. Plenty of business communication stil=
+l occurs informally, in person, and it can=E2=80=99t=C2=A0be preserved unti=
+l you get every employee into augmented reality goggles that record everyth=
+ing.</p>
+<p style=3D"margin: 16px 0;">For another thing, this rule =E2=80=94=C2=A0th=
+at you have to do business communications only on official channels =E2=80=
+=94=C2=A0is a somewhat new interpretation of the SEC=E2=80=99s=C2=A0actual =
+written rules=C2=A0say. When all those banks got in trouble last year, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cH=
+M6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F0aW9uL2FkbWluLzIwMjIvMzQtOTU5MjQucGRm/=
+607f07ceef4b8524a319a23cB517b1fb5" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">they got in trouble for</a> viol=
+ating SEC <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551=
+.261423/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xN2EtNA/=
+607f07ceef4b8524a319a23cBb6e6c351" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Rule 17-4(b)(4)</a>, which requi=
+res broker-dealers to =E2=80=9Cpreserve for a period of not less than three=
+ years =E2=80=A6=C2=A0originals of all communications received and copies o=
+f all communications sent (and any approvals thereof) by the member, broker=
+ or dealer (including inter-office memoranda and communications) relating t=
+o its business as such.=E2=80=9D I have <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMDktMjgvdGhlLWRlbGktd2FzLWFsbGVnZWRseS1hLWZyYXVk=
+P2NtcGlkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cBee804dc6" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> pointed out before</a> that this rule =
+was written in 1948, when =E2=80=9Cinter-office memoranda=E2=80=9D were a t=
+hing, and when it made sense to talk about keeping =E2=80=9Coriginals=E2=80=
+=9D and =E2=80=9Ccopies=E2=80=9D of communications because they were writte=
+n on typewriters with carbon paper.</p>
+<p style=3D"margin: 16px 0;">This record-keeping requirement was originally=
+ meant to apply to fairly=C2=A0<em>formal=C2=A0</em>written communications,=
+ because it was written=C2=A0back when written communications were necessar=
+ily formal. But now that everyone texts all the time, the requirement has b=
+ecome=C2=A0<em>vastly broader:=C2=A0</em>Everything that would have been an=
+ informal face-to-face chat in 1948 is a text message now, and so is swept =
+up in the SEC=E2=80=99s interpretation of its rule. It doesn=E2=80=99t seem=
+ like quite what the rule meant.</p>
+<p style=3D"margin: 16px 0;">But you can see why the SEC loves its current =
+rule, Gensler=E2=80=99s rule, the one about all communications being on pre=
+served official channels. There are two reasons:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">This rule is really good for regulati=
+on and enforcement. If all business communications have to occur on officia=
+l channels and be preserved, then the SEC will have an easy time investigat=
+ing misbehavior: If it has any suspicions about anything, it can call a fir=
+m and say =E2=80=9Cgive me all the=C2=A0messages that Employee X sent about=
+ Topic Y last year,=E2=80=9D and the firm will run a search and hand over t=
+he messages. It can call=C2=A0<em>every=C2=A0</em>firm and ask them that. T=
+he firms themselves will do it voluntarily: Their compliance people will co=
+nstantly run searches on their internal messages, looking for keywords like=
+ =E2=80=9Cfraud=E2=80=9D or whatever, and then hand anything bad over to th=
+e SEC. There are not a lot of areas where every crime is meticulously docum=
+ented in written electronic messages that are preserved and handed over to =
+regulators. Obviously the coverage is not perfect, and there will still be =
+golf courses and in-person meetings, but I suppose in the long run technolo=
+gy (goggles, etc.)=C2=A0might stamp those out too and the SEC will achieve =
+a perfect panopticon.</li>=09<li style=3D"margin-bottom: 5px;">This rule is=
+=C2=A0<em>new</em>, so it is=C2=A0<em>lucrative</em>. Financial firms and t=
+heir employees=C2=A0<em>really did not know=C2=A0</em>about the SEC rule th=
+at nobody could use WhatsApp to message their colleagues, because, again, t=
+hat=E2=80=99s a somewhat=C2=A0novel interpretation of the actual rules. And=
+ so when the SEC decided, in <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32851551.261423/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVh=
+c2UvMjAyMS0yNjI/607f07ceef4b8524a319a23cB802cf572" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">about=C2=A02021<=
+/a> =E2=80=94=C2=A0when everyone was working from home due to Covid and sen=
+ding lots of text messages =E2=80=94 that texting about work was illegal, e=
+very single bank was doing illegal things. And so the SEC could just kind o=
+f go down the line and extract a $125 million fine from each of them. It di=
+dn=E2=80=99t have to prove any=C2=A0<em>bad=C2=A0</em>behavior: It got samp=
+les of the bankers=E2=80=99=C2=A0text and WhatsApp messages and, as far as =
+I can tell, never found a single text message relating to any sort of misco=
+nduct. It just had to prove that there were text messages about business an=
+d, boom, $125 million. =E2=80=9CIt is not literally the case that the US Se=
+curities and Exchange Commission is a for-profit business whose goal is to =
+maximize its revenue,=E2=80=9D <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDItMDIvdGhlLXNlYy13YW50cy10by1zZWUtbW9yZS1waG9uZXM_Y21wa=
+WQ9QkJEMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB98524a17" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> I once wrote</a>, about this business, but, =
+man. This is a profitable business.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The SEC extracted all of those fines through s=
+ettlements with the banks. I suppose the banks could say =E2=80=9Cno, see y=
+ou in court,=E2=80=9D but I don=E2=80=99t think any have. The SEC=E2=80=99s=
+ interpretation of the rule is aggressive, but it=E2=80=99s logical, and it=
+ is pretty risky for the banks to fight the SEC on this.</p>
+<p style=3D"margin: 16px 0;">Anyway this rule is so good that, after fining=
+ the banks $125 million each for violating it, the SEC has moved on to othe=
+r financial firms. It has long <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjMtMDItMDIvd2hhdHNhcHAtcHJvYmUtaGl0cy1iaWctaGVkZ2UtZnVuZHMtYXMtc=
+2VjLWFza3MtZm9yLXBob25lLXJldmlldz9jbXBpZD1CQkQwOTI3MjNfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjcmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBafe4dfa1" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> been r=
+eported</a> that hedge funds, private equity firms and other investment man=
+agers <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261=
+423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjUvc2V=
+jLWNvbGxlY3RzLXByaXZhdGUtbWVzc2FnZXMtaW4td2hhdHNhcHAtcHJvYmUtcmV1dGVycy1zYX=
+lzP2NtcGlkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cBa2613c5d" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> are next</a>: There are a lot of the=
+m, they have deep pockets, surely they=E2=80=99ve sent some text messages. =
+It would be good, for the SEC, to extract money out of them, and it would b=
+e good to<em>=C2=A0</em>apply<em>=C2=A0</em>Gensler=E2=80=99s rule to them =
+going forward, so that if they do any crimes in the future they will have m=
+eticulous records of those crimes to hand over to the SEC.</p>
+<p style=3D"margin: 16px 0;">There is a bit of a problem with moving on to =
+investment managers, which is that Rule 17-4(b)(4) =E2=80=94=C2=A0the rule =
+that=C2=A0requires broker-dealers to preserve their communications, and tha=
+t the SEC uses as the basis for its =E2=80=9Conly official channels=E2=80=
+=9D rule =E2=80=94=C2=A0does not apply to investment managers. Investment m=
+anagers=C2=A0<em>do=C2=A0</em>have a communications-preservation rule, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cH=
+M6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI3NS4yMDQtMg/607f07ceef4b85=
+24a319a23cB7358156a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Rule 204-2(a)(7)</a>, but it is narrower, cov=
+ering external communications about specific topics (investment recommendat=
+ions and advice, trade orders, etc.), not the manager=E2=80=99s =E2=80=9Cbu=
+siness as such.=E2=80=9D In January a bunch of asset-management=C2=A0trade =
+associations <a href=3D"https://link.mail.bloombergbusiness.com/click/32851=
+551.261423/aHR0cHM6Ly93d3cuc2lmbWEub3JnL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzAy=
+L0ludmVzdG1lbnQtQWR2aXNlci1SZWNvcmRrZWVwaW5nLVJlcXVpcmVtZW50cy5wZGY/607f07c=
+eef4b8524a319a23cBc4acdda9" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">sent a letter to the SEC</a> arguing =
+=E2=80=9Cthat the SEC is attempting to exceed its authority under the Advis=
+ers Act and<br />engaging in rulemaking by enforcement through its current =
+sweep regarding off-channel communications,=E2=80=9D and that Rule 204-2(a)=
+(7) does not cover the sort of intra-desk text messaging that the SEC has b=
+een going after at the banks.</p>
+<p style=3D"margin: 16px 0;">Still I basically assume that the SEC will jus=
+t go down the line extracting flat but lower-than-$125-million fines from a=
+ll the hedge funds, private equity firms, etc. But maybe not? Bloomberg=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.2=
+61423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjcvd=
+XMtZ292ZXJubWVudC1zaHV0ZG93bi1zLWVjb25vbWljLXJpc2tzLWdyb3ctdGhlLWxvbmdlci1p=
+dC1sYXN0cz9jbXBpZD1CQkQwOTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1Zm=
+Y/607f07ceef4b8524a319a23cB7fcb1bc5" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> Austin Weinstein reports</a>:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Citadel is preparing to push back against the =
+Securities and Exchange Commission=E2=80=99s WhatsApp probe, taking a harde=
+r line than the almost two dozen banks that have paid hefty settlements ove=
+r the past two years.</p>
+<p style=3D"margin: 16px 0;">Ken Griffin=E2=80=99s hedge fund has told indu=
+stry peers that it plans to battle the SEC if the regulator moves against C=
+itadel, according to people familiar with the talks. And it=E2=80=99s willi=
+ng to take the agency to court, said the people, who asked not to be identi=
+fied discussing private conversations.</p>
+<p style=3D"margin: 16px 0;">The Miami-based firm would be the first to fig=
+ht the SEC over any allegations of untracked communications. As a hedge fun=
+d, it would likely argue that it=E2=80=99s not subject to the same rules as=
+ Wall Street banks like JPMorgan Chase &amp; Co. and Bank of America Corp.,=
+ which agreed to pay more than $2.5 billion to settle US regulators=E2=80=
+=99 investigations into their employees using unofficial messaging platform=
+s for business.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure, good for them.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjg1MTU1MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMxMTI5NzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCf6c7bee1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32851551&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33112974&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjg1MTU1MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMxMTI5NzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDf6c7bee1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32851551&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33112974&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sculptor</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The schematic math of the Sculptor Capital Man=
+agement Inc. situation is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Sculptor is a publicly traded asset m=
+anager with about $30 billion of assets under management, roughly half=C2=
+=A0in collateralized loan obligations and the rest in hedge fund and real e=
+state strategies.</li>=09<li style=3D"margin-bottom: 5px;">Those $30 billio=
+n of client assets pay Sculptor fees of more than $400=C2=A0million per yea=
+r.</li>=09<li style=3D"margin-bottom: 5px;">Of those fees, more than $300 m=
+illion per year goes to Sculptor=E2=80=99s employees, with much of it conce=
+ntrated among the senior people=C2=A0managing its funds. Its chief executiv=
+e officer and chief investment officer, Jimmy Levin, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQwMzI1Ni8wMDAxNDAzMjU2MjMwMDAwNzM=
+vc2N1LTIwMjMwNDI4Lmh0bSNpNTdjZTBkNDViYjRiNDZhMDhjMDRkNTYzOTNiYjIzODNfMTI3/6=
+07f07ceef4b8524a319a23cB82c71afa" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">made $49 million in 2022</a> and =
+$146 million in 2021.<a class=3D"footnote-index" href=3D"#footnote-1" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">A bit less than $0 per year goes =
+to Sculptor=E2=80=99s shareholders: The firm <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9k=
+b2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQwMzI1Ni8wMDAxNDAzMjU2MjMwMDAwNTEvc2N1LTI=
+wMjIxMjMxLmh0bSNpNDFmODQyNDIyMjY5NDc0NWJhY2M1NzFjYmQxZWZiMjVfMzE/607f07ceef=
+4b8524a319a23cB72056cd5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">reported net losses</a> in each of the las=
+t two years.</li>=09<li style=3D"margin-bottom: 5px;">Being a Sculptor hedg=
+e fund manager is quite lucrative, but=C2=A0being a Sculptor shareholder is=
+ not particularly.</li>=09<li style=3D"margin-bottom: 5px;">This is not a w=
+eird anomaly! Being a hedge fund manager is lucrative, and Sculptor is a he=
+dge fund management firm that employs hedge fund managers. Most hedge fund =
+management firms are privately held, and roughly all of the money goes to t=
+he managers. To compete for talent, Sculptor also pays roughly all of its m=
+oney to its managers. The shareholders get squeezed. Jimmy Levin did not in=
+vent this or anything. Dan Och, Sculptor=E2=80=99s founder and former CEO/C=
+IO, =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/32851=
+551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDkt=
+MjYvYm9hei13ZWluc3RlaW4tY2hhc2VzLWhlZGdlLWZ1bmQtdGl0YW4tc3RhdHVzLXdpdGgtc2N=
+1bHB0b3ItYmlkP2NtcGlkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cB834acedb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">took home $3.3 billion</=
+a> since 2007 as Sculptor=E2=80=99s stock price tanked by 96%.=E2=80=9D Tha=
+t=E2=80=99s just how it works!</li>=09<li style=3D"margin-bottom: 5px;">The=
+ result is that Sculptor=E2=80=99s stock price is fairly cheap, since the c=
+ash flows to shareholders are a bit less than zero.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">But if you buy=C2=A0<em>all=C2=A0</em>of Sculptor, you ca=
+n make=C2=A0<em>yourself=C2=A0</em>the CEO, and pay yourself all the fees.<=
+/li>
+</ol>
+<p style=3D"margin: 16px 0;">As I <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDgtMjMvY291bGQtc2N1bHB0b3ItYmUtYmV0dGVyLW9yLWNoZWFwZX=
+I_Y21waWQ9QkJEMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB1e67e506" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> wrote last month</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">If you have a public company where=
+ most of the cash flows go, not to the shareholders, but to the CEO, then i=
+t is cheap to become a shareholder and lucrative to become the CEO. But if =
+you buy enough shares you can make yourself the CEO. There is an arbitrage.=
+</p></blockquote>
+<p style=3D"margin: 16px 0;">I kind of don=E2=80=99t understand why more he=
+dge fund managers are not bidding to buy Sculptor. But a bunch of them are,=
+ in a consortium led by Boaz Weinstein, and Bloomberg=E2=80=99s Katherine B=
+urton and Hema Parmar <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjMtMDktMjYvYm9hei13ZWluc3RlaW4tY2hhc2VzLWhlZGdlLWZ1bmQtdGl0YW4tc3RhdHVzLX=
+dpdGgtc2N1bHB0b3ItYmlkP2NtcGlkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC834acedb" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> reported yesterd=
+ay</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Boaz Weinstein made his name trading in esoter=
+ic corners of the credit markets. But his most audacious bet yet may be try=
+ing to catapult his hedge fund firm into the ranks of the industry=E2=80=99=
+s largest players.</p>
+<p style=3D"margin: 16px 0;">To do that, the 50-year-old head of Saba Capit=
+al Management is attempting to buy his way to the top. He=E2=80=99s bidding=
+ =E2=80=94 with a group of billionaire pals including Bill Ackman, Marc Las=
+ry and Jeff Yass =E2=80=94 for Sculptor Capital Management Inc., a beleague=
+red publicly traded money manager he aims to subsume into his $4 billion fi=
+rm.</p>
+<p style=3D"margin: 16px 0;">Weinstein=E2=80=99s assets under management co=
+uld balloon to more than $20 billion if he wins Sculptor, requiring only a =
+$700 million investment backed by deep-pocketed friends. While Weinstein=E2=
+=80=99s group made the highest bid, it was rejected for a lower one from Ri=
+thm Capital Corp. Sculptor, which said Rithm=E2=80=99s offer was more certa=
+in, won=E2=80=99t let Weinstein speak directly to investors or stockholders=
+. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Like the chess master he is, Weinstein saw a w=
+ay to exploit weak competition and build his empire. Saba=E2=80=99s main fu=
+nd is slightly niche =E2=80=93 short bonds, long volatility =E2=80=94 and w=
+hile he=E2=80=99s added some other strategies, growing assets is a slow gam=
+e.</p>
+<p style=3D"margin: 16px 0;">So when Sculptor put itself on the block late =
+last year, Weinstein assembled his all-star team and made a bid. In July, S=
+culptor picked Rithm =E2=80=94 a firm that started out in mortgage servicin=
+g rights =E2=80=94 which agreed to pay $11.15 a share, or $639 million. Scu=
+lptor rejected Weinstein=E2=80=99s higher bid, which now stands at $12.76. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Under Weinstein=E2=80=99s plan, Sculptor would=
+ be run as its own brand within Saba. With the current CIO in a lesser role=
+, or even gone, Weinstein could use the extra money =E2=80=93 Levin was pai=
+d $145 million in 2021 =E2=80=94 to help retain strategy heads and others a=
+mong its 100 investment professionals.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You do have to pay most of the money to the ma=
+nagers.=C2=A0Burton also <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMDktMjIvd2VpbnN0ZWluLXdvdWxkLW9mZmVyLXNjdWxwdG9yLWNsaWVudHMtc3dlZXR=
+lbmVyLXRvLXN0YXktYXQtZmlybT9jbXBpZD1CQkQwOTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjcmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb7c0038b" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> reported las=
+t week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Boaz Weinstein would offer Sculptor Capital Ma=
+nagement Inc. clients the chance to join his investment in the money manage=
+r under the same terms as his billionaire backers, according to people fami=
+liar with the plan.</p>
+<p style=3D"margin: 16px 0;">The Saba Capital Management founder and his co=
+-investors view the plan as a sweetener for clients, who must give their ap=
+proval in order for Weinstein=E2=80=99s bid for Sculptor to go through.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s an odd sweetener? The reason that=
+ Sculptor=E2=80=99s board has given for preferring Rithm is that Rithm woul=
+d keep Levin, and it thinks that Sculptor=E2=80=99s clients would prefer to=
+ have Levin manage their money rather than Weinstein. (Since, after all, th=
+ey <em>are=C2=A0</em>still clients of Sculptor, which Levin runs, and they =
+are not currently=C2=A0clients of Saba, which Weinstein runs.) We have <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTgvc2N1bHB0b=
+3Itc3RpY2tzLXdpdGgtdGhlLWRlYWwtaXQta25vd3M_Y21waWQ9QkJEMDkyNzIzX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI=
+3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe0a067d8" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> talked about this situation a lot</a>; Sculptor=E2=80=99s reasoning stri=
+kes me as plausible but weirdly uncertain. (Why not ask the clients?) By of=
+fering the clients a sweetener, Weinstein is trying to reassure the board t=
+hat the clients will consent to him taking over.</p>
+<p style=3D"margin: 16px 0;">But why would the clients want to own the firm=
+? I feel like the lesson of Sculptor is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A well-run hedge fund probably makes =
+money for its <em>clients</em>. (Though Sculptor=E2=80=99s =E2=80=9Cmain fu=
+nd has annualized at about 6% since 2018, and its returns more closely trac=
+k the S&amp;P 500 than other multi-strategy firms,=E2=80=9D report Burton a=
+nd Parmar.)</li>=09<li style=3D"margin-bottom: 5px;">It definitely makes mo=
+ney for its=C2=A0<em>managers</em>.</li>=09<li style=3D"margin-bottom: 5px;=
+">The=C2=A0<em>shareholders of the management company</em>, not necessarily=
+?</li>
+</ol>
+<p style=3D"margin: 16px 0;">You have to make money for the clients, you ha=
+ve to pay the investment managers, and the shareholders just get what=E2=80=
+=99s left over. It makes total sense for Weinstein to want to=C2=A0<em>buy =
+and run=C2=A0</em>Sculptor; it makes a bit less sense for anyone else to wa=
+nt to=C2=A0<em>help him buy it=C2=A0</em>as an outside=C2=A0passive investo=
+r. Though I guess Ackman, Lasry and Yass are in, which is an endorsement of=
+ the idea. Presumably they have to get paid too.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Binance</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Two key <a href=3D"https://link.mail.bloomberg=
+business.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJ=
+CRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB8ec99c6d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">
+questions in crypto regulation</a> are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Will US regulators (and particularly =
+the SEC) remain as hostile to crypto as they are right now, or will the US =
+become more crypto-friendly through some combination of congressional legis=
+lation, court rulings that go against the SEC, personnel changes at regulat=
+ors, etc.?</li>=09<li style=3D"margin-bottom: 5px;">If the US=C2=A0<em>does=
+=C2=A0</em>remain super hostile to crypto, will that be bad for crypto=C2=
+=A0<em>globally</em>, or will it just mean that crypto becomes a non-US thi=
+ng? In general, US regulators and prosecutors are very=C2=A0good at using t=
+he power of the US government and the reach of the dollar system to impose =
+US decisions on global finance. If you are a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDctMDEvYm5wLWNvbXBsaWFuY2Utb2ZmaWNlcnMtd2V=
+yZS1maW5lLXdpdGgtc29tZS1ub24tY29tcGxpYW5jZT9jbXBpZD1CQkQwOTI3MjNfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5M=
+jcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf96c0df4" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  French bank providing financing to a Cuban company</a>, and the US doe=
+sn=E2=80=99t like that, it will stop you. But crypto is different! Crypto i=
+s anonymous and borderless and irreversible and censorship-resistant; if th=
+e US decides to ban crypto then it can maybe (maybe) cut US citizens off fr=
+om the joys of crypto, but it can=E2=80=99t interfere with crypto=E2=80=99s=
+ global growth. Or that is an idea anyway.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This year US <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmdGMtY29tZXMtZm9yLWJpbmFuY2U_Y2=
+1waWQ9QkJEMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cBff8b5f90" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  regulators</a> have brought <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1jb21lcy=
+1mb3ItY3J5cHRvP2NtcGlkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cC8ec99c6d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  cases</a> against Bina=
+nce, the world=E2=80=99s biggest crypto exchange. When the SEC sued Binance=
+, <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGh=
+lLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cD8ec99c6d" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  I wrote<=
+/a> that Binance=E2=80=99s somewhat cynical attitude=C2=A0to US regulation =
+seemed smart:</p>
+<blockquote><p style=3D"margin: 16px 0;">Binance noticed that it's illegal =
+to run a crypto exchange in the US, and did it anyway, but minimized and co=
+mpartmentalized its US exposure: It has relatively few US customers and see=
+ms to keep most of its business out of the US.</p></blockquote>
+<p style=3D"margin: 16px 0;">Well. You can keep your business out of the US=
+, but you can=E2=80=99t keep the US out of your business. Today the Wall St=
+reet Journal has a report on how things are going at Binance. =E2=80=9C<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9maW5hbmNlL2N1cnJlbmNpZXMvdGhlLXdvcmxkcy1iaWdnZXN0LWNye=
+XB0by1maXJtLWlzLW1lbHRpbmctZG93bi0zMzhiOGUxNz9tb2Q9aXRwX3dzag/607f07ceef4b8=
+524a319a23cBd41cbeb7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">The World=E2=80=99s Biggest Crypto Firm Is Me=
+lting Down</a>,=E2=80=9D is the headline:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Under threat of enforcement actions by U.S. ag=
+encies, Binance=E2=80=99s empire is quaking. Over the past three months, mo=
+re than a dozen senior executives have left, and the exchange has laid off =
+at least 1,500 employees this year to cut costs and prepare for a decline i=
+n business. And while Binance still looms large in crypto, its dominance is=
+ dwindling.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Binance now handles about half of all trades w=
+here cryptocurrencies are directly bought and sold, down from about 70% at =
+the start of the year, according to data provider Kaiko. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Yi He, Binance=E2=80=99s co-founder and chief =
+marketing officer, vowed to overcome the troubles in a message to Binance s=
+taff last month.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CEvery battle is a do-or-die situation=
+, and the only thing that can defeat us is ourselves,=E2=80=9D she wrote in=
+ the message viewed by the Journal. =E2=80=9CWe have won countless times, a=
+nd we need to win this time as well.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou just can=E2=80=99t quantify what =
+would happen to the industry if Binance disappeared, given it has been resp=
+onsible for fostering a huge amount of innovation and growth,=E2=80=9D said=
+ Anthony Georgiades, a general partner at Innovating Capital, a fund that i=
+nvests in early-growth companies. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Pressure from the DOJ was partly responsible f=
+or [Binance co-founder Changpeng] Zhao=E2=80=99s decision to begin winding =
+down Binance=E2=80=99s business in Russia, once one of its most important m=
+arkets, the person said. Over the following two weeks, Binance barred custo=
+mers from using the sanctioned banks and forced out the executives managing=
+ its Russia business. It said it was considering a full withdrawal from Rus=
+sia.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Can US regulators ban crypto trading in Russia=
+? No? But, also, kind of?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Late 13D filings</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32851551.261423/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVh=
+c2UvMjAyMy0yMDE/607f07ceef4b8524a319a23cB516b0e64" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Huh</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today a=
+nnounced charges against six officers, directors, and major shareholders of=
+ public companies for failing to timely report information about their hold=
+ings and transactions in company stock. Five publicly-traded companies were=
+ also charged for contributing to the filing failures by insiders or failin=
+g to report their insiders=E2=80=99 filing delinquencies.</p>
+<p style=3D"margin: 16px 0;">The charges stem from an SEC enforcement initi=
+ative focused on Form 4 and Schedules 13D and 13G reports that company insi=
+ders are required to file regarding their holdings of company stock. Form 4=
+ is a report that corporate officers, directors, and certain beneficial own=
+ers of more than 10 percent of a registered class of a company=E2=80=99s st=
+ock must use to report their transactions in company stock within two busin=
+ess days. Schedules 13D and 13G are reports that beneficial owners of more =
+than 5 percent of a registered class of a company=E2=80=99s stock must use =
+to report their holdings and intentions with respect to the company. These =
+ownership reports give investors and other market participants the opportun=
+ity to evaluate whether the holdings and transactions of company insiders c=
+ould be indicative of the company=E2=80=99s future prospects. SEC enforceme=
+nt staff used data analytics to identify the charged insiders as repeatedly=
+ filing these reports late. Some filings were delayed by weeks, months, or =
+even years. The reporting requirements apply irrespective of whether the tr=
+ades were profitable and regardless of a person=E2=80=99s reasons for the t=
+ransactions.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CTimely disclosure of insider transact=
+ions is critically important to both investors and the fair, orderly and ef=
+ficient operation of our securities markets. According to today=E2=80=99s o=
+rders, the insiders and companies charged in these matters in the aggregate=
+ deprived investors of timely information about over $90 million in transac=
+tions,=E2=80=9D said Gurbir S. Grewal, Director of the SEC=E2=80=99s Direct=
+or of Enforcement. =E2=80=9CThese enforcement actions also make clear that =
+we will not hesitate to charge companies for causing their insiders=E2=80=
+=99 disclosure violations where the companies took on the responsibility fo=
+r making relevant filings for their insiders, and then acted negligently.=
+=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">How about that! There=E2=80=99s a list of name=
+s. Do you know who is not on it? Last year, Elon Musk <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDQyODYzL3RtMjIxMT=
+c1N2QxX3NjMTNkLmh0bQ/607f07ceef4b8524a319a23cBe8f62c0d" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> bought $2.=
+6 billion worth of stock</a> in Twitter Inc., as the first step in ultimate=
+ly buying the company. This triggered a requirement that he file a disclosu=
+re form, <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.=
+261423/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3RlY2hub2xvZ3kvMjAyMi9tYXkvMjcv=
+ZWxvbi1tdXNrLXNlYy1sZXR0ZXItbGF0ZS10d2l0dGVyLXN0YWtlLWZpbGluZy10YWtlb3Zlcg/=
+607f07ceef4b8524a319a23cBadf4c50f" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">which he did 11 days late</a>, b=
+uying more stock in the meantime. When he=C2=A0<em>did=C2=A0</em>file the f=
+orm,=C2=A0the stock went up a lot, because the market correctly assumed it =
+meant he would buy the rest of Twitter. By waiting to disclose his purchase=
+s until he was done, Musk personally <a href=3D"https://link.mail.bloomberg=
+business.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjItMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJ=
+EMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cBad73ddc1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> saved about $143 million</a>.=C2=A0And today the SE=
+C brought cases against six other people for late filings on transactions t=
+hat totaled $90 million. Okay!=C2=A0</p>
+<p style=3D"margin: 16px 0;">At this point I should=C2=A0submit a whistlebl=
+ower claim.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: none !important; background-c=
+olor: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0I suppose Musk did not=C2=A0<em>repeatedly=C2=A0</em>file disclos=
+ure forms late, but on the other hand he definitely repeatedly violates SEC=
+ disclosure rules. I get why they would not want to bother enforcing the se=
+curities laws against him. He=E2=80=99s very annoying! And yet that is kind=
+ of the job.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Volcano bond</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Back in 2021, the government of El Salvador hi=
+t on what <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551=
+.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTE=
+tMjIvYmUtY2FyZWZ1bC13aXRoLXZvbGNhbm8tYm9uZHM_Y21waWQ9QkJEMDkyNzIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwO=
+TI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb82a76de" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> I thought</a> was a <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMTEtMjkvYmlsbC1hY2ttYW4taGFzLWEtc3BhcmM_Y21waWQ9QkJEMDkyNzIzX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf7d92f4=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> pretty good</a> <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjItMDMtMzAvcm9iaW5ob29kLXdpbGwtc3RheS1vcGVuLWxhdGU_Y21waWQ9Qk=
+JEMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB476bb45a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> idea</a>, for 2021:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Issue a sovereign bond worth $50.</li>=
+=09<li style=3D"margin-bottom: 5px;">Buy $25 worth of Bitcoin.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">Staple them together and sell=C2=A0the package=
+ =E2=80=94=C2=A0$50 of bond and $25 of Bitcoin =E2=80=94=C2=A0for $100.</li=
+>=09<li style=3D"margin-bottom: 5px;">On the blockchain! You could do stuff=
+ like that, if you did it on the blockchain.</li>=09<li style=3D"margin-bot=
+tom: 5px;">Use some of the money to buy the Bitcoins that go into the packa=
+ge, some to buy <em>more=C2=A0</em>Bitcoins to gamble with El Salvador=E2=
+=80=99s public treasury, and the rest to fund infrastructure projects.</li>=
+=09<li style=3D"margin-bottom: 5px;">Also there was a volcano involved? The=
+ volcano would generate energy to mine Bitcoins? Why not.</li>
+</ul>
+<p style=3D"margin: 16px 0;">Man, crypto in 2021 was just wild. For one thi=
+ng, people would make stuff up =E2=80=94=C2=A0new cryptocurrencies, new JPE=
+Gs =E2=80=94=C2=A0and sell them for millions of dollars. But also, like,=C2=
+=A0<em>math=C2=A0</em>became kind of woozy, and you could take a crypto thi=
+ng with a market value of $75 and wave your hands around for a bit and sell=
+ it=C2=A0for $100. There were perpetual motion machines everywhere.</p>
+<p style=3D"margin: 16px 0;">Or not. El Salvador tried it, but they never a=
+ctually sold the bonds, and now it is 2023 and <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly9mcmFua211Y2kuc3Vic3=
+RhY2suY29tL3AvZWwtc2FsdmFkb3JzLXZvbGNhbm8tYm9uZC1yaXA/607f07ceef4b8524a319a=
+23cB0a357b45" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Frank Muci reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The proposal to tokenize a sovereign bond on a=
+ blockchain is now officially dead. This summer, Forbes contributor and Tet=
+her/Bitfinex spokesperson <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32851551.261423/aHR0cHM6Ly90d2l0dGVyLmNvbS9jcmlwdG9iYXN0YXJkbw/607f=
+07ceef4b8524a319a23cBb2de7889" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Javier Bastardo</a> <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuZm=
+9yYmVzLmNvbS9zaXRlcy9kaWdpdGFsLWFzc2V0cy8yMDIzLzA2LzExL3JlbmV3YWJsZS1iaXRjb=
+2luLW1pbmluZy1wcm9qZWN0LXR3ZWFrcy1lbC1zYWx2YWRvcnMtYm9uZHMtcHJvcG9zYWwtdG8t=
+cmFpc2UtMS1iaWxsaW9uLw/607f07ceef4b8524a319a23cBf96080b7" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">wrote</a>=
+ that El Salvador will =E2=80=9Ctweak the investment scheme from issuing pu=
+blic debt [the volcano bond] to private equity funding rounds by the Volcan=
+o Energy initiative [a joint venture with the government, private firms and=
+ crypto companies]=E2=80=9D.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In other words, some joint venture will raise =
+equity to fund wind and solar energy capacity, but there won=E2=80=99t be d=
+ebt or a bond. There won=E2=80=99t be geothermal energy from the volcano as=
+ originally advertised either, oh well. This post is an obituary, a requiem=
+ for the volcano bond and the insanity that was crypto just two years ago.=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It is a little hard to believe that any of thi=
+s was real, and of course in an important sense it wasn=E2=80=99t.=C2=A0</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32851551.261423/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2FpL29wZW5haS1z=
+ZWVrcy1uZXctdmFsdWF0aW9uLW9mLXVwLXRvLTkwLWJpbGxpb24taW4tc2FsZS1vZi1leGlzdGl=
+uZy1zaGFyZXMtZWQ2MjI5ZTA_bW9kPWl0cF93c2o/607f07ceef4b8524a319a23cB669c90d0"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">OpenAI</a> Seeks New Valuation of Up to $90 Billion in Sale of Exi=
+sting Shares. UK regulator to launch review of <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuZnQuY29tL2Nvbn=
+RlbnQvZWUwMDhhYzctMmYwZi00YjY1LWEwMTYtMGUyZWMwMGU4YzI2/607f07ceef4b8524a319=
+a23cB04679886" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">private market valuations</a>. China Puts <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjcvZXZlcmdyYW5kZS1zLWJ=
+pbGxpb25haXJlLWNoYWlybWFuLWh1aS1pcy11bmRlci1wb2xpY2Utc3VydmVpbGxhbmNlP2NtcG=
+lkPUJCRDA5MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzb=
+GV0dGVyJnV0bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8=
+524a319a23cB97fa96ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Evergrande=E2=80=99s</a> Billionaire Founde=
+r Under Police Control. <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32851551.261423/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3Jpc2luZy1sb2FuL=
+WNvc3RzLWFyZS1odXJ0aW5nLXJpc2tpZXItY29tcGFuaWVzLTNlNjVmODE4P21vZD1ocF9sZWFk=
+X3BvczI/607f07ceef4b8524a319a23cB93a2686d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Rising Loan Costs</a> A=
+re Hurting Riskier Companies. <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32851551.261423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGY3NDZlNTk=
+tMzUyYi00N2EwLTkwOTAtOTEzYWMyNzA3Yjg0/607f07ceef4b8524a319a23cBe4171a65" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> McKinsey</a> pays out another $230mn to settle opioid cases. DOJ Ste=
+ps Up Probe of Credit Suisse and UBS Over <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDktMjcvdWJzLWNyZWRpdC1zdWlzc2UtZmFjZS1ncm93aW5nLX=
+Byb2JlLW92ZXItYWxsZWdlZC1ydXNzaWFuLXNhbmN0aW9ucy1ldmFzaW9uP2NtcGlkPUJCRDA5M=
+jcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDkyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B50d3ca93" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">
+Sanctions Breaches</a>. Jailed oligarch <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvN=
+zNmOGU0M2UtYmExMS00MjQwLWI4MDMtYTNjNTExMzI0MGUy/607f07ceef4b8524a319a23cB9d=
+fc1e9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> accuses TPG</a> of colluding with Kremlin to seize $14bn a=
+ssets. Top-rated US companies turn to <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2E=
+2MWM4YTctNzFmOS00OWNkLTlkZjEtZDFiNjc3OGU5MzkyJUMyJUEw/607f07ceef4b8524a319a=
+23cB690e93a6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">convertible bonds</a> as rising interest rates bite. =
+A $12 Million Request to Cover a <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32851551.261423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDktMjcvY3J5cHRvLXNjYW0tbGVkLXRvLWRlbWlzZS1vZi1oZWFydGxhbmQ=
+tdHJpLXN0YXRlLWJhbms_Y21waWQ9QkJEMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cB941fa4da" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">
+Crypto Scam</a> Sank a Bank CEO. Katy Perry Refuses to Back Down in <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjcva2F0eS1wZXJyeS1z=
+LXByb3BlcnR5LWZpZ2h0LW92ZXItbWFuc2lvbi1vd25lZC1ieS0xLTgwMC1mbG93ZXJzLWZvdW5=
+kZXI_Y21waWQ9QkJEMDkyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBa0c03635" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">
+Fight Over $15 Million Mansion</a>. Disney quietly removes jizz from <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6=
+Ly9ib2luZ2JvaW5nLm5ldC8yMDIzLzA5LzI2L2Rpc25leS1xdWlldGx5LXJlbW92ZXMtaml6ei1=
+mcm9tLXN0YXItd2Fycy1jb250aW51aXR5Lmh0bWw/607f07ceef4b8524a319a23cBd4d319a6"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Star Wars continuity</a>. =E2=80=9CMusk=E2=80=99s <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvMDk2ZDFmY2EtM2VlNC00NzUwLTgwNjktOWJkZWQ3NTQwZmFi/607f07c=
+eef4b8524a319a23cBe56f2985" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> gonzo realtime biographer</a> Matt Lev=
+ine ...=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32851551.261423/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5ac1becb" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32851551.261423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBeb77c63d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] These numbers are a bit unfair, since a lo=
+t of that pay is in stock.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I kid; the SEC has <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/32851551.261423/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMDAwMDAwMDIyMDAzNzEzL2ZpbGVuYW1l=
+MS5wZGY/607f07ceef4b8524a319a23cBe9d48b39" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">actually asked Musk abou=
+t this</a>. I guess they were satisfied with his answers? Why?</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB584f5d73" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBdfcf0372" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB886e9170" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB587210f6" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBe87f9472" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.2614=
+23/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBfb7da4c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32851551.261423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC17c50a44" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32851551.261423/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBbd41d97b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32851551.261423/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB481d1b84" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+80d4920" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32851551.261423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+2bf6756" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjk4f3.5lpr/b4c71c76.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_24442143_2065777381.1695839990639--
+

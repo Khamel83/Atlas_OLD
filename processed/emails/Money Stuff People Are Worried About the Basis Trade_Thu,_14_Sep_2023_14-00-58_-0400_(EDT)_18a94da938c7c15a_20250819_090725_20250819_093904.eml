@@ -1,0 +1,2442 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:c05:b0:13e:ba3b:de11 with SMTP id gn5csp4723rwb;
+        Thu, 14 Sep 2023 11:01:07 -0700 (PDT)
+X-Received: by 2002:a5d:4c49:0:b0:31f:c9a4:667b with SMTP id n9-20020a5d4c49000000b0031fc9a4667bmr2136823wrt.31.1694714467152;
+        Thu, 14 Sep 2023 11:01:07 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1694714467; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=S2dfQMcOPvM0Cux/71CAMVs3ROXmQuGMXAPuXFLbxvn5TRkeskQzQPFD1ByxLvXjcq
+         IbG8JAHWGeSnWBAMScx4k1i0IXi4psRMuzLNla9oup/vpYKTy6g+UzJlHpXDjzcgxOnf
+         zHk388XsswxgsVAi5z5t1J4wUOlun+P6FI6QP7SYh4DOygyZgNCNt5hFCZe+n+mrFNJH
+         gXoGn17mosY+vJQcpobM+NIjUksA0n8Po4NUnzOBPcpUNqdCELTCLyKyNqskUbwLJPQf
+         iLO8MJqS0Y5j5zkkHigFzqalY+y8I5QKnljtVSnwOy8z8obamI4/Anzn3kGaNcyGO/gA
+         uXzA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=vQ0+fd0R2wUaw6Ll4NhOzBGITXX3HLbLRnF/U2pbcC4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=ywVDEid7YeipFsZev5YrHWaUcP+IOaLaHQRC2fPSiY0R7WHE4qn5oqPFwHUjtZHVks
+         pNQcaF9yhgTCHALsl+LHhdVA/w92VGmgTiF8jbC67xeNnaQmoAR3tWjMSBPGzaQtKHuX
+         7tOQMFZ1giTkpDWmIvb6vU4C6pRrTuH3zuXga31TmeucrLb44EvnqKI6oYDh9H3Uc7E+
+         wjONdGKlTekzAS+N9iml5an7QJ1krYxxrGf+n2GKf52hDOce3tJ4t0OmDPad+0N6/Gur
+         jaVK+uufk9Mk9AVJW5Ra98IgdJjtNXAQ3aeJszBYmSJgXMMw3/CWtd3VD1GdS/zVoFeS
+         fgmA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="r0/gtf5T";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bw1-20020a0560001f8100b00313eb717463sor1138445wrb.4.2023.09.14.11.01.06
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 14 Sep 2023 11:01:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="r0/gtf5T";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1694714466; x=1695319266;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=vQ0+fd0R2wUaw6Ll4NhOzBGITXX3HLbLRnF/U2pbcC4=;
+        b=P0X6DREtNVHxerr1Rmn08rf07FNY9mIo0kr2wOYOX21ZGC1ooJdL9hBaqJ1f9Ga/YX
+         2NVegZ+ycKSO24NPD3kDK3P+usTuoYMlh1qkmMcl3FhW6lQzyY+f5v7OwVc8KNg0y38W
+         JSoIJz0USOmZP68Z3UnMuNS/27chFvDG34eyZyGO/d1ux7FrVtJQeYQn//7hqk6LrtSm
+         vvwdW4LWYbnOP7juXT2f04FBeFg+lO8wKgsWFVp1Ttb1xBa2wZW4ml9tSeqziBrY0v0u
+         cQ/6+fSngUpS8O5/hkvoKAVZoVBOWRIYgZJEXpSrwAXPelabjHG8qtr4gh6RYpUuhJK/
+         dCrw==
+X-Gm-Message-State: AOJu0YzaQHGXGjH8ksAciYrlctD/LV3VvzPfNaGHwFuB2VP7fAGexlsj
+	P/9N4EnFpm+p/veLkLVIcQwOQn7p49hquQHiQOw4ArExjK2/+1xGag==
+X-Received: by 2002:a5d:6ac8:0:b0:317:6734:c2ae with SMTP id u8-20020a5d6ac8000000b003176734c2aemr1880743wrw.11.1694714466399;
+        Thu, 14 Sep 2023 11:01:06 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:6043:0:b0:317:6ac3:4e22 with SMTP id j3csp495209wrt;
+        Thu, 14 Sep 2023 11:01:00 -0700 (PDT)
+X-Received: by 2002:a05:6808:1b20:b0:3a8:512a:41b8 with SMTP id bx32-20020a0568081b2000b003a8512a41b8mr7685332oib.21.1694714460125;
+        Thu, 14 Sep 2023 11:01:00 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1694714460; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kmfC4TXuHUkqlrHmgGFWH5KQ6seMxFVxiK+nOFbcVlR7RPmhvfSFhlpKDfywFIkYnk
+         ri4koU/3HMEI8BeVfyZAmXIisrmrX1sVKSJjTLOs+RvIphpStkurJ2B4PTqo4zB8BG2x
+         BrrVA/tmV61uVB/JMmmURHsSnCGVZt01XAa3CzC0Ojvoq/S4ElhnR6pYIgAnMalQvB3g
+         9JySopR5nkZd/AV53KcmTBgINu2vhf6unmOb4nl4vBdokNf+Xh/k9IA1oc8ot7NFCEaM
+         0/o4QkvCQFQmU9SzBHhyOwmnmMZGosVaV3fDLvYyqUl8TqAEuFL+aBxeBqQ0YkKDMnMx
+         Y3ug==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vQ0+fd0R2wUaw6Ll4NhOzBGITXX3HLbLRnF/U2pbcC4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=R6zArkI4zDOStpUZIHb6YRCnjcUkis5mW2zYCjLfZ2fEn/I4mOZ9rxLe6D7alBJ6WJ
+         1pyPQ0J+JC+4ysA02JKiKx1WORFAI6MX7xAGSxvWn7g99SR13ogmA6HJ2Ul0Anx4nl3D
+         6oGJQIY9MsZP1FC44myuJVGWHPfyfbLPbyzZaSfNj3Q+ziV8TiHjpjLBg783GRQFRltF
+         2dUEY+tt+1fOAl9Z9017Xo0F6K+v1OXXheusC8dLuZprRNlQf3LweEjDnuuGosrXLyU4
+         hSlFC1no3sObnpeua+6j+UjnYZQDny1uQPS0T4uxyzZkz9pS8TDLYiGEml+7rDwVhMWv
+         ut7A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="r0/gtf5T";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230914140058.32711630.288423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230914140058.32711630.288423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230914140058.32711630.288423@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e21-20020a056808111500b003a3c1adea11sor1270207oih.12.2023.09.14.11.00.59
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 14 Sep 2023 11:01:00 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230914140058.32711630.288423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGOvErquADz7lAQw7vijMlMcgdxykKIGXaVURfGDJYZrO6kZegTZ+biq06L54TMgLXD37mR8URBbC2lLlX3xhOyhlW1urI=
+X-Received: by 2002:a05:6808:13d5:b0:3a8:3d5b:aad6 with SMTP id d21-20020a05680813d500b003a83d5baad6mr7932863oiw.55.1694714459630;
+        Thu, 14 Sep 2023 11:00:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1694714459; cv=none;
+        d=google.com; s=arc-20160816;
+        b=BN+bLIl3yVSZxsk4mheKiwJPhfjuYmpN4M/itLkmRaReMUodcXToiUpJBxn41QNvJg
+         cCXm9hS/1j4BtWWKu3RJs3fz9R8st4hI4jC3MlqpHvRmVR207d1DvEhMvcfg/BVQpXPl
+         3X/90uJb7vH8BBNA+K2j/6tt3GrPXzz5n1REvxTVpdJQfatBEYaa52VLxMDyh5oFNPRS
+         gMZiVK04uzw6ZSRETJ4ouYbpQT8SJBAGs/pIc2sKcX2W85JNKz4NYERTvxvJVlspeiMS
+         bN+o+yzbu1guX5wpRzJZ0X7cHHw2PdGPd5DBhUSSSybYncztMlrGR3TAmsP3/K8n5RRi
+         mUlg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vQ0+fd0R2wUaw6Ll4NhOzBGITXX3HLbLRnF/U2pbcC4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=aQMH5Te7nPOdmVgDTuacu3UigEVEAoZ7qZ/GDzH+L/05eHtwaQ+ZadRfSjrIUh1ZA0
+         YYs7xZEDEDhFWZXF5f/LJ+W7LP9z96p/zVhTU14E/pFL2fndmtEPMJ5Q1Z/kYZ0UUAoq
+         Prh9rY0MY8wmW2+lUHZv33rYXCLyFYg1iO7UmGN32pVKrwQs2EI1FRWNDvL2SPx0ZX10
+         jpm2ZdXsAkOVaUHzqvYE78KtlC3VPB3RMbnHy6zcdLy9LnpGypPqspp+hSxsIZaX14NQ
+         sdDZNalomGDS1b0U7+v1E9ZovUtkYYEhPf24MT7cPS87Kd+qDBhdje/PFKYwtW7/fGy5
+         wt8g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="r0/gtf5T";
+       spf=pass (google.com: domain of delivery_20230914140058.32711630.288423@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230914140058.32711630.288423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230914140058.32711630.288423@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id gu11-20020a0568082f0b00b003a85352ac61si325201oib.0.2023.09.14.11.00.59
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 14 Sep 2023 11:00:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230914140058.32711630.288423@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=BTeyo4FId177Hgb7L4uQ1xgwPD6ZMOdL8zcwJdS9n7M=;
+ b=r0/gtf5TqkRH3CBw4sUN7kOB3ZT54mH5MYKPV74SY88AbmaRT1d2yCUE0WdT9hKZCKrVLBd0fJV+
+   ZxlXCenJHS2NF/dbNqz+s0qbRBbSYKCYXMWxwTdGA4sMcDKCDUZzTZD15/VD/GeIlc7pLNyVuwbD
+   UcEZRj94hX0nqo1/e94=
+Received: from ip-10-55-79-37.ec2.internal (10.55.79.37) by aws1-mta-relay9.sailthru.cloud id h0d55k1qqbsu for <bloomberg@khamel.com>; Thu, 14 Sep 2023 13:00:58 -0500 (envelope-from <delivery_20230914140058.32711630.288423@mx.sailthru.com>)
+Date: Thu, 14 Sep 2023 14:00:58 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230914140058.32711630.288423@sailthru.com>
+Subject: Money Stuff: People Are Worried About the Basis Trade
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_93294311_1980222024.1694714458591"
+Precedence: bulk
+x-job: 6358-32711630-20230914
+X-Feedback-ID: 6358:32711630:campaign:sailthru
+X-TM-ID: 20230914140058.32711630.288423
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-79-37.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjh4ge.66jr/d526dc9f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjh4ge.66jr/d526dc9f>, <mailto:unsubscribe_20230914140058.32711630.288423@mx.sailthru.com>
+X-rpcampaign: stjko32711630
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_93294311_1980222024.1694714458591
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+A simple model of US Treasury bonds%3Cp%3EBoringly%2010-year%20Treasuries
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Basis trade
+   =20
+ =20
+
+A simple model of US Treasury bonds
+  [1]
+=C2=A0could go something like:
+=09The US government borrows a lot of money and has a very long time horizo=
+n, so it wants to borrow a lot of money for terms of 10 or 20 or 30 years.=
+=09Lots of asset owners =E2=80=94=C2=A0pension funds, university endowments=
+, people saving for retirement =E2=80=94=C2=A0also have a long time horizon=
+ and want to earn a safe return, so they want to lend the government money =
+for terms of 10 or 20 or 30 years.
+
+This is a nice and simple story. Pensions have long-dated liabilities (futu=
+re pension payments), so they buy long-dated assets (long-term Treasuries) =
+to match them, which means that they can buy Treasury bonds for long period=
+s and hold them until they mature.
+It is not a perfect story. If you run a pension fund, you probably do not j=
+ust buy long-term Treasuries to cover your future liabilities. Treasuries a=
+re very safe assets, which means they don=E2=80=99t pay that much, and you =
+want to get paid more. You probably invest in other stuff =E2=80=94=C2=A0=
+=E2=80=9Ccredit,=E2=80=9D corporate bonds and private credit and asset-back=
+ed securities =E2=80=94=C2=A0to earn a bit more yield.
+Much of this credit stuff, though, has shorter terms than 30 years; there i=
+s not=C2=A0that=C2=A0much 30-year corporate borrowing. If you buy a lot of =
+seven-year corporate bonds, and you have very long-dated liabilities, there=
+ will be a mismatch. You are taking a lot of interest-rate risk: Sure those=
+ bonds pay a lot of interest now, but they mature in seven years, and if in=
+terest rates are lower in seven years you will earn less interest. If your =
+liabilities are long term, you want to earn a lot of interest over the whol=
+e term. You want the duration of your assets to match the duration of your =
+liabilities.
+So you buy more duration with Treasury=C2=A0futures.=C2=A0Treasury futures =
+are synthetic contracts that give you the interest-rate exposure of Treasur=
+y bonds=C2=A0but without putting up much cash upfront. You put up about  $3=
+,900 and get economic exposure to $100,000 of Treasury bonds: If long-term =
+Treasury prices go up by 1%, you make $1,000 on your initial $3,900. If int=
+erest rates go down, the price of Treasury bonds will go up, and you will m=
+ake money, which will compensate you for your reduced future interest earni=
+ngs.
+This is a more nuanced story of what pension funds and other long-term asse=
+t managers do.
+  [2]
+ But our original simple story described a whole trade: Pensions bought Tre=
+asuries, and the government sold them, and the trade made sense for both of=
+ them. Now we have a trade that makes sense for pension funds, but who is o=
+n the other side? The government is not selling them Treasury futures.
+  [3]
+=C2=A0
+Instead, you need some intermediary to provide the service of=C2=A0transfor=
+ming=C2=A0Treasuries (sold by the government) into=C2=A0Treasury futures (b=
+ought by pension funds). This service is called the =E2=80=9Cbasis trade,=
+=E2=80=9D and the intermediaries are usually hedge funds and proprietary tr=
+ading firms.
+  [4]
+ Here is a=C2=A0Wall Street Journal article=C2=A0about the basis trade, whi=
+ch has caused problems in recent years and is now making a comeback:
+
+A popular way for hedge funds to profit from bond trading while minimizing =
+their exposure to swings in the market, the basis trade exploits the price =
+difference between Treasurys and Treasury futures. The resurgence is attrac=
+ting fresh scrutiny from Wall Street because previous meltdowns have rattle=
+d global markets. ...
+Hedge funds buy Treasurys, then bet against Treasury futures by selling con=
+tracts promising delivery of a bond on a specific date at a preset price. I=
+nstead of betting on the direction of bond markets, the trade seeks to take=
+ advantage of small differences in the securities=E2=80=99 prices.=C2=A0
+The trade works because large asset managers like pension funds often prefe=
+r buying Treasury futures that require less up-front cash than actual bonds=
+. That tends to make the contracts slightly more expensive than the bonds, =
+creating a window for speculators to take advantage.
+  [5]
+ Futures prices typically converge toward bond prices as their settlement d=
+ate approaches.
+The differences are small, so hedge funds juice returns by borrowing from b=
+ig banks in the overnight funding markets=E2=80=94often putting little, if =
+any, cash up front. Leverage can reach extreme levels: Hedge funds had more=
+ than $550 billion of Treasury trades at the end of last year backed by jus=
+t $10 billion of their own money, Fed research found.=C2=A0
+
+The obvious objection is that if you have $550 billion of Treasuries backed=
+ by $10 billion of your own money, and the value of Treasuries drops by 2%,=
+ then all of your money is gone, you have to dump Treasuries, everyone else=
+ is dumping them at the same time and there is a crisis.=C2=A0This is an ex=
+aggeration, because if the value of Treasuries drops by 2% then probably yo=
+u made 2% on your futures and you=E2=80=99re more or less fine, but still t=
+here is not a ton of margin for error, and mistakes have been made:
+
+The basis trade had been subdued since a dash for cash in March 2020 forced=
+ hedge funds to rapidly unwind their positions, straining the market for Tr=
+easurys =E2=80=94 meant to be the world=E2=80=99s easiest investment to buy=
+ and sell. =E2=80=A6
+During the 2020 Covid market crash, hedge funds=E2=80=99 unwinding of lever=
+aged strategies including the basis trade spilled across markets, helping s=
+end the Dow Jones Industrial Average to its worst losses since 1987 and for=
+cing the Fed to step in.
+
+But now it is back:
+
+The Fed=E2=80=99s fight against inflation and the U.S. government=E2=80=99s=
+ wave of borrowing reignited the trade, analysts say. Higher yields and wor=
+ries about a recession have asset managers scooping up long-term bond futur=
+es. =E2=80=A6
+Given those uncertainties and with a potential recession up in the air, =E2=
+=80=9Cit=E2=80=99s natural to see record hedging in the Treasury market,=E2=
+=80=9D said Agha Mirza, global head of rates and OTC products at CME Group.
+
+If you are a pension fund, the 10-year Treasury is at a high-relative-to-re=
+cent-history 4.25%, and you worry it will go back down if there is a recess=
+ion, then you will want to lock in a lot of that rate=C2=A0while earning mo=
+re today on corporate credit. So you will load up on Treasury futures. And =
+someone will sell them to you.
+But you are a pension fund. The people selling you these futures are not.=
+=C2=A0You=C2=A0have a long time horizon.=C2=A0They=C2=A0are doing this as a=
+ trade.=C2=A0They=C2=A0are in the business of buying a ton of Treasuries an=
+d selling a ton of Treasury futures when there is demand for the futures, a=
+nd not doing that when there isn=E2=80=99t. They don=E2=80=99t have a giant=
+ pot of long-term locked-up pension money to buy Treasuries with. They have=
+ a little bit of their own cash ($10 billion), and a lot of borrowed money =
+($540 billion), to buy the Treasuries that they transform into futures.
+So there is another intermediary here: When pensions are buying Treasury fu=
+tures, they are buying them from hedge funds and prop trading firms that ow=
+n the underlying raw materials (Treasuries) used to manufacture the futures=
+. But those hedge funds need another raw material: the cash they use to buy=
+ the Treasuries.=C2=A0That=C2=A0money is mostly borrowed, in the repo marke=
+t, where the hedge funds put up their Treasuries as collateral for short-te=
+rm cash loans from banks and money-market funds and other investors looking=
+ to park cash somewhere safe for the short term.=C2=A0
+Again, our simple model at the beginning was that=C2=A0long-time-horizon pe=
+nsion funds buy and hold long-term bonds from the long-time-horizon governm=
+ent. The more accurate model is:
+=09The long-time-horizon government sells long-term bonds.=09Those bonds ar=
+e bought by short-time-horizon hedge funds using borrowed money.=09The mone=
+y is borrowed from short-time-horizon repo lenders.=09The hedge funds use t=
+he bonds to manufacture=C2=A0Treasury futures, which they sell to long-time=
+-horizon pension funds.
+
+It all kinda works! The beginning makes sense, and the end makes sense, and=
+ the middle is=C2=A0efficient. It lets the pension funds be nimbler with th=
+eir cash and lend to real businesses and get higher yields. But that effici=
+ency comes with risk. The long-time-horizon government and the long-time-ho=
+rizon pensions don=E2=80=99t really have to care about market movements; if=
+ they dealt with each other directly, they could just do the trade once and=
+ wait for it to mature 30 years later. Once you introduce highly leveraged =
+short-term intermediaries, market movements can blow up the trade and lead =
+to margin calls and forced selling.
+We  talked last year about =E2=80=9Cliability-driven investment=E2=80=9D at=
+ UK pension funds, which led to a brief meltdown in the gilt (UK government=
+ bond) market. The story there is different, but it has similar features: P=
+ension funds, rather than matching their liabilities with long-dated gilts,=
+ bought things with higher returns and hedged their interest-rate risk with=
+ derivatives. This meant that if interest rates moved, the pensions got mar=
+gin calls and could get blown up. I wrote:
+
+This all makes total sense, in its way. But notice that you now=C2=A0have b=
+orrowed short-term money to buy volatile financial assets. The thing that w=
+as so good about pension funds =E2=80=94 their structural long-termism, the=
+ fact that you can=E2=80=99t have a run on a pension fund: You=E2=80=99ve r=
+uined that! Now, if interest rates go up (gilts go down), your bank will ca=
+ll you up and say =E2=80=9Cyou used our money to buy assets, and the assets=
+ went down, so you need to give us some money back.=E2=80=9D And then you h=
+ave to sell a bunch of your assets =E2=80=94 the gilts and stocks that you =
+own =E2=80=94 to pay off those margin calls. Through the magic of derivativ=
+es you have transformed your safe boring long-term pension fund into a risk=
+y leveraged vehicle that could get blown up by market moves.
+I know this is bad but I find something aesthetically beautiful about it. I=
+f you have a pot of money that is immune to bank runs, over time, modern fi=
+nance will find a way to make it vulnerable to bank runs. That is an emerge=
+nt property of modern finance. No one sits down and says =E2=80=9Clet=E2=80=
+=99s make pension funds vulnerable to bank runs!=E2=80=9D Finance, as an ab=
+stract entity, just sort of does that on its own.
+
+Finance really does do that!=C2=A0
+But this is not just finance being a clever little scamp; there is somethin=
+g essential about it. Last week, Lev Menand and Josh Younger published a fa=
+ntastic paper titled =E2=80=9CMoney and the Public Debt: Treasury Market Li=
+quidity as a Legal Phenomenon.=E2=80=9D Alexandra Scaggs wrote about it  at=
+ FT Alphaville, and Adam Tooze discussed it in  his newsletter, and I canno=
+t really do justice to everything that is in it, but it is a good thing to =
+read if you are thinking about the basis trade.
+  [6]
+
+It is basically a history of the US Treasury market from the perspective of=
+=C2=A0how Treasuries are turned into money.=C2=A0The very simple story of T=
+reasuries is =E2=80=9Cthe government wants to borrow long-term, some people=
+ want to lend long-term, and they get matched up.=E2=80=9D But that story h=
+as never been completely true: Treasuries are not just a long-term investme=
+nt for pension funds and retirement savers; they are also the preeminent=C2=
+=A0safe asset, which means that a lot of people who own Treasuries will hav=
+e occasion to sell them to raise cash. There needs to be a buyer: When ever=
+yone wants to sell Treasuries for cash, there needs to be someone who can q=
+uickly come up with a lot of cash to buy all the Treasuries. Menand and You=
+nger write:
+The high degree of convertibility between Treasury securities and cash =E2=
+=80=94 the market=E2=80=99s =E2=80=9Cliquidity=E2=80=9D =E2=80=94 depends u=
+pon entities that can create new, money-like claims to buy Treasuries. Some=
+times the government=E2=80=99s central bank has issued these claims directl=
+y, as in March 2020; other times these claims were issued by central bank-b=
+acked instrumentalities, such as banks and select broker-dealers.=C2=A0
+Who can =E2=80=9Ccreate new, money-like claims=E2=80=9D to quickly buy any =
+Treasury supply? The most obvious answer is =E2=80=9Cthe central bank=E2=80=
+=9D: The Federal Reserve (1) creates dollars and (2) buys Treasuries, so it=
+ is a natural supplier of Treasury liquidity. But that is sort of a=C2=A0di=
+sfavored answer: Everyone understands that it is bad for a government to fi=
+nance itself by=C2=A0printing money=C2=A0(it=E2=80=99s inflationary), so a =
+system in which the Treasury sold all of its bonds directly to the Fed for =
+newly created dollars would be bad.
+But Menand and Younger argue =E2=80=9Cthat American public finance has long=
+ been closely intertwined with the American monetary framework,=E2=80=9D an=
+d they trace the history of (1) who could issue =E2=80=9Cmoney-like claims=
+=E2=80=9D to buy Treasuries and (2) how the government and the Fed supporte=
+d those buyers and markets. The history has four parts:
+=09The national banking system, in which Congress chartered national banks =
+to print money and use the money to buy Treasuries; here, =E2=80=9Cfiscal-m=
+onetary entanglement was relatively transparent.=E2=80=9D=09The Federal Res=
+erve system, in which the Fed printed the actual dollars, while=C2=A0banks=
+=C2=A0issued deposits (money-like claims) and, for some time,=C2=A0used a l=
+ot of the money to buy Treasuries.=09The primary dealer system, in which ba=
+nks stopped buying so many Treasuries, but primary dealers (investment bank=
+s) bought Treasuries and funded them in the repo market. Repo, Menand and Y=
+ounger=C2=A0argue, is a money-like claim, a short-term safe place for cash =
+investors to park their money,=C2=A0and it was created and supported by the=
+ Fed=C2=A0to allow primary dealers to efficiently provide liquidity for Tre=
+asuries.=09The current system: After 2008, the primary dealer system atroph=
+ied (many big dealers=C2=A0became banks), and now Treasury liquidity comes =
+from a combination of (1)=C2=A0actual banks, which can   fund Treasuries by=
+ issuing deposits, and (2) hedge funds, prop trading firms and other not-qu=
+ite-primary-dealers that use the repo market to finance their Treasury trad=
+es.
+
+In all of the later configurations, the Fed sits somewhere behind the marke=
+t: When things go wrong, the Fed supports whoever (banks, primary dealers, =
+now hedge funds) provides Treasury liquidity. They write:
+Subsequent changes=C2=A0to market structure pushed substantial Treasury dea=
+ling further beyond the bank regulatory perimeter, leaving public finance i=
+ncreasingly dependent on high-frequency traders and hedge funds =E2=80=94 =
+=E2=80=9Cshadow dealers.=E2=80=9D The near-money issued by these intermedia=
+ries proved highly unstable in 2020. Policy makers are=C2=A0now focused on =
+reforming Treasury market structure so that Treasuries remain the world=E2=
+=80=99s most liquid asset class. Successful reform likely requires a legal =
+framework that, among other things, supports elastic intermediation capacit=
+y through balance sheets that can expand and contract as needed to meet mar=
+ket needs.
+Treasuries can never be a=C2=A0pure=C2=A0long-term buy-and-hold investment =
+for everyone; somebody needs to be ready to buy and sell them. That somebod=
+y will need short-term funding, and that short-term funding will create ris=
+ks, and the Fed will have to stand behind=C2=A0the market to sort out those=
+ risks.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Arm IPO
+   =20
+ =20
+
+The standard mechanism of the initial public offering is:
+=09A company hires some banks to sell some shares to the public for the fir=
+st time.=09The banks and company get together and come up with some estimat=
+e of value and then go out and market the shares at some price range based =
+around that estimate.=09They go out to investors, pitch the company, and ge=
+t orders at different prices.=09The goal is to be =E2=80=9Coversubscribed,=
+=E2=80=9D to have orders for many more shares than they are selling, so tha=
+t there is demand for the shares once they start trading. The bankers want =
+some investors=C2=A0not to get the shares that they asked for, so that they=
+ have to go out and buy them in the market the next day, so that the invest=
+ors who=C2=A0did=C2=A0get shares have someone to sell to. They want a healt=
+hy market, with supply and demand.=09The banks work for the company (they g=
+et paid a fee by the company), but they have mixed loyalties. The investors=
+ who buy the shares are also customers of the banks, often big customers wh=
+o pay the banks a lot of fees and do a lot of trades with the banks. The ba=
+nks want their corporate client to be happy, but they also want their inves=
+tor clients to be happy.=09This tension is=C2=A0the point=C2=A0of the IPO: =
+Companies hire banks to do IPOs because the banks have relationships with i=
+nvestors, because the banks are in a web of favors and obligations with the=
+ investors that they can use to sell the shares. If the banks were not some=
+what looking out for the investor clients, they would not be able to effect=
+ively sell the corporate client=E2=80=99s shares. =E2=80=9CNo conflict, no =
+interest.=E2=80=9D=09Anyway, at the end of the process the banks come to th=
+e company and say, like, =E2=80=9Cwe have gotten a lot of good orders, and =
+we are three times oversubscribed at $53 per share, and five times oversubs=
+cribed at $52, and 10 times oversubscribed at $51, and 15 times oversubscri=
+bed at $50, so let=E2=80=99s price at $51.=E2=80=9D=09And then the client s=
+ays =E2=80=9Cwait you said we have orders to buy three times the shares we =
+are selling at $53 per share, and you want us to sell the shares at $51? Is=
+n=E2=80=99t that leaving a lot of money on the table?=E2=80=9D=09And then t=
+he bankers say =E2=80=9Cyou don=E2=80=99t understand how this works, it is =
+in your long-term interests and also our long-term interests for the stock =
+to=C2=A0trade well, for it to go up after this offering is complete, and so=
+ we want to make sure there=E2=80=99s enough demand. It would be a disaster=
+ if the stock dropped on the first day. You will be a long-term repeat user=
+ of the capital markets, you will come back to investors for money, you wil=
+l pay your employees in stock, you want the stock to be attractive and trad=
+e up; you don=E2=80=99t want to take every last penny today at the expense =
+of long-term investor relationships.=E2=80=9D=09This advice is basically no=
+t wrong, though it probably implies that investors have longer memories tha=
+n they actually do.=09The company is like =E2=80=9Cfine $51.=E2=80=9D=09The=
+ stock doubles the next day.
+
+Sorry, actually, this was the standard mechanism of IPOs a few years ago, w=
+hen big =E2=80=9CIPO pops=E2=80=9D (where the stock doubles the day after t=
+he company goes public) were common, which led to companies trying things l=
+ike   direct listings to leave less money on the table. The standard mechan=
+ism of IPOs now is like:
+=09A company calls some banks about selling some shares to the public for t=
+he first time.=09The banks are like =E2=80=9Cehhh kind of a rough IPO marke=
+t right now, better wait.=E2=80=9D
+
+There is a middle ground; some companies are still going public these days.=
+ But the IPO market is still a bit shaky, and everyone is more sensitive ab=
+out not knocking it over.   For instance:
+
+SoftBank Group Corp. satisfied its ambitions for Arm Holdings Plc by raisin=
+g $4.87 billion in the year=E2=80=99s biggest initial public offering, whil=
+e resisting the temptation to try for more.
+A smooth trading debut from the chip designer on Thursday could help revive=
+ a weak IPO market and provide a boost for upcoming listings from companies=
+ like Instacart Inc. and Birkenstock Holding Ltd. At the IPO price, Arm is =
+valued at about $54.5 billion, according to Bloomberg News calculations.
+Arm=E2=80=99s offering was oversubscribed more than 10 times, people with k=
+nowledge of the matter have said, which means investor interest exceeded su=
+pply at the price range of $47 to $51 a share and could help buoy the stock=
+ once trading begins.
+In setting the price for the IPO, Masayoshi Son, SoftBank=E2=80=99s founder=
+, chairman and chief executive officer, signaled that he was unwilling to p=
+ush things too far even if it meant leaving a bit of money on the table.
+In the final price-setting meeting Wednesday, some bankers and executives m=
+ade the case for a higher price, with some of the debate centering on wheth=
+er $52 made sense, people familiar with the matter said, asking not to be i=
+dentified because the meeting was private. Son joined the discussion and ch=
+ose $51, saying it wasn=E2=80=99t worth risking a healthy debut for $100 mi=
+llion or so in additional proceeds, they said.
+
+The=C2=A0bankers=C2=A0told him to go with $52 and he said =E2=80=9Cnah let=
+=E2=80=99s do=C2=A0$51,=E2=80=9D the exact opposite of every 2019 IPO. Arm =
+opened for trading today at 12:19 p.m. with   a price of $56.10, then rose =
+a bit in early trading. A=C2=A0nice=C2=A0IPO pop: Up a bit, but not so much=
+ that you=E2=80=99re embarrassed about the money you left on the table.
+To be fair, it is Masayoshi Son, who is a particularly long-term repeat use=
+r of the capital markets. The Financial Times  noted last week:
+
+As well as retaining more than 90 per cent of a company that Son believes w=
+ill underpin the future of computing, SoftBank will also be able to lean on=
+ the newly listed company as a big source of financing. ...
+=E2=80=9CSoftBank has been wanting to monetise Arm for years,=E2=80=9D said=
+ Kirk Boodry, an analyst at Astris Advisory. =E2=80=9CArm is a quality asse=
+t, with punchy revenues and good margins. They can hold on to and still hav=
+e the cash to use in other areas =E2=80=94 in that respect it=E2=80=99s a p=
+erfect replacement for Alibaba.=E2=80=9D
+
+If you sell $5 billion of a $54 billion company and keep the other $49 bill=
+ion so you can borrow against it later to raise cash, you care a lot more a=
+bout the long-term value of the company than you do about maximizing today=
+=E2=80=99s sale price.
+Byrne Hobart also  points out that =E2=80=9CArm has a long list of strategi=
+c investors in the chip industry who have committed to taking a stake in th=
+e company,=E2=80=9D and that =E2=80=9Ca large chunk of [the shares sold in =
+the IPO] will be locked up by these buyers.=E2=80=9D This is probably good =
+for the stock price (a lot of the big investors in the IPO won=E2=80=99t=C2=
+=A0be selling the first day), which means that Son could probably get away =
+with being more aggressive in pricing. On the other hand, it means that if =
+he=E2=80=99s more aggressive in pricing he=E2=80=99s getting more money for=
+ SoftBank at the expense of Arm=E2=80=99s strategic customers. Ordinarily i=
+n an IPO, the banks have relationships with the investors and want to make =
+the investors happy, but the issuer is less interested in that goal. Here A=
+rm probably has stronger relationships with the investors than the banks do=
+.
+
+ =20
+   =20
+      Executive pay accounting
+   =20
+ =20
+
+If you are the board of directors of a small ambitious company that intends=
+ to disrupt and remake the whatever industry, but has not done so yet, prob=
+ably the way you should pay your chief executive officer is (1) give her en=
+ough cash to pay her rent and (2) promise to make her very rich if the comp=
+any actually works out. The exact mechanics of that promise are flexible, b=
+ut one pretty standard approach is:
+=09Give her a reasonable cash salary; and=09Award her a huge slug of stock =
+options, at the beginning of the journey to disrupting and remaking the ind=
+ustry, that will be worth, like, $5 billion if the company ends up being wo=
+rth $50 billion. But if the company ends up being worth $0, they=E2=80=99ll=
+ be worth zero. And if the company just sort of muddles along doing okay bu=
+t never really disrupts or remakes anything, they will=C2=A0also=C2=A0be wo=
+rth zero: They will only pay off if the company gets really big. They are a=
+ stretch goal, a huge reward for huge success; they are not meant to reward=
+ the CEO comfortably for modest success, but to encourage her to take big s=
+wings.
+
+This is not the only way to do it, and boards that try to do it this way do=
+ not always follow through rigorously. (If the company does okay-but-not-gr=
+eat, but the CEO is doing her best and the board likes her, they might modi=
+fy her options or give her more so that she still gets rich without real su=
+ccess.) But the appeal of this approach is obvious, grounded in theory, ali=
+gned with shareholders and not uncommon. In the state of the world where th=
+e CEO gets rich, the shareholder have also gotten rich, which is what the s=
+hareholders want.
+But the accounting is weird. As a matter of accounting, what happens is tha=
+t you give the CEO a one-time grant of options whose payout is something li=
+ke =E2=80=9C$5 billion if the company gets to $50 billion and $0 if it stay=
+s under $5 billion,=E2=80=9D or whatever, and then an accountant throws tha=
+t into a Black-Scholes calculator and computes that the options have a fair=
+ market value,=C2=A0now, of $100 million or whatever, and then you disclose=
+ that value as the CEO=E2=80=99s =E2=80=9Ccompensation=E2=80=9D for =E2=80=
+=9Cthis year=E2=80=9D in your securities filings.=C2=A0And then journalists=
+ cheerfully report that your CEO gets =E2=80=9Cpaid=E2=80=9D $100 million =
+=E2=80=9Cper year,=E2=80=9D and that she is one of the highest-paid CEOs in=
+ the country despite your company being kind of small and not having had mu=
+ch success.
+And you say, well, of course we are small and haven=E2=80=99t had much succ=
+ess; the point of the options grant is to change that. The options will cos=
+t you $5 billion if the company works out great and $0 if it doesn=E2=80=99=
+t. They didn=E2=80=99t =E2=80=9Creally=E2=80=9D cost you $100 million now, =
+and the CEO certainly didn=E2=80=99t=C2=A0get=C2=A0$100 million now: The ca=
+lculated fair market value of the options today might be $100 million, but =
+she can=E2=80=99t sell them, and she will never get any value for them unle=
+ss the company succeeds. The $100 million value is, crudely, the $5 billion=
+ value of the options in the success case times the 2% chance of achieving =
+it.
+  [7]
+=C2=A0It=E2=80=99s =E2=80=9Cworth=E2=80=9D $100 million in expectation, but=
+ 98% of the time it will end up worth zero.
+We  talked in July about an article titled =E2=80=9CMeet the CEOs Who Pull =
+In More Than $100 Million a Year,=E2=80=9D and I made some of these points,=
+ particularly about the CEO of=C2=A0=E2=80=9CCS Disco, a cloud-services pro=
+vider that caters to attorneys and [had] a market capitalization of about $=
+500 million.=E2=80=9D Giving the CEO of a $500 million company=C2=A0$100 mi=
+llion in annual pay seems odd,
+  [8]
+=C2=A0but of course CS Disco didn=E2=80=99t do that. They gave him a big on=
+e-time grant of options with a $109 million fair market value, but the opti=
+ons (1) have a strike price of $32 and (2) vest at prices starting at $150 =
+and going up.
+  [9]
+=C2=A0The $32 strike price was the company=E2=80=99s initial public offerin=
+g price, but by the time we talked about it the stock was at $8.40 and, I w=
+rote, =E2=80=9Cthe=C2=A0most likely=C2=A0value of this $109 million pay pac=
+kage is zero dollars.=E2=80=9D
+There=E2=80=99s=C2=A0an update today:
+
+A big payday doesn=E2=80=99t always keep a chief executive employed.
+Just over a year after CS Disco=C2=A0shareholders approved a CEO pay packag=
+e worth nearly $110 million =E2=80=94 one of the biggest of 2022 =E2=80=94 =
+the company=E2=80=99s co-founder and chief executive, Kiwi Camara, resigned=
+ with little explanation.
+His departure, disclosed in a securities filing on Monday, could mean Camar=
+a loses the stock options that made up nearly all of the pay package. Camar=
+a couldn=E2=80=99t be immediately reached for comment.=C2=A0
+CS Disco shares fell nearly 20% Tuesday following the disclosure. Shares in=
+ the company, which provides software used by lawyers, are trading below $8=
+ after going public at $32 in July 2021. =E2=80=A6
+Under the terms of his employment agreement and equity awards, Camara would=
+ forfeit the 4.37 million options he received in May last year if he depart=
+ed before the company met certain stock-price targets, ranging from $150 to=
+ $900 a share. CS Disco hasn=E2=80=99t traded above about $66 a share, a le=
+vel it last reached in 2021.
+
+Yes, right, he had a deal that would pay him a lot of money if he could get=
+ the stock up above $150, and when it became clear that that was not going =
+to happen, he left, leaving behind a pay package that was manifestly worth =
+zero dollars.
+  [10]
+
+In some sense that is the disadvantage of paying your CEO like this: If she=
+ takes a big swing and misses and the stock=C2=A0falls=C2=A0rather than ris=
+ing, she will give up, because there is no hope of achieving the milestones=
+ that you set for her. But in another, more accurate, sense that=E2=80=99s =
+why you set the milestones! You wanted the company to take a big swing and =
+disrupt its industry, and if it doesn=E2=80=99t work out you don=E2=80=99t =
+want the CEO sitting around comfortably collecting a big check.
+
+ =20
+   =20
+      Don=E2=80=99t put it in email
+   =20
+ =20
+
+One fact of antitrust law is that if you are an executive at=C2=A0a big com=
+pany, or at a medium-sized company contemplating a merger, you will think t=
+hings like =E2=80=9Cwe need to grow our market share=E2=80=9D or =E2=80=9Cw=
+e need to grind our competitors into dust,=E2=80=9D but if you say stuff li=
+ke that =E2=80=94=C2=A0particularly, if you say it in writing, in emails or=
+ memos or presentations=C2=A0=E2=80=94=C2=A0antitrust regulators might find=
+ it and sue to break up your company or stop the merger or whatever, and th=
+ey will use your words to prove that you are doing anti-competitive things =
+to become a monopoly. This is not intuitively obvious=C2=A0to you at all: Y=
+ou are just a normal competitive businessperson looking to do more business=
+; surely trying to gain market share is good=C2=A0for competition, not bad.=
+ But there are forms of words, ways of expressing things, that=C2=A0look ba=
+d to antitrust regulators, and there are others that don=E2=80=99t, and mos=
+t normal people don=E2=80=99t know which are which.
+  [11]
+
+Antitrust lawyers do, though, so it is common in mergers for the antitrust =
+lawyers to sit down with their clients and say =E2=80=9Chere are the words =
+not to use, and here are the words to use instead.=E2=80=9D And if you work=
+ at a company that gets big enough organically, and that starts looking a l=
+ittle monopolish, at some point it will hire some antitrust lawyers who wil=
+l also have that talk with everyone.=C2=A0
+But there is a problem, which is that the talk=C2=A0also=C2=A0uses the bad =
+words. The talk itself looks suspicious! If you are going around telling pe=
+ople not to use the bad words, that suggests a guilty conscience; you tell =
+people not to say =E2=80=9Ccrush the competition=E2=80=9D because you know =
+that your plans to crush the competition are monopolistic. Or that=E2=80=99=
+s what antitrust regulators will argue. Also  the talk is probably in writi=
+ng:
+
+Alphabet Inc.=E2=80=99s Google is on trial in Washington DC over US allegat=
+ions that it illegally maintained a monopoly in the online search business.=
+ Executives of the Mountain View, California-based behemoth have known for =
+years that the company=E2=80=99s practices are under a microscope, and have=
+ encouraged its employees to avoid creating lasting records of potential pr=
+oblematic conduct, government lawyers allege. =E2=80=A6
+As far back as 2003, Google managers circulated unambiguous instructions on=
+ phrases to avoid to ensure they don=E2=80=99t come across like monopolists=
+.
+We =E2=80=9Chave to be sensitive about antitrust considerations,=E2=80=9D G=
+oogle Chief Economist Hal Varian wrote in a July 2003 memo, unearthed by go=
+vernment lawyers who are suing Alphabet. =E2=80=9CWe should be careful abou=
+t what we say in both public and private.=E2=80=9D
+One phrase to avoid, Varian said: =E2=80=9CCutting off their air supply.=E2=
+=80=9D He was referring to a quip used years earlier by then-Microsoft Corp=
+ Chief Executive Officer Steve Ballmer, when his company was under federal =
+antitrust scrutiny.
+Another no-no, according to a 2009 Varian missive: =E2=80=9CMarket share.=
+=E2=80=9D Instead, when referring to Google=E2=80=99s portion of the search=
+ market, use the term =E2=80=9Cquery share.=E2=80=9D Penny Chu, the recipie=
+nt of Varian=E2=80=99s email, responded in the affirmative. =E2=80=9CYes, a=
+bsolutely.=E2=80=9D Such instructions constitute =E2=80=9Cthe one big thing=
+ I remember from all that Legal training,=E2=80=9D Chu wrote, ending the se=
+ntence with a sideways smiley. =E2=80=A6
+During the trial, [Justice Department lawyer Kenneth] Dintzer pressed Varia=
+n on the question of =E2=80=9Cantitrust training=E2=80=9D at Google. When V=
+arian said he couldn=E2=80=99t remember whether he=E2=80=99d taken it, Dint=
+zer tried to jog his memory. =E2=80=9CAvoid references to markets or market=
+ shares or dominance,=E2=80=9D Dintzer said, citing an internal document.
+
+It really is a hard problem to solve. One option is you hire the antitrust =
+lawyers and they walk door to door, visiting every person=E2=80=99s office =
+and having an in-person chat impressing on everyone the importance of using=
+ the good words and not the bad words. Maybe the antitrust lawyers, like, d=
+ress up in hooded robes and play terrifying sound effects and generally try=
+ to put on a memorable theatrical presentation (with nothing in writing!) t=
+o scare everyone into remembering not to use the bad words. People are gonn=
+a forget, and then you have to remind them,=C2=A0not in writing, never in w=
+riting. You show up at their office in the robe again, with a scythe, and y=
+ou point a bony finger at them and=C2=A0in a booming desolate voice you sho=
+ut =E2=80=9CIT=E2=80=99S QUERY SHARE.=E2=80=9D Still, even if you never put=
+ it in writing, the regulators could ask about it at trial.
+Really this stuff should be taught in college, so that every company can wa=
+sh its hands of it. The last semester at Wharton everyone should have to ta=
+ke a class called Don=E2=80=99t Put It In Email that is just, like, =E2=80=
+=9Cwe know that when you go out into the world you will occasionally engage=
+ in legally ambiguous actions, here are some best practices for not getting=
+ in trouble over them, some forms of words and communications methods not t=
+o use and some others to use instead.=E2=80=9D Then the college=C2=A0is res=
+ponsible for the =E2=80=9Cdon=E2=80=99t put it in email=E2=80=9D instructio=
+n,=C2=A0but not for the legally ambiguous actions (Wharton=C2=A0is not star=
+ving Google=E2=80=99s competitors of oxygen), while the companies are respo=
+nsible for the legally ambiguous actions but not for any=C2=A0trainings tha=
+t look like evidence of a guilty conscience.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+How   Sam Bankman-Fried=E2=80=99s Elite Parents Enabled His Crypto Empire.=
+=C2=A0Fund Giants Muscle In on the $1.5 Trillion   Private Credit Party. =
+=E2=80=98Almost All Loans Are Bad=E2=80=99 =E2=80=94 Why  Banks Aren=E2=80=
+=99t Lending. After $16bn judgment, Burford=E2=80=99s next battle will be  =
+making Argentina pay.=C2=A0Inside Exxon=E2=80=99s Strategy to  Downplay Cli=
+mate Change. Goldman Sachs Fires Transaction Banking Chief Moorthy, Other L=
+eaders Over   Lapses. Caesars Entertainment   Paid Millions to Hackers in A=
+ttack. X   Unlikely to Win Back Advertisers Before Holiday Season.=C2=A0X C=
+orp. Agrees to Try to Settle Lawsuits Over   Mass Layoffs. Is Chainalysis b=
+lockchain tracing =E2=80=9C  junk science=E2=80=9D?=C2=A0 Gemini Earn Users=
+ Could Expect Nearly Full Recovery in Genesis Bankruptcy, DCG Says. Billion=
+aire   Divorces Spur Crackdown by China=E2=80=99s Market Regulator. Golf Di=
+gest on weird trading in the stock of a  micro-cap putter company.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Boringly 10-year Treasuries are called =E2=80=9Cnotes=E2=80=9D and 20=
+- and 30-years are called =E2=80=9Cbonds=E2=80=9D but let=E2=80=99s not wor=
+ry about that.
+
+
+  [2] It is not, like, accurate in all respects or anything; this is still =
+a very stylized version of one portion of what is going on with the basis t=
+rade.
+
+
+  [3] Not only because, like, that would be weird, but because the governme=
+nt is in the Treasury market to borrow actual money, and the point of Treas=
+ury futures is that they do not involve much upfront cash. If you sell $100=
+,000 of Treasury bonds you get $100,000; if you sell $100,000 of Treasury f=
+utures you don=E2=80=99t really get any cash to use immediately.
+
+
+  [4] Again, I am writing a very stylized schematic story of the basis trad=
+e. In the real world futures are used by lots of investors for lots of reas=
+ons, people are naturally long futures while others are naturally short, et=
+c.; this is really only part of it. But I think the intuitions here are int=
+eresting.
+
+
+  [5] The phrase I would use here is not "a window for speculators to take =
+advantage" but rather "a form of compensation for people who do the work of=
+ manufacturing futures out of Treasuries."
+
+
+  [6] This is a bit tangential to the main points in the text, but the pape=
+r explains the basis trade as a way for hedge funds to, like, reserve bank =
+balance sheet: =E2=80=9CSecond, to the extent that SLR and other regulation=
+s drove their internal economic incentives when managing balance sheet capa=
+city, bank-affiliated intermediaries often allocated it on a =E2=80=98use i=
+t or lose it=E2=80=99 basis. In other words, leverage budgets that were all=
+ocated to specific entities but, if they were left underutilized, were down=
+sized in favor of more active clients during regular reviews. That motivate=
+d hedge funds and other major consumers of leverage to find ways to utilize=
+ leverage allocations without taking much market risk. In other words, it b=
+ecame costly not to use one=E2=80=99s access to bank balance sheet, for fea=
+r that access would not be available when needed. Cash/Treasuries basis tra=
+des, which are most commonly constructed as a =E2=80=98short=E2=80=99 in fu=
+tures and a repo-financed =E2=80=98long=E2=80=99 in one or several bonds fr=
+om that contract=E2=80=99s deliverable basket, rely on leverage but have a =
+theoretically bounded payoff with minimal market risk in a relatively wide =
+range of market conditions. That made them fit for purpose as a placeholder=
+ position to secure future access to balance sheet as needed.=E2=80=9D
+
+
+  [7] Obviously Black-Scholes doesn=E2=80=99t work this way but we don=E2=
+=80=99t have to care about that.
+
+
+  [8] Come to think of it, that's=20
+the rough order of magnitude of Jimmy Levin=E2=80=99s pay at Sculptor Capit=
+al Management Inc. and Sculptor=E2=80=99s market cap, but that=E2=80=99s be=
+cause publicly traded hedge fund companies really are odd.
+
+
+  [9] They also vest on a change of control, making this functionally a big=
+ golden parachute.
+
+
+  [10] Well, =E2=80=9CCamara made about $500,000 in salary last year and ju=
+st under $1 million, all cash, in 2021.=E2=80=9D Still the pile of hopeless=
+ options was not an incentive to stay.
+
+
+  [11] I don=E2=80=99t really either, though I have at times in my life see=
+n some lists. My vague impression is that a lot of words like =E2=80=9Cmark=
+et share=E2=80=9D are bad because a lot of  fights in antitrust are about m=
+arket definition. The government will say that you are dominant in the mark=
+et for social media, and   you will say =E2=80=9Cno we are a tiny fraction =
+of the market for human interaction,=E2=80=9D and you=E2=80=99ll argue abou=
+t what the relevant market is. But if your employees were sending around me=
+mos like =E2=80=9Cwe need to increase our market share, we=E2=80=99re curre=
+ntly 35% of social media and want to get to 40%,=E2=80=9D then the governme=
+nt can say =E2=80=9Csee, that=E2=80=99s the correct market.=E2=80=9D
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjh4ge.66jr/56d7dec2.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_93294311_1980222024.1694714458591
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.A simple=
+ model of US Treasury bonds%3Cp%3EBoringly%2010-year%20Treasuries
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBd00f79fb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjcxMTYzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMDAwNTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB6d4faecf" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32711630&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33000053&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Basis trade</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A simple model of US Treasury bonds<a class=3D=
+"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0could go something like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The US government borrows a lot of mo=
+ney and has a very long time horizon, so it wants to borrow a lot of money =
+for terms of 10 or 20 or 30 years.</li>=09<li style=3D"margin-bottom: 5px;"=
+>Lots of asset owners =E2=80=94=C2=A0pension funds, university endowments, =
+people saving for retirement =E2=80=94=C2=A0also have a long time horizon a=
+nd want to earn a safe return, so they want to lend the government money fo=
+r terms of 10 or 20 or 30 years.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is a nice and simple story. Pensions have=
+ long-dated liabilities (future pension payments), so they buy long-dated a=
+ssets (long-term Treasuries) to match them, which means that they can buy T=
+reasury bonds for long periods and hold them until they mature.</p>
+<p style=3D"margin: 16px 0;">It is not a perfect story. If you run a pensio=
+n fund, you probably do not just buy long-term Treasuries to cover your fut=
+ure liabilities. Treasuries are very safe assets, which means they don=E2=
+=80=99t pay that much, and you want to get paid more. You probably invest i=
+n other stuff =E2=80=94=C2=A0=E2=80=9Ccredit,=E2=80=9D corporate bonds and =
+private credit and asset-backed securities =E2=80=94=C2=A0to earn a bit mor=
+e yield.</p>
+<p style=3D"margin: 16px 0;">Much of this credit stuff, though, has shorter=
+ terms than 30 years; there is not=C2=A0<em>that=C2=A0</em>much 30-year cor=
+porate borrowing. If you buy a lot of seven-year corporate bonds, and you h=
+ave very long-dated liabilities, there will be a mismatch. You are taking a=
+ lot of interest-rate risk: Sure those bonds pay a lot of interest now, but=
+ they mature in seven years, and if interest rates are lower in seven years=
+ you will earn less interest. If your liabilities are long term, you want t=
+o earn a lot of interest over the whole term. You want the duration of your=
+ assets to match the duration of your liabilities.</p>
+<p style=3D"margin: 16px 0;">So you buy more duration with Treasury=C2=A0<e=
+m>futures.=C2=A0</em>Treasury futures are synthetic contracts that give you=
+ the interest-rate exposure of Treasury bonds=C2=A0but without putting up m=
+uch cash upfront. You put up about <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32711630.288423/aHR0cHM6Ly93d3cuY21lZ3JvdXAuY29tL21hcmtldH=
+MvaW50ZXJlc3QtcmF0ZXMvdXMtdHJlYXN1cnkvMzAteWVhci11cy10cmVhc3VyeS1ib25kLm1hc=
+mdpbnMuaHRtbA/607f07ceef4b8524a319a23cB225587b1" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> $3,900</a> and ge=
+t economic exposure to $100,000 of Treasury bonds: If long-term Treasury pr=
+ices go up by 1%, you make $1,000 on your initial $3,900. If interest rates=
+ go down, the price of Treasury bonds will go up, and you will make money, =
+which will compensate you for your reduced future interest earnings.</p>
+<p style=3D"margin: 16px 0;">This is a more nuanced story of what pension f=
+unds and other long-term asset managers do.<a class=3D"footnote-index" href=
+=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[2]</span>
+</a> But our original simple story described a whole trade: Pensions bought=
+ Treasuries, and the government sold them, and the trade made sense for bot=
+h of them. Now we have a trade that makes sense for pension funds, but who =
+is on the other side? The government is not selling them Treasury futures.<=
+a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">Instead, you need some intermediary to provide=
+ the service of=C2=A0<em>transforming=C2=A0</em>Treasuries (sold by the gov=
+ernment) into=C2=A0Treasury futures (bought by pension funds). This service=
+ is called the =E2=80=9Cbasis trade,=E2=80=9D and the intermediaries are us=
+ually hedge funds and proprietary trading firms.<a class=3D"footnote-index"=
+ href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[4]</span>
+</a> Here is a=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32711630.288423/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9oZWRnZ=
+S1mdW5kcy1iaWctYmV0LWFnYWluc3QtdHJlYXN1cnlzLWlzbnQtd2hhdC15b3UtdGhpbmstZmFi=
+YTM4YzU_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a23cBf83e57cd" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Wall Street Journal article</a>=C2=A0about the basis trade, which has cause=
+d problems in recent years and is now making a comeback:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A popular way for hedge funds to profit from b=
+ond trading while minimizing their exposure to swings in the market, the ba=
+sis trade exploits the price difference between Treasurys and Treasury futu=
+res. The resurgence is attracting fresh scrutiny from Wall Street because p=
+revious meltdowns have rattled global markets. ...</p>
+<p style=3D"margin: 16px 0;">Hedge funds buy Treasurys, then bet against Tr=
+easury futures by selling contracts promising delivery of a bond on a speci=
+fic date at a preset price. Instead of betting on the direction of bond mar=
+kets, the trade seeks to take advantage of small differences in the securit=
+ies=E2=80=99 prices.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The trade works because large asset managers l=
+ike pension funds often prefer buying Treasury futures that require less up=
+-front cash than actual bonds. That tends to make the contracts slightly mo=
+re expensive than the bonds, creating a window for speculators to take adva=
+ntage.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> Futures prices typically converge toward bond prices as their settleme=
+nt date approaches.</p>
+<p style=3D"margin: 16px 0;">The differences are small, so hedge funds juic=
+e returns by borrowing from big banks in the overnight funding markets=E2=
+=80=94often putting little, if any, cash up front. Leverage can reach extre=
+me levels: Hedge funds had more than $550 billion of Treasury trades at the=
+ end of last year backed by just $10 billion of their own money, Fed resear=
+ch found.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The obvious objection is that if you have $550=
+ billion of Treasuries backed by $10 billion of your own money, and the val=
+ue of Treasuries drops by 2%, then all of your money is gone, you have to d=
+ump Treasuries, everyone else is dumping them at the same time and there is=
+ a crisis.=C2=A0This is an exaggeration, because if the value of Treasuries=
+ drops by 2% then probably you made 2% on your futures and you=E2=80=99re m=
+ore or less fine, but still there is not a ton of margin for error, and mis=
+takes have been made:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The basis trade had been subdued since a dash =
+for cash in March 2020 forced hedge funds to rapidly unwind their positions=
+, straining the market for Treasurys =E2=80=94 meant to be the world=E2=80=
+=99s easiest investment to buy and sell. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">During the 2020 Covid market crash, hedge fund=
+s=E2=80=99 unwinding of leveraged strategies including the basis trade spil=
+led across markets, helping send the Dow Jones Industrial Average to its wo=
+rst losses since 1987 and forcing the Fed to step in.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But now it is back:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Fed=E2=80=99s fight against inflation and =
+the U.S. government=E2=80=99s wave of borrowing reignited the trade, analys=
+ts say. Higher yields and worries about a recession have asset managers sco=
+oping up long-term bond futures. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Given those uncertainties and with a potential=
+ recession up in the air, =E2=80=9Cit=E2=80=99s natural to see record hedgi=
+ng in the Treasury market,=E2=80=9D said Agha Mirza, global head of rates a=
+nd OTC products at CME Group.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you are a pension fund, the 10-year Treasur=
+y is at a high-relative-to-recent-history 4.25%, and you worry it will go b=
+ack down if there is a recession, then you will want to lock in a lot of th=
+at rate=C2=A0while earning more today on corporate credit. So you will load=
+ up on Treasury futures. And someone will sell them to you.</p>
+<p style=3D"margin: 16px 0;">But you are a pension fund. The people selling=
+ you these futures are not.=C2=A0<em>You=C2=A0</em>have a long time horizon=
+.=C2=A0<em>They=C2=A0</em>are doing this as a trade.=C2=A0<em>They=C2=A0</e=
+m>are in the business of buying a ton of Treasuries and selling a ton of Tr=
+easury futures when there is demand for the futures, and not doing that whe=
+n there isn=E2=80=99t. They don=E2=80=99t have a giant pot of long-term loc=
+ked-up pension money to buy Treasuries with. They have a little bit of thei=
+r own cash ($10 billion), and a lot of borrowed money ($540 billion), to bu=
+y the Treasuries that they transform into futures.</p>
+<p style=3D"margin: 16px 0;">So there is another intermediary here: When pe=
+nsions are buying Treasury futures, they are buying them from hedge funds a=
+nd prop trading firms that own the underlying raw materials (Treasuries) us=
+ed to manufacture the futures. But those hedge funds need another raw mater=
+ial: the cash they use to buy the Treasuries.=C2=A0<em>That=C2=A0</em>money=
+ is mostly borrowed, in the repo market, where the hedge funds put up their=
+ Treasuries as collateral for short-term cash loans from banks and money-ma=
+rket funds and other investors looking to park cash somewhere safe for the =
+short term.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Again, our simple model at the beginning was t=
+hat=C2=A0long-time-horizon pension funds buy and hold long-term bonds from =
+the long-time-horizon government. The more accurate model is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The long-time-horizon government sell=
+s long-term bonds.</li>=09<li style=3D"margin-bottom: 5px;">Those bonds are=
+ bought by short-time-horizon hedge funds using borrowed money.</li>=09<li =
+style=3D"margin-bottom: 5px;">The money is borrowed from short-time-horizon=
+ repo lenders.</li>=09<li style=3D"margin-bottom: 5px;">The hedge funds use=
+ the bonds to manufacture=C2=A0Treasury futures, which they sell to long-ti=
+me-horizon pension funds.</li>
+</ol>
+<p style=3D"margin: 16px 0;">It all kinda works! The beginning makes sense,=
+ and the end makes sense, and the middle is=C2=A0<em>efficient</em>. It let=
+s the pension funds be nimbler with their cash and lend to real businesses =
+and get higher yields. But that efficiency comes with risk. The long-time-h=
+orizon government and the long-time-horizon pensions don=E2=80=99t really h=
+ave to care about market movements; if they dealt with each other directly,=
+ they could just do the trade once and wait for it to mature 30 years later=
+. Once you introduce highly leveraged short-term intermediaries, market mov=
+ements can blow up the trade and lead to margin calls and forced selling.</=
+p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMDktMjkvdWstcGVuc2lvbnMtZ290LW1hcmdpbi1jYWxscz9jbXBpZD1C=
+QkQwOTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cBdca1a5e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> talked last year</a> about =E2=80=9Cliability-dri=
+ven investment=E2=80=9D at UK pension funds, which led to a brief meltdown =
+in the gilt (UK government bond) market. The story there is different, but =
+it has similar features: Pension funds, rather than matching their liabilit=
+ies with long-dated gilts, bought things with higher returns and hedged the=
+ir interest-rate risk with derivatives. This meant that if interest rates m=
+oved, the pensions got margin calls and could get blown up. I wrote:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">This all makes total sense, in its way. But no=
+tice that you now=C2=A0<em>have borrowed short-term money to buy volatile f=
+inancial assets</em>. The thing that was so good about pension funds =E2=80=
+=94 their structural long-termism, the fact that you can=E2=80=99t have a r=
+un on a pension fund: You=E2=80=99ve ruined that! Now, if interest rates go=
+ up (gilts go down), your bank will call you up and say =E2=80=9Cyou used o=
+ur money to buy assets, and the assets went down, so you need to give us so=
+me money back.=E2=80=9D And then you have to sell a bunch of your assets =
+=E2=80=94 the gilts and stocks that you own =E2=80=94 to pay off those marg=
+in calls. Through the magic of derivatives you have transformed your safe b=
+oring long-term pension fund into a risky leveraged vehicle that could get =
+blown up by market moves.</p>
+<p style=3D"margin: 16px 0;">I know this is bad but I find something aesthe=
+tically beautiful about it. If you have a pot of money that is immune to ba=
+nk runs, over time, modern finance will find a way to make it vulnerable to=
+ bank runs. That is an emergent property of modern finance. No one sits dow=
+n and says =E2=80=9Clet=E2=80=99s make pension funds vulnerable to bank run=
+s!=E2=80=9D Finance, as an abstract entity, just sort of does that on its o=
+wn.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Finance really does do that!=C2=A0</p>
+<p style=3D"margin: 16px 0;">But this is not just finance being a clever li=
+ttle scamp; there is something essential about it. Last week, Lev Menand an=
+d Josh Younger published a fantastic paper titled =E2=80=9C<a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly9qb3Vybm=
+Fscy5saWJyYXJ5LmNvbHVtYmlhLmVkdS9pbmRleC5waHAvQ0JMUi9hcnRpY2xlL3ZpZXcvMTE5M=
+DAvNjAxOA/607f07ceef4b8524a319a23cB75d20778" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Money and the Public D=
+ebt: Treasury Market Liquidity as a Legal Phenomenon</a>.=E2=80=9D Alexandr=
+a Scaggs wrote about it <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32711630.288423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNDMzM2FhMmItNzc3Y=
+S00YzllLThiZmMtYTI0MmIzZDIxYzVm/607f07ceef4b8524a319a23cBadb69744" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ at FT Alphaville</a>, and Adam Tooze discussed it in <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly9hZGFtdG9vemU=
+uc3Vic3RhY2suY29tL3AvY2hhcnRib29rLTIzOC1tYWtpbmctYW5kLXJlbWFraW5n/607f07cee=
+f4b8524a319a23cB45f00c6b" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> his newsletter</a>, and I cannot really =
+do justice to everything that is in it, but it is a good thing to read if y=
+ou are thinking about the basis trade.<a class=3D"footnote-index" href=3D"#=
+footnote-6" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: no=
+ne !important; background-color: transparent !important; display: inline-bl=
+ock;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">It is basically a history of the US Treasury m=
+arket from the perspective of=C2=A0<em>how Treasuries are turned into money=
+.=C2=A0</em>The very simple story of Treasuries is =E2=80=9Cthe government =
+wants to borrow long-term, some people want to lend long-term, and they get=
+ matched up.=E2=80=9D But that story has never been completely true: Treasu=
+ries are not just a long-term investment for pension funds and retirement s=
+avers; they are also the preeminent=C2=A0<em>safe asset</em>, which means t=
+hat a lot of people who own Treasuries will have occasion to sell them to r=
+aise cash. There needs to be a buyer: When everyone wants to sell Treasurie=
+s for cash, there needs to be someone who can quickly come up with a lot of=
+ cash to buy all the Treasuries. Menand and Younger write:</p>
+<blockquote><p style=3D"margin: 16px 0;">The high degree of convertibility =
+between Treasury securities and cash =E2=80=94 the market=E2=80=99s =E2=80=
+=9Cliquidity=E2=80=9D =E2=80=94 depends upon entities that can create new, =
+money-like claims to buy Treasuries. Sometimes the government=E2=80=99s cen=
+tral bank has issued these claims directly, as in March 2020; other times t=
+hese claims were issued by central bank-backed instrumentalities, such as b=
+anks and select broker-dealers.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Who can =E2=80=9Ccreate new, money-like claims=
+=E2=80=9D to quickly buy any Treasury supply? The most obvious answer is =
+=E2=80=9Cthe central bank=E2=80=9D: The Federal Reserve (1) creates dollars=
+ and (2) buys Treasuries, so it is a natural supplier of Treasury liquidity=
+. But that is sort of a=C2=A0disfavored answer: Everyone understands that i=
+t is bad for a government to finance itself by=C2=A0<em>printing money=C2=
+=A0</em>(it=E2=80=99s inflationary), so a system in which the Treasury sold=
+ all of its bonds directly to the Fed for newly created dollars would be ba=
+d.</p>
+<p style=3D"margin: 16px 0;">But Menand and Younger argue =E2=80=9Cthat Ame=
+rican public finance has long been closely intertwined with the American mo=
+netary framework,=E2=80=9D and they trace the history of (1) who could issu=
+e =E2=80=9Cmoney-like claims=E2=80=9D to buy Treasuries and (2) how the gov=
+ernment and the Fed supported those buyers and markets. The history has fou=
+r parts:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The national banking system, in which=
+ Congress chartered national banks to print money and use the money to buy =
+Treasuries; here, =E2=80=9Cfiscal-monetary entanglement was relatively tran=
+sparent.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">The Federal Rese=
+rve system, in which the Fed printed the actual dollars, while=C2=A0<em>ban=
+ks=C2=A0</em>issued deposits (money-like claims) and, for some time,=C2=A0u=
+sed a lot of the money to buy Treasuries.</li>=09<li style=3D"margin-bottom=
+: 5px;">The primary dealer system, in which banks stopped buying so many Tr=
+easuries, but primary dealers (investment banks) bought Treasuries and fund=
+ed them in the repo market. Repo, Menand and Younger=C2=A0argue, is a money=
+-like claim, a short-term safe place for cash investors to park their money=
+,=C2=A0and it was created and supported by the Fed=C2=A0to allow primary de=
+alers to efficiently provide liquidity for Treasuries.</li>=09<li style=3D"=
+margin-bottom: 5px;">The current system: After 2008, the primary dealer sys=
+tem atrophied (many big dealers=C2=A0became banks), and now Treasury liquid=
+ity comes from a combination of (1)=C2=A0<em>actual banks</em>, which can <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3Rhcn=
+R1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDkxNDIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE0=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1807a66b" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  fund Treasuries by issuing deposits</a>, and (2) hedge funds, prop tradi=
+ng firms and other not-quite-primary-dealers that use the repo market to fi=
+nance their Treasury trades.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In all of the later configurations, the Fed si=
+ts somewhere behind the market: When things go wrong, the Fed supports whoe=
+ver (banks, primary dealers, now hedge funds) provides Treasury liquidity. =
+They write:</p>
+<blockquote><p style=3D"margin: 16px 0;">Subsequent changes=C2=A0to market =
+structure pushed substantial Treasury dealing further beyond the bank regul=
+atory perimeter, leaving public finance increasingly dependent on high-freq=
+uency traders and hedge funds =E2=80=94 =E2=80=9Cshadow dealers.=E2=80=9D T=
+he near-money issued by these intermediaries proved highly unstable in 2020=
+. Policy makers are=C2=A0now focused on reforming Treasury market structure=
+ so that Treasuries remain the world=E2=80=99s most liquid asset class. Suc=
+cessful reform likely requires a legal framework that, among other things, =
+supports elastic intermediation capacity through balance sheets that can ex=
+pand and contract as needed to meet market needs.</p></blockquote>
+<p style=3D"margin: 16px 0;">Treasuries can never be a=C2=A0<em>pure=C2=A0<=
+/em>long-term buy-and-hold investment for everyone; somebody needs to be re=
+ady to buy and sell them. That somebody will need short-term funding, and t=
+hat short-term funding will create risks, and the Fed will have to stand be=
+hind=C2=A0the market to sort out those risks.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjcxMTYzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMDAwNTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCc6381e9f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32711630&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33000053&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjcxMTYzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMDAwNTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDc6381e9f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32711630&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33000053&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Arm IPO</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The standard mechanism of the initial public o=
+ffering is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A company hires some banks to sell so=
+me shares to the public for the first time.</li>=09<li style=3D"margin-bott=
+om: 5px;">The banks and company get together and come up with some estimate=
+ of value and then go out and market the shares at some price range based a=
+round that estimate.</li>=09<li style=3D"margin-bottom: 5px;">They go out t=
+o investors, pitch the company, and get orders at different prices.</li>=09=
+<li style=3D"margin-bottom: 5px;">The goal is to be =E2=80=9Coversubscribed=
+,=E2=80=9D to have orders for many more shares than they are selling, so th=
+at there is demand for the shares once they start trading. The bankers want=
+ some investors=C2=A0<em>not </em>to get the shares that they asked for, so=
+ that they have to go out and buy them in the market the next day, so that =
+the investors who=C2=A0<em>did=C2=A0</em>get shares have someone to sell to=
+. They want a healthy market, with supply and demand.</li>=09<li style=3D"m=
+argin-bottom: 5px;">The banks work for the company (they get paid a fee by =
+the company), but they have mixed loyalties. The investors who buy the shar=
+es are also customers of the banks, often big customers who pay the banks a=
+ lot of fees and do a lot of trades with the banks. The banks want their co=
+rporate client to be happy, but they also want their investor clients to be=
+ happy.</li>=09<li style=3D"margin-bottom: 5px;">This tension is=C2=A0<em>t=
+he point=C2=A0</em>of the IPO: Companies hire banks to do IPOs because the =
+banks have relationships with investors, because the banks are in a web of =
+favors and obligations with the investors that they can use to sell the sha=
+res. If the banks were not somewhat looking out for the investor clients, t=
+hey would not be able to effectively sell the corporate client=E2=80=99s sh=
+ares. =E2=80=9CNo conflict, no interest.=E2=80=9D</li>=09<li style=3D"margi=
+n-bottom: 5px;">Anyway, at the end of the process the banks come to the com=
+pany and say, like, =E2=80=9Cwe have gotten a lot of good orders, and we ar=
+e three times oversubscribed at $53 per share, and five times oversubscribe=
+d at $52, and 10 times oversubscribed at $51, and 15 times oversubscribed a=
+t $50, so let=E2=80=99s price at $51.=E2=80=9D</li>=09<li style=3D"margin-b=
+ottom: 5px;">And then the client says =E2=80=9Cwait you said we have orders=
+ to buy three times the shares we are selling at $53 per share, and you wan=
+t us to sell the shares at $51? Isn=E2=80=99t that leaving a lot of money o=
+n the table?=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">And then the=
+ bankers say =E2=80=9Cyou don=E2=80=99t understand how this works, it is in=
+ your long-term interests and also our long-term interests for the stock to=
+=C2=A0<em>trade well</em>, for it to go up after this offering is complete,=
+ and so we want to make sure there=E2=80=99s enough demand. It would be a d=
+isaster if the stock dropped on the first day. You will be a long-term repe=
+at user of the capital markets, you will come back to investors for money, =
+you will pay your employees in stock, you want the stock to be attractive a=
+nd trade up; you don=E2=80=99t want to take every last penny today at the e=
+xpense of long-term investor relationships.=E2=80=9D</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">This advice is basically not wrong, though it probably i=
+mplies that investors have longer memories than they actually do.</li>=09<l=
+i style=3D"margin-bottom: 5px;">The company is like =E2=80=9Cfine $51.=E2=
+=80=9D</li>=09<li style=3D"margin-bottom: 5px;">The stock doubles the next =
+day.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Sorry, actually, this was the standard mechani=
+sm of IPOs a few years ago, when big =E2=80=9CIPO pops=E2=80=9D (where the =
+stock doubles the day after the company goes public) were common, which led=
+ to companies trying things like <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMTktMDEtMTEvZGlyZWN0LWxpc3RpbmdzLWFyZS1hLXRoaW5nLW5vdz9jbXB=
+pZD1CQkQwOTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB731c0a96" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  direct listings</a> to leave less money on =
+the table. The standard mechanism of IPOs now is like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A company calls some banks about sell=
+ing some shares to the public for the first time.</li>=09<li style=3D"margi=
+n-bottom: 5px;">The banks are like =E2=80=9Cehhh kind of a rough IPO market=
+ right now, better wait.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">There is a middle ground; some companies are s=
+till going public these days. But the IPO market is still a bit shaky, and =
+everyone is more sensitive about not knocking it over. <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTQvY2hpcC1kZXNpZ25lci1hcm0tcy1pc=
+G8td2FzLXByaWNlZC1mb3Itc21vb3RoLXRyYWRpbmctZGVidXQ_Y21waWQ9QkJEMDkxNDIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMwOTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa3a06cd2=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  For instance</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">SoftBank Group Corp. satisfied its ambitions f=
+or Arm Holdings Plc by raising $4.87 billion in the year=E2=80=99s biggest =
+initial public offering, while resisting the temptation to try for more.</p=
+>
+<p style=3D"margin: 16px 0;">A smooth trading debut from the chip designer =
+on Thursday could help revive a weak IPO market and provide a boost for upc=
+oming listings from companies like Instacart Inc. and Birkenstock Holding L=
+td. At the IPO price, Arm is valued at about $54.5 billion, according to Bl=
+oomberg News calculations.</p>
+<p style=3D"margin: 16px 0;">Arm=E2=80=99s offering was oversubscribed more=
+ than 10 times, people with knowledge of the matter have said, which means =
+investor interest exceeded supply at the price range of $47 to $51 a share =
+and could help buoy the stock once trading begins.</p>
+<p style=3D"margin: 16px 0;">In setting the price for the IPO, Masayoshi So=
+n, SoftBank=E2=80=99s founder, chairman and chief executive officer, signal=
+ed that he was unwilling to push things too far even if it meant leaving a =
+bit of money on the table.</p>
+<p style=3D"margin: 16px 0;">In the final price-setting meeting Wednesday, =
+some bankers and executives made the case for a higher price, with some of =
+the debate centering on whether $52 made sense, people familiar with the ma=
+tter said, asking not to be identified because the meeting was private. Son=
+ joined the discussion and chose $51, saying it wasn=E2=80=99t worth riskin=
+g a healthy debut for $100 million or so in additional proceeds, they said.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The=C2=A0<em>bankers=C2=A0</em>told him to go =
+with $52 and he said =E2=80=9Cnah let=E2=80=99s do=C2=A0$51,=E2=80=9D the e=
+xact opposite of every 2019 IPO. Arm opened for trading today at 12:19 p.m.=
+ with <a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288=
+423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTQvc29=
+mdGJhbmstcy1hcm0taW5kaWNhdGVkLXRvLW9wZW4taGlnaGVyLWluLW5ldy15b3JrLWRlYnV0P2=
+NtcGlkPUJCRDA5MTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMDkxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cB3c51d56a" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  a price of $56.10</a>, then rose a bit =
+in early trading. A=C2=A0<em>nice=C2=A0</em>IPO pop: Up a bit, but not so m=
+uch that you=E2=80=99re embarrassed about the money you left on the table.<=
+/p>
+<p style=3D"margin: 16px 0;">To be fair, it is Masayoshi Son, who is a part=
+icularly long-term repeat user of the capital markets. The Financial Times =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTRkYzg1NGItY2RmOS00YzEzLWI5NzMtZjM5YjNmY=
+TkxN2E0/607f07ceef4b8524a319a23cB6ae204c2" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> noted last week</a>:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">As well as retaining more than 90 per cent of =
+a company that Son believes will underpin the future of computing, SoftBank=
+ will also be able to lean on the newly listed company as a big source of f=
+inancing. ...</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CSoftBank has been wanting to monetise=
+ Arm for years,=E2=80=9D said Kirk Boodry, an analyst at Astris Advisory. =
+=E2=80=9CArm is a quality asset, with punchy revenues and good margins. The=
+y can hold on to and still have the cash to use in other areas =E2=80=94 in=
+ that respect it=E2=80=99s a perfect replacement for Alibaba.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you sell $5 billion of a $54 billion compan=
+y and keep the other $49 billion so you can borrow against it later to rais=
+e cash, you care a lot more about the long-term value of the company than y=
+ou do about maximizing today=E2=80=99s sale price.</p>
+<p style=3D"margin: 16px 0;">Byrne Hobart also <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cudGhlZGlmZi5jby=
+9hcmNoaXZlL25vcnRoLWtvcmVhcy1lY29ub215LW1haW50YWluaW5nLWEtcG9zaXRpdmUtdHJhZ=
+GUtYmFsYW5jZS1ieS1leHBvcnRpbmctYmFkcy1hbmQtZGlzc2VydmljZXMv/607f07ceef4b852=
+4a319a23cB09aedefd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> points out</a> that =E2=80=9CArm has a long =
+list of strategic investors in the chip industry who have committed to taki=
+ng a stake in the company,=E2=80=9D and that =E2=80=9Ca large chunk of [the=
+ shares sold in the IPO] will be locked up by these buyers.=E2=80=9D This i=
+s probably good for the stock price (a lot of the big investors in the IPO =
+<em>won=E2=80=99t</em>=C2=A0be selling the first day), which means that Son=
+ could probably get away with being more aggressive in pricing. On the othe=
+r hand, it means that if he=E2=80=99s more aggressive in pricing he=E2=80=
+=99s getting more money for SoftBank at the expense of Arm=E2=80=99s strate=
+gic customers. Ordinarily in an IPO, the banks have relationships with the =
+investors and want to make the investors happy, but the issuer is less inte=
+rested in that goal. Here Arm probably has stronger relationships with the =
+investors than the banks do.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Executive pay accounting</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you are the board of directors of a small a=
+mbitious company that intends to disrupt and remake the whatever industry, =
+but has not done so yet, probably the way you should pay your chief executi=
+ve officer is (1) give her enough cash to pay her rent and (2) promise to m=
+ake her very rich if the company actually works out. The exact mechanics of=
+ that promise are flexible, but one pretty standard approach is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Give her a reasonable cash salary; an=
+d</li>=09<li style=3D"margin-bottom: 5px;">Award her a huge slug of stock o=
+ptions, at the <em>beginning</em> of the journey to disrupting and remaking=
+ the industry, that will be worth, like, $5 billion if the company ends up =
+being worth $50 billion. But if the company ends up being worth $0, they=E2=
+=80=99ll be worth zero. And if the company just sort of muddles along doing=
+ okay but never really disrupts or remakes anything, they will=C2=A0<em>als=
+o=C2=A0</em>be worth zero: They will only pay off if the company gets reall=
+y big. They are a stretch goal, a huge reward for huge success; they are no=
+t meant to reward the CEO comfortably for modest success, but to encourage =
+her to take big swings.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is not the only way to do it, and boards =
+that try to do it this way do not always follow through rigorously. (If the=
+ company does okay-but-not-great, but the CEO is doing her best and the boa=
+rd likes her, they might modify her options or give her more so that she st=
+ill gets rich without real success.) But the appeal of this approach is obv=
+ious, grounded in theory, aligned with shareholders and not uncommon. In th=
+e state of the world where the CEO gets rich, the shareholder have also got=
+ten rich, which is what the shareholders want.</p>
+<p style=3D"margin: 16px 0;">But the <em>accounting </em>is weird. As a mat=
+ter of accounting, what happens is that you give the CEO a one-time grant o=
+f options whose payout is something like =E2=80=9C$5 billion if the company=
+ gets to $50 billion and $0 if it stays under $5 billion,=E2=80=9D or whate=
+ver, and then an accountant throws that into a Black-Scholes calculator and=
+ computes that the options have a fair market value,=C2=A0<em>now</em>, of =
+$100 million or whatever, and then you disclose that value as the CEO=E2=80=
+=99s =E2=80=9Ccompensation=E2=80=9D for =E2=80=9Cthis year=E2=80=9D in your=
+ securities filings.=C2=A0And then journalists cheerfully report that your =
+CEO gets =E2=80=9Cpaid=E2=80=9D $100 million =E2=80=9Cper year,=E2=80=9D an=
+d that she is one of the highest-paid CEOs in the country despite your comp=
+any being kind of small and not having had much success.</p>
+<p style=3D"margin: 16px 0;">And you say, well, of course we are small and =
+haven=E2=80=99t had much success; the point of the options grant is to chan=
+ge that. The options will cost you $5 billion if the company works out grea=
+t and $0 if it doesn=E2=80=99t. They didn=E2=80=99t =E2=80=9Creally=E2=80=
+=9D cost you $100 million now, and the CEO certainly didn=E2=80=99t=C2=A0<e=
+m>get=C2=A0</em>$100 million now: The calculated fair market value of the o=
+ptions today might be $100 million, but she can=E2=80=99t sell them, and sh=
+e will never get <em>any</em> value for them unless the company succeeds. T=
+he $100 million value is, crudely, the $5 billion value of the options in t=
+he success case times the 2% chance of achieving it.<a class=3D"footnote-in=
+dex" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: none !important; background-color: transparent !important; disp=
+lay: inline-block;">
+<span>[7]</span>
+</a>=C2=A0It=E2=80=99s =E2=80=9Cworth=E2=80=9D $100 million in expectation,=
+ but 98% of the time it will end up worth zero.</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDctMDUvbG90cy1vZi1iYW5rcy1tZWFucy1sb3RzLW9mLWJhbmstbWVy=
+Z2Vycz9jbXBpZD1CQkQwOTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cB6539d5c6" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> talked in July</a> about an artic=
+le titled =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32711630.288423/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tZWV0LXRoZS1jZW9zLX=
+doby1wdWxsLWluLW1vcmUtdGhhbi0xMDAtbWlsbGlvbi1hLXllYXItODQwOWFmZTA_bW9kPWhwX=
+2xpc3RiX3BvczU/607f07ceef4b8524a319a23cB17f764c8" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Meet the CEOs Who=
+ Pull In More Than $100 Million a Year</a>,=E2=80=9D and I made some of the=
+se points, particularly about the CEO of=C2=A0=E2=80=9CCS Disco, a cloud-se=
+rvices provider that caters to attorneys and [had] a market capitalization =
+of about $500 million.=E2=80=9D Giving the CEO of a $500 million company=C2=
+=A0$100 million in annual pay seems odd,<a class=3D"footnote-index" href=3D=
+"#footnote-8" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[8]</span>
+</a>=C2=A0but of course CS Disco didn=E2=80=99t do that. They gave him a bi=
+g one-time grant of options with a $109 million fair market value, but the =
+options (1) have a strike price of $32 and (2) vest at prices starting at $=
+150 and going up.<a class=3D"footnote-index" href=3D"#footnote-9" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a>=C2=A0The $32 strike price was the company=E2=80=99s initial public off=
+ering price, but by the time we talked about it the stock was at $8.40 and,=
+ I wrote, =E2=80=9Cthe=C2=A0<em>most likely=C2=A0</em>value of this $109 mi=
+llion pay package is zero dollars.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There=E2=80=99s=C2=A0<a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+idXNpbmVzcy9jZW8td2l0aC0xMTAtbWlsbGlvbi1wYXktcGFja2FnZS1pcy1zdWRkZW5seS1vdX=
+QtNzkwN2M1NmY_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524a319a23cBe06c64bc" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">an update today</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A big payday doesn=E2=80=99t always keep a chi=
+ef executive employed.</p>
+<p style=3D"margin: 16px 0;">Just over a year after CS Disco=C2=A0sharehold=
+ers approved a CEO pay package worth nearly $110 million =E2=80=94 one of t=
+he biggest of 2022 =E2=80=94 the company=E2=80=99s co-founder and chief exe=
+cutive, Kiwi Camara, resigned with little explanation.</p>
+<p style=3D"margin: 16px 0;">His departure, disclosed in a securities filin=
+g on Monday, could mean Camara loses the stock options that made up nearly =
+all of the pay package. Camara couldn=E2=80=99t be immediately reached for =
+comment.=C2=A0</p>
+<p style=3D"margin: 16px 0;">CS Disco shares fell nearly 20% Tuesday follow=
+ing the disclosure. Shares in the company, which provides software used by =
+lawyers, are trading below $8 after going public at $32 in July 2021. =E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">Under the terms of his employment agreement an=
+d equity awards, Camara would forfeit the 4.37 million options he received =
+in May last year if he departed before the company met certain stock-price =
+targets, ranging from $150 to $900 a share. CS Disco hasn=E2=80=99t traded =
+above about $66 a share, a level it last reached in 2021.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes, right, he had a deal that would pay him a=
+ lot of money if he could get the stock up above $150, and when it became c=
+lear that that was not going to happen, he left, leaving behind a pay packa=
+ge that was manifestly worth zero dollars.<a class=3D"footnote-index" href=
+=3D"#footnote-10" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[10]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">In some sense that is the disadvantage of payi=
+ng your CEO like this: If she takes a big swing and misses and the stock=C2=
+=A0<em>falls=C2=A0</em>rather than rising, she will give up, because there =
+is no hope of achieving the milestones that you set for her. But in another=
+, more accurate, sense that=E2=80=99s why you set the milestones! You wante=
+d the company to take a big swing and disrupt its industry, and if it doesn=
+=E2=80=99t work out you don=E2=80=99t want the CEO sitting around comfortab=
+ly collecting a big check.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Don=E2=80=99t put it in email</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One fact of antitrust law is that if you are a=
+n executive at=C2=A0a big company, or at a medium-sized company contemplati=
+ng a merger, you will think things like =E2=80=9Cwe need to grow our market=
+ share=E2=80=9D or =E2=80=9Cwe need to grind our competitors into dust,=E2=
+=80=9D but if you <em>say</em> stuff like that =E2=80=94=C2=A0particularly,=
+ if you say it in writing, in emails or memos or presentations=C2=A0=E2=80=
+=94=C2=A0antitrust regulators might find it and sue to break up your compan=
+y or stop the merger or whatever, and they will use your words to prove tha=
+t you are doing anti-competitive things to become a monopoly. This is not i=
+ntuitively obvious=C2=A0to you at all: You are just a normal competitive bu=
+sinessperson looking to do more business; surely trying to gain market shar=
+e is <em>good=C2=A0</em>for competition, not bad. But there are forms of wo=
+rds, ways of expressing things, that=C2=A0look bad to antitrust regulators,=
+ and there are others that don=E2=80=99t, and most normal people don=E2=80=
+=99t know which are which.<a class=3D"footnote-index" href=3D"#footnote-11"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[11]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Antitrust lawyers do, though, so it is common =
+in mergers for the antitrust lawyers to sit down with their clients and say=
+ =E2=80=9Chere are the words not to use, and here are the words to use inst=
+ead.=E2=80=9D And if you work at a company that gets big enough organically=
+, and that starts looking a little monopolish, at some point it will hire s=
+ome antitrust lawyers who will also have that talk with everyone.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But there is a problem, which is that the talk=
+=C2=A0<em>also=C2=A0</em>uses the bad words. The talk itself looks suspicio=
+us! If you are going around telling people not to use the bad words, that s=
+uggests a guilty conscience; you tell people not to say =E2=80=9Ccrush the =
+competition=E2=80=9D because you know that your plans to crush the competit=
+ion are monopolistic. Or that=E2=80=99s what antitrust regulators will argu=
+e. Also <a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.2=
+88423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjMtMDktM=
+TQvZ29vZ2xlcnMtdG9sZC10by1hdm9pZC13b3Jkcy1saWtlLXNoYXJlLWFuZC1idW5kbGUtdXMt=
+c2F5cy1sbWoyN2JobD9jbXBpZD1CQkQwOTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB58cd193b" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> the talk is probably =
+in writing</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Alphabet Inc.=E2=80=99s Google is on trial in =
+Washington DC over US allegations that it illegally maintained a monopoly i=
+n the online search business. Executives of the Mountain View, California-b=
+ased behemoth have known for years that the company=E2=80=99s practices are=
+ under a microscope, and have encouraged its employees to avoid creating la=
+sting records of potential problematic conduct, government lawyers allege. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">As far back as 2003, Google managers circulate=
+d unambiguous instructions on phrases to avoid to ensure they don=E2=80=99t=
+ come across like monopolists.</p>
+<p style=3D"margin: 16px 0;">We =E2=80=9Chave to be sensitive about antitru=
+st considerations,=E2=80=9D Google Chief Economist Hal Varian wrote in a Ju=
+ly 2003 memo, unearthed by government lawyers who are suing Alphabet. =E2=
+=80=9CWe should be careful about what we say in both public and private.=E2=
+=80=9D</p>
+<p style=3D"margin: 16px 0;">One phrase to avoid, Varian said: =E2=80=9CCut=
+ting off their air supply.=E2=80=9D He was referring to a quip used years e=
+arlier by then-Microsoft Corp Chief Executive Officer Steve Ballmer, when h=
+is company was under federal antitrust scrutiny.</p>
+<p style=3D"margin: 16px 0;">Another no-no, according to a 2009 Varian miss=
+ive: =E2=80=9CMarket share.=E2=80=9D Instead, when referring to Google=E2=
+=80=99s portion of the search market, use the term =E2=80=9Cquery share.=E2=
+=80=9D Penny Chu, the recipient of Varian=E2=80=99s email, responded in the=
+ affirmative. =E2=80=9CYes, absolutely.=E2=80=9D Such instructions constitu=
+te =E2=80=9Cthe one big thing I remember from all that Legal training,=E2=
+=80=9D Chu wrote, ending the sentence with a sideways smiley. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">During the trial, [Justice Department lawyer K=
+enneth] Dintzer pressed Varian on the question of =E2=80=9Cantitrust traini=
+ng=E2=80=9D at Google. When Varian said he couldn=E2=80=99t remember whethe=
+r he=E2=80=99d taken it, Dintzer tried to jog his memory. =E2=80=9CAvoid re=
+ferences to markets or market shares or dominance,=E2=80=9D Dintzer said, c=
+iting an internal document.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It really is a hard problem to solve. One opti=
+on is you hire the antitrust lawyers and they walk door to door, visiting e=
+very person=E2=80=99s office and having an in-person chat impressing on eve=
+ryone the importance of using the good words and not the bad words. Maybe t=
+he antitrust lawyers, like, dress up in hooded robes and play terrifying so=
+und effects and generally try to put on a memorable theatrical presentation=
+ (with nothing in writing!) to scare everyone into remembering not to use t=
+he bad words. People are gonna forget, and then you have to remind them,=C2=
+=A0<em>not in writing</em>, never in writing. You show up at their office i=
+n the robe again, with a scythe, and you point a bony finger at them and=C2=
+=A0in a booming desolate voice you shout =E2=80=9CIT=E2=80=99S QUERY SHARE.=
+=E2=80=9D Still, even if you never put it in writing, the regulators could =
+ask about it at trial.</p>
+<p style=3D"margin: 16px 0;">Really this stuff should be taught in college,=
+ so that every company can wash its hands of it. The last semester at Whart=
+on everyone should have to take a class called Don=E2=80=99t Put It In Emai=
+l that is just, like, =E2=80=9Cwe know that when you go out into the world =
+you will occasionally engage in legally ambiguous actions, here are some be=
+st practices for not getting in trouble over them, some forms of words and =
+communications methods not to use and some others to use instead.=E2=80=9D =
+Then the college<em>=C2=A0</em>is responsible for the =E2=80=9Cdon=E2=80=99=
+t put it in email=E2=80=9D instruction,=C2=A0but not for the legally ambigu=
+ous actions (<em>Wharton=C2=A0</em>is not starving Google=E2=80=99s competi=
+tors of oxygen), while the companies are responsible for the legally ambigu=
+ous actions but not for any=C2=A0trainings that look like evidence of a gui=
+lty conscience.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">How <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Zl=
+YXR1cmVzLzIwMjMtMDktMTQvc2FtLWJhbmttYW4tZnJpZWQtcy1wYXJlbnRzLWRpZC10aGV5LWV=
+uYWJsZS1mdHgtcy1yaXNlP2NtcGlkPUJCRDA5MTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkxNCZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0c10afc6" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  Sam Bankman-Frie=
+d=E2=80=99s Elite Parents</a> Enabled His Crypto Empire.=C2=A0Fund Giants M=
+uscle In on the $1.5 Trillion <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMDktMTQvd2h5LXByaXZhdGUtY3JlZGl0LWlzLWEtcmF5LW9mLWhvcGUtZm9yLW=
+dsb29teS1pbnZlc3RtZW50LWJhbmtlcnM_Y21waWQ9QkJEMDkxNDIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE0JnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7224c4cf" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Priva=
+te Credit</a> Party. =E2=80=98Almost All Loans Are Bad=E2=80=99 =E2=80=94 W=
+hy <a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423=
+/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2JhbmtpbmcvYWxtb3N0LWFsbC1sb2Fucy1hcm=
+UtYmFkd2h5LWJhbmtzLWFyZW50LWxlbmRpbmctN2IxZjE3ZWI/607f07ceef4b8524a319a23cB=
+6d7e67d2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Banks Aren=E2=80=99t Lending</a>. After $16bn judgment, =
+Burford=E2=80=99s next battle will be <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWF=
+iZDM1ZGYtMWVmZC00YzYxLWI5ODMtYjVhNTgwZTQ0YjNh/607f07ceef4b8524a319a23cBeef0=
+615b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> making Argentina pay</a>.=C2=A0Inside Exxon=E2=80=99s Strate=
+gy to <a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288=
+423/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9lbmVyZ3ktb2lsL2V4eG9uLWNsaW1hdGU=
+tY2hhbmdlLWRvY3VtZW50cy1lMmU5ZTZhZj9tb2Q9aHBfbGVhZF9wb3M3/607f07ceef4b8524a=
+319a23cBbba2db45" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Downplay Climate Change</a>. Goldman Sachs Fires=
+ Transaction Banking Chief Moorthy, Other Leaders Over <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTMvZ29sZG1hbi1zYWlkLXRvLWRpc21pc=
+3MtdHJhbnNhY3Rpb24tYmFua2luZy1jaGllZi1oYXJpLW1vb3J0aHk_Y21waWQ9QkJEMDkxNDIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwOTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB33d3=
+0368" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Lapses</a>. Caesars Entertainment <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTMvY2Flc2Fycy1lbnRlcnRhaW5tZW50LXBhaW=
+QtbWlsbGlvbnMtaW4tcmFuc29tLWluLXJlY2VudC1hdHRhY2s_Y21waWQ9QkJEMDkxNDIzX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjMwOTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3f9c7fd5"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  Paid Millions to Hackers</a> in Attack. X <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTQveC11bmxpa2VseS10by13aW4tYmFjay1=
+hZHZlcnRpc2Vycy1iZWZvcmUtaG9saWRheS1zZWFzb24_Y21waWQ9QkJEMDkxNDIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwO=
+TE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB155b3621" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Unlikely</a> to Win Back Advertisers Before Holiday Season.=C2=A0X Co=
+rp. Agrees to Try to Settle Lawsuits Over <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDktMTQvdHdpdHRlci1tYXNzLWxheW9mZi1zZXZlcmFuY2UtZm=
+lnaHQtaGVhZHMtdG8tc2V0dGxlbWVudC10YWxrcz9jbXBpZD1CQkQwOTE0MjNfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTQm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBff00f3ea" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Mass Layoffs</a>. Is Chainalysis blockchain tracing =E2=80=9C<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTQvYml0Y29pbi1mb2ctY2FzZ=
+S1wdXRzLXNwb3RsaWdodC1vbi1jaGFpbmFseXNpcy1jcnlwdG8tdHJhY2luZz9jbXBpZD1CQkQw=
+OTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBd880fdf5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  junk science</a>=E2=80=9D?=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9nZW1pbmktZWFybi11c2Vycy1jb3VsZC1leHBlY3QtbmVhcmx5LWZ1bGwtc=
+mVjb3ZlcnktaW4tZ2VuZXNpcy1iYW5rcnVwdGN5LWRjZy1zYXlzLTdiY2JmZTJhP21vZD1pdHBf=
+d3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB9319e414" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Gemini Earn Us=
+ers</a> Could Expect Nearly Full Recovery in Genesis Bankruptcy, DCG Says. =
+Billionaire <a href=3D"https://link.mail.bloombergbusiness.com/click/327116=
+30.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktM=
+TMvcmlzZS1pbi1kaXZvcmNlcy1hbW9uZy1jaGluYS1zLXVsdHJhLXdlYWx0aHktc3B1cnMtY3Jh=
+Y2tkb3duP2NtcGlkPUJCRDA5MTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cB60f3c41e" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  Divorces</a> Spur Crackdown b=
+y China=E2=80=99s Market Regulator. Golf Digest on weird trading in the sto=
+ck of a <a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.2=
+88423/aHR0cHM6Ly93d3cuZ29sZmRpZ2VzdC5jb20vc3Rvcnkvc2Fja3MtcGFyZW50ZS1pcG8tc=
+HV0dGVy/607f07ceef4b8524a319a23cBf99db17d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> micro-cap putter compan=
+y</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32711630.288423/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBe0a7ac0e" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32711630.288423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBa3dc8e8f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Boringly 10-year Treasuries are called =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288=
+423/aHR0cHM6Ly93d3cudHJlYXN1cnlkaXJlY3QuZ292L21hcmtldGFibGUtc2VjdXJpdGllcy9=
+0cmVhc3VyeS1ub3Rlcy8/607f07ceef4b8524a319a23cBabdeb837" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">notes</a>=
+=E2=80=9D and 20- and 30-years are called =E2=80=9C<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cudHJlYXN1cn=
+lkaXJlY3QuZ292L21hcmtldGFibGUtc2VjdXJpdGllcy90cmVhc3VyeS1ib25kcy8/607f07cee=
+f4b8524a319a23cB601a80df" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">bonds</a>=E2=80=9D but let=E2=80=99s not =
+worry about that.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] It is not, like, accurate in all respects =
+or anything; this is still a very stylized version of one portion of what i=
+s going on with the basis trade.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Not only because, like, that would be weir=
+d, but because the government is in the Treasury market to borrow actual mo=
+ney, and the point of Treasury futures is that they do not involve much upf=
+ront cash. If you sell $100,000 of Treasury bonds you get $100,000; if you =
+sell $100,000 of Treasury futures you don=E2=80=99t really get any cash to =
+use immediately.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Again, I am writing a very stylized schema=
+tic story of the basis trade. In the real world futures are used by lots of=
+ investors for lots of reasons, people are naturally long futures while oth=
+ers are naturally short, etc.; this is really only part of it. But I think =
+the intuitions here are interesting.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] The phrase I would use here is not "a wind=
+ow for speculators to take advantage" but rather "a form of compensation fo=
+r people who do the work of manufacturing futures out of Treasuries."</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] This is a bit tangential to the main point=
+s in the text, but the paper explains the basis trade as a way for hedge fu=
+nds to, like, reserve bank balance sheet: =E2=80=9CSecond, to the extent th=
+at SLR and other regulations drove their internal economic incentives when =
+managing balance sheet capacity, bank-affiliated intermediaries often alloc=
+ated it on a =E2=80=98use it or lose it=E2=80=99 basis. In other words, lev=
+erage budgets that were allocated to specific entities but, if they were le=
+ft underutilized, were downsized in favor of more active clients during reg=
+ular reviews. That motivated hedge funds and other major consumers of lever=
+age to find ways to utilize leverage allocations without taking much market=
+ risk. In other words, it became costly not to use one=E2=80=99s access to =
+bank balance sheet, for fear that access would not be available when needed=
+. Cash/Treasuries basis trades, which are most commonly constructed as a =
+=E2=80=98short=E2=80=99 in futures and a repo-financed =E2=80=98long=E2=80=
+=99 in one or several bonds from that contract=E2=80=99s deliverable basket=
+, rely on leverage but have a theoretically bounded payoff with minimal mar=
+ket risk in a relatively wide range of market conditions. That made them fi=
+t for purpose as a placeholder position to secure future access to balance =
+sheet as needed.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Obviously Black-Scholes doesn=E2=80=99t wo=
+rk this way but we don=E2=80=99t have to care about that.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Come to think of it, that's <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjMvY291bGQtc2N1bHB0b3I=
+tYmUtYmV0dGVyLW9yLWNoZWFwZXI_Y21waWQ9QkJEMDkxNDIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE0JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6344b818" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">
+the rough order of magnitude</a> of Jimmy Levin=E2=80=99s pay at Sculptor C=
+apital Management Inc. and Sculptor=E2=80=99s market cap, but that=E2=80=99=
+s because publicly traded hedge fund companies really are odd.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] They also vest on a change of control, mak=
+ing this functionally a big golden parachute.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Well, =E2=80=9CCamara made about $500,000=
+ in salary last year and just under $1 million, all cash, in 2021.=E2=80=9D=
+ Still the pile of hopeless options was not an incentive to stay.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] I don=E2=80=99t really either, though I h=
+ave at times in my life seen some lists. My vague impression is that a lot =
+of words like =E2=80=9Cmarket share=E2=80=9D are bad because a lot of  figh=
+ts in antitrust are about <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDYtMjkvZmFjZWJvb2stdmljdG9yeS1hZ2FpbnN0LXRoZS1mdGMtaXMtYW4tYW=
+50aXRydXN0LWxlc3Nvbi1pbi1tb25vcG9seS1wb3dlci1rcWk4amVrdT9jbXBpZD1CQkQwOTE0M=
+jNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB87=
+8ba8e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">market definition</a>. The government will say that you are=
+ dominant in the market for social media, and <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMjkvaW5zaWRlcnMtYXJlLWdvb2QtYXQtdHJhZG=
+luZz9jbXBpZD1CQkQwOTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB4cf4efeb" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  you</a> will <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32711630.288423/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDctMzAva29kYWstaXMtcmVsZXZhbnQtYW=
+dhaW4_Y21waWQ9QkJEMDkxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cB4e3eee9d" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">say</a> =E2=80=9Cno we are a tiny f=
+raction of the market for human interaction,=E2=80=9D and you=E2=80=99ll ar=
+gue about what the relevant market is. But if your employees were sending a=
+round memos like =E2=80=9Cwe need to increase our market share, we=E2=80=99=
+re currently 35% of social media and want to get to 40%,=E2=80=9D then the =
+government can say =E2=80=9Csee, that=E2=80=99s the correct market.=E2=80=
+=9D</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBf1fc8ecf" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf2b2b8ec" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB43057f83" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB27a2b09f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB67f2a77d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.2884=
+23/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB0b33eb0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32711630.288423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5252bcdf" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32711630.288423/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB77241ee0" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32711630.288423/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB35bc7b6d" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+a7b5059" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32711630.288423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+6a215e0" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjh4ge.66jr/56d7dec2.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_93294311_1980222024.1694714458591--
+

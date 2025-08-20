@@ -1,0 +1,2754 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:4201:b0:b5:9df0:5e91 with SMTP id kn1csp396831rwb;
+        Mon, 22 Aug 2022 05:59:25 -0700 (PDT)
+X-Received: by 2002:a17:903:247:b0:16c:5017:9ad4 with SMTP id j7-20020a170903024700b0016c50179ad4mr20973467plh.115.1661173164895;
+        Mon, 22 Aug 2022 05:59:24 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1661173164; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QYHCuzHXe8nyrA73swXneRF1ty5vqvAG4faAJCFFB/iprOaBG9eNn05fBsGW1e1Fwf
+         uJSeXKtywEXoR4Tylb3lRFUSi/vc9u9nK22vkyObP0me2xARxs4HfIQPuGR2Wl/h1ZtD
+         mJ7Rf5niiUpW2Jzz/kqA2ti3nm84gSkKsCjaYCbcGH5AhXzBKRVH0pu5K8c9iCEQn8Hr
+         l/VfpX8+ksptR6CTWWhHQs+Pu6JTClWBPd5p5hzhDEy26M31dBzksJLr3pGO+0ch/Jga
+         Q2z4FFw1h1TPE63MY70K6hw7VTuRHDL7lQHZCxJP/oMw1IahR13ey39e8wnbnQ0bypeB
+         hL2Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:in-reply-to:list-url:reply-to:list-unsubscribe-post
+         :list-post:references:list-owner:date:message-id:sender:list-archive
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=Z0ZoIny9Dn2eN94EQIwuVDKmZ1rxVZwcxWYdUFypMJg=;
+        b=SbKgWDsokS98+/kAXqSEsa+q+k8lU8NVj56ZFWybPEyHWSlnNYTF3WmS/0sXQg9oqF
+         RQ3EeS/VADq6LlP7sLvFYknSfERoaaQ+2fbhGxmGh1rDUILEbk1epnvxRkNTcTLGnDvg
+         2rChj1xxI+VAZtB5uJG5zfjho4Qq2GdtzoGp+HG8O/hUp+GRIoz/8lSuIgnizdto1FsG
+         Jp2tdesyTZEG9EwXs7swQCv4TRvGXllcPt2THgyaGuH966COJ+v3hqtnf/eXSXCHmGjA
+         UYMHDWtDB2YC6UM/tRR/D8+LuSfphVEUQJMguGOStly2oK/6MlQoPQEXoH3oLz3ON4vP
+         c8fw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=j4H4TGiH;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n22-20020a17090ade9600b001fab0b46188sor4519610pjv.10.2022.08.22.05.59.24
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 22 Aug 2022 05:59:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=j4H4TGiH;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-id:in-reply-to:list-url:reply-to:list-unsubscribe-post
+         :list-post:references:list-owner:date:message-id:sender:list-archive
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc;
+        bh=Z0ZoIny9Dn2eN94EQIwuVDKmZ1rxVZwcxWYdUFypMJg=;
+        b=oxSzGSTdODL7g45ZZL5Ujper2ouwUrjDQmmAlgz4mBGBbXrPRpZfwfjRyU+AtJP9Bs
+         Ldy3nlI4ojZr5KL1LgEK5Ko1RDZuG7/doJW9WYVS0TddKGUdNVwMKTMC6xbcXh6xRRXY
+         /2auMa2zgtuoUtKpIvwE/eC32fI/psW1dzVVgl6vJwJ8fpH83MksOeDBmPmB0Jyq0ml5
+         AWG1F6NkaB7rjpdff2YbLvIO2l04G9ly3WS+BY8dgQXSjdeOhQzZ3d9PgSlyz0iV+5Dq
+         N2H4H2+C41Cp3LdBaopU0y8Gm/EgmVLt6dWqm68aAKH3d8OIk8S3y4dZ0CbZ/DhewGOs
+         Eq2A==
+X-Gm-Message-State: ACgBeo2rStXYMJGnYcQI5UjRscEZDTDsNxhGXvo3Ig1NF+bVNjOtnb7U
+	+m7OJZSEsn/nKTmedC/nhcm5Y9vTOLMhZs6g3t/gsq8WF3OKWkWCwg==
+X-Received: by 2002:a17:90a:f48d:b0:1f7:2e00:f7f8 with SMTP id bx13-20020a17090af48d00b001f72e00f7f8mr28477005pjb.94.1661173164239;
+        Mon, 22 Aug 2022 05:59:24 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90b:17cb:0:0:0:0 with SMTP id me11csp1268662pjb;
+        Mon, 22 Aug 2022 05:59:21 -0700 (PDT)
+X-Received: by 2002:a67:dc0f:0:b0:388:cdb5:db17 with SMTP id x15-20020a67dc0f000000b00388cdb5db17mr7414918vsj.87.1661173161324;
+        Mon, 22 Aug 2022 05:59:21 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1661173161; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=NBnd8m/Hi7Ca0yiFfWXk7LlhSJsqB5nWpOpiM3XUWyddWimUQZ9FU/ICoyeMIQxpZ0
+         lcnNdFEM0wyZbW0+veUZKqfRuJZimajRrYqOXIxyF6AU/mQ0JjkObDW9Gb6K22017Q9/
+         nDwyyFYsYCduQyh1fu+PtJeoD0LnhtUuvqIaboG5etDB6qIioUdHbA+iTV8hoh4pESS5
+         ENwmvMaHmS25NdF9WU8apgVQNmq/9b8YS9X/bre01a+h5JVC7vM/CXfobPqS03Ihph/v
+         UBxepb8/PLb7TBgLtIVHrO+BDX4UUy36Gz03dlSH52KNd0GAIGVhjf5fvs1Q1kWsNkOj
+         0U2w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:in-reply-to:list-url:reply-to:list-unsubscribe-post
+         :list-post:references:list-owner:date:message-id:sender:list-archive
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature;
+        bh=Z0ZoIny9Dn2eN94EQIwuVDKmZ1rxVZwcxWYdUFypMJg=;
+        b=MnQoa3ySXaw1WoklPmHlxGosWmrwDMKnW6FuGocvnfpo8bMaX/0efN5hHdl4bc3xAk
+         QN4wlVmlEe21xubd/2pP3zUXbnbvIkdn+vsrI7hO3BISIXIx/V3f6zQWA3D9MLG6BHz4
+         ZBls/JzWIx95uVmngqtCILlBHtZjdkBpOCKGJOAx0ssCUMLli/O/2Kp1HW2AlJE5BE64
+         gx9+Qdvkkre9EljVAcEIXVZ0LzGVw+0TD+pOJWRca499t3OcZ3VoGtDXZlV4/8vtUQfI
+         1zlALPfMLQ9JS9qsVt8MPM8P8waEn/x41Jk8K2W2FkdTZmVgoLcvAUwcVdaC0toh3KWH
+         J9gA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=j4H4TGiH;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h11-20020ab0308b000000b0039eda4ef067sor1675968ual.23.2022.08.22.05.59.20
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 22 Aug 2022 05:59:21 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR715RLwEbWWUoA2ObqjsO/RS315wmLlRnIEN/UHHf1aMT3uZqACBp2fYNv/fuD1TSysO+Cm/mbCDiiPKo4lR+30OIcEep8=
+X-Received: by 2002:ab0:3f0c:0:b0:383:f357:9c02 with SMTP id bt12-20020ab03f0c000000b00383f3579c02mr7629089uab.19.1661173160633;
+        Mon, 22 Aug 2022 05:59:20 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1661173160; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ylJpQ31qga2ZiB4LT1IkXt8uXEMtVZq/3nx3ovSgHlx01AbJ+CXmn1Dt4TGRcXmL8U
+         y+Q+JEziNyMK1s7PPqE3pxXQeh+2GcSzD5eOzRZ7m/rSaZtv0ppl3uRcDAdqFLcLxYmY
+         nG1oT4UI+SbCwmZahwWDqnR/c8LrQT6i1OBIkNfjnCShL78aNfiMhjJEsQMnTKYjI9+N
+         CjrVPfdF50H1eTuAzRDDijzR5bWNhAI5kjPrc+wAzsMGRC08Dh9/zCFAzK2vDmd0QLyk
+         Q7JC/Hi/8puAcxAKrbpVyl2z40lafYJya4FD89q0AtD6/dyaucA8jyG3FJWme/yJTeTf
+         8uHA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:in-reply-to:list-url:reply-to:list-unsubscribe-post
+         :list-post:references:list-owner:date:message-id:sender:list-archive
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature;
+        bh=Z0ZoIny9Dn2eN94EQIwuVDKmZ1rxVZwcxWYdUFypMJg=;
+        b=XrC1z/9/c/KzqpTGoCBWeOnXfhXumgeoxx4PI+94u4wl0h/V8fTbqfQWtMR6UJJsaO
+         26xDJq3lGN+eQT6KBtxt589xUSr21JNUHI5hstRWAlKjIB3lQq1E7FYadoOhtLx36Avn
+         x1LIRiHXk6SnnwR7hB8XB0PmNYnnRmz21xj1i5UC7TdAd0uvQujkc2m6ltqcdQ92exTX
+         nISyP22UyGmM1qP1+u2OE0ySFINHmil/UG/8W5Y1kNPUc0RiTah+QeZYs+Dwy3BAC/ks
+         kzdMc3OwyrTQqmYmGZ+FSfq7jCaj9rtwLPCylbldYNSvZjA9u1pfWBE3t53GCIL0fj31
+         qlHw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=j4H4TGiH;
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.10 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from m244-10.mailgun.net (m244-10.mailgun.net. [159.112.244.10])
+        by gmr-mx.google.com with UTF8SMTPS id y24-20020a05610207d800b003882da6dea8si779913vsg.0.2022.08.22.05.59.10
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 22 Aug 2022 05:59:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.10 as permitted sender) client-ip=159.112.244.10;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1661173145; x=1661381945; h=List-Id: In-Reply-To: Reply-To:
+ List-Post: References: List-Owner: Date: Message-Id: Sender: Sender:
+ List-Archive: List-Unsubscribe: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=Z0ZoIny9Dn2eN94EQIwuVDKmZ1rxVZwcxWYdUFypMJg=; b=j4H4TGiH8LnOi1FPNADRARpH3R9slyaObpEJUJeWCMy9lntrVA/4vcXOR0tpfMjhbQ1GY/xj
+ 6K7/40bO5LADerkxvxSAOzHXtatHEsbJP0iN6q2ECWccMKxljmfEzX/+6BNVx1WT4LSavsgG
+ g0ITOpSgvg8NDEr7LR9CSmpl2uw=
+X-Mailgun-Sending-Ip: 159.112.244.10
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by b82c1331b924 with HTTP id
+ 63037d8483f197355137d453; Mon, 22 Aug 2022 12:58:38 GMT
+X-Mailgun-Batch-Id: 63037d7f1a8d0ea033d4d155
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="fa4f4cb63ad84f3a20d481c82da24c29430b6f5980e70bac8c0b49409e7c"
+Subject: Techbio Taxonomy
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qazNNekUzT0Rrc0ltbGhkQ0k2TVRZMk1URTNNekV4Tml3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuRjlIVWVSb2FQbXJqUFR5RFlzQ2h3ckVKejF1TWZWaFN2dk9IOXdxWUNkSSIsInAiOjY5NzMxNzg5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MTE3MzExNiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.tkjks00BUj93jNDbdbCUKB8CyUwLtz1rXHbOrW65LXo?>
+List-Archive: <https://www.notboring.co/archive>
+Sender: Not Boring <notboring@substack.com>
+Message-Id: <20220822125822.3.116473fe3b18b9f4@mg-d0.substack.com>
+Date: Mon, 22 Aug 2022 12:58:22 +0000
+List-Owner: <mailto:notboring@substack.com>
+References: <post-69731789@substack.com>
+List-Post: <https://www.notboring.co/p/techbio-taxonomy>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+15ile5&9p0gt&&c2a1a9c4053d38d6a7fc1ba9addb94bd37678cc29cbbe531a7b91e830e384724@mg1.substack.com>
+List-Url: <https://www.notboring.co/>
+In-Reply-To: <post-69731789@substack.com>
+List-Id: <notboring.substack.com>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1661173117210", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"69731789", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--fa4f4cb63ad84f3a20d481c82da24c29430b6f5980e70bac8c0b49409e7c
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/techbio-taxonomy
+
+Welcome to the=C2=A01,553=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0147,020=
+ smart, curious folks by subscribing here:=20
+Today=E2=80=99s post is brought to you by =E2=80=A6 Cromatic [ https://subs=
+tack.com/redirect/1329ede0-6749-411c-9c22-acd64497d5a1?r=3D9p0gt ]
+As you=E2=80=99ll read today, the biotech industry is evolving. Launching a=
+ new startup has become less capital intensive. A new generation of founder=
+s are building nimble teams, and outsourcing portions of their R&D to stay =
+lean and focus on core scientific competencies.
+Outsourcing can come with headaches. It can be challenging to decide on the=
+ right vendor, compare prices, and track project progress. While contract r=
+esearch organizations (CROs) are an important part of the modern biotech ec=
+osystem, these partnerships come at a cost.
+Cromatic is on a mission to help modern biotechs make the most out of outso=
+urcing. Their vision is to develop the infrastructure necessary to make con=
+tract management a painless, daresay enjoyable, experience. Cromatic makes =
+outsourcing easier than ever so you can focus on the science.
+Cromatic is currently performing outsourcing searches for early stage biote=
+ch companies for free. Learn more here [ https://substack.com/redirect/31b9=
+15ee-2ac3-410a-9255-75f1dff80fe9?r=3D9p0gt ].
+Hi friends =F0=9F=91=8B,=20
+Happy Monday! Hope you=E2=80=99re enjoying a relaxing August. I=E2=80=99d l=
+ike to briefly interrupt your summer holiday to let Elliot Hershberg [ http=
+s://substack.com/redirect/eb433249-bc0f-4eba-82ad-d91383af97d1?r=3D9p0gt ] =
+introduce you to the future.=20
+You met Elliot before when he wrote about Ginkgo Bioworks [ https://substac=
+k.com/redirect/5fb4bd34-1f5d-4610-99c1-c000f51d258f?r=3D9p0gt ]. While he=
+=E2=80=99s not pursuing his Ph.D. in Genomics at Stanford, Elliot works wit=
+h us at Not Boring Capital to discover and invest in the sci-fi-adjacent co=
+mpanies pushing the frontiers of biology.
+Why invest in biotech, you ask? You=E2=80=99re not alone. One of the most f=
+requent questions I get from LPs and potential LPs is why in the world Not =
+Boring Capital would invest in biotech. Historically, biotech has been a ve=
+ry specific and separate discipline from traditional venture investing. Get=
+ting a therapeutic to market is risky at best, and even if it works, it=E2=
+=80=99s incredibly cash consumptive. A small fund investing in early stage =
+biotech is bound to be diluted to smithereens by exit time.=20
+But Elliot=E2=80=99s thesis, of which I=E2=80=99ve become convinced over ma=
+ny conversations with both him and founders building in the space, is that =
+there=E2=80=99s an enormous shift afoot in which biotech companies are begi=
+nning to look a lot like software companies did a decade or so ago, propell=
+ed by forces akin to the rise of AWS, founder-friendliness, and a growing e=
+cosystem of primitives with which to build. Founders are getting closer and=
+ closer to programming atoms like software engineers program bits. The capi=
+tal, and team size, needed to start and scale these businesses is declining=
+=2E Multi-billion dollar outcomes and 100=
+x returns are becoming more frequent=
+=2E=20
+The shift is so big that the category needs a new name: from biotech to tec=
+hbio.
+In today=E2=80=99s piece, Elliot synthesizes years of knowledge into a comp=
+act techbio taxonomy and describes four key shifts that are unleashing a wa=
+ve of entrepreneurial energy on one of the biggest opportunities available =
+to humanity: =E2=80=9Ctapping into the awesome power of biological growth [=
+ https://substack.com/redirect/c1e2b428-28db-4f24-b26b-9a11447ed914?r=3D9p0=
+gt ].=E2=80=9D
+BTW, if you don=E2=80=99t already, you need to subscribe to Elliot=E2=80=99=
+s newsletter, The Century of Biology [ https://substack.com/redirect/385971=
+33-906b-4871-a00a-318318e64245?r=3D9p0gt ]. There=E2=80=99s so much excitin=
+g work being done in techbio, and there=E2=80=99s no better guide than a tr=
+iple-threat researcher, investor, writer.=20
+Let=E2=80=99s get to it.=20
+Techbio Taxonomy [ https://substack.com/redirect/4f39358d-ca07-4cf6-bc2a-e5=
+04c31fb9d0?r=3D9p0gt ]
+An Elliot Hershberg Guest Post for Not Boring
+Sometimes new words and terminology are necessary before we can fully inter=
+nalize the change taking place around us.=C2=A0
+We needed the notion of the World Wide Web before we could truly capitalize=
+ on the promise of a global network of computers. Today, Web3 is a term tha=
+t encompasses a broad set of ideas about where the Internet should go next.
+An important transition is also taking place in the world of biotech. From =
+the headline news of Google DeepMind solving protein structure prediction [=
+ https://substack.com/redirect/5320f0d2-4616-4bd5-bb64-2fdb682ca4a8?r=3D9p0=
+gt ], to the recent completion [ https://substack.com/redirect/f30bc983-9f7=
+d-44d9-92e5-441814aff694?r=3D9p0gt ] of the human genome, the frontier of b=
+iology has become deeply integrated with AI, software, and hardware. The ne=
+w generation of hybrid companies on the cutting edge of this trend are ofte=
+n referred to as techbio companies.
+This new intersection between bits and atoms is a really big deal. In a wor=
+ld where the cost of developing new drugs is increasing exponentially [ htt=
+ps://substack.com/redirect/78fca5a0-8e6c-4c13-8df8-1832b07840f0?r=3D9p0gt ]=
+ and healthcare takes up an unsustainable portion of our GDP, something nee=
+ds to change. Beyond developing more medicines cheaper and faster, techbio =
+could help us live longer [ https://substack.com/redirect/616ec68f-61d9-40f=
+3-b191-db908ed4ca16?r=3D9p0gt ] and healthier lives in material abundance m=
+ade possible through the biologization of our industrial processes.
+But what actually is a techbio company? What are the defining characteristi=
+cs of this new category? Here, I will attempt to contribute to the challeng=
+ing and highly imperfect science of taxonomy by answering this question. Wi=
+th new words and terms, there needs to also be a shared understanding of wh=
+at they mean.
+As the first generation of techbio companies mature and the ecosystem evolv=
+es, patterns are beginning to emerge. The techbio companies of tomorrow wil=
+l likely be:
+Founder-led =F0=9F=A7=91=E2=80=8D=F0=9F=94=AC=F0=9F=A5=BC
+Deeply integrated =F0=9F=A7=AC=F0=9F=96=A5=EF=B8=8F
+Backed by new services =F0=9F=94=AC=F0=9F=A7=AA
+Massive =F0=9F=92=B0=F0=9F=9A=80
+It=E2=80=99s time to unpack each of these components. Let=E2=80=99s jump in=
+! =F0=9F=A7=AC
+Founder-led =F0=9F=A7=91=E2=80=8D=F0=9F=94=AC=F0=9F=A5=BC
+In the world of tech, a movement focusing on =E2=80=9Cfounder-led startups=
+=E2=80=9D would seem redundant and obvious. Of course founders lead startup=
+s, who else would? However, this wasn=E2=80=99t always the case. In the era=
+ before nearly all VCs touted themselves as =E2=80=9Cfounder friendly [ htt=
+ps://substack.com/redirect/45449eee-16d8-4d55-b646-914b9b8f263c?r=3D9p0gt ]=
+=E2=80=9D there was a very different approach to company creation and manag=
+ement.
+Well before the existence of the YC library [ https://substack.com/redirect=
+/1a2ec0fa-3ea5-4cb0-b0f4-a6862a2d6a90?r=3D9p0gt ], AngelList, and other res=
+ources that underpin the modern startup ecosystem, VC looked very different=
+ from what it is today. In 1972, just one year after the term =E2=80=9CSili=
+con Valley=E2=80=9D was coined, Kleiner, Perkins, Caufield & Byers became t=
+he world=E2=80=99s largest venture capital partnership after raising an $8 =
+million dollar fund. This new fund was born directly out of two of the most=
+ important companies in Silicon Valley history.
+Gene Kleiner was one of the iconic Traitorous Eight [ https://substack.com/=
+redirect/15b39ff6-c8b0-47a2-a654-e7895512ea9a?r=3D9p0gt ] employees who dec=
+ided to leave the Shockley Semiconductor Laboratory to found Fairchild Semi=
+conductor. His new partner Tom Perkins had learned directly from David Pack=
+ard at HP. When they joined forces to start a fund, venture capital was sti=
+ll a nascent practice. There was no such thing as deal flow for VCs. Accord=
+ing to Kleiner, =E2=80=9CWe just didn=E2=80=99t wait around for deals to co=
+me to us. You had to create the deals to be really successful.=E2=80=9D
+In practice, this meant partnering with university professors or entreprene=
+urs from existing large companies, and taking active management positions i=
+n the new ventures. An example of this is Tandem Computers [ https://substa=
+ck.com/redirect/3b74e567-f35f-4b85-bf3e-a60f3d63b86c?r=3D9p0gt ], one of th=
+e fund=E2=80=99s early wins. The company sold fault-tolerant computer syste=
+ms. The CEO was Jimmy Treybig, a former HP colleague. Tom Perkins served as=
+ the chairman of the company from when it was founded until a merger over 2=
+0 years later.
+Obviously, a lot has changed in the 50 years since Kleiner Perkins first op=
+ened its doors on Sand Hill Road. The computer industry has exploded, givin=
+g birth to the software industry and the Web. With each generation, founder=
+s have gotten younger and companies have become more massive. While the fir=
+st founders of Kleiner Perkins portfolio companies were former colleagues w=
+ith deep roots in the early computer industry, the list now includes Larry =
+Page and Sergey Brin, the brilliant young computer scientists who dropped o=
+ut of their PhDs at Stanford to found Google.=C2=A0
+The trend hasn=E2=80=99t stopped there. A more recent Kleiner Perkins inves=
+tment is Figma [ https://substack.com/redirect/e28514c0-6cb1-43e3-86fc-2dd1=
+6d0de0a2?r=3D9p0gt ], the popular design tool that Packaso McCormick uses t=
+o make graphics for Not Boring. They have delivered on their early vision [=
+ https://substack.com/redirect/b6acbd27-fea6-41c5-abba-5d6fe743cf53?r=3D9p0=
+gt ] of building a tool that would =E2=80=9Callow users to creatively expre=
+ss themselves online.=E2=80=9D Figma was founded by Dylan Field and Evan Wa=
+llace who met while undergrads at Brown. Dylan was awarded the Thiel Fellow=
+ship [ https://substack.com/redirect/af73398e-4989-4e2f-beac-06b685e38c1a?r=
+=3D9p0gt ] to drop out of college and work on Figma full time. A 2013 TechC=
+runch article [ https://substack.com/redirect/20d435be-b752-4561-a769-c2a2d=
+59a43a1?r=3D9p0gt ] covering Figma=E2=80=99s $3.8 million seed round summed=
+ it up nicely saying, =E2=80=9CChildren are our future, and VCs are giving =
+them the cash to make it happen.=E2=80=9D
+A lot had to happen for tech to reach this stage. Computers had to become s=
+ubstantially cheaper, faster, and more widespread. An enormous amount of en=
+gineering had to happen to make computer science more accessible and standa=
+rdized. Programming languages had to evolve to more closely approximate nat=
+ural language, encapsulating lower level details with clever abstractions. =
+Modern browsers are so complex that even brilliant programmers like John Ca=
+rmack struggle to keep track of all of the steps [ https://substack.com/red=
+irect/92fddb86-1dc6-4f45-bd19-1ff588b3960a?r=3D9p0gt ] involved in renderin=
+g the text you=E2=80=99re reading now. But browsers have a crucial property=
+: they provide a nearly universal platform that can be used to build new pl=
+atforms. The browser was the core platform that enabled two brilliant young=
+ people to launch a company providing a new platform for creative expressio=
+n. It took several layers of platforms to launch The Great Online Game [ ht=
+tps://substack.com/redirect/7407c205-681f-495c-9a1b-65c06ff114ca?r=3D9p0gt =
+].
+In most cases, biotech company creation looks nothing like the current para=
+digm in tech. Current biotech venture capital much more closely resembles t=
+he state of affairs 50 years ago when Kleiner Perkins was founded. The firs=
+t generation of specialist biotech investors followed a similar playbook to=
+ the Tandem Computers days. The process involved identifying promising scie=
+nce from academic labs and building out a management team to commercialize =
+it, with venture capitalists often taking an active role.
+More recently, this process has been systematized by venture creation funds=
+ and companies. Some of the funds most commonly associated with this strate=
+gy are Atlas [ https://substack.com/redirect/86f237a2-b5c6-48fa-a5ad-6b4f84=
+b8f0a4?r=3D9p0gt ], Third Rock [ https://substack.com/redirect/86f237a2-b5c=
+6-48fa-a5ad-6b4f84b8f0a4?r=3D9p0gt ], and Flagship [ https://substack.com/r=
+edirect/f430ebf8-5329-4ec4-8857-29eb069c5c35?r=3D9p0gt ], which are all bas=
+ed in the Boston area. While there is variability in the mechanics between =
+these types of funds, the core practice is the same: new companies are inte=
+rnally ideated, financed, and incubated within the walls of VC funds.
+There are two major challenges associated with this model:
+It has struggled to scale
+Ownership and decision making is often delegated away from scientists
+While the Web startup ecosystem has rapidly expanded, company creation in b=
+iotech has actually slowed down:
+Part of this trend can be explained by the fixed scaling properties of vent=
+ure creation. Any given fund can only build a finite number of new companie=
+s at a given time. It=E2=80=99s only possible for one fund to do the scient=
+ific ideation and team building involved in their process for a very small =
+number of companies each year. This number can actually go down as partners=
+ saturate the number of board seats and operating roles that they can reaso=
+nably hold. Simply put, this model doesn=E2=80=99t have the intrinsic netwo=
+rk effects of the Silicon Valley tech ecosystem.
+The second crucial drawback is that scientists and engineers=E2=80=94the cr=
+ucial value generators in high-tech innovation=E2=80=94aren=E2=80=99t in ch=
+arge of their destiny. In tech, founders are in control of their cap table.=
+ YC companies are coached to only sell a small fraction of their company to=
+ investors early on. In biotech venture creation, VC funds take the lion=E2=
+=80=99s share of equity from the start. It can be a bit like the difficult =
+negotiation [ https://substack.com/redirect/4823331c-8f98-4bd6-9060-e7aff67=
+e6bd8?r=3D9p0gt ] in Bad Santa, where Willie and Marcus end up giving half =
+of their profits away to their new business partner Gin.
+But the numbers can actually be even more dramatic. We=E2=80=99re not talki=
+ng about giving up half of the equity, we=E2=80=99re talking about a scenar=
+io where key founding scientists can receive single digit equity percentage=
+s, if they even receive any equity at all. In a world where their work can =
+create billions of dollars of value, many biotechnologists are capturing mi=
+niscule fractions of these returns.
+The problem here isn=E2=80=99t just financial. Ownership has an important c=
+onsequence: control over the direction of a company. A central component of=
+ venture creation is the process of building out a management team of execu=
+tives who have experience bringing drugs to market. This means that scienti=
+sts and engineers often don=E2=80=99t steer the trajectory of new companies=
+=2E Leave it to the professionals! While=20=
+this can be effective for executing =
+within an existing paradigm, it doesn=E2=80=99t forge new ones. Google and =
+Facebook weren=E2=80=99t built by former IBM executives, they were built by=
+ young programmers exploring totally different approaches to technology dev=
+elopment and company culture. In the aftermath, we now have an existence pr=
+oof for the fact that young engineers can build and lead massive generation=
+al companies.
+Things are starting to change. While biotech has traditionally been the rea=
+lm of only specialist investors, tech VCs have made a serious entry. These =
+investors have brought some of the dynamics of tech entrepreneurship with t=
+hem. Since making their first biotech investment in Ginkgo Bioworks (read m=
+ore about that story here [ https://substack.com/redirect/5fb4bd34-1f5d-461=
+0-99c1-c000f51d258f?r=3D9p0gt ]), YC now funds more biotech startups [ http=
+s://substack.com/redirect/7e52aa89-9feb-4438-a0b9-9e771fecc1ec?r=3D9p0gt ] =
+each year than any other investor=E2=80=94giving scientists a totally diffe=
+rent option compared to the venture creation route. The software powerhouse=
+ a16z has raised several massive biotech funds, and their partners have bee=
+n vocal proponents [ https://substack.com/redirect/c9fec2f6-d003-4291-9779-=
+52dedeca21ca?r=3D9p0gt ] of giving scientists the reins to their own compan=
+ies.
+This trend is often referred to as the founder-led biotech movement.
+Founder-led companies are beginning to make a real mark on the industry. Th=
+e investor Tony Kulesa framed this beautifully in a recent essay [ https://=
+substack.com/redirect/093ca635-548c-453e-8c58-57d5c146b648?r=3D9p0gt ], say=
+ing:
+=E2=80=9CIn the past 12 months, Ginkgo Bioworks, Recursion Pharmaceuticals,=
+ AbCellera, Finch Therapeutics, SQZ Biotech =E2=80=94 all founded and led b=
+y technical founders fresh from their academic roots =E2=80=94 have gone pu=
+blic. Hot on their heels, founder-led startups at the Series A and beyond l=
+ike Asimov, Biobot Analytics, Cellino, Dyno Therapeutics, GRO Biosciences, =
+PathAI, Strand Therapeutics, Vedanta, 1910 Genetics, and many others, have =
+raised hundreds of millions of venture capital to work on some of the most =
+innovative frontiers in the industry. The founders of these companies are h=
+ungry and creative scientists that realized the impact of their work before=
+ others did, and now they are leading the charge to bring their innovations=
+ to the world.=E2=80=9D
+This general shift in the biotech VC ecosystem isn=E2=80=99t limited to jus=
+t a smaller subset of anomalous companies. As the blood bath in public mark=
+ets has dropped the number of biotech IPOs, emerging techbio funds have act=
+ually overtaken more traditional biotech funds at the Series A stage:
+Beyond seed and series A investments, late-stage investors have also signal=
+ed a willingness to finance founder-led biotechs. Over time, this pipeline =
+should only become more robust as some of the companies become massively su=
+ccessful. All of these changes have the potential to open the floodgates fo=
+r a techbio revolution where company creation is accelerated, capital is mo=
+re evenly distributed across more companies, and scientists are able to bri=
+ng incredible new technologies out of their labs and into the market with l=
+ess friction.
+Here, the key take home message is that one central component of techbio ac=
+tually has nothing to do with AI, software, or robots: one of the major cha=
+nges is the adoption of the tech investment and company creation model wher=
+e founders are at the helm.
+To learn how techbio companies are deeply integrated, backed by new service=
+s, and potentially massive, with real examples=E2=80=A6=20
+Thanks to Elliot [ https://substack.com/redirect/eb433249-bc0f-4eba-82ad-d9=
+1383af97d1?r=3D9p0gt ] for the excellent techbio overview and Dan [ https:/=
+/substack.com/redirect/25e31a04-03c0-4b4c-80c5-7b8d99330b54?r=3D9p0gt ] for=
+ editing! Subscribe to Elliot=E2=80=99s newsletter, The Century of Biology =
+[ https://substack.com/redirect/38597133-906b-4871-a00a-318318e64245?r=3D9p=
+0gt ], to stay up to date with the techbio revolution.
+That=E2=80=99s all for today, we=E2=80=99ll see you Friday morning for a We=
+ekly Dose of Optimism!
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOamszTXpFM09Ea3NJbWxoZENJNk1UWTJNVEUzTXpFeE5pd2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkY5SFVl=
+Um9hUG1yalBUeURZc0Nod3JFSnoxdU1mVmhTdnZPSDl3cVlDZEkiLCJwIjo2OTczMTc4OSwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjExNzMxMTYsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.c4o1WW-PRo0-uSMJ6at3NVjkWN0rz7yTdJ01isCU=
+A_k?
+--fa4f4cb63ad84f3a20d481c82da24c29430b6f5980e70bac8c0b49409e7c
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--animation-smoothing: cubic-bezier(0.16, 1, 0.3, 1); --anim=
+ation-timing-fast: 0.2s; --animation-timing-slow: 0.5s; --border-default: 1=
+px solid var(--color-utility-detail); --border-radius: 4px; --border-radius=
+-12: 12px; --border-radius-4: 4px; --border-radius-8: 8px; --color-bg-prima=
+ry: white; --color-bg-secondary: #f5f5f5; --color-bg-tertiary: #dedede; --c=
+olor-blue: #66c8ff; --color-dark-detail: #333333; --color-dark-primary: #e0=
+e0e0; --color-error: #EB5757; --color-green: #53d09c; --color-heart: #ff838=
+3; --color-primary: #404040; --color-primary-with-theme: #1a1a1a; --color-s=
+econdary: #808080; --color-substack-accent: #ff6719; --color-substack-accen=
+t-bg: #fff7f3; --color-substack-bg: #ffffff; --color-substack-secondary: #8=
+08080; --color-substack-wash: #f5f5f5; --color-tertiary: #a7a7a7; --color-t=
+ext-dark-pencraft: #404040; --color-text-dark-wash: #252525; --color-utilit=
+y-detail: #e0e0e0; --font-family-meta: 'SF Compact Rounded', 'SF Pro Rounde=
+d', ui-rounded, 'SF Pro Text', -apple-system, BlinkMacSystemFont,
+  'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-text: 'SF Pro Tex=
+t', -apple-system, ui-sans-serif, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-title: 'SF Pro Display',=
+ -apple-system-headline, var(--font-family-text); --font-size-14: 14px; --f=
+ont-size-16: 16px; --font-size-default: 16px; --font-weight-600: 600; --img=
+-transition: background-color var(--animation-timing-fast) var(--animation-=
+smoothing); --letter-spacing-default: -0.3px; --letter-spacing-small: -0.15=
+px; --line-height-20: 20px; --line-height-default: 20px; --nav-bp-2: 500px;=
+ --padder: 16px; --shadow-lg: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4p=
+x 6px -2px rgba(0, 0, 0, 0.05); --shadow-md: 0px 4px 6px -1px rgba(0, 0, 0,=
+ 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06); --shadow-sm: 0px 1px 3px rgba(=
+0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06); --shadow-xl: 0px 20px 25px =
+-5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04); --size-12:=
+ 12px; --size-16: 16px; --size-32: 32px; --size-4: 4px; --size-40: 40px; --=
+size-8: 8px;"><head><title>Techbio Taxonomy</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media (max-width: 470px) {
+  .subscribe-dialog.subscribe-dialog-modal {
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .subscribe-dialog.subscribe-dialog-floater-center.collapsed {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .collapse-button {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header {
+    margin-top: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header .close-button {
+    display: flex;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-input {
+    margin-bottom: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-mobile {
+    display: block;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .subscribe-dialog.subscribe-dialog-floater-side {
+    right: 15px;
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media print {
+  .post .post-footer {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media print {
+  .post .post-end-cta-full {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post p,
+  .use-theme-bg .post h1,
+  .use-theme-bg .post h2,
+  .use-theme-bg .post h3,
+  .use-theme-bg .post h4,
+  .use-theme-bg .post h5,
+  .use-theme-bg .post h6 {
+    color: #000;
+  }
+  .use-theme-bg .post p a,
+  .use-theme-bg .post h1 a,
+  .use-theme-bg .post h2 a,
+  .use-theme-bg .post h3 a,
+  .use-theme-bg .post h4 a,
+  .use-theme-bg .post h5 a,
+  .use-theme-bg .post h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head p,
+  .comments-page .container .thread-head h1,
+  .comments-page .container .thread-head h2,
+  .comments-page .container .thread-head h3,
+  .comments-page .container .thread-head h4,
+  .comments-page .container .thread-head h5,
+  .comments-page .container .thread-head h6 {
+    color: #000;
+  }
+  .comments-page .container .thread-head p a,
+  .comments-page .container .thread-head h1 a,
+  .comments-page .container .thread-head h2 a,
+  .comments-page .container .thread-head h3 a,
+  .comments-page .container .thread-head h4 a,
+  .comments-page .container .thread-head h5 a,
+  .comments-page .container .thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head p,
+  .use-theme-bg table.thread-head h1,
+  .use-theme-bg table.thread-head h2,
+  .use-theme-bg table.thread-head h3,
+  .use-theme-bg table.thread-head h4,
+  .use-theme-bg table.thread-head h5,
+  .use-theme-bg table.thread-head h6 {
+    color: #000;
+  }
+  .use-theme-bg table.thread-head p a,
+  .use-theme-bg table.thread-head h1 a,
+  .use-theme-bg table.thread-head h2 a,
+  .use-theme-bg table.thread-head h3 a,
+  .use-theme-bg table.thread-head h4 a,
+  .use-theme-bg table.thread-head h5 a,
+  .use-theme-bg table.thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media print {
+  .mobile-footer-ufi {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-relative {
+    position: relative !important;
+  }
+  .sm\:tw-left-1 {
+    left: 0.25rem !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-7 {
+    height: 1.75rem !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-max-h-\[60vh\] {
+    max-height: 60vh !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-7 {
+    width: 1.75rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-w-\[500px\] {
+    width: 500px !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media (max-width: var(--nav-bp-2)) {
+  .frontend-reader2-Page-module__linkRow--1QoCL.frontend-reader2-Page-modul=
+e__isPadded--Gbh4N {
+    padding: var(--size-12) 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-home_page-module__hero--24Zq7 {
+    padding-top: 164px;
+    padding-bottom: 80px;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frontend-substack-home_page-module__heroInnerRow--2ULAC {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .frontend-substack-home_page-module__heroButtonWrap--3V7jR {
+    flex-direction: column;
+  }
+  .frontend-substack-home_page-module__heroImg--1E7-g {
+    max-width: 342px;
+  }
+  .frontend-substack-home_page-module__hero--24Zq7 h1 {
+    font-size: 44px;
+    line-height: 54.56px;
+    margin: 0;
+  }
+  .frontend-substack-home_page-module__home--28JuV section h2 {
+    margin-top: 80px;
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY {
+    padding: 0 24px 80px 24px;
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY h3 {
+    font-size: 28px;
+    line-height: 34.72px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY > div {
+    flex-direction: column;
+    margin-top: 0px;
+    gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .frontend-substack-home_page-module__benefits--VLGOQ {
+    gap: 80px;
+    padding: 0 24px 80px 24px;
+  }
+  .frontend-substack-home_page-module__benefit--PpUoA {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+  }
+  .frontend-substack-home_page-module__benefitItems--emU-2 {
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__benefit--PpUoA img {
+    max-width: 320px;
+    min-width: 200px;
+  }
+  .frontend-substack-home_page-module__benefit--PpUoA h3 {
+    font-family: Cahuenga, serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 33.79px;
+    margin: 0;
+    color: var(--color-primary);
+  }
+  .frontend-substack-home_page-module__readingExperiences--1gQwI {
+    padding: 0 24px 80px 24px;
+  }
+  .frontend-substack-home_page-module__readingExperiences--1gQwI > div {
+    gap: 80px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .frontend-substack-home_page-module__readingExperience--3sCWK h3 {
+    font-family: Cahuenga, serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 33.79px;
+    margin: 0;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+  }
+  .frontend-substack-home_page-module__expandCollapseButton--3UjfI {
+    top: 34px;
+  }
+  .frontend-substack-home_page-module__centerAlignedSection--z-lIj h4 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .frontend-substack-home_page-module__faqs--2JSzX {
+    justify-content: flex-start;
+    gap: 80px;
+    padding: 0 24px 80px 24px;
+  }
+  .frontend-substack-home_page-module__faq--2A0bm {
+    gap: 12px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .frontend-substack-home_page-module__faq--2A0bm h3 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-substack-PublicationThreadAppLinkPage-module__threadsLinkContai=
+ner--3JR5W {
+    width: calc(100vw - 80px);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-account-groups-GroupManagement-module__groupSubWrapper--OIOo2 {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+  .frontend-reader2-ManageSubscriptionPage-module__highlightButtons--1lIV5 =
+{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .frontend-editor-post-AudioEducationModal-module__modalContainer--3-T0R {
+    height: 524px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwODIyMTI1ODIyLjMuMTE2NDczZmUzYjE4YjlmNEBtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjo2OTczMTc4OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2MTE3MzE=
+xNywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.14xBZ3mQawmnva2NyunflqeNukSoATAtwrZfJ=
+AjTayQ" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><div style=3D"display:none;font=
+-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacit=
+y:0;overflow:hidden;" class=3D"preview">A guest post by Elliot Hershberg on=
+ the four forces reshaping biotech startups &#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-container"><=
+tr><td></td><td width=3D"550" class=3D"content"></td><td></td></tr><tr><td>=
+</td><td align=3D"left" width=3D"550" class=3D"content"><div style=3D"font-=
+size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow-w=
+rap: break-word; width: 100%;"><table role=3D"presentation" width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" st=
+yle=3D"height: 40px;"><table role=3D"presentation" width=3D"auto" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://substack=
+=2Ecom/app-link/post?publication_id=3D100=
+25&post_id=3D69731789&utm_source=3De=
+mail" class=3D"tw-font-body tw-text-ssm tw-text-substack-secondary" style=
+=3D"color: rgb(128,128,128) !important; font-family: SF Pro Text, -apple-sy=
+stem, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-s=
+erif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important; font-s=
+ize: 13px !important;">Open in browser</a></td></tr></table></td></tr></tab=
+le><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; li=
+ne-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-header" style=3D"=
+font-size: 16px; line-height: 26px;"><h1 class=3D"post-title short publishe=
+d" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: a=
+ntialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px; fo=
+nt-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"http=
+s://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGV=
+jaGJpby10YXhvbm9teT90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOX=
+BaQ0k2TmprM016RTNPRGtzSW1saGRDSTZNVFkyTVRFM016RXhOaXdpYVhOeklqb2ljSFZpTFRFd=
+01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5taEpObzM5Uy11cl81VFBBcEFC=
+eE5HdUFXWTVWaWJyRjFsTVFWVl9pMVdBIiwicCI6Njk3MzE3ODksInMiOjEwMDI1LCJmIjp0cnV=
+lLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjYxMTczMTE2LCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbm=
+stcmVkaXJlY3QifQ.ILK9vGw5Mu-TU6qe_GH4XE9pQKbe8SZhi3v6CJSXaHY?" style=3D"col=
+or: #1a1a1a; text-decoration: none;">Techbio Taxonomy</a></h1><h3 class=3D"=
+subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoot=
+hing: antialiased; color: #767676; font-family: 'SF Compact Display', -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2=
+0px; font-weight: normal; line-height: 1.16em; margin: 4px 0 8px; margin-to=
+p: 8px;">A guest post by Elliot Hershberg on 4 forces behind the shift from=
+ biotech &#10145;&#65039; techbio</h3><table cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"post-meta custom" style=3D"align-items: center; height: 20p=
+x; margin: 1em 0;"><tr><td title=3D"2022-08-22T12:58:26.258Z" class=3D"post=
+-meta-item post-date" style=3D"color: #767676; font-family: -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-=
+weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; padd=
+ing-top: 0; position: relative; text-decoration: none; white-space: nowrap;=
+"><time dateTime=3D"2022-08-22T12:58:26.258Z">Aug 22</time></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; text-indent: 3px;=
+ white-space: nowrap;"><span class=3D"post-meta-icon like-reaction-button">=
+<a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9y=
+aW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXR=
+tX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOX=
+BaQ0k2TmprM016RTNPRGtzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOall4TVRje=
+k1URTJMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkuLXBx=
+bm04ZW8tWS1uSExTOGVVR1llOUNVbkFJVFRpczUyZXBHOHAzSjhaVSIsInAiOjY5NzMxNzg5LCJ=
+zIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MTE3MzExNiwiaXNzIjoicH=
+ViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.BaOgmwN-PCyoFFl4xra29xRtD4Sgzr4Gqi49D=
+VS-RzY?" class=3D"like-button" style=3D"color: #767676; display: block; tex=
+t-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c=
+_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F=
+icon%2FLucideHeart%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2=
+523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: no=
+ne !important; display: inline-block; float: left; height: 14px; max-width:=
+ 16px; vertical-align: top; width: auto;" alt=3D""></a></span></td><td clas=
+s=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; f=
+ont-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; =
+padding-top: 0; position: relative; text-decoration: none; text-indent: 3px=
+; white-space: nowrap;"><a class=3D"" href=3D"https://substack.com/redirect=
+/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGVjaGJpby10YXhvbm9teS9jb21t=
+ZW50cz90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmprM01=
+6RTNPRGtzSW1saGRDSTZNVFkyTVRFM016RXhOaXdpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYz=
+NWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5taEpObzM5Uy11cl81VFBBcEFCeE5HdUFXWTVWa=
+WJyRjFsTVFWVl9pMVdBIiwicCI6Njk3MzE3ODksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4=
+MzU0OSwiaWF0IjoxNjYxMTczMTE2LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3Q=
+ifQ.ZaG4hO5Q1FEHCFp84xmApmu-smoJNw_5sR0I_TyUK_w?&utm_source=3Dsubstack&utm_=
+medium=3Demail" style=3D"color: #767676; display: block; text-decoration: n=
+one;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCo=
+mments%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26=
+strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !importan=
+t; display: inline-block; float: left; height: 14px; max-width: 16px; verti=
+cal-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon post-me=
+ta-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color: #767676=
+; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 14px; font-weight: 400; height: 14px; margin-right: 0; p=
+adding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0=
+; position: relative; text-decoration: none; text-indent: 3px; white-space:=
+ nowrap;"><span><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6=
+Ly93d3cubm90Ym9yaW5nLmNvL3AvdGVjaGJpby10YXhvbm9teT91dG1fc291cmNlPXN1YnN0YWN=
+rJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NvbnRlbnQ9c2hhcmUmYWN0aW9uPXNoYXJlJnRva2VuPW=
+V5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2lhV0YwSWpveE5qWXhNVGN6TVRFMkxDSnBjM01pT=
+2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAud29VeUp0UldX=
+WFEtSEV4Q0dTLTRuRV9jM1FzNHlvU2xqTTd1UjdzSUg2TSIsInAiOjY5NzMxNzg5LCJzIjoxMDA=
+yNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MTE3MzExNiwiaXNzIjoicHViLTAiLC=
+JzdWIiOiJsaW5rLXJlZGlyZWN0In0._SdMUMA1qSnzkFNuY-t4CQSXo9n4M2EGhIj66248BQk?"=
+ style=3D"color: #767676; display: block; text-decoration: none;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26=
+height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" =
+width=3D"16" height=3D"16" style=3D"border: none !important; display: inlin=
+e-block; float: left; height: 14px; max-width: 16px; vertical-align: top; w=
+idth: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"></a></sp=
+an></td></tr></table></div></div><div dir=3D"auto" class=3D"post typography=
+" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div d=
+ir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-height: 26=
+px; margin-bottom: 12px; text-align: initial; width: 100%; word-break: brea=
+k-word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0; margin-top: 0;"><em><span>Welcome to the&#160;</span><stro=
+ng>1,553&#160;newly Not Boring people&#160;</strong><span>who have joined u=
+s since last Monday! If you haven&#8217;t subscribed, join&#160;</span><str=
+ong>147,020 </strong><span>smart, curious folks by subscribing here: </span=
+></em></p><div class=3D"subscribe-widget" style=3D"direction: ltr; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0; text-align: center;"><a href=3D"https://substack.com/redirect/2/eyJlIjo=
+iaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJwIj=
+o2OTczMTc4OSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjExNzMxM=
+TYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.LSUQ1Jn5P93nzVoZhAXkM7g=
+fVEM48x9jeQGiLUpqsdA?&utm_medium=3Demail&utm_source=3Dsubscribe-widget&utm_=
+content=3D69731789" class=3D"button subscribe-btn primary" style=3D"backgro=
+und-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border-bo=
+x; color: #ffffff !important; cursor: pointer; display: inline-block; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 16px; font-weight: normal; height: auto; line-height: 20px; mar=
+gin: 0 auto; opacity: 1; outline: none; padding: 12px 20px; text-align: cen=
+ter; text-decoration: none !important; white-space: nowrap;"><span style=3D=
+"color: #ffffff; text-decoration: none;">Subscribe now</span></a></p></div>=
+<div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background:=
+ #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"></div><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;"><strong><span>Today&#8217;s post is brought to you by &#8230; </span>=
+<a href=3D"https://substack.com/redirect/1329ede0-6749-411c-9c22-acd64497d5=
+a1?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">Cromatic</a></strong></p><div class=3D"captioned-image-container-static" =
+style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-alig=
+n: center;"><figure style=3D"display: inline-block; margin: 0 auto; width: =
+100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em =
+0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"le=
+ft" class=3D"content" width=3D"1456" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/880=
+a7f29-769d-4886-b9e8-59b99b249679?r=3D9p0gt" rel=3D"" style=3D"align-items:=
+ center; border: none; display: block; flex-direction: column; height: auto=
+; margin: 0; padding: 0; position: relative; text-decoration: none; width: =
+auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/699d5dc7-56bd-4=
+c91-b84a-9561cb5f3499_1500x500.jpeg&quot;,&quot;fullscreen&quot;:null,&quot=
+;imageSize&quot;:null,&quot;height&quot;:485,&quot;width&quot;:1456,&quot;r=
+esizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Image&qu=
+ot;,&quot;title&quot;:&quot;Image&quot;,&quot;type&quot;:null,&quot;href&qu=
+ot;:null,&quot;belowTheFold&quot;:false}" alt=3D"Image" title=3D"Image" wid=
+th=3D"550" height=3D"183.20741758241758" class=3D"wide-image" src=3D"https:=
+//substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.a=
+mazonaws.com%2Fpublic%2Fimages%2F699d5dc7-56bd-4c91-b84a-9561cb5f3499_1500x=
+500.jpeg" style=3D"-ms-interpolation-mode: bicubic; border: none !important=
+; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width=
+: 100% !important; vertical-align: middle; width: auto !important;"></a></t=
+d><td style=3D"text-align: center;"></td></tr></tbody></table></figure></di=
+v><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;"><em>As you&#8217;ll read today, the biotech industry is evolving=
+=2E Launching a new startup has become le=
+ss capital intensive. A new generati=
+on of founders are building nimble teams, and outsourcing portions of their=
+ R&amp;D to stay lean and focus on core scientific competencies.</em></p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;"><em><span>Outsourcing can come with headaches. It can be challenging=
+ to decide on the right vendor, compare prices, and track project progress.=
+ While </span><strong>contract research organizations (CROs)</strong><span>=
+ are an important part of the modern biotech ecosystem, these partnerships =
+come at a cost.</span></em></p><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;"><em><span>Cromatic is on a mission =
+to help modern biotechs make the most out of outsourcing. Their vision is t=
+o develop the infrastructure necessary to make contract management a painle=
+ss, daresay enjoyable, experience. </span><strong>Cromatic makes outsourcin=
+g easier than ever so you can focus on the science.</strong></em></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><em><span>Cromatic is currently performing outsourcing searches for earl=
+y stage biotech companies for free. Learn more </span><a href=3D"https://su=
+bstack.com/redirect/31b915ee-2ac3-410a-9255-75f1dff80fe9?r=3D9p0gt" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">here</a><span>.</sp=
+an></em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D=
+"background: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0=
+;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">Hi friends &#128075;, </p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Happy Monday! Ho=
+pe you&#8217;re enjoying a relaxing August. I&#8217;d like to briefly inter=
+rupt your summer holiday to let </span><a href=3D"https://substack.com/redi=
+rect/eb433249-bc0f-4eba-82ad-d91383af97d1?r=3D9p0gt" rel=3D"" style=3D"colo=
+r: #1a1a1a; text-decoration: underline;">Elliot Hershberg</a><span> introdu=
+ce you to the future. </span></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><span>You met Elliot before when =
+he wrote about </span><a href=3D"https://substack.com/redirect/5fb4bd34-1f5=
+d-4610-99c1-c000f51d258f?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-=
+decoration: underline;">Ginkgo Bioworks</a><span>. While he&#8217;s not pur=
+suing his Ph.D. in Genomics at Stanford, Elliot works with us at Not Boring=
+ Capital to discover and invest in the sci-fi-adjacent companies pushing th=
+e frontiers of biology.</span></p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">Why invest in biotech, you ask? =
+You&#8217;re not alone. One of the most frequent questions I get from LPs a=
+nd potential LPs is why in the world Not Boring Capital would invest in bio=
+tech. Historically, biotech has been a very specific and separate disciplin=
+e from traditional venture investing. Getting a therapeutic to market is ri=
+sky at best, and even if it works, it&#8217;s incredibly cash consumptive. =
+A small fund investing in early stage biotech is bound to be diluted to smi=
+thereens by exit time. </p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;"><span>But Elliot&#8217;s thesis, of whi=
+ch I&#8217;ve become convinced over many conversations with both him and fo=
+unders building in the space, is that there&#8217;s an enormous shift afoot=
+ in which </span><strong>biotech companies are beginning to look a lot like=
+ software companies did a decade or so ago</strong><span>, propelled by for=
+ces akin to the rise of AWS, founder-friendliness, and a growing ecosystem =
+of primitives with which to build. Founders are getting closer and closer t=
+o programming atoms like software engineers program bits. The capital, and =
+team size, needed to start and scale these businesses is declining. Multi-b=
+illion dollar outcomes and 100x returns are becoming more frequent. </span>=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;"><span>The shift is so big that the category needs a new name: =
+from biotech to </span><strong>techbio</strong><span>.</span></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>In today&#8217;s piece, Elliot synthesizes years of knowledge into a=
+ compact </span><strong>techbio taxonomy</strong><span> and describes four =
+key shifts that are unleashing a wave of entrepreneurial energy on one of t=
+he biggest opportunities available to humanity: &#8220;tapping into the awe=
+some power of </span><a href=3D"https://substack.com/redirect/c1e2b428-28db=
+-4f24-b26b-9a11447ed914?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-d=
+ecoration: underline;">biological growth</a><span>.&#8221;</span></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><span>BTW, if you don&#8217;t already, you need to </span><strong>subscr=
+ibe to Elliot&#8217;s newsletter</strong><span>, </span><a href=3D"https://=
+substack.com/redirect/38597133-906b-4871-a00a-318318e64245?r=3D9p0gt" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">The Century of =
+Biology</a><span>. There&#8217;s so much exciting work being done in techbi=
+o, and there&#8217;s no better guide than a triple-threat researcher, inves=
+tor, writer. </span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">Let&#8217;s get to it. </p><div style=3D"f=
+ont-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; borde=
+r: none; height: 1px; margin: 48px 0; padding: 0;"></div><h1 class=3D"heade=
+r-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webki=
+t-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Dis=
+play', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ar=
+ial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; =
+font-size: 2em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625=
+em 0; position: relative;"><a href=3D"https://substack.com/redirect/4f39358=
+d-ca07-4cf6-bc2a-e504c31fb9d0?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; =
+text-decoration: underline;">Techbio Taxonomy</a><div id=3D"&#167;techbio-t=
+axonomy" class=3D"header-anchor-widget" style=3D"font-size: 16px; height: 1=
+00%; left: -56px; line-height: 26px; position: absolute; top: -72px; width:=
+ 56px;"><div class=3D"header-anchor-widget-button-container" style=3D"align=
+-items: center; display: flex; font-size: 16px; height: 1.2em; left: 0; lin=
+e-height: 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"he=
+ader-anchor-widget-button" href=3D"https://substack.com/redirect/94366621-1=
+412-43c9-a5ad-bca6cb2df44f?r=3D9p0gt" style=3D"align-items: center; border-=
+radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-content: =
+center; text-decoration: underline; width: 40px;"><svg xmlns=3D"http://www.=
+w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"n=
+one" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" st=
+roke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"height=
+: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-=
+3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a=
+5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h1><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>An El=
+liot Hershberg Guest Post for Not Boring</em></p><div class=3D"captioned-im=
+age-container-static" style=3D"font-size: 16px; line-height: 26px; margin-b=
+ottom: 16px; text-align: center;"><figure style=3D"display: inline-block; m=
+argin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto;=
+ mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;=
+"></td><td align=3D"left" class=3D"content" width=3D"1200" style=3D"text-al=
+ign: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://sub=
+stack.com/redirect/d78e7dc3-4c53-4d45-8c4a-e775ba7bb79b?r=3D9p0gt" rel=3D""=
+ style=3D"align-items: center; border: none; display: block; flex-direction=
+: column; height: auto; margin: 0; padding: 0; position: relative; text-dec=
+oration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;http=
+s://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/=
+images/82c18fcc-2701-498c-98d1-3f7847f52cc0_1200x600.png&quot;,&quot;fullsc=
+reen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:600,&quot;wid=
+th&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:139318,&quot;a=
+lt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;=
+,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" width=3D"55=
+0" height=3D"275" class=3D"wide-image" src=3D"https://substackcdn.com/image=
+/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2=
+Fimages%2F82c18fcc-2701-498c-98d1-3f7847f52cc0_1200x600.png" style=3D"-ms-i=
+nterpolation-mode: bicubic; border: none !important; display: block; height=
+: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; verti=
+cal-align: middle; width: auto !important;"></a></td><td style=3D"text-alig=
+n: center;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Sometimes new=
+ words and terminology are necessary before we can fully internalize the ch=
+ange taking place around us.&#160;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">We needed the notion of the =
+World Wide Web before we could truly capitalize on the promise of a global =
+network of computers. Today, Web3 is a term that encompasses a broad set of=
+ ideas about where the Internet should go next.</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>An import=
+ant transition is also taking place in the world of biotech. From the headl=
+ine news of Google DeepMind solving </span><a href=3D"https://substack.com/=
+redirect/5320f0d2-4616-4bd5-bb64-2fdb682ca4a8?r=3D9p0gt" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">protein structure prediction</=
+a><span>, to the </span><a href=3D"https://substack.com/redirect/f30bc983-9=
+f7d-44d9-92e5-441814aff694?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; tex=
+t-decoration: underline;">recent completion</a><span> of the human genome, =
+the frontier of biology has become deeply integrated with AI, software, and=
+ hardware. The new generation of hybrid companies on the cutting edge of th=
+is trend are often referred to as </span><strong>techbio</strong><span> com=
+panies.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;"><span>This new intersection between bits and ato=
+ms is a really big deal. In a world where the cost of developing new drugs =
+is </span><a href=3D"https://substack.com/redirect/78fca5a0-8e6c-4c13-8df8-=
+1832b07840f0?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: =
+underline;">increasing exponentially</a><span> and healthcare takes up an u=
+nsustainable portion of our GDP, something needs to change. Beyond developi=
+ng more medicines cheaper and faster, techbio could help us </span><a href=
+=3D"https://substack.com/redirect/616ec68f-61d9-40f3-b191-db908ed4ca16?r=3D=
+9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">live =
+longer</a><span> and healthier lives in material abundance made possible th=
+rough the biologization of our industrial processes.</span></p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><st=
+rong>But what actually is a techbio company?</strong><span> What are the de=
+fining characteristics of this new category? Here, I will attempt to contri=
+bute to the challenging and highly imperfect science of taxonomy by answeri=
+ng this question. With new words and terms, there needs to also be a shared=
+ understanding of what they mean.</span></p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">As the first generatio=
+n of techbio companies mature and the ecosystem evolves, patterns are begin=
+ning to emerge. The techbio companies of tomorrow will likely be:</p><ul st=
+yle=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; m=
+argin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom=
+: 0;"><strong>Founder-led &#129489;&#8205;&#128300;&#129404;</strong></p></=
+li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; marg=
+in-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Deeply=
+ integrated &#129516;&#128421;&#65039;</strong></p></li><li style=3D"margin=
+-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-speci=
+al-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0; margin-bottom: 0;"><strong>Backed by new services &#128=
+300;&#129514;</strong></p></li><li style=3D"margin-bottom: 4px; margin-left=
+: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margi=
+n-bottom: 0;"><strong>Massive &#128176;&#128640;</strong></p></li></ul><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">It&#8217;s time to unpack each of these components. Let&#8217;s jump i=
+n! &#129516;</p><h1 class=3D"header-with-anchor-widget" style=3D"-moz-osx-f=
+ont-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a=
+1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-h=
+eight: 1.16em; margin: 1em 0 0.625em 0; position: relative;">Founder-led &#=
+129489;&#8205;&#128300;&#129404;<div id=3D"&#167;founder-led-" class=3D"hea=
+der-anchor-widget" style=3D"font-size: 16px; height: 100%; left: -56px; lin=
+e-height: 26px; position: absolute; top: -72px; width: 56px;"><div class=3D=
+"header-anchor-widget-button-container" style=3D"align-items: center; displ=
+ay: flex; font-size: 16px; height: 1.2em; left: 0; line-height: 26px; posit=
+ion: absolute; top: 72px; width: 40px;"><a class=3D"header-anchor-widget-bu=
+tton" href=3D"https://substack.com/redirect/b37df8ce-863c-4b6a-8173-107aa51=
+8da47?r=3D9p0gt" style=3D"align-items: center; border-radius: 50%; color: #=
+1a1a1a; display: none; height: 40px; justify-content: center; text-decorati=
+on: underline; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" widt=
+h=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"curren=
+tColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"roun=
+d" class=3D"header-anchor-widget-icon" style=3D"height: 20px; stroke: #9a9a=
+9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l=
+-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.7=
+1-1.71"/></svg></a></div></div></h1><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;"><span>In the world of tech, a =
+movement focusing on &#8220;founder-led startups&#8221; would seem redundan=
+t and obvious. </span><strong>Of course founders lead startups, who else wo=
+uld?</strong><span> However, this wasn&#8217;t always the case. In the era =
+before nearly all VCs touted themselves as &#8220;</span><a href=3D"https:/=
+/substack.com/redirect/45449eee-16d8-4d55-b646-914b9b8f263c?r=3D9p0gt" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">founder friendl=
+y</a><span>&#8221; there was a very different approach to company creation =
+and management.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;"><span>Well before the existence of the <=
+/span><a href=3D"https://substack.com/redirect/1a2ec0fa-3ea5-4cb0-b0f4-a686=
+2a2d6a90?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">YC library</a><span>, AngelList, and other resources that underpin =
+the modern startup ecosystem, VC looked very different from what it is toda=
+y. In 1972, just one year after the term &#8220;Silicon Valley&#8221; was c=
+oined, Kleiner, Perkins, Caufield &amp; Byers became the world&#8217;s larg=
+est venture capital partnership after raising an $8 million dollar fund. Th=
+is new fund was born directly out of two of the most important companies in=
+ Silicon Valley history.</span></p><div class=3D"captioned-image-container-=
+static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; t=
+ext-align: center;"><figure style=3D"display: inline-block; margin: 0 auto;=
+ width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-a=
+lt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td ali=
+gn=3D"left" class=3D"content" width=3D"354" style=3D"text-align: center;"><=
+a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redir=
+ect/0ed1278d-88e9-47f1-b6e6-96f118ccff0c?r=3D9p0gt" rel=3D"" style=3D"align=
+-items: center; border: none; display: block; flex-direction: column; heigh=
+t: auto; margin: 0; padding: 0; position: relative; text-decoration: none; =
+width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e=
+05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d3294c5f=
+-65e5-4a4c-9177-0fd9be32ce96_354x281.png&quot;,&quot;fullscreen&quot;:null,=
+&quot;imageSize&quot;:null,&quot;height&quot;:281,&quot;width&quot;:354,&qu=
+ot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot=
+;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTh=
+eFold&quot;:true}" alt=3D"" width=3D"354" height=3D"281" class=3D"" src=3D"=
+https://substackcdn.com/image/fetch/w_354,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984=
+=2Es3.amazonaws.com%2Fpublic%2Fimages%2Fd=
+3294c5f-65e5-4a4c-9177-0fd9be32ce96_=
+354x281.png" style=3D"-ms-interpolation-mode: bicubic; border: none !import=
+ant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-wi=
+dth: 100% !important; vertical-align: middle; width: auto !important;"></a>=
+</td><td style=3D"text-align: center;"></td></tr></tbody></table><figcaptio=
+n class=3D"image-caption" style=3D"color: #767676; font-family: sans-serif;=
+ font-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center;=
+"><em><span>Above, the traitorous eight. (</span><a href=3D"https://substac=
+k.com/redirect/15b39ff6-c8b0-47a2-a654-e7895512ea9a?r=3D9p0gt" rel=3D"">sou=
+rce</a><span>)</span></em></figcaption></figure></div><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Gene K=
+leiner was one of the iconic </span><a href=3D"https://substack.com/redirec=
+t/15b39ff6-c8b0-47a2-a654-e7895512ea9a?r=3D9p0gt" rel=3D"" style=3D"color: =
+#1a1a1a; text-decoration: underline;">Traitorous Eight</a><span> employees =
+who decided to leave the Shockley Semiconductor Laboratory to found Fairchi=
+ld Semiconductor. His new partner Tom Perkins had learned directly from Dav=
+id Packard at HP. When they joined forces to start a fund, venture capital =
+was still a nascent practice. </span><strong>There was no such thing as dea=
+l flow for VCs</strong><span>. According to Kleiner, &#8220;We just didn&#8=
+217;t wait around for deals to come to us. You had to create the deals to b=
+e really successful.&#8221;</span></p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>In practice, this mean=
+t partnering with university professors or entrepreneurs from existing larg=
+e companies, and taking active management positions in the new ventures. An=
+ example of this is </span><a href=3D"https://substack.com/redirect/3b74e56=
+7-f35f-4b85-bf3e-a60f3d63b86c?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; =
+text-decoration: underline;">Tandem Computers</a><span>, one of the fund&#8=
+217;s early wins. The company sold fault-tolerant computer systems. The CEO=
+ was Jimmy Treybig, a former HP colleague. Tom Perkins served as the chairm=
+an of the company from when it was founded until a merger over 20 years lat=
+er.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;"><span>Obviously, a lot has changed in the 50 years s=
+ince Kleiner Perkins first opened its doors on Sand Hill Road. The computer=
+ industry has exploded, giving birth to the software industry and the Web. =
+</span><strong>With each generation, founders have gotten younger and compa=
+nies have become more massive.</strong><span> While the first founders of K=
+leiner Perkins portfolio companies were former colleagues with deep roots i=
+n the early computer industry, the list now includes Larry Page and Sergey =
+Brin, the brilliant young computer scientists who dropped out of their PhDs=
+ at Stanford to found Google.&#160;</span></p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>The trend hasn=
+&#8217;t stopped there. A more recent Kleiner Perkins investment is </span>=
+<a href=3D"https://substack.com/redirect/e28514c0-6cb1-43e3-86fc-2dd16d0de0=
+a2?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">Figma</a><span>, the popular design tool that Packaso McCormick uses to m=
+ake graphics for Not Boring. They have delivered on their </span><a href=3D=
+"https://substack.com/redirect/b6acbd27-fea6-41c5-abba-5d6fe743cf53?r=3D9p0=
+gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">early vi=
+sion</a><span> of building a tool that would &#8220;allow users to creative=
+ly express themselves online.&#8221; Figma was founded by Dylan Field and E=
+van Wallace who met while undergrads at Brown. Dylan was awarded the </span=
+><a href=3D"https://substack.com/redirect/af73398e-4989-4e2f-beac-06b685e38=
+c1a?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline=
+;">Thiel Fellowship</a><span> to drop out of college and work on Figma full=
+ time. A 2013 TechCrunch </span><a href=3D"https://substack.com/redirect/20=
+d435be-b752-4561-a769-c2a2d59a43a1?r=3D9p0gt" rel=3D"" style=3D"color: #1a1=
+a1a; text-decoration: underline;">article</a><span> covering Figma&#8217;s =
+$3.8 million seed round summed it up nicely saying, &#8220;</span><strong>C=
+hildren are our future, and VCs are giving them the cash to make it happen.=
+</strong><span>&#8221;</span></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><span>A lot had to happen for tec=
+h to reach this stage. Computers had to become substantially cheaper, faste=
+r, and more widespread. An enormous amount of engineering had to happen to =
+make computer science more accessible and standardized. Programming languag=
+es had to evolve to more closely approximate natural language, encapsulatin=
+g lower level details with clever abstractions. Modern browsers are so comp=
+lex that even brilliant programmers like John Carmack struggle to </span><a=
+ href=3D"https://substack.com/redirect/92fddb86-1dc6-4f45-bd19-1ff588b3960a=
+?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">=
+keep track of all of the steps</a><span> involved in rendering the text you=
+&#8217;re reading now. But browsers have a crucial property: </span><strong=
+>they provide a nearly universal platform that can be used to build new pla=
+tforms.</strong><span> The browser was the core platform that enabled two b=
+rilliant young people to launch a company providing a new platform for crea=
+tive expression. It took several layers of platforms to launch </span><a hr=
+ef=3D"https://substack.com/redirect/7407c205-681f-495c-9a1b-65c06ff114ca?r=
+=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Th=
+e Great Online Game</a><span>.</span></p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;">In most cases, biotech co=
+mpany creation looks nothing like the current paradigm in tech. Current bio=
+tech venture capital much more closely resembles the state of affairs 50 ye=
+ars ago when Kleiner Perkins was founded. The first generation of specialis=
+t biotech investors followed a similar playbook to the Tandem Computers day=
+s. The process involved identifying promising science from academic labs an=
+d building out a management team to commercialize it, with venture capitali=
+sts often taking an active role.</p><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;"><strong>More recently, this pr=
+ocess has been systematized by venture creation funds and companies.</stron=
+g><span> Some of the funds most commonly associated with this strategy are =
+</span><a href=3D"https://substack.com/redirect/86f237a2-b5c6-48fa-a5ad-6b4=
+f84b8f0a4?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: und=
+erline;">Atlas</a><span>, </span><a href=3D"https://substack.com/redirect/8=
+6f237a2-b5c6-48fa-a5ad-6b4f84b8f0a4?r=3D9p0gt" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">Third Rock</a><span>, and </span><a href=
+=3D"https://substack.com/redirect/f430ebf8-5329-4ec4-8857-29eb069c5c35?r=3D=
+9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Flags=
+hip</a><span>, which are all based in the Boston area. While there is varia=
+bility in the mechanics between these types of funds, the core practice is =
+the same: </span><strong>new companies are internally ideated, financed, an=
+d incubated within the walls of VC funds.</strong></p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">There are tw=
+o major challenges associated with this model:</p><ol style=3D"margin-top: =
+0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; mar=
+gin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0; margin-bottom: 0;">It has struggled to scale</p></li><li sty=
+le=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4p=
+x;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0; margin-bottom: 0;">Ownership and decision making is often delegated awa=
+y from scientists</p></li></ol><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;">While the Web startup ecosystem has=
+ rapidly expanded, company creation in biotech has actually slowed down:</p=
+><div class=3D"captioned-image-container-static" style=3D"font-size: 16px; =
+line-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"1055" style=3D"text-align: center;"><a class=3D"image-link" target=3D=
+"_blank" href=3D"https://substack.com/redirect/8b63e092-0305-4a5b-88b0-e3ca=
+a0821be7?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; di=
+splay: block; flex-direction: column; height: auto; margin: 0; padding: 0; =
+position: relative; text-decoration: none; width: auto;"><img data-attrs=3D=
+"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77=
+984.s3.amazonaws.com/public/images/96a43f40-3b6b-4a58-bf43-b8990af0038e_105=
+5x718.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quo=
+t;height&quot;:718,&quot;width&quot;:1055,&quot;resizeWidth&quot;:null,&quo=
+t;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&q=
+uot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" wi=
+dth=3D"550" height=3D"374.3127962085308" class=3D"wide-image" src=3D"https:=
+//substackcdn.com/image/fetch/w_2110,c_limit,f_auto,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.a=
+mazonaws.com%2Fpublic%2Fimages%2F96a43f40-3b6b-4a58-bf43-b8990af0038e_1055x=
+718.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important;=
+ display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width:=
+ 100% !important; vertical-align: middle; width: auto !important;"></a></td=
+><td style=3D"text-align: center;"></td></tr></tbody></table><figcaption cl=
+ass=3D"image-caption" style=3D"color: #767676; font-family: sans-serif; fon=
+t-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><e=
+m><span>Crucial figure from a recent analysis by </span><a href=3D"https://=
+substack.com/redirect/66b29516-79bb-4a49-b1d0-bc896ae8e1e8?r=3D9p0gt" rel=
+=3D"">Tony Kulesa</a><span>, Principal and Co-founder of </span><a href=3D"=
+https://substack.com/redirect/7c0cf2a9-b07f-43e2-a105-d0ccb7d54c4d?r=3D9p0g=
+t" rel=3D"">Petri Bio</a><span>.</span></em></figcaption></figure></div><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;"><span>Part of this trend can be explained by the fixed scaling proper=
+ties of venture creation. Any given fund can only build a finite number of =
+new companies at a given time. It&#8217;s only possible for one fund to do =
+the scientific ideation and team building involved in their process for a v=
+ery small number of companies each year. This number can actually go down a=
+s partners saturate the number of board seats and operating roles that they=
+ can reasonably hold. </span><strong>Simply put, this model doesn&#8217;t h=
+ave the intrinsic network effects of the Silicon Valley tech ecosystem.</st=
+rong></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;"><span>The second crucial drawback is that scientists and =
+engineers&#8212;the crucial value generators in high-tech innovation&#8212;=
+aren&#8217;t in charge of their destiny. In tech, founders are in control o=
+f their cap table. YC companies are coached to only sell a small fraction o=
+f their company to investors early on. In biotech venture creation, VC fund=
+s take the lion&#8217;s share of equity from the start. It can be a bit lik=
+e the </span><a href=3D"https://substack.com/redirect/4823331c-8f98-4bd6-90=
+60-e7aff67e6bd8?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoratio=
+n: underline;">difficult negotiation</a><span> in Bad Santa, where Willie a=
+nd Marcus end up giving half of their profits away to their new business pa=
+rtner Gin.</span></p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"852" style=3D"text-align: center;"><a class=3D"im=
+age-link" target=3D"_blank" href=3D"https://substack.com/redirect/9028064d-=
+8f73-4a32-a487-b7a357b37ccf?r=3D9p0gt" rel=3D"" style=3D"align-items: cente=
+r; border: none; display: block; flex-direction: column; height: auto; marg=
+in: 0; padding: 0; position: relative; text-decoration: none; width: auto;"=
+><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-=
+437e-9518-adb32be77984.s3.amazonaws.com/public/images/7bbcddb5-0b5a-413b-a2=
+60-f11bd2194fde_852x480.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSi=
+ze&quot;:null,&quot;height&quot;:480,&quot;width&quot;:852,&quot;resizeWidt=
+h&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:=
+null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:t=
+rue}" alt=3D"" width=3D"550" height=3D"309.85915492957747" class=3D"wide-im=
+age" src=3D"https://substackcdn.com/image/fetch/w_1704,c_limit,f_auto,q_aut=
+o:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518=
+-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7bbcddb5-0b5a-413b-a260-=
+f11bd2194fde_852x480.png" style=3D"-ms-interpolation-mode: bicubic; border:=
+ none !important; display: block; height: auto; margin: 0 auto; margin-bott=
+om: 0; max-width: 100% !important; vertical-align: middle; width: auto !imp=
+ortant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></tab=
+le></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;"><span>But the numbers can actually be even more =
+dramatic. We&#8217;re not talking about giving up </span><strong>half</stro=
+ng><span> of the equity, we&#8217;re talking about a scenario where key fou=
+nding scientists can receive single digit equity percentages, </span><stron=
+g>if they even receive any equity at all</strong><span>. In a world where t=
+heir work can create billions of dollars of value, many biotechnologists ar=
+e capturing miniscule fractions of these returns.</span></p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>=
+The problem here isn&#8217;t just financial. </span><strong>Ownership has a=
+n important consequence: control over the direction of a company.</strong><=
+span> A central component of venture creation is the process of building ou=
+t a management team of executives who have experience bringing drugs to mar=
+ket. This means that scientists and engineers often don&#8217;t steer the t=
+rajectory of new companies. Leave it to the professionals! While this can b=
+e effective for executing within an existing paradigm, it doesn&#8217;t for=
+ge new ones. Google and Facebook weren&#8217;t built by former IBM executiv=
+es, they were built by young programmers exploring totally different approa=
+ches to technology development and company culture. </span><strong>In the a=
+ftermath, we now have an existence proof for the fact that young engineers =
+can build and lead massive generational companies.</strong></p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><sp=
+an>Things are starting to change. While biotech has traditionally been the =
+realm of only specialist investors, tech VCs have made a serious entry. The=
+se investors have brought some of the dynamics of tech entrepreneurship wit=
+h them. Since making their first biotech investment in Ginkgo Bioworks (rea=
+d more about that story </span><a href=3D"https://substack.com/redirect/5fb=
+4bd34-1f5d-4610-99c1-c000f51d258f?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a=
+1a; text-decoration: underline;">here</a><span>), YC now </span><a href=3D"=
+https://substack.com/redirect/7e52aa89-9feb-4438-a0b9-9e771fecc1ec?r=3D9p0g=
+t" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">funds mor=
+e biotech startups</a><span> each year than any other investor&#8212;giving=
+ scientists a totally different option compared to the venture creation rou=
+te. The software powerhouse a16z has raised several massive biotech funds, =
+and their partners have been </span><a href=3D"https://substack.com/redirec=
+t/c9fec2f6-d003-4291-9779-52dedeca21ca?r=3D9p0gt" rel=3D"" style=3D"color: =
+#1a1a1a; text-decoration: underline;">vocal proponents</a><span> of giving =
+scientists the reins to their own companies.</span></p><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Thi=
+s trend is often referred to as the founder-led biotech movement.</strong><=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;"><span>Founder-led companies are beginning to make a real mark o=
+n the industry. The investor Tony Kulesa framed this beautifully in a </spa=
+n><a href=3D"https://substack.com/redirect/093ca635-548c-453e-8c58-57d5c146=
+b648?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underlin=
+e;">recent essay</a><span>, saying:</span></p><blockquote style=3D"border-l=
+eft: 4px solid #67bdfc; margin: 1em 0;"><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;">&#8220;I=
+n the past 12 months, Ginkgo Bioworks, Recursion Pharmaceuticals, AbCellera=
+, Finch Therapeutics, SQZ Biotech &#8212; all founded and led by technical =
+founders fresh from their academic roots &#8212; have gone public. Hot on t=
+heir heels, founder-led startups at the Series A and beyond like Asimov, Bi=
+obot Analytics, Cellino, Dyno Therapeutics, GRO Biosciences, PathAI, Strand=
+ Therapeutics, Vedanta, 1910 Genetics, and many others, have raised hundred=
+s of millions of venture capital to work on some of the most innovative fro=
+ntiers in the industry. The founders of these companies are hungry and crea=
+tive scientists that realized the impact of their work before others did, a=
+nd now they are leading the charge to bring their innovations to the world.=
+&#8221;</p></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">This general shift in the biotech VC ecosy=
+stem isn&#8217;t limited to just a smaller subset of anomalous companies. A=
+s the blood bath in public markets has dropped the number of biotech IPOs, =
+emerging techbio funds have actually overtaken more traditional biotech fun=
+ds at the Series A stage:</p><div class=3D"captioned-image-container-static=
+" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-al=
+ign: center;"><figure style=3D"display: inline-block; margin: 0 auto; width=
+: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1e=
+m 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"=
+left" class=3D"content" width=3D"1456" style=3D"text-align: center;"><a cla=
+ss=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/6=
+0d10ab9-4f09-41c4-8cb2-17aeba4b296b?r=3D9p0gt" rel=3D"" style=3D"align-item=
+s: center; border: none; display: block; flex-direction: column; height: au=
+to; margin: 0; padding: 0; position: relative; text-decoration: none; width=
+: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc=
+84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b80535f2-a843=
+-4567-843b-3416a64baa0c_1600x938.png&quot;,&quot;fullscreen&quot;:null,&quo=
+t;imageSize&quot;:null,&quot;height&quot;:854,&quot;width&quot;:1456,&quot;=
+resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;ti=
+tle&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFo=
+ld&quot;:true}" alt=3D"" width=3D"550" height=3D"322.59615384615387" class=
+=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f=
+_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb80535f2-a843=
+-4567-843b-3416a64baa0c_1600x938.png" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: block; height: auto; margin: 0 auto;=
+ margin-bottom: 0; max-width: 100% !important; vertical-align: middle; widt=
+h: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr><=
+/tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">Beyond seed and series A investments=
+, late-stage investors have also signaled a willingness to finance founder-=
+led biotechs. Over time, this pipeline should only become more robust as so=
+me of the companies become massively successful. All of these changes have =
+the potential to open the floodgates for a techbio revolution where company=
+ creation is accelerated, capital is more evenly distributed across more co=
+mpanies, and scientists are able to bring incredible new technologies out o=
+f their labs and into the market with less friction.</p><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>He=
+re, the key take home message is that one central component of techbio actu=
+ally has nothing to do with AI, software, or robots: one of the major chang=
+es is the adoption of the tech investment and company creation model where =
+founders are at the helm.</strong></p><div style=3D"font-size: 16px; line-h=
+eight: 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1px; =
+margin: 48px 0; padding: 0;"></div><h4 class=3D"header-with-anchor-widget" =
+style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: anti=
+aliased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; fo=
+nt-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: re=
+lative;">To learn how techbio companies are deeply integrated, backed by ne=
+w services, and potentially massive, with real examples&#8230; <div id=3D"&=
+#167;to-learn-how-techbio-companies-are-deeply-integrated-backed-by-new-ser=
+vices-and-potentially-massive-with-real-examples" class=3D"header-anchor-wi=
+dget" style=3D"font-size: 16px; height: 100%; left: -56px; line-height: 26p=
+x; position: absolute; top: -72px; width: 56px;"><div class=3D"header-ancho=
+r-widget-button-container" style=3D"align-items: center; display: flex; fon=
+t-size: 16px; height: 1.2em; left: 0; line-height: 26px; position: absolute=
+; top: 72px; width: 40px;"><a class=3D"header-anchor-widget-button" href=3D=
+"https://substack.com/redirect/e46cce79-fc4b-4414-907e-8970a2899151?r=3D9p0=
+gt" style=3D"align-items: center; border-radius: 50%; color: #1a1a1a; displ=
+ay: none; height: 40px; justify-content: center; text-decoration: underline=
+; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" heig=
+ht=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" strok=
+e-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"h=
+eader-anchor-widget-icon" style=3D"height: 20px; stroke: #9a9a9a; width: 20=
+px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/>=
+<path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></sv=
+g></a></div></div></h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;url=
+&quot;:&quot;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym=
+9yaW5nLmNvL3AvdGVjaGJpby10YXhvbm9teT90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16V=
+TBPU3dpY0c5emRGOXBaQ0k2TmprM016RTNPRGtzSW1saGRDSTZNVFkyTVRFM016RXhOaXdpYVhO=
+eklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5taEpObzM=
+5Uy11cl81VFBBcEFCeE5HdUFXWTVWaWJyRjFsTVFWVl9pMVdBIiwicCI6Njk3MzE3ODksInMiOj=
+EwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjYxMTczMTE2LCJpc3MiOiJwdWItM=
+CIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ILK9vGw5Mu-TU6qe_GH4XE9pQKbe8SZhi3v6CJSXa=
+HY?&quot;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;action=
+&quot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"=
+button primary" href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9=
+3d3cubm90Ym9yaW5nLmNvL3AvdGVjaGJpby10YXhvbm9teT90b2tlbj1leUoxYzJWeVgybGtJam=
+94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmprM016RTNPRGtzSW1saGRDSTZNVFkyTVRFM016R=
+XhOaXdpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlK=
+OS5taEpObzM5Uy11cl81VFBBcEFCeE5HdUFXWTVWaWJyRjFsTVFWVl9pMVdBIiwicCI6Njk3MzE=
+3ODksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjYxMTczMTE2LCJpc3=
+MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ILK9vGw5Mu-TU6qe_GH4XE9pQKbe8S=
+Zhi3v6CJSXaHY?" rel=3D"" style=3D"background-color: #67bdfc; border: none; =
+border-radius: 4px; box-sizing: border-box; color: #ffffff !important; curs=
+or: pointer; display: inline-block; font-family: -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: nor=
+mal; height: auto; line-height: 20px; margin: 0; opacity: 1; outline: none;=
+ padding: 12px 20px; text-align: center; text-decoration: none !important; =
+white-space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;=
+">Continue Reading Online</span></a></p><div style=3D"font-size: 16px; line=
+-height: 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1px=
+; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;"><em><span>Thanks to </span><a=
+ href=3D"https://substack.com/redirect/eb433249-bc0f-4eba-82ad-d91383af97d1=
+?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">=
+Elliot</a><span> for the excellent techbio overview and </span><a href=3D"h=
+ttps://substack.com/redirect/25e31a04-03c0-4b4c-80c5-7b8d99330b54?r=3D9p0gt=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Dan</a><sp=
+an> for editing!</span></em><span> </span><em><span>Subscribe to Elliot&#82=
+17;s newsletter, </span><a href=3D"https://substack.com/redirect/38597133-9=
+06b-4871-a00a-318318e64245?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; tex=
+t-decoration: underline;">The Century of Biology</a><span>, to stay up to d=
+ate with the techbio revolution.</span></em></p><div style=3D"font-size: 16=
+px; line-height: 26px;"><hr style=3D"background: #ebebeb; border: none; hei=
+ght: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That&#8217;s all for =
+today, we&#8217;ll see you Friday morning for a Weekly Dose of Optimism!</p=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0;">Thanks for reading,</p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">Packy</p></div>=
+</div><table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom =
+big alternative-meta centered" style=3D"margin: 0 auto;"><tr style=3D"align=
+-items: center; display: flex;"><td class=3D"post-meta-item icon" style=3D"=
+color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; pad=
+ding: 0px 12px 0px 0; padding-right: 16px; position: relative; text-decorat=
+ion: none; text-indent: 3px; white-space: nowrap;"><span class=3D"post-meta=
+-icon like-reaction-button"><a href=3D"https://substack.com/redirect/2/eyJl=
+IjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V=
+0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam=
+94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmprM016RTNPRGtzSW5KbFlXTjBhVzl1SWpvaTRwM=
+mtJaXdpYVdGMElqb3hOall4TVRjek1URTJMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJ=
+aU9pSnlaV0ZqZEdsdmJpSjkuLXBxbm04ZW8tWS1uSExTOGVVR1llOUNVbkFJVFRpczUyZXBHOHA=
+zSjhaVSIsInAiOjY5NzMxNzg5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY2MTE3MzExNiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.BaOgmwN-P=
+CyoFFl4xra29xRtD4Sgzr4Gqi49DVS-RzY?" class=3D"like-button button post-meta-=
+button" style=3D"align-items: center; background-color: transparent; border=
+: 1px solid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a=
+1a1a; cursor: pointer; display: flex; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: n=
+ormal; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: non=
+e; padding: 10px 16px; text-align: center; text-decoration: none; text-inde=
+nt: 0px; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dtransparent%26s=
+troke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"=
+border: none !important; display: inline-block; float: left; height: 14px; =
+margin-right: 4px; max-width: 18px; vertical-align: top; width: auto;" alt=
+=3D""><span class=3D"like-count" style=3D"color: #1a1a1a; margin-left: 7px;=
+">Like</span></a></span></td><td class=3D"post-meta-item icon" style=3D"col=
+or: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; paddin=
+g: 0px 12px 0px 0; padding-right: 16px; position: relative; text-decoration=
+: none; text-indent: 3px; white-space: nowrap;"><a href=3D"https://substack=
+=2Ecom/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL3AvdGVjaGJpby10YXh=
+vbm9teS9jb21tZW50cz90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOX=
+BaQ0k2TmprM016RTNPRGtzSW1saGRDSTZNVFkyTVRFM016RXhOaXdpYVhOeklqb2ljSFZpTFRFd=
+01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5taEpObzM5Uy11cl81VFBBcEFC=
+eE5HdUFXWTVWaWJyRjFsTVFWVl9pMVdBIiwicCI6Njk3MzE3ODksInMiOjEwMDI1LCJmIjp0cnV=
+lLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjYxMTczMTE2LCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbm=
+stcmVkaXJlY3QifQ.ZaG4hO5Q1FEHCFp84xmApmu-smoJNw_5sR0I_TyUK_w?&utm_source=3D=
+substack&utm_medium=3Demail" class=3D"post-meta-button button" style=3D"ali=
+gn-items: center; background-color: transparent; border: 1px solid #ebebeb;=
+ border-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointe=
+r; display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto;=
+ line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16p=
+x; text-align: center; text-decoration: none; white-space: nowrap;"><img sr=
+c=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D=
+4%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3=
+D2" width=3D"18" height=3D"18" style=3D"border: none !important; display: i=
+nline-block; float: left; height: 14px; margin-right: 4px; max-width: 18px;=
+ vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon p=
+ost-meta-icon"><span class=3D"meta-button-label">Comment</span></a></td><td=
+ class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14=
+px; height: 100%; line-height: 18px; margin-right: 0; padding: 0px 12px 0px=
+ 0; padding-right: 0; position: relative; text-decoration: none; text-inden=
+t: 3px; white-space: nowrap;"><span><a href=3D"https://substack.com/redirec=
+t/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGVjaGJpby10YXhvbm9teT91dG1=
+fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NvbnRlbnQ9c2hhcmUmYWN0aW=
+9uPXNoYXJlJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2lhV0YwSWpveE5qWXhNV=
+GN6TVRFMkxDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFX=
+OXVJbjAud29VeUp0UldXWFEtSEV4Q0dTLTRuRV9jM1FzNHlvU2xqTTd1UjdzSUg2TSIsInAiOjY=
+5NzMxNzg5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MTE3MzExNi=
+wiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0._SdMUMA1qSnzkFNuY-t4CQSXo=
+9n4M2EGhIj66248BQk?" class=3D"button post-meta-button" style=3D"align-items=
+: center; background-color: transparent; border: 1px solid #ebebeb; border-=
+radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointer; displ=
+ay: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-he=
+ight: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16px; text-=
+align: center; text-decoration: none; white-space: nowrap;"><img src=3D"htt=
+ps://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26height%=
+3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=
+=3D"18" height=3D"18" style=3D"border: none !important; display: inline-blo=
+ck; float: left; height: 14px; margin-right: 4px; max-width: 18px; vertical=
+-align: top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-=
+icon"><span class=3D"meta-button-label">Share</span></a></span></td></tr></=
+table><div class=3D"container-border" style=3D"border-top: 1px solid rgba(2=
+04, 204, 204, 0.5); box-sizing: border-box; font-size: 16px; line-height: 2=
+6px; margin: 32px 0 0; width: 100%;"></div><div class=3D"post-cta" style=3D=
+"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D"font=
+-size: 16px; font-style: italic; line-height: 26px; margin: 24px 0 0; margi=
+n-top: 0;"><span>If you liked this post from <a href=3D"https://substack.co=
+m/redirect/da0613f7-3b70-4edc-ae69-73422428d31d?r=3D9p0gt">Not Boring by Pa=
+cky McCormick</a>, why not share it?</span></p><p class=3D"cta-box" style=
+=3D"font-size: 16px; font-style: italic; line-height: 26px; margin: 24px 0 =
+0; text-align: center;"><a role=3D"button" href=3D"https://substack.com/red=
+irect/a6271639-4d24-488e-8734-3e73245f3c14?r=3D9p0gt" class=3D"button prima=
+ry twitter-link" style=3D"background-color: #67bdfc; border: 0px solid #67b=
+dfc; border-radius: 4px; border-width: 13px 20px 13px 18px; box-sizing: con=
+tent-box; color: #ffffff !important; cursor: pointer; display: inline-block=
+; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 17px; font-style: normal; font-weight: 300; height: 24px=
+; line-height: 24px; margin: 0; opacity: 1; outline: none; padding: 0; text=
+-align: center; text-decoration: none !important; vertical-align: middle; w=
+hite-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_23.1=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FShareIcon%3Fv%3D4%26height%3D42%26stroke%3D%2523FFF%26strokeWidth%=
+3D2" width=3D"11.55" height=3D"21" style=3D"border: none !important; displa=
+y: inline-block; height: 21px; margin-right: 8px; max-width: 11.55px; verti=
+cal-align: middle; width: 21px;" alt=3D""><span style=3D"color: #ffffff; te=
+xt-decoration: none;">Share</span></a></p></div><div class=3D"footer hasMar=
+gin" style=3D"background: #f5f5f5 !important; color: #808080; font-size: 16=
+px; line-height: 26px; margin-top: 24px; padding: 24px; text-align: center;=
+"><p class=3D"small" style=3D"color: #808080; font-family: -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-h=
+eight: 22px; margin: 0; padding-bottom: 16px;">&#169; 2022 <span>Packy McCo=
+rmick</span><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://su=
+bstack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9ka=
+XNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpD=
+STZOamszTXpFM09Ea3NJbWxoZENJNk1UWTJNVEUzTXpFeE5pd2lhWE56SWpvaWNIVmlMVEV3TUR=
+JMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkY5SFVlUm9hUG1yalBUeURZc0Nod3=
+JFSnoxdU1mVmhTdnZPSDl3cVlDZEkiLCJwIjo2OTczMTc4OSwicyI6MTAwMjUsImYiOnRydWUsI=
+nUiOjE2MjgzNTQ5LCJpYXQiOjE2NjExNzMxMTYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1y=
+ZWRpcmVjdCJ9.c4o1WW-PRo0-uSMJ6at3NVjkWN0rz7yTdJ01isCUA_k?" style=3D"color: =
+#808080;"><span style=3D"color: #808080; text-decoration: underline;">Unsub=
+scribe</span></a></p><p class=3D"small powered-by-substack" style=3D"color:=
+ #808080; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol'; font-size: 14px; line-height: 22px; margin: 0; margin-top: =
+0; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/7dc1e04d-c5=
+d9-499d-931a-55d41babc5ab?r=3D9p0gt" style=3D"color: #808080; display: inli=
+ne-block; margin: 8px 4px 0; text-decoration: none;"><img src=3D"https://su=
+bstackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%402x.png" srcset=
+=3D"https://substackcdn.com/image/fetch/w_130,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button.pn=
+g, https://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%402=
+x.png 2x, https://substackcdn.com/image/fetch/w_390,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-but=
+ton%403x.png 3x" width=3D"130" alt=3D"Get the app" height=3D"40" style=3D"b=
+order: none !important; max-width: 550px; vertical-align: middle;"></a><a h=
+ref=3D"https://substack.com/redirect/be8024c6-fb77-49ce-98ba-fe7984aa4114?r=
+=3D9p0gt" style=3D"color: #808080; display: inline-block; margin: 8px 4px 0=
+; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w=
+_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+=2Ecom%2Fimg%2Femail%2Fpublish-button%402=
+x.png" srcset=3D"https://substackcdn=
+=2Ecom/image/fetch/w_135,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.png, https://substack=
+cdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png 2x, https=
+://substackcdn.com/image/fetch/w_405,c_limit,f_auto,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.pn=
+g 3x" width=3D"135" alt=3D"Start writing" height=3D"40" style=3D"border: no=
+ne !important; max-width: 550px; vertical-align: middle;"></a></p></div></d=
+iv></td><td></td></tr></table><img src=3D"https://mailgun.substack.com/api/=
+v1/email/open?token=3DeyJtIjoiPDIwMjIwODIyMTI1ODIyLjMuMTE2NDczZmUzYjE4YjlmN=
+EBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVs=
+LmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjo2OTczMTc4OSwidCI6Im5ld3NsZXR=
+0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdG=
+lvbiI6ImJvdHRvbSIsImlhdCI6MTY2MTE3MzExNywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.=
+iJImZgZtLxVg5LMDDlZtPBFu84p4LAFfx5R3FFg7dwc" alt=3D"" width=3D"1" height=3D=
+"1" border=3D"0" style=3D"height:1px !important;width:1px !important;border=
+-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;marg=
+in-right:0 !important;margin-left:0 !important;padding-top:0 !important;pad=
+ding-bottom:0 !important;padding-right:0 !important;padding-left:0 !importa=
+nt;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg-d0=
+=2Esubstack.com/o/eJxFUMuOhSAM_ZphN4a3uOB=
+bCEj1kqtgsN6Jfz-oycyiTdOe9DxGjzCXetq=
+t7Ehg9WlxM2SobR-dR8u0ZqwXrTijJFot_KQiSbubKtx4i_UAsh1hSaPHVLJL0TJKuSIvy_peQ5=
+BSscn3QohhMNFob2SgivuoycXr_BET5BEsfKCeJQMZy7pCxuvVA2mDHpqO3gwkWU45p4ZzxlXrn=
+egY07IXE4jATBgm-SXpOn9H2u1H2NGP7659JNXmgqHUlOcGeL_8Cst9aOrdRXnkhKeD7MMC8TGG=
+TzTHDvU2prkRSg6PKjw3sBl-9gUQoZLGFksLJf8TEfjLUKpfwzV5_A"></body></html>
+--fa4f4cb63ad84f3a20d481c82da24c29430b6f5980e70bac8c0b49409e7c--

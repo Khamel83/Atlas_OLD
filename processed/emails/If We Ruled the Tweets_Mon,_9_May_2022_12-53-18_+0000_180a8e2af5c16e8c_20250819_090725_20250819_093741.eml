@@ -1,0 +1,2524 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp3979286lkb;
+        Mon, 9 May 2022 05:54:30 -0700 (PDT)
+X-Received: by 2002:a05:6000:1565:b0:20c:611d:7fec with SMTP id 5-20020a056000156500b0020c611d7fecmr13510110wrz.387.1652100869769;
+        Mon, 09 May 2022 05:54:29 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1652100869; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=tQAIET1NRk15cp5R2K+BUvkqPUTfxyzLW6oTOU+4UirMjDGZ3BqPrVjs25d1UcEyZq
+         RNzyzDlQsxzwvd89126ekwlq5OClltDBwxQWbobY0tOpyleq7RBinod9Wac5kLnS9rs/
+         dfTtjKBzT6cmjb4LxXvL8jakMGJ0/bHOvn109A1OgFhM+9cK6wdlNEgN54JVXQWfx3Ke
+         13KogjPrfpuFF8i73BqNRMYFDp5EZgkcQHb8A934yR61rcfnvdVxMlIUKFppERLDTDmm
+         TLkdPgTAavnWwNOCaQgKMhIxy+TGaBAjo/UKb2OdcdYO/rbCyMI6HoG/TsqOcY16uedf
+         7gNg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:list-archive:list-unsubscribe:message-id:list-id:list-owner
+         :in-reply-to:sender:list-url:list-post:references:reply-to
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=nKD3DLaIINpLRkRBeuofBnJYbi0njHL5XX5Il0gZ9Tw=;
+        b=e0YoJLKyxN/IJtUB9IVHsICoqOjZ+YPc0bWAYiN8bxelI7oIMeRScADjhS0IrWuOfz
+         RS5kRbPlF3zFkUx0MyCeesbgAgoGA+1D6ACjGKxnFXhWjtM5qSnUd2QiVo8Rpx9BLbpv
+         A0D/DMgZGH43k4DLDlo4H9FMrk2jp/lkrg8tvbW3X022C1NcfJCL86vkpUOwTYCT3QHj
+         m9ynXEdZWeKKRzLs9zdg6UXcSqqsFZ4dgOmOR3aDmxAy1P5QAdx2tJg5uLqeKFEeIXIB
+         bOHCbBKcAn4ByAGByWtoK+zQj77+7qiYF1gIznBxjM5cNxDHuJVz9liJ9yzC3uMGgPgA
+         llHA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=mfAiblD9;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c125-20020a1c3583000000b003946dec5016sor3525226wma.11.2022.05.09.05.54.29
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 09 May 2022 05:54:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=mfAiblD9;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-unsubscribe-post:reply-to:references:list-post
+         :list-url:sender:in-reply-to:list-owner:list-id:message-id
+         :list-unsubscribe:list-archive:date;
+        bh=nKD3DLaIINpLRkRBeuofBnJYbi0njHL5XX5Il0gZ9Tw=;
+        b=CCBpvnYKulVi5RWGIKBSVXOelV0xVsUQ6eiS/YnVtvDZISmbQedyX622k1IrxLS95+
+         LjV5UDJSXel1Al6M/y2zIRCAeZgR9Ta/LrarkbRFmbGE+Gl4aSMpaT7Nw7AB5NciVbih
+         SFrtz0l18doFbp60cEDs/oyjfF9Lcq5r6dX7KnrxBkCFQ3KAacMf703CurhzZ7OHKLl5
+         0zmF64f0zhvgtanUXNW8kh50S3yqj4iHI7wRjZjjirdZ9xYKYBP4UtQfEtAW7hUBfMur
+         rIRWvh1sDrNlaTmtO7YzWKvZzgj7cq7/X3eDTZvZzRXW5N+1645lzry2xsCG2cA1xBjL
+         paPw==
+X-Gm-Message-State: AOAM532c3MhN/edTryTnPy3A7mDYW96bgJ8cOg1TpcT9uiwYl143YDP8
+	XjhmwKTduoaY39RA9Hv3IRpVj+IZ0DQ1DHrkp07c6MJBd107V/mviw==
+X-Received: by 2002:a1c:19c1:0:b0:393:a19f:8f95 with SMTP id 184-20020a1c19c1000000b00393a19f8f95mr16066040wmz.149.1652100869310;
+        Mon, 09 May 2022 05:54:29 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f74a:0:0:0:0:0 with SMTP id z10csp2884159wrp;
+        Mon, 9 May 2022 05:54:26 -0700 (PDT)
+X-Received: by 2002:a05:6808:bc5:b0:326:9edf:bc22 with SMTP id o5-20020a0568080bc500b003269edfbc22mr5848071oik.185.1652100865910;
+        Mon, 09 May 2022 05:54:25 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1652100865; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=m8YjNgM+TTMyyOWMqkYH2hulSnZdZT1JrUtK1dX0Ap1qtC6rsHZVX6MO9GkMhmQFFj
+         DE1Ogl5xwdrrGRf4k/hNl1aehGgQPBIRpMBoeeuVx5W1FNSC0Hi45NbsepJoI6OflHAy
+         +So5joDRm04iSQWhcjmdX9s2gaYIgoXDQj6+QmQ+VN27m/7Dpr9ioCKCpTUt9JNOMKsG
+         WugO/oBxnh8aZLud/f0b5tI+36cLIvCHNuLa/Bk9pFlBCB2pe53JSi8iaO3Zklup9a7W
+         D5NdDpBN1mK8PyRCTBPNlO45Bc98AR5Yl+ZFvwgAeQ8e/DHmTVVCdL5YSRehiUrxYFk4
+         6P6w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:list-archive:list-unsubscribe:message-id:list-id:list-owner
+         :in-reply-to:sender:list-url:list-post:references:reply-to
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=nKD3DLaIINpLRkRBeuofBnJYbi0njHL5XX5Il0gZ9Tw=;
+        b=kepXsIp9MQVmuBVZ/bqqS+FfvOq0Kh3VJppnMMTblgA6HBknCaH7CIWMzx8Mv0pLzW
+         sU6+mppt53ECnoriKnsTUnxYFbXhXPvrConbWfpF1ctYP7KGxD0mjzvP1kOktcmseM0W
+         +fw/Yp0r6z69ZxkhZOY81UGbrSeuHFPJf+ijrN7RggUgwOlbYytdCusujLWPxJGK2wSF
+         L1mC4nSy4OYRt92HJdn3UAViT7pIye5H7+u74ZUA301lutGj7CwKX6bHTYOZfXXSC6wB
+         grBo6Fb6WUop2LK5gJMw3qFDkgR92Mf7C7kBFo8sPElFvrf2wYMOHlxdR8XvH7BEVfsA
+         t4Og==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=mfAiblD9;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m2-20020aca1e02000000b003267cdc722asor2773157oic.109.2022.05.09.05.54.25
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 09 May 2022 05:54:25 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzC4uDRBJAzC9d+zcYYKCQjlkdrdtwMGzlTXie2z6k2Z6KJfixFFvYLWVZ0iBFxcKlYdr0T4lWg5fDNINp1X9S+xkyxnSk=
+X-Received: by 2002:a05:6808:230c:b0:326:4acf:1517 with SMTP id bn12-20020a056808230c00b003264acf1517mr10540079oib.117.1652100865237;
+        Mon, 09 May 2022 05:54:25 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1652100865; cv=none;
+        d=google.com; s=arc-20160816;
+        b=UUMQfZx2MK2Gpzc3PhDewtJETrQdZTVBHKoL0bb5vyzuvrPB6+HPe1WT/Z0hiBE9HK
+         /EclnMkeXUzqzb/ZK9Gp8PBRK5pT87NwUfK6j2ZYSyqJr5hjNqy2RGbCpPvd2mlceYoB
+         PtUFnjePIIYxJt+BjyvRkY6h7uYvwCU1C0kAnYVWINsxy0H9Ejyetpb66EusG2mTvUo9
+         /j66hpUVPopr6DFNbDS61Nvcos2KvlmJytgVucadHh0mP5cKatFup16aQtg13bDeTMwi
+         EtAqG6MM+SKqDqXJlln3+eaRwCu124HTh8Svu7HkyfHzyCF26KeMWBRnrZ6EVPW5SyxP
+         jMcQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:list-archive:list-unsubscribe:message-id:list-id:list-owner
+         :in-reply-to:sender:list-url:list-post:references:reply-to
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=nKD3DLaIINpLRkRBeuofBnJYbi0njHL5XX5Il0gZ9Tw=;
+        b=XdUhmHl+Hqev+0GVZgjbrHuiHKIq7BmiOyU/OlHGgVe13LQMTT3Wk1QmvtlSN+Go7a
+         k10JTTdOoj/s38PlRwDzStpB9nDGV59PSYYBs2G9ChYHXS3S1VFFFzcGsQt9IRBJq+pk
+         me3IfORoa/Uw4G1O59b7hy36XyIiFhB6AS/zSlSGfzi+gtnoNUE/N7oW4WT7sjDObgyM
+         eeJ1wLy0J/I6QVaU7NDehkkb9EBmT5LcC5i7I2mHN2Kfd2nMWhrhX7lsInBf8DrqRru4
+         xTHuq4ahDLdLGgKNyY0/QSwGs1ewEAwMB4cMXUfzZiR0xnFlT6nCFggVRlM9vq/reDWm
+         qCNw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=mfAiblD9;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 69.72.47.244 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-47-244.substack.com (mg-47-244.substack.com. [69.72.47.244])
+        by gmr-mx.google.com with UTF8SMTPS id i16-20020a056870d41000b000e217d47668si879547oag.5.2022.05.09.05.54.16
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 09 May 2022 05:54:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 69.72.47.244 as permitted sender) client-ip=69.72.47.244;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1652100864; h=Date: List-Archive: List-Unsubscribe:
+ Message-Id: List-Id: List-Owner: In-Reply-To: Sender: Sender:
+ List-Post: References: Reply-To: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=nKD3DLaIINpLRkRBeuofBnJYbi0njHL5XX5Il0gZ9Tw=; b=mfAiblD9sfbmU0MGkSGw/rKFcyo0rxYQI3JxflxOb5S/nCAFBUsNctLjCGv7DNxMBCKuZdnt
+ V6wRjY2n4WTbUYeBJcsuzQiAb4ch2a/ze9Er7ZPIPlPkAOD69srnQgRQFiqwTAgT8sBgnmC3
+ 3G7COdVfv9F2XT2MOcvT5JerSTQ=
+X-Mailgun-Sending-Ip: 69.72.47.244
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n10.prod.us-east-1.postgun.com with HTTP id 62790ecbd850e766858dd481;
+ Mon, 09 May 2022 12:53:29 GMT
+X-Mailgun-Batch-Id: 62790ecad850e766858dcf8f
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="e71854528922cdc8d55c748221cdf207aa1ad1b94493c792c2b5ba4564e4"
+Subject: If We Ruled the Tweets
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+w7zp0&9p0gt&&8dd0891b0c95eb4f967cb4abf73aef9b68e7c0cde14a236f886a67e9e8115610@mg1.substack.com>
+References: <post-54120564@substack.com>
+List-Post: <https://www.notboring.co/p/if-we-ruled-the-tweets>
+List-Url: <https://www.notboring.co/>
+Sender: Not Boring <notboring@substack.com>
+In-Reply-To: <post-54120564@substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-Id: <notboring.substack.com>
+Message-Id: <20220509125318.3.52069e471221522b@mg2.substack.com>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTQxMjA1NjQsImlhdCI6MTY1MjEwMDgwOSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.th0eG71pQa7UhLcv8ApAwe-nNTsNGmjM-vWLoqAWVOU>
+List-Archive: <https://www.notboring.co/archive>
+Date: Mon, 9 May 2022 12:53:18 +0000
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1652100809462",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"54120564",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--e71854528922cdc8d55c748221cdf207aa1ad1b94493c792c2b5ba4564e4
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkM1uhSAQR=
+p_msrsGRqC6YNFNX8MgjEqugoGxxrcvvSZtwk_CZObwHWcJ55Qvs6dC7PcY6NrRRDzLikSY2VEw=
+D8EboaFrleyZN9KLTnUslGHKiJsNq6F8INuPcQ3OUkjx3cE5KLYY5azgvfTKd63ueN932qJWE4A=
+b3WT1zbWHDxgdGvzGfKWIbDUL0V4e7ecDvuo6z7OJicaUQ5wbl-rTXneYnic-87Gif9KCTzoRqb=
+BggANwxXsBqhVd0zYKuO5RfggAoQDGh-TbDE05xkLWverIjWXzh6jl12I3XN-FGm6o93bEQNeA0=
+Y4VeOemW9_bxDBjxFy1-sFSlaagaqihpYY7ZxWjpKgf05JVsk-1K_5DfwCv6Ibl
+
+Welcome to the=C2=A02,349=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0120,744=
+ smart, curious folks by subscribing here:=20
+=F0=9F=8E=A7=C2=A0 If you=E2=80=99d rather listen to this essay, head over =
+to Spotify [ https://email.mg2.substack.com/c/eJxFkEFPwzAMhX9Nc6wSNynpIQdgm=
+oQGQgwunKq0cbtobVIlKaz8esJ2QLJsyU9Pz_56nXD0YVOLj4n8tTZtCyqH33HClDCQNWJorVGs=
+BlkJ3hCjuGFSSGJjOwTEWdtJpbAiWdZusr1O1rurg1IQ5KR0Q5EKyQfeGyl41zRgTF0PdT9IOVB=
+xy9Wrseh6VPiFYfMOyaROKS2xqO4L2OfyC7oyLj7ZYSt7P-dVPPnvPOoz-3x--Ho9Hl82Hw9bdW=
+GXp6mo9tEW1W63bNw-Hu7eBLyzZ16xn_hBR2IVUAAqaMNAVEyWVSmA1g3yOwbABEBXcDqPUMa1i=
+0n3579QEpTzqfPBujHL55OecboK-fs2z3l1Nm0tOt1NaG5g0o3vFVU7osOQuZtWp0xVQOYkacNr=
+uIHI5ARn-bCak5xsfHa5_9BfkfuQFw ] or=C2=A0Apple Podcasts [ https://email.mg2=
+=2Esubstack.com/c/eJxFkEtuxCAMhk8z7BqBAwx=
+ZsOim14ggOBnUBCJwWuX2ZSaVRrKwwY8ff5M=
+jXHI57Z4rsecx0rmjTfhbVyTCwo6KZYzBCg2mV3JgwcogjDIs1nEuiJuLq6VyINsPv8bJUczp1c=
+E5KPawGoOWCBh6roU3XjmvwJl5no2eh3u4dN0RIqYJLf5gOXNCttoH0V5v_ecNvprtOUyuUu3cv=
+q_YTXlrj0d9Z1qUMn34XGJa2iUGoeAuQQy9YNECB-CKDwJUL0zXdwq4HlDeBUArBH-TfFugq4ev=
+5KbvpwIrto38nyj598NtuL4Sbdmx-e1Ikc4Rk_MrhosDXThfZMYFE5aGOYyOGkQFDYvhg9Rw7d1=
+AKSnax7RkTTnk1pXeon_oo4s5 ]
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Composer [ https:/=
+/email.mg2.substack.com/c/eJxFkE1uxCAMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZ=
+FEJGUvW8_P3vCWcczn0liuxdzF0bKgT_tYFibCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVH=
+tu1uid5SzOlUcA6KPbV3k7p7HENQ7u4Fem6HXlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3G=
+Dz_b8utXS-dza_li-v6idoIEDcMUnAe9lXd8p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmO=
+Y2fj3tiss5aASm_eueIh0Gk3ULhguOroxOXDNjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuq=
+vRv-gduOX0a ]
+It=E2=80=99s scary out there. While I remain optimistic, the day-to-day mar=
+ket activity is choppy.=C2=A0
+Over $9 trillion has been erased from U.S. equities and the Nasdaq-100 is d=
+own 23% YTD.
+With my focus on Not Boring Capital and the newsletter, and the fact that I=
+=E2=80=99m not a great trader, I don=E2=80=99t have time to trade stocks. B=
+ut I=E2=80=99m not going to watch this sell-off pass me by.
+I=E2=80=99m shifting a significant amount of my liquid portfolio to a Risin=
+g Rates Risk Parity strategy on Composer [ https://email.mg2.substack.com/c=
+/eJxFkE1uxCAMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZFEJGUvW8_P3vCWcczn0liuxdz=
+F0bKgT_tYFibCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVHtu1uid5SzOlUcA6KPbV3k7p7H=
+ENQ7u4Fem6HXlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3GDz_b8utXS-dza_li-v6idoIED=
+cMUnAe9lXd8p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmOY2fj3tiss5aASm_eueIh0Gk3U=
+LhguOroxOXDNjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuqvRv-gduOX0a ] that is onl=
+y risk-on if both treasuries and SPY are stable - otherwise it invests in a=
+ basket of risk-off assets.
+For those that don=E2=80=99t know, Composer [ https://email.mg2.substack.co=
+m/c/eJxFkE1uxCAMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZFEJGUvW8_P3vCWcczn0liu=
+xdzF0bKgT_tYFibCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVHtu1uid5SzOlUcA6KPbV3k7=
+p7HENQ7u4Fem6HXlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3GDz_b8utXS-dza_li-v6ido=
+IEDcMUnAe9lXd8p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmOY2fj3tiss5aASm_eueIh0G=
+k3ULhguOroxOXDNjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuqvRv-gduOX0a ] gives th=
+e power of rules based trading (aka quant trading) to regular investors, 10=
+0% free to use.
+Think tech has bottomed? Jump into Big Tech Momentum. Think Inflation is go=
+ing to get worse? Dive into Inflation Spiral Hedge. Want to stay in stocks =
+with more security? Try Paired Switching: S&P 500 and Gold.
+Composer is the next generation of active investing. No code, no spreadshee=
+ts, no Robos and no YOLOs. Just smart investing for smart investors.=C2=A0
+If you want access to the Rising Rates Parity strategy (it=E2=80=99s not pu=
+blicly available on the website), use this private Not Boring link for a li=
+mited time. [ https://email.mg2.substack.com/c/eJxFkE1uxCAMhU8zLCNwIJMsWHTT=
+TXsHxI8ngyaBCJxWuX2ZZFEJGUvW8_P3vCWcczn0liuxdzF0bKgT_tYFibCwvWIxMWgxwNgrObG=
+gZRCjGlms5lEQVxsXTWVHtu1uid5SzOlUcA6KPbV3k7p7HENQ7u4Fem6HXlnuHqoX40NcvnYPEZ=
+NHjT9YjpyQLfpJtNVb_3GDz_b8utXS-dza_li-v6idoIEDcMUnAe9lXd8p4MOE8i4AhAJwN8nXG=
+bq6u0rWv5p-ZUWnTC6XmOY2fj3tiss5aASm_eueIh0Gk3ULhguOroxOXDNjwtKyC8ZSS0ZBYx35=
+JAe4YBq9kqIdNkjWnENuqvRv-gduOX0a ]*
+Hi friends =F0=9F=91=8B ,
+Happy Monday! And a very happy belated Mother=E2=80=99s Day to all the moth=
+ers out there, especially to Puja and both of our moms!=C2=A0
+Speaking of mothers, today, we need to talk about the mama=E2=80=99s boy wh=
+o brought his mom to the Met Gala=E2=80=A6 Elon Musk.=C2=A0
+When the Twitter acquisition was a story about free speech and content mode=
+ration, I didn=E2=80=99t have much to say. Those are really hard problems a=
+bout which I have no special insights to contribute. But over the past week=
+, the story has evolved into one with which I=E2=80=99m much more comfortab=
+le: how to better monetize Twitter.=C2=A0
+I have some ideas, one of which is that Twitter=E2=80=99s users should have=
+ a seat at the table, and upside in the outcome.=C2=A0
+Let=E2=80=99s get to it.
+If We Ruled the Tweets
+Ok, hear me out=E2=80=A6 TweeterDAO.=C2=A0
+On Thursday, a new amended 13D filing [ https://email.mg2.substack.com/c/eJ=
+xFkUGOwyAMRU9TdhMZB9JkwaKbuUZEwEnQJBCB06q3H9qONBLiY-yvjx7OMi0pP82RCovXNvLzI=
+BPpUTZipizOQnkM3sgO-1arQXijvOx1L0IZ50y027AZzieJ45y24CyHFN8OANRiNT06gmGWErQb=
+ADp0btLzFWkGmtG1n1x7-kDRkaE75WeKJDazMh_l0t4u-F3X4_FoCrlmSfda3bJbw51KPZJfbK7=
+qLdsqACDVoK4t_BUSVKcHRNAdaF0veUeUqoP-S47FydbbZuVdBIPwmoJBom5l37SNRugGUldZDR=
+pxuijYF2zKORW27qdxaRfZxMRTyiEutf2z2p22d6PyGKvuZwz8HCnaaSP_QcUf4m9440KRcv0JP=
+1qunDVWcj0MqsMPmspSK_l6vhI12afqiv-hv-mnkWk ] showed that Elon Musk rallied =
+the troops to pony up $7.1 billion of his $44 billion Twitter bid.=C2=A0
+This is interesting for a few reasons.=C2=A0
+First and foremost, it means that Elon=E2=80=99s assertion that he =E2=80=
+=9Cdoesn=E2=80=99t care about the economics at all=E2=80=9D no longer holds=
+=2E He needs to care about economics now.=
+ Twitter will need to generate enoug=
+h money to pay Elon=E2=80=99s debt service, and to generate a return for it=
+s investors, including VC firms a16z and Sequoia. VC firms don=E2=80=99t ty=
+pically play for 2x returns; while Elon and Twitter make this a special cas=
+e, their involvement signals that economics do matter.
+Second, it cuts Elon=E2=80=99s margin loan from $12.5 billion to $6.25 bill=
+ion, lowers the debt burden, and gives him some more room to experiment fro=
+m a cash flow perspective. He can get a little more aggressive in this scen=
+ario.=C2=A0
+Third, Elon is rumored [ https://email.mg2.substack.com/c/eJxFkk2PpCAQhn-N3=
+jSAQuvBwyS7c5vT7N0gVLek-TBQjOO_X2xnswkp4K0U9fGgJMIjxGPaQsL6NDMeG0we9mQBEWKd=
+E8TZ6IkKNnS8H2s99ZoOfKhNmu8RwEljJ4wZ6i0v1iiJJvhXBCGM1-vE1U12nexHMjDOxFCe0fS=
+-KNkrLjSDK6_M2oBXMMEXxCN4qO20Im6p6t4q9l7Wvu-t8otqVXDlyghjZSP8nwEbfONyejbwvY=
+FC0A2GppT_BY1MDYLbQpTxaHA3Z2uNgtDI-3nSIG2jbEiQ2hWdrbr3jG4uLld1v94yhjuArpg4V=
+Qfa5FP_DMpI-6Oq4BE8FvlDGv8jppCjgqL9uVJWrPut1rCE76JRwemNCy7KKKezG8LJSBnv6NB2=
+LWdEjNDfKGOUM7ZUPXEP1qa8JJTqeQ6hjpMPuIRo_KO4n6t0YF-OQqIU5Fz2Bo8ZvFws6AsSXqx=
+f2OYHeIjlD-hZYiHMWWE2kLEX7IJSKPKelsJEX5fMOpQo_z_pX2eEwPY ] to be telling in=
+vestors that he=E2=80=99s stepping in as interim CEO. He=E2=80=99s not know=
+n for doing things in a small way.=C2=A0
+Finally, crypto exchange Binance is a fascinating inclusion, particularly a=
+fter its founder CZ tweeted [ https://email.mg2.substack.com/c/eJxFkMuOwyAM=
+Rb-mLCtwII8Fi9nMbyAeToqaQARkqszXj9ssRkKAZV3f6-NtwyWXU--5Nva-TDt31AlfdcXWsLC=
+jYjExaNHD2Ck5saBlEKMaWaxmLoibjatu5UC2H26N3raY00fBOSj20LN0M8x-EHLgfnYuIHTzHP=
+rgu663Q7h87REiJo8af7CcOSFb9aO1vd66rxt802mv-E5093mjyv8aF5MlBRW12XZU-gglpFJiE=
+pPqKSwAJYgaOABXfBKgOjHeu7sC3k8oBwEgFIC7Sb4tcK-Ho0n--bZgRafcXC4xLdR-PuyG66dB=
+axp6tyPFdhpM1q0YLgLtAvlhYhZMWAhwMLYRPgUEZOST7OHamBApKShYLxk5h0yq9G_6Bzp4iHk=
+ ], =E2=80=9CPrivatize it, issue a token, decentralize it=E2=80=9D last mon=
+th. While I think it=E2=80=99s unlikely that Elon decentralizes Twitter in =
+the near-term, Binance=E2=80=99s involvement means more decentralized solut=
+ions may be on the table.=C2=A0
+Speaking of which=E2=80=A6 Elon should give a DAO made up of Twitter=E2=80=
+=99s power users a place on Twitter=E2=80=99s cap table and a seat on its b=
+oard. Call it TweeterDAO.=C2=A0
+Giving TweeterDAO a board seat is a step short of issuing a token and fully=
+ decentralizing. It=E2=80=99s a step short of the direct democracy he think=
+s humans should use to govern Mars [ https://email.mg2.substack.com/c/eJxFk=
+c2O6yAMhZ-m7BKBAylZsJjNfY2IgJuiBqiA3ChvP067GMl_4ujI1oezDddcTvPOtbGrzO18o0l4=
+1A1bw8L2imUO3ogR9KDkxLyRXmilWajzoyBGGzbTyo7svS9bcLaFnD4OzkGxp1HeWRT6DmpUj1F=
+Jj1qOFAM8FFqN37129wGTQ4P_sZw5IdvMs7V3vQ0_N_hHcRxH356XvGLvcqQn4GKkdiVQCqGHu5=
+o4jbjl1MW9vrpoS-3WTLYUMbXOh4KOGsbsinVnt9mjc9kjlfTAch3BggEOwBWfBKhB6H7oFfBxQ=
+nkXAEIBLDfJ4wp93ZfarHtdF7FiUm5LLiGtJL-eNuL2EQjNTD3uKbRzxmSXDf2XWvvC_3CcV0xY=
+6FP8bBshV0AQNZ_kCF9KhFVJQYeNktFmn8mV_pb-Aqjomo8 ]. But it=E2=80=99s a big s=
+tep in the right direction from a board made up of people with practically =
+no ownership and famously little usage of the product.
+In a TED interview [ https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9GjgYKO=
+HrgsJvJ3PYF9mIQqpJRMAhjfPtlxsMmTZu0af_-n9EJpxBPtYU9kXfq07mh8njsC6aEkeQdY--s=
+Yg20XIqOWCUsa2VL3N6PEXHVblEpZiRbHhZndHLBfzYoBUlmReVIG65HMaK8gR2pbszApWTSypa=
+3t0tXZ-vQG1T4wngGj2RRc0rbXvGvCh4ljuOoz5BTHrA2YX13dDJzxR-vit-N_f3d9Dc87z_EKa=
+AAVNKOgeSsrXktgTYdihsDYBJgqARdJ6j3POxJm-f7IInKhzSE6PxUxs9Zr7h8BsVYX-qavUtnj=
+14PC9rLc7rQfSj0E3qMBantdSrAJBQELe1EA5fHAkUKVh5rBCnKNpQt_y_6B7luhHI ] last m=
+onth, Elon told Chris Anderson that he wanted as many Twitter shareholders =
+as possible to retain ownership, so that they could share in the governance=
+ of the platform, and that he thought the SEC limited it to 2,000 people. T=
+his DAO structure might be a workaround.=C2=A0
+Not surprisingly, I think that investing in the equity =E2=80=93 directly o=
+r via DAO =E2=80=93 of the new private Twitter is a compelling bet. It was =
+one of my top picks at the Acquired Arena Show the night before the investm=
+ent was announced.=C2=A0
+I had no inside knowledge, just a longstanding belief that Twitter can and =
+should be so much more than it is. Prognosticating on, and being overoptimi=
+stic about, Twitter=E2=80=99s future is a treasured pastime here at Not Bor=
+ing. In July 2020, I wrote If I Ruled the Tweets [ https://email.mg2.substa=
+ck.com/c/eJxFkN2KhDAMhZ9meqe00Tp60YuFZV5D-pNxymorNa749psdYReaFhJOT87nLeGUy2=
+nWvJH4vUY6VzQJj21GIixi37CMMRjVQd_odhDBtEH1uhdxG58FcbFxNlR2FOvu5ugtxZzeCilBi=
+5fRjbu7PtwHL9GjlRB6r0LjpALs5TBcvnYPEZNHg99YzpxQzOZFtG635uMGDz7HcdQpk8slpqn2=
+mVsrV3xWsSr7jKGiF1Z0IBKLHlyfh4gGJIDUclCgG9XXTa1BdgO2dwWgNIC7tXKZoN52t5H1X_z=
+zIor5c-Lx18suOL8HnHHkd9lTpHPEZB0bX_HpovgGMk6YsDDdMFpidhqYBodtO7jiMh_dKl6saw=
+U7h8yq9G_6AydIiLY ]. In February 2021, I followed up with How Twitter Got I=
+ts Groove Back [ https://email.mg2.substack.com/c/eJxFkMuOhCAQRb9GdhoowceCx=
+SST_g2DUqOkFQyUbfz7odtkJuGRULmcqjMZwjnES-8hEXsfA107ao9nWpEIIzsSxsFZLRroaiV7=
+ZrW0olMdc2n4iYibcaumeCDbj3F1kyEX_CfBOSi26AZUb5VQrVTG9IhCcNVOsm06Cy3idHPNYR3=
+6CTW-MF7BI1v1QrSnov4q4JHXeZ6VDzSG6PxcTSE_7Xkv4SzpdO9myzlQ6SiVcwzhheVopmdRP_=
+IX3ydzGjgAV7wXoGrRVXWlgDc9ylYACAUwFpJvM1TpGBPlaGZsLOo_Zi4_F7Ph-inkaYd8b4d3d=
+A3ozbiivUXQ7fOjZpjRY8ye7WAoW1SQvXS8lw3cg2dTSorcWCNZJtuQU_4f-gujLYxR ]. Hell=
+, in March 2021, Marc Rubinstein and I even kinda defended Jack in Jack of =
+Two Trades [ https://email.mg2.substack.com/c/eJxFkN1uhCAQhZ9muVsDo_hzwUWTZ=
+l_DIMy6dBUMjjW-faeatAkDgcmZw_mcJRxTPsySVhK_W0_Hgibivk5IhFlsK-Y-eKNqaEtddcKb=
+yqtWtyKs_TMjzjZMhvKGYtmGKThLIcVTISVo8TJKlY2D1vumrN1Tyq52g2t8OzR80b65fO3mA0a=
+HBr8xHymimMyLaFlv5ccNHrz2fS9ioiHlEMfCJX5auL6se9_T8057ulO2Hlnx4PrcRTAgAaSWnQ=
+JdqrYoCw2y7rBqFIDSAMOtkvMIxboNK_EgHjuLbP5suP1-2Rmns8EBez7nLQY6eox2mNBf2elCe=
+NLoR4yYGa3vLTE4DYyilV1Vw5WV4ehK8cfqSrCzT6yK_6Y_RR2HeQ ].
+In If I Ruled the Tweets, I wrote, =E2=80=9CTwitter is the most undermoneti=
+zed product in the world, because it doesn=E2=80=99t know what it is.=E2=80=
+=9D While its ad business has grown and improved slightly since then, and i=
+t finally introduced some light subscriptions, the point stands. The delta =
+between Twitter=E2=80=99s importance and its business performance is gaping=
+=2E=C2=A0
+But the company has seemingly infinite shots on goal to try to turn the bus=
+iness around because its power users are incredibly sticky (read: addicted =
+to Twitter) and the magical experiences are unbelievably magical. It=E2=80=
+=99s the home base for The Great Online Game [ https://email.mg2.substack.c=
+om/c/eJxFkNFuhCAQRb9meVsDo6g88NCk2d8wKKOSKhgca_z7TtekTYAJTO5c7hkc4ZTyZbe0k_=
+g9Oro2tBHPfUEizOLYMXfBW1VDW-rKCG8rr1rdirB3Y0ZcXVgs5QPFdvRLGByFFN8KKUGL2UrZm=
+HrQ0PQjunE0jSqNcgNoI32LDd6-7vAB44AWvzFfKaJY7Ey07Y_y4wEvXud5FjFRn3KIUzEkftp4=
+04zPKaOjZ4pLiHxxKz7KFws_TxEsSACppVGgS9UWZaFB1garRgEoDdA_KrlOUOxHv5MbvnjyKrL=
+9c-L218wjl3eDM3Zc1yMGujqMrl_Q3_HppvgG0k0YMTNd3zlidhqYRitNVcMdl_noSvHH6kqws0=
+-siv-mPxHviK4 ].
+Elon, my inspiration for that essay and a power user himself, has some thou=
+ghts on how to turn things around. Over the weekend, The New York Times sha=
+red information from a leaked pitch deck [ https://email.mg2.substack.com/c=
+/eJxFkE1uxCAMhU8z7BIBgfwsWHTTa0QE3AQNgQicRrl9PTOLStazsPX8xOcswprLbY5ckb1kxv=
+sAk-CqERChsLNCmYM3opdjp9XEvFFejHpkoc4_BWC3IRosJ7DjXGJwFkNObwfnUrPNjO5HDHzw0=
+qlpGri2i9fdOEkhJJdK6E-uPX2A5MDAL5Q7J2DRbIhHfXRfD_lNdV1Xm24MO9TW5Z0m5JfUuH5J=
+T4LgtpRjXm96QMyp2c_6bPAKr780R0C3NR7cs91wjyyY1wWu-SSk7sTYdq2WvJ9ADUJKoaVcHor=
+vq2zruVS05KNgVkzKuOQS0krr52Z3iO8FAZip72cKeM-Q7BLBf9jgB_Gb1rxCgkLo_WyRwGpJqE=
+Y-qV5-WBA8rYiO7hWjZJ_Jlf5D_wCchJEs ] Elon is using to raise money for the d=
+eal. According to The Times, plans include:=C2=A0
+Quintuple revenue to $26.4 billion by 2028.
+Cut Twitter=E2=80=99s reliance on advertising to less than 50 percent of re=
+venue.
+Produce $15 million in revenue from a payments business, and $1.3 billion b=
+y 2028.
+Increase average revenue per user by $5.39, to $30.22.
+Reach 931 million users by 2028.
+Have 104 million subscribers for a mysterious =E2=80=9CX=E2=80=9D by 2028.
+Hire 3,600 employees =E2=80=94 after shedding hundreds.
+And of course, he expects there to be 69 million Twitter Blue subscription =
+users by 2025. Nice.=C2=A0=C2=A0
+While the projections are characteristically aggressive, and the underlying=
+ products (=E2=80=9CX=E2=80=9D) that would get Twitter there are vague, I d=
+on=E2=80=99t doubt that Elon will be able to multiply Twitter=E2=80=99s bus=
+iness. You don=E2=80=99t even need to be an Elon fanboy to believe that; yo=
+u just need to agree that Twitter has been leaking value that a strong mana=
+gement team should be able to capture.=C2=A0
+While Elon talks a lot about free speech, and I think he genuinely believes=
+ it=E2=80=99s a key reason for doing this, when he buys Twitter, Elon will =
+also be buying one of the rarest assets on the planet: one of the few at-sc=
+ale social graphs (in this case, the interest graph) where more of the worl=
+d=E2=80=99s decision-makers shape ideas, and have their own ideas shaped.=
+=C2=A0
+That presents both an incredible financial opportunity, and a largely unpre=
+cedented governance challenge. Twitter=E2=80=99s users should be able to pa=
+rticipate in both.=C2=A0
+So today, we=E2=80=99ll cover three things:=C2=A0
+What does Twitter think it is, and what is Twitter?=C2=A0
+What New Twitter should build
+TweeterDAO
+What does Twitter think it is, and what is Twitter?
+Twitter=E2=80=99s problems stem from confusion about what it is, and the ad=
+vertising-based business model choices it=E2=80=99s made as a result.=C2=A0
+In If I Ruled the Tweets [ https://email.mg2.substack.com/c/eJxFkN2KhDAMhZ9=
+meqe00Tp60YuFZV5D-pNxymorNa749psdYReaFhJOT87nLeGUy2nWvJH4vUY6VzQJj21GIixi37=
+CMMRjVQd_odhDBtEH1uhdxG58FcbFxNlR2FOvu5ugtxZzeCilBi5fRjbu7PtwHL9GjlRB6r0Ljp=
+ALs5TBcvnYPEZNHg99YzpxQzOZFtG635uMGDz7HcdQpk8slpqn2mVsrV3xWsSr7jKGiF1Z0IBKL=
+Hlyfh4gGJIDUclCgG9XXTa1BdgO2dwWgNIC7tXKZoN52t5H1X_zzIor5c-Lx18suOL8HnHHkd9l=
+TpHPEZB0bX_HpovgGMk6YsDDdMFpidhqYBodtO7jiMh_dKl6sawU7h8yq9G_6AydIiLY ], I w=
+rote that Twitter=E2=80=99s main challenge was its confusion over its ident=
+ity:
+Twitter thinks it=E2=80=99s Facebook, but it=E2=80=99s LinkedIn.=C2=A0
+Twitter thinks it=E2=80=99s an ad product, but it=E2=80=99s a subscription =
+product. It thinks it=E2=80=99s an Aggregator, but it=E2=80=99s a Platform.=
+ It thinks it=E2=80=99s a social network, but it=E2=80=99s a professional n=
+etwork: one built for the Passion Economy, based on the strength of ideas i=
+nstead of past experience.
+Look, it was early 2020 and I was a newly-full-time *creator* and the Passi=
+on Economy was hot, so maybe I focused a little too narrowly, but two years=
+ later, the main point stands. Twitter isn=E2=80=99t a social network as mu=
+ch as it is a professional network.=C2=A0
+In How Twitter Got Its Groove Back [ https://email.mg2.substack.com/c/eJxFk=
+MuOhCAQRb9GdhoowceCxSST_g2DUqOkFQyUbfz7odtkJuGRULmcqjMZwjnES-8hEXsfA107ao9n=
+WpEIIzsSxsFZLRroaiV7ZrW0olMdc2n4iYibcaumeCDbj3F1kyEX_CfBOSi26AZUb5VQrVTG9Ih=
+CcNVOsm06Cy3idHPNYR36CTW-MF7BI1v1QrSnov4q4JHXeZ6VDzSG6PxcTSE_7Xkv4SzpdO9myz=
+lQ6SiVcwzhheVopmdRP_IX3ydzGjgAV7wXoGrRVXWlgDc9ylYACAUwFpJvM1TpGBPlaGZsLOo_Z=
+i4_F7Ph-inkaYd8b4d3dA3ozbiivUXQ7fOjZpjRY8ye7WAoW1SQvXS8lw3cg2dTSorcWCNZJtuQ=
+U_4f-gujLYxR ], I summarized why understanding what it is, who it=E2=80=99s=
+ for, and which business model was so important for Twitter:=C2=A0
+If on ad-supported social networks, like Facebook, advertisers are the cust=
+omer and users are the product, on LinkedIn, most users are the product, bu=
+t power users are the customer. Only 18% of LinkedIn=E2=80=99s revenue pre-=
+Microsoft acquisition came from ads; the rest came from selling tools to po=
+wer users, both companies and individuals.=C2=A0
+For Twitter, its power users, and the people who should be its customers, a=
+re the 10% of users who generate 80% of the tweets [ https://email.mg2.subs=
+tack.com/c/eJxFkMGOhCAMhp9muI2BCoweOOxlX8OgVCWjYADXuE-_dTxsQtqGP-3ffoMtOMV0=
+mi3mwq7QlXNDE_DIC5aCie0ZU-edERqaWsmWOSOdaFTDfO7GhLhav5iSdmTb3i9-sMXH8OngHBS=
+bjajrsReN5uBGra1zfa2Bj7Yd3atRTt--dncew4AGfzCdMSBbzFzKlh_11wO-6R3HUW14JMxo0z=
+BXMU306wNtGbBQCVy0lLi86itk_-vD9Ny3Zzn8dc3zuiaTwrwBDsAVbwWoWjRVXSngukX5EgBCA=
+fQPydcJqrz3udjhXQ1xZcmEWPqYaCzJ79muuHwEur2jvO7Bl7PDYPsF3Y2l3HQ_oLoJAyai7jpb=
+iKkCotTwVmq4MRA3JQUtpiUjZxepK_yb_gEG9ZA5 ]. We=E2=80=99ll call them Creator=
+s. The Creators=E2=80=99 Job-To-Be-Done is to get their ideas, products, ne=
+wsletters, courses, videos, podcasts, investment ideas, and the other thing=
+s they=E2=80=99re selling in front of people.
+Again, Creator sounds too narrow and too 2020, but I=E2=80=99m referring to=
+ the users who create content on Twitter =E2=80=93 individuals and business=
+es alike. And again, I think the argument stands.
+Instead of an Aggregator that operates like a social network and monetizes =
+through ads, Twitter should be a Platform that operates like a professional=
+ network and monetizes through subscriptions.=C2=A0
+With a couple more years of evidence and wisdom, though, I think I undersho=
+t it. Because for as strong and focused as LinkedIn=E2=80=99s business is, =
+it=E2=80=99s more focused and narrow than Twitter needs to be. Twitter is a=
+ddictive, engaging, and valuable to its users in a way that LinkedIn isn=E2=
+=80=99t.=C2=A0
+Addictive. Twitter behaves like a professional network sometimes, but it=E2=
+=80=99s also where many of the world=E2=80=99s most powerful people go when=
+ they=E2=80=99re feeling curious, feisty, inspired, or just bored. I don=E2=
+=80=99t know anyone who checks LinkedIn as compulsively as Twitter.=C2=A0
+Engaging. And when they check, they engage. This image that Ben Thompson in=
+cluded in his recent Back to the Future of Twitter [ https://email.mg2.subs=
+tack.com/c/eJxFkEuOhSAQRVfzmGn4-hkw6ElvwyCUSlrBQNEv7r7xOeiEUAmXqlv3WIOwxnTp=
+M2Yk9zXhdYIO8M47IEIiJUOavNOs44NQciROS8cGNRCfpyUBHMbvGlMBcpZ599agj-HTQSlXZNO=
+MjaYXrFcLm51ZGAhpQFiqmKWiB_P4muI8BAsafiFdMQDZ9YZ45pf4evHvejKmuq7dqtzaeNQXTj=
+mvZTb2p8HY4AbNUrAkaOLS4NvfAapOvL5_UkVHxpVgQytaxWk3guwZ50xxPr8kPVbe5jJnrONuA=
+5J0iDjH5MNa5Z_NHLB_hBp0qvUoweM1QTDzDu5hgA_KD5VphQD3zm4yWAEqXpEMdJQdfzJXSEqy=
+ulgnSXV2sXaFf9M_uyKKWw ] captures the difference between how users interact=
+ with Twitter and Instagram well.=C2=A0
+Valuable. There=E2=80=99s a question that goes around Twitter every so ofte=
+n that goes something like =E2=80=9CHow much would someone have to pay you =
+to not use Twitter?=E2=80=9D I asked it myself while I was writing this pie=
+ce, and the answer is eye-popping but not surprising. Across over 1,100 res=
+ponses to my very unscientific poll, 40% of respondents said they=E2=80=99d=
+ need to be paid more than $10,000 per year to not use Twitter.=C2=A0
+Again, not scientific, but I think it=E2=80=99s directionally accurate for =
+a subset of Twitter=E2=80=99s most valuable users =E2=80=93 the =E2=80=9CCr=
+eators=E2=80=9D who send 80% of all tweets=C2=A0 =E2=80=93 and specifically=
+ the subset of that group whose business or income benefits from Twitter. F=
+or that 40%, Twitter is leaving so much money on the table that you can=E2=
+=80=99t even see its current ARPU on the graph unless I make it really tall=
+=2E=C2=A0
+I don=E2=80=99t think Twitter should start charging power users $10,000 per=
+ year (Elon: please don=E2=80=99t start charging power users $10,000 per ye=
+ar), but there=E2=80=99s somewhere between the $0 it currently charges and =
+the $10,000+ people would be willing to pay that Twitter can charge its use=
+rs for a better user experience and access to better products from Twitter =
+(or built on Twitter).=C2=A0
+Twitter doesn=E2=80=99t need to build the biggest network in the world to b=
+e wildly successful. It just needs to make sure it serves its smaller segme=
+nt of higher-value users better, and monetizes them much better, than it do=
+es today.=C2=A0
+That view informs what I think New Twitter should build.
+To learn what I think Twitter should build and how a TweeterDAO might work=
+=E2=80=A6
+Thanks to Dan [ https://email.mg2.substack.com/c/eJxFkE2OwyAMhU9TlhEYSJMFi9=
+n0GhE_ToqaQATOVLn90GYxkmXLsuzn73lLuORymj1XYp800bmjSfiuKxJhYUfFMsVgRA-D1Gpkw=
+aggBj2wWKe5IG42robKgWw_3Bq9pZjTd4Nz0OxptO1Hf5_nO5_BzY7PrldykALFKHXrL117hIjJ=
+o8FfLGdOyFbzJNrrTf7c4NGC3vHzUefz1rpgN-9z2aJ_CcmiAQ7ANR8FaCmGTnYaeD-iugsAoQH=
+cTfFtga4erpL1r88ZVkzK5HKJaWnj19NuuH4HDWVqdTtSpHPCZN2K4aKky6wv97RgwtJMDJOlZp=
+GGBj3wUfVwUTUbtBLtsV6xphxy20r_on9Bs4Cj ] for editing!=20
+Thanks to everyone who filled out the Not Boring Reader Survey last week! I=
+f you didn=E2=80=99t get a chance to, I=E2=80=99d really appreciate it if y=
+ou took 3 minutes to do it now:
+Thanks for reading, and see you next Monday,
+Packy
+*See important disclaimer [ https://email.mg2.substack.com/c/eJxFkEFuxCAMRU=
+8zLCNwgCELFt30GhEBN4MmgYg4rXL7usmiEgLJH_v7_RgI59pOv9WdxN810rmhL_izL0iETRw7t=
+jEnryy43uhBJK-TcsaJvI9fDXENefHUDhTbMS05Bsq1XB1SghEv71Jv1JDQaetcjDLZABGUeVoY=
+rNPx9g1HylgievzGdtaCYvEvou3Rfzzgk0-sK3_E1lELCbmQ8h6XkFdeMnuQANLIQYHplev6zoC=
+0A-qnArYCmB5arjN0-zHtFOK743Gi-VJpqi2XmeX3K6y4XAKTjPyuR8l0jljCtGC6IenO6sIeZy=
+zYOMM0BuKEDDCzk4O2cENxCkYrXsxqwc6pclf5N_0FNN5_4g ]
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFklGPojAQxz-NvC1pS0F44MHsnh=
+5G2JhT3PWFtHROilA4KLL46bfo5S5p2mamM__J_9ecabg03RS2Ta-tecv01EKoYOwr0Bo6a-ihy=
+6QIsUd8x6WBJUIqsO_6luyz3x1AzWQV6m4Aqx14JXOmZaMeFQgR1ypChwYBRwh5FDAhLhPcdwLE=
+qeAOzZcOeeqyQUhQOYRwg25qFFhVWGjd9gtntSBrs8ZxtFWjedNJdbHzxoRYPouZi5A94xVkj2k=
+Wzlo3V1AL5w2mLc5JOn2Q6hqVzVdSRjS-H9H7r1Hmm-Au1kF7fo285LD_issVTsp9H9VVIUwsPn=
+ziuPwxxm-XcX7PPpK76SHzn6ncHeZ4hCNp-jipnOPnTXX_PG37cxpU_LRu-es2sHWBYLPE7Z4tj=
+8Uuv_mrdjXCi0oOfbKpy_jldto1f1an9P1oyZAgQpCLAkxcB_u2Y7sEeQHQpTEOu4TwBUX1hdj9=
+wHvN8qtxoba68J8rJn0tWA3VI2F4ZOasByX1lIGaHRJPVPpJ_GFXdgEFnfkJImPacHaJIeejgHp=
+_0RiWLsVmMI9aRlk0pkr9F_0GO9zDOg
+--e71854528922cdc8d55c748221cdf207aa1ad1b94493c792c2b5ba4564e4
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>If We Ruled the Tweets</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-block {
+    display: block !important;
+  }
+  .md\:tw-flex {
+    display: flex !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNTA5MTI1MzE4LjMuNTIwNjllNDcxMjIxNTIyYkBtZzIuc3Vic3RhY2suY29tPiIsInUiOj=
+E2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvb=
+SIsInAiOjU0MTIwNTY0LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1=
+LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNjUyMTAwODA5LCJ=
+pc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.vmv_0aECI5qpQkrZ-K0OwEP2DzVnLo6azrFF3Pdqgp=
+0" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impo=
+rtant;width:1px !important;border-width:0 !important;margin-top:0 !importan=
+t;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !impor=
+tant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !=
+important;padding-left:0 !important;"/><div style=3D"display:none;font-size=
+:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;o=
+verflow:hidden;" class=3D"preview">Twitter's Power Users, the WeChat Opport=
+unity, and TweeterDAO &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</d=
+iv><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td width=
+=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"lef=
+t" width=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-heig=
+ht: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; widt=
+h: 100%;"><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 1=
+6px; line-height: 26px; padding: 9.6px 0;"><div class=3D"post-header" style=
+=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title short publ=
+ished" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothin=
+g: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-s=
+ystem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px=
+; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"=
+https://email.mg2.substack.com/c/eJxFkttu4yAQhp8mvosF-FB84YuqbVqn60TRpkk3Nx=
+aGiY0P2MK4rvP0JclqVwJG-od_Bs0HZwaKTs9x3w3GuR6ZmXuIFUxDA8aAdsYBdCZFjENCvcCPH=
+BH7AtOAOnLIzhqgZbKJjR7B6ce8kZwZ2ambAyESOGVMPYrDyGOCCmCYC04Rz30uEKbiIfDIvS8b=
+hQTFIYYv0HOnwGni0ph-WHiPC7Kya5omV3Um77RUhcs7K_V2y_NygqUeGxBLU8LSTADGulamq0E=
+tvGeY15iTw_xJmjqpuu9Nlfjp5QNtf0-Sv0YXsYr601MSbva777R6xJtqNyRtUwqrpfs_OK1epv=
+S5mK732efmYmtI_naQv_ZXPcGJtHW8g7zp13pPeD4dV5V4bb5yuY5cLtJpua0_dtlJ7svqeK4S1=
+b7vjlyv3_HYyuxFbkk5p4c37siYIEJQgCJMAg9T13MDgsII_AdMCA4IyRc-agviDmM-GMZrO4nW=
+0fG_ydh0XbIWmlvCMslsbEclzZyBYrmd0x2XuVO_AcwKUKDtbxAZM5Z1QCw9iiI__IvH8gx8bB8=
+W-o7tLDrrUv-b_gD9ocXf" style=3D"color: #1a1a1a; text-decoration: none;">If =
+We Ruled the Tweets</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-s=
+moothing: antialiased; -webkit-font-smoothing: antialiased; color: #767676;=
+ font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: normal; line-hei=
+ght: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Twitter's Power Users, th=
+e WeChat Opportunity, and TweeterDAO</h3><table cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"post-meta custom" style=3D"margin: 1em 0;"><tr><td title=
+=3D"2022-05-09T12:53:26.989Z" class=3D"post-meta-item post-date" style=3D"c=
+olor: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', =
+Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; line-=
+height: 100%; padding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; p=
+osition: relative; text-decoration: none; vertical-align: middle; white-spa=
+ce: nowrap;"><time dateTime=3D"2022-05-09T12:53:26.989Z">May 9</time></td><=
+td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; font-weight: 400; height: 14px; line-height: 100%; padding: 0px 12px =
+0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-decorati=
+on: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;"><=
+span class=3D"post-meta-icon like-reaction-button"><a href=3D"https://email=
+=2Emg2.substack.com/c/eJxFUsGOozAM_ZpyW5Q=
+EQuHAAc2ICrRQdTrd7s4FhcRtA2lAEMrQr9-=
+0lXaVyJaf9WzLz5wZOHfDEvfdaJyHqczSQ6xhHhUYA4MzjTBUUsQ4IKFH_cgRsS9wSENHjtVpAL=
+gyqWIzTOD0U60kZ0Z2-slAiFDnEq8FiyihOMDMPuwJOKH1OiRrjkXghfjVl01CguYQww2GpdPgq=
+PhiTD-uvGRFUvvneXZ1Z-pukPrs8s5CrJfW3rA1jyLWPcf5MQDjjzFWXmq6Fqx_hyXHnPxafhPV=
+Zk33XTaZX9wPaLufJd9Ed5FG_ddbFpSfu--iSXDZ7MZM5-rPsUTsGE2WI_2etJmcJTum6FXjsBS=
+fybx9T-jPt7znXiG3Mp_FMTMPvGgO0uJ3Gz_w5euYNmKjbrXMI_fDv6T7UFR5kZc78THn0z6hxW=
+lU93PJl0jds7aeqqDdbXaOjAkiBFEUYUI9HLqeSwkKIvDXmBBMCalXPrqeiTtO9WgYb-1-rs4Q_=
+9uXTbcXdgX1TFilKuuvk5ZmqUCzWoF4iWhet_DcY3UGDYO9EVExYy-AEqtpiCI_IC_RrMrUx3aw=
+wHdsZ9FZlv7f9C_2VsvF" class=3D"like-button" style=3D"color: #767676; displa=
+y: block; text-decoration: none;"><img src=3D"https://substackcdn.com/image=
+/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsu=
+bstack.com%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D32%26fill%3Dtransparent%=
+26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=
+=3D"border: none !important; display: inline-block; float: left; height: 14=
+px; max-width: 16px; vertical-align: top; width: auto;" alt=3D""></a></span=
+></td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 400; height: 14px; line-height: 100%; padding: 0p=
+x 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-d=
+ecoration: none; text-indent: 3px; vertical-align: middle; white-space: now=
+rap;"><a class=3D"" href=3D"https://email.mg2.substack.com/c/eJxFUl1vozAQ_D=
+XhLQgbTOGBh6ptWtIjUXRp0ssLMvYmmGA7MqaU_PozyX1ItmXNemfWO8uohZM2Y3bRnfWmo7TjB=
+TIFQ9eCtWC8vgNTCp6hGCchiVKPZxFHCUk80ZVHAyCpaDNrevAufdUKRq3Q6pYRBJh4dcYTAhQS=
+QDQkLMEMV7QiKXtIKkpTzuldl_ZcgGKQwReYUSvw2qy29tLNwscZXrg1DIOvtK20EerkM-2gi9v=
+iOB9gbvoW-NzWMLcDgO1cgGkpQblruLD6DGoWPsO4RAzvxk_cnvNGf6-aPCquH8H65yDYa3rli_=
+RyeMrj1XbzXTSPaNVsuly2NXdYsf2FiuZlKJ5Pw_Sefq6ujkOwt534sZ3wHOXC8YQ7ccMnvic0H=
+vaLhr-2X5VYpj7jxTBfnz825UFs62Z_bHIl3zd7ZpbvqJeifBFrXI_F7o3NcNxbWXa6Nwxc7V1f=
+dZay8x9cAhe9nP40GeCJDAcYByRIESYhSvzQJziIU4geEMaIYFzNokCesP-Xx3VQeib711EXPtd=
+UQnsLOC_LqYG9EnYsQdHK9fdus71Py023PIEC46aIl9S6GSHYuZ4EaRTju61uDkiEXGFx5Dllrl=
+2W-i_6GwSy2wo" style=3D"color: #767676; display: block; text-decoration: no=
+ne;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCom=
+ments%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26s=
+trokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !important=
+; display: inline-block; float: left; height: 14px; max-width: 16px; vertic=
+al-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon post-met=
+a-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color: #767676;=
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 14px; font-weight: 400; height: 14px; line-height: 100%; =
+margin-right: 0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right:=
+ 0; padding-top: 0; position: relative; text-decoration: none; text-indent:=
+ 3px; vertical-align: middle; white-space: nowrap;"><span><a href=3D"https:=
+//email.mg2.substack.com/c/eJxNkk2T4iAQhn-NuZkiQCI55OCO5ZaOcQ4zju4pRUirmARS=
+BMxmfv0S3a8qoKof6OrmfVtwCxdtxqzTvQ2mo7BjB5mCoW_AWjCB68EUssqiBDMS0zSoMlpFLGa=
+B7IuzAWi5bDJrHASdKxspuJVaPTIQwnFwzQDFjIDAjKZCRAlHbHFeEIaAYH7mVfSsy10lQQnI4A=
+5m1AqCJrta2_UzspzhtV_DMIRK21IbqS6h0B51fsvzfIC5cQ1Uc3uFuR0ArM9aO9sWvXZGwIyse=
+lf2lot6hpOJt1BJ13r-aP83FFpZUHZ6feUGPOVi-sx_wOoaphjGbSTw53jCTb256Z_724bmXwf0=
+9j5IflyjJzuM-cdyeFst493LthMkl29yO1THjZ14fjtIz798_OAl2aPdadv8OO4RP6Zuo1B4_6C=
+772khKkptvTy8qnXyuid5d3rPa-bwi7njVfGNrAUTgcwwwhjFKI1wTCIWkjDGKEmBLiKMoxjjck=
+ZRe8HhHzG8iG1gsr-i-uv6yltoHhfeTi9J2zol7ViA4qWX-Om0fQ7MQ7ziAgqMH6Sq4NaPSYy98=
+QylNMFPZ_0oxDTyjSU08JUr7bPUv6K_AAeC2KM" style=3D"color: #767676; display: b=
+lock; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fet=
+ch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Ficon%2FLucideShare%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26st=
+roke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"b=
+order: none !important; display: inline-block; float: left; height: 14px; m=
+ax-width: 16px; vertical-align: top; width: auto;" alt=3D"Share" class=3D"r=
+ecommend-icon post-meta-icon"></a></span></td></tr></table></div></div><div=
+ dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; line-heig=
+ht: 26px; padding: 9.6px 0;"><div dir=3D"auto" class=3D"body markup" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 12px; text-align: in=
+itial; width: 100%; word-break: break-word;"><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-top: 0;"><em>We=
+lcome to the&nbsp;<strong>2,349&nbsp;newly Not Boring people&nbsp;</strong>=
+who have joined us since last Monday! If you haven&#8217;t subscribed, join=
+&nbsp;<strong>120,744 </strong>smart, curious folks by subscribing here: </=
+em></p><div class=3D"subscribe-widget is-signed-up" style=3D"direction: ltr=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-=
+wrapper" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0; text-align: center;"><a href=3D"https://email.mg2.substack.co=
+m/c/eJxFUdFuwyAM_JrwtgicQJMHHiZN_Y2IgJuiBoiIWdS_H223TkIIzj7f6WwN4ZLyXW9pJ_a=
+4JrpvqCMe-4pEmFnZMU_eaaFg6GQ_Mqd7JwY5ML9Pl4wYjF815YJsK_PqrSGf4pPBOUh21XBRHU=
+eh7DA4B9a43pqLU84pMY4nzl-6pjiP0aLGb8z3FJGt-kq07U332cC5nuM42phoTtnHpbWpQnuZd=
+5v9jE13LhSmPZVs6-frMbIB9cACOl9CxZ5Of8F343vCx-Hdgn8kmyJhpNogewFcqp55DRzqk48C=
+ZCeGtmslcDVifxIAQgLMTc_DAu1jJhl7qx4Dy_rtuZZvVxNwfRZqWlUmhBI93SeMZl7RvYKk1z6=
+ehqcFI-a6JzcZqluQUHMd-NgreAVXk357rMouVVb8F_0BJmWjmg" class=3D"button primar=
+y subscribe-btn" style=3D"background-color: #67bdfc; border: none; border-r=
+adius: 4px; box-sizing: border-box; color: #ffffff !important; cursor: poin=
+ter; display: inline-block; font-family: -apple-system, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; hei=
+ght: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding=
+: 12px 20px; text-align: center; text-decoration: none !important; white-sp=
+ace: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Subscr=
+ibe now</span></a></p></div><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">&#127911;<em>&nbsp; If you&#8217;d rat=
+her listen to this essay, head over to <strong><a href=3D"https://email.mg2=
+=2Esubstack.com/c/eJxFkEFPwzAMhX9Nc6wSNyn=
+pIQdgmoQGQgwunKq0cbtobVIlKaz8esJ2QLJ=
+syU9Pz_56nXD0YVOLj4n8tTZtCyqH33HClDCQNWJorVGsBlkJ3hCjuGFSSGJjOwTEWdtJpbAiWd=
+Zusr1O1rurg1IQ5KR0Q5EKyQfeGyl41zRgTF0PdT9IOVBxy9Wrseh6VPiFYfMOyaROKS2xqO4L2=
+OfyC7oyLj7ZYSt7P-dVPPnvPOoz-3x--Ho9Hl82Hw9bdWGXp6mo9tEW1W63bNw-Hu7eBLyzZ16x=
+n_hBR2IVUAAqaMNAVEyWVSmA1g3yOwbABEBXcDqPUMa1i0n3579QEpTzqfPBujHL55OecboK-fs=
+2z3l1Nm0tOt1NaG5g0o3vFVU7osOQuZtWp0xVQOYkacNruIHI5ARn-bCak5xsfHa5_9BfkfuQFw=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Spotify</a=
+> </strong>or&nbsp;<strong><a href=3D"https://email.mg2.substack.com/c/eJxF=
+kEtuxCAMhk8z7BqBAwxZsOim14ggOBnUBCJwWuX2ZSaVRrKwwY8ff5MjXHI57Z4rsecx0rmjTfh=
+bVyTCwo6KZYzBCg2mV3JgwcogjDIs1nEuiJuLq6VyINsPv8bJUczp1cE5KPawGoOWCBh6roU3Xj=
+mvwJl5no2eh3u4dN0RIqYJLf5gOXNCttoH0V5v_ecNvprtOUyuUu3cvq_YTXlrj0d9Z1qUMn34X=
+GJa2iUGoeAuQQy9YNECB-CKDwJUL0zXdwq4HlDeBUArBH-TfFugq4ev5KbvpwIrto38nyj598Nt=
+uL4Sbdmx-e1Ikc4Rk_MrhosDXThfZMYFE5aGOYyOGkQFDYvhg9Rw7d1AKSnax7RkTTnk1pXeon_=
+oo4s5" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Apple=
+ Podcasts</a></strong></em></p><div style=3D"font-size: 16px; line-height: =
+26px;"><hr style=3D"background: #e5e5e5; border: none; height: 1px; margin:=
+ 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;"><strong>Today&#8217;s Not Boring is =
+brought to you by&#8230; <a href=3D"https://email.mg2.substack.com/c/eJxFkE=
+1uxCAMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZFEJGUvW8_P3vCWcczn0liuxdzF0bKgT_=
+tYFibCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVHtu1uid5SzOlUcA6KPbV3k7p7HENQ7u4F=
+em6HXlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3GDz_b8utXS-dza_li-v6idoIEDcMUnAe9=
+lXd8p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmOY2fj3tiss5aASm_eueIh0Gk3ULhguOro=
+xOXDNjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuqvRv-gduOX0a" rel=3D"" style=3D"c=
+olor: #1a1a1a; text-decoration: underline;">Composer</a></strong></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><em>It&#8217;s scary out there. While I remain optimistic, the day-to-da=
+y market activity is choppy.&nbsp;</em></p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Over $9 trillion ha=
+s been erased from U.S. equities and the Nasdaq-100 is down 23% YTD.</em></=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;"><em>With my focus on Not Boring Capital and the newsletter, and =
+the fact that I&#8217;m not a great trader, I don&#8217;t have time to trad=
+e stocks. But I&#8217;m not going to watch this sell-off pass me by.</em></=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;"><em>I&#8217;m shifting a significant amount of my liquid portfol=
+io to a </em>Rising Rates Risk Parity<em> strategy on <a href=3D"https://em=
+ail.mg2.substack.com/c/eJxFkE1uxCAMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZFEJ=
+GUvW8_P3vCWcczn0liuxdzF0bKgT_tYFibCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVHtu1=
+uid5SzOlUcA6KPbV3k7p7HENQ7u4Fem6HXlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3GDz_=
+b8utXS-dza_li-v6idoIEDcMUnAe9lXd8p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmOY2f=
+j3tiss5aASm_eueIh0Gk3ULhguOroxOXDNjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuqvRv=
+-gduOX0a" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Co=
+mposer</a> that is only risk-on if both treasuries and SPY are stable - oth=
+erwise it invests in a basket of risk-off assets.</em></p><div class=3D"cap=
+tioned-image-container-static" style=3D"font-size: 16px; line-height: 26px;=
+ margin-bottom: 16px; text-align: center;"><figure style=3D"display: inline=
+-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+ 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"496" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxFUtuu3CAM_JrNWyJwIIGHPBxV6m9EXLxZtAmkQM=
+52-_X1JqoqITzCsmfw2JmKS8rvaU-lNp9rru8dp4ivsmKtmJujYJ6Dn_gAqpdCN34SniupmlDme=
+0bcTFinmg9s9sOuwZkaUjwrGAPZPCYQTiturVKo2cg4G4e78HdpnZQeHV685vABo8MJvzG_U8Rm=
+nR617uXWf93gJ51y2FKNezofO5c2egmbWZDiHat7UHzNXMjhBj_cvIYtVEJ3alwTgV8X6L-WlPw=
+nsc57TkvGUsI30nupiDs1uUhBfmjlh5gue7gnUj63yKS1TonWGtO3oh-x1ZKr1njbg8Vx1Ep0pe=
+_MZv6kaF7lkko9rumc8NRdTig4-EH4ofW9dK0YzdiqUUPLZW-s1ga0ZrMe1G8hodvj0oQJGACTT=
+HPSyFXXdxLYoFGMHIBLAHsTbFug-zevj4ImTzFVm3KIC6WfD7PheiZI1kxxO2Ko7xmjsSv6y896=
+rcXp8LxgxEzr4mdTaRkkkL2KaTHA5R8ZLukzTA6iIWafqCr-J_0LnjnHZA" rel=3D"" style=
+=3D"align-items: center; border: none; display: block; flex-direction: colu=
+mn; height: auto; margin: 0; padding: 0; text-decoration: none; width: auto=
+;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substackcdn.com/image/=
+fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2F=
+images%2F412d64d6-d35c-47a7-8792-153ab99a2990_968x452.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:452,&quot;wi=
+dth&quot;:968,&quot;resizeWidth&quot;:496,&quot;bytes&quot;:null,&quot;alt&=
+quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:nu=
+ll}" alt=3D"" width=3D"496" height=3D"231.60330578512398" class=3D"" src=3D=
+"https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be779=
+84.s3.amazonaws.com%2Fpublic%2Fimages%2F412d64d6-d35c-47a7-8792-153ab99a299=
+0_968x452.png" style=3D"-ms-interpolation-mode: bicubic; border: none !impo=
+rtant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-=
+width: 100% !important; vertical-align: middle; width: auto !important;"></=
+a></td><td style=3D"text-align: center;"></td></tr></tbody></table></figure=
+></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;"><em>For those that don&#8217;t know, <a href=3D"https://ema=
+il.mg2.substack.com/c/eJxFkE1uxCAMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZFEJG=
+UvW8_P3vCWcczn0liuxdzF0bKgT_tYFibCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVHtu1u=
+id5SzOlUcA6KPbV3k7p7HENQ7u4Fem6HXlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3GDz_b=
+8utXS-dza_li-v6idoIEDcMUnAe9lXd8p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmOY2fj=
+3tiss5aASm_eueIh0Gk3ULhguOroxOXDNjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuqvRv-=
+gduOX0a" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Com=
+poser</a> gives the power of rules based trading (aka quant trading) to reg=
+ular investors, 100% free to use.</em></p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Think tech has botto=
+med? Jump into </em>Big Tech Momentum<em>. Think Inflation is going to get =
+worse? Dive into </em>Inflation Spiral Hedge<em>. Want to stay in stocks wi=
+th more security? Try </em>Paired Switching: S&amp;P 500 and Gold<em>.</em>=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;"><em>Composer is the next generation of active investing. No co=
+de, no spreadsheets, no Robos and no YOLOs. Just smart investing for smart =
+investors.&nbsp;</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;"><em>If you want access to the </em>Rising=
+ Rates Parity<em> strategy (it&#8217;s not publicly available on the websit=
+e), use this private <a href=3D"https://email.mg2.substack.com/c/eJxFkE1uxC=
+AMhU8zLCNwIJMsWHTTTXsHxI8ngyaBCJxWuX2ZZFEJGUvW8_P3vCWcczn0liuxdzF0bKgT_tYFi=
+bCwvWIxMWgxwNgrObGgZRCjGlms5lEQVxsXTWVHtu1uid5SzOlUcA6KPbV3k7p7HENQ7u4Fem6H=
+XlnuHqoX40NcvnYPEZNHjT9YjpyQLfpJtNVb_3GDz_b8utXS-dza_li-v6idoIEDcMUnAe9lXd8=
+p4MOE8i4AhAJwN8nXGbq6u0rWv5p-ZUWnTC6XmOY2fj3tiss5aASm_eueIh0Gk3ULhguOroxOXD=
+NjwtKyC8ZSS0ZBYx35JAe4YBq9kqIdNkjWnENuqvRv-gduOX0a" rel=3D"" style=3D"color=
+: #1a1a1a; text-decoration: underline;">Not Boring link for a limited time.=
+</a>*</em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=
+=3D"background: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; paddi=
+ng: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Hi friends &#128075; ,</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Monday! And=
+ a very happy belated Mother&#8217;s Day to all the mothers out there, espe=
+cially to Puja and both of our moms!&nbsp;</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Speaking of mothers,=
+ today, we need to talk about the mama&#8217;s boy who brought his mom to t=
+he Met Gala&#8230; Elon Musk.&nbsp;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">When the Twitter acquisitio=
+n was a story about free speech and content moderation, I didn&#8217;t have=
+ much to say. Those are really hard problems about which I have no special =
+insights to contribute. But over the past week, the story has evolved into =
+one with which I&#8217;m much more comfortable: how to better monetize Twit=
+ter.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">I have some ideas, one of which is that Twitter&#821=
+7;s users should have a seat at the table, and upside in the outcome.&nbsp;=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px; line-=
+height: 26px;"><hr style=3D"background: #e5e5e5; border: none; height: 1px;=
+ margin: 25.6px 0; padding: 0;"></div><h1 style=3D"-moz-osx-font-smoothing:=
+ antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-fam=
+ily: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-height: 1.16em;=
+ margin: 1em 0 0.625em 0;">If We Ruled the Tweets</h1><div class=3D"caption=
+ed-image-container-static" style=3D"font-size: 16px; line-height: 26px; mar=
+gin-bottom: 16px; text-align: center;"><figure style=3D"display: inline-blo=
+ck; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px =
+auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: ce=
+nter;"></td><td align=3D"left" class=3D"content" width=3D"1200" style=3D"te=
+xt-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https:=
+//email.mg2.substack.com/c/eJxFUtuunDAM_JrlDZSYmMsDD0eV-hsoFy8bLSQ0CWe7_fp6=
+QVWlyB7ZimfksdWFlpje0x5zqT5hLu-dpkCvvFIplKojU5q9m2QHQ4tqrNyknBxwqHye74lo036=
+dSjqo2g-zequLj-H8IQRg9ZjQohCy70CNWlN3R8QecexGOba9a-3Fqw_nKVia6JvSOwaq1ulRyp=
+5v7dcNfvLLh8lF26d1obFx44rf9EKc71Tsg_Nrlgq7G_yw8-o3XxjdeXCJDH5doP1aYnSfxjrvK=
+S6JcvbfxPVciHYecpECfmjxQ8zBHPZJ3E81CTTGDqo2Wre1anuqR5RDrZ1pwVDfj4NqctvoTf-J=
+Qb_yJZVnXNs54ak7nxDE0IJVtu5729UKoas1DLLuUVtH490oQ7MEIX53Apo9LJWfQAAIFKNkkXJ=
+o2gZBdCOpXgJIBDA3JbYFmn8L-0io0hRiMTH5sHD7-dAbrWeDdc2ctyP48p4paLOSuwwt112cFs=
+8LBUp8L27Wha8Bgf0dxKg6uAxkx1GxUuxUxcwu8q_wn_QvpMbHGQ" rel=3D"" style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img=
+ data-attrs=3D"{&quot;src&quot;:&quot;https://substackcdn.com/image/fetch/w=
+_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuckete=
+er-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%=
+2F20832c4c-77c6-4526-a281-75acde9fb4be_1200x602.png&quot;,&quot;fullscreen&=
+quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:602,&quot;width&qu=
+ot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:252839,&quot;alt&qu=
+ot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quo=
+t;href&quot;:null}" alt=3D"" width=3D"550" height=3D"275.9166666666667" cla=
+ss=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1456,c_limit=
+,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-b=
+aa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F20832c4c-77=
+c6-4526-a281-75acde9fb4be_1200x602.png" style=3D"-ms-interpolation-mode: bi=
+cubic; border: none !important; display: block; height: auto; margin: 0 aut=
+o; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; wi=
+dth: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr=
+></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;"></p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Ok, hear me out&#8230=
+; TweeterDAO.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">On Thursday, a new <a href=3D"https://email=
+=2Emg2.substack.com/c/eJxFkUGOwyAMRU9TdhM=
+ZB9JkwaKbuUZEwEnQJBCB06q3H9qONBLiY-y=
+vjx7OMi0pP82RCovXNvLzIBPpUTZipizOQnkM3sgO-1arQXijvOx1L0IZ50y027AZzieJ45y24C=
+yHFN8OANRiNT06gmGWErQbADp0btLzFWkGmtG1n1x7-kDRkaE75WeKJDazMh_l0t4u-F3X4_FoC=
+rlmSfda3bJbw51KPZJfbK7qLdsqACDVoK4t_BUSVKcHRNAdaF0veUeUqoP-S47FydbbZuVdBIPw=
+moJBom5l37SNRugGUldZDRpxuijYF2zKORW27qdxaRfZxMRTyiEutf2z2p22d6PyGKvuZwz8HCn=
+aaSP_QcUf4m9440KRcv0JP1qunDVWcj0MqsMPmspSK_l6vhI12afqiv-hv-mnkWk" rel=3D"" =
+style=3D"color: #1a1a1a; text-decoration: underline;">amended 13D filing</a=
+> showed that Elon Musk rallied the troops to pony up $7.1 billion of his $=
+44 billion Twitter bid.&nbsp;</p><div class=3D"captioned-image-container-st=
+atic" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; tex=
+t-align: center;"><figure style=3D"display: inline-block; margin: 0 auto; w=
+idth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt=
+: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=
+=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;"><a =
+class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.c=
+om/c/eJxFUtuu3CAM_JrNWyIwkJCHPBxV6m9EXJws2gRSIGe7_fp6N6oqIXtkC8_IY2cqrim_pi=
+OV2rzDXF8HThGfZcNaMTdnwTwHP_EetFBybPwkPddKN6HMS0bcTdimmk9sjtNuwZkaUvz8YAxUc=
+58QmPRagZPKaWeFY8pw4bgaaGC_jBevOX3A6HDCb8yvFLHZpnutR7mJrxv8pFdOW6pxD-dj59JO=
+lbCbFSkvWN2d8nPmUvU3-OHmLeyhElpocE0Efl1AfK0p-Xdjm4-c1oylhG-keqmIBw25SEG9adW=
+bmII93QOpn1tkylqnZWuNEa0UA7aj4ro13gqwOAyjll0RndnNnxTNs1xSaca1nQ_86C4fuAzLoA=
+QbWhCybyXzstXAfMs1H2FBJ4TW88j0b1CyO-LahAkYAFNs5KSR6050Clg_ohw4AFcA9ibZvkL3b=
+19vBU2eYqo25RBXaj_uZsft0yBZM-X9jKG-ZozGbugvP-t1Fh-H5xUjZjoXP5tKx6CA7NVslD1c=
+_pHhSnIS1suGmH2iX_E_6V9HQ8aP" rel=3D"" style=3D"align-items: center; border=
+: none; display: block; flex-direction: column; height: auto; margin: 0; pa=
+dding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;sr=
+c&quot;:&quot;https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-95=
+18-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f75307-2346-40d4-820=
+d-18192fec3388_908x254.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSiz=
+e&quot;:null,&quot;height&quot;:254,&quot;width&quot;:908,&quot;resizeWidth=
+&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title=
+&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" title=3D=
+"" width=3D"550" height=3D"153.85462555066078" class=3D"wide-image" src=3D"=
+https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_pr=
+ogressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be7798=
+4.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f75307-2346-40d4-820d-18192fec3388=
+_908x254.png" style=3D"-ms-interpolation-mode: bicubic; border: none !impor=
+tant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-w=
+idth: 100% !important; vertical-align: middle; width: auto !important;"></a=
+></td><td style=3D"text-align: center;"></td></tr></tbody></table><figcapti=
+on class=3D"image-caption" style=3D"color: #767676; font-family: sans-serif=
+; font-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center=
+;"><em>SEC Edgar</em></figcaption></figure></div><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">This is interesti=
+ng for a few reasons.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;">First and foremost, it means that E=
+lon&#8217;s assertion that he &#8220;doesn&#8217;t care about the economics=
+ at all&#8221; no longer holds. <strong>He needs to care about economics no=
+w</strong>. Twitter will need to generate enough money to pay Elon&#8217;s =
+debt service, and to generate a return for its investors, including VC firm=
+s a16z and Sequoia. VC firms don&#8217;t typically play for 2x returns; whi=
+le Elon and Twitter make this a special case, their involvement signals tha=
+t economics do matter.</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Second, it cuts Elon&#8217;s margin loan=
+ from $12.5 billion to $6.25 billion, lowers the debt burden, and gives him=
+ some more room to experiment from a cash flow perspective. He can get a li=
+ttle <strong>more aggressive</strong> in this scenario.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Third, <strong>Elon is <a href=3D"https://email.mg2.substack.com/c/eJxFkk2=
+PpCAQhn-N3jSAQuvBwyS7c5vT7N0gVLek-TBQjOO_X2xnswkp4K0U9fGgJMIjxGPaQsL6NDMeG0=
+we9mQBEWKdE8TZ6IkKNnS8H2s99ZoOfKhNmu8RwEljJ4wZ6i0v1iiJJvhXBCGM1-vE1U12nexHM=
+jDOxFCe0fS-KNkrLjSDK6_M2oBXMMEXxCN4qO20Im6p6t4q9l7Wvu-t8otqVXDlyghjZSP8nwEb=
+fONyejbwvYFC0A2GppT_BY1MDYLbQpTxaHA3Z2uNgtDI-3nSIG2jbEiQ2hWdrbr3jG4uLld1v94=
+yhjuArpg4VQfa5FP_DMpI-6Oq4BE8FvlDGv8jppCjgqL9uVJWrPut1rCE76JRwemNCy7KKKezG8=
+LJSBnv6NB2LWdEjNDfKGOUM7ZUPXEP1qa8JJTqeQ6hjpMPuIRo_KO4n6t0YF-OQqIU5Fz2Bo8Zv=
+Fws6AsSXqxf2OYHeIjlD-hZYiHMWWE2kLEX7IJSKPKelsJEX5fMOpQo_z_pX2eEwPY" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">rumored</a> to be t=
+elling investors that he&#8217;s stepping in as interim CEO</strong>. He&#8=
+217;s not known for doing things in a small way.&nbsp;</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Finally,=
+ crypto exchange Binance is a fascinating inclusion, particularly after its=
+ founder CZ <a href=3D"https://email.mg2.substack.com/c/eJxFkMuOwyAMRb-mLCt=
+wII8Fi9nMbyAeToqaQARkqszXj9ssRkKAZV3f6-NtwyWXU--5Nva-TDt31AlfdcXWsLCjYjExaN=
+HD2Ck5saBlEKMaWaxmLoibjatu5UC2H26N3raY00fBOSj20LN0M8x-EHLgfnYuIHTzHPrgu663Q=
+7h87REiJo8af7CcOSFb9aO1vd66rxt802mv-E5093mjyv8aF5MlBRW12XZU-gglpFJiEpPqKSwA=
+JYgaOABXfBKgOjHeu7sC3k8oBwEgFIC7Sb4tcK-Ho0n--bZgRafcXC4xLdR-PuyG66dBaxp6tyP=
+FdhpM1q0YLgLtAvlhYhZMWAhwMLYRPgUEZOST7OHamBApKShYLxk5h0yq9G_6Bzp4iHk" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">tweeted</a>, &#=
+8220;Privatize it, issue a token, decentralize it&#8221; last month. While =
+I think it&#8217;s unlikely that Elon decentralizes Twitter in the near-ter=
+m, Binance&#8217;s involvement means <strong>more decentralized solutions m=
+ay be on the table</strong>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">Speaking of which&#8230; <st=
+rong>Elon should give a DAO made up of Twitter&#8217;s power users a place =
+on Twitter&#8217;s cap table and a seat on its board</strong>. Call it Twee=
+terDAO.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">Giving TweeterDAO a board seat is a step short of=
+ issuing a token and fully decentralizing. It&#8217;s a step short of the <=
+a href=3D"https://email.mg2.substack.com/c/eJxFkc2O6yAMhZ-m7BKBAylZsJjNfY2I=
+gJuiBqiA3ChvP067GMl_4ujI1oezDddcTvPOtbGrzO18o0l41A1bw8L2imUO3ogR9KDkxLyRXmi=
+lWajzoyBGGzbTyo7svS9bcLaFnD4OzkGxp1HeWRT6DmpUj1FJj1qOFAM8FFqN37129wGTQ4P_sZ=
+w5IdvMs7V3vQ0_N_hHcRxH356XvGLvcqQn4GKkdiVQCqGHu5o4jbjl1MW9vrpoS-3WTLYUMbXOh=
+4KOGsbsinVnt9mjc9kjlfTAch3BggEOwBWfBKhB6H7oFfBxQnkXAEIBLDfJ4wp93ZfarHtdF7Fi=
+Um5LLiGtJL-eNuL2EQjNTD3uKbRzxmSXDf2XWvvC_3CcV0xY6FP8bBshV0AQNZ_kCF9KhFVJQYe=
+NktFmn8mV_pb-Aqjomo8" rel=3D"" style=3D"color: #1a1a1a; text-decoration: un=
+derline;">direct democracy he thinks humans should use to govern Mars</a>. =
+But it&#8217;s a big step in the right direction from a board made up of pe=
+ople with practically no ownership and famously little usage of the product=
+=2E</p><div class=3D"tweet" style=3D"back=
+ground: #fff; border: 1px solid #e1e=
+8ed; border-radius: 5px; direction: ltr; display: block; font: normal norma=
+l 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 1=
+6px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 2=
+0px 11.6px 20px;"><a href=3D"https://email.mg2.substack.com/c/eJxFkM2OhCAMx=
+59mOE6giMKBw-4me9iXMCgdJSoYqDvx7ZcZD5s0_UjT_tvf6AinlE-7p0Ls5Xo6d7QRn2VFIszs=
+KJj74K1oQUvVGOZt44VWmoXSPzLi5sJqKR_I9mNYw-gopPie4BwUm61HCUZ73hk5SnAPZ8TAR6O=
+lcC03XF-67vAB44gWfzGfKSJb7Uy0l5v8uMF3NXqG10X3MW21-ppzKD-fblmwVoUcHaUmQgklu4=
+6DBqOkNkK3LFjgAFxxI0BJoe_yroC3BptOAAgFMNwavk1wL8dQN43LS4NlGxMNKYc41fYyuw3Xd=
+6P-2de4HTHQ2WN0w4r-QkAXyTeUfsKIuRL2vaPKT0ElorlpWrheroxUI-phbcOqsk91Kv6L_gHf=
+NIcZ" target=3D"_blank" rel=3D"" style=3D"color: black; display: block; tex=
+t-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-header" sty=
+le=3D"display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14p=
+x; text-decoration: none;"><img class=3D"tweet-user-avatar" src=3D"https://=
+substackcdn.com/image/twitter_name/w_36/ChrisJBakke.jpg" alt=3D"Twitter ava=
+tar for @ChrisJBakke" style=3D"-ms-interpolation-mode: bicubic; border: non=
+e !important; border-radius: 50%; display: block; float: left; height: 36px=
+; margin: 0 8px 0 0; max-width: 100%; vertical-align: middle; width: 36px;"=
+><span class=3D"tweet-author-name" style=3D"color: #1c2022; display: block;=
+ font-weight: 700;">Chris Bakke </span><span class=3D"tweet-author" style=
+=3D"color: #697882; display: block; font-size: 14px;">@ChrisJBakke</span></=
+div>Elon Musk is in for a bad time.
+
+I&#8217;m not sure he&#8217;s prepared to take on a couple PhDs, a few MBAs=
+, and a Baroness who use Twitter once a year (to reset their passwords) and=
+ collectively own 77 shares of the company. <div class=3D"tweet-photos-cont=
+ainer" style=3D"display: flex; font-size: 16px; height: 350px; line-height:=
+ 26px;"><div class=3D"tweet-photo-wrapper " style=3D"-moz-box-sizing: borde=
+r-box; -webkit-box-sizing: border-box; border: 1px solid #e1e8ed; border-ra=
+dius: 5px; box-sizing: border-box; font-size: 16px; height: 100%; line-heig=
+ht: 26px; width: 100%;"><img class=3D"tweet-photo" src=3D"https://substackc=
+dn.com/image/fetch/w_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/ht=
+tps%3A%2F%2Fpbs.substack.com%2Fmedia%2FFQezYAEUcAI1PO-.jpg" alt=3D"Image" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; border-ra=
+dius: 5px; display: block; height: 100%; margin: 0 auto; max-width: 100%; o=
+bject-fit: cover; vertical-align: middle; width: 100%;"></div></div></a><a =
+href=3D"https://email.mg2.substack.com/c/eJxFkM2OhCAMx59mOE6giMKBw-4me9iXMC=
+gdJSoYqDvx7ZcZD5s0_UjT_tvf6AinlE-7p0Ls5Xo6d7QRn2VFIszsKJj74K1oQUvVGOZt44VWm=
+oXSPzLi5sJqKR_I9mNYw-gopPie4BwUm61HCUZ73hk5SnAPZ8TAR6OlcC03XF-67vAB44gWfzGf=
+KSJb7Uy0l5v8uMF3NXqG10X3MW21-ppzKD-fblmwVoUcHaUmQgklu46DBqOkNkK3LFjgAFxxI0B=
+Joe_yroC3BptOAAgFMNwavk1wL8dQN43LS4NlGxMNKYc41fYyuw3Xd6P-2de4HTHQ2WN0w4r-Qk=
+AXyTeUfsKIuRL2vaPKT0ElorlpWrheroxUI-phbcOqsk91Kv6L_gHfNIcZ" target=3D"_blan=
+k" rel=3D"" style=3D"color: black; display: block; text-decoration: none; w=
+hite-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"color: #697882;=
+ display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text=
+-decoration: none;"><p class=3D"tweet-date" style=3D"border-bottom: 1px sol=
+id #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1=
+=2E4; margin: 0; margin-bottom: 10px; pad=
+ding-bottom: 10px;">April 16th 2022<=
+/p><span class=3D"retweets" style=3D"display: inline-block; margin-right: 8=
+px;"><span class=3D"rt-count" style=3D"color: #1c2022; font-weight: bold;">=
+4,947</span> Retweets</span><span class=3D"likes" style=3D"display: inline-=
+block; margin-right: 8px;"><span class=3D"like-count" style=3D"color: #1c20=
+22; font-weight: bold;">42,481</span> Likes</span></div></a></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>In a <a href=3D"https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9GjgYKOHrgs=
+JvJ3PYF9mIQqpJRMAhjfPtlxsMmTZu0af_-n9EJpxBPtYU9kXfq07mh8njsC6aEkeQdY--sYg20=
+XIqOWCUsa2VL3N6PEXHVblEpZiRbHhZndHLBfzYoBUlmReVIG65HMaK8gR2pbszApWTSypa3t0t=
+XZ-vQG1T4wngGj2RRc0rbXvGvCh4ljuOoz5BTHrA2YX13dDJzxR-vit-N_f3d9Dc87z_EKaAAVN=
+KOgeSsrXktgTYdihsDYBJgqARdJ6j3POxJm-f7IInKhzSE6PxUxs9Zr7h8BsVYX-qavUtnj14PC=
+9rLc7rQfSj0E3qMBantdSrAJBQELe1EA5fHAkUKVh5rBCnKNpQt_y_6B7luhHI" rel=3D"" st=
+yle=3D"color: #1a1a1a; text-decoration: underline;">TED interview</a> last =
+month, Elon told Chris Anderson that he wanted <strong>as many Twitter shar=
+eholders as possible to retain ownership</strong>, so that they could share=
+ in the governance of the platform, and that he thought the <strong>SEC lim=
+ited it to 2,000 people</strong>. This DAO structure might be a workaround.=
+&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">Not surprisingly, I think that investing in the equity &=
+#8211; directly or via DAO &#8211; of the new private Twitter is a compelli=
+ng bet. It was one of my top picks at the Acquired Arena Show the night bef=
+ore the investment was announced.&nbsp;</p><div class=3D"tweet" style=3D"ba=
+ckground: #fff; border: 1px solid #e1e8ed; border-radius: 5px; direction: l=
+tr; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe =
+UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em a=
+uto; max-width: 520px; padding: 20px 20px 11.6px 20px;"><a href=3D"https://=
+email.mg2.substack.com/c/eJxFkEGOwyAMRU9TlhE4kMKCxWxmN2eICLgpagIROFPl9kOaxU=
+gIjKzv7_-8I5xzOeyWK7HzGunY0CZ81wWJsLC9YhljsGIA3StpWLAyCK00i3V8FMTVxcVS2ZFt-=
+7RE7yjm9FFwDoo97WD4gM57pfRdcC2mh9fqYQY3gUEI5vJ1e4iYPFr8xXLkhGyxT6Kt3vqvG3y3=
+Q-94btT5vLbf5vzr-GlFJUd7bYVQANBrY5Qc7qrXsgcWLXAArrgRoHqhu75TwAeD8i4ATsV0k3y=
+doav71Cb51zmeFZsyTbnENLf26-lWXD6NFnFs77qnSMeIyU0Lhis9XRA_PMYZE5YGN4yOGjoFDY=
+bmRg5wpW14lBRtsUGy5hxyU6V_0z-Vg4XM" target=3D"_blank" rel=3D"" style=3D"col=
+or: black; display: block; text-decoration: none; white-space: pre-wrap;"><=
+div class=3D"tweet-header" style=3D"display: block; font-size: 16px; line-h=
+eight: 1.2; margin-bottom: 14px; text-decoration: none;"><img class=3D"twee=
+t-user-avatar" src=3D"https://substackcdn.com/image/twitter_name/w_36/packy=
+M.jpg" alt=3D"Twitter avatar for @packyM" style=3D"-ms-interpolation-mode: =
+bicubic; border: none !important; border-radius: 50%; display: block; float=
+: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; vertical-align: m=
+iddle; width: 36px;"><span class=3D"tweet-author-name" style=3D"color: #1c2=
+022; display: block; font-weight: 700;">Packy McCormick </span><span class=
+=3D"tweet-author" style=3D"color: #697882; display: block; font-size: 14px;=
+">@packyM</span></div>My 3 picks at the <span class=3D"tweet-fake-link" sty=
+le=3D"color: #1ca1f2; text-decoration: none;">@AcquiredFM</span> Arena Show=
+ last night:
+
+1. The <span class=3D"tweet-fake-link" style=3D"color: #1ca1f2; text-decora=
+tion: none;">@ComposerTrade</span> Rising Rates with Vol Switch Symphony bc=
+ I'm a terrible trader
+2. Equity piece of Twitter Take Private -- didn't realize so many investors=
+ were watching!=20
+3. $OPEN because bps for breakfast</a><a href=3D"https://email.mg2.substack=
+=2Ecom/c/eJxFkEGOwyAMRU9TlhE4kMKCxWxmN2eI=
+CLgpagIROFPl9kOaxUgIjKzv7_-8I5xzOeyW=
+K7HzGunY0CZ81wWJsLC9YhljsGIA3StpWLAyCK00i3V8FMTVxcVS2ZFt-7RE7yjm9FFwDoo97WD=
+4gM57pfRdcC2mh9fqYQY3gUEI5vJ1e4iYPFr8xXLkhGyxT6Kt3vqvG3y3Q-94btT5vLbf5vzr-G=
+lFJUd7bYVQANBrY5Qc7qrXsgcWLXAArrgRoHqhu75TwAeD8i4ATsV0k3ydoav71Cb51zmeFZsyT=
+bnENLf26-lWXD6NFnFs77qnSMeIyU0Lhis9XRA_PMYZE5YGN4yOGjoFDYbmRg5wpW14lBRtsUGy=
+5hxyU6V_0z-Vg4XM" target=3D"_blank" rel=3D"" style=3D"color: black; display=
+: block; text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet=
+-footer" style=3D"color: #697882; display: block; font-size: 14px; line-hei=
+ght: 26px; margin-top: 10px; text-decoration: none;"><p class=3D"tweet-date=
+" style=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display: block=
+; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; paddin=
+g-bottom: 10px;">May 5th 2022</p><span class=3D"likes" style=3D"display: in=
+line-block; margin-right: 8px;"><span class=3D"like-count" style=3D"color: =
+#1c2022; font-weight: bold;">17</span> Likes</span></div></a></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>I had no inside knowledge, just a longstanding belief that Twitter can and=
+ should be so much more than it is. Prognosticating on, and being overoptim=
+istic about, Twitter&#8217;s future is a treasured pastime here at Not Bori=
+ng. In July 2020, I wrote <em><a href=3D"https://email.mg2.substack.com/c/e=
+JxFkN2KhDAMhZ9meqe00Tp60YuFZV5D-pNxymorNa749psdYReaFhJOT87nLeGUy2nWvJH4vUY6=
+VzQJj21GIixi37CMMRjVQd_odhDBtEH1uhdxG58FcbFxNlR2FOvu5ugtxZzeCilBi5fRjbu7Ptw=
+HL9GjlRB6r0LjpALs5TBcvnYPEZNHg99YzpxQzOZFtG635uMGDz7HcdQpk8slpqn2mVsrV3xWsS=
+r7jKGiF1Z0IBKLHlyfh4gGJIDUclCgG9XXTa1BdgO2dwWgNIC7tXKZoN52t5H1X_zzIor5c-Lx1=
+8suOL8HnHHkd9lTpHPEZB0bX_HpovgGMk6YsDDdMFpidhqYBodtO7jiMh_dKl6sawU7h8yq9G_6=
+AydIiLY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">If =
+I Ruled the Tweets</a>.</em> In February 2021, I followed up with <em><a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFkMuOhCAQRb9GdhoowceCxSST_g2DUqOk=
+FQyUbfz7odtkJuGRULmcqjMZwjnES-8hEXsfA107ao9nWpEIIzsSxsFZLRroaiV7ZrW0olMdc2n=
+4iYibcaumeCDbj3F1kyEX_CfBOSi26AZUb5VQrVTG9IhCcNVOsm06Cy3idHPNYR36CTW-MF7BI1=
+v1QrSnov4q4JHXeZ6VDzSG6PxcTSE_7Xkv4SzpdO9myzlQ6SiVcwzhheVopmdRP_IX3ydzGjgAV=
+7wXoGrRVXWlgDc9ylYACAUwFpJvM1TpGBPlaGZsLOo_Zi4_F7Ph-inkaYd8b4d3dA3ozbiivUXQ=
+7fOjZpjRY8ye7WAoW1SQvXS8lw3cg2dTSorcWCNZJtuQU_4f-gujLYxR" rel=3D"" style=3D=
+"color: #1a1a1a; text-decoration: underline;">How Twitter Got Its Groove Ba=
+ck</a>.</em> Hell, in March 2021, Marc Rubinstein and I even kinda defended=
+ Jack in <em><a href=3D"https://email.mg2.substack.com/c/eJxFkN1uhCAQhZ9muV=
+sDo_hzwUWTZl_DIMy6dBUMjjW-faeatAkDgcmZw_mcJRxTPsySVhK_W0_Hgibivk5IhFlsK-Y-e=
+KNqaEtddcKbyqtWtyKs_TMjzjZMhvKGYtmGKThLIcVTISVo8TJKlY2D1vumrN1Tyq52g2t8OzR8=
+0b65fO3mA0aHBr8xHymimMyLaFlv5ccNHrz2fS9ioiHlEMfCJX5auL6se9_T8057ulO2Hlnx4Pr=
+cRTAgAaSWnQJdqrYoCw2y7rBqFIDSAMOtkvMIxboNK_EgHjuLbP5suP1-2Rmns8EBez7nLQY6eo=
+x2mNBf2elCeNLoR4yYGa3vLTE4DYyilV1Vw5WV4ehK8cfqSrCzT6yK_6Y_RR2HeQ" rel=3D"" =
+style=3D"color: #1a1a1a; text-decoration: underline;">Jack of Two Trades</a=
+>.</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">In <em>If I Ruled the Tweets</em>, I wrote, &#8220;<str=
+ong>Twitter is the most undermonetized product in the world</strong>, becau=
+se it doesn&#8217;t know what it is.&#8221; While its ad business has grown=
+ and improved slightly since then, and it finally introduced some light sub=
+scriptions, the point stands. The delta between Twitter&#8217;s importance =
+and its business performance is gaping.&nbsp;</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">But the company h=
+as seemingly infinite shots on goal to try to turn the business around beca=
+use its power users are incredibly sticky (read: addicted to Twitter) and t=
+he magical experiences are unbelievably magical. It&#8217;s the home base f=
+or <em><a href=3D"https://email.mg2.substack.com/c/eJxFkNFuhCAQRb9meVsDo6g8=
+8NCk2d8wKKOSKhgca_z7TtekTYAJTO5c7hkc4ZTyZbe0k_g9Oro2tBHPfUEizOLYMXfBW1VDW-r=
+KCG8rr1rdirB3Y0ZcXVgs5QPFdvRLGByFFN8KKUGL2UrZmHrQ0PQjunE0jSqNcgNoI32LDd6-7v=
+AB44AWvzFfKaJY7Ey07Y_y4wEvXud5FjFRn3KIUzEkftp404zPKaOjZ4pLiHxxKz7KFws_TxEsS=
+ACppVGgS9UWZaFB1garRgEoDdA_KrlOUOxHv5MbvnjyKrL9c-L218wjl3eDM3Zc1yMGujqMrl_Q=
+3_HppvgG0k0YMTNd3zlidhqYRitNVcMdl_noSvHH6kqws0-siv-mPxHviK4" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">The Great Online Game</a>.=
+</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">Elon, my inspiration for that essay and a power user hims=
+elf<em>,</em> has some thoughts on how to turn things around. Over the week=
+end, <em>The New York Times</em> <a href=3D"https://email.mg2.substack.com/=
+c/eJxFkE1uxCAMhU8z7BIBgfwsWHTTa0QE3AQNgQicRrl9PTOLStazsPX8xOcswprLbY5ckb1kx=
+vsAk-CqERChsLNCmYM3opdjp9XEvFFejHpkoc4_BWC3IRosJ7DjXGJwFkNObwfnUrPNjO5HDHzw=
+0qlpGri2i9fdOEkhJJdK6E-uPX2A5MDAL5Q7J2DRbIhHfXRfD_lNdV1Xm24MO9TW5Z0m5JfUuH5=
+JT4LgtpRjXm96QMyp2c_6bPAKr780R0C3NR7cs91wjyyY1wWu-SSk7sTYdq2WvJ9ADUJKoaVcHo=
+rvq2zruVS05KNgVkzKuOQS0krr52Z3iO8FAZip72cKeM-Q7BLBf9jgB_Gb1rxCgkLo_WyRwGpJq=
+EY-qV5-WBA8rYiO7hWjZJ_Jlf5D_wCchJEs" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">shared information from a leaked pitch deck</a> El=
+on is using to raise money for the deal. According to <em>The Times, </em>p=
+lans include:&nbsp;</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bot=
+tom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-f=
+ormat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0; margin-bottom: 0;"><strong>Quintuple revenue to $26.4 billi=
+on</strong> by 2028.</p></li><li style=3D"margin-bottom: 4px; margin-left: =
+8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-=
+bottom: 0;"><strong>Cut Twitter&#8217;s reliance on advertising</strong> to=
+ less than 50 percent of revenue.</p></li><li style=3D"margin-bottom: 4px; =
+margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bul=
+let;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0; margin-bottom: 0;">Produce $15 million in revenue from a <strong>paym=
+ents business</strong>, and $1.3 billion by 2028.</p></li><li style=3D"marg=
+in-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-spe=
+cial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0; margin-bottom: 0;"><strong>Increase average revenue p=
+er user</strong> by $5.39, to $30.22.</p></li><li style=3D"margin-bottom: 4=
+px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format:=
+ bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0; margin-bottom: 0;">Reach <strong>931 million</strong> users by 20=
+28.</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right=
+: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Have =
+<strong>104 million subscribers</strong> for a mysterious <strong>&#8220;X&=
+#8221;</strong> by 2028.</p></li><li style=3D"margin-bottom: 4px; margin-le=
+ft: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; mar=
+gin-bottom: 0;"><strong>Hire 3,600 employees</strong> &#8212; after sheddin=
+g hundreds.</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">And of course, he expects there to be <st=
+rong>69 million</strong> Twitter Blue subscription users by 2025. Nice.&nbs=
+p;&nbsp;</p><div class=3D"captioned-image-container-static" style=3D"font-s=
+ize: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><fi=
+gure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table c=
+lass=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbod=
+y><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"co=
+ntent" width=3D"784" style=3D"text-align: center;"><a class=3D"image-link" =
+target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxFUsGu3CAM_JrN=
+LREQSOCQw1Ol_kZkwJtFm0AK5G23X19voqoSske28Iw8dlBxSfk97anU5hPm-t5xivgqK9aKuTk=
+K5jn4iQ9C90qaxk_Sc610E8p8z4gbhHWq-cBmP-waHNSQ4vmDMaGax8QV3J21I3jDOABI1QvFvE=
+ahR6cAL144fMDocMJvzO8UsVmnR617ufVfN_GTXjlsqeCezsfOpY0qYYMFKd-xugfl18ylGm7ih=
+5vXsIVK6E6DayLw6wL915KS_zTWec9pyVhK-Eaql4q405CLVKgPrfoQU7CHeyL1c4tMWeu0bC1A=
+38p-xNYorlvwthcWx9Fo2ZW-gw3-pAivckmlGdd2TnjqLic04IAj2FZJp1sJ3LTaD6Y1vRvloJy=
+0ws-jlr-5Ut0elyZMggnBFDOcNHLd9Z0SbDAoRy4EV0LYm2TbIrp_-_ooaPIUU7Uph7hQ-_mADd=
+ezQbJmytsRQ33PGMGu6C8_63UWp8PzghEznYufodIxKEH2ambkIC7_yHAlOQkbZEPMPtGv-J_0L=
+_iGyJA" rel=3D"" style=3D"align-items: center; border: none; display: block=
+; flex-direction: column; height: auto; margin: 0; padding: 0; text-decorat=
+ion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://=
+substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com%2Fpublic%2Fimages%2F9aca1eab-54c8-4a19-8d69-93c7465c4b2d_784x155=
+=2Epng&quot;,&quot;fullscreen&quot;:null,=
+&quot;imageSize&quot;:null,&quot;hei=
+ght&quot;:155,&quot;width&quot;:784,&quot;resizeWidth&quot;:null,&quot;byte=
+s&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type=
+&quot;:null,&quot;href&quot;:null}" alt=3D"" title=3D"" width=3D"550" heigh=
+t=3D"108.73724489795919" class=3D"wide-image" src=3D"https://substackcdn.co=
+m/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fp=
+ublic%2Fimages%2F9aca1eab-54c8-4a19-8d69-93c7465c4b2d_784x155.png" style=3D=
+"-ms-interpolation-mode: bicubic; border: none !important; display: block; =
+height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important;=
+ vertical-align: middle; width: auto !important;"></a></td><td style=3D"tex=
+t-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capt=
+ion" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; fon=
+t-weight: 300; line-height: 1.4em; text-align: center;"><em>Leaked Pitch De=
+ck Slides</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">While the projections ar=
+e characteristically aggressive, and the underlying products (&#8220;X&#822=
+1;) that would get Twitter there are vague, I don&#8217;t doubt that Elon w=
+ill be able to multiply Twitter&#8217;s business. You don&#8217;t even need=
+ to be an Elon fanboy to believe that; you just need to agree that Twitter =
+has been leaking value that a strong management team should be able to capt=
+ure.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">While Elon talks a lot about free speech, and I thin=
+k he genuinely believes it&#8217;s a key reason for doing this, when he buy=
+s Twitter, Elon will also be buying one of the rarest assets on the planet:=
+ one of the few <strong>at-scale social graphs</strong> (in this case, the =
+interest graph) where more of the world&#8217;s decision-makers shape ideas=
+, and have their own ideas shaped.&nbsp;</p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That presents both an =
+incredible <strong>financial opportunity</strong>, and a largely unpreceden=
+ted <strong>governance challenge</strong>. Twitter&#8217;s users should be =
+able to participate in both.&nbsp;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">So today, we&#8217;ll cover =
+three things:&nbsp;</p><ol style=3D"margin-top: 0;"><li style=3D"margin-bot=
+tom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-botto=
+m: 0;">What does Twitter think it is, and what is Twitter?&nbsp;</p></li><l=
+i style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-to=
+p: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0; margin-bottom: 0;">What New Twitter should build</p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+; margin-bottom: 0;">TweeterDAO</p></li></ol><h3 style=3D"-moz-osx-font-smo=
+othing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; f=
+ont-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-heig=
+ht: 1.16em; margin: 1em 0 0.625em 0;"><strong>What does Twitter think it is=
+, and what is Twitter?</strong></h3><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;">Twitter&#8217;s problems stem =
+from confusion about what it is, and the advertising-based business model c=
+hoices it&#8217;s made as a result.&nbsp;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In <em><a href=3D"htt=
+ps://email.mg2.substack.com/c/eJxFkN2KhDAMhZ9meqe00Tp60YuFZV5D-pNxymorNa749=
+psdYReaFhJOT87nLeGUy2nWvJH4vUY6VzQJj21GIixi37CMMRjVQd_odhDBtEH1uhdxG58FcbFx=
+NlR2FOvu5ugtxZzeCilBi5fRjbu7PtwHL9GjlRB6r0LjpALs5TBcvnYPEZNHg99YzpxQzOZFtG6=
+35uMGDz7HcdQpk8slpqn2mVsrV3xWsSr7jKGiF1Z0IBKLHlyfh4gGJIDUclCgG9XXTa1BdgO2dw=
+WgNIC7tXKZoN52t5H1X_zzIor5c-Lx18suOL8HnHHkd9lTpHPEZB0bX_HpovgGMk6YsDDdMFpid=
+hqYBodtO7jiMh_dKl6sawU7h8yq9G_6AydIiLY" rel=3D"" style=3D"color: #1a1a1a; t=
+ext-decoration: underline;">If I Ruled the Tweets</a>, </em>I wrote that Tw=
+itter&#8217;s main challenge was its confusion over its identity:</p><block=
+quote style=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; marg=
+in-left: 1em;"><em><strong>Twitter thinks it&#8217;s Facebook, but it&#8217=
+;s LinkedIn.&nbsp;</strong></em></p><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;"><em>Twitter =
+thinks it&#8217;s an ad product, but it&#8217;s a subscription product. It =
+thinks it&#8217;s an Aggregator, but it&#8217;s a Platform. It thinks it&#8=
+217;s a social network, but it&#8217;s a professional network: one built fo=
+r the Passion Economy, based on the strength of ideas instead of past exper=
+ience.</em></p></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">Look, it was early 2020 and I was a ne=
+wly-full-time *creator* and the Passion Economy was hot, so maybe I focused=
+ a little too narrowly, but two years later, the main point stands. Twitter=
+ isn&#8217;t a social network as much as it is a <strong>professional netwo=
+rk</strong>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">In <em><a href=3D"https://email.mg2.substack=
+=2Ecom/c/eJxFkMuOhCAQRb9GdhoowceCxSST_g2D=
+UqOkFQyUbfz7odtkJuGRULmcqjMZwjnES-8h=
+EXsfA107ao9nWpEIIzsSxsFZLRroaiV7ZrW0olMdc2n4iYibcaumeCDbj3F1kyEX_CfBOSi26AZ=
+Ub5VQrVTG9IhCcNVOsm06Cy3idHPNYR36CTW-MF7BI1v1QrSnov4q4JHXeZ6VDzSG6PxcTSE_7X=
+kv4SzpdO9myzlQ6SiVcwzhheVopmdRP_IX3ydzGjgAV7wXoGrRVXWlgDc9ylYACAUwFpJvM1TpG=
+BPlaGZsLOo_Zi4_F7Ph-inkaYd8b4d3dA3ozbiivUXQ7fOjZpjRY8ye7WAoW1SQvXS8lw3cg2dT=
+SorcWCNZJtuQU_4f-gujLYxR" rel=3D"" style=3D"color: #1a1a1a; text-decoration=
+: underline;">How Twitter Got Its Groove Back</a></em>, I summarized why un=
+derstanding what it is, who it&#8217;s for, and which business model was so=
+ important for Twitter:&nbsp;</p><blockquote style=3D"border-left: 4px soli=
+d #67bdfc; margin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0; margin-left: 1em;"><em>If on ad-supporte=
+d social networks, like Facebook, advertisers are the customer and users ar=
+e the product, on LinkedIn, <strong>most users are the product, but power u=
+sers are the customer</strong>. Only 18% of LinkedIn&#8217;s revenue pre-Mi=
+crosoft acquisition came from ads; the rest came from selling tools to powe=
+r users, both companies and individuals.&nbsp;</em></p><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left:=
+ 1em;"><em>For Twitter, its power users, and the people who should be its c=
+ustomers, are the <a href=3D"https://email.mg2.substack.com/c/eJxFkMGOhCAMh=
+p9muI2BCoweOOxlX8OgVCWjYADXuE-_dTxsQtqGP-3ffoMtOMV0mi3mwq7QlXNDE_DIC5aCie0Z=
+U-edERqaWsmWOSOdaFTDfO7GhLhav5iSdmTb3i9-sMXH8OngHBSbjajrsReN5uBGra1zfa2Bj7Y=
+d3atRTt--dncew4AGfzCdMSBbzFzKlh_11wO-6R3HUW14JMxo0zBXMU306wNtGbBQCVy0lLi86i=
+tk_-vD9Ny3Zzn8dc3zuiaTwrwBDsAVbwWoWjRVXSngukX5EgBCAfQPydcJqrz3udjhXQ1xZcmEW=
+PqYaCzJ79muuHwEur2jvO7Bl7PDYPsF3Y2l3HQ_oLoJAyai7jpbiKkCotTwVmq4MRA3JQUtpiUj=
+ZxepK_yb_gEG9ZA5" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underl=
+ine;">10% of users who generate 80% of the tweets</a>. We&#8217;ll call the=
+m <strong>Creators</strong>. The Creators&#8217; Job-To-Be-Done is to get t=
+heir ideas, products, newsletters, courses, videos, podcasts, investment id=
+eas, and the other things they&#8217;re selling in front of people.</em></p=
+></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Again, Creator sounds too narrow and too 2020, but I=
+&#8217;m referring to the users who create content on Twitter &#8211; indiv=
+iduals and businesses alike. And again, I think the argument stands.</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">Instead of an Aggregator that operates like a social network and mone=
+tizes through ads, <strong>Twitter should be a Platform that operates like =
+a professional network and monetizes through subscriptions.&nbsp;</strong><=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">With a couple more years of evidence and wisdom, though, I thin=
+k <strong>I undershot it</strong>. Because for as strong and focused as Lin=
+kedIn&#8217;s business is, it&#8217;s more focused and narrow than Twitter =
+needs to be. Twitter is addictive, engaging, and valuable to its users in a=
+ way that LinkedIn isn&#8217;t.&nbsp;</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Addictive. </stro=
+ng>Twitter behaves like a professional network sometimes, but it&#8217;s al=
+so where many of the world&#8217;s most powerful people go when they&#8217;=
+re feeling curious, feisty, inspired, or just bored. I don&#8217;t know any=
+one who checks LinkedIn as compulsively as Twitter.&nbsp;</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><stro=
+ng>Engaging. </strong>And when they check, they engage. This image that Ben=
+ Thompson included in his recent <em><a href=3D"https://email.mg2.substack.=
+com/c/eJxFkEuOhSAQRVfzmGn4-hkw6ElvwyCUSlrBQNEv7r7xOeiEUAmXqlv3WIOwxnTpM2Yk9=
+zXhdYIO8M47IEIiJUOavNOs44NQciROS8cGNRCfpyUBHMbvGlMBcpZ599agj-HTQSlXZNOMjaYX=
+rFcLm51ZGAhpQFiqmKWiB_P4muI8BAsafiFdMQDZ9YZ45pf4evHvejKmuq7dqtzaeNQXTjmvZTb=
+2p8HY4AbNUrAkaOLS4NvfAapOvL5_UkVHxpVgQytaxWk3guwZ50xxPr8kPVbe5jJnrONuA5J0iD=
+jH5MNa5Z_NHLB_hBp0qvUoweM1QTDzDu5hgA_KD5VphQD3zm4yWAEqXpEMdJQdfzJXSEqyulgnS=
+XV2sXaFf9M_uyKKWw" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">Back to the Future of Twitter</a></em> captures the difference betwe=
+en how users interact with Twitter and Instagram well.&nbsp;</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"776" s=
+tyle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://email.mg2.substack.com/c/eJxFUsGupCAQ_JrxpoEWRA8eXjbZ3yAgrUNGwQ=
+V8s7Nfv61ms4mhK3S6qqR6MgWXmD7jHnOpzkOXz45jwHdesRRM1ZExae9G3kHfSjFUbhSO97Kvf=
+NZzQtyMX8eSDqz2w65-MsXHcE0wBrJ6jlbNFkQnneNCCZhhto5baTsQytl5unXN4TyGCUf8xvSJ=
+Aat1fJay50f79YCf9OXD5mKm1-RCM8WNbvxmFqQ6Y5meVN-aC9k94MekV7_5Qmgm4hIJ_LpB-7X=
+E6M7GqvcUl4Q5-2-k-1wQdyK5RUGesvIUpsMe0wupn2pk0tqpF7U1pq1Fq7AeJO9r42wLFpUaet=
+HktjGb-RODeefbKnHcr3PBy3e-oDJMmY63tTmpBHHXViheD61gHNhgjEWtVPebfqzZw1L5ERgAk=
+2zg5JH3TdtIYN2ANAXAJYB9CLYt0Px7r9NBlcYQi43Jh4Xar6fZcL0aZEtT3Y7gy0djMHZFd-dZ=
+7rW4EtYLBky0Lk6bQssggeLt2SA6uPOjwKUgx7ITFSm7SFPhv-hfwMfIUA" rel=3D"" style=
+=3D"align-items: center; border: none; display: block; flex-direction: colu=
+mn; height: auto; margin: 0; padding: 0; text-decoration: none; width: auto=
+;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substackcdn.com/image/=
+fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2F=
+images%2F7a07a613-a37e-4bbc-b471-93401209aabe_776x456.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:456,&quot;wi=
+dth&quot;:776,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt=
+&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href=
+&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"323.1958762886598=
+" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1456,c_=
+limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bb=
+c84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a07a6=
+13-a37e-4bbc-b471-93401209aabe_776x456.png" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: #7=
+67676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-hei=
+ght: 1.4em; text-align: center;"><em>Via Stratechery</em></figcaption></fig=
+ure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;"><strong>Valuable</strong>. There&#8217;s a question that=
+ goes around Twitter every so often that goes something like &#8220;How muc=
+h would someone have to pay you to not use Twitter?&#8221; I asked it mysel=
+f while I was writing this piece, and the answer is eye-popping but not sur=
+prising. Across over 1,100 responses to my very unscientific poll, 40% of r=
+espondents said they&#8217;d need to be paid <strong>more than</strong> <st=
+rong>$10,000 per year</strong> to not use Twitter.&nbsp;</p><div class=3D"t=
+weet" style=3D"background: #fff; border: 1px solid #e1e8ed; border-radius: =
+5px; direction: ltr; display: block; font: normal normal 16px/1.4 Helvetica=
+, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26=
+px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;"><a=
+ href=3D"https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9mWEbgQB4LFt1012-Ie=
+DgZNAlEQDrK39eTLCohY8u6vvZxpuKS8qn3VCr7hKmeO-qI77JirZjZUTBPwWvRwdAqOTKvpReD=
+Glgo05wRNxNWXfOBbD_sGpypIcVLwTko9tRSgG3t7Ho3D7ZzBkblufUdohj6cVa3rzl8wOhQ4y_=
+mM0Vkq37WupdH-_WAb3r1HT4bNS5tVO3Gvc4fSko19SiUCAVtK0fBx04AV53qexY0cKCCjwJUK4=
+ambRTwbkTZCwBSgH1Ivi3QlMPSJPf6jGdZx1RtyiEu1H49zYbr1aATJ_q3I4Z6ThiNXdHf19cb4=
+sVjWjBiJrh-MpXQKSAYAx9lB_e1hEfJa0vJyNknUsV_0z8o6IZG" target=3D"_blank" rel=
+=3D"" style=3D"color: black; display: block; text-decoration: none; white-s=
+pace: pre-wrap;"><div class=3D"tweet-header" style=3D"display: block; font-=
+size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">=
+<img class=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image/twitt=
+er_name/w_36/packyM.jpg" alt=3D"Twitter avatar for @packyM" style=3D"-ms-in=
+terpolation-mode: bicubic; border: none !important; border-radius: 50%; dis=
+play: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%;=
+ vertical-align: middle; width: 36px;"><span class=3D"tweet-author-name" st=
+yle=3D"color: #1c2022; display: block; font-weight: 700;">Packy McCormick <=
+/span><span class=3D"tweet-author" style=3D"color: #697882; display: block;=
+ font-size: 14px;">@packyM</span></div>How much would someone have to pay y=
+ou per year to not use Twitter?</a><a href=3D"https://email.mg2.substack.co=
+m/c/eJxFkMtuxCAMRb9mWEbgQB4LFt1012-IeDgZNAlEQDrK39eTLCohY8u6vvZxpuKS8qn3VCr=
+7hKmeO-qI77JirZjZUTBPwWvRwdAqOTKvpReDGlgo05wRNxNWXfOBbD_sGpypIcVLwTko9tRSgG=
+3t7Ho3D7ZzBkblufUdohj6cVa3rzl8wOhQ4y_mM0Vkq37WupdH-_WAb3r1HT4bNS5tVO3Gvc4fS=
+ko19SiUCAVtK0fBx04AV53qexY0cKCCjwJUK4ambRTwbkTZCwBSgH1Ivi3QlMPSJPf6jGdZx1Rt=
+yiEu1H49zYbr1aATJ_q3I4Z6ThiNXdHf19cb4sVjWjBiJrh-MpXQKSAYAx9lB_e1hEfJa0vJyNk=
+nUsV_0z8o6IZG" target=3D"_blank" rel=3D"" style=3D"color: black; display: b=
+lock; text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-fo=
+oter" style=3D"color: #697882; display: block; font-size: 14px; line-height=
+: 26px; margin-top: 10px; text-decoration: none;"><p class=3D"tweet-date" s=
+tyle=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display: block; f=
+ont-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-b=
+ottom: 10px;">May 8th 2022</p><span class=3D"retweets" style=3D"display: in=
+line-block; margin-right: 8px;"><span class=3D"rt-count" style=3D"color: #1=
+c2022; font-weight: bold;">2</span> Retweets</span><span class=3D"likes" st=
+yle=3D"display: inline-block; margin-right: 8px;"><span class=3D"like-count=
+" style=3D"color: #1c2022; font-weight: bold;">18</span> Likes</span></div>=
+</a></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">Again, not scientific, but I think it&#8217;s directiona=
+lly accurate for a subset of Twitter&#8217;s most valuable users &#8211; th=
+e &#8220;Creators&#8221; who send 80% of all tweets&nbsp; &#8211; and speci=
+fically the subset of that group whose business or income benefits from Twi=
+tter. For that 40%, Twitter is leaving so much money on the table that you =
+can&#8217;t even see its current ARPU on the graph unless I make it really =
+tall.&nbsp;</p><div class=3D"captioned-image-container-static" style=3D"fon=
+t-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;">=
+<figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><tabl=
+e class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><t=
+body><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D=
+"content" width=3D"1229" style=3D"text-align: center;"><a class=3D"image-li=
+nk" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxFUtuunDAM=
+_JrlDZQrhAcejir1N6JcDBstJDQJZ7v9-hpQVSmKR3HsGXnsTIUl5c-0p1Kb89L1s8MU4V1WqBV=
+ycxTIOviJ9kxxKcbGT8JTJVUTip4zwGbCOtV8QLMfdg3O1JDiVUEIk81zYmoWys3KDrOnklAiGf=
+O9kZ4OHCQdbl5z-ADRwQTfkD8pQrNOz1r38uBfD_YTTzlsqca9nI-dSxu-hM0sgHGG6p4Y35oK2=
+T_YD6fXsIWKaMbGNSH4dQP-taTkz8Sq95yWDKWEb8D3UgF2bHKTMnnSypMYL3u4F2A-t0CktU6J=
+1hrDW8EHaEdJVWu85czCMIxKdIV3ZjN_UjTvckvFHvd0LnjpLhdU3AsQ1LeDHbEfjKxVOKaWjLM=
+zfBiYVFZTxsbflErR7XFpwsQIY0SSkaJKqjreSUb6EcSAHylO1z4E2RbW_ZvYqaHJU0zVphzigu=
+nX02ywXgkUpjFuRwz1oyEau4K_Ha33Ylwe6wUiZFwYr03FdZAMDVZkFD27HUTLpaAorBcNMvuEV=
+fE_6V9Mo8e1" rel=3D"" style=3D"align-items: center; border: none; display: =
+block; flex-direction: column; height: auto; margin: 0; padding: 0; text-de=
+coration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;htt=
+ps://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progr=
+essive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s=
+3.amazonaws.com%2Fpublic%2Fimages%2F83d4e41d-7b93-4e92-8fd1-09fca377258b_12=
+29x1154.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&q=
+uot;height&quot;:1154,&quot;width&quot;:1229,&quot;resizeWidth&quot;:null,&=
+quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&=
+quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" title=3D"" width=3D"5=
+50" height=3D"516.4361269324654" class=3D"wide-image" src=3D"https://substa=
+ckcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws=
+=2Ecom%2Fpublic%2Fimages%2F83d4e41d-7b93-=
+4e92-8fd1-09fca377258b_1229x1154.png=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !=
+important; vertical-align: middle; width: auto !important;"></a></td><td st=
+yle=3D"text-align: center;"></td></tr></tbody></table></figure></div><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">I don&#8217;t think Twitter should start charging power users $10,000 pe=
+r year (Elon: please don&#8217;t start charging power users $10,000 per yea=
+r), but there&#8217;s somewhere between the $0 it currently charges and the=
+ $10,000+ people would be willing to pay that Twitter can charge its users =
+for a better user experience and access to better products from Twitter (or=
+ built on Twitter).&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Twitter doesn&#8217;t need to build t=
+he biggest network in the world to be wildly successful. It just needs to m=
+ake sure it serves its smaller segment of higher-value users better, and mo=
+netizes them <em>much</em> better, than it does today.&nbsp;</p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Th=
+at view informs what I think New Twitter should build.</p><div style=3D"fon=
+t-size: 16px; line-height: 26px;"><hr style=3D"background: #e5e5e5; border:=
+ none; height: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>T=
+o learn what I think Twitter should build and how a TweeterDAO might work&#=
+8230;</strong></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot=
+;:&quot;https://www.notboring.co/p/if-we-ruled-the-tweets?token=3DeyJ1c2VyX=
+2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTQxMjA1NjQsImlhdCI6MTY1MjEwMDgwOSwiaXNzIjoi=
+cHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cdMw-OkUQ_ZiThjWfjInmKQWcrJK1u=
+mi_EiO2hyMVHc&quot;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&q=
+uot;action&quot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a=
+ class=3D"button primary" href=3D"https://email.mg2.substack.com/c/eJxFkttu=
+4yAQhp8mvosF-FB84YuqbVqn60TRpkk3NxaGiY0P2MK4rvP0JclqVwJG-od_Bs0HZwaKTs9x3w3=
+GuR6ZmXuIFUxDA8aAdsYBdCZFjENCvcCPHBH7AtOAOnLIzhqgZbKJjR7B6ce8kZwZ2ambAyESOG=
+VMPYrDyGOCCmCYC04Rz30uEKbiIfDIvS8bhQTFIYYv0HOnwGni0ph-WHiPC7Kya5omV3Um77RUh=
+cs7K_V2y_NygqUeGxBLU8LSTADGulamq0EtvGeY15iTw_xJmjqpuu9Nlfjp5QNtf0-Sv0YXsYr6=
+01MSbva777R6xJtqNyRtUwqrpfs_OK1epvS5mK732efmYmtI_naQv_ZXPcGJtHW8g7zp13pPeD4=
+dV5V4bb5yuY5cLtJpua0_dtlJ7svqeK4S1b7vjlyv3_HYyuxFbkk5p4c37siYIEJQgCJMAg9T13=
+MDgsII_AdMCA4IyRc-agviDmM-GMZrO4nW0fG_ydh0XbIWmlvCMslsbEclzZyBYrmd0x2XuVO_A=
+cwKUKDtbxAZM5Z1QCw9iiI__IvH8gx8bB8W-o7tLDrrUv-b_gD9ocXf" rel=3D"" style=3D"=
+background-color: #67bdfc; border: none; border-radius: 4px; box-sizing: bo=
+rder-box; color: #ffffff !important; cursor: pointer; display: inline-block=
+; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 16px; font-weight: normal; height: auto; line-height: 20=
+px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: c=
+enter; text-decoration: none !important; white-space: nowrap;"><span style=
+=3D"color: #ffffff; text-decoration: none;">Continue Reading Online</span><=
+/a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"back=
+ground: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;">=
+</div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">Thanks to <em><a href=3D"https://email.mg2.substack.com/c/eJ=
+xFkE2OwyAMhU9TlhEYSJMFi9n0GhE_ToqaQATOVLn90GYxkmXLsuzn73lLuORymj1XYp800bmjS=
+fiuKxJhYUfFMsVgRA-D1GpkwaggBj2wWKe5IG42robKgWw_3Bq9pZjTd4Nz0OxptO1Hf5_nO5_B=
+zY7PrldykALFKHXrL117hIjJo8FfLGdOyFbzJNrrTf7c4NGC3vHzUefz1rpgN-9z2aJ_CcmiAQ7=
+ANR8FaCmGTnYaeD-iugsAoQHcTfFtga4erpL1r88ZVkzK5HKJaWnj19NuuH4HDWVqdTtSpHPCZN=
+2K4aKky6wv97RgwtJMDJOlZpGGBj3wUfVwUTUbtBLtsV6xphxy20r_on9Bs4Cj" rel=3D"" st=
+yle=3D"color: #1a1a1a; text-decoration: underline;">Dan</a></em> for editin=
+g! </p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"back=
+ground: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;">=
+</div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">Thanks to everyone who filled out the Not Boring Reader Surv=
+ey last week! If you didn&#8217;t get a chance to, I&#8217;d really appreci=
+ate it if you took 3 minutes to do it now:</p><p class=3D"button-wrapper" d=
+ata-attrs=3D"{&quot;url&quot;:&quot;https://forms.gle/fjEwJGfqaiMeG6AY7&quo=
+t;,&quot;text&quot;:&quot;Not Boring Reader Survey&quot;,&quot;action&quot;=
+:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button=
+ primary" href=3D"https://email.mg2.substack.com/c/eJxFkE1uwyAQhU8TlhYM4NgL=
+Flm0kSr1AF1Z_IwdGhtcwI18-5J4UWk0M9LT6M33rC44xbSrNeZCnm0o-4oq4CPPWAomsmVMg3e=
+KtdBxKXrilHCskx3xeRgT4qL9rErakKybmb3VxcfwuqAUJLkpzdFIh8K2HZ47pq2hhnPdOuu4kH=
+Q8fPXmPAaLCn8x7TEgmdWtlDWf-OUE77XGmJbcTDM-9--3x8d1_NH-E6_t5etMvAIKQCXtGUjOu=
+oY3EmjbozgzACYBzEnQZYImbyYXbe-NjQtJKsRiYvJhqvL9phecX0KFGepctuDLPmDQZkZ3cJYj=
+rhf5MGHAVGN0gy41JAkVu6O9aOHgqkFIwepjrSDV2cV6Ff5N_wA5EYEO" rel=3D"" style=3D=
+"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing: b=
+order-box; color: #ffffff !important; cursor: pointer; display: inline-bloc=
+k; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height: 2=
+0px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: =
+center; text-decoration: none !important; white-space: nowrap;"><span style=
+=3D"color: #ffffff; text-decoration: none;">Not Boring Reader Survey</span>=
+</a></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">Thanks for reading, and see you next Monday,</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Packy</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0; margin-bottom: 0;"><em>*See important <a href=3D"https://=
+email.mg2.substack.com/c/eJxFkEFuxCAMRU8zLCNwgCELFt30GhEBN4MmgYg4rXL7usmiEg=
+LJH_v7_RgI59pOv9WdxN810rmhL_izL0iETRw7tjEnryy43uhBJK-TcsaJvI9fDXENefHUDhTbM=
+S05Bsq1XB1SghEv71Jv1JDQaetcjDLZABGUeVoYrNPx9g1HylgievzGdtaCYvEvou3Rfzzgk0-s=
+K3_E1lELCbmQ8h6XkFdeMnuQANLIQYHplev6zoC0A-qnArYCmB5arjN0-zHtFOK743Gi-VJpqi2=
+XmeX3K6y4XAKTjPyuR8l0jljCtGC6IenO6sIeZyzYOMM0BuKEDDCzk4O2cENxCkYrXsxqwc6pcl=
+f5N_0FNN5_4g" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">disclaimer</a></em></p></div></div><table cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"post-meta custom big alternative-meta centered" style=3D"ma=
+rgin: 0 auto;"><tr style=3D"align-items: center; display: flex;"><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; he=
+ight: 100%; line-height: 18px; padding: 0px 12px 0px 0; padding-right: 24px=
+; position: relative; text-decoration: none; text-indent: 3px; vertical-ali=
+gn: middle; white-space: nowrap;"><span class=3D"post-meta-icon like-reacti=
+on-button"><a href=3D"https://email.mg2.substack.com/c/eJxFUsGOozAM_ZpyW5QE=
+QuHAAc2ICrRQdTrd7s4FhcRtA2lAEMrQr9-0lXaVyJaf9WzLz5wZOHfDEvfdaJyHqczSQ6xhHhU=
+YA4MzjTBUUsQ4IKFH_cgRsS9wSENHjtVpALgyqWIzTOD0U60kZ0Z2-slAiFDnEq8FiyihOMDMPu=
+wJOKH1OiRrjkXghfjVl01CguYQww2GpdPgqPhiTD-uvGRFUvvneXZ1Z-pukPrs8s5CrJfW3rA1j=
+yLWPcf5MQDjjzFWXmq6Fqx_hyXHnPxafhPVZk33XTaZX9wPaLufJd9Ed5FG_ddbFpSfu--iSXDZ=
+7MZM5-rPsUTsGE2WI_2etJmcJTum6FXjsBSfybx9T-jPt7znXiG3Mp_FMTMPvGgO0uJ3Gz_w5eu=
+YNmKjbrXMI_fDv6T7UFR5kZc78THn0z6hxWlU93PJl0jds7aeqqDdbXaOjAkiBFEUYUI9HLqeSw=
+kKIvDXmBBMCalXPrqeiTtO9WgYb-1-rs4Q_9uXTbcXdgX1TFilKuuvk5ZmqUCzWoF4iWhet_DcY=
+3UGDYO9EVExYy-AEqtpiCI_IC_RrMrUx3awwHdsZ9FZlv7f9C_2VsvF" class=3D"like-butt=
+on button post-meta-button" style=3D"align-items: center; background-color:=
+ transparent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizing: bo=
+rder-box; color: #1a1a1a; cursor: pointer; display: flex; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+16px; font-weight: normal; height: auto; line-height: 15px; margin: 0; opac=
+ity: 1; outline: none; padding: 10px 16px; text-align: center; text-decorat=
+ion: none; text-indent: 0px; white-space: nowrap;"><img src=3D"https://subs=
+tackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D36%26fi=
+ll%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" hei=
+ght=3D"18" style=3D"border: none !important; display: inline-block; float: =
+left; height: 14px; margin-right: 4px; max-width: 18px; vertical-align: top=
+; width: auto;" alt=3D""><span class=3D"like-count" style=3D"color: #1a1a1a=
+; margin-left: 7px;">Like</span></a></span></td><td class=3D"post-meta-item=
+ icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-h=
+eight: 18px; padding: 0px 12px 0px 0; padding-right: 24px; position: relati=
+ve; text-decoration: none; text-indent: 3px; vertical-align: middle; white-=
+space: nowrap;"><a href=3D"https://email.mg2.substack.com/c/eJxFUl1vozAQ_DX=
+hLQgbTOGBh6ptWtIjUXRp0ssLMvYmmGA7MqaU_PozyX1ItmXNemfWO8uohZM2Y3bRnfWmo7TjBT=
+IFQ9eCtWC8vgNTCp6hGCchiVKPZxFHCUk80ZVHAyCpaDNrevAufdUKRq3Q6pYRBJh4dcYTAhQSQ=
+DQkLMEMV7QiKXtIKkpTzuldl_ZcgGKQwReYUSvw2qy29tLNwscZXrg1DIOvtK20EerkM-2gi9vi=
+OB9gbvoW-NzWMLcDgO1cgGkpQblruLD6DGoWPsO4RAzvxk_cnvNGf6-aPCquH8H65yDYa3rli_R=
+yeMrj1XbzXTSPaNVsuly2NXdYsf2FiuZlKJ5Pw_Sefq6ujkOwt534sZ3wHOXC8YQ7ccMnvic0Hv=
+aLhr-2X5VYpj7jxTBfnz825UFs62Z_bHIl3zd7ZpbvqJeifBFrXI_F7o3NcNxbWXa6Nwxc7V1fd=
+Zay8x9cAhe9nP40GeCJDAcYByRIESYhSvzQJziIU4geEMaIYFzNokCesP-Xx3VQeib711EXPtdU=
+QnsLOC_LqYG9EnYsQdHK9fdus71Py023PIEC46aIl9S6GSHYuZ4EaRTju61uDkiEXGFx5Dllrl2=
+W-i_6GwSy2wo" class=3D"post-meta-button button" style=3D"align-items: cente=
+r; background-color: transparent; border: 1px solid #e0ecf6; border-radius:=
+ 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointer; display: fle=
+x; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height: 1=
+5px; margin: 0; opacity: 1; outline: none; padding: 10px 16px; text-align: =
+center; text-decoration: none; white-space: nowrap;"><img src=3D"https://su=
+bstackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D36=
+%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18=
+" height=3D"18" style=3D"border: none !important; display: inline-block; fl=
+oat: left; height: 14px; margin-right: 4px; max-width: 18px; vertical-align=
+: top; width: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon">=
+<span class=3D"meta-button-label">Comment</span></a></td><td class=3D"post-=
+meta-item icon" style=3D"color: #767676; font-family: -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100=
+%; line-height: 18px; margin-right: 0; padding: 0px 12px 0px 0; padding-rig=
+ht: 0; position: relative; text-decoration: none; text-indent: 3px; vertica=
+l-align: middle; white-space: nowrap;"><span><a href=3D"https://email.mg2.s=
+ubstack.com/c/eJxNkk2T4iAQhn-NuZkiQCI55OCO5ZaOcQ4zju4pRUirmARSBMxmfv0S3a8qo=
+Kof6OrmfVtwCxdtxqzTvQ2mo7BjB5mCoW_AWjCB68EUssqiBDMS0zSoMlpFLGaB7IuzAWi5bDJr=
+HASdKxspuJVaPTIQwnFwzQDFjIDAjKZCRAlHbHFeEIaAYH7mVfSsy10lQQnI4A5m1AqCJrta2_U=
+zspzhtV_DMIRK21IbqS6h0B51fsvzfIC5cQ1Uc3uFuR0ArM9aO9sWvXZGwIyself2lot6hpOJt1=
+BJ13r-aP83FFpZUHZ6feUGPOVi-sx_wOoaphjGbSTw53jCTb256Z_724bmXwf09j5IflyjJzuM-=
+cdyeFst493LthMkl29yO1THjZ14fjtIz798_OAl2aPdadv8OO4RP6Zuo1B4_6C772khKkptvTy8=
+qnXyuid5d3rPa-bwi7njVfGNrAUTgcwwwhjFKI1wTCIWkjDGKEmBLiKMoxjjckZRe8HhHzG8iG1=
+gsr-i-uv6yltoHhfeTi9J2zol7ViA4qWX-Om0fQ7MQ7ziAgqMH6Sq4NaPSYy98QylNMFPZ_0oxD=
+TyjSU08JUr7bPUv6K_AAeC2KM" class=3D"button post-meta-button" style=3D"align=
+-items: center; background-color: transparent; border: 1px solid #e0ecf6; b=
+order-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointer;=
+ display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; l=
+ine-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16px;=
+ text-align: center; text-decoration: none; white-space: nowrap;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D2%26=
+height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" =
+width=3D"18" height=3D"18" style=3D"border: none !important; display: inlin=
+e-block; float: left; height: 14px; margin-right: 4px; max-width: 18px; ver=
+tical-align: top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-=
+meta-icon"><span class=3D"meta-button-label">Share</span></a></span></td></=
+tr></table><div class=3D"container-border" style=3D"border-top: 1px solid #=
+e0ecf6; box-sizing: border-box; font-size: 16px; line-height: 26px; margin:=
+ 32px 0 0; width: 100%;"></div><div class=3D"post-cta" style=3D"font-size: =
+16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D"font-size: 16px;=
+ font-style: italic; line-height: 26px; margin: 24px 0 0; margin-top: 0;"><=
+span>If you liked this post from <a href=3D"https://email.mg2.substack.com/=
+c/eJxFkM1uwyAQhJ8mHC1YA8EHDr3kNRA_GwfFBgtwLb99aSy10oqVGA3DN942nHM59ZZrI7-Ha=
+eeGOuFRF2wNC9krFhODZhLUKPhEguaBKaFIrOZZEFcbF93KjmTb3RK9bTGnj4NSEOSlBeMqCKk4=
+Q2enID2nTlrGxufdP62Yrly7h4jJo8ZvLGdOSBb9am2rt_HrBo8-x3EMKTeXS0zz4HO_IlEDBaC=
+CTgzEyNQwDgKonJDfGQATAO7G6TrDUHdXm_XvblxJ0X8Pdfn9sisuH6EjmL7XPcV2GkzWLRguun=
+aV9OE1MyYsvbxgbOvVCOiwik5cwkXT8QVn_WOSk54ccnel_9Afxm99dg">Not Boring by Pac=
+ky McCormick</a>, why not share it?</span></p><p class=3D"cta-box" style=3D=
+"font-size: 16px; font-style: italic; line-height: 26px; margin: 24px 0 0; =
+text-align: center;"><a role=3D"button" href=3D"https://email.mg2.substack.=
+com/c/eJxFkd2K5CAQRp8m3nXQimaSCy8WlnmNYLSSyEQTTLmh336ru2EX_MGvKOpw9I5wPcrTn=
+sdF4nVM9DzRZryvHYmwiHphmWKwqoehM3oUweqgBjOIeE1LQUwu7pZKRXHWeY_eUTzyu0NKMGKz=
+Tn11WncSfT94uYDXYdF67MYFpFboPnNdDRGzR4t_sDyPjGK3G9F5Nd2vBr553ffd5oPmo8S8tv7=
+g6OQdl8eNj1J3DA_a8EE3InHXd6U0JQyxpqb7_cZsoH-F3qXTxTVz7Mlx6PyLmZ_X5gqKaEECSC=
+NHBaZTQ9u1BmQ_ov5SAMoAzI2WaYX2qvNFzv8wTRLF_qPj8s_mEu7vAnuZ-E41R3pOmN3MrB9l9=
+DH_pptWzFj4R8LkiH0bYIODHHUPH0Xs1GjFYL0WPDkc3JX_D_0LxzubKQ" class=3D"button =
+primary twitter-link" style=3D"background-color: #67bdfc; border: 0px solid=
+ #67bdfc; border-radius: 4px; border-width: 13px 20px 13px 18px; box-sizing=
+: content-box; color: #ffffff !important; cursor: pointer; display: inline-=
+block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 17px; font-style: normal; font-weight: 300; height:=
+ 24px; line-height: 24px; margin: 0; opacity: 1; outline: none; padding: 0;=
+ text-align: center; text-decoration: none !important; vertical-align: midd=
+le; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w=
+_23.1,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+=2Ecom%2Ficon%2FShareIcon%3Fv%3D2%26heigh=
+t%3D42%26stroke%3D%2523FFF%26strokeW=
+idth%3D2" width=3D"11.55" height=3D"21" style=3D"border: none !important; d=
+isplay: inline-block; height: 21px; margin-right: 8px; max-width: 11.55px; =
+vertical-align: middle; width: 21px;" alt=3D""><span style=3D"color: #fffff=
+f; text-decoration: none;">Share</span></a></p></div> <div class=3D"footer"=
+ style=3D"background: #f8f8f8 !important; color: #bcbcbc; font-size: 16px; =
+line-height: 26px; margin-top: 24px; padding: 32px; text-align: center;"><p=
+ class=3D"small" style=3D"color: #bcbcbc; font-family: -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-heigh=
+t: 26px; margin-bottom: 0; padding-bottom: 30px;">&#169; 2022 <span>Packy M=
+cCormick</span> <a href=3D"https://email.mg2.substack.com/c/eJxFklGPojAQxz-=
+NvC1pS0F44MHsnh5G2JhT3PWFtHROilA4KLL46bfo5S5p2mamM__J_9ecabg03RS2Ta-tecv01E=
+KoYOwr0Bo6a-ihy6QIsUd8x6WBJUIqsO_6luyz3x1AzWQV6m4Aqx14JXOmZaMeFQgR1ypChwYBR=
+wh5FDAhLhPcdwLEqeAOzZcOeeqyQUhQOYRwg25qFFhVWGjd9gtntSBrs8ZxtFWjedNJdbHzxoRY=
+PouZi5A94xVkj2kWzlo3V1AL5w2mLc5JOn2Q6hqVzVdSRjS-H9H7r1Hmm-Au1kF7fo285LD_iss=
+VTsp9H9VVIUwsPnziuPwxxm-XcX7PPpK76SHzn6ncHeZ4hCNp-jipnOPnTXX_PG37cxpU_LRu-e=
+s2sHWBYLPE7Z4tj8Uuv_mrdjXCi0oOfbKpy_jldto1f1an9P1oyZAgQpCLAkxcB_u2Y7sEeQHQp=
+TEOu4TwBUX1hdj9wHvN8qtxoba68J8rJn0tWA3VI2F4ZOasByX1lIGaHRJPVPpJ_GFXdgEFnfkJ=
+ImPacHaJIeejgHp_0RiWLsVmMI9aRlk0pkr9F_0GO9zDOg" style=3D"color: #bcbcbc;"><=
+span style=3D"color: #bcbcbc; text-decoration: underline;">Unsubscribe</spa=
+n></a><br>10 City Point, Brooklyn, NY 11201</p><p class=3D"small powered-by=
+-substack" style=3D"color: #bcbcbc; font-family: -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height: 26p=
+x; margin-bottom: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://=
+email.mg2.substack.com/c/eJxNkM1uhSAQhZ9Gljcwgj8LFk2a-xoGcfSSChgc2vj2RW3TJp=
+NZnJPJOfNZQ7jEdOgt7sTONdCxoQ74ta9IhInlHdPgJi0a6GolezZpOYlOdcztw5wQvXGrppSRb=
+XlcnTXkYrguOAfFXtqO3Ih5BtminWWt5q5XreWW4wgoxvbONXlyGCxq_MR0xIBs1S-iba_qtwqe=
+ZfY87mTsx8NGfyr1M5Mf9piTxap-_7UraE7d4-SyL_pV8Ee0MRAGKuoc4_md08ABuOK9AFWL7lE=
+_FPCmR9kKAKEAxkpyv8DjfzpLOkQaY3JhKfbHy3hcL6MgKCHe5-DoGDCYccXppkM35KvOsGDAVO=
+BPg6GCVkGB1fFeNnDTKPiUFKVYI1lJnmK5Cn-h31FdlRU" style=3D"color: #bcbcbc; dis=
+play: inline-block; margin: 8px 4px 0; text-decoration: none;"><img alt=3D"=
+Publish on Substack" src=3D"https://substackcdn.com/image/fetch/w_393,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg=
+%2Femail%2Fpublish-on-substack.png" width=3D"196" height=3D"40" style=3D"bo=
+rder: none !important; margin-top: 3px; max-width: 550px; vertical-align: m=
+iddle;"></a><a href=3D"https://email.mg2.substack.com/c/eJxNkcFuwyAMhp8m3Fq=
+BgYwcOEyq9hoRBDdFDRARZ1PffjQ5bJJlybKt__fnyRHOpb7sWjZi7zTSa0Wb8WdbkAgr2zesYw=
+xW9GCkVgMLVgVhtGFxG-8VMbm4WKo7snX3S5wcxZKPDc5Bs4dFczfeq8E4VBoGyYUHgeFDhEFII=
+9Wp6_YQMU9o8Rvrq2Rki30QrVsnPzv4arHtfiM3Pa9TSa1063rmy0al4qViiBUn6uTXTmmcXFpd=
+nHMnb--Z5OoTKea5g_5ol0yY2_DtOOByL6Vde_E7UcksWuAAXPNBgJbCXOVVA-8HVB8CQGgA3ym=
+eZrj-N8WqzYV8qW8ZxZ8Pl3A5Go1MU0xpz5FeI2bnFwwnNDrZHy7GGTPW9pMwOmrENTSGhg-qhx=
+NSo6qVaMZ6xZpyKG0r_4n-AiCAnUA" style=3D"color: #bcbcbc; display: inline-blo=
+ck; margin: 8px 4px 0; text-decoration: none;"><img alt=3D"Get the app" src=
+=3D"https://substackcdn.com/image/fetch/w_277,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fget-the-app.p=
+ng" width=3D"138" height=3D"40" style=3D"border: none !important; margin-to=
+p: 3px; max-width: 550px; vertical-align: middle;"></a></p></div></div></td=
+><td></td></tr></table><img src=3D"https://mailgun.substack.com/api/v1/emai=
+l/open?token=3DeyJtIjoiPDIwMjIwNTA5MTI1MzE4LjMuNTIwNjllNDcxMjIxNTIyYkBtZzIu=
+c3Vic3RhY2suY29tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJ=
+kIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjU0MTIwNTY0LCJ0IjoibmV3c2xldHRlciIsImEiOi=
+JldmVyeW9uZSIsInMiOjEwMDI1LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoiYm90d=
+G9tIiwiaWF0IjoxNjUyMTAwODA5LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.u5L_5aEXUMFc=
+bupF9i30Z4cz2dCq7uB4Bg-N9KeozTs" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"/><img=
+ width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg2.substack.co=
+m/o/eJxFUEtuxSAMPE1ZRmAgIQvOgvg4eegl8MSnVW5fmiy6sjVjezzjbcM9l0t_cm0ETxsPs2P=
+CMvBgbNNslsAoVXQVM5CgRWBKKhKr2Qre87qVjuTT3RG9bTEnE4MeKyDJSyN4BQ6RW87CqiSqBW=
+DjbBEq2AAb-dM1toeIyaPGbyxXTvjA444UDKicBYkaKIyWrgwkZ2rikwQ6rygWBsAkgPsS9Nxhq=
+t3VZv178vkkRafcXC4x7YN-v-yJx02Mf82oZ0-xXQaTdQeGx0p7wugVy21lBsWlWJ-f2vVBnfCn=
+HtgaFjLUQh4xpH-hX-becdQ"></body></html>
+--e71854528922cdc8d55c748221cdf207aa1ad1b94493c792c2b5ba4564e4--

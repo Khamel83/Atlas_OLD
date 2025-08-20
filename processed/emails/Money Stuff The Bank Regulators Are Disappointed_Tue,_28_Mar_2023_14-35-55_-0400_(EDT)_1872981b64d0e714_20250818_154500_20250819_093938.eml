@@ -1,0 +1,2323 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2556159rwb;
+        Tue, 28 Mar 2023 11:36:19 -0700 (PDT)
+X-Received: by 2002:a05:600c:218d:b0:3eb:29fe:f922 with SMTP id e13-20020a05600c218d00b003eb29fef922mr12862023wme.29.1680028579455;
+        Tue, 28 Mar 2023 11:36:19 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1680028579; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fvi/yxI64GSyb6s9Jh3zJ001TzF08bGJGeNIRRO6ArWvn5f3+lmdrgY/uVnV3Iyn0k
+         dZ0laNg6OiajN2X+kUl3/DaYswL8Xt7DgXLkgO6laNVHAaWOuOkAzmrqqB3WP5kUA/8n
+         Jn0J2G8GvF8jzgILMAoIDBjiW73wzJPdPPBGsUwbExWLOInDSJXH4Ob6ApJoAYYyDC8J
+         6q7XxUUkPbWz0INI6hObw8+cmSb3/mUEp1JP3/aV6HnflcUnEevQnNSG2XW3wzdom05f
+         NMCDu8Z9RHvQECQ71qlXvPkoxjq5M9YYCbhNqcVMX6vSty8iPqkzVYyOl+9NgQCaQ4TM
+         C9Hw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=T+9PEYLvfdF22+sPiDiw/W4NxD+u5/9B2hNDZo2avrA=;
+        b=TJvyW+U8nfVei+F38el2NgtTSsynOvLrbdUgDMR1Ydl53XKX0vkLjOHLp884AeNIfV
+         wijuT9Gud1qiSoQ/qf3wxj6wNdwXxBE/ZrIRsykuWjR+o8y8c5trfIkjNOyY6iSyRCEd
+         zd8DFoOtUGYaqxgA5NEsjkYEN4bGYUA3BSgcW6kUce3EkIgyskW1gtUlLEIW3yCun6zo
+         pIGzbfRDksaxYd1cFytq7lrzyANPFsF5gc5Px65mfXz4x2Hr3CiLyJggd1QLNS/Bczhy
+         f8Ap6NDk4EgtVtvOgDpI/ALWa9iC7BqWfw1PQI/lmv4/EdJS4Br9Ev2gWLlSei6Dlovp
+         MlTQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3Bv6k7Od;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g10-20020a7bc4ca000000b003ebfed63acasor4731296wmk.40.2023.03.28.11.36.19
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 28 Mar 2023 11:36:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3Bv6k7Od;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1680028579;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=T+9PEYLvfdF22+sPiDiw/W4NxD+u5/9B2hNDZo2avrA=;
+        b=5RTxZyux2ROSOtab/Xu4veNQGSZ32iRECT+aRFPDZn7BuGg4IRYW138lxcfBTdirJ0
+         bP/AiyJU+Biq+RLVRH09RwbTMxFG6WGk7SaN6/T81NZtYcO9m0KyXovd4aNF409vfFHo
+         BnEXHykPesvP3uomeLhmdpZPJQjrkR/3ipC7Eb/nun3gmPiTrE/xuTGq3JianYpeqn0K
+         EMcGwrfN3YNlInS4Gcj76oKwZHGGJ9bCEr6aOsyYhI6DfRFcuT7sbUy+4QvPQq0RGlwp
+         +J06zSZG4A4UijVh9BtBnE9aE8C+teIApRU0iw0uNjZrOfS972L4VCBSd9CQtLKE/QdP
+         O/NQ==
+X-Gm-Message-State: AO0yUKVhWqg27/Nz0p3oMlKGH5AmMcCNeYBtVMBkXfoct7jSGgmMQwk8
+	CQMUDtFesHc2bdOO7p6v93CEDJU1TCMtbkXWNsOp+DGr/fVvvwaUiA==
+X-Received: by 2002:a1c:7718:0:b0:3ed:fc6e:f67 with SMTP id t24-20020a1c7718000000b003edfc6e0f67mr3732649wmi.8.1680028579044;
+        Tue, 28 Mar 2023 11:36:19 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp2016773wrv;
+        Tue, 28 Mar 2023 11:36:16 -0700 (PDT)
+X-Received: by 2002:a1c:7510:0:b0:3ee:1239:1ba7 with SMTP id o16-20020a1c7510000000b003ee12391ba7mr12949209wmc.27.1680028576111;
+        Tue, 28 Mar 2023 11:36:16 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1680028576; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IurWesf8m5gq5fxrvwK5T9/97DrLtTimj0kVQV/gdyFfIddFwCUu7EZEGq/tDzuJY4
+         gNyoNQ4dlP19Xid5J4L26vXAbfokttyNOblVWTK29P/Yp5g3n+Efc0w67XCRwz5/Xs/a
+         S05XEIRdbcgZxS1gwaBk1hbB3b722EgcX2n/1af+MQ5TBxprIThkNfamlTkXSC25wNYo
+         mbWSF0SeMyOiE6cRLEcQExG5okeVX8MZGGrqs58VXlgfLMInKT7VmRZ2cWk+rE5+cUFY
+         UiXIF62ULBsSmYYqdke+YMu+/6Tjz0s4JxXyTjdv2iAepmDYIWa/1A6J6wMRtjaAlS5h
+         uYsQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=T+9PEYLvfdF22+sPiDiw/W4NxD+u5/9B2hNDZo2avrA=;
+        b=ZH7/lZXkRvsSZcfS1K1GcG1vTj6IJoqonJLBFvbQOYXjXB8enIgdnf3DEpiOgWsjZ7
+         yOKnVAg6+PsXjmzpbL9swZmpiIN/d+hfDeRHL3rKzPNEcfQnD0WXyOVl8FSFeV+TER5D
+         jaNnFyCERKdgSV+LHOR9uUHqaAB7Sbrr7Q1ffBAVmQFsRBNjNVJwd7FM0Xawpor5pqAy
+         wYu/PeHGFKU/q1582Aa9H7HjU0DCiujM03TmvZygpCroekvnpGf4P0g9vMDNXHqWW7Ts
+         d4rrM5GUIkIiByEvE4liL76eEEruO+VwYVTzL9/riD/QO//KtQw5qxoih7atS+Q03F5Q
+         9mOg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3Bv6k7Od;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230328143555.30986595.262435@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230328143555.30986595.262435@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230328143555.30986595.262435@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f23-20020a7bc8d7000000b003ef68782605sor2629487wml.9.2023.03.28.11.36.16
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 28 Mar 2023 11:36:16 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230328143555.30986595.262435@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set/IKNsHYklHh/arH/er2OXpwkK8TvYaAMAlpKUJTnBA2Y+RhpWDm1BfzMtZkTcj8rS3NrkHeViIHc+Fo3979Buau/XDTPE=
+X-Received: by 2002:a7b:c5c1:0:b0:3ee:5bd8:d537 with SMTP id n1-20020a7bc5c1000000b003ee5bd8d537mr12887234wmk.5.1680028575839;
+        Tue, 28 Mar 2023 11:36:15 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1680028575; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MO9Fp6fkTUtMGmOBaI27qTzejUlB+RBv5E60R1+okG15r6q2gzj1od8K5nsQ+CoS3E
+         Phl84GPAlOclpBYOS6xRWiWVrv7TLbHqpUkR9lCOZE+UcnsHi0NWovd7IGDTD2mz5C9d
+         vUoimthKAlLejeq1GtIsdrKzGfA090fPxstJSI5Yu5/z0sAlzdH4qq8Nqhz//pkDvR9f
+         t6VTPNXcq6IbEXlVlmr7CYBv77x3CL1Ohu4zB+mDwfVHpQps0mXOLIyBCHrVwAe//t7j
+         V7CJH9+f46MvSxFpkh0S1hGBLTGaesmQSvNm3prkqXgSUdNXaqv2k+epWU6luwkQtGOv
+         7e8g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=T+9PEYLvfdF22+sPiDiw/W4NxD+u5/9B2hNDZo2avrA=;
+        b=UPp5859Eapz7evB1QnjKFjjlZtYMbJP6x3wi1cpP0TYXJPXs+cEvIXHX7TIZmTumHP
+         5fsGyhjiStWciCvhHaJNpy0WlamJaSzzhvn1NsXU66UwRb9Hbs1oAArMf6EcAfdbzDIA
+         q7OXyTfx0uEvvO4Ezq96v4ao0qtlVcTFvavsTwplCVwK07/YggQIatKZHCdbBKanU+Xs
+         41PNXSCCGEtOCeMUr1Jee3vQwNQTT3cVYtWtMXSowRBetAnBRoeAaHGa6W+JOX6Ye70G
+         r4K5BUg4Yj8pI+yjFc7ANdt/6ZtaBw4bLDuSRAFxvo815mMf23RyYsY64XYy8L8Tw+BR
+         rB1Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3Bv6k7Od;
+       spf=pass (google.com: domain of delivery_20230328143555.30986595.262435@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230328143555.30986595.262435@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230328143555.30986595.262435@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id b4-20020a05600c4e0400b003ee1c61e7d9si143752wmq.3.2023.03.28.11.36.15
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 28 Mar 2023 11:36:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230328143555.30986595.262435@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=sXX02ZoY5aL3gDjyYsl419rirGNSywKvQzznfaAd0XA=;
+ b=3Bv6k7OdBt3p5aMuZ2/zeQK4EweT5c//4jt7nK9I6lAUZBKce5thog96D3dhOsMM+/mMuC5Yi9V1
+   iHte7AVxyPmfA4gVnXrn4JmJ7F7B3NVSuyxFyEPtUHUDUxAm5Cg2cZZ9KHuXbo2y1k7bvg09u11m
+   gezzd94SkBNS8wWYER0=
+Received: from nj1-mta32.sailthru.com (204.153.120.167) by bloomberg-b.sailthru.com id h4cpps30nu87 for <bloomberg@khamel.com>; Tue, 28 Mar 2023 14:36:14 -0400 (envelope-from <delivery_20230328143555.30986595.262435@mx.sailthru.com>)
+Date: Tue, 28 Mar 2023 14:35:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230328143555.30986595.262435@sailthru.com>
+Subject: Money Stuff: The Bank Regulators Are Disappointed
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8849077_1422311395.1680028555599"
+Precedence: bulk
+X-Feedback-ID: 6358:30986595:campaign:sailthru
+X-TM-ID: 20230328143555.30986595.262435
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cig5er.5mhv/6ca2ccda
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cig5er.5mhv/6ca2ccda>, <mailto:unsubscribe_20230328143555.30986595.262435@mx.sailthru.com>
+X-rpcampaign: stjko30986595
+
+------=_Part_8849077_1422311395.1680028555599
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        We talked the other day about the mechanics of Silicon Valley Bank=
+=E2=80=99s failure. Those mechanics are that a lot of depositors asked for =
+their m
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Bank hearings
+   =20
+ =20
+
+We   talked the other day about the mechanics of Silicon Valley Bank=E2=80=
+=99s failure. Those mechanics are that a lot of depositors asked for their =
+money back one Thursday, and SVB didn=E2=80=99t have enough money to give t=
+hem: It ended the day with negative money, and was shut down by its regulat=
+ors. This is a somewhat weird thing to happen in a modern banking system: S=
+ilicon Valley Bank had lots of valuable, safe, liquid=C2=A0assets, and it i=
+s a US bank with access to the Federal Reserve. It seems like it should hav=
+e been fairly straightforward for SVB to pledge those assets to the Federal=
+ Reserve to borrow enough money to meet its deposit outflows.
+And in fact SVB tried to do that, and it apparently did have enough collate=
+ral to borrow enough money to pay out its depositors that Thursday, though =
+I=E2=80=99m not sure it would have survived the weekend. But the problem, t=
+hat Thursday, was not that SVB had insufficient assets; the problem was tha=
+t the Fed=E2=80=99s computer systems stopped working at 4 p.m. California t=
+ime, and SVB missed the cutoff to transfer assets and borrow money. Silicon=
+ Valley Bank certainly had financial problems =E2=80=94=C2=A0the Federal De=
+posit Insurance Corp. finally   sold it off yesterday for something like ne=
+gative $20 billion!
+  [1]
+=C2=A0=E2=80=94 but the reason it failed=C2=A0that day=C2=A0was mostly oper=
+ational, not financial.
+Today the US Senate is  holding a hearing on =E2=80=9CRecent Bank Failures =
+and the Federal Regulatory Response.=E2=80=9D Here are the prepared testimo=
+nies of  Michael Barr, the vice chair for supervision at the Federal Reserv=
+e, Martin Gruenberg, the chairman of the FDIC, and  Nellie Liang, the under=
+secretary for domestic finance at the US Treasury.
+Gruenberg=E2=80=99s testimony helps clear up one small mystery of the recen=
+t bank failures: What happened to Signature Bank of New York? Signature was=
+ taken over by the FDIC the same weekend that SVB was, and while SVB had cl=
+early run out of money, it was less clear that Signature had. Signature boa=
+rd member (and former congressman, author of the Dodd-Frank Act, etc.)=20
+Barney Frank complained that Signature was actually doing fine, that its ou=
+tflows had stabilized, and that =E2=80=9Cif we=E2=80=99d been allowed to op=
+en tomorrow, that we could=E2=80=99ve continued.=E2=80=9D But its   state r=
+egulator said that it had had =E2=80=9Ca significant crisis of confidence i=
+n the bank=E2=80=99s leadership,=E2=80=9D and shut it. Since Signature was =
+one of the main banks for the crypto industry, this led to theories that th=
+e takeover of Signature was part of a regulatory crackdown on crypto rather=
+ than an actual bank failure.
+But here is Gruenberg today:
+
+Subsequently, as word of SVB=E2=80=99s problems began to spread, Signature =
+Bank began to experience contagion effects with deposit outflows that began=
+ on March 9 and became acute on Friday, March 10, with the announcement of =
+SVB=E2=80=99s failure. On March 10, Signature Bank lost=C2=A020 percent of =
+its total deposits in a matter of hours, depleting its cash position and le=
+aving it with a negative balance with the Federal Reserve as of close of bu=
+siness. Bank management could not provide accurate data regarding the amoun=
+t of the deficit, and resolution of the negative balance required a prolong=
+ed joint effort among Signature Bank, regulators, and the Federal Home Loan=
+ Bank of New York to pledge collateral and obtain the necessary funding fro=
+m the Federal Reserve=E2=80=99s Discount Window to cover the negative outfl=
+ows. This was accomplished with minutes to spare before the Federal Reserve=
+=E2=80=99s wire room closed.
+Over the weekend, liquidity risk at the bank rose to a critical level as wi=
+thdrawal requests mounted, along with uncertainties about meeting those req=
+uests, and potentially others in light of the high level of uninsured depos=
+its, raised doubts about the bank=E2=80=99s continued viability.
+
+Notice the difference from SVB. On Thursday, SVB tried to move collateral t=
+o the Fed to borrow money, but missed the deadline by a few minutes and was=
+ shut down the next day. On Friday, Signature tried to move collateral to t=
+he Fed to borrow money, and=C2=A0made=C2=A0the cutoff by a few minutes. It =
+was shut down over the weekend anyway, for its own operational problems: =
+=E2=80=9CBank management could not provide accurate data regarding the amou=
+nt of the deficit.=E2=80=9D The problem at SVB is that it ran out of money.=
+ The problem at Signature is that it=C2=A0couldn=E2=80=99t figure out how m=
+uch money it had. I suspect that this is a more common problem at banks tha=
+n would be ideal, but in any case I guess it=E2=80=99s a good enough reason=
+ for the regulators to shut a bank down. If you are a bank and you come to =
+the Fed on a Friday afternoon and say =E2=80=9Chey, we are out of money, we=
+ need more, and we=E2=80=99re not sure how much money we have or need, can =
+you help us figure it out,=E2=80=9D apparently the Fed (1) will help you fi=
+gure it out and (2) will lend you the money, but you are not opening on Mon=
+day.
+Meanwhile, the=C2=A0financial=C2=A0story of the failure of SVB=20
+is quite straightforward: It had a lot of zero-interest deposits that it in=
+vested in long-term loans and (especially) Treasury and agency bonds, and t=
+hen the Fed raised interest rates rapidly, those loans and bonds lost value=
+, and those zero-interest deposits started looking less stable. Then SVB so=
+ld some bonds at a loss and tried to raise capital, which sparked panic amo=
+ng its interconnected network of venture capitalist and startup depositors;=
+ they all took their money out and SVB went bust.
+The hearing today is intended to help figure out the right regulatory respo=
+nse to keep this from happening again, but in some sense the takeaway is re=
+ally =E2=80=9Cthe traditional business of banking is very risky when the Fe=
+d raises interest rates a lot for the first time in ages.=E2=80=9D People g=
+ot used to low rates, and then rates rapidly became high, and they were cau=
+ght out.=C2=A0Here=E2=80=99s this:
+
+Billionaire Andre Esteves, the co-founder and chairman of Brazil=E2=80=99s =
+Banco BTG Pactual SA, said that =E2=80=9Cany junior analyst=E2=80=9D from L=
+atin America would have known how to manage the interest rate risk on Silic=
+on Valley Bank=E2=80=99s balance sheet to avoid its collapse.=C2=A0
+Esteves, speaking at a BTG event in Santiago, Chile, said the volatility ro=
+iling global markets is a result of 15 years of complacency during near-zer=
+o interest rates that led to widespread excesses. People were caught off gu=
+ard when rates suddenly spiked and didn=E2=80=99t have the real life experi=
+ence on how to manage those risks, he said.
+
+His point here is not =E2=80=9CSVB were morons and Latin American interns a=
+re smart=E2=80=9D; his point here is =E2=80=9CSVB had 15 years of low and s=
+table interest rates and Latin American interns did not.=E2=80=9D If you ne=
+ver encounter interest rate risk, you might forget how to manage it.
+The nice thing about this diagnosis is that it is sort of self-resolving. N=
+o bank=C2=A0today is going around taking deposits at 0% and using them to b=
+uy mortgage-backed securities at 2%, not because they have learned risk man=
+agement lessons from SVB but because interest rates are already higher. The=
+ problems at SVB were not about some weird new form of bank risk-taking; th=
+ey were about the traditional business of banking being fragile in a sudden=
+ transition from low rates to high rates. The solution is to sort of muddle=
+ along without bankrupting too many banks until they have all made that tra=
+nsition. And so the Fed=E2=80=99s main response to SVB was to   create a ne=
+w funding program that will let banks continue to ignore their interest-rat=
+e losses for one more year: You give the banks another year to muddle throu=
+gh, and figure that whoever successfully muddles through that year will be =
+fine.
+Still you can=E2=80=99t go to Congress and be like =E2=80=9Cyeah raising ra=
+tes blew up some banks, whaddarya gonna do.=E2=80=9D So   there will be new=
+ rules:
+
+Top US financial officials on Tuesday outlined what=E2=80=99s likely to be =
+the biggest regulatory overhaul of the banking sector in years, in an initi=
+ative aimed at addressing underlying issues that contributed to the collaps=
+e of Silicon Valley Bank and other US regional lenders.
+=E2=80=9CI anticipate the need to strengthen capital and liquidity standard=
+s=E2=80=9D for banks with assets larger than $100 billion, Federal Reserve =
+Vice Chair for Supervision Michael Barr said in answering questions at a Se=
+nate Banking Committee hearing.
+Federal Deposit Insurance Corp. Chairman Martin Gruenberg said, in his test=
+imony to the panel, that the failures of SVB, as Silicon Valley Bank is kno=
+wn, and Signature Bank =E2=80=9Cdemonstrate the implications that banks wit=
+h assets of $100 billion or more can have for financial stability. The prud=
+ential regulation of these institutions merits additional attention, partic=
+ularly with respect to capital, liquidity and interest-rate risk.=E2=80=9D
+
+There will also be some soul-searching about how SVB was supervised. Here i=
+s Barr=E2=80=99s testimony on how the Fed dealt with SVB:
+
+Near the end of 2021, supervisors found deficiencies in the bank=E2=80=99s =
+liquidity risk management, resulting in six supervisory findings related to=
+ the bank=E2=80=99s liquidity stress testing, contingency funding, and liqu=
+idity risk management.=C2=A0In May 2022, supervisors issued three findings =
+related to ineffective board oversight, risk management weaknesses, and the=
+ bank=E2=80=99s internal audit function. In the summer of 2022, supervisors=
+ lowered the bank=E2=80=99s management rating to =E2=80=9Cfair=E2=80=9D and=
+ rated the bank=E2=80=99s enterprise-wide governance and controls as =E2=80=
+=9Cdeficient-1.=E2=80=9D These ratings mean that the bank was not =E2=80=9C=
+well managed=E2=80=9D and was subject to growth restrictions under section =
+4(m) of the Bank Holding Company Act.=C2=A0In October 2022, supervisors met=
+ with the bank=E2=80=99s senior management to express concern with the bank=
+=E2=80=99s interest rate risk profile and in November 2022, supervisors del=
+ivered a supervisory finding on interest rate risk management to the bank.
+In mid-February 2023, staff presented to the Federal Reserve=E2=80=99s Boar=
+d of Governors on the impact of rising interest rates on some banks=E2=80=
+=99 financial condition and staff=E2=80=99s approach to address issues at b=
+anks. Staff discussed the issues broadly, and highlighted SVB=E2=80=99s int=
+erest rate and liquidity risk in particular. Staff relayed that they were a=
+ctively engaged with SVB but, as it turned out, the full extent of the bank=
+=E2=80=99s vulnerability was not apparent until the unexpected bank run on =
+March 9. =E2=80=A6
+We need to ask why the bank was unable to fix and address the issues we ide=
+ntified in sufficient time. It is not the job of supervisors to fix the iss=
+ues identified; it is the job of the bank=E2=80=99s senior management and b=
+oard of directors to fix its problems.
+
+I am reminded of the incredible Credit Suisse Group AG   report on how it l=
+ost billions of dollars trading with Archegos Capital Management. Basically=
+ Credit Suisse had risk managers and committees who looked at the Archegos =
+exposure, decided it was too big and too undercollateralized, and told the =
+relationship managers to demand more collateral. The relationship managers =
+called Archegos to demand more collateral, and Archegos kept saying =E2=80=
+=9Coh no I=E2=80=99m getting another call, gotta take that, will call you b=
+ack soon.=E2=80=9D Archegos never posted the collateral, and then it collap=
+sed and took billions of Credit Suisse=E2=80=99s dollars with it. Everyone =
+saw the problem, but nobody acted on it with quite enough urgency.
+Similarly Esteves is perfectly correct that anyone could see SVB=E2=80=99s =
+interest-rate risk, and the Fed did see it. And the Fed=E2=80=99s staff had=
+ meetings with the Board of Governors and told them that rising interest ra=
+tes were going to be rough on a bunch of banks, but especially SVB. And the=
+ board was like =E2=80=9Chuh so are we doing anything about that,=E2=80=9D =
+and the staff were like =E2=80=9Coh of course we=E2=80=99re talking to SVB =
+about managing that risk,=E2=80=9D and in fact they were. Everyone was talk=
+ing about exactly the right things; they just weren=E2=80=99t doing enough =
+about them.
+Also though, when they did, that=E2=80=99s what broke SVB. Barr again:
+
+The bank waited too long to address its problems, and ironically, the overd=
+ue actions it finally took to strengthen its balance sheet sparked the unin=
+sured depositor run that led to the bank=E2=80=99s failure. Specifically, o=
+n Wednesday, March 8, SVB announced that it realized a $1.8 billion loss in=
+ a sale of securities to raise liquidity and planned to raise capital durin=
+g the following week. Uninsured depositors interpreted these actions as a s=
+ignal that the bank was in distress. They turned their focus to the bank=E2=
+=80=99s balance sheet, and they did not like what they saw.
+In response, social media saw a surge in talk about a run, and uninsured de=
+positors acted quickly to flee.
+
+If you have a bank that is undercapitalized because it lost money on intere=
+st-rate moves, the sensible advice is for it to raise more capital, and tha=
+t=E2=80=99s what SVB did. But that is also what blew it up.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      A CDS trade
+   =20
+ =20
+
+A stylized thing that happened in the financial crisis of 2008 is that big =
+international investment banks funded themselves with a lot of very short-t=
+erm borrowing (repurchase agreements, overnight loans, derivatives liabilit=
+ies) from other big market participants (banks, hedge funds, etc.), and the=
+ir lenders hedged their credit risk using credit default swaps. If you had =
+a lot of derivatives exposure to Bear Stearns & Co., you might buy some CDS=
+ on Bear. If everyone got worried about Bear, (1) they would buy a lot of B=
+ear CDS, pushing its price up and (2) they might stop doing business with B=
+ear or lending it money, causing it to fail. There would be a =E2=80=9Crun =
+on the bank,=E2=80=9D not in the literal sense of depositors lining up to t=
+ake out their money =E2=80=94=C2=A0Bear was not an actual bank and didn=E2=
+=80=99t really have depositors =E2=80=94=C2=A0but in the sense of big short=
+-term lenders declining to roll over their loans and terminating derivative=
+s positions. And the CDS market, as an indicator of how big market particip=
+ants viewed Bear=E2=80=99s credit, was a warning signal of a potential run.=
+ If everyone thinks Bear=E2=80=99s credit is bad, they will not roll their =
+loans.
+But that was a long time ago and things are different now. For one thing, B=
+ear and Lehman Brothers and the other independent investment banks are gone=
+; these days the big investment banks are mostly attached to actual banks t=
+hat have access to their central banks=E2=80=99 lender-of-last-resort facil=
+ities. Also those big banks have learned the lessons of 2008 and do not fun=
+d themselves with short-term capital-markets borrowing nearly as much as th=
+ey used to.
+Take Deutsche Bank AG, for instance. At the end of 2008, it reported assets=
+ of about =E2=82=AC2.2 trillion with just =E2=82=AC32 billion of shareholde=
+rs=E2=80=99 equity.=C2=A0 The rest of its money was borrowed, some in conse=
+rvative bank-y ways (=E2=82=AC396 billion of deposits and=C2=A0=E2=82=AC134=
+ billion of long-term debt), but much of it in riskier capital-markets ways=
+ (almost =E2=82=AC1.4 trillion of =E2=80=9Cfinancial liabilities at fair va=
+lue through profit or loss,=E2=80=9D including derivatives liabilities, plu=
+s =E2=80=9Cother short-term borrowings=E2=80=9D). At the end of 2022, it re=
+ported assets of about=C2=A0=E2=82=AC1.3 trillion and equity of=C2=A0=E2=82=
+=AC72 billion, more than doubling its equity while almost halving its asset=
+s. Meanwhile much more of its funding comes from deposits (=E2=82=AC621 bil=
+lion, along with=C2=A0=E2=82=AC132 billion of long-term debt) and much less=
+ comes from short-term capital-markets-y stuff (=E2=82=AC388 billion of fai=
+r-value liabilities and just=C2=A0=E2=82=AC5 billion of other short-term bo=
+rrowings). Deposits went from about 18% of its funding to about 46%. If the=
+re was going to be a run on the bank at Deutsche Bank in 2008, it would hav=
+e been Deutsche=E2=80=99s derivatives counterparties getting nervous. If th=
+ere was going to be a run on the bank at Deutsche Bank in 2023, it would ha=
+ve been a regular run on the regular bank, with depositors getting nervous =
+and taking their money out.
+Meanwhile the market for single-name credit default swaps is also much smal=
+ler now than it was in 2008, due in part to regulatory nervousness about th=
+at market after 2008. So last Friday, some 90 million shares of Deutsche Ba=
+nk=E2=80=99s stock changed hands in tens of=C2=A0thousands of trades.
+  [2]
+=C2=A0Meanwhile there were about 20 cleared trades in Deutsche Bank=E2=80=
+=99s CDS that day, which was a pretty busy day for CDS.
+  [3]
+
+But 2008 looms large as the template for a big banking crisis, and so in th=
+e week before Credit Suisse Group AG was sold to UBS Group AG in a weekend =
+rescue, there were 2008-y stories about  its CDS curve inverting and=C2=A0 =
+derivatives counterparties refusing to deal with it. But Credit Suisse=E2=
+=80=99s derivatives business in 2023 was a shadow of what it was in 2008, a=
+nd what actually brought Credit Suisse down was mostly=C2=A0depositors taki=
+ng their money out of the bank. A normal bank run, not a fancy 2008-style s=
+hadow bank run.
+The point here is that =E2=80=9Cthe prices of a bank=E2=80=99s CDS rise, in=
+dicating that its counterparties are no longer willing to lend to it=E2=80=
+=9D is no longer quite=C2=A0the sign of bank distress that it was in 2008, =
+even if it did correctly predict Credit Suisse=E2=80=99s demise. So=C2=A0he=
+re=E2=80=99s this:
+
+Regulators are singling out a trade on Deutsche Bank AG=E2=80=99s credit de=
+fault swaps that they suspect fueled a global selloff on Friday.
+It was a roughly =E2=82=AC5 million ($5.4 million) bet on swaps tied to the=
+ German bank=E2=80=99s junior debt, according to people familiar with the m=
+atter, who said regulators have spoken to market participants about the tra=
+nsaction. The contracts can be illiquid, so a single bet can trigger big mo=
+ves. A spokesperson for Deutsche Bank declined to comment.
+The suspected knock-on effect was a rout that sent banking stocks tumbling,=
+ government bonds higher and CDS prices for lenders soaring, trimming about=
+ =E2=82=AC1.6 billion off Deutsche Bank=E2=80=99s market cap and more than =
+=E2=82=AC30 billion off an index that tracks European banking stocks. That=
+=E2=80=99s because investors have been on edge since the collapse of severa=
+l US banks and rescue of Credit Suisse Group AG, with the market searching =
+for clues on whether other lenders would also face strain. =E2=80=A6
+It=E2=80=99s unclear who placed the relevant trades or why they did it. Som=
+e data point to the trades being for hedging purposes, said one of the peop=
+le. There=E2=80=99s also a trade on Deutsche Bank=E2=80=99s five-year, seni=
+or CDS contracts executed on Thursday that attracted scrutiny, one of the p=
+eople said.=C2=A0
+
+One =E2=82=AC5 million trade! That=E2=80=99s, like, one managing director h=
+edging her comp for this year.
+  [4]
+=C2=A0Similarly:
+
+The European Central Bank=E2=80=99s top supervisor has claimed =E2=80=9Copa=
+que=E2=80=9D trading in credit default swaps is harming banks=E2=80=99 shar=
+e prices and could threaten a run on deposits.
+Andrea Enria, chair of the ECB supervisory board, called for a review of th=
+e market after sharp moves in the prices of CDS preceded a sudden drop in t=
+he shares of Deutsche Bank and other European lenders last Friday.
+=E2=80=9CWith a few million you can move the CDS spread of a trillion-euro-=
+asset bank and contaminate of course stock prices and possibly also deposit=
+ outflows,=E2=80=9D Enria told a conference in Frankfurt. =E2=80=9CSo that =
+is something that concerned me a lot.=E2=80=9D ...
+Answering a question about Friday=E2=80=99s share price fall at Deutsche, E=
+nria said the CDS market was =E2=80=9Cvery opaque, very shallow and very il=
+liquid=E2=80=9D. =E2=80=A6 The derivatives are thinly traded =E2=80=94 in t=
+he final three months of last year there were on average only nine trades p=
+er day in Deutsche=E2=80=99s CDS even though it is one of the most traded, =
+according to the US=E2=80=99s Depository Trust and Clearing Corporation, wh=
+ich runs a swaps data repository, although it is unclear how often they wer=
+e traded this month.
+
+If your pattern-matching is from 2008, =E2=80=9CCDS on Deutsche Bank blows =
+out=E2=80=9D is a good reason to panic, and the market did. But I am not su=
+re that that pattern-matching works anymore.
+
+ =20
+   =20
+      Michael Klein
+   =20
+ =20
+
+Before Credit Suisse collapsed, it was working on a complicated and  hilari=
+ously conflicted deal to spin out its investment banking business into a se=
+parate company. The gist of the deal was that Credit Suisse would acquire M=
+ichael Klein=E2=80=99s boutique investment bank, M. Klein & Co., for $175 m=
+illion, combine that boutique with its existing investment bank, and then c=
+arve out the whole thing into a new investment bank that would be separate =
+from Credit Suisse, though they would have a =E2=80=9Cpreferred long-term p=
+artnership.=E2=80=9D The new bank would be called CS First Boston, and it w=
+ould be run by Klein, who would have a large ownership stake. Klein was on =
+Credit Suisse=E2=80=99s board of directors when it came up with this plan. =
+Also he led the committee that came up with this plan. Also he stepped down=
+ from the board so that he could get paid a $10 million fee for advising Cr=
+edit Suisse on executing this plan. Just great stuff. Two weeks ago  I wrot=
+e:
+Quite possibly this is all fine and the prices are fair and arm=E2=80=99s-l=
+ength, but this might be the most conflicted transaction I have ever seen? =
+I just admire it? =E2=80=9CNo conflict, no interest=E2=80=9D is the old jok=
+e, and it is true that the best and most famous investment bankers tend to =
+find themselves with close ties to everyone on every side of every big deal=
+. If Credit Suisse just thinks that Michael Klein is the best investment ba=
+nker going, then (1) who better to serve on its board of directors, (2) who=
+ better to advise it on this tricky transaction and (3) who better to lead =
+its new investment bank? A lesser banker might have said =E2=80=9Cahh I=E2=
+=80=99d love to run First Boston but you see I=E2=80=99m on the Credit Suis=
+se board and it=E2=80=99d look bad,=E2=80=9D but Klein was like =E2=80=9Cno=
+pe, I=E2=80=99m the guy, don=E2=80=99t care how it looks, I gotta do it all=
+ myself.=E2=80=9D Love it.
+But then Credit Suisse collapsed into the arms of UBS Group AG, and the dea=
+l is =E2=80=A6=C2=A0look, I assume it=E2=80=99s dead, but I do hope that Kl=
+ein showed up at UBS=E2=80=99s offices last Monday morning with a hastily a=
+ssembled pitchbook? Just unannounced? Walked up to the receptionist and was=
+ like =E2=80=9Chello it is imperative that I pitch this spinoff deal to you=
+r senior management immediately=E2=80=9D? Like if this was such a great dea=
+l for Credit Suisse, surely he could make the case that it would also be a =
+good deal for UBS? Klein talked Credit Suisse into this crazy deal, which t=
+ells you that he is good at talking Swiss bankers into crazy deals or that =
+it is actually a great deal or both. I hope he gave it a go with UBS.
+But Bloomberg=E2=80=99s=C2=A0Heather Perlberg and Marion Halftermeyer repor=
+t that  it looks pretty dead:
+
+Klein =E2=80=93 Midas of M&A, money-whisperer to Saudi royals =E2=80=93 jus=
+t lost the deal of his life. And, along with it, a shot at C-suite glory an=
+d a personal payday stretching upward of $200 million.
+The Wall Street rainmaker=E2=80=99s grand plans for turning around the Swis=
+s bank and reviving the First Boston name have all but collapsed now that U=
+BS Group AG has agreed to buy its beleaguered rival. =E2=80=A6
+UBS executives will be less inclined to take Klein=E2=80=99s advice. They=
+=E2=80=99re still trying to untangle his deal, according to people familiar=
+ with the matter. Rather than spinning out the investment bank, UBS is plan=
+ning to cherry pick the best people to bring over.
+
+Apparently Credit Suisse=E2=80=99s agreement to buy Klein=E2=80=99s boutiqu=
+e still exists, and Klein =E2=80=9Ccould walk away with more than a $20 mil=
+lion break-up fee,=E2=80=9D along with his $10 million retainer. It would b=
+e funny if he sued for specific performance, but don=E2=80=99t count on it.
+There is one good irony here, which is that Klein apparently gets credit fo=
+r bringing Saudi investors into Credit Suisse=E2=80=99s stock:
+He encouraged longtime clients in Saudi Arabia to invest $1.5 billion in Cr=
+edit Suisse only to have the bank collapse into the arms of a competitor sh=
+ortly after. They lost more than $1 billion of their money. He was lining u=
+p even more capital from the Middle East and the private equity industry fo=
+r CS First Boston.
+Why did Credit Suisse collapse? The simple version of the story is that the=
+ chairman of the Saudi National Bank, Credit Suisse=E2=80=99s largest share=
+holder,  went on Bloomberg TV a few weeks ago and said the bank would =E2=
+=80=9Cabsolutely not=E2=80=9D put any more money into Credit Suisse. And th=
+en the stock dropped, depositors fled, and Credit Suisse vanished in short =
+order. Just an incredible unforced error! I  wrote at the time:
+Look I suppose that if you are the biggest shareholder of a somewhat beleag=
+uered bank and someone asks you on television =E2=80=9Cwould you throw more=
+ money into this bank,=E2=80=9D and the actual answer is =E2=80=9Cno we can=
+=E2=80=99t,=E2=80=9D you should not say =E2=80=9Cyes.=E2=80=9D Everything i=
+s securities fraud, etc. But =E2=80=A6 you should not =E2=80=A6 say =E2=80=
+=9Cno=E2=80=9D? You certainly should not say =E2=80=9Cabsolutely not=E2=80=
+=9D? =E2=80=9CWe believe strongly in Credit Suisse, we are in close contact=
+ with management, and we ourselves have access to tons of cash=E2=80=9D: No=
+thing in that sentence is a lie, it does not actually answer the question, =
+and yet it sounds like it does? It sounds vaguely confidence-inspiring? I t=
+hought of that in three seconds? You could probably do better if it was you=
+r money on the line?
+I suppose no one could have predicted those television comments =E2=80=94=
+=C2=A0they were really so unnecessary! =E2=80=94=C2=A0but what if you could=
+ have? What if Klein had come to Credit Suisse and said =E2=80=9Clook I hav=
+e lined up some big Saudi investors who will put in $1.5 billion to shore u=
+p our capital position, but they might say some bad stuff about us on telev=
+ision=E2=80=9D? Knowing that in advance, would you take the deal? I think C=
+redit Suisse would clearly have been better off without the $1.5 billion an=
+d the stray comments on TV.
+
+ =20
+   =20
+      Steve Cohen
+   =20
+ =20
+
+There is a business logic to owning a professional sports team. You spend m=
+oney on players and facilities and expertise, which makes your team good. B=
+ecause your team is good, people watch it, and its revenue goes up, so the =
+money you spent pays off and you make a profit on your investment.
+There is also a luxury-consumption logic to owning a professional sports te=
+am. You spend money on players etc., which makes your team good. Because yo=
+ur team is good, you have fun, because it is fun to root for a winning spor=
+ts team and I suppose it is even more fun if you own the team. You get to, =
+like, go to the clubhouse and high-five the players after a win, or you get=
+ to turn on the radio and listen to a sports talk show and hear people say =
+=E2=80=9Chey that=C2=A0owner they got is pretty good.=E2=80=9D
+A lot of modern sports owners (1) are rich, (2) are sports fans and (3)=C2=
+=A0got their money by building profitable businesses. There is a tension be=
+tween running their team like a business and running it for fun. They are a=
+fter all mostly businesspeople, and sports teams are expensive, so they hav=
+e a natural inclination to run it like a business and earn a return. On the=
+ other hand there are probably better businesses, and they got into this on=
+e for fun, so it seems a shame not to have fun.
+If every owner feels this tension in roughly the same degree, then you have=
+ a nice competitive dynamic: Everyone spends to try to win, and they all sp=
+end about the same amount, so the league is competitive.
+But if you had an owner who (1) was very very rich and (2) did not care at =
+all about running it like a business, that owner would have a lot of fun in=
+deed.
+  [5]
+=C2=A0Other owners =E2=80=94 ones who were less rich and more inclined to s=
+eek a return on their investment =E2=80=94=C2=A0would have much less fun: T=
+he free-spending fun-loving owner would win too many games, which would red=
+uce the other owners=E2=80=99 sporting=C2=A0enjoyment (they do care about w=
+inning!) but also their revenues (their fans also care about winning). So m=
+ost big modern sports leagues are set up to restrict the ability of an owne=
+r to spend too much money: US leagues tend to have salary caps so rich owne=
+rs can=E2=80=99t spend too much on players; European soccer has  =E2=80=9Cf=
+inancial fair play=E2=80=9D rules=C2=A0so rich owners can=E2=80=99t spend m=
+ore than their clubs earn.=C2=A0
+But  the New York Times has a story about Steve Cohen and his ownership of =
+the=C2=A0New York Mets, the gist of which is that Cohen can spend as much a=
+s he wants on making the Mets good, so he is, and it=E2=80=99s working, and=
+ he=E2=80=99s having a lot of fun and New York sports talk radio loves him =
+for it:
+
+He is at once an extreme version of a type =E2=80=94 the munificent steward=
+, willing to lose money in a show of how much money he=E2=80=99s made =E2=
+=80=94 and a model all his own, his tenure rocketing toward something that =
+can feel like a referendum for the man, the Mets, their city and the sport =
+itself.
+Cohen, 66, has carried off a remarkable reversal in public standing, migrat=
+ing over the past decade from a reclusive avatar of scofflaw capitalism to =
+an avuncular Twitterer who could probably be elected Queens borough preside=
+nt by acclamation.
+The Mets have swiftly shed their ingrained identity as lovable losers, thei=
+r ownership shifting from the cost-conscious, Madoff-swindled Wilpon family=
+ to a white-collar boundary-pusher long appraised as neither lovable nor a =
+loser. ...
+And baseball is grappling with the ramifications of Cohen=E2=80=99s runaway=
+ spending in the nation=E2=80=99s most capitalistic major league, where no =
+salary cap constrains him and only one team thought to buy Super Bowl ad ti=
+me just because it could. =E2=80=A6
+=E2=80=9CKeep spending,=E2=80=9D Joe Kessler, 61, a retiree from Bayside, Q=
+ueens, told Cohen in January at a community event at Citi Field, where the =
+Mets were finishing construction on the league=E2=80=99s largest scoreboard=
+.
+=E2=80=9CIf I spend any more,=E2=80=9D Cohen replied, according to Kessler,=
+ nodding at rival owners=E2=80=99 frustrations, =E2=80=9Cthey=E2=80=99ll fi=
+nd me rubbed out somewhere.=E2=80=9D
+
+I love that, in the absence of a salary cap or financial-fair-play rules, t=
+he way that baseball constrains one owner=E2=80=99s excessive spending is w=
+ith a vague implicit threat of murder. Anyway I don=E2=80=99t understand wh=
+y more people don=E2=80=99t do this! If you have made a large fortune, and =
+if a lot of people think that it is sort of ill-gotten, you will be tempted=
+ to launder your reputation by sponsoring a wing at the art museum or a new=
+ building for a symphony, but it seems clearly better to buy a lovable-lose=
+r baseball team and plow enormous amounts of money into making it good. Who=
+ could object to that?
+Also here is this:
+
+And when Cohen=E2=80=99s young son seemed primed for batting lessons many y=
+ears back, the family hired Art Shamsky, from the 1969 World Series champio=
+ns, for private sessions in Central Park, where Shamsky hauled a hitting te=
+e that often felt decorative.
+=E2=80=9CHe just wanted to run after squirrels,=E2=80=9D Shamsky said of th=
+e boy, who now works in cryptocurrency.
+
+Just a devastating sentence.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Alibaba Shares Surge After Historic Overhaul Heralds IPO Wave.   Schwab=E2=
+=80=99s $7 Trillion Empire Built on Low Rates Is Showing Cracks. McKinsey S=
+tarts Eliminating 1,400 Roles This Week in a Rare Round of Job Cuts.=C2=A0T=
+he Texas Preacher=E2=80=99s   $24 Million Ponzi Scheme. Sam Bankman-Fried C=
+harged in US With   Bribing Chinese Officials. Banks Step Up to  Serve Cryp=
+to Firms After Signature, Silvergate Blowups. Tether Is Winning  Stablecoin=
+ Battle Despite Looming Risks.=C2=A0Banks in France Face More Than $1.1 Bil=
+lion Fines After Raids. EY Breakup Plan=E2=80=99s Fate May Rest on  Executi=
+ve Showdown This Week. Disney Eliminates Its  Metaverse Division as Part of=
+ Company=E2=80=99s Layoffs Plan. Distress in  Office Market Spreads to High=
+-End Buildings.   CFA Level I Pass Rate Ticks Up With Zero Pandemic Cancell=
+ations. Substack Turns to Its   Newsletter Writers for Funding. Cultured me=
+at firm resurrects woolly mammoth in  lab-grown meatball.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] That is, it sold most of the assets at a $16.5 billion discount, and =
+appears to expect to lose more on the remaining assets, for a total hit to =
+the FDIC insurance fund of about $20 billion. This is not quite the same th=
+ing as saying that SVB was *insolvent by* $20 billion; a bank buyer would w=
+ant a discount in order to put capital against the existing assets. But it'=
+s not good.
+
+
+  [2] Bloomberg page DBK GR  AQR lists 67,640 trades for 90,340,004 shares =
+on 3/24/23.
+
+
+  [3] Here I am relying on Bloomberg page SDR , which pulls data from the s=
+waps data repository. I use the Credit tab and the Single CDS sub-tab, spec=
+ifying 3/24/23, exporting to Excel and then sorting by name; I get 16 =E2=
+=80=9CDB=E2=80=9D trades and four =E2=80=9CDeutsche Bank.=E2=80=9D The SDR =
+is not a great reporting format so I do not want to say much about size and=
+ price of these trades. I should note that Boaz Weinstein has argued that C=
+DS liquidity is pretty good, that CDS prices are =E2=80=9Creal=E2=80=9D and=
+ representative, and that bond prices move in line with CDS; some claims ab=
+out single-name being a ghost town are probably overstated.
+
+
+  [4] Oh, I kid, she probably doesn=E2=80=99t  have an ISDA. But in fact *C=
+redit Suisse* did  pay a lot of employees in junior debt (technically addit=
+ional tier 1 capital), though I suppose it would be frowned upon to hedge t=
+hat with CDS.
+
+
+  [5] Or would accomplish whatever other non-financial goal they want to ac=
+complish. My impression is that the most free-spending European soccer owne=
+rs are looking to win for public-relations reasons rather than pure sportin=
+g interest.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cig5er.5mhv/d6d563c8.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8849077_1422311395.1680028555599
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+We talked the other day about the mechanics of Silicon Valley Bank=E2=80=99=
+s failure. Those mechanics are that a lot of depositors asked for their m
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBba803c14"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDk4NjU5NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEyNDkwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB3e8162e0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30986595&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31249030&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bank hearings</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDMtMjIvc2lsaWNvbi12YWxsZXktYmFuay1yYW4tb3V0LW9mLW1vbmV5=
+P2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cBe8b3c803" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  talked the other day</a> about the me=
+chanics of Silicon Valley Bank=E2=80=99s failure. Those mechanics are that =
+a lot of depositors asked for their money back one Thursday, and SVB didn=
+=E2=80=99t have enough money to give them: It ended the day with negative m=
+oney, and was shut down by its regulators. This is a somewhat weird thing t=
+o happen in a modern banking system: Silicon Valley Bank had lots of valuab=
+le, safe, liquid=C2=A0<em>assets</em>, and it is a US bank with access to t=
+he Federal Reserve. It seems like it should have been fairly straightforwar=
+d for SVB to pledge those assets to the Federal Reserve to borrow enough mo=
+ney to meet its deposit outflows.</p>
+<p style=3D"margin: 16px 0;">And in fact SVB tried to do that, and it appar=
+ently did have enough collateral to borrow enough money to pay out its depo=
+sitors that Thursday, though I=E2=80=99m not sure it would have survived th=
+e weekend. But the problem, that Thursday, was not that SVB had insufficien=
+t assets; the problem was that the Fed=E2=80=99s computer systems stopped w=
+orking at 4 p.m. California time, and SVB missed the cutoff to transfer ass=
+ets and borrow money. Silicon Valley Bank certainly had financial problems =
+=E2=80=94=C2=A0the Federal Deposit Insurance Corp. finally <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmdGMtY29tZXMtZ=
+m9yLWJpbmFuY2U_Y21waWQ9QkJEMDMyODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzI4JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBb7a2f4c8" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  sold it off yesterday<=
+/a> for something like negative $20 billion!<a class=3D"footnote-index" hre=
+f=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[1]</span>
+</a>=C2=A0=E2=80=94 but the reason it failed=C2=A0<em>that day=C2=A0</em>wa=
+s mostly operational, not financial.</p>
+<p style=3D"margin: 16px 0;">Today the US Senate is <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmFua2luZ=
+y5zZW5hdGUuZ292L2hlYXJpbmdzL3JlY2VudC1iYW5rLWZhaWx1cmVzLWFuZC10aGUtZmVkZXJh=
+bC1yZWd1bGF0b3J5LXJlc3BvbnNl/607f07ceef4b8524a319a23cB5c8b7e5d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> ho=
+lding a hearing</a> on =E2=80=9CRecent Bank Failures and the Federal Regula=
+tory Response.=E2=80=9D Here are the prepared testimonies of <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cu=
+YmFua2luZy5zZW5hdGUuZ292L2ltby9tZWRpYS9kb2MvQmFyciUyMFRlc3RpbW9ueSUyMDMtMjg=
+tMjMxLnBkZg/607f07ceef4b8524a319a23cB68bca0d3" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> Michael Barr</a>, t=
+he vice chair for supervision at the Federal Reserve, <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuZmRpYy5=
+nb3YvbmV3cy9zcGVlY2hlcy8yMDIzL3NwbWFyMjcyMy5wZGY/607f07ceef4b8524a319a23cBd=
+ed6b4a7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Martin Gruenberg</a>, the chairman of the FDIC, and <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6=
+Ly93d3cuYmFua2luZy5zZW5hdGUuZ292L2hlYXJpbmdzL3JlY2VudC1iYW5rLWZhaWx1cmVzLWF=
+uZC10aGUtZmVkZXJhbC1yZWd1bGF0b3J5LXJlc3BvbnNl/607f07ceef4b8524a319a23cC5c8b=
+7e5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Nellie Liang</a>, the undersecretary for domestic finance at=
+ the US Treasury.</p>
+<p style=3D"margin: 16px 0;">Gruenberg=E2=80=99s testimony helps clear up o=
+ne small mystery of the recent bank failures: What <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pd=
+HMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe6bf97ce" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">happene=
+d</a> to Signature Bank of New York? Signature was taken over by the FDIC t=
+he same weekend that SVB was, and while SVB had clearly run out of money, i=
+t was less clear that Signature had. Signature board member (and former con=
+gressman, author of the Dodd-Frank Act, etc.) <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTIvc2lnbmF0dXJlLWJhbmstY2xvc2VkLWJ5LW5ldy=
+1zdGF0ZS1yZWd1bGF0b3JzLWZkaWMtc2F5cz9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb743ef47" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+Barney Frank complained</a> that Signature was actually doing fine, that it=
+s outflows had stabilized, and that =E2=80=9Cif we=E2=80=99d been allowed t=
+o open tomorrow, that we could=E2=80=99ve continued.=E2=80=9D But its <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTQvc3ZiLXRvb2=
+stdGhlLXdyb25nLXJpc2tzP2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB232e57fd" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  state regulator=
+ said</a> that it had had =E2=80=9Ca significant crisis of confidence in th=
+e bank=E2=80=99s leadership,=E2=80=9D and shut it. Since Signature was one =
+of the main banks for the crypto industry, this led to theories that the ta=
+keover of Signature was part of a regulatory crackdown on crypto rather tha=
+n an actual bank failure.</p>
+<p style=3D"margin: 16px 0;">But here is Gruenberg today:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Subsequently, as word of SVB=E2=80=99s problem=
+s began to spread, Signature Bank began to experience contagion effects wit=
+h deposit outflows that began on March 9 and became acute on Friday, March =
+10, with the announcement of SVB=E2=80=99s failure. On March 10, Signature =
+Bank lost=C2=A020 percent of its total deposits in a matter of hours, deple=
+ting its cash position and leaving it with a negative balance with the Fede=
+ral Reserve as of close of business. Bank management could not provide accu=
+rate data regarding the amount of the deficit, and resolution of the negati=
+ve balance required a prolonged joint effort among Signature Bank, regulato=
+rs, and the Federal Home Loan Bank of New York to pledge collateral and obt=
+ain the necessary funding from the Federal Reserve=E2=80=99s Discount Windo=
+w to cover the negative outflows. This was accomplished with minutes to spa=
+re before the Federal Reserve=E2=80=99s wire room closed.</p>
+<p style=3D"margin: 16px 0;">Over the weekend, liquidity risk at the bank r=
+ose to a critical level as withdrawal requests mounted, along with uncertai=
+nties about meeting those requests, and potentially others in light of the =
+high level of uninsured deposits, raised doubts about the bank=E2=80=99s co=
+ntinued viability.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Notice the difference from SVB. On Thursday, S=
+VB tried to move collateral to the Fed to borrow money, but missed the dead=
+line by a few minutes and was shut down the next day. On Friday, Signature =
+tried to move collateral to the Fed to borrow money, and=C2=A0<em>made=C2=
+=A0</em>the cutoff by a few minutes. It was shut down over the weekend anyw=
+ay, for its own operational problems: =E2=80=9CBank management could not pr=
+ovide accurate data regarding the amount of the deficit.=E2=80=9D The probl=
+em at SVB is that it ran out of money. The problem at Signature is that it=
+=C2=A0<em>couldn=E2=80=99t figure out how much money it had</em>. I suspect=
+ that this is a more common problem at banks than would be ideal, but in an=
+y case I guess it=E2=80=99s a good enough reason for the regulators to shut=
+ a bank down. If you are a bank and you come to the Fed on a Friday afterno=
+on and say =E2=80=9Chey, we are out of money, we need more, and we=E2=80=99=
+re not sure how much money we have or need, can you help us figure it out,=
+=E2=80=9D apparently the Fed (1) will help you figure it out and (2) will l=
+end you the money, but you are not opening on Monday.</p>
+<p style=3D"margin: 16px 0;">Meanwhile, the=C2=A0<em>financial=C2=A0</em>st=
+ory of the failure of SVB <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waW=
+Q9QkJEMDMyODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMwMzI4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB7970da3d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">
+is quite straightforward</a>: It had a lot of zero-interest deposits that i=
+t invested in long-term loans and (especially) Treasury and agency bonds, a=
+nd then the Fed raised interest rates rapidly, those loans and bonds lost v=
+alue, and those zero-interest deposits started looking less stable. Then SV=
+B sold some bonds at a loss and tried to raise capital, which sparked panic=
+ among its interconnected network of venture capitalist and startup deposit=
+ors; they all took their money out and SVB went bust.</p>
+<p style=3D"margin: 16px 0;">The hearing today is intended to help figure o=
+ut the right regulatory response to keep this from happening again, but in =
+some sense the takeaway is really =E2=80=9Cthe traditional business of bank=
+ing is very risky when the Fed raises interest rates a lot for the first ti=
+me in ages.=E2=80=9D People got used to low rates, and then rates rapidly b=
+ecame high, and they were caught out.=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjgvYmlsbGlvbmFpcmUtZXN0ZXZlcy1zYXlzLWFueS1pb=
+nRlcm4td291bGQtaGF2ZS1zZWVuLXN2Yi1yaXNrP2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB07f57ba6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Billionaire Andre Esteves, the co-founder and =
+chairman of Brazil=E2=80=99s Banco BTG Pactual SA, said that =E2=80=9Cany j=
+unior analyst=E2=80=9D from Latin America would have known how to manage th=
+e interest rate risk on Silicon Valley Bank=E2=80=99s balance sheet to avoi=
+d its collapse.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Esteves, speaking at a BTG event in Santiago, =
+Chile, said the volatility roiling global markets is a result of 15 years o=
+f complacency during near-zero interest rates that led to widespread excess=
+es. People were caught off guard when rates suddenly spiked and didn=E2=80=
+=99t have the real life experience on how to manage those risks, he said.</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">His point here is not =E2=80=9CSVB were morons=
+ and Latin American interns are smart=E2=80=9D; his point here is =E2=80=9C=
+SVB had 15 years of low and stable interest rates and Latin American intern=
+s did not.=E2=80=9D If you never encounter interest rate risk, you might fo=
+rget how to manage it.</p>
+<p style=3D"margin: 16px 0;">The nice thing about this diagnosis is that it=
+ is sort of self-resolving. No bank=C2=A0<em>today </em>is going around tak=
+ing deposits at 0% and using them to buy mortgage-backed securities at 2%, =
+not because they have learned risk management lessons from SVB but because =
+interest rates are already higher. The problems at SVB were not about some =
+weird new form of bank risk-taking; they were about the traditional busines=
+s of banking being fragile in a sudden transition from low rates to high ra=
+tes. The solution is to sort of muddle along without bankrupting too many b=
+anks until they have all made that transition. And so the Fed=E2=80=99s mai=
+n response to SVB was to <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmV=
+kLWNhbj9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cCe6bf97ce" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  create a new funding program</a=
+> that will let banks continue to ignore their interest-rate losses for one=
+ more year: You give the banks another year to muddle through, and figure t=
+hat whoever successfully muddles through that year will be fine.</p>
+<p style=3D"margin: 16px 0;">Still you can=E2=80=99t go to Congress and be =
+like =E2=80=9Cyeah raising rates blew up some banks, whaddarya gonna do.=E2=
+=80=9D So <a href=3D"https://link.mail.bloombergbusiness.com/click/30986595=
+.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjg=
+vdXMtb2ZmaWNpYWxzLXNpZ25hbC1uZXctcnVsZXMtbG9vbS1hZnRlci1zdmItc2lnbmF0dXJlLW=
+ZhaWx1cmVzP2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cBda6584de" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  there will be new rules</a>=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Top US financial officials on Tuesday outlined=
+ what=E2=80=99s likely to be the biggest regulatory overhaul of the banking=
+ sector in years, in an initiative aimed at addressing underlying issues th=
+at contributed to the collapse of Silicon Valley Bank and other US regional=
+ lenders.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI anticipate the need to strengthen c=
+apital and liquidity standards=E2=80=9D for banks with assets larger than $=
+100 billion, Federal Reserve Vice Chair for Supervision Michael Barr said i=
+n answering questions at a Senate Banking Committee hearing.</p>
+<p style=3D"margin: 16px 0;">Federal Deposit Insurance Corp. Chairman Marti=
+n Gruenberg said, in his testimony to the panel, that the failures of SVB, =
+as Silicon Valley Bank is known, and Signature Bank =E2=80=9Cdemonstrate th=
+e implications that banks with assets of $100 billion or more can have for =
+financial stability. The prudential regulation of these institutions merits=
+ additional attention, particularly with respect to capital, liquidity and =
+interest-rate risk.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There will also be some soul-searching about h=
+ow SVB was supervised. Here is Barr=E2=80=99s testimony on how the Fed deal=
+t with SVB:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Near the end of 2021, supervisors found defici=
+encies in the bank=E2=80=99s liquidity risk management, resulting in six su=
+pervisory findings related to the bank=E2=80=99s liquidity stress testing, =
+contingency funding, and liquidity risk management.=C2=A0In May 2022, super=
+visors issued three findings related to ineffective board oversight, risk m=
+anagement weaknesses, and the bank=E2=80=99s internal audit function. In th=
+e summer of 2022, supervisors lowered the bank=E2=80=99s management rating =
+to =E2=80=9Cfair=E2=80=9D and rated the bank=E2=80=99s enterprise-wide gove=
+rnance and controls as =E2=80=9Cdeficient-1.=E2=80=9D These ratings mean th=
+at the bank was not =E2=80=9Cwell managed=E2=80=9D and was subject to growt=
+h restrictions under section 4(m) of the Bank Holding Company Act.=C2=A0In =
+October 2022, supervisors met with the bank=E2=80=99s senior management to =
+express concern with the bank=E2=80=99s interest rate risk profile and in N=
+ovember 2022, supervisors delivered a supervisory finding on interest rate =
+risk management to the bank.</p>
+<p style=3D"margin: 16px 0;">In mid-February 2023, staff presented to the F=
+ederal Reserve=E2=80=99s Board of Governors on the impact of rising interes=
+t rates on some banks=E2=80=99 financial condition and staff=E2=80=99s appr=
+oach to address issues at banks. Staff discussed the issues broadly, and hi=
+ghlighted SVB=E2=80=99s interest rate and liquidity risk in particular. Sta=
+ff relayed that they were actively engaged with SVB but, as it turned out, =
+the full extent of the bank=E2=80=99s vulnerability was not apparent until =
+the unexpected bank run on March 9. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">We need to ask why the bank was unable to fix =
+and address the issues we identified in sufficient time. It is not the job =
+of supervisors to fix the issues identified; it is the job of the bank=E2=
+=80=99s senior management and board of directors to fix its problems.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I am reminded of the incredible Credit Suisse =
+Group AG <a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.=
+262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDct=
+MjkvYXJjaGVnb3Mtd2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9QkJEMDMyODI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMwMzI4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB485=
+9ffc0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  report on how it lost billions of dollars trading with Arc=
+hegos Capital Management</a>. Basically Credit Suisse had risk managers and=
+ committees who looked at the Archegos exposure, decided it was too big and=
+ too undercollateralized, and told the relationship managers to demand more=
+ collateral. The relationship managers called Archegos to demand more colla=
+teral, and Archegos kept saying =E2=80=9Coh no I=E2=80=99m getting another =
+call, gotta take that, will call you back soon.=E2=80=9D Archegos never pos=
+ted the collateral, and then it collapsed and took billions of Credit Suiss=
+e=E2=80=99s dollars with it. Everyone saw the problem, but nobody acted on =
+it with quite enough urgency.</p>
+<p style=3D"margin: 16px 0;">Similarly Esteves is perfectly correct that an=
+yone could see SVB=E2=80=99s interest-rate risk, and the Fed did see it. An=
+d the Fed=E2=80=99s staff had meetings with the Board of Governors and told=
+ them that rising interest rates were going to be rough on a bunch of banks=
+, but especially SVB. And the board was like =E2=80=9Chuh so are we doing a=
+nything about that,=E2=80=9D and the staff were like =E2=80=9Coh of course =
+we=E2=80=99re talking to SVB about managing that risk,=E2=80=9D and in fact=
+ they were. Everyone was talking about exactly the right things; they just =
+weren=E2=80=99t doing enough about them.</p>
+<p style=3D"margin: 16px 0;">Also though, when they did, that=E2=80=99s wha=
+t broke SVB. Barr again:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The bank waited too long to address its proble=
+ms, and ironically, the overdue actions it finally took to strengthen its b=
+alance sheet sparked the uninsured depositor run that led to the bank=E2=80=
+=99s failure. Specifically, on Wednesday, March 8, SVB announced that it re=
+alized a $1.8 billion loss in a sale of securities to raise liquidity and p=
+lanned to raise capital during the following week. Uninsured depositors int=
+erpreted these actions as a signal that the bank was in distress. They turn=
+ed their focus to the bank=E2=80=99s balance sheet, and they did not like w=
+hat they saw.</p>
+<p style=3D"margin: 16px 0;">In response, social media saw a surge in talk =
+about a run, and uninsured depositors acted quickly to flee.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you have a bank that is undercapitalized be=
+cause it lost money on interest-rate moves, the sensible advice is for it t=
+o raise more capital, and that=E2=80=99s what SVB did. But that is also wha=
+t blew it up.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDk4NjU5NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEyNDkwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC30f82b3f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30986595&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31249030&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDk4NjU5NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEyNDkwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD30f82b3f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30986595&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31249030&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A CDS trade</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A stylized thing that happened in the financia=
+l crisis of 2008 is that big international investment banks funded themselv=
+es with a lot of very short-term borrowing (repurchase agreements, overnigh=
+t loans, derivatives liabilities) from other big market participants (banks=
+, hedge funds, etc.), and their lenders hedged their credit risk using cred=
+it default swaps. If you had a lot of derivatives exposure to Bear Stearns =
+&amp; Co., you might buy some CDS on Bear. If everyone got worried about Be=
+ar, (1) they would buy a lot of Bear CDS, pushing its price up and (2) they=
+ might stop doing business with Bear or lending it money, causing it to fai=
+l. There would be a =E2=80=9Crun on the bank,=E2=80=9D not in the literal s=
+ense of depositors lining up to take out their money =E2=80=94=C2=A0Bear wa=
+s not an actual bank and didn=E2=80=99t really have depositors =E2=80=94=C2=
+=A0but in the sense of big short-term lenders declining to roll over their =
+loans and terminating derivatives positions. And the CDS market, as an indi=
+cator of how big market participants viewed Bear=E2=80=99s credit, was a wa=
+rning signal of a potential run. If everyone thinks Bear=E2=80=99s credit i=
+s bad, they will not roll their loans.</p>
+<p style=3D"margin: 16px 0;">But that was a long time ago and things are di=
+fferent now. For one thing, Bear and Lehman Brothers and the other independ=
+ent investment banks are gone; these days the big investment banks are most=
+ly attached to actual banks that have access to their central banks=E2=80=
+=99 lender-of-last-resort facilities. Also those big banks have learned the=
+ lessons of 2008 and do not fund themselves with short-term capital-markets=
+ borrowing nearly as much as they used to.</p>
+<p style=3D"margin: 16px 0;">Take Deutsche Bank AG, for instance. At the en=
+d of 2008, <a href=3D"https://link.mail.bloombergbusiness.com/click/3098659=
+5.262435/aHR0cHM6Ly9pbnZlc3Rvci1yZWxhdGlvbnMuZGIuY29tL2ZpbGVzL2RvY3VtZW50cy=
+9hbm51YWwtcmVwb3J0cy9EQl9Bbm51YWxfUmV2aWV3XzIwMDgucGRmP2xhbmd1YWdlX2lkPTE/6=
+07f07ceef4b8524a319a23cBc09fc57a" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">it reported</a> assets of about =
+=E2=82=AC2.2 trillion with just =E2=82=AC32 billion of shareholders=E2=80=
+=99 equity.=C2=A0 The rest of its money was borrowed, some in conservative =
+bank-y ways (=E2=82=AC396 billion of deposits and=C2=A0=E2=82=AC134 billion=
+ of long-term debt), but much of it in riskier capital-markets ways (almost=
+ =E2=82=AC1.4 trillion of =E2=80=9Cfinancial liabilities at fair value thro=
+ugh profit or loss,=E2=80=9D including derivatives liabilities, plus =E2=80=
+=9Cother short-term borrowings=E2=80=9D). At the end of 2022, <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly9pbnZ=
+lc3Rvci1yZWxhdGlvbnMuZGIuY29tL2ZpbGVzL2RvY3VtZW50cy9hbm51YWwtcmVwb3J0cy8yMD=
+IzL0FubnVhbC1SZXBvcnQtMjAyMi5wZGY/607f07ceef4b8524a319a23cBb178cc55" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">it reported</a> assets of about=C2=A0=E2=82=AC1.3 trillion and equity of=
+=C2=A0=E2=82=AC72 billion, more than doubling its equity while almost halvi=
+ng its assets. Meanwhile much more of its funding comes from deposits (=E2=
+=82=AC621 billion, along with=C2=A0=E2=82=AC132 billion of long-term debt) =
+and much less comes from short-term capital-markets-y stuff (=E2=82=AC388 b=
+illion of fair-value liabilities and just=C2=A0=E2=82=AC5 billion of other =
+short-term borrowings). Deposits went from about 18% of its funding to abou=
+t 46%. If there was going to be a run on the bank at Deutsche Bank in 2008,=
+ it would have been Deutsche=E2=80=99s derivatives counterparties getting n=
+ervous. If there was going to be a run on the bank at Deutsche Bank in 2023=
+, it would have been a regular run on the regular bank, with depositors get=
+ting nervous and taking their money out.</p>
+<p style=3D"margin: 16px 0;">Meanwhile the market for single-name credit de=
+fault swaps is also <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30986595.262435/aHR0cHM6Ly93d3cubmV3eW9ya2ZlZC5vcmcvbWVkaWFsaWJyYXJ5L21lZ=
+GlhL3Jlc2VhcmNoL2Vwci8yMDIwL2Vwcl8yMDIwX3ZvbDI2bm8zLnBkZg/607f07ceef4b8524a=
+319a23cB796a59ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">much smaller now than it was in 2008</a>, due in =
+part to regulatory nervousness about that market after 2008. So last Friday=
+, some 90 million shares of Deutsche Bank=E2=80=99s stock changed hands in =
+tens of=C2=A0thousands of trades.<a class=3D"footnote-index" href=3D"#footn=
+ote-2" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[2]</span>
+</a>=C2=A0Meanwhile there were about 20 cleared trades in Deutsche Bank=E2=
+=80=99s CDS that day, which was a pretty busy day for CDS.<a class=3D"footn=
+ote-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But 2008 looms large as the template for a big=
+ banking crisis, and so in the week before Credit Suisse Group AG was sold =
+to UBS Group AG in a weekend rescue, there were 2008-y stories about <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTUvY3JlZGl0LXN1aXN=
+zZS1vbmUteWVhci1kZWZhdWx0LXN3YXBzLW5lYXItMS0wMDAtYmFzaXMtcG9pbnRzP2NtcGlkPU=
+JCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB81d6828b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> its CDS curve inverting</a> and=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTUvYm5wLXN0b3BzLWFjY2Vw=
+dGluZy1zd2Fwcy1yZWFzc2lnbm1lbnRzLWludm9sdmluZy1jcmVkaXQtc3Vpc3NlP2NtcGlkPUJ=
+CRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cBd1af997e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> derivatives counterparties refusing to deal with =
+it</a>. But Credit Suisse=E2=80=99s derivatives business in 2023 was <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6=
+Ly93d3cudGhldHJhZGVuZXdzLmNvbS9jcmVkaXQtc3Vpc3NlLXJldGhpbmtzLWRlcml2YXRpdmV=
+zLXN0cmF0ZWd5Lw/607f07ceef4b8524a319a23cB505b9e87" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">a shadow of what=
+ it was</a> in 2008, and what actually brought Credit Suisse down was mostl=
+y=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.26=
+2435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTUvY3=
+JlZGl0LXN1aXNzZS13aGF0LXMtZ29pbmctb24tYW5kLXdoeS1pcy1jcy1zdG9jay1mYWxsaW5nP=
+2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB0da94163" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">depositors taking their money out of the=
+ bank</a>. A normal bank run, not a fancy 2008-style shadow bank run.</p>
+<p style=3D"margin: 16px 0;">The point here is that =E2=80=9Cthe prices of =
+a bank=E2=80=99s CDS rise, indicating that its counterparties are no longer=
+ willing to lend to it=E2=80=9D is no longer quite=C2=A0the sign of bank di=
+stress that it was in 2008, even if it did correctly predict Credit Suisse=
+=E2=80=99s demise. So=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30986595.262435/aHR0cHM6Ly93d3cuaW5zdGFwYXBlci5jb20vaGVsbG8yP3U9aH=
+R0cHMlM0ElMkYlMkZ3d3cuYmxvb21iZXJnLmNvbSUyRm5ld3MlMkZhcnRpY2xlcyUyRjIwMjMtM=
+DMtMjglMkZhLXNpbmdsZS1iZXQtb24tZGV1dHNjaGUtYmFuay1zLWNkcy1pcy1zZWVuLWJlaGlu=
+ZC1mcmlkYXktcy1yb3V0JnQ9KFNhdmluZy4uLiklMjBBJTIwU2luZ2xlJTIwQmV0JTIwb24lMjB=
+EZXV0c2NoZSUyMEJhbmslRTIlODAlOTlzJTIwQ0RTJTIwSXMlMjBTZWVuJTIwQmVoaW5kJTIwRn=
+JpZGF5JUUyJTgwJTk5cyUyMFJvdXQlMjAtJTIwQmxvb21iZXJnJnM9UmVndWxhdG9ycyUyMGFyZ=
+SUyMHNpbmdsaW5nJTIwb3V0JTIwYSUyMHRyYWRlJTIwb24lMjBEZXV0c2NoZSUyMEJhbmslMjBB=
+RyVFMiU4MCU5OXMlMjBjcmVkaXQlMjBkZWZhdWx0JTIwc3dhcHMlMjB0aGF0JTIwdGhleSUyMHN=
+1c3BlY3QlMjBmdWVsZWQlMjBhJTIwZ2xvYmFsJTIwc2VsbG9mZiUyMG9uJTIwRnJpZGF5LiUwQS=
+UwQUl0JTIwd2FzJTIwYSUyMHJvdWdobHklMjAlRTIlODIlQUM1JTIwbWlsbGlvbiUyMCglMjQ1L=
+jQlMjBtaWxsaW9uKSUyMGJldCUyMG9uJTIwc3dhcHMlMjB0aWVkJTIwdG8lMjB0aGUlMjBHZXJt=
+YW4lMjBiYW5rJUUyJTgwJTk5cyUyMGp1bmlvciUyMGRlYnQlMkMlMjBhY2NvcmRpbmclMjB0byU=
+yMHBlb3BsZSUyMGZhbWlsaWFyJTIwd2l0aCUyMHRoZSUyMG1hdHRlciUyQyUyMHdobyUyMHNhaW=
+QlMjByZWd1bGF0b3JzJTIwaGF2ZSUyMHNwb2tlbiUyMHRvJTIwbWFya2V0JTIwcGFydGljaXBhb=
+nRzJTIwYWJvdXQlMjB0aGUlMjB0cmFuc2FjdGlvbi4lMjBUaGUlMjBjb250cmFjdHMlMjBjYW4l=
+MjBiZSUyMGlsbGlxdWlkJTJDJTIwc28lMjBhJTIwc2luZ2xlJTIwYmV0JTIwY2FuJTIwdHJpZ2d=
+lciUyMGJpZyUyMG1vdmVzLiUyMEElMjBzcG9rZXNwZXJzb24lMjBmb3IlMjBEZXV0c2NoZSUyME=
+JhbmslMjBkZWNsaW5lZCUyMHRvJTIwY29tbWVudC4lMEElMEFUaGUlMjBzdXNwZWN0ZWQlMjBrb=
+m9jay1vbiUyMGVmZmVjdCUyMHdhcyUyMGElMjByb3V0JTIwdGhhdCUyMHNlbnQlMjBiYW5raW5n=
+JTIwc3RvY2tzJTIwdHVtYmxpbmclMkMlMjBnb3Zlcm5tZW50JTIwYm9uZHMlMjBoaWdoZXIlMjB=
+hbmQlMjBDRFMlMjBwcmljZXMlMjBmb3IlMjBsZW5kZXJzJTIwc29hcmluZyUyQyUyMHRyaW1taW=
+5nJTIwYWJvdXQlMjAlRTIlODIlQUMxLjYlMjBiaWxsaW9uJTIwb2ZmJTIwRGV1dHNjaGUlMjBCY=
+W5rJUUyJTgwJTk5cyUyMG1hcmtldCUyMGNhcCUyMGFuZCUyMG1vcmUlMjB0aGFuJTIwJUUyJTgy=
+JUFDMzAlMjBiaWxsaW9uJTIwb2ZmJTIwYW4lMjBpbmRleCUyMHRoYXQlMjB0cmFja3MlMjBFdXJ=
+vcGVhbiUyMGJhbmtpbmclMjBzdG9ja3MuJTIwVGhhdCVFMiU4MCU5OXMlMjBiZWNhdXNlJTIwaW=
+52ZXN0b3JzJTIwaGF2ZSUyMGJlZW4lMjBvbiUyMGVkZ2UlMjBzaW5jZSUyMHRoZSUyMGNvbGxhc=
+HNlJTIwb2YlMjBzZXZlcmFsJTIwVVMlMjBiYW5rcyUyMGFuZCUyMHJlc2N1ZSUyMG9mJTIwQ3Jl=
+ZGl0JTIwU3Vpc3NlJTIwR3JvdXAlMjBBRyUyQyUyMHdpdGglMjB0aGUlMjBtYXJrZXQlMjBzZWF=
+yY2hpbmclMjBmb3IlMjBjbHVlcyUyMG9uJTIwd2hldGhlciUyMG90aGVyJTIwbGVuZGVycyUyMH=
+dvdWxkJTIwYWxzbyUyMGZhY2UlMjBzdHJhaW4uJmNvb2tpZV9ub3RpY2U9MQ/607f07ceef4b85=
+24a319a23cB7fad1b9b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Regulators are singling out a trade on Deutsch=
+e Bank AG=E2=80=99s credit default swaps that they suspect fueled a global =
+selloff on Friday.</p>
+<p style=3D"margin: 16px 0;">It was a roughly =E2=82=AC5 million ($5.4 mill=
+ion) bet on swaps tied to the German bank=E2=80=99s junior debt, according =
+to people familiar with the matter, who said regulators have spoken to mark=
+et participants about the transaction. The contracts can be illiquid, so a =
+single bet can trigger big moves. A spokesperson for Deutsche Bank declined=
+ to comment.</p>
+<p style=3D"margin: 16px 0;">The suspected knock-on effect was a rout that =
+sent banking stocks tumbling, government bonds higher and CDS prices for le=
+nders soaring, trimming about =E2=82=AC1.6 billion off Deutsche Bank=E2=80=
+=99s market cap and more than =E2=82=AC30 billion off an index that tracks =
+European banking stocks. That=E2=80=99s because investors have been on edge=
+ since the collapse of several US banks and rescue of Credit Suisse Group A=
+G, with the market searching for clues on whether other lenders would also =
+face strain. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s unclear who placed the relevant t=
+rades or why they did it. Some data point to the trades being for hedging p=
+urposes, said one of the people. There=E2=80=99s also a trade on Deutsche B=
+ank=E2=80=99s five-year, senior CDS contracts executed on Thursday that att=
+racted scrutiny, one of the people said.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One =E2=82=AC5 million trade! That=E2=80=99s, =
+like, one managing director hedging her comp for this year.<a class=3D"foot=
+note-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595=
+.262435/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDNiYmRmOWMtMzVhNi00ODUxLWFhOGQ=
+tY2FhNGQwZmU4OGM5/607f07ceef4b8524a319a23cB079aa24e" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Similarly</a>:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The European Central Bank=E2=80=99s top superv=
+isor has claimed =E2=80=9Copaque=E2=80=9D trading in credit default swaps i=
+s harming banks=E2=80=99 share prices and could threaten a run on deposits.=
+</p>
+<p style=3D"margin: 16px 0;">Andrea Enria, chair of the ECB supervisory boa=
+rd, called for a review of the market after sharp moves in the prices of CD=
+S preceded a sudden drop in the shares of Deutsche Bank and other European =
+lenders last Friday.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWith a few million you can move the C=
+DS spread of a trillion-euro-asset bank and contaminate of course stock pri=
+ces and possibly also deposit outflows,=E2=80=9D Enria told a conference in=
+ Frankfurt. =E2=80=9CSo that is something that concerned me a lot.=E2=80=9D=
+ ...</p>
+<p style=3D"margin: 16px 0;">Answering a question about Friday=E2=80=99s sh=
+are price fall at Deutsche, Enria said the CDS market was =E2=80=9Cvery opa=
+que, very shallow and very illiquid=E2=80=9D. =E2=80=A6 The derivatives are=
+ thinly traded =E2=80=94 in the final three months of last year there were =
+on average only nine trades per day in Deutsche=E2=80=99s CDS even though i=
+t is one of the most traded, according to the US=E2=80=99s Depository Trust=
+ and Clearing Corporation, which runs a swaps data repository, although it =
+is unclear how often they were traded this month.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If your pattern-matching is from 2008, =E2=80=
+=9CCDS on Deutsche Bank blows out=E2=80=9D is a good reason to panic, and t=
+he market did. But I am not sure that that pattern-matching works anymore.<=
+/p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Michael Klein</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Before Credit Suisse collapsed, it was working=
+ on a complicated and <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMDMtMTUvc2lsaWNvbi12YWxsZXktYmFuay1pcy1mb3Itc2FsZT9jbXBpZD1CQkQwMz=
+I4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1d=
+G1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23c=
+B41c0a024" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> hilariously conflicted</a> deal to spin out its investm=
+ent banking business into a separate company. The gist of the deal <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzExNTk1MTAvMDAwMTM3MDM2ODIzMDAw=
+MDE1L2EyMzAyMDktNmsuaHRt/607f07ceef4b8524a319a23cB6b918690" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">was tha=
+t</a> Credit Suisse would acquire Michael Klein=E2=80=99s boutique investme=
+nt bank, M. Klein &amp; Co., for $175 million, combine that boutique with i=
+ts existing investment bank, and then carve out the whole thing into a new =
+investment bank that would be separate from Credit Suisse, though they woul=
+d have a =E2=80=9Cpreferred long-term partnership.=E2=80=9D The new bank wo=
+uld be called CS First Boston, and it would be run by Klein, who would have=
+ a large ownership stake. Klein was on Credit Suisse=E2=80=99s board of dir=
+ectors when it came up with this plan. Also he led the committee that came =
+up with this plan. Also he stepped down from the board so that he could get=
+ paid a $10 million fee for advising Credit Suisse on executing this plan. =
+Just great stuff. Two weeks ago <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDMtMTUvc2lsaWNvbi12YWxsZXktYmFuay1pcy1mb3Itc2FsZT9jbXBp=
+ZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cC41c0a024" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> I wrote</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Quite possibly this is all fine an=
+d the prices are fair and arm=E2=80=99s-length, but this might be the most =
+conflicted transaction I have ever seen? I just admire it? =E2=80=9CNo conf=
+lict, no interest=E2=80=9D is the old joke, and it is true that the best an=
+d most famous investment bankers tend to find themselves with close ties to=
+ everyone on every side of every big deal. If Credit Suisse just thinks tha=
+t Michael Klein is the best investment banker going, then (1) who better to=
+ serve on its board of directors, (2) who better to advise it on this trick=
+y transaction and (3) who better to lead its new investment bank? A lesser =
+banker might have said =E2=80=9Cahh I=E2=80=99d love to run First Boston bu=
+t you see I=E2=80=99m on the Credit Suisse board and it=E2=80=99d look bad,=
+=E2=80=9D but Klein was like =E2=80=9Cnope, I=E2=80=99m the guy, don=E2=80=
+=99t care how it looks, I gotta do it all myself.=E2=80=9D Love it.</p></bl=
+ockquote>
+<p style=3D"margin: 16px 0;">But then Credit Suisse collapsed into the arms=
+ of UBS Group AG, and the deal is =E2=80=A6=C2=A0look, I assume it=E2=80=99=
+s dead, but I do hope that Klein showed up at UBS=E2=80=99s offices last Mo=
+nday morning with a hastily assembled pitchbook? Just unannounced? Walked u=
+p to the receptionist and was like =E2=80=9Chello it is imperative that I p=
+itch this spinoff deal to your senior management immediately=E2=80=9D? Like=
+ if this was such a great deal for Credit Suisse, surely he could make the =
+case that it would also be a good deal for UBS? Klein talked Credit Suisse =
+into this crazy deal, which tells you that he is good at talking Swiss bank=
+ers into crazy deals or that it is actually a great deal or both. I hope he=
+ gave it a go with UBS.</p>
+<p style=3D"margin: 16px 0;">But Bloomberg=E2=80=99s=C2=A0Heather Perlberg =
+and Marion Halftermeyer report that <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDMtMjgvbWljaGFlbC1rbGVpbi1sb3Nlcy10aGUtZGVhbC1vZi1oaXMt=
+bGlmZS1pbi1jcy1maXJzdC1ib3N0b24_Y21waWQ9QkJEMDMyODIzX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzI4JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB65037711" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> it looks=
+ pretty dead</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Klein =E2=80=93 Midas of M&amp;A, money-whispe=
+rer to Saudi royals =E2=80=93 just lost the deal of his life. And, along wi=
+th it, a shot at C-suite glory and a personal payday stretching upward of $=
+200 million.</p>
+<p style=3D"margin: 16px 0;">The Wall Street rainmaker=E2=80=99s grand plan=
+s for turning around the Swiss bank and reviving the First Boston name have=
+ all but collapsed now that UBS Group AG has agreed to buy its beleaguered =
+rival. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">UBS executives will be less inclined to take K=
+lein=E2=80=99s advice. They=E2=80=99re still trying to untangle his deal, a=
+ccording to people familiar with the matter. Rather than spinning out the i=
+nvestment bank, UBS is planning to cherry pick the best people to bring ove=
+r.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Apparently Credit Suisse=E2=80=99s agreement t=
+o buy Klein=E2=80=99s boutique still exists, and Klein =E2=80=9Ccould walk =
+away with more than a $20 million break-up fee,=E2=80=9D along with his $10=
+ million retainer. It would be funny if he sued for specific performance, b=
+ut don=E2=80=99t count on it.</p>
+<p style=3D"margin: 16px 0;">There is one good irony here, which is that Kl=
+ein apparently gets credit for bringing Saudi investors into Credit Suisse=
+=E2=80=99s stock:</p>
+<blockquote><p style=3D"margin: 16px 0;">He encouraged longtime clients in =
+Saudi Arabia to invest $1.5 billion in Credit Suisse only to have the bank =
+collapse into the arms of a competitor shortly after. They lost more than $=
+1 billion of their money. He was lining up even more capital from the Middl=
+e East and the private equity industry for CS First Boston.</p></blockquote=
+>
+<p style=3D"margin: 16px 0;">Why did Credit Suisse collapse? The simple ver=
+sion of the story is that the chairman of the Saudi National Bank, Credit S=
+uisse=E2=80=99s largest shareholder, <a href=3D"https://link.mail.bloomberg=
+business.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDMtMjcvc2F1ZGktbmF0aW9uYWwtYmFuay1jaGFpcm1hbi1yZXNpZ25=
+zLWFmdGVyLWNyZWRpdC1zdWlzc2UtY29tbWVudD9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8da80bac" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ went on Bloomberg TV a few weeks ago and said</a> the bank would =E2=80=9C=
+absolutely not=E2=80=9D put any more money into Credit Suisse. And then the=
+ stock dropped, depositors fled, and Credit Suisse vanished in short order.=
+ Just an incredible unforced error! I <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjMtMDMtMTUvc2lsaWNvbi12YWxsZXktYmFuay1pcy1mb3Itc2FsZT=
+9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cD41c0a024" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> wrote at the time</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Look I suppose that if you are the=
+ biggest shareholder of a somewhat beleaguered bank and someone asks you on=
+ television =E2=80=9Cwould you throw more money into this bank,=E2=80=9D an=
+d the actual answer is =E2=80=9Cno we can=E2=80=99t,=E2=80=9D you should no=
+t say =E2=80=9Cyes.=E2=80=9D Everything is securities fraud, etc. But =E2=
+=80=A6 you should not =E2=80=A6 say =E2=80=9Cno=E2=80=9D? You certainly sho=
+uld not say =E2=80=9Cabsolutely not=E2=80=9D? =E2=80=9CWe believe strongly =
+in Credit Suisse, we are in close contact with management, and we ourselves=
+ have access to tons of cash=E2=80=9D: Nothing in that sentence is a lie, i=
+t does not actually answer the question, and yet it sounds like it does? It=
+ sounds vaguely confidence-inspiring? I thought of that in three seconds? Y=
+ou could probably do better if it was your money on the line?</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">I suppose no one could have predicted those te=
+levision comments =E2=80=94=C2=A0they were really so unnecessary! =E2=80=94=
+=C2=A0but what if you could have? What if Klein had come to Credit Suisse a=
+nd said =E2=80=9Clook I have lined up some big Saudi investors who will put=
+ in $1.5 billion to shore up our capital position, but they might say some =
+bad stuff about us on television=E2=80=9D? Knowing that in advance, would y=
+ou take the deal? I think Credit Suisse would clearly have been better off =
+without the $1.5 billion and the stray comments on TV.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Steve Cohen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is a business logic to owning a professi=
+onal sports team. You spend money on players and facilities and expertise, =
+which makes your team good. Because your team is good, people watch it, and=
+ its revenue goes up, so the money you spent pays off and you make a profit=
+ on your investment.</p>
+<p style=3D"margin: 16px 0;">There is also a luxury-consumption logic to ow=
+ning a professional sports team. You spend money on players etc., which mak=
+es your team good. Because your team is good, you have fun, because it is f=
+un to root for a winning sports team and I suppose it is even more fun if y=
+ou own the team. You get to, like, go to the clubhouse and high-five the pl=
+ayers after a win, or you get to turn on the radio and listen to a sports t=
+alk show and hear people say =E2=80=9Chey that=C2=A0owner they got is prett=
+y good.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">A lot of modern sports owners (1) are rich, (2=
+) are sports fans and (3)=C2=A0got their money by building profitable busin=
+esses. There is a tension between running their team like a business and ru=
+nning it for fun. They are after all mostly businesspeople, and sports team=
+s are expensive, so they have a natural inclination to run it like a busine=
+ss and earn a return. On the other hand there are probably better businesse=
+s, and they got into this one for fun, so it seems a shame not to have fun.=
+</p>
+<p style=3D"margin: 16px 0;">If every owner feels this tension in roughly t=
+he same degree, then you have a nice competitive dynamic: Everyone spends t=
+o try to win, and they all spend about the same amount, so the league is co=
+mpetitive.</p>
+<p style=3D"margin: 16px 0;">But if you had an owner who (1) was very very =
+rich and (2) did not care at all about running it like a business, that own=
+er would have a lot of fun indeed.<a class=3D"footnote-index" href=3D"#foot=
+note-5" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[5]</span>
+</a>=C2=A0Other owners =E2=80=94 ones who were less rich and more inclined =
+to seek a return on their investment =E2=80=94=C2=A0would have much less fu=
+n: The free-spending fun-loving owner would win too many games, which would=
+ reduce the other owners=E2=80=99 <em>sporting=C2=A0</em>enjoyment (they do=
+ care about winning!) but also their revenues (their fans also care about w=
+inning). So most big modern sports leagues are set up to restrict the abili=
+ty of an owner to spend too much money: US leagues tend to have salary caps=
+ so rich owners can=E2=80=99t spend too much on players; European soccer ha=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/=
+aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVUVGQV9GaW5hbmNpYWxfRmFpcl9QbGF5X1J=
+lZ3VsYXRpb25z/607f07ceef4b8524a319a23cBe516333f" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> =E2=80=9Cfinancia=
+l fair play=E2=80=9D rules</a>=C2=A0so rich owners can=E2=80=99t spend more=
+ than their clubs earn.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30986595.262435/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMy8y=
+Ni9zcG9ydHMvYmFzZWJhbGwvc3RldmUtY29oZW4tbWV0cy1uZXcteW9yay5odG1s/607f07ceef=
+4b8524a319a23cB21bc86de" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> the New York Times has a story about Stev=
+e Cohen</a> and his ownership of the=C2=A0New York Mets, the gist of which =
+is that Cohen can spend as much as he wants on making the Mets good, so he =
+is, and it=E2=80=99s working, and he=E2=80=99s having a lot of fun and New =
+York sports talk radio loves him for it:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">He is at once an extreme version of a type =E2=
+=80=94 the munificent steward, willing to lose money in a show of how much =
+money he=E2=80=99s made =E2=80=94 and a model all his own, his tenure rocke=
+ting toward something that can feel like a referendum for the man, the Mets=
+, their city and the sport itself.</p>
+<p style=3D"margin: 16px 0;">Cohen, 66, has carried off a remarkable revers=
+al in public standing, migrating over the past decade from a reclusive avat=
+ar of scofflaw capitalism to an avuncular Twitterer who could probably be e=
+lected Queens borough president by acclamation.</p>
+<p style=3D"margin: 16px 0;">The Mets have swiftly shed their ingrained ide=
+ntity as lovable losers, their ownership shifting from the cost-conscious, =
+Madoff-swindled Wilpon family to a white-collar boundary-pusher long apprai=
+sed as neither lovable nor a loser. ...</p>
+<p style=3D"margin: 16px 0;">And baseball is grappling with the ramificatio=
+ns of Cohen=E2=80=99s runaway spending in the nation=E2=80=99s most capital=
+istic major league, where no salary cap constrains him and only one team th=
+ought to buy Super Bowl ad time just because it could. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CKeep spending,=E2=80=9D Joe Kessler, =
+61, a retiree from Bayside, Queens, told Cohen in January at a community ev=
+ent at Citi Field, where the Mets were finishing construction on the league=
+=E2=80=99s largest scoreboard.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIf I spend any more,=E2=80=9D Cohen r=
+eplied, according to Kessler, nodding at rival owners=E2=80=99 frustrations=
+, =E2=80=9Cthey=E2=80=99ll find me rubbed out somewhere.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I love that, in the absence of a salary cap or=
+ financial-fair-play rules, the way that baseball constrains one owner=E2=
+=80=99s excessive spending is with a vague implicit threat of murder. Anywa=
+y I don=E2=80=99t understand why more people don=E2=80=99t do this! If you =
+have made a large fortune, and if a lot of people think that it is sort of =
+ill-gotten, you will be tempted to launder your reputation by sponsoring a =
+wing at the art museum or a new building for a symphony, but it seems clear=
+ly better to buy a lovable-loser baseball team and plow enormous amounts of=
+ money into making it good. Who could object to that?</p>
+<p style=3D"margin: 16px 0;">Also here is this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">And when Cohen=E2=80=99s young son seemed prim=
+ed for batting lessons many years back, the family hired Art Shamsky, from =
+the 1969 World Series champions, for private sessions in Central Park, wher=
+e Shamsky hauled a hitting tee that often felt decorative.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CHe just wanted to run after squirrels=
+,=E2=80=9D Shamsky said of the boy, who now works in cryptocurrency.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Just a devastating sentence.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMjgvYWxpYmFiYS1zcGxpdHMtaW50by1zaXgtdW5pdHMtdGhhdC1tYXktcHV=
+yc3VlLWluZGl2aWR1YWwtaXBvcz9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB857ba753" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Alibaba</a> =
+Shares Surge After Historic Overhaul Heralds IPO Wave. <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjcvc2Nod2FiLXMtNy10cmlsbGlvbi1lb=
+XBpcmUtYnVpbHQtb24tbG93LXJhdGVzLWlzLXNob3dpbmctY3JhY2tzP2NtcGlkPUJCRDAzMjgy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB03=
+b21438" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Schwab=E2=80=99s</a> $7 Trillion Empire Built on Low Rate=
+s Is Showing Cracks. <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjMtMDMtMjgvbWNraW5zZXktc3RhcnRzLWN1dHRpbmctMS00MDAtam9icy10aGlzLXdlZWstaW4=
+tcmVzdHJ1Y3R1cmluZz9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cBbab41acd" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">McKinsey</a> Starts E=
+liminating 1,400 Roles This Week in a Rare Round of Job Cuts.=C2=A0The Texa=
+s Preacher=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIw=
+MjMtMDMtMjcvdGV4YXMtcHJlYWNoZXItZG9jLWdhbGxhZ2hlci1zdG9sZS0yNC1taWxsaW9uLXd=
+pdGgtcG9uemktc2NoZW1lP2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB58fd8153" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  $24 Million Ponz=
+i Scheme</a>. Sam Bankman-Fried Charged in US With <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjgvc2FtLWJhbmttYW4tZnJpZWQtY2hhcmdlZ=
+C13aXRoLWJyaWJpbmctY2hpbmVzZS1vZmZpY2lhbHM_Y21waWQ9QkJEMDMyODIzX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzI=
+4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB020ea72c" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  Bribing Chinese Officials</a>. Banks Step Up to <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9iYW5rcy1zdGVwLXVwLXRvLXNlcnZlLWNyeXB0by1maXJtcy1hZnRlci1zaWdu=
+YXR1cmUtc2lsdmVyZ2F0ZS1ibG93dXBzLTVlN2I0MDc0P21vZD1pdHBfd3NqJnJ1PXlhaG9v/60=
+7f07ceef4b8524a319a23cB181b12ea" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Serve Crypto Firms</a> After Sign=
+ature, Silvergate Blowups. Tether Is Winning <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy90ZXRoZXItaXMtd2lubmluZy1zdGFibGVjb2luLWJhdHRsZS1kZXNwaXRlLWxvb21pbmc=
+tcmlza3MtNTBhYTU2NmI_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB1=
+7a954b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Stablecoin Battle</a> Despite Looming Risks.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjgvZnJlbmNoLWZpbmFu=
+Y2lhbC1wcm9zZWN1dG9yLXNlYXJjaGVzLTUtYmFua3Mtb24tdGF4LWZyYXVkLWNsYWltP2NtcGl=
+kPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBfc53f44b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Banks in France</a> Face More Than $1.1 Billi=
+on Fines After Raids. EY Breakup Plan=E2=80=99s Fate May Rest on <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9hcnRpY2xlcy9leS1icmVha3VwLXBsYW5zLWZhdGUtbWF5LXJlc3Qtb24tZXh=
+lY3V0aXZlLXNob3dkb3duLXRoaXMtd2Vlay1lYWIwNmQzP21vZD1ocF9sZWFkX3BvczEz/607f0=
+7ceef4b8524a319a23cB9ca14fe6" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Executive Showdown</a> This Week. Di=
+sney Eliminates Its <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30986595.262435/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kaXNuZXktZWxpbWluY=
+XRlcy1pdHMtbWV0YXZlcnNlLWRpdmlzaW9uLWFzLXBhcnQtb2YtY29tcGFueXMtbGF5b2Zmcy1w=
+bGFuLTk0YjAzNjUwP21vZD1ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a23cB3b540f00" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Metaverse Division</a> as Part of Company=E2=80=99s Layoffs Plan. =
+Distress in <a href=3D"https://link.mail.bloombergbusiness.com/click/309865=
+95.262435/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kaXN0cmVzcy1pbi1vZmZpY2Utb=
+WFya2V0LXNwcmVhZHMtdG8taGlnaC1lbmQtYnVpbGRpbmdzLWMxYWRhZDQ4P21vZD1ocF9mZWF0=
+c3RfcG9zNA/607f07ceef4b8524a319a23cB35ce3e15" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Office Market</a> Sp=
+reads to High-End Buildings. <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30986595.262435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMjgvY2ZhLWxldmVsLWktcGFzcy1yYXRlLXRpY2tzLXVwLXdpdGgtemVyby1=
+wYW5kZW1pYy1jYW5jZWxsYXRpb25zP2NtcGlkPUJCRDAzMjgyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyOCZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB725077da" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  CFA Leve=
+l I</a> Pass Rate Ticks Up With Zero Pandemic Cancellations. Substack Turns=
+ to Its <a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.2=
+62435/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjgvb=
+25saW5lLXB1Ymxpc2hlci1zdWJzdGFjay10dXJucy10by1pdHMtd3JpdGVycy1mb3ItZnVuZGlu=
+Zz9jbXBpZD1CQkQwMzI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cBbc8a5361" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  Newsletter Writers</a> for Funding. =
+Cultured meat firm resurrects woolly mammoth in <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30986595.262435/aHR0cHM6Ly90ZWNoY3J1bmNoLmNvb=
+S8yMDIzLzAzLzI4L2N1bHR1cmVkLW1lYXQtZmlybS1yZXN1cnJlY3RzLXdvb2xseS1tYW1tb3Ro=
+LWluLWxhYi1ncm93bi1tZWF0YmFsbC8/607f07ceef4b8524a319a23cBe011fc43" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ lab-grown meatball</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30986595.262435/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB9895008b" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30986595.262435/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb05f7d8f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] That is, it sold most of the assets at a $=
+16.5 billion discount, and appears to expect to lose more on the remaining =
+assets, for a total hit to the FDIC insurance fund of about $20 billion. Th=
+is is not quite the same thing as saying that SVB was *insolvent by* $20 bi=
+llion; a bank buyer would want a discount in order to put capital against t=
+he existing assets. But it's not good.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Bloomberg page DBK GR <equity> AQR lists 6=
+7,640 trades for 90,340,004 shares on 3/24/23.</equity></p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Here I am relying on Bloomberg page SDR <g=
+o>, which pulls data from the swaps data repository. I use the Credit tab a=
+nd the Single CDS sub-tab, specifying 3/24/23, exporting to Excel and then =
+sorting by name; I get 16 =E2=80=9CDB=E2=80=9D trades and four =E2=80=9CDeu=
+tsche Bank.=E2=80=9D The SDR is not a great reporting format so I do not wa=
+nt to say much about size and price of these trades. I should note that <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0c=
+HM6Ly90d2l0dGVyLmNvbS9ib2F6d2VpbnN0ZWluL3N0YXR1cy8xNjM5NjQxMjM5NjA2NzcxNzEy=
+/607f07ceef4b8524a319a23cB441d98ab" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Boaz Weinstein has argued</a> t=
+hat CDS liquidity is pretty good, that CDS prices are =E2=80=9Creal=E2=80=
+=9D and representative, and that bond prices move in line with CDS; some cl=
+aims about single-name being a ghost town are probably overstated.</go></p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Oh, I kid, she probably doesn=E2=80=99t <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMTgtMDUtMDMvaW5zaWRlLXR=
+oZS13b3JsZC1zLW1vc3QtZWxpdGUtYW5kLXNlY3JldC10cmFkZXJzLWNsdWI_Y21waWQ9QkJEMD=
+MyODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjMwMzI4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cBa8ac5a7a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> have an ISDA</a>. But in fact *Credit Suisse* did <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjEvanBtb3JnY=
+W4taGFkLXNvbWUtZmFrZS1uaWNrZWw_Y21waWQ9QkJEMDMyODIzX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzI4JnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2f488114" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> pay a lot=
+ of employees</a> in junior debt (technically additional tier 1 capital), t=
+hough I suppose it would be frowned upon to hedge that with CDS.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Or would accomplish whatever other non-fin=
+ancial goal they want to accomplish. My impression is that the most free-sp=
+ending European soccer owners are looking to win for public-relations reaso=
+ns rather than pure sporting interest.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6e2a228f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc1a154d5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB8fb679d3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB39145821" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb0d54a56" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.2624=
+35/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB7d8b55e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30986595.262435/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC53e06b30" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30986595.262435/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB8ed90d2f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30986595.262435/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB340aaa48" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+4681325" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30986595.262435/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+2d19736" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cig5er.5mhv/d6d563c8.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8849077_1422311395.1680028555599--
+

@@ -1,0 +1,2366 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:791:b0:dc:4011:408e with SMTP id n17csp3262358rwj;
+        Mon, 7 Nov 2022 05:54:53 -0800 (PST)
+X-Received: by 2002:adf:dd0f:0:b0:236:2f7f:4cce with SMTP id a15-20020adfdd0f000000b002362f7f4ccemr31086963wrm.347.1667829293567;
+        Mon, 07 Nov 2022 05:54:53 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1667829293; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=p2hiwFP33su7RVkkHWV0yJpAlXgouy/BLflJZOWfVMDrgYSnauHlYn4mie9KxXZED1
+         AD9uPAHEdFDNuQ+vF3GCpZ3wkE/680gQM8KUFgPG4qf1C0Hx3N288bkenMnoueuSHAMl
+         XWgzOlnYV24iuaoEApWkSViKW6413fjk/xz2s75ttZv+TluSufLT6znROJQeZug0tydr
+         vVbO4YzRzWWAVB30U7DUsgA5TcGNOhyWXT9GJziFwPacIJmWYZ4TAxAXxxIEPPlqz14S
+         Cs4husfqlincz+sUmBWY7nJTIAmTRTg80vBiVZt/MkztR9qlYsn/Y/VMd2kkVw6cKUHc
+         bMSA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe-post:sender:reply-to:message-id:list-unsubscribe
+         :in-reply-to:date:list-archive:list-url:list-id:references:list-post
+         :list-owner:to:from:subject:mime-version:dkim-signature:delivered-to;
+        bh=X6jrfSoZEuwnRzPLOrSMdOJZCTUqyJrMJFHIvjDblJg=;
+        b=DlNCp2TkcQdUwnsfNTUJyw61sziPkuzQyIKcNGXIWyS3cXhtQE21j11Ry4ozQkXBJM
+         oJmSFLf6QtvDyQk6Pk9L/yFVdfXEKYnj5ifJqzmb1nfmkbZUQHdTsjIDnzUZmZS/yce6
+         UNS2t1sbvLxS1mVBKByGJhOP9KH9Wh+OcJMbTrL3wDDIKjIshQKeBvitDGNtjSCjFsyp
+         c6vg46tTfNaS8hSoggs9IYVsW+b2bzA/BXgGA3+IUth5nguwFUfqrGgwhqZRpOKaWtvt
+         YGi3bk2wpZzRwQoOrPZOGl8DA2bxdfYqoSbfwh2vAT84ErtqP38CVOoymVlYdTpbA4eT
+         kzKA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=Q8qWKLq1;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h9-20020a05600c144900b003cf51cf9490sor1605021wmi.19.2022.11.07.05.54.53
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 07 Nov 2022 05:54:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=Q8qWKLq1;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe-post:sender:reply-to:message-id:list-unsubscribe
+         :in-reply-to:date:list-archive:list-url:list-id:references:list-post
+         :list-owner:to:from:subject:mime-version:dkim-signature:delivered-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=X6jrfSoZEuwnRzPLOrSMdOJZCTUqyJrMJFHIvjDblJg=;
+        b=sS2Bq5TgbdYvV0QfjYAncpVKiOtsIojuPD+04sZf8LjArM262QvjGQSPK90lZxSX55
+         5+rTL5awYfJ2hPqHFSAlcdVKHMgevsT8jsEHPLRVWoSbSwHl+1E7mGYFZooY/4g1alym
+         axdgN3u3xpvsBRIdOcRraKewTuEIJBv5snvQ18deogH5weqaQX3rPaiWGXoRqK/8QmxG
+         J/ZsiqpAPvLynCJvbSo+TN/iclmRFSPjBMINN+FrZPXjVhwjVEuvU+p2jGuvR7OVEgD+
+         rJXkWKr7hC2/sG894NprEL0Y7OX8KosY1u2OjtafDKTuAy8hlOB+DDggTs7bQ82WXfBl
+         2wTg==
+X-Gm-Message-State: ACrzQf0dtBz+NCudBZO0Pl9Gjf0iie1EZzrEGPOzLLMBQYJTjJQ9kOwZ
+	OwKzHXeaa8g7jhMAtU+OZy6jUwYWbYeqb50ZkH2YLX2lg4ErQqLN9A==
+X-Received: by 2002:a05:600c:6d3:b0:3cf:9b42:b5f5 with SMTP id b19-20020a05600c06d300b003cf9b42b5f5mr11541847wmn.196.1667829292949;
+        Mon, 07 Nov 2022 05:54:52 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f647:0:0:0:0:0 with SMTP id x7csp2092192wrp;
+        Mon, 7 Nov 2022 05:54:50 -0800 (PST)
+X-Received: by 2002:a1f:94d2:0:b0:3b7:3ebf:40b with SMTP id w201-20020a1f94d2000000b003b73ebf040bmr25372230vkd.7.1667829289881;
+        Mon, 07 Nov 2022 05:54:49 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1667829289; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SwVnuaw6SLC9WHtrGvQOCXWva4Zu9bz78aBtlqswAP69087b0qsgk5bq+CiX0Zp9zr
+         kFOm494CifSKL0CvzdyWxYgi5VB1m6DE3jFFc8kvajTLdTKswSwS0h/SC7pBD0CV9BtS
+         kxlrhJPtbXoS+DLNqbzDYq0/1IcAhzWv7+RMwqfELPjKaOBtWsj3aqz8ZJglaET6YcQ9
+         FnpnyRVLO/YLY3hrDPB9QaLdJfv3+U0PwWMU/M0+KkNsrmtIwQx6fjctPbbFDY/cAMLH
+         TVF4Fp6ySTaV/EVfC9OIDEhVKqB6QRfL3yxuUUi5yiy8fMGRiEFDYJQiOmZ0BIBDZhk+
+         xdqA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe-post:sender:reply-to:message-id:list-unsubscribe
+         :in-reply-to:date:list-archive:list-url:list-id:references:list-post
+         :list-owner:to:from:subject:mime-version:dkim-signature;
+        bh=X6jrfSoZEuwnRzPLOrSMdOJZCTUqyJrMJFHIvjDblJg=;
+        b=tFbNYAI8WNkFwoyOLHLQSc+zR0WteZA/8bGYf1XiGSg0fL1NPN4or3zL6q6c891Cq0
+         nC0lnttrY2CPr/qX2kzGfkTuXWUz3dNf68Iv/6Ejn0y5N6XB/2hGxW6uzNIp7GoHBjED
+         eP6sN6it/mpROgpfOLlL/NXlfbDDgwHqJCeprgELNLtRLaZcAfK6gy9+t3pkjS0ovuVc
+         Nxh7rLpnIZ6yKVoDyICoEvV2Ps8HIOm6Pjmmh6zBY8XKs/hVEOFt6CsTxuNbKRKfie1i
+         3yl3RgZlrzRrZWJU+YQOL5YvaN2mljt8qdrP9ctR2wtY21rMGLfl1UiXYPE90MPLWrmT
+         kiHg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=Q8qWKLq1;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d190-20020a1f1dc7000000b003b85e02e83asor2777969vkd.33.2022.11.07.05.54.49
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 07 Nov 2022 05:54:49 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMsMyM5r9qfIwDJIjGAHKV4Uz1pR0+2zZ45/xqoukz81bxO8qIqR1J7y2WdDi9TSMmpnsO8nhmnypX45mKu8tbHjDrzW89Ulqp8=
+X-Received: by 2002:a1f:2c54:0:b0:3af:2d66:7059 with SMTP id s81-20020a1f2c54000000b003af2d667059mr8150975vks.14.1667829289518;
+        Mon, 07 Nov 2022 05:54:49 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1667829289; cv=none;
+        d=google.com; s=arc-20160816;
+        b=GrRvk0CLvPSk8sL5Bp/2EYDoefWfme0LCRBi+q5UfH0MR10CS8emS6BV3lTBC18gsT
+         dsbAVL6MRsF07ON4m/SBzyNuj4Qck4/i0kfM4bCSZoZ4L2s/Di7PvQ6JRawMNRGz+8cE
+         dzQWA0SDgnjiJ5w64unvq5FiJ9dl2J+sEKksz91PHsmZ5Cwo7Q9qkJQVR3oWpy01iLeu
+         LKeaXrtjrABuZp1mvc592tMFz5tG0taeRrJKchymalqtH/S9/dsTMpJORmvPLsLawgSW
+         Bfp7VE/mK3dkWpDOyqIHffPPM7s37gbsAK8zAy1QXD8UxEQbLdIZFiBgk5uS1O67QFZz
+         6i5g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe-post:sender:reply-to:message-id:list-unsubscribe
+         :in-reply-to:date:list-archive:list-url:list-id:references:list-post
+         :list-owner:to:from:subject:mime-version:dkim-signature;
+        bh=X6jrfSoZEuwnRzPLOrSMdOJZCTUqyJrMJFHIvjDblJg=;
+        b=vIKOrGfl1/BHy+dkZi1/VEsWtQKNhIL5mNOuWAF0n3k23KV2jb+5Z+n5eq284o+paA
+         t3YWkiJ0n24swZHsy8XOZnCXjK5Ht4gOP+7x9sxQbk8X+pd4CRKEA01jgbL7JcvPPFAh
+         3/5cRh0Q4fzvT75m1nSYDX0D/DoLx5lXPrpZkh2bESgl7WtVWYC1wCucXAKDvDC+MwYa
+         INxyKl/4qTzb1N3EuNtviY/7zmYuCmCew6E9drEqktr6A6BdcTbNfN1C8hBPbAjZAKuV
+         u7dCqTC4Fre/lRoYcJkehZeSwB+u7zIwBvz88a02VyPNJ+AEz05pSzToCfsOdxhGttHC
+         lg7A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=Q8qWKLq1;
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 161.38.202.45 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mg-202-45.substack.com (mg-202-45.substack.com. [161.38.202.45])
+        by gmr-mx.google.com with UTF8SMTPS id ay6-20020a056130030600b00414ee53149csi1016803uab.1.2022.11.07.05.54.44
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 07 Nov 2022 05:54:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 161.38.202.45 as permitted sender) client-ip=161.38.202.45;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1667829279; x=1667915679; h=Sender: Sender: Reply-To:
+ Message-Id: List-Unsubscribe: In-Reply-To: Date: List-Archive: List-Id:
+ References: List-Post: List-Owner: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=X6jrfSoZEuwnRzPLOrSMdOJZCTUqyJrMJFHIvjDblJg=; b=Q8qWKLq13GPmzxpSyjqoHMmTF30R+hypKzKTsrKVCZjLqTrgEr4CB72cgb0a7mWYlS0Lyn44
+ bkOuTHOWGHzYuPrCYtEBd1X2y+/kmdE/AGabgoLgH+nlrLV+9Uyj3c+qcyxiXEEHgaTxU9OB
+ SBuk2TpksZxMyExq+HMOuIFT3qU=
+X-Mailgun-Sending-Ip: 161.38.202.45
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by 874a09d8b96d with HTTP id
+ 63690e107262803788926177; Mon, 07 Nov 2022 13:54:22 GMT
+X-Mailgun-Batch-Id: 63690e0f8ba5b4d1dbcc991d
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="92cfc9edcb0b3a86b24292bf5b5c186927edc6a56fbd97597c34801c1482"
+Subject: Atoms Are Local
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Owner: <mailto:notboring@substack.com>
+List-Post: <https://www.notboring.co/p/atoms-are-local>
+References: <post-82915170@substack.com>
+List-Id: <notboring.substack.com>
+List-Url: <https://www.notboring.co/>
+List-Archive: <https://www.notboring.co/archive>
+Date: Mon, 7 Nov 2022 13:54:09 +0000
+In-Reply-To: <post-82915170@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk9ESTVNVFV4TnpBc0ltbGhkQ0k2TVRZMk56Z3lPVEkyTVN3aVpYaHdJam94Tmpjd05ESXhNall4TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUprYVhOaFlteGxYMlZ0WVdsc0luMC4tMmUyV3g4ZU5pM1R1dDZHdkhTaVQ0WUo5aXZwUTV2WlNSTWJtUTBPOFNJIiwicCI6ODI5MTUxNzAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjY3ODI5MjYxLCJleHAiOjE2NzA0MjEyNjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.aAjREKFO-YQKIWXyEQppXcETChbpgB6MhAaB4E8ClPc?>
+Message-Id: <20221107135409.3.694471c369872fc9@mg-d0.substack.com>
+Reply-To: Not Boring
+ <reply+1dd5r6&9p0gt&&1fa0f5a1a37592f789407431948ea42ae648dff52152f06426dca5db663e6671@mg1.substack.com>
+Sender: Not Boring <notboring@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1667829262083", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "82915170", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--92cfc9edcb0b3a86b24292bf5b5c186927edc6a56fbd97597c34801c1482
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/atoms-are-local
+
+Welcome to the=C2=A02,948=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0165,475=
+ smart, curious folks by subscribing here:=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Secureframe [ http=
+s://substack.com/redirect/98377356-0aa7-4b20-b616-fd1882305116?r=3D9p0gt ]
+Answering RFPs and security questionnaires is critical to closing deals and=
+ growing revenue. But the manual process can delay deals or stop them cold.=
+ Secureframe helps you respond to both fast with machine learning so you ca=
+n quickly build trust with customers, close more deals, and accelerate spee=
+d to revenue.=20
+Click here [ https://substack.com/redirect/98377356-0aa7-4b20-b616-fd188230=
+5116?r=3D9p0gt ] to schedule a demo of AI-powered Secureframe Questionnaire=
+s today.
+Hi friends =F0=9F=91=8B ,
+Happy Monday!=20
+Normally, when I write something, no matter how long and complex, I try to =
+get it done in a week. Whenever I try to plan ahead, to write out a list of=
+ potential essay topics and start researching weeks in advance, I get bored=
+ with them by the time I actually sit down to write the piece.=20
+Currently, though, I=E2=80=99m in the middle of researching and writing a p=
+iece I=E2=80=99ve been thinking about for weeks and that=E2=80=99s fully ca=
+ptured my imagination. I think it=E2=80=99s going to pull together a lot of=
+ the threads we=E2=80=99ve been talking about in Not Boring for the past co=
+uple of years and frame the way we look at the world going forward.=20
+On Friday, I was trying to jam on that essay to get it done for today, and =
+I realized that if I rushed it out, I was going to fall way short of what I=
+ was going for. I panicked a little bit, bummed that I wouldn=E2=80=99t be =
+able to do the idea justice, but marched on. Then, miraculously, two things=
+ happened: 1) Anton and I recorded the first episode of a new series, and 2=
+) Elliot sent me a draft of the piece he was working on this week.=20
+So instead of a typical Not Boring essay, we=E2=80=99re hitting you with a =
+1-2 punch. Two geniuses in two of our favorite areas guiding us through the=
+ir worlds, and two more weeks for me to work on that essay.
+Anton Teaches Packy AI
+A couple of weeks ago, I joked on Twitter that I had no idea what I was loo=
+king at when I read an AI research paper. Anton Troynikov [ https://substac=
+k.com/redirect/4223f266-8be0-4387-be10-9073c9dbc0bc?r=3D9p0gt ], the co-fou=
+nder of Not Boring portfolio company Chroma [ https://substack.com/redirect=
+/ef2e6776-a189-48dc-8c49-170c50cf0fed?r=3D9p0gt ], replied offering to teac=
+h me, paper-by-paper. =20
+After a little back and forth, we decided that there are probably a lot of =
+people who want to understand what=E2=80=99s going on in AI a lot better th=
+an they do, and that we should probably just record our sessions and share =
+them. Anton Teaches Packy AI was born.=20
+For the first session, we dug into Attention is All You Need [ https://subs=
+tack.com/redirect/64b2d451-9a0e-41b7-b5d0-9f11977df2b4?r=3D9p0gt ], the 201=
+7 paper that proposed the Transformer architecture at the heart of so much =
+of the innovation happening in AI today.  I first read about the paper in B=
+en Thompson=E2=80=99s excellent interview with Daniel Gross and Nat Friedma=
+n [ https://substack.com/redirect/992a960e-bfbb-45e4-a11e-31c3c9387ffa?r=3D=
+9p0gt ] and heard about it again in Lex Fridman=E2=80=99s conversation with=
+ AI master Andrej Karpathy [ https://substack.com/redirect/de7201eb-3a5c-4f=
+ca-a62e-c66f903b825a?r=3D9p0gt ]. It=E2=80=99s a biggie.=20
+We decided to make Anton Teaches Packy AI a YouTube series in order to use =
+visual aids to explain the concepts, and I=E2=80=99m excited to unveil our =
+first episode:
+If you=E2=80=99re curious about AI, I=E2=80=99d love if you watched it and =
+SMASH THOSE LIKE, SUBSCRIBE, AND SHARE BUTTONS [ https://substack.com/redir=
+ect/e112e96d-d4ec-405a-b998-e263680eb6b1?r=3D9p0gt ] (am I doing this right=
+? I=E2=80=99m new to YouTube). More importantly, we=E2=80=99d love your fee=
+dback. This is very much a work-in-progress, and we want it to be as useful=
+ as possible. What can we do better? What questions do you still have about=
+ Attention is All You Need? What papers do you want us to do next? We=E2=80=
+=99ll plan to do one of these per week, and I=E2=80=99m happy to serve my i=
+deal role as the kid in class who=E2=80=99s willing to ask the dumb questio=
+ns no one else wants to ask. =F0=9F=AB=A1
+Atoms Are Local
+That brings us to the draft of the essay that Elliot sent me. Elliot Hershb=
+erg [ https://substack.com/redirect/098709a3-2d33-486c-8190-3b2fd5f73980?r=
+=3D9p0gt ] joined Not Boring because he=E2=80=99s my favorite writer on one=
+ of the topics that I think will have the most mindblowing impact on humani=
+ty in the coming decades but about which I have nowhere near the depth of u=
+nderstanding to write or invest intelligently: biology.
+One of the things I love about Elliot=E2=80=99s writing is that he combines=
+ an academic=E2=80=99s deep grounding in the science with a writer/investor=
+=E2=80=99s willingness to dream up big, crazy ideas. Today=E2=80=99s piece,=
+ Atoms Are Local, is a perfect example of that combination. In it, Elliot w=
+alks through the science and technology it would take to reach a future in =
+which everything grows on trees.
+As Elliot writes, =E2=80=9CThe holy grail of biotechnology is to learn enou=
+gh of the language of Nature to put an end to disease and human scarcity.=
+=E2=80=9D Using technology to put an end to human scarcity is what we=E2=80=
+=99re all about here at Not Boring, so when I read Elliot=E2=80=99s draft, =
+I asked him if we could publish it here, and he agreed.=20
+Putting an end to disease and scarcity sounds far-fetched, but Elliot makes=
+ a compelling case that we have many of the puzzle pieces we need to make i=
+t a reality. In fact, as Elliot and I discuss our potential techbio investm=
+ents, a risk that keeps popping into my mind is: =E2=80=9CAre we going to r=
+un out of diseases for these companies to cure?=E2=80=9D The ultimate good =
+problem to have.=20
+Plus, this piece (along with a couple of Elliot=E2=80=99s other bangers) is=
+ going to be an important input to that big one that I=E2=80=99m working on=
+ =F0=9F=91=80. It=E2=80=99s a key thread in a major trend I=E2=80=99m seein=
+g pop up in places I=E2=80=99d least expect.=20
+Let=E2=80=99s get to it.=20
+Atoms Are Local
+By Elliot Hershberg
+We are rapidly pursuing the industrialization of biotech. Large-scale autom=
+ation now powers complex bio-foundries. Many synthetic biology companies ar=
+e hellbent on scaling production volumes of new materials. A major concern =
+is the shortage of bioreactors and fermentation capacity. While these all s=
+eem like obvious bottlenecks for the Bioeconomy, what if they aren=E2=80=99=
+t? What if there is another way? Here, I=E2=80=99ll explore a different ide=
+a: the biologization of industry.
+Few people have been more effective advocates of engineering biology than D=
+rew Endy [ https://substack.com/redirect/caa1027e-9f3d-40b3-b3fd-09396290e1=
+7d?r=3D9p0gt ]. As an early pioneer in the field of synthetic biology, he h=
+elped to launch the undergraduate majors in biological engineering at both =
+MIT=E2=80=94which was the first of its kind in the country=E2=80=94and Stan=
+ford. His trainees have founded some of the leading companies in the discip=
+line. Clearly, some of his ideas have taken root. However, the concept of t=
+he biologization of industry=E2=80=94which I view as one of the most compel=
+ling visions for the future of the Bioeconomy=E2=80=94seems to have remaine=
+d dormant. Here is the core premise [ https://substack.com/redirect/2a446d6=
+3-3978-4c75-87ef-4764583630f8?r=3D9p0gt ]:
+Biologization of Industry -- Many people default to a mindset of industrial=
+ization. But, why naively inherit a metaphor that dominated 19th century Br=
+itain? Biology is the ultimate distributed manufacturing platform. We are k=
+een to explore and make true future biotechnologies that enable people to m=
+ore directly and freely make whatever they need where-ever they are.
+We exist on a beautiful planet that is completely carpeted in complex livin=
+g systems. Some of these systems are microscopic in size yet are capable of=
+ blooming into populations that are visible from space.
+Other organisms are insanely large, such as the  [ https://substack.com/red=
+irect/105422ff-9001-43db-8cff-c8d4a5a86bb4?r=3D9p0gt ]Armillaria bulbosa [ =
+https://substack.com/redirect/105422ff-9001-43db-8cff-c8d4a5a86bb4?r=3D9p0g=
+t ] fungus that spans at least 15 hectares and weighs more than 20,000 poun=
+ds. Biology manages to adapt and grow everywhere and is capable of both ato=
+mic precision and enormous scale. In other words, we inhabit a biosphere th=
+at is capable of producing more than enough to meet our needs. The holy gra=
+il of biotechnology is to learn enough of the language of Nature to put an =
+end to disease and human scarcity. As Ginkgo CEO Jason Kelly puts it:
+So=E2=80=A6 how do we get to a future where everything grows on trees?
+At the outset, I=E2=80=99ll admit that this is an enormous question and I d=
+on=E2=80=99t have the answer. However, this is precisely the type of questi=
+on that is worth spending time thinking about, and that can be a generative=
+ source of new ideas and directions. In that spirit, we=E2=80=99ll explore:
+The industrialization of biotech
+The Antibody Box
+The Personal Biomaker
+The Bionet
+Let=E2=80=99s jump in! =F0=9F=A7=AC
+The industrialization of biotech
+The Industrial Revolution of the 18th and 19th centuries was a major inflec=
+tion point for our species. Originating in Britain, this revolution laid ma=
+ny of the underpinnings of the modern world that we inhabit. The mechanizat=
+ion of work, the establishment of centralized factories, and the origins of=
+ modern capitalism can all be traced back to this tectonic shift. This all =
+turned out to be a pretty big deal:
+Gross domestic product (GDP) per capita began to skyrocket around the world=
+ after centuries of little change. We figured out how to make machines, and=
+ even machines that make machines. Early advances included the mechanizatio=
+n of textile production, but it=E2=80=99s hard to think of areas of materia=
+ls production that haven=E2=80=99t since been industrialized. The industria=
+lization of chemistry proved to be particularly consequential.
+Efforts in scaling chemical production and expanding the diversity of molec=
+ules that could be produced ultimately led to the establishment of the petr=
+ochemical industry. Our world runs on these molecules. Our fuels and energy=
+, clothing, materials and plastics, food (especially from fertilizers), and=
+ medicines are all products of modern industrial chemistry. Basically=E2=80=
+=A6 Better Living Through Chemistry [ https://substack.com/redirect/af0282d=
+2-bc5d-4bd7-8624-f196d65ae0c7?r=3D9p0gt ].
+Despite the increase in production and abundance, industrialization has fun=
+damental shortcomings and many negative externalities. Factories have a hum=
+an toll. Many industrial methods are highly inefficient and produce enough =
+pollutants to be a threat to planetary health. As we=E2=80=99ve seen during=
+ COVID and the Russian invasion of Ukraine, centralized manufacturing and c=
+omplex global trade routes also introduce fragility [ https://substack.com/=
+redirect/8f587a8c-91be-4ae4-8787-85f259a894f3?r=3D9p0gt ] into our world.
+Current industrial production methods can=E2=80=99t be sustainably scaled.
+The promise of biotechnology is that offers the solution to this problem. S=
+o far, we have mainly pursued the industrialization of biotechnology as a w=
+ay to mitigate the consequences of existing approaches to production. The s=
+tory of Genentech is an example of this. The first therapeutic produced usi=
+ng genetic engineering=E2=80=94insulin=E2=80=94already existed as a medicin=
+e. Before the use of genetic engineering, insulin was isolated and extracte=
+d from animals. Genentech=E2=80=99s major breakthrough was to replace highl=
+y wasteful and inefficient production methods.
+The industrialization of recombinant DNA made it possible to harness cells =
+as miniature factories for the production of drugs. Genentech scaled this p=
+owerful process in a centralized structure like a pharmaceutical company, a=
+nd now operates as a subsidiary of Roche.
+Early examples of consumer products produced using biotech have followed si=
+milar storylines. Pat Brown, who was a Stanford professor and inventor of t=
+he DNA microarray, founded Impossible Foods to create incredible meat alter=
+natives using genetic engineering. Again, the goal was to mitigate the extr=
+eme consequences of industrial farming by producing an equivalent product w=
+ith far less waste using bioengineering. The result is a new food company w=
+ith centralized labs and factories that ships these meat alternatives aroun=
+d the world.
+We are also starting to harness synthetic biology to tackle the issues of i=
+ndustrial chemistry. A Houston-based company called Solugen [ https://subst=
+ack.com/redirect/e4cb603f-69bc-478f-9c69-9f7a584b9626?r=3D9p0gt ] recently =
+raised over $200 million in a Series D financing [ https://substack.com/red=
+irect/cce31b4f-95a3-4ad7-bbe1-66fc942f6c26?r=3D9p0gt ] to continue growing =
+the operations of their carbon negative molecule factory. This is an incred=
+ible example of what the industrialization of biotech can accomplish. Solug=
+en has the potential to scale to profitably and abundantly produce commodit=
+y and specialty chemicals while removing CO2 from the atmosphere.
+So far, the industrialization of biotech has produced powerful replacements=
+ for wasteful and inefficient methods of production. We can now generate in=
+sulin, and ironically, cheeseburgers, without sacrificing millions of anima=
+l lives. Companies like Solugen are demonstrating that we can use biology t=
+o build new chemical factories that don=E2=80=99t rely on digging fossils o=
+ut of the ground.
+Now, let=E2=80=99s turn our attention to what the biologization of industry=
+ might look like. As Endy likes to say, =E2=80=9Cbiology teaches us that at=
+oms are local.=E2=80=9D This is a really important idea. Fundamentally, bio=
+logical systems are built using only the local resources in their environme=
+nt, and the information in their genomes. Put more simply [ https://substac=
+k.com/redirect/e5cdec49-0941-470f-a5f2-eb444b09f394?r=3D9p0gt ]:
+The leaves on a tree don=E2=80=99t come from a factory and then get shipped=
+ to where the tree is going to be and taped and stapled to the twigs and br=
+anches. The photons and molecules arrive where the biology is going to grow=
+ and the biology grows locally.
+How could we accomplish true local production? A starting point could be an=
+tibodies.
+The Antibody Box
+Antibodies are incredible molecular machines. They are large, Y-shaped prot=
+eins produced by immune cells to recognize and bind to specific molecules o=
+n the surface of pathogens in our bodies. When bound, they physically obstr=
+uct their target and serve as a signal for the rest of the immune system to=
+ respond to the pathogen.
+To read how The Antibody Box, Personal Biomakers, and The Bionet could lead=
+ us to that abundant, disease-free future with local atoms=E2=80=A6
+Thanks to Dan for editing, to Elliot for lending us his brilliance, and to =
+Anton for teaching me AI! If you don=E2=80=99t already, you should really s=
+ubscribe to Elliot=E2=80=99s newsletter: Century of Biology [ https://subst=
+ack.com/redirect/f35f778f-68ab-434d-9249-1a2cebf64d43?r=3D9p0gt ].
+That=E2=80=99s all for today. We=E2=80=99ll be back in your inbox on Friday=
+ morning with the Weekly Dose of Optimism. Have a great week!=20
+Thanks for reading (and watching),=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZPREk1TVRVeE56QXNJbWxoZENJNk1UWTJOemd5T1RJMk1Td2laW=
+Gh3SWpveE5qY3dOREl4TWpZeExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FY=
+TmhZbXhsWDJWdFlXbHNJbjAuLTJlMld4OGVOaTNUdXQ2R3ZIU2lUNFlKOWl2cFE1dlpTUk1ibVE=
+wTzhTSSIsInAiOjgyOTE1MTcwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY2NzgyOTI2MSwiZXhwIjoxNjcwNDIxMjYxLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbmstc=
+mVkaXJlY3QifQ.pYUZe14nefVvf2yRgs-OBc705Iqb7tlsRKbFVvZQ72Q?
+--92cfc9edcb0b3a86b24292bf5b5c186927edc6a56fbd97597c34801c1482
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title>Atoms Are Local</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .footer {
+    outline: 8px solid #eeeeee !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIxMTA3MTM1NDA5LjMuNjk0NDcxYzM2OTg3MmZjOUBtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjo4MjkxNTE3MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2NzgyOTI=
+2MiwiZXhwIjoxNjcwNDIxMjYyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.pkcBhI1OtpHW03=
+5fDq7-PTQ0Buf2k4zV28-f60Xcm4I" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/><div sty=
+le=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:0=
+px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Elliot on th=
+e biologization of industry, PLUS Anton Teaches Packy AI &#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body=
+-container"><tr><td></td><td width=3D"550" class=3D"content"></td><td></td>=
+</tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"content"><div s=
+tyle=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550p=
+x; overflow-wrap: break-word; width: 100%;"><table role=3D"presentation" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"right" style=3D"height: 20px;"><table role=3D"presentation" width=3D"au=
+to" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"verti=
+cal-align: middle;"><span class=3D"tw-font-body tw-text-ssm tw-text-substac=
+k-secondary" style=3D"color: #808080 !important; font-family: SF Pro Text, =
+-apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Aria=
+l, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !importan=
+t; font-size: 13px !important;"><a href=3D"https://open.substack.com/pub/no=
+tboring/p/atoms-are-local?utm_source=3Demail&redirect=3Dapp-store" class=3D=
+"tw-text-substack-secondary tw-underline" style=3D"-webkit-text-decoration-=
+line: underline !important; color: #808080 !important; text-decoration-line=
+: underline !important;">Open in app</a> or <a href=3D"https://substack.com=
+/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvYXRvbXMtYXJlLWxvY2F=
+sP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPREk1TVRVeE=
+56QXNJbWxoZENJNk1UWTJOemd5T1RJMk1Td2laWGh3SWpveE5qY3dOREl4TWpZeExDSnBjM01pT=
+2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuLW11LTdtTmZG=
+VFRNOTdTejAtOWl2MHJONU1VRHVEanNkMlkwMDBRdnNQUSIsInAiOjgyOTE1MTcwLCJzIjoxMDA=
+yNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NzgyOTI2MSwiZXhwIjoxNjcwNDIxMj=
+YxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.mD2CpygnlKrC5mwbEV2b4m=
+DWtQ5SlR6VNeinRAqs0UQ?" class=3D"tw-text-substack-secondary tw-underline" s=
+tyle=3D"-webkit-text-decoration-line: underline !important; color: #808080 =
+!important; text-decoration-line: underline !important;">online</a></span><=
+/td></tr></table></td></tr></table><div dir=3D"auto" class=3D"post typograp=
+hy" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div=
+ class=3D"post-header" style=3D"font-size: 16px; line-height: 26px;"><h1 cl=
+ass=3D"post-title published" style=3D"-moz-osx-font-smoothing: antialiased;=
+ -webkit-font-smoothing: antialiased; color: #404040; font-family: 'SF Comp=
+act Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 32px; font-weight: bold; line-height: 36px; margin: 0;"><=
+a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D82915170&utm_source=3Dpost-email-title&isFreemail=3Dtrue&token=3DeyJ1c2V=
+yX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODI5MTUxNzAsImlhdCI6MTY2NzgyOTI2MSwiZXhwIj=
+oxNjcwNDIxMjYxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.-mu-7=
+mNfFTTM97Sz0-9iv0rN5MUDuDjsd2Y000QvsPQ" style=3D"color: #404040; text-decor=
+ation: none;">Atoms Are Local</a></h1><h3 class=3D"subtitle" style=3D"-moz-=
+osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color=
+: #808080; font-family: 'SF Compact Display', -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-weight: normal=
+; line-height: 24px; margin: 4px 0 0; margin-top: 12px;">Elliot on the biol=
+ogization of industry, PLUS Anton Teaches Packy AI</h3><table cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: c=
+enter; height: 20px; margin: 1em 0;"><tr><td title=3D"2022-11-07T13:54:10.5=
+86Z" class=3D"post-meta-item post-date" style=3D"color: #808080; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px =
+12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position: =
+relative; text-decoration: none; white-space: nowrap;"><div class=3D"fronte=
+nd-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-1=
+2--2onFT frontend-pencraft-Text-module__line-height-20--1soeQ frontend-penc=
+raft-Text-module__weight-medium--aTbx5 frontend-pencraft-Text-module__font-=
+meta--2i-cR frontend-pencraft-Text-module__color-secondary--XjVGl frontend-=
+pencraft-Text-module__meta--3RRSj" style=3D"color: #808080; font-family: 'S=
+F Compact Text', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Inter',=
+ 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: 0.2px; =
+line-height: 20px; margin: 0; text-decoration: unset; text-transform: upper=
+case;"><time dateTime=3D"2022-11-07T13:54:10.586Z">Nov 7</time></div></td><=
+/tr></table><table role=3D"presentation" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bot=
+tom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><t=
+r height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;"=
+>&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentat=
+ion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><t=
+d style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"3=
+8" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center=
+"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post=
+_id=3D82915170&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&to=
+ken=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODI5MTUxNzAsInJlYWN0aW9uIjoi4=
+p2kIiwiaWF0IjoxNjY3ODI5MjYxLCJleHAiOjE2NzA0MjEyNjEsImlzcyI6InB1Yi0xMDAyNSIs=
+InN1YiI6InJlYWN0aW9uIn0.cSbpC7mHbNRkFai0UFkyEwHgqsm4q9Av3Rw1AXGd7tc&utm_med=
+ium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; b=
+ox-sizing: border-box; color: #808080; display: inline-block; font-family: =
+'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; m=
+in-width: 38px; padding: 9px 0; text-decoration: none; text-transform: uppe=
+rcase; width: 38px;" class=3D"email-icon-button"><img src=3D"https://substa=
+ckcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill=
+%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18=
+" style=3D"border: none !important; max-width: 18px; vertical-align: middle=
+;" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" style=
+=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D82915170&utm_source=3Dsubstack&utm_medi=
+um=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4Mz=
+U0OSwicG9zdF9pZCI6ODI5MTUxNzAsImlhdCI6MTY2NzgyOTI2MSwiZXhwIjoxNjcwNDIxMjYxL=
+CJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.-mu-7mNfFTTM97Sz0-9i=
+v0rN5MUDuDjsd2Y000QvsPQ&utm_source=3Dsubstack&utm_medium=3Demail" style=3D"=
+border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-box;=
+ color: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-=
+system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; paddin=
+g: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px;" c=
+lass=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/=
+w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D=
+%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: =
+none !important; max-width: 18px; vertical-align: middle;" alt=3D"" class=
+=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8p=
+x"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" =
+width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D=
+10025&post_id=3D82915170&utm_source=3Dsubstack&utm_medium=3Demail&utm_conte=
+nt=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ=
+1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODI5MTUxNzAsImlhdCI6MTY2NzgyOTI2MSwiZX=
+hwIjoxNjcwNDIxMjYxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.-=
+mu-7mNfFTTM97Sz0-9iv0rN5MUDuDjsd2Y000QvsPQ" style=3D"border: 1px solid #e0e=
+0e0; border-radius: 100000px; box-sizing: border-box; color: #808080; displ=
+ay: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font=
+-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-decorat=
+ion: none; text-transform: uppercase; width: 38px;" class=3D"email-icon-but=
+ton"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideSha=
+re%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth=
+%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; max-widt=
+h: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td></tr></t=
+able></td></tr></table></td><td align=3D"right"><table role=3D"presentation=
+" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td s=
+tyle=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL3AvYXRvbXMtYXJlLWxvY2FsP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT=
+1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2T0RJN=
+U1UVXhOekFzSW1saGRDSTZNVFkyTnpneU9USTJNU3dpWlhod0lqb3hOamN3TkRJeE1qWXhMQ0pw=
+YzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnpZWFpsTFhCdmMzUWlmUS50a29rcFhsck1=
+6QlBBbWNZSGlZYzk3Q3JkTmlTLXVxdzJETEVYMzBHNkgwJmFjdGlvbj1zYXZlIiwicCI6ODI5MT=
+UxNzAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjY3ODI5MjYxLCJle=
+HAiOjE2NzA0MjEyNjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.zCpZWdE=
+8ApvWf9veaasUn-69TwPnGjBJUMd8dhpLAoY?" class=3D"email-button-outline" style=
+=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; dis=
+play: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-seri=
+f, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; fo=
+nt-weight: 500; line-height: 12px; padding: 9px 14px; text-decoration: none=
+; text-transform: uppercase;"><div class=3D"email-button-spacer" style=3D"d=
+isplay: inline-block; font-size: 16px; line-height: 26px; max-width: 0; min=
+-height: 18px; vertical-align: middle;"></div><span class=3D"email-button-t=
+ext" style=3D"vertical-align: middle;">Save</span></a></td></tr></table></t=
+d><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align=
+: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://op=
+en.substack.com/pub/notboring/p/atoms-are-local?utm_source=3Demail-ufi&play=
+_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODI5MTUxNzAsI=
+mlhdCI6MTY2NzgyOTI2MSwiZXhwIjoxNjcwNDIxMjYxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIi=
+OiJwb3N0LXJlYWN0aW9uIn0.-mu-7mNfFTTM97Sz0-9iv0rN5MUDuDjsd2Y000QvsPQ" class=
+=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border-radius=
+: 100000px; color: #808080; display: inline-block; font-family: 'SF Pro Tex=
+t', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; padding: =
+9px 14px; text-decoration: none; text-transform: uppercase;"><div class=3D"=
+email-button-spacer" style=3D"display: inline-block; font-size: 16px; line-=
+height: 26px; max-width: 0; min-height: 18px; vertical-align: middle;"></di=
+v><span class=3D"email-button-text" style=3D"vertical-align: middle;">&#965=
+5;&#160;&#160;Listen</span></a></td></tr></table></td></tr></table></td></t=
+r></table></td></tr><tr height=3D"16"><td height=3D"16" style=3D"font-size:=
+ 0px; line-height: 0;">&#160;</td></tr></table></div></div><div dir=3D"auto=
+" class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; pa=
+dding: 16px 0 0 0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-s=
+ize: 16px; line-height: 26px; margin-bottom: 16px; text-align: initial; wid=
+th: 100%; word-break: break-word;"><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0; margin-top: 0;"><em><span>Welco=
+me to the&#160;</span><strong>2,948&#160;newly Not Boring people&#160;</str=
+ong><span>who have joined us since last Monday! If you haven&#8217;t subscr=
+ibed, join&#160;</span><strong>165,475 </strong><span>smart, curious folks =
+by subscribing here: </span></em></p><div class=3D"subscribe-widget is-sign=
+ed-up is-fully-subscribed" style=3D"direction: ltr; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-align=
+: center;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d=
+3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjo4MjkxNTE3MCwicyI6MTAwMjUsImYiOnRydWUs=
+InUiOjE2MjgzNTQ5LCJpYXQiOjE2Njc4MjkyNjEsImV4cCI6MTY3MDQyMTI2MSwiaXNzIjoicHV=
+iLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.WDIw5IUjbBVu-T_jW9-4UxXiSmzvigpIO9CLtQ=
+0ph_g?" class=3D"button subscribe-btn outline" style=3D"background: transpa=
+rent; background-color: transparent; border: 1px solid #67bdfc; border-radi=
+us: 4px; box-sizing: border-box; color: #67bdfc; cursor: pointer; display: =
+inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; line-h=
+eight: 20px; margin: 0 auto; opacity: 1; outline: none; padding: 12px 20px;=
+ text-align: center; text-decoration: none !important; white-space: nowrap;=
+"><img src=3D"https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%=
+3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%252367bdfc%26strokeW=
+idth%3D2" width=3D"20" height=3D"20" style=3D"-ms-interpolation-mode: bicub=
+ic; border: none !important; display: inline-block; height: auto; margin: 0=
+ auto; margin-right: 0.5rem; max-width: 20px; vertical-align: middle;" alt=
+=3D"" class=3D"check-icon static"><span style=3D"text-decoration: none;">Su=
+bscribe</span></a></p></div><div style=3D"font-size: 16px; line-height: 26p=
+x;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: 32=
+px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;"><strong><span>Today&#8217;s Not Boring i=
+s brought to you by&#8230; </span><a href=3D"https://substack.com/redirect/=
+98377356-0aa7-4b20-b616-fd1882305116?r=3D9p0gt" rel=3D"" style=3D"color: #4=
+04040; text-decoration: underline;">Secureframe</a></strong></p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;">=
+<table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"522" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://substack.com/redirect/98ef2fd3-96e9-49bd-be56-0081f=
+9f8b1f8?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; dis=
+play: block; flex-direction: column; height: auto; margin: 0; padding: 0; p=
+osition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"=
+{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be779=
+84.s3.amazonaws.com/public/images/aba4ff86-1f2b-4ead-8527-27acf1796e08_1984=
+x384.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot=
+;height&quot;:282,&quot;width&quot;:1456,&quot;resizeWidth&quot;:522,&quot;=
+bytes&quot;:null,&quot;alt&quot;:&quot;This is How They Tell Me Secureframe=
+ Saves the World&quot;,&quot;title&quot;:&quot;This is How They Tell Me Sec=
+ureframe Saves the World&quot;,&quot;type&quot;:null,&quot;href&quot;:null,=
+&quot;belowTheFold&quot;:false,&quot;internalRedirect&quot;:null}" alt=3D"T=
+his is How They Tell Me Secureframe Saves the World" title=3D"This is How T=
+hey Tell Me Secureframe Saves the World" width=3D"522" height=3D"101.101648=
+35164835" class=3D"" src=3D"https://substackcdn.com/image/fetch/w_522,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Faba4ff86-=
+1f2b-4ead-8527-27acf1796e08_1984x384.png" style=3D"-ms-interpolation-mode: =
+bicubic; border: none !important; display: block; height: auto; margin: 0 a=
+uto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; =
+width: auto !important;"></a></td><td style=3D"text-align: center;"></td></=
+tr></tbody></table></figure></div><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><em>Answering RFPs and security=
+ questionnaires is critical to closing deals and growing revenue. But the m=
+anual process can delay deals or stop them cold. Secureframe helps you resp=
+ond to both fast with machine learning so you can quickly build trust with =
+customers, close more deals, and accelerate speed to revenue. </em></p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;"><em><span>Click </span><strong><a href=3D"https://substack.com/redire=
+ct/98377356-0aa7-4b20-b616-fd1882305116?r=3D9p0gt" rel=3D"" style=3D"color:=
+ #404040; text-decoration: underline;">here</a></strong><span> to schedule =
+a demo of AI-powered Secureframe Questionnaires today.</span></em></p><p cl=
+ass=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://securef=
+rame.com/offer/notboring?utm_source=3Dnotboring&amp;utm_medium=3Dcpm&amp;ut=
+m_campaign=3D110722-not-boring&quot;,&quot;text&quot;:&quot;Schedule Demo&q=
+uot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-align: cen=
+ter;"><a class=3D"button primary" href=3D"https://substack.com/redirect/983=
+77356-0aa7-4b20-b616-fd1882305116?r=3D9p0gt" rel=3D"" style=3D"background-c=
+olor: #67bdfc; border: none; border-radius: 4px; box-sizing: border-box; co=
+lor: #ffffff !important; cursor: pointer; display: inline-block; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 600; height: auto; line-height: 20px; margin: 0; =
+opacity: 1; outline: none; padding: 12px 20px; text-align: center; text-dec=
+oration: none !important; white-space: nowrap;"><span style=3D"color: #ffff=
+ff; text-decoration: none;">Schedule Demo</span></a></p><div style=3D"font-=
+size: 16px; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: n=
+one; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Hi friends &=
+#128075; ,</p><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;">Happy Monday! </p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">Normally, when I write =
+something, no matter how long and complex, I try to get it done in a week. =
+Whenever I try to plan ahead, to write out a list of potential essay topics=
+ and start researching weeks in advance, I get bored with them by the time =
+I actually sit down to write the piece. </p><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Currently, though, I&=
+#8217;m in the middle of researching and writing a piece I&#8217;ve been th=
+inking about for weeks and that&#8217;s fully captured my imagination. I th=
+ink it&#8217;s going to pull together a lot of the threads we&#8217;ve been=
+ talking about in Not Boring for the past couple of years and frame the way=
+ we look at the world going forward. </p><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;">On Friday, I was trying =
+to jam on that essay to get it done for today, and I realized that if I rus=
+hed it out, I was going to fall way short of what I was going for. I panick=
+ed a little bit, bummed that I wouldn&#8217;t be able to do the idea justic=
+e, but marched on. Then, miraculously, two things happened: 1) Anton and I =
+recorded the first episode of a new series, and 2) Elliot sent me a draft o=
+f the piece he was working on this week. </p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">So instead of a typi=
+cal Not Boring essay, we&#8217;re hitting you with a 1-2 punch. Two geniuse=
+s in two of our favorite areas guiding us through their worlds, and two mor=
+e weeks for me to work on that essay.</p><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Anton Teaches Pa=
+cky AI</strong></p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;"><span>A couple of weeks ago, I joked on Twitte=
+r that I had no idea what I was looking at when I read an AI research paper=
+=2E </span><a href=3D"https://substack.co=
+m/redirect/4223f266-8be0-4387-be10-9=
+073c9dbc0bc?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: u=
+nderline;">Anton Troynikov</a><span>, the co-founder of Not Boring portfoli=
+o company </span><a href=3D"https://substack.com/redirect/ef2e6776-a189-48d=
+c-8c49-170c50cf0fed?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decor=
+ation: underline;">Chroma</a><span>, replied offering to teach me, paper-by=
+-paper.  </span></p><div class=3D"tweet static" style=3D"-webkit-font-smoot=
+hing: subpixel-antialiased; background: #ffffff; border: 1px solid #e0e0e0;=
+ border-radius: 8px; box-sizing: border-box; color: #404040; direction: ltr=
+; display: block; flex-direction: column; font-family: 'SF Pro Text', -appl=
+e-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; gap: 12px; line-height: 20px; marg=
+in: 32px auto; max-width: 550px; padding: 16px 16px 12px; transition: color=
+ 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);"><a class=3D"tweet-link-=
+top" href=3D"https://substack.com/redirect/b3479fcb-95a9-4c7a-b34b-e3a1bbcc=
+7330?r=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: #404040; display=
+: block; flex-direction: column; gap: 12px; text-decoration: none; white-sp=
+ace: pre-wrap;"><div class=3D"tweet-header" style=3D"align-items: center; d=
+isplay: block; flex-direction: row; font-size: 16px; gap: 12px; height: 48p=
+x; line-height: 26px; margin-bottom: 12px;"><img class=3D"tweet-header-avat=
+ar" src=3D"https://substackcdn.com/image/twitter_name/w_96/atroyn.jpg" alt=
+=3D"Twitter avatar for @atroyn" loading=3D"lazy" style=3D"-ms-interpolation=
+-mode: bicubic; border: none !important; border-radius: 50%; display: block=
+; float: left; height: 48px; margin: 0; margin-right: 12px; max-width: 100%=
+; vertical-align: middle; width: 48px;"><div class=3D"tweet-header-text" st=
+yle=3D"display: block; flex-direction: column; font-size: 14px; line-height=
+: 20px; padding-top: 4px;"><span class=3D"tweet-author-name" style=3D"displ=
+ay: block; font-weight: 600;">anton &#127988;&#8205;&#9760;&#65039; </span>=
+<span class=3D"tweet-author-handle" style=3D"color: #808080; display: block=
+;">@atroyn</span></div></div><div class=3D"tweet-text" style=3D"font-size: =
+20px; line-height: 24px; margin-bottom: 16px;"><span class=3D"tweet-fake-li=
+nk" style=3D"color: #1da1f2;">@packyM</span><span> packy i would absolutely=
+ do a weekly 'anton explains an ML paper to packy' type thing with you</spa=
+n></div></a><a class=3D"tweet-link-bottom" href=3D"https://substack.com/red=
+irect/b3479fcb-95a9-4c7a-b34b-e3a1bbcc7330?r=3D9p0gt" target=3D"_blank" rel=
+=3D"" style=3D"color: #404040; display: block; flex-direction: column; gap:=
+ 12px; text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-f=
+ooter" style=3D"align-items: flex-start; display: block; flex-direction: co=
+lumn; font-size: 14px; gap: 8px; line-height: 20px; margin-top: 12px;"><spa=
+n class=3D"tweet-date" style=3D"color: #808080; flex: 1;">12:12 AM &#8729; =
+Oct 22, 2022</span></div></a></div><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><span>After a little back and =
+forth, we decided that there are probably a lot of people who want to under=
+stand what&#8217;s going on in AI a lot better than they do, and that we sh=
+ould probably just record our sessions and share them. </span><em>Anton Tea=
+ches Packy AI</em><span> was born. </span></p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>For the first=
+ session, we dug into </span><em><a href=3D"https://substack.com/redirect/6=
+4b2d451-9a0e-41b7-b5d0-9f11977df2b4?r=3D9p0gt" rel=3D"" style=3D"color: #40=
+4040; text-decoration: underline;">Attention is All You Need</a></em><span>=
+, the 2017 paper that proposed the Transformer architecture at the heart of=
+ so much of the innovation happening in AI today.  I first read about the p=
+aper in </span><a href=3D"https://substack.com/redirect/992a960e-bfbb-45e4-=
+a11e-31c3c9387ffa?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decorat=
+ion: underline;">Ben Thompson&#8217;s excellent interview with Daniel Gross=
+ and Nat Friedman</a><span> and heard about it again in </span><a href=3D"h=
+ttps://substack.com/redirect/de7201eb-3a5c-4fca-a62e-c66f903b825a?r=3D9p0gt=
+" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Lex Fridma=
+n&#8217;s conversation with AI master Andrej Karpathy</a><span>. It&#8217;s=
+ a biggie. </span></p><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><span>We decided to make </span><em>Anton T=
+eaches Packy AI</em><span> a YouTube series in order to use visual aids to =
+explain the concepts, and I&#8217;m excited to unveil our first episode:</s=
+pan></p><a href=3D"https://substack.com/redirect/7a7b0639-5289-4d9b-be84-c6=
+28bbe4b8ce?r=3D9p0gt" target=3D"_blank" class=3D"youtube-wrap" style=3D"dis=
+play: block; margin: 1.6em 0;"><img src=3D"https://substackcdn.com/image/yo=
+utube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/73Dx3Ts1ze4" style=3D"-ms-i=
+nterpolation-mode: bicubic; border: none !important; display: block; height=
+: auto; margin: 0 auto; max-width: 100%; vertical-align: middle; width: 100=
+%;"></a><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><span>If you&#8217;re curious about AI, I&#8217;d love if=
+ you watched it and </span><strong><a href=3D"https://substack.com/redirect=
+/e112e96d-d4ec-405a-b998-e263680eb6b1?r=3D9p0gt" rel=3D"" style=3D"color: #=
+404040; text-decoration: underline;">SMASH THOSE LIKE, SUBSCRIBE, AND SHARE=
+ BUTTONS</a></strong><span> (am I doing this right? I&#8217;m new to YouTub=
+e). More importantly, we&#8217;d love your feedback. This is very much a wo=
+rk-in-progress, and we want it to be as useful as possible. What can we do =
+better? What questions do you still have about </span><em>Attention is All =
+You Need?</em><span> What papers do you want us to do next? We&#8217;ll pla=
+n to do one of these per week, and I&#8217;m happy to serve my ideal role a=
+s the kid in class who&#8217;s willing to ask the dumb questions no one els=
+e wants to ask. &#129761;</span></p><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Atoms Are Local</stro=
+ng></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;"><span>That brings us to the draft of the essay that Elliot=
+ sent me. </span><a href=3D"https://substack.com/redirect/098709a3-2d33-486=
+c-8190-3b2fd5f73980?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decor=
+ation: underline;">Elliot Hershberg</a><span> joined Not Boring because he&=
+#8217;s my favorite writer on one of the topics that I think will have the =
+most mindblowing impact on humanity in the coming decades but about which I=
+ have nowhere near the depth of understanding to write or invest intelligen=
+tly: biology.</span></p><p style=3D"color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;"><span>One of the things I love about Elli=
+ot&#8217;s writing is that he combines an academic&#8217;s deep grounding i=
+n the science with a writer/investor&#8217;s willingness to dream up big, c=
+razy ideas. Today&#8217;s piece, </span><em>Atoms Are Local</em><span>, is =
+a perfect example of that combination. In it, Elliot walks through the scie=
+nce and technology it would take to reach a future in which </span><strong>=
+everything grows on trees</strong><span>.</span></p><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>As Elli=
+ot writes, &#8220;The holy grail of biotechnology is to learn enough of the=
+ language of Nature to </span><strong>put an end to disease and human scarc=
+ity</strong><span>.&#8221; Using technology to put an end to human scarcity=
+ is what we&#8217;re all about here at Not Boring, so when I read Elliot&#8=
+217;s draft, I asked him if we could publish it here, and he agreed. </span=
+></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><span>Putting an end to disease and scarcity sounds far-fetc=
+hed, but Elliot makes a compelling case that we have many of the puzzle pie=
+ces we need to make it a reality. In fact, as Elliot and I discuss our pote=
+ntial techbio investments, a risk that keeps popping into my mind is: &#822=
+0;</span><strong>Are we going to run out of diseases for these companies to=
+ cure?</strong><span>&#8221; The ultimate good problem to have. </span></p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;">Plus, this piece (along with a couple of Elliot&#8217;s other ban=
+gers) is going to be an important input to that big one that I&#8217;m work=
+ing on &#128064;. It&#8217;s a key thread in a major trend I&#8217;m seeing=
+ pop up in places I&#8217;d least expect. </p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Let&#8217;s get to =
+it. </p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"bac=
+kground: #e0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;"><=
+/div><h1 class=3D"header-with-anchor-widget" style=3D"-moz-osx-font-smoothi=
+ng: antialiased; -webkit-font-smoothing: antialiased; color: #404040; font-=
+family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-height: 1.16=
+em; margin: 1em 0 0.625em 0; position: relative;"><strong>Atoms Are Local</=
+strong></h1><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;">By Elliot Hershberg</p><div class=3D"captioned-image-=
+container-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px=
+ auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"imag=
+e-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align:=
+ center;"></td><td align=3D"left" class=3D"content" width=3D"1201" style=3D=
+"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"htt=
+ps://substack.com/redirect/fd9095f9-960d-43ca-bd00-fd14f395f5fc?r=3D9p0gt" =
+rel=3D"" style=3D"align-items: center; border: none; display: block; flex-d=
+irection: column; height: auto; margin: 0; padding: 0; position: relative; =
+text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&q=
+uot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com=
+/public/images/890e97a7-3d38-41e7-a827-3c8baab16590_1201x600.png&quot;,&quo=
+t;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:600,&=
+quot;width&quot;:1201,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:138321=
+0,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/=
+png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;interna=
+lRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"274.77102414654456"=
+ class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2402,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc=
+84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F890e97a=
+7-3d38-41e7-a827-3c8baab16590_1201x600.png" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table></figure></div><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><span>We are rapidly pursuing=
+ the </span><strong>industrialization</strong><span> </span><strong>of biot=
+ech</strong><span>. Large-scale automation now powers complex bio-foundries=
+=2E Many synthetic biology companies are=20=
+hellbent on scaling production volum=
+es of new materials. A major concern is the shortage of bioreactors and fer=
+mentation capacity. While these all seem like obvious bottlenecks for the B=
+ioeconomy, what if they aren&#8217;t? What if there is another way? Here, I=
+&#8217;ll explore a different idea: the </span><strong>biologization of ind=
+ustry.</strong></p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;"><span>Few people have been more effective advo=
+cates of engineering biology than</span><a href=3D"https://substack.com/red=
+irect/caa1027e-9f3d-40b3-b3fd-09396290e17d?r=3D9p0gt" rel=3D"" style=3D"col=
+or: #404040; text-decoration: underline;"> Drew Endy</a><span>. As an early=
+ pioneer in the field of synthetic biology, he helped to launch the undergr=
+aduate majors in </span><strong>biological engineering</strong><span> at bo=
+th MIT&#8212;which was the first of its kind in the country&#8212;and Stanf=
+ord. His trainees have founded some of the leading companies in the discipl=
+ine. Clearly, some of his ideas have taken root. However, the concept of th=
+e biologization of industry&#8212;which I view as one of the most compellin=
+g visions for the future of the Bioeconomy&#8212;seems to have remained dor=
+mant. Here is the core</span><a href=3D"https://substack.com/redirect/2a446=
+d63-3978-4c75-87ef-4764583630f8?r=3D9p0gt" rel=3D"" style=3D"color: #404040=
+; text-decoration: underline;"> premise</a><span>:</span></p><blockquote st=
+yle=3D"border-left: 4px solid #67bdfc; margin: 20px 0;"><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-lef=
+t: 20px;"><strong>Biologization of Industry</strong><span> -- Many people d=
+efault to a mindset of industrialization. But, why naively inherit a metaph=
+or that dominated 19th century Britain? Biology is the ultimate distributed=
+ manufacturing platform. We are keen to explore and make true future biotec=
+hnologies that enable people to more directly and freely make whatever they=
+ need where-ever they are.</span></p></blockquote><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">We exist on a b=
+eautiful planet that is completely carpeted in complex living systems. Some=
+ of these systems are microscopic in size yet are capable of blooming into =
+populations that are visible from space.</p><div class=3D"captioned-image-c=
+ontainer-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px =
+auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image=
+-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: =
+center;"></td><td align=3D"left" class=3D"content" width=3D"1456" style=3D"=
+text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"http=
+s://substack.com/redirect/c02670ff-cec7-4b2f-b9b6-7b5e24517be9?r=3D9p0gt" r=
+el=3D"" style=3D"align-items: center; border: none; display: block; flex-di=
+rection: column; height: auto; margin: 0; padding: 0; position: relative; t=
+ext-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&qu=
+ot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/=
+public/images/76285202-ec1e-4065-9439-42d2469f094d_1456x526.png&quot;,&quot=
+;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:526,&q=
+uot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&q=
+uot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&=
+quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}=
+" alt=3D"" width=3D"550" height=3D"198.69505494505495" class=3D"wide-image"=
+ src=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb=
+32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F76285202-ec1e-4065-9439-42d2=
+469f094d_1456x526.png" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; display: block; height: auto; margin: 0 auto; margin-bottom:=
+ 0; max-width: 100% !important; vertical-align: middle; width: auto !import=
+ant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table>=
+<figcaption class=3D"image-caption" style=3D"color: #808080; font-size: 14p=
+x; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; margin-top=
+: 8px; padding-left: 15%; padding-right: 15%; text-align: center; width: 70=
+%;"><em><span>Freshwater</span><a href=3D"https://substack.com/redirect/b0a=
+a92f6-efb8-44f9-b286-14bc74f1bde6?r=3D9p0gt" rel=3D"" style=3D"text-decorat=
+ion: underline;"> algae</a><span>; Algal</span><a href=3D"https://substack.=
+com/redirect/884311ab-33d2-471a-acd7-c9d13c37790b?r=3D9p0gt" rel=3D"" style=
+=3D"text-decoration: underline;"> blooms</a><span> detected by NASA satelli=
+tes at the mouth of the Amazon River.</span></em></figcaption></figure></di=
+v><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;"><span>Other organisms are insanely large, such as the</span><a =
+href=3D"https://substack.com/redirect/105422ff-9001-43db-8cff-c8d4a5a86bb4?=
+r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;"> =
+</a><em><a href=3D"https://substack.com/redirect/105422ff-9001-43db-8cff-c8=
+d4a5a86bb4?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: un=
+derline;">Armillaria bulbosa</a></em><span> fungus that spans at least 15 h=
+ectares and weighs more than 20,000 pounds. Biology manages to adapt and gr=
+ow </span><strong>everywhere</strong><span> and is capable of both atomic p=
+recision and enormous scale. In other words, we inhabit a biosphere that is=
+ capable of producing more than enough to meet our needs. </span><strong>Th=
+e holy grail of biotechnology is to learn enough of the language of Nature =
+to put an end to disease and human scarcity</strong><span>. As Ginkgo CEO J=
+ason Kelly puts it:</span></p><div class=3D"tweet static" style=3D"-webkit-=
+font-smoothing: subpixel-antialiased; background: #ffffff; border: 1px soli=
+d #e0e0e0; border-radius: 8px; box-sizing: border-box; color: #404040; dire=
+ction: ltr; display: block; flex-direction: column; font-family: 'SF Pro Te=
+xt', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; gap: 12px; line-height: 20px; marg=
+in: 32px auto; max-width: 550px; padding: 16px 16px 12px; transition: color=
+ 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);"><a class=3D"tweet-link-=
+top" href=3D"https://substack.com/redirect/085968e4-65da-43af-bb04-ad85e187=
+1fbf?r=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: #404040; display=
+: block; flex-direction: column; gap: 12px; text-decoration: none; white-sp=
+ace: pre-wrap;"><div class=3D"tweet-header" style=3D"align-items: center; d=
+isplay: block; flex-direction: row; font-size: 16px; gap: 12px; height: 48p=
+x; line-height: 26px; margin-bottom: 12px;"><img class=3D"tweet-header-avat=
+ar" src=3D"https://substackcdn.com/image/twitter_name/w_96/jrkelly.jpg" alt=
+=3D"Twitter avatar for @jrkelly" loading=3D"lazy" style=3D"-ms-interpolatio=
+n-mode: bicubic; border: none !important; border-radius: 50%; display: bloc=
+k; float: left; height: 48px; margin: 0; margin-right: 12px; max-width: 100=
+%; vertical-align: middle; width: 48px;"><div class=3D"tweet-header-text" s=
+tyle=3D"display: block; flex-direction: column; font-size: 14px; line-heigh=
+t: 20px; padding-top: 4px;"><span class=3D"tweet-author-name" style=3D"disp=
+lay: block; font-weight: 600;">Jason Kelly </span><span class=3D"tweet-auth=
+or-handle" style=3D"color: #808080; display: block;">@jrkelly</span></div><=
+/div><div class=3D"tweet-text" style=3D"font-size: 20px; line-height: 24px;=
+ margin-bottom: 16px;">&quot;X doesn't grow on trees&quot; ... biology is s=
+o much better at manufacturing than any human-invented tech that we use it =
+as an idiom for free and abundant.  if we all do our job well in synthetic =
+biology everything will grow on trees.</div></a><a class=3D"tweet-link-bott=
+om" href=3D"https://substack.com/redirect/085968e4-65da-43af-bb04-ad85e1871=
+fbf?r=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: #404040; display:=
+ block; flex-direction: column; gap: 12px; text-decoration: none; white-spa=
+ce: pre-wrap;"><div class=3D"tweet-footer" style=3D"align-items: flex-start=
+; display: block; flex-direction: column; font-size: 14px; gap: 8px; line-h=
+eight: 20px; margin-top: 12px;"><span class=3D"tweet-date" style=3D"color: =
+#808080; flex: 1;">3:57 PM &#8729; Dec 1, 2019</span><hr style=3D"backgroun=
+d: #e0e0e0; border: none; height: 1px; margin: 12px 0; padding: 0; width: 1=
+00%;"><div class=3D"tweet-ufi" style=3D"align-items: center; display: block=
+; font-size: 16px; gap: 24px; height: 20px; line-height: 26px;"><span href=
+=3D"https://twitter.com/jrkelly/status/1201168489685438465?s=3D20&amp;t=3Do=
+C1lMH7fsg3YIe-jV2yTBQ/likes" class=3D"likes" style=3D"color: #808080; displ=
+ay: block; float: left; font-size: 14px; gap: 4px; line-height: 20px; margi=
+n-right: 24px; text-decoration: none;"><span class=3D"like-count" style=3D"=
+color: #404040; font-weight: 600; margin-right: 4px;">501</span><span>Likes=
+</span></span><span href=3D"https://twitter.com/jrkelly/status/120116848968=
+5438465?s=3D20&amp;t=3DoC1lMH7fsg3YIe-jV2yTBQ/retweets" class=3D"retweets" =
+style=3D"color: #808080; display: block; float: left; font-size: 14px; gap:=
+ 4px; line-height: 20px; margin-right: 24px; text-decoration: none;"><span =
+class=3D"rt-count" style=3D"color: #404040; font-weight: 600; margin-right:=
+ 4px;">95</span><span>Retweets</span></span></div></div></a></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><strong>So&#8230; how do we get to a future where everything grows on tre=
+es?</strong></p><p style=3D"color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0 0 20px 0;">At the outset, I&#8217;ll admit that this is an e=
+normous question and I don&#8217;t have the answer. However, this is precis=
+ely the type of question that is worth spending time thinking about, and th=
+at can be a generative source of new ideas and directions. In that spirit, =
+we&#8217;ll explore:</p><ul style=3D"margin-top: 0; padding: 0;"><li style=
+=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizi=
+ng: border-box; color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0; margin-bottom: 0; padding-left: 4px;"><strong>The industrialization of =
+biotech</strong></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-for=
+mat: bullet;"><p style=3D"box-sizing: border-box; color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"=
+><strong>The Antibody Box</strong></p></li><li style=3D"margin: 8px 0 0 32p=
+x; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; p=
+adding-left: 4px;"><strong>The Personal Biomaker</strong></p></li><li style=
+=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizi=
+ng: border-box; color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0; margin-bottom: 0; padding-left: 4px;"><strong>The Bionet</strong></p></=
+li></ul><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">Let&#8217;s jump in! &#129516;</p><h2 class=3D"header-wit=
+h-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-fon=
+t-smoothing: antialiased; color: #404040; font-family: 'SF Compact Display'=
+, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 1.625em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625e=
+m 0; position: relative;"><strong>The industrialization of biotech</strong>=
+</h2><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;">The Industrial Revolution of the 18th and 19th centuries was=
+ a major inflection point for our species. Originating in Britain, this rev=
+olution laid many of the underpinnings of the modern world that we inhabit.=
+ The mechanization of work, the establishment of centralized factories, and=
+ the origins of modern capitalism can all be traced back to this tectonic s=
+hift. This all turned out to be a pretty big deal:</p><div class=3D"caption=
+ed-image-container-static" style=3D"font-size: 16px; line-height: 26px; mar=
+gin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table clas=
+s=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"te=
+xt-align: center;"></td><td align=3D"left" class=3D"content" width=3D"540" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://substack.com/redirect/38f87dfb-b5e6-45d5-8777-5e8851185feb?r=
+=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: blo=
+ck; flex-direction: column; height: auto; margin: 0; padding: 0; position: =
+relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;sr=
+c&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com/public/images/fa498ad3-d849-4885-a741-e7a09fb9cdde_540x450.png&q=
+uot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&qu=
+ot;:450,&quot;width&quot;:540,&quot;resizeWidth&quot;:null,&quot;bytes&quot=
+;:null,&quot;alt&quot;:&quot;File:Historic world GDP per capita.svg&quot;,&=
+quot;title&quot;:&quot;File:Historic world GDP per capita.svg&quot;,&quot;t=
+ype&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;in=
+ternalRedirect&quot;:null}" alt=3D"File:Historic world GDP per capita.svg" =
+title=3D"File:Historic world GDP per capita.svg" width=3D"540" height=3D"45=
+0" class=3D"" src=3D"https://substackcdn.com/image/fetch/w_540,c_limit,f_au=
+to,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-4=
+37e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa498ad3-d849-48=
+85-a741-e7a09fb9cdde_540x450.png" style=3D"-ms-interpolation-mode: bicubic;=
+ border: none !important; display: block; height: auto; margin: 0 auto; mar=
+gin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: a=
+uto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbo=
+dy></table><figcaption class=3D"image-caption" style=3D"color: #808080; fon=
+t-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px;=
+ margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center=
+; width: 70%;"><a href=3D"https://substack.com/redirect/66cbed78-407f-4b1c-=
+a97d-ecf629d58db8?r=3D9p0gt" rel=3D"" style=3D"text-decoration: underline;"=
+>Source</a></figcaption></figure></div><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Gross domestic produ=
+ct (GDP) per capita began to skyrocket around the world after centuries of =
+little change. We figured out how to make machines, and even machines that =
+make machines. Early advances included the mechanization of textile product=
+ion, but it&#8217;s hard to think of areas of materials production that hav=
+en&#8217;t since been industrialized. The </span><strong>industrialization =
+of chemistry</strong><span> proved to be particularly consequential.</span>=
+</p><div class=3D"captioned-image-container-static" style=3D"font-size: 16p=
+x; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; =
+width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><=
+tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"800" style=3D"text-align: center;"><a class=3D"image-=
+link" target=3D"_blank" href=3D"https://substack.com/redirect/2bf8fb8a-86fc=
+-473f-a474-1ebe147caf21?r=3D9p0gt" rel=3D"" style=3D"align-items: center; b=
+order: none; display: block; flex-direction: column; height: auto; margin: =
+0; padding: 0; position: relative; text-decoration: none; width: auto;"><im=
+g data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e=
+-9518-adb32be77984.s3.amazonaws.com/public/images/ee7e71ac-8c54-4b92-b490-3=
+4944073c803_800x522.jpeg&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&=
+quot;:null,&quot;height&quot;:522,&quot;width&quot;:800,&quot;resizeWidth&q=
+uot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;File:StRolloxChemica=
+l 1831.jpg&quot;,&quot;title&quot;:&quot;File:StRolloxChemical 1831.jpg&quo=
+t;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:tru=
+e,&quot;internalRedirect&quot;:null}" alt=3D"File:StRolloxChemical 1831.jpg=
+" title=3D"File:StRolloxChemical 1831.jpg" width=3D"550" height=3D"358.875"=
+ class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1600,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc=
+84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fee7e71a=
+c-8c54-4b92-b490-34944073c803_800x522.jpeg" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: #8=
+08080; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-hei=
+ght: 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-ali=
+gn: center; width: 70%;"><a href=3D"https://substack.com/redirect/ff34eb27-=
+e1c6-4920-8033-c371bffadb49?r=3D9p0gt" rel=3D"" style=3D"text-decoration: u=
+nderline;">St Rollox Chemical Work</a><span>s in Glasgow, Scotland, 1831. (=
+</span><a href=3D"https://substack.com/redirect/a4d460f1-f516-48aa-a1d7-c52=
+d0b984410?r=3D9p0gt" rel=3D"" style=3D"text-decoration: underline;">source<=
+/a><span>)</span></figcaption></figure></div><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Efforts in sca=
+ling chemical production and expanding the diversity of molecules that coul=
+d be produced ultimately led to the establishment of the petrochemical indu=
+stry. </span><strong>Our world runs on these molecules.</strong><span> Our =
+fuels and energy, clothing, materials and plastics, food (especially from f=
+ertilizers), and medicines are all products of modern industrial chemistry.=
+ Basically&#8230;</span><a href=3D"https://substack.com/redirect/af0282d2-b=
+c5d-4bd7-8624-f196d65ae0c7?r=3D9p0gt" rel=3D"" style=3D"color: #404040; tex=
+t-decoration: underline;"> Better Living Through Chemistry</a><span>.</span=
+></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><span>Despite the increase in production and abundance, indu=
+strialization has fundamental shortcomings and many negative externalities.=
+ Factories have a human toll. Many industrial methods are highly inefficien=
+t and produce enough pollutants to be a threat to planetary health. As we&#=
+8217;ve seen during COVID and the Russian invasion of Ukraine, centralized =
+manufacturing and complex global trade routes also</span><a href=3D"https:/=
+/substack.com/redirect/8f587a8c-91be-4ae4-8787-85f259a894f3?r=3D9p0gt" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;"> introduce frag=
+ility</a><span> into our world.</span></p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Current industr=
+ial production methods can&#8217;t be sustainably scaled.</strong></p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;"><span>The promise of biotechnology is that offers the solution to this=
+ problem. So far, we have mainly pursued the </span><strong>industrializati=
+on of biotechnology</strong><span> as a way to mitigate the consequences of=
+ existing approaches to production. The story of Genentech is an example of=
+ this. The first therapeutic produced using genetic engineering&#8212;insul=
+in&#8212;already existed as a medicine. Before the use of genetic engineeri=
+ng, insulin was isolated and extracted from animals. Genentech&#8217;s majo=
+r breakthrough was to replace highly wasteful and inefficient production me=
+thods.</span></p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><strong>The industrialization of recombinant DNA=
+ made it possible to harness cells as miniature factories for the productio=
+n of drugs</strong><span>. Genentech scaled this powerful process in a cent=
+ralized structure like a pharmaceutical company, and now operates as a subs=
+idiary of Roche.</span></p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;">Early examples of consumer products pr=
+oduced using biotech have followed similar storylines. Pat Brown, who was a=
+ Stanford professor and inventor of the DNA microarray, founded Impossible =
+Foods to create incredible meat alternatives using genetic engineering. Aga=
+in, the goal was to mitigate the extreme consequences of industrial farming=
+ by producing an equivalent product with far less waste using bioengineerin=
+g. The result is a new food company with centralized labs and factories tha=
+t ships these meat alternatives around the world.</p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>We are=
+ also starting to harness synthetic biology to tackle the issues of industr=
+ial chemistry. A Houston-based company called</span><a href=3D"https://subs=
+tack.com/redirect/e4cb603f-69bc-478f-9c69-9f7a584b9626?r=3D9p0gt" rel=3D"" =
+style=3D"color: #404040; text-decoration: underline;"> Solugen</a><span> re=
+cently</span><a href=3D"https://substack.com/redirect/cce31b4f-95a3-4ad7-bb=
+e1-66fc942f6c26?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoratio=
+n: underline;"> raised over $200 million in a Series D financing</a><span> =
+to continue growing the operations of their </span><strong>carbon negative<=
+/strong><span> molecule factory. This is an incredible example of what the =
+industrialization of biotech can accomplish. Solugen has the potential to s=
+cale to profitably and abundantly produce commodity and specialty chemicals=
+ while </span><strong>removing</strong><span> CO2 from the atmosphere.</spa=
+n></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;"><span>So far, the </span><strong>industrialization of biote=
+ch</strong><span> has produced powerful replacements for wasteful and ineff=
+icient methods of production. We can now generate insulin, and ironically, =
+cheeseburgers, without sacrificing millions of animal lives. Companies like=
+ Solugen are demonstrating that we can use biology to build new chemical fa=
+ctories that don&#8217;t rely on digging fossils out of the ground.</span><=
+/p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;"><span>Now, let&#8217;s turn our attention to what the </span><=
+strong>biologization of industry</strong><span> might look like. As Endy li=
+kes to say, </span><strong>&#8220;biology teaches us that atoms are local.&=
+#8221;</strong><span> This is a really important idea. Fundamentally, biolo=
+gical systems are built using only the local resources in their environment=
+, and the information in their genomes. Put more</span><a href=3D"https://s=
+ubstack.com/redirect/e5cdec49-0941-470f-a5f2-eb444b09f394?r=3D9p0gt" rel=3D=
+"" style=3D"color: #404040; text-decoration: underline;"> simply</a><span>:=
+</span></p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 20p=
+x 0;"><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0; margin-left: 20px;">The leaves on a tree don&#8217;t come fr=
+om a factory and then get shipped to where the tree is going to be and tape=
+d and stapled to the twigs and branches. The photons and molecules arrive w=
+here the biology is going to grow and the biology grows locally.</p></block=
+quote><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;"><span>How could we accomplish true local production? A star=
+ting point could be </span><strong>antibodies.</strong></p><h2 class=3D"hea=
+der-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -web=
+kit-font-smoothing: antialiased; color: #404040; font-family: 'SF Compact D=
+isplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 1.625em; font-weight: bold; line-height: 1.16em; margin: 1em 0=
+ 0.625em 0; position: relative;"><strong>The Antibody Box</strong></h2><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;">Antibodies are incredible molecular machines. They are large, Y-shape=
+d proteins produced by immune cells to recognize and bind to specific molec=
+ules on the surface of pathogens in our bodies. When bound, they physically=
+ obstruct their target and serve as a signal for the rest of the immune sys=
+tem to respond to the pathogen.</p><h4 class=3D"header-with-anchor-widget" =
+style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: anti=
+aliased; color: #404040; font-family: 'SF Compact Display', -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; fo=
+nt-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: re=
+lative;"><strong>To read how The Antibody Box, Personal Biomakers, and The =
+Bionet could lead us to that abundant, disease-free future with local atoms=
+&#8230;</strong></h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&q=
+uot;:&quot;https://www.notboring.co/i/82915170/the-antibody-box&quot;,&quot=
+;text&quot;:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&qu=
+ot;class&quot;:null}" style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0; text-align: center;"><a class=3D"button primary=
+" href=3D"https://substack.com/redirect/c4e3998b-7972-4e24-a702-2cc6a87337f=
+7?r=3D9p0gt" rel=3D"" style=3D"background-color: #67bdfc; border: none; bor=
+der-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor:=
+ pointer; display: inline-block; font-family: -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; h=
+eight: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; paddi=
+ng: 12px 20px; text-align: center; text-decoration: none !important; white-=
+space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Cont=
+inue Reading Online</span></a></p><div style=3D"font-size: 16px; line-heigh=
+t: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; marg=
+in: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;"><em><span>Thanks to Dan for editin=
+g, to Elliot for lending us his brilliance, and to Anton for teaching me AI=
+! If you don&#8217;t already, you should really subscribe to Elliot&#8217;s=
+ newsletter: </span><a href=3D"https://substack.com/redirect/f35f778f-68ab-=
+434d-9249-1a2cebf64d43?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-de=
+coration: underline;">Century of Biology</a><span>.</span></em></p><div sty=
+le=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e0e0e0=
+; border: none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">T=
+hat&#8217;s all for today. We&#8217;ll be back in your inbox on Friday morn=
+ing with the Weekly Dose of Optimism. Have a great week! </p><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Than=
+ks for reading (and watching), </p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">Packy</p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-botto=
+m: 0;"></p></div></div><div class=3D"container-border" style=3D"border-top:=
+ 1px solid #e0e0e0; box-sizing: border-box; font-size: 16px; line-height: 2=
+6px; margin: 32px 0 0; width: 100%;"></div><div class=3D"post-cta" style=3D=
+"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D"colo=
+r: #404040; font-size: 16px; font-style: italic; line-height: 26px; margin:=
+ 24px 0 0; margin-top: 0;"><span>If you liked this post from <a href=3D"htt=
+ps://substack.com/redirect/302a4986-e246-4c3b-a955-802e22fc42aa?r=3D9p0gt" =
+style=3D"color: #404040; text-decoration: underline;">Not Boring by Packy M=
+cCormick</a>, why not share it?</span></p><p class=3D"cta-box" style=3D"col=
+or: #404040; font-size: 16px; font-style: italic; line-height: 26px; margin=
+: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"https://substac=
+k.com/redirect/2b35edfd-cd73-47f9-8659-811b6fb172b2?r=3D9p0gt" class=3D"but=
+ton primary twitter-link" style=3D"background-color: #67bdfc; border: 0px s=
+olid #67bdfc; border-radius: 4px; border-width: 13px 20px 13px 18px; box-si=
+zing: content-box; color: #ffffff !important; cursor: pointer; display: inl=
+ine-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 17px; font-style: normal; font-weight: 300; hei=
+ght: 24px; line-height: 24px; margin: 0; opacity: 1; outline: none; padding=
+: 0; text-align: center; text-decoration: none !important; vertical-align: =
+middle; white-space: nowrap;"><span style=3D"color: #ffffff; text-decoratio=
+n: none;">Share</span></a></p></div><table role=3D"presentation" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-=
+bottom" style=3D"border-top: 1px solid #e0e0e0; min-width: 100%;"><tr heigh=
+t=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;=
+</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentation" wi=
+dth=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in: 0 auto;"><tr><td style=3D"vertical-align: middle;"><table role=3D"prese=
+ntation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><t=
+r><td align=3D"center"><a href=3D"https://substack.com/app-link/post?public=
+ation_id=3D10025&post_id=3D82915170&utm_source=3Dsubstack&isFreemail=3Dtrue=
+&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODI5MTUx=
+NzAsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjY3ODI5MjYxLCJleHAiOjE2NzA0MjEyNjEsIml=
+zcyI6InB1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.cSbpC7mHbNRkFai0UFkyEwHgqsm4q9=
+Av3Rw1AXGd7tc&utm_medium=3Demail" class=3D"email-button-outline" style=3D"b=
+order: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display:=
+ inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-we=
+ight: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; tex=
+t-transform: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_=
+36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.co=
+m%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523=
+808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none =
+!important; margin-right: 8px; max-width: 18px; min-height: 18px; min-width=
+: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"ema=
+il-button-text" style=3D"vertical-align: middle;">Like</span></a></td></tr>=
+</table></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"ver=
+tical-align: middle;"><table role=3D"presentation" width=3D"auto" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D=
+"https://substack.com/app-link/post?publication_id=3D10025&post_id=3D829151=
+70&utm_source=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtr=
+ue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODI5MTUxNzAsImlhdCI6MTY2=
+NzgyOTI2MSwiZXhwIjoxNjcwNDIxMjYxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJ=
+lYWN0aW9uIn0.-mu-7mNfFTTM97Sz0-9iv0rN5MUDuDjsd2Y000QvsPQ&utm_source=3Dsubst=
+ack&utm_medium=3Demail" class=3D"email-button-outline" style=3D"border: 1px=
+ solid #e0e0e0; border-radius: 100000px; color: #808080; display: inline-bl=
+ock; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500;=
+ line-height: 12px; padding: 9px 14px; text-decoration: none; text-transfor=
+m: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale=
+,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2=
+FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%=
+26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !import=
+ant; margin-right: 8px; max-width: 18px; min-height: 18px; min-width: 18px;=
+ vertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-butt=
+on-text" style=3D"vertical-align: middle;">Comment</span></a></td></tr></ta=
+ble></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertica=
+l-align: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"htt=
+ps://substack.com/app-link/post?publication_id=3D10025&post_id=3D82915170&u=
+tm_source=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&action=3Dshare&=
+triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwic=
+G9zdF9pZCI6ODI5MTUxNzAsImlhdCI6MTY2NzgyOTI2MSwiZXhwIjoxNjcwNDIxMjYxLCJpc3Mi=
+OiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.-mu-7mNfFTTM97Sz0-9iv0rN5MU=
+DuDjsd2Y000QvsPQ" class=3D"email-button-outline" style=3D"border: 1px solid=
+ #e0e0e0; border-radius: 100000px; color: #808080; display: inline-block; f=
+ont-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-=
+height: 12px; padding: 9px 14px; text-decoration: none; text-transform: upp=
+ercase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucid=
+eShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeW=
+idth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; marg=
+in-right: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical=
+-align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" =
+style=3D"vertical-align: middle;">Share</span></a></td></tr></table></td></=
+tr></table></td><td align=3D"right"><table role=3D"presentation" width=3D"a=
+uto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr></tr></table></td=
+></tr></table></td></tr><tr height=3D"16"><td height=3D"16" style=3D"font-s=
+ize: 0px; line-height: 0;">&#160;</td></tr></table><div class=3D"footer" st=
+yle=3D"background: #eeeeee !important; border-radius: 4px; color: #808080; =
+font-size: 16px; line-height: 26px; padding: 16px; text-align: center;"><p =
+class=3D"small" style=3D"color: #808080; font-family: -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; line-height=
+: 20px; margin: 0; padding-bottom: 16px;">&#169; 2022 <span>Packy McCormick=
+</span><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://substac=
+k.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYm=
+xlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPR=
+Ek1TVRVeE56QXNJbWxoZENJNk1UWTJOemd5T1RJMk1Td2laWGh3SWpveE5qY3dOREl4TWpZeExD=
+SnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuLTJ=
+lMld4OGVOaTNUdXQ2R3ZIU2lUNFlKOWl2cFE1dlpTUk1ibVEwTzhTSSIsInAiOjgyOTE1MTcwLC=
+JzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NzgyOTI2MSwiZXhwIjoxN=
+jcwNDIxMjYxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.pYUZe14nefVvf=
+2yRgs-OBc705Iqb7tlsRKbFVvZQ72Q?" style=3D"color: #808080; text-decoration: =
+underline;"><span style=3D"color: #808080; text-decoration: underline;">Uns=
+ubscribe</span></a></p><p class=3D"small powered-by-substack" style=3D"colo=
+r: #808080; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 12px; line-height: 20px; margin: 0; margin-top=
+: 0; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/3d5f18d5-=
+f18c-46a4-88a0-14d3b4b4fae4?r=3D9p0gt" style=3D"color: #808080; display: in=
+line-block; margin: 0 4px; text-decoration: none;"><img src=3D"https://subs=
+tackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png" =
+srcset=3D"https://substackcdn.com/image/fetch/w_130,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric=
+-app-button.png, https://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2F=
+generic-app-button%402x.png 2x, https://substackcdn.com/image/fetch/w_390,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Fimg%2Femail%2Fgeneric-app-button%403x.png 3x" width=3D"130" alt=3D"Get the=
+ app" height=3D"40" style=3D"border: none !important; max-width: 550px; ver=
+tical-align: middle;"></a><a href=3D"https://substack.com/redirect/3030f365=
+-eed9-4860-86d5-ad9ea9b838d3?r=3D9p0gt" style=3D"color: #808080; display: i=
+nline-block; margin: 0 4px; text-decoration: none;"><img src=3D"https://sub=
+stackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" src=
+set=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-bu=
+tton.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish=
+-button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_au=
+to,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femai=
+l%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=
+=3D"40" style=3D"border: none !important; max-width: 550px; vertical-align:=
+ middle;"></a></p></div></div></td><td></td></tr></table><img src=3D"https:=
+//mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIxMTA3MTM1ND=
+A5LjMuNjk0NDcxYzM2OTg3MmZjOUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksI=
+nIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjo4=
+MjkxNTE3MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InB=
+vc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY2NzgyOTI2MiwiZXhwIj=
+oxNjcwNDIxMjYyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Gs2ZRtNjYVAwkeFhlqHyW2vQK=
+i-cUSc2WpXdbbtvSVc" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D=
+"height:1px !important;width:1px !important;border-width:0 !important;margi=
+n-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;mar=
+gin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;=
+padding-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" =
+height=3D"1px" alt=3D"" src=3D"https://email.mg-d0.substack.com/o/eJxFkNtux=
+CAMRL-mvDXiknB54FuQA04WNYEVcVrl78tupPbNskc-MxOBcK3t8s96EMMd8hZWLNj6PgUgL7Q2=
+VjqpJbeKJa8VLFNi-QhLw7feUzuRPc95yxEo1xJy8oJzObGHj7PlqNyyaMPlnAC0stMINo2TXrg=
+A9uIGOFPGEtHjN7arFmSx7jsWer26JX3oNsQkDGfZSy6lENwINY3cDWrQbhyNiEo7a-QS3cfI9_=
+Uz8eE454Mgfg39I2u-VJpry2Xtgq8H7Li9D919eCHPkukKWGDeMN3B6K7mPLC9g2lpO9Tdruh6o=
+i_4c2xIhI11Wqq9lPIPYvjXoXG_Wvh6ew"></body></html>
+--92cfc9edcb0b3a86b24292bf5b5c186927edc6a56fbd97597c34801c1482--

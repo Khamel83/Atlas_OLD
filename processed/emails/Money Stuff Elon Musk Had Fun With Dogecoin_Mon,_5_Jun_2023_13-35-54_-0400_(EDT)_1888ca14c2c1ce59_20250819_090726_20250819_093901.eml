@@ -1,0 +1,2242 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2928018rwb;
+        Mon, 5 Jun 2023 10:36:02 -0700 (PDT)
+X-Received: by 2002:ac2:419a:0:b0:4f3:93d6:f969 with SMTP id z26-20020ac2419a000000b004f393d6f969mr4983295lfh.59.1685986561368;
+        Mon, 05 Jun 2023 10:36:01 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1685986561; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=mkweSuSneE1hKChuJ+nE+SQ7jb1pt0zkOKrVZQfh8ZTw/A6aF6GOnSdA2mHcqLW1oU
+         Trl4B+OxVX2TI2s/VoVMVIyE6q7ZR4hyh67iZWR+lCKP8xaLt1TwbHhXSznh4W3+q9xB
+         4vZB+tNzuEIuyM8dcX4rn+WYqGUf/TPrqIq7fQ64mG90ZQZF0AgqQtpbaGLCVB11d8sA
+         as7Mufm+xGMWdlJAE5DXYljItK6Vm7i5aQ1/CEXg6513K6GkkbHmNUGP2+RyL9PEcjw8
+         m59C1qxA6MiFp53LjVeTOUmPoANtgRePSRtY6BcoEKy2duUXwgol2jH79xaxgLaVTzFS
+         QiOw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=CuctzoZ2zErTaW8USuH+bIGiRRMQZ/ouykPlQF9DARc=;
+        b=tkQBySqB+OqGe4/RHZR5mwstBLiJ1Jvm160KPa0obDDXOL6/zX3PkWbgvGOx2j9D+k
+         XUc++LIeSuNtJ8lYlRftUB4KmdotAgcTCrvL7Td3zA1yJOuNdG2/+W3D1GL9NNM0gY+j
+         qE7VLk+cEPSHbVO1snJxRLZVvNBtJo3gODhQRlyeGmQLmW5/98PsHhW3l8HFw3aepCEA
+         mWI/1kKAtmRD2D4LCIDsQ+JCY3MD39P5jsShTw9urDBtJ00nv/++TrbDsrRiU1f8ID1Y
+         STbhURMXtN57c97ZNeCWdzYeZan9+VT1azWMfKeh3c8/W3TvfGfIUhykIzUlEoD3h3EX
+         074w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=whEAZn3A;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k21-20020a7bc415000000b003edecf52d90sor1116763wmi.0.2023.06.05.10.36.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 05 Jun 2023 10:36:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=whEAZn3A;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685986561; x=1688578561;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=CuctzoZ2zErTaW8USuH+bIGiRRMQZ/ouykPlQF9DARc=;
+        b=Eo3sqdDGNCPmNNOVnHvuaf27u8hmEan0tOklahfh+fE5GWzzVNHvf8GH8Nv7pVfVW1
+         se6hwGTzpSkibz/iiWTKupVGZC6sqsPjXRCTkoJS+iLNGNcVEwIhBxrejaUY63ELdFPY
+         xQwKW4IKfwWqX36yyDt/hrSaHrtpgVvru1Ri3dkCvpp2RDWhCiP3z9MYUkpwYm5fyBCy
+         8FFJXnz4D2r/5guQNbFUdtALDzKaFzKzW5hF2UOVFOTgB3JgEHFxutlkhFaNFqDm7ET1
+         5UDDgIadqK7QHNvNLBA0q8edWbkfV3LBOFTCEDfxkHf8r8A2EJOTrx0hLtuzAzHFAl5J
+         gEZw==
+X-Gm-Message-State: AC+VfDwMSN4xQKt6EHqrH4wJ7jj0fDvcv8cIlmp8hw6KXxllozUT9SRE
+	OXCeYVl0/WsPNkRQqXD33bKNLE82ZMNhpzSXdueSbMQe9GOHseK3FA==
+X-Received: by 2002:a1c:f609:0:b0:3f7:2d79:c5b1 with SMTP id w9-20020a1cf609000000b003f72d79c5b1mr1235688wmc.6.1685986560848;
+        Mon, 05 Jun 2023 10:36:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f909:0:0:0:0:0 with SMTP id b9csp1120906wrr;
+        Mon, 5 Jun 2023 10:35:57 -0700 (PDT)
+X-Received: by 2002:a17:903:234b:b0:1ac:b449:352d with SMTP id c11-20020a170903234b00b001acb449352dmr10128598plh.61.1685986556659;
+        Mon, 05 Jun 2023 10:35:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1685986556; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=mcUFrYpwvPOkbNKE6QYvxGgCdLBTJkAPmaWSUgXZbq3/gyeO9uBClVQx4MGjgJa3jL
+         6FJ+Y4K0gNAgc9CRLJJFGDMmjx5AKbUsxPJlQFcxJwUn2VC1jnKR5DUVowXU9wW2lY0E
+         0glBmCYki7gLeYQCIczBelbdHE0DUvS9IwdpYSfB+pdIfnIyOohg4BzoRIHgAQZX/cTa
+         4/OQ9XgZwb3A8qJWzYtGuHFGUw83gPAB3i7UcnJDpC62+GTW8CUwaAXN9bJnhm7dF1Mk
+         1+tGqAqGEAduMGPgrZhE6ZeWXggThoSmJ1L1o7aZqqTeKm1wxDSy68dTSMtVdgqiWnk0
+         NnwQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=CuctzoZ2zErTaW8USuH+bIGiRRMQZ/ouykPlQF9DARc=;
+        b=A40oZ6AxrRAXFgheWXZW//NYbCEo3M99Mg6ewPSKf2mZ9gQU6cV6I1eiJunmmf7Akd
+         SWQb35BQpUZOo1OIoCMS2zpnMNk2yO4zSZ220K+8Ukx6IIsEUptfaZeN3xx2edqHhj5A
+         HYuTAw16yvqWIlKBc7t2RmgEOzThCYm3tzMXy2ItVTYadx6nFgd6szMrLhW1svkM3C41
+         ZColS6UTH2Q6rFmnJHxpuWiXgVk6aRETGzoeTSdCCYuWOIP+FAkvFIXkxDdFANyQjMN/
+         6/B1eoKHgehgtkXNrPLEIdjqKIZi3NQ8vy8PuI9UzfYZ37QU1lb1PM0tc7Af5xD/HVNG
+         WsOQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=whEAZn3A;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230605133554.31696643.267418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230605133554.31696643.267418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230605133554.31696643.267418@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n11-20020a170902d0cb00b001ae54a067d7sor2431768pln.19.2023.06.05.10.35.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 05 Jun 2023 10:35:56 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230605133554.31696643.267418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ6TFZUKaMTtUUXQA8GaTMAborTK2RPwOlmrHqQiPs7KS4n1X8eeGvLvap3Zh971vfGkG8s8OHpAE5JWLX0Kl8DIWHInmKk=
+X-Received: by 2002:a17:902:ce88:b0:1af:f4f5:6fae with SMTP id f8-20020a170902ce8800b001aff4f56faemr7883824plg.54.1685986556187;
+        Mon, 05 Jun 2023 10:35:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1685986556; cv=none;
+        d=google.com; s=arc-20160816;
+        b=rCNccpPZl4ter2Ofze+JatCwTdMXBWY1lY3+lB4Q64DZmJZW7iH+NFpyxGUSJcbzc6
+         COU+g69DhXspYxpghu4GHSmVzx2RkXHGWLbjm7jmWJLAmszQ0awAD99WuZcfP1tZDnAU
+         eGLaVxWfWxZxM3SDjtmR11hZ4tEFav7gutrgRf7lebld/JBInVRCxwP8rmOhmP+LLiW+
+         fh5eezXfxOK1lnxkpxwIyj6S8/0BCMfuPELvAWR7NHaYXRFc3/uPapJgN4umrDSIrJVG
+         p0US2D2D/hfnfaJ2JMiJHoXw4A7A+Z9Cx8ikA7PHKH151OhSrGRSaDF4u/g7HMEszsh7
+         xVAg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=CuctzoZ2zErTaW8USuH+bIGiRRMQZ/ouykPlQF9DARc=;
+        b=VvClRUiV9MIXr6cA/GKfYpoNIa5D4UlTAriaK0dMNyToYOXLfveVwVqQW92NmccOZv
+         sBHmmbneaTloma3Q5P1u4vArjBf7hcMiBAX1xep8FaxjGObPz4KSBXGciocM9++Wtdc4
+         6cMP3lHtwTH0BPR7EmMGi3jM/R0wPqjq8hqzoJCiRYfHOUkpDHxXtpMkvrQpMlWlcK25
+         vtMxAGajL6MGpxYnzC2T4VebzVm5bEi1WZxOzEcIwgrDspd+M9iW30PwIGvfRtHVQdfh
+         Bee3/1zoLNCoaKYvFnHOw6Dvbf7gYdqRkwnzS00xsBp/hpv9K+jQLhjYRaakBTO2XUYF
+         xn5Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=whEAZn3A;
+       spf=pass (google.com: domain of delivery_20230605133554.31696643.267418@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230605133554.31696643.267418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230605133554.31696643.267418@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id n17-20020a170903405100b001ab132cdbbcsi604546pla.12.2023.06.05.10.35.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 05 Jun 2023 10:35:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230605133554.31696643.267418@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=vYRKsvOMLyo4qWccGorhqwO2vx6+80qJz3MWLVlYFh4=;
+ b=whEAZn3AmLX9Uzq2Ou0bO94dAdRqiO6NustX5mXZn/qMCY1BJ3VKvD+yN08+FyAD7PvfPd22KwUy
+   ELVcjbntzvI5IKRvUp6GDemyf+M3qReU5BgP9+VA3B/ONGE6oyPGHM7mksC/vWHP3j8Bzha6BL3I
+   uf8u+I+x1BeHy8hAnHU=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id hfoefm30nu8j for <bloomberg@khamel.com>; Mon, 5 Jun 2023 12:35:55 -0500 (envelope-from <delivery_20230605133554.31696643.267418@mx.sailthru.com>)
+Date: Mon, 5 Jun 2023 13:35:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230605133554.31696643.267418@sailthru.com>
+Subject: Money Stuff: Elon Musk Had Fun With Dogecoin
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_52372733_1235821473.1685986554983"
+Precedence: bulk
+x-job: 6358-31696643-20230605
+X-Feedback-ID: 6358:31696643:campaign:sailthru
+X-TM-ID: 20230605133554.31696643.267418
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23civdab.5qca/848f0992
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23civdab.5qca/848f0992>, <mailto:unsubscribe_20230605133554.31696643.267418@mx.sailthru.com>
+X-rpcampaign: stjko31696643
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_52372733_1235821473.1685986554983
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Dogecoin is a tradable electronic token representing the value of E=
+lon Musk=E2=80=99s attention. When Elon Musk tweets about Dogecoin, its pri=
+ce goe
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Did Elon Musk manipulate Dogecoin?
+   =20
+ =20
+
+Dogecoin is a tradable electronic=C2=A0token representing the value of Elon=
+ Musk=E2=80=99s attention. When Elon Musk tweets about Dogecoin, its price =
+goes up. When he goes on =E2=80=9CSaturday Night Live=E2=80=9D and makes pa=
+inful jokes about Dogecoin, its value goes up.
+  [1]
+=C2=A0When Elon Musk does not shine the bright light of his attention on Do=
+gecoin, its value drifts down.=C2=A0
+This is not entirely=C2=A0true =E2=80=94=C2=A0somebody traded Dogecoin even=
+ before Elon Musk paid attention to it =E2=80=94=C2=A0but it=E2=80=99s a re=
+asonable model. It is not investment advice, though it does seem to have be=
+en a large part of  the investing approach=C2=A0of Alameda Research, which =
+was a multibillion-dollar crypto trading firm for a while. If you are a cry=
+pto hedge fund, or a retail crypto trader, this model would suggest that yo=
+u should buy Dogecoin just before Musk tweets about it and sell it a bit af=
+ter he tweets, but that=E2=80=99s hard (you have to know when he=E2=80=99ll=
+ tweet). A second-best model might be to buy Dogecoin shortly after Musk tw=
+eets about it and then sell it a bit later, and that does seem to  have bee=
+n Alameda=E2=80=99s approach.
+But what if you are Elon Musk? A thing exists in the world whose value depe=
+nds entirely on Elon Musk=E2=80=99s tweets, and you are Elon Musk. What is =
+the trade here, for you? I mean! From first principles:
+=09Buy a ton of it.=09Tweet about it.=09Sell a ton of it.
+
+This is almost too dumb to write because the opportunity=C2=A0is so obvious=
+, but at the same time the opportunity is so rare that you might somehow no=
+t think of it. I   once wrote about this trade that it was as though someon=
+e handed Musk a lamp and told him there was a genie inside of it, and that =
+=E2=80=9Cany time you want the price of [Dogecoin] to go up or down by 10% =
+or more, you can just whisper =E2=80=98price go up=E2=80=99 or =E2=80=98pri=
+ce go down=E2=80=99 into the lamp, and it will happen instantly. You are th=
+e only person who can do this, and you can do it as often as you want=E2=80=
+=9D:
+I just think that if you presented this possibility to any famous investor =
+throughout history they would absolutely faint with excitement. And here Mu=
+sk is, the second-richest person in the world, either doing it =E2=80=94=C2=
+=A0in which case it=E2=80=99s one of the greatest trades, and also one of t=
+he greatest trolls, in history =E2=80=94=C2=A0or=C2=A0not=C2=A0doing it, ru=
+bbing the lamp and making Bitcoin and Dogecoin go up and down and up and do=
+wn and up and down with his whims,=C2=A0just=C2=A0for fun, leaving billions=
+ of dollars of profit on the table because he doesn=E2=80=99t need the mone=
+y and has the purest imaginable commitment to internet trolling.
+Oh yeah: I assumed that Musk was=C2=A0not=C2=A0doing this obvious trade.=C2=
+=A0He was certainly tweeting about Dogecoin, and he had certainly bought so=
+me Dogecoin, but I just figured that he was not in fact optimizing his fina=
+ncial returns on the trading-plus-tweeting.=C2=A0He was busy running Tesla =
+and SpaceX and the tunnel thing and probably several other companies at the=
+ time (this was pre-Twitter); his whole schtick was about building stuff, n=
+ot just dumb manipulation of meaningless abstract financial markets. Still =
+the opportunity was so obvious!
+Anyway here=E2=80=99s an amazing lawsuit claiming=C2=A0he was manipulating =
+Dogecoin to make money:
+
+This is a securities fraud class action arising from a deliberate course of=
+ carnival barking market manipulation and insider trading by the world=E2=
+=80=99s richest man Elon Musk, who hijacked an emergent pop-culture phenome=
+non to cross-promote himself and his companies, and to pad his obscene fort=
+une, preying on the earnest hopes of vulnerable Americans, including war ve=
+terans, blue collar workers, and the elderly. ...
+Musk=E2=80=99s followers did exactly what he said. Musk=E2=80=99s pretense =
+that promotion of Dogecoin was just well-meaning fun=E2=80=94not meant to b=
+e taken seriously=E2=80=94is not credible. It is Musk=E2=80=99s custom=C2=
+=A0to publicly address serious topics glibly on Twitter. That doesn=E2=80=
+=99t make him any less serious. Musk knows that the bulk of his followers a=
+re not sophisticated in business or investment, and Musk uses this knowledg=
+e to manipulate them. Musk is what is called an apex predator, feeding on a=
+nd manipulating the hordes below, including his Twitter following which has=
+ grown to 141 million.
+
+The complaint claims that he made $10.2 billion of profit on Dogecoin from =
+just one of his several wallets, an amount that is bigger than=C2=A0the ent=
+ire current market capitalization of Dogecoin. (Which makes sense: If Dogec=
+oin is valued based on Musk=E2=80=99s attention, he should have extracted m=
+ore than it is currently worth.) Also=C2=A0it is just a big number? Like if=
+ you went to Elon Musk and said =E2=80=9Chere is a dumb thing that you coul=
+d do to make $100 million in 10 minutes,=E2=80=9D he might reasonably say=
+=C2=A0=E2=80=9Cnah I have so much money, $100 million is not enough to make=
+ me spend 10 minutes doing a dumb thing.=E2=80=9D But $10 billion is so=C2=
+=A0much more money than that! If you went=C2=A0to Elon Musk and said=C2=A0=
+=E2=80=9Cyou can do some dumb tweets to make $10 billion,=E2=80=9D=C2=A0mig=
+ht he say yes?
+Now, there are some problems with this lawsuit.
+  [2]
+=C2=A0The most obvious problem is that the wallet the plaintiffs have ident=
+ified =E2=80=94=C2=A0the one that made $10.2 billion of profits trading Dog=
+ecoin based on Musk=E2=80=99s tweets, and that at one point held over $25 b=
+illion of Dogecoin=C2=A0=E2=80=94=C2=A0probably does not actually belong=C2=
+=A0to him. The evidence that the plaintiffs cite is pretty thin:
+
+Dogecoin wallet DH5yaieqoZN36fDVciNyRueRGvGLR3mr7L (=E2=80=9CDH5ya=E2=80=9D=
+) also belongs to Defendant Musk. ...=C2=A0On February 10, 2021, Musk tweet=
+ed that he had purchased Dogecoin for his son. =E2=80=A6 The previous day, =
+DH5ya (which was then the world=E2=80=99s largest Dogecoin wallet, containi=
+ng roughly $2.8 billion worth of Dogecoin) placed a transaction for 28.0619=
+71 Dogecoins, the numeric equivalent of Defendant Musk=E2=80=99s date of bi=
+rth, i.e., the 28th of June 1971. This wallet would purchase Dogecoin in th=
+at same amount on February 10, 2021, and once again on February 17th. =E2=
+=80=A6
+DH5ya was opened on February 5, 2019, less than two months before Musk bega=
+n publicly promoting Dogecoin on Twitter when Dogecoin was trading at $0.00=
+18 (less than two-tenths of a cent per coin). =E2=80=A6
+By February 3, 2021, on the eve of Musk=E2=80=99s most intense period of Do=
+gecoin promotion and the bull market it immediately gave rise to, DH5ya had=
+ accumulated almost 35 billion Dogecoins and was the largest Dogecoin walle=
+t in existence.
+
+In a  previous version of their lawsuit, from last December, they cited add=
+itional, uh, evidence:
+
+There are many cryptic messages hidden in the transactions of this wallet w=
+hich prove it belongs to Musk.
+Three separate transactions were made with this wallet in the following amo=
+unt: 28.061971 Dogecoin's, which reference Elon Musk's birthday of June 28,=
+ 1971.
+There have been transactions with exactly 69 coins (more than 6 times) and =
+exactly 420 coins (2 times) which are numbers that Musk often references in=
+ furtherance of his trademark crude humor (69 for sex and 420 for marijuana=
+).
+8.95121514 coins, when converted to letters says, "Hi Elon."
+1.3371337 coins, 1337 meaning "extremely skilled (at gaming or computing) a=
+nd 80085 coins which says =E2=80=9CBOOBS=E2=80=9D in keeping with Musk=E2=
+=80=99s crude sense of humor.
+
+Look: Is Elon Musk a guy who would buy things in units of 80,085 because th=
+at's how you type =E2=80=9CBOOBS=E2=80=9D on a calculator? Maybe? He likes =
+number jokes; he once pretended he was going to take Tesla Inc. private at =
+  $420 per share, and then really did take Twitter Inc. private at   $54.20=
+ per share. But are there lots of guys like that? Oh yes; Elon Musk did not=
+ invent typing =E2=80=9C80085=E2=80=9D on a calculator. Are some of the guy=
+s who make these jokes doing so=C2=A0because they are imitating Elon Musk? =
+Absolutely. If you are doing Dogecoin transactions that spell out =E2=80=9C=
+Hi Elon,=E2=80=9D is it more likely that (1) you are Elon Musk or (2) you=
+=E2=80=99re an Elon Musk super-fan and want to say hi to him? Is it not wei=
+rd to say hi to yourself?=C2=A0
+Anyway in their  response to the previous version of the lawsuit, filed in =
+March, Musk=E2=80=99s lawyers denied that he owns that wallet:
+That wallet does not=C2=A0belong to Mr. Musk, and indeed the website that P=
+laintiffs relied upon in their First Amended Complaint ... states that the =
+wallet in question belongs to Robinhood, a large consumer-facing exchange t=
+hat permits retail buyers to buy and sell cryptocurrencies, includingDogeco=
+in.=C2=A0Plaintiffs speculate that the wallet belongs to Mr. Musk solely be=
+cause some small deposits to the account (which any member of the public ca=
+n make) are for amounts that Plaintiffs claim are associated with Mr. Musk,=
+ such as =E2=80=9C69=E2=80=9D or =E2=80=9C420=E2=80=9D or =E2=80=9CHi Elon=
+=E2=80=9D in numbers.
+Ah well.
+  [3]
+=C2=A0If Musk=C2=A0wasn=E2=80=99t=C2=A0selling piles of Dogecoin as his twe=
+ets drove up the price, then the case for market manipulation seems pretty =
+weak. Trolling, sure, but market manipulation, probably not.
+Still there are other problems with the lawsuit. One problem is that the pl=
+aintiffs are=C2=A0suing Musk for insider trading and securities fraud, whic=
+h only works if Dogecoin is a security. Is it? Well.   Almost every cryptoc=
+urrency, other than Bitcoin and maybe Ether, is probably a security under U=
+S securities law,   at least in the view of the US Securities and Exchange =
+Commission (which I think is mostly correct). But Dogecoin? The rule is tha=
+t =E2=80=9Cthe investment of money in a common enterprise with a reasonable=
+ expectation of profits to be derived from the efforts of others=E2=80=9D m=
+akes something a security, and virtually every crypto project, with its pro=
+mise of wealth from some blockchain ecosystem, probably qualifies. Except D=
+ogecoin! Dogecoin is just a joke about a dog. The guys who invented it were=
+ explicitly joking, and have  gone around telling people it is stupid. This=
+ is not a crypto token that was sold to raise money to build out a blockcha=
+in enterprise. It is a pure joke with no enterprise at all, which makes it =
+probably not a security.
+  [4]
+
+An even bigger problem is just, like, what would it=C2=A0mean=C2=A0for Elon=
+ Musk to=C2=A0manipulate Dogecoin?
+  [5]
+=C2=A0Like a classic form of market manipulation is:
+=09You buy some penny stock.=09You tweet that the company discovered a cure=
+ for cancer.=09You are lying.=09People believe you.=09The stock goes up.=09=
+You sell the stock.
+
+There is some dishonesty; you say something that is not true, to trick peop=
+le into buying the stock. But apply that to Dogecoin:
+=09Elon Musk buys some Dogecoin.=09He tweets, like, a picture of a Shiba In=
+u or whatever.=09People are like =E2=80=9Cooh Elon Musk is paying attention=
+ to Dogecoin.=E2=80=9D=09The price goes up.=09He sells Dogecoin.
+
+That=E2=80=99s the claim in this lawsuit, though Musk denies it. But=C2=A0e=
+ven if it were true, where is the lie here? Dogecoin goes up and down based=
+ on Elon Musk=E2=80=99s attention, so when he tweets about it, the market c=
+orrectly concludes that=C2=A0Elon Musk is paying attention to it, and the p=
+rice goes up. From the complaint:
+
+On July 17, 2020, Musk tweeted a meme of a photo of a dust storm overtaking=
+ an urban area, with the face of the Dogecoin Shiba Inu superimposed on the=
+ dust cloud. The cloud was labeled =E2=80=9Cdogecoin standard.=E2=80=9D The=
+ urban area about to be overtaken was labelled, =E2=80=9Cglobal financial s=
+ystem.=E2=80=9D Above this image, Musk superimposed the remark, =E2=80=9CIt=
+=E2=80=99s inevitable.=E2=80=9D=C2=A0
+Immediately following this tweet, Dogecoin=E2=80=99s price rose 14%, from $=
+0.00304 to $0.00363, in less than two hours.
+On December 20, 2020, Musk tweeted, =E2=80=9COne word: Doge.=E2=80=9D=C2=A0
+This tweet caused the price of Dogecoin to increase by 20%.
+On January 28, 2021, Musk tweeted an image of a magazine cover parodying Vo=
+gue magazine. It was titled =E2=80=9CDogue,=E2=80=9D and it featured a dog =
+fashion model. (Exhibit =E2=80=9CJ=E2=80=9D) This tweet caused Dogecoin=E2=
+=80=99s price to shoot from $0.0262 to $0.0799, a 57% increase in just five=
+ hours.=C2=A0
+In the early hours of February 4, 2021, Musk tweeted a picture of a rocket =
+blasting into space with the Moon looming in the background. Beneath this t=
+weet, he added another tweet that read, simply: =E2=80=9CDoge.=E2=80=9D
+The price of Dogecoin increased from $0.04089 to $0.05797 within an hour.
+Later that day, February 4, 2021, Musk tweeted another meme. This was a scr=
+een-capture of the famous =E2=80=9CCircle of Life=E2=80=9D scene from Disne=
+y=E2=80=99s The Lion King animated film, with Dogecoin=E2=80=99s Shiba Inu =
+mascot and Elon Musk superimposed.=C2=A0Above this image, Musk added the re=
+mark, =E2=80=9Cur welcome=E2=80=9D an apparent reference directed at Dogeco=
+in investors. =E2=80=A6
+On February 24, 2021, Musk tweeted an image of a cartoon Shiba Inu in a spa=
+cesuit, on the moon, holding up a flag labelled =E2=80=9CDoge.=E2=80=9D Abo=
+ve this image, Musk added the remark, =E2=80=9CLiterally.=E2=80=9D And late=
+r he tweeted, =E2=80=9COn the actual moon.=E2=80=9D Dogecoin=E2=80=99s pric=
+e shot up 25% that same day.=C2=A0
+
+Come on! Come on! You could find some humorless quibbles here: Did Elon Mus=
+k really believe, and have adequate grounds for believing, that the =E2=80=
+=9CDogecoin standard=E2=80=9D would swallow the global financial system? Bu=
+t most of these tweets are just pictures of dogs. The overall thrust here i=
+s that Dogecoin is an online=C2=A0joke, and Elon Musk is a famous person wh=
+o likes online jokes, and for a time there was a valuable synergy there. Th=
+e value of Dogecoin as an online joke went up when Elon Musk was making Dog=
+ecoin jokes online. If you bought Dogecoin because Elon Musk tweeted about =
+it, you didn=E2=80=99t buy it=C2=A0because you expected it to become the gl=
+obal monetary standard, or because you expected Tesla to start pricing cars=
+ in Dogecoin or whatever. You bought it=C2=A0because Elon Musk tweeted abou=
+t it. That was the whole analysis: =E2=80=9CElon Musk tweeted about this jo=
+ke dog coin, so I=E2=80=99m gonna buy it.=E2=80=9D He really did tweet abou=
+t it! How could you have been misled?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in Elon Musk
+   =20
+ =20
+
+Do you know what else would be a good tradable token of Elon Musk-ness? The=
+ stock of Twitter Inc., or X Corp. or whatever they=E2=80=99re calling it t=
+hese days. But Twitter is closely held since Musk and a few friends bought =
+it last year, so retail investors cannot trade it for its meme potential, a=
+nd Musk=E2=80=99s public pronouncements cannot move its stock.
+And so this morning my Bloomberg Opinion colleague Ed Hammond argues that =
+=E2=80=9C  For His Next Trick, Musk Should Take Twitter Public.=E2=80=9D Th=
+e rationale here is not so much that Twitter needs the money (though it doe=
+s!) or that it makes more sense as a pubic company or whatever, and more th=
+at Musk is leaving money on the table by doing meme-stock stuff to a privat=
+e company:
+
+Whether Musk is launching electric cars, reusing rockets or just casually p=
+umping crypto, his power to rapidly accumulate goodwill among the masses is=
+ unmatched. So why not do it with Twitter, the very organ through which muc=
+h of that financial loyalty is husbanded?
+Sure, big institutional money and much of the financial media would questio=
+n the rationale. But so what? They have been doing that for years about Tes=
+la, and look where that got them. In fact, it would probably help. Musk lon=
+g ago mastered the populist gift for provoking =E2=80=9Cestablishment=E2=80=
+=9D skepticism to push an image of victimhood. ...
+Going public =E2=80=94 which Musk himself floated as an idea within as litt=
+le as three years of taking Twitter private =E2=80=94 would also give him t=
+he thing he craves constantly: a referendum on his superiority. It must be =
+irksome for someone of such undimmed self-love to have his project devalued=
+ by dumb, mainstream-money institutions. The people would have his back =E2=
+=80=94 I think they would. And even if they didn=E2=80=99t right away, he c=
+ould convince a lot of them. He=E2=80=99s good at that. Twitter would becom=
+e the ultimate meme stock, a vehicle of perpetual contrarianism.
+
+I think this is correct. He should sell the stock at $69 per share, or $420=
+, or $800.85. He should try to get   the ticker X.=C2=A0
+People sometimes=C2=A0contrast corporate chief executive officers whose ski=
+lls involve product or operations or sales or customer service, with=C2=A0t=
+hose whose skills involve financial engineering. Musk=E2=80=99s public imag=
+e is all about rockets and tunnels and code reviews and optimizing assembly=
+ lines, and he is pretty cavalier about how finance works.
+  [6]
+=C2=A0And yet perhaps his greatest accomplishments are in financial enginee=
+ring? In some ways Musk invented and perfected  meme stocks long before any=
+one ever thought about GameStop, and he has used his meme abilities to   ra=
+ise billions of dollars of retail capital, get Tesla Inc. through tough fin=
+ancial times, and become, on some days, the richest person in the world. Pl=
+us whatever he did or didn=E2=80=99t get up to with Dogecoin. It is silly f=
+or him to run Twitter=C2=A0without=C2=A0taking advantage=C2=A0of his immens=
+e ability to move stock prices and raise capital. He is drawing so much att=
+ention to himself with Twitter, and he is world-historically good at turnin=
+g attention into money. Why not do it with Twitter?
+
+ =20
+   =20
+      Online banks
+   =20
+ =20
+
+We have   talked a   lot   recently about two theories of banking, and spec=
+ifically of bank deposits. Theory 1 says that bank deposits are short-term =
+funding, and depositors can take their money out at any time. Theory 2 says=
+ that bank deposits are=C2=A0actually=C2=A0long-term funding; depositors ar=
+e information-insensitive and have long-term relationships with the bank, a=
+nd though they are technically allowed to take their money out at any time,=
+ they rarely do.
+Theory 2, I have argued, is the traditional theory of bankers, and it influ=
+ences traditional banking behavior. Specifically:
+=09Banks invest in doing things that build customer relationships: They=C2=
+=A0build branches and put people in them to meet with customers, they cross=
+-sell products, they aim to make the deposits as sticky as possible.=09Bank=
+s invest their deposits in long-term fixed-rate assets, like mortgage loans=
+ and government bonds, because they think of their deposits as being long-t=
+erm. Not only in the sense that the deposits won=E2=80=99t go away, but als=
+o in the sense that the interest rate they have to pay on deposits won=E2=
+=80=99t move very much even if the Federal Reserve raises interest rates: D=
+epositors, in Theory 2, are not paying attention, and won=E2=80=99t demand =
+higher interest even as rates go up.
+
+These things are related: All the branches and customer service representat=
+ives cost money, and the way to earn that money is by borrowing at low inte=
+rest rates and lending at high interest rates. And you get higher interest =
+rates, generally, by lending for longer terms.=C2=A0
+Theory 1 is a more standard theory of modern finance, and it would lead to =
+different behavior. Specifically, if you are a bank and you think of=C2=A0d=
+eposits as being short-term loans at market rates:
+=09You will not invest in branches, etc.; you=E2=80=99ll just pay the marke=
+t rate for market funding. As rates go up, your deposit rates will go up, a=
+nd you=E2=80=99ll keep getting deposits, but this is a pure economic transa=
+ction, not a relationship.=09You will not take a ton of duration risk with =
+your assets: You=E2=80=99re borrowing short-term at floating rates, so you=
+=E2=80=99ll want to invest at floating rates and earn a small spread.
+
+Anyway traditional banks seem to have believed=C2=A0Theory 2, and they got =
+in a lot of trouble as rates rose this year. Other banks, though, were fine=
+. The  Wall Street Journal reports:
+
+Deposits were up quarter over quarter at Ally Financial and Goldman Sachs G=
+roup=E2=80=99s Marcus, which don=E2=80=99t have branch networks. Deposits w=
+ere also up at Capital One, which has far fewer branches than the other big=
+ regionals. Online-focused banks can often offer higher rates, as they don=
+=E2=80=99t have to pay for the real estate, employees or equipment required=
+ to run a traditional network of branches. =E2=80=A6
+Deposits climbed 5% at Capital One from the previous quarter and 1% at Ally=
+ Financial. Goldman said deposits in its online bank Marcus increased, thou=
+gh it didn=E2=80=99t give specifics.=C2=A0
+=E2=80=9CThe future of everything in banking is digital,=E2=80=9D Capital O=
+ne Chief Executive Richard Fairbank told analysts on a call in April.=C2=A0
+That growth came at a price. The average interest rate paid on deposits was=
+ 3.2% at Ally in the first quarter and 2.4% at Capital One. Both were more =
+than 2 percentage points higher than a year earlier. At Bank of America and=
+ Wells Fargo, average interest rates on deposits were around 1% in the firs=
+t quarter.
+
+Right, if you are a traditional bank and you believe in Theory 2 and rates =
+go up=C2=A0and you are right, you do great: You make more money on your ass=
+ets, you don=E2=80=99t pay any more money on your deposits, and you capture=
+ a big spread. But if you=E2=80=99re wrong, all your depositors leave and y=
+ou go bust, or at least, you pay like 4% on deposits and keep earning like =
+3% on your long-term assets. If you are an online bank and you believe in T=
+heory 1, the outcomes are a bit simpler and less binary: You=C2=A0pay more =
+interest as rates go up, but you probably don=E2=80=99t go bust.
+
+ =20
+   =20
+      Hedge fund compensation
+   =20
+ =20
+
+When I was an investment banker, a guy joined our desk as a vice president =
+from another bank. He had several months of gardening leave =E2=80=94=C2=A0=
+enforced, paid time off due to his noncompete agreement with his prior bank=
+ =E2=80=94=C2=A0and then started working on our desk. He lasted, in my memo=
+ry, a few months, and then left to go back to his old bank, after another p=
+eriod of gardening leave. We all thought he was a genius. Really the best p=
+ossible job, it seemed to me at the time, was getting paid an investment ba=
+nking salary for=C2=A0not=C2=A0doing investment banking. If you could just =
+yo-yo back and forth between banks, taking six months of paid time off each=
+ time you moved, that seemed ideal. Others might disagree, and I was not, t=
+o be fair, a very good or ambitious investment banker.=C2=A0Maximizing gard=
+ening leave is not really a path to becoming a master of the universe. But =
+it seemed nice.
+If you work at a financial services firm and you go to your boss and say =
+=E2=80=9CI am taking a job offer at a competitor, they are going to pay me =
+$2 million a year,=E2=80=9D your boss might say =E2=80=9Cno, stay, we=E2=80=
+=99ll pay you $2.25 million.=E2=80=9D For a high performer, money can be ma=
+tched. But if going to the competitor gets you six months=E2=80=99 gardenin=
+g leave, that might be a good reason to leave anyway. Can your boss match t=
+hat? Well I mean sure, why not. Bloomberg=E2=80=99s   Nishant Kumar reporte=
+d last week:
+
+When portfolio manager David Lipner said he was quitting billionaire Izzy E=
+nglander=E2=80=99s Millennium Management to join a rival, the hedge fund co=
+untered with an unusual proposal: A one-year paid sabbatical and an incenti=
+ve upon return if Lipner stayed.
+And stay he did. For Millennium, the $58 billion industry giant known for r=
+uthlessly cutting underperformers, the generous offer was seen as totally w=
+orth it. After all, Lipner had made money for the firm for more than a deca=
+de, longer than most hedge funds remain in business.
+Such enticements are now becoming part of a growing array of expensive tool=
+s the world=E2=80=99s biggest hedge funds are deploying to hire and retain =
+traders.
+
+Oh of course if you are an ambitious successful portfolio manager you are n=
+ot really switching jobs to get gardening leave; probably you are annoyed=
+=C2=A0about the gardening leave. The article is mostly about how multistrat=
+egy funds are offering huge amounts of=C2=A0money=C2=A0to star performers:
+
+Last year, a senior portfolio manager was lured by a major New York fund wi=
+th more than $120 million in guaranteed payouts, according to a headhunter =
+who said he=E2=80=99d done several deals paying north of $50 million. Contr=
+acts worth $10 million to $15 million are increasingly becoming common for =
+traders, said another.
+Hedge funds have long been the land of eye-popping rewards, but a few recen=
+t trends are converging to take it to new levels. The stellar track record =
+of several giant firms that spread money across teams of traders following =
+multiple strategies has caused their assets to surge. That=E2=80=99s prompt=
+ed a hiring spree to add more traders and strategies so the existing ones a=
+ren=E2=80=99t over-stretched.
+
+But =E2=80=9CLipner wasn=E2=80=99t the only one offered the sabbatical by M=
+illennium.=E2=80=9D Not working at a hedge fund does seem to be a highly de=
+sirable perk among people who work at hedge funds.
+
+ =20
+   =20
+      Elsewhere in multistrategy hedge funds
+   =20
+ =20
+
+In general if you start a hedge fund and you go into an institutional alloc=
+ator=E2=80=99s office and say =E2=80=9Cgive me money so I can buy the stock=
+s that will go up,=E2=80=9D they are likely to say to you =E2=80=9Cno, we a=
+re full up on people who buy stocks that go up, we want returns that are un=
+correlated to the stock market.=E2=80=9D And if you go away and put on a fa=
+ke mustache and come back and say =E2=80=9Cgive me money so I can buy the b=
+onds that will go up,=E2=80=9D or the commodity futures or the cryptocurren=
+cies or the equity volatility or the distressed credit or the farmland that=
+ will go up, they will also have heard that story before and already have a=
+n allocation. But if you go into an allocator=E2=80=99s office and say =E2=
+=80=9Cgive me money so I can buy temperature,=E2=80=9D   that will pique th=
+eir interest:
+
+A new multistrategy hedge fund run by Wall Street veterans Brian Hurst and =
+Elisha Wiesel began trading Thursday, focusing on offbeat strategies such a=
+s temperature arbitrage.
+Hurst, a 21-year veteran of AQR Capital Management, and Wiesel, who spent 2=
+5 years at Goldman Sachs Group Inc., are starting Niche Plus as ClearAlpha =
+Technologies=E2=80=99 first fund. With commitments of several hundred milli=
+on dollars, it expects to have $1 billion within a year to deploy across 13=
+ teams running 20 strategies.=C2=A0
+=E2=80=9CWe=E2=80=99re focusing on what we call niche alpha strategies, whi=
+ch are going to be off the beaten path,=E2=80=9D Hurst, 50, said in an inte=
+rview at the firm=E2=80=99s Greenwich, Connecticut offices. =E2=80=A6.
+While most multistrategy firms rely heavily on trading stocks in developed =
+markets, Niche Plus=E2=80=99s only traditional long-short stock play focuse=
+s on Middle East and North African shares.=C2=A0
+More than half of the fund=E2=80=99s teams run their own firms while managi=
+ng accounts for ClearAlpha, which has risk control over those portfolios. O=
+ne specialized team is made up of former Swiss Re AG traders who run a temp=
+erature arbitrage strategy based on the weather.=C2=A0
+
+=E2=80=9CWe identify dislocations where the temperature is high one place a=
+nd low somewhere else, and then we short the high temperature and buy the l=
+ow temperature,=E2=80=9D is probably not the strategy here, though it would=
+ be wonderful if it was. Anyway I love the idea of a hedge fund where the r=
+ules are (1) you have to make money but (2) you can=E2=80=99t trade stocks,=
+ bonds or crypto. The constraints make the art.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+UBS to   Complete Credit Suisse Takeover as Early as June 12. Cboe Is Now  =
+ Listing Companies Alongside NYSE and Nasdaq. EV Makers Confront the =E2=80=
+=98 Nickel Pickle.=E2=80=99 Assault Allegations Plague a $1.4 Billion Home =
+  Eldercare Startup. Binance=E2=80=99s Regulatory Woes Pave a Path for CEO =
+  Zhao=E2=80=99s Heir Apparent. UK Fines Brokerage ED&F Man =C2=A317.2 Mill=
+ion For Role in   Controversial Tax Scheme. BOE Wants   Deposit Protection =
+Fund to Recapitalize Failing Banks. Twitter=E2=80=99s U.S. Ad Sales Plunge =
+59% as  Woes Continue. ETF Providers Rush to Tap Into  AI Investing Craze. =
+Bitcoin Coders Feud Over Whether to Crush $1 Billion   Frenzy for Memecoins=
+.=C2=A0JPMorgan Turns to   Blockchain for Dollar Trades in India Hub. =E2=
+=80=9COn those platforms, it=E2=80=99s listed as First Avenue Gourmet Deli,=
+ Hero Sandwich Shop, Bosscat Cheesesteaks, The Pancake Snob, Wraps on Tap, =
+Insomnia Buffalo Wings, Panini Fantasy, Jasmine=E2=80=99s Coffee Bar, Jen=
+=E2=80=99s Burger Blaze, NY Smoothie Joint, Nomad=E2=80=99s Bagels, Tina=E2=
+=80=99s Tea Shop, Aldo=E2=80=99s Wraps Spot, Wonderland Wraps, Sam=E2=80=99=
+s Sandwich Spot, Smoothie and Dessert Spot, Princess Panini, Tessa=E2=80=99=
+s Fruity Treats, Empire State Panini, The Sandwich Slut, La Bella Italian D=
+esserts, Seth=E2=80=99s Sandwiches,  The Sandwich Vibe, LV Taco Bar, Queen=
+=E2=80=99s Quesadillas, The Gourmet Burger and Drip Check Coffee Shop.=E2=
+=80=9D=C2=A0SoftBank=E2=80=99s Onetime  Pizza-Robot Darling Shuts Down.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Actually   it goes down, but that is a sort of buy-the-rumor-sell-the=
+-news situation; Dogecoin hit an all-time high just *before* he went on SNL=
+.=20
+
+
+  [2] The lawsuit is in a strange place; it=E2=80=99s been sort of kicking =
+around for a while, it keeps not quite working, and last week the plaintiff=
+s filed a  motion for leave to amend to submit a third amended complaint. I=
+ am quoting in the text from their  proposed third amended complaint, which=
+ is the current version of their claims. (I also sometimes quote the  secon=
+d amended complaint from December, and Musk=E2=80=99s  motion to dismiss th=
+at complaint.)
+
+
+  [3] The complaint does a somewhat better job of linking a different walle=
+t, which =E2=80=9Cwas opened in 2017, and since that time has sent and rece=
+ived billions of dollars=E2=80=99 worth of Dogecoin in at least 737,920 sep=
+arate transactions,=E2=80=9D to Musk, based on a charitable donation that h=
+e apparently sent. But (1) there are no real claims about that wallet tradi=
+ng directly on Musk=E2=80=99s tweets and (2) Elon Musk wastes a lot of time=
+ online, but I have trouble imagine him making SEVEN HUNDRED THOUSAND separ=
+ate Dogecoin trades? =E2=80=9CThe extremely high number of transactions DJ6=
+Kc has conducted suggests that DJ6Kc is not operated manually, by a person,=
+ but is instead operated by a software program,=E2=80=9D says the complaint=
+, but, what, Musk built a high-frequency-trading Dogecoin bot?
+
+
+  [4] The complaint disagrees, arguing that Musk=E2=80=99s own efforts make=
+ Dogecoin security-like: =E2=80=9CThe enterprise is common because the digi=
+tal =E2=80=98ecosystem=E2=80=99 or network around the Dogecoin blockchain c=
+onsists of developers, nodes, and miners working together to develop, maint=
+ain, and secure the blockchain; and because the success of the ecosystem dr=
+ives demand for Dogecoin and thus determines investors=E2=80=99 profits, in=
+ the form of increased value of Dogecoin. The enterprise is also common bec=
+ause Musk=E2=80=99s advisor, Billy Markus is, and Musk=E2=80=99s 'right-han=
+d man,' Jared Birchall was, a member of the Dogecoin Foundation, Inc. (=E2=
+=80=98DCFI=E2=80=99) Board of Advisors; and because Musk, the Dogecoin core=
+ developers, as well as the DCFI Board Advisors, help publicize Dogecoin th=
+rough social media content and by giving interviews to the press. The chara=
+cter Dogecoin is given in commerce by the publicity efforts of Defendant Mu=
+sk, is of a fun, profitable and fungible investment instrument with immense=
+ long-term utility both as a store of wealth and as a medium of exchange, o=
+n the cutting edge of technology and pop culture. The investor is led to ex=
+pect profits from the computing efforts of developers, nodes, and miners; f=
+rom Musk=E2=80=99s consulting with the core developers; from the publicity =
+efforts of Musk, DCFI, and various online shills or =E2=80=98influencers;=
+=E2=80=99 and the crypto exchanges offering Dogecoin to investors.=E2=80=9D
+
+
+  [5] Or: There is a claim about insider trading, that =E2=80=9CMusk traded=
+ Dogecoin profitably through one or more wallets and domestic exchanges usi=
+ng foreknowledge then unknown and undisclosed to Dogecoin investors general=
+ly or publicly, of his own intended moves to manipulate the market.=E2=80=
+=9D But his moves were tweets! How can it be illegal insider trading to tra=
+de ahead of your own plans to tweet a joke?
+
+
+  [6] Incidentally, I realize that he is  not technically the chief executi=
+ve officer of Twitter anymore, but we are all grown-ups here, and he runs T=
+witter. Still I suppose that Twitter=E2=80=99s incoming CEO, Linda Yaccarin=
+o, could get out ahead of this by proposing an IPO herself.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23civdab.5qca/35fd04b2.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_52372733_1235821473.1685986554983
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Dogecoin is a tradable electronic token representing the value of Elon Musk=
+=E2=80=99s attention. When Elon Musk tweets about Dogecoin, its price goe
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBf5eeb7ab"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTY5NjY0MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5NjQwNjEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB714e1cb9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31696643&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31964061&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Did Elon Musk manipulate Dogecoin?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Dogecoin is a tradable electronic=C2=A0token r=
+epresenting the value of Elon Musk=E2=80=99s attention. When Elon Musk twee=
+ts about Dogecoin, its price goes up. When he goes on =E2=80=9CSaturday Nig=
+ht Live=E2=80=9D and makes painful jokes about Dogecoin, its value goes up.=
+<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0When Elon Musk does not shine the bright light of his attention o=
+n Dogecoin, its value drifts down.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is not <em>entirely=C2=A0</em>true =E2=80=
+=94=C2=A0somebody traded Dogecoin even before Elon Musk paid attention to i=
+t =E2=80=94=C2=A0but it=E2=80=99s a reasonable model. It is not investment =
+advice, though it does seem to have been a large part of <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly90d2l0dGVy=
+LmNvbS9BbGFtZWRhVHJhYnVjY28vc3RhdHVzLzEzODUxODEwNDg1MDIzMjkzNDk/607f07ceef4=
+b8524a319a23cB9643c522" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> the investing approach</a>=C2=A0of Alameda=
+ Research, which was a multibillion-dollar crypto trading firm for a while.=
+ If you are a crypto hedge fund, or a retail crypto trader, this model woul=
+d suggest that you should buy Dogecoin just before Musk tweets about it and=
+ sell it a bit after he tweets, but that=E2=80=99s hard (you have to know w=
+hen he=E2=80=99ll tweet). A second-best model might be to buy Dogecoin shor=
+tly after Musk tweets about it and then sell it a bit later, and that does =
+seem to <a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.2=
+67418/aHR0cHM6Ly90d2l0dGVyLmNvbS9BbGFtZWRhVHJhYnVjY28vc3RhdHVzLzEzODIyNDQxM=
+zk0NDI0NzUwMTU/607f07ceef4b8524a319a23cBc2d8d5a0" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> have been Alamed=
+a=E2=80=99s approach</a>.</p>
+<p style=3D"margin: 16px 0;">But what if you are Elon Musk? A thing exists =
+in the world whose value depends entirely on Elon Musk=E2=80=99s tweets, an=
+d you are Elon Musk. What is the trade here, for you? I mean! From first pr=
+inciples:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Buy a ton of it.</li>=09<li style=3D"=
+margin-bottom: 5px;">Tweet about it.</li>=09<li style=3D"margin-bottom: 5px=
+;">Sell a ton of it.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is almost too dumb to write because the o=
+pportunity=C2=A0is so obvious, but at the same time the opportunity is so r=
+are that you might somehow not think of it. I <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTcvZWxvbi1tdXNrLWNvbnRyb2xzLWJpdGNvaW=
+4tYW5kLWRvZ2Vjb2luLXByaWNlcy13aXRoLXB1cmUtbWFnaWM_Y21waWQ9QkJEMDYwNTIzX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjMwNjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBdb514e6c"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  once wrote about this trade</a> that it was as though someone ha=
+nded Musk a lamp and told him there was a genie inside of it, and that =E2=
+=80=9Cany time you want the price of [Dogecoin] to go up or down by 10% or =
+more, you can just whisper =E2=80=98price go up=E2=80=99 or =E2=80=98price =
+go down=E2=80=99 into the lamp, and it will happen instantly. You are the o=
+nly person who can do this, and you can do it as often as you want=E2=80=9D=
+:</p>
+<blockquote><p style=3D"margin: 16px 0;">I just think that if you presented=
+ this possibility to any famous investor throughout history they would abso=
+lutely faint with excitement. And here Musk is, the second-richest person i=
+n the world, either doing it =E2=80=94=C2=A0in which case it=E2=80=99s one =
+of the greatest trades, and also one of the greatest trolls, in history =E2=
+=80=94=C2=A0or=C2=A0<em>not=C2=A0</em>doing it, rubbing the lamp and making=
+ Bitcoin and Dogecoin go up and down and up and down and up and down with h=
+is whims,=C2=A0<em>just=C2=A0</em>for fun, leaving billions of dollars of p=
+rofit on the table because he doesn=E2=80=99t need the money and has the pu=
+rest imaginable commitment to internet trolling.</p></blockquote>
+<p style=3D"margin: 16px 0;">Oh yeah: I assumed that Musk was=C2=A0<em>not=
+=C2=A0</em>doing this obvious trade.=C2=A0He was certainly tweeting about D=
+ogecoin, and he had certainly bought some Dogecoin, but I just figured that=
+ he was not in fact optimizing his financial returns on the trading-plus-tw=
+eeting.=C2=A0He was busy running Tesla and SpaceX and the tunnel thing and =
+probably several other companies at the time (this was pre-Twitter); his wh=
+ole schtick was about building stuff, not just dumb manipulation of meaning=
+less abstract financial markets. Still the opportunity was so obvious!</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s an amazing lawsuit claim=
+ing=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.=
+267418/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElV=
+L3JkZEU0bVhLanZHdy92MA/607f07ceef4b8524a319a23cBdef2cc8b" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">he was ma=
+nipulating Dogecoin to make money</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">This is a securities fraud class action arisin=
+g from a deliberate course of carnival barking market manipulation and insi=
+der trading by the world=E2=80=99s richest man Elon Musk, who hijacked an e=
+mergent pop-culture phenomenon to cross-promote himself and his companies, =
+and to pad his obscene fortune, preying on the earnest hopes of vulnerable =
+Americans, including war veterans, blue collar workers, and the elderly. ..=
+.</p>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s followers did exactly what he s=
+aid. Musk=E2=80=99s pretense that promotion of Dogecoin was just well-meani=
+ng fun=E2=80=94not meant to be taken seriously=E2=80=94is not credible. It =
+is Musk=E2=80=99s custom=C2=A0to publicly address serious topics glibly on =
+Twitter. That doesn=E2=80=99t make him any less serious. Musk knows that th=
+e bulk of his followers are not sophisticated in business or investment, an=
+d Musk uses this knowledge to manipulate them. Musk is what is called an ap=
+ex predator, feeding on and manipulating the hordes below, including his Tw=
+itter following which has grown to 141 million.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The complaint claims that he made $10.2 billio=
+n of profit on Dogecoin from just one of his several wallets, an amount tha=
+t is bigger than=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/31696643.267418/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL2RvZ2V=
+jb2luLw/607f07ceef4b8524a319a23cB02ec43c0" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">the entire current marke=
+t capitalization of Dogecoin</a>. (Which makes sense: If Dogecoin is valued=
+ based on Musk=E2=80=99s attention, he should have extracted more than it i=
+s currently worth.) Also=C2=A0it is just a big number? Like if you went to =
+Elon Musk and said =E2=80=9Chere is a dumb thing that you could do to make =
+$100 million in 10 minutes,=E2=80=9D he might reasonably say=C2=A0=E2=80=9C=
+nah I have so much money, $100 million is not enough to make me spend 10 mi=
+nutes doing a dumb thing.=E2=80=9D But $10 billion is so=C2=A0much more mon=
+ey than that! If you went=C2=A0to Elon Musk and said=C2=A0=E2=80=9Cyou can =
+do some dumb tweets to make $10 billion,=E2=80=9D=C2=A0might he say yes?</p=
+>
+<p style=3D"margin: 16px 0;">Now, there are some problems with this lawsuit=
+.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: none !important; background-color: tran=
+sparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0The most obvious problem is that the wallet the plaintiffs have i=
+dentified =E2=80=94=C2=A0the one that made $10.2 billion of profits trading=
+ Dogecoin based on Musk=E2=80=99s tweets, and that at one point held over $=
+25 billion of Dogecoin=C2=A0=E2=80=94=C2=A0probably does not actually belon=
+g=C2=A0to him. The evidence that the plaintiffs cite is pretty thin:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Dogecoin wallet DH5yaieqoZN36fDVciNyRueRGvGLR3=
+mr7L (=E2=80=9CDH5ya=E2=80=9D) also belongs to Defendant Musk. ...=C2=A0On =
+February 10, 2021, Musk tweeted that he had purchased Dogecoin for his son.=
+ =E2=80=A6 The previous day, DH5ya (which was then the world=E2=80=99s larg=
+est Dogecoin wallet, containing roughly $2.8 billion worth of Dogecoin) pla=
+ced a transaction for 28.061971 Dogecoins, the numeric equivalent of Defend=
+ant Musk=E2=80=99s date of birth, i.e., the 28th of June 1971. This wallet =
+would purchase Dogecoin in that same amount on February 10, 2021, and once =
+again on February 17th. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">DH5ya was opened on February 5, 2019, less tha=
+n two months before Musk began publicly promoting Dogecoin on Twitter when =
+Dogecoin was trading at $0.0018 (less than two-tenths of a cent per coin). =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">By February 3, 2021, on the eve of Musk=E2=80=
+=99s most intense period of Dogecoin promotion and the bull market it immed=
+iately gave rise to, DH5ya had accumulated almost 35 billion Dogecoins and =
+was the largest Dogecoin wallet in existence.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">In a <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31696643.267418/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHM=
+vdXNlcnMvaXFqV0hCRmRmeElVL3JBUU5IaVl0RG9Wdy92MA/607f07ceef4b8524a319a23cB29=
+55211c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> previous version of their lawsuit</a>, from last December,=
+ they cited additional, uh, evidence:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">There are many cryptic messages hidden in the =
+transactions of this wallet which prove it belongs to Musk.</p>
+<p style=3D"margin: 16px 0;">Three separate transactions were made with thi=
+s wallet in the following amount: 28.061971 Dogecoin's, which reference Elo=
+n Musk's birthday of June 28, 1971.</p>
+<p style=3D"margin: 16px 0;">There have been transactions with exactly 69 c=
+oins (more than 6 times) and exactly 420 coins (2 times) which are numbers =
+that Musk often references in furtherance of his trademark crude humor (69 =
+for sex and 420 for marijuana).</p>
+<p style=3D"margin: 16px 0;">8.95121514 coins, when converted to letters sa=
+ys, "Hi Elon."</p>
+<p style=3D"margin: 16px 0;">1.3371337 coins, 1337 meaning "extremely skill=
+ed (at gaming or computing) and 80085 coins which says =E2=80=9CBOOBS=E2=80=
+=9D in keeping with Musk=E2=80=99s crude sense of humor.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Look: Is Elon Musk a guy who would buy things =
+in units of 80,085 because that's how you type =E2=80=9CBOOBS=E2=80=9D on a=
+ calculator? Maybe? He likes number jokes; he once pretended he was going t=
+o take Tesla Inc. private at <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMTgtMDgtMDgvZWxvbi1tdXNrLWhhcy1zb21lLWZ1bi13aXRoLXRlc2xhP2NtcGl=
+kPUJCRDA2MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDYwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB5e4b3322" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  $420 per share</a>, and then really did tak=
+e Twitter Inc. private at <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjItMDQtMjYvZWxvbi1nb3QtaGlzLWRlYWw_Y21waWQ9QkJEMDYwNTIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwN=
+jA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd945396f" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  $54.20 per share</a>. But are there lots of guys like that? Oh yes; E=
+lon Musk did not invent typing =E2=80=9C80085=E2=80=9D on a calculator. Are=
+ some of the guys who make these jokes doing so=C2=A0because they are imita=
+ting Elon Musk? Absolutely. If you are doing Dogecoin transactions that spe=
+ll out =E2=80=9CHi Elon,=E2=80=9D is it more likely that (1) you are Elon M=
+usk or (2) you=E2=80=99re an Elon Musk super-fan and want to say hi to him?=
+ Is it not weird to say hi to yourself?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway in their <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31696643.267418/aHR0cHM6Ly9hc3NldHMuYndieC5pby9k=
+b2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JVRWgzRkxMWm1Fcy92MA/607f07ceef4b8524=
+a319a23cB6e5689d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> response to the previous version of the lawsuit=
+</a>, filed in March, Musk=E2=80=99s lawyers denied that he owns that walle=
+t:</p>
+<blockquote><p style=3D"margin: 16px 0;">That wallet does not=C2=A0belong t=
+o Mr. Musk, and indeed the website that Plaintiffs relied upon in their Fir=
+st Amended Complaint ... states that the wallet in question belongs to Robi=
+nhood, a large consumer-facing exchange that permits retail buyers to buy a=
+nd sell cryptocurrencies, including<br />Dogecoin.=C2=A0Plaintiffs speculat=
+e that the wallet belongs to Mr. Musk solely because some small deposits to=
+ the account (which any member of the public can make) are for amounts that=
+ Plaintiffs claim are associated with Mr. Musk, such as =E2=80=9C69=E2=80=
+=9D or =E2=80=9C420=E2=80=9D or =E2=80=9CHi Elon=E2=80=9D in numbers.</p></=
+blockquote>
+<p style=3D"margin: 16px 0;">Ah well.<a class=3D"footnote-index" href=3D"#f=
+ootnote-3" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: non=
+e !important; background-color: transparent !important; display: inline-blo=
+ck;">
+<span>[3]</span>
+</a>=C2=A0If Musk=C2=A0<em>wasn=E2=80=99t=C2=A0</em>selling piles of Dogeco=
+in as his tweets drove up the price, then the case for market manipulation =
+seems pretty weak. Trolling, sure, but market manipulation, probably not.</=
+p>
+<p style=3D"margin: 16px 0;">Still there are other problems with the lawsui=
+t. One problem is that the plaintiffs are=C2=A0suing Musk for insider tradi=
+ng and securities fraud, which only works if Dogecoin is a security. Is it?=
+ Well. <a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.26=
+7418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMD=
+gvZ2FyeS1nZW5zbGVyLXdhbnRzLXRvLXJlZ3VsYXRlLWNyeXB0bz9jbXBpZD1CQkQwNjA1MjNfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBac23a1=
+32" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Almost every cryptocurrency</a>, other than Bitcoin and mayb=
+e Ether, is probably a security under US securities law, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTMvdGhlLXNlYy1jcmFja3MtZG9=
+3bi1vbi1jcnlwdG8_Y21waWQ9QkJEMDYwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA1JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cBcdea89a9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  at least</a> in the vi=
+ew of the US Securities and Exchange Commission (which I think is mostly co=
+rrect). But Dogecoin? The rule is that =E2=80=9Cthe investment of money in =
+a common enterprise with a reasonable expectation of profits to be derived =
+from the efforts of others=E2=80=9D makes something a security, and virtual=
+ly every crypto project, with its promise of wealth from some blockchain ec=
+osystem, probably qualifies. Except Dogecoin! Dogecoin is just a joke about=
+ a dog. The guys who invented it were explicitly joking, and have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAyMS8wNy8xNC9kb2dlY29pbi1jby1jcmVhdG9yLWphY2tzb24tcGFs=
+bWVyLWNyaXRpY2l6ZXMtdGhlLWNyeXB0by1pbmR1c3RyeS5odG1s/607f07ceef4b8524a319a2=
+3cB00a973a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> gone around telling people</a> it is stupid. This is =
+not a crypto token that was sold to raise money to build out a blockchain e=
+nterprise. It is a pure joke with no enterprise at all, which makes it prob=
+ably not a security.<a class=3D"footnote-index" href=3D"#footnote-4" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">An even bigger problem is just, like, what wou=
+ld it=C2=A0<em>mean=C2=A0</em>for Elon Musk to=C2=A0<em>manipulate </em>Dog=
+ecoin?<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0Like a classic form of market manipulation is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You buy some penny stock.</li>=09<li =
+style=3D"margin-bottom: 5px;">You tweet that the company discovered a cure =
+for cancer.</li>=09<li style=3D"margin-bottom: 5px;">You are lying.</li>=09=
+<li style=3D"margin-bottom: 5px;">People believe you.</li>=09<li style=3D"m=
+argin-bottom: 5px;">The stock goes up.</li>=09<li style=3D"margin-bottom: 5=
+px;">You sell the stock.</li>
+</ol>
+<p style=3D"margin: 16px 0;">There is some <em>dishonesty</em>; you say som=
+ething that is not true, to trick people into buying the stock. But apply t=
+hat to Dogecoin:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Elon Musk buys some Dogecoin.</li>=09=
+<li style=3D"margin-bottom: 5px;">He tweets, like, a picture of a Shiba Inu=
+ or whatever.</li>=09<li style=3D"margin-bottom: 5px;">People are like =E2=
+=80=9Cooh Elon Musk is paying attention to Dogecoin.=E2=80=9D</li>=09<li st=
+yle=3D"margin-bottom: 5px;">The price goes up.</li>=09<li style=3D"margin-b=
+ottom: 5px;">He sells Dogecoin.</li>
+</ol>
+<p style=3D"margin: 16px 0;">That=E2=80=99s the claim in this lawsuit, thou=
+gh Musk denies it. But=C2=A0even if it were true, where is the lie here? Do=
+gecoin goes up and down based on Elon Musk=E2=80=99s attention, so when he =
+tweets about it, the market <em>correctly</em> concludes that=C2=A0Elon Mus=
+k is paying attention to it, and the price goes up. From the complaint:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On July 17, 2020, Musk tweeted a meme of a pho=
+to of a dust storm overtaking an urban area, with the face of the Dogecoin =
+Shiba Inu superimposed on the dust cloud. The cloud was labeled =E2=80=9Cdo=
+gecoin standard.=E2=80=9D The urban area about to be overtaken was labelled=
+, =E2=80=9Cglobal financial system.=E2=80=9D Above this image, Musk superim=
+posed the remark, =E2=80=9CIt=E2=80=99s inevitable.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Immediately following this tweet, Dogecoin=E2=
+=80=99s price rose 14%, from $0.00304 to $0.00363, in less than two hours.<=
+/p>
+<p style=3D"margin: 16px 0;">On December 20, 2020, Musk tweeted, =E2=80=9CO=
+ne word: Doge.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">This tweet caused the price of Dogecoin to inc=
+rease by 20%.</p>
+<p style=3D"margin: 16px 0;">On January 28, 2021, Musk tweeted an image of =
+a magazine cover parodying Vogue magazine. It was titled =E2=80=9CDogue,=E2=
+=80=9D and it featured a dog fashion model. (Exhibit =E2=80=9CJ=E2=80=9D) T=
+his tweet caused Dogecoin=E2=80=99s price to shoot from $0.0262 to $0.0799,=
+ a 57% increase in just five hours.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In the early hours of February 4, 2021, Musk t=
+weeted a picture of a rocket blasting into space with the Moon looming in t=
+he background. Beneath this tweet, he added another tweet that read, simply=
+: =E2=80=9CDoge.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The price of Dogecoin increased from $0.04089 =
+to $0.05797 within an hour.</p>
+<p style=3D"margin: 16px 0;">Later that day, February 4, 2021, Musk tweeted=
+ another meme. This was a screen-capture of the famous =E2=80=9CCircle of L=
+ife=E2=80=9D scene from Disney=E2=80=99s The Lion King animated film, with =
+Dogecoin=E2=80=99s Shiba Inu mascot and Elon Musk superimposed.=C2=A0Above =
+this image, Musk added the remark, =E2=80=9Cur welcome=E2=80=9D an apparent=
+ reference directed at Dogecoin investors. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">On February 24, 2021, Musk tweeted an image of=
+ a cartoon Shiba Inu in a spacesuit, on the moon, holding up a flag labelle=
+d =E2=80=9CDoge.=E2=80=9D Above this image, Musk added the remark, =E2=80=
+=9CLiterally.=E2=80=9D And later he tweeted, =E2=80=9COn the actual moon.=
+=E2=80=9D Dogecoin=E2=80=99s price shot up 25% that same day.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Come on! Come on! You could find some humorles=
+s quibbles here: Did Elon Musk really believe, and have adequate grounds fo=
+r believing, that the =E2=80=9CDogecoin standard=E2=80=9D would swallow the=
+ global financial system? But most of these tweets are just pictures of dog=
+s. The overall thrust here is that Dogecoin is an online=C2=A0joke, and Elo=
+n Musk is a famous person who likes online jokes, and for a time there was =
+a valuable synergy there. The value of Dogecoin as an online joke went up w=
+hen Elon Musk was making Dogecoin jokes online. If you bought Dogecoin beca=
+use Elon Musk tweeted about it, you didn=E2=80=99t buy it=C2=A0because you =
+expected it to become the global monetary standard, or because you expected=
+ Tesla to start pricing cars in Dogecoin or whatever. You bought it=C2=A0<e=
+m>because Elon Musk tweeted about it</em>. That was the whole analysis: =E2=
+=80=9CElon Musk tweeted about this joke dog coin, so I=E2=80=99m gonna buy =
+it.=E2=80=9D He really did tweet about it! How could you have been misled?<=
+/p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTY5NjY0MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5NjQwNjEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCa9be5c66" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31696643&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31964061&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTY5NjY0MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5NjQwNjEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa9be5c66" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31696643&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31964061&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in Elon Musk</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Do you know what else would be a good tradable=
+ token of Elon Musk-ness? The stock of Twitter Inc., or X Corp. or whatever=
+ they=E2=80=99re calling it these days. But Twitter is closely held since M=
+usk and a few friends bought it last year, so retail investors cannot trade=
+ it for its meme potential, and Musk=E2=80=99s public pronouncements cannot=
+ move its stock.</p>
+<p style=3D"margin: 16px 0;">And so this morning my Bloomberg Opinion colle=
+ague Ed Hammond argues that =E2=80=9C<a href=3D"https://link.mail.bloomberg=
+business.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDYtMDUvZm9yLWhpcy1uZXh0LXRyaWNrLWVsb24tbXVzay1zaG9=
+1bGQtdGFrZS10d2l0dGVyLXB1YmxpYz9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2Nhb=
+XBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2e036185" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  For His=
+ Next Trick, Musk Should Take Twitter Public</a>.=E2=80=9D The rationale he=
+re is not so much that Twitter needs the money (though it does!) or that it=
+ makes more sense as a pubic company or whatever, and more that Musk is lea=
+ving money on the table by doing meme-stock stuff to a private company:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Whether Musk is launching electric cars, reusi=
+ng rockets or just casually pumping crypto, his power to rapidly accumulate=
+ goodwill among the masses is unmatched. So why not do it with Twitter, the=
+ very organ through which much of that financial loyalty is husbanded?</p>
+<p style=3D"margin: 16px 0;">Sure, big institutional money and much of the =
+financial media would question the rationale. But so what? They have been d=
+oing that for years about Tesla, and look where that got them. In fact, it =
+would probably help. Musk long ago mastered the populist gift for provoking=
+ =E2=80=9Cestablishment=E2=80=9D skepticism to push an image of victimhood.=
+ ...</p>
+<p style=3D"margin: 16px 0;">Going public =E2=80=94 which Musk himself floa=
+ted as an idea within as little as three years of taking Twitter private =
+=E2=80=94 would also give him the thing he craves constantly: a referendum =
+on his superiority. It must be irksome for someone of such undimmed self-lo=
+ve to have his project devalued by dumb, mainstream-money institutions. The=
+ people would have his back =E2=80=94 I think they would. And even if they =
+didn=E2=80=99t right away, he could convince a lot of them. He=E2=80=99s go=
+od at that. Twitter would become the ultimate meme stock, a vehicle of perp=
+etual contrarianism.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I think this is correct. He should sell the st=
+ock at $69 per share, or $420, or $800.85. He should try to get <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTIvc3BhYy1waXBlcy1z=
+b21ldGltZXMtbGVhaz9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cBf9850a8a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  the ticker X</a>.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">People sometimes=C2=A0contrast corporate chief=
+ executive officers whose skills involve product or operations or sales or =
+customer service, with=C2=A0those whose skills involve financial engineerin=
+g. Musk=E2=80=99s public image is all about rockets and tunnels and code re=
+views and optimizing assembly lines, and he is pretty cavalier about how fi=
+nance works.<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: none !important; background-=
+color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0And yet perhaps his greatest accomplishments are in financial eng=
+ineering? In some ways Musk invented and perfected <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjUvZWxvbi1tdXNrLW1ha2VzLXRlc2xhL=
+WhlcnR6LWFuZC1iaXRjb2luLW1lbWVzLWdvLXVwP2NtcGlkPUJCRDA2MDUyM19NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwNSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb18a2b6a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ meme stocks</a> long before anyone ever thought about GameStop, and he has=
+ used his meme abilities to <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjEtMDEtMDYvdGVzbGEta2VwdC1idXN5LWluLTIwMjA_Y21waWQ9QkJEMDYwNTIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwNjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf840=
+e5fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  raise billions of dollars</a> of retail capital, get Tesla =
+Inc. through tough financial times, and become, on some days, the richest p=
+erson in the world. Plus whatever he did or didn=E2=80=99t get up to with D=
+ogecoin. It is silly for him to run Twitter=C2=A0<em>without=C2=A0</em>taki=
+ng advantage=C2=A0of his immense ability to move stock prices and raise cap=
+ital. He is drawing so much attention to himself with Twitter, and he is wo=
+rld-historically good at turning attention into money. Why not do it with T=
+witter?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Online banks</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGl=
+kPUJCRDA2MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDYwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB21fdda5a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked</a> a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDkvaXQtcy1uZXZlci10b28tbGF0ZS1mb3ItYmF=
+ua3MtdG8taGVkZ2U_Y21waWQ9QkJEMDYwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA1JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cBe53d81d7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  lot</a> <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMjIvYmFua3MtZ290LXJpc2l=
+uZy1yYXRlcy13cm9uZz9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB73d4120a" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  recently</a> about =
+two theories of banking, and specifically of bank deposits. Theory 1 says t=
+hat bank deposits are short-term funding, and depositors can take their mon=
+ey out at any time. Theory 2 says that bank deposits are=C2=A0<em>actually=
+=C2=A0</em>long-term funding; depositors are information-insensitive and ha=
+ve long-term relationships with the bank, and though they are technically a=
+llowed to take their money out at any time, they rarely do.</p>
+<p style=3D"margin: 16px 0;">Theory 2, I have argued, is the traditional th=
+eory of bankers, and it influences traditional banking behavior. Specifical=
+ly:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Banks invest in doing things that bui=
+ld customer relationships: They=C2=A0build branches and put people in them =
+to meet with customers, they cross-sell products, they aim to make the depo=
+sits as sticky as possible.</li>=09<li style=3D"margin-bottom: 5px;">Banks =
+invest their deposits in long-term fixed-rate assets, like mortgage loans a=
+nd government bonds, because they think of their deposits as being long-ter=
+m. Not only in the sense that the deposits won=E2=80=99t go away, but also =
+in the sense that the interest rate they have to pay on deposits won=E2=80=
+=99t move very much even if the Federal Reserve raises interest rates: Depo=
+sitors, in Theory 2, are not paying attention, and won=E2=80=99t demand hig=
+her interest even as rates go up.</li>
+</ol>
+<p style=3D"margin: 16px 0;">These things are related: All the branches and=
+ customer service representatives cost money, and the way to earn that mone=
+y is by borrowing at low interest rates and lending at high interest rates.=
+ And you get higher interest rates, generally, by lending for longer terms.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Theory 1 is a more standard theory of modern f=
+inance, and it would lead to different behavior. Specifically, if you are a=
+ bank and you think of=C2=A0deposits as being short-term loans at market ra=
+tes:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You will not invest in branches, etc.=
+; you=E2=80=99ll just pay the market rate for market funding. As rates go u=
+p, your deposit rates will go up, and you=E2=80=99ll keep getting deposits,=
+ but this is a pure economic transaction, not a relationship.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">You will not take a ton of duration risk with y=
+our assets: You=E2=80=99re borrowing short-term at floating rates, so you=
+=E2=80=99ll want to invest at floating rates and earn a small spread.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Anyway traditional banks seem to have believed=
+=C2=A0Theory 2, and they got in a lot of trouble as rates rose this year. O=
+ther banks, though, were fine. The <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31696643.267418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vbm=
+xpbmUtYmFua3MtYXJlLXdpbm5pbmctdGhlLWRlcG9zaXQtd2FyLThmN2UxNmI5P21vZD1pdHBfd=
+3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB88acb1a7" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Wall Street Jou=
+rnal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Deposits were up quarter over quarter at Ally =
+Financial and Goldman Sachs Group=E2=80=99s Marcus, which don=E2=80=99t hav=
+e branch networks. Deposits were also up at Capital One, which has far fewe=
+r branches than the other big regionals. Online-focused banks can often off=
+er higher rates, as they don=E2=80=99t have to pay for the real estate, emp=
+loyees or equipment required to run a traditional network of branches. =E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">Deposits climbed 5% at Capital One from the pr=
+evious quarter and 1% at Ally Financial. Goldman said deposits in its onlin=
+e bank Marcus increased, though it didn=E2=80=99t give specifics.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe future of everything in banking i=
+s digital,=E2=80=9D Capital One Chief Executive Richard Fairbank told analy=
+sts on a call in April.=C2=A0</p>
+<p style=3D"margin: 16px 0;">That growth came at a price. The average inter=
+est rate paid on deposits was 3.2% at Ally in the first quarter and 2.4% at=
+ Capital One. Both were more than 2 percentage points higher than a year ea=
+rlier. At Bank of America and Wells Fargo, average interest rates on deposi=
+ts were around 1% in the first quarter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Right, if you are a traditional bank and you b=
+elieve in Theory 2 and rates go up=C2=A0<em>and you are right</em>, you do =
+great: You make more money on your assets, you don=E2=80=99t pay any more m=
+oney on your deposits, and you capture a big spread. But if you=E2=80=99re =
+wrong, all your depositors leave and you go bust, or at least, you pay like=
+ 4% on deposits and keep earning like 3% on your long-term assets. If you a=
+re an online bank and you believe in Theory 1, the outcomes are a bit simpl=
+er and less binary: You=C2=A0pay more interest as rates go up, but you prob=
+ably don=E2=80=99t go bust.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hedge fund compensation</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">When I was an investment banker, a guy joined =
+our desk as a vice president from another bank. He had several months of ga=
+rdening leave =E2=80=94=C2=A0enforced, paid time off due to his noncompete =
+agreement with his prior bank =E2=80=94=C2=A0and then started working on ou=
+r desk. He lasted, in my memory, a few months, and then left to go back to =
+his old bank, after another period of gardening leave. We all thought he wa=
+s a genius. Really the best possible job, it seemed to me at the time, was =
+getting paid an investment banking salary for=C2=A0<em>not=C2=A0</em>doing =
+investment banking. If you could just yo-yo back and forth between banks, t=
+aking six months of paid time off each time you moved, that seemed ideal. O=
+thers might disagree, and I was not, to be fair, a very good or ambitious i=
+nvestment banker.=C2=A0Maximizing gardening leave is not really a path to b=
+ecoming a master of the universe. But it seemed nice.</p>
+<p style=3D"margin: 16px 0;">If you work at a financial services firm and y=
+ou go to your boss and say =E2=80=9CI am taking a job offer at a competitor=
+, they are going to pay me $2 million a year,=E2=80=9D your boss might say =
+=E2=80=9Cno, stay, we=E2=80=99ll pay you $2.25 million.=E2=80=9D For a high=
+ performer, money can be matched. But if going to the competitor gets you s=
+ix months=E2=80=99 gardening leave, that might be a good reason to leave an=
+yway. Can your boss match that? Well I mean sure, why not. Bloomberg=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.2674=
+18/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDEvdG9w=
+LXRyYWRlcnMtc2VlLTEyMC1taWxsaW9uLXBheWRheXMtYXMtaGVkZ2UtZnVuZHMtZmlnaHQtZm9=
+yLXRhbGVudD9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cB704de21f" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  Nishant Kumar reported last=
+ week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When portfolio manager David Lipner said he wa=
+s quitting billionaire Izzy Englander=E2=80=99s Millennium Management to jo=
+in a rival, the hedge fund countered with an unusual proposal: A one-year p=
+aid sabbatical and an incentive upon return if Lipner stayed.</p>
+<p style=3D"margin: 16px 0;">And stay he did. For Millennium, the $58 billi=
+on industry giant known for ruthlessly cutting underperformers, the generou=
+s offer was seen as totally worth it. After all, Lipner had made money for =
+the firm for more than a decade, longer than most hedge funds remain in bus=
+iness.</p>
+<p style=3D"margin: 16px 0;">Such enticements are now becoming part of a gr=
+owing array of expensive tools the world=E2=80=99s biggest hedge funds are =
+deploying to hire and retain traders.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Oh of course if you are an ambitious successfu=
+l portfolio manager you are not really switching jobs to get gardening leav=
+e; probably you are <em>annoyed=C2=A0</em>about the gardening leave. The ar=
+ticle is mostly about how multistrategy funds are offering huge amounts of=
+=C2=A0<em>money</em>=C2=A0to star performers:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Last year, a senior portfolio manager was lure=
+d by a major New York fund with more than $120 million in guaranteed payout=
+s, according to a headhunter who said he=E2=80=99d done several deals payin=
+g north of $50 million. Contracts worth $10 million to $15 million are incr=
+easingly becoming common for traders, said another.</p>
+<p style=3D"margin: 16px 0;">Hedge funds have long been the land of eye-pop=
+ping rewards, but a few recent trends are converging to take it to new leve=
+ls. The stellar track record of several giant firms that spread money acros=
+s teams of traders following multiple strategies has caused their assets to=
+ surge. That=E2=80=99s prompted a hiring spree to add more traders and stra=
+tegies so the existing ones aren=E2=80=99t over-stretched.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But =E2=80=9CLipner wasn=E2=80=99t the only on=
+e offered the sabbatical by Millennium.=E2=80=9D Not working at a hedge fun=
+d does seem to be a highly desirable perk among people who work at hedge fu=
+nds.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in multistrategy hedge funds</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In general if you start a hedge fund and you g=
+o into an institutional allocator=E2=80=99s office and say =E2=80=9Cgive me=
+ money so I can buy the stocks that will go up,=E2=80=9D they are likely to=
+ say to you =E2=80=9Cno, we are full up on people who buy stocks that go up=
+, we want returns that are uncorrelated to the stock market.=E2=80=9D And i=
+f you go away and put on a fake mustache and come back and say =E2=80=9Cgiv=
+e me money so I can buy the bonds that will go up,=E2=80=9D or the commodit=
+y futures or the cryptocurrencies or the equity volatility or the distresse=
+d credit or the farmland that will go up, they will also have heard that st=
+ory before and already have an allocation. But if you go into an allocator=
+=E2=80=99s office and say =E2=80=9Cgive me money so I can buy temperature,=
+=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/31696643=
+.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDE=
+vZ29sZG1hbi1hcXItYWx1bW5pLXN0YXJ0LW5pY2hlLW11bHRpc3RyYXQtd2l0aC1hc25lc3MtYm=
+Fja2luZz9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBf0639fbe" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  that will pique their interest=
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A new multistrategy hedge fund run by Wall Str=
+eet veterans Brian Hurst and Elisha Wiesel began trading Thursday, focusing=
+ on offbeat strategies such as temperature arbitrage.</p>
+<p style=3D"margin: 16px 0;">Hurst, a 21-year veteran of AQR Capital Manage=
+ment, and Wiesel, who spent 25 years at Goldman Sachs Group Inc., are start=
+ing Niche Plus as ClearAlpha Technologies=E2=80=99 first fund. With commitm=
+ents of several hundred million dollars, it expects to have $1 billion with=
+in a year to deploy across 13 teams running 20 strategies.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe=E2=80=99re focusing on what we cal=
+l niche alpha strategies, which are going to be off the beaten path,=E2=80=
+=9D Hurst, 50, said in an interview at the firm=E2=80=99s Greenwich, Connec=
+ticut offices. =E2=80=A6.</p>
+<p style=3D"margin: 16px 0;">While most multistrategy firms rely heavily on=
+ trading stocks in developed markets, Niche Plus=E2=80=99s only traditional=
+ long-short stock play focuses on Middle East and North African shares.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">More than half of the fund=E2=80=99s teams run=
+ their own firms while managing accounts for ClearAlpha, which has risk con=
+trol over those portfolios. One specialized team is made up of former Swiss=
+ Re AG traders who run a temperature arbitrage strategy based on the weathe=
+r.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe identify dislocations where the te=
+mperature is high one place and low somewhere else, and then we short the h=
+igh temperature and buy the low temperature,=E2=80=9D is probably not the s=
+trategy here, though it would be wonderful if it was. Anyway I love the ide=
+a of a hedge fund where the rules are (1) you have to make money but (2) yo=
+u can=E2=80=99t trade stocks, bonds or crypto. The constraints make the art=
+.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">UBS to <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDYtMDUvdWJzLXBsYW5zLXRvLWNvbXBsZXRlLWNyZWRpdC1zdWlzc2Ut=
+dGFrZW92ZXItYXMtZWFybHktYXMtanVuZS0xMj9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc9715b6f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Complete Credit Suisse Takeover</a> as Early as June 12. Cboe Is Now <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDIvY2JvZS1icmVha=
+3MtaW50by1saXN0aW5nLWNvbXBhbmllcy1hbG9uZ3NpZGUtbnlzZS1hbmQtbmFzZGFxP2NtcGlk=
+PUJCRDA2MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMDYwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cBfc36aea9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Listing Companies</a> Alongside NYSE and Na=
+sdaq. EV Makers Confront the =E2=80=98<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+lbGVjdHJpYy12ZWhpY2xlcy1iYXR0ZXJpZXMtbmlja2VsLXBpY2tsZS1pbmRvbmVzaWEtOTE1Mm=
+IxZj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB2d22d1bf" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Nickel Pickle</a>.=E2=80=99 Assault Allegations Plague a $1.4 Billion Hom=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDUtMzAvcGFwYS1=
+lbGRlcmNhcmUtc3RhcnR1cC1mYWNlcy1hYnVzZS1jbGFpbXMtYnktc2VuaW9ycy1jYXJlZ2l2ZX=
+JzP2NtcGlkPUJCRDA2MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB1cb66db2" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  Eldercare Startup</a>. Binance=E2=
+=80=99s Regulatory Woes Pave a Path for CEO <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDUvYmluYW5jZS1zLXJpY2hhcmQtdGVuZy1lbWVyZ2Vz=
+LWFzLWN6LXMtaGVpci1hcHBhcmVudC1hcy1yZWd1bGF0b3JzLWNpcmNsZT9jbXBpZD1CQkQwNjA=
+1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMzA2MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+54bec42f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  Zhao=E2=80=99s Heir Apparent</a>. UK Fines Brokerage ED=
+&amp;F Man =C2=A317.2 Million For Role in <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDYtMDUvdWstZmluZXMtYnJva2VyYWdlLWVkLWYtbWFuLTE3LT=
+ItbWlsbGlvbi1mb3ItY3VtLWV4LXRyYWRpbmc_Y21waWQ9QkJEMDYwNTIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA1JnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb1bcf494" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  C=
+ontroversial Tax Scheme</a>. BOE Wants <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjMtMDYtMDUvYm9lLXdhbnRzLWRlcG9zaXQtcHJvdGVjdGlvbi1mdW5kL=
+XRvLXJlY2FwaXRhbGl6ZS1mYWlsaW5nLWJhbmtzP2NtcGlkPUJCRDA2MDUyM19NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwNSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB427b0b67" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Deposit Protection Fund</a> to Recapitalize Failing Banks. Twitter=E2=80=
+=99s U.S. Ad Sales Plunge 59% as <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31696643.267418/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wNi8w=
+NS90ZWNobm9sb2d5L3R3aXR0ZXItYWQtc2FsZXMtbXVzay5odG1s/607f07ceef4b8524a319a2=
+3cB3ee00f9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Woes Continue</a>. ETF Providers Rush to Tap Into <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldGYtcHJvdmlkZXJzLXJ1c2gtdG8tdGFwLWludG8t=
+YWktaW52ZXN0aW5nLWNyYXplLTNjYThlMGMyP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef=
+4b8524a319a23cB0ffa61c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> AI Investing Craze</a>. Bitcoin Coders Fe=
+ud Over Whether to Crush $1 Billion <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDYtMDQvYml0Y29pbi1idGMtZGV2ZWxvcGVycy1mZXVkLW92ZXItZW5k=
+aW5nLW9yZGluYWxzLW1lbWVjb2luLWZyZW56eT9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB659343ad" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Frenzy for Memecoins</a>.=C2=A0JPMorgan Turns to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDUvanBtb3JnYW4tdG8tdXNlLWJsb2NrY2hha=
+W4tdG8tc2V0dGxlLXVzZC1meC10cmFkZXMtaW4taW5kaWEtaHViP2NtcGlkPUJCRDA2MDUyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMDYwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd8a898=
+75" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Blockchain</a> for Dollar Trades in India Hub. =E2=80=9COn t=
+hose platforms, it=E2=80=99s listed as First Avenue Gourmet Deli, Hero Sand=
+wich Shop, Bosscat Cheesesteaks, The Pancake Snob, Wraps on Tap, Insomnia B=
+uffalo Wings, Panini Fantasy, Jasmine=E2=80=99s Coffee Bar, Jen=E2=80=99s B=
+urger Blaze, NY Smoothie Joint, Nomad=E2=80=99s Bagels, Tina=E2=80=99s Tea =
+Shop, Aldo=E2=80=99s Wraps Spot, Wonderland Wraps, Sam=E2=80=99s Sandwich S=
+pot, Smoothie and Dessert Spot, Princess Panini, Tessa=E2=80=99s Fruity Tre=
+ats, Empire State Panini, The Sandwich Slut, La Bella Italian Desserts, Set=
+h=E2=80=99s Sandwiches, <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31696643.267418/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDYvMDEvbnljLWRlbGlzL=
+XVzZS1zZWFtbGVzcy1kb29yZGFzaC1ncnViaHViLXRvLXBvc2UtYXMtcmVzdGF1cmFudHMv/607=
+f07ceef4b8524a319a23cB914a6c86" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> The Sandwich Vibe</a>, LV Taco Bar=
+, Queen=E2=80=99s Quesadillas, The Gourmet Burger and Drip Check Coffee Sho=
+p.=E2=80=9D=C2=A0SoftBank=E2=80=99s Onetime <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb=
+24uY29tL2FydGljbGVzL3NvZnRiYW5rcy1vbmV0aW1lLXBpenphLXJvYm90LWRhcmxpbmctc2h1=
+dHMtZG93bj91dG1fY2FtcGFpZ249QXV0b21hdGVkK0ZhbGxiYWNrK1ImdXRtX2NvbnRlbnQ9ODk=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWNpbyZ1dG1fdGVybT0xOSZyYz0xYmRpNWg/60=
+7f07ceef4b8524a319a23cB832afdd7" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Pizza-Robot Darling</a> Shuts Dow=
+n.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31696643.267418/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBbf72fedc" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31696643.267418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB8e6dbaf0" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Actually <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31696643.267418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTAvZWxvbi1tdXNrLXMtc25sLWRlYnV0LWRpZG4tdC=
+1oZWxwLXRoZS1kb2dlY29pbi1idWxscz9jbXBpZD1CQkQwNjA1MjNfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDUmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2e815c75" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  it goe=
+s down</a>, but that is a sort of buy-the-rumor-sell-the-news situation; Do=
+gecoin hit an all-time high just *before* he went on SNL. </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] The lawsuit is in a strange place; it=E2=
+=80=99s been sort of kicking around for a while, it keeps not quite working=
+, and last week the plaintiffs filed a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31696643.267418/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bW=
+VudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JLXzRmUFA5TXk4OC92MA/607f07ceef4b8524a319a2=
+3cBa8fae0d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> motion for leave to amend</a> to submit a third amend=
+ed complaint. I am quoting in the text from their <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6Ly9hc3NldHMuYndieC5=
+pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JkZEU0bVhLanZHdy92MA/607f07ceef4=
+b8524a319a23cCdef2cc8b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> proposed third amended complaint</a>, whic=
+h is the current version of their claims. (I also sometimes quote the <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM=
+6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JBUU5IaVl0RG=
+9Wdy92MA/607f07ceef4b8524a319a23cC2955211c" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> second amended complai=
+nt</a> from December, and Musk=E2=80=99s <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31696643.267418/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1=
+bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JVRWgzRkxMWm1Fcy92MA/607f07ceef4b8524a319=
+a23cC6e5689d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> motion to dismiss that complaint</a>.)</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] The complaint does a somewhat better job o=
+f linking a different wallet, which =E2=80=9Cwas opened in 2017, and since =
+that time has sent and received billions of dollars=E2=80=99 worth of Dogec=
+oin in at least 737,920 separate transactions,=E2=80=9D to Musk, based on a=
+ charitable donation that he apparently sent. But (1) there are no real cla=
+ims about that wallet trading directly on Musk=E2=80=99s tweets and (2) Elo=
+n Musk wastes a lot of time online, but I have trouble imagine him making S=
+EVEN HUNDRED THOUSAND separate Dogecoin trades? =E2=80=9CThe extremely high=
+ number of transactions DJ6Kc has conducted suggests that DJ6Kc is not oper=
+ated manually, by a person, but is instead operated by a software program,=
+=E2=80=9D says the complaint, but, what, Musk built a high-frequency-tradin=
+g Dogecoin bot?</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The complaint disagrees, arguing that Musk=
+=E2=80=99s own efforts make Dogecoin security-like: =E2=80=9CThe enterprise=
+ is common because the digital =E2=80=98ecosystem=E2=80=99 or network aroun=
+d the Dogecoin blockchain consists of developers, nodes, and miners working=
+ together to develop, maintain, and secure the blockchain; and because the =
+success of the ecosystem drives demand for Dogecoin and thus determines inv=
+estors=E2=80=99 profits, in the form of increased value of Dogecoin. The en=
+terprise is also common because Musk=E2=80=99s advisor, Billy Markus is, an=
+d Musk=E2=80=99s 'right-hand man,' Jared Birchall was, a member of the Doge=
+coin Foundation, Inc. (=E2=80=98DCFI=E2=80=99) Board of Advisors; and becau=
+se Musk, the Dogecoin core developers, as well as the DCFI Board Advisors, =
+help publicize Dogecoin through social media content and by giving intervie=
+ws to the press. The character Dogecoin is given in commerce by the publici=
+ty efforts of Defendant Musk, is of a fun, profitable and fungible investme=
+nt instrument with immense long-term utility both as a store of wealth and =
+as a medium of exchange, on the cutting edge of technology and pop culture.=
+ The investor is led to expect profits from the computing efforts of develo=
+pers, nodes, and miners; from Musk=E2=80=99s consulting with the core devel=
+opers; from the publicity efforts of Musk, DCFI, and various online shills =
+or =E2=80=98influencers;=E2=80=99 and the crypto exchanges offering Dogecoi=
+n to investors.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Or: There is a claim about insider trading=
+, that =E2=80=9CMusk traded Dogecoin profitably through one or more wallets=
+ and domestic exchanges using foreknowledge then unknown and undisclosed to=
+ Dogecoin investors generally or publicly, of his own intended moves to man=
+ipulate the market.=E2=80=9D But his moves were tweets! How can it be illeg=
+al insider trading to trade ahead of your own plans to tweet a joke?</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Incidentally, I realize that he is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aHR0cHM6L=
+y93d3cudGhlaW5mb3JtYXRpb24uY29tL2JyaWVmaW5ncy90d2l0dGVyLWNlby1saW5kYS15YWNj=
+YXJpbm8tdG8tc3RhcnQtbW9uZGF5/607f07ceef4b8524a319a23cB2a3cd62f" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> no=
+t technically the chief executive officer of Twitter anymore</a>, but we ar=
+e all grown-ups here, and he runs Twitter. Still I suppose that Twitter=E2=
+=80=99s incoming CEO, Linda Yaccarino, could get out ahead of this by propo=
+sing an IPO herself. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBcc530b00" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf807ab0d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBff3f5f9a" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8f291dc1" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB402a9263" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.2674=
+18/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB2237d126" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31696643.267418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC242f22f2" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31696643.267418/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd707c08c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31696643.267418/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd9b600a5" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBa=
+8609b26" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31696643.267418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+ce4a682" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23civdab.5qca/35fd04b2.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_52372733_1235821473.1685986554983--
+

@@ -1,0 +1,2730 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:140c:b0:df:6da6:e45b with SMTP id m12csp3145986rwi;
+        Mon, 5 Dec 2022 12:08:08 -0800 (PST)
+X-Received: by 2002:adf:f2c2:0:b0:242:244b:3bcb with SMTP id d2-20020adff2c2000000b00242244b3bcbmr18782713wrp.655.1670270887899;
+        Mon, 05 Dec 2022 12:08:07 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1670270887; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=XKT//Ohm1yQt+tuNFt346bn6dAgJoeILOKHASZx0LDqxBKtgoAnKD4uA15PfbwKrzk
+         CjuO03osfd4obNluSPChRPUR99ILqmqq+aBhhtZnlLSEqK3B8iY8XWWTdVTYY2AlJZMJ
+         QV252F56oil57t9nHww/T1dJ3K6Vf/F8V+pCkt08sAydOJnEcOcKC2+aXSevc76S81KP
+         m+qF2Ckvyx6//EkJEghqeRW2EdVwRpJ+Gs5uXXMuzkCuF7YnDRc7Z0Qq8JEi+C2NsYBC
+         1crhcmxM3tB/k7VZlIMNdvzeJhtAIF3YoRCNMCDxU3/oAw8P0IBziuZ0DqMApLNaV+18
+         i1Eg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=bzsddWRmn/dAYv9P9yQ9LrjH08NiBzoTrMRwvyUgQXI=;
+        b=GGpT70KcceX8l/9MJIfmiETGVWhns/PmDA4Xmnxvv3BjB9EN61vOWV1uty15PwxoEo
+         ojMDB1GI4XuGclVa2VcFxeOrjD/VuLviT9WU4Rhok/7a6evtJ3BdKyfraANrTr8Q4qWs
+         eostT0UVhohYOkN39WjolcTjcQDJ0zFAnpmZr+Az7Ag4yIZiKkJ2NYlOPGfTgRrMJ+VR
+         HtSxFMgvCPUKvGLS62nbgiAdKQW4ydcM+wpFxhzq4emhh+azRzCy/DYm04uto+ujQwWQ
+         GqE6RXtAcz8MVqw8Bl3sn5kIhokF0sDbR72+oq1KKRjaHLjesNlKu17bxyRDCcoMAGQv
+         bXuw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=muthsyRl;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id id25-20020a05600ca19900b003cf8a87b82fsor4637231wmb.38.2022.12.05.12.08.07
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 05 Dec 2022 12:08:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=muthsyRl;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=bzsddWRmn/dAYv9P9yQ9LrjH08NiBzoTrMRwvyUgQXI=;
+        b=gd0TVgDG3ReQsYkHyxY5Poq4gg7B9P7ya1UC5GrlKOn1nbZFXRj0AGSzZata2zzdtg
+         +SsLjz2B6Fai/Ey/bjBS4sYtTP9VfiVVrzdh+TJuMM5DbZuvJUc1BNMZC24APAmsQFtr
+         q9KBDn1L95r8f9rzdx5EyjS1RIfI6tgr0Kpp5fhZ1jNIbElGi7+uoy0KuDROP+/y/ddV
+         KXiQfk9C4iSLSXHDkiXM9uTyO5o5XxxV8hmKySnaSyV7F3MlgeQ9ba0Iygp9kUN3E1PJ
+         bQNl2lVVvMvWnlK8DkzZRgYB5m1LygvD7kxzWJC/wzfJLGf8yAcsPe+6oqLjQItOAeFB
+         VofQ==
+X-Gm-Message-State: ANoB5pmF6KKIavDZ3UdNna44wad5TapXegOCQYgw5/BBgPEKh2UkgB0Y
+	ZINnDvsr/DDp9qPMiBPnIskFcn8H67WT/qVqLJYOGDOI+hJuK+XNKQ==
+X-Received: by 2002:a05:600c:35cb:b0:3cf:781a:4310 with SMTP id r11-20020a05600c35cb00b003cf781a4310mr56019121wmq.150.1670270887468;
+        Mon, 05 Dec 2022 12:08:07 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:a454:0:0:0:0:0 with SMTP id e20csp2664865wra;
+        Mon, 5 Dec 2022 12:08:02 -0800 (PST)
+X-Received: by 2002:a05:6a00:2183:b0:574:2104:5657 with SMTP id h3-20020a056a00218300b0057421045657mr64033478pfi.58.1670270881670;
+        Mon, 05 Dec 2022 12:08:01 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1670270881; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=uHz5/AHKS3NKzsnw3hvHuAQUKpzGg68mqRmxcQ/kFy8vfANvApBSgAUzpqb7JVPdO4
+         0/03PN+Bi9gCIxSMNFv4qM5n3uWjABdIUX0tPcCgftZ1MLzxEBW6dbDNXx00prhSyjBJ
+         spFTOK2/32wyu2Rwn2q9jQyXN4dG9M6W/JWyO4yB3C6vSrC46PQhY79XuQNSXGc6DraQ
+         zaqXRrmyIkchFQJJmTym4KJ9m9NhbQHEVxPlsHz5CcMogRcq+y7kXTO252pA/lFyZdPG
+         ZwTVi0d4ga51IOomRgfWpdZiyz17546KQBKQa+v2hF+qxewa+FN0gR1K1ml7XspqZRZZ
+         F3Cw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=bzsddWRmn/dAYv9P9yQ9LrjH08NiBzoTrMRwvyUgQXI=;
+        b=gEq0HikUTFUeDNV9Z4PnYULcuXzic7/vuTB5/m5iFoCWq1o5b13fB3Zk5FGmvPJI64
+         jyHARLRz1jwJZVWsad/JS6XlxODoJIleOjIoCM7hYVmtX2dZ7L1s60YA7fhIVFc0jzGG
+         C6GkD3YgdMSxPIGUbSgdvqgVQGhjXtMiEeWqxesc3azblBBXSHVvMuxCz8yF6k3yLbe+
+         FQcpIabHcWben9v0TVboV3A5fhs0oAjiZTh9t5FClOUigGdKB5sVd908FQA9pioOa/G3
+         52kDaODOlMe9adzLrUCoTy+H0gId53f+k4bEqx7Gqm8/NDF07PfXz0ZeTGz58OBVCjj9
+         WmBw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=muthsyRl;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221205150558.29894564.287535@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221205150558.29894564.287535@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221205150558.29894564.287535@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x20-20020a170902ea9400b001891c059f3fsor6978799plb.168.2022.12.05.12.08.01
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 05 Dec 2022 12:08:01 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20221205150558.29894564.287535@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA0mqf6UUvISPr4TNF1iun5uy0oj/im5b2Ac2hY/hOyWy4dEK//u0s3YADrDdYGxXKddwarkRTv9MKPU7vMei4g+83/zfoP4OP8=
+X-Received: by 2002:a17:90b:118e:b0:219:d5a6:400 with SMTP id gk14-20020a17090b118e00b00219d5a60400mr6609059pjb.44.1670270881135;
+        Mon, 05 Dec 2022 12:08:01 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1670270881; cv=none;
+        d=google.com; s=arc-20160816;
+        b=asrXdyGZvH1p5etCG/C8A2mWMEwIyVCW6TtudQVZkld+E5UbnOagZOEbPmX5/gSX6C
+         kZMQNboM2P1SOQd6s3xcrs74ald2D9y0aHOc1W0+vKys0CTEwWWtHGcmaZph9oMl3UQ5
+         SlZIV0TSOqx8tfS7IkBjDE2GyCHwEodkYTkEKEgS1YHx/34t2z3E4Tj66yw1PLSAYaVu
+         GxxTVEq19Gc6AIuMPjpt1ELK6K+vPTWFzGIBEjir8vnXGX0XxzG+rWF2NYZxxDro4JNb
+         CNKQFdXMIGEzIx0RbYWvAdHA1GbC8QbTE+ngIO7M8icmFUfFGzJw+/2sSxL+0SQbsNla
+         dhvA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=bzsddWRmn/dAYv9P9yQ9LrjH08NiBzoTrMRwvyUgQXI=;
+        b=taX7E2CwK2TIz9v6BU+gdIy4WbxfWr++YMBlSK6ONMddQGP/2e21QEYcP0kalyH/8l
+         oTJ4Z9utQ10o3zjLnyru3QDiZW6myO6I9zt8OalvPk6KEVX46nMFd4UVPZfJG3gVxDuK
+         oOA8XVqYpMZ1makpSU15LiNSv25SaZgCpN4pLPWJ75VCWNPn672RI3KWwg9HqQqeO1V9
+         mPJAwjFXwBW6Jx+/IGUPjXQgnPN2MKcJH15kS7uia9sN/XE2meaeDDET2lyQMtI7BFqK
+         31ZjVr8joHMI9pHOAN5lTrdSqGwdnZ2vuSsmCTIjMA+26SVzfuGnANOLe7/4iZQjDt0L
+         g+Rg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=muthsyRl;
+       spf=pass (google.com: domain of delivery_20221205150558.29894564.287535@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20221205150558.29894564.287535@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221205150558.29894564.287535@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id mg19-20020a17090b371300b00219c8920cd0si318103pjb.0.2022.12.05.12.08.00
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 05 Dec 2022 12:08:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20221205150558.29894564.287535@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=SHdNfybH9CQh44iyRn1/BDxQLFMNYu+NyGNrx4/ul48=;
+ b=muthsyRlFroxh3Me+uofy87lCSCD3q+/2/YRB0/Srp3xACSIwFEnetWfOgsxGB6QiJL6D2Jo7ELw
+   6wyu3M4NyNE/8PNuNVK8iVOTp74VssFKc5mgXT7wHtmkqYpX0j8ka/sB+qOiKKvkzg2jkFTOgkra
+   wMoG4iqCUCsJD3QJXrU=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hhp7pu30nu8r for <bloomberg@khamel.com>; Mon, 5 Dec 2022 15:07:59 -0500 (envelope-from <delivery_20221205150558.29894564.287535@mx.sailthru.com>)
+Received: from nj1-illcherry.flt (172.18.20.10) by njmta-180.sailthru.com id hhp7pu1qqbsf for <bloomberg@khamel.com>; Mon, 5 Dec 2022 15:05:58 -0500 (envelope-from <delivery_20221205150558.29894564.287535@mx.sailthru.com>)
+Date: Mon, 5 Dec 2022 15:05:58 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221205150558.29894564.287535@sailthru.com>
+Subject: Money Stuff: Crypto Had a Credit Bubble
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9237036_151493532.1670270758103"
+Precedence: bulk
+X-Feedback-ID: 6358:29894564:campaign:sailthru
+X-TM-ID: 20221205150558.29894564.287535
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chsqsk.65v3/a45b0b42
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chsqsk.65v3/a45b0b42>, <mailto:unsubscribe_20221205150558.29894564.287535@mx.sailthru.com>
+X-rpcampaign: stjko29894564
+
+------=_Part_9237036_151493532.1670270758103
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Apparently the way it works is that if you blow up a big crypto fir=
+m, you have to sit in your home in a crypto-friendly jurisdiction giving=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      The crypto financial crisis of 2022
+   =20
+ =20
+
+Apparently the way it works is that if you blow up a big crypto firm,=C2=A0=
+you have to sit in your home in a crypto-friendly jurisdiction giving long =
+rambling interviews about your failures to everyone who wants to chat. Argu=
+ably this is an improvement over traditional finance, where if you blow up =
+a financial institution you keep quiet and leave the talking to your lawyer=
+s. (=E2=80=9CSam Bankman-Fried Should Shut Up, Bernie Madoff=E2=80=99s Lawy=
+er Says,=E2=80=9D is a   Bloomberg headline from last week.) Or perhaps it =
+is one more case of us watching in real time as crypto re-learns the lesson=
+s of traditional finance. Maybe in six months all the busted crypto leaders=
+ will be saying =E2=80=9Coh wow we should not have given all those intervie=
+ws.=E2=80=9D=C2=A0
+We have talked a lot about Sam Bankman-Fried=E2=80=99s=C2=A0rather unsatisf=
+ying Bahamas-based interviews about how he blew up FTX and Alameda Research=
+, and we=E2=80=99ll talk more about them below. But here I want to start=C2=
+=A0with a strangely satisfying  interview that Kyle Davies gave to Hugh Hen=
+dry about Three Arrows Capital, or 3AC, the crypto trading firm that he ran=
+ with Su Zhu and that blew up over the summer. To be fair, as of this writi=
+ng, I have seen only Part I of this interview, which only glances at the co=
+llapse of 3AC, so it is not fully satisfying.
+  [1]
+=C2=A0But Davies gives an account of the=C2=A0rise=C2=A0of 3AC that is quit=
+e useful as just a general story of what happened in crypto over the last f=
+ew years, and I want to talk about it here.
+3AC started as a small proprietary trading firm doing simple arbitrages in =
+foreign-exchange trading. One bank would offer to sell a currency at $1.000=
+1, and another would bid to buy it at $1.0002, and 3AC would buy from one a=
+nd sell to the other at the same time and make a risk-free profit of a =E2=
+=80=9Cpip=E2=80=9D ($0.0001) or two.
+  [2]
+
+After a while, 3AC got into crypto, because you could make much larger risk=
+-free-ish profits in crypto by buying Bitcoin on one exchange and simultane=
+ously selling it at a higher price on another exchange. This again looks li=
+ke a real arbitrage =E2=80=94=C2=A0it is   the origin story of Bankman-Frie=
+d=E2=80=99s Alameda Research too, arbitraging Japanese Bitcoin prices =E2=
+=80=94=C2=A0though it is a stretch to call it =E2=80=9Crisk-free.=E2=80=9D =
+The main risk is that one or both of the crypto exchanges might disappear w=
+ith your money, which was a common thing for crypto exchanges to do in the =
+early days of crypto, and which has come back in vogue recently.
+Another important arbitrage is the Bitcoin spot/futures arbitrage. In the e=
+arly days of Bitcoin futures, people would pay much more to own Bitcoin fut=
+ures than they would to own Bitcoin directly.
+  [3]
+=C2=A0We have  talked about various reasons for this =E2=80=94=C2=A0owning =
+Bitcoin directly exposes you to the risk of forgetting your private key, fo=
+r instance, and is administratively alarming for a lot of traditional finan=
+cial institutions =E2=80=94=C2=A0but one simple one is that if you want to =
+buy a Bitcoin you have to have $17,000, while if you want to buy a Bitcoin =
+futures contract=C2=A0you can generally put up much less money for the same=
+ amount of Bitcoin exposure. The main intuition behind the spot/futures arb=
+itrage was basically that there was a lot of demand for Bitcoin, and it was=
+ expensive for crypto investors to=C2=A0get dollars, so a Bitcoin product t=
+hat required fewer dollars was more attractive than one that required a lot=
+ of dollars.
+And 3AC did this arbitrage by, basically, being pretty good at borrowing mo=
+ney. You find someone to lend you money at 10% interest, you use the borrow=
+ed money to buy Bitcoin, you sell Bitcoin futures at a 30% premium, you col=
+lect 20%, etc.
+Another important trade is the Grayscale arbitrage, in which a firm like 3A=
+C buys or borrows some Bitcoin, delivers them to Grayscale Investments LLC,=
+ and gets back shares of the  Grayscale Bitcoin Trust, or GBTC.=C2=A0GBTC =
+=E2=80=94=C2=A0like Bitcoin futures =E2=80=94=C2=A0is a way to own Bitcoin =
+without actually owning Bitcoin, and it was friendly to traditional retail =
+and institutional investors in a way that owning Bitcoin directly, or even =
+owning most futures products, was not. So GBTC=C2=A0consistently traded at =
+a premium to its net asset value for years: One share of GBTC might represe=
+nt $12 worth of Bitcoin, but would trade at $15. A fund like 3AC could deli=
+ver $12 million worth of Bitcoin to Grayscale and get back 1 million shares=
+, with a net asset value of $12 million (equal to what 3AC delivered) but a=
+ market value of $15 million, for a free $3 million profit.
+This looks like an arbitrage but has a problem, which is that =E2=80=94=C2=
+=A0for securities-law reasons =E2=80=94=C2=A0you don=E2=80=99t get the shar=
+es for a year. You can turn your $12 million of Bitcoin into $15 million of=
+ Grayscale, but you have to wait a year. This means that it is not a risk-f=
+ree trade: It is a=C2=A0one-year=C2=A0bet on=C2=A0the Grayscale premium. If=
+ you buy (or borrow) $12 million worth of Bitcoin and deliver it to Graysca=
+le for one million shares in a year, and in a year the price of Bitcoin is =
+constant, but now instead of trading at a premium to Bitcoin Grayscale trad=
+es at a discount, then you will only get back, say, $10 million from sellin=
+g your shares, and you will have lost $2 million.
+  [4]
+
+And in fact that happened; GBTC has traded at a discount to spot Bitcoin fo=
+r much of the last two years.
+What could cause this? It could have become less appealing for investors to=
+ hold Grayscale, or more appealing for them to hold Bitcoin directly. But a=
+nother answer, one that Davies emphasizes, is that=C2=A0it became much chea=
+per for crypto hedge funds to borrow money. This is a trade that offered bi=
+g profits if you could borrow money, buy Bitcoin, deliver the Bitcoin to Gr=
+ayscale, and wait a year. If you were early to this trade, you did well. Bu=
+t then everyone noticed it and started doing it, which meant lots of crypto=
+ hedge funds were creating lots of new GBTC shares, which meant that the su=
+pply of new GBTC shares (created by hedge funds) outstripped the demand (fr=
+om retail buyers). If you got into the trade when it was relatively quiet a=
+nd GBTC traded at a premium, and then a year later the trade was crowded an=
+d GBTC traded at a discount, you lost a lot of money.
+As Grayscale trades got more crowded, 3AC looked into other sorts of arbitr=
+ages. The Grayscale trade is risky, but it sort of has the=C2=A0shape=C2=A0=
+of an arbitrage trade; if you squint, it is =E2=80=9Cbuy Bitcoin and sell B=
+itcoin futures,=E2=80=9D only instead of Bitcoin futures it is future deliv=
+ery of Grayscale shares. But once you=E2=80=99ve done that trade you might =
+squint further and do some trades that are even less arbitrage-y. Davies ta=
+lks about =E2=80=9Cdiscounted Layer 1s.=E2=80=9D The trade is:
+=09Someone is launching some blockchain protocol, some crypto network like =
+Avalanche or Solana that is intended to compete with Ethereum.=09To raise m=
+oney to build out the ecosystem, they sell tokens to investors.=09For legal=
+ reasons, there is a long lockup period on the tokens: If you buy the token=
+s in the ICO, you can=E2=80=99t sell them for a year or more.=09But you get=
+ to buy the tokens at a discount of 40% to 50%.
+
+So there are some tokens that are supposed to be worth $10,=C2=A0that proba=
+bly have a trading price of $10, though perhaps on small volume and without=
+ much history. And you get to buy a lot of them for=C2=A0$6; you just can=
+=E2=80=99t sell them for a year. Davies
+  [5]
+:
+
+If you believe the market=E2=80=99s going up, if you believe in this protoc=
+ol, if you believe that they can take those dollars and do marketing or bui=
+ld their platform or=C2=A0hire more people and build value, then it looks l=
+ike a very attractive trade. And so for us, we found several protocols that=
+ we liked, we did very sizeable amounts with them, and that became another =
+source of,=C2=A0you know, something that sat in the middle, where I=C2=A0wo=
+uld have considered it somewhat like an arb kind of trade, like it is a dis=
+count, but it=E2=80=99s very directional. It=E2=80=99s not like you=E2=80=
+=99re punting Bitcoin, but it=E2=80=99s somewhere in the middle. =E2=80=A6=
+=C2=A0
+Over time, people end up doing more and more of this kind of thing, and the=
+n by the end, you know, when credit gets squeezed out of the system, there=
+=E2=80=99s a collapse. Basically that=E2=80=99s what happened.
+
+I confess that a certain amount of steam came out my ears when I heard this=
+. Here Davies is describing taking, essentially,=C2=A0equity=C2=A0risk on n=
+ew crypto protocols. (Worse than equity risk; the token of some new crypto =
+protocol probably has fewer legal rights and cash-flow claims than a share =
+of stock.) He is making multi-year, illiquid, unhedgeable speculative inves=
+tments in brand-new crypto protocols because he thinks =E2=80=9Cthe market=
+=E2=80=99s going up=E2=80=9D and because he hopes that those protocols can =
+hire people and build value. This is a venture capital investment.=C2=A0And=
+ he describes it as an=C2=A0arbitrage.
+Which, you know, fine, whatever. People are allowed to be wrong; hedge fund=
+s are allowed to lose money. But the thing that happened with 3AC is not ju=
+st that it made a long slow transition from picking up pips in high-frequen=
+cy foreign exchange trading to making multi-year venture bets on new crypto=
+ protocols because it liked the founders. It=E2=80=99s also that it kept th=
+e same financing model the whole time. 3AC started out as a proprietary tra=
+ding firm that made short-term arbitrage-y bets, turned over its capital fr=
+equently and had a very high Sharpe ratio, so it was able to borrow a lot o=
+f money. It ended up as a firm making long-term unhedgeable illiquid equity=
+ bets on crypto protocols with no track records, and was somehow able to bo=
+rrow even more money. Davies describes his relationship with his lenders, f=
+irms =E2=80=94=C2=A0like Voyager or Celsius or BlockFi =E2=80=94=C2=A0that =
+I have described as =E2=80=9Ccrypto shadow banks=E2=80=9D
+  [6]
+:
+
+These firms are under pressure to lend out more and more too. You have to r=
+emember that the way they make money is they take these deposits, they lend=
+ them out, they earn the spread, but they=E2=80=99re raising equity valuati=
+ons. And some of these firms are raising at three =E2=80=A6=C2=A0one of the=
+ firms raised at a $14 billion valuation, others at $3 plus billion valuati=
+ons. They really want to lend this money out. They can=E2=80=99t afford for=
+ it to sit on the books, for one. They don=E2=80=99t want to return it. So =
+their risk management also starts to go down. And, you know, that becomes t=
+he whole system, basically.
+I think one of the last calls we did someone lent me high nine figures, alm=
+ost a billion, off a phone call. That was the final one, that was, like,=C2=
+=A0uncollateralized. That=E2=80=99s where the system was. People needed to =
+get dollars out the door. We were a hedge fund, we were paid to take risk.
+
+Were they? One point emphasized in the interview is that 3AC was=C2=A0not=
+=C2=A0really a hedge fund, but a proprietary trading firm; for the most par=
+t, it did not take outside money and used its partners=E2=80=99 capital. No=
+body was paying 3AC to take risks with their money. Instead, 3AC was paying=
+ other people =E2=80=94=C2=A0its lenders =E2=80=94=C2=A0interest to borrow =
+money. Those lenders presumably did=C2=A0not=C2=A0want 3AC to take risks wi=
+th their money; they wanted to get paid back; they wanted their money to be=
+ safe. But they faced competitive pressures to lend a bunch of money to 3AC=
+, so they did.=C2=A0
+The story that I want to tell here is that there was an intense demand,=C2=
+=A0within crypto, for =E2=80=9Csafe assets.=E2=80=9D =E2=80=9CSafe assets,=
+=E2=80=9D in this context, means places to invest your cryptocurrency or st=
+ablecoins that=C2=A0earn interest, that feel like bank accounts rather than=
+ speculative investments. You might put your dollars into a crypto shadow b=
+ank, exchange them for dollar-denominated stablecoins, and earn 8% interest=
+ (in dollar-indexed stablecoins) rather than the 0% you=E2=80=99d get at a =
+real bank. Or you might own Bitcoin, and think Bitcoin is pretty safe, and =
+want to earn 8% interest on your Bitcoin. But what you didn=E2=80=99t want =
+is to guess which small-time cryptocurrencies would win or lose; you did no=
+t want to make speculative bets on individual cryptocurrencies. You wanted =
+to own normal understandable stuff (dollars, perhaps Bitcoins) and get paid=
+ a lot of interest for participating in =E2=80=9Ccrypto.=E2=80=9D
+Crypto had no sensible way to manufacture this interest. There were not a l=
+ot of people borrowing Bitcoin or stablecoins to buy houses or build factor=
+ies or whatever. Crypto shadow banks could not lend their crypto at 12% int=
+erest to stable companies secured by real-world collateral; everything in c=
+rypto was new, and financial, and on the blockchain. The best the shadow ba=
+nks could do was lend their crypto to well-regarded crypto hedge funds secu=
+red by crypto collateral, though even that became rarer as lending got more=
+ competitive and shadow banks did more unsecured loans.
+But at least, the shadow banks thought, they were lending the money to hedg=
+e funds who were doing=C2=A0safe trades. They weren=E2=80=99t lending money=
+ to firms like 3AC to make wild speculative bets on random cryptocurrencies=
+. They were lending money to 3AC to do =E2=80=9Carbitrages.=E2=80=9D=C2=A0A=
+nd then you sit down with Kyle Davies and ask him what kind of arbitrages h=
+e did and he=E2=80=99s like =E2=80=9Cwell we=E2=80=99d take four-year locku=
+ps on illiquid unhedgeable tokens of brand-new protocols, but we=E2=80=99d =
+get a discount, so it was kind of an arbitrage.=E2=80=9D Oops!
+In recent months I have often thought,   and written, that the crypto indus=
+try in 2022 rediscovered the 2008 financial crisis. A quick summary of 2008=
+ is that there was a lot of demand for safe assets, for bonds with AAA rati=
+ngs. The financial system obligingly manufactured those assets, taking risk=
+y assets =E2=80=94=C2=A0mostly subprime mortgages =E2=80=94=C2=A0and packag=
+ing and slicing them to achieve AAA ratings. There was so much demand for s=
+afe assets that the manufacturing process got sloppy: The subprime mortgage=
+s got ever more subprime, the slicing and repackaging got less effective, a=
+nd ultimately some of the safe assets turned out not to be safe.=C2=A0
+Something like that seems to have happened in crypto but there is a critica=
+l difference. In crypto, there are no mortgages=C2=A0to speak of. You canno=
+t really start by taking some somewhat risky cash flows and tranching them =
+to make some of the cash flows safer. There are no cash flows. The safe ass=
+ets in crypto =E2=80=94=C2=A0interest-bearing accounts at Voyager or Celsiu=
+s or BlockFi or  Gemini =E2=80=94 are created by making unsecured billion-d=
+ollar loans, negotiated in a single phone call, to arbitrage trading firms =
+that are actually just making long-term bets on the marketing abilities of =
+blockchain entrepreneurs. Crypto shadow banks did not manufacture safe asse=
+ts out of risky investments; they just relabeled the risky investments as s=
+afe assets. There were people taking wild speculative risks on brand-new, s=
+entiment-driven crypto projects, and there were people who wanted to invest=
+ safely and earn 8%, and they were the same people.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Meanwhile, FTX
+   =20
+ =20
+
+Sam Bankman-Fried continues his sad press tour, but his explanations of wha=
+t happened to FTX=E2=80=99s customers=E2=80=99 money remain unsatisfying. H=
+ere is the version that Bankman-Fried seems to be settling on; it is infuri=
+atingly simple:
+=09Customers deposited several billion dollars into FTX=C2=A0through=C2=A0A=
+lameda: For weird bank-access reasons, FTX couldn=E2=80=99t accept some wir=
+e transfers from customers, so the customers transferred their money to Ala=
+meda Research, FTX=E2=80=99s affiliated trading firm, instead, and Alameda =
+passed it on to FTX. (This would be a huge red flag even if nothing else we=
+nt wrong!)=09Alameda sent the money to FTX, which credited it to customers,=
+ but they somehow forgot to debit it from Alameda, leading FTX to think tha=
+t its customers had the money but also that Alameda had billions of dollars=
+ more than it actually had.=09Alameda proceeded to lose the money on dumb t=
+rades and lavish spending, but no one noticed, because (1) they thought Ala=
+meda had so much money it didn=E2=80=99t matter and (2) their accounting ge=
+nerally was pretty bad.
+
+This explanation has some virtues. It is fairly simple. It fits well with  =
+ FTX=E2=80=99s new management=E2=80=99s exasperation with old management=E2=
+=80=99s sloppy accounting; this=C2=A0is a story of sloppy accounting. And B=
+ankman-Fried has been telling some version of this story pretty consistentl=
+y since FTX=E2=80=99s collapse; even as he was shopping for a rescuer pre-b=
+ankruptcy, he was   sending around a spreadsheet with an $8 billion hole fo=
+r a =E2=80=9CHidden, poorly internally labeled =E2=80=98fiat@=E2=80=99 acco=
+unt.=E2=80=9D On the other hand, it is a terrible explanation? =E2=80=9COh =
+that $8 billion, we sort of weren=E2=80=99t paying attention to it, so we s=
+pent it on snacks=E2=80=9D? I don=E2=80=99t know.   Bloomberg=E2=80=99s Zek=
+e Faux went to the Bahamas Contrition Show and came away with this:
+
+=E2=80=9CYou misplaced $8 billion?=E2=80=9D I ask.
+=E2=80=9CMisaccounted,=E2=80=9D Bankman-Fried says, sounding almost proud o=
+f his explanation. Sometimes, he says, customers would wire money to Alamed=
+a Research instead of sending it directly to FTX. (Some banks were more wil=
+ling to work with the hedge fund than the exchange, for some reason.) He cl=
+aims that somehow, FTX=E2=80=99s internal accounting system double-counted =
+this money, essentially crediting it to both the exchange and the fund.
+That still doesn=E2=80=99t explain why the money was gone. =E2=80=9CWhere d=
+id the $8 billion go?=E2=80=9D I ask.
+To answer, Bankman-Fried creates a new tab on the spreadsheet and starts ty=
+ping. He lists Alameda and FTX=E2=80=99s biggest cash flows. One of the big=
+gest expenses is paying a net $2.5 billion to=C2=A0Binance, a rival, to buy=
+ out its investment in FTX. He also lists $250 million for real estate, $1.=
+5 billion for expenses, $4 billion for venture capital investments, $1.5 bi=
+llion for acquisitions and $1 billion labeled =E2=80=9Cfuckups.=E2=80=9D Ev=
+en accounting for both firms=E2=80=99 profits, and all the venture capital =
+money raised by FTX, it tallies to negative $6.5 billion.
+Bankman-Fried is telling me that the billions of dollars customers wired to=
+ Alameda is gone simply because the companies spent way more than they made=
+. He claims he paid so little attention to his expenses that he didn=E2=80=
+=99t realize he was spending more than he was taking in. =E2=80=9CI was rea=
+l lazy about this mental math,=E2=80=9D the former physics major says. He c=
+reates another column in his spreadsheet and types in much lower numbers to=
+ show what he thought he was spending at the time.
+
+Look, none of the other categories =E2=80=94 $2.5 billion of=C2=A0equity bu=
+ybacks,=C2=A0$250 million for real estate, $1.5 billion for expenses, $4 bi=
+llion for venture capital and $1.5 billion for acquisitions =E2=80=94=C2=A0=
+looks=C2=A0good, now. This is not $9.8=C2=A0billion of prudent investments =
+plus some, uh, mistakes. This is $9.8=C2=A0billion of mistakes, plus a bill=
+ion-dollar miscellaneous category for the even worse mistakes.
+The Wall Street Journal=E2=80=99s Alexander Osipovich also went to see the =
+show;  here=E2=80=99s what he got:
+
+Over time, FTX customers deposited more than $5 billion in those Alameda ac=
+counts, he said. Now those funds are gone.
+=E2=80=9CThey were wired to Alameda, and=E2=80=A6I can only speculate about=
+ what happened after that,=E2=80=9D Mr. Bankman-Fried told the Journal.
+=E2=80=9CDollars are fungible with each other. And so it=E2=80=99s not like=
+ there=E2=80=99s this $1 bill over here that you can trace through from sta=
+rt to finish. What you get is more just omnibus, you know, pots of assets o=
+f various forms,=E2=80=9D he added. =E2=80=A6
+Mr. Bankman-Fried=E2=80=99s remarks suggest that FTX customer funds flowing=
+ into Alameda bank accounts could have been recorded in two places=E2=80=94=
+both as FTX customer funds and as part of Alameda=E2=80=99s trading positio=
+ns. Such double-counting would have created a huge hole in FTX=E2=80=99s an=
+d Alameda=E2=80=99s balance sheets, with assets that weren=E2=80=99t really=
+ there. Mr. Bankman-Fried denied that double-counting affected FTX=E2=80=99=
+s financials=E2=80=94but acknowledged that Alameda=E2=80=99s liabilities mi=
+ght not have been fully recorded.
+=E2=80=9CThere are lots of ways that one could have done this in a responsi=
+ble way,=E2=80=9D he said. =E2=80=9CClearly what we did was not one of them=
+.=E2=80=9D
+
+I mean, super, fine, sure.=C2=A0
+Elsewhere, the Financial Times reports on an interesting  Alameda trade fro=
+m last year:
+
+Hedge fund Alameda Research stepped in to shelter FTX from a loss of up to =
+$1bn after a customer trade on the crypto platform blew up last year, highl=
+ighting the deep and longstanding links between Sam Bankman-Fried=E2=80=99s=
+ digital asset companies.
+Alameda in early 2021 shouldered FTX=E2=80=99s burden when a client=E2=80=
+=99s leveraged bet on an obscure token tore through buffers designed to shi=
+eld the exchange from sustaining losses when a trade goes bad, according to=
+ people with knowledge of the matter.=C2=A0=E2=80=A6
+FTX lent to traders so they could make big bets on crypto with just a small=
+ initial outlay, known as trading on margin. If the traders made losses, FT=
+X would automatically sell the cash or margin they had put up, thereby prot=
+ecting the exchange.
+Bankman-Fried had touted FTX=E2=80=99s =E2=80=9Cunique=E2=80=9D liquidation=
+ engine, which he argued was a safer way for exchanges to manage risk. The =
+30-year-old had pushed legislators in the US to adopt FTX=E2=80=99s system,=
+ potentially opening it out to non-crypto markets.
+The system included a fail-safe: it incentivised large trading groups to ta=
+ke over trades where the initial margin was almost wiped out. But on the ri=
+skiest, most thinly traded tokens, only Alameda was willing to serve as tha=
+t last line of defence.
+In April 2021, a crypto token called MobileCoin =E2=80=94 used for payments=
+ in the privacy-focused messaging app Signal =E2=80=94 suddenly spiked in p=
+rice from about $6 to almost $70, before crashing back down again almost as=
+ quickly.
+The wild moves came after a trader on FTX had built an unusually large posi=
+tion in the little-known token. Two people familiar with the matter said th=
+at when the price rose, the trader used the position to borrow against it o=
+n FTX, potentially a scheme to extract dollars from the exchange.
+Alameda was forced to step in and assume the trader=E2=80=99s position to p=
+rotect FTX. The trading company=E2=80=99s loss on this deal was at least in=
+ the hundreds of millions of dollars, the people said, and as high as $1bn,=
+ according to one of the people, wiping out a large share of Alameda=E2=80=
+=99s 2021 trading profits.
+
+You can read this story as foreshadowing of FTX=E2=80=99s and Alameda=E2=80=
+=99s ultimate blowup, in a couple of ways. For one thing, one possible stor=
+y of how Alameda lost its money is that   it might have gotten burned as a =
+market maker on FTX: When everyone on FTX wanted to sell, Alameda was the b=
+uyer of last resort, which apparently cost it a billion dollars on MobileCo=
+in in 2021 and might have cost it a similar amount on Luna this summer.
+For another thing, it reflects an incredibly naive view of the value of sma=
+ll illiquid crypto tokens. The  market capitalization of MobileCoin is abou=
+t $90 million today, at a price per token of about $1.21; its trip from $6 =
+to $70 last year was a weird blip. It seems insane to lend someone $1 billi=
+on against a stash of MobileCoin: The stash of MobileCoin was not worth $1 =
+billion shortly before FTX loaned the trader that money, and it wasn=E2=80=
+=99t worth $1 billion shortly after, and lending $1 billion at a high loan-=
+to-value ratio against an incredibly volatile asset with no underlying cash=
+ flows that has appreciated rapidly for no reason is ... just =E2=80=A6=C2=
+=A0obviously a bad idea? Like if I came to you and said =E2=80=9Chey this t=
+oken went up from $6 to $70 yesterday for no reason, would you lend me $50 =
+against it,=E2=80=9D you would say no. Presumably the story is that nobody =
+asked anyone at FTX directly, that it had some margining engine that used o=
+bservable parameters =E2=80=94=C2=A0price, volatility =E2=80=94=C2=A0to set=
+ margin levels, and someone was able to game it to borrow a lot of money ag=
+ainst rapidly appreciated MobileCoin tokens in a way that put FTX at risk.
+But much the same thing happened with Alameda: At the end, Alameda seems to=
+ have borrowed billions of dollars from FTX, collateralized by enormous pos=
+itions in illiquid tokens that FTX had made up itself and that were mostly =
+owned by Alameda.=C2=A0The FT goes on:
+
+Analysis of blockchain transactions by research company Nansen provides add=
+itional evidence that FTX acted as a lender of last resort for Alameda.
+Alameda held a large stock of FTT, a crypto token issued by FTX itself, whi=
+ch it had used as collateral for loans. Nansen=E2=80=99s analysis showed la=
+rge transfers of FTT from several crypto lenders throughout June, which app=
+eared to be the return of collateral as lenders retreated from Alameda.
+From mid-June into July, the Nansen analysis identified $4bn of FTT transfe=
+rred from Alameda to FTX, which analysts wrote could have =E2=80=9Cbeen the=
+ provision of parts of the collateral that was used to secure loans=E2=80=
+=9D.=C2=A0
+
+And  the Wall Street Journal adds:
+
+When crypto exchange FTX was struggling to raise cash early last month, it =
+seized billions of dollars worth of collateral from its trading arm, Alamed=
+a Research, and used it to try to convince investors of its financial healt=
+h, former FTX Chief Executive Sam Bankman-Fried said.
+But much of it didn=E2=80=99t add up. A big chunk of the assets consisted o=
+f four thinly traded crypto tokens closely connected to Mr. Bankman-Fried a=
+nd FTX employees and mostly held by Alameda. The tokens were likely worth f=
+ar less than the $6.4 billion marked on the balance sheet FTX was shopping =
+to investors in the hope of a bailout, according to market data and crypto =
+researchers. =E2=80=A6
+The seizure of the tokens as collateral partially explains the multibillion=
+-dollar cash shortfall that led to the bankruptcy at FTX. Alameda borrowed =
+billions of dollars from FTX and when FTX called the loans, the collateral =
+was worth far less than needed.=C2=A0
+
+And here is Faux on the use of FTX money to bail out Alameda this summer:
+
+There are two different versions of what happened next. Two people with kno=
+wledge of the matter told me that Ellison, by then the sole head of Alameda=
+, had told her side of the story to her staff amid the crisis. Ellison said=
+ that she, Bankman-Fried and his two top lieutenants=E2=80=94Gary Wang and =
+Nishad Singh=E2=80=94had discussed the shortfall. Instead of admitting Alam=
+eda=E2=80=99s failure, they decided to use FTX customer funds to cover it, =
+according to the people. ...
+When I put this to Bankman-Fried, he screws up his eyes, furrows his eyebro=
+ws, puts his hands in his hair and thinks for a few seconds.
+=E2=80=9CSo, it=E2=80=99s not how I remember what happened,=E2=80=9D Bankma=
+n-Fried says. But he surprises me by acknowledging that there had been a me=
+eting, post-Luna crash, where they debated what to do about Alameda=E2=80=
+=99s debts. The way he tells it, he was packing for a trip to DC and =E2=80=
+=9Conly kibitzing on parts of the discussion.=E2=80=9D It didn=E2=80=99t se=
+em like a crisis, he says. It was a matter of extending a bit more credit t=
+o a fund that already traded on margin and still had a pile of collateral w=
+orth way more than enough to cover the loan. (Although the pile of collater=
+al was largely shitcoins.)
+
+I have made a lot of fun of FTX=E2=80=99s decision to treat all these token=
+s as being worth real money, when it loaned money to Alameda   secured by t=
+hese made-up tokens and when it   tried to raise financing based on its sta=
+sh of made-up tokens. I sort of assumed that, when FTX extended billions of=
+ dollars of credit to its affiliated trading firm secured by a stash of mag=
+ic beans it had created, it was indulging in some favoritism and wishful th=
+inking: FTX wouldn=E2=80=99t lend billions of dollars to some outside tradi=
+ng firm secured by a stash of magic beans someone=C2=A0else=C2=A0had create=
+d. Except it did! It loaned tons of money to some outside trading firm agai=
+nst MobileCoin, which made no sense, and which stuck Alameda with a billion=
+-dollar loss. It=E2=80=99s consistent, anyway.
+This also seems like a standard crypto illness. We   talked back in October=
+ about an exploit of a decentralized finance protocol called Mango; it had =
+the same basic structure (buy a lot of a token, push up the price, borrow a=
+ lot against it, vanish). I wrote:
+Look, I had never heard of the Mango token until this morning, which is a c=
+rucial advantage for me. If you had come to me and said =E2=80=9CI have Man=
+go tokens with a market value of $423 million, I want to use them as collat=
+eral for a loan, would you lend me $116 million against these Mango tokens?=
+=E2=80=9D I would have said =E2=80=9Cabsolutely not, Mango tokens, not a th=
+ing.=E2=80=9D And that would have been=C2=A0correct, both in the narrow sen=
+se that the =E2=80=9Creal=E2=80=9D market value of 483 million Mango tokens=
+ was about $18 million and in the broader sense of, well, why was it even $=
+18 million? But the Mango protocol itself just had some price oracles that =
+connected to some exchanges, and when those exchanges showed that the token=
+s were trading at $0.91, it believed them. So it=C2=A0computed a value of $=
+423 million, and that was plenty of collateral to support a $116 million lo=
+an, and there you go.=C2=A0Mango could look at market prices, but it could =
+not apply common sense, and that was its problem.
+In broad strokes, that seems to have been true of FTX as well, just going a=
+round lending billions of dollars against tokens that were not a thing. Why=
+? One possibility is, you know, motivated reasoning, fraud, etc.: FTX loane=
+d billions of dollars of customer money to Alameda, secured by its own toke=
+ns, because that is a plausibly justifiable way to transfer money from FTX=
+=E2=80=99s customers to its owners. I think there is something to this theo=
+ry, but the MobileCoin story suggests it=E2=80=99s not all that was going o=
+n.
+Another possibility is, you know, naivety, dumbness, sloppiness, over-autom=
+ation, etc.: FTX just thought =E2=80=9Cah well if a token=E2=80=99s price g=
+oes up then it=E2=80=99s valuable and we can lend against it,=E2=80=9D so t=
+hey did, without checking to see if the prices made sense or learning lesso=
+ns when they didn=E2=80=99t.=C2=A0
+But another possibility is what we talked about in the previous section:=C2=
+=A0None of this made any sense.=C2=A0Bitcoin is worth $17,000; it has no ca=
+sh flows and someone just made it up within recent memory. Ethereum, Dogeco=
+in, etc. Essentially all of the assets in crypto trade on sentiment, and it=
+ is incoherent to say =E2=80=9Cwell Bitcoin is really worth $17,000 so I wi=
+ll lend against it at a high loan-to-value ratio, while MobileCoin is not r=
+eally worth $70 so I won=E2=80=99t.=E2=80=9D If you are in the business of =
+lending against crypto =E2=80=94=C2=A0more broadly, if you are in the busin=
+ess of promising safety in crypto, as  FTX was=C2=A0=E2=80=94=C2=A0then it =
+is easy to end up lending billions of real dollars against a pile of collat=
+eral that doesn=E2=80=99t make sense. In part due to adverse selection =E2=
+=80=94=C2=A0if the collateral is worth so much, why are they using it to bo=
+rrow from you? =E2=80=94=C2=A0but in part because no pile of crypto collate=
+ral is ever going to make complete sense.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bribes
+   =20
+ =20
+
+The standard way to do bribes (not legal advice!) is:
+=09You work for some big international company.=09You want to win a lucrati=
+ve government contract in some foreign country.=09You sign a deal with some=
+ well-connected partner company in the foreign country,=C2=A0in which you p=
+ay the partner company a bunch of cash, and the partner company agrees to p=
+rovide you with some sort of vague services connected to the contract.=09Th=
+e foreign partner company takes the cash that you paid it, keeps some for i=
+tself, and pays the rest directly to the foreign official in charge of awar=
+ding the contract.=09The official awards the contract to you.=09The contrac=
+t is lucrative enough to cover the cost of the bribes, and the foreign part=
+ner company=E2=80=99s cut, and your company=E2=80=99s profit margin, and yo=
+ur bonus.
+
+There are various accounting issues; you will want your payments to the for=
+eign partner company to look plausible. (=E2=80=9CEngineering services=E2=
+=80=9D is probably better than =E2=80=9Cconsulting,=E2=80=9D which is proba=
+bly better than =E2=80=9Cbribes,=E2=80=9D which is probably better than =E2=
+=80=9Cchickens, wink wink.=E2=80=9D)=C2=A0But there are also   timing and t=
+rust issues. Do you pay the partner company before or after you win the con=
+tract? Does the foreign partner company hand over the sack of cash to the g=
+overnment official before or after? Do you =E2=80=94=C2=A0as the representa=
+tive of the big international company who got everything rolling =E2=80=94=
+=C2=A0get a cut of the bribes yourself? All of this is complicated by the f=
+act that=C2=A0you=E2=80=99re all committing crimes, so it=E2=80=99s not obv=
+ious you should trust each other.
+Here is a fairly standard  US Securities and Exchange Commission enforcemen=
+t action=C2=A0against ABB Ltd. for doing some bribery in South Africa:
+The SEC=E2=80=99s order finds that, from 2015 through 2017, ABB executives =
+in Switzerland and South Africa colluded with a high-ranking government off=
+icial at Eskom, an electricity provider owned by the South African governme=
+nt, to funnel bribes to the official through complicit third-party service =
+providers with whom the government official had close personal relationship=
+s. ABB paid the service providers more than $37 million to bribe the govern=
+ment official. In return ABB obtained a $160 million contract to provide ca=
+bling and installation work at Eskom=E2=80=99s Kusile Power Station.
+But the terminology is fantastic:
+
+During July 2013, Executive A at company headquarters in Switzerland learne=
+d of rumors that Eskom was considering replacing the existing contractor in=
+ charge of the cabling and installation (=E2=80=9CC&I=E2=80=9D) work at Kus=
+ile and committed =E2=80=9Cto getting ABB into the race and pole position f=
+or the project.=E2=80=9D To that end, he assembled a =E2=80=9Ccapture team=
+=E2=80=9D responsible for pursuing the tender opportunity consisting primar=
+ily of himself, Local Senior Manager, and Executive B, another executive at=
+ headquarters in Switzerland. ...
+In March 2014, at the suggestion of Executive B that a =E2=80=9Csales shark=
+=E2=80=9D was needed in pursuing the C&I contract, the capture team appoint=
+ed Capture Team Lead, =E2=80=9Ca highly experienced sales expert=E2=80=9D w=
+ith a reputation for non-transparency about how he went about interactions =
+with clients.
+
+This is apparently just the normal terminology, like, even if they weren=E2=
+=80=99t paying bribes they=E2=80=99d call themselves the =E2=80=9Ccapture t=
+eam=E2=80=9D and a =E2=80=9Csales shark.=E2=80=9D But it sure makes it soun=
+d like they were paying bribes. They (allegedly) were:
+
+In April 2014, the parties entered into a bribery scheme with Eskom whereby=
+ ABB-South Africa would use a third party to pay the Eskom Official in exch=
+ange for awarding the business to ABB. =E2=80=A6 Specifically, in April 201=
+4, Eskom Official introduced ExecutiveB to a friend who was the chair of Se=
+rvice Provider A, a privately-owned South African company that provided eng=
+ineering services. Executive Band Capture Team Lead agreed to an arrangemen=
+t with Eskom Official and Service Provider A=E2=80=99s chair that ABB-South=
+ Africa would be awarded the Kusile C&I contract if ABB-South Africa appoin=
+ted Service Provider A as a subcontractor for services and prices to be neg=
+otiated. The scheme was structured so Eskom Official would receive a portio=
+n of Service Provider A=E2=80=99s subcontract fee. =E2=80=A6
+A supply chain manager at ABB-South Africa, who was not aware of the briber=
+y scheme, raised concerns that Service Provider A was unqualified for the w=
+ork for which it was being considered and that its proposed price was exces=
+sive. Given that Executive B and Capture Team Lead were part of the bribe s=
+cheme, the concerns went unaddressed by ABB management in South Africa and =
+Switzerland.
+
+But there were trust issues:
+The bribe scheme nearly came undone when Service Provider A=E2=80=99s chair=
+ refused to share the spoils with the Eskom Official due to an apparent fal=
+ling out between them. In order to save the illicit arrangement, Capture Te=
+am Lead attempted to broker a peace between the two, going so far as arrang=
+ing a face-to-face meeting, but the efforts were unsuccessful.
+So they had to find a new local intermediary to pass along the bribes. When=
+ you=E2=80=99re the shark running the capture team, this is a risk that you=
+ take: You can=E2=80=99t necessarily trust that the well-connected local in=
+termediary that you hire to pass on the bribes will actually pass on the br=
+ibes.
+
+ =20
+   =20
+      Goose eggs
+   =20
+ =20
+
+The old model of financial industry compensation was that mid-level and sen=
+ior bankers got relatively low base salaries and made most of their money t=
+hrough bonuses. This had a lot of advantages for the banks. It encouraged l=
+oyalty: You couldn=E2=80=99t leave mid-year, since most of your pay came at=
+ the end of the year. It also limited the financial risk of compensation: I=
+n a bad year, banks could cut their compensation expense pretty dramaticall=
+y, since they paid most of it in one shot at the end of the year. There wer=
+e downsides, though: It took more total compensation to compete with other =
+industries that offered more normal salaries, and there was a view among re=
+gulators that the bonus culture encouraged excessive risk-taking. So after =
+the financial crisis, banks grudgingly moved to a model of somewhat higher =
+base salaries and lower bonuses.
+One result of that is that, in the olden days, getting a bonus of zero was =
+pretty much the equivalent being fired, while in the modern model it =E2=80=
+=A6=C2=A0well, it=E2=80=99s still pretty bad.   Bloomberg News reports:
+
+This year, banks including Citigroup, Bank of America and Barclays are cons=
+idering giving dozens of their lowest performers no bonus at all -- known a=
+s getting =E2=80=9Czeroed out,=E2=80=9D or receiving a =E2=80=9Cgoose egg,=
+=E2=80=9D =E2=80=9Cdoughnut=E2=80=9D or =E2=80=9Cbagel.=E2=80=9D At Goldman=
+, the number of bankers getting nothing could surpass 100.
+A Barclays spokesperson declined to comment.
+Bonus snubs are often a precursor to a firing but also sort of a dare: If a=
+ company wants to lower headcount it can throw out a bunch of them and see =
+if enough people get the message to speed up attrition. Or, with terminatio=
+ns at other firms on the rise, some managers may bet that recipients will k=
+eep showing up to their desks, cheaply.
+=E2=80=9CWhere else are these bankers going to go?=E2=80=9D Keizner said. =
+=E2=80=9CThe banks want their teams to stick around because when things tur=
+n back around the banks don=E2=80=99t want to find themselves understaffed =
+and scrambling again.=E2=80=9D
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Credit Suisse=E2=80=99s  Investment Bank Spinoff Attracts Saudi Crown Princ=
+e. Deutsche Bank Considers Return to Trading   Mortgage Securities. How  th=
+e gates closed on Blackstone=E2=80=99s runaway real estate vehicle. Asset m=
+anagers pour money into  tech platforms to take on BlackRock. FTX collapse =
+sends shockwaves through  Coinbase=E2=80=99s stocks and bonds. Stablecoin I=
+ssuer   Circle=E2=80=99s SPAC Deal With Concord Scrapped. OPEC+ Keeps  Oil =
+Curbs Despite Russia Price Cap. Poor Countries Feel Sting of  Local-Currenc=
+y Debt. Texas=E2=80=99s   Crypto Mining Boom Is Starting to Look More Like =
+a Bust. Carolina Panthers=E2=80=99 Owner Tepper Under Investigation for   S=
+crapped NFL Facility. Hertz to Settle Most   False-Arrest Claims for $168 M=
+illion. =E2=80=9CWould you want to live in a   world without points?=E2=80=
+=9D=C2=A0 Raccoons Get a Reputation Makeover.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] One fun bit of foreshadowing is at about the 47-minute mark where Dav=
+ies says: =E2=80=9CIf we were a dollar-based guy, we would have earned our =
+30% and, you know, we would have done well, but would not have been the mul=
+tiple =E2=80=A6. We made 80x in crypto. It would not have been like that. U=
+ntil we blew up. Then we went to zero. But, yeah.=E2=80=9D
+
+
+  [2] A note on the source of the arbitrage here. In Davies=E2=80=99s telli=
+ng, every bank started offering electronic FX trading platforms to their cu=
+stomers, with the hope of locking the customers into their platform and ear=
+ning fat commissions. Funds like 3AC would sign up for every bank=E2=80=99s=
+ electronic platform. Thus 3AC could see every bank=E2=80=99s bid and offer=
+ for each currency; the *banks*, meanwhile, could not, because they couldn=
+=E2=80=99t join the other banks=E2=80=99 platforms. Every so often some ban=
+k would have a market of like .9999 / 1.0001 on some lightly traded currenc=
+y, and some other bank would have a market of 1.0002 / 1.0004, and 3AC woul=
+d buy from one bank at 1.0001 and sell to the other bank at 1.0002 and clip=
+ an easy 0.0001 of risk-free profit. This is an =E2=80=9Carbitrage=E2=80=9D=
+ in the sense that it is an essentially risk-free trade of buying and selli=
+ng the same thing at different prices at the same time, but in modern finan=
+ce arbitraging your banks against each other is considered not so much =E2=
+=80=9Can arbitrage=E2=80=9D as it is =E2=80=9Crude,=E2=80=9D and the main r=
+isk in this trade is that if you did it too often the banks would stop trad=
+ing with you.=20
+
+
+  [3] One way for this to be true would be to trade traditional futures whe=
+re the futures price is higher than the spot price: If Bitcoin trades at $1=
+7,000, a Bitcoin future for delivery in a month might trade at $17,500. Ano=
+ther way for it to be true would be to trade perpetual futures =E2=80=94 mo=
+re common in crypto-native markets =E2=80=94 where the perpetual future has=
+ a  high funding rate paid to the short party, meaning that you pay a runni=
+ng spread to be long via futures. When we talked about this stuff a lot in =
+2017 it was about regulated futures on traditional commodities markets, whi=
+ch have expiries and traded at a premium; on crypto-native markets perpetua=
+l futures seem to be more common and that=E2=80=99s mostly what 3AC seems t=
+o have done.
+
+
+  [4] There are two ways to do this trade. One is to borrow $12 million of =
+Bitcoin, deliver them to Grayscale, and get back the shares in a year. When=
+ you get back the shares you sell them for cash and use the cash to buy bac=
+k the Bitcoin to deliver to your lenders. Here you have no Bitcoin price ri=
+sk: If Bitcoin goes up, the Grayscale shares will go up, and so you=E2=80=
+=99ll get more cash to buy back your Bitcoin. The other way to do the trade=
+ is to just buy Bitcoin and deliver it to Grayscale; at the end of the year=
+, you get back shares which you can sell for cash and keep the cash. Here y=
+ou are making a bet that Bitcoin will go up; if it goes down, you=E2=80=99l=
+l get back less cash than you started with. The first trade is arbitrage-is=
+h; the second trade is a directional bet on Bitcoin.
+
+
+  [5] The discussion of discounted Layer 1s starts at about 56 minutes into=
+ the interview.
+
+
+  [6] At about 59:30.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chsqsk.65v3/8717b60a.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9237036_151493532.1670270758103
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Apparently the way it works is that if you blow up a big crypto firm, you h=
+ave to sit in your home in a crypto-friendly jurisdiction giving=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB79e1bac8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjA1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMDUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBbf099b9e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC575d75fc" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The crypto financial crisis of 2022</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Apparently the way it works is that if you blo=
+w up a big crypto firm,=C2=A0you have to sit in your home in a crypto-frien=
+dly jurisdiction giving long rambling interviews about your failures to eve=
+ryone who wants to chat. Arguably this is an improvement over traditional f=
+inance, where if you blow up a financial institution you keep quiet and lea=
+ve the talking to your lawyers. (=E2=80=9CSam Bankman-Fried Should Shut Up,=
+ Bernie Madoff=E2=80=99s Lawyer Says,=E2=80=9D is a <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMDIvc2FtLWJhbmttYW4tZnJpZWQtc2hvdWxk=
+LXNodXQtdXAtYmVybmllLW1hZG9mZi1zLWxhd3llci1zYXlzP2NtcGlkPUJCRDEyMDUyMl9NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IyMTIwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf402adfd"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  Bloomberg headline</a> from last week.) Or perhaps it is one mor=
+e case of us watching in real time as crypto re-learns the lessons of tradi=
+tional finance. Maybe in six months all the busted crypto leaders will be s=
+aying =E2=80=9Coh wow we should not have given all those interviews.=E2=80=
+=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">We have talked a lot about Sam Bankman-Fried=
+=E2=80=99s=C2=A0rather unsatisfying Bahamas-based interviews about how he b=
+lew up FTX and Alameda Research, and we=E2=80=99ll talk more about them bel=
+ow. But here I want to start=C2=A0with a strangely satisfying <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3c=
+ueW91dHViZS5jb20vd2F0Y2g_dj1Uekdka0IweGJDRSZ0PTFz/607f07ceef4b8524a319a23cB=
+4037316a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> interview that Kyle Davies gave to Hugh Hendry</a> about=
+ Three Arrows Capital, or 3AC, the crypto trading firm that he ran with Su =
+Zhu and that blew up over the summer. To be fair, as of this writing, I hav=
+e seen only Part I of this interview, which only glances at the collapse of=
+ 3AC, so it is not fully satisfying.<a class=3D"footnote-index" href=3D"#fo=
+otnote-1" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[1]</span>
+</a>=C2=A0But Davies gives an account of the=C2=A0<em>rise=C2=A0</em>of 3AC=
+ that is quite useful as just a general story of what happened in crypto ov=
+er the last few years, and I want to talk about it here.</p>
+<p style=3D"margin: 16px 0;">3AC started as a small proprietary trading fir=
+m doing simple arbitrages in foreign-exchange trading. One bank would offer=
+ to sell a currency at $1.0001, and another would bid to buy it at $1.0002,=
+ and 3AC would buy from one and sell to the other at the same time and make=
+ a risk-free profit of a =E2=80=9Cpip=E2=80=9D ($0.0001) or two.<a class=3D=
+"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">After a while, 3AC got into crypto, because yo=
+u could make much larger risk-free-ish profits in crypto by buying Bitcoin =
+on one exchange and simultaneously selling it at a higher price on another =
+exchange. This again looks like a real arbitrage =E2=80=94=C2=A0it is <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMDEvdGhlLWV4LWphbm=
+Utc3RyZWV0LXRyYWRlci13aG8tcy1idWlsZGluZy1hLW11bHRpLWJpbGxpb24tY3J5cHRvLWVtc=
+GlyZT9jbXBpZD1CQkQxMjA1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cB48775c1b" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  the origin story</a> of Bankman-F=
+ried=E2=80=99s Alameda Research too, arbitraging Japanese Bitcoin prices =
+=E2=80=94=C2=A0though it is a stretch to call it =E2=80=9Crisk-free.=E2=80=
+=9D The main risk is that one or both of the crypto exchanges might disappe=
+ar with your money, which was a common thing for crypto exchanges to do in =
+the early days of crypto, and which has come back in vogue recently.</p>
+<p style=3D"margin: 16px 0;">Another important arbitrage is the Bitcoin spo=
+t/futures arbitrage. In the early days of Bitcoin futures, people would pay=
+ much more to own Bitcoin futures than they would to own Bitcoin directly.<=
+a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0We have <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTctMTItMTkvYml0Y29pbi1mdXR1cmVzLWFyZS1hLWdyZWF0LXdheS10by1ub3Qtb3duLWJpdG=
+NvaW4_Y21waWQ9QkJEMTIwNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cBce06f9ef" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> talked about various reasons</a> f=
+or this =E2=80=94=C2=A0owning Bitcoin directly exposes you to the risk of f=
+orgetting your private key, for instance, and is administratively alarming =
+for a lot of traditional financial institutions =E2=80=94=C2=A0but one simp=
+le one is that if you want to buy a Bitcoin you have to have $17,000, while=
+ if you want to buy a Bitcoin futures contract=C2=A0you can generally put u=
+p much less money for the same amount of Bitcoin exposure. The main intuiti=
+on behind the spot/futures arbitrage was basically that there was a lot of =
+demand for Bitcoin, and it was expensive for crypto investors to=C2=A0<em>g=
+et dollars</em>, so a Bitcoin product that required fewer dollars was more =
+attractive than one that required a lot of dollars.</p>
+<p style=3D"margin: 16px 0;">And 3AC did this arbitrage by, basically, bein=
+g pretty good at borrowing money. You find someone to lend you money at 10%=
+ interest, you use the borrowed money to buy Bitcoin, you sell Bitcoin futu=
+res at a 30% premium, you collect 20%, etc.</p>
+<p style=3D"margin: 16px 0;">Another important trade is the Grayscale arbit=
+rage, in which a firm like 3AC buys or borrows some Bitcoin, delivers them =
+to Grayscale Investments LLC, and gets back shares of the <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly9ncmF5c2N=
+hbGUuY29tL3Byb2R1Y3RzL2dyYXlzY2FsZS1iaXRjb2luLXRydXN0Lw/607f07ceef4b8524a31=
+9a23cB5d6c834a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Grayscale Bitcoin Trust</a>, or GBTC.=C2=A0GBTC =
+=E2=80=94=C2=A0like Bitcoin futures =E2=80=94=C2=A0is a way to own Bitcoin =
+without actually owning Bitcoin, and it was friendly to traditional retail =
+and institutional investors in a way that owning Bitcoin directly, or even =
+owning most futures products, was not. So GBTC=C2=A0consistently traded at =
+a premium to its net asset value for years: One share of GBTC might represe=
+nt $12 worth of Bitcoin, but would trade at $15. A fund like 3AC could deli=
+ver $12 million worth of Bitcoin to Grayscale and get back 1 million shares=
+, with a net asset value of $12 million (equal to what 3AC delivered) but a=
+ market value of $15 million, for a free $3 million profit.</p>
+<p style=3D"margin: 16px 0;">This looks like an arbitrage but has a problem=
+, which is that =E2=80=94=C2=A0for securities-law reasons =E2=80=94=C2=A0yo=
+u don=E2=80=99t get the shares for a year. You can turn your $12 million of=
+ Bitcoin into $15 million of Grayscale, but you have to wait a year. This m=
+eans that it is not a risk-free trade: It is a=C2=A0one-year=C2=A0bet on=C2=
+=A0<em>the Grayscale premium</em>. If you buy (or borrow) $12 million worth=
+ of Bitcoin and deliver it to Grayscale for one million shares in a year, a=
+nd in a year the price of Bitcoin is constant, but now instead of trading a=
+t a premium to Bitcoin Grayscale trades at a discount, then you will only g=
+et back, say, $10 million from selling your shares, and you will have lost =
+$2 million.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: none !important; background-c=
+olor: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And in fact that happened; GBTC has traded at =
+a discount to spot Bitcoin for much of the last two years.</p>
+<p style=3D"margin: 16px 0;">What could cause this? It could have become le=
+ss appealing for investors to hold Grayscale, or more appealing for them to=
+ hold Bitcoin directly. But another answer, one that Davies emphasizes, is =
+that=C2=A0<em>it became much cheaper for crypto hedge funds to borrow money=
+</em>. This is a trade that offered big profits if you could borrow money, =
+buy Bitcoin, deliver the Bitcoin to Grayscale, and wait a year. If you were=
+ early to this trade, you did well. But then everyone noticed it and starte=
+d doing it, which meant lots of crypto hedge funds were creating lots of ne=
+w GBTC shares, which meant that the supply of new GBTC shares (created by h=
+edge funds) outstripped the demand (from retail buyers). If you got into th=
+e trade when it was relatively quiet and GBTC traded at a premium, and then=
+ a year later the trade was crowded and GBTC traded at a discount, you lost=
+ a lot of money.</p>
+<p style=3D"margin: 16px 0;">As Grayscale trades got more crowded, 3AC look=
+ed into other sorts of arbitrages. The Grayscale trade is risky, but it sor=
+t of has the=C2=A0<em>shape=C2=A0</em>of an arbitrage trade; if you squint,=
+ it is =E2=80=9Cbuy Bitcoin and sell Bitcoin futures,=E2=80=9D only instead=
+ of Bitcoin futures it is future delivery of Grayscale shares. But once you=
+=E2=80=99ve done that trade you might squint further and do some trades tha=
+t are even less arbitrage-y. Davies talks about =E2=80=9Cdiscounted Layer 1=
+s.=E2=80=9D The trade is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Someone is launching some blockchain =
+protocol, some crypto network like Avalanche or Solana that is intended to =
+compete with Ethereum.</li>=09<li style=3D"margin-bottom: 5px;">To raise mo=
+ney to build out the ecosystem, they sell tokens to investors.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">For legal reasons, there is a long lockup peri=
+od on the tokens: If you buy the tokens in the ICO, you can=E2=80=99t sell =
+them for a year or more.</li>=09<li style=3D"margin-bottom: 5px;">But you g=
+et to buy the tokens at a discount of 40% to 50%.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So there are some tokens that are supposed to =
+be worth $10,=C2=A0that probably have a trading price of $10, though perhap=
+s on small volume and without much history. And you get to buy a lot of the=
+m for=C2=A0$6; you just can=E2=80=99t sell them for a year. Davies<a class=
+=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[5]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">If you believe the market=E2=80=99s going up, =
+if you believe in this protocol, if you believe that they can take those do=
+llars and do marketing or build their platform or=C2=A0hire more people and=
+ build value, then it looks like a very attractive trade. And so for us, we=
+ found several protocols that we liked, we did very sizeable amounts with t=
+hem, and that became another source of,=C2=A0you know, something that sat i=
+n the middle, where I=C2=A0would have considered it somewhat like an arb ki=
+nd of trade, like it is a discount, but it=E2=80=99s very directional. It=
+=E2=80=99s not like you=E2=80=99re punting Bitcoin, but it=E2=80=99s somewh=
+ere in the middle. =E2=80=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;">Over time, people end up doing more and more o=
+f this kind of thing, and then by the end, you know, when credit gets squee=
+zed out of the system, there=E2=80=99s a collapse. Basically that=E2=80=99s=
+ what happened.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I confess that a certain amount of steam came =
+out my ears when I heard this. Here Davies is describing taking, essentiall=
+y,=C2=A0<em>equity=C2=A0</em>risk on new crypto protocols. (Worse than equi=
+ty risk; the token of some new crypto protocol probably has fewer legal rig=
+hts and cash-flow claims than a share of stock.) He is making multi-year, i=
+lliquid, unhedgeable speculative investments in brand-new crypto protocols =
+because he thinks =E2=80=9Cthe market=E2=80=99s going up=E2=80=9D and becau=
+se he hopes that those protocols can hire people and build value. This is a=
+ venture capital investment.=C2=A0And he describes it as an=C2=A0<em>arbitr=
+age</em>.</p>
+<p style=3D"margin: 16px 0;">Which, you know, fine, whatever. People are al=
+lowed to be wrong; hedge funds are allowed to lose money. But the thing tha=
+t happened with 3AC is not just that it made a long slow transition from pi=
+cking up pips in high-frequency foreign exchange trading to making multi-ye=
+ar venture bets on new crypto protocols because it liked the founders. It=
+=E2=80=99s also that it kept the same financing model the whole time. 3AC s=
+tarted out as a proprietary trading firm that made short-term arbitrage-y b=
+ets, turned over its capital frequently and had a very high Sharpe ratio, s=
+o it was able to borrow a lot of money. It ended up as a firm making long-t=
+erm unhedgeable illiquid equity bets on crypto protocols with no track reco=
+rds, and was somehow able to borrow even more money. Davies describes his r=
+elationship with his lenders, firms =E2=80=94=C2=A0like Voyager or Celsius =
+or BlockFi =E2=80=94=C2=A0that I have described as =E2=80=9Ccrypto shadow b=
+anks=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">These firms are under pressure to lend out mor=
+e and more too. You have to remember that the way they make money is they t=
+ake these deposits, they lend them out, they earn the spread, but they=E2=
+=80=99re raising equity valuations. And some of these firms are raising at =
+three =E2=80=A6=C2=A0one of the firms raised at a $14 billion valuation, ot=
+hers at $3 plus billion valuations. They really want to lend this money out=
+. They can=E2=80=99t afford for it to sit on the books, for one. They don=
+=E2=80=99t want to return it. So their risk management also starts to go do=
+wn. And, you know, that becomes the whole system, basically.</p>
+<p style=3D"margin: 16px 0;">I think one of the last calls we did someone l=
+ent me high nine figures, almost a billion, off a phone call. That was the =
+final one, that was, like,=C2=A0uncollateralized. That=E2=80=99s where the =
+system was. People needed to get dollars out the door. We were a hedge fund=
+, we were paid to take risk.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Were they? One point emphasized in the intervi=
+ew is that 3AC was=C2=A0<em>not=C2=A0</em>really a hedge fund, but a propri=
+etary trading firm; for the most part, it did not take outside money and us=
+ed its partners=E2=80=99 capital. Nobody was paying 3AC to take risks with =
+their money. Instead, 3AC was paying other people =E2=80=94=C2=A0its lender=
+s =E2=80=94=C2=A0interest to borrow money. Those lenders presumably did=C2=
+=A0<em>not=C2=A0</em>want 3AC to take risks with their money; they wanted t=
+o get paid back; they wanted their money to be safe. But they faced competi=
+tive pressures to lend a bunch of money to 3AC, so they did.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The story that I want to tell here is that the=
+re was an intense demand,=C2=A0<em>within crypto</em>, for =E2=80=9Csafe as=
+sets.=E2=80=9D =E2=80=9CSafe assets,=E2=80=9D in this context, means places=
+ to invest your cryptocurrency or stablecoins that=C2=A0<em>earn interest</=
+em>, that feel like bank accounts rather than speculative investments. You =
+might put your dollars into a crypto shadow bank, exchange them for dollar-=
+denominated stablecoins, and earn 8% interest (in dollar-indexed stablecoin=
+s) rather than the 0% you=E2=80=99d get at a real bank. Or you might own Bi=
+tcoin, and think Bitcoin is pretty safe, and want to earn 8% interest on yo=
+ur Bitcoin. But what you didn=E2=80=99t want is to guess which small-time c=
+ryptocurrencies would win or lose; you did not want to make speculative bet=
+s on individual cryptocurrencies. You wanted to own normal understandable s=
+tuff (dollars, perhaps Bitcoins) and get paid a lot of interest for partici=
+pating in =E2=80=9Ccrypto.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Crypto had no sensible way to manufacture this=
+ interest. There were not a lot of people borrowing Bitcoin or stablecoins =
+to buy houses or build factories or whatever. Crypto shadow banks could not=
+ lend their crypto at 12% interest to stable companies secured by real-worl=
+d collateral; everything in crypto was new, and financial, and on the block=
+chain. The best the shadow banks could do was lend their crypto to well-reg=
+arded crypto hedge funds secured by crypto collateral, though even that bec=
+ame rarer as lending got more competitive and shadow banks did more unsecur=
+ed loans.</p>
+<p style=3D"margin: 16px 0;">But at least, the shadow banks thought, they w=
+ere lending the money to hedge funds who were doing=C2=A0<em>safe trades</e=
+m>. They weren=E2=80=99t lending money to firms like 3AC to make wild specu=
+lative bets on random cryptocurrencies. They were lending money to 3AC to d=
+o =E2=80=9Carbitrages.=E2=80=9D=C2=A0And then you sit down with Kyle Davies=
+ and ask him what kind of arbitrages he did and he=E2=80=99s like =E2=80=9C=
+well we=E2=80=99d take four-year lockups on illiquid unhedgeable tokens of =
+brand-new protocols, but we=E2=80=99d get a discount, so it was kind of an =
+arbitrage.=E2=80=9D Oops!</p>
+<p style=3D"margin: 16px 0;">In recent months I have often thought, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLXRoZS1jcnlwdG8tc3RvcnkvP2NtcGlk=
+PUJCRDEyMDUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIyMTIwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZiNyZWludmVudGluZy=
+0yMDA4/607f07ceef4b8524a319a23cBc4c4d516" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  and written</a>, that =
+the crypto industry in 2022 rediscovered the 2008 financial crisis. A quick=
+ summary of 2008 is that there was a lot of demand for safe assets, for bon=
+ds with AAA ratings. The financial system obligingly manufactured those ass=
+ets, taking risky assets =E2=80=94=C2=A0mostly subprime mortgages =E2=80=94=
+=C2=A0and packaging and slicing them to achieve AAA ratings. There was so m=
+uch demand for safe assets that the manufacturing process got sloppy: The s=
+ubprime mortgages got ever more subprime, the slicing and repackaging got l=
+ess effective, and ultimately some of the safe assets turned out not to be =
+safe.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Something like that seems to have happened in =
+crypto but there is a critical difference. In crypto, there are no mortgage=
+s=C2=A0to speak of. You cannot really start by taking some somewhat risky c=
+ash flows and tranching them to make some of the cash flows safer. There ar=
+e no cash flows. The safe assets in crypto =E2=80=94=C2=A0interest-bearing =
+accounts at Voyager or Celsius or BlockFi or <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvMzI5NzdhOTktYzFjMy00ZjM0LTllY2MtNDA1NzIxN2JmOTc0/607f07ceef4b8524a319a2=
+3cB4ef0a024" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Gemini</a> =E2=80=94 are created by making unsecured =
+billion-dollar loans, negotiated in a single phone call, to arbitrage tradi=
+ng firms that are actually just making long-term bets on the marketing abil=
+ities of blockchain entrepreneurs. Crypto shadow banks did not manufacture =
+safe assets out of risky investments; they just relabeled the risky investm=
+ents as safe assets. There were people taking wild speculative risks on bra=
+nd-new, sentiment-driven crypto projects, and there were people who wanted =
+to invest safely and earn 8%, and they were the same people.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD266f021b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE266f021b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFe102e427" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGe102e427" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHd551690c" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cId551690c" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile, FTX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sam Bankman-Fried continues his sad press tour=
+, but his explanations of what happened to FTX=E2=80=99s customers=E2=80=99=
+ money remain unsatisfying. Here is the version that Bankman-Fried seems to=
+ be settling on; it is infuriatingly simple:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Customers deposited several billion d=
+ollars into FTX=C2=A0<em>through=C2=A0</em>Alameda: For weird bank-access r=
+easons, FTX couldn=E2=80=99t accept some wire transfers from customers, so =
+the customers transferred their money to Alameda Research, FTX=E2=80=99s af=
+filiated trading firm, instead, and Alameda passed it on to FTX. (This woul=
+d be a huge red flag even if nothing else went wrong!)</li>=09<li style=3D"=
+margin-bottom: 5px;">Alameda sent the money to FTX, which credited it to cu=
+stomers, but they somehow forgot to debit it from Alameda, leading FTX to t=
+hink that its customers had the money but also that Alameda had billions of=
+ dollars more than it actually had.</li>=09<li style=3D"margin-bottom: 5px;=
+">Alameda proceeded to lose the money on dumb trades and lavish spending, b=
+ut no one noticed, because (1) they thought Alameda had so much money it di=
+dn=E2=80=99t matter and (2) their accounting generally was pretty bad.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This explanation has some virtues. It is fairl=
+y simple. It fits well with <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjItMTEtMTcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1mdHgtd2FzLW5vdC12=
+ZXJ5LWNhcmVmdWw_Y21waWQ9QkJEMTIwNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjA1JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cBce704440" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  FTX=E2=80=99s new mana=
+gement=E2=80=99s exasperation</a> with old management=E2=80=99s sloppy acco=
+unting; this=C2=A0<em>is </em>a story of sloppy accounting. And Bankman-Fri=
+ed has been telling some version of this story pretty consistently since FT=
+X=E2=80=99s collapse; even as he was shopping for a rescuer pre-bankruptcy,=
+ he was <a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.2=
+87535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtM=
+TQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDEyMDUyMl9NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIwNSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6537a21b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  sending around a spreadsheet</a> with an $8 billion hole for a =E2=80=9CH=
+idden, poorly internally labeled =E2=80=98fiat@=E2=80=99 account.=E2=80=9D =
+On the other hand, it is a terrible explanation? =E2=80=9COh that $8 billio=
+n, we sort of weren=E2=80=99t paying attention to it, so we spent it on sna=
+cks=E2=80=9D? I don=E2=80=99t know. <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2ZlYXR1cmVzLzIwMjItMTItMDIvaW5zaWRlLXNhbS1iYW5rbWFuLWZyaWVkLXMtYmFoYW1pYW4t=
+cGVudGhvdXNlLWFmdGVyLWZ0eC1zLWNvbGxhcHNlP2NtcGlkPUJCRDEyMDUyMl9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIwNS=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3330d1a2" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  Bloomberg=E2=80=99s Zeke Faux went to the Bahamas Contrition Show</a> an=
+d came away with this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou misplaced $8 billion?=E2=80=9D I =
+ask.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMisaccounted,=E2=80=9D Bankman-Fried =
+says, sounding almost proud of his explanation. Sometimes, he says, custome=
+rs would wire money to Alameda Research instead of sending it directly to F=
+TX. (Some banks were more willing to work with the hedge fund than the exch=
+ange, for some reason.) He claims that somehow, FTX=E2=80=99s internal acco=
+unting system double-counted this money, essentially crediting it to both t=
+he exchange and the fund.</p>
+<p style=3D"margin: 16px 0;">That still doesn=E2=80=99t explain why the mon=
+ey was gone. =E2=80=9CWhere did the $8 billion go?=E2=80=9D I ask.</p>
+<p style=3D"margin: 16px 0;">To answer, Bankman-Fried creates a new tab on =
+the spreadsheet and starts typing. He lists Alameda and FTX=E2=80=99s bigge=
+st cash flows. One of the biggest expenses is paying a net $2.5 billion to=
+=C2=A0Binance, a rival, to buy out its investment in FTX. He also lists $25=
+0 million for real estate, $1.5 billion for expenses, $4 billion for ventur=
+e capital investments, $1.5 billion for acquisitions and $1 billion labeled=
+ =E2=80=9Cfuckups.=E2=80=9D Even accounting for both firms=E2=80=99 profits=
+, and all the venture capital money raised by FTX, it tallies to negative $=
+6.5 billion.</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried is telling me that the billions =
+of dollars customers wired to Alameda is gone simply because the companies =
+spent way more than they made. He claims he paid so little attention to his=
+ expenses that he didn=E2=80=99t realize he was spending more than he was t=
+aking in. =E2=80=9CI was real lazy about this mental math,=E2=80=9D the for=
+mer physics major says. He creates another column in his spreadsheet and ty=
+pes in much lower numbers to show what he thought he was spending at the ti=
+me.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Look, none of the other categories =E2=80=94 $=
+2.5 billion of=C2=A0<em>equity buybacks</em>,=C2=A0$250 million for real es=
+tate, $1.5 billion for expenses, $4 billion for venture capital and $1.5 bi=
+llion for acquisitions =E2=80=94=C2=A0looks=C2=A0<em>good</em>, now. This i=
+s not $9.8=C2=A0billion of prudent investments plus some, uh, mistakes. Thi=
+s is $9.8=C2=A0billion of mistakes, plus a billion-dollar miscellaneous cat=
+egory for the even worse mistakes.</p>
+<p style=3D"margin: 16px 0;">The Wall Street Journal=E2=80=99s Alexander Os=
+ipovich also went to see the show; <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/29894564.287535/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdH=
+gtZm91bmRlci1zYW0tYmFua21hbi1mcmllZC1zYXlzLWhlLWNhbnQtYWNjb3VudC1mb3ItYmlsb=
+GlvbnMtc2VudC10by1hbGFtZWRhLTExNjcwMTA3NjU5/607f07ceef4b8524a319a23cB7e5e67=
+92" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> here=E2=80=99s what he got</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Over time, FTX customers deposited more than $=
+5 billion in those Alameda accounts, he said. Now those funds are gone.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThey were wired to Alameda, and=E2=80=
+=A6I can only speculate about what happened after that,=E2=80=9D Mr. Bankma=
+n-Fried told the Journal.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CDollars are fungible with each other.=
+ And so it=E2=80=99s not like there=E2=80=99s this $1 bill over here that y=
+ou can trace through from start to finish. What you get is more just omnibu=
+s, you know, pots of assets of various forms,=E2=80=9D he added. =E2=80=A6<=
+/p>
+<p style=3D"margin: 16px 0;">Mr. Bankman-Fried=E2=80=99s remarks suggest th=
+at FTX customer funds flowing into Alameda bank accounts could have been re=
+corded in two places=E2=80=94both as FTX customer funds and as part of Alam=
+eda=E2=80=99s trading positions. Such double-counting would have created a =
+huge hole in FTX=E2=80=99s and Alameda=E2=80=99s balance sheets, with asset=
+s that weren=E2=80=99t really there. Mr. Bankman-Fried denied that double-c=
+ounting affected FTX=E2=80=99s financials=E2=80=94but acknowledged that Ala=
+meda=E2=80=99s liabilities might not have been fully recorded.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere are lots of ways that one could=
+ have done this in a responsible way,=E2=80=9D he said. =E2=80=9CClearly wh=
+at we did was not one of them.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean, super, fine, sure.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Elsewhere, the Financial Times reports on an i=
+nteresting <a href=3D"https://link.mail.bloombergbusiness.com/click/2989456=
+4.287535/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWU5ZGM0MjQtYWVmNC00OTgxLWE0ZD=
+ctZTNjNDBlMWU2MDg1/607f07ceef4b8524a319a23cBbdcb08a1" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Alameda trad=
+e from last year</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Hedge fund Alameda Research stepped in to shel=
+ter FTX from a loss of up to $1bn after a customer trade on the crypto plat=
+form blew up last year, highlighting the deep and longstanding links betwee=
+n Sam Bankman-Fried=E2=80=99s digital asset companies.</p>
+<p style=3D"margin: 16px 0;">Alameda in early 2021 shouldered FTX=E2=80=99s=
+ burden when a client=E2=80=99s leveraged bet on an obscure token tore thro=
+ugh buffers designed to shield the exchange from sustaining losses when a t=
+rade goes bad, according to people with knowledge of the matter.=C2=A0=E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">FTX lent to traders so they could make big bet=
+s on crypto with just a small initial outlay, known as trading on margin. I=
+f the traders made losses, FTX would automatically sell the cash or margin =
+they had put up, thereby protecting the exchange.</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried had touted FTX=E2=80=99s =E2=80=
+=9Cunique=E2=80=9D liquidation engine, which he argued was a safer way for =
+exchanges to manage risk. The 30-year-old had pushed legislators in the US =
+to adopt FTX=E2=80=99s system, potentially opening it out to non-crypto mar=
+kets.</p>
+<p style=3D"margin: 16px 0;">The system included a fail-safe: it incentivis=
+ed large trading groups to take over trades where the initial margin was al=
+most wiped out. But on the riskiest, most thinly traded tokens, only Alamed=
+a was willing to serve as that last line of defence.</p>
+<p style=3D"margin: 16px 0;">In April 2021, a crypto token called MobileCoi=
+n =E2=80=94 used for payments in the privacy-focused messaging app Signal =
+=E2=80=94 suddenly spiked in price from about $6 to almost $70, before cras=
+hing back down again almost as quickly.</p>
+<p style=3D"margin: 16px 0;">The wild moves came after a trader on FTX had =
+built an unusually large position in the little-known token. Two people fam=
+iliar with the matter said that when the price rose, the trader used the po=
+sition to borrow against it on FTX, potentially a scheme to extract dollars=
+ from the exchange.</p>
+<p style=3D"margin: 16px 0;">Alameda was forced to step in and assume the t=
+rader=E2=80=99s position to protect FTX. The trading company=E2=80=99s loss=
+ on this deal was at least in the hundreds of millions of dollars, the peop=
+le said, and as high as $1bn, according to one of the people, wiping out a =
+large share of Alameda=E2=80=99s 2021 trading profits.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You can read this story as foreshadowing of FT=
+X=E2=80=99s and Alameda=E2=80=99s ultimate blowup, in a couple of ways. For=
+ one thing, one possible story of how Alameda lost its money is that <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTUvbWF0dC1sZXZ=
+pbmUtcy1tb25leS1zdHVmZi1iaW5hbmNlLWZ0eC1hbmQtY2Fycz9jbXBpZD1CQkQxMjA1MjJfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMjEyMDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB28ea8fc=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  it might have gotten burned as a market maker on FTX</a>: Wh=
+en everyone on FTX wanted to sell, Alameda was the buyer of last resort, wh=
+ich apparently cost it a billion dollars on MobileCoin in 2021 and might ha=
+ve cost it a similar amount on Luna this summer.</p>
+<p style=3D"margin: 16px 0;">For another thing, it reflects an incredibly n=
+aive view of the value of small illiquid crypto tokens. The <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly9jb2lub=
+WFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL21vYmlsZWNvaW4v/607f07ceef4b8524a319a23cBba=
+c5ea01" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> market capitalization of MobileCoin</a> is about $90 milli=
+on today, at a price per token of about $1.21; its trip from $6 to $70 last=
+ year was a weird blip. It seems insane to lend someone $1 billion against =
+a stash of MobileCoin: The stash of MobileCoin was not worth $1 billion sho=
+rtly before FTX loaned the trader that money, and it wasn=E2=80=99t worth $=
+1 billion shortly after, and lending $1 billion at a high loan-to-value rat=
+io against an incredibly volatile asset with no underlying cash flows that =
+has appreciated rapidly for no reason is ... just =E2=80=A6=C2=A0obviously =
+a bad idea? Like if I came to you and said =E2=80=9Chey this token went up =
+from $6 to $70 yesterday for no reason, would you lend me $50 against it,=
+=E2=80=9D you would say no. Presumably the story is that nobody asked anyon=
+e at FTX directly, that it had some margining engine that used observable p=
+arameters =E2=80=94=C2=A0price, volatility =E2=80=94=C2=A0to set margin lev=
+els, and someone was able to game it to borrow a lot of money against rapid=
+ly appreciated MobileCoin tokens in a way that put FTX at risk.</p>
+<p style=3D"margin: 16px 0;">But much the same thing happened with Alameda:=
+ At the end, Alameda seems to have borrowed billions of dollars from FTX, c=
+ollateralized by enormous positions in illiquid tokens that FTX had made up=
+ itself and that were mostly owned by Alameda.=C2=A0The FT goes on:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Analysis of blockchain transactions by researc=
+h company Nansen provides additional evidence that FTX acted as a lender of=
+ last resort for Alameda.</p>
+<p style=3D"margin: 16px 0;">Alameda held a large stock of FTT, a crypto to=
+ken issued by FTX itself, which it had used as collateral for loans. Nansen=
+=E2=80=99s analysis showed large transfers of FTT from several crypto lende=
+rs throughout June, which appeared to be the return of collateral as lender=
+s retreated from Alameda.</p>
+<p style=3D"margin: 16px 0;">From mid-June into July, the Nansen analysis i=
+dentified $4bn of FTT transferred from Alameda to FTX, which analysts wrote=
+ could have =E2=80=9Cbeen the provision of parts of the collateral that was=
+ used to secure loans=E2=80=9D.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/29894564.287535/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdHgt=
+ZWZmb3J0LXRvLXNhdmUtaXRzZWxmLWZhaWxlZC1vbi1xdWVzdGlvbmFibGUtYXNzZXRzLTExNjc=
+wMjQ1NjY4P21vZD1ocF9sZWFkX3BvczI/607f07ceef4b8524a319a23cBd4ab71fd" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> the Wall Street Journal adds</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When crypto exchange FTX was struggling to rai=
+se cash early last month, it seized billions of dollars worth of collateral=
+ from its trading arm, Alameda Research, and used it to try to convince inv=
+estors of its financial health, former FTX Chief Executive Sam Bankman-Frie=
+d said.</p>
+<p style=3D"margin: 16px 0;">But much of it didn=E2=80=99t add up. A big ch=
+unk of the assets consisted of four thinly traded crypto tokens closely con=
+nected to Mr. Bankman-Fried and FTX employees and mostly held by Alameda. T=
+he tokens were likely worth far less than the $6.4 billion marked on the ba=
+lance sheet FTX was shopping to investors in the hope of a bailout, accordi=
+ng to market data and crypto researchers. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The seizure of the tokens as collateral partia=
+lly explains the multibillion-dollar cash shortfall that led to the bankrup=
+tcy at FTX. Alameda borrowed billions of dollars from FTX and when FTX call=
+ed the loans, the collateral was worth far less than needed.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And here is Faux on the use of FTX money to ba=
+il out Alameda this summer:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">There are two different versions of what happe=
+ned next. Two people with knowledge of the matter told me that Ellison, by =
+then the sole head of Alameda, had told her side of the story to her staff =
+amid the crisis. Ellison said that she, Bankman-Fried and his two top lieut=
+enants=E2=80=94Gary Wang and Nishad Singh=E2=80=94had discussed the shortfa=
+ll. Instead of admitting Alameda=E2=80=99s failure, they decided to use FTX=
+ customer funds to cover it, according to the people. ...</p>
+<p style=3D"margin: 16px 0;">When I put this to Bankman-Fried, he screws up=
+ his eyes, furrows his eyebrows, puts his hands in his hair and thinks for =
+a few seconds.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CSo, it=E2=80=99s not how I remember w=
+hat happened,=E2=80=9D Bankman-Fried says. But he surprises me by acknowled=
+ging that there had been a meeting, post-Luna crash, where they debated wha=
+t to do about Alameda=E2=80=99s debts. The way he tells it, he was packing =
+for a trip to DC and =E2=80=9Conly kibitzing on parts of the discussion.=E2=
+=80=9D It didn=E2=80=99t seem like a crisis, he says. It was a matter of ex=
+tending a bit more credit to a fund that already traded on margin and still=
+ had a pile of collateral worth way more than enough to cover the loan. (Al=
+though the pile of collateral was largely shitcoins.)</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I have made a lot of fun of FTX=E2=80=99s deci=
+sion to treat all these tokens as being worth real money, when it loaned mo=
+ney to Alameda <a href=3D"https://link.mail.bloombergbusiness.com/click/298=
+94564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpb=
+mFuY2UtZGVhbD9jbXBpZD1CQkQxMjA1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMDUmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cBb77f9561" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  secured by these made-up =
+tokens</a> and when it <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDEyMDUyM=
+l9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIyMTIwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC653=
+7a21b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  tried to raise financing</a> based on its stash of made-up=
+ tokens. I sort of assumed that, when FTX extended billions of dollars of c=
+redit to its affiliated trading firm secured by a stash of magic beans it h=
+ad created, it was indulging in some favoritism and wishful thinking: FTX w=
+ouldn=E2=80=99t lend billions of dollars to some <em>outside </em>trading f=
+irm secured by a stash of magic beans someone=C2=A0<em>else=C2=A0</em>had c=
+reated. Except it did! It loaned tons of money to some outside trading firm=
+ against MobileCoin, which made no sense, and which stuck Alameda with a bi=
+llion-dollar loss. It=E2=80=99s consistent, anyway.</p>
+<p style=3D"margin: 16px 0;">This also seems like a standard crypto illness=
+. We <a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.2875=
+35/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMTIv=
+ZGVmaS1kaXNjb3ZlcnMtbmV3LW1hcmtldC1tYW5pcHVsYXRpb25zP2NtcGlkPUJCRDEyMDUyMl9=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIyMTIwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB95891=
+540" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  talked back in October</a> about an exploit of a decentraliz=
+ed finance protocol called Mango; it had the same basic structure (buy a lo=
+t of a token, push up the price, borrow a lot against it, vanish). I wrote:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">Look, I had never heard of the Man=
+go token until this morning, which is a crucial advantage for me. If you ha=
+d come to me and said =E2=80=9CI have Mango tokens with a market value of $=
+423 million, I want to use them as collateral for a loan, would you lend me=
+ $116 million against these Mango tokens?=E2=80=9D I would have said =E2=80=
+=9Cabsolutely not, Mango tokens, not a thing.=E2=80=9D And that would have =
+been=C2=A0<em>correct</em>, both in the narrow sense that the =E2=80=9Creal=
+=E2=80=9D market value of 483 million Mango tokens was about $18 million an=
+d in the broader sense of, well, why was it even $18 million? But the Mango=
+ protocol itself just had some price oracles that connected to some exchang=
+es, and when those exchanges showed that the tokens were trading at $0.91, =
+it believed them. So it=C2=A0computed a value of $423 million, and that was=
+ plenty of collateral to support a $116 million loan, and there you go.=C2=
+=A0Mango could look at market prices, but it could not apply common sense, =
+and that was its problem.</p></blockquote>
+<p style=3D"margin: 16px 0;">In broad strokes, that seems to have been true=
+ of FTX as well, just going around lending billions of dollars against toke=
+ns that were not a thing. Why? One possibility is, you know, motivated reas=
+oning, fraud, etc.: FTX loaned billions of dollars of customer money to Ala=
+meda, secured by its own tokens, because that is a plausibly justifiable wa=
+y to transfer money from FTX=E2=80=99s customers to its owners. I think the=
+re is something to this theory, but the MobileCoin story suggests it=E2=80=
+=99s not all that was going on.</p>
+<p style=3D"margin: 16px 0;">Another possibility is, you know, naivety, dum=
+bness, sloppiness, over-automation, etc.: FTX just thought =E2=80=9Cah well=
+ if a token=E2=80=99s price goes up then it=E2=80=99s valuable and we can l=
+end against it,=E2=80=9D so they did, without checking to see if the prices=
+ made sense or learning lessons when they didn=E2=80=99t.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But another possibility is what we talked abou=
+t in the previous section:=C2=A0<em>None of this</em> made any sense<em>.=
+=C2=A0</em>Bitcoin is worth $17,000; it has no cash flows and someone just =
+made it up within recent memory. Ethereum, Dogecoin, etc. Essentially all o=
+f the assets in crypto trade on sentiment, and it is incoherent to say =E2=
+=80=9Cwell Bitcoin is really worth $17,000 so I will lend against it at a h=
+igh loan-to-value ratio, while MobileCoin is not really worth $70 so I won=
+=E2=80=99t.=E2=80=9D If you are in the business of lending against crypto =
+=E2=80=94=C2=A0more broadly, if you are in the business of <em>promising sa=
+fety in crypto</em>, as <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/29894564.287535/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMTEvMTAvbGFycnktZGF2a=
+WQtcmlnaHQtYWJvdXQtZnR4LWNvbGxhcHNlLWluLW9sZC1zdXBlci1ib3dsLWNvbW1lcmNpYWwv=
+/607f07ceef4b8524a319a23cB532c651c" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> FTX was</a>=C2=A0=E2=80=94=C2=
+=A0then it is easy to end up lending billions of real dollars against a pil=
+e of collateral that doesn=E2=80=99t make sense. In part due to adverse sel=
+ection =E2=80=94=C2=A0if the collateral is worth so much, why are they usin=
+g it to borrow from you? =E2=80=94=C2=A0but in part because no pile of cryp=
+to collateral is ever going to make complete sense.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJeb64f5ef" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bribes</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The standard way to do bribes (not legal advic=
+e!) is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You work for some big international c=
+ompany.</li>=09<li style=3D"margin-bottom: 5px;">You want to win a lucrativ=
+e government contract in some foreign country.</li>=09<li style=3D"margin-b=
+ottom: 5px;">You sign a deal with some well-connected partner company in th=
+e foreign country,=C2=A0in which you pay the partner company a bunch of cas=
+h, and the partner company agrees to provide you with some sort of vague se=
+rvices connected to the contract.</li>=09<li style=3D"margin-bottom: 5px;">=
+The foreign partner company takes the cash that you paid it, keeps some for=
+ itself, and pays the rest directly to the foreign official in charge of aw=
+arding the contract.</li>=09<li style=3D"margin-bottom: 5px;">The official =
+awards the contract to you.</li>=09<li style=3D"margin-bottom: 5px;">The co=
+ntract is lucrative enough to cover the cost of the bribes, and the foreign=
+ partner company=E2=80=99s cut, and your company=E2=80=99s profit margin, a=
+nd your bonus.</li>
+</ol>
+<p style=3D"margin: 16px 0;">There are various accounting issues; you will =
+want your payments to the foreign partner company to look plausible. (=E2=
+=80=9CEngineering services=E2=80=9D is probably better than =E2=80=9Cconsul=
+ting,=E2=80=9D which is probably better than =E2=80=9Cbribes,=E2=80=9D whic=
+h is probably better than =E2=80=9Cchickens, wink wink.=E2=80=9D)=C2=A0But =
+there are also <a href=3D"https://link.mail.bloombergbusiness.com/click/298=
+94564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMT=
+ktMDEtMDQvZG9uLXQtY2FsbC1icmliZXMtY2hpY2tlbnM_Y21waWQ9QkJEMTIwNTIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIx=
+MjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd44ba901" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  timing and trust issues</a>. Do you pay the partner company before o=
+r after you win the contract? Does the foreign partner company hand over th=
+e sack of cash to the government official before or after? Do you =E2=80=94=
+=C2=A0as the representative of the big international company who got everyt=
+hing rolling =E2=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjEtMTAtMjAvbW9uZXktc3R1ZmYtY3JlZGl0LXN1aXNzZS1tb3phbWJpcXVlLWRp=
+ZC1zb21lLXNlY3VyaXRpZXMtZnJhdWQ_Y21waWQ9QkJEMTIwNTIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjA1JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7f58ff9f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">get a cut=
+ of the bribes yourself</a>? All of this is complicated by the fact that=C2=
+=A0<em>you=E2=80=99re all committing crimes</em>, so it=E2=80=99s not obvio=
+us you should trust each other.</p>
+<p style=3D"margin: 16px 0;">Here is a fairly standard <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0yMTQ/607f07ceef4b8524a319a23cBcaaa4a65=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> US Securities and Exchange Commission enforcement action</a>=C2=
+=A0against ABB Ltd. for doing some bribery in South Africa:</p>
+<blockquote><p style=3D"margin: 16px 0;">The SEC=E2=80=99s order finds that=
+, from 2015 through 2017, ABB executives in Switzerland and South Africa co=
+lluded with a high-ranking government official at Eskom, an electricity pro=
+vider owned by the South African government, to funnel bribes to the offici=
+al through complicit third-party service providers with whom the government=
+ official had close personal relationships. ABB paid the service providers =
+more than $37 million to bribe the government official. In return ABB obtai=
+ned a $160 million contract to provide cabling and installation work at Esk=
+om=E2=80=99s Kusile Power Station.</p></blockquote>
+<p style=3D"margin: 16px 0;">But the terminology is fantastic:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">During July 2013, Executive A at company headq=
+uarters in Switzerland learned of rumors that Eskom was considering replaci=
+ng the existing contractor in charge of the cabling and installation (=E2=
+=80=9CC&amp;I=E2=80=9D) work at Kusile and committed =E2=80=9Cto getting AB=
+B into the race and pole position for the project.=E2=80=9D To that end, he=
+ assembled a =E2=80=9Ccapture team=E2=80=9D responsible for pursuing the te=
+nder opportunity consisting primarily of himself, Local Senior Manager, and=
+ Executive B, another executive at headquarters in Switzerland. ...</p>
+<p style=3D"margin: 16px 0;">In March 2014, at the suggestion of Executive =
+B that a =E2=80=9Csales shark=E2=80=9D was needed in pursuing the C&amp;I c=
+ontract, the capture team appointed Capture Team Lead, =E2=80=9Ca highly ex=
+perienced sales expert=E2=80=9D with a reputation for non-transparency abou=
+t how he went about interactions with clients.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is apparently just the normal terminology=
+, like, even if they weren=E2=80=99t paying bribes they=E2=80=99d call them=
+selves the =E2=80=9Ccapture team=E2=80=9D and a =E2=80=9Csales shark.=E2=80=
+=9D But it sure makes it sound like they were paying bribes. They (allegedl=
+y) were:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In April 2014, the parties entered into a brib=
+ery scheme with Eskom whereby ABB-South Africa would use a third party to p=
+ay the Eskom Official in exchange for awarding the business to ABB. =E2=80=
+=A6 Specifically, in April 2014, Eskom Official introduced ExecutiveB to a =
+friend who was the chair of Service Provider A, a privately-owned South Afr=
+ican company that provided engineering services. Executive Band Capture Tea=
+m Lead agreed to an arrangement with Eskom Official and Service Provider A=
+=E2=80=99s chair that ABB-South Africa would be awarded the Kusile C&amp;I =
+contract if ABB-South Africa appointed Service Provider A as a subcontracto=
+r for services and prices to be negotiated. The scheme was structured so Es=
+kom Official would receive a portion of Service Provider A=E2=80=99s subcon=
+tract fee. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">A supply chain manager at ABB-South Africa, wh=
+o was not aware of the bribery scheme, raised concerns that Service Provide=
+r A was unqualified for the work for which it was being considered and that=
+ its proposed price was excessive. Given that Executive B and Capture Team =
+Lead were part of the bribe scheme, the concerns went unaddressed by ABB ma=
+nagement in South Africa and Switzerland.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But there were trust issues:</p>
+<blockquote><p style=3D"margin: 16px 0;">The bribe scheme nearly came undon=
+e when Service Provider A=E2=80=99s chair refused to share the spoils with =
+the Eskom Official due to an apparent falling out between them. In order to=
+ save the illicit arrangement, Capture Team Lead attempted to broker a peac=
+e between the two, going so far as arranging a face-to-face meeting, but th=
+e efforts were unsuccessful.</p></blockquote>
+<p style=3D"margin: 16px 0;">So they had to find a new local intermediary t=
+o pass along the bribes. When you=E2=80=99re the shark running the capture =
+team, this is a risk that you take: You can=E2=80=99t necessarily trust tha=
+t the well-connected local intermediary that you hire to pass on the bribes=
+ will actually pass on the bribes.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goose eggs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The old model of financial industry compensati=
+on was that mid-level and senior bankers got relatively low base salaries a=
+nd made most of their money through bonuses. This had a lot of advantages f=
+or the banks. It encouraged loyalty: You couldn=E2=80=99t leave mid-year, s=
+ince most of your pay came at the end of the year. It also limited the fina=
+ncial risk of compensation: In a bad year, banks could cut their compensati=
+on expense pretty dramatically, since they paid most of it in one shot at t=
+he end of the year. There were downsides, though: It took more total compen=
+sation to compete with other industries that offered more normal salaries, =
+and there was a view among regulators that the bonus culture encouraged exc=
+essive risk-taking. So after the financial crisis, banks grudgingly moved t=
+o a model of somewhat higher base salaries and lower bonuses.</p>
+<p style=3D"margin: 16px 0;">One result of that is that, in the olden days,=
+ getting a bonus of zero was pretty much the equivalent being fired, while =
+in the modern model it =E2=80=A6=C2=A0well, it=E2=80=99s still pretty bad. =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMDIvd2FsbC1zd=
+HJlZXQtc2xhc2hlcy1iYW5rZXJzLWJvbnVzZXMtYXMtdGFsZW50LXdhci1jb21lcy10by1hbi1l=
+bmQ_Y21waWQ9QkJEMTIwNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB7c3b9314" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  Bloomberg News reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">This year, banks including Citigroup, Bank of =
+America and Barclays are considering giving dozens of their lowest performe=
+rs no bonus at all -- known as getting =E2=80=9Czeroed out,=E2=80=9D or rec=
+eiving a =E2=80=9Cgoose egg,=E2=80=9D =E2=80=9Cdoughnut=E2=80=9D or =E2=80=
+=9Cbagel.=E2=80=9D At Goldman, the number of bankers getting nothing could =
+surpass 100.</p>
+<p style=3D"margin: 16px 0;">A Barclays spokesperson declined to comment.</=
+p>
+<p style=3D"margin: 16px 0;">Bonus snubs are often a precursor to a firing =
+but also sort of a dare: If a company wants to lower headcount it can throw=
+ out a bunch of them and see if enough people get the message to speed up a=
+ttrition. Or, with terminations at other firms on the rise, some managers m=
+ay bet that recipients will keep showing up to their desks, cheaply.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhere else are these bankers going to=
+ go?=E2=80=9D Keizner said. =E2=80=9CThe banks want their teams to stick ar=
+ound because when things turn back around the banks don=E2=80=99t want to f=
+ind themselves understaffed and scrambling again.=E2=80=9D</p>
+</blockquote>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Credit Suisse=E2=80=99s <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9jcmVkaXQtc3Vpc3Nlcy1pbnZlc3RtZW50LWJhbmstc3Bpbi1vdXQtYXR0cmF=
+jdHMtc2F1ZGktY3Jvd24tcHJpbmNlLTExNjcwMTk0MjYzP21vZD1ocF9saXN0YV9wb3My/607f0=
+7ceef4b8524a319a23cBce16d48a" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Investment Bank Spinoff</a> Attracts=
+ Saudi Crown Prince. Deutsche Bank Considers Return to Trading <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMDUvZGV1dHNjaGUtYmFuay1jb=
+25zaWRlcnMtcmV0dXJuLXRvLXRyYWRpbmctbW9ydGdhZ2Utc2VjdXJpdGllcz9jbXBpZD1CQkQx=
+MjA1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjEyMDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB029ecca6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Mortgage Securities</a>. How <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuZnQuY29tL=
+2NvbnRlbnQvYTBmY2QwZDItYmMyNS00NjdkLWJkZWQtZDk0MGZhNjI4NDg3/607f07ceef4b852=
+4a319a23cB767560c8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> the gates closed</a> on Blackstone=E2=80=99s=
+ runaway real estate vehicle. Asset managers pour money into <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvNWI5NDEwMTctYTNhYi00M2IxLWIxYjktMjNiY2NkOGVmOWIx/607f07=
+ceef4b8524a319a23cBd153ae8b" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> tech platforms</a> to take on BlackRo=
+ck. FTX collapse sends shockwaves through <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vMmE1Y2Q2MGYtMzA2Yy00ODkxLWE0YmEtZWNkYzU1ZDgyZWMx/607f07ceef4b8524a319a23cB=
+5c24c6cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Coinbase=E2=80=99s</a> stocks and bonds. Stablecoin Issu=
+er <a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMDUvc3RhYm=
+xlY29pbi1pc3N1ZXItY2lyY2xlLXMtc3BhYy1kZWFsLXdpdGgtY29uY29yZC1pcy10ZXJtaW5hd=
+GVkP2NtcGlkPUJCRDEyMDUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB1b88ac07" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Circle=E2=80=99s SPAC Deal</a> Wit=
+h Concord Scrapped. OPEC+ Keeps <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/29894564.287535/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vcGVjL=
+WdhdGhlcnMtdG8tZGVjaWRlLW91dHB1dC13aXRoLXJ1c3NpYW4tb2lsLXByaWNlLWNhcC1sb29t=
+aW5nLTExNjcwMTE2MjU0P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB8=
+92583b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Oil Curbs</a> Despite Russia Price Cap. Poor Countries Fe=
+el Sting of <a href=3D"https://link.mail.bloombergbusiness.com/click/298945=
+64.287535/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wb29yLWNvdW50cmllcy1mZWVsL=
+XN0aW5nLW9mLWxvY2FsLWN1cnJlbmN5LWRlYnQtMTE2NzAxMDY5NDI_bW9kPWl0cF93c2omcnU9=
+eWFob28/607f07ceef4b8524a319a23cB4d1bbb81" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Local-Currency Debt</a>=
+. Texas=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjI=
+tMTItMDUvdGV4YXMtcy1jcnlwdG8tbWluaW5nLWJvb20taXMtc3RhcnRpbmctdG8tbG9vay1tb3=
+JlLWxpa2UtYS1idXN0P2NtcGlkPUJCRDEyMDUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIwNSZ1dG1fY2FtcGFpZ249bW9u=
+ZXlzdHVmZg/607f07ceef4b8524a319a23cBe2b7b344" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  Crypto Mining Boom<=
+/a> Is Starting to Look More Like a Bust. Carolina Panthers=E2=80=99 Owner =
+Tepper Under Investigation for <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjItMTItMDIvY2Fyb2xpbmEtcGFudGhlci1zLW93bmVyLXRlcHBlci11bmRlci1pb=
+nZlc3RpZ2F0aW9uLWZvci1zY3JhcHBlZC1uZmwtZmFjaWxpdHk_Y21waWQ9QkJEMTIwNTIyX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjIxMjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf73c4b8f=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  Scrapped NFL Facility</a>. Hertz to Settle Most <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/29894564.287535/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMDUvaGVydHotdG8tc2V0dGxlLW1v=
+c3QtZmFsc2UtYXJyZXN0LWxlZ2FsLWNsYWltcy1mb3ItMTY4LW1pbGxpb24_Y21waWQ9QkJEMTI=
+wNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIxMjA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B5921750b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  False-Arrest Claims</a> for $168 Million. =E2=80=9CWou=
+ld you want to live in a <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29894564.287535/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMTItMDUvZ29wLWJ1c2luZXNzLWdyb3VwLWxhdW5jaGVzLWFkLWJsaXR6LWFnYWluc3Q=
+tY3JlZGl0LWNhcmQtcmVmb3JtLWJpbGw_Y21waWQ9QkJEMTIwNTIyX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjA1JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf8e2ad75" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  world =
+without points</a>?=E2=80=9D=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29894564.287535/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yYWN=
+jb29ucy1yZXB1dGF0aW9uLW1ha2VvdmVyLXNjaWVudGlzdHMtMTE2NzAxNjUyNzQ_bW9kPWl0cF=
+93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB0b11f82b" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Raccoons</a> =
+Get a Reputation Makeover.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29894564.287535/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBa3640880" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29894564.287535/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBcde7b3b6" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] One fun bit of foreshadowing is at about t=
+he 47-minute mark where Davies says: =E2=80=9CIf we were a dollar-based guy=
+, we would have earned our 30% and, you know, we would have done well, but =
+would not have been the multiple =E2=80=A6. We made 80x in crypto. It would=
+ not have been like that. Until we blew up. Then we went to zero. But, yeah=
+.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] A note on the source of the arbitrage here=
+. In Davies=E2=80=99s telling, every bank started offering electronic FX tr=
+ading platforms to their customers, with the hope of locking the customers =
+into their platform and earning fat commissions. Funds like 3AC would sign =
+up for every bank=E2=80=99s electronic platform. Thus 3AC could see every b=
+ank=E2=80=99s bid and offer for each currency; the *banks*, meanwhile, coul=
+d not, because they couldn=E2=80=99t join the other banks=E2=80=99 platform=
+s. Every so often some bank would have a market of like .9999 / 1.0001 on s=
+ome lightly traded currency, and some other bank would have a market of 1.0=
+002 / 1.0004, and 3AC would buy from one bank at 1.0001 and sell to the oth=
+er bank at 1.0002 and clip an easy 0.0001 of risk-free profit. This is an =
+=E2=80=9Carbitrage=E2=80=9D in the sense that it is an essentially risk-fre=
+e trade of buying and selling the same thing at different prices at the sam=
+e time, but in modern finance arbitraging your banks against each other is =
+considered not so much =E2=80=9Can arbitrage=E2=80=9D as it is =E2=80=9Crud=
+e,=E2=80=9D and the main risk in this trade is that if you did it too often=
+ the banks would stop trading with you. </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] One way for this to be true would be to tr=
+ade traditional futures where the futures price is higher than the spot pri=
+ce: If Bitcoin trades at $17,000, a Bitcoin future for delivery in a month =
+might trade at $17,500. Another way for it to be true would be to trade per=
+petual futures =E2=80=94 more common in crypto-native markets =E2=80=94 whe=
+re the perpetual future has a <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29894564.287535/aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYmxvZy9mdXR=
+1cmVzL3doYXQtaXMtZnV0dXJlcy1mdW5kaW5nLXJhdGUtYW5kLXdoeS1pdC1tYXR0ZXJzLTQyMT=
+Q5OTgyNDY4NDkwMzI0Nw/607f07ceef4b8524a319a23cBff0a5be7" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> high fundi=
+ng rate</a> paid to the short party, meaning that you pay a running spread =
+to be long via futures. When we talked about this stuff a lot in 2017 it wa=
+s about regulated futures on traditional commodities markets, which have ex=
+piries and traded at a premium; on crypto-native markets perpetual futures =
+seem to be more common and that=E2=80=99s mostly what 3AC seems to have don=
+e.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] There are two ways to do this trade. One i=
+s to borrow $12 million of Bitcoin, deliver them to Grayscale, and get back=
+ the shares in a year. When you get back the shares you sell them for cash =
+and use the cash to buy back the Bitcoin to deliver to your lenders. Here y=
+ou have no Bitcoin price risk: If Bitcoin goes up, the Grayscale shares wil=
+l go up, and so you=E2=80=99ll get more cash to buy back your Bitcoin. The =
+other way to do the trade is to just buy Bitcoin and deliver it to Grayscal=
+e; at the end of the year, you get back shares which you can sell for cash =
+and keep the cash. Here you are making a bet that Bitcoin will go up; if it=
+ goes down, you=E2=80=99ll get back less cash than you started with. The fi=
+rst trade is arbitrage-ish; the second trade is a directional bet on Bitcoi=
+n.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] The discussion of discounted Layer 1s star=
+ts at about 56 minutes into the interview.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] At about 59:30.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB3973c47b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBda04b05f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB76279152" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB594aa245" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTg5NDU2NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAxODIwOTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cKfd0e6e5a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29894564&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBa6f5a570" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29894564.287535/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5e09feb4" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29894564.287535/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB732d17cf" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29894564.287535/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB1a1e1598" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+95e60b1" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29894564.287535/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+41c6d91" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D298945=
+64&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D298945=
+64&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D298945=
+64&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D298945=
+64&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D298945=
+64&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30182099&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chsqsk.65v3/8717b60a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9237036_151493532.1670270758103--
+

@@ -1,0 +1,2572 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp1533721rwb;
+        Mon, 27 Mar 2023 05:38:18 -0700 (PDT)
+X-Received: by 2002:a1c:f005:0:b0:3ee:4dc0:d4f2 with SMTP id a5-20020a1cf005000000b003ee4dc0d4f2mr8556161wmb.41.1679920698050;
+        Mon, 27 Mar 2023 05:38:18 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1679920698; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=s5qeG94BX1IQO5JcxEsluY1N3wBXYDgXBbL6GtAanuXE5d6MLV2m7BC4qPBIjGMR7B
+         gwXhfscMc71DLhkOXUB5SYiV+Tridqk1jLXnfIZTKiiKossxKfhu2ulcaL/xb/lTK8YU
+         6VBzPZwqYiV4U3Wl5jrHsaw8LTMahxXF4iKsj/umDwi+3J8DZa/c/Wqs1Hjp1+roAWnP
+         sMUrAtHNtk1goqq7XC9CsNqy7XjeQTUUKMda9EKm3wy4IW7eZibmeS/uf1hbS15NxFk0
+         nn6BxShoSWkoxOKqf2dXXY9/p542t/zgWHT1EQpMzwAeta/ra5RGUzMTU22svd57hM8C
+         PuKA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:in-reply-to:list-url:references:message-id
+         :list-unsubscribe-post:reply-to:list-id:list-unsubscribe:list-owner
+         :date:sender:list-archive:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=nokyhE8colc2sS9LbBTibuh4Fp0mZEklBenW7nTj99c=;
+        b=gbZjfyKoYsFneyuK1hb8kcQzljygHptcotdu2V8qeP+McHmTx6hiTnTbwh+JuDLVIF
+         M8x4bTOWR1KBpDDGjZLGsX+qvmBKGefNnlsjtfQFFR7lCkx2T8wUloO6VU22X2QHoeK+
+         g4gnpO2pWRNLIxuqyyluGWXfkCOxSM3KWoZA40U9dEmXY75j1nVNh6rs/IfxiExdHX42
+         V2xl2bu8zQ3fl0ChxbPt1GcHfDgFjAGrnpgOY5/aAOoGz28dxtORCLoAK1eCkeGemAbC
+         CjA3yFNsT4VZjW1K3xTJzbJO+7vjlq2xhwcO1evdM86bufOAm8pFQNZ4RSTdgNN2tSWL
+         cUtA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=cBK6i2bQ;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u16-20020a7bc050000000b003ee5e90efcdsor1778820wmc.26.2023.03.27.05.38.17
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Mar 2023 05:38:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=cBK6i2bQ;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1679920697;
+        h=list-post:in-reply-to:list-url:references:message-id
+         :list-unsubscribe-post:reply-to:list-id:list-unsubscribe:list-owner
+         :date:sender:list-archive:to:from:subject:mime-version
+         :dkim-signature:delivered-to:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=nokyhE8colc2sS9LbBTibuh4Fp0mZEklBenW7nTj99c=;
+        b=0ZCMD7zD/+O/xgvtS6R3bsW4qgbWby6DhlAfI5XB8VjvjCtPL6h2KrlWcXjeyAQh3D
+         FbhxWy1xM1xLQK97lUln0gWpbYVW5ckSsK/ebjb6IrjFkn6gJLMFZJAVS4pxZdALb+xh
+         4eWDpCB4tKK4o/dRQy2qEnj2IoevGQhmdiDtm87VVaroXIFFPX5rqyM0mCO1qUPISNQl
+         7byoaFz8riKJ8LvDxAwas3/3DBgrRzLoyybR3yvbi63OEo6DIXwJoxsnF8RakE9gWdIz
+         Qco4izdnesHwklgNu8Rjy6FVBUjSSWdd0rkVuw0MVNgtXrWREW1RCBPGyrXEiuAY90jP
+         CkvA==
+X-Gm-Message-State: AO0yUKW1nngRbh64o5CVyoamsZ7KVUXizjuC8x6xT2IK2nDCKSnPMV3K
+	NSvtxu3nae/CWJ7VmMBds3CVJb+EXsj0w1QlBiMoJNZfLbea61u76A==
+X-Received: by 2002:a1c:790b:0:b0:3eb:5a1e:d524 with SMTP id l11-20020a1c790b000000b003eb5a1ed524mr2703266wme.3.1679920697226;
+        Mon, 27 Mar 2023 05:38:17 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp1192694wrv;
+        Mon, 27 Mar 2023 05:38:14 -0700 (PDT)
+X-Received: by 2002:a05:6870:d695:b0:177:8852:cdf8 with SMTP id z21-20020a056870d69500b001778852cdf8mr8141546oap.29.1679920694045;
+        Mon, 27 Mar 2023 05:38:14 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1679920694; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=sBVPoTVwsBmoTcS0n2GR1HUhLPB7ptFxdpAvFHdE7uESq6nOo/r/kxIOhAa7941vfB
+         ObYlTyQRplnyoSG4YykyGJ91/jX9P2A7vVr1hWlP0Abpr+kmGDY5ZXszKzp0SJ9X9A5f
+         OVQS/cm98kI0WStWUdgHbBJPJfKw27xzsj8OrDgIg83JldwrykYwu1lBcza6tezL27f1
+         sqfb0bhh1ipIRGkWVJVNz1pNNKO2nvthJqHnq0skFKlLufpIneKZY6KsDCPsNrW+Cy9H
+         nE7TzhN0rx0ZwbFJnFxkMe5juYHTVIdwV8r/sY9WGHD0kF5csEhyisRaSAFO0ULvWDIX
+         dD0w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:in-reply-to:list-url:references:message-id
+         :list-unsubscribe-post:reply-to:list-id:list-unsubscribe:list-owner
+         :date:sender:list-archive:to:from:subject:mime-version
+         :dkim-signature;
+        bh=nokyhE8colc2sS9LbBTibuh4Fp0mZEklBenW7nTj99c=;
+        b=VSAnWrl7WHF3wpmY4AijB7rmDMAdDjAruTUoDRB97PokGGAf8tlT/Dx9vGf173S78+
+         y6jkwF+p6DI4ejy9ugxFb8ecqAAwvGOJp6fUW+w8PWPrmBtBn19qkW1v0Mw7TVB01DaH
+         lbZDKJuto6oLZI5fhaB8aSqiby4DGVZUj1xiakiKv0wu8N59bVo4f3uUVskj67sXs81l
+         TduuH6k305NyaQMw57SZ+UgfpnqARlYyUDvsbXaSJMPQUbRrMQ+aoI/WYRFKzW1x/k3y
+         L1eEPqeCfaJXKCAxsbqyTKM2E8iJfcc6bOXmbqmKaYMtQqD46O7Kh1u7oPPnO6wPekml
+         eL2Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=cBK6i2bQ;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+v2+84fd2d.63af5d.1679920682.bacnaqehpkddbdqbbjbjfyheyuqw7nuxyg==~notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+v2+84fd2d.63af5d.1679920682.BACnAQeHPKddbdqBbJBJfYheYuqW7NUXYg==~notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+v2+84fd2d.63af5d.1679920682.BACnAQeHPKddbdqBbJBJfYheYuqW7NUXYg==~notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id an23-20020a056871b19700b0017ed53012a3sor2318209oac.195.2023.03.27.05.38.13
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Mar 2023 05:38:14 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+v2+84fd2d.63af5d.1679920682.bacnaqehpkddbdqbbjbjfyheyuqw7nuxyg==~notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9zBs8cXqgkj++2HSjzyDS8v5u+xWiPCC+gxFlSN6Zi1AbcBqO+EP0QSPy8hFH0Em0qe+5e/PkD85/WWHDODyw5hVo8pFQ=
+X-Received: by 2002:a05:6870:d24f:b0:177:81bb:1b34 with SMTP id h15-20020a056870d24f00b0017781bb1b34mr7043368oac.36.1679920693711;
+        Mon, 27 Mar 2023 05:38:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1679920693; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Jq4v7pMPI2Ge+n0O26PAq6q7dHaSmjz7AXq/E+cFPLvFOmwha9EkX7O0zUVShsOaI1
+         tfhfoIpK1fw+6lrUGh01lTLkeDYZr9rpfx7GsrSydXV0uSaL1789IKDien4XT241l0V7
+         q2B0obdI/dlRxEP0sP/1KPcseTBUQ3KSSrHCEIC3bYQP+TyxMSDirz2vQZhM584svdBK
+         2avwVjzn79vqJDbeEFaKY9a1pqsV4NI9IFxd3sbeUGZxfyBJTIRRqIEKobJfTD2Q2viM
+         G7H0YqdRJGFDvnlYeEUaaerPLvl+s+4x364MMZNS5bnNMUBRRPaFTPG9PgCWi/dNBkIS
+         XZCw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:in-reply-to:list-url:references:message-id
+         :list-unsubscribe-post:reply-to:list-id:list-unsubscribe:list-owner
+         :date:sender:list-archive:to:from:subject:mime-version
+         :dkim-signature;
+        bh=nokyhE8colc2sS9LbBTibuh4Fp0mZEklBenW7nTj99c=;
+        b=nNkpe+yfmW2bY+5bKkYcwKPW4spT5IACoWHCALZhJ44lByeI8kNmgvPI5ADAZ7rIpn
+         F5XiW/TE4AgvH8dG4Ev97MEz+/1s1Se7S7Y83iBP7RZ3icOlk4AzNlUvvNPBckOwWWr/
+         zEQ2G2waaD5/NwBcPrCltX1UnYg8Mt+QhB2HPgU2Zjasy6xMPgekHggztcBHdahRQAvt
+         rtWzrmTQ0d51hfZEPzAjtP+LFsSF4oxcj/0hASl36ogBZSyC1ba+ya5bB9UxFDHhi1Ed
+         cD+fWq2CNbvScJgxm5IYD9fcP/lJmN9wD3s+6O9M56VtWUa/zYWj3v7Q07B+2+ry0pbK
+         YZtg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=cBK6i2bQ;
+       spf=pass (google.com: domain of bounce+v2+84fd2d.63af5d.1679920682.bacnaqehpkddbdqbbjbjfyheyuqw7nuxyg==~notboring=khamel.com@mg-d0.substack.com designates 161.38.202.170 as permitted sender) smtp.mailfrom="bounce+v2+84fd2d.63af5d.1679920682.BACnAQeHPKddbdqBbJBJfYheYuqW7NUXYg==~notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+v2+84fd2d.63af5d.1679920682.BACnAQeHPKddbdqBbJBJfYheYuqW7NUXYg==~notboring=khamel.com@mg-d0.substack.com>
+Received: from mg-202-170.substack.com (mg-202-170.substack.com. [161.38.202.170])
+        by gmr-mx.google.com with UTF8SMTPS id y1-20020a0568302a0100b0069f974342fcsi1865782otu.0.2023.03.27.05.38.03
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 27 Mar 2023 05:38:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+v2+84fd2d.63af5d.1679920682.bacnaqehpkddbdqbbjbjfyheyuqw7nuxyg==~notboring=khamel.com@mg-d0.substack.com designates 161.38.202.170 as permitted sender) client-ip=161.38.202.170;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1679920676; x=1679927876; h=List-Post: In-Reply-To:
+ References: Message-Id: Reply-To: List-Id: List-Unsubscribe:
+ List-Owner: Date: Sender: Sender: List-Archive: To: To: From: From:
+ Subject: Subject: Content-Type: Mime-Version;
+ bh=nokyhE8colc2sS9LbBTibuh4Fp0mZEklBenW7nTj99c=; b=cBK6i2bQr167j6FTLikd1hTHrqhs5/DNayrhTOGOqKw2DgBgjoBunXf8PfQOcGbZDfaRPDG1
+ K9x5jMADlYgJp8g2l1X+8Q7BTTcTP9OEzeNV/2oPxJYss1ekwGJCchU0FfUFpagaOB6FsN9i
+ 4VXt3HcPMEc0jS+WBJQMiLr35Cg=
+X-Mailgun-Sending-Ip: 161.38.202.170
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by a51e839f6c63 with HTTP id
+ 64218e1616525fa8fa3ca2d2; Mon, 27 Mar 2023 12:37:41 GMT
+X-Mailgun-Batch-Id: 64218e15b1059edc572ffba1
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="cef6acdf3bbd0fac1e9a2730aecea01bb1bd9167e2150b1b802db0d86dd6"
+Subject: Attention is All You Need
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Archive: <https://www.notboring.co/archive>
+Sender: Not Boring <notboring@substack.com>
+Date: Mon, 27 Mar 2023 12:37:27 +0000
+List-Owner: <mailto:notboring@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk1URXdPRGd3T1RRM0xDSnBZWFFpT2pFMk56azVNakEyTlRrc0ltVjRjQ0k2TVRZNE1qVXhNalkxT1N3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuWWgwOGRWRm5rTzVOanRKaVZwaHdaVkk0dmF1d0xDZllLVWNwd3QzNnlxVSIsInAiOjExMDg4MDk0NywicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI6MTY4MjUxMjY1OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.zZh6uF8fMiWUnxyVl6VNm_1LangNcbx9wm4-CMGj9ek?>
+List-Id: <notboring.substack.com>
+Reply-To: Not Boring
+ <reply+1u0kab&9p0gt&&c61e33a74e6a1f65f5a8e67052f27dfe62b9cc3f3e0660284b338067e870163b@mg1.substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Message-Id: <20230327123727.3.f91835b901260cca@mg-d0.substack.com>
+References: <post-110880947@substack.com>
+List-Url: <https://www.notboring.co/>
+In-Reply-To: <post-110880947@substack.com>
+List-Post: <https://www.notboring.co/p/attention-is-all-you-need>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1679920659999", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "110880947", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--cef6acdf3bbd0fac1e9a2730aecea01bb1bd9167e2150b1b802db0d86dd6
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/attention-is-all-yo=
+u-need
+
+Welcome to the=C2=A01,205=C2=A0newly Not Boring people=C2=A0who have joined=
+ us over the past week! If you haven=E2=80=99t subscribed, join=C2=A0194,03=
+6 smart, curious folks by subscribing here:=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Secureframe [ http=
+s://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Prospects are asking about security earlier in the buying cycle. Companies =
+need a way to get compliant that is faster and takes less employee involvem=
+ent. With Secureframe [ https://substack.com/redirect/b4509b36-e7a5-4908-96=
+95-1a8d2e0a3d20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8=
+ExkRNpU ] you can get compliant in weeks=E2=80=94not months=E2=80=94so you =
+can focus on growing your business.=C2=A0
+Secureframe makes it fast and easy to get SOC 2, ISO 27001, HIPAA, PCI & GD=
+PR compliant. With guided workflows and one-click integrations, the entire =
+process is automated and backed by a support team of industry experts.
+Get compliant fast with Secureframe.
+Click here [ https://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a=
+3d20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] t=
+o set up a demo. Mention =E2=80=9CNot Boring=E2=80=9D during your demo to g=
+et 20% off your first year of Secureframe.=C2=A0
+Hi friends =F0=9F=91=8B,
+Happy Monday! I had a lot of fun writing this one.=20
+While I=E2=80=99ve written about AI, I haven=E2=80=99t written much about O=
+penAI because there=E2=80=99s already so much attention on the company that=
+ it=E2=80=99s been hard to find much new to say. GPT-4 is amazing. There wi=
+ll be implications for white collar workers. Here are 75 things you didn=E2=
+=80=99t know you could do with ChatGPT =F0=9F=A7=B5 =F0=9F=91=87 Are founda=
+tion models defensible? Are GPT Wrappers defensible?=20
+Then, on Thursday, OpenAI introduced ChatGPT plugins, and the more I though=
+t about it, the more excited I got. Through a series of seeming accidents, =
+great product, and user pull, OpenAI has attracted attention, turned that a=
+ttention into the must-use API, and with the release of plugins, is turning=
+ that attention into a platform unlike any platform that exists, one that i=
+ngests the capabilities of the apps built on it.
+If OpenAI chooses to, it can build an Apex Aggregator and define the new be=
+st business model on the internet. We need to lay some groundwork to explai=
+n why.
+Let=E2=80=99s get to it.=C2=A0
+Attention is All You Need
+The paper that kicked off the AI Revolution had a catchy title, as these pa=
+pers go: Attention is All You Need [ https://substack.com/redirect/0cfd18c1=
+-ec6b-4194-8d01-2e5e5348f3b3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXX=
+epKbqOsa8-6m8ExkRNpU ].=C2=A0
+Written by a team at Google Brain in 2017, the paper introduced the now-fam=
+ous Transformer architecture that powers large language models such as Open=
+AI=E2=80=99s GPT-4.=C2=A0
+As Chroma [ https://substack.com/redirect/fdc1c1c1-76bc-4c47-b46c-960085b18=
+b2e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] co=
+-founder Anton Troynikov [ https://substack.com/redirect/d654c98d-2149-4b75=
+-950d-687932066400?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-=
+6m8ExkRNpU ] explained it to me in our first episode of  [ https://substack=
+=2Ecom/redirect/09eb288e-1208-411d-8ed8-6=
+53b8a48405e?j=3DeyJ1IjoiOXAwZ3QifQ.g=
+b8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]Anton Teaches Packy AI [ https:=
+//substack.com/redirect/09eb288e-1208-411d-8ed8-653b8a48405e?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Transformers can do=
+ a lot just by paying attention to the right parts of the input. They don't=
+ need other types of neural network layers, like the ones used for convolut=
+ions or recurrent connections, to perform well. Attention is all they need.
+That same year, in a follow-up to his canonical Aggregation Theory [ https:=
+//substack.com/redirect/2a3351dc-4719-493d-8f7d-490e45186d38?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Ben Thompson wrote =
+Defining Aggregators [ https://substack.com/redirect/04f92e4d-0b1d-4584-a96=
+1-4e7390f5444f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU ], to catalog businesses that capture value by controlling demand fo=
+r abundant resources. Aggregators have three defining characteristics:
+Direct Relationships with Users
+Zero Marginal Cost for Serving Users
+Demand-driven Multi-sided Networks with Decreasing Acquisition Costs
+Think Google and Facebook, the Super-Aggregators. Billions of users come to=
+ their sites, where they=E2=80=99re served content created by other people =
+for free, and it gets cheaper to acquire users over time as demand attracts=
+ supply which attracts more demand which attracts more supply, and so on. B=
+etter experience leads to more users which leads to more suppliers and adve=
+rtisers which leads to more users, and so on.=C2=A0
+The takeaway from that post was essentially the same as the Transformer pap=
+er: to win big on the internet, attention is all you need.=C2=A0
+OpenAI [ https://substack.com/redirect/f0cc00af-7374-4e22-b264-e2c9ee968aa2=
+?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] began=
+ its life in December 2015 as a non-profit. With over $1 billion committed =
+by Elon Musk, Peter Thiel, Sam Altman, Jessica Livingston, Reid Hoffman, Il=
+ya Sutskever, and others, it had no plans to make money. It didn=E2=80=99t =
+need to support itself.=C2=A0
+One prominent VC who looked at investing early on said he loved the idea an=
+d the team, but that with no revenue and no plans to make any, he couldn=E2=
+=80=99t justify investing his LPs=E2=80=99 money in the startup. As recentl=
+y as last summer, when DALL=E2=80=A2E 2 brought OpenAI into the limelight, =
+a team member told me that while their tech was excellent, they weren=E2=80=
+=99t quite sure how they were going to monetize it.=C2=A0=C2=A0
+Then, in December, OpenAI released ChatGPT. The team wasn=E2=80=99t expecti=
+ng much [ https://substack.com/redirect/ef0f99d5-14fe-4db4-b4e0-ee3bd14beb4=
+a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] =E2=
+=80=93 it was a =E2=80=9Cresearch preview=E2=80=9D =E2=80=93 but practicall=
+y overnight, it caught fire. Its December release was one of those =E2=80=
+=9CI remember where I was when=E2=80=9D moments for those of us who love th=
+is stuff (I was in a hotel lobby in LA and tweeted this [ https://substack.=
+com/redirect/30923267-df2e-4326-932c-129c1ff5f64a?j=3DeyJ1IjoiOXAwZ3QifQ.gb=
+8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] after my first experience).=C2=
+=A0
+ChatGPT exploded. Two months in, it reached 100 million users. Nearly half =
+of the YC W23 class is building apps using OpenAI=E2=80=99s APIs. GPT-4 bec=
+ame the most eagerly anticipated drop since the last Beatles album, and it =
+delivered. Then last week, OpenAI released ChatGPT plugins [ https://substa=
+ck.com/redirect/8a25df10-e567-4922-a26f-84ee80c16d1e?j=3DeyJ1IjoiOXAwZ3QifQ=
+=2Egb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU ]. They downplayed their fores=
+ight on this one too, explaining the launch by saying: =E2=80=9CUsers have =
+been asking for plugins since we launched ChatGPT.=E2=80=9D
+Since the launch on Thursday, a bunch of people have compared plugins to Ap=
+ple=E2=80=99s App Store, which paid developers $60 billion in 2022 (and lik=
+ely took $15 billion for itself). I think it has the potential to be much b=
+igger than that, and I really don=E2=80=99t want to be yet another person w=
+ho overhypes OpenAI, so I=E2=80=99ll spend this entire piece walking you th=
+rough why I think so.=C2=A0
+In under a year, OpenAI has gone from under-the-radar and unsure-how-to-mon=
+etize to one of the most potentially dominant strategic positions and busin=
+ess models in the history of tech. It happened almost by accident. While th=
+e technology deserves the praise it receives, its translation into a jugger=
+naut business was far from certain until tens of millions of people rushed =
+to use its new consumer-friendly interface. Since then, the dominos have fa=
+llen rapidly.=C2=A0
+When it comes to turning mind-blowing technology into an equally mind-blowi=
+ng business opportunity, it turns out, you guessed it: attention is all you=
+ need.
+As it stands today, if OpenAI chooses to, it can build the Apex Aggregator =
+by building an Action Engine. The Action Engine subsumes search and any num=
+ber of products that let users do things, and it does them for users with n=
+othing more than a simple prompt. If Aggregators controlled demand and comm=
+oditized supply, the Apex Aggregator can control demand on multiple fronts,=
+ turn attention into actions, disaggregate any supplier that feeds it, and =
+even aggregate the aggregators. It could make Apple, Google, and Facebook=
+=E2=80=99s models seem soft and cuddly=E2=80=A6 until they fight back.
+I=E2=80=99ll explain what=E2=80=99s gotten me so excited about OpenAI=E2=80=
+=99s accidental business model, but first, we need to do a quick refresher =
+on the current tech business model kings.=C2=A0
+The Super-Aggregators
+If you=E2=80=99re reading this, I assume you know a lot about how Google an=
+d Facebook=E2=80=99s business models =E2=80=93 the greatest cash-generating=
+ machines known to humanity =E2=80=93 work, so I=E2=80=99ll keep this secti=
+on very brief.=C2=A0
+Facebook (and its family of apps) use billions of users to attract billions=
+ of users, collect a lot of data on those users, and let advertisers target=
+ those users based on that data. If you=E2=80=99re a company that wants to =
+get in front of a lot of a certain type of buyer because you think that typ=
+e of buyer might like your product, Facebook is the place to go. Then, you =
+just serve them a colorful ad, a certain number of them will click on it, a=
+nd a certain number of those will buy. Because Facebook has the most social=
+ attention =E2=80=93 over 3 billion users =E2=80=93 it attracts more people=
+, and because it has the most people and the most data on them, it attracts=
+ the most brand advertising dollars. Both demand and supply cost it practic=
+ally nothing to acquire, and ads cost it practically nothing to serve.=C2=
+=A0
+Google=E2=80=99s model is even more direct. Billions of people go to Google=
+ explicitly to tell the site exactly what they=E2=80=99re looking for =E2=
+=80=93 from information to hotels in certain cities to accounting software =
+=E2=80=93 and Google auctions off well-placed links to advertisers who offe=
+r exactly what those people are searching for. Those people have expressed =
+intent, and Google rakes in cash from advertisers intent on capturing it. B=
+ecause Google captures the most search attention =E2=80=93 93% of searches =
+worldwide go through Google =E2=80=93 it attracts the most advertising doll=
+ars of any business on earth. Both demand and supply cost it practically no=
+thing to acquire, and ads cost it practically nothing to serve.=C2=A0
+In 2022, Facebook/Meta did $116.6 billion in revenue and Google/Alphabet di=
+d $282.8 billion in revenue, the vast majority of which, in both cases, cam=
+e from serving ads. It=E2=80=99s hard to think of better internet business =
+models. But I think OpenAI just did by accident.=C2=A0
+Attention with Intelligence
+OpenAI=E2=80=99s potential business model is hard to comp directly because =
+it=E2=80=99s so many things at once: an aggregator, an API, and a platform.=
+=C2=A0
+Imagine that a bunch of apps used Google Search as their core feature, Goog=
+le was the main place to find those apps, and those apps worked better when=
+ you used them in concert with each other through Google, and you=E2=80=99r=
+e getting close to what OpenAI might be able to do.=C2=A0
+OpenAI hits its partners from all angles:=C2=A0
+Attention Grabber. ChatGPT is the front-end for OpenAI, the =E2=80=9Caggreg=
+ator=E2=80=9D to which over 100 million users flocked within the first two =
+months. ChatGPT will let OpenAI control demand for abundant resources, whic=
+h are themselves tailored to OpenAI.=C2=A0
+Intelligence API. A number of new products are being built around OpenAI=E2=
+=80=99s API and a bunch of incumbent products are re-architecting themselve=
+s around OpenAI=E2=80=99s API. Unlike most APIs, which serve non-core funct=
+ions, the OpenAI Intelligence API is core to many of these product experien=
+ces.=C2=A0
+Plugin Play. Products, whether built on OpenAI=E2=80=99s APIs or not, can n=
+ow be plugged into ChatGPT itself (and potentially into OpenAI=E2=80=99s In=
+telligence API over time), turning the product into both platform and aggre=
+gator, and bringing more attention to ChatGPT. Unlike an App Store, which j=
+ust lists apps but doesn=E2=80=99t ingest its capabilities, this essentiall=
+y turns any plugin into an API that gives ChatGPT its company=E2=80=99s ful=
+l capabilities.
+By attracting so much user attention with a genuinely excellent product, Op=
+enAI has also attracted developers to build with its Intelligence API and o=
+n its plugin platform. In the short-term, this is great for developers =E2=
+=80=93 they get more capabilities and more users =E2=80=93 but it=E2=80=99s=
+ a sort of Faustian bargain. Developers building on the Intelligence API ar=
+e relying on OpenAI for their core functionality, and plugin developers are=
+ handing their core functionality to OpenAI. In both cases, OpenAI gains mo=
+re attention, reach, and power.=C2=A0
+But the bullets above are based on what=E2=80=99s been announced to date. I=
+=E2=80=99ll save speculation for later. For now, let=E2=80=99s go a little =
+deeper into each leg of the stool.=C2=A0
+Attention Grabber
+Attention is all you need. And ChatGPT is an attention grabber.=C2=A0
+Just two months after its launch, it reached 100 million users, the fastest=
+ ever to reach that mark by an order of magnitude. While OpenAI hasn=E2=80=
+=99t updated that number, and doesn=E2=80=99t release daily active user num=
+bers, it=E2=80=99s not hard to imagine that in a year, hundreds of millions=
+ of people will start their internetting with ChatGPT each and every day.=
+=C2=A0
+=C2=A0In Defining Aggregators, Thompson wrote, =E2=80=9CThe key characteris=
+tic of Aggregators is that they own the user relationship.=E2=80=9D If peop=
+le go to your site to find anything on the internet, you can tell them wher=
+e to go. If people open your app to ride, you can tell them whose car to ge=
+t in. Owning the customer relationship lets aggregators commoditize their s=
+uppliers and capture more value from each transaction.=C2=A0
+ChatGPT (and GPT more broadly) takes this a step further and completely dis=
+intermediates its =E2=80=9Csuppliers.=E2=80=9D Google can show you any webs=
+ite its algorithm wants, and it can summarize the website in a prominent bo=
+x up top, but its job is still to send people to websites. ChatGPT, on the =
+other hand, reads most of the available content on the internet and spits o=
+ut complete answers to any prompt right in the chat. It=E2=80=99s not just =
+a starting point, but a destination for an increasing percentage of the thi=
+ngs a user might want to do online.=C2=A0=C2=A0
+When ChatGPT came out, there was a fair amount of harrumphing from AI gray =
+hairs that it wasn=E2=80=99t really a technical advance, just a shiny inter=
+face on an old model. That missed the point on the product side =E2=80=93 i=
+nterfaces are crucial [ https://substack.com/redirect/be038289-db69-42be-ba=
+a7-2128230bc966?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8=
+ExkRNpU ] =E2=80=93 but it especially missed the point on the business mode=
+l side. ChatGPT=E2=80=99s interface was an attention grabber, and once you =
+have attention, you can direct it in any way you choose.=C2=A0=C2=A0
+Intelligence API
+ChatGPT didn=E2=80=99t just capture consumer attention, it captured develop=
+ers=E2=80=99 imaginations.=C2=A0
+While GPT-3 was already available via API, and while some developers were a=
+lready building with it, the buzz around ChatGPT pushed seemingly every dev=
+eloper to think about how to incorporate GPT into their products. Something=
+ like half of the current YC batch [ https://substack.com/redirect/82d8fb09=
+-d71a-4a49-8047-239974f14210?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXX=
+epKbqOsa8-6m8ExkRNpU ] is building on OpenAI=E2=80=99s APIs.=C2=A0
+These companies are derisively called =E2=80=9CGPT wrappers,=E2=80=9D and m=
+any have wondered about their viability as venture-scale businesses. What w=
+orries me about these businesses is how much they=E2=80=99re handing over t=
+o an API.=C2=A0
+In APIs All the Way Down [ https://substack.com/redirect/654b683a-edcb-4125=
+-9a02-6c43ca457e3c?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-=
+6m8ExkRNpU ], I pointed out that there seems to be a sweet spot for API-fir=
+st companies:
+Strong API-first businesses sit in this sweet spot: they provide mission cr=
+itical but non-core functionality to their customers, like accepting paymen=
+ts, providing cloud security, or sending communications to customers.=C2=A0
+Plugging in an API makes a ton of sense when APIs deliver cloud hosting or =
+payments or text messages or any number of things that every company needs =
+to do but that don=E2=80=99t provide a competitive advantage.=C2=A0
+But what happens when APIs deliver intelligence?=C2=A0
+OpenAI=E2=80=99s APIs are essentially Intelligence APIs. Write a few lines =
+of code, and your product can do a bunch of things that a pretty smart huma=
+n could, like answer customer service chats or discover drug formulations o=
+r tutor a student. Of course, most of the products that use OpenAI=E2=80=99=
+s APIs do other things besides just delivering ChatGPT in a different inter=
+face, and they certainly involve some fine-tuning to better address the cus=
+tomer=E2=80=99s specific needs, but for most of these products, it really f=
+eels like they=E2=80=99re breaking the Cardinal Rule of APIs: don=E2=80=99t=
+ outsource the thing that makes your beer taste better [ https://substack.c=
+om/redirect/0d75633c-e3bb-4c94-8330-004de0638781?j=3DeyJ1IjoiOXAwZ3QifQ.gb8=
+J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].=C2=A0
+But what=E2=80=99s a company to do? Spend hundreds of millions to train the=
+ir own models in the hopes of producing something different enough to matte=
+r? Not make their products intelligent? This is the Chinese Finger Trap tha=
+t=E2=80=99s captured so many companies before. As I wrote in Shopify and th=
+e Hard Thing About Easy Things [ https://substack.com/redirect/a48a0ba1-788=
+7-461f-ac0c-dc50cedac791?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU ]:=C2=A0
+Here=E2=80=99s the hard thing about easy things: if everyone can do somethi=
+ng, there=E2=80=99s no advantage to doing it, but you still have to do it a=
+nyway just to keep up.
+In just a couple of months, we=E2=80=99re already at a point at which there=
+=E2=80=99s no real competitive advantage to using OpenAI=E2=80=99s Intellig=
+ence APIs, but there=E2=80=99s a disadvantage for not using them.
+From OpenAI=E2=80=99s perspective, however, this is an incredible situation=
+=2E Developers have to pay to use OpenAI=E2=
+=80=99s APIs, and each company tha=
+t writes those few lines of code to incorporate intelligence into their pro=
+ducts makes it even more table stakes for the next one. Plus, it gives Open=
+AI more attention: now, there are armies of marketers pushing the value of =
+OpenAI=E2=80=99s products on its behalf.=C2=A0
+Until a week ago, the situation was tenable for GPT wrappers. Some people w=
+ould be happy to just use ChatGPT and get an ~80% experience on that specif=
+ic thing =E2=80=93 get a good recommendation for a travel itinerary but go =
+execute it themselves =E2=80=93 while others would be happy to pay $10/mont=
+h for an app that gave more tailored recommendations and booked the trip.=
+=C2=A0=C2=A0
+Then OpenAI announced ChatGPT plugins [ https://substack.com/redirect/8a25d=
+f10-e567-4922-a26f-84ee80c16d1e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjm=
+lXXepKbqOsa8-6m8ExkRNpU ].=C2=A0
+To read about ChatGPT plugins, how OpenAI could create the Apex Aggregator,=
+ and the choices it=E2=80=99s going to have to make=E2=80=A6
+Thanks to Dan [ https://substack.com/redirect/eaaee3ce-fc0a-4f86-bedc-a8be1=
+98ed21e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU =
+] for editing, Anton [ https://substack.com/redirect/d654c98d-2149-4b75-950=
+d-687932066400?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU ] for teaching me about Attention is All You Need, and Ben Thompson =
+[ https://substack.com/redirect/eabb6db7-5ddf-426d-a77a-db6ec79983f9?j=3Dey=
+J1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for the insi=
+ghts that keep on giving (and congrats on 10 years!)!
+That=E2=80=99s all for today. If you found today=E2=80=99s post useful, sha=
+re it with a friend or two. If you didn=E2=80=99t, thanks for making it all=
+ the way down here anyway :) We=E2=80=99ll be back in your inbox on Friday =
+with another Weekly Dose of Optimism.
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZNVEV3T0Rnd09UUTNMQ0pwWVhRaU9qRTJOems1TWpBMk5Ua3NJb=
+VY0Y0NJNk1UWTRNalV4TWpZMU9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpH=
+bHpZV0pzWlY5bGJXRnBiQ0o5LlloMDhkVkZua081Tmp0SmlWcGh3WlZJNHZhdXdMQ2ZZS1VjcHd=
+0MzZ5cVUiLCJwIjoxMTA4ODA5NDcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaW=
+F0IjoxNjc5OTIwNjU5LCJleHAiOjE2ODI1MTI2NTksImlzcyI6InB1Yi0wIiwic3ViIjoibGlua=
+y1yZWRpcmVjdCJ9.NEntAZFjP12BLHN3WDRTFf0nmJLs3_sEyBnHJSx0F2w?
+--cef6acdf3bbd0fac1e9a2730aecea01bb1bd9167e2150b1b802db0d86dd6
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Attention is All You Need</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwMzI3MTIzNzI3LjMuZjkxODM1YjkwMTI2MGNjYUBtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjoxMTA4ODA5NDcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6=
+MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2Nzk5MjA=
+2NjAsImV4cCI6MTY4MjUxMjY2MCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.U0_fXx4sOrQV8=
+x_4aE_5JKlbtnt5kJsP4gcbjBTI1G8" alt=3D"" width=3D"1" height=3D"1" border=3D=
+"0" style=3D"height:1px !important;width:1px !important;border-width:0 !imp=
+ortant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !i=
+mportant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0=
+ !important;padding-right:0 !important;padding-left:0 !important;"/><div st=
+yle=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:=
+0px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">OpenAI's Ch=
+atGPT Plugins and the emergence of an Apex Aggregator &#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation" width=3D"10=
+0%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-co=
+ntainer"><tr><td></td><td width=3D"550" class=3D"content"></td><td></td></t=
+r><tr><td></td><td align=3D"left" width=3D"550" class=3D"content"><div styl=
+e=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; =
+overflow-wrap: break-word; width: 100%;"><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"right" style=3D"height: 20px;"><table role=3D"presentation" width=3D"auto"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical=
+-align: middle;"><span class=3D"tw-font-body tw-text-ssm tw-text-substack-s=
+econdary" style=3D"color: #808080 !important; font-family: SF Pro Text, -ap=
+ple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial, =
+sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important; =
+font-size: 13px !important;"><a href=3D"https://open.substack.com/pub/notbo=
+ring/p/attention-is-all-you-need?utm_source=3Demail&redirect=3Dapp-store" c=
+lass=3D"tw-text-substack-secondary tw-underline" style=3D"-webkit-text-deco=
+ration-line: underline !important; color: #808080 !important; text-decorati=
+on-line: underline !important;">Open in app</a> or <a href=3D"https://subst=
+ack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvYXR0ZW50aW9u=
+LWlzLWFsbC15b3UtbmVlZD90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emR=
+GOXBaQ0k2TVRFd09EZ3dPVFEzTENKcFlYUWlPakUyTnprNU1qQTJOVGtzSW1WNGNDSTZNVFk0TW=
+pVeE1qWTFPU3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR=
+2x2YmlKOS5jZ0VXQVI1dWJFaVRMM0VyTjFiel9GMnBUMzVFa0U0M0w0ZTVCOG0xMTFNIiwicCI6=
+MTEwODgwOTQ3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY3OTkyMDY=
+1OSwiZXhwIjoxNjgyNTEyNjU5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ=
+=2EL5AkzthkIHn3RgGaxs3aM_Fty5EtCk655h-GlY=
+hR0Eg?" class=3D"tw-text-substack-se=
+condary tw-underline" style=3D"-webkit-text-decoration-line: underline !imp=
+ortant; color: #808080 !important; text-decoration-line: underline !importa=
+nt;">online</a></span></td></tr></table></td></tr></table><div dir=3D"auto"=
+ class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; pad=
+ding: 16px 0 0 0;"><div class=3D"post-header" style=3D"font-size: 16px; lin=
+e-height: 26px;"><h1 class=3D"post-title published" style=3D"-moz-osx-font-=
+smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialias=
+ed; color: #404040; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 32px; font-weigh=
+t: bold; line-height: 36px; margin: 0;"><a href=3D"https://substack.com/app=
+-link/post?publication_id=3D10025&post_id=3D110880947&utm_source=3Dpost-ema=
+il-title&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6=
+MTEwODgwOTQ3LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI6MTY4MjUxMjY1OSwiaXNzIjoicHViLTE=
+wMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cgEWAR5ubEiTL3ErN1bz_F2pT35EkE43L4e5B=
+8m111M" style=3D"color: #404040; text-decoration: none;">Attention is All Y=
+ou Need</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: su=
+bpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; color: #8=
+08080; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-weight: normal; li=
+ne-height: 24px; margin: 4px 0 0; margin-top: 12px;">OpenAI's ChatGPT Plugi=
+ns and the emergence of an Apex Aggregator</h3><table cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: center; hei=
+ght: 20px; margin: 1em 0;"><tr><td title=3D"2023-03-27T12:37:28.884Z" class=
+=3D"post-meta-item post-date" style=3D"color: #808080; font-family: -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14p=
+x; font-weight: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px 0=
+; padding-bottom: 0; padding-right: 0; padding-top: 0; position: relative; =
+text-decoration: none; white-space: nowrap;"><div class=3D"frontend-pencraf=
+t-Text-module__reset--20JLV frontend-pencraft-Text-module__size-12--2onFT f=
+rontend-pencraft-Text-module__line-height-20--1soeQ frontend-pencraft-Text-=
+module__weight-medium--aTbx5 frontend-pencraft-Text-module__font-meta--2i-c=
+R frontend-pencraft-Text-module__color-secondary--XjVGl frontend-pencraft-T=
+ext-module__meta--3RRSj" style=3D"color: #808080; font-family: 'SF Compact =
+Text','SF Pro Text',-apple-system,BlinkMacSystemFont,'Inter','Segoe UI',Rob=
+oto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe =
+UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: .2px; line-h=
+eight: 20px; margin: 0; text-decoration: unset; text-transform: uppercase;"=
+><time dateTime=3D"2023-03-27T12:37:28.884Z">Mar 27</time></div></td></tr><=
+/table><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bottom: =
+1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><tr hei=
+ght=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#16=
+0;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentation" =
+width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td sty=
+le=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"38" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a =
+href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D110880947&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&toke=
+n=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEwODgwOTQ3LCJyZWFjdGlvbiI6IuK=
+dpCIsImlhdCI6MTY3OTkyMDY1OSwiZXhwIjoxNjgyNTEyNjU5LCJpc3MiOiJwdWItMTAwMjUiLC=
+JzdWIiOiJyZWFjdGlvbiJ9.e8ngN2URWGhFn7igVbTbcs8oj2ZgUzzSRTVcocSMabw&utm_medi=
+um=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; bo=
+x-sizing: border-box; color: #808080; display: inline-block; font-family: '=
+SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; mi=
+n-width: 38px; padding: 9px 0; text-decoration: none; text-transform: upper=
+case; width: 38px;" class=3D"email-icon-button"><img src=3D"https://substac=
+kcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/ht=
+tps%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%=
+3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18"=
+ style=3D"border: none !important; max-width: 18px; vertical-align: middle;=
+" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" style=
+=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D110880947&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6MTEwODgwOTQ3LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI6MTY4MjUxMjY1=
+OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cgEWAR5ubEiTL3ErN1=
+bz_F2pT35EkE43L4e5B8m111M&utm_source=3Dsubstack&utm_medium=3Demail" style=
+=3D"border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-=
+box; color: #808080; display: inline-block; font-family: 'SF Pro Text', -ap=
+ple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; pa=
+dding: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px=
+;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26strok=
+e%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bord=
+er: none !important; max-width: 18px; vertical-align: middle;" alt=3D"" cla=
+ss=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: =
+8px"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation=
+" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td ali=
+gn=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D110880947&utm_source=3Dsubstack&utm_medium=3Demail&utm_c=
+ontent=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=
+=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEwODgwOTQ3LCJpYXQiOjE2Nzk5MjA2=
+NTksImV4cCI6MTY4MjUxMjY1OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGl=
+vbiJ9.cgEWAR5ubEiTL3ErN1bz_F2pT35EkE43L4e5B8m111M" style=3D"border: 1px sol=
+id #e0e0e0; border-radius: 100000px; box-sizing: border-box; color: #808080=
+; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans=
+-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12p=
+x; font-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-=
+decoration: none; text-transform: uppercase; width: 38px;" class=3D"email-i=
+con-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_=
+png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLu=
+cideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26stro=
+keWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; m=
+ax-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td><=
+/tr></table></td></tr></table></td><td align=3D"right"><table role=3D"prese=
+ntation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><t=
+r><td style=3D"vertical-align: middle;"><table role=3D"presentation" width=
+=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D100=
+25&post_id=3D110880947&utm_source=3Dsubstack&utm_medium=3Demail&action=3Dsa=
+ve&triggerSave=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEwO=
+DgwOTQ3LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI6MTY4MjUxMjY1OSwiaXNzIjoicHViLTEwMDI1=
+Iiwic3ViIjoic2F2ZS1wb3N0In0.koUQvxdc0-UyOeGGR7LB76MFccnlKtb9hx2y5ZryN-k" cl=
+ass=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border-rad=
+ius: 100000px; color: #808080; display: inline-block; font-family: 'SF Pro =
+Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; paddin=
+g: 9px 14px; text-decoration: none; text-transform: uppercase;"><div class=
+=3D"email-button-spacer" style=3D"display: inline-block; font-size: 16px; l=
+ine-height: 26px; max-width: 0; min-height: 18px; vertical-align: middle;">=
+</div><span class=3D"email-button-text" style=3D"vertical-align: middle;">S=
+ave</span></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8p=
+x"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" =
+width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td ali=
+gn=3D"center"><a href=3D"https://open.substack.com/pub/notboring/p/attentio=
+n-is-all-you-need?utm_source=3Demail-ufi&play_audio=3Dtrue&token=3DeyJ1c2Vy=
+X2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEwODgwOTQ3LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI=
+6MTY4MjUxMjY1OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cgEWA=
+R5ubEiTL3ErN1bz_F2pT35EkE43L4e5B8m111M" class=3D"email-button-outline" styl=
+e=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; di=
+splay: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-ser=
+if, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; f=
+ont-weight: 500; line-height: 12px; padding: 9px 14px; text-decoration: non=
+e; text-transform: uppercase;"><div class=3D"email-button-spacer" style=3D"=
+display: inline-block; font-size: 16px; line-height: 26px; max-width: 0; mi=
+n-height: 18px; vertical-align: middle;"></div><span class=3D"email-button-=
+text" style=3D"vertical-align: middle;">&#9655;&#160;&#160;Listen</span></a=
+></td></tr></table></td></tr></table></td></tr></table></td></tr><tr height=
+=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;<=
+/td></tr></table></div></div><div dir=3D"auto" class=3D"post typography" st=
+yle=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=
+=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-height: 26px=
+; margin-bottom: 16px; text-align: initial; width: 100%; word-break: break-=
+word;"><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0; margin-top: 0;"><em><span>Welcome to the&#160;</span><stron=
+g>1,205&#160;newly Not Boring people&#160;</strong><span>who have joined us=
+ over the past week! If you haven&#8217;t subscribed, join&#160;</span><str=
+ong>194,036 </strong><span>smart, curious folks by subscribing here: </span=
+></em></p><div class=3D"subscribe-widget is-signed-up" style=3D"direction: =
+ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"butt=
+on-wrapper" style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0; text-align: center;"><a href=3D"https://substack.com/redi=
+rect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNl=
+PXBvc3QiLCJwIjoxMTA4ODA5NDcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF=
+0IjoxNjc5OTIwNjU5LCJleHAiOjE2ODI1MTI2NTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay=
+1yZWRpcmVjdCJ9.bO4h8u53evFF3HVksjV9g7vVP-wwbDgNj60ESzwTIsE?&utm_medium=3Dem=
+ail&utm_source=3Dsubscribe-widget&utm_content=3D110880947" class=3D"button =
+subscribe-btn primary" style=3D"background-color: #67bdfc; border: none; bo=
+rder-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor=
+: pointer; display: inline-block; font-family: -apple-system, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; =
+height: auto; line-height: 20px; margin: 0 auto; opacity: 1; outline: none;=
+ padding: 12px 20px; text-align: center; text-decoration: none !important; =
+white-space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;=
+">Pledge your support</span></a></p></div><div style=3D"font-size: 16px; li=
+ne-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1=
+px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong><span>Today&#8217;=
+s Not Boring is brought to you by&#8230; </span><a href=3D"https://substack=
+=2Ecom/redirect/b4509b36-e7a5-4908-9695-1=
+a8d2e0a3d20?j=3DeyJ1IjoiOXAwZ3QifQ.g=
+b8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #40404=
+0; text-decoration: underline;">Secureframe</a></strong></p><div class=3D"c=
+aptioned-image-container-static" style=3D"font-size: 16px; line-height: 26p=
+x; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><tabl=
+e class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"1104" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_bla=
+nk" href=3D"https://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3=
+d20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; position: relative; tex=
+t-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot=
+;https://substack-post-media.s3.amazonaws.com/public/images/0c5cdc55-b327-4=
+eab-8549-e61f0dce1455_1104x360.png&quot;,&quot;fullscreen&quot;:null,&quot;=
+imageSize&quot;:null,&quot;height&quot;:360,&quot;width&quot;:1104,&quot;re=
+sizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;titl=
+e&quot;:null,&quot;type&quot;:null,&quot;href&quot;:&quot;https://securefra=
+me.com/request-demo?utm_source=3Dpartner&amp;utm_medium=3Dnewsletter&amp;ut=
+m_campaign=3D032723-notboring-newsletter&quot;,&quot;belowTheFold&quot;:fal=
+se,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"179=
+=2E34782608695653" class=3D"wide-image" s=
+rc=3D"https://substackcdn.com/image/=
+fetch/w_2208,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+substack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c5cdc55-b327-4eab=
+-8549-e61f0dce1455_1104x360.png" style=3D"-ms-interpolation-mode: bicubic; =
+border: none !important; display: block; height: auto; margin: 0 auto; marg=
+in-bottom: 0; max-width: 100% !important; vertical-align: middle; width: au=
+to !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbod=
+y></table></figure></div><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;"><em><span>Prospects are asking about sec=
+urity earlier in the buying cycle. Companies need a way to get compliant th=
+at is faster and takes less employee involvement. With </span><strong><a hr=
+ef=3D"https://substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Secureframe</a></str=
+ong><span> you can get compliant in weeks&#8212;not months&#8212;so you can=
+ focus on growing your business.&#160;</span></em></p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><strong=
+>Secureframe</strong><span> makes it fast and easy to get SOC 2, ISO 27001,=
+ HIPAA, PCI &amp; GDPR compliant. With guided workflows and one-click integ=
+rations, the entire process is automated and backed by a support team of in=
+dustry experts.</span></em></p><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;"><em>Get compliant fast with Secure=
+frame.</em></p><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;"><em><span>Click </span><strong><a href=3D"https://=
+substack.com/redirect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color=
+: #404040; text-decoration: underline;">here</a></strong><span> to set up a=
+ demo. Mention &#8220;Not Boring&#8221; during your demo to get 20% off you=
+r first year of Secureframe.</span></em><strong>&#160;</strong></p><p class=
+=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://securefram=
+e.com/request-demo?utm_source=3Dpartner&amp;utm_medium=3Dnewsletter&amp;utm=
+_campaign=3D032723-notboring-newsletter&quot;,&quot;text&quot;:&quot;Schedu=
+le Demo&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-a=
+lign: center;"><a class=3D"button primary" href=3D"https://substack.com/red=
+irect/b4509b36-e7a5-4908-9695-1a8d2e0a3d20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"background-color: #67=
+bdfc; border: none; border-radius: 4px; box-sizing: border-box; color: #fff=
+fff !important; cursor: pointer; display: inline-block; font-family: -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14=
+px; font-weight: 600; height: auto; line-height: 20px; margin: 0; opacity: =
+1; outline: none; padding: 12px 20px; text-align: center; text-decoration: =
+none !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-=
+decoration: none;">Schedule Demo</span></a></p><div style=3D"font-size: 16p=
+x; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; heig=
+ht: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Hi friends &#128075;,=
+</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;">Happy Monday! I had a lot of fun writing this one. </p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">While I&#8217;ve written about AI, I haven&#8217;t written much about O=
+penAI because there&#8217;s already so much attention on the company that i=
+t&#8217;s been hard to find much new to say. GPT-4 is amazing. There will b=
+e implications for white collar workers. Here are 75 things you didn&#8217;=
+t know you could do with ChatGPT &#129525; &#128071; Are foundation models =
+defensible? Are GPT Wrappers defensible? </p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Then, on Thursday, O=
+penAI introduced ChatGPT plugins, and the more I thought about it, the more=
+ excited I got. Through a series of seeming accidents, great product, and u=
+ser pull, OpenAI has attracted attention, turned that attention into the mu=
+st-use API, and with the release of plugins, is turning that attention into=
+ a platform unlike any platform that exists, one that ingests the capabilit=
+ies of the apps built on it.</p><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;">If OpenAI chooses to, it can buil=
+d an Apex Aggregator and define the new best business model on the internet=
+=2E We need to lay some groundwork to exp=
+lain why.</p><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Let&#8217;s g=
+et to it.&#160;</p><div style=3D"font-size: 16px; line-height: 26px;"><hr s=
+tyle=3D"background: #e0e0e0; border: none; height: 1px; margin: 32px 0; pad=
+ding: 0;"></div><h1 class=3D"header-with-anchor-widget" style=3D"-moz-osx-f=
+ont-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antia=
+liased; color: #404040; font-family: 'SF Compact Display', -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-we=
+ight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relativ=
+e;"><strong>Attention is All You Need</strong></h1><div class=3D"captioned-=
+image-container-static" style=3D"font-size: 16px; line-height: 26px; margin=
+: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1200" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://substack.com/redirect/c831d43a-5c8e-4820-8095-81e2182f85fd?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"align-items: center; border: none; display: block; flex-direction=
+: column; height: auto; margin: 0; padding: 0; position: relative; text-dec=
+oration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;http=
+s://substack-post-media.s3.amazonaws.com/public/images/c009d053-c7db-41dd-9=
+ede-69301ae4035f_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;image=
+Size&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:126576,&quot;alt&quot;:null,&quot;title&q=
+uot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quo=
+t;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" widt=
+h=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://substackcdn.co=
+m/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc009d053-c=
+7db-41dd-9ede-69301ae4035f_1200x600.png" style=3D"-ms-interpolation-mode: b=
+icubic; border: none !important; display: block; height: auto; margin: 0 au=
+to; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; w=
+idth: auto !important;"></a></td><td style=3D"text-align: center;"></td></t=
+r></tbody></table></figure></div><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;"><span>The paper that kicked off =
+the AI Revolution had a catchy title, as these papers go: </span><em><stron=
+g><a href=3D"https://substack.com/redirect/0cfd18c1-ec6b-4194-8d01-2e5e5348=
+f3b3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" re=
+l=3D"" style=3D"color: #404040; text-decoration: underline;">Attention is A=
+ll You Need</a></strong><span>.&#160;</span></em></p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Writte=
+n by a team at Google Brain in 2017, the paper introduced the now-famous </=
+span><strong>Transformer architecture</strong><span> that powers large lang=
+uage models such as OpenAI&#8217;s GPT-4.&#160;</span></p><p style=3D"color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>A=
+s </span><a href=3D"https://substack.com/redirect/fdc1c1c1-76bc-4c47-b46c-9=
+60085b18b2e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkR=
+NpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Chroma<=
+/a><span> co-founder </span><a href=3D"https://substack.com/redirect/d654c9=
+8d-2149-4b75-950d-687932066400?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjml=
+XXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: =
+underline;">Anton Troynikov</a><span> explained it to me in our </span><a h=
+ref=3D"https://substack.com/redirect/09eb288e-1208-411d-8ed8-653b8a48405e?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">first episode of </a=
+><em><a href=3D"https://substack.com/redirect/09eb288e-1208-411d-8ed8-653b8=
+a48405e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU"=
+ rel=3D"" style=3D"color: #404040; text-decoration: underline;">Anton Teach=
+es Packy AI</a></em><span>, Transformers can do a lot just by paying attent=
+ion to the right parts of the input. They don't need other types of neural =
+network layers, like the ones used for convolutions or recurrent connection=
+s, to perform well. </span><strong>Attention is all they need.</strong></p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>That same year, in a follow-up to his canonical </span><em>=
+<strong><a href=3D"https://substack.com/redirect/2a3351dc-4719-493d-8f7d-49=
+0e45186d38?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Aggregat=
+ion Theory</a></strong></em><span>, Ben Thompson wrote </span><em><a href=
+=3D"https://substack.com/redirect/04f92e4d-0b1d-4584-a961-4e7390f5444f?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Defining Aggregators</a=
+><span>, </span></em><span>to catalog businesses that capture value by cont=
+rolling demand for abundant resources. Aggregators have three defining char=
+acteristics:</span></p><ol style=3D"margin-top: 0; padding: 0;"><li style=
+=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; paddin=
+g-left: 4px;">Direct Relationships with Users</p></li><li style=3D"margin: =
+8px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;=
+">Zero Marginal Cost for Serving Users</p></li><li style=3D"margin: 8px 0 0=
+ 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;">Deman=
+d-driven Multi-sided Networks with Decreasing Acquisition Costs</p></li></o=
+l><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;">Think Google and Facebook, the Super-Aggregators. Billions of u=
+sers come to their sites, where they&#8217;re served content created by oth=
+er people for free, and it gets cheaper to acquire users over time as deman=
+d attracts supply which attracts more demand which attracts more supply, an=
+d so on. Better experience leads to more users which leads to more supplier=
+s and advertisers which leads to more users, and so on.&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>The takeaway from that post was essentially the same as the Transfo=
+rmer paper: to win big on the internet, </span><strong>attention is all you=
+ need</strong><span>.&#160;</span></p><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong><a href=3D"https://=
+substack.com/redirect/f0cc00af-7374-4e22-b264-e2c9ee968aa2?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color=
+: #404040; text-decoration: underline;">OpenAI</a></strong><span> began its=
+ life in December 2015 as a non-profit. With over $1 billion committed by E=
+lon Musk, Peter Thiel, Sam Altman, Jessica Livingston, Reid Hoffman, Ilya S=
+utskever, and others, it had no plans to make money. It didn&#8217;t need t=
+o support itself.&#160;</span></p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;">One prominent VC who looked at =
+investing early on said he loved the idea and the team, but that with no re=
+venue and no plans to make any, he couldn&#8217;t justify investing his LPs=
+&#8217; money in the startup. As recently as last summer, when DALL&#8226;E=
+ 2 brought OpenAI into the limelight, a team member told me that while thei=
+r tech was excellent, they weren&#8217;t quite sure how they were going to =
+monetize it.&#160;&#160;</p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>Then, in December, OpenAI relea=
+sed ChatGPT. The </span><a href=3D"https://substack.com/redirect/ef0f99d5-1=
+4fe-4db4-b4e0-ee3bd14beb4a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXep=
+KbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: unde=
+rline;">team wasn&#8217;t expecting much</a><span> &#8211; it was a &#8220;=
+research preview&#8221; &#8211; but practically overnight, it caught fire. =
+Its December release was one of those &#8220;I remember where I was when&#8=
+221; moments for those of us who love this stuff (I was in a hotel lobby in=
+ LA and </span><a href=3D"https://substack.com/redirect/30923267-df2e-4326-=
+932c-129c1ff5f64a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6=
+m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">t=
+weeted this</a><span> after my first experience).&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>ChatGPT exploded. Two months in, it reached 100 million users. Near=
+ly half of the YC W23 class is building apps using OpenAI&#8217;s APIs. GPT=
+-4 became the most eagerly anticipated drop since the last Beatles album, a=
+nd it delivered. Then last week, OpenAI released </span><a href=3D"https://=
+substack.com/redirect/8a25df10-e567-4922-a26f-84ee80c16d1e?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color=
+: #404040; text-decoration: underline;">ChatGPT plugins</a><span>. They dow=
+nplayed their foresight on this one too, explaining the launch by saying: &=
+#8220;Users have been asking for plugins since we launched ChatGPT.&#8221;<=
+/span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">Since the launch on Thursday, a bunch of people have co=
+mpared plugins to Apple&#8217;s App Store, which paid developers $60 billio=
+n in 2022 (and likely took $15 billion for itself). I think it has the pote=
+ntial to be much bigger than that, and I really don&#8217;t want to be yet =
+another person who overhypes OpenAI, so I&#8217;ll spend this entire piece =
+walking you through why I think so.&#160;</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">In under a year, Ope=
+nAI has gone from under-the-radar and unsure-how-to-monetize to one of the =
+most potentially dominant strategic positions and business models in the hi=
+story of tech. It happened almost by accident. While the technology deserve=
+s the praise it receives, its translation into a juggernaut business was fa=
+r from certain until tens of millions of people rushed to use its new consu=
+mer-friendly interface. Since then, the dominos have fallen rapidly.&#160;<=
+/p><div class=3D"captioned-image-container-static" style=3D"font-size: 16px=
+; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; w=
+idth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><t=
+body><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D=
+"content" width=3D"1080" style=3D"text-align: center;"><a class=3D"image-li=
+nk" target=3D"_blank" href=3D"https://substack.com/redirect/28d67dda-c371-4=
+614-b06b-a4bb6b17a9cd?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; display=
+: block; flex-direction: column; height: auto; margin: 0; padding: 0; posit=
+ion: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&qu=
+ot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/imag=
+es/1201b4db-2b5c-40fb-857b-9fd23da487a5_1080x611.png&quot;,&quot;fullscreen=
+&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:611,&quot;width&q=
+uot;:1080,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quo=
+t;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,=
+&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" =
+width=3D"550" height=3D"311.1574074074074" class=3D"wide-image" src=3D"http=
+s://substackcdn.com/image/fetch/w_2160,c_limit,f_auto,q_auto:good,fl_progre=
+ssive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fi=
+mages%2F1201b4db-2b5c-40fb-857b-9fd23da487a5_1080x611.png" style=3D"-ms-int=
+erpolation-mode: bicubic; border: none !important; display: block; height: =
+auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertica=
+l-align: middle; width: auto !important;"></a></td><td style=3D"text-align:=
+ center;"></td></tr></tbody></table></figure></div><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>When it =
+comes to turning mind-blowing technology into an equally mind-blowing busin=
+ess opportunity, it turns out, you guessed it: </span><strong>attention is =
+all you need</strong><span>.</span></p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>As it stands today, =
+if OpenAI chooses to, it can build the </span><strong>Apex Aggregator </str=
+ong><span>by building an </span><strong>Action Engine</strong><span>. The A=
+ction Engine subsumes search and any number of products that let users do t=
+hings, and it does them for users with nothing more than a simple prompt. I=
+f Aggregators controlled demand and commoditized supply, the Apex Aggregato=
+r can control demand on multiple fronts, turn attention into actions, disag=
+gregate any supplier that feeds it, and even aggregate the aggregators. It =
+could make Apple, Google, and Facebook&#8217;s models seem soft and cuddly&=
+#8230; until they fight back.</span></p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">I&#8217;ll explain what&#=
+8217;s gotten me so excited about OpenAI&#8217;s accidental business model,=
+ but first, we need to do a quick refresher on the current tech business mo=
+del kings.&#160;</p><h3 class=3D"header-with-anchor-widget" style=3D"-moz-o=
+sx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-a=
+ntialiased; color: #404040; font-family: 'SF Compact Display', -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em;=
+ font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position:=
+ relative;"><strong>The Super-Aggregators</strong></h3><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">If you&#82=
+17;re reading this, I assume you know a lot about how Google and Facebook&#=
+8217;s business models &#8211; the greatest cash-generating machines known =
+to humanity &#8211; work, so I&#8217;ll keep this section very brief.&#160;=
+</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;">Facebook (and its family of apps) use billions of users to at=
+tract billions of users, collect a lot of data on those users, and let adve=
+rtisers target those users based on that data. If you&#8217;re a company th=
+at wants to get in front of a lot of a certain type of buyer because you th=
+ink that type of buyer might like your product, Facebook is the place to go=
+=2E Then, you just serve them a colorful=20=
+ad, a certain number of them will cl=
+ick on it, and a certain number of those will buy. Because Facebook has the=
+ most social attention &#8211; over 3 billion users &#8211; it attracts mor=
+e people, and because it has the most people and the most data on them, it =
+attracts the most brand advertising dollars. Both demand and supply cost it=
+ practically nothing to acquire, and ads cost it practically nothing to ser=
+ve.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>Google&#8217;s model is even more direct. Bill=
+ions of people go to Google explicitly to tell the site exactly what they&#=
+8217;re looking for &#8211; from information to hotels in certain cities to=
+ accounting software &#8211; and Google auctions off well-placed links to a=
+dvertisers who offer exactly what those people are searching for. Those peo=
+ple have expressed </span><strong>intent</strong><span>, and Google rakes i=
+n cash from advertisers intent on capturing it. Because Google captures the=
+ most search attention &#8211; 93% of searches worldwide go through Google =
+&#8211; it attracts the most advertising dollars of any business on earth. =
+Both demand and supply cost it practically nothing to acquire, and ads cost=
+ it practically nothing to serve.&#160;</span></p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">In 2022, Facebo=
+ok/Meta did $116.6 billion in revenue and Google/Alphabet did $282.8 billio=
+n in revenue, the vast majority of which, in both cases, came from serving =
+ads. It&#8217;s hard to think of better internet business models. But I thi=
+nk OpenAI just did by accident.&#160;</p><h3 class=3D"header-with-anchor-wi=
+dget" style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-=
+smoothing: subpixel-antialiased; color: #404040; font-family: 'SF Compact D=
+isplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0=
+ 0.625em 0; position: relative;"><strong>Attention with Intelligence</stron=
+g></h3><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;">OpenAI&#8217;s potential business model is hard to comp di=
+rectly because it&#8217;s so many things at once: an aggregator, an API, an=
+d a platform.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;">Imagine that a bunch of apps used Google S=
+earch as their core feature, Google was the main place to find those apps, =
+and those apps worked better when you used them in concert with each other =
+through Google, and you&#8217;re getting close to what OpenAI might be able=
+ to do.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;">OpenAI hits its partners from all angles:&#160;<=
+/p><ul style=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32=
+px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; =
+padding-left: 4px;"><strong>Attention Grabber</strong><span>. ChatGPT is th=
+e front-end for OpenAI, the &#8220;</span><strong>aggregator</strong><span>=
+&#8221; to which over 100 million users flocked within the first two months=
+=2E ChatGPT will let OpenAI control deman=
+d for abundant resources, which are =
+themselves tailored to OpenAI.&#160;</span></p></li><li style=3D"margin: 8p=
+x 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box=
+; color: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bot=
+tom: 0; padding-left: 4px;"><strong>Intelligence API. </strong><span>A numb=
+er of new products are being built around OpenAI&#8217;s API and a bunch of=
+ incumbent products are re-architecting themselves around OpenAI&#8217;s AP=
+I. Unlike most APIs, which serve non-core functions, the OpenAI Intelligenc=
+e API is core to many of these product experiences.&#160;</span></p></li><l=
+i style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"b=
+ox-sizing: border-box; color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>Plugin Play</stron=
+g><span>. Products, whether built on OpenAI&#8217;s APIs or not, can now be=
+ plugged into ChatGPT itself (and potentially into OpenAI&#8217;s Intellige=
+nce API over time), turning the product into both </span><strong>platform <=
+/strong><span>and aggregator, and bringing more attention to ChatGPT. Unlik=
+e an App Store, which just lists apps but doesn&#8217;t ingest its capabili=
+ties, </span><strong>this essentially turns any plugin into an API that giv=
+es ChatGPT its company&#8217;s full capabilities.</strong></p></li></ul><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;">By attracting so much user attention with a genuinely excellent prod=
+uct, OpenAI has also attracted developers to build with its Intelligence AP=
+I and on its plugin platform. In the short-term, this is great for develope=
+rs &#8211; they get more capabilities and more users &#8211; but it&#8217;s=
+ a sort of Faustian bargain. Developers building on the Intelligence API ar=
+e relying on OpenAI for their core functionality, and plugin developers are=
+ handing their core functionality to OpenAI. In both cases, OpenAI gains mo=
+re attention, reach, and power.&#160;</p><div class=3D"captioned-image-cont=
+ainer-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px aut=
+o;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wr=
+apper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cen=
+ter;"></td><td align=3D"left" class=3D"content" width=3D"1456" style=3D"tex=
+t-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https:/=
+/substack.com/redirect/efd8c2c3-962e-49f8-bdec-0c6ce2135444?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"alig=
+n-items: center; border: none; display: block; flex-direction: column; heig=
+ht: auto; margin: 0; padding: 0; position: relative; text-decoration: none;=
+ width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-p=
+ost-media.s3.amazonaws.com/public/images/65729c40-3aa9-4b3b-b9ec-342806d6c2=
+be_1600x1271.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:nu=
+ll,&quot;height&quot;:1157,&quot;width&quot;:1456,&quot;resizeWidth&quot;:n=
+ull,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quo=
+t;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot=
+;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"437.0535714=
+2857144" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_=
+2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65729c40-3aa9-4b3b-b9ec-34=
+2806d6c2be_1600x1271.png" style=3D"-ms-interpolation-mode: bicubic; border:=
+ none !important; display: block; height: auto; margin: 0 auto; margin-bott=
+om: 0; max-width: 100% !important; vertical-align: middle; width: auto !imp=
+ortant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></tab=
+le></figure></div><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">But the bullets above are based on what&#8217;s=
+ been announced to date. I&#8217;ll save speculation for later. For now, le=
+t&#8217;s go a little deeper into each leg of the stool.&#160;</p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><strong>Attention Grabber</strong></p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">Attention is all you need=
+=2E And ChatGPT is an attention grabber.&=
+#160;</p><div class=3D"tweet static"=
+ style=3D"-webkit-font-smoothing: subpixel-antialiased; background: #ffffff=
+; border: 1px solid #e0e0e0; border-radius: 8px; box-sizing: border-box; co=
+lor: #404040; direction: ltr; display: block; flex-direction: column; font-=
+family: -apple-system, -system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 14px; font-weight: 400; gap: 12px; line-height: 20p=
+x; margin: 32px auto; max-width: 550px; padding: 16px 16px 12px; transition=
+: color .25s cubic-bezier(.16, 1, .3, 1), background-color .25s cubic-bezie=
+r(.16, 1, .3, 1), box-shadow .25s cubic-bezier(.16, 1, .3, 1), opacity .25s=
+ cubic-bezier(.16, 1, .3, 1), filter .25s cubic-bezier(.16, 1, .3, 1), stro=
+ke .25s cubic-bezier(.16, 1, .3, 1);"><a class=3D"tweet-link-top" href=3D"h=
+ttps://substack.com/redirect/4f03c4bd-18a8-494f-93d5-9fcd076e1a62?j=3DeyJ1I=
+joiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" target=3D"_blank=
+" rel=3D"" style=3D"color: #404040; display: block; flex-direction: column;=
+ gap: 12px; text-decoration: none; white-space: pre-wrap;"><div class=3D"tw=
+eet-header" style=3D"align-items: center; display: block; flex-direction: r=
+ow; font-size: 16px; gap: 12px; height: 48px; line-height: 26px; margin-bot=
+tom: 12px;"><img class=3D"tweet-header-avatar" src=3D"https://substackcdn.c=
+om/image/twitter_name/w_96/stats_feed.jpg" alt=3D"Twitter avatar for @stats=
+_feed" loading=3D"lazy" style=3D"-ms-interpolation-mode: bicubic; border: n=
+one !important; border-radius: 50%; display: block; float: left; height: 48=
+px; margin: 0; margin-right: 12px; max-width: 100%; vertical-align: middle;=
+ width: 48px;"><div class=3D"tweet-header-text" style=3D"display: block; fl=
+ex-direction: column; font-size: 14px; line-height: 20px; padding-top: 4px;=
+"><span class=3D"tweet-author-name" style=3D"display: block; font-weight: 6=
+00;">World of Statistics </span><span class=3D"tweet-author-handle" style=
+=3D"color: #808080; display: block;">@stats_feed</span></div></div><div cla=
+ss=3D"tweet-text" style=3D"font-size: 20px; line-height: 24px; margin-botto=
+m: 16px;">Time it took to reach 100 million users worldwide:
+
+Telephone: 75 years
+Mobile phone: 16 years
+World Wide Web: 7 years
+iTunes: 6.5 years
+Twitter: 5 years
+Facebook: 4.5 years
+WhatsApp: 3.5 years
+Instagram: 2.5 years
+Apple App Store: 2 years
+ChatGPT: 2 months</div></a><a class=3D"tweet-link-bottom" href=3D"https://s=
+ubstack.com/redirect/4f03c4bd-18a8-494f-93d5-9fcd076e1a62?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" target=3D"_blank" rel=3D=
+"" style=3D"color: #404040; display: block; flex-direction: column; gap: 12=
+px; text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-foot=
+er" style=3D"align-items: flex-start; display: block; flex-direction: colum=
+n; font-size: 14px; gap: 8px; line-height: 20px; margin-top: 12px;"><span c=
+lass=3D"tweet-date" style=3D"color: #808080; flex: 1;">9:44 AM &#8729; Mar =
+4, 2023</span><hr style=3D"background: #e0e0e0; border: none; height: 1px; =
+margin: 12px 0; padding: 0; width: 100%;"><div class=3D"tweet-ufi" style=3D=
+"align-items: center; display: block; font-size: 16px; gap: 24px; height: 2=
+0px; line-height: 26px;"><span href=3D"https://twitter.com/stats_feed/statu=
+s/1631953784820625408?s=3D20/likes" class=3D"likes" style=3D"color: #808080=
+; display: block; float: left; font-size: 14px; gap: 4px; line-height: 20px=
+; margin-right: 24px; text-decoration: none;"><span class=3D"like-count" st=
+yle=3D"color: #404040; font-weight: 600; margin-right: 4px;">9,896</span><s=
+pan>Likes</span></span><span href=3D"https://twitter.com/stats_feed/status/=
+1631953784820625408?s=3D20/retweets" class=3D"retweets" style=3D"color: #80=
+8080; display: block; float: left; font-size: 14px; gap: 4px; line-height: =
+20px; margin-right: 24px; text-decoration: none;"><span class=3D"rt-count" =
+style=3D"color: #404040; font-weight: 600; margin-right: 4px;">1,431</span>=
+<span>Retweets</span></span></div></div></a></div><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Just two months=
+ after its launch, it reached 100 million users, the fastest ever to reach =
+that mark by an order of magnitude. While OpenAI hasn&#8217;t updated that =
+number, and doesn&#8217;t release daily active user numbers, it&#8217;s not=
+ hard to imagine that in a year, hundreds of millions of people will start =
+their internetting with ChatGPT each and every day.&#160;</p><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><spa=
+n>&#160;In </span><em>Defining Aggregators,</em><span> Thompson wrote, &#82=
+20;The key characteristic of Aggregators is that they own the user relation=
+ship.&#8221; If people go to your site to find anything on the internet, yo=
+u can tell them where to go. If people open your app to ride, you can tell =
+them whose car to get in. Owning the customer relationship lets aggregators=
+ commoditize their suppliers and capture more value from each transaction.&=
+#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0 0 20px 0;">ChatGPT (and GPT more broadly) takes this a step =
+further and completely disintermediates its &#8220;suppliers.&#8221; Google=
+ can show you any website its algorithm wants, and it can summarize the web=
+site in a prominent box up top, but its job is still to send people to webs=
+ites. ChatGPT, on the other hand, reads most of the available content on th=
+e internet and spits out complete answers to any prompt right in the chat. =
+It&#8217;s not just a starting point, but a destination for an increasing p=
+ercentage of the things a user might want to do online.&#160;&#160;</p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;"><span>When ChatGPT came out, there was a fair amount of harrumphing f=
+rom AI gray hairs that it wasn&#8217;t really a technical advance, just a s=
+hiny interface on an old model. That missed the point on the product side &=
+#8211; </span><a href=3D"https://substack.com/redirect/be038289-db69-42be-b=
+aa7-2128230bc966?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m=
+8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">in=
+terfaces are crucial</a><span> &#8211; but it especially missed the point o=
+n the business model side. ChatGPT&#8217;s interface was an attention grabb=
+er, and once you have attention, you can direct it in any way you choose.&#=
+160;&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><strong>Intelligence API</strong></p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">ChatGPT didn&#8217;t just capture consumer attention, it captured develo=
+pers&#8217; imaginations.&#160;</p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><span>While GPT-3 was already =
+available via API, and while some developers were already building with it,=
+ the buzz around ChatGPT pushed seemingly </span><em>every</em><span> devel=
+oper to think about how to incorporate GPT into their products. Something l=
+ike half of the </span><a href=3D"https://substack.com/redirect/82d8fb09-d7=
+1a-4a49-8047-239974f14210?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepK=
+bqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: under=
+line;">current YC batch</a><span> is building on OpenAI&#8217;s APIs.&#160;=
+</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;">These companies are derisively called &#8220;GPT wrapp=
+ers,&#8221; and many have wondered about their viability as venture-scale b=
+usinesses. What worries me about these businesses is how much they&#8217;re=
+ handing over to an API.&#160;</p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>In </span><em><a href=3D"=
+https://substack.com/redirect/654b683a-edcb-4125-9a02-6c43ca457e3c?j=3DeyJ1=
+IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=
+=3D"color: #404040; text-decoration: underline;">APIs All the Way Down</a><=
+/em><span>, I pointed out that there seems to be a sweet spot for API-first=
+ companies:</span></p><blockquote style=3D"border-left: 4px solid #67bdfc; =
+margin: 20px 0; padding: 0;"><p style=3D"color: #404040; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em><span>Strong =
+API-first businesses sit in this sweet spot: they provide</span><strong> mi=
+ssion critical but non-core functionality</strong><span> to their customers=
+, like accepting payments, providing cloud security, or sending communicati=
+ons to customers.&#160;</span></em></p></blockquote><div class=3D"captioned=
+-image-container-static" style=3D"font-size: 16px; line-height: 26px; margi=
+n: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1015" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://substack.com/redirect/46ac7b06-a58a-48f8-9f63-f3efa5e89198?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"align-items: center; border: none; display: block; flex-direction=
+: column; height: auto; margin: 0; padding: 0; position: relative; text-dec=
+oration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;http=
+s://substack-post-media.s3.amazonaws.com/public/images/ba1dce0c-ec04-4fc2-9=
+024-520070fb5cf6_1015x698.png&quot;,&quot;fullscreen&quot;:null,&quot;image=
+Size&quot;:null,&quot;height&quot;:698,&quot;width&quot;:1015,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quo=
+t;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot=
+;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D=
+"378.2266009852217" class=3D"wide-image" src=3D"https://substackcdn.com/ima=
+ge/fetch/w_2030,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba1dce0c-ec04-4=
+fc2-9024-520070fb5cf6_1015x698.png" style=3D"-ms-interpolation-mode: bicubi=
+c; border: none !important; display: block; height: auto; margin: 0 auto; m=
+argin-bottom: 0; max-width: 100% !important; vertical-align: middle; width:=
+ auto !important;"></a></td><td style=3D"text-align: center;"></td></tr></t=
+body></table></figure></div><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">Plugging in an API makes a ton of sen=
+se when APIs deliver cloud hosting or payments or text messages or any numb=
+er of things that every company needs to do but that don&#8217;t provide a =
+competitive advantage.&#160;</p><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;"><strong>But what happens when API=
+s deliver intelligence?</strong><span>&#160;</span></p><div class=3D"captio=
+ned-image-container-static" style=3D"font-size: 16px; line-height: 26px; ma=
+rgin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table cla=
+ss=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"t=
+ext-align: center;"></td><td align=3D"left" class=3D"content" width=3D"908"=
+ style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hr=
+ef=3D"https://substack.com/redirect/9c96569e-8e20-4a55-a021-df720ed01bf3?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"align-items: center; border: none; display: block; flex-direction=
+: column; height: auto; margin: 0; padding: 0; position: relative; text-dec=
+oration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;http=
+s://substack-post-media.s3.amazonaws.com/public/images/4b942326-b12f-461a-8=
+700-e1359ee3a9f6_908x515.png&quot;,&quot;fullscreen&quot;:null,&quot;imageS=
+ize&quot;:null,&quot;height&quot;:515,&quot;width&quot;:908,&quot;resizeWid=
+th&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;=
+:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:=
+true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"3=
+11.94933920704847" class=3D"wide-image" src=3D"https://substackcdn.com/imag=
+e/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b942326-b12f-46=
+1a-8700-e1359ee3a9f6_908x515.png" style=3D"-ms-interpolation-mode: bicubic;=
+ border: none !important; display: block; height: auto; margin: 0 auto; mar=
+gin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: a=
+uto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbo=
+dy></table><figcaption class=3D"image-caption" style=3D"box-sizing: content=
+-box; color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -.=
+15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-right:=
+ 15%; text-align: center; width: 70%;"><em>APIs Now, Pretty Much</em></figc=
+aption></figure></div><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><span>OpenAI&#8217;s APIs are essentially I=
+ntelligence APIs. Write a few lines of code, and your product can do a bunc=
+h of things that a pretty smart human could, like answer customer service c=
+hats or discover drug formulations or tutor a student. Of course, most of t=
+he products that use OpenAI&#8217;s APIs do other things besides just deliv=
+ering ChatGPT in a different interface, and they certainly involve some fin=
+e-tuning to better address the customer&#8217;s specific needs, but for mos=
+t of these products, it really feels like they&#8217;re breaking the Cardin=
+al Rule of APIs: don&#8217;t outsource the thing that </span><a href=3D"htt=
+ps://substack.com/redirect/0d75633c-e3bb-4c94-8330-004de0638781?j=3DeyJ1Ijo=
+iOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"=
+color: #404040; text-decoration: underline;">makes your beer taste better</=
+a><span>.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;"><span>But what&#8217;s a company to do?=
+ Spend hundreds of millions to train their own models in the hopes of produ=
+cing something different enough to matter? </span><em>Not</em><span> make t=
+heir products intelligent? This is the Chinese Finger Trap that&#8217;s cap=
+tured so many companies before. As I wrote in </span><em><a href=3D"https:/=
+/substack.com/redirect/a48a0ba1-7887-461f-ac0c-dc50cedac791?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"colo=
+r: #404040; text-decoration: underline;">Shopify and the Hard Thing About E=
+asy Things</a><span>:&#160;</span></em></p><blockquote style=3D"border-left=
+: 4px solid #67bdfc; margin: 20px 0; padding: 0;"><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20p=
+x;"><em><strong>Here&#8217;s the hard thing about easy things:</strong><spa=
+n> if everyone can do something, there&#8217;s no advantage to doing it, bu=
+t you still have to do it anyway just to keep up.</span></em></p></blockquo=
+te><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;"><span>In just a couple of months, we&#8217;re already at a poi=
+nt at which there&#8217;s no real competitive advantage to using OpenAI&#82=
+17;s Intelligence APIs, but there&#8217;s a disadvantage for </span><em>not=
+ </em><span>using them.</span></p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>From OpenAI&#8217;s persp=
+ective, however, this is an incredible situation. Developers have to pay to=
+ use OpenAI&#8217;s APIs, and each company that writes those few lines of c=
+ode to incorporate intelligence into their products makes it even more tabl=
+e stakes for the next one. Plus, it gives OpenAI more </span><strong>attent=
+ion</strong><span>: now, there are armies of marketers pushing the value of=
+ OpenAI&#8217;s products on its behalf.&#160;</span></p><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Unt=
+il a week ago, the situation was tenable for GPT wrappers. Some people woul=
+d be happy to just use ChatGPT and get an ~80% experience on that specific =
+thing &#8211; get a good recommendation for a travel itinerary but go execu=
+te it themselves &#8211; while others would be happy to pay $10/month for a=
+n app that gave more tailored recommendations </span><em>and</em><span> boo=
+ked the trip.&#160;&#160;</span></p><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><span>Then OpenAI announced <=
+/span><a href=3D"https://substack.com/redirect/8a25df10-e567-4922-a26f-84ee=
+80c16d1e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU=
+" rel=3D"" style=3D"color: #404040; text-decoration: underline;">ChatGPT pl=
+ugins</a><span>.&#160;</span></p><div style=3D"font-size: 16px; line-height=
+: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margi=
+n: 32px 0; padding: 0;"></div><h4 class=3D"header-with-anchor-widget" style=
+=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: =
+subpixel-antialiased; color: #404040; font-family: 'SF Compact Display', -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;=
+ position: relative;">To read about ChatGPT plugins, how OpenAI could creat=
+e the Apex Aggregator, and the choices it&#8217;s going to have to make&#82=
+30;</h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;ht=
+tps://substack.com/app-link/publications/10025/drafts/bdc3e87d-d410-4226-91=
+b1-5ac3aabe060e?publication_id=3D10025&amp;post_id=3D110880947&quot;,&quot;=
+text&quot;:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&quo=
+t;class&quot;:null}" style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0; text-align: center;"><a class=3D"button primary"=
+ href=3D"https://substack.com/app-link/publications/10025/drafts/bdc3e87d-d=
+410-4226-91b1-5ac3aabe060e?publication_id=3D10025&post_id=3D110880947" rel=
+=3D"" style=3D"background-color: #67bdfc; border: none; border-radius: 4px;=
+ box-sizing: border-box; color: #ffffff !important; cursor: pointer; displa=
+y: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; lin=
+e-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; t=
+ext-align: center; text-decoration: none !important; white-space: nowrap;">=
+<span style=3D"color: #ffffff; text-decoration: none;">Continue Reading Onl=
+ine</span></a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr st=
+yle=3D"background: #e0e0e0; border: none; height: 1px; margin: 32px 0; padd=
+ing: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;"><em><span>Thanks to </span><a href=3D"https://subs=
+tack.com/redirect/eaaee3ce-fc0a-4f86-bedc-a8be198ed21e?j=3DeyJ1IjoiOXAwZ3Qi=
+fQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #4=
+04040; text-decoration: underline;">Dan</a><span> for editing, </span><a hr=
+ef=3D"https://substack.com/redirect/d654c98d-2149-4b75-950d-687932066400?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Anton</a><span> for =
+teaching me about Attention is All You Need, and </span><a href=3D"https://=
+substack.com/redirect/eabb6db7-5ddf-426d-a77a-db6ec79983f9?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color=
+: #404040; text-decoration: underline;">Ben Thompson</a><span> for the insi=
+ghts that keep on giving (and congrats on 10 years!)!</span></em></p><div s=
+tyle=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e0e0=
+e0; border: none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">That&#8217;s all for today. If you found today&#8217;s post useful, share=
+ it with a friend or two. If you didn&#8217;t, thanks for making it all the=
+ way down here anyway :) We&#8217;ll be back in your inbox on Friday with a=
+nother Weekly Dose of Optimism.</p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">Thanks for reading, </p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0; margin-bottom: 0;">Packy</p></div></div><div class=3D"container-border" =
+style=3D"border-top: 1px solid #e0e0e0; box-sizing: border-box; font-size: =
+16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div class=
+=3D"post-cta typography markup" style=3D"font-size: 16px; line-height: 26px=
+; margin: 32px 0; margin-bottom: 32px; text-align: initial; word-break: bre=
+ak-word;"><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 auto 20px; margin-top: 0; text-align: center; width: 90%;"><span>N=
+ot Boring by Packy McCormick is free today. But if you enjoyed this post, y=
+ou can tell Not Boring by Packy McCormick that their writing is valuable by=
+ pledging a future subscription. You won't be charged unless they enable pa=
+yments.</span></p><p class=3D"cta-box" style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 auto 20px; margin-bottom: 0; margin-left=
+: auto; margin-right: auto; text-align: center; width: 90%;"><a role=3D"but=
+ton" href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym=
+9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJwIjoxMTA4ODA5NDcsInMiOjEwM=
+DI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc5OTIwNjU5LCJleHAiOjE2ODI1MTI2=
+NTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.bO4h8u53evFF3HVksjV9g7=
+vVP-wwbDgNj60ESzwTIsE?&utm_source=3Dsubstack&utm_medium=3Demail&utm_content=
+=3Dpostcta" class=3D"button primary" style=3D"background-color: #67bdfc; bo=
+rder: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !imp=
+ortant; cursor: pointer; display: inline-block; font-family: -apple-system,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font=
+-weight: 600; height: 40px; line-height: 20px; margin: 0; opacity: 1; outli=
+ne: none; padding: 10px 20px; text-align: center; text-decoration: none !im=
+portant; white-space: nowrap;">Pledge your support</a></p></div><table role=
+=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"email-ufi-2-bottom" style=3D"border-bottom: 1px solid #e0e0=
+e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><tr height=3D"16"><td =
+height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr><tr=
+><td><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentation" width=3D"auto=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 0 auto;=
+"><tr><td style=3D"vertical-align: middle;"><table role=3D"presentation" wi=
+dth=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D=
+10025&post_id=3D110880947&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLik=
+e=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEwODgwOTQ3LCJyZW=
+FjdGlvbiI6IuKdpCIsImlhdCI6MTY3OTkyMDY1OSwiZXhwIjoxNjgyNTEyNjU5LCJpc3MiOiJwd=
+WItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ9.e8ngN2URWGhFn7igVbTbcs8oj2ZgUzzSRTVcocS=
+Mabw&utm_medium=3Demail" class=3D"email-button-outline" style=3D"border: 1p=
+x solid #e0e0e0; border-radius: 100000px; color: #808080; display: inline-b=
+lock; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500=
+; line-height: 12px; padding: 9px 14px; text-decoration: none; text-transfo=
+rm: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scal=
+e,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%=
+2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26=
+strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !importan=
+t; margin-right: 8px; max-width: 18px; min-height: 18px; min-width: 18px; v=
+ertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button=
+-text" style=3D"vertical-align: middle;">Like</span></a></td></tr></table><=
+/td><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-ali=
+gn: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://=
+substack.com/app-link/post?publication_id=3D10025&post_id=3D110880947&utm_s=
+ource=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=
+=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTEwODgwOTQ3LCJpYXQiOjE2Nzk5MjA2=
+NTksImV4cCI6MTY4MjUxMjY1OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGl=
+vbiJ9.cgEWAR5ubEiTL3ErN1bz_F2pT35EkE43L4e5B8m111M&utm_source=3Dsubstack&utm=
+_medium=3Demail" class=3D"email-button-outline" style=3D"border: 1px solid =
+#e0e0e0; border-radius: 100000px; color: #808080; display: inline-block; fo=
+nt-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-h=
+eight: 12px; padding: 9px 14px; text-decoration: none; text-transform: uppe=
+rcase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucide=
+Comments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strok=
+eWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; ma=
+rgin-right: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertic=
+al-align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text=
+" style=3D"vertical-align: middle;">Comment</span></a></td></tr></table></t=
+d><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align=
+: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://su=
+bstack.com/app-link/post?publication_id=3D10025&post_id=3D110880947&utm_sou=
+rce=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&action=3Dshare&trigge=
+rShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9=
+pZCI6MTEwODgwOTQ3LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI6MTY4MjUxMjY1OSwiaXNzIjoicH=
+ViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cgEWAR5ubEiTL3ErN1bz_F2pT35EkE43=
+L4e5B8m111M" class=3D"email-button-outline" style=3D"border: 1px solid #e0e=
+0e0; border-radius: 100000px; color: #808080; display: inline-block; font-f=
+amily: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-heigh=
+t: 12px; padding: 9px 14px; text-decoration: none; text-transform: uppercas=
+e;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShar=
+e%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%=
+3D2" width=3D"18" height=3D"18" style=3D"border: none !important; margin-ri=
+ght: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-alig=
+n: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" style=
+=3D"vertical-align: middle;">Share</span></a></td></tr></table></td></tr></=
+table></td><td align=3D"right"><table role=3D"presentation" width=3D"auto" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr></tr></table></td></tr=
+></table></td></tr><tr height=3D"16"><td height=3D"16" style=3D"font-size: =
+0px; line-height: 0;">&#160;</td></tr></table><div class=3D"footer frontend=
+-email-shared-typed-module__footer--WmMp1" style=3D"color: #808080; font-si=
+ze: 16px; line-height: 26px; padding: 24px 0; text-align: center;"><div cla=
+ss=3D"frontend-email-shared-typed-module__footerSection--9vwqp" style=3D"fo=
+nt-size: 16px; line-height: 26px; padding: 0 24px;"><div style=3D"color: #4=
+04040; font-family: 'SF Pro Display', -apple-system-headline, -apple-system=
+, -system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 16px; font-weight: 700; letter-spacing: -.31px; line-height: 20px; margi=
+n: 0; margin-bottom: 4px; text-decoration: unset;" class=3D"frontend-pencra=
+ft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-16--yeezN =
+frontend-pencraft-Text-module__line-height-20--1soeQ frontend-pencraft-Text=
+-module__weight-bold--VnIZR frontend-pencraft-Text-module__font-display--v0=
+e_A frontend-pencraft-Text-module__color-primary--2I-sF">Read Not Boring by=
+ Packy McCormick in the app</div><div style=3D"color: #808080; font-family:=
+ -apple-system, -system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helveti=
+ca, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; letter-spacing: -.15px; line-heigh=
+t: 20px; margin: 0; margin-bottom: 16px; text-decoration: unset;" class=3D"=
+frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__=
+size-14--1PYz8 frontend-pencraft-Text-module__weight-normal--mEmBf frontend=
+-pencraft-Text-module__font-text--hJYwu frontend-pencraft-Text-module__colo=
+r-secondary--XjVGl frontend-pencraft-Text-module__body4--flxpT">Listen to p=
+osts, join subscriber chats, and never miss an update from Packy McCormick.=
+</div><div style=3D"font-size: 16px; line-height: 26px;"><a href=3D"https:/=
+/substack.com/redirect/454b9586-5d71-4c1b-b581-ac452f3958a2?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer-=
+button" style=3D"border-radius: 8px; display: inline-block; margin: 0 4px; =
+overflow: hidden; text-decoration: none;"><img alt=3D"Get the iOS app" src=
+=3D"https://substackcdn.com/image/fetch/w_246,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fapp-store.=
+png" width=3D"123" height=3D"40" style=3D"border: none !important; max-widt=
+h: 550px; vertical-align: middle;"></a><a href=3D"https://substack.com/redi=
+rect/f9574ae5-bf2e-4c1f-b724-5e300e04d98e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer-button" style=3D"b=
+order-radius: 8px; display: inline-block; margin: 0 4px; overflow: hidden; =
+text-decoration: none;"><img alt=3D"Get the Android app" src=3D"https://sub=
+stackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fgoogle-play.png%3Fv%3D1" =
+width=3D"135" height=3D"40" style=3D"border: none !important; max-width: 55=
+0px; vertical-align: middle;"></a></div></div><div class=3D"frontend-email-=
+shared-typed-module__divider--1oKOZ" style=3D"border-top: 1px solid #e0e0e0=
+; font-size: 16px; line-height: 26px; margin: 24px 0;"></div><div style=3D"=
+font-size: 16px; line-height: 26px; padding-bottom: 24px;"><p class=3D"fron=
+tend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size=
+-12--2onFT frontend-pencraft-Text-module__color-secondary--XjVGl small fron=
+tend-email-shared-typed-module__meta--AAyPr" style=3D"color: #808080; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; letter-spacing: 0; line-height: 16px; margin: 0; padding-=
+bottom: 0; text-decoration: unset;">&#169; 2023 <span>Packy McCormick</span=
+><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://substack.com/=
+redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2Vt=
+YWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEV3T0R=
+nd09UUTNMQ0pwWVhRaU9qRTJOems1TWpBMk5Ua3NJbVY0Y0NJNk1UWTRNalV4TWpZMU9Td2lhWE=
+56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlloMDhkV=
+kZua081Tmp0SmlWcGh3WlZJNHZhdXdMQ2ZZS1VjcHd0MzZ5cVUiLCJwIjoxMTA4ODA5NDcsInMi=
+OjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc5OTIwNjU5LCJleHAiOjE2ODI=
+1MTI2NTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.NEntAZFjP12BLHN3W=
+DRTFf0nmJLs3_sEyBnHJSx0F2w?" style=3D"color: #808080; text-decoration: unde=
+rline;"><span style=3D"color: #808080; text-decoration: underline;">Unsubsc=
+ribe</span></a></p></div><p class=3D"frontend-email-shared-typed-module__fo=
+oterSection--9vwqp small powered-by-substack" style=3D"color: #808080; font=
+-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 12px; line-height: 20px; margin: 0; margin-top: 0; padding: 0 =
+24px; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/2/eyJlIj=
+oiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9v=
+dGVyJmZyZWVTaWdudXBFbWFpbD1ub3Rib3JpbmdAa2hhbWVsLmNvbSIsInAiOjExMDg4MDk0Nyw=
+icyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2Nzk5MjA2NTksImV4cCI6MT=
+Y4MjUxMjY1OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.UEig1OVgv0jyV=
+3OdjVd5-6yscg0ib_niYzO31dzde14?" style=3D"color: #808080; display: inline-b=
+lock; margin: 0 4px; text-decoration: none;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcset=3D"=
+https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.pn=
+g, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button=
+%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpub=
+lish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=3D"40" =
+style=3D"border: none !important; max-width: 550px; vertical-align: middle;=
+"></a></p></div></div></td><td></td></tr></table><img src=3D"https://mailgu=
+n.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMwMzI3MTIzNzI3LjMuZj=
+kxODM1YjkwMTI2MGNjYUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub=
+3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxMTA4ODA5=
+NDcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0Iiw=
+iZiI6dHJ1ZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE2Nzk5MjA2NjAsImV4cCI6MTY4Mj=
+UxMjY2MCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.z2J2dCCNDU4H--Sdp4aUKQlDU7wBvRp6=
+Ash0NOJsC80" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height=
+:1px !important;width:1px !important;border-width:0 !important;margin-top:0=
+ !important;margin-bottom:0 !important;margin-right:0 !important;margin-lef=
+t:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding=
+-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" height=
+=3D"1px" alt=3D"" src=3D"https://email.mg-d0.substack.com/o/eJxFkMGOhCAQRL9=
+mua1pYAQ58C0EoXXIKBhsZ-PfL47Jbh-7K_WqK3jCudTTbmUnhqtPi5sxY2376DxZrrQxAlRv2r=
+BolfRTH1na3VTxo7dUD2TbMS4peEoluxQtBxA9e1phjAx9UFL3kvMJlAh8bBYTYFBKKHZxnT9iw=
+hzQ4hvrWTKyUNYVM11Wt-Ty5DAMYB6aJStASJBCcyG10J3sJsMH2Y8GuFAQgv96wDp_R-j2Y9zJ=
+h1fXLFm1udBYaspzE7yefsXlc2jx3cU8cqLTYfbjgvH-jO5ujh3rJ4USDfQwdyw6N7QZf_YFibC=
+yRoultZL_QQz_StTqF2ouenY"></body></html>
+--cef6acdf3bbd0fac1e9a2730aecea01bb1bd9167e2150b1b802db0d86dd6--

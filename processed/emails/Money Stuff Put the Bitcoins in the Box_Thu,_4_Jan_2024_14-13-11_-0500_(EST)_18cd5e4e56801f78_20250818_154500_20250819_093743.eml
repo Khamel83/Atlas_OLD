@@ -1,0 +1,2034 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e047:0:b0:680:b191:1941 with SMTP id y7csp2331177qvk;
+        Thu, 4 Jan 2024 11:13:17 -0800 (PST)
+X-Received: by 2002:a5d:6e08:0:b0:336:c5e2:fc9e with SMTP id h8-20020a5d6e08000000b00336c5e2fc9emr622617wrz.35.1704395596860;
+        Thu, 04 Jan 2024 11:13:16 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1704395596; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=dQkNhdayBknvxUm8X79x4FEEEN/Cn8KH0shEdsdxTwVGwzYUiQd0tloKfyg3ypobqn
+         ASjlzv1dEm3hjsMrboYLN0CfzgipKXaKKRAkjqrUwaHOO7Us/rja+M5JKitfvdiv6SnR
+         woC75w9xqCWC/QD76UqEEZbfCH5uZv2Xy8vImOM6BHWKyxgJjVHLMyc5nchw6BmnS5SN
+         nanI2Ae5kz3xXFOenORt6w+5i6WOA4r/uchO1JBbFesogNTPRw7YZRvkMs2MQKr6Mvt1
+         2u5uCwqz+/6sx9AEpRXYGKK/j4XpzcS7CAB1/3yCRnoRpXTPd586Jmtw6j5QHJwu5CCf
+         OAYQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Pnlawlaq4hcVNEz46ZV0sLuUiBcVH/Yzk4VVKHlM3uw=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=fR5pu4MDGuBsQL0THTVepIfxh2ovj5rauicE/aPrHQ5HLJ9WNnGNwaT1FY9CctuDPF
+         L0FjbJLAdc723a2BQdWzOZOGFSeX4bHbC9LFFpsanxcC148xyuYzGFIf40HPQ3MeQxpX
+         LAlKCW5VewYKW5S33DfnM6tmx/KzMNc0bdubsMARw314yCxNhmPuM6nxeF6wIcjVfSMu
+         dpTHL8Vtgnc/JxIJqdQ3izHaJoT3WJYAqIDcF8jmZ/xCGuyKs6xFd9C7KInseDGvsMkR
+         Nr4R5qZ6d1LJByvSjQI0NRVm0J2HDeEEU0f/fSK7IsV/H+R8WdekOvR6Kdkxdj+dBPjI
+         7KaA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DE0V5n2a;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z12-20020adfc00c000000b0033683c5f7f5sor3612331wre.2.2024.01.04.11.13.16
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 04 Jan 2024 11:13:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DE0V5n2a;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704395596; x=1705000396;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Pnlawlaq4hcVNEz46ZV0sLuUiBcVH/Yzk4VVKHlM3uw=;
+        b=JR3XgLs/97PPK9BJxyg601fEb5rE0j+yFSCCsftnyEXYsffpxlLvT3spIr02qTQG+g
+         ICXvzC65x99YwFvMvsEL1+YJWGCO8ujyzlhEDo5o/TSQyxQqVfk2CzpvXMSYWMxmGBRa
+         BZd+EFQDCGyQmuHtVJlAtnyGkzvZ1vUqR90TecR0Xi0oTWCh1Wa162XdDCevWINu+4DD
+         5eJ2e9/BllP36+TB3lKOmJJmfY1qEyj00ltow5bGHdNRMysihN46a6lAORrpCvIo7GZs
+         TUDD3jvBnl8xr6fcPicMq/J2jCvOuOSf5LY6VRgAsSjZzD1+ErXDJmTig+ah/REIrcr2
+         3W9Q==
+X-Gm-Message-State: AOJu0YzONCGjxQCrzlrb5LBuLogxmsvj/bert3QXk36DzkcTmzbCqYSw
+	j7yOcbW259idpPZFjKjuf1CwsgWZM3jyX0nUsu5PSblO63WQUU6cpw==
+X-Received: by 2002:adf:e0c6:0:b0:336:a5db:e7cf with SMTP id m6-20020adfe0c6000000b00336a5dbe7cfmr576220wri.47.1704395596291;
+        Thu, 04 Jan 2024 11:13:16 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4cce:0:b0:333:384e:c9a6 with SMTP id c14csp6675598wrt;
+        Thu, 4 Jan 2024 11:13:13 -0800 (PST)
+X-Received: by 2002:a05:6a20:4298:b0:18c:4f:ce9e with SMTP id o24-20020a056a20429800b0018c004fce9emr1101645pzj.43.1704395592963;
+        Thu, 04 Jan 2024 11:13:12 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1704395592; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=u3Gn6NzzAQfpq2VaoQDJwVjqmBEa6GaXjrTiSA44J/Ibya+KeOGA4YKYQJMXN2LcpJ
+         LF/q+FwNo15V2zMGNBaOsvb04gw5fUqLdwLSnUZHqr2EON5fNxj6tu1yegiBmaEZOYKG
+         LjIx/3E9CZw2OA8Agwj8Ej2jBwhdKhUwxhm4GUC2PXzXGLC4SfDSQ4f4TPt1zWXdXiUh
+         77wGayUEqqmDMWmNGX2e2Qf0D1LcnJ7nvuEJvXyCAwksOIfJ+jF3laCKzvur8cJIe1TW
+         pWQ2O4QBPGFsMYvN2fOUQB+uYPCnr7Lcff453NyvZv5KD15ZKjg28brI+zipuKNUp0FN
+         jcyA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Pnlawlaq4hcVNEz46ZV0sLuUiBcVH/Yzk4VVKHlM3uw=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=PxK766IovLAeWoYSuVkkLUi6BCxNZXgWj1yjG6rG5cZMIVhVOFWGFGRztDHllrQcMo
+         Ufb8AncLyiEfYcn3C4R2BgZwBLZMYawY9/X+ZlzEVoomAaUX4a8RIsc/B0lCeA6w5coY
+         z8UbEX++MCeOqrsq4IUGp8CIeAgI3F72zUCd9SKnJTksBt7GjRaUjJpYN9/k7opHE+gC
+         AyqVb77TElUKQ2sWUU+gy+wvVSW0g4STO4WVuvTUyPd4ForTZcVzllh5ySK6UJLFNbOE
+         6hbQQ39nnJbuuxy1dNMl26uwF/b4Cm0njuxNfqOe/yFYD5GJTVIFgoeQqY187AzY6WVx
+         EL1A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DE0V5n2a;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20240104141311.33892453.286409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20240104141311.33892453.286409@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240104141311.33892453.286409@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q139-20020a632a91000000b005cdf7ad5205sor41165pgq.4.2024.01.04.11.13.12
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 04 Jan 2024 11:13:12 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20240104141311.33892453.286409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IFsYDIA2MQ6l+eVnJHcswdixM+YYKZGNgfvG/iaW4gfk65py0yCf3zd4hjgM5NU8bJdl9tK7pRdCmyH9RSjfAHAR7r/QrE=
+X-Received: by 2002:a05:6a20:12c4:b0:197:40b3:3cdd with SMTP id v4-20020a056a2012c400b0019740b33cddmr1146103pzg.13.1704395592548;
+        Thu, 04 Jan 2024 11:13:12 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1704395592; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TXAWE8WNeMVJm0/Euztf+IeHoUyXAgaL2kcGl25/kB9Yt6LWgg1vrIdBF4TnQ53JE1
+         Sxut9pVsxxBk3/ouG1WoX2JrFdpT7C4uxRTtz80tLE9zgrJkZi0xJGUjkNvzMM5KgEMP
+         t4b0e/ow+wEw8FXwu93GApgxXGyNYzKck7ptzX7Qj4y51I9s3Ouq5K0hiB5uz3dMSmZE
+         0iUgPJZ0h9IBWDg1n+3SEDJh0yN1rMltTuGPsFMveQFQdfneAXIpBVGbdueiW+IuA0ll
+         rsbNFXRxhRX5ST9A2dAi5o+RO6eNhBf6Eozyjrw/6CnOKhwP8iO9qj/Y23t3ViJbmH8x
+         hQjg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Pnlawlaq4hcVNEz46ZV0sLuUiBcVH/Yzk4VVKHlM3uw=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Zn+gCN2QViAFAmF0HKKuY9g8sesrGmgcu7el5ds6/P8n/Cxyy3BENqTkLmf5MPLLUS
+         sd9WlkhvU51p1HJA9EIcsbKcb8LH3aB/axHmIGT14i0NKZfTU5mlShE12U3n61d8Fv9e
+         OpiiQD0pWXm9oKEtQi1QKeHLiEwqdcxOD2cI6R4M/5HwmPQ3ReJ1wDDMtwHeHohyznZK
+         Tk3Z+aI9f47YZ1S4AmSk/SbkAYmQfyuGOPZSWj3BYXhCH+rwY0N/hhXMHD6KwTF+p2cD
+         zuI1F/hz6FTPbAJc6GH7zI37JvGZ46Ek69RJhnkc7BH0EAOKjtBAgjl6nezKDf+RF24E
+         rJNA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DE0V5n2a;
+       spf=pass (google.com: domain of delivery_20240104141311.33892453.286409@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20240104141311.33892453.286409@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240104141311.33892453.286409@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id 83-20020a630056000000b005ce01d5b09esi2261pga.5.2024.01.04.11.13.12
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 04 Jan 2024 11:13:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20240104141311.33892453.286409@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=6Zi+uMlLZPZJpWD2LeQPs4bF31NnooPL9Bg1QN/VySo=;
+ b=DE0V5n2aM7CXuPaeKzRDPnBQnrPLyYuyDEWQGv0XsyE06nU8Bytuf4efJ27BH5H7KNN3RlGlusQ3
+   mIZQEL/okN+obZmawqJGH9FyccmlwDkDkZxT0AE9cEjJuavw7137x6NAwhwWj6FLa6WIeK4q4aLR
+   83LESU1WbC9ZCQLwOaM=
+Received: from aws1-mta-relay1.sailthru.cloud (10.55.90.180) by bloomberg-b.sailthru.com id his1ke30nu86 for <bloomberg@khamel.com>; Thu, 4 Jan 2024 13:13:11 -0600 (envelope-from <delivery_20240104141311.33892453.286409@mx.sailthru.com>)
+Date: Thu, 4 Jan 2024 14:13:11 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240104141311.33892453.286409@sailthru.com>
+Subject: Money Stuff: Put the Bitcoins in the Box
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_133109870_353700743.1704395591406"
+Precedence: bulk
+x-job: 6358-33892453-20240104
+X-Feedback-ID: 6358:33892453:campaign:sailthru
+X-TM-ID: 20240104141311.33892453.286409
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-91-133.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck6fl1.64zt/266cacaa
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck6fl1.64zt/266cacaa>, <mailto:unsubscribe_20240104141311.33892453.286409@mx.sailthru.com>
+X-rpcampaign: stjko33892453
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_133109870_353700743.1704395591406
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+I began yesterday=E2=80=99s column by saying that I used to write a lot abo=
+ut cry
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      BDR
+   =20
+ =20
+
+I began   yesterday=E2=80=99s column by saying that I used to write a lot a=
+bout crypto, but I am trying to do less of it these days. The main reason, =
+I wrote, is that crypto used to be a laboratory for rediscovering central i=
+ntuitions about finance: Crypto was building a brand-new alternative financ=
+ial system from scratch, and crypto enthusiasts were discovering solutions =
+to financial problems for themselves. Sometimes those solutions were better=
+ than the traditional solutions, and sometimes they were worse,=C2=A0and so=
+metimes they just used new terminology to re-describe solutions that tradit=
+ional finance discovered years ago, but in any case they were=C2=A0fun to w=
+rite about. Better, or worse, or the same, they provided a lens through whi=
+ch to see traditional finance; seeing why crypto did something, and why it =
+did or didn=E2=80=99t work, could help you understand why traditional finan=
+ce does things the way it does.
+This worked because, in=C2=A02020 and 2021, crypto=E2=80=99s=C2=A0financial=
+ system=C2=A0was developing at a much more rapid pace than, you know, its u=
+nderlying real-world utility. People were using crypto to build lots of cle=
+ver and exciting new ways to trade crypto, or trade crypto derivatives, or =
+  front-run crypto trades, or build infinitely leveraged crypto shadow bank=
+s, or steal money from customers; all of that was interesting if you were i=
+nterested in financial systems. If you were interested in useful consumer p=
+roducts crypto was maybe less exciting, but that=E2=80=99s not my beat so I=
+ couldn=E2=80=99t tell you.
+  [1]
+
+And then in 2022 and 2023, the crypto financial system was=C2=A0fascinating=
+=C2=A0to write about, because many of its big institutions =E2=80=94=C2=A0c=
+ulminating in FTX Trading Ltd. =E2=80=94=C2=A0collapsed in clouds of smoke =
+and there were tons of even better stories about, like, why leverage is dan=
+gerous and how bankruptcy works and so forth. (I got my start as a financia=
+l journalist a few years after the 2008 financial crisis, which was a great=
+ time, because there were tons of court cases that brought to light both ho=
+w the 2000s shadow-banking boom developed and how it collapsed; 2022 was cr=
+ypto=E2=80=99s 2008, and 2023 was its 2013.)
+But after that collapse, the crypto financial system does seem to have gott=
+en more boring, or at least if it=E2=80=99s still doing fun stuff it is qui=
+eter about it. (This, too, is reminiscent of the banking industry after 200=
+8: Banking was supposed to be boring, and mostly it was boring, and when it=
+ was interesting it didn=E2=80=99t pay to brag about that.)
+To the point that if you have read a story about crypto so far in 2024, it =
+is overwhelmingly likely to be about the following topic: =E2=80=9CPeople w=
+ant to be able to put Bitcoins into a box and then sell shares of the box t=
+o regular investors in the regular financial system using their regular bro=
+kerage accounts.=E2=80=9D=C2=A0The=C2=A0big  innovation in  crypto in early=
+ 2024, the thing that has driven up prices, is anticipation that the US Sec=
+urities and Exchange Commission will approve a   spot Bitcoin exchange-trad=
+ed fund this month. Then ETF providers =E2=80=94=C2=A0including=C2=A0tradit=
+ional financial firms like BlackRock and Fidelity=C2=A0=E2=80=94=C2=A0will =
+be able to hold Bitcoins in a pot, and institutional and retail investors w=
+ill be able to buy and sell shares of that pot to get exposure to Bitcoin=
+=E2=80=99s price without actually owning Bitcoin. This, it is thought, will=
+ increase the price of Bitcoin.
+If your interest in crypto is =E2=80=9Cnumber go up,=E2=80=9D this is good.=
+ If your interest in crypto is =E2=80=9Cthis is the financial system of the=
+ future and will increasingly be adopted by big institutions and ordinary p=
+eople,=E2=80=9D this is a mixed bag: On the one hand, there is a lot of opt=
+imism about ETF approval driving retail and institutional adoption; on the =
+other hand, =E2=80=9Ceveryone owns Bitcoin through a BlackRock ETF in their=
+ Fidelity brokerage account=E2=80=9D is not quite proof that crypto is the =
+financial system of the future. If your interest in crypto is =E2=80=9Ccryp=
+to keeps coming up with fun new ways to do finance,=E2=80=9D though, this i=
+s pretty boring. Crypto=E2=80=99s fun new way to do finance is to put Bitco=
+in in a box and sell you shares of the box; the goal is to transmute Bitcoi=
+n =E2=80=94=C2=A0this decentralized disintermediated trustless novel form o=
+f money that was meant to replace the banks and brokerages=C2=A0=E2=80=94=
+=C2=A0into regular stocks.
+Anyway while you wait for the ETF,   here=E2=80=99s Bloomberg=E2=80=99s Muy=
+ao Shen:
+
+As speculation about the upcoming approval or denial of spot-Bitcoin ETFs r=
+eaches a fever pitch, a group of former Citigroup Inc. executives is starti=
+ng to offer securities backed by the oldest cryptocurrency that they say do=
+n=E2=80=99t need the blessing of US regulators.
+The new offering, called Bitcoin depositary receipts, will be similar to Am=
+erican depositary receipts that represent foreign stocks. The startup, call=
+ed Receipts Depositary Corporation, or RDC, said it plans to issue the firs=
+t Bitcoin depositary receipts to qualified global institutional investors i=
+n transactions exempt from registration under the Securities Act of 1933.
+Known as BTC DRs, the offering will give institutions access to Bitcoin sec=
+urities through US regulated market infrastructure and cleared through the =
+Depository Trust Co., according to a release from the company. =E2=80=A6
+Broadridge Corporate Issuer Solutions will serve as the transfer agent and =
+Anchorage Digital Bank National Association will handle custody of the unde=
+rlying Bitcoin. RDC is backed by investors including Franklin Templeton, BT=
+IG and Broadhaven Ventures, according to its press release. =E2=80=A6
+Compared with Bitcoin ETFs that will be redeemed for cash, Mehta said that =
+depositary receipts offer direct ownership of Bitcoin for qualified institu=
+tions. Buying Bitcoin directly isn=E2=80=99t the most-preferred option for =
+some regulated institutions, he added, since crypto markets face challenges=
+ including security risks and regulatory uncertainty. Some of the challenge=
+s are similar to those once seen for Americans investing in foreign compani=
+es, which were mitigated by American depositary receipts.
+
+A spot=C2=A0ETF is probably the most broadly convenient way to put Bitcoins=
+ in a box and sell shares of the box, but the basic concept is very simple =
+and obvious and can be implemented in a lot of ways. The ETF implementation=
+ has the two advantages that (1) anyone can buy and sell shares of the box =
+and (2) the=C2=A0box=C2=A0can easily create or redeem shares for Bitcoins, =
+meaning that the share price of the box really should track the price of Bi=
+tcoin. Whereas the leading existing box of Bitcoins,   the Grayscale Bitcoi=
+n Trust, has the first advantage =E2=80=94=C2=A0it is pretty freely tradeab=
+le by anyone
+  [2]
+=C2=A0=E2=80=94=C2=A0but not the second: For securities law reasons, it can=
+=E2=80=99t freely redeem its shares for Bitcoins, so its share price has di=
+verged widely from the price of Bitcoin.
+  [3]
+ (Grayscale also intends to convert into an ETF, when the SEC allows it to.=
+)
+Meanwhile this box =E2=80=94=C2=A0BTC DRs =E2=80=94=C2=A0has the second adv=
+antage (easy convertibility and price tracking) but not the first: To avoid=
+ the need for SEC approval and registration, it will only sell its shares t=
+o institutional investors in private transactions. This box is just =E2=80=
+=9Cif you are an institutional investor, we will give you Bitcoin wrapped u=
+p in a security, so you can hold it in your ordinary custody account and tr=
+ansfer it through the Depository Trust Co. and generally have the experienc=
+e of holding a stock or bond, not a weird crypto thing, except the stock=E2=
+=80=99s price happens to be the price of Bitcoin.=E2=80=9D
+And that strikes me as genuinely useful. Some investors want to be crypto i=
+nvestors, but a lot of institutional investors very much do=C2=A0not=C2=A0=
+=E2=80=94=C2=A0they do not want to spend time or money on understanding blo=
+ckchains or keeping track of private keys or complying with   SEC requireme=
+nts about   crypto custody =E2=80=94=C2=A0but still want to own Bitcoin. Ow=
+ning regular shares of stock that happen to be Bitcoins is, for them, very =
+useful; it domesticates Bitcoin into the regular financial system. It=E2=80=
+=99s just that that=E2=80=99s boring. In 2021, as FTX was heading toward a =
+$32 billion valuation, its ambition was to tokenize all the stocks, become =
+the next Goldman Sachs, rebuild all of the traditional financial system on =
+crypto rails. In 2024, the ambition for crypto is to make Bitcoin a stock, =
+to finally get crypto onto traditional rails.
+This particular innovation is so old that   I wrote about it back in 2018,=
+=C2=A0when these former Citigroup executives were just Citigroup executives=
+, and Citi was going to do the depository receipts:=C2=A0
+Here is Citigroup Inc. looking at investor demand and concluding: Yes, sure=
+, Bitcoin is great, but what Bitcoin investors really want is to hold Bitco=
+ins in the form of=C2=A0receipts issued by a giant bank and registered at D=
+TCC. That=E2=80=99s where the real innovation is! That=E2=80=99s what the p=
+eople want! =E2=80=9CTake this blockchain away from me,=E2=80=9D they cry, =
+=E2=80=9Cand give me the old system that I know!=E2=80=9D
+In 2024 that is=C2=A0obviously=C2=A0what they want.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      A DAO
+   =20
+ =20
+
+A lot of innovations in crypto have two separate but related rationales:
+=09This thing is the future of human society!=09This thing avoids securitie=
+s law!
+
+I remember when blockchains were touted=C2=A0both=C2=A0as a new way to keep=
+ track of all of the world=E2=80=99s information and also, somehow, a way a=
+round securities law: If you put stock on the blockchain, the theory went, =
+the US Securities and Exchange Commission couldn=E2=80=99t regulate it. (Th=
+is theory has fallen out of favor, but  not entirely.)=C2=A0
+Or=C2=A0people in crypto have  spent years arguing that decentralized auton=
+omous organizations are a new and better way to organize economic activity,=
+ never seen before. (This is wrong and  they are general partnerships, but =
+never mind.) But there are also sometimes arguments=C2=A0that DAOs are a wa=
+y around securities regulation: If some crypto project (a decentralized exc=
+hange, a lending platform, whatever) is run by a DAO rather than by a compa=
+ny, then it is more robust to regulation; regulators can=E2=80=99t fine the=
+ DAO or arrest its leaders, because it is decentralized and computerized an=
+d thus resistant to government interference.
+My guess is that this is partly correct: Some decentralized crypto projects=
+ really do run as more or less autonomous code on distributed blockchains a=
+nd really=C2=A0can=E2=80=99t=C2=A0be shut down by an SEC order.
+  [4]
+=C2=A0But there do seem to be a lot of  $5 wrench vulnerabilities in crypto=
+, where =E2=80=9Cdecentralized autonomous organization=E2=80=9D is a fancy =
+way of saying =E2=80=9CDiscord page for voting on stuff,=E2=80=9D and the S=
+EC can find the Discord=E2=80=99s administrator and say =E2=80=9Chey we can=
+ make your life bad if you don=E2=80=99t shut down this DAO=E2=80=9D and th=
+e administrator shuts it down and everything was a lot less decentralized a=
+nd autonomous and organized than people thought.
+Last month the SEC  shut down a DAO:
+
+The Securities and Exchange Commission [Dec. 22] announced that BarnBridge =
+DAO, a purportedly decentralized autonomous organization, and its two found=
+ers, Tyler Ward and Troy Murray, will pay more than $1.7 million to settle =
+charges that they failed to register BarnBridge=E2=80=99s offer and sale of=
+ structured crypto asset securities known as SMART Yield bonds. The Commiss=
+ion also charged the respondents with violations stemming from operating Ba=
+rnBridge=E2=80=99s SMART Yield pools as unregistered investment companies. =
+To settle the SEC=E2=80=99s charges, BarnBridge agreed to disgorge nearly $=
+1.5 million of proceeds from the sales, and Ward and Murray each agreed to =
+pay a $125,000 civil penalties.
+=E2=80=9CThe use of blockchain technology for the unregistered offer and sa=
+le of structured finance products to retail investors runs afoul of the sec=
+urities laws," said Gurbir S. Grewal, Director of the SEC=E2=80=99s Divisio=
+n of Enforcement. "This case serves as an important reminder that those law=
+s apply to all who wish to access our capital markets, regardless of whethe=
+r they are, or purport to be, incorporated, decentralized or autonomous.=E2=
+=80=9D
+
+Reading  the SEC order, it is a little puzzling how BarnBridge could have s=
+ettled the case. It=E2=80=99s a DAO? Did it, like, take a vote? Apparently =
+not; apparently the SEC got to the founders and the founders shut it down:
+In July 2023, Ward and Murray took steps to close investments in a second v=
+ersion of SMART Yield that had launched in January 2023, after BarnBridge D=
+AO had stopped offering investments in SMART Yield Pools described in this =
+Order. Ward and Murray also canceled a new product launch, limited access t=
+o Discord, Github, and other platforms used by BarnBridge DAO, and stopped =
+development of further securities using the BarnBridge protocol.
+So not=C2=A0that decentralized or autonomous.
+
+ =20
+   =20
+      Portable credit
+   =20
+ =20
+
+We talked a while back about   assumable mortgages.=C2=A0A lot of homeowner=
+s in the US have mortgages with 3%-ish interest rates that they got a few y=
+ears ago, but if you try to get a mortgage today, it will have a 7%-ish int=
+erest rate. If I own a house and have a 3% mortgage, and I want to sell it =
+to you and you want to buy it, you will go to a bank and get a 7% mortgage,=
+ and your bank will give you the money, and you will give me the money, and=
+ I will give the money to my bank to pay off my 3% mortgage. This seems ver=
+y inefficient. You are borrowing expensive money to give to me to pay off a=
+ cheap mortgage early.
+It would be better for me, and for you, if you could just=C2=A0assume=C2=A0=
+my mortgage =E2=80=94=C2=A0if you could move into my house and keep making =
+the 3% payments on my mortgage, instead of making the new 7% payments.
+  [5]
+=C2=A0(It would arguably be worse=C2=A0for our banks:=C2=A0My bank would ra=
+ther get its below-market 3% mortgage paid off early at par, and your bank =
+would rather originate a new market-rate mortgage.
+  [6]
+)
+In the US, some mortgages are, with some contortions and hoop-jumping, assu=
+mable: Their terms provide that, if we recite exactly the right incantation=
+s, you can take over my mortgage and keep paying 3%. But most aren=E2=80=99=
+t. And a problem in the US housing market now is that everyone who has a 3%=
+ mortgage can=E2=80=99t move, because they=E2=80=99d need to get a 7% mortg=
+age somewhere else, which constrains supply.
+Private equity buyouts also work that way? Like the way a private equity bu=
+yout works is that a fund borrows a lot of money from lenders to pay some o=
+f the purchase price for the company, and then it pays down those loans ove=
+r time. And if it sells the company to another private equity firm while th=
+e loans are still outstanding, then ordinarily the loans come due immediate=
+ly, so the new private equity buyer has to go to=C2=A0its=C2=A0lenders to g=
+et new loans to pay the old private equity owner the money to hand over to=
+=C2=A0its=C2=A0lenders. And just as with mortgages, if the old owner got it=
+s loans during a period of low rates and easy credit, and the new buyer has=
+ to get its loans during a period of high rates and more difficult credit, =
+some trades won=E2=80=99t get done: The company is worth more to the old ow=
+ner, with its cheap debt, than it will be to a new owner with expensive deb=
+t.
+The analogy is not perfect: A lot of the private-equity loans will be float=
+ing-rate, so the difference is not so much =E2=80=9C3% rates versus 7% rate=
+s=E2=80=9D as it is =E2=80=9Crelatively easy credit versus more nervous cre=
+dit.=E2=80=9D And =E2=80=9Cthe loans come due immediately=E2=80=9D can mean=
+ less =E2=80=9Cthe loans come due immediately=E2=80=9D and more =E2=80=9Cth=
+e loans=C2=A0technically=C2=A0come due immediately, which gives the lenders=
+ negotiating leverage to extract fees and concessions for agreeing to roll =
+them over for the new buyer.=E2=80=9D But the basic idea is that if private=
+-equity buyout loans were assumable, then more deals would get done, becaus=
+e buyers wouldn=E2=80=99t have to worry about going out and getting new loa=
+ns in tougher credit environments.
+Here are Bloomberg=E2=80=99s=C2=A0John Sage and Ellen Schneider on   assuma=
+ble private equity loans:
+
+Private equity firms, eager to sell debt-laden businesses, are finding priv=
+ate credit firms increasingly willing to keep outstanding loans intact, eve=
+n for companies that may soon have new owners.
+The trend, known as portability, describes loans that remain essentially un=
+changed when a company gets new ownership. It carries rewards and risks for=
+ businesses and especially for lenders. Usually a change of control would a=
+llow lenders to renegotiate terms to cover potential risks from a new paren=
+t, such as different plans for growth or profitability of a business.
+After two years of rising interest costs hindering asset sales, owners are =
+seizing on recent rate stability to push for portability to get deals done.=
+ Keeping the existing loan package in place removes the need for any new bu=
+yer to find financing, making the purchase a lot more alluring.
+=E2=80=9CThe market has pivoted to include a portability feature,=E2=80=9D =
+said Bill Eckmann, head of principal finance in the Americas and senior man=
+aging director at Macquarie Capital. =E2=80=9CWe=E2=80=99re seeing more of =
+this because sponsors are looking at near-term maturities and thinking abou=
+t their exits.=E2=80=9D
+For direct lenders facing rising competition in a market that=E2=80=99s tri=
+pled to $1.6 trillion since 2015, portability provisions allow them to stay=
+ invested in assets they=E2=80=99ve already vetted and endorsed.
+=E2=80=9CIf you=E2=80=99ve found an attractive business then you may be wil=
+ling to let the debt travel to another owner,=E2=80=9D said Jon Bock, senio=
+r managing director at Blackstone Credit. =E2=80=9CFrom a self-selection st=
+andpoint, this is an opportunity for managers to extend the lives of the lo=
+an.=E2=80=9D
+
+Part of the pitch for private credit, as an alternative to traditional synd=
+icated loans, has been along the lines of =E2=80=9Cif you borrow from a pri=
+vate credit firm instead of from a syndicate of banks and hedge funds and c=
+ollateralized loan obligations, your lender will be one person with whom yo=
+u have a good relationship, and if things change in your business you can c=
+all her up and discuss things rationally instead of having to go get waiver=
+s from a dozen anonymous CLOs.=E2=80=9D You might think that this pitch wou=
+ld argue against automatic portability: =E2=80=9CDon=E2=80=99t worry about =
+it,=E2=80=9D the private-credit firm could tell its borrowers, =E2=80=9Cif =
+you want to sell, we will be very reasonable about rolling over the loans, =
+you just need to call us and talk about it.=E2=80=9D But, no, the borrowers=
+ want portability.
+
+ =20
+   =20
+      Money for votes
+   =20
+ =20
+
+Someone  sent this to me and I can=E2=80=99t not share it with you:
+
+Shareholder Vote Exchange enables investors to trade shareholder voting rig=
+hts. Passive investors can sell their votes to raise returns and provide ad=
+ditional yield. Reinvesting your earnings can also boost your portfolio's l=
+ong-term growth rate. ...
+Achieve your governance or strategic initiatives by acquiring proxy votes o=
+n Shareholder Vote Exchange. Leveraging proxies is a cost-effective way to =
+drive change and maximize capital efficiency while also rewarding other sha=
+reholders.
+
+As a former corporate equity derivatives structurer I have, over the years,=
+ thought about ways to separate shareholder voting from economic ownership,=
+ and to trade the votes separately. One obvious set of solutions is: You ar=
+e an activist hedge fund, you=C2=A0buy 10 million shares of stock (which gi=
+ves you the votes and the economic ownership), and then you sell 9 million =
+shares through a derivative (which reduces your economic ownership but=C2=
+=A0not, generally, your voting rights). So, like, buy 10 million shares in =
+the cash market, and then write a 9-million-share total return swap or put/=
+call combo or whatever. Then you own 1 million shares economically, but you=
+ have 10 million votes.
+I think that this occasionally happens, but my impression is that US activi=
+st hedge funds are   more likely to do the opposite, acquiring economic exp=
+osure to more shares than they actually own. (By=C2=A0buying=C2=A0total ret=
+urn swaps or call options or whatever.) This is partly for regulatory reaso=
+ns (buying a bunch of actual shares triggers   disclosure and   antitrust o=
+bligations that derivatives can avoid)=C2=A0and partly for   leverage reaso=
+ns (buying a lot of shares for cash takes a lot of cash, while buying/selli=
+ng with derivatives doesn=E2=80=99t take/generate as much cash.) If you are=
+ going to spend money on research and lawyers and proxy fights to do an act=
+ivist campaign, you want a=C2=A0lot=C2=A0of economic exposure, not just a l=
+ot of votes.
+There is another set of quasi-solutions around   stock lending: If you do n=
+ot value shareholder voting at all, you can just lend out your shares to sh=
+ort sellers and not recall them for votes, which is a way of exchanging you=
+r voting rights (which you don=E2=80=99t care about) for money (in the form=
+ of stock lending fees).
+But I guess the most obvious solution is just, like, go around paying retai=
+l shareholders for their votes? With some intermediary to aggregate them an=
+d take care of the mechanics?
+  [7]
+ The Shareholder Vote Exchange people are not wrong that, if someone is wil=
+ling to pay you $5 to control all your votes on all your shares for all of =
+this proxy season, you should take the money, because $5 is more than zero =
+and voting your shares is (1) worthless to you and (2) surprisingly annoyin=
+g.=C2=A0Retail investors stereotypically   don=E2=80=99t vote, and that is =
+  normally rational, so paying them any amount of money for their votes see=
+ms like a win for them.
+On the other hand, who would pay? If it is irrational to vote your own shar=
+es, it is even more irrational to pay to vote someone else=E2=80=99s, virtu=
+ally all of the time. You could imagine some sorts of activist campaigns in=
+ which it would be expressively valuable to buy some votes: If you submitte=
+d a nonbinding shareholder proposal asking some company to have more, or le=
+ss, diversity, then presumably you care about sending a message, and you mi=
+ght feel good about spending some of your own money to buy votes to make yo=
+ur proposal look more popular.
+But surely the real high-dollar case for buying shareholder votes is in=C2=
+=A0contested proxy fights, where some activist investor has millions of dol=
+lars on the line and wants to get its own slate of directors elected. (Also=
+ in contested takeovers.) And there I just have trouble imagining big activ=
+ist shareholders buying votes in proxy fights this way, in part because the=
+ disclosure and reputational issues seem like they=E2=80=99d be a mess. The=
+ distinguishing feature of proxy fights and hostile takeovers is that every=
+one sues everyone else about everything, and also =E2=80=9Cbedbugs=E2=80=9D=
+ them to the US Securities and Exchange Commission, calling up the SEC to s=
+ay =E2=80=9Chey did you notice our opponents doing something illegal?=E2=80=
+=9D Can you imagine the hay that some corporate managers would make out of =
+an evil activist hedge fund=C2=A0buying votes?=C2=A0
+And in fact Shareholder Vote Exchange=E2=80=99s current list of auctions se=
+ems to be headed by pretty routine annual meetings for companies like Visa =
+Inc. and=C2=A0Intuit Inc., none of which have proxy fights ongoing.=C2=A0St=
+ill, fun idea!
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Silicon Valley Startups Had Their   Worst Funding Year Since 2019. Wall Str=
+eet=E2=80=99s   Ambitions in China Run Into a Rising Firewall.=C2=A0Bridgew=
+ater=E2=80=99s Flagship   Pure Alpha Fund Lost 7.6% Last Year.=C2=A0AQR Cap=
+ital=E2=80=99s Longest-Running Strategy Gained 18.5% in 2023. The Hidden Fo=
+rce Pushing Mortgage Rates Down. How the  Push for Diversity at Colleges an=
+d Companies Came Under Siege. Eli Lilly Warns Against =E2=80=98  Cosmetic=
+=E2=80=99 Use of Popular Weight-Loss Drugs. Prosecutors Pursue  Affinity-Fr=
+aud Cases in Which Scammers Target Their Own.=C2=A0Confidential   Jeffrey E=
+pstein Documents Unsealed by New York Court. China, Saudi Arabia Top Countr=
+ies That Spent Millions at  Trump Properties During His Presidency. Chief e=
+xecutive of collapsed crypto fund HyperVerse does not appear to  exist.=C2=
+=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Please do not email me about the useful consumer crypto product you b=
+uilt in 2021.
+
+
+  [2] It is publicly traded but not listed on an exchange, which does limit=
+ its trading.
+
+
+  [3] Another important existing box of Bitcoins is   MicroStrategy Inc., w=
+hich is even more freely tradeable than GBTC but tracks Bitcoin even less c=
+losely.
+
+
+  [4] You can caveat this. People sometimes worry that proof-of-stake Ether=
+eum, in which staking is dominated by a few large intermediaries, creates v=
+ulnerability to censorship: If Coinbase Global Inc. runs a big staking serv=
+ice, and the SEC tells it not to recognize certain transactions by actors t=
+he SEC dislikes, will Coinbase have to go along? Of course in the real worl=
+d the SEC just thinks Coinbase=E2=80=99s whole staking service is illegal a=
+nd  wants to shut it down, so Coinbase doesn=E2=80=99t have much incentive =
+to help out the SEC.
+
+
+  [5] I=E2=80=99m implicitly assuming that the home's price hasn=E2=80=99t =
+changed, my mortgage is pretty fresh, and the mortgage principal amounts wo=
+uld be about the same. Those assumptions are not super-realistic, but I=E2=
+=80=99m not sure they=E2=80=99re always that far off either.
+
+
+  [6] Only arguably worse, though; it sort of depends on the counterfactual=
+. If the counterfactual is =E2=80=9Cyou don=E2=80=99t buy my house, I stay =
+there for 30 years paying 3%, and you keep renting,=E2=80=9D the banks migh=
+t prefer some activity even if it crystallizes some losses.
+
+
+  [7] I have no idea what the mechanics are here =E2=80=94 like, how do the=
+y make sure that the vote sellers actually vote the way they are supposed t=
+o? =E2=80=94 though I suspect it=E2=80=99s not too hard. They say they work=
+ with a bunch of brokers=E2=80=99 systems.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck6fl1.64zt/d8293ba8.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_133109870_353700743.1704395591406
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.I began =
+yesterday=E2=80=99s column by saying that I used to write a lot about cry
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTA0MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMDQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB446291f7"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzg5MjQ1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQxNzg4NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2bc49528" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33892453&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34178862&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">BDR</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I began <a href=3D"https://link.mail.bloomberg=
+business.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjQtMDEtMDMvY29hbC1wbGFudHMtZm9yLWdyZWVuLWludmVzdG9ycz9=
+jbXBpZD1CQkQwMTA0MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yNDAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cB7236cf6c" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  yesterday=E2=80=99s column</a> by sayin=
+g that I used to write a lot about crypto, but I am trying to do less of it=
+ these days. The main reason, I wrote, is that crypto used to be a laborato=
+ry for rediscovering central intuitions about finance: Crypto was building =
+a brand-new alternative financial system from scratch, and crypto enthusias=
+ts were discovering solutions to financial problems for themselves. Sometim=
+es those solutions were better than the traditional solutions, and sometime=
+s they were worse,=C2=A0and sometimes they just used new terminology to re-=
+describe solutions that traditional finance discovered years ago, but in an=
+y case they were=C2=A0<em>fun to write about</em>. Better, or worse, or the=
+ same, they provided a lens through which to see traditional finance; seein=
+g why crypto did something, and why it did or didn=E2=80=99t work, could he=
+lp you understand why traditional finance does things the way it does.</p>
+<p style=3D"margin: 16px 0;">This worked because, in=C2=A02020 and 2021, cr=
+ypto=E2=80=99s=C2=A0<em>financial system</em>=C2=A0was developing at a much=
+ more rapid pace than, you know, its underlying real-world utility. People =
+were using crypto to build lots of clever and exciting new ways to trade cr=
+ypto, or trade crypto derivatives, or <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMTItMTMvdGhlLXRydW1wLXNwYWMtcGlwZS1pcy1mcmVlLW1vbm=
+V5P2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB98dba6aa" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  front-run crypto trades</a>, or bui=
+ld infinitely leveraged crypto shadow banks, or steal money from customers;=
+ all of that was interesting if you were interested in financial systems. I=
+f you were interested in useful consumer products crypto was maybe less exc=
+iting, but that=E2=80=99s not my beat so I couldn=E2=80=99t tell you.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And then in 2022 and 2023, the crypto financia=
+l system was=C2=A0<em>fascinating=C2=A0</em>to write about, because many of=
+ its big institutions =E2=80=94=C2=A0culminating in FTX Trading Ltd. =E2=80=
+=94=C2=A0collapsed in clouds of smoke and there were tons of even better st=
+ories about, like, why leverage is dangerous and how bankruptcy works and s=
+o forth. (I got my start as a financial journalist a few years after the 20=
+08 financial crisis, which was a great time, because there were tons of cou=
+rt cases that brought to light both how the 2000s shadow-banking boom devel=
+oped and how it collapsed; 2022 was crypto=E2=80=99s 2008, and 2023 was its=
+ 2013.)</p>
+<p style=3D"margin: 16px 0;">But after that collapse, the crypto financial =
+system does seem to have gotten more boring, or at least if it=E2=80=99s st=
+ill doing fun stuff it is quieter about it. (This, too, is reminiscent of t=
+he banking industry after 2008: Banking was supposed to be boring, and most=
+ly it was boring, and when it was interesting it didn=E2=80=99t pay to brag=
+ about that.)</p>
+<p style=3D"margin: 16px 0;">To the point that if you have read a story abo=
+ut crypto so far in 2024, it is overwhelmingly likely to be about the follo=
+wing topic: =E2=80=9CPeople want to be able to put Bitcoins into a box and =
+then sell shares of the box to regular investors in the regular financial s=
+ystem using their regular brokerage accounts.=E2=80=9D=C2=A0<em><a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMjcvYml0Y29pbi1hZHZhbmNl=
+cy1hcy1vcHRpbWlzbS1idWlsZHMtYWJvdXQtZXRmLWFwcHJvdmFsLWJ5LXNlYz9jbXBpZD1CQkQ=
+wMTA0MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yNDAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cB5c9dd23c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">The</a>=C2=A0</em><a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjQtMDEtMDMvYml0Y29pbi1idGMtcmV2ZXJzZXMtY291cnNlLWFoZWFk=
+LW9mLWVhZ2VybHktYXdhaXRlZC1ldGYtZGVjaXNpb24_Y21waWQ9QkJEMDEwNDI0X01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMT=
+A0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb4b11ec1" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">big</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/3389245=
+3.286409/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMy8xMi8yNi9zcG90LWJpdGNvaW4tZXRmLW=
+FwcHJvdmFsLW1heS1iZS1jb21pbmctaW4tamFudWFyeS0yMDI0Lmh0bWw/607f07ceef4b8524a=
+319a23cBdd0cd031" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> innovation</a> in <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuY29pbmRlc2suY29t=
+L2J1c2luZXNzLzIwMjQvMDEvMDQvY2l0aS1hbHVtbmktZm91bmRlZC1zdGFydHVwLXRvLW9mZmV=
+yLWJpdGNvaW4tc2VjdXJpdGllcy10aGF0LWRvbnQtbmVlZC1ncmVlbi1saWdodC1mcm9tLXNlYy=
+1ibG9vbWJlcmcvIzp-OnRleHQ9MTAlMjBZZWFycyUyMG9mJTIwRGVjZW50cmFsaXppbmclMjB0a=
+GUlMjBGdXR1cmUmdGV4dD1BJTIwZ3JvdXAlMjBvZiUyMGZvcm1lciUyMENpdGlncm91cCxhbmQl=
+MjBFeGNoYW5nZSUyMENvbW1pc3Npb24lMjAoU0VDKS4/607f07ceef4b8524a319a23cB1a00ba=
+30" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> crypto</a> in early 2024, the thing that has driven up prices=
+, is anticipation that the US Securities and Exchange Commission will appro=
+ve a <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.2864=
+09/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjkv=
+Z3JheXNjYWxlLWNhbi1iZS1hLWJpdGNvaW4tZXRmP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNC=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB549a904b" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  spot Bitcoin exchange-traded</a> fund this month. Then ETF providers =E2=
+=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/338924=
+53.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItM=
+jkvYmxhY2tyb2NrLW5hbWVzLWphbmUtc3RyZWV0LWpwbW9yZ2FuLWFzLWJpdGNvaW4tZXRmLWF1=
+dGhvcml6ZWQtcGFydGljaXBhbnRzP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc245652b" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">including</=
+a>=C2=A0traditional financial firms like BlackRock and Fidelity=C2=A0=E2=80=
+=94=C2=A0will be able to hold Bitcoins in a pot, and institutional and reta=
+il investors will be able to buy and sell shares of that pot to get exposur=
+e to Bitcoin=E2=80=99s price without actually owning Bitcoin. This, it is t=
+hought, will increase the price of Bitcoin.</p>
+<p style=3D"margin: 16px 0;">If your interest in crypto is =E2=80=9Cnumber =
+go up,=E2=80=9D this is good. If your interest in crypto is =E2=80=9Cthis i=
+s the financial system of the future and will increasingly be adopted by bi=
+g institutions and ordinary people,=E2=80=9D this is a mixed bag: On the on=
+e hand, there is a lot of optimism about ETF approval driving retail and in=
+stitutional adoption; on the other hand, =E2=80=9Ceveryone owns Bitcoin thr=
+ough a BlackRock ETF in their Fidelity brokerage account=E2=80=9D is not qu=
+ite proof that crypto is the financial system of the future. If your intere=
+st in crypto is =E2=80=9Ccrypto keeps coming up with fun new ways to do fin=
+ance,=E2=80=9D though, this is pretty boring. Crypto=E2=80=99s fun new way =
+to do finance is to put Bitcoin in a box and sell you shares of the box; th=
+e goal is to transmute Bitcoin =E2=80=94=C2=A0this decentralized disinterme=
+diated trustless novel form of money that was meant to replace the banks an=
+d brokerages=C2=A0=E2=80=94=C2=A0into regular stocks.</p>
+<p style=3D"margin: 16px 0;">Anyway while you wait for the ETF, <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDQvZXgtY2l0aS1leGVjcy1w=
+bGFuLWJpdGNvaW4tYnRjLXNlY3VyaXRpZXMtdGhhdC1kb24tdC1uZWVkLW9rLWZyb20tdXM_Y21=
+waWQ9QkJEMDEwNDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjQwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB07a13483" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  here=E2=80=99s Bloomberg=E2=80=99s Muyao S=
+hen</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As speculation about the upcoming approval or =
+denial of spot-Bitcoin ETFs reaches a fever pitch, a group of former Citigr=
+oup Inc. executives is starting to offer securities backed by the oldest cr=
+yptocurrency that they say don=E2=80=99t need the blessing of US regulators=
+.</p>
+<p style=3D"margin: 16px 0;">The new offering, called Bitcoin depositary re=
+ceipts, will be similar to American depositary receipts that represent fore=
+ign stocks. The startup, called Receipts Depositary Corporation, or RDC, sa=
+id it plans to issue the first Bitcoin depositary receipts to qualified glo=
+bal institutional investors in transactions exempt from registration under =
+the Securities Act of 1933.</p>
+<p style=3D"margin: 16px 0;">Known as BTC DRs, the offering will give insti=
+tutions access to Bitcoin securities through US regulated market infrastruc=
+ture and cleared through the Depository Trust Co., according to a release f=
+rom the company. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Broadridge Corporate Issuer Solutions will ser=
+ve as the transfer agent and Anchorage Digital Bank National Association wi=
+ll handle custody of the underlying Bitcoin. RDC is backed by investors inc=
+luding Franklin Templeton, BTIG and Broadhaven Ventures, according to its p=
+ress release. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Compared with Bitcoin ETFs that will be redeem=
+ed for cash, Mehta said that depositary receipts offer direct ownership of =
+Bitcoin for qualified institutions. Buying Bitcoin directly isn=E2=80=99t t=
+he most-preferred option for some regulated institutions, he added, since c=
+rypto markets face challenges including security risks and regulatory uncer=
+tainty. Some of the challenges are similar to those once seen for Americans=
+ investing in foreign companies, which were mitigated by American depositar=
+y receipts.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">A spot=C2=A0ETF is probably the most broadly c=
+onvenient way to put Bitcoins in a box and sell shares of the box, but the =
+basic concept is very simple and obvious and can be implemented in a lot of=
+ ways. The ETF implementation has the two advantages that (1) anyone can bu=
+y and sell shares of the box and (2) the=C2=A0<em>box=C2=A0</em>can easily =
+create or redeem shares for Bitcoins, meaning that the share price of the b=
+ox really should track the price of Bitcoin. Whereas the leading existing b=
+ox of Bitcoins, <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jMtMDMtMDcvZnR4LXdhbnRzLWl0cy1iaXRjb2lucy1iYWNrLWZyb20tZ3JheXNjYWxlP2NtcGlk=
+PUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB98e6f1e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  the Grayscale Bitcoin Trust</a>, has the fi=
+rst advantage =E2=80=94=C2=A0it is pretty freely tradeable by anyone<a clas=
+s=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0=E2=80=94=C2=A0but not the second: For securities law reasons, it=
+ can=E2=80=99t freely redeem its shares for Bitcoins, so its share price ha=
+s diverged widely from the price of Bitcoin.<a class=3D"footnote-index" hre=
+f=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[3]</span>
+</a> (Grayscale also intends to convert into an ETF, when the SEC allows it=
+ to.)</p>
+<p style=3D"margin: 16px 0;">Meanwhile this box =E2=80=94=C2=A0BTC DRs =E2=
+=80=94=C2=A0has the second advantage (easy convertibility and price trackin=
+g) but not the first: To avoid the need for SEC approval and registration, =
+it will only sell its shares to institutional investors in private transact=
+ions. This box is just =E2=80=9Cif you are an institutional investor, we wi=
+ll give you Bitcoin wrapped up in a security, so you can hold it in your or=
+dinary custody account and transfer it through the Depository Trust Co. and=
+ generally have the experience of holding a stock or bond, not a weird cryp=
+to thing, except the stock=E2=80=99s price happens to be the price of Bitco=
+in.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">And that strikes me as genuinely useful. Some =
+investors want to be crypto investors, but a lot of institutional investors=
+ very much do=C2=A0<em>not=C2=A0</em>=E2=80=94=C2=A0they do not want to spe=
+nd time or money on understanding blockchains or keeping track of private k=
+eys or complying with <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMDItMTYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvLWN1c3RvZHk_Y21waWQ9QkJEMD=
+EwNDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjQwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cB003ff825" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  SEC requirements</a> about <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTIvZG9uLXQtZm9yZ2V0LXlvdXItYml0Y29=
+pbnM_Y21waWQ9QkJEMDEwNDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB99f2bd93" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  crypto custody</a> =E2=80=94=C2=A0=
+but still want to own Bitcoin. Owning regular shares of stock that happen t=
+o be Bitcoins is, for them, very useful; it domesticates Bitcoin into the r=
+egular financial system. It=E2=80=99s just that that=E2=80=99s boring. In 2=
+021, as FTX was heading toward a $32 billion valuation, its ambition was to=
+ tokenize all the stocks, become the next Goldman Sachs, rebuild all of the=
+ traditional financial system on crypto rails. In 2024, the ambition for cr=
+ypto is to make Bitcoin a stock, to finally get crypto onto traditional rai=
+ls.</p>
+<p style=3D"margin: 16px 0;">This particular innovation is so old that <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMTAva2VlcC15b=
+3VyLWJpdGNvaW5zLWluLXRoZS1iYW5rP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBeba6f6bc" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  I wrot=
+e about it back in 2018</a>,=C2=A0when these former Citigroup executives we=
+re just Citigroup executives, and Citi was going to do the depository recei=
+pts:=C2=A0</p>
+<blockquote><p style=3D"margin: 16px 0;">Here is Citigroup Inc. looking at =
+investor demand and concluding: Yes, sure, Bitcoin is great, but what Bitco=
+in investors really want is to hold Bitcoins in the form of=C2=A0<em>receip=
+ts issued by a giant bank and registered at DTCC</em>. That=E2=80=99s where=
+ the real innovation is! That=E2=80=99s what the people want! =E2=80=9CTake=
+ this blockchain away from me,=E2=80=9D they cry, =E2=80=9Cand give me the =
+old system that I know!=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">In 2024 that is=C2=A0<em>obviously=C2=A0</em>w=
+hat they want.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzg5MjQ1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQxNzg4NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCda941892" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33892453&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34178862&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzg5MjQ1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQxNzg4NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDda941892" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33892453&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34178862&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A DAO</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A lot of innovations in crypto have two separa=
+te but related rationales:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">This thing is the future of human soc=
+iety!</li>=09<li style=3D"margin-bottom: 5px;">This thing avoids securities=
+ law!</li>
+</ol>
+<p style=3D"margin: 16px 0;">I remember when blockchains were touted=C2=A0b=
+oth=C2=A0as a new way to keep track of all of the world=E2=80=99s informati=
+on and also, somehow, a way around securities law: If you put stock on the =
+blockchain, the theory went, the US Securities and Exchange Commission coul=
+dn=E2=80=99t regulate it. (This theory has fallen out of favor, but <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTQvcmlwcGxlLWlz=
+LWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2e3be12b" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> not en=
+tirely</a>.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">Or=C2=A0people in crypto have <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDUtMTcvYmxvY2tjaGFpbi1jb21wY=
+W55LXdhbnRzLXRvLXJlaW52ZW50LWNvbXBhbmllcz9jbXBpZD1CQkQwMTA0MjRfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMDQ=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9fb6325f" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> spent years arguing</a> that decentralized autonomous organizations are a=
+ new and better way to organize economic activity, never seen before. (This=
+ is wrong and <a href=3D"https://link.mail.bloombergbusiness.com/click/3389=
+2453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjM=
+tMTAtMjQvYmlnLWJvbnVzZXMtYXJlLWJhY2stYXQtdWstYmFua3M_Y21waWQ9QkJEMDEwNDI0X0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjQwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2c1383=
+b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> they are general partnerships</a>, but never mind.) But there=
+ are also sometimes arguments=C2=A0that DAOs are a way around securities re=
+gulation: If some crypto project (a decentralized exchange, a lending platf=
+orm, whatever) is run by a DAO rather than by a company, then it is more ro=
+bust to regulation; regulators can=E2=80=99t fine the DAO or arrest its lea=
+ders, because it is decentralized and computerized and thus resistant to go=
+vernment interference.</p>
+<p style=3D"margin: 16px 0;">My guess is that this is partly correct: Some =
+decentralized crypto projects really do run as more or less autonomous code=
+ on distributed blockchains and really=C2=A0<em>can=E2=80=99t=C2=A0</em>be =
+shut down by an SEC order.<a class=3D"footnote-index" href=3D"#footnote-4" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0But there do seem to be a lot of <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/33892453.286409/aHR0cHM6Ly94a2NkLmNvbS81Mzgv/607f0=
+7ceef4b8524a319a23cB8fda4932" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> $5 wrench vulnerabilities</a> in cry=
+pto, where =E2=80=9Cdecentralized autonomous organization=E2=80=9D is a fan=
+cy way of saying =E2=80=9CDiscord page for voting on stuff,=E2=80=9D and th=
+e SEC can find the Discord=E2=80=99s administrator and say =E2=80=9Chey we =
+can make your life bad if you don=E2=80=99t shut down this DAO=E2=80=9D and=
+ the administrator shuts it down and everything was a lot less decentralize=
+d and autonomous and organized than people thought.</p>
+<p style=3D"margin: 16px 0;">Last month the SEC <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZ=
+XdzL3ByZXNzLXJlbGVhc2UvMjAyMy0yNTg/607f07ceef4b8524a319a23cBd0554c76" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> shut down a DAO</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [Dec. 2=
+2] announced that BarnBridge DAO, a purportedly decentralized autonomous or=
+ganization, and its two founders, Tyler Ward and Troy Murray, will pay more=
+ than $1.7 million to settle charges that they failed to register BarnBridg=
+e=E2=80=99s offer and sale of structured crypto asset securities known as S=
+MART Yield bonds. The Commission also charged the respondents with violatio=
+ns stemming from operating BarnBridge=E2=80=99s SMART Yield pools as unregi=
+stered investment companies. To settle the SEC=E2=80=99s charges, BarnBridg=
+e agreed to disgorge nearly $1.5 million of proceeds from the sales, and Wa=
+rd and Murray each agreed to pay a $125,000 civil penalties.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe use of blockchain technology for =
+the unregistered offer and sale of structured finance products to retail in=
+vestors runs afoul of the securities laws," said Gurbir S. Grewal, Director=
+ of the SEC=E2=80=99s Division of Enforcement. "This case serves as an impo=
+rtant reminder that those laws apply to all who wish to access our capital =
+markets, regardless of whether they are, or purport to be, incorporated, de=
+centralized or autonomous.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Reading <a href=3D"https://link.mail.bloomberg=
+business.com/click/33892453.286409/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRp=
+Z2F0aW9uL2FkbWluLzIwMjMvMzMtMTEyNjIucGRm/607f07ceef4b8524a319a23cB94b12f55"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> the SEC order</a>, it is a little puzzling how BarnBridge could h=
+ave settled the case. It=E2=80=99s a DAO? Did it, like, take a vote? Appare=
+ntly not; apparently the SEC got to the founders and the founders shut it d=
+own:</p>
+<blockquote><p style=3D"margin: 16px 0;">In July 2023, Ward and Murray took=
+ steps to close investments in a second version of SMART Yield that had lau=
+nched in January 2023, after BarnBridge DAO had stopped offering investment=
+s in SMART Yield Pools described in this Order. Ward and Murray also cancel=
+ed a new product launch, limited access to Discord, Github, and other platf=
+orms used by BarnBridge DAO, and stopped development of further securities =
+using the BarnBridge protocol.</p></blockquote>
+<p style=3D"margin: 16px 0;">So not=C2=A0<em>that </em>decentralized or aut=
+onomous.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Portable credit</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We talked a while back about <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTMveWllbGRzdHJlZXQtbWlzc2=
+VkLWEtYm9hdD9jbXBpZD1CQkQwMTA0MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB91926789" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  assumable mortgages</a>.=
+=C2=A0A lot of homeowners in the US have mortgages with 3%-ish interest rat=
+es that they got a few years ago, but if you try to get a mortgage today, i=
+t will have a 7%-ish interest rate. If I own a house and have a 3% mortgage=
+, and I want to sell it to you and you want to buy it, you will go to a ban=
+k and get a 7% mortgage, and your bank will give you the money, and you wil=
+l give me the money, and I will give the money to my bank to pay off my 3% =
+mortgage. This seems very inefficient. You are borrowing expensive money to=
+ give to me to pay off a cheap mortgage early.</p>
+<p style=3D"margin: 16px 0;">It would be better for me, and for you, if you=
+ could just=C2=A0<em>assume=C2=A0</em>my mortgage =E2=80=94=C2=A0if you cou=
+ld move into my house and keep making the 3% payments on my mortgage, inste=
+ad of making the new 7% payments.<a class=3D"footnote-index" href=3D"#footn=
+ote-5" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[5]</span>
+</a>=C2=A0(It would arguably be worse=C2=A0<em>for our banks:=C2=A0</em>My =
+bank would rather get its below-market 3% mortgage paid off early at par, a=
+nd your bank would rather originate a new market-rate mortgage.<a class=3D"=
+footnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[6]</span>
+</a>)</p>
+<p style=3D"margin: 16px 0;">In the US, some mortgages are, with some conto=
+rtions and hoop-jumping, assumable: Their terms provide that, if we recite =
+exactly the right incantations, you can take over my mortgage and keep payi=
+ng 3%. But most aren=E2=80=99t. And a problem in the US housing market now =
+is that everyone who has a 3% mortgage can=E2=80=99t move, because they=E2=
+=80=99d need to get a 7% mortgage somewhere else, which constrains supply.<=
+/p>
+<p style=3D"margin: 16px 0;">Private equity buyouts also work that way? Lik=
+e the way a private equity buyout works is that a fund borrows a lot of mon=
+ey from lenders to pay some of the purchase price for the company, and then=
+ it pays down those loans over time. And if it sells the company to another=
+ private equity firm while the loans are still outstanding, then ordinarily=
+ the loans come due immediately, so the new private equity buyer has to go =
+to=C2=A0<em>its=C2=A0</em>lenders to get new loans to pay the old private e=
+quity owner the money to hand over to=C2=A0<em>its=C2=A0</em>lenders. And j=
+ust as with mortgages, if the old owner got its loans during a period of lo=
+w rates and easy credit, and the new buyer has to get its loans during a pe=
+riod of high rates and more difficult credit, some trades won=E2=80=99t get=
+ done: The company is worth more to the old owner, with its cheap debt, tha=
+n it will be to a new owner with expensive debt.</p>
+<p style=3D"margin: 16px 0;">The analogy is not perfect: A lot of the priva=
+te-equity loans will be floating-rate, so the difference is not so much =E2=
+=80=9C3% rates versus 7% rates=E2=80=9D as it is =E2=80=9Crelatively easy c=
+redit versus more nervous credit.=E2=80=9D And =E2=80=9Cthe loans come due =
+immediately=E2=80=9D can mean less =E2=80=9Cthe loans come due immediately=
+=E2=80=9D and more =E2=80=9Cthe loans=C2=A0<em>technically=C2=A0</em>come d=
+ue immediately, which gives the lenders negotiating leverage to extract fee=
+s and concessions for agreeing to roll them over for the new buyer.=E2=80=
+=9D But the basic idea is that if private-equity buyout loans were assumabl=
+e, then more deals would get done, because buyers wouldn=E2=80=99t have to =
+worry about going out and getting new loans in tougher credit environments.=
+</p>
+<p style=3D"margin: 16px 0;">Here are Bloomberg=E2=80=99s=C2=A0John Sage an=
+d Ellen Schneider on <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjQtMDEtMDQvcHJpdmF0ZS1jcmVkaXQtaGVscHMtcGUtcGVlcnMtYnktbWFraW5nLWRlYWwtZml=
+uYW5jaW5nLXBvcnRhYmxlP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB91266041" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  assumable privat=
+e equity loans</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Private equity firms, eager to sell debt-laden=
+ businesses, are finding private credit firms increasingly willing to keep =
+outstanding loans intact, even for companies that may soon have new owners.=
+</p>
+<p style=3D"margin: 16px 0;">The trend, known as portability, describes loa=
+ns that remain essentially unchanged when a company gets new ownership. It =
+carries rewards and risks for businesses and especially for lenders. Usuall=
+y a change of control would allow lenders to renegotiate terms to cover pot=
+ential risks from a new parent, such as different plans for growth or profi=
+tability of a business.</p>
+<p style=3D"margin: 16px 0;">After two years of rising interest costs hinde=
+ring asset sales, owners are seizing on recent rate stability to push for p=
+ortability to get deals done. Keeping the existing loan package in place re=
+moves the need for any new buyer to find financing, making the purchase a l=
+ot more alluring.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe market has pivoted to include a p=
+ortability feature,=E2=80=9D said Bill Eckmann, head of principal finance i=
+n the Americas and senior managing director at Macquarie Capital. =E2=80=9C=
+We=E2=80=99re seeing more of this because sponsors are looking at near-term=
+ maturities and thinking about their exits.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">For direct lenders facing rising competition i=
+n a market that=E2=80=99s tripled to $1.6 trillion since 2015, portability =
+provisions allow them to stay invested in assets they=E2=80=99ve already ve=
+tted and endorsed.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIf you=E2=80=99ve found an attractive=
+ business then you may be willing to let the debt travel to another owner,=
+=E2=80=9D said Jon Bock, senior managing director at Blackstone Credit. =E2=
+=80=9CFrom a self-selection standpoint, this is an opportunity for managers=
+ to extend the lives of the loan.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Part of the pitch for private credit, as an al=
+ternative to traditional syndicated loans, has been along the lines of =E2=
+=80=9Cif you borrow from a private credit firm instead of from a syndicate =
+of banks and hedge funds and collateralized loan obligations, your lender w=
+ill be one person with whom you have a good relationship, and if things cha=
+nge in your business you can call her up and discuss things rationally inst=
+ead of having to go get waivers from a dozen anonymous CLOs.=E2=80=9D You m=
+ight think that this pitch would argue against automatic portability: =E2=
+=80=9CDon=E2=80=99t worry about it,=E2=80=9D the private-credit firm could =
+tell its borrowers, =E2=80=9Cif you want to sell, we will be very reasonabl=
+e about rolling over the loans, you just need to call us and talk about it.=
+=E2=80=9D But, no, the borrowers want portability.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Money for votes</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Someone <a href=3D"https://link.mail.bloomberg=
+business.com/click/33892453.286409/aHR0cHM6Ly93d3cuc3ZlZ3JvdXAuY29tLw/607f0=
+7ceef4b8524a319a23cBa298ff43" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> sent this to me</a> and I can=E2=80=
+=99t not share it with you:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Shareholder Vote Exchange enables investors to=
+ trade shareholder voting rights. Passive investors can sell their votes to=
+ raise returns and provide additional yield. Reinvesting your earnings can =
+also boost your portfolio's long-term growth rate. ...</p>
+<p style=3D"margin: 16px 0;">Achieve your governance or strategic initiativ=
+es by acquiring proxy votes on Shareholder Vote Exchange. Leveraging proxie=
+s is a cost-effective way to drive change and maximize capital efficiency w=
+hile also rewarding other shareholders.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">As a former corporate equity derivatives struc=
+turer I have, over the years, thought about ways to separate shareholder vo=
+ting from economic ownership, and to trade the votes separately. One obviou=
+s set of solutions is: You are an activist hedge fund, you=C2=A0buy 10 mill=
+ion shares of stock (which gives you the votes and the economic ownership),=
+ and then you sell 9 million shares through a derivative (which reduces you=
+r economic ownership but=C2=A0<em>not</em>, generally, your voting rights).=
+ So, like, buy 10 million shares in the cash market, and then write a 9-mil=
+lion-share total return swap or put/call combo or whatever. Then you own 1 =
+million shares economically, but you have 10 million votes.</p>
+<p style=3D"margin: 16px 0;">I think that this occasionally happens, but my=
+ impression is that US activist hedge funds are <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTYvdGhlLXNlYy1oYXMtYmlnLXBsYW5zP2Nt=
+cGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB86250f7d" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  more likely to do the <em>opposite</em></=
+a>, acquiring economic exposure to more shares than they actually own. (By=
+=C2=A0<em>buying=C2=A0</em>total return swaps or call options or whatever.)=
+ This is partly for regulatory reasons (buying a bunch of actual shares tri=
+ggers <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286=
+409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjQ=
+vdGhlLXNlYy13YW50cy10by1zdG9wLWFjdGl2aXNtP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwN=
+CZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB46b4bd28" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  disclosure</a> and <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMTUtMDgtMjUvZGFuLWxvZWItcy1oZWRnZS1mdW5kLWZpbGVkLWEtZm9ybS1sYXRlP2Ntc=
+GlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cB31988ee6" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  antitrust</a> obligations that derivatives=
+ can avoid)=C2=A0and partly for <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2Fs=
+bHM_Y21waWQ9QkJEMDEwNDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB0c771744" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  leverage reasons</a> (buying a lot =
+of shares for cash takes a lot of cash, while buying/selling with derivativ=
+es doesn=E2=80=99t take/generate as much cash.) If you are going to spend m=
+oney on research and lawyers and proxy fights to do an activist campaign, y=
+ou want a=C2=A0lot=C2=A0of economic exposure, not just a lot of votes.</p>
+<p style=3D"margin: 16px 0;">There is another set of quasi-solutions around=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTkvbWF5=
+YmUtdGhlLWluZGV4LWZ1bmRzLWRvbi10LXZvdGU_Y21waWQ9QkJEMDEwNDI0X01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTA0Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5a13383b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  stock lending</a>: If you do not value shareholder voting at all, you can=
+ just lend out your shares to short sellers and not recall them for votes, =
+which is a way of exchanging your voting rights (which you don=E2=80=99t ca=
+re about) for money (in the form of stock lending fees).</p>
+<p style=3D"margin: 16px 0;">But I guess the most obvious solution is just,=
+ like, go around paying retail shareholders for their votes? With some inte=
+rmediary to aggregate them and take care of the mechanics?<a class=3D"footn=
+ote-index" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[7]</span>
+</a> The Shareholder Vote Exchange people are not wrong that, if someone is=
+ willing to pay you $5 to control all your votes on all your shares for all=
+ of this proxy season, you should take the money, because $5 is more than z=
+ero and voting your shares is (1) worthless to you and (2) surprisingly ann=
+oying.=C2=A0Retail investors stereotypically <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2N=
+tcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB1a8a32f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  don=E2=80=99t vote</a>, and that is <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMjEvZG9uLXQtc=
+mVhZC10aGUtcHJveHktc3RhdGVtZW50P2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBaf9769da" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  normal=
+ly rational</a>, so paying them any amount of money for their votes seems l=
+ike a win for them.</p>
+<p style=3D"margin: 16px 0;">On the other hand, who would pay? If it is irr=
+ational to vote your own shares, it is even more irrational to pay to vote =
+someone else=E2=80=99s, virtually all of the time. You could imagine some s=
+orts of activist campaigns in which it would be expressively valuable to bu=
+y some votes: If you submitted a nonbinding shareholder proposal asking som=
+e company to have more, or less, diversity, then presumably you care about =
+sending a message, and you might feel good about spending some of your own =
+money to buy votes to make your proposal look more popular.</p>
+<p style=3D"margin: 16px 0;">But surely the real high-dollar case for buyin=
+g shareholder votes is in=C2=A0<em>contested proxy fights</em>, where some =
+activist investor has millions of dollars on the line and wants to get its =
+own slate of directors elected. (Also in contested takeovers.) And there I =
+just have trouble imagining big activist shareholders buying votes in proxy=
+ fights this way, in part because the disclosure and reputational issues se=
+em like they=E2=80=99d be a mess. The distinguishing feature of proxy fight=
+s and hostile takeovers is that everyone sues everyone else about everythin=
+g, and also =E2=80=9Cbedbugs=E2=80=9D them to the US Securities and Exchang=
+e Commission, calling up the SEC to say =E2=80=9Chey did you notice our opp=
+onents doing something illegal?=E2=80=9D Can you imagine the hay that some =
+corporate managers would make out of an evil activist hedge fund=C2=A0<em>b=
+uying votes</em>?=C2=A0</p>
+<p style=3D"margin: 16px 0;">And in fact Shareholder Vote Exchange=E2=80=99=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/=
+aHR0cHM6Ly93d3cuc3ZlZ3JvdXAuY29tL2F1Y3Rpb24/607f07ceef4b8524a319a23cBed4bba=
+11" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">current list of auctions</a> seems to be headed by pretty rout=
+ine annual meetings for companies like Visa Inc. and=C2=A0Intuit Inc., none=
+ of which have proxy fights ongoing.=C2=A0Still, fun idea!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Silicon Valley Startups Had Their <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDQvc2lsaWNvbi12YWxsZXktd=
+mMtc3RhcnR1cC1mdW5kaW5nLWxhc3QteWVhci13b3JzdC1zaW5jZS0yMDE5P2NtcGlkPUJCRDAx=
+MDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB6c6ca394" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  Worst Funding Year</a> Since 2019. Wall Street=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.2864=
+09/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDQvY2hp=
+bmEtYnVzaW5lc3Mtc3RydWdnbGVzLW1vdW50LWZvci13YWxsLXN0cmVldC13aXRoLXJpc2luZy1=
+0ZW5zaW9ucy1yZWd1bGF0aW9uP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBccc17071" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  Ambitions in=
+ China</a> Run Into a Rising Firewall.=C2=A0Bridgewater=E2=80=99s Flagship =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDQvYnJpZGdld=
+2F0ZXItcy1mbGFnc2hpcC1wdXJlLWFscGhhLWZ1bmQtbG9zdC03LTYtbGFzdC15ZWFyP2NtcGlk=
+PUJCRDAxMDQyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB3c5bdf9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Pure Alpha</a> Fund Lost 7.6% Last Year.=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDQvYXFyLW=
+NhcGl0YWwtcy1sb25nZXN0LXJ1bm5pbmctc3RyYXRlZ3ktZ2FpbmVkLTE4LTUtaW4tMjAyMz9jb=
+XBpZD1CQkQwMTA0MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yNDAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cBdec146d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">AQR Capital=E2=80=99s</a> Longest-Running S=
+trategy Gained 18.5% in 2023. The Hidden Force Pushing <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9lY29ub215L2hvdXNpbmcvdGhlLWhpZGRlbi1mb3JjZS1wdXNoaW5nLW1vcnRnYWdlLXJhd=
+GVzLWRvd24tNWU0MTQ2YjY_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a23cB1c4c=
+9bfb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Mortgage Rates</a> Down. How the <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cud3NqLmNvbS9idX=
+NpbmVzcy9ob3ctdGhlLXB1c2gtZm9yLWRpdmVyc2l0eS1hdC1jb2xsZWdlcy1hbmQtY29tcGFua=
+WVzLWNhbWUtdW5kZXItc2llZ2UtMDM2ZDQwNjU_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8=
+524a319a23cBd1e74e5c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Push for Diversity</a> at Colleges and Compa=
+nies Came Under Siege. Eli Lilly Warns Against =E2=80=98<a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDQvbGlsbHktd2FybnMtYWdhaW5zdC1j=
+b3NtZXRpYy11c2Utb2YtcG9wdWxhci13ZWlnaHQtbG9zcy1kcnVncz9jbXBpZD1CQkQwMTA0MjR=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yNDAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd03a=
+9724" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Cosmetic</a>=E2=80=99 Use of Popular Weight-Loss Drugs. Pro=
+secutors Pursue <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+892453.286409/aHR0cHM6Ly93d3cud3NqLmNvbS91cy1uZXdzL3Byb3NlY3V0b3JzLXB1cnN1Z=
+S1hZmZpbml0eS1mcmF1ZC1jYXNlcy1pbi13aGljaC1zY2FtbWVycy10YXJnZXQtdGhlaXItb3du=
+LTQ5ZTU5MzAwP21vZD1ocF9saXN0Y19wb3Mz/607f07ceef4b8524a319a23cB872978a4" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Affinity-Fraud Cases</a> in Which Scammers Target Their Own.=C2=A0Con=
+fidential <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453=
+.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMDM=
+vZXBzdGVpbi1saW5rZWQtbmFtZXMtZG9jdW1lbnRzLXVuc2VhbGVkLWluLW55LWZlZGVyYWwtY2=
+91cnQ_Y21waWQ9QkJEMDEwNDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cB47bce5a1" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  Jeffrey Epstein Documents</a> Uns=
+ealed by New York Court. China, Saudi Arabia Top Countries That Spent Milli=
+ons at <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.28=
+6409/aHR0cHM6Ly93d3cud3NqLmNvbS9wb2xpdGljcy9jaGluYS1zYXVkaS1hcmFiaWEtdG9wLW=
+xpc3Qtb2YtZm9yZWlnbi1nb3Zlcm5tZW50cy10aGF0LXNwZW50LW1pbGxpb25zLWF0LXRydW1wL=
+XByb3BlcnRpZXMtZHVyaW5nLWhpcy1wcmVzaWRlbmN5LTI3NzMxN2NiP21vZD1ocF9sZWFkX3Bv=
+czE/607f07ceef4b8524a319a23cB7c855781" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Trump Properties</a> During=
+ His Presidency. Chief executive of collapsed crypto fund HyperVerse does n=
+ot appear to <a href=3D"https://link.mail.bloombergbusiness.com/click/33892=
+453.286409/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3RlY2hub2xvZ3kvMjAyNC9qYW4v=
+MDQvY2hpZWYtZXhlY3V0aXZlLW9mLWNvbGxhcHNlZC1jcnlwdG8tZnVuZC1oeXBlcnZlcnNlLWR=
+vZXMtbm90LWFwcGVhci10by1leGlzdA/607f07ceef4b8524a319a23cB0dc0dc49" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ exist</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33892453.286409/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB4eff63fe" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33892453.286409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB08b4e9c6" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Please do not email me about the useful co=
+nsumer crypto product you built in 2021.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] It is publicly traded but not listed on an=
+ exchange, which does limit its trading.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Another important existing box of Bitcoins=
+ is <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.28640=
+9/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjAva=
+nBtb3JnYW4tc2VudC10aGUtd3JvbmctZW1haWxzP2NtcGlkPUJCRDAxMDQyNF9NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEwNCZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBced92844" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  MicroStrategy Inc.</a>, which is even more freely tradeable than GBTC but=
+ tracks Bitcoin even less closely.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] You can caveat this. People sometimes worr=
+y that proof-of-stake Ethereum, in which staking is dominated by a few larg=
+e intermediaries, creates vulnerability to censorship: If Coinbase Global I=
+nc. runs a big staking service, and the SEC tells it not to recognize certa=
+in transactions by actors the SEC dislikes, will Coinbase have to go along?=
+ Of course in the real world the SEC just thinks Coinbase=E2=80=99s whole s=
+taking service is illegal and <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33892453.286409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDAxMD=
+QyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTI0MDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+38b92fea" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> wants to shut it down</a>, so Coinbase doesn=E2=80=99t h=
+ave much incentive to help out the SEC.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I=E2=80=99m implicitly assuming that the h=
+ome's price hasn=E2=80=99t changed, my mortgage is pretty fresh, and the mo=
+rtgage principal amounts would be about the same. Those assumptions are not=
+ super-realistic, but I=E2=80=99m not sure they=E2=80=99re always that far =
+off either.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Only arguably worse, though; it sort of de=
+pends on the counterfactual. If the counterfactual is =E2=80=9Cyou don=E2=
+=80=99t buy my house, I stay there for 30 years paying 3%, and you keep ren=
+ting,=E2=80=9D the banks might prefer some activity even if it crystallizes=
+ some losses.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I have no idea what the mechanics are here=
+ =E2=80=94 like, how do they make sure that the vote sellers actually vote =
+the way they are supposed to? =E2=80=94 though I suspect it=E2=80=99s not t=
+oo hard. They say they work with a bunch of brokers=E2=80=99 systems.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB10fe5e24" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc688eff4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBb103a452" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB035f1ac3" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB4e41c9a9" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.2864=
+09/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBa59060b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33892453.286409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCcce41387" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33892453.286409/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe1dca512" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33892453.286409/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0e1ecc45" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+0a8e100" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33892453.286409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+32a2294" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck6fl1.64zt/d8293ba8.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_133109870_353700743.1704395591406--
+

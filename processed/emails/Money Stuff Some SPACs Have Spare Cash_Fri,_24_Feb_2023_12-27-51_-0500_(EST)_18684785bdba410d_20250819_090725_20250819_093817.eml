@@ -1,0 +1,2450 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp1700759rwb;
+        Fri, 24 Feb 2023 09:28:45 -0800 (PST)
+X-Received: by 2002:a05:6000:683:b0:2c5:5ec7:43bc with SMTP id bo3-20020a056000068300b002c55ec743bcmr370922wrb.18.1677259725475;
+        Fri, 24 Feb 2023 09:28:45 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1677259725; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=rWfjxfWefAmulVYmIjfUBwIFZbgQ8ictXX1bl0wjUV9nzdYqEsKWQqpnvzO8AAZJKn
+         2Nr946t5yiaYU1RJE50K5k6b2re97GEIJi0A8xx4XeJsvtO48N5LxNSo3k+L1Jt49JyL
+         NtBpQSjScAC5VjqK7YAQBLML3+v/RwC/Pj7fawWHcoYQ6iRgVC3yPChIFpUe3JRUSeW1
+         ptw8hA6Ray1UusLivuJSWBhE3UEAYs04BHLZ/z02kQ3lnjUJH+m5Ymujg3+KGB4rpr43
+         fP1FiBO0onZwcTvGoyyRfcO+0g4sM4jL/0deaIzDxxHBNc7RhHWUBW/ktEa1QEA/8fFx
+         IOAw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=lYw/0yW72wMioatPeVI2uvCmydNIvrRPywS0EdX2ams=;
+        b=ECPnX0e1OfuHUVGJguazjdYfXZofqO7PtKmp8xJBqIOFLRTH2DuymR5NvbQru97J2x
+         n0vk5TXSz4L081q+KsDxr/kSzRKgEfxW9QxjWPCKqZHunKTJTJa3SgIpHqEVqUBDQYrp
+         6I+7o8+53Vte0+l1DU87FsWQF1UCaxOzfDTEjzQG2qfw5QZmpSLA7N3yh9Dp+UKPQQfk
+         IVDs5dqz56PJhcHtlH0uPMmNrH8ZohGW/oRa0OtgIYVQnx/0hqzMj0LJ+wgU6NyNri4B
+         XGvOFRqdYFRFvY0FN+kPSOgmumYG3oyYo6ZCKPF8eTcY2LxdeoRSrr5P6hR/ctHAVdyY
+         RbTw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0+jsEksS;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t7-20020adfdc07000000b002c542043923sor5636727wri.39.2023.02.24.09.28.45
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 24 Feb 2023 09:28:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0+jsEksS;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=lYw/0yW72wMioatPeVI2uvCmydNIvrRPywS0EdX2ams=;
+        b=D8HXIyA0CQWf+DCYkBFQDmYawzRkE+clpfHP8AJapabh7CIqoKmCOAJhr1PPq6MS7l
+         26532OzwZ4/v35hg3mVrK2zQXEui0R5DD3Q/LTsSd1lWQTL4Spy44xINRRc13itHSh4e
+         vhUMA1ikPqnACg9Gioss/G7hQTo/3eOExvvUATSwOycKwjvz6MDwI7Bj9YlKd0CkNh47
+         YPi7ZEZVa/vQ0MKbr+WUhZjQOSGlrZu06hG0EYPesMEKcEnWD24Wc3oaFUfNk4mxQWgp
+         XXCBTfNM2TnmlKf10tVtPKWQ2+jD81ikMt5UujAXY1w7z1ba4OLgTDLojeHMA+vNyCA4
+         8TCQ==
+X-Gm-Message-State: AO0yUKWYAJZbjYFn9HoKzzYBfC5b/3R0CiUvQBRfKzqNpUCE90f4nq20
+	Q0Iti4wBVqe5k7h4Q8OtQWgq3thGzuBmrym7jiakWp7rmt2Up4n79A==
+X-Received: by 2002:a05:6000:1e12:b0:2c5:5941:a04b with SMTP id bj18-20020a0560001e1200b002c55941a04bmr112645wrb.7.1677259725009;
+        Fri, 24 Feb 2023 09:28:45 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp1158674wrr;
+        Fri, 24 Feb 2023 09:28:42 -0800 (PST)
+X-Received: by 2002:a05:600c:600a:b0:3dc:4316:52be with SMTP id az10-20020a05600c600a00b003dc431652bemr407296wmb.10.1677259722067;
+        Fri, 24 Feb 2023 09:28:42 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1677259722; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=WfBH9ocnNrxGMnnO/W3rBUOdbwAUfUNxvG2+tEPsx3IEpmbm2Jhg7RTpgHr1DqbJJf
+         Pwr62vh2a0Kc1WIxCPZYYvsUtPHR6cvD9GkLBkj2uDgFhN7RBWX54HsuJzw9oJ12j4Ed
+         pR6GWLiIwpd6eDs4sTZEoiBaPMlmq2CbkLh3Xtrcyjeo296BVRvawz3HYmvmDTimvMW8
+         wKXgnMmiO7RHiIqnCNVk8gooNEYPuiO+QJh525dcpNcOwvNjMN9fMNbTdj+ziwXASpRH
+         TxHayBn4Hybtcg5RXjPSk/HjffZLI6HohfRJpTcW5DNye3cwOv7ufPWEZ/Q6ZG/0Pkl/
+         yLxA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=lYw/0yW72wMioatPeVI2uvCmydNIvrRPywS0EdX2ams=;
+        b=K6X8XKFwtzb7Tdn7T4aQTP9w+4gBKpydz8cf2XLm+z3D6rI4xPj5U4e5benibawaTh
+         3F40fx/pFO437nUOUGFdWSih9rW94co/TmRHXEPBAJOygPZSmoUnnkSzIOS36Goebu/L
+         mOhcffG0oqyKznlh30aqwhVWhowZq0zmHMvv3XQ9guiEXniHno7eqQvPor5mKco1ICk6
+         e+0/PBP1mdc4lhUDGVYaf6v2iBUmG94Nq8i0nUKckvY+mEY9IbmLiU0+h7nppxBDlbwz
+         NVWYhjkcZ/OvUO9JJhR/AEuBzxM3Hz5fYHM0+Dc8OvzSWDVfObv5kP5UTsyMYyWBXKP/
+         L4+A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0+jsEksS;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230224122751.30651429.257434@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230224122751.30651429.257434@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230224122751.30651429.257434@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n27-20020a05600c3b9b00b003dc5b59a26csor978441wms.44.2023.02.24.09.28.42
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 24 Feb 2023 09:28:42 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230224122751.30651429.257434@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9+HNZyURvkHNVGtPtGVQu8hTH74EE070pcl17Ibil2IYX7UDt0+X2sT55sjFNPVDugN2LBxPEqMEe8O0Ib5ZBUhbl6oZM=
+X-Received: by 2002:a05:600c:4e46:b0:3e2:1f00:bff7 with SMTP id e6-20020a05600c4e4600b003e21f00bff7mr389671wmq.12.1677259721826;
+        Fri, 24 Feb 2023 09:28:41 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1677259721; cv=none;
+        d=google.com; s=arc-20160816;
+        b=rv8UyDh9g/H+MFUt6aPGXcug21gOMSAYhLyxUdr9rHL1Xtdfx0IOs/W1yd/OtT5UC+
+         iN0cYRHI/R61lCD8uHMwxU/IWByPgI/qwGSMvDW2nW2TSvL3/i5e0oVIMeIf3ICAKYj+
+         GO4abPFSpTR+j2/iWUWCn/DYfT1Bjb6902sUbS/rrv+UiuzlEeiqb9qT5xEsqHi32YY7
+         /7eLQPuJeqXtpWrjKLuXsZpsb05MZ5drPXMXwr/XGO6eQx1WcjT/Th9Gp3Pne61dFKKl
+         XO715An3aLofYVtd/QjWcfj2lOWyUaGphF8K6TEcqKsLLCBfALn0LRPgSYcTRd0sp+CF
+         /0Lg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=lYw/0yW72wMioatPeVI2uvCmydNIvrRPywS0EdX2ams=;
+        b=M6RJfJtkaz1RVFe2UudBII0Sw1FBsB4ff0f/zNWG40BQiyi5OZsIvH5A+ni8k24DQp
+         z4yFp3WRn6tfH5vVLV/Hnr+lST5FHSu8lwUIgbPHCelydJwkq0agn1yTcO2t+mpXHsbi
+         Yj/MyXojOEfl4ypS/DkIjrJ5zlo783vcIUJNWHtDX677cChs/FOXVgEBrHqbQDAB/zIx
+         5wHOU4pOXgJXTcF72iXMTnPhQ7jjZd2UIgovQ3AsjLzAXubKAxNZab42kZpYa6jxdV/U
+         Kf8fyWE5O0cbUi25PFhLnKxCWWp57fQPjUayhJcQH2qCU/lPLFnfi2I6bXdlKZavfU9z
+         grJA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0+jsEksS;
+       spf=pass (google.com: domain of delivery_20230224122751.30651429.257434@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230224122751.30651429.257434@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230224122751.30651429.257434@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id i4-20020adfaac4000000b002c59e9a3f66si466862wrc.2.2023.02.24.09.28.41
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 24 Feb 2023 09:28:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230224122751.30651429.257434@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=pTOPhPDNr3J9wvItoM76kcOmLVCjWuFm5e3mN59invk=;
+ b=0+jsEksSIYs6Eg8TfLVaKQJor91UCp/B/undzB+doAS60q6njPkepV0Juad/CUPg9BoSkPkj7wVK
+   sKhC1VPWIQ49X28iZ3URSwX1eu1AjmOe3o18zgJbB3Ha6fGha+gwUFxQU7PXyjyFxiMOu8MBLwpe
+   LMIhD6SzC1/Lri0ZqK4=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hv3psg30nu8q for <bloomberg@khamel.com>; Fri, 24 Feb 2023 12:28:40 -0500 (envelope-from <delivery_20230224122751.30651429.257434@mx.sailthru.com>)
+Received: from nj1-wryforest.flt (172.18.20.15) by njmta-180.sailthru.com id hv3psg1qqbse for <bloomberg@khamel.com>; Fri, 24 Feb 2023 12:27:51 -0500 (envelope-from <delivery_20230224122751.30651429.257434@mx.sailthru.com>)
+Date: Fri, 24 Feb 2023 12:27:51 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230224122751.30651429.257434@sailthru.com>
+Subject: Money Stuff: Some SPACs Have Spare Cash
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_34225024_1544404714.1677259671762"
+Precedence: bulk
+X-Feedback-ID: 6358:30651429:campaign:sailthru
+X-TM-ID: 20230224122751.30651429.257434
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci8ysl.5imy/a7a5cdd3
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci8ysl.5imy/a7a5cdd3>, <mailto:unsubscribe_20230224122751.30651429.257434@mx.sailthru.com>
+X-rpcampaign: stjko30651429
+
+------=_Part_34225024_1544404714.1677259671762
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        We talked on Wednesday about an unusual situation at a couple of sp=
+ecial purpose acquisition companies. Basically a SPAC raises money by sel
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Spare SPAC money
+   =20
+ =20
+
+We talked on Wednesday=C2=A0about an unusual=C2=A0situation at a couple of =
+special purpose acquisition companies. Basically a SPAC raises money by sel=
+ling stock to public shareholders at $10 per share, puts the money in a tru=
+st account, and then either (1) uses the money to merge with a private comp=
+any, taking it public and giving the public shareholders shares in that new=
+ly public target company, or (2) fails to do a merger within two years and =
+gives the shareholders their $10 back with interest. The sponsor of the SPA=
+C generally pays the expenses of starting the SPAC and looking for a deal; =
+if she finds a deal she is richly rewarded (with 20% of the SPAC=E2=80=99s =
+shares), but if she doesn=E2=80=99t she eats those costs. The trust account=
+ can=E2=80=99t be touched to pay those costs; it is there to be used only i=
+f the SPAC finds a deal.
+What we talked about Wednesday was the edge case in which a SPAC does not d=
+o a deal and somehow incurs expenses that the sponsor does not pay. In that=
+ case, it seems that the SPAC can ask the public shareholders to hand back =
+some of the money that they got: The company really had to pay that money t=
+o its vendors before it paid the shareholders, and so the=C2=A0shareholders=
+ seem to be technically liable for paying it back. Or so the SPACs say anyw=
+ay. In practice the numbers involved are small =E2=80=94=C2=A0$0.02 or $0.1=
+1 per share =E2=80=94=C2=A0and it seems unlikely that the SPACs will pursue=
+ every retail shareholder to the ends of the earth for, like, $11 each. Als=
+o, I mean, the sponsor really=C2=A0should=C2=A0bear these expenses. But, ri=
+ght, technically, if you invest in a SPAC and it somehow ends up with (1) n=
+o deal, (2) your $10 per share plus interest in a trust account, and (3) a=
+=C2=A0negative=C2=A0amount of money in its=C2=A0other=C2=A0accounts, then I=
+ guess you could have to make up the difference.
+  [1]
+
+But what about the opposite edge case? What about a SPAC that ends up with =
+(1) no deal, (2) your $10 per share plus interest in a trust account, and (=
+3) a=C2=A0large positive=C2=A0amount of money in its other accounts? Not, l=
+ike, the sponsor puts in $10 million to cover expenses, there are $6 millio=
+n of expenses, and there=E2=80=99s $4 million left over: That=E2=80=99s an =
+easy case; the sponsor gets the $4 million back, and you only get your $10 =
+plus interest. But what if the sponsor puts in $10 million to cover expense=
+s, and there are $10=C2=A0million of expenses, and then the sponsor trips o=
+ver a cord in the SPAC=E2=80=99s offices and falls into a wall and there=E2=
+=80=99s a $50 million=C2=A0stash of diamonds behind the wall? The diamonds =
+belong to the corporation (let=E2=80=99s say), but do all the shareholders =
+get to share in their value? Or, if the SPAC doesn=E2=80=99t acquire a targ=
+et, does the sponsor just hand the shareholders back their $10 plus interes=
+t and keep the diamonds?
+In other words: When the SPAC does not complete a deal, are its public shar=
+eholders real=C2=A0shareholders, the residual claimants on the assets of th=
+e corporation, or are they=C2=A0kind of creditors, entitled to get their $1=
+0 back with interest, no more, no less? Intuitively, the=C2=A0answer is kin=
+d of in between, isn=E2=80=99t it? In a legal sense the shareholders are sh=
+areholders. But their money is kept in trust for them, and there are lots o=
+f protections to try to prevent them from ending up getting back less than =
+$10 per share, though as we saw Wednesday those protections are not absolut=
+ely ironclad. But there are also provisions to prevent them from getting ba=
+ck=C2=A0more=C2=A0than their $10 plus interest: When the SPAC winds up, gen=
+erally, the public shareholders get redeemed at the amount in the trust, an=
+d the sponsor gets whatever is left.
+Anyway the tripping-into-diamonds example is fanciful, but there is a real =
+way that a SPAC can end up with no deal and a pile of cash: It can=C2=A0sig=
+n=C2=A0a deal with a target company, and then the target company can=C2=A0g=
+et out of the deal=C2=A0and=C2=A0pay a breakup fee. In general when a compa=
+ny signs a merger agreement =E2=80=94=C2=A0including with a SPAC =E2=80=94=
+=C2=A0there will be some provisions in the agreement that allow the target =
+to get out of the deal in some circumstances (for instance, if it gets a be=
+tter offer), and if that happens the target usually has to pay the acquirer=
+ a fee to terminate the agreement. When the acquirer is a SPAC, it ends up =
+with a bunch of cash and no merger. Who gets the cash: the public sharehold=
+ers, or the sponsors?
+This has happened a few times in the recent SPAC boom, and unsurprisingly t=
+he sponsors think they should keep the money. In February 2021, a SPAC call=
+ed Fast Acquisition Corp. signed an agreement to merge with Fertitta Entert=
+ainment Inc., the owner of the Golden Nugget and Landry=E2=80=99s. In Decem=
+ber 2021, Fertitta called off the deal and agreed to pay a breakup fee of $=
+16 million, or $32 million if Fast Acquisition didn=E2=80=99t find another =
+deal. It didn=E2=80=99t, and in August 2022, it announced that it would red=
+eem its shares for $10 plus interest, or about $10.02=C2=A0=E2=80=94=C2=A0a=
+nd the sponsor would keep the $32 million. Shareholders sued; from their co=
+mplaint:
+The SPAC explosion has led to its fair share of =E2=80=9Cfast ones=E2=80=9D=
+ by=C2=A0fiduciaries, but the Sponsor of FAST Acquisition Corp. may have to=
+pped them all:=C2=A0it is orchestrating a theft in broad daylight of $23.7 =
+million right out of the pockets of the SPAC and its stockholders. The Spon=
+sor, and its owners, which include each of the SPAC=E2=80=99s officers and =
+directors, failed to arrange a business combination and now have decided to=
+ simply walk away with the SPAC=E2=80=99s only valuable asset=E2=80=94a ter=
+mination fee it obtained after its only potential deal fell through. A more=
+ flagrant breach of the duty of loyalty can hardly be imagined.=C2=A0
+=E2=80=9CThe defendants believe the lawsuit is without merit and intend to =
+defend it vigorously,=E2=80=9D said the SPAC, and that case is ongoing.
+As the boom-time SPACs unwind, there are more of these cases. In May 2021, =
+a=C2=A0SPAC called Pioneer Merger Corp. signed an agreement to merge with f=
+intech startup Acorns Grow Inc.; that deal was terminated in January 2022 w=
+ith a $32.5 million fee. Pioneer never found another deal, and in January 2=
+023 it redeemed its shareholders at $10.10 plus interest, keeping the fee f=
+or the sponsor. Shareholders sued. And in July 2021, a SPAC called Concord =
+Acquisition Corp. agreed to a merger with crypto stablecoin company Circle =
+Internet Financial Ltd. It renegotiated the deal at a higher price in Febru=
+ary 2022, but by December 2022 the deal was off and Circle agreed to pay a =
+$20 million termination fee (in stock). Later that month, the SPAC redeemed=
+ its shareholders at $10.18 per share and kept the fee for its sponsor. Sha=
+reholders sued.
+The thing is that no one seems to have=C2=A0thought=C2=A0very much about th=
+is edge case. If you read the original offering documents for these SPACs, =
+they say=C2=A0both=C2=A0that if there is no deal shareholders get only thei=
+r money back with interest,=C2=A0and=C2=A0that if there is no deal the spon=
+sors get nothing. =E2=80=9COur initial stockholders will lose their entire =
+investment in us if our initial business combination is not completed,=E2=
+=80=9D says the boilerplate in the Concord offering document. That=C2=A0sou=
+nds like the sponsor should get nothing if there=E2=80=99s no deal, right? =
+But another risk factor says that if there is=C2=A0no deal =E2=80=9Cour pub=
+lic stockholders may receive only $10.00 per share, or less than such amoun=
+t in certain circumstances,=E2=80=9D=C2=A0and explains that the shareholder=
+s will be cashed out only for the amount in the trust account. If a shell c=
+ompany with no operations never completes a merger, that will=C2=A0normally=
+=C2=A0mean that it ends up only with the $10 plus cash in its trust account=
+, and it is reasonably clear who gets=C2=A0that. (The public shareholders g=
+et all of it, the sponsor gets none of it.) But if it lucks into some cash =
+anyway, it is less clear who gets that.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Everything is bank fraud
+   =20
+ =20
+
+Part of the story of the collapse of FTX Trading Ltd. =E2=80=94=C2=A0the st=
+ory that its now-indicted founder, Sam Bankman-Fried, told about it =E2=80=
+=94=C2=A0is that FTX misplaced a few billion dollars of customer money due =
+to an unfortunate but understandable mix-up. It went like this, see. Early =
+in its history, FTX had trouble opening bank accounts, because banks were n=
+ervous about dealing with crypto exchanges. But Alameda Research, Bankman-F=
+ried=E2=80=99s crypto trading firm,=C2=A0did=C2=A0have access to banks, in =
+part because crypto trading firms are less off-putting to banks than crypto=
+ exchanges are
+  [2]
+ and in part because =E2=80=9CAlameda Research=E2=80=9D is a vague name tha=
+t was chosen specifically to avoid scaring banks.
+  [3]
+
+And so when customers wanted to deposit money at FTX, FTX would sometimes t=
+ell them to wire the money to Alameda. Alameda would get the money in its b=
+ank account, and would then tell FTX that it had received it, and then FTX =
+would credit the money to the customer=E2=80=99s trading account. But Alame=
+da would keep the actual money, in its bank account. To make things=C2=A0ba=
+lance, FTX would record a liability from Alameda to FTX in its internal acc=
+ounts: It would make a little note, like, =E2=80=9Cwe have credited $100 to=
+ Customer X=E2=80=99s account, but Alameda is holding the money for Custome=
+r X, so Alameda owes us that $100 and we should remember to get the money f=
+rom Alameda at some point.=E2=80=9D Over time this balance =E2=80=94=C2=A0t=
+he amount that Alameda was holding for other customers and owed to FTX =E2=
+=80=94 grew to $8 billion. But also somehow FTX forgot about it? Basically =
+FTX thought that Alameda had the $8 billion, and also that its customers ha=
+d the $8 billion, so it thought there was $8 billion more on FTX than there=
+ was. FTX thought that it was well capitalized and that Alameda was doing f=
+ine, because it forgot that there was a missing $8 billion. =E2=80=9CHidden=
+, poorly internally labeled =E2=80=98fiat@=E2=80=99 account: -8,000,000,000=
+,=E2=80=9D is a  100% real entry on an   FTX balance sheet that Bankman-Fri=
+ed sent around trying to raise money in November. Yeesh!
+Again, this is=C2=A0the story that Bankman-Fried was telling. Here is a  di=
+rect-message exchange that he had with Vox=E2=80=99s Kelsey Piper in Novemb=
+er, in which he said:
+
+like =E2=80=9Coh FTX doesn=E2=80=99t have a bank account, I guess people ca=
+n wire to Alameda=E2=80=99s to get money on FTX=E2=80=9D
+=E2=80=A6.3 years later=E2=80=A6.
+=E2=80=98oh [no] it looks like people wired $8b to Alameda and oh god we ba=
+sically forgot about the stub account that corresponded to that and so it w=
+as never delivered to FTX.=E2=80=99
+
+Reading this story, you might have had various reactions. You might have th=
+ought =E2=80=9Coh yeah that sounds believable and innocent, whoops,=E2=80=
+=9D or =E2=80=9Cman, they forgot $8 billion,=C2=A0that sounds pretty fake,=
+=E2=80=9D or =E2=80=9Cyeah I guess that might have happened but it still se=
+ems fraudulent.=E2=80=9D But maybe the most obvious reaction was: =E2=80=9C=
+Wait, they were=C2=A0tricking their banks?=E2=80=9D Never mind the accounti=
+ng for the money or how it went missing; the most obvious problem here is t=
+hat FTX couldn=E2=80=99t open a bank account and so used Alameda as a way t=
+o get around the banking system. You can=E2=80=99t trick banks! That=E2=80=
+=99s bank fraud! That=E2=80=99s an independent reason to get in very bad tr=
+ouble! Bankman-Fried=E2=80=99s defense here is like =E2=80=9Coh no we weren=
+=E2=80=99t intentionally stealing money from our customers; we just acciden=
+tally misplaced their money because we were=C2=A0doing bank fraud.=E2=80=9D=
+ That=E2=80=99s not helpful!
+Bankman-Fried was arrested for a whole assortment of things in December, an=
+d yesterday the US Department of Justice  filed a superseding indictment el=
+aborating on those charges and adding some new ones. Most of the allegation=
+s in the new indictment =E2=80=94=C2=A0about misappropriating customer mone=
+y and building backdoors in FTX=E2=80=99s code to allow Alameda to rack up =
+big unsecured debts =E2=80=94=C2=A0are familiar from the US Securities and =
+Exchange Commission=E2=80=99s and Commodity Futures Trading Commission=E2=
+=80=99s cases against Bankman-Fried; we have   discussed them before. But t=
+here is some new stuff, and a lot of it is about bank accounts.
+  [4]
+=C2=A0From  the new indictment:
+
+Because FTX did not have its own bank accounts for holding customer deposit=
+s, for a period of time in or around 2019 and 2020, FTX instructed customer=
+s to wire dollar deposits to bank accounts that were owned or controlled by=
+ Alameda, which at the time SAMUEL=C2=A0BANKMAN-FRIED, a/k/a "SBF," the def=
+endant, also controlled as the CEO. These Alameda accounts had been opened =
+as trading accounts and had been used almost exclusively for Alameda's trad=
+ing purposes until they were also employed as accounts for FTX to receive a=
+nd transmit its customer deposits and withdrawals. Alameda never informed t=
+he banks where these accounts were held that these accounts in Alameda's na=
+me began to be used in substantial part by FTX to accept customer deposits =
+for, and as a vehicle for customer withdrawals from, FTX's cryptocurrency e=
+xchange.
+During the time period in which FTX was using Alameda bank accounts to rece=
+ive and transmit customer deposits, SAMUEL BANKMAN-FRIED, a/k/a "SBF," the =
+defendant, and others, made efforts to open bank accounts for this purpose =
+in FTX's name. In particular, BANKMAN-FRIED, through Alameda employees, att=
+empted to open an account for FTX at a bank in California ("Bank-1"), the d=
+eposits of which were insured by the Federal Deposit=C2=A0Insurance Corpora=
+tion and where Alameda already had bank accounts. Bank-1 made clear, howeve=
+r, that it would not open an account for customer deposits and withdrawals =
+absent evidence that FTX was licensed and registered, including federal reg=
+istration as a money services business, and that, in any event, Bank-1 woul=
+d need to conduct an enhanced due diligence process before=C2=A0opening any=
+ account used to process customer deposits and withdrawals.
+In or about January 2020, SAMUEL BANKMAN-FRIED, a/k/a "SBF," the defendant,=
+ contacted Bank-1=C2=A0about opening an FTX account. BANKMAN-FRIED learned =
+from Bank-1 that BANKMAN-FRIED should not attempt to open an account for FT=
+X, an international platform, at that time. He was further told that if he =
+wished to open an account to process customer deposits and withdrawals for =
+FTX.US, FTX's business in the United States, FTX.US would need to register =
+as a money services business. While BANKMAN-FRIED did later register FTX.US=
+ as a money services business in 2020, no attempts were made to make FTX a =
+licensed money services business and BANKMAN-FRIED never sought to have FTX=
+ or Alameda comply with the regulatory requirements of licensure. Instead, =
+FTX continued to use Alameda trading accounts to accept customer deposits a=
+nd process customer withdrawals.
+
+It goes on to describe Bankman-Fried setting up another entity, called Nort=
+h Dimension, =E2=80=9Cin part to obscure the relationship between FTX and A=
+lameda, and in order to overcome Bank-1's refusal to open a bank account fo=
+r FTX without extensive due diligence and licensing.=E2=80=9D And then he a=
+llegedly =E2=80=9Ctold Bank-1 a false story, namely, that North Dimension s=
+ought to open an account to function as a trading account connected to Alam=
+eda's existing trading accounts, instead of the truth, which was that the N=
+orth Dimension account would function as an account to receive and=C2=A0tra=
+nsmit FTX customer deposits.=E2=80=9D =E2=80=9CConspiracy to Commit Bank Fr=
+aud=E2=80=9D and =E2=80=9CConspiracy to Operate an Unlicensed Money Transmi=
+tting Business=E2=80=9D are some of the names that the indictment calls thi=
+s stuff.
+The point here, of course, is that to some extent the question =E2=80=9Cdid=
+ FTX steal its customers=E2=80=99 money or just lose it by accident=E2=80=
+=9D is a question of intent, and requires explaining=C2=A0  the complexitie=
+s of leveraged derivative exchanges to a jury. Bankman-Fried=E2=80=99s vers=
+ion of the story involves some carelessness, yes, but it is mostly a story =
+of =E2=80=9Cwe ran a levered exchange, we provided leverage to Alameda that=
+ seemed=C2=A0reasonable compared to the market value of their assets, the m=
+arket value of their assets evaporated quickly, there was a run on the bank=
+, and we ended up bankrupt.=E2=80=9D You can object to a lot of that story,=
+   and I have, but it has a certain basic consistency, and a certain simila=
+rity to other high-profile=C2=A0financial meltdowns that did not end with a=
+nyone going to prison.
+  [5]
+
+On the other hand lying to a bank   is its own crime, and tends to be a bit=
+   easier to prove than the intent stuff about the customer money
+  [6]
+: You fill out some forms to open a bank account, and the bank keeps the fo=
+rms and shares them readily with the government, and if what you say on the=
+ forms doesn=E2=80=99t match what you were doing then you can go to prison,=
+ whether or not what you were doing=C2=A0was stealing money from customers.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      PRPLS
+   =20
+ =20
+
+It is not so long ago that I was writing enthusiastically about novel ways =
+that public companies had just discovered to, uh, let=E2=80=99s say optimiz=
+e shareholder voting. =E2=80=9CWe just live in a golden age of blank-check =
+preferred stock with weird voting rights and fun acronyms,=E2=80=9D I wrote=
+ last week. This week, though, they are all getting sued. We talked on Tues=
+day about a lawsuit against AMC Entertainment Holdings Inc. over its APE pr=
+eferred shares, which it issued as a way to get around the requirement that=
+ a majority of its shareholders approve the issuance of new common shares. =
+Apparently some shareholders did not like being gotten around.
+And we  talked last week about Purple Innovation Inc., a mattress company t=
+hat is 45% owned by Coliseum Capital Management LLC. Coliseum nominated fiv=
+e candidates for Purple=E2=80=99s seven-member board of directors, and it s=
+eemed likely that, with 45% of the vote, it would be able to elect its cand=
+idates and take over the board. (And then, possibly, buy out the 55% of Pur=
+ple that it does not currently own, as it has proposed to do in the past.)
+Purple=E2=80=99s current directors don=E2=80=99t love this, but there is no=
+t much they can do to fight off their 45% shareholder. But they=E2=80=99re =
+trying.=C2=A0They issued a new class of preferred stock called PRPLS =E2=80=
+=94=C2=A0=E2=80=9CProportional Representation Preferred Linked Stock,=E2=80=
+=9D sure =E2=80=94=C2=A0that (1) has tons of votes and (2) has=C2=A0cumulat=
+ive votes, meaning that you can give all of your votes to one or two board =
+candidates. Purple distributed PRPLS to all of its shareholders proportiona=
+lly, so each shareholder has as much voting power as they had before, but n=
+ow they can vote cumulatively rather than just for one director at a time. =
+The theory, I guess, is that this will allow Purple=E2=80=99s non-Coliseum =
+shareholders to team up to elect at least three, and maybe four, directors =
+with their cumulative votes, keeping some of the current directors around a=
+nd making Coliseum=E2=80=99s life a bit harder.
+This week=C2=A0Coliseum sued:
+
+The preferred stock =E2=80=93 issued without the approval of Purple=E2=80=
+=99s stockholders and in direct response to Coliseum=E2=80=99s nomination o=
+f directors to the Purple Board of Directors =E2=80=93 violates the Company=
+=E2=80=99s charter, fundamentally transforms the =E2=80=9Cone share, one vo=
+te=E2=80=9D structure used to elect Company directors into a cumulative vot=
+ing regime that prevents holders of a majority of the common stock from ele=
+cting or removing the full board, and is a bad faith attempt by the Special=
+ Committee of Purple=E2=80=99s Board to entrench itself and thwart sharehol=
+der democracy. Specifically, the preferred stock issuance violates those pr=
+ovisions of the Company=E2=80=99s charter that limit the form of stock dist=
+ributions to holders of the Company=E2=80=99s Class A shares to additional =
+shares of Class A common stock.
+Adam Gray, Managing Partner of Coliseum, said, =E2=80=9CThe Purple Special =
+Committee=E2=80=99s brazen action =E2=80=93 taken no more than 24 hours aft=
+er Coliseum proposed five highly qualified candidates for election =E2=80=
+=93 demonstrates the lengths to which the incumbent non-executive directors=
+ will go to preserve their Board seats at the expense of stockholders. To s=
+eek such Board security amidst a contested election =E2=80=93 and leveragin=
+g corporate machinations and stockholder resources to do so =E2=80=93 is fu=
+rther evidence that Board change is warranted. While Coliseum has sought to=
+ work constructively with the Purple Board =E2=80=93 consistent with the co=
+llaborative investment approach we have executed successfully for the past =
+15-plus years =E2=80=93 we have been left with no choice but to take the ex=
+traordinary step of a proxy contest and filing litigation seeking to ensure=
+ the election of directors is conducted in a fair and democratic manner for=
+ the benefit of all Purple stockholders.=E2=80=9D
+
+Here is  the complaint, which mostly makes the general point that it is unf=
+air for the board of directors to change shareholders=E2=80=99 voting right=
+s:
+
+The dividend issuance, which is designed solely to prevent Coliseum from el=
+ecting its nominees and removing existing directors, violates the Company=
+=E2=80=99s charter and was not justified by any conceivable threat to corpo=
+rate policy or effectiveness. Where, as here, a board of directors =E2=80=
+=9Cdeliberately employs various legal strategies to either frustrate or com=
+pletely disenfranchise a shareholder vote, =E2=80=A6 [t]here can be no disp=
+ute that such conduct violates Delaware law.=E2=80=9D ...
+The Board upset the reasonable and settled expectations of every stockholde=
+r that invested in Purple=E2=80=95namely, that one share would equal one vo=
+te and that holders of a majority of the common stock would be empowered to=
+ replace the entire Board if they saw fit to do so. This principle is funda=
+mental to the legitimacy of a board. The structure imposed by the NED Defen=
+dants strikes at the heart of corporate democracy and Purple stockholders=
+=E2=80=99 expectations by=C2=A0empowering holders of a comparatively small =
+number of shares to block change at the Board level, even if the majority w=
+ants to replace the existing directors.
+
+I don=E2=80=99t know how this will play out. In general my instinct is that=
+ if there is a technical trick that directors can use to issue voting share=
+s, without directly changing anyone=E2=80=99s share of the vote, they can p=
+robably get away with it, but I have no idea. And there=C2=A0has=C2=A0been =
+a glut of these things recently, pushing out the limits of what is possible=
+; you could imagine Delaware courts saying =E2=80=9Cno, that=E2=80=99s enou=
+gh, stop it, just let your shareholders vote.=E2=80=9D
+There are two more specific points here. One is that Purple was apparently =
+not, technically, allowed to give shareholders the PRPLS. The way a company=
+ distributes securities to all of its shareholders for free is through a di=
+vidend, a distribution of some stuff (here, voting preferred stock) to each=
+ share of common stock. So last week  Purple announced that it had =E2=80=
+=9Cdeclared a dividend new Proportional Representation Preferred Linked Sto=
+ck (=E2=80=98PRPLS=E2=80=99) for each 100 shares of Purple common stock (=
+=E2=80=98Common Stock=E2=80=99) owned by Purple=E2=80=99s shareholders.=E2=
+=80=9D
+But Coliseum argues that it is not allowed to pay a dividend of random sort=
+s of stock: Purple=E2=80=99s  corporate charter says that =E2=80=9CStock di=
+vidends with respect to Class A Common Stock may be paid only with Class A =
+Common Stock,=E2=80=9D and Coliseum points out that =E2=80=9Cthe dividend o=
+f Preferred Stock constitutes a =E2=80=98stock dividend=E2=80=99=E2=80=9D u=
+nder=C2=A0Delaware law. I=E2=80=99m not sure that was what the charter=C2=
+=A0meant, but it is what it=C2=A0says, so it=E2=80=99s a clever argument.
+  [7]
+
+The other is that Purple apparently did this dividend=C2=A0one day after=C2=
+=A0selling stock to Coliseum:
+Shockingly, the Preferred Issuance came one day after a stock offering sett=
+led whereby Purple received from Coliseum $27 million in cash that Purple n=
+eeded to facilitate an amendment to its credit agreement to provide Purple =
+with necessary flexibility and runway for growth. The [Non-Executive Direct=
+or] Defendants knew as early as January 17, 2023, that Coliseum considered =
+nominating a new slate of=C2=A0directors, and knew well in advance of the s=
+tock offering closing that they planned to authorize the Preferred Issuance=
+ if they received formal notice of Coliseum=E2=80=99s slate. Nevertheless, =
+the NED Defendants=E2=80=95acting in bad faith=E2=80=95allowed Coliseum (an=
+d other stockholders) to proceed with the stock offering without ever discl=
+osing that they had crafted a dilutive dividend that they were ready to and=
+ would deploy at a moment=E2=80=99s notice to fundamentally change the voti=
+ng structure and prevent holders of a majority of the common stock from rep=
+lacing the entire Board.=C2=A0
+It is a weird relationship. Purple has a controlling-ish shareholder, the s=
+hareholder wants to buy the company, and the board seems to dislike the sha=
+reholder. If you are the board in that situation, you might try to mess wit=
+h shareholder voting rights to contain the controlling shareholder, but you=
+ might also have to hit that shareholder up for money. You want to get the =
+timing right: You ask them for money=C2=A0before=C2=A0you cut off their vot=
+ing rights.
+
+ =20
+   =20
+      Kodak
+   =20
+ =20
+
+In general, it is the position of this newsletter (though it is not legal a=
+dvice) that:
+=09You should not do insider trading.=09If you must do insider trading, you=
+ should not text your accomplice about it.=09If you must do crimes and text=
+ your accomplices about them, you should not use cutesy codenames for your =
+crimes. You should use=C2=A0boring=C2=A0codenames for your crimes. If you a=
+re paying bribes, don=E2=80=99t call them =E2=80=9Cchickens=E2=80=9D! Call =
+them =E2=80=9Cconsulting fees=E2=80=9D! That=E2=80=99s ambiguous! If you ca=
+ll them =E2=80=9Cchickens,=E2=80=9D everyone knows that (1) they are not ch=
+ickens but (2) they are crimes.=C2=A0
+
+Similarly if you worked at a chemical company that was helping out with=C2=
+=A0Eastman Kodak Co.=E2=80=99s random pivot from being a blockchain company=
+ (?) in the blockchain boom to being a hydroxychloroquine company (?) in th=
+e pandemic, and you learned of that pivot and an accompanying huge governme=
+nt loan to Kodak,=C2=A0=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B(1) you=
+ should not have insider traded on that information, (2) you certainly shou=
+ldn=E2=80=99t have texted your=C2=A0cousin=C2=A0with that information so th=
+at=C2=A0he=C2=A0could insider trade on it, and (3) ugh come on with this:
+
+During June and July 2020, ANDREW STILES was kept apprised of Kodak=E2=80=
+=99s efforts to obtain the government loan, and he both traded using that n=
+on-public information and passed that information to GRAY STILES. =C2=A0For=
+ example, on July 9, 2020, when Kodak had applied for a loan in the amount =
+of $655 million, ANDREW STILES and GRAY STILES exchanged the following code=
+d text messages:
+GRAY: =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Any update on the film we sent off=
+ a few weeks ago to get developed
+ANDREW: =C2=A0 =C2=A0 600+. =C2=A0Maybe 2 weeks out
+GRAY: =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0I can live with that hahaha
+
+Oh =E2=80=9Cthe film we sent off a few weeks ago to get developed=E2=80=9D!=
+ That sounds very natural! People do that all the time! In 2020! Any jury, =
+confronted with that text message, would think =E2=80=9Cahh these innocent =
+film photography enthusiasts, waiting patiently for WEEKS to get their film=
+ developed, no crimes here=E2=80=9D!
+Anyway those guys were arrested and charged with insider trading yesterday;=
+ the quote above is from the US attorney=E2=80=99s press release. It's in t=
+he press release because it=E2=80=99s bad! If the exchange had been:
+
+GRAY: Any update on that stock you told me about?
+ANDREW: 600+. Maybe 2 weeks out
+GRAY: Great, thanks for the update
+
+That would=C2=A0have been better! You can work with that!=C2=A0That wouldn=
+=E2=80=99t be the first thing they put in the press release and show the ju=
+ry! Come on.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+DOJ Preps Antitrust Suit to   Block Adobe=E2=80=99s $20 Billion Figma Deal.=
+ U.S. Regulators Warn Banks of Heightened Liquidity Risks in  Crypto-Relate=
+d Deposits. Crypto Company  CoinEx Sued by New York Over Failure to Registe=
+r. Consultants start to  cut jobs as boom time ends. Fed Rate Policy Is Sha=
+king Up the World of  Muni Debt. Vivek Ramaswamy=E2=80=99s fund manager  St=
+rive sticks to its =E2=80=98anti-woke=E2=80=99 mission.=C2=A0Documents from=
+ JPMorgan=E2=80=99s Jamie Dimon sought in  Jeffrey Epstein lawsuits.=C2=A0 =
+ Thomas Lee, Billionaire Private Equity Pioneer, Dies at 78. The Top Takeaw=
+ays From   300 Years of Investment Advice.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Though obviously you can=E2=80=99t be required to pay back more than =
+your $10 per share: You are a shareholder, and you have limited liability. =
+In fact the cases we talked about Wednesday involved the SPACs asking share=
+holders for a portion of the *interest* they got on their cash =E2=80=94 th=
+ey got $10.22 back and the SPAC thinks they should have gotten $10.11, etc.=
+ =E2=80=94 and I think it would be a much bigger deal if the SPACs tried to=
+ eat into *principal*. If you invest $10 in a SPAC and get back $9.50, that=
+=E2=80=99s bad.
+
+
+  [2] It is worth understanding why: A crypto exchange is essentially in a =
+sort of banking and money-transmitting business, and if you are a bank that=
+ deals with a crypto exchange you have to worry about *its* customers. You =
+have to worry about whether it is doing appropriate  know-your-customer/ant=
+i-money-laundering checks and whether it is properly licensed to do that bu=
+siness. A crypto trading firm is just someone=E2=80=99s pot of money to spe=
+culate with; they might lose the money, but that=E2=80=99s not your problem=
+ if you are their bank.=20
+
+
+  [3] =E2=80=9CEspecially in 2017, if you named your company like We Do Cry=
+ptocurrency Bitcoin Arbitrage Multinational Stuff, no one's going to give y=
+ou a bank account if that's your company name,=E2=80=9D Bankman-Fried  once=
+ explained.
+
+
+  [4] Some is about alleged use of straw donors to  make political contribu=
+tions.
+
+
+  [5] At a high level it is not too unlike the collapses of  Lehman Brother=
+s or  MF Global, or for that matter the painful but non-fatal trouble at th=
+e   London Metal Exchange last year.=20
+
+
+  [6] As  Patrick McKenzie puts it: =E2=80=9CMany, many crimes involve lies=
+, but most lies told are not crimes and most lies told are not recorded for=
+ forever. We did, however, make a special rule for lies told to banks: they=
+=E2=80=99re potentially very serious crimes and they will be recorded with =
+exacting precision, for years, by one of the institutions in society most c=
+apable of keeping accurate records and most findable by agents of the state=
+. This means that if your crime touches money, and much crime is financiall=
+y motivated, and you get beyond the threshold of crime which can be done pu=
+rely offline and in cash, you will at some point attempt to interface with =
+the banking system. And you will lie to the banks, because you need bank ac=
+counts, and you could not get accounts if you told the whole truth. The gov=
+ernment wants you to do this. Their first choice would be you not committin=
+g crimes, but contingent on you choosing to break the law, they prefer you =
+also lie to a bank.=E2=80=9D
+
+
+  [7] Purple used to have a controlling shareholder (not Coliseum) that own=
+ed a special class of Class B shares. But it  exited that position and now =
+there is just a small residue of Class B stock. But the original idea seems=
+ to have been that Purple couldn=E2=80=99t dividend B shares to A sharehold=
+ers or vice versa.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci8ysl.5imy/2b79fa2e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_34225024_1544404714.1677259671762
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+We talked on Wednesday about an unusual situation at a couple of special pu=
+rpose acquisition companies. Basically a SPAC raises money by sel
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB717729ba" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBefe19290"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC445882e1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Spare SPAC money</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDItMjIvc3BhY3Mtd2FudC10aGVpci1tb25leS1iYWNrP2NtcGlkPUJC=
+RDAyMjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB93e92c11" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">talked on Wednesday</a>=C2=A0about an unusual=C2=A0=
+situation at a couple of special purpose acquisition companies. Basically a=
+ SPAC raises money by selling stock to public shareholders at $10 per share=
+, puts the money in a trust account, and then either (1) uses the money to =
+merge with a private company, taking it public and giving the public shareh=
+olders shares in that newly public target company, or (2) fails to do a mer=
+ger within two years and gives the shareholders their $10 back with interes=
+t. The sponsor of the SPAC generally pays the expenses of starting the SPAC=
+ and looking for a deal; if she finds a deal she is richly rewarded (with 2=
+0% of the SPAC=E2=80=99s shares), but if she doesn=E2=80=99t she eats those=
+ costs. The trust account can=E2=80=99t be touched to pay those costs; it i=
+s there to be used only if the SPAC finds a deal.</p>
+<p style=3D"margin: 16px 0;">What we talked about Wednesday was the edge ca=
+se in which a SPAC does not do a deal and somehow incurs expenses that the =
+sponsor does not pay. In that case, it seems that the SPAC can ask the publ=
+ic shareholders to hand back some of the money that they got: The company r=
+eally had to pay that money to its vendors before it paid the shareholders,=
+ and so the=C2=A0shareholders seem to be technically liable for paying it b=
+ack. Or so the SPACs say anyway. In practice the numbers involved are small=
+ =E2=80=94=C2=A0$0.02 or $0.11 per share =E2=80=94=C2=A0and it seems unlike=
+ly that the SPACs will pursue every retail shareholder to the ends of the e=
+arth for, like, $11 each. Also, I mean, the sponsor really=C2=A0<em>should=
+=C2=A0</em>bear these expenses. But, right, technically, if you invest in a=
+ SPAC and it somehow ends up with (1) no deal, (2) your $10 per share plus =
+interest in a trust account, and (3) a=C2=A0<em>negative=C2=A0</em>amount o=
+f money in its=C2=A0<em>other=C2=A0</em>accounts, then I guess you could ha=
+ve to make up the difference.<a class=3D"footnote-index" href=3D"#footnote-=
+1" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impor=
+tant; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But what about the opposite edge case? What ab=
+out a SPAC that ends up with (1) no deal, (2) your $10 per share plus inter=
+est in a trust account, and (3) a=C2=A0<em>large positive=C2=A0</em>amount =
+of money in its other accounts? Not, like, the sponsor puts in $10 million =
+to cover expenses, there are $6 million of expenses, and there=E2=80=99s $4=
+ million left over: That=E2=80=99s an easy case; the sponsor gets the $4 mi=
+llion back, and you only get your $10 plus interest. But what if the sponso=
+r puts in $10 million to cover expenses, and there are $10=C2=A0million of =
+expenses, and then the sponsor trips over a cord in the SPAC=E2=80=99s offi=
+ces and falls into a wall and there=E2=80=99s a $50 million=C2=A0stash of d=
+iamonds behind the wall? The diamonds belong to the corporation (let=E2=80=
+=99s say), but do all the shareholders get to share in their value? Or, if =
+the SPAC doesn=E2=80=99t acquire a target, does the sponsor just hand the s=
+hareholders back their $10 plus interest and keep the diamonds?</p>
+<p style=3D"margin: 16px 0;">In other words: When the SPAC does not complet=
+e a deal, are its public shareholders <em>real=C2=A0shareholders</em>, the =
+residual claimants on the assets of the corporation, or are they=C2=A0<em>k=
+ind of creditors</em>, entitled to get their $10 back with interest, no mor=
+e, no less? Intuitively, the=C2=A0answer is kind of in between, isn=E2=80=
+=99t it? In a legal sense the shareholders are shareholders. But their mone=
+y is kept in trust for them, and there are lots of protections to try to pr=
+event them from ending up getting back less than $10 per share, though as w=
+e saw Wednesday those protections are not absolutely ironclad. But there ar=
+e also provisions to prevent them from getting back=C2=A0<em>more=C2=A0</em=
+>than their $10 plus interest: When the SPAC winds up, generally, the publi=
+c shareholders get redeemed at the amount in the trust, and the sponsor get=
+s whatever is left.</p>
+<p style=3D"margin: 16px 0;">Anyway the tripping-into-diamonds example is f=
+anciful, but there is a real way that a SPAC can end up with no deal and a =
+pile of cash: It can=C2=A0<em>sign=C2=A0</em>a deal with a target company, =
+and then the target company can=C2=A0<em>get out of the deal=C2=A0</em>and=
+=C2=A0<em>pay a breakup fee</em>. In general when a company signs a merger =
+agreement =E2=80=94=C2=A0including with a SPAC =E2=80=94=C2=A0there will be=
+ some provisions in the agreement that allow the target to get out of the d=
+eal in some circumstances (for instance, if it gets a better offer), and if=
+ that happens the target usually has to pay the acquirer a fee to terminate=
+ the agreement. When the acquirer is a SPAC, it ends up with a bunch of cas=
+h and no merger. Who gets the cash: the public shareholders, or the sponsor=
+s?</p>
+<p style=3D"margin: 16px 0;">This has happened a few times in the recent SP=
+AC boom, and unsurprisingly the sponsors think they should keep the money. =
+In February 2021, a SPAC called Fast Acquisition Corp. <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTU3MzcvMDAwMTEwNDY1OTIxMTQzNjYzL3RtMjEyM=
+jM1My0yMV9kZWZtMTRhLmh0bQ/607f07ceef4b8524a319a23cB1851c88e" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">signed=
+ an agreement</a> to merge with Fertitta Entertainment Inc., the owner of t=
+he Golden Nugget and Landry=E2=80=99s. In December 2021, Fertitta <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTgxNTczNy8wMDAxMjEz=
+OTAwMjEwNjQ1OTAvZWExNTIxMjktOGtfZmFzdGFjcS5odG0/607f07ceef4b8524a319a23cB45=
+13e0ca" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">called off the deal</a> and agreed to pay a breakup fee of =
+$16 million, or $32 million if Fast Acquisition didn=E2=80=99t find another=
+ deal. It didn=E2=80=99t, and in August 2022, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmN=
+oaXZlcy9lZGdhci9kYXRhLzE4MTU3MzcvMDAwMTIxMzkwMDIyMDQ2NTE0L2VhMTY0MTQwZXg5OS=
+0xX2Zhc3RhY3EuaHRt/607f07ceef4b8524a319a23cBfd84449a" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">it announced<=
+/a> that it would redeem its shares for $10 plus interest, or about $10.02=
+=C2=A0=E2=80=94=C2=A0and the sponsor would keep the $32 million. Shareholde=
+rs sued; from <a href=3D"https://link.mail.bloombergbusiness.com/click/3065=
+1429.257434/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmR=
+meElVL3JhcDhDVl9PZlQ0OC92MA/607f07ceef4b8524a319a23cB0fcd1a0b" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">thei=
+r complaint</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The SPAC explosion has led to its =
+fair share of =E2=80=9Cfast ones=E2=80=9D by=C2=A0fiduciaries, but the Spon=
+sor of FAST Acquisition Corp. may have topped them all:=C2=A0it is orchestr=
+ating a theft in broad daylight of $23.7 million right out of the pockets o=
+f the SPAC and its stockholders. The Sponsor, and its owners, which include=
+ each of the SPAC=E2=80=99s officers and directors, failed to arrange a bus=
+iness combination and now have decided to simply walk away with the SPAC=E2=
+=80=99s only valuable asset=E2=80=94a termination fee it obtained after its=
+ only potential deal fell through. A more flagrant breach of the duty of lo=
+yalty can hardly be imagined.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe defendants believe the lawsuit is=
+ without merit and intend to defend it vigorously,=E2=80=9D <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTU3MzcvMDAwMTIxMzkwMDIyMDQ2NTE0L2Vh=
+MTY0MTQwZXg5OS0xX2Zhc3RhY3EuaHRt/607f07ceef4b8524a319a23cCfd84449a" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>said the SPAC</a>, and that case is ongoing.</p>
+<p style=3D"margin: 16px 0;">As the boom-time SPACs unwind, there are more =
+of these cases. In May 2021, a=C2=A0SPAC called Pioneer Merger Corp. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4Mjk3OTcvMDAwMTEwNDY1OTIxMDg=
+0MzIzL3RtMjExNjYxOS0zX3M0Lmh0bQ/607f07ceef4b8524a319a23cBd3fb6fb1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+signed an agreement to merge</a> with fintech startup Acorns Grow Inc.; tha=
+t deal was <a href=3D"https://link.mail.bloombergbusiness.com/click/3065142=
+9.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMT=
+gyOTc5Ny8wMDAxMTA0NjU5MjIwMDQ3MDkvdG0yMTE2NjE5ZDQ2XzhrLmh0bQ/607f07ceef4b85=
+24a319a23cCf7dc0547" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">terminated in January 2022</a> with a $32.5 m=
+illion fee. Pioneer never found another deal, and in January 2023 it redeem=
+ed its shareholders at $10.10 plus interest, keeping the fee for the sponso=
+r. <a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434=
+/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3IzeG=
+VodDJVcUdsay92MA/607f07ceef4b8524a319a23cBdf4b5806" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Shareholders su=
+ed</a>. And in July 2021, a SPAC called Concord Acquisition Corp. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MjQzMDEvMDAwMTIxMzkwMDIxMDM2=
+MDcwL2VhMTQzODc1ZXg5OS0xX2NvbmNvcmRhY3EuaHRt/607f07ceef4b8524a319a23cB66abb=
+bf4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">agreed to a merger</a> with crypto stablecoin company Circle I=
+nternet Financial Ltd. It <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30651429.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXR=
+hLzE4MjQzMDEvMDAwMTIxMzkwMDIyMDA4MTQ3L2VhMTU1ODQyZXg5OS0xX2NvbmNvcmQuaHRt/6=
+07f07ceef4b8524a319a23cBbcde2ed6" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">renegotiated the deal</a> at a hi=
+gher price in February 2022, but by December 2022 the deal was off and Circ=
+le agreed to pay a <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30651429.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2=
+RhdGEvMTgyNDMwMS8wMDAxMjEzOTAwMjIwNzc2NTUvZWExNjk2MTgtOGtfY29uY29yZC5odG0/6=
+07f07ceef4b8524a319a23cD38b36b0a" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">$20 million termination fee</a> (=
+in stock). Later that month, the SPAC <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0F=
+yY2hpdmVzL2VkZ2FyL2RhdGEvMTgyNDMwMS8wMDAxMjEzOTAwMjIwODM5NjkvZWExNzEwMTgtOG=
+tfY29uY29yZGFjcS5odG0/607f07ceef4b8524a319a23cEdde8b5ae" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">redeemed i=
+ts shareholders</a> at $10.18 per share and kept the fee for its sponsor. <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR=
+0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JDTGZ1bW=
+FWZHZVcy92MA/607f07ceef4b8524a319a23cB53e77b4e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Shareholders sued</=
+a>.</p>
+<p style=3D"margin: 16px 0;">The thing is that no one seems to have=C2=A0<e=
+m>thought=C2=A0</em>very much about this edge case. If you read the origina=
+l offering documents for these SPACs, they say=C2=A0<em>both=C2=A0</em>that=
+ if there is no deal shareholders get only their money back with interest,=
+=C2=A0<em>and=C2=A0</em>that if there is no deal the sponsors get nothing. =
+=E2=80=9COur initial stockholders will lose their entire investment in us i=
+f our initial business combination is not completed,=E2=80=9D says the boil=
+erplate in the <a href=3D"https://link.mail.bloombergbusiness.com/click/306=
+51429.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MjQzMD=
+EvMDAwMTIxMzkwMDIwMDQxODY3L2Y0MjRiNF9jb25jb3JkYWNxdWljb3JwLmh0bSNUMTc/607f0=
+7ceef4b8524a319a23cBfb4b62f8" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Concord offering document</a>. That=
+=C2=A0<em>sounds </em>like the sponsor should get nothing if there=E2=80=99=
+s no deal, right? But another risk factor says that if there is=C2=A0no dea=
+l =E2=80=9Cour public stockholders may receive only $10.00 per share, or le=
+ss than such amount in certain circumstances,=E2=80=9D=C2=A0and explains th=
+at the shareholders will be cashed out only for the amount in the trust acc=
+ount. If a shell company with no operations never completes a merger, that =
+will=C2=A0<em>normally=C2=A0</em>mean that it ends up only with the $10 plu=
+s cash in its trust account, and it is reasonably clear who gets=C2=A0<em>t=
+hat</em>. (The public shareholders get all of it, the sponsor gets none of =
+it.) But if it lucks into some cash anyway, it is less clear who gets that.=
+</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDecf9bd67" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEecf9bd67" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF62de4c9c" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG62de4c9c" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH75885518" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI75885518" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is bank fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Part of the story of the collapse of FTX Tradi=
+ng Ltd. =E2=80=94=C2=A0the story that its now-indicted founder, Sam Bankman=
+-Fried, told about it =E2=80=94=C2=A0is that FTX misplaced a few billion do=
+llars of customer money due to an unfortunate but understandable mix-up. It=
+ went like this, see. Early in its history, FTX had trouble opening bank ac=
+counts, because banks were nervous about dealing with crypto exchanges. But=
+ Alameda Research, Bankman-Fried=E2=80=99s crypto trading firm,=C2=A0<em>di=
+d=C2=A0</em>have access to banks, in part because crypto trading firms are =
+less off-putting to banks than crypto exchanges are<a class=3D"footnote-ind=
+ex" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[2]</span>
+</a> and in part because =E2=80=9CAlameda Research=E2=80=9D is a vague name=
+ that was chosen specifically to avoid scaring banks.<a class=3D"footnote-i=
+ndex" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And so when customers wanted to deposit money =
+at FTX, FTX would sometimes tell them to wire the money to Alameda. Alameda=
+ would get the money in its bank account, and would then tell FTX that it h=
+ad received it, and then FTX would credit the money to the customer=E2=80=
+=99s trading account. But <em>Alameda would keep the actual money</em>, in =
+its bank account. To make things=C2=A0balance, FTX would record a liability=
+ from Alameda to FTX in its internal accounts: It would make a little note,=
+ like, =E2=80=9Cwe have credited $100 to Customer X=E2=80=99s account, but =
+Alameda is holding the money for Customer X, so Alameda owes us that $100 a=
+nd we should remember to get the money from Alameda at some point.=E2=80=9D=
+ Over time this balance =E2=80=94=C2=A0the amount that Alameda was holding =
+for other customers and owed to FTX =E2=80=94 grew to $8 billion. But also =
+somehow FTX forgot about it? Basically FTX thought that Alameda had the $8 =
+billion, and also that its customers had the $8 billion, so it thought ther=
+e was $8 billion more on FTX than there was. FTX thought that it was well c=
+apitalized and that Alameda was doing fine, because it forgot that there wa=
+s a missing $8 billion. =E2=80=9CHidden, poorly internally labeled =E2=80=
+=98fiat@=E2=80=99 account: -8,000,000,000,=E2=80=9D is a <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuZnQu=
+Y29tL2NvbnRlbnQvMGMyYTU1YjYtZDM0Yy00Njg1LThhOGQtM2M5NjI4ZjFmMTg1/607f07ceef=
+4b8524a319a23cB504a8c62" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> 100% real entry</a> on an <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1z=
+aGVldC13YXMtYmFkP2NtcGlkPUJCRDAyMjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cBe05c3e4f" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  FTX balance sheet</a>=
+ that Bankman-Fried sent around trying to raise money in November. Yeesh!</=
+p>
+<p style=3D"margin: 16px 0;">Again, this is=C2=A0the story that Bankman-Fri=
+ed was telling. Here is a <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30651429.257434/aHR0cHM6Ly93d3cudm94LmNvbS9mdXR1cmUtcGVyZmVjdC8yMzQ=
+2MjMzMy9zYW0tYmFua21hbi1mcmllZC1mdHgtY3J5cHRvY3VycmVuY3ktZWZmZWN0aXZlLWFsdH=
+J1aXNtLWNyeXB0by1iYWhhbWFzLXBoaWxhbnRocm9weQ/607f07ceef4b8524a319a23cBb70fb=
+ca3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> direct-message exchange</a> that he had with Vox=E2=80=99s Ke=
+lsey Piper in November, in which he said:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">like =E2=80=9Coh FTX doesn=E2=80=99t have a ba=
+nk account, I guess people can wire to Alameda=E2=80=99s to get money on FT=
+X=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=A6.3 years later=E2=80=A6.</p>
+<p style=3D"margin: 16px 0;">=E2=80=98oh [no] it looks like people wired $8=
+b to Alameda and oh god we basically forgot about the stub account that cor=
+responded to that and so it was never delivered to FTX.=E2=80=99</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Reading this story, you might have had various=
+ reactions. You might have thought =E2=80=9Coh yeah that sounds believable =
+and innocent, whoops,=E2=80=9D or =E2=80=9Cman, they forgot $8 billion,=C2=
+=A0that sounds pretty fake,=E2=80=9D or =E2=80=9Cyeah I guess that might ha=
+ve happened but it still seems fraudulent.=E2=80=9D But maybe the most obvi=
+ous reaction was: =E2=80=9CWait, they were=C2=A0<em>tricking their banks?</=
+em>=E2=80=9D Never mind the accounting for the money or how it went missing=
+; the most obvious problem here is that FTX couldn=E2=80=99t open a bank ac=
+count and so used Alameda as a way to get around the banking system. You ca=
+n=E2=80=99t trick banks! That=E2=80=99s bank fraud! That=E2=80=99s an indep=
+endent reason to get in very bad trouble! Bankman-Fried=E2=80=99s defense h=
+ere is like =E2=80=9Coh no we weren=E2=80=99t intentionally stealing money =
+from our customers; we just accidentally misplaced their money because we w=
+ere=C2=A0doing bank fraud.=E2=80=9D That=E2=80=99s not helpful!</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried was arrested for a whole assortm=
+ent of things in December, and yesterday the US Department of Justice <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjMvbmV3LWNoYXJnZX=
+MtdG8tYmUtdW5zZWFsZWQtaW4tYmFua21hbi1mcmllZC1jYXNlP2NtcGlkPUJCRDAyMjQyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB63aa548=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> filed a superseding indictment</a> elaborating on those charg=
+es and adding some new ones. Most of the allegations in the new indictment =
+=E2=80=94=C2=A0about misappropriating customer money and building backdoors=
+ in FTX=E2=80=99s code to allow Alameda to rack up big unsecured debts =E2=
+=80=94=C2=A0are familiar from the US Securities and Exchange Commission=E2=
+=80=99s and Commodity Futures Trading Commission=E2=80=99s cases against Ba=
+nkman-Fried; we have <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1=
+CQkQwMjI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzAyMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBe168ec57" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  discussed them before</a>. But there is some ne=
+w stuff, and a lot of it is about bank accounts.<a class=3D"footnote-index"=
+ href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[4]</span>
+</a>=C2=A0From <a href=3D"https://link.mail.bloombergbusiness.com/click/306=
+51429.257434/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRm=
+RmeElVL3JIb3B1TFRackxYQS92MA/607f07ceef4b8524a319a23cB93a5c2b6" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> th=
+e new indictment</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Because FTX did not have its own bank accounts=
+ for holding customer deposits, for a period of time in or around 2019 and =
+2020, FTX instructed customers to wire dollar deposits to bank accounts tha=
+t were owned or controlled by Alameda, which at the time SAMUEL=C2=A0BANKMA=
+N-FRIED, a/k/a "SBF," the defendant, also controlled as the CEO. These Alam=
+eda accounts had been opened as trading accounts and had been used almost e=
+xclusively for Alameda's trading purposes until they were also employed as =
+accounts for FTX to receive and transmit its customer deposits and withdraw=
+als. Alameda never informed the banks where these accounts were held that t=
+hese accounts in Alameda's name began to be used in substantial part by FTX=
+ to accept customer deposits for, and as a vehicle for customer withdrawals=
+ from, FTX's cryptocurrency exchange.</p>
+<p style=3D"margin: 16px 0;">During the time period in which FTX was using =
+Alameda bank accounts to receive and transmit customer deposits, SAMUEL BAN=
+KMAN-FRIED, a/k/a "SBF," the defendant, and others, made efforts to open ba=
+nk accounts for this purpose in FTX's name. In particular, BANKMAN-FRIED, t=
+hrough Alameda employees, attempted to open an account for FTX at a bank in=
+ California ("Bank-1"), the deposits of which were insured by the Federal D=
+eposit=C2=A0Insurance Corporation and where Alameda already had bank accoun=
+ts. Bank-1 made clear, however, that it would not open an account for custo=
+mer deposits and withdrawals absent evidence that FTX was licensed and regi=
+stered, including federal registration as a money services business, and th=
+at, in any event, Bank-1 would need to conduct an enhanced due diligence pr=
+ocess before=C2=A0opening any account used to process customer deposits and=
+ withdrawals.</p>
+<p style=3D"margin: 16px 0;">In or about January 2020, SAMUEL BANKMAN-FRIED=
+, a/k/a "SBF," the defendant, contacted Bank-1=C2=A0about opening an FTX ac=
+count. BANKMAN-FRIED learned from Bank-1 that BANKMAN-FRIED should not atte=
+mpt to open an account for FTX, an international platform, at that time. He=
+ was further told that if he wished to open an account to process customer =
+deposits and withdrawals for FTX.US, FTX's business in the United States, F=
+TX.US would need to register as a money services business. While BANKMAN-FR=
+IED did later register FTX.US as a money services business in 2020, no atte=
+mpts were made to make FTX a licensed money services business and BANKMAN-F=
+RIED never sought to have FTX or Alameda comply with the regulatory require=
+ments of licensure. Instead, FTX continued to use Alameda trading accounts =
+to accept customer deposits and process customer withdrawals.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It goes on to describe Bankman-Fried setting u=
+p another entity, called North Dimension, =E2=80=9Cin part to obscure the r=
+elationship between FTX and Alameda, and in order to overcome Bank-1's refu=
+sal to open a bank account for FTX without extensive due diligence and lice=
+nsing.=E2=80=9D And then he allegedly =E2=80=9Ctold Bank-1 a false story, n=
+amely, that North Dimension sought to open an account to function as a trad=
+ing account connected to Alameda's existing trading accounts, instead of th=
+e truth, which was that the North Dimension account would function as an ac=
+count to receive and=C2=A0transmit FTX customer deposits.=E2=80=9D =E2=80=
+=9CConspiracy to Commit Bank Fraud=E2=80=9D and =E2=80=9CConspiracy to Oper=
+ate an Unlicensed Money Transmitting Business=E2=80=9D are some of the name=
+s that the indictment calls this stuff.</p>
+<p style=3D"margin: 16px 0;">The point here, of course, is that to some ext=
+ent the question =E2=80=9Cdid FTX steal its customers=E2=80=99 money or jus=
+t lose it by accident=E2=80=9D is a question of intent, and requires explai=
+ning=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429=
+.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTE=
+tMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2=
+UtZGVhbD9jbXBpZD1CQkQwMjI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBa9feb0e4" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  the complexities of leveraged =
+derivative exchanges</a> to a jury. Bankman-Fried=E2=80=99s version of the =
+story involves some carelessness, yes, but it is mostly a story of =E2=80=
+=9Cwe ran a levered exchange, we provided leverage to Alameda that seemed=
+=C2=A0reasonable compared to the market value of their assets, the market v=
+alue of their assets evaporated quickly, there was a run on the bank, and w=
+e ended up bankrupt.=E2=80=9D You can object to a lot of that story, <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWR=
+vLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwMjI0MjNfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjQmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCe168ec57" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  and I have</a>, but it has a certain basic consistency, and a certain sim=
+ilarity to other high-profile=C2=A0financial meltdowns that did not end wit=
+h anyone going to prison.<a class=3D"footnote-index" href=3D"#footnote-5" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">On the other hand lying to a bank <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMjMvZXZlcnl0aGluZy1pc=
+y1hbHNvLWJhbmstZnJhdWQ_Y21waWQ9QkJEMDIyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjI0JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cB9f2dfdd1" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  is its own crime=
+</a>, and tends to be a bit <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjItMDQtMjcvYmlsbC1od2FuZy1hcnJlc3QtaW5zaWRlLXRoZS12aWNpb3VzLWN5=
+Y2xlLW9mLWFyY2hlZ29zLWNvbGxhcHNlP2NtcGlkPUJCRDAyMjQyM19NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyNCZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB02143a63" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  easie=
+r to prove</a> than the intent stuff about the customer money<a class=3D"fo=
+otnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[6]</span>
+</a>: You fill out some forms to open a bank account, and the bank keeps th=
+e forms and shares them readily with the government, and if what you say on=
+ the forms doesn=E2=80=99t match what you were doing then you can go to pri=
+son, whether or not what you were doing=C2=A0was stealing money from custom=
+ers.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJbd5ee021" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">PRPLS</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">It is not so long ago that I was writing enthu=
+siastically about novel ways that public companies had just discovered to, =
+uh, let=E2=80=99s say optimize shareholder voting. =E2=80=9CWe just live in=
+ a golden age of blank-check preferred stock with weird voting rights and f=
+un acronyms,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMDItMTUvcHVycGxlLWlubm92YXRpb24tcy1wcnBscy1pbm5vdmF0aW9uP2NtcGlkPU=
+JCRDAyMjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cBdd313323" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">I wrote last week</a>. This week, though, they ar=
+e all getting sued. We <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMDItMjEvYW1jLWFwZXMtaGF0ZS1hbWMtcy1hcGVzP2NtcGlkPUJCRDAyMjQyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1c48854=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">talked on Tuesday</a> about a lawsuit against AMC Entertainmen=
+t Holdings Inc. over its APE preferred shares, which it issued as a way to =
+get around the requirement that a majority of its shareholders approve the =
+issuance of new common shares. Apparently some shareholders did not like be=
+ing gotten around.</p>
+<p style=3D"margin: 16px 0;">And we <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDItMTUvcHVycGxlLWlubm92YXRpb24tcy1wcnBscy1pbm5vdmF0=
+aW9uP2NtcGlkPUJCRDAyMjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cCdd313323" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> talked last week</a> about Purple =
+Innovation Inc., a mattress company that is 45% owned by Coliseum Capital M=
+anagement LLC. Coliseum nominated five candidates for Purple=E2=80=99s seve=
+n-member board of directors, and it seemed likely that, with 45% of the vot=
+e, it would be able to elect its candidates and take over the board. (And t=
+hen, possibly, buy out the 55% of Purple that it does not currently own, as=
+ it has proposed to do in the past.)</p>
+<p style=3D"margin: 16px 0;">Purple=E2=80=99s current directors don=E2=80=
+=99t love this, but there is not much they can do to fight off their 45% sh=
+areholder. But they=E2=80=99re trying.=C2=A0They issued a new class of pref=
+erred stock called PRPLS =E2=80=94=C2=A0=E2=80=9CProportional Representatio=
+n Preferred Linked Stock,=E2=80=9D sure =E2=80=94=C2=A0that (1) has tons of=
+ votes and (2) has=C2=A0<em>cumulative </em>votes, meaning that you can giv=
+e all of your votes to one or two board candidates. Purple distributed PRPL=
+S to all of its shareholders proportionally, so each shareholder has as muc=
+h voting power as they had before, but now they can vote cumulatively rathe=
+r than just for one director at a time. The theory, I guess, is that this w=
+ill allow Purple=E2=80=99s non-Coliseum shareholders to team up to elect at=
+ least three, and maybe four, directors with their cumulative votes, keepin=
+g some of the current directors around and making Coliseum=E2=80=99s life a=
+ bit harder.</p>
+<p style=3D"margin: 16px 0;">This week=C2=A0<a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoa=
+XZlcy9lZGdhci9kYXRhLzE0MDk3NTEvMDAwMTE5MzEyNTIzMDQzNjg2L2QzNjg5MTBkZXg5OTEu=
+aHRt/607f07ceef4b8524a319a23cBc461f1b4" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Coliseum sued</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The preferred stock =E2=80=93 issued without t=
+he approval of Purple=E2=80=99s stockholders and in direct response to Coli=
+seum=E2=80=99s nomination of directors to the Purple Board of Directors =E2=
+=80=93 violates the Company=E2=80=99s charter, fundamentally transforms the=
+ =E2=80=9Cone share, one vote=E2=80=9D structure used to elect Company dire=
+ctors into a cumulative voting regime that prevents holders of a majority o=
+f the common stock from electing or removing the full board, and is a bad f=
+aith attempt by the Special Committee of Purple=E2=80=99s Board to entrench=
+ itself and thwart shareholder democracy. Specifically, the preferred stock=
+ issuance violates those provisions of the Company=E2=80=99s charter that l=
+imit the form of stock distributions to holders of the Company=E2=80=99s Cl=
+ass A shares to additional shares of Class A common stock.</p>
+<p style=3D"margin: 16px 0;">Adam Gray, Managing Partner of Coliseum, said,=
+ =E2=80=9CThe Purple Special Committee=E2=80=99s brazen action =E2=80=93 ta=
+ken no more than 24 hours after Coliseum proposed five highly qualified can=
+didates for election =E2=80=93 demonstrates the lengths to which the incumb=
+ent non-executive directors will go to preserve their Board seats at the ex=
+pense of stockholders. To seek such Board security amidst a contested elect=
+ion =E2=80=93 and leveraging corporate machinations and stockholder resourc=
+es to do so =E2=80=93 is further evidence that Board change is warranted. W=
+hile Coliseum has sought to work constructively with the Purple Board =E2=
+=80=93 consistent with the collaborative investment approach we have execut=
+ed successfully for the past 15-plus years =E2=80=93 we have been left with=
+ no choice but to take the extraordinary step of a proxy contest and filing=
+ litigation seeking to ensure the election of directors is conducted in a f=
+air and democratic manner for the benefit of all Purple stockholders.=E2=80=
+=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30651429.257434/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3IxZ19TVW5lX2F6TS92MA/607f07ceef4b8524a319a23c=
+B87bc8832" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the complaint</a>, which mostly makes the general point=
+ that it is unfair for the board of directors to change shareholders=E2=80=
+=99 voting rights:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The dividend issuance, which is designed solel=
+y to prevent Coliseum from electing its nominees and removing existing dire=
+ctors, violates the Company=E2=80=99s charter and was not justified by any =
+conceivable threat to corporate policy or effectiveness. Where, as here, a =
+board of directors =E2=80=9Cdeliberately employs various legal strategies t=
+o either frustrate or completely disenfranchise a shareholder vote, =E2=80=
+=A6 [t]here can be no dispute that such conduct violates Delaware law.=E2=
+=80=9D ...</p>
+<p style=3D"margin: 16px 0;">The Board upset the reasonable and settled exp=
+ectations of every stockholder that invested in Purple=E2=80=95namely, that=
+ one share would equal one vote and that holders of a majority of the commo=
+n stock would be empowered to replace the entire Board if they saw fit to d=
+o so. This principle is fundamental to the legitimacy of a board. The struc=
+ture imposed by the NED Defendants strikes at the heart of corporate democr=
+acy and Purple stockholders=E2=80=99 expectations by=C2=A0empowering holder=
+s of a comparatively small number of shares to block change at the Board le=
+vel, even if the majority wants to replace the existing directors.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know how this will play out. I=
+n general my instinct is that if there is a technical trick that directors =
+can use to issue voting shares, without directly changing anyone=E2=80=99s =
+share of the vote, they can probably get away with it, but I have no idea. =
+And there=C2=A0<em>has=C2=A0</em>been a glut of these things recently, push=
+ing out the limits of what is possible; you could imagine Delaware courts s=
+aying =E2=80=9Cno, that=E2=80=99s enough, stop it, just let your shareholde=
+rs vote.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There are two more specific points here. One i=
+s that Purple was apparently not, technically, allowed to <em>give </em>sha=
+reholders the PRPLS. The way a company distributes securities to all of its=
+ shareholders for free is through a <em>dividend</em>, a distribution of so=
+me stuff (here, voting preferred stock) to each share of common stock. So l=
+ast week <a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.=
+257434/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2NDM5NTMvMDAw=
+MTIxMzkwMDIzMDExMTM2L2VhMTczNTA5ZXg5OS0xX3B1cnBsZWlubi5odG0/607f07ceef4b852=
+4a319a23cB1a1492e2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Purple announced</a> that it had =E2=80=9Cde=
+clared a dividend new Proportional Representation Preferred Linked Stock (=
+=E2=80=98PRPLS=E2=80=99) for each 100 shares of Purple common stock (=E2=80=
+=98Common Stock=E2=80=99) owned by Purple=E2=80=99s shareholders.=E2=80=9D<=
+/p>
+<p style=3D"margin: 16px 0;">But Coliseum argues that it is not allowed to =
+pay a dividend of random sorts of stock: Purple=E2=80=99s <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2NDM5NTMvMDAwMTIxMzkwMDE5MDIyMTM4L2YxMH=
+EwOTE5ZXgzLTFfcHVycGxlLmh0bQ/607f07ceef4b8524a319a23cB905592a1" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> co=
+rporate charter</a> says that =E2=80=9CStock dividends with respect to Clas=
+s A Common Stock may be paid only with Class A Common Stock,=E2=80=9D and C=
+oliseum points out that =E2=80=9Cthe dividend of Preferred Stock constitute=
+s a =E2=80=98stock dividend=E2=80=99=E2=80=9D under=C2=A0Delaware law. I=E2=
+=80=99m not sure that was what the charter=C2=A0<em>meant</em>, but it is w=
+hat it=C2=A0<em>says</em>, so it=E2=80=99s a clever argument.<a class=3D"fo=
+otnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[7]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">The other is that Purple apparently did this d=
+ividend=C2=A0<em>one day after=C2=A0</em>selling stock to Coliseum:</p>
+<blockquote><p style=3D"margin: 16px 0;">Shockingly, the Preferred Issuance=
+ came one day after a stock offering settled whereby Purple received from C=
+oliseum $27 million in cash that Purple needed to facilitate an amendment t=
+o its credit agreement to provide Purple with necessary flexibility and run=
+way for growth. The [Non-Executive Director] Defendants knew as early as Ja=
+nuary 17, 2023, that Coliseum considered nominating a new slate of=C2=A0dir=
+ectors, and knew well in advance of the stock offering closing that they pl=
+anned to authorize the Preferred Issuance if they received formal notice of=
+ Coliseum=E2=80=99s slate. Nevertheless, the NED Defendants=E2=80=95acting =
+in bad faith=E2=80=95allowed Coliseum (and other stockholders) to proceed w=
+ith the stock offering without ever disclosing that they had crafted a dilu=
+tive dividend that they were ready to and would deploy at a moment=E2=80=99=
+s notice to fundamentally change the voting structure and prevent holders o=
+f a majority of the common stock from replacing the entire Board.=C2=A0</p>=
+</blockquote>
+<p style=3D"margin: 16px 0;">It is a weird relationship. Purple has a contr=
+olling-ish shareholder, the shareholder wants to buy the company, and the b=
+oard seems to dislike the shareholder. If you are the board in that situati=
+on, you might try to mess with shareholder voting rights to contain the con=
+trolling shareholder, but you might also have to hit that shareholder up fo=
+r money. You want to get the timing right: You ask them for money=C2=A0<em>=
+before=C2=A0</em>you cut off their voting rights.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Kodak</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In general, it is the position of this newslet=
+ter (though it is not legal advice) that:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You should not do insider trading.</l=
+i>=09<li style=3D"margin-bottom: 5px;">If you must do insider trading, you =
+should not text your accomplice about it.</li>=09<li style=3D"margin-bottom=
+: 5px;">If you must do crimes and text your accomplices about them, you sho=
+uld not use cutesy codenames for your crimes. You should use=C2=A0<em>borin=
+g=C2=A0</em>codenames for your crimes. If you are paying bribes, <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDEtMDQvZG9uLXQtY2FsbC1=
+icmliZXMtY2hpY2tlbnM_Y21waWQ9QkJEMDIyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjI0JnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cB52502a7e" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">don=E2=80=99t call t=
+hem =E2=80=9Cchickens=E2=80=9D</a>! Call them =E2=80=9Cconsulting fees=E2=
+=80=9D! That=E2=80=99s ambiguous! If you call them =E2=80=9Cchickens,=E2=80=
+=9D everyone knows that (1) they are not chickens but (2) they are crimes.=
+=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">Similarly if you worked at a chemical company =
+that was helping out with=C2=A0<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjAtMDctMzAva29kYWstaXMtcmVsZXZhbnQtYWdhaW4_Y21waWQ9QkJEMDIyN=
+DIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMwMjI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2=
+fd76f72" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Eastman Kodak Co.=E2=80=99s random pivot</a> from being a =
+blockchain company (?) in the blockchain boom to being a hydroxychloroquine=
+ company (?) in the pandemic, and you learned of that pivot and an accompan=
+ying huge government loan to Kodak,=C2=A0=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=
+=8B=E2=80=8B(1) you should not have insider traded on that information, (2)=
+ you certainly shouldn=E2=80=99t have texted your=C2=A0<em>cousin=C2=A0</em=
+>with that information so that=C2=A0<em>he=C2=A0</em>could insider trade on=
+ it, and (3) ugh come on with this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">During June and July 2020, ANDREW STILES was k=
+ept apprised of Kodak=E2=80=99s efforts to obtain the government loan, and =
+he both traded using that non-public information and passed that informatio=
+n to GRAY STILES. =C2=A0For example, on July 9, 2020, when Kodak had applie=
+d for a loan in the amount of $655 million, ANDREW STILES and GRAY STILES e=
+xchanged the following coded text messages:</p>
+<p style=3D"margin: 16px 0;">GRAY: =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Any u=
+pdate on the film we sent off a few weeks ago to get developed</p>
+<p style=3D"margin: 16px 0;">ANDREW: =C2=A0 =C2=A0 600+. =C2=A0Maybe 2 week=
+s out</p>
+<p style=3D"margin: 16px 0;">GRAY: =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0I can live with that hahaha</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Oh =E2=80=9Cthe film we sent off a few weeks a=
+go to get developed=E2=80=9D! That sounds very natural! People do that all =
+the time! In 2020! Any jury, confronted with that text message, would think=
+ =E2=80=9Cahh these innocent film photography enthusiasts, waiting patientl=
+y for WEEKS to get their film developed, no crimes here=E2=80=9D!</p>
+<p style=3D"margin: 16px 0;">Anyway those guys were arrested and charged wi=
+th insider trading yesterday; the quote above is from <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuanVzdGl=
+jZS5nb3YvdXNhby1zZG55L3ByL2Zvcm1lci1waGFybWEtZXhlY3V0aXZlLWFuZC1jb3VzaW4tY2=
+hhcmdlZC1pbnNpZGVyLXRyYWRpbmcta29kYWstc3RvY2s/607f07ceef4b8524a319a23cB1aab=
+5ef8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">the US attorney=E2=80=99s press release</a>. It's in the pres=
+s release because it=E2=80=99s bad! If the exchange had been:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">GRAY: Any update on that stock you told me abo=
+ut?</p>
+<p style=3D"margin: 16px 0;">ANDREW: 600+. Maybe 2 weeks out</p>
+<p style=3D"margin: 16px 0;">GRAY: Great, thanks for the update</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That would=C2=A0have been better! You can work=
+ with that!=C2=A0That wouldn=E2=80=99t be the first thing they put in the p=
+ress release and show the jury! Come on.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">DOJ Preps Antitrust Suit to <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjMvZG9qLXByZXBhcmluZy1zdWl0LXR=
+vLWJsb2NrLWFkb2JlLXMtMjAtYmlsbGlvbi1kZWFsLWZvci1maWdtYT9jbXBpZD1CQkQwMjI0Mj=
+NfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMzAyMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBceb=
+87139" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Block Adobe=E2=80=99s $20 Billion Figma Deal</a>. U.S. Reg=
+ulators Warn Banks of Heightened Liquidity Risks in <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy91LXMtcmVndWxhdG9ycy13YXJuLWJhbmtzLW9mLWhlaWdodGVuZWQtbGlxdWlk=
+aXR5LXJpc2tzLWluLWNyeXB0by1yZWxhdGVkLWRlcG9zaXRzLWFlOTJhNDgyP21vZD1pdHBfd3N=
+qJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB02ea4f55" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Crypto-Related De=
+posits</a>. Crypto Company <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30651429.257434/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tY2=
+9tcGFueS1jb2luZXgtc3VlZC1ieS1uZXcteW9yay1vdmVyLWZhaWx1cmUtdG8tcmVnaXN0ZXItZ=
+DI1ZjY2N2U_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBef94c35b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> CoinEx</a> Sued by New York Over Failure to Register. Consultants s=
+tart to <a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.2=
+57434/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzc2OGVjNzctMmIxZi00NDRkLThhZDgtN=
+jc5NDEyODg5Zjcw/607f07ceef4b8524a319a23cBe2d85300" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> cut jobs</a> as=
+ boom time ends. Fed Rate Policy Is Shaking Up the World of <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cud=
+3NqLmNvbS9hcnRpY2xlcy9mZWQtcmF0ZS1wb2xpY3ktaXMtc2hha2luZy11cC10aGUtd29ybGQt=
+b2YtbXVuaS1kZWJ0LTcyYjk4ZTg1P21vZD1ocF9sZWFkX3BvczY/607f07ceef4b8524a319a23=
+cB76d87532" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Muni Debt</a>. Vivek Ramaswamy=E2=80=99s fund manager =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzdjY2M1ZWEtM2U4Zi00OWExLWIyNTAtMzEzNjVmN=
+GYzM2Uw/607f07ceef4b8524a319a23cB556e9dc2" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Strive</a> sticks to it=
+s =E2=80=98anti-woke=E2=80=99 mission.=C2=A0Documents from JPMorgan=E2=80=
+=99s Jamie Dimon sought in <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30651429.257434/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWMyZmEwNzAtN2=
+M4Yi00ZDQ4LWE2YTctYjBmZWQwNTJmODBk/607f07ceef4b8524a319a23cBb7683028" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Jeffrey Epstein lawsuits</a>.=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjMtMDItMjQvdGhvbWFzLWxlZS1iaWxsaW9uYWlyZS1wcml2YXRlLWVxd=
+Wl0eS1kZWFscy1waW9uZWVyLWRpZXMtYXQtNzg_Y21waWQ9QkJEMDIyNDIzX01PTkVZU1RVRkYm=
+dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjI0JnV=
+0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8213d0d7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Thomas Lee</a>, Billionaire Private Equity Pioneer, Dies at 78. The Top T=
+akeaways From <a href=3D"https://link.mail.bloombergbusiness.com/click/3065=
+1429.257434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDI=
+tMjQvcG9kY2FzdC10aGUtdG9wLXRha2Vhd2F5cy1mcm9tLTMwMC15ZWFycy1vZi1pbnZlc3RtZW=
+50LWFkdmljZT9jbXBpZD1CQkQwMjI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB302a339d" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  300 Years of Investment Ad=
+vice</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30651429.257434/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB77ed9b60" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30651429.257434/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB24d2339d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Though obviously you can=E2=80=99t be requ=
+ired to pay back more than your $10 per share: You are a shareholder, and y=
+ou have limited liability. In fact the cases we talked about Wednesday invo=
+lved the SPACs asking shareholders for a portion of the *interest* they got=
+ on their cash =E2=80=94 they got $10.22 back and the SPAC thinks they shou=
+ld have gotten $10.11, etc. =E2=80=94 and I think it would be a much bigger=
+ deal if the SPACs tried to eat into *principal*. If you invest $10 in a SP=
+AC and get back $9.50, that=E2=80=99s bad.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] It is worth understanding why: A crypto ex=
+change is essentially in a sort of banking and money-transmitting business,=
+ and if you are a bank that deals with a crypto exchange you have to worry =
+about *its* customers. You have to worry about whether it is doing appropri=
+ate <a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.25743=
+4/aHR0cHM6Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUva3ljLWFuZC1hbWwtYmV5b=
+25kLXRoZS1hY3Jvbnltcy8/607f07ceef4b8524a319a23cB22fe106f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> know-you=
+r-customer</a>/<a href=3D"https://link.mail.bloombergbusiness.com/click/306=
+51429.257434/aHR0cHM6Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUvbW9uZXktbG=
+F1bmRlcmluZy1hbmQtYW1sLWNvbXBsaWFuY2Uv/607f07ceef4b8524a319a23cBddd0ed97" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">anti-money-laundering</a> checks and whether it is properly licensed=
+ to do that business. A crypto trading firm is just someone=E2=80=99s pot o=
+f money to speculate with; they might lose the money, but that=E2=80=99s no=
+t your problem if you are their bank. </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] =E2=80=9CEspecially in 2017, if you named =
+your company like We Do Cryptocurrency Bitcoin Arbitrage Multinational Stuf=
+f, no one's going to give you a bank account if that's your company name,=
+=E2=80=9D Bankman-Fried <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/30651429.257434/aHR0cHM6Ly93d3cubnByLm9yZy90cmFuc2NyaXB0cy8xMTM3MDU0O=
+Tc2/607f07ceef4b8524a319a23cB082ff2b3" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> once explained</a>.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Some is about alleged use of straw donors =
+to <a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjMvbmV3LW=
+NoYXJnZXMtdG8tYmUtdW5zZWFsZWQtaW4tYmFua21hbi1mcmllZC1jYXNlP2NtcGlkPUJCRDAyM=
+jQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDIyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+C63aa5486" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> make political contributions</a>.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] At a high level it is not too unlike the c=
+ollapses of <a href=3D"https://link.mail.bloombergbusiness.com/click/306514=
+29.257434/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTGVobWFuX0Jyb3RoZXJz/607f=
+07ceef4b8524a319a23cBd33f83a7" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Lehman Brothers</a> or <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0cHM6Ly9lbi=
+53aWtpcGVkaWEub3JnL3dpa2kvTUZfR2xvYmFs/607f07ceef4b8524a319a23cBbbfd4c44" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> MF Global</a>, or for that matter the painful but non-fatal trouble=
+ at the <a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.2=
+57434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtM=
+zAvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1uaWNrZWwtbWFya2V0LWFsbW9zdC1icm9rZT9j=
+bXBpZD1CQkQwMjI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzAyMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB136013b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  London Metal Exchange</a> last year. </p=
+>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] As <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30651429.257434/aHR0cHM6Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL=
+2FyY2hpdmUva3ljLWFuZC1hbWwtYmV5b25kLXRoZS1hY3Jvbnltcy8_cmVmPWJpdHMtYWJvdXQt=
+bW9uZXktbmV3c2xldHRlcg/607f07ceef4b8524a319a23cC8b71fb61" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Patrick =
+McKenzie puts it</a>: =E2=80=9CMany, many crimes involve lies, but most lie=
+s told are not crimes and most lies told are not recorded for forever. We d=
+id, however, make a special rule for lies told to banks: they=E2=80=99re po=
+tentially very serious crimes and they will be recorded with exacting preci=
+sion, for years, by one of the institutions in society most capable of keep=
+ing accurate records and most findable by agents of the state. This means t=
+hat if your crime touches money, and much crime is financially motivated, a=
+nd you get beyond the threshold of crime which can be done purely offline a=
+nd in cash, you will at some point attempt to interface with the banking sy=
+stem. And you will lie to the banks, because you need bank accounts, and yo=
+u could not get accounts if you told the whole truth. The government wants =
+you to do this. Their first choice would be you not committing crimes, but =
+contingent on you choosing to break the law, they prefer you also lie to a =
+bank.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Purple used to have a controlling sharehol=
+der (not Coliseum) that owned a special class of Class B shares. But it <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2NDM5NTMvMDAwMTIxMzkwMDIy=
+MDE3MTc1L2RlZjE0YTAzMjJfcHVycGxlaW5ub3YuaHRt/607f07ceef4b8524a319a23cBb0820=
+72c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> exited that position</a> and now there is just a small residu=
+e of Class B stock. But the original idea seems to have been that Purple co=
+uldn=E2=80=99t dividend B shares to A shareholders or vice versa.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb4de74c1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb5f793f6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd03afa69" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB4c98a21e" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDY1MTQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDg4NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK2a5ec0c6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30651429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB549f1fcb" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30651429.257434/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC6d3dc3d0" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30651429.257434/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBdafe94c1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30651429.257434/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB63ce763f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+34b26ac" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30651429.257434/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+9ff196a" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D306514=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D306514=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D306514=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D306514=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D306514=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30908863&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci8ysl.5imy/2b79fa2e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_34225024_1544404714.1677259671762--
+

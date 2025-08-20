@@ -1,0 +1,2202 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:ab04:0:b0:680:b191:1941 with SMTP id h4csp1715261qvb;
+        Thu, 11 Jan 2024 11:25:00 -0800 (PST)
+X-Received: by 2002:a05:600c:21d8:b0:40e:43f4:8e84 with SMTP id x24-20020a05600c21d800b0040e43f48e84mr102058wmj.106.1705001099847;
+        Thu, 11 Jan 2024 11:24:59 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1705001099; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JSP+eKGkijaeVqyDKfRWVkcu2UybG9qOXS1DscsHYYqW4g1H92TBmvAnp486nBRJy8
+         71N2acz0imWEX+ME2Y4vEzumPjlTLdTZl11E5Bs7JQ6nI1MheYEZeQu0BeGVd+RLMk1e
+         xwe3BRIzhf8e6Swe0HOfsHauIDft1B//gyhiKiV8lEkYR7L6V8puDzUi5bNu9qzW5PcM
+         KV8tApcFi5rcU5J+47YF/11S2qYQkPq4HAq90SM8m9VGP6FLFcVO2coR4KTXAJIHqXAZ
+         cC6jf4DxJsluV4LUAhRjsq9ngF1t3anC7l3r3liUdkbLwIfuTW/MaEVK+0btR5gbQdBr
+         Cz4Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=+VKHBpd2kFC6hkeD3ZB4KfCrmfs6yjZis7sOkxbARWk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=dwCFIavsHqI+pLl7meEG5A3UrP7pkft6ac73QGgEO6dvyAJ+kmrLRz6rt4bnSNk5cu
+         xPUdJ4WRrSZA1rWdN+NT3xQvuxMd1y2XEpRJZwLRI9+tcj7pbtxg9vaP5kVvqptUESNv
+         6ObopmYKQt3dU/VlKl3UiOjSe0v9KD9zNDj0o36xEM/T+91yIzfk95DCB5W9eU2N9GZf
+         U2g+DqaxgPDv4kZnLZUP71DE/wCl14s2rfq1DqUkgTB6yNvLUyw/SOoiNFkOmU+z+3L9
+         vxVqSnox+Rf520fnwTqRk5bs4/bTGslsDob/BCJlwhBJ86r0V0NNws4QhFLSv2VsoKt/
+         BsWw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=C2UOJVVY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u26-20020a7bcb1a000000b0040dbef7c66bsor680926wmj.13.2024.01.11.11.24.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 11 Jan 2024 11:24:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=C2UOJVVY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705001099; x=1705605899;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+VKHBpd2kFC6hkeD3ZB4KfCrmfs6yjZis7sOkxbARWk=;
+        b=heoldNU4VvIGaMgoa8pIRTbu/mPhRROOoYIT2BqXf8Q5zwBghHns004AFi76rWxDnD
+         SW84RnG7sgiVtEa0ClqQmxNE2u9K5mj87KrIJz78mzuE1gGUUxJN61jjeg5aWfRPe/K/
+         UZN4r6vXQTS2khd5S2YSG9FzpVSqK4jqPwT9CVwnuWJnKNbsEOyLInSbd1EqJ685ZsJ9
+         JfqJ36D4wkczxUOE6FBU6C8u1f3LXp8065D12X+Gl1vIS6N2C5FJk/sk8nOoyt1jz8Lv
+         bRwIUfv8PEv2P+Hda7ujWvHhSy9Q7ssxwYthN5IOOP7qkXldAXX6ofvdZnuqt5/HwYmz
+         xlzA==
+X-Gm-Message-State: AOJu0YzRENV5oCtFEtEU9fj2a9pPUGCgzcUMiUnDZQbrQ7GAYg8hKnqA
+	t4ivY7XpsDobnPdaroIXkbq4RacgT5VLOcJZ5sif+mPf7HcvIXrXfQ==
+X-Received: by 2002:a05:600c:1e89:b0:40e:4b1d:753 with SMTP id be9-20020a05600c1e8900b0040e4b1d0753mr94201wmb.181.1705001099134;
+        Thu, 11 Jan 2024 11:24:59 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f94d:0:b0:333:384e:c9a6 with SMTP id q13csp2598079wrr;
+        Thu, 11 Jan 2024 11:24:56 -0800 (PST)
+X-Received: by 2002:a05:6870:8999:b0:204:d8a9:b476 with SMTP id f25-20020a056870899900b00204d8a9b476mr211779oaq.66.1705001095924;
+        Thu, 11 Jan 2024 11:24:55 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1705001095; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=i1H70j+UqdQiQjDBPtvgJcoPoBA4DzRvGY0og7D4aKJKNNDkNLgD2a9hs4FR6tk6Np
+         xV6i6Rs4T//AqvXSFYDnTpLMYk9ky3L942PsNWH+cuMRSUaeudHWn+22sMta3lTdsP8+
+         TTPftPDDHH0zFoJDDt5QNIJ9hzRw/iMxa8E2Vs8N8dqSmo6iPL4mPLDPRyoRFR0t5jUN
+         imoXod7+/myH9wfQ+fGiN2dhqt0cvr4YtzvTgSLXUS7FOGptsuLZFxtkMpQAoMe7yOpg
+         jox+gVdmRseTJFsiTKQNT7Llz+s//uji9FYZfYD4nD2bIw+dJ7ZJlCdh1hI7O3Gjq7Sc
+         dq+g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+VKHBpd2kFC6hkeD3ZB4KfCrmfs6yjZis7sOkxbARWk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=SLRe3FMohsJlpzNw8JgpNd+mPuvllT9k4gSgMKpYyrvRfLofOLhDekpWjHWk8AN/vT
+         tt4/94Mp7yzHtUKajcLtQwWASzbnvzuOyEKn2giaTwHb6i7PA4IlnvsSESJNAdPFxqdW
+         XFKKqbaKjf5JmBfo1GbMHDsxCojw4Dv0i3j8j8/gxuAUAwD9y2QMyabpBZHfZtrSYTgI
+         zZXtvATc5WOszwRClF5fQXY0SPXcmsLE4su/j/o7h9UNrYZY+qu5F7xGU57DE+IfTvaj
+         j5M2Vd0vFuELNkHd7gfeSvFi5vMcErm81I3Ryt3v2a+LmriANRhdHs/tD/fWclFXicM8
+         mVWQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=C2UOJVVY;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20240111142455.33970375.257410@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20240111142455.33970375.257410@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240111142455.33970375.257410@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id do24-20020a0568300e1800b006dba0275a82sor880530otb.13.2024.01.11.11.24.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 11 Jan 2024 11:24:55 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20240111142455.33970375.257410@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IH3aXILcqiG06CIv1ZiUvxcOv1W28STONlJulSRG8sNB+UBcWlQYS2wMnymsgx8nFNp/qUGBUWudk+J2xh5fhVkAOcyZu4=
+X-Received: by 2002:a9d:6519:0:b0:6dd:eb24:9d1d with SMTP id i25-20020a9d6519000000b006ddeb249d1dmr252781otl.72.1705001095524;
+        Thu, 11 Jan 2024 11:24:55 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1705001095; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jD8nfoBq8rPZ73AYDUiri9sG8fkLSdSq19dvmfbjC/+vQ9D/XHPaS2gU8QTHPTm3gX
+         T5aWiERvJ5Yhj87gJTG5Zpau/ZZPZ+y6nwg4idJmwBD2luswsgPdL4yX2GotKa/uBitN
+         Hy54Ge1WysF6vMj7FV9WK0TAEBsrf4IGJ7i4hg0bCzohq9QJSHxv/ltMR4wokwm6mJ4W
+         J66BmcFnEH1RZet6eqxRsVUnoElaEXno/pfAwKETqxewLcOsSO+5LtSLlMCNUyXZHxyy
+         UKvOCMRCijesBaDP4TAeF181RBT878WTzmkdHOGS0HqyEyT3C3/QEFs4aD3crPOuqQ4E
+         qERw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+VKHBpd2kFC6hkeD3ZB4KfCrmfs6yjZis7sOkxbARWk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=m3p+MpMEP6287rOoMpfmqfotPmtq6IbwtkqdPUtPVeXJG8t/7pAJ8p0UVkwqycBArN
+         VcvfGptPxRb3kXlIRU8GJAmAKpOWH4enuM+p+dbkPkoGO4loxMLxIP/FXuldgZA6LPtb
+         HlVntt6toPBdhFOg30gxPU3rwQoRTf1bHiEmNRXf23WmcJjI/OadjthHefAtfBERKNRy
+         RqmbPHbrQOUO/rdoazqF9vzT0YPL9JbTsjVhWAzzw0WSXK7heL4+qPHDC7ZQr+CDh1EU
+         Y/Hjfbj7Viwe8aaDAvn/7EHveBlVajOFcsoz2uuUQYiKabl0qyBYsugYmcJuDgE1R0Gh
+         X1lQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=C2UOJVVY;
+       spf=pass (google.com: domain of delivery_20240111142455.33970375.257410@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20240111142455.33970375.257410@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240111142455.33970375.257410@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id v10-20020a05620a440a00b007832c546b5asi112066qkp.0.2024.01.11.11.24.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 11 Jan 2024 11:24:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20240111142455.33970375.257410@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=sZj6uuD1twcotwm4FSxJMPMFwP80REjB+GpgcuMznkk=;
+ b=C2UOJVVYLQeki6zhcXtOHO6cv9MAd0R0UTEj2JV2DiWXz1vg5PPQQR7sB4B0UZxfrWGBdw8c15vd
+   0g0Dkc8L9xIyOmiWKfCnUMzA0JhOO76J6SG3DgnsRgk7lmCYShqGI2ExVnxU9aJ8CxCvadGnrWGh
+   9k2YyxjSMayRNaP/lP8=
+Received: from aws1-mta-relay1.sailthru.cloud (10.55.90.180) by pmta29.sailthru.com id hk108e2sd4s9 for <bloomberg@khamel.com>; Thu, 11 Jan 2024 13:24:55 -0600 (envelope-from <delivery_20240111142455.33970375.257410@mx.sailthru.com>)
+Date: Thu, 11 Jan 2024 14:24:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240111142455.33970375.257410@sailthru.com>
+Subject: Money Stuff: Bitcoin ETFs Are Here for Real
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_402114_846254226.1705001095201"
+Precedence: bulk
+x-job: 6358-33970375-20240111
+X-Feedback-ID: 6358:33970375:campaign:sailthru
+X-TM-ID: 20240111142455.33970375.257410
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-91-163.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck83pj.5ima/fda69650
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck83pj.5ima/fda69650>,<mailto:unsubscribe_20240111142455.33970375.257410@mx.sailthru.com>
+X-rpcampaign: stjko33970375
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_402114_846254226.1705001095201
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow and Monday, back=
+ on Tuesday. Taking a step back here, there is something really cool abou
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow and Monday, ba=
+ck on Tuesday.
+
+ =20
+   =20
+      Bitcoin ETF
+   =20
+ =20
+
+Taking a step back here, there is something really cool about=C2=A0what Bit=
+coin has accomplished, in some ways much cooler than  Satoshi Nakamoto=E2=
+=80=99s original vision for it. The original vision of Bitcoin was that it =
+would be =E2=80=9Celectronic cash,=E2=80=9D a way for people to send paymen=
+ts to each other without involving a bank or other intermediary. Fifteen ye=
+ars later, I mean, there has been=C2=A0some=C2=A0progress along those lines=
+;=C2=A0some people sometimes do pay for some goods and services using Bitco=
+in. But it has not exactly taken over the world of payments. El Salvador ma=
+de Bitcoin legal tender and required all businesses to accept it, and even =
+there it is  not that widely used. In big developed economies, despite year=
+s of crypto proselytizing, people still much prefer fiat currency and tradi=
+tional banks.
+And yet the price of Bitcoin has gone from zero=C2=A0in 2009 to $46,000-ish=
+ today, not on widespread adoption as a=C2=A0payments=C2=A0mechanism, but b=
+ecause people =E2=80=94=C2=A0lots of people, crypto evangelists but also re=
+gular retail investors and quite traditional investment strategists at big =
+institutional investment firms =E2=80=94=C2=A0view it as a =E2=80=9Cstore o=
+f value.=E2=80=9D Which means that they think its price will go up, or at l=
+east not go down, robustly and for the long term. They buy Bitcoin at $46,0=
+00 not because they plan to use it as digital cash, but because they think =
+other people will buy it at $47,000, or $470,000 or whatever.=C2=A0
+Which is why people buy Apple Inc. stock, or Treasury bonds or oil futures =
+or whatever: They think other people will buy them, so the price will go up=
+. You know  what Keynes said.=C2=A0But those things have cash flows or indu=
+strial uses; those things are claims on economic activity. Bitcoin is just =
+a thing a guy made up 15 years ago. Its function as a store of value is alm=
+ost purely self-referential: Not =E2=80=9Cthis is worth $X because other pe=
+ople will buy it for $X because other people will buy it for $X because =E2=
+=80=A6=C2=A0[etc.] =E2=80=A6 other people think its cash flows have a prese=
+nt value of $X,=E2=80=9D but =E2=80=9Cthis is worth $X because other people=
+ will buy it for $X because other people will buy it for $X=E2=80=9D all th=
+e way down.
+Bitcoin is an astonishing=C2=A0social technology.=C2=A0It would, in the abs=
+tract, be useful for the world if there was just an entry in a computer dat=
+abase that we all agreed was valuable just because, with no reference to an=
+y underlying commodity or series of cash flows or industrial activity. Just=
+ a number that was valuable. And so someone invented it. Traditionally curr=
+ency=C2=A0works sort of like that: The US dollar is this sort of social tec=
+hnology; it has value because it has value, not because it has cash flows. =
+But there=E2=80=99s a whole ton of complex and long-standing social technol=
+ogy that goes into that; the US has a government and=C2=A0an army and an in=
+come tax and a debt stock and a trade balance, which help to preserve the v=
+alue of the dollar.
+Bitcoin expresses the thesis that it would be good to have a valuable datab=
+ase entry=C2=A0without=C2=A0that, just something was valuable because peopl=
+e on the internet voluntarily agreed it was valuable, with no government or=
+ army or taxes or anything else. And it worked! That did happen. It has val=
+ue due to a broad voluntary market consensus based almost entirely on itsel=
+f. In some sense that consensus is fragile =E2=80=94=C2=A0if a thing is val=
+uable only because people think that it is valuable, it could stop being va=
+luable when they stop thinking that =E2=80=94=C2=A0but in another sense tha=
+t is true of any social fact: The dollar is valuable, the King of England i=
+s the King of England, the US is a liberal democracy, etc., exactly as long=
+ as those facts command social consensus. Bitcoin got to what seems like a =
+pretty robust consensus in 15 years. That=E2=80=99s=C2=A0just neat.
+Anyway,=C2=A0as expected:
+
+US regulators for the first time approved exchange-traded funds that invest=
+ directly in Bitcoin, a move heralded as a landmark event for the roughly $=
+1.7 trillion digital-asset sector that will broaden access to the largest c=
+ryptocurrency on Wall Street and beyond.
+The Securities and Exchange Commission, whose three-part mandate includes i=
+nvestor protection, authorized funds from industry heavyweights BlackRock, =
+Invesco and Fidelity to smaller competitors including Valkyrie to begin tra=
+ding Thursday.
+The approvals mark a rare capitulation by the SEC following opposition that=
+ lasted for more than a decade, ever since Tyler and Cameron Winklevoss fir=
+st proposed a Bitcoin ETF in 2013. BlackRock Inc.=E2=80=99s surprise applic=
+ation last June, followed by an appeals court ruling that called the denial=
+ of a different application =E2=80=9Carbitrary and capricious,=E2=80=9D tri=
+ggered a blistering rally in the cryptocurrency amid speculation that US re=
+gulators would finally give their blessing to the structure.
+
+There is something pure about this, as Bitcoin news. A Bitcoin ETF is vastl=
+y=C2=A0less=C2=A0useful, as a payments mechanism or a way to supplant the t=
+raditional financial system, than just buying Bitcoin: Instead of an altern=
+ative peer-to-peer payments system in which everyone can hold their Bitcoin=
+s directly and transfer them to each other without middlemen, this is a cry=
+pto thing that you can hold in your traditional brokerage account and not u=
+se for payments at all. But it is more useful as a store of value: You can =
+hold it in your brokerage account, where you hold your stores of value. You=
+ don=E2=80=99t have to mess around with an alternative financial system; yo=
+u can just isolate the store-of-value component of Bitcoin and hold it dire=
+ctly. And so the price of Bitcoin ran up in anticipation of the ETF approva=
+ls, because everyone expected that the ETFs would lead to more people holdi=
+ng Bitcoin as a store of value. Which is the best reason for Bitcoin to go =
+up.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Sell the news
+   =20
+ =20
+
+The SEC approved the spot Bitcoin ETFs a little after the close yesterday (=
+Wednesday) afternoon. A little after the close on=C2=A0Tuesday=C2=A0afterno=
+on, the SEC=E2=80=99s account on X (formerly Twitter) tweeted that it had a=
+pproved spot Bitcoin ETFs. That turned out to be fake; the SEC=E2=80=99s Tw=
+itter got hacked. The SEC had to walk back that statement on Tuesday, and t=
+hen walk it forward again on Wednesday. We   talked about this yesterday. =
+=E2=80=9CNyah nyah nyah nyah nyah,=E2=80=9D I wrote.
+When the Bitcoin ETFs got fake-approved on Tuesday, the   price of Bitcoin =
+=E2=80=9Cposted a relatively modest jump to almost $48,000 from about $46,7=
+00 before falling back toward $45,000=E2=80=9D when it turned out to be fak=
+e. I was a little perplexed =E2=80=94=C2=A0everyone expected the ETFs to be=
+ approved by today, so the fake tweet didn=E2=80=99t add much fake informat=
+ion, and the retraction didn=E2=80=99t add much real information =E2=80=94=
+=C2=A0but=C2=A0whatever. The fun fact is that, when Bitcoin ETFs got approv=
+ed for real on Wednesday, the price of Bitcoin =E2=80=A6=C2=A0jumped to a b=
+it more than $49,000, from a bit more than $46,000,   before falling back:
+
+Bitcoin pared gains after surging past $49,000 for the first time since Dec=
+ember 2021 with trading commencing for the first US exchange-traded funds t=
+hat invest directly in the biggest cryptocurrency.
+The token had advanced as much as 6.7% to $49,021, buoyed by the approval o=
+f spot Bitcoin ETFs by the US Securities and Exchange Commission after mark=
+ets closed on Wednesday. It was recently trading at around $46,000. Most sm=
+aller tokens, such as Ether, Cardano and Polkadot were higher.
+All of the 11 ETFs are trading, and over $2.6 billion has changed hands in =
+just the first few hours of trading.=C2=A0
+
+The market reaction to the SEC=E2=80=99s fake approval of Bitcoin ETFs =E2=
+=80=94=C2=A0a quick modest spike followed by a disappointed modest fall =E2=
+=80=94=C2=A0is remarkably similar to the market reaction to the SEC=E2=80=
+=99s=C2=A0real=C2=A0approval of Bitcoin ETFs.
+Also, I wrote yesterday that, while it is possible that someone hacked the =
+SEC=E2=80=99s Twitter to make money by manipulating the price of Bitcoin, i=
+t was also possible that whoever did the hack was just trolling for fun, an=
+d did=C2=A0not=C2=A0make any money by manipulating Bitcoin. Several readers=
+ emailed to point out the strongest argument for that possibility: If you w=
+anted to manipulate the market, you would=C2=A0short Bitcoin and then hack =
+the SEC to tweet =E2=80=9Cwe=E2=80=99re once again declining to approve Bit=
+coin ETFs, too many problems, we=E2=80=99re confident we=E2=80=99ll win in =
+court this time.=E2=80=9D The market really expected the SEC to approve the=
+ ETFs, so there was not a ton of information in Tuesday=E2=80=99s fake twee=
+t, and it didn=E2=80=99t move the price of Bitcoin that much. But if the fa=
+ke tweet had=C2=A0confounded=C2=A0expectations,=C2=A0that=C2=A0would have m=
+oved the market. If you were a ruthless hacker/manipulator looking to maxim=
+ize profits, that=E2=80=99s what you=E2=80=99d do. If you were a crypto ent=
+husiast looking to troll the SEC for fun, though, you=E2=80=99d fake-tweet =
+that the ETFs were approved.
+Also, by the way, the SEC=E2=80=99s approval is hilariously grudging. Here=
+=E2=80=99s SEC Chair  Gary Gensler=E2=80=99s statement:
+
+Though we=E2=80=99re merit neutral, I=E2=80=99d note that ... bitcoin is pr=
+imarily a speculative, volatile asset that=E2=80=99s also used for illicit =
+activity including ransomware,=C2=A0money laundering, sanction evasion, and=
+ terrorist financing.
+While we approved the listing and trading of certain spot bitcoin ETP share=
+s today, we did not approve or endorse bitcoin. Investors should remain cau=
+tious about the myriad risks associated with bitcoin and products whose val=
+ue is tied to crypto.
+
+And here is Commissioner  Caroline Crenshaw=E2=80=99s dissent from the appr=
+oval:
+
+Spot bitcoin markets are subject to fraud and manipulation. One form of man=
+ipulation that appears to be pervasive in the crypto markets (and specifica=
+lly bitcoin markets), is wash trading, a practice whereby traders seek to i=
+ncrease the appearance of high trading interest by both selling and buying =
+the same products at the same time, often driving up prices, and then selli=
+ng to unwitting third party market participants at inflated values. Wash tr=
+ading distorts price and volume, causes volatility, reduces investor confid=
+ence and participation in financial markets, and of course, results in inve=
+stor harm. One analysis of 29 major crypto exchanges found that wash tradin=
+g was, on average, as high as 77.5% of the total trading volume on unregula=
+ted exchanges. ...
+Specifically with regard to bitcoin, an analysis of 157 crypto exchanges fo=
+und that 51% of the reported daily bitcoin trading volume was likely bogus.=
+ In fact, though reporting regarding bitcoin frequently discusses the enorm=
+ous size of the market, one market participant who now seeks to sponsor a s=
+pot bitcoin ETP has admitted that =E2=80=9Capproximately 95%=E2=80=9D of th=
+e data used by many participants are =E2=80=9Cfake and/or non-economic.=E2=
+=80=9D =E2=80=A6 In short, prices and demand for bitcoin may not actually b=
+e what they appear to be.
+
+I joked yesterday that the SEC should deny all of these applications, sayin=
+g =E2=80=9CWe were going to approve them, but it turns out that the Bitcoin=
+ market is still too vulnerable to manipulation, as you can tell by the fac=
+t that someone hacked our Twitter to manipulate Bitcoin.=E2=80=9D Crenshaw =
+makes that argument!
+Indeed, just yesterday, prior to the issuance of our approval Order, one of=
+ the SEC=E2=80=99s social media accounts was compromised, and an unauthoriz=
+ed post falsely indicated that we had approved spot bitcoin ETFs.=C2=A0Unsu=
+rprisingly, the price of spot bitcoin suffered =E2=80=9Cwhiplash=E2=80=9D i=
+n the minutes and hours following the false tweet.=C2=A0While the facts und=
+erlying this misconduct hopefully will be uncovered by law enforcement in t=
+he future, I will be monitoring what may be yet another attempt to profit f=
+rom wrongdoing in this market.
+
+ =20
+   =20
+      Interest
+   =20
+ =20
+
+You could imagine, I suppose, a =E2=80=9Cphysical dollar ETF=E2=80=9D that =
+worked like this:
+=09You send money to the ETF issuer.
+  [1]
+
+=09The issuer uses your money to buy crisp $100 bills.=09The issuer keeps t=
+he $100 bills in a nice safe vault.=09The issuer charges fees to cover thin=
+gs like its marketing cost, its cost of renting the vault, etc.
+
+In some rough sense that=E2=80=99s how a physical gold ETF works, and it=E2=
+=80=99s how a spot Bitcoin ETF works: There=E2=80=99s some stuff, the stuff=
+ is a store of value, and the ETF keeps the stuff in a physical or cryptogr=
+aphic vault, not doing anything with it.
+But in fact there=E2=80=99d be something a bit crazy about doing that with =
+dollars. There are  =E2=80=9Ccash=E2=80=9D ETFs, in some sense.
+  [2]
+=C2=A0But everyone understands that these ETFs don=E2=80=99t hold=C2=A0cris=
+p $100 bills. They hold extremely safe interest-bearing short-term debt ins=
+truments.
+  [3]
+=C2=A0If you invest your money in one of those ETFs, it will =E2=80=9Chold=
+=E2=80=9D your =E2=80=9Ccash=E2=80=9D for you in roughly the sense that a b=
+ank would
+  [4]
+: It will lend out your cash, as safely as possible, give it back to you on=
+ demand, and=C2=A0pay you interest.=C2=A0
+This is the natural way of the world, in finance. Even a=C2=A0stock=C2=A0ET=
+F will probably do this: Stock ETFs often take their investors=E2=80=99 mon=
+ey, use it to buy stocks, and then=C2=A0lend out some of those stocks to ea=
+rn a bit of extra interest.
+  [5]
+=C2=A0Modern finance is=C2=A0very interested in efficiency, and abhors the =
+idea of buying anything, putting it in a box, and=C2=A0doing nothing with i=
+t. You=E2=80=99ve got some stuff in a box, you take it out of the box, you=
+=C2=A0lend=C2=A0it to someone who wants to do something with it, and you ea=
+rn interest.
+The Satoshi Nakamoto vision of crypto was very different: This idea of buil=
+ding opaque leverage into every part of the system, of constructing everyth=
+ing on webs of debt, is part of what Bitcoin was reacting against.
+But the modern vision of crypto, or at least the 2022 vision of crypto, was=
+ like everything else in finance. You could hold Bitcoins in your digital w=
+allet, like holding $100 bills in your regular wallet, but the action was i=
+n depositing your Bitcoins with some quasi-bank that would lend them out, e=
+arn interest, and pay some of the interest to you. This led to various terr=
+ible problems, chiefly:
+=09Those quasi-banks were   very highly leveraged, and when crypto prices f=
+ell many of them collapsed and took their quasi-depositors=E2=80=99 money w=
+ith them.=09The=C2=A0lending=C2=A0done by these platforms was pretty much a=
+ll in support of speculative trading rather than real-world economic activi=
+ty: People didn=E2=80=99t borrow Bitcoins to buy houses; they borrowed Bitc=
+oins to make bets on Bitcoin prices. So the collapse was pretty sharp.=09Al=
+so a fair amount of fraud.=09The US Securities and Exchange Commission is  =
+ quite convinced, for fairly good=C2=A0reasons, that all of those crypto le=
+nding platforms were=C2=A0securities, subject to securities regulation, and=
+ that everyone running those platforms was doing so illegally.
+
+Still, in the long run, if you have a giant pot full of electronic financia=
+l assets, and if there is demand to borrow those assets, won=E2=80=99t you =
+want to lend them? Ten=C2=A0years from now, if Bitcoin ETFs are still aroun=
+d, is it more likely that they will be =E2=80=9Cphysical=E2=80=9D ETFs, jus=
+t holding inert Bitcoins in a pot, or that they will be money-market-ish ET=
+Fs, lending out their Bitcoins to earn=C2=A0interest and passing it along t=
+o their investors?=C2=A0
+Of course=C2=A0today=C2=A0the answer is =E2=80=9Cphysical=E2=80=9D; the pro=
+spectuses for today=E2=80=99s Bitcoin ETFs say that they will hold the Bitc=
+oins in custody, not that they will lend them. (Here is  Grayscale=E2=80=99=
+s, and here=E2=80=99s  BlackRock=E2=80=99s.) And SEC Chair Gary Gensler=E2=
+=80=99s statement on the Bitcoin ETF approvals says: =E2=80=9CImportantly, =
+today=E2=80=99s Commission action is cabined to ETPs holding one non-securi=
+ty commodity, bitcoin. It should in no way signal the Commission=E2=80=99s =
+willingness to approve listing standards for crypto asset securities.=E2=80=
+=9D Bitcoin lending is a security, in Gensler=E2=80=99s view, and not somet=
+hing he wants to approve at this point.=C2=A0
+
+ =20
+   =20
+      Cash vs. in-kind
+   =20
+ =20
+
+One other what-will-the-future-bring sort of point about Bitcoin ETFs. The =
+normal way that, say, a stock index ETF works is:
+=09Normal people buy and sell shares of the ETF on the exchange: They don=
+=E2=80=99t actually give any money to the ETF issuer; they just trade in th=
+e secondary market.=09Arbitrageurs make sure that the price of the ETF and =
+the price of the index stay in line: If the price of ETF shares gets too hi=
+gh, arbs will sell ETF shares and buy the underlying index.=09To complete t=
+he arbitrage, a few big banks or trading firms, called =E2=80=9Cauthorized =
+participants,=E2=80=9D can=C2=A0exchange=C2=A0the ETF shares for the underl=
+ying index: They can collect a basket of all the stocks in the index, deliv=
+er them to the ETF issuer, and get back some new ETF shares (this is called=
+ =E2=80=9Ccreation), or they can collect some ETF shares, deliver them to t=
+he ETF issuer for retirement, and get back a basket of the underlying stock=
+s (this is called =E2=80=9Credemption=E2=80=9D).
+
+ETFs work this way in part for price efficiency reasons (in-kind creation a=
+nd redemption makes it=C2=A0easier to arbitrage the ETF against its underly=
+ing index), in part for operational efficiency reasons (it means the ETF do=
+esn=E2=80=99t have to do much trading for itself),=C2=A0and in=C2=A0large p=
+art for tax efficiency reasons (it means=C2=A0that the ETF   doesn=E2=80=99=
+t have taxable gains from selling its underlying stocks).
+Similarly with a spot Bitcoin ETF, the straightforward mechanism would be t=
+o have authorized participants hand Bitcoins to the ETF issuer to get back =
+ETF shares, or hand ETF shares to the issuer to get back Bitcoins. But in f=
+act none of the ETFs approved yesterday work that way. They all use only   =
+cash creation and redemptions: Authorized participants give the ETF issuer=
+=C2=A0dollars=C2=A0and get back shares, and then the ETF goes and buys new =
+Bitcoins with those dollars. (The main authorized participant for the Bitco=
+in ETFs is=C2=A0Jane Street Capital, though there are a few others.)=C2=A0
+The reason for this  seems to be that  the SEC doesn=E2=80=99t like in-kind=
+ creation/redemption for Bitcoin ETFs.
+  [6]
+=C2=A0Grayscale Bitcoin Trust,  in its ETF prospectus, says:
+in common with other spot Bitcoin exchange-traded products, the Trust is no=
+t at this time able to create and redeem shares via in-kind transactions wi=
+th Authorized Participants, and there has yet to be definitive regulatory g=
+uidance on whether and how registered broker-dealers can hold and deal in B=
+itcoin in compliance with the federal securities laws. To the extent furthe=
+r regulatory clarity emerges, the Sponsor expects NYSE Arca to seek the nec=
+essary regulatory approval to amend its listing rules to permit the Trust t=
+o do so (the =E2=80=9CIn-Kind Regulatory Approval=E2=80=9D). Subject to NYS=
+E Arca seeking and obtaining In-Kind Regulatory Approval, in the future the=
+ Trust may also create and redeem Shares via in-kind transactions with Auth=
+orized Participants or their designees (any such designee, an =E2=80=9CAP D=
+esignee=E2=80=9D) in exchange for Bitcoin. There can be no assurance as to =
+when such regulatory clarity will emerge, or when NYSE Arca will seek or ob=
+tain such regulatory approval, if at all.
+The problem is that, to be an authorized participant in the ETF, you have t=
+o be an SEC-registered broker-dealer, since you are effectively distributin=
+g the ETF shares. And the SEC is very skeptical of registered broker-dealer=
+s trading in Bitcoin. From an SEC perspective, you can trade ETF shares (as=
+ a broker-dealer), or you can trade the underlying Bitcoins (as an unregist=
+ered Bitcoin-y trader), but it=E2=80=99s tricky to do both. That makes the =
+Bitcoin ETF arbitrage =E2=80=94=C2=A0where you trade the ETF shares=C2=A0ag=
+ainst=C2=A0the Bitcoins =E2=80=94=C2=A0tricky.
+  [7]
+
+
+ =20
+   =20
+      BTFP carry trade
+   =20
+ =20
+
+Last year the Federal Reserve  created a program to allow banks to borrow s=
+hort-term at long-term rates? I mean, sort of. What it did was create the  =
+Bank Term Funding Program, which has  the following features:
+=09Banks can borrow =E2=80=9Cfor a term of up to one year,=E2=80=9D prepaya=
+ble without penalty.=09The interest rate is=C2=A0the one-year overnight ind=
+ex swap rate plus 10 basis points, fixed at the time of borrowing.
+
+So you could borrow for a term of one day to one year, in any case at the o=
+ne-year interest rate (plus 10 basis points). Ordinarily, longer-term inter=
+est rates are higher than shorter-term interest rates: It is usually cheape=
+r to borrow money overnight than it is to borrow it for a year. And so this=
+ program was, arguably, very mildly punitive, a classic lender-of-last-reso=
+rt program along the lines of =E2=80=9Clend freely against good collateral =
+at penalty rates,=E2=80=9D or at least not=C2=A0subsidized rates.
+But=C2=A0right now, the reverse is true: The overnight rate is fairly high,=
+ because the Fed has raised rates a lot over the past few years, but the on=
+e-year rate is lower, because the market expects the Fed to lower rates ove=
+r the next year. And so the BTFP creates a weird carry trade: Banks can bor=
+row at the BTFP=E2=80=99s low one-year rate (4.87%, today), lend at the hig=
+her overnight rate, and match the maturities.
+  [8]
+=C2=A0You can=C2=A0even match the counterparties: You borrow from=C2=A0the =
+Fed (using BTFP) and lend=C2=A0to=C2=A0the Fed (as reserves, at 5.40%, toda=
+y) and just get free money. The  Wall Street Journal reports:
+
+Borrowing from the Fed=E2=80=99s bank term funding program has increased to=
+ new highs in recent weeks, a strange consequence of the market=E2=80=99s f=
+lip to forecasting multiple Fed rate cuts over the coming 12 months.
+The rate banks pay to use the program, BTFP for short, is tied to future in=
+terest-rate expectations. Now that investors have priced in a series of rat=
+e cuts later this year, banks are able to pocket the difference between wha=
+t they pay to borrow the funds and what they can earn from parking the fund=
+s at the central bank as overnight deposits. =E2=80=A6
+While the Fed offers financing below 5% through its rescue program, it is c=
+urrently paying banks 5.4% on parked reserve balances.
+Lending in the program hit $141.2 billion this past Wednesday, a new high, =
+up 4% from the prior week and up 25% since the middle of November when fore=
+casts started changing. Most of the volume is still loans from the crisis, =
+and the number didn=E2=80=99t move much from July to November.
+The increases don=E2=80=99t seem to be a sign of new stress on banks, espec=
+ially since deposits have ticked up at banks over the same period. It appea=
+rs more likely the banks are just taking the easy money.
+=E2=80=9CWe think banks are exploiting a positive arbitrage,=E2=80=9D Janne=
+y Montgomery Scott analyst Christopher Marinac wrote in a note this week.
+The benefit will eventually shrink, if not evaporate completely. The progra=
+m is set to expire on March 11, barring an extension. On Tuesday, Michael B=
+arr, the Fed=E2=80=99s vice chairman for banking supervision, suggested the=
+ facility wouldn=E2=80=99t be extended.
+
+Good trade!=C2=A0
+
+ =20
+   =20
+      Griftco
+   =20
+ =20
+
+If you start a shell company, use it to acquire an exploration-stage mining=
+ property that is not currently producing anything, and then use the compan=
+y to apply for a Canadian provincial government program that provides up to=
+ $200,000 of taxpayer money to fund exploration projects, should you give t=
+hat company a name like =E2=80=A6=C2=A0=E2=80=9CGriftco Corp.=E2=80=9D? I m=
+ean,
+=09no, but=09this guy seems fun,  I=E2=80=99m going to allow it:
+
+
+Bay street lawyer Chris Irwin is one of the principals behind Griftco. In a=
+n interview, he said the name has a perfectly innocent explanation, has not=
+hing to do with ripping people off, and was inspired by a funny acquaintanc=
+e.
+=E2=80=9CI had a friend called Alastair Griffin, who had a phone message th=
+at when you called, it said, =E2=80=98Thank you for reaching Griftco, all o=
+ur agents are busy,=E2=80=99 =E2=80=9D he said. =E2=80=9CWe sort of had a r=
+unning joke about that, and then I said, =E2=80=98I=E2=80=99m going to stea=
+l the name,=E2=80=99 so I incorporated the company and now I have the name.=
+ =E2=80=A6
+Mr. Irwin says that nobody at those companies ever raised concerns about th=
+e optics of doing a deal with Griftco.
+=E2=80=9CIt=E2=80=99s probably my reputation that people know it=E2=80=99s =
+ironic,=E2=80=9D he said through spurts of laughter.
+
+It=E2=80=99s very important that if you do start a company called Griftco a=
+nd use it to apply for taxpayer money, you are very careful to do everythin=
+g by the book. If you get in trouble, at Griftco, nobody=C2=A0is not going =
+to believe you that it was ironic. Also that Globe and Mail article notes t=
+hat another recipient of=C2=A0Ontario Junior Exploration Program funding is=
+ a company called =E2=80=9CMoney Money Money,=E2=80=9D but they weren=E2=80=
+=99t able to talk to whoever chose that name.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Chesapeake to Create No. 1 US   Gas Driller in $7.4 Billion Deal. Hedge fun=
+ds take on private equity in battle for  distressed companies.=C2=A0Citigro=
+up=E2=80=99s Jane Fraser Embarks on Another   Pivotal Year of Bank Cuts. Th=
+ere=E2=80=99s Finally Hope for the   Office Real Estate Market.=C2=A0  Gold=
+man Sachs Traders Get Their Swagger Back in Stocks. Morgan Stanley Names 15=
+5 to   Managing Director as Class Shrinks. Bitcoin X hack an =E2=80=98embar=
+rassment=E2=80=99 for  cyber security-conscious SEC. Google   Lays Off Hund=
+reds in Hardware, Voice Assistant Teams. Skydance Backers Explore All-Cash =
+Deal to Gain Control of  Paramount. Enthusiasm Ebbs for a Diversity Initiat=
+ive in Venture Capital.=C2=A0Ex-Goldman Manager Sues Bank Over   Mental Hea=
+lth Crisis. Lloyds Bank Manager Awarded =C2=A3450,000 After Winning Case Ov=
+er   Racist Slur He Made. Employee=E2=80=99s Lawsuit Calls Financial Firm =
+=E2=80=98Alcohol-Fueled Sexual Cauldron.=E2=80=99  Blocked Toilets Close Et=
+on, Boarding School for Britain=E2=80=99s Elite Sons.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In this section I will elide the actual process of ETF creation and r=
+edemption, where you buy and sell shares in the open market and authorized =
+participants trade against you and then create and redeem shares with the i=
+ssuer. Doesn=E2=80=99t matter for our purposes here.
+
+
+  [2] In the US they seem to avoid calling themselves exactly that, e.g. th=
+e  BlackRock Ultra Short-Term Bond ETF has the ticker =E2=80=9CICSH=E2=80=
+=9D (for =E2=80=9CiShares Cash,=E2=80=9D I suppose), but doesn=E2=80=99t us=
+e =E2=80=9Ccash=E2=80=9D in the name. But the Australian equivalent is call=
+ed the  iShares Core Cash ETF, and there's a  Canadian money-market ETF wit=
+h the ticker =E2=80=9CCASH.=E2=80=9D
+
+
+  [3] I mean, probably mostly discount instruments rather than coupon-payin=
+g ones, but you know what I mean.
+
+
+  [4] Roughly. A bank will do a lot of maturity transformation, using your =
+overnight deposits to make 30-year mortgage loans and whatnot. A money-mark=
+et ETF will do very little maturity transformation, using your money to buy=
+, like, 1-month Treasury bills.
+
+
+  [5] This is non-technical; technically they earn =E2=80=9Cstock lending f=
+ees,=E2=80=9D not =E2=80=9Cinterest,=E2=80=9D and the mechanism is more com=
+plicated than that. (They lend stocks, take back cash collateral, invest th=
+e cash, earn interest, pass some but not all of the interest back to the sh=
+are borrower, and keep a bit of the interest as their stock-lending fee.) F=
+or instance, the  BlackRock iShares Core S&P 500 ETF says =E2=80=9CThe Fund=
+ may lend securities representing up to one-third of the value of the Fund=
+=E2=80=99s total assets.=E2=80=9D
+
+
+  [6] In its order approving the ETFs yesterday, the SEC noted in a footnot=
+e that =E2=80=9CThe Proposals under consideration by the Commission in this=
+ order only contemplate cash creation and redemption by authorized particip=
+ants. Accordingly, in-kind creation and redemption processes by authorized =
+participants, and their relative benefits or drawbacks, are outside the sco=
+pe of this order.=E2=80=9D But the SEC seems to have, you know, hinted that=
+ it preferred that.=20
+
+
+  [7] I have   said before that a spot Bitcoin ETF is a much simpler and mo=
+re sensible structure than a Bitcoin *futures* ETF, which the SEC approved =
+several years ago. Some readers pushed back: The spot ETF is simpler and mo=
+re intuitive for an investor, maybe, but it=E2=80=99s *more complicated* fo=
+r an arbitrageur or authorized participant. This, roughly, is why. Trading =
+regulated exchange-traded futures against ETF shares is fairly straightforw=
+ard; trading both Bitcoins and ETF shares is a bit harder.
+
+
+  [8] Because overnight lending is overnight and you can terminate your BTF=
+P borrowing at any time. If at any point the overnight rate falls below the=
+ BTFP rate, you just close out both sides of the trade.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck83pj.5ima/c70b00c5.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_402114_846254226.1705001095201
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow and Monday, back on Tues=
+day. Taking a step back here, there is something really cool abou
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB1b96f8ab"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzk3MDM3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQyMjc3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB16e9391f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33970375&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34227785&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow and Monday, back on Tuesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bitcoin ETF</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Taking a step back here, there is something re=
+ally cool about=C2=A0what Bitcoin has accomplished, in some ways much coole=
+r than <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.25=
+7410/aHR0cHM6Ly9iaXRjb2luLm9yZy9iaXRjb2luLnBkZg/607f07ceef4b8524a319a23cBea=
+614a16" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Satoshi Nakamoto=E2=80=99s original vision</a> for it. The=
+ original vision of Bitcoin was that it would be =E2=80=9Celectronic cash,=
+=E2=80=9D a way for people to send payments to each other without involving=
+ a bank or other intermediary. Fifteen years later, I mean, there has been=
+=C2=A0<em>some=C2=A0</em>progress along those lines;=C2=A0<em>some </em>peo=
+ple sometimes do pay for some goods and services using Bitcoin. But it has =
+not exactly taken over the world of payments. El Salvador made Bitcoin lega=
+l tender and required all businesses to accept it, and even there it is <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aHR0c=
+HM6Ly93d3cubmJlci5vcmcvZGlnZXN0LzIwMjIwNy9lbC1zYWx2YWRvcnMtZXhwZXJpbWVudC1i=
+aXRjb2luLWxlZ2FsLXRlbmRlcg/607f07ceef4b8524a319a23cB2f805693" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> not =
+that widely used</a>. In big developed economies, despite years of crypto p=
+roselytizing, people still much prefer fiat currency and traditional banks.=
+</p>
+<p style=3D"margin: 16px 0;">And yet the price of Bitcoin has gone from zer=
+o=C2=A0in 2009 to $46,000-ish today, not on widespread adoption as a=C2=A0<=
+em>payments=C2=A0</em>mechanism, but because people =E2=80=94=C2=A0lots of =
+people, crypto evangelists but also regular retail investors and quite trad=
+itional investment strategists at big institutional investment firms =E2=80=
+=94=C2=A0view it as a =E2=80=9Cstore of value.=E2=80=9D Which means that th=
+ey think its price will go up, or at least not go down, robustly and for th=
+e long term. They buy Bitcoin at $46,000 not because they plan to use it as=
+ digital cash, but because they think other people will buy it at $47,000, =
+or $470,000 or whatever.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Which is why people buy Apple Inc. stock, or T=
+reasury bonds or oil futures or whatever: They think other people will buy =
+them, so the price will go up. You know <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33970375.257410/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa=
+2kvS2V5bmVzaWFuX2JlYXV0eV9jb250ZXN0/607f07ceef4b8524a319a23cB6d1491b1" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> what Keynes said</a>.=C2=A0But those things have cash flows or industr=
+ial uses; those things are claims on economic activity. Bitcoin is just a t=
+hing a guy made up 15 years ago. Its function as a store of value is almost=
+ purely self-referential: Not =E2=80=9Cthis is worth $X because other peopl=
+e will buy it for $X because other people will buy it for $X because =E2=80=
+=A6=C2=A0[etc.] =E2=80=A6 other people think its cash flows have a present =
+value of $X,=E2=80=9D but =E2=80=9Cthis is worth $X because other people wi=
+ll buy it for $X because other people will buy it for $X=E2=80=9D all the w=
+ay down.</p>
+<p style=3D"margin: 16px 0;">Bitcoin is an astonishing=C2=A0<em>social tech=
+nology.</em>=C2=A0It would, in the abstract, be useful for the world if the=
+re was just an entry in a computer database that we all agreed was valuable=
+ <em>just because</em>, with no reference to any underlying commodity or se=
+ries of cash flows or industrial activity. Just a number that was valuable.=
+ And so someone invented it. Traditionally <em>currency=C2=A0</em>works sor=
+t of like that: The US dollar is this sort of social technology; it has val=
+ue because it has value, not because it has cash flows. But there=E2=80=99s=
+ a whole ton of complex and long-standing social technology that goes into =
+that; the US has a government and=C2=A0an army and an income tax and a debt=
+ stock and a trade balance, which help to preserve the value of the dollar.=
+</p>
+<p style=3D"margin: 16px 0;">Bitcoin expresses the thesis that it would be =
+good to have a valuable database entry=C2=A0<em>without=C2=A0</em>that, jus=
+t something was valuable because people on the internet voluntarily agreed =
+it was valuable, with no government or army or taxes or anything else. And =
+it worked! That did happen. It has value due to a broad voluntary market co=
+nsensus based almost entirely on itself. In some sense that consensus is fr=
+agile =E2=80=94=C2=A0if a thing is valuable only because people think that =
+it is valuable, it could stop being valuable when they stop thinking that =
+=E2=80=94=C2=A0but in another sense that is true of any social fact: The do=
+llar is valuable, the King of England is the King of England, the US is a l=
+iberal democracy, etc., exactly as long as those facts command social conse=
+nsus. Bitcoin got to what seems like a pretty robust consensus in 15 years.=
+ That=E2=80=99s=C2=A0just neat.</p>
+<p style=3D"margin: 16px 0;">Anyway,=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjQtMDEtMTAvc3BvdC1iaXRjb2luLWV0ZnMtYXBwcm92ZWQtdG8tbG=
+F1bmNoLWluLXVzLWJ5LWdlbnNsZXItcy1zZWM_Y21waWQ9QkJEMDExMTI0X01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTExJnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6fec3870" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">as =
+expected</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">US regulators for the first time approved exch=
+ange-traded funds that invest directly in Bitcoin, a move heralded as a lan=
+dmark event for the roughly $1.7 trillion digital-asset sector that will br=
+oaden access to the largest cryptocurrency on Wall Street and beyond.</p>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission, whose =
+three-part mandate includes investor protection, authorized funds from indu=
+stry heavyweights BlackRock, Invesco and Fidelity to smaller competitors in=
+cluding Valkyrie to begin trading Thursday.</p>
+<p style=3D"margin: 16px 0;">The approvals mark a rare capitulation by the =
+SEC following opposition that lasted for more than a decade, ever since Tyl=
+er and Cameron Winklevoss first proposed a Bitcoin ETF in 2013. BlackRock I=
+nc.=E2=80=99s surprise application last June, followed by an appeals court =
+ruling that called the denial of a different application =E2=80=9Carbitrary=
+ and capricious,=E2=80=9D triggered a blistering rally in the cryptocurrenc=
+y amid speculation that US regulators would finally give their blessing to =
+the structure.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There is something pure about this, as Bitcoin=
+ news. A Bitcoin ETF is vastly=C2=A0<em>less=C2=A0</em>useful, as a payment=
+s mechanism or a way to supplant the traditional financial system, than jus=
+t buying Bitcoin: Instead of an alternative peer-to-peer payments system in=
+ which everyone can hold their Bitcoins directly and transfer them to each =
+other without middlemen, this is a crypto thing that you can hold in your t=
+raditional brokerage account and not use for payments at all. But it is <em=
+>more</em> useful as a store of value: You can hold it in your brokerage ac=
+count, where you hold your stores of value. You don=E2=80=99t have to mess =
+around with an alternative financial system; you can just isolate the store=
+-of-value component of Bitcoin and hold it directly. And so the price of Bi=
+tcoin ran up in anticipation of the ETF approvals, because everyone expecte=
+d that the ETFs would lead to more people holding Bitcoin as a store of val=
+ue. Which is the best reason for Bitcoin to go up.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzk3MDM3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQyMjc3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC2ab89671" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33970375&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34227785&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzk3MDM3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQyMjc3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD2ab89671" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33970375&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34227785&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sell the news</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The SEC approved the spot Bitcoin ETFs a littl=
+e after the close yesterday (Wednesday) afternoon. A little after the close=
+ on=C2=A0<em>Tuesday=C2=A0</em>afternoon, the SEC=E2=80=99s account on X (f=
+ormerly Twitter) tweeted that it had approved spot Bitcoin ETFs. That turne=
+d out to be fake; the SEC=E2=80=99s Twitter got hacked. The SEC had to walk=
+ back that statement on Tuesday, and then walk it forward again on Wednesda=
+y. We <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257=
+410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDEtMTA=
+vdGhlLXNlYy1nb3QtdHJvbGxlZC1vbi1iaXRjb2luLWV0ZnM_Y21waWQ9QkJEMDExMTI0X01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jQwMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB55d7d1d0" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  talked about this yesterday</a>. =E2=80=9CNyah nyah nyah nyah nya=
+h,=E2=80=9D I wrote.</p>
+<p style=3D"margin: 16px 0;">When the Bitcoin ETFs got fake-approved on Tue=
+sday, the <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375=
+.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDE=
+tMTAvdGhlLXNlYy1nb3QtdHJvbGxlZC1vbi1iaXRjb2luLWV0ZnM_Y21waWQ9QkJEMDExMTI0X0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjQwMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC55d7d1=
+d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  price of Bitcoin</a> =E2=80=9Cposted a relatively modest jum=
+p to almost $48,000 from about $46,700 before falling back toward $45,000=
+=E2=80=9D when it turned out to be fake. I was a little perplexed =E2=80=94=
+=C2=A0everyone expected the ETFs to be approved by today, so the fake tweet=
+ didn=E2=80=99t add much fake information, and the retraction didn=E2=80=99=
+t add much real information =E2=80=94=C2=A0but=C2=A0whatever. The fun fact =
+is that, when Bitcoin ETFs got approved for real on Wednesday, the price of=
+ Bitcoin =E2=80=A6=C2=A0jumped to a bit more than $49,000, from a bit more =
+than $46,000, <a href=3D"https://link.mail.bloombergbusiness.com/click/3397=
+0375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDE=
+tMTEvYml0Y29pbi1idGMtdm9sdW1lLWp1bXBzLWFzLWZpcnN0LXVzLXNwb3QtZXRmcy1iZWdpbi=
+10cmFkaW5nP2NtcGlkPUJCRDAxMTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cBfa417ccd" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  before falling back</a>:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bitcoin pared gains after surging past $49,000=
+ for the first time since December 2021 with trading commencing for the fir=
+st US exchange-traded funds that invest directly in the biggest cryptocurre=
+ncy.</p>
+<p style=3D"margin: 16px 0;">The token had advanced as much as 6.7% to $49,=
+021, buoyed by the approval of spot Bitcoin ETFs by the US Securities and E=
+xchange Commission after markets closed on Wednesday. It was recently tradi=
+ng at around $46,000. Most smaller tokens, such as Ether, Cardano and Polka=
+dot were higher.</p>
+<p style=3D"margin: 16px 0;">All of the 11 ETFs are trading, and over $2.6 =
+billion has changed hands in just the first few hours of trading.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The market reaction to the SEC=E2=80=99s fake =
+approval of Bitcoin ETFs =E2=80=94=C2=A0a quick modest spike followed by a =
+disappointed modest fall =E2=80=94=C2=A0is remarkably similar to the market=
+ reaction to the SEC=E2=80=99s=C2=A0<em>real=C2=A0</em>approval of Bitcoin =
+ETFs.</p>
+<p style=3D"margin: 16px 0;">Also, I wrote yesterday that, while it is poss=
+ible that someone hacked the SEC=E2=80=99s Twitter to make money by manipul=
+ating the price of Bitcoin, it was also possible that whoever did the hack =
+was just trolling for fun, and did=C2=A0<em>not=C2=A0</em>make any money by=
+ manipulating Bitcoin. Several readers emailed to point out the strongest a=
+rgument for that possibility: If you wanted to manipulate the market, you w=
+ould=C2=A0<em>short </em>Bitcoin and then hack the SEC to tweet =E2=80=9Cwe=
+=E2=80=99re once again <em>declining</em> to approve Bitcoin ETFs, too many=
+ problems, we=E2=80=99re confident we=E2=80=99ll win in court this time.=E2=
+=80=9D The market really expected the SEC to approve the ETFs, so there was=
+ not a ton of information in Tuesday=E2=80=99s fake tweet, and it didn=E2=
+=80=99t move the price of Bitcoin that much. But if the fake tweet had=C2=
+=A0<em>confounded=C2=A0</em>expectations,=C2=A0<em>that=C2=A0</em>would hav=
+e moved the market. If you were a ruthless hacker/manipulator looking to ma=
+ximize profits, that=E2=80=99s what you=E2=80=99d do. If you were a crypto =
+enthusiast looking to troll the SEC for fun, though, you=E2=80=99d fake-twe=
+et that the ETFs were approved.</p>
+<p style=3D"margin: 16px 0;">Also, by the way, the SEC=E2=80=99s approval i=
+s hilariously grudging. Here=E2=80=99s SEC Chair <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuc2VjLmdvdi9u=
+ZXdzL3N0YXRlbWVudC9nZW5zbGVyLXN0YXRlbWVudC1zcG90LWJpdGNvaW4tMDExMDIz/607f07=
+ceef4b8524a319a23cB1034a85d" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Gary Gensler=E2=80=99s statement</a>:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Though we=E2=80=99re merit neutral, I=E2=80=99=
+d note that ... bitcoin is primarily a speculative, volatile asset that=E2=
+=80=99s also used for illicit activity including ransomware,=C2=A0money lau=
+ndering, sanction evasion, and terrorist financing.</p>
+<p style=3D"margin: 16px 0;">While we approved the listing and trading of c=
+ertain spot bitcoin ETP shares today, we did not approve or endorse bitcoin=
+. Investors should remain cautious about the myriad risks associated with b=
+itcoin and products whose value is tied to crypto.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And here is Commissioner <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9uZXdzL3N0YXRlbWVudC9jcmVuc2hhdy1zdGF0ZW1lbnQtc3BvdC1iaXRjb2luLTAxMTAyMw=
+/607f07ceef4b8524a319a23cB9eea7c22" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Caroline Crenshaw=E2=80=99s di=
+ssent from the approval</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Spot bitcoin markets are subject to fraud and =
+manipulation. One form of manipulation that appears to be pervasive in the =
+crypto markets (and specifically bitcoin markets), is wash trading, a pract=
+ice whereby traders seek to increase the appearance of high trading interes=
+t by both selling and buying the same products at the same time, often driv=
+ing up prices, and then selling to unwitting third party market participant=
+s at inflated values. Wash trading distorts price and volume, causes volati=
+lity, reduces investor confidence and participation in financial markets, a=
+nd of course, results in investor harm. One analysis of 29 major crypto exc=
+hanges found that wash trading was, on average, as high as 77.5% of the tot=
+al trading volume on unregulated exchanges. ...</p>
+<p style=3D"margin: 16px 0;">Specifically with regard to bitcoin, an analys=
+is of 157 crypto exchanges found that 51% of the reported daily bitcoin tra=
+ding volume was likely bogus. In fact, though reporting regarding bitcoin f=
+requently discusses the enormous size of the market, one market participant=
+ who now seeks to sponsor a spot bitcoin ETP has admitted that =E2=80=9Capp=
+roximately 95%=E2=80=9D of the data used by many participants are =E2=80=9C=
+fake and/or non-economic.=E2=80=9D =E2=80=A6 In short, prices and demand fo=
+r bitcoin may not actually be what they appear to be.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I joked yesterday that the SEC should deny all=
+ of these applications, saying =E2=80=9CWe<em> were</em> going to approve t=
+hem, but it turns out that the Bitcoin market is still too vulnerable to ma=
+nipulation, as you can tell by the fact that someone hacked our Twitter to =
+manipulate Bitcoin.=E2=80=9D Crenshaw makes that argument!</p>
+<blockquote><p style=3D"margin: 16px 0;">Indeed, just yesterday, prior to t=
+he issuance of our approval Order, one of the SEC=E2=80=99s social media ac=
+counts was compromised, and an unauthorized post falsely indicated that we =
+had approved spot bitcoin ETFs.=C2=A0Unsurprisingly, the price of spot bitc=
+oin suffered =E2=80=9Cwhiplash=E2=80=9D in the minutes and hours following =
+the false tweet.=C2=A0While the facts underlying this misconduct hopefully =
+will be uncovered by law enforcement in the future, I will be monitoring wh=
+at may be yet another attempt to profit from wrongdoing in this market.</p>=
+</blockquote>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Interest</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">You could imagine, I suppose, a =E2=80=9Cphysi=
+cal dollar ETF=E2=80=9D that worked like this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You send money to the ETF issuer.<a c=
+lass=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: none !important; background-color: transpare=
+nt !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">The issuer uses your money to buy=
+ crisp $100 bills.</li>=09<li style=3D"margin-bottom: 5px;">The issuer keep=
+s the $100 bills in a nice safe vault.</li>=09<li style=3D"margin-bottom: 5=
+px;">The issuer charges fees to cover things like its marketing cost, its c=
+ost of renting the vault, etc.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In some rough sense that=E2=80=99s how a physi=
+cal gold ETF works, and it=E2=80=99s how a spot Bitcoin ETF works: There=E2=
+=80=99s some stuff, the stuff is a store of value, and the ETF keeps the st=
+uff in a physical or cryptographic vault, not doing anything with it.</p>
+<p style=3D"margin: 16px 0;">But in fact there=E2=80=99d be something a bit=
+ crazy about doing that with dollars. There are <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuaXNoYXJlcy5jb=
+20vdXMvcHJvZHVjdHMvMjU4ODA2L2lzaGFyZXMtbGlxdWlkaXR5LWluY29tZS1ldGY_Y2lkPXBw=
+Yzppc2hfdXM6aXNoX3VzX25iX2ZpeGVkX2luY29tZV9wcm9kdWN0X2V4YWN0Omdvb2dsZTpub25=
+icmFuZF9wcm9kOmVpJmdhZF9zb3VyY2U9MSZnY2xpZD1DajBLQ1FpQXdQNnNCaERBQVJJc0FQZk=
+tfd2FxMVRGLUtZN0V5ZHZxd3RlYjVKLXg4S1AyYlViUGpnUFZ0bUhuVXE2SktsU3FpSThpaDQwY=
+UFtVDdFQUx3X3djQiZnY2xzcmM9YXcuZHM/607f07ceef4b8524a319a23cB15864394" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> =E2=80=9Ccash=E2=80=9D ETFs</a>, in some sense.<a class=3D"footnote-ind=
+ex" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[2]</span>
+</a>=C2=A0But everyone understands that these ETFs don=E2=80=99t hold=C2=A0=
+<em>crisp $100 bills</em>. They hold extremely safe interest-bearing short-=
+term debt instruments.<a class=3D"footnote-index" href=3D"#footnote-3" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: none !important; b=
+ackground-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0If you invest your money in one of those ETFs, it will =E2=80=9Ch=
+old=E2=80=9D your =E2=80=9Ccash=E2=80=9D for you in roughly the sense that =
+a bank would<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: none !important; background-=
+color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>: It will lend out your cash, as safely as possible, give it back to yo=
+u on demand, and=C2=A0<em>pay you interest</em>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is the natural way of the world, in finan=
+ce. Even a=C2=A0<em>stock=C2=A0</em>ETF will probably do this: Stock ETFs o=
+ften take their investors=E2=80=99 money, use it to buy stocks, and then=C2=
+=A0<em>lend out some of those stocks to earn a bit of extra interest</em>.<=
+a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0Modern finance is=C2=A0very interested in efficiency, and abhors =
+the idea of buying anything, putting it in a box, and=C2=A0<em>doing nothin=
+g with it</em>. You=E2=80=99ve got some stuff in a box, you take it out of =
+the box, you=C2=A0<em>lend=C2=A0</em>it to someone who wants to do somethin=
+g with it, and you earn interest.</p>
+<p style=3D"margin: 16px 0;">The Satoshi Nakamoto vision of crypto was very=
+ different: This idea of building opaque leverage into every part of the sy=
+stem, of constructing everything on webs of debt, is part of what Bitcoin w=
+as reacting against.</p>
+<p style=3D"margin: 16px 0;">But the modern vision of crypto, or at least t=
+he 2022 vision of crypto, was like everything else in finance. You could ho=
+ld Bitcoins in your digital wallet, like holding $100 bills in your regular=
+ wallet, but the action was in depositing your Bitcoins with some quasi-ban=
+k that would lend them out, earn interest, and pay some of the interest to =
+you. This led to various terrible problems, chiefly:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Those quasi-banks were <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMDUvY3J5cHRvLWhhZC1hLWN=
+yZWRpdC1idWJibGU_Y21waWQ9QkJEMDExMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTExJnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB26795ddb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  very highly leveraged<=
+/a>, and when crypto prices fell many of them collapsed and took their quas=
+i-depositors=E2=80=99 money with them.</li>=09<li style=3D"margin-bottom: 5=
+px;">The=C2=A0<em>lending=C2=A0</em>done by these platforms was pretty much=
+ all in support of speculative trading rather than real-world economic acti=
+vity: People didn=E2=80=99t borrow Bitcoins to buy houses; they borrowed Bi=
+tcoins to make bets on Bitcoin prices. So the collapse was pretty sharp.</l=
+i>=09<li style=3D"margin-bottom: 5px;">Also a fair amount of fraud.</li>=09=
+<li style=3D"margin-bottom: 5px;">The US Securities and Exchange Commission=
+ is <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.25741=
+0/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDgvb=
+GVuZGluZy1iaXRjb2lucy1pcy10cmlja3k_Y21waWQ9QkJEMDExMTI0X01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTExJnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBedcf3002" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  quit=
+e convinced</a>, for fairly good=C2=A0reasons, that all of those crypto len=
+ding platforms were=C2=A0<em>securities</em>, subject to securities regulat=
+ion, and that everyone running those platforms was doing so illegally.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Still, in the long run, if you have a giant po=
+t full of electronic financial assets, and if there is demand to borrow tho=
+se assets, won=E2=80=99t you want to lend them? Ten=C2=A0years from now, if=
+ Bitcoin ETFs are still around, is it more likely that they will be =E2=80=
+=9Cphysical=E2=80=9D ETFs, just holding inert Bitcoins in a pot, or that th=
+ey will be money-market-ish ETFs, lending out their Bitcoins to earn=C2=A0i=
+nterest and passing it along to their investors?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Of course=C2=A0<em>today=C2=A0</em>the answer =
+is =E2=80=9Cphysical=E2=80=9D; the prospectuses for today=E2=80=99s Bitcoin=
+ ETFs say that they will hold the Bitcoins in custody, not that they will l=
+end them. (Here is <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33970375.257410/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE1OD=
+g0ODkvMDAwMTE5MzEyNTI0MDA2MzAwL2QyNjQxNzBkNDI0YjMuaHRt/607f07ceef4b8524a319=
+a23cB0dd7982b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Grayscale=E2=80=99s</a>, and here=E2=80=99s <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE5ODA5OTQvMDAwMTQzNzc0OTI0MDAx=
+MTI1L2JpdDIwMjQwMTA5XzQyNGIzLmh0bQ/607f07ceef4b8524a319a23cB4ff52c9b" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> BlackRock=E2=80=99s</a>.) And <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33970375.257410/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3N0YXRlbWV=
+udC9nZW5zbGVyLXN0YXRlbWVudC1zcG90LWJpdGNvaW4tMDExMDIz/607f07ceef4b8524a319a=
+23cC1034a85d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">SEC Chair Gary Gensler=E2=80=99s statement</a> on the=
+ Bitcoin ETF approvals says: =E2=80=9CImportantly, today=E2=80=99s Commissi=
+on action is cabined to ETPs holding one non-security commodity, bitcoin. I=
+t should in no way signal the Commission=E2=80=99s willingness to approve l=
+isting standards for crypto asset securities.=E2=80=9D Bitcoin lending is a=
+ security, in Gensler=E2=80=99s view, and not something he wants to approve=
+ at this point.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cash vs. in-kind</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One other what-will-the-future-bring sort of p=
+oint about Bitcoin ETFs. The normal way that, say, a stock index ETF works =
+is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Normal people buy and sell shares of =
+the ETF on the exchange: They don=E2=80=99t actually give any money to the =
+ETF issuer; they just trade in the secondary market.</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Arbitrageurs make sure that the price of the ETF and the=
+ price of the index stay in line: If the price of ETF shares gets too high,=
+ arbs will sell ETF shares and buy the underlying index.</li>=09<li style=
+=3D"margin-bottom: 5px;">To complete the arbitrage, a few big banks or trad=
+ing firms, called =E2=80=9Cauthorized participants,=E2=80=9D can=C2=A0<em>e=
+xchange=C2=A0</em>the ETF shares for the underlying index: They can collect=
+ a basket of all the stocks in the index, deliver them to the ETF issuer, a=
+nd get back some new ETF shares (this is called =E2=80=9Ccreation), or they=
+ can collect some ETF shares, deliver them to the ETF issuer for retirement=
+, and get back a basket of the underlying stocks (this is called =E2=80=9Cr=
+edemption=E2=80=9D).</li>
+</ol>
+<p style=3D"margin: 16px 0;">ETFs work this way in part for price efficienc=
+y reasons (in-kind creation and redemption makes it=C2=A0easier to arbitrag=
+e the ETF against its underlying index), in part for operational efficiency=
+ reasons (it means the ETF doesn=E2=80=99t have to do much trading for itse=
+lf),=C2=A0and in=C2=A0large part for tax efficiency reasons (it means=C2=A0=
+that the ETF <a href=3D"https://link.mail.bloombergbusiness.com/click/33970=
+375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTkt=
+MDMtMjkvZGVhbHMtb24tdGhlLXRyYWluLWFyZS1ldmVyeW9uZS1zLWJ1c2luZXNzP2NtcGlkPUJ=
+CRDAxMTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTI0MDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cBba7ec479" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  doesn=E2=80=99t have taxable gains</a> from sell=
+ing its underlying stocks).</p>
+<p style=3D"margin: 16px 0;">Similarly with a spot Bitcoin ETF, the straigh=
+tforward mechanism would be to have authorized participants hand Bitcoins t=
+o the ETF issuer to get back ETF shares, or hand ETF shares to the issuer t=
+o get back Bitcoins. But in fact none of the ETFs approved yesterday work t=
+hat way. They all use only <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjQtMDEtMDMvYml0Y29pbi1zcG90LW1hcmtldC1zdGlsbC1saXR0bGUtd2VpcmQtcHJvc=
+2hhcmVzLXN0cmF0ZWdpc3Qtc2F5cz9jbXBpZD1CQkQwMTExMjRfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTEmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2398ebd3" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  cash crea=
+tion and redemptions</a>: Authorized participants give the ETF issuer=C2=A0=
+<em>dollars=C2=A0</em>and get back shares, and then the ETF goes and buys n=
+ew Bitcoins with those dollars. (The main authorized participant for the Bi=
+tcoin ETFs <a href=3D"https://link.mail.bloombergbusiness.com/click/3397037=
+5.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMj=
+kvYmxhY2tyb2NrLW5hbWVzLWphbmUtc3RyZWV0LWpwbW9yZ2FuLWFzLWJpdGNvaW4tZXRmLWF1d=
+Ghvcml6ZWQtcGFydGljaXBhbnRzP2NtcGlkPUJCRDAxMTEyNF9NT05FWVNUVUZGJnV0bV9tZWRp=
+dW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExMSZ1dG1fY2FtcGF=
+pZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB307cb1e5" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">is=C2=A0Jane=
+ Street Capital</a>, though there are a few others.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">The reason for this <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly9kYXZpZGdlcmFyZC5j=
+by51ay9ibG9ja2NoYWluLzIwMjMvMTIvMjIvYml0Y29pbi1ldGZzLWNvbWluZy1zb29uLWJ1dC1=
+pbi1jYXNoLW9ubHkv/607f07ceef4b8524a319a23cB8a9a78cb" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> seems to be</=
+a> that <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.2=
+57410/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYnVzaW5lc3MvZmluYW5jZS9ibGFja3JvY2std=
+XBkYXRlcy1zcG90LWJpdGNvaW4tZXRmLXByb3Bvc2FsLWFsbG93LWNhc2gtcmVkZW1wdGlvbnMt=
+MjAyMy0xMi0xOS8/607f07ceef4b8524a319a23cBb6549654" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> the SEC doesn=
+=E2=80=99t like</a> in-kind creation/redemption for Bitcoin ETFs.<a class=
+=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0Grayscale Bitcoin Trust, <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33970375.257410/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZG=
+dhci9kYXRhLzE1ODg0ODkvMDAwMTE5MzEyNTI0MDA2MzAwL2QyNjQxNzBkNDI0YjMuaHRt/607f=
+07ceef4b8524a319a23cC0dd7982b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> in its ETF prospectus</a>, says:</p=
+>
+<blockquote><p style=3D"margin: 16px 0;">in common with other spot Bitcoin =
+exchange-traded products, the Trust is not at this time able to create and =
+redeem shares via in-kind transactions with Authorized Participants, and th=
+ere has yet to be definitive regulatory guidance on whether and how registe=
+red broker-dealers can hold and deal in Bitcoin in compliance with the fede=
+ral securities laws. To the extent further regulatory clarity emerges, the =
+Sponsor expects NYSE Arca to seek the necessary regulatory approval to amen=
+d its listing rules to permit the Trust to do so (the =E2=80=9CIn-Kind Regu=
+latory Approval=E2=80=9D). Subject to NYSE Arca seeking and obtaining In-Ki=
+nd Regulatory Approval, in the future the Trust may also create and redeem =
+Shares via in-kind transactions with Authorized Participants or their desig=
+nees (any such designee, an =E2=80=9CAP Designee=E2=80=9D) in exchange for =
+Bitcoin. There can be no assurance as to when such regulatory clarity will =
+emerge, or when NYSE Arca will seek or obtain such regulatory approval, if =
+at all.</p></blockquote>
+<p style=3D"margin: 16px 0;">The problem is that, to be an authorized parti=
+cipant in the ETF, you have to be an SEC-registered broker-dealer, since yo=
+u are effectively distributing the ETF shares. And the SEC is very skeptica=
+l of registered broker-dealers trading in Bitcoin. From an SEC perspective,=
+ you can trade ETF shares (as a broker-dealer), or you can trade the underl=
+ying Bitcoins (as an unregistered Bitcoin-y trader), but it=E2=80=99s trick=
+y to do both. That makes the Bitcoin ETF arbitrage =E2=80=94=C2=A0where you=
+ trade the ETF shares=C2=A0<em>against=C2=A0</em>the Bitcoins =E2=80=94=C2=
+=A0tricky.<a class=3D"footnote-index" href=3D"#footnote-7" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[7]</span>
+</a></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">BTFP carry trade</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Last year the Federal Reserve <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnb=
+m9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwMTExMjRfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTE=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBca654962" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> created a program</a> to allow banks to borrow short-term at long-term ra=
+tes? I mean, sort of. What it did was create the <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuZmVkZXJhbHJl=
+c2VydmUuZ292L2ZpbmFuY2lhbC1zdGFiaWxpdHkvYmFuay10ZXJtLWZ1bmRpbmctcHJvZ3JhbS5=
+odG0/607f07ceef4b8524a319a23cBd140dc01" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Bank Term Funding Program<=
+/a>, which has <a href=3D"https://link.mail.bloombergbusiness.com/click/339=
+70375.257410/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMvcHJlc3=
+NyZWxlYXNlcy9maWxlcy9tb25ldGFyeTIwMjMwMzEyYTEucGRm/607f07ceef4b8524a319a23c=
+B58172fde" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the following features</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Banks can borrow =E2=80=9Cfor a term =
+of up to one year,=E2=80=9D prepayable without penalty.</li>=09<li style=3D=
+"margin-bottom: 5px;">The interest rate is=C2=A0the one-year overnight inde=
+x swap rate plus 10 basis points, fixed at the time of borrowing.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So you could borrow for a term of one day to o=
+ne year, in any case at the one-year interest rate (plus 10 basis points). =
+Ordinarily, longer-term interest rates are higher than shorter-term interes=
+t rates: It is usually cheaper to borrow money overnight than it is to borr=
+ow it for a year. And so this program was, arguably, very mildly punitive, =
+a classic lender-of-last-resort program along the lines of =E2=80=9Clend fr=
+eely against good collateral at penalty rates,=E2=80=9D or at least not=C2=
+=A0<em>subsidized </em>rates.</p>
+<p style=3D"margin: 16px 0;">But=C2=A0right now, the reverse is true: The o=
+vernight rate is fairly high, because the Fed has raised rates a lot over t=
+he past few years, but the one-year rate is lower, because the market expec=
+ts the Fed to lower rates over the next year. And so the BTFP creates a wei=
+rd carry trade: Banks can borrow at the BTFP=E2=80=99s low one-year rate (<=
+a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aHR=
+0cHM6Ly93d3cuZnJiZGlzY291bnR3aW5kb3cub3JnLw/607f07ceef4b8524a319a23cB8dd494=
+96" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">4.87%, today</a>), lend at the higher overnight rate, and matc=
+h the maturities.<a class=3D"footnote-index" href=3D"#footnote-8" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a>=C2=A0You can=C2=A0even match the counterparties: You borrow <em>from</=
+em>=C2=A0the Fed (using BTFP) and lend=C2=A0<em>to=C2=A0</em>the Fed (as re=
+serves, <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.2=
+57410/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L21vbmV0YXJ5cG9saWN5L3Jlc2Vyd=
+mUtYmFsYW5jZXMuaHRt/607f07ceef4b8524a319a23cB77d6fe27" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">at 5.40%, to=
+day</a>) and just get free money. The <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2J=
+hbmtpbmcvdGhlLWZlZC1sYXVuY2hlZC1hLWJhbmstcmVzY3VlLXByb2dyYW0tbGFzdC15ZWFyLW=
+5vdy1iYW5rcy1hcmUtZ2FtaW5nLWl0LTQzZTljZWUzP21vZD1ocF9sZWFkX3BvczI/607f07cee=
+f4b8524a319a23cB60ae5c3d" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Wall Street Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Borrowing from the Fed=E2=80=99s bank term fun=
+ding program has increased to new highs in recent weeks, a strange conseque=
+nce of the market=E2=80=99s flip to forecasting multiple Fed rate cuts over=
+ the coming 12 months.</p>
+<p style=3D"margin: 16px 0;">The rate banks pay to use the program, BTFP fo=
+r short, is tied to future interest-rate expectations. Now that investors h=
+ave priced in a series of rate cuts later this year, banks are able to pock=
+et the difference between what they pay to borrow the funds and what they c=
+an earn from parking the funds at the central bank as overnight deposits. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">While the Fed offers financing below 5% throug=
+h its rescue program, it is currently paying banks 5.4% on parked reserve b=
+alances.</p>
+<p style=3D"margin: 16px 0;">Lending in the program hit $141.2 billion this=
+ past Wednesday, a new high, up 4% from the prior week and up 25% since the=
+ middle of November when forecasts started changing. Most of the volume is =
+still loans from the crisis, and the number didn=E2=80=99t move much from J=
+uly to November.</p>
+<p style=3D"margin: 16px 0;">The increases don=E2=80=99t seem to be a sign =
+of new stress on banks, especially since deposits have ticked up at banks o=
+ver the same period. It appears more likely the banks are just taking the e=
+asy money.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe think banks are exploiting a posit=
+ive arbitrage,=E2=80=9D Janney Montgomery Scott analyst Christopher Marinac=
+ wrote in a note this week.</p>
+<p style=3D"margin: 16px 0;">The benefit will eventually shrink, if not eva=
+porate completely. The program is set to expire on March 11, barring an ext=
+ension. On Tuesday, Michael Barr, the Fed=E2=80=99s vice chairman for banki=
+ng supervision, suggested the facility wouldn=E2=80=99t be extended.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Good trade!=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Griftco</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you start a shell company, use it to acquir=
+e an exploration-stage mining property that is not currently producing anyt=
+hing, and then use the company to apply for a Canadian provincial governmen=
+t program that provides up to $200,000 of taxpayer money to fund exploratio=
+n projects, should you give that company a name like =E2=80=A6=C2=A0=E2=80=
+=9CGriftco Corp.=E2=80=9D? I mean,</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">no, but</li>=09<li style=3D"margin-bo=
+ttom: 5px;">this guy seems fun, <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33970375.257410/aHR0cHM6Ly93d3cudGhlZ2xvYmVhbmRtYWlsLmNvbS9id=
+XNpbmVzcy9hcnRpY2xlLW9udGFyaW8tZ3JhbnRlZC10YXhwYXllci1mdW5kcy10by1taW5pbmct=
+ZXhwbG9yYXRpb24tY29tcGFuaWVzLWNhbGxlZC8/607f07ceef4b8524a319a23cBead5f8ce" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> I=E2=80=99m going to allow it</a>:</li>
+</ol>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bay street lawyer Chris Irwin is one of the pr=
+incipals behind Griftco. In an interview, he said the name has a perfectly =
+innocent explanation, has nothing to do with ripping people off, and was in=
+spired by a funny acquaintance.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI had a friend called Alastair Griffi=
+n, who had a phone message that when you called, it said, =E2=80=98Thank yo=
+u for reaching Griftco, all our agents are busy,=E2=80=99 =E2=80=9D he said=
+. =E2=80=9CWe sort of had a running joke about that, and then I said, =E2=
+=80=98I=E2=80=99m going to steal the name,=E2=80=99 so I incorporated the c=
+ompany and now I have the name. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Mr. Irwin says that nobody at those companies =
+ever raised concerns about the optics of doing a deal with Griftco.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s probably my reputation t=
+hat people know it=E2=80=99s ironic,=E2=80=9D he said through spurts of lau=
+ghter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s very important that if you do sta=
+rt a company called Griftco and use it to apply for taxpayer money, you are=
+ very careful to do everything by the book. If you get in trouble, at Grift=
+co, nobody=C2=A0is not going to believe you that it was ironic. Also that G=
+lobe and Mail article notes that another recipient of=C2=A0Ontario Junior E=
+xploration Program funding is a company called =E2=80=9CMoney Money Money,=
+=E2=80=9D but they weren=E2=80=99t able to talk to whoever chose that name.=
+</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Chesapeake to Create No. 1 US <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTEvY2hlc2FwZWFrZS10by1idXktd=
+XMtZ2FzLXJpdmFsLXNvdXRod2VzdGVybi1mb3ItNy00LWJpbGxpb24_Y21waWQ9QkJEMDExMTI0=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjQwMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB26f1=
+37a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Gas Driller</a> in $7.4 Billion Deal. Hedge funds take on p=
+rivate equity in battle for <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/33970375.257410/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTIyMWY2NzUtZ=
+jY0YS00MjRmLWEzNTYtODgyZTVkNTk0YzIw/607f07ceef4b8524a319a23cB46e4d82b" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> distressed companies</a>.=C2=A0Citigroup=E2=80=99s Jane Fraser Embarks=
+ on Another <a href=3D"https://link.mail.bloombergbusiness.com/click/339703=
+75.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtM=
+TEvY2l0aWdyb3VwLWMtZWFybmluZ3MtcHJldmlldy1mcmFzZXItc3RhcnRzLXllYXItb2YtY3V0=
+cy1yZXN0cnVjdHVyaW5nP2NtcGlkPUJCRDAxMTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExMSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cB33b33eaf" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  Pivotal Year of B=
+ank Cuts</a>. There=E2=80=99s Finally Hope for the <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTEvY29tbWVyY2lhbC1yZWFsLWVzdGF0ZS1tY=
+XJrZXQtcG9pc2VkLXRvLXRoYXctb24tNTcwLWJpbGxpb24tZ2FwP2NtcGlkPUJCRDAxMTEyNF9N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTI0MDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa70069=
+2e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Office Real Estate</a> Market.=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTEvZ29sZG1hbi12cy1tb3JnYW4tc3Rhbmxle=
+S1lYXJuaW5ncy1ncy1zdXJnZXMtYWhlYWQtaW4tZXF1aXRpZXMtdHJhZGluZz9jbXBpZD1CQkQw=
+MTExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yNDAxMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB9827fece" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Goldman Sachs Traders</a> Get Their Swagger Back in =
+Stocks. Morgan Stanley Names 155 to <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjQtMDEtMTAvbW9yZ2FuLXN0YW5sZXktbmFtZXMtMTU1LXRvLW1hbmFnaW5n=
+LWRpcmVjdG9yLWFzLWNsYXNzLXNocmlua3M_Y21waWQ9QkJEMDExMTI0X01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTExJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8f11cb6b" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Man=
+aging Director</a> as Class Shrinks. Bitcoin X hack an =E2=80=98embarrassme=
+nt=E2=80=99 for <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+970375.257410/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNTIzN2I1OTctMWZiYi00ZmM5L=
+WFmMzQtN2NiMDU0MDc0MGE5/607f07ceef4b8524a319a23cBfbcd8207" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> cyber s=
+ecurity-conscious</a> SEC. Google <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjQtMDEtMTEvZ29vZ2xlLWxheXMtb2ZmLWh1bmRyZWRzLWluLWhhcmR3YXJlLX=
+ZvaWNlLWFzc2lzdGFudC10ZWFtcz9jbXBpZD1CQkQwMTExMjRfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTEmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb6743019" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Lays Off H=
+undreds</a> in Hardware, Voice Assistant Teams. Skydance Backers Explore Al=
+l-Cash Deal to Gain Control of <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33970375.257410/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9tZWRpYS=
+9za3lkYW5jZS1iYWNrZXJzLWV4cGxvcmUtYWxsLWNhc2gtZGVhbC10by1nYWluLWNvbnRyb2wtb=
+2YtcGFyYW1vdW50LTM1MzBhNDA5P21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB8275de=
+0b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Paramount</a>. Enthusiasm Ebbs for a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9lbnRodXNpYXNtLWViYnMtZm9yLWEtZGl2ZXJzaXR5LWluaXRpYXRpdmUtaW4td=
+mVudHVyZS1jYXBpdGFsLWUwMjU0NjVjP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b852=
+4a319a23cB2099a4d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Diversity Initiative</a> in Venture Capital.=
+=C2=A0Ex-Goldman Manager Sues Bank Over <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjQtMDEtMTEvZXgtZ29sZG1hbi1yZWNydWl0bWVudC1oZWFkLXN1ZXMt=
+Zm9yLTEtbWlsbGlvbi1vdmVyLW1lbnRhbC1oZWFsdGgtY3Jpc2lzP2NtcGlkPUJCRDAxMTEyNF9=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTI0MDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4fbde=
+d95" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Mental Health Crisis</a>. Lloyds Bank Manager Awarded =C2=A3=
+450,000 After Winning Case Over <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjQtMDEtMTAvbGxveWRzLWJhbmstbWFuYWdlci1hd2FyZGVkLTQ1MC0wMDAtYWZ0=
+ZXItd2lubmluZy1jYXNlLW92ZXItcmFjaXN0LXNsdXI_Y21waWQ9QkJEMDExMTI0X01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMT=
+ExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3718a7a6" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  Racist Slur</a> He Made. Employee=E2=80=99s Lawsuit Calls Financial Fi=
+rm =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/339703=
+75.257410/aHR0cHM6Ly93d3cudGhlZGFpbHliZWFzdC5jb20vZXgtZW1wbG95ZWUtYmxhc3RzL=
+WZpbmFuY2UtZmlybS1hcy1hbGNvaG9sLWZ1ZWxlZC1zZXh1YWwtY2F1bGRyb24taW4tbGF3c3Vp=
+dA/607f07ceef4b8524a319a23cB62108424" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Alcohol-Fueled Sexual Cauldro=
+n</a>.=E2=80=99 <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+970375.257410/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wMS8xMC93b3JsZC9ldXJvc=
+GUvZXRvbi1jb2xsZWdlLWZsb29kaW5nLXRvaWxldHMuaHRtbA/607f07ceef4b8524a319a23cB=
+a0db532b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Blocked Toilets Close Eton</a>, Boarding School for Brit=
+ain=E2=80=99s Elite Sons.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33970375.257410/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBef487d33" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33970375.257410/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb47b784f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In this section I will elide the actual pr=
+ocess of ETF creation and redemption, where you buy and sell shares in the =
+open market and authorized participants trade against you and then create a=
+nd redeem shares with the issuer. Doesn=E2=80=99t matter for our purposes h=
+ere.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] In the US they seem to avoid calling thems=
+elves exactly that, e.g. the <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33970375.257410/aHR0cHM6Ly93d3cuaXNoYXJlcy5jb20vdXMvcHJvZHVjdHMv=
+MjU4ODA2L2lzaGFyZXMtbGlxdWlkaXR5LWluY29tZS1ldGY_Y2lkPXBwYzppc2hfdXM6aXNoX3V=
+zX25iX2ZpeGVkX2luY29tZV9wcm9kdWN0X2V4YWN0Omdvb2dsZTpub25icmFuZF9wcm9kOmVpJm=
+dhZF9zb3VyY2U9MSZnY2xpZD1DajBLQ1FpQXdQNnNCaERBQVJJc0FQZktfd2FxMVRGLUtZN0V5Z=
+HZxd3RlYjVKLXg4S1AyYlViUGpnUFZ0bUhuVXE2SktsU3FpSThpaDQwYUFtVDdFQUx3X3djQiZn=
+Y2xzcmM9YXcuZHM/607f07ceef4b8524a319a23cC15864394" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> BlackRock Ultra=
+ Short-Term Bond ETF</a> has the ticker =E2=80=9CICSH=E2=80=9D (for =E2=80=
+=9CiShares Cash,=E2=80=9D I suppose), but doesn=E2=80=99t use =E2=80=9Ccash=
+=E2=80=9D in the name. But the Australian equivalent is called the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aHR0cHM6L=
+y93d3cuYmxhY2tyb2NrLmNvbS9hdS9pbmRpdmlkdWFsL3Byb2R1Y3RzLzI4NzA0NS9pc2hhcmVz=
+LWNvcmUtY2FzaC1ldGY/607f07ceef4b8524a319a23cB6d803309" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> iShares Cor=
+e Cash ETF</a>, and there's a <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33970375.257410/aHR0cHM6Ly9ob3Jpem9uc2V0ZnMuY29tL0VURi9jYXNoLw/=
+607f07ceef4b8524a319a23cB786626cf" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Canadian money-market ETF</a> w=
+ith the ticker =E2=80=9CCASH.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I mean, probably mostly discount instrumen=
+ts rather than coupon-paying ones, but you know what I mean.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Roughly. A bank will do a lot of maturity =
+transformation, using your overnight deposits to make 30-year mortgage loan=
+s and whatnot. A money-market ETF will do very little maturity transformati=
+on, using your money to buy, like, 1-month Treasury bills.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] This is non-technical; technically they ea=
+rn =E2=80=9Cstock lending fees,=E2=80=9D not =E2=80=9Cinterest,=E2=80=9D an=
+d the mechanism is more complicated than that. (They lend stocks, take back=
+ cash collateral, invest the cash, earn interest, pass some but not all of =
+the interest back to the share borrower, and keep a bit of the interest as =
+their stock-lending fee.) For instance, the <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxhY2tyb2NrLmNvb=
+S91cy9pbmRpdmlkdWFsL3Jlc291cmNlcy9yZWd1bGF0b3J5LWRvY3VtZW50cy9zdHJlYW0tZG9j=
+dW1lbnQ_c3RyZWFtPXJlZyZwcm9kdWN0PUktU1A1MDAmc2hhcmVDbGFzcz1OQSZkb2N1bWVudEl=
+kPTkyNTgzMyU3RTkyNjM1OCU3RTkyNjM0OCU3RTIxNTE5NzQlN0UyMDQ3MjY3JmlmcmFtZVVybE=
+92ZXJyaWRlPSUyRnVzJTJGaW5kaXZpZHVhbCUyRmxpdGVyYXR1cmUlMkZwcm9zcGVjdHVzJTJGc=
+C1pc2hhcmVzLWNvcmUtcy1hbmQtcC01MDAtZXRmLTMtMzEucGRm/607f07ceef4b8524a319a23=
+cB4a9d13c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> BlackRock iShares Core S&amp;P 500 ETF</a> says =E2=80=
+=9CThe Fund may lend securities representing up to one-third of the value o=
+f the Fund=E2=80=99s total assets.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] In its order approving the ETFs yesterday,=
+ the SEC noted in a footnote that =E2=80=9CThe Proposals under consideratio=
+n by the Commission in this order only contemplate cash creation and redemp=
+tion by authorized participants. Accordingly, in-kind creation and redempti=
+on processes by authorized participants, and their relative benefits or dra=
+wbacks, are outside the scope of this order.=E2=80=9D But the SEC seems to =
+have, you know, hinted that it preferred that. </p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I have <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33970375.257410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDgtMjkvZ3JheXNjYWxlLWNhbi1iZS1hLWJpdGNvaW4tZXRm=
+P2NtcGlkPUJCRDAxMTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cB0bae8e76" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  said before</a> that a spot Bitcoin E=
+TF is a much simpler and more sensible structure than a Bitcoin *futures* E=
+TF, which the SEC approved several years ago. Some readers pushed back: The=
+ spot ETF is simpler and more intuitive for an investor, maybe, but it=E2=
+=80=99s *more complicated* for an arbitrageur or authorized participant. Th=
+is, roughly, is why. Trading regulated exchange-traded futures against ETF =
+shares is fairly straightforward; trading both Bitcoins and ETF shares is a=
+ bit harder.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Because overnight lending is overnight and=
+ you can terminate your BTFP borrowing at any time. If at any point the ove=
+rnight rate falls below the BTFP rate, you just close out both sides of the=
+ trade.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe1e79dee" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa21f875d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd3b61136" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB0abc0cb7" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBc8902377" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.2574=
+10/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBc069040c" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33970375.257410/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC6c602a0a" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33970375.257410/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB701fe9a5" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33970375.257410/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBee84a7c8" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+2e76c79" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33970375.257410/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+daf05b7" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck83pj.5ima/c70b00c5.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_402114_846254226.1705001095201--
+

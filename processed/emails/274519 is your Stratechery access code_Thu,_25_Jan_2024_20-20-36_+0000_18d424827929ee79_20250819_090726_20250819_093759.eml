@@ -1,0 +1,521 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e443:0:b0:680:b191:1941 with SMTP id d3csp878608qvm;
+        Thu, 25 Jan 2024 12:20:41 -0800 (PST)
+X-Received: by 2002:a05:600c:3ba0:b0:40e:93b4:25ef with SMTP id n32-20020a05600c3ba000b0040e93b425efmr153455wms.26.1706214041250;
+        Thu, 25 Jan 2024 12:20:41 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1706214041; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JogWoICme2T1RhTstJvDODJZ2L2Munk+aE6RMZ/3x+48esc6MgJH4FkeG5Lu8vwHwi
+         LpijtqaCCCLS249FPYQVgUcuxZ2wPzjxFI0bcMZ0hh7KHUmpBFJE8z3w3NSPiQdUD+Xh
+         6FA5wmonoy4CIYn0el/FepW/EZ0yUHexVLL6RGgszJxIOFP54SlLHCEMRtVWh5NVOBp8
+         a0e58VqJvDV+brHR/PgEzSl/1vjMgi83otsm5B0DtnzHbInRMFkA6bPhFvrAPvvhkou8
+         W2wM0EdrVWJRsGOHY4mx+wcA6+/ib0NA0uj1EID9/0Cd/S2qsU4o9HA3/cXd7DNYfhY7
+         qqMg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:mime-version:from:message-id:subject:to:reply-to:date
+         :dkim-signature:dkim-signature:delivered-to;
+        bh=4RaWidk5mwSPNsGrG8GoTCRIKnm4IROIRMIGZC1xCvA=;
+        fh=bt3//uZT0Sk0RKghEtKZsm+MygAOFTOO3cavS7wP2Vc=;
+        b=beGD69g9ivObLUDkGRIQSQVTSBY0g77PIz+vZNalITgvxaUINp1AZkznDwtMJIs5wa
+         qctE+Qs13PqK5akSABd4XNViosv1oT8A04LrhFN+QoLUyuMd7l4+LQYQBoTLwrV5r210
+         tUgLWZJz7Ireanp1RcWaxPxKucgeINLzKThlq4NKBjk2veU/v3Tp8XSDlGxUwk40AlXj
+         O7YtrQgILFHBLZPkPDRCkrvG/bKHkJr0C6uz0v2V628jNxVYaRDCOfUw+eX8FmqNpldZ
+         NxZjms3xQ6cc2MzfC5HP4dD45d8tuaD8MnDC49rd8KhFXGIZjp+2py4qRRXsCsPBy25/
+         uQ3Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@stratechery.com header.s=47s64ohrhret7eqevjf3h6uk2gvjruns header.b=Osp5rXqy;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=frQZiLaK;
+       arc=pass (i=2 dkim=pass dkdomain=stratechery.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=stratechery.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k11-20020a05600c0b4b00b0040ec2b8d23esor1523629wmr.1.2024.01.25.12.20.41
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 25 Jan 2024 12:20:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@stratechery.com header.s=47s64ohrhret7eqevjf3h6uk2gvjruns header.b=Osp5rXqy;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=frQZiLaK;
+       arc=pass (i=2 dkim=pass dkdomain=stratechery.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=stratechery.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706214041; x=1706818841;
+        h=feedback-id:mime-version:from:message-id:subject:to:reply-to:date
+         :dkim-signature:dkim-signature:delivered-to:x-forwarded-for
+         :x-forwarded-to:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=4RaWidk5mwSPNsGrG8GoTCRIKnm4IROIRMIGZC1xCvA=;
+        b=wO4VQeak2OiGbzjE7BBEeMYTDBEnZls2/tpp0CKHKN70syDkOvTte46uQPVGwj0Wpo
+         Qpx1uAmllFIHeKFKCB3F4O3WoSQsTHr9BCTMRDoLP3+8Pkub5+Qe69QqdpSoxPv3hlS2
+         FseKz2yCkvKsAdEpc5iYbQTHt/eaxjoq5d99IlY9CefTNU2BpMws1SswrMJzQDiIE1XW
+         fnbXIwDwRilTdNU5GnQP0U9v2SsmiaBEPrak4rxa5wf52zuNAl3wvIdGyHPJH0+nGQTr
+         7QVzRg5dLFRM4IIJ3wsvjxPJbEdojLj8QdBUKciv2vU+jGfsLmFr2hj/Ojm7tI/y/Vk9
+         5S7A==
+X-Gm-Message-State: AOJu0Yw6j7lx7G/G1ad55TWO+tvvGq1shXasqQKcIziTrHiXvAWzjPmI
+	0OaUSCzcqoXNYIkHmN+MHD+HgL63aYvNwcODgVq/glQHMLhZed207nNVT4GOk929WwQgm/8Fkz7
+	o9U/JaJk17kW3O9BV5ZCDP4rLYXUun2NymCxphZFIApAMpfid4jiHH0eSYbXt
+X-Received: by 2002:a05:600c:3b1a:b0:40e:b036:d92e with SMTP id m26-20020a05600c3b1a00b0040eb036d92emr143495wms.144.1706214040764;
+        Thu, 25 Jan 2024 12:20:40 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:18a:b0:333:384e:c9a6 with SMTP id p10csp123087wrx;
+        Thu, 25 Jan 2024 12:20:38 -0800 (PST)
+X-Received: by 2002:a17:902:d38d:b0:1d6:fff3:472e with SMTP id e13-20020a170902d38d00b001d6fff3472emr258377pld.130.1706214038614;
+        Thu, 25 Jan 2024 12:20:38 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1706214038; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=d68hdDrxtaFIOCOfiHTtCYgSW0ClAZBT5T7eNo3wvnKcESrDgtPYmfFKNPFPek6KOI
+         bkzExBg5zTtAcE95ujBiGIr69N0loLaJwyVFz1JpO2S+shtByY4OgTlhrGAAI6DNtkjR
+         XI/melyAWwdfsAYnJ8yt7Es6z3+K5AfA+gTKai7JM2tH+PgUn/w0HWDVKaj2ATDMMH97
+         bx5uX8H3Dbgcgnqd6VsMNlNjluKKwORdZPUMAOs8kVNrnmDs33m+wcS9mCE3xtMX1ocC
+         Ys5oTpay67Ci+ZM15LZbQEh6iaj+6N9G9EwYrXC+npgCegy8c2AjEXiO4Oy/HVDPizoQ
+         OBnw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:mime-version:from:message-id:subject:to:reply-to:date
+         :dkim-signature:dkim-signature;
+        bh=4RaWidk5mwSPNsGrG8GoTCRIKnm4IROIRMIGZC1xCvA=;
+        fh=bt3//uZT0Sk0RKghEtKZsm+MygAOFTOO3cavS7wP2Vc=;
+        b=n4SoBZbFdw8qdQeZuhTlAmQQjn9EeEd0Vn5Y0Ya/Eu2nltRrOjnejHBB68RF094Z9Z
+         rjiLLq08/GvFoeS0WF6WzPdEHKzYh+kMjniDI+OsigfubhqHEqlVv+GbTBWmCkfoPa3x
+         eEczPIboImm7Hg59cQGW1tpYGuHE1O/vyOByD2oS58N5gPiVwBQ0iIcrvEaImMU4k0Dn
+         Gq1esEt6EfQcH3pE/S7VkKX/MSHe+Ym6akcGtrq8vfwYYNDO9vJTZNaR1CeFNno9TitD
+         6NMzbG3i2lXkYp9k5C4ch6Zz5VLbqgG+IBt/ga03GckTM5pax0WcRDyyc9Z8sEN/FSMv
+         Ij0A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@stratechery.com header.s=47s64ohrhret7eqevjf3h6uk2gvjruns header.b=Osp5rXqy;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=frQZiLaK;
+       arc=pass (i=1 spf=pass spfdomain=amazonses.com dkim=pass dkdomain=stratechery.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=stratechery.com);
+       spf=fail (google.com: domain of 0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com
+Return-Path: <0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v18-20020a170902d09200b001d5e2159ec0sor5577801plv.7.2024.01.25.12.20.38
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 25 Jan 2024 12:20:38 -0800 (PST)
+Received-SPF: fail (google.com: domain of 0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IG/OblZliTTHv03n5G7nifpB5t2dLjs3nHhRd5Syh33QebhMFdhxHAAXtprSvFe/9pdjKBGs/py2DAQ45G8ETGzDzRekE4=
+X-Received: by 2002:a17:903:3317:b0:1d7:8e11:152c with SMTP id jk23-20020a170903331700b001d78e11152cmr230428plb.3.1706214038313;
+        Thu, 25 Jan 2024 12:20:38 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1706214038; cv=none;
+        d=google.com; s=arc-20160816;
+        b=CQJprguaBsEKC+Az6Ef09FfZzoCod3GgcKc3haqmanYYfgs5Yx/Gne6cbAkREXh6JP
+         mNdY+LxHrdSy2h4V/2KwHGxgt8K1VRGxjDQt2Lj/FEgvxtxcF5hl+HkcmO949gxJQzxi
+         Pl2hogEXluOv20SlryjLB9KCZj4SBn+GBZiMcCZ2QQdrAO0+xYgIMhq0h6K57/wwWxwa
+         mHNDnfY/va1c4Q5ccxSfkHeYeg7/NTUeOhcz9gNjOIwdHVnVIsKueXXT3guG9Sx8L9U2
+         AU7JSusgQoti1LDyutpwaQKrr1HVKbpkx49tQ+YnaVJrrTOBqqEMwSTuosvTP5rs8/4h
+         vIcA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:mime-version:from:message-id:subject:to:reply-to:date
+         :dkim-signature:dkim-signature;
+        bh=4RaWidk5mwSPNsGrG8GoTCRIKnm4IROIRMIGZC1xCvA=;
+        fh=bt3//uZT0Sk0RKghEtKZsm+MygAOFTOO3cavS7wP2Vc=;
+        b=0T3/X1Y0C7hNXExtEmrTMms7MZxJf00VFIg1iJErbiKDrgJW6RsmdrM4fUTsqMTyPu
+         9L30rIxvfLkMwvafFEOqTv0IcNFGIS06NoGMcPyswYKCgfCYTr+FLlBq0Pm3nA/JbMTo
+         j4oGW9ZpW8JXhIMy5u0ASqIxynNbxUq/70t+QaPnkVzZEa8aJ8Suoup4nPWIIW3AR/rh
+         TCxw6GyYXgP0FgQ+QZsq8vT9Ll1GTuSwHaVKuiywDFYrVTW/mgq7i0AH3AwHjmkS4QfF
+         nrOoMeu466TCu+TgGkke9dOnbDiBhLhesA69y7/WIM1tPBuMoLDV6rviIFc41eKiy7cM
+         HKNg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@stratechery.com header.s=47s64ohrhret7eqevjf3h6uk2gvjruns header.b=Osp5rXqy;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=frQZiLaK;
+       spf=pass (google.com: domain of 0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com designates 54.240.123.248 as permitted sender) smtp.mailfrom=0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com
+Return-Path: <0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com>
+Received: from a123-248.smtp-out.amazonses.com (a123-248.smtp-out.amazonses.com. [54.240.123.248])
+        by gmr-mx.google.com with ESMTPS id kh6-20020a170903064600b001d758eefaadsi510854plb.11.2024.01.25.12.20.37
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Jan 2024 12:20:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of 0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@amazonses.com designates 54.240.123.248 as permitted sender) client-ip=54.240.123.248;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=47s64ohrhret7eqevjf3h6uk2gvjruns; d=stratechery.com;
+	t=1706214036;
+	h=Content-Type:Date:Reply-To:To:Subject:Message-Id:From:Mime-Version;
+	bh=9xLZudbgXldRWK3nn3UUYtk6wgAVpZC0NjnLk+W/o+s=;
+	b=Osp5rXqyInOqQgvEU8p3pieMcyz2hgODoEMNJKHjnUY05dVmfiKQvWCQHoDMUVmT
+	b3QBVTDjRUvP5ElBGg5EZ3QCv1FwHHasIjc8uDmyZzj9bgvgFjTt1wikbGO8ONLewjo
+	xlSFz1Z4TsWm96ZIgV/CIKmTJRoOGv4qaxwcbgdQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1706214036;
+	h=Content-Type:Date:Reply-To:To:Subject:Message-Id:From:Mime-Version:Feedback-ID;
+	bh=9xLZudbgXldRWK3nn3UUYtk6wgAVpZC0NjnLk+W/o+s=;
+	b=frQZiLaK/C0LR/v8cwTfvdI6zRK/TfQ6RKg3JXb1yvm5O1VhTr9ltUc9GQTEKmwp
+	qWeMFJUIr++4w13H8/CFxcLISkMneOt7e482XjO4xXUWBMFwARZutf4EuaIW3z60rO3
+	A8ys5+Y1x4Q+Joq48TS9o5DyaIKx8LtG79UrBsEs=
+Content-Type: multipart/alternative;
+ boundary=5ad10cafd9988bb5111ad13abe4a5e6216f0df663e369c0a747730a77e1e
+Date: Thu, 25 Jan 2024 20:20:36 +0000
+Reply-To: Stratechery <email@stratechery.com>
+To: Omar Zoheri <stratecheryUSC@khamel.com>
+Subject: 274519 is your Stratechery access code
+Message-ID: <0100018d42481444-a03e5cd5-ee18-4429-a78c-ac677428f43d-000000@email.amazonses.com>
+From: Stratechery <email@stratechery.com>
+Mime-Version: 1.0
+Feedback-ID: 1.us-east-1.FYBj3dwfG4ns/E8tPHtYl8/vzf0Bph74SzXO8Zw5nV0=:AmazonSES
+X-SES-Outgoing: 2024.01.25-54.240.123.248
+X-X-Forwarded-For: stratecheryUSC@khamel.com khamel83@gmail.com
+
+--5ad10cafd9988bb5111ad13abe4a5e6216f0df663e369c0a747730a77e1e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+( https://stratechery.com )
+
+Hi Omar Zoheri,
+
+Here is your code for Stratechery:
+
+******
+274519
+******
+
+Or, you can click here:
+
+Sign In ( https://api.passport.online/oauth/session?access_token=3DeyJhbGci=
+OiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ=
+9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod=
+1AyWURLYmZQV00xIiwiZW50Ijp7ImNhdCI6WyJ3ZWVrLWRhaWx5LXVwZGF0ZXMiLCJ5ZWFyLWlu=
+LXJldmlldyIsImFib3V0IiwibWVtYmVyLWFwcC1zaGFycC10ZWNoIiwiZGFpbHktdXBkYXRlLWV=
+4Y2VycHRzIiwidGVzdC1taWdyYXRpb24iLCJwb2RjYXN0LWFubm91bmNlbWVudHMiLCJsaW5rcy=
+IsInVuY2F0ZWdvcml6ZWQiLCJ3ZWVrLWluLXJldmlldyIsInNwb25zb3JzIiwibWVtYmVyLWFwc=
+C1nb2F0IiwiaXR1bmVzLXBvZGNhc3QiLCJmcmVlLWRhaWx5LXVwZGF0ZXMiLCJhbm5vdW5jZW1l=
+bnRzIiwibWVtYmVyLWFwcC1zaGFycC1jaGluYSIsImFydGljbGVzbmwiLCJwb2RjYXN0cyIsInN=
+wZWFraW5nIl19LCJleHAiOjE3MDYyMTc2MzYsImlhdCI6MTcwNjIxNDAzNiwiaXNzIjoiaHR0cH=
+M6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJpbnN0YW5jZTpyZWFkIG9wZ=
+W5pZCBwcm9maWxlIG9mZmxpbmVfYWNjZXNzIHBhc3N3b3JkIG1lbWJlcjpyZWFkIG1lbWJlcjp3=
+cml0ZSBzdWJzY3JpcHRpb246cmVhZCBzdWJzY3JpcHRpb246d3JpdGUgYXJ0aWNsZTpyZWFkIGN=
+hdGVnb3J5OnJlYWQgYXNzZXQ6cmVhZCBwbGFuOnJlYWQgdXNlcjpyZWFkIHVzZXI6d3JpdGUgc2=
+Vzc2lvbjpjcmVhdGUgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIGVtYWlsIHNtcyB3ZWIgZmVlZ=
+DpyZWFkIHRva2VuOnJlYWQgc2Vzc2lvbiIsInN1YiI6ImMwZWRkNGMyLWUyNzMtNDdiMS1hY2Jl=
+LTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY2VzcyJ9.Ypf7u75fhvGiJvPT8YWID5Y7lVHex6FuBz=
+rJ-QSt49vpWVRvU21ijClbwxP6QDHEPx5jKmAQMGt9pUWD9MVMqKw6gmbyI1syFRzVzuxiX3IXn=
+AmfFR6C0_ZwkT74YV5iQzVsnsIUaSlqhoXTbx3P_ZJHWwXFngQg-V5a6gbMoYeU7D72q_zuX-yb=
+euJfH0US-qDb_-URubnUBx7qADD1qz1TGrIauoCBNZSm2kiKdN9h7MylDCWfZ-C3_gV6uHf8x32=
+uSy9A6cDjmcYZHnHsDNWukM7jc6hXIw2QAIugYTdmfC7DlRmkW2Jy8wYjD2NnOvzL7_bUQiQDPp=
+YGpc756w&auth_code=3Dtrue&redirect_uri=3Dhttps%3A%2F%2Fstratechery.com%2Fwp=
+-json%2FatomicPlugin%2Fv1%2Frefresh&request_token=3DeyJhbGciOiJSUzI1NiIsImt=
+pZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhcHBfdXJpI=
+joiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvbWVtYmVyL2xvZ2luIiwiYXVk=
+Ijoic3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lIiwiY2xpZW50X2lkIjoiSEtMY1M0RHdTaHd=
+QMllES2JmUFdNMSIsImNvZGVfY2hhbGxlbmdlIjoiSEFHaTIzNEpObE9yS1pjRDVVbDlsaDNTWV=
+hCZWZza0JuM1Facll6S0d1WSIsImNvZGVfY2hhbGxlbmdlX21ldGhvZCI6IlMyNTYiLCJleHBpc=
+mVzX2F0IjoxNzA2MjE3NjM2LCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9u=
+bGluZS9vYXV0aCIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQ=
+ub25saW5lL21lbWJlci8iLCJzY29wZSI6WyJpbnN0YW5jZTpyZWFkIiwib3BlbmlkIiwicHJvZm=
+lsZSIsIm9mZmxpbmVfYWNjZXNzIiwicGFzc3dvcmQiLCJtZW1iZXI6cmVhZCIsIm1lbWJlcjp3c=
+ml0ZSIsInN1YnNjcmlwdGlvbjpyZWFkIiwic3Vic2NyaXB0aW9uOndyaXRlIiwiYXJ0aWNsZTpy=
+ZWFkIiwiY2F0ZWdvcnk6cmVhZCIsImFzc2V0OnJlYWQiLCJwbGFuOnJlYWQiLCJ1c2VyOnJlYWQ=
+iLCJ1c2VyOndyaXRlIiwic2Vzc2lvbjpjcmVhdGUiLCJlbnRpdGxlbWVudHMiLCJwb2RjYXN0Ii=
+wicnNzIiwiZW1haWwiLCJzbXMiLCJ3ZWIiLCJmZWVkOnJlYWQiLCJ0b2tlbjpyZWFkIl0sInN1Y=
+mplY3QiOiJjMGVkZDRjMi1lMjczLTQ3YjEtYWNiZS01MGFlOWYxMzg1MTgifQ.iBSp76d4TM_Rp=
+MJcn_wSh25fQiEh8ASHmTMvedSK8ZjfY5vkx2Uiou8qTbGG8Ik9nOsw5SoWe-iN6xNeFgI84RTp=
+fKEakl7HkRxMUidiJccmjO-r0pDEFu-p3MwgdbHf_Yhx4HDo_vZJKajEObeC_i6XoZRWCElfZPs=
+FYp3NjOFHij2nqg_st9FuN0NvxmCUhpUJeycyVqvUsYwGrngb8jOlUb7ynICW0WHi7898JSZcFP=
+nEtZXqCtsG271qeS5dTjb6lRS2ZvIUtBxQxLie9BNaj9P9VvWq9xT4Fu-KNZOgKX2athQ_sD_bW=
+wEKQPvTVGAkVgv_3IfOQ97ZOnvFhw )
+
+You can also follow this link ( https://api.passport.online/oauth/session?a=
+ccess_token=3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ub=
+GluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJ=
+henAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7ImNhdCI6WyJ3ZWVrLWRhaWx5LX=
+VwZGF0ZXMiLCJ5ZWFyLWluLXJldmlldyIsImFib3V0IiwibWVtYmVyLWFwcC1zaGFycC10ZWNoI=
+iwiZGFpbHktdXBkYXRlLWV4Y2VycHRzIiwidGVzdC1taWdyYXRpb24iLCJwb2RjYXN0LWFubm91=
+bmNlbWVudHMiLCJsaW5rcyIsInVuY2F0ZWdvcml6ZWQiLCJ3ZWVrLWluLXJldmlldyIsInNwb25=
+zb3JzIiwibWVtYmVyLWFwcC1nb2F0IiwiaXR1bmVzLXBvZGNhc3QiLCJmcmVlLWRhaWx5LXVwZG=
+F0ZXMiLCJhbm5vdW5jZW1lbnRzIiwibWVtYmVyLWFwcC1zaGFycC1jaGluYSIsImFydGljbGVzb=
+mwiLCJwb2RjYXN0cyIsInNwZWFraW5nIl19LCJleHAiOjE3MDYyMTc2MzYsImlhdCI6MTcwNjIx=
+NDAzNiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJ=
+pbnN0YW5jZTpyZWFkIG9wZW5pZCBwcm9maWxlIG9mZmxpbmVfYWNjZXNzIHBhc3N3b3JkIG1lbW=
+JlcjpyZWFkIG1lbWJlcjp3cml0ZSBzdWJzY3JpcHRpb246cmVhZCBzdWJzY3JpcHRpb246d3Jpd=
+GUgYXJ0aWNsZTpyZWFkIGNhdGVnb3J5OnJlYWQgYXNzZXQ6cmVhZCBwbGFuOnJlYWQgdXNlcjpy=
+ZWFkIHVzZXI6d3JpdGUgc2Vzc2lvbjpjcmVhdGUgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIGV=
+tYWlsIHNtcyB3ZWIgZmVlZDpyZWFkIHRva2VuOnJlYWQgc2Vzc2lvbiIsInN1YiI6ImMwZWRkNG=
+MyLWUyNzMtNDdiMS1hY2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY2VzcyJ9.Ypf7u75fhvGi=
+JvPT8YWID5Y7lVHex6FuBzrJ-QSt49vpWVRvU21ijClbwxP6QDHEPx5jKmAQMGt9pUWD9MVMqKw=
+6gmbyI1syFRzVzuxiX3IXnAmfFR6C0_ZwkT74YV5iQzVsnsIUaSlqhoXTbx3P_ZJHWwXFngQg-V=
+5a6gbMoYeU7D72q_zuX-ybeuJfH0US-qDb_-URubnUBx7qADD1qz1TGrIauoCBNZSm2kiKdN9h7=
+MylDCWfZ-C3_gV6uHf8x32uSy9A6cDjmcYZHnHsDNWukM7jc6hXIw2QAIugYTdmfC7DlRmkW2Jy=
+8wYjD2NnOvzL7_bUQiQDPpYGpc756w&auth_code=3Dtrue&redirect_uri=3Dhttps%3A%2F%=
+2Fstratechery.com%2Fwp-json%2FatomicPlugin%2Fv1%2Frefresh&request_token=3De=
+yJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6=
+IkpXVCJ9.eyJhcHBfdXJpIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvbW=
+VtYmVyL2xvZ2luIiwiYXVkIjoic3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lIiwiY2xpZW50X=
+2lkIjoiSEtMY1M0RHdTaHdQMllES2JmUFdNMSIsImNvZGVfY2hhbGxlbmdlIjoiSEFHaTIzNEpO=
+bE9yS1pjRDVVbDlsaDNTWVhCZWZza0JuM1Facll6S0d1WSIsImNvZGVfY2hhbGxlbmdlX21ldGh=
+vZCI6IlMyNTYiLCJleHBpcmVzX2F0IjoxNzA2MjE3NjM2LCJpc3MiOiJodHRwczovL3N0cmF0ZW=
+NoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vc3RyY=
+XRlY2hlcnkucGFzc3BvcnQub25saW5lL21lbWJlci8iLCJzY29wZSI6WyJpbnN0YW5jZTpyZWFk=
+Iiwib3BlbmlkIiwicHJvZmlsZSIsIm9mZmxpbmVfYWNjZXNzIiwicGFzc3dvcmQiLCJtZW1iZXI=
+6cmVhZCIsIm1lbWJlcjp3cml0ZSIsInN1YnNjcmlwdGlvbjpyZWFkIiwic3Vic2NyaXB0aW9uOn=
+dyaXRlIiwiYXJ0aWNsZTpyZWFkIiwiY2F0ZWdvcnk6cmVhZCIsImFzc2V0OnJlYWQiLCJwbGFuO=
+nJlYWQiLCJ1c2VyOnJlYWQiLCJ1c2VyOndyaXRlIiwic2Vzc2lvbjpjcmVhdGUiLCJlbnRpdGxl=
+bWVudHMiLCJwb2RjYXN0IiwicnNzIiwiZW1haWwiLCJzbXMiLCJ3ZWIiLCJmZWVkOnJlYWQiLCJ=
+0b2tlbjpyZWFkIl0sInN1YmplY3QiOiJjMGVkZDRjMi1lMjczLTQ3YjEtYWNiZS01MGFlOWYxMz=
+g1MTgifQ.iBSp76d4TM_RpMJcn_wSh25fQiEh8ASHmTMvedSK8ZjfY5vkx2Uiou8qTbGG8Ik9nO=
+sw5SoWe-iN6xNeFgI84RTpfKEakl7HkRxMUidiJccmjO-r0pDEFu-p3MwgdbHf_Yhx4HDo_vZJK=
+ajEObeC_i6XoZRWCElfZPsFYp3NjOFHij2nqg_st9FuN0NvxmCUhpUJeycyVqvUsYwGrngb8jOl=
+Ub7ynICW0WHi7898JSZcFPnEtZXqCtsG271qeS5dTjb6lRS2ZvIUtBxQxLie9BNaj9P9VvWq9xT=
+4Fu-KNZOgKX2athQ_sD_bWwEKQPvTVGAkVgv_3IfOQ97ZOnvFhw ) with your browser.
+--5ad10cafd9988bb5111ad13abe4a5e6216f0df663e369c0a747730a77e1e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html><html style=3D"margin-left:1%;margin-right:0%;margin-bottom:=
+0;margin-top:0;width:99%;height:100%;padding:0;font-size:100%;min-width:100=
+%"><head><style type=3D"text/css">@media only screen and (max-width:600px){
+table img {
+width: 100% !important;
+height: auto !important
+}
+}
+@media only screen and (max-width: 480px){
+h4 {
+font-size: 19px !important
+}
+img {
+max-width: 480px !important
+}
+}
+</style></head><body style=3D"margin-left:1%;margin-right:0%;margin-bottom:=
+0;margin-top:0;width:99%;height:100%;padding:0;font-size:100%;min-width:100=
+%"><div style=3D"display:none !important;
+visibility:hidden;
+mso-hide:all;
+font-size:1px;
+color:#ffffff;
+line-height:1px;
+max-height:0px;
+max-width:0px;
+opacity:0;
+overflow:hidden;"><no value=3D""></no></div>
+<p>
+   =20
+</p>
+<table width=3D"100%" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"display: block; max-width: 600px !important;">
+    <tbody>
+        <tr>
+            <td>
+
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"border-spacing: 0;width: 100%;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <br/>
+                                <table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" bgcolor=3D"#FFFFFF" width=3D"100%">
+                                    <tbody>
+                                        <tr>
+                                            <td>=C2=A0<br/></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"margin:0 auto">
+                                                <a target=3D"_blank" href=
+=3D"https://stratechery.com" style=3D"color:#faa634">
+                                                    <img src=3D"https://ass=
+ets.stratechery.passport.online/assets/banner_orangeLogoBlackText@2x.png" b=
+order=3D"0" alt=3D"STRATECHERY" width=3D"400" align=3D"left" style=3D"-ms-i=
+nterpolation-mode:bicubic;align-self:left;width:90%;display:block;color:#00=
+0000;font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bo=
+ld;background-color:#ffffff;outline:none;text-decoration:none;border:none;h=
+eight:auto;float:left;max-width:400px;margin:10px auto;text-align:left"/>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" style=3D"text-align: left; background-color: #ffffff; width: 1=
+00%; padding-bottom: 20; max-width:600px">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <br/>
+                                                                <h4 style=
+=3D"line-height:125%;padding-bottom:2px;padding-top:0px;display:block;text-=
+transform:none;color:#000000;text-decoration:none;margin-bottom:0;font-weig=
+ht:normal;font-size:17px;font-family:Helvetica,Arial,sans-serif">
+                                                                    Hi Omar=
+ Zoheri,<br/><br/>
+                                                                    Here is=
+ your code for Stratechery:<br/>
+                                                                </h4>
+                                                                <h1 style=
+=3D"color:#000000;padding-bottom:0px;line-height:125%;margin-bottom:0px;tex=
+t-decoration:none;font-family:Helvetica, Arial, sans-serif;font-size:29px;f=
+ont-weight:bold">
+                                                                    274519
+                                                                </h1>
+                                                                <h4 style=
+=3D"line-height:125%;padding-bottom:2px;padding-top:0px;display:block;text-=
+transform:none;color:#000000;text-decoration:none;margin-bottom:0;font-weig=
+ht:normal;font-size:17px;font-family:Helvetica,Arial,sans-serif">
+                                                                    Or, you=
+ can click here:<br/><br/>
+                                                                </h4>
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" style=3D"display:block">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width=3D"16=
+0" bgcolor=3D"#faa634" style=3D"display:block;border-radius:5px;text-align:=
+center;">
+                                                                <table cell=
+padding=3D"10" align=3D"center">
+                                                                    <tbody>
+                                                                        <tr=
+>
+                                                                           =
+ <td>
+                                                                           =
+     <a target=3D"_blank" href=3D"https://api.passport.online/oauth/session=
+?access_token=3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9=
+ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiL=
+CJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7ImNhdCI6WyJ3ZWVrLWRhaWx5=
+LXVwZGF0ZXMiLCJ5ZWFyLWluLXJldmlldyIsImFib3V0IiwibWVtYmVyLWFwcC1zaGFycC10ZWN=
+oIiwiZGFpbHktdXBkYXRlLWV4Y2VycHRzIiwidGVzdC1taWdyYXRpb24iLCJwb2RjYXN0LWFubm=
+91bmNlbWVudHMiLCJsaW5rcyIsInVuY2F0ZWdvcml6ZWQiLCJ3ZWVrLWluLXJldmlldyIsInNwb=
+25zb3JzIiwibWVtYmVyLWFwcC1nb2F0IiwiaXR1bmVzLXBvZGNhc3QiLCJmcmVlLWRhaWx5LXVw=
+ZGF0ZXMiLCJhbm5vdW5jZW1lbnRzIiwibWVtYmVyLWFwcC1zaGFycC1jaGluYSIsImFydGljbGV=
+zbmwiLCJwb2RjYXN0cyIsInNwZWFraW5nIl19LCJleHAiOjE3MDYyMTc2MzYsImlhdCI6MTcwNj=
+IxNDAzNiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiO=
+iJpbnN0YW5jZTpyZWFkIG9wZW5pZCBwcm9maWxlIG9mZmxpbmVfYWNjZXNzIHBhc3N3b3JkIG1l=
+bWJlcjpyZWFkIG1lbWJlcjp3cml0ZSBzdWJzY3JpcHRpb246cmVhZCBzdWJzY3JpcHRpb246d3J=
+pdGUgYXJ0aWNsZTpyZWFkIGNhdGVnb3J5OnJlYWQgYXNzZXQ6cmVhZCBwbGFuOnJlYWQgdXNlcj=
+pyZWFkIHVzZXI6d3JpdGUgc2Vzc2lvbjpjcmVhdGUgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzI=
+GVtYWlsIHNtcyB3ZWIgZmVlZDpyZWFkIHRva2VuOnJlYWQgc2Vzc2lvbiIsInN1YiI6ImMwZWRk=
+NGMyLWUyNzMtNDdiMS1hY2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY2VzcyJ9.Ypf7u75fhv=
+GiJvPT8YWID5Y7lVHex6FuBzrJ-QSt49vpWVRvU21ijClbwxP6QDHEPx5jKmAQMGt9pUWD9MVMq=
+Kw6gmbyI1syFRzVzuxiX3IXnAmfFR6C0_ZwkT74YV5iQzVsnsIUaSlqhoXTbx3P_ZJHWwXFngQg=
+-V5a6gbMoYeU7D72q_zuX-ybeuJfH0US-qDb_-URubnUBx7qADD1qz1TGrIauoCBNZSm2kiKdN9=
+h7MylDCWfZ-C3_gV6uHf8x32uSy9A6cDjmcYZHnHsDNWukM7jc6hXIw2QAIugYTdmfC7DlRmkW2=
+Jy8wYjD2NnOvzL7_bUQiQDPpYGpc756w&amp;auth_code=3Dtrue&amp;redirect_uri=3Dht=
+tps%3A%2F%2Fstratechery.com%2Fwp-json%2FatomicPlugin%2Fv1%2Frefresh&amp;req=
+uest_token=3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubG=
+luZSIsInR5cCI6IkpXVCJ9.eyJhcHBfdXJpIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9y=
+dC5vbmxpbmUvbWVtYmVyL2xvZ2luIiwiYXVkIjoic3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5=
+lIiwiY2xpZW50X2lkIjoiSEtMY1M0RHdTaHdQMllES2JmUFdNMSIsImNvZGVfY2hhbGxlbmdlIj=
+oiSEFHaTIzNEpObE9yS1pjRDVVbDlsaDNTWVhCZWZza0JuM1Facll6S0d1WSIsImNvZGVfY2hhb=
+GxlbmdlX21ldGhvZCI6IlMyNTYiLCJleHBpcmVzX2F0IjoxNzA2MjE3NjM2LCJpc3MiOiJodHRw=
+czovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInJlZGlyZWN0X3VyaSI6Imh=
+0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL21lbWJlci8iLCJzY29wZSI6WyJpbn=
+N0YW5jZTpyZWFkIiwib3BlbmlkIiwicHJvZmlsZSIsIm9mZmxpbmVfYWNjZXNzIiwicGFzc3dvc=
+mQiLCJtZW1iZXI6cmVhZCIsIm1lbWJlcjp3cml0ZSIsInN1YnNjcmlwdGlvbjpyZWFkIiwic3Vi=
+c2NyaXB0aW9uOndyaXRlIiwiYXJ0aWNsZTpyZWFkIiwiY2F0ZWdvcnk6cmVhZCIsImFzc2V0OnJ=
+lYWQiLCJwbGFuOnJlYWQiLCJ1c2VyOnJlYWQiLCJ1c2VyOndyaXRlIiwic2Vzc2lvbjpjcmVhdG=
+UiLCJlbnRpdGxlbWVudHMiLCJwb2RjYXN0IiwicnNzIiwiZW1haWwiLCJzbXMiLCJ3ZWIiLCJmZ=
+WVkOnJlYWQiLCJ0b2tlbjpyZWFkIl0sInN1YmplY3QiOiJjMGVkZDRjMi1lMjczLTQ3YjEtYWNi=
+ZS01MGFlOWYxMzg1MTgifQ.iBSp76d4TM_RpMJcn_wSh25fQiEh8ASHmTMvedSK8ZjfY5vkx2Ui=
+ou8qTbGG8Ik9nOsw5SoWe-iN6xNeFgI84RTpfKEakl7HkRxMUidiJccmjO-r0pDEFu-p3MwgdbH=
+f_Yhx4HDo_vZJKajEObeC_i6XoZRWCElfZPsFYp3NjOFHij2nqg_st9FuN0NvxmCUhpUJeycyVq=
+vUsYwGrngb8jOlUb7ynICW0WHi7898JSZcFPnEtZXqCtsG271qeS5dTjb6lRS2ZvIUtBxQxLie9=
+BNaj9P9VvWq9xT4Fu-KNZOgKX2athQ_sD_bWwEKQPvTVGAkVgv_3IfOQ97ZOnvFhw" style=3D=
+"color:#ffffff;font-size:16px;font-weight:bold;font-family:Helvetica,Arial,=
+sans-serif;text-decoration:none">
+                                                                           =
+         <span>Sign In</span>
+                                                                           =
+     </a>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table width=3D"100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <h4 style=
+=3D"line-height:125%;padding-bottom:2px;padding-top:0px;display:block;text-=
+transform:none;color:#000000;text-decoration:none;margin-bottom:0;font-weig=
+ht:normal;font-size:17px;font-family:Helvetica,Arial,sans-serif">
+                                                                    <br/>Yo=
+u can also follow this <a target=3D"_blank" href=3D"https://api.passport.on=
+line/oauth/session?access_token=3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZ=
+XJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXN=
+zcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7ImNhdC=
+I6WyJ3ZWVrLWRhaWx5LXVwZGF0ZXMiLCJ5ZWFyLWluLXJldmlldyIsImFib3V0IiwibWVtYmVyL=
+WFwcC1zaGFycC10ZWNoIiwiZGFpbHktdXBkYXRlLWV4Y2VycHRzIiwidGVzdC1taWdyYXRpb24i=
+LCJwb2RjYXN0LWFubm91bmNlbWVudHMiLCJsaW5rcyIsInVuY2F0ZWdvcml6ZWQiLCJ3ZWVrLWl=
+uLXJldmlldyIsInNwb25zb3JzIiwibWVtYmVyLWFwcC1nb2F0IiwiaXR1bmVzLXBvZGNhc3QiLC=
+JmcmVlLWRhaWx5LXVwZGF0ZXMiLCJhbm5vdW5jZW1lbnRzIiwibWVtYmVyLWFwcC1zaGFycC1ja=
+GluYSIsImFydGljbGVzbmwiLCJwb2RjYXN0cyIsInNwZWFraW5nIl19LCJleHAiOjE3MDYyMTc2=
+MzYsImlhdCI6MTcwNjIxNDAzNiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29=
+hdXRoIiwic2NvcGUiOiJpbnN0YW5jZTpyZWFkIG9wZW5pZCBwcm9maWxlIG9mZmxpbmVfYWNjZX=
+NzIHBhc3N3b3JkIG1lbWJlcjpyZWFkIG1lbWJlcjp3cml0ZSBzdWJzY3JpcHRpb246cmVhZCBzd=
+WJzY3JpcHRpb246d3JpdGUgYXJ0aWNsZTpyZWFkIGNhdGVnb3J5OnJlYWQgYXNzZXQ6cmVhZCBw=
+bGFuOnJlYWQgdXNlcjpyZWFkIHVzZXI6d3JpdGUgc2Vzc2lvbjpjcmVhdGUgZW50aXRsZW1lbnR=
+zIHBvZGNhc3QgcnNzIGVtYWlsIHNtcyB3ZWIgZmVlZDpyZWFkIHRva2VuOnJlYWQgc2Vzc2lvbi=
+IsInN1YiI6ImMwZWRkNGMyLWUyNzMtNDdiMS1hY2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY=
+2VzcyJ9.Ypf7u75fhvGiJvPT8YWID5Y7lVHex6FuBzrJ-QSt49vpWVRvU21ijClbwxP6QDHEPx5=
+jKmAQMGt9pUWD9MVMqKw6gmbyI1syFRzVzuxiX3IXnAmfFR6C0_ZwkT74YV5iQzVsnsIUaSlqho=
+XTbx3P_ZJHWwXFngQg-V5a6gbMoYeU7D72q_zuX-ybeuJfH0US-qDb_-URubnUBx7qADD1qz1TG=
+rIauoCBNZSm2kiKdN9h7MylDCWfZ-C3_gV6uHf8x32uSy9A6cDjmcYZHnHsDNWukM7jc6hXIw2Q=
+AIugYTdmfC7DlRmkW2Jy8wYjD2NnOvzL7_bUQiQDPpYGpc756w&amp;auth_code=3Dtrue&amp=
+;redirect_uri=3Dhttps%3A%2F%2Fstratechery.com%2Fwp-json%2FatomicPlugin%2Fv1=
+%2Frefresh&amp;request_token=3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5=
+LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhcHBfdXJpIjoiaHR0cHM6Ly9zdHJhdG=
+VjaGVyeS5wYXNzcG9ydC5vbmxpbmUvbWVtYmVyL2xvZ2luIiwiYXVkIjoic3RyYXRlY2hlcnkuc=
+GFzc3BvcnQub25saW5lIiwiY2xpZW50X2lkIjoiSEtMY1M0RHdTaHdQMllES2JmUFdNMSIsImNv=
+ZGVfY2hhbGxlbmdlIjoiSEFHaTIzNEpObE9yS1pjRDVVbDlsaDNTWVhCZWZza0JuM1Facll6S0d=
+1WSIsImNvZGVfY2hhbGxlbmdlX21ldGhvZCI6IlMyNTYiLCJleHBpcmVzX2F0IjoxNzA2MjE3Nj=
+M2LCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInJlZ=
+GlyZWN0X3VyaSI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL21lbWJlci8i=
+LCJzY29wZSI6WyJpbnN0YW5jZTpyZWFkIiwib3BlbmlkIiwicHJvZmlsZSIsIm9mZmxpbmVfYWN=
+jZXNzIiwicGFzc3dvcmQiLCJtZW1iZXI6cmVhZCIsIm1lbWJlcjp3cml0ZSIsInN1YnNjcmlwdG=
+lvbjpyZWFkIiwic3Vic2NyaXB0aW9uOndyaXRlIiwiYXJ0aWNsZTpyZWFkIiwiY2F0ZWdvcnk6c=
+mVhZCIsImFzc2V0OnJlYWQiLCJwbGFuOnJlYWQiLCJ1c2VyOnJlYWQiLCJ1c2VyOndyaXRlIiwi=
+c2Vzc2lvbjpjcmVhdGUiLCJlbnRpdGxlbWVudHMiLCJwb2RjYXN0IiwicnNzIiwiZW1haWwiLCJ=
+zbXMiLCJ3ZWIiLCJmZWVkOnJlYWQiLCJ0b2tlbjpyZWFkIl0sInN1YmplY3QiOiJjMGVkZDRjMi=
+1lMjczLTQ3YjEtYWNiZS01MGFlOWYxMzg1MTgifQ.iBSp76d4TM_RpMJcn_wSh25fQiEh8ASHmT=
+MvedSK8ZjfY5vkx2Uiou8qTbGG8Ik9nOsw5SoWe-iN6xNeFgI84RTpfKEakl7HkRxMUidiJccmj=
+O-r0pDEFu-p3MwgdbHf_Yhx4HDo_vZJKajEObeC_i6XoZRWCElfZPsFYp3NjOFHij2nqg_st9Fu=
+N0NvxmCUhpUJeycyVqvUsYwGrngb8jOlUb7ynICW0WHi7898JSZcFPnEtZXqCtsG271qeS5dTjb=
+6lRS2ZvIUtBxQxLie9BNaj9P9VvWq9xT4Fu-KNZOgKX2athQ_sD_bWwEKQPvTVGAkVgv_3IfOQ9=
+7ZOnvFhw" style=3D"color:#faa634;font-weight:bold;font-family:Helvetica,Ari=
+al,sans-serif;text-decoration:none">link</a> with your browser.<br/><br/>
+                                                                </h4>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></body></html>
+--5ad10cafd9988bb5111ad13abe4a5e6216f0df663e369c0a747730a77e1e--

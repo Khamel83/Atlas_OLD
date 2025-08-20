@@ -1,0 +1,2375 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c60f:b0:ed:4f57:7601 with SMTP id fd15csp803230rwb;
+        Wed, 25 Jan 2023 11:37:56 -0800 (PST)
+X-Received: by 2002:adf:f191:0:b0:2be:5c4a:de6b with SMTP id h17-20020adff191000000b002be5c4ade6bmr18720342wro.3.1674675476449;
+        Wed, 25 Jan 2023 11:37:56 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1674675476; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=yKpCrod+hAEde5v5lJTOaTXyIpMB7z00TF/7yVRkuqgOOj4tDT2kU6+8AUL3F9DCiK
+         I5koraVd3uqHhT7o0jg+slTHHED9r8zZGtvWqDzwt6tisIzXycUFxl1dNL2O4+BINs/t
+         78PHZb8oH9frRaI+CMR7kwI11cHLP5Uf4Dv8EMjVMZy5Q15DEDcmFXnUs5yeKtjFslqg
+         Huv3/eFeUrCKgjOZ8r6jLXmk+X3k8k3ZEWCts9drYuwgFfNwAEIlMeqRa2RZzlna9LYb
+         qI5kXZEzDrP6qHol1t1cWoleqeagFslz2PQ9t3Obd+m9Kh9rqTBvkSAHb+QzamZ7gjky
+         NlbA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=L1bFBXwJP9S8HZKLX5UdiXaciJpH95RrFbXcIvBQoXo=;
+        b=rq8jb+skgz0G5yyIVfxQ3w0nSox5yIXWIwGa5Y+/bIH+sh5ZsQzvkwlTAXhzvRN/3H
+         s5/bf7na4m4UkbIaumgbz1coBkGirDhQcpOYDPQStXpsQqoC4apOUDjeP2oPSOLqFBaZ
+         8K/9Bakg/J3gnNTvd6uXxN/oCgZD3xlmGU7nyTadqhjdkZhWGNCY1Nr9c8E2k0DmKVI1
+         i/fzaKimV/T+qyijxlqz1XLA+aXqx4NzOsDZU5lxt9Vm+IAFPWk4dcTl9G9MfmMU/U7O
+         +5jpKve8YKr5FhFyWHx4m/S03gjcslE0Kk64x7u2Ok+CXxszewk0QONSMLYRBbBT+VlW
+         muXA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WkQ94lxe;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i8-20020a05600011c800b002bfb6712636sor1775799wrx.48.2023.01.25.11.37.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 25 Jan 2023 11:37:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WkQ94lxe;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=L1bFBXwJP9S8HZKLX5UdiXaciJpH95RrFbXcIvBQoXo=;
+        b=zOq5UhcEuyt/YiT2CSTtSycx8hFN4EWSLqTswdpI0ey1RasKY+SB5RdX7cmVk0U0VO
+         h7I971AWFtsUPzjj71okuVZhhsHiWdLYqnnkH9D7AObkPUTRbMZh9/GUME7fMUQwgzbC
+         rsjIOLSHwM+6l1hfyMuzIm3/sJ7/ZcMW0yqQN3gTWtEGZrKTVvHLgK2DhxzcUUy1NQJ7
+         X+c6vD8pJnkMt+c/UUu1X/fynMgMonoYjdAL2r5C7su4VGptylA7vmwbmwZxV+XmwPyg
+         ZCoxB3YLEy0phCaXknuhYi+USQl6XV53HtjHz5+sVKH4PqYj2NOmZWx7Y3EWelq00MFW
+         CA1A==
+X-Gm-Message-State: AFqh2kq7cz6zM4CWUOuWmONcq3ljeMd73g+JokHbCRviDJmCeyeaEMYo
+	JFj0sK0MCvAokol8vioxIkkUiwHVRIs0MT5PccX5jwrE3+DZhOi0OA==
+X-Received: by 2002:a5d:5b0e:0:b0:2be:9c1:4f3a with SMTP id bx14-20020a5d5b0e000000b002be09c14f3amr1898849wrb.356.1674675475876;
+        Wed, 25 Jan 2023 11:37:55 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c08:0:0:0:0 with SMTP id ba8csp568518wrb;
+        Wed, 25 Jan 2023 11:37:52 -0800 (PST)
+X-Received: by 2002:ac8:5405:0:b0:3b6:334b:2cbc with SMTP id b5-20020ac85405000000b003b6334b2cbcmr52264883qtq.65.1674675471680;
+        Wed, 25 Jan 2023 11:37:51 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1674675471; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=X7eVzeLftGdW14m+T/OyCQoRBBn165odVe46rGJoCvfR0BiZhGNBWFzv0wyBxGeSwk
+         rBJlKd9S1WouILFq6RZYZ1F0SW9vRYj4EO2kByWsxhRLLxGJNfE6VpXeq8gRcO+WMNst
+         AvTjmcdaaa3vCIgCAn7sY6JAURVIl5z5gRUcpKEqeMvIo2r6LxTpOvEf5ZphPagd5EjN
+         PQH9NwQRe3y7xYr2DpQ3sRvyVdsBxx99i6DnTqVm1n+mEAII38xy2+6XMB3F6+9+WsCf
+         VSGIGPC8cS6Y6yhoiaLGun8GShjKpR28d3T/FhK7iTDxmNkH906NMEEUgaWwZkwEMZkn
+         KRvQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=L1bFBXwJP9S8HZKLX5UdiXaciJpH95RrFbXcIvBQoXo=;
+        b=HvM76ysf0kIaZp44ECB5jAOVU4Q//aUEX1MYyZ3qtG/5n8NFYMDTZXhgQTaSXEsSYd
+         5wouwptIhkD74JwWv4clbXjYXPCOiCh5eKDAct6mHq+e/pz/FXbxtTEA69K2H/m61tbg
+         URWbpVYGDW4eWT9mrV7rGTke2bwV6NzuwlWhvv4hTjk0LdkjKQYDH2Jy9bAuED17jQwt
+         15/yHSpjd5/PqRnRf9KqsUENpS49Gje1LAgXnV0z++lfm33uTFWDHU67fJCzn/mhnKuc
+         aJuBBDgnlroBUMe3tkKhh+U0AS3v4LdJSasEDmaV8uPM+EUMfn1gFq/BCGu/i7PQYJUY
+         WdtA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WkQ94lxe;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230125143653.30358593.259449@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230125143653.30358593.259449@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230125143653.30358593.259449@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o2-20020ac85a42000000b003b638af0307sor3395184qta.56.2023.01.25.11.37.51
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 25 Jan 2023 11:37:51 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230125143653.30358593.259449@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXv17SmwfPrMYmSKpXhopYPAO+gGPnyod3IKYVjKu8cF9w0r55nf/+ReMCfdhkhqk70xpgZMBvM2rwRnGmvtwYe0NqK447E=
+X-Received: by 2002:ac8:45ce:0:b0:3b6:2e75:c9bd with SMTP id e14-20020ac845ce000000b003b62e75c9bdmr43378707qto.1.1674675471258;
+        Wed, 25 Jan 2023 11:37:51 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1674675471; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RwfhP+WJoxQ+W/0nF70A9D9UBl8D8RPdX0UwQtZ7NjnMat2G+hvh6uzvxxnkfbrN8l
+         mlNZeVaF6FhKRSdW0TB7BO3wX5gRLm6DUFrj2TbIay5h1QU0gzKKySIsbhiz9ew1yc0z
+         4QMSstQQKN7J8VFNZi/I4DYYy4WxF531dVjkyjU3aT6A8BmLHiTdzxfSuNdTT0QhUgLB
+         TxNG4n0xtR6IpYRrGmNnZQAgVBnl6WUlILdJN7j3+GZdTcjghW5sENIZ3zaKUzoxomBk
+         HDUyjiB6MLn6wctYh/agu6bLnbr30NkYkaNEhgv8+A3Q2rjtjKM0mFiFfQNzBNMGSv1O
+         e5AQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=L1bFBXwJP9S8HZKLX5UdiXaciJpH95RrFbXcIvBQoXo=;
+        b=RBYokV1eU4anp8ckFvSg+dLcby4Y0nB7WNHxtZUeyqquPgih/w79Ezf3mgTMNK6MMK
+         Fpu342RMiB3fr2UtvyTSDKmKDP0NtqSTqNnhvyqPKUJ/LCCCHgxVsPxXF9pZUyUqefY9
+         RgYzyMRm+iyqjzM09OJCmsmH0ndo+EK257L16P7ablcJyCJzzo0JKdahIbqKjvUB8tLY
+         CyTMlOF1JUaarv3VeAni2tkQBa6BJvUCtGH9TMDC5mhIxwLDu0guu1kXy+I1XgrJA0dx
+         8cYqknwjg6Y41slk+rs8xqYxEXG7SAd0uazf+m1fjuMrgXzJl8s9GKmpfmQLjQ876Zuz
+         5vAw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WkQ94lxe;
+       spf=pass (google.com: domain of delivery_20230125143653.30358593.259449@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230125143653.30358593.259449@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230125143653.30358593.259449@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id gd9-20020a05622a5c0900b003b0b903b957si690278qtb.2.2023.01.25.11.37.50
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 25 Jan 2023 11:37:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230125143653.30358593.259449@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=hnT02smmk9AxmoUFOG5UC7zzq9q6AIomBsfsBKQz0DU=;
+ b=WkQ94lxe1cadl6hr9k491wUIidsb2U2GcWHTR2W/D3jyar3rYdt+1i8QawNb2HS81U3bbW0Vr7N5
+   ig6EK0oUS+z4Mr6AMehDD6MMVAwW3YOOK6IdcwJ/Q1PuJKmavoB+EEsOlhUGBOSW9zWHaSswDyVD
+   JvYr5twlR3iSvdpvXhk=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id hq62gq30nu87 for <bloomberg@khamel.com>; Wed, 25 Jan 2023 14:37:49 -0500 (envelope-from <delivery_20230125143653.30358593.259449@mx.sailthru.com>)
+Date: Wed, 25 Jan 2023 14:36:53 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230125143653.30358593.259449@sailthru.com>
+Subject: Money Stuff: NYSE Forgot to Open Yesterday
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_758860_1173957739.1674675413692"
+Precedence: bulk
+X-Feedback-ID: 6358:30358593:campaign:sailthru
+X-TM-ID: 20230125143653.30358593.259449
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci2ou9.5k6x/430e292c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci2ou9.5k6x/430e292c>, <mailto:unsubscribe_20230125143653.30358593.259449@mx.sailthru.com>
+X-rpcampaign: stjko30358593
+
+------=_Part_758860_1173957739.1674675413692
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The basic problem of the stock market is that a lot of people want =
+to buy a lot of stock, and a lot of people want to sell a lot of stock, b
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      NYSE
+   =20
+ =20
+
+The basic problem of the stock market is that a lot of people want to buy a=
+ lot of stock, and a lot of people want to sell a lot of stock, but not at =
+the same=C2=A0time. I might want to buy 1,000 shares of Wells Fargo & Co. s=
+tock, and you might want to sell 1,000 shares of Wells Fargo five minutes f=
+rom now. Our desires match up, but not in time, so we can=E2=80=99t trade w=
+ith each other.=C2=A0
+In theory, there are about three ways to deal with this.
+=09I could just wait. I could put in an order on the stock exchange to buy =
+1,000 shares, and then it could wait around for five minutes until you put =
+in an order to sell 1,000 shares, and then we could trade with each other. =
+Sometimes it might take days. Lots of markets work kind of like this, and t=
+here are aspects of this in the US stock market,
+  [1]
+=C2=A0but this is mostly not how US public stock markets work. When I put i=
+n an order to buy Wells Fargo stock, it gets executed more or less immediat=
+ely.=09There could be market makers. Some people=C2=A0=E2=80=94=C2=A0banks,=
+=C2=A0high-frequency electronic trading firms =E2=80=94=C2=A0could be willi=
+ng to buy from all the sellers and sell to all the buyers, intermediating t=
+rades in time. I put in my order to buy 1,000 shares, and some electronic m=
+arket maker instantly sells to me at $45.01 per share; five minutes later, =
+you put in your order to sell 1,000 shares, and the electronic market maker=
+ instantly buys from you at $44.99. We have each effectively paid a penny p=
+er share for =E2=80=9Cimmediacy,=E2=80=9D the service that the market maker=
+ provided of letting us trade instantly instead of waiting to find each oth=
+er. The market maker is in some sense not a real investor like you and me, =
+and it will not generally have some deeply informed view on the value of th=
+e stock: Its job is to buy and sell quickly, turn over its inventory, and g=
+et paid the spread between the $45.01 it charges me and the $44.99 it pays =
+you.
+  [2]
+=C2=A0=09The exchange could get us all together at the same time. The stock=
+ exchange could say: =E2=80=9CHey, everybody who wants to buy or sell Wells=
+ Fargo shares, we=E2=80=99re gonna do a big share swap at 9:30 a.m. tomorro=
+w. Send in your orders, and we=E2=80=99ll match them up and let everyone tr=
+ade at the same price at the same time.=E2=80=9D
+
+Method 2 is sort of the standard paradigm for how the US stock market works=
+. It is sometimes called a =E2=80=9Ccentral limit order book,=E2=80=9D or =
+=E2=80=9CCLOB.=E2=80=9D
+  [3]
+=C2=A0It has its controversies, and lots of the market-structure stuff we t=
+alk about around here =E2=80=94=C2=A0payment for order flow and dark pools =
+and flash boys and blah blah blah =E2=80=94=C2=A0has to do with that proces=
+s of market makers intermediating trades in time.
+I won=E2=80=99t discuss those controversies here, but I do want to mention =
+one complaint that people sometimes have, which is that liquidity in the st=
+ock market is somehow=C2=A0illusory or fleeting or =E2=80=9Cnot real.=E2=80=
+=9D Part of what this means is that, if=C2=A0the national best bid and offe=
+r for Wells Fargo is $44.99/$45.01,=C2=A0you could go to a market maker and=
+ buy Wells Fargo for $45.01, or sell it for $44.99, but you couldn=E2=80=99=
+t buy or sell very=C2=A0much=C2=A0of it. The way the CLOB works is that mar=
+ket makers post limit orders at the exchange; each market maker will say =
+=E2=80=9CI=E2=80=99ll buy 100 shares of Wells Fargo at $44.99, and 200 more=
+ at $44.98, and 300 more at $44.95,=E2=80=9D etc. And then when you come in=
+ with a market order to sell, the exchange looks at the limit orders it has=
+ on the book, and goes through them in price order to execute your trade. S=
+o if you want to sell 100 shares, you trade at $44.99. If you want to sell =
+1,000 shares, you trade some at $44.99 and maybe some at lower prices. If y=
+ou want to sell 100,000 shares, you might run through=C2=A0all=C2=A0of the =
+orders that the market makers have put on the order book. You might sell so=
+me at, like, $44, and then descend into weird territory. Maybe some hedge f=
+und put in an order to buy at $20 and forgot about it, and you end up selli=
+ng to them at $20.
+  [4]
+
+The point is that the limit order book does not represent the true economic=
+ supply and demand for a stock. It just represents the supply and demand fo=
+r the stock=C2=A0right now, mainly from risk-averse high-frequency electron=
+ic market makers. If you want to sell 100,000 shares, you break that up int=
+o smaller orders so as not to scare off the market makers, you do it over s=
+ome period of time, and eventually enough people will want to buy that you=
+=E2=80=99ll be able to sell at a reasonable price. There will be some price=
+ impact of your trading =E2=80=94=C2=A0you can=E2=80=99t sell 100,000 share=
+s at $44.99; supply and demand matter =E2=80=94=C2=A0but you won=E2=80=99t =
+sell at $20, either.
+But every so often a trader at a big institutional investing firm=C2=A0will=
+ put in an order to sell 100,000 shares, and instead of hitting the =E2=80=
+=9Cbreak this into small orders and sell over 8 hours=E2=80=9D button she w=
+ill hit the =E2=80=9Cput in a market order to sell all of this immediately=
+=E2=80=9D button, and the stock will briefly crash as her trade eats throug=
+h the entire order book and ends up printing at ridiculous prices. And then=
+ the stock will recover, because its value hasn=E2=80=99t really changed; i=
+t=E2=80=99s just that there were not enough orders resting on the book to e=
+xecute that trade sensibly. This is sometimes called a   =E2=80=9Cfat finge=
+r=E2=80=9D error, because the only excuse for it is that your finger is too=
+ big to hit the right button.
+As I said, Method 2 is the main procedure, but=C2=A0Method 3 is also really=
+ important. In fact there=C2=A0are=C2=A0some obvious times when lots of peo=
+ple all want to trade at the same time: The US stock market=E2=80=99s main =
+opening hours are 9:30 a.m. to 4 p.m., and people naturally gravitate towar=
+d trading at the open or the close, at 9:30 or 4. And so the big listing ex=
+changes, the  New York Stock Exchange and  Nasdaq, run opening and closing =
+auctions for the stocks they list. The rough idea of the auction is:
+=09Everyone who wants to buy or sell stock at the open or the close puts in=
+ orders to buy or sell, in the minutes leading up to 9:30 or 4.=09Some of t=
+hose orders are market orders (=E2=80=9CI want to buy/sell stock at whateve=
+r the auction price ends up being=E2=80=9D), while others are limit orders =
+(=E2=80=9CI want to buy stock in the auction if the price is $44.95 or less=
+=E2=80=9D).=09The exchange=E2=80=99s computers find a price that matches up=
+ the most orders and chooses that as the auction price.=09Everyone who put =
+in an order to buy at the auction price or more (or with a market order) bu=
+ys, and everyone who put in an order=C2=A0to sell at the auction price or l=
+ess (or with a market order) sells.
+
+The opening=C2=A0auction is particularly interesting. Intuitively, the stoc=
+k market goes to bed at 4 p.m. and wakes up at 9:30 a.m. the next day.
+  [5]
+ Stuff happens overnight: News breaks, companies announce earnings and merg=
+ers, fund managers and retail traders stay up all night reading research re=
+ports and decide to buy some stock in the morning. Most days, most stocks w=
+ill open at a price that is pretty close to the price they closed at the da=
+y before. But sometimes there will be big jumps: If a company=E2=80=99s sto=
+ck closes at 4 p.m. at $45 (i.e., the price in the closing auction is $45),=
+ and then it=C2=A0announces good or bad earnings at 4:15, it might open at =
+$50 or $40 the next morning (i.e., the price in the opening auction will be=
+ a lot higher or lower).
+The opening auction is where the day=E2=80=99s=C2=A0price discovery=C2=A0ha=
+ppens: All the =E2=80=9Creal=E2=80=9D investors, pension managers and hedge=
+ funds and retail traders on Robinhood, have updated their views on value o=
+vernight, and then they meet at 9:30 in the opening auction and work out wh=
+at the market-clearing price is.=C2=A0
+Notice that in Method 3 you don=E2=80=99t really need market makers: All th=
+e =E2=80=9Creal=E2=80=9D buyers who want to own the stock show up to buy, a=
+nd all the =E2=80=9Creal=E2=80=9D sellers who own stock and want to get rid=
+ of it show up to sell, and they all trade at the same time at a price that=
+ balances their supply and demand. Market makers are necessary in a central=
+=C2=A0limit order book, because they intermediate between real buyers and s=
+ellers who want to trade at different times, but the auction solves that pr=
+oblem in a different way.
+Also, market makers probably don=E2=80=99t=C2=A0want=C2=A0to trade in the o=
+pening auction. A market maker does not have a deeply informed view about t=
+he fundamental value of a stock; it just tries to turn over inventory quick=
+ly and do trades at pretty close to the previous trade. At 9:30 a.m.,=C2=A0=
+there is no previous trade.
+  [6]
+=C2=A0The market is just waking up, there is news to digest from the previo=
+us 17.5 hours without trading, and lots of informed fundamental investors h=
+ave been digesting it and are now trying to figure out the right price. The=
+ market makers have no advantage, and will want to stay out of the way.
+And so there=E2=80=99s an opening auction among mostly real investors, and =
+it sets the opening price, and a bunch of shares trade at that price, and t=
+hen a millisecond later normal trading starts. And when normal trading star=
+ts, the market makers put in their orders to buy and sell stock =E2=80=94=
+=C2=A0probably to buy it for about a penny less than the opening price, and=
+ to sell it for about a penny more than the opening price =E2=80=94=C2=A0an=
+d regular orders arrive to trade with them, and the price moves around with=
+ supply and demand, and the market operates with a central limit order book=
+ for the next 6.5 hours.
+Yesterday the New York Stock Exchange made one teeny little mistake:  It fo=
+rgot to do some opening auctions.
+
+A technical glitch at the New York Stock Exchange on Tuesday briefly caused=
+ wild price swings and a temporary trading freeze in stocks of major compan=
+ies such as Exxon Mobil Corp., McDonald=E2=80=99s Corp. and Walmart Inc.
+Hundreds of stocks experienced erroneous prices as a result of the incident=
+, the biggest snafu to hit a U.S. stock exchange in several years, accordin=
+g to a spreadsheet of affected securities released by the NYSE.
+The NYSE said in an accompanying notice to traders that, due to a =E2=80=9C=
+system issue,=E2=80=9D it had failed to carry out an opening auction in a n=
+umber of stocks. The opening auction is the critical process at 9:30 a.m. E=
+T each day that determines the official, beginning-of-day prices for stocks=
+ listed on the exchange.
+Without a reliable official opening price, some stocks traded at unusually =
+low or high prices as the trading day began. That in turn caused sharp pric=
+e swings, triggering trading halts under market rules designed to curb extr=
+eme volatility.
+=E2=80=9CIt=E2=80=99s a real mess,=E2=80=9D said Dennis Dick, founder of Tr=
+iple D Trading, a proprietary trading firm. =E2=80=9CI=E2=80=99ve traded fo=
+r 22 years, and I=E2=80=99ve never seen the opening cross at NYSE go haywir=
+e.=E2=80=9D
+
+Intuitively, what seems to have happened is that if you woke up at 7 a.m. a=
+nd put in an order with your broker to buy 500 shares of Walmart at the ope=
+n, and then you went off to work at your job and forgot about it, your brok=
+er probably put in a market order to buy 500 shares in the opening auction.=
+ And then there was no opening auction. So your order got sent to the centr=
+al limit order book to execute as a normal trade, instead of executing in t=
+he opening auction.
+There are two big problems with that. One is that, at 9:30:00, the central =
+limit order book is empty. The market makers who intermediate trades in tim=
+e are=C2=A0waiting=C2=A0on the opening auction to populate the order book; =
+if the auction doesn=E2=80=99t happen and CLOB trading opens anyway, there=
+=E2=80=99s no one there to buy from the sellers and sell to the buyers. I m=
+ean, not literally no one =E2=80=94=C2=A0somebody has put in limit orders t=
+o buy and sell =E2=80=94=C2=A0but the professional electronic market makers=
+ whose job it is to post prices in a tight range have not really shown up y=
+et in meaningful size. So the order book is thinly populated, and any new o=
+rders =E2=80=94=C2=A0like your order to buy 500 shares =E2=80=94=C2=A0can m=
+ove the price more.
+The other problem is that the=C2=A0orders in the opening auction can be=C2=
+=A0big. If you are looking to buy 10,000 shares at the market price at 11:1=
+5 a.m., you will break that into smaller orders and be tactical about how y=
+ou trade it, because you know that sending a 10,000-share market order can =
+crash through the order book and get you a terrible price. But if you are l=
+ooking to buy 10,000 shares at the market price at 9:30 a.m., you might jus=
+t put in a 10,000-share market-on-open order, because you know that lots of=
+ people want to trade in the opening auction and so you will get a good pri=
+ce.
+If there is no auction, and=C2=A0your 10,000-share market order gets sent t=
+o the regular order book instead, then NYSE has effectively fat-fingered yo=
+u. It sent your unusually large order into an unusually thin order book. An=
+d so the stock crashes, or soars, depending on whether you are buying or se=
+lling.
+The details=C2=A0are still a little vague and I am being approximate here. =
+You might ask: =E2=80=9CWell, if there are a lot of orders to buy a lot of =
+shares and a lot of orders to sell a lot of shares and they all got sent to=
+ the regular order book at the same time, wouldn=E2=80=99t they trade with =
+each other and cancel out and lead to pretty normal prices,=E2=80=9D but th=
+at is apparently not quite=C2=A0how it works. The thing about an auction is=
+ that all the orders execute at once; in a central limit order book they ex=
+ecute in some sequential=C2=A0order. You could imagine NYSE looking at its =
+list of orders, seeing a market sell order, executing it against the few re=
+sting limit buy orders, crashing the price down, looking at the next order,=
+ seeing a market buy order, and executing it against the few resting limit =
+sell orders, shooting the price right back up again. And that=E2=80=99s how=
+ you get =E2=80=9Csharp price swings, triggering trading halts.=E2=80=9D=C2=
+=A0
+Anyway in the grand scheme of things this doesn=E2=80=99t matter: Yesterday=
+=E2=80=99s opening=C2=A0did=C2=A0match buyers and sellers, over time, and f=
+ind the market price, just in a harrowing and chaotic way. If you traded at=
+ the wrong price, it mattered to you, since you made or lost money, though =
+a lot of those trades   will be busted because they were =E2=80=9Cclearly e=
+rroneous.=E2=80=9D NYSE has a sensible market structure for its 9:30:00 a.m=
+. trading, and a sensible market structure for its 9:30:01 a.m. trading, an=
+d they are=C2=A0very different, and if you mix them up you get a mess.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+
+Around here I   like to   say that every bad thing that a public company do=
+es is also securities fraud. It does the bad thing, it does not immediately=
+ tell shareholders about the bad thing, later the shareholders find out abo=
+ut the bad thing, the stock drops, and the shareholders sue, saying =E2=80=
+=9Cwe were tricked into buying your stock because you lied to us about not =
+doing the bad thing.=E2=80=9D
+This is I think a broadly correct description of how US securities class ac=
+tions work in practice, but it is not a technically accurate description of=
+ the law, and it is missing some nuance. For one thing, simply not mentioni=
+ng a bad thing might not be enough to create securities-fraud liability: To=
+ sue and win, shareholders will need to point to some misleading statement =
+that the company=C2=A0did=C2=A0make. (So sexual harassment might be securit=
+ies fraud if a company has a stated policy forbidding sexual harassment,=C2=
+=A0or a risk factor in its annual report saying =E2=80=9Cwe rely on the ser=
+vices of our chief executive officer and would have problems if he was a se=
+xual harasser=E2=80=9D but not mentioning that he is.)
+For another thing, there will be arguments about whether the misstatements =
+or omissions were=C2=A0material=C2=A0to investors. If shareholders say =E2=
+=80=9Cwe bought your stock because you lied to us and told us you were ethi=
+cal, and we believed you,=E2=80=9D a plausible answer would be: =E2=80=9CNo=
+ you didn=E2=80=99t, you didn=E2=80=99t care about our ethics, they don=E2=
+=80=99t matter to our stock price and=C2=A0you were not actually defrauded.=
+=E2=80=9D (This was   roughly the issue in a 2021 Supreme Court case about =
+Goldman Sachs Group Inc. and the =E2=80=9Ceverything is securities fraud=E2=
+=80=9D theory.)
+One way to synthesize these points is that there are some areas of corporat=
+e behavior where a company can be=C2=A0good=C2=A0or=C2=A0bad, but these are=
+as are not relevant to shareholders. That is:
+=09The shareholders do not care about these areas of behavior; they do not =
+evaluate whether a company behaves well or badly in these areas, and those =
+questions do not inform their buying and selling decisions.=09Companies do =
+not talk about these areas of behavior in their public filings.=09If it tur=
+ns out that a company is bad in these areas, the stock doesn=E2=80=99t usua=
+lly drop.
+
+Like one bad thing that a public company could do is that its executives co=
+uld have really bad fashion sense and dress really badly. (Not a high fashi=
+on company I mean, just like a software company or whatever.) That would be=
+ bad, in some aesthetic sense, but it would not be=C2=A0securities fraud. I=
+nvestors would not make investing decisions based on executive fashion, the=
+ company would not make any claims about it in its=C2=A0filings, and if a p=
+hoto emerged of a badly dressed executive the stock would not drop.=C2=A0
+These categories are fuzzy, though; there are some categories that investor=
+s once did not care about but now=C2=A0do, some sorts of behavior that some=
+times cause stock drops and sometimes don=E2=80=99t, some things that are o=
+bliquely hinted at in securities filings. Sexual harassment scandals, for i=
+nstance, seem more likely to cause business consequences and stock drops no=
+w than they did 10 years ago, financial decision-makers   ask about them mo=
+re frequently, and they are probably covered by companies=E2=80=99 disclose=
+d ethics policies. You could argue that 10 years ago executive sexual haras=
+sment was bad but not securities fraud, but now it is also securities fraud=
+.
+One rough way to think about the =E2=80=9Ceverything is securities fraud=E2=
+=80=9D theory is that, once upon a time,=C2=A0most=C2=A0sorts of corporate =
+behavior fell into these categories =E2=80=94=C2=A0investors were presumed =
+not to care about them, they weren=E2=80=99t discussed in filings, etc. =E2=
+=80=94=C2=A0and the=C2=A0only=C2=A0area that mattered was, like, financial =
+results. =E2=80=9CSecurities fraud=E2=80=9D meant lying about earnings. And=
+ then over time various areas of corporate behavior =E2=80=94=C2=A0executiv=
+e ethics, cybersecurity, etc. =E2=80=94=C2=A0became=C2=A0things that compan=
+ies disclosed and investors were presumed to care about, and so now shareho=
+lders can sue companies if bad things happen in those areas.
+Surely the biggest and most important example of this shift is ESG. Stereot=
+yping very crudely, once upon a time investors did not care about the envir=
+onmental, social and governance behavior of public companies, and now they =
+care very much. For many investors, these are=C2=A0the most=C2=A0important =
+factors; many investors have =E2=80=9CESG=E2=80=9D (or =E2=80=9Csustainable=
+,=E2=80=9D etc.) right in their fund names. And companies produce increasin=
+g amounts of disclosure about ESG, in part because that=E2=80=99s what inve=
+stors want but in large part because it=E2=80=99s what   regulators demand.
+And so you could imagine 20 years ago thinking =E2=80=9Ccompanies produce f=
+inancial statements, investors read the financial statements and use them t=
+o make investing decisions, and if the financial statements are wrong that =
+is securities fraud.=E2=80=9D And now you could imagine thinking =E2=80=9Cc=
+ompanies produce ESG statements, investors read the ESG statements and use =
+them to make investing decisions, and if the ESG statements are wrong that =
+is securities fraud.=E2=80=9D The ESG statements haven=E2=80=99t=C2=A0repla=
+ced=C2=A0the financial statements, but they exist parallel to them, and the=
+y are =E2=80=A6=C2=A0perhaps not equally important, but certainly important=
+ enough to produce   lots and lots of lawsuits:
+
+Lawyers are bracing for an increase in ESG-related cases as corporate discl=
+osure requirements stiffen around the world.
+A survey by the law firm Norton Rose Fulbright found that 28% of more than =
+430 general counsel and in-house litigation leaders said their so-called ES=
+G dispute exposure increased in 2022, and 24% expect it to deepen over the =
+next 12 months. The key reasons are the absence of clear environmental, soc=
+ial and governance metrics and requirements, and the heightened regulatory =
+scrutiny on the importance of ESG.
+The issue has joined employment and labor disputes,=C2=A0cybersecurity and =
+data protection in what Norton Rose refers to as =E2=80=9Cclass-action area=
+s of future concern.=E2=80=9D
+The growing attention of corporate litigators in industries ranging from fi=
+nancial services to technology corresponds with the growing tide of class a=
+ctions tied to greenwashing. This is partly due to the California=E2=80=99s=
+ plaintiffs=E2=80=99 bar having =E2=80=9Cfigured out the blueprint for how =
+to bring these cases,=E2=80=9D according to Norton Rose. In a nutshell, thi=
+s means companies that put out generalized ESG statements will sometimes fi=
+nd themselves as targets in product-specific cases.
+
+If you make a product that is bad for the environment, that didn=E2=80=99t =
+use to be securities fraud, but it sure is now.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SOFR
+   =20
+ =20
+
+For a long time, most floating-rate corporate=C2=A0loans in the US were pri=
+ced off Libor, the London interbank offered rate, a publicly reported index=
+ of bank borrowing costs. A company would borrow money at Libor plus some s=
+pread, with the spread compensating its lenders for the credit risk they ta=
+ke by lending to the company. A loan would have an interest rate like =E2=
+=80=9CLibor + 300,=E2=80=9D and then every three months you=E2=80=99d look =
+at what three-month dollar Libor was and add 300 basis points to it and tha=
+t would be the interest rate on the loan. And then three months later you=
+=E2=80=99d do it again.
+Then Libor fell into disrepute, and regulators made a big effort to get rid=
+ of Libor and replace it with other, more reliable rates. In the US, this  =
+meant mainly SOFR, the Secured Overnight Financing Rate. (And other, longer=
+-term rates that are derived from SOFR: SOFR is, as the name suggests, an o=
+vernight rate, but you can get things like =E2=80=9C3-month term SOFR=E2=80=
+=9D from derivatives markets.) So now you could have a loan with an interes=
+t rate like =E2=80=9CSOFR + 300,=E2=80=9D and every three months you=E2=80=
+=99d look at three-month SOFR and etc. Same basic idea, different index.
+For our purposes, one important fact about SOFR is that it is=C2=A0lower=C2=
+=A0than Libor: SOFR is a secured rate (lending against Treasury collateral)=
+, Libor is an unsecured rate (lending to banks against their credit), and i=
+t should be cheaper to borrow secured than unsecured. Exactly how much lowe=
+r SOFR is than Libor on any particular day depends on economic conditions, =
+market moods, etc. But, generally, lower.
+One thing this means is that if you are a company and you want to borrow mo=
+ney, your bank might recommend that you get a loan priced off SOFR rather t=
+han Libor. SOFR is the way of the future, Libor is in disrepute and slowly =
+being phased out, the market wants SOFR, so you get a SOFR loan. The bank w=
+ill quote you some price like SOFR + 300, and that=E2=80=99s the loan you=
+=E2=80=99ll get. Libor won=E2=80=99t even enter into it. The price =E2=80=
+=94=C2=A0the spread, the 300 basis points you pay over SOFR =E2=80=94=C2=A0=
+is just set by market demand for the loan.
+Another thing it means is that if you are a company and you already=C2=A0ha=
+ve a loan and the loan is priced at Libor + 300, you might want to=C2=A0cha=
+nge=C2=A0the terms of the loan, to make it priced off of SOFR. SOFR is the =
+future, Libor is going away, etc., why not update your loan to use the mode=
+rn index? But SOFR is=C2=A0lower=C2=A0than Libor. Three-month Libor is abou=
+t 4.82% today; if your loan is priced at Libor + 300, you=E2=80=99re paying=
+ something like 7.82% interest. Three-month term SOFR is about 4.67% today,=
+ 15 basis points lower than Libor. If you want to switch your Libor loan in=
+to a SOFR loan, today, you would need to make your Libor + 300 loan into a =
+SOFR + 315 loan to make the actual interest payments the same. If you kept =
+the spread the same =E2=80=94=C2=A0if you switched from Libor + 300 to SOFR=
+ + 300 =E2=80=94=C2=A0then you=E2=80=99d be paying less. Your lenders would=
+n=E2=80=99t like that.
+In practice the way you do this is by adding a =E2=80=9Ccredit spread adjus=
+tment=E2=80=9D to the loan: You keep the thing called the =E2=80=9Cspread=
+=E2=80=9D the same, at 300 basis points, and you add a new contractual term=
+ called a =E2=80=9Ccredit spread adjustment=E2=80=9D intended to compensate=
+ for the switch from Libor to SOFR. Then your interest rate is (1) SOFR plu=
+s (2) the spread plus (3) the credit spread adjustment. And there is sort o=
+f  a standard for what that is, based on the average difference between Lib=
+or and SOFR over time:
+The Alternative Reference Rates Committee, the Federal Reserve backed group=
+ in charge of overseeing the Libor transition in the US, recommended borrow=
+ers provide adjustments of 11 basis points and 26 basis points for loans ti=
+ed to one- and three-month Libor, respectively.
+Now. You could imagine different ways that this transition might go. You co=
+uld imagine =E2=80=94=C2=A0and I did, once =E2=80=94=C2=A0banks calling up =
+borrowers and saying =E2=80=9Chey, I see you have a Libor loan, let me swit=
+ch you into a shiny new SOFR loan,=E2=80=9D and doing that in a way that ma=
+de the banks money. You have a complicated trade, you restructure it into a=
+ different complicated trade, that=E2=80=99s just a classic place for a ban=
+k to make money. With a loan I am not sure there is too much complicated op=
+portunity, but I guess you can add a 30 basis point credit spread adjustmen=
+t and charge a fee too.
+But it could go the other way. You could imagine the borrowers calling up t=
+he banks and saying=C2=A0 =E2=80=9CI want my Libor loan to be SOFR=E2=80=9D=
+ and the banks saying =E2=80=9Csure, but we need to add an 11 basis point c=
+redit spread adjustment=E2=80=9D and the borrowers saying =E2=80=9Cwhat, no=
+, that sounds like a scam, I want the same loan but with SOFR,=E2=80=9D and=
+ the banks saying =E2=80=9Cugh fine I guess whatever.=E2=80=9D That is not =
+my usual experience of banks. On the other hand a lot of leveraged corporat=
+e loans are not held by=C2=A0banks, per se, but by collateralized loan obli=
+gations, and I guess their negotiating tactics are different? Bloomberg=E2=
+=80=99s=C2=A0Carmen Arroyo and Paula Seligson  report:
+
+Buyers of the riskiest slice of collateralized loan obligations are steppin=
+g up efforts to ensure the transition from Libor doesn=E2=80=99t end up cos=
+ting them millions of dollars in potential returns.
+Roughly 70 CLO equity investors attended a call hosted by Eagle Point Credi=
+t Management earlier this month where participants discussed pushing CLO ma=
+nagers to advocate harder for their economic interests, multiple firms that=
+ attended the meeting confirmed to Bloomberg.=C2=A0
+They=E2=80=99re particularly frustrated that some borrowers have been able =
+to switch their existing loans to the Secured Overnight Financing Rate with=
+out including an adjustment blessed by industry officials that=E2=80=99s me=
+ant to compensate for the fact that SOFR consistently prints below Libor, a=
+llowing companies to reap significant savings at their expense. =E2=80=A6
+=E2=80=9CThe regulators did not intend for the Libor-SOFR transition to cre=
+ate a windfall for private equity sponsors and loan issuers,=E2=80=9D said =
+Dan Ko, principal and portfolio manager at Eagle Point.
+
+Here is more from Seligson  last month. Basically borrowers ask to amend th=
+eir Libor loans to make them SOFR loans with the same spreads and no adjust=
+ments, and lenders are like =E2=80=9Csure whatever I guess=E2=80=9D:
+
+For months, lenders largely let them get away with it.=C2=A0The reasons var=
+ied. Opinions differed among investors on which deals were worth fighting o=
+ver, and some saw diminishing returns from quibbling over a few basis point=
+s when the Fed was jacking up rates.=C2=A0
+Moreover, they simply weren=E2=80=99t organized enough to block the proposa=
+ls, especially those tied to loans with so-called negative consent clauses,=
+ which comprise about 30% of the market, according to Covenant Review data.=
+ Those clauses, which Allied Universal had, require more than half of credi=
+tors to actively vote to reject amendments, in contrast to a typical loan w=
+here debtholders must vote yes for an amendment to pass.
+
+One broad point here is that the traditional way to think about bank lendin=
+g is that the=C2=A0lenders=C2=A0are sophisticated finance professionals and=
+ the=C2=A0borrowers=C2=A0are not: Banks are in the business of making and p=
+ricing and negotiating loans; corporate borrowers are in the business of re=
+tailing or software or manufacturing or whatever. The banks are repeat play=
+ers who know the loans inside and out and can negotiate in ways that consis=
+tently advantage them; the corporate borrowers have to take what the banks =
+give them.
+But in modern leveraged finance it is almost the opposite? Lenders are not =
+(mainly) banks but CLOs, vehicles with weird incentives and coordination pr=
+oblems. Borrowers meanwhile are not mainly widget manufacturers but, as Ko =
+says, =E2=80=9Cprivate equity sponsors,=E2=80=9D sophisticated repeat playe=
+rs who are good at making money by extracting it from lenders. If regulator=
+s decide to change how bank loans work, traditionally that should be good f=
+or the banks. But now it=E2=80=99s good for the borrowers.
+
+ =20
+   =20
+      Every financing round that Elon Musk has ever done has been oversubsc=
+ribed
+   =20
+ =20
+
+That=E2=80=99s what he said, in court,=C2=A0  yesterday! Today  the Wall St=
+reet Journal reports:
+
+Elon Musk=E2=80=98s team has been exploring using as much as $3 billion in =
+potential new fundraising to help repay some of the $13 billion in debt tac=
+ked onto Twitter Inc. for his buyout of the company, people familiar with t=
+he matter said. =E2=80=A6
+In mid-December, Mr. Musk=E2=80=99s team reached out to new and existing ba=
+ckers about raising new equity capital at the original Twitter takeover pri=
+ce.
+Mr. Musk=E2=80=99s advisers had hoped to reach a deal to raise cash at the =
+initial takeover price by the end of 2022, according to an email sent to pr=
+ospective investors at the time. However, some prospective backers said the=
+y balked at the terms, given concerns about Twitter=E2=80=99s financial per=
+formance. The Musk team didn=E2=80=99t specify a funding amount or purpose =
+for the fundraise in the email.
+Fidelity, one of the co-investors that backed Mr. Musk=E2=80=99s takeover o=
+f Twitter, has written down its stake in Twitter by 56%, public filings sho=
+w, suggesting Mr. Musk would face an uphill battle raising funds at the ori=
+ginal valuation from outside investors.
+
+If he gets $6 billion in orders for a $3 billion financing round at the ori=
+ginal takeover price =E2=80=A6=C2=A0I don=E2=80=99t even know what to say. =
+That would be amazing. He also testified that he has raised =E2=80=9Cmore m=
+oney than anyone in history by a significant margin,=E2=80=9D so he=E2=80=
+=99s good at raising money and has devoted fans, but even for him this seem=
+s like a heavy lift.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Rupert Murdoch  Withdraws Proposal to Merge Fox Corp. and News Corp.=C2=A0H=
+ow Cash-Needy Private Companies Are   Avoiding Dreaded Down Rounds. Jittery=
+ Investors  Turn to Cash in Hunt for Yield.=C2=A0US   Short Seller Takes On=
+ Asia=E2=80=99s Richest Man After Targeting Nikola and Twitter.=C2=A0How a =
+prestigious  Wall Street law firm got caught up in FTX=E2=80=99s chaos.=C2=
+=A0BlockFi  secret financials show a $1.2 billion relationship with Sam Ban=
+kman-Fried=E2=80=99s crypto empire. Josh Kushner Is   Richer Than Trump Aft=
+er Billionaires Back His Firm. A Startup Is Turning Porta-Potties Into   So=
+urces of Fertilizer. Scientists Have Just Created a Black Hole in The Lab, =
+And It Has Unexpectedly  Started to Glow.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] If you want to buy a share of stock for, like, $10 less than the mark=
+et price, you can go ahead and put in an unmarketable limit order and wait.=
+ Or there are dark pools that focus on crossing natural investor interest, =
+where you might wait a while.
+
+
+  [2] This paragraph is a little bit loose. It is often useful for intuitio=
+n to assume that limit orders come from market makers and market orders com=
+e from =E2=80=9Creal investors=E2=80=9D: You and I want immediacy and so we=
+ trade at whatever the market price is, paying the spread, but electronic m=
+arket makers are in the business of providing that immediacy and so they pu=
+t in resting limit orders and earn the spread. In reality the division is n=
+ot nearly so neat: Real investors often use limit orders that rest on the b=
+ook for a while, and market makers often cross the spread for risk manageme=
+nt, etc. reasons. In the text I will keep it simple, assuming that if we wa=
+nt to trade we use market orders and the limit orders of market makers are =
+on the other side.
+
+
+  [3] I mean, I guess Method 1 would also be a CLOB, just without market ma=
+kers, but we=E2=80=99re not going to discuss it any further.
+
+
+  [4] Modern markets have circuit breakers and  limit-up/limit-down bands t=
+o prevent this from happening at *too* low a price, but the idea is general=
+ly right at some scale.
+
+
+  [5] This is not really true; there are extended sessions for trading befo=
+re and after the regular hours. But it=E2=80=99s true-ish.
+
+
+  [6] Again, there is =E2=80=94 in the extended session =E2=80=94 but this =
+is basically right.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci2ou9.5k6x/b7b63d52.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_758860_1173957739.1674675413692
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The basic problem of the stock market is that a lot of people want to buy a=
+ lot of stock, and a lot of people want to sell a lot of stock, b
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB086fe21f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTI1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMjUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB2e3d0389"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7093dff5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NYSE</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic problem of the stock market is that =
+a lot of people want to buy a lot of stock, and a lot of people want to sel=
+l a lot of stock, but not at the same=C2=A0time. I might want to buy 1,000 =
+shares of Wells Fargo &amp; Co. stock, and you might want to sell 1,000 sha=
+res of Wells Fargo five minutes from now. Our desires match up, but not in =
+time, so we can=E2=80=99t trade with each other.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In theory, there are about three ways to deal =
+with this.</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">I could just wait. I could put in an =
+order on the stock exchange to buy 1,000 shares, and then it could wait aro=
+und for five minutes until you put in an order to sell 1,000 shares, and th=
+en we could trade with each other. Sometimes it might take days. Lots of ma=
+rkets work kind of like this, and there are aspects of this in the US stock=
+ market,<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: none !important; background-colo=
+r: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0but this is mostly not how US public stock markets work. When I p=
+ut in an order to buy Wells Fargo stock, it gets executed more or less imme=
+diately.</li>=09<li style=3D"margin-bottom: 5px;">There could be <em>market=
+ makers</em>. Some people=C2=A0=E2=80=94=C2=A0banks,=C2=A0high-frequency el=
+ectronic trading firms =E2=80=94=C2=A0could be willing to buy from all the =
+sellers and sell to all the buyers, intermediating trades in time. I put in=
+ my order to buy 1,000 shares, and some electronic market maker instantly s=
+ells to me at $45.01 per share; five minutes later, you put in your order t=
+o sell 1,000 shares, and the electronic market maker instantly buys from yo=
+u at $44.99. We have each effectively paid a penny per share for =E2=80=9Ci=
+mmediacy,=E2=80=9D the service that the market maker provided of letting us=
+ trade instantly instead of waiting to find each other. The market maker is=
+ in some sense not a real investor like you and me, and it will not general=
+ly have some deeply informed view on the value of the stock: Its job is to =
+buy and sell quickly, turn over its inventory, and get paid the spread betw=
+een the $45.01 it charges me and the $44.99 it pays you.<a class=3D"footnot=
+e-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">The exchange could get =
+us all together at the same time. The stock exchange could say: =E2=80=9CHe=
+y, everybody who wants to buy or sell Wells Fargo shares, we=E2=80=99re gon=
+na do a big share swap at 9:30 a.m. tomorrow. Send in your orders, and we=
+=E2=80=99ll match them up and let everyone trade at the same price at the s=
+ame time.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Method 2 is sort of the standard paradigm for =
+how the US stock market works. It is sometimes called a =E2=80=9Ccentral li=
+mit order book,=E2=80=9D or =E2=80=9CCLOB.=E2=80=9D<a class=3D"footnote-ind=
+ex" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[3]</span>
+</a>=C2=A0It has its controversies, and lots of the market-structure stuff =
+we talk about around here =E2=80=94=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N=
+1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waWQ9QkJEMDEyNTIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTI1JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe63717b6" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">paym=
+ent for order flow</a> and dark pools and flash boys and blah blah blah =E2=
+=80=94=C2=A0has to do with that process of market makers intermediating tra=
+des in time.</p>
+<p style=3D"margin: 16px 0;">I won=E2=80=99t discuss those controversies he=
+re, but I do want to mention one complaint that people sometimes have, whic=
+h is that liquidity in the stock market is somehow=C2=A0illusory or fleetin=
+g or =E2=80=9Cnot real.=E2=80=9D Part of what this means is that, if=C2=A0t=
+he national best bid and offer for Wells Fargo is $44.99/$45.01,=C2=A0you c=
+ould go to a market maker and buy Wells Fargo for $45.01, or sell it for $4=
+4.99, but you couldn=E2=80=99t buy or sell very=C2=A0<em>much=C2=A0</em>of =
+it. The way the CLOB works is that market makers post limit orders at the e=
+xchange; each market maker will say =E2=80=9CI=E2=80=99ll buy 100 shares of=
+ Wells Fargo at $44.99, and 200 more at $44.98, and 300 more at $44.95,=E2=
+=80=9D etc. And then when you come in with a market order to sell, the exch=
+ange looks at the limit orders it has on the book, and goes through them in=
+ price order to execute your trade. So if you want to sell 100 shares, you =
+trade at $44.99. If you want to sell 1,000 shares, you trade some at $44.99=
+ and maybe some at lower prices. If you want to sell 100,000 shares, you mi=
+ght run through=C2=A0<em>all=C2=A0</em>of the orders that the market makers=
+ have put on the order book. You might sell some at, like, $44, and then de=
+scend into weird territory. Maybe some hedge fund put in an order to buy at=
+ $20 and forgot about it, and you end up selling to them at $20.<a class=3D=
+"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">The point is that the limit order book does no=
+t represent the true economic supply and demand for a stock. It just repres=
+ents the supply and demand for the stock=C2=A0<em>right now</em>, mainly fr=
+om risk-averse high-frequency electronic market makers. If you want to sell=
+ 100,000 shares, you break that up into smaller orders so as not to scare o=
+ff the market makers, you do it over some period of time, and eventually en=
+ough people will want to buy that you=E2=80=99ll be able to sell at a reaso=
+nable price. There will be some price impact of your trading =E2=80=94=C2=
+=A0you can=E2=80=99t sell 100,000 shares at $44.99; supply and demand matte=
+r =E2=80=94=C2=A0but you won=E2=80=99t sell at $20, either.</p>
+<p style=3D"margin: 16px 0;">But every so often a trader at a big instituti=
+onal investing firm=C2=A0will put in an order to sell 100,000 shares, and i=
+nstead of hitting the =E2=80=9Cbreak this into small orders and sell over 8=
+ hours=E2=80=9D button she will hit the =E2=80=9Cput in a market order to s=
+ell all of this immediately=E2=80=9D button, and the stock will briefly cra=
+sh as her trade eats through the entire order book and ends up printing at =
+ridiculous prices. And then the stock will recover, because its value hasn=
+=E2=80=99t really changed; it=E2=80=99s just that there were not enough ord=
+ers resting on the book to execute that trade sensibly. This is sometimes c=
+alled a <a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.2=
+59449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtM=
+DMvY2l0aS1kaWQtYS1mbGFzaC1jcmFzaD9jbXBpZD1CQkQwMTI1MjNfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMjUmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7c445a68" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  =E2=
+=80=9Cfat finger=E2=80=9D error</a>, because the only excuse for it is that=
+ your finger is too big to hit the right button.</p>
+<p style=3D"margin: 16px 0;">As I said, Method 2 is the main procedure, but=
+=C2=A0Method 3 is also really important. In fact there=C2=A0<em>are=C2=A0</=
+em>some obvious times when lots of people all want to trade at the same tim=
+e: The US stock market=E2=80=99s main opening hours are 9:30 a.m. to 4 p.m.=
+, and people naturally gravitate toward trading at the open or the close, a=
+t 9:30 or 4. And so the big listing exchanges, the <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cubnlzZS5jb2=
+0vcHVibGljZG9jcy9ueXNlL21hcmtldHMvbnlzZS9OWVNFX09wZW5pbmdfYW5kX0Nsb3NpbmdfQ=
+XVjdGlvbnNfRmFjdF9TaGVldC5wZGY/607f07ceef4b8524a319a23cB41668bec" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ New York Stock Exchange</a> and <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30358593.259449/aHR0cHM6Ly93d3cubmFzZGFxdHJhZGVyLmNvbS9jb250=
+ZW50L1RlY2huaWNhbFN1cHBvcnQvVXNlckd1aWRlcy9UcmFkaW5nUHJvZHVjdHMvY3Jvc3Nlcy9=
+vcGVuY2xvc2VxdWlja2d1aWRlLnBkZg/607f07ceef4b8524a319a23cBb2c14164" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Nasdaq</a>, run opening and closing auctions for the stocks they list. The=
+ rough idea of the auction is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Everyone who wants to buy or sell stoc=
+k at the open or the close puts in orders to buy or sell, in the minutes le=
+ading up to 9:30 or 4.</li>=09<li style=3D"margin-bottom: 5px;">Some of tho=
+se orders are market orders (=E2=80=9CI want to buy/sell stock at whatever =
+the auction price ends up being=E2=80=9D), while others are limit orders (=
+=E2=80=9CI want to buy stock in the auction if the price is $44.95 or less=
+=E2=80=9D).</li>=09<li style=3D"margin-bottom: 5px;">The exchange=E2=80=99s=
+ computers find a price that matches up the most orders and chooses that as=
+ the auction price.</li>=09<li style=3D"margin-bottom: 5px;">Everyone who p=
+ut in an order to buy at the auction price or more (or with a market order)=
+ buys, and everyone who put in an order=C2=A0to sell at the auction price o=
+r less (or with a market order) sells.</li>
+</ul>
+<p style=3D"margin: 16px 0;">The <em>opening=C2=A0</em>auction is particula=
+rly interesting. Intuitively, the stock market goes to bed at 4 p.m. and wa=
+kes up at 9:30 a.m. the next day.<a class=3D"footnote-index" href=3D"#footn=
+ote-5" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[5]</span>
+</a> Stuff happens overnight: News breaks, companies announce earnings and =
+mergers, fund managers and retail traders stay up all night reading researc=
+h reports and decide to buy some stock in the morning. Most days, most stoc=
+ks will open at a price that is pretty close to the price they closed at th=
+e day before. But sometimes there will be big jumps: If a company=E2=80=99s=
+ stock closes at 4 p.m. at $45 (i.e., the price in the closing auction is $=
+45), and then it=C2=A0announces good or bad earnings at 4:15, it might open=
+ at $50 or $40 the next morning (i.e., the price in the opening auction wil=
+l be a lot higher or lower).</p>
+<p style=3D"margin: 16px 0;">The opening auction is where the day=E2=80=99s=
+=C2=A0<em>price discovery=C2=A0</em>happens: All the =E2=80=9Creal=E2=80=9D=
+ investors, pension managers and hedge funds and retail traders on Robinhoo=
+d, have updated their views on value overnight, and then they meet at 9:30 =
+in the opening auction and work out what the market-clearing price is.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">Notice that in Method 3 you don=E2=80=99t real=
+ly need market makers: All the =E2=80=9Creal=E2=80=9D buyers who want to ow=
+n the stock show up to buy, and all the =E2=80=9Creal=E2=80=9D sellers who =
+own stock and want to get rid of it show up to sell, and they all trade at =
+the same time at a price that balances their supply and demand. Market make=
+rs are necessary in a central=C2=A0limit order book, because they intermedi=
+ate between real buyers and sellers who want to trade at different times, b=
+ut the auction solves that problem in a different way.</p>
+<p style=3D"margin: 16px 0;">Also, market makers probably don=E2=80=99t=C2=
+=A0<em>want=C2=A0</em>to trade in the opening auction. A market maker does =
+not have a deeply informed view about the fundamental value of a stock; it =
+just tries to turn over inventory quickly and do trades at pretty close to =
+the previous trade. At 9:30 a.m.,=C2=A0<em>there is no previous trade</em>.=
+<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0The market is just waking up, there is news to digest from the pr=
+evious 17.5 hours without trading, and lots of informed fundamental investo=
+rs have been digesting it and are now trying to figure out the right price.=
+ The market makers have no advantage, and will want to stay out of the way.=
+</p>
+<p style=3D"margin: 16px 0;">And so there=E2=80=99s an opening auction amon=
+g mostly real investors, and it sets the opening price, and a bunch of shar=
+es trade at that price, and then a millisecond later normal trading starts.=
+ And when normal trading starts, the market makers put in their orders to b=
+uy and sell stock =E2=80=94=C2=A0probably to buy it for about a penny less =
+than the opening price, and to sell it for about a penny more than the open=
+ing price =E2=80=94=C2=A0and regular orders arrive to trade with them, and =
+the price moves around with supply and demand, and the market operates with=
+ a central limit order book for the next 6.5 hours.</p>
+<p style=3D"margin: 16px 0;">Yesterday the New York Stock Exchange made one=
+ teeny little mistake: <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/30358593.259449/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kb3plbnMtb2Ytbn=
+lzZS1zdG9ja3MtaGFsdGVkLWluLW9wZW5pbmctbWludXRlcy1hZnRlci13aWxkLXByaWNlLXN3a=
+W5ncy0xMTY3NDU4NTk2Mj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB=
+b022279e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> It forgot to do some opening auctions</a>.</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A technical glitch at the New York Stock Excha=
+nge on Tuesday briefly caused wild price swings and a temporary trading fre=
+eze in stocks of major companies such as Exxon Mobil Corp., McDonald=E2=80=
+=99s Corp. and Walmart Inc.</p>
+<p style=3D"margin: 16px 0;">Hundreds of stocks experienced erroneous price=
+s as a result of the incident, the biggest snafu to hit a U.S. stock exchan=
+ge in several years, according to a spreadsheet of affected securities rele=
+ased by the NYSE.</p>
+<p style=3D"margin: 16px 0;">The NYSE said in an accompanying notice to tra=
+ders that, due to a =E2=80=9Csystem issue,=E2=80=9D it had failed to carry =
+out an opening auction in a number of stocks. The opening auction is the cr=
+itical process at 9:30 a.m. ET each day that determines the official, begin=
+ning-of-day prices for stocks listed on the exchange.</p>
+<p style=3D"margin: 16px 0;">Without a reliable official opening price, som=
+e stocks traded at unusually low or high prices as the trading day began. T=
+hat in turn caused sharp price swings, triggering trading halts under marke=
+t rules designed to curb extreme volatility.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s a real mess,=E2=80=9D sa=
+id Dennis Dick, founder of Triple D Trading, a proprietary trading firm. =
+=E2=80=9CI=E2=80=99ve traded for 22 years, and I=E2=80=99ve never seen the =
+opening cross at NYSE go haywire.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Intuitively, what seems to have happened is th=
+at if you woke up at 7 a.m. and put in an order with your broker to buy 500=
+ shares of Walmart at the open, and then you went off to work at your job a=
+nd forgot about it, your broker probably put in a market order to buy 500 s=
+hares in the opening auction. And then there was no opening auction. So you=
+r order got sent to the central limit order book to execute as a normal tra=
+de, instead of executing in the opening auction.</p>
+<p style=3D"margin: 16px 0;">There are two big problems with that. One is t=
+hat, at 9:30:00, the central limit order book is <em>empty</em>. The market=
+ makers who intermediate trades in time are=C2=A0<em>waiting=C2=A0</em>on t=
+he opening auction to populate the order book; if the auction doesn=E2=80=
+=99t happen and CLOB trading opens anyway, there=E2=80=99s no one there to =
+buy from the sellers and sell to the buyers. I mean, not literally no one =
+=E2=80=94=C2=A0somebody has put in limit orders to buy and sell =E2=80=94=
+=C2=A0but the professional electronic market makers whose job it is to post=
+ prices in a tight range have not really shown up yet in meaningful size. S=
+o the order book is thinly populated, and any new orders =E2=80=94=C2=A0lik=
+e your order to buy 500 shares =E2=80=94=C2=A0can move the price more.</p>
+<p style=3D"margin: 16px 0;">The other problem is that the=C2=A0orders in t=
+he opening auction can be=C2=A0<em>big</em>. If you are looking to buy 10,0=
+00 shares at the market price at 11:15 a.m., you will break that into small=
+er orders and be tactical about how you trade it, because you know that sen=
+ding a 10,000-share market order can crash through the order book and get y=
+ou a terrible price. But if you are looking to buy 10,000 shares at the mar=
+ket price at 9:30 a.m., you might just put in a 10,000-share market-on-open=
+ order, because you know that lots of people want to trade in the opening a=
+uction and so you will get a good price.</p>
+<p style=3D"margin: 16px 0;">If there is no auction, and=C2=A0your 10,000-s=
+hare market order gets sent to the regular order book instead, then NYSE ha=
+s effectively fat-fingered you. It sent your <em>unusually large</em> order=
+ into an <em>unusually thin</em> order book. And so the stock crashes, or s=
+oars, depending on whether you are buying or selling.</p>
+<p style=3D"margin: 16px 0;">The details=C2=A0are still a little vague and =
+I am being approximate here. You might ask: =E2=80=9CWell, if there are a l=
+ot of orders to buy a lot of shares and a lot of orders to sell a lot of sh=
+ares and they all got sent to the regular order book at the same time, woul=
+dn=E2=80=99t they trade with each other and cancel out and lead to pretty n=
+ormal prices,=E2=80=9D but that is apparently not quite=C2=A0how it works. =
+The thing about an auction is that all the orders execute at once; in a cen=
+tral limit order book they execute in some sequential=C2=A0order. You could=
+ imagine NYSE looking at its list of orders, seeing a market sell order, ex=
+ecuting it against the few resting limit buy orders, crashing the price dow=
+n, looking at the next order, seeing a market buy order, and executing it a=
+gainst the few resting limit sell orders, shooting the price right back up =
+again. And that=E2=80=99s how you get =E2=80=9Csharp price swings, triggeri=
+ng trading halts.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway in the grand scheme of things this does=
+n=E2=80=99t matter: Yesterday=E2=80=99s opening=C2=A0<em>did=C2=A0</em>matc=
+h buyers and sellers, over time, and find the market price, just in a harro=
+wing and chaotic way. If you traded at the wrong price, it mattered to you,=
+ since you made or lost money, though a lot of those trades <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMjQvbnlzZS1zYXlzLWNlcnRhaW4t=
+b3JkZXJzLXdpbGwtYmUtY2FuY2VsZWQtYWZ0ZXItc3lzdGVtLWlzc3VlP2NtcGlkPUJCRDAxMjU=
+yM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIzMDEyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1=
+eaa4407" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  will be busted</a> because they were =E2=80=9Cclearly er=
+roneous.=E2=80=9D NYSE has a sensible market structure for its 9:30:00 a.m.=
+ trading, and a sensible market structure for its 9:30:01 a.m. trading, and=
+ they are=C2=A0<em>very different</em>, and if you mix them up you get a me=
+ss.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD4e0a5ef4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE4e0a5ef4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFddc6434f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGddc6434f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH7e91d73d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI7e91d73d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Around here I <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlb=
+WUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDAx=
+MjUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIzMDEyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cBfb71cb65" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  like</a> to <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDEtMjMvZXZlcnl0aGluZy1pcy1hbHNvLWJhbmstZnJhdWQ_Y21waW=
+Q9QkJEMDEyNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMwMTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cBe2568ef7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  say</a> that every bad thing that a public =
+company does is also securities fraud. It does the bad thing, it does not i=
+mmediately tell shareholders about the bad thing, later the shareholders fi=
+nd out about the bad thing, the stock drops, and the shareholders sue, sayi=
+ng =E2=80=9Cwe were tricked into buying your stock because you lied to us a=
+bout not doing the bad thing.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">This is I think a broadly correct description =
+of how US securities class actions work in practice, but it is not a techni=
+cally accurate description of the law, and it is missing some nuance. For o=
+ne thing, <em>simply not mentioning</em> a bad thing might not be enough to=
+ create securities-fraud liability: To sue and win, shareholders will need =
+to point to some misleading statement that the company=C2=A0<em>did=C2=A0</=
+em>make. (So sexual harassment might be securities fraud if a company has a=
+ stated policy forbidding sexual harassment,=C2=A0or a risk factor in its a=
+nnual report saying =E2=80=9Cwe rely on the services of our chief executive=
+ officer and would have problems if he was a sexual harasser=E2=80=9D but n=
+ot mentioning that he is.)</p>
+<p style=3D"margin: 16px 0;">For another thing, there will be arguments abo=
+ut whether the misstatements or omissions were=C2=A0<em>material=C2=A0</em>=
+to investors. If shareholders say =E2=80=9Cwe bought your stock because you=
+ lied to us and told us you were ethical, and we believed you,=E2=80=9D a p=
+lausible answer would be: =E2=80=9CNo you didn=E2=80=99t, you didn=E2=80=99=
+t care about our ethics, they don=E2=80=99t matter to our stock price and=
+=C2=A0you were not actually defrauded.=E2=80=9D (This was <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMjIvZXZlcnl0aGluZy1zdGlsbC=
+1taWdodC1iZS1zZWN1cml0aWVzLWZyYXVkP2NtcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6b7c9f28" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  rou=
+ghly the issue</a> in a 2021 Supreme Court case about Goldman Sachs Group I=
+nc. and the =E2=80=9Ceverything is securities fraud=E2=80=9D theory.)</p>
+<p style=3D"margin: 16px 0;">One way to synthesize these points is that the=
+re are some areas of corporate behavior where a company can be=C2=A0<em>goo=
+d=C2=A0</em>or=C2=A0<em>bad</em>, but these areas are <em>not relevant to s=
+hareholders</em>. That is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The shareholders do not care about th=
+ese areas of behavior; they do not evaluate whether a company behaves well =
+or badly in these areas, and those questions do not inform their buying and=
+ selling decisions.</li>=09<li style=3D"margin-bottom: 5px;">Companies do n=
+ot talk about these areas of behavior in their public filings.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">If it turns out that a company is bad in these=
+ areas, the stock doesn=E2=80=99t usually drop.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Like one bad thing that a public company could=
+ do is that its executives could have really bad fashion sense and dress re=
+ally badly. (Not a high fashion company I mean, just like a software compan=
+y or whatever.) That would be <em>bad</em>, in some aesthetic sense, but it=
+ would not be=C2=A0<em>securities fraud</em>. Investors would not make inve=
+sting decisions based on executive fashion, the company would not make any =
+claims about it in its=C2=A0filings, and if a photo emerged of a badly dres=
+sed executive the stock would not drop.=C2=A0</p>
+<p style=3D"margin: 16px 0;">These categories are fuzzy, though; there are =
+some categories that investors once did not care about but now=C2=A0do, som=
+e sorts of behavior that sometimes cause stock drops and sometimes don=E2=
+=80=99t, some things that are obliquely hinted at in securities filings. Se=
+xual harassment scandals, for instance, seem more likely to cause business =
+consequences and stock drops now than they did 10 years ago, financial deci=
+sion-makers <a href=3D"https://link.mail.bloombergbusiness.com/click/303585=
+93.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtM=
+DgtMDIvLW1ldG9vLWlzLWEtZHVlLWRpbGlnZW5jZS1pc3N1ZS1ub3c_Y21waWQ9QkJEMDEyNTIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwMTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBad5c=
+686d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  ask about them more frequently</a>, and they are probably c=
+overed by companies=E2=80=99 disclosed ethics policies. You could argue tha=
+t 10 years ago executive sexual harassment was bad but not securities fraud=
+, but now it is also securities fraud.</p>
+<p style=3D"margin: 16px 0;">One rough way to think about the =E2=80=9Cever=
+ything is securities fraud=E2=80=9D theory is that, once upon a time,=C2=A0=
+<em>most=C2=A0</em>sorts of corporate behavior fell into these categories =
+=E2=80=94=C2=A0investors were presumed not to care about them, they weren=
+=E2=80=99t discussed in filings, etc. =E2=80=94=C2=A0and the=C2=A0<em>only=
+=C2=A0</em>area that mattered was, like, financial results. =E2=80=9CSecuri=
+ties fraud=E2=80=9D meant lying about earnings. And then over time various =
+areas of corporate behavior =E2=80=94=C2=A0executive ethics, cybersecurity,=
+ etc. =E2=80=94=C2=A0<em>became=C2=A0</em>things that companies disclosed a=
+nd investors were presumed to care about, and so now shareholders can sue c=
+ompanies if bad things happen in those areas.</p>
+<p style=3D"margin: 16px 0;">Surely the biggest and most important example =
+of this shift is ESG. Stereotyping very crudely, once upon a time investors=
+ did not care about the environmental, social and governance behavior of pu=
+blic companies, and now they care very much. For many investors, these are=
+=C2=A0<em>the most=C2=A0</em>important factors; many investors have =E2=80=
+=9CESG=E2=80=9D (or =E2=80=9Csustainable,=E2=80=9D etc.) right in their fun=
+d names. And companies produce increasing amounts of disclosure about ESG, =
+in part because that=E2=80=99s what investors want but in large part becaus=
+e it=E2=80=99s what <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjItMDMtMjIvdGhlLXNlYy13aWxsLXJlZ3VsYXRlLWNsaW1hdGU_Y21waWQ9QkJEMDEyNTIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwMTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa702=
+572a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  regulators demand</a>.</p>
+<p style=3D"margin: 16px 0;">And so you could imagine 20 years ago thinking=
+ =E2=80=9Ccompanies produce financial statements, investors read the financ=
+ial statements and use them to make investing decisions, and if the financi=
+al statements are wrong that is securities fraud.=E2=80=9D And now you coul=
+d imagine thinking =E2=80=9Ccompanies produce ESG statements, investors rea=
+d the ESG statements and use them to make investing decisions, and if the E=
+SG statements are wrong that is securities fraud.=E2=80=9D The ESG statemen=
+ts haven=E2=80=99t=C2=A0<em>replaced=C2=A0</em>the financial statements, bu=
+t they exist parallel to them, and they are =E2=80=A6=C2=A0perhaps not equa=
+lly important, but certainly important enough to produce <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMjUvY2xhc3MtYWN0aW9uLXdhdmUtaXM=
+tY29taW5nLWZvci1lc2ctY2xhaW1zLWdyZWVuLWluc2lnaHQ_Y21waWQ9QkJEMDEyNTIzX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jMwMTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe51abedb" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  lots and lots of lawsuits</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Lawyers are bracing for an increase in ESG-rel=
+ated cases as corporate disclosure requirements stiffen around the world.</=
+p>
+<p style=3D"margin: 16px 0;">A survey by the law firm Norton Rose Fulbright=
+ found that 28% of more than 430 general counsel and in-house litigation le=
+aders said their so-called ESG dispute exposure increased in 2022, and 24% =
+expect it to deepen over the next 12 months. The key reasons are the absenc=
+e of clear environmental, social and governance metrics and requirements, a=
+nd the heightened regulatory scrutiny on the importance of ESG.</p>
+<p style=3D"margin: 16px 0;">The issue has joined employment and labor disp=
+utes,=C2=A0cybersecurity and data protection in what Norton Rose refers to =
+as =E2=80=9Cclass-action areas of future concern.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The growing attention of corporate litigators =
+in industries ranging from financial services to technology corresponds wit=
+h the growing tide of class actions tied to greenwashing. This is partly du=
+e to the California=E2=80=99s plaintiffs=E2=80=99 bar having =E2=80=9Cfigur=
+ed out the blueprint for how to bring these cases,=E2=80=9D according to No=
+rton Rose. In a nutshell, this means companies that put out generalized ESG=
+ statements will sometimes find themselves as targets in product-specific c=
+ases.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you make a product that is bad for the envi=
+ronment, that didn=E2=80=99t use to be securities fraud, but it sure is now=
+.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ613ee98d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SOFR</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For a long time, most floating-rate corporate=
+=C2=A0loans in the US were priced off Libor, the London interbank offered r=
+ate, a publicly reported index of bank borrowing costs. A company would bor=
+row money at Libor plus some spread, with the spread compensating its lende=
+rs for the credit risk they take by lending to the company. A loan would ha=
+ve an interest rate like =E2=80=9CLibor + 300,=E2=80=9D and then every thre=
+e months you=E2=80=99d look at what three-month dollar Libor was and add 30=
+0 basis points to it and that would be the interest rate on the loan. And t=
+hen three months later you=E2=80=99d do it again.</p>
+<p style=3D"margin: 16px 0;">Then Libor fell into disrepute, and regulators=
+ made a big effort to get rid of Libor and replace it with other, more reli=
+able rates. In the US, this <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/30358593.259449/aHR0cHM6Ly93d3cubmV3eW9ya2ZlZC5vcmcvYXJyYy9zb2ZyL=
+XRyYW5zaXRpb24/607f07ceef4b8524a319a23cBe19d6a0b" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> meant mainly SOF=
+R</a>, the Secured Overnight Financing Rate. (And other, longer-term rates =
+that are derived from SOFR: SOFR is, as the name suggests, an overnight rat=
+e, but you can get things like =E2=80=9C<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuY21lZ3JvdXAuY29tL21hc=
+mtldC1kYXRhL2NtZS1ncm91cC1iZW5jaG1hcmstYWRtaW5pc3RyYXRpb24vdGVybS1zb2ZyLmh0=
+bWw/607f07ceef4b8524a319a23cB4e9b2719" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">3-month term SOFR</a>=E2=80=
+=9D from derivatives markets.) So now you could have a loan with an interes=
+t rate like =E2=80=9CSOFR + 300,=E2=80=9D and every three months you=E2=80=
+=99d look at three-month SOFR and etc. Same basic idea, different index.</p=
+>
+<p style=3D"margin: 16px 0;">For our purposes, one important fact about SOF=
+R is that it is=C2=A0<em>lower=C2=A0</em>than Libor: SOFR is a secured rate=
+ (lending against Treasury collateral), Libor is an unsecured rate (lending=
+ to banks against their credit), and it should be cheaper to borrow secured=
+ than unsecured. Exactly how much lower SOFR is than Libor on any particula=
+r day depends on economic conditions, market moods, etc. But, generally, lo=
+wer.</p>
+<p style=3D"margin: 16px 0;">One thing this means is that if you are a comp=
+any and you want to borrow money, your bank might recommend that you get a =
+loan priced off SOFR rather than Libor. SOFR is the way of the future, Libo=
+r is in disrepute and slowly being phased out, the market wants SOFR, so yo=
+u get a SOFR loan. The bank will quote you some price like SOFR + 300, and =
+that=E2=80=99s the loan you=E2=80=99ll get. Libor won=E2=80=99t even enter =
+into it. The price =E2=80=94=C2=A0the spread, the 300 basis points you pay =
+over SOFR =E2=80=94=C2=A0is just set by market demand for the loan.</p>
+<p style=3D"margin: 16px 0;">Another thing it means is that if you are a co=
+mpany and you <em>already=C2=A0</em>have a loan and the loan is priced at L=
+ibor + 300, you might want to=C2=A0<em>change=C2=A0</em>the terms of the lo=
+an, to make it priced off of SOFR. SOFR is the future, Libor is going away,=
+ etc., why not update your loan to use the modern index? But SOFR is=C2=A0<=
+em>lower=C2=A0</em>than Libor. Three-month Libor is about 4.82% today; if y=
+our loan is priced at Libor + 300, you=E2=80=99re paying something like 7.8=
+2% interest. Three-month term SOFR is about 4.67% today, 15 basis points lo=
+wer than Libor. If you want to switch your Libor loan into a SOFR loan, tod=
+ay, you would need to make your Libor + 300 loan into a SOFR + 315 loan to =
+make the actual interest payments the same. If you kept the spread the same=
+ =E2=80=94=C2=A0if you switched from Libor + 300 to SOFR + 300 =E2=80=94=C2=
+=A0then you=E2=80=99d be paying less. Your lenders wouldn=E2=80=99t like th=
+at.</p>
+<p style=3D"margin: 16px 0;">In practice the way you do this is by adding a=
+ =E2=80=9Ccredit spread adjustment=E2=80=9D to the loan: You keep the thing=
+ called the =E2=80=9Cspread=E2=80=9D the same, at 300 basis points, and you=
+ add a new contractual term called a =E2=80=9Ccredit spread adjustment=E2=
+=80=9D intended to compensate for the switch from Libor to SOFR. Then your =
+interest rate is (1) SOFR plus (2) the spread plus (3) the credit spread ad=
+justment. And there is sort of <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjMtMDEtMjQvZmVkLXVwLWNsby1idXllcnMtcHVzaC1tYW5hZ2Vycy10by1yZWplY=
+3QtdGVybXMtb2YtbGlib3Itc3dpdGNoP2NtcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB025a96fb" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> a stand=
+ard for what that is</a>, based on the average difference between Libor and=
+ SOFR over time:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Alternative Reference Rates Co=
+mmittee, the Federal Reserve backed group in charge of overseeing the Libor=
+ transition in the US, recommended borrowers provide adjustments of 11 basi=
+s points and 26 basis points for loans tied to one- and three-month Libor, =
+respectively.</p></blockquote>
+<p style=3D"margin: 16px 0;">Now. You could imagine different ways that thi=
+s transition might go. You could imagine =E2=80=94=C2=A0<a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgtMjcvdGhlLWxpYm9yLWNoYW5nZS1p=
+cy1jb21pbmc_Y21waWQ9QkJEMDEyNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cB224407a7" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">and I did, once</a> =E2=80=94=
+=C2=A0banks calling up borrowers and saying =E2=80=9Chey, I see you have a =
+Libor loan, let me switch you into a shiny new SOFR loan,=E2=80=9D and doin=
+g that in a way that made the banks money. You have a complicated trade, yo=
+u restructure it into a different complicated trade, that=E2=80=99s just a =
+classic place for a bank to make money. With a loan I am not sure there is =
+too much complicated opportunity, but I guess you can add a 30 basis point =
+credit spread adjustment and charge a fee too.</p>
+<p style=3D"margin: 16px 0;">But it could go the other way. You could imagi=
+ne the borrowers calling up the banks and saying=C2=A0 =E2=80=9CI want my L=
+ibor loan to be SOFR=E2=80=9D and the banks saying =E2=80=9Csure, but we ne=
+ed to add an 11 basis point credit spread adjustment=E2=80=9D and the borro=
+wers saying =E2=80=9Cwhat, no, that sounds like a scam, I want the same loa=
+n but with SOFR,=E2=80=9D and the banks saying =E2=80=9Cugh fine I guess wh=
+atever.=E2=80=9D That is not my usual experience of banks. On the other han=
+d a lot of leveraged corporate loans are not held by=C2=A0<em>banks</em>, p=
+er se, but by collateralized loan obligations, and I guess their negotiatin=
+g tactics are different? Bloomberg=E2=80=99s=C2=A0Carmen Arroyo and Paula S=
+eligson <a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.2=
+59449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMjQvZ=
+mVkLXVwLWNsby1idXllcnMtcHVzaC1tYW5hZ2Vycy10by1yZWplY3QtdGVybXMtb2YtbGlib3It=
+c3dpdGNoP2NtcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cC025a96fb" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Buyers of the riskiest slice of collateralized=
+ loan obligations are stepping up efforts to ensure the transition from Lib=
+or doesn=E2=80=99t end up costing them millions of dollars in potential ret=
+urns.</p>
+<p style=3D"margin: 16px 0;">Roughly 70 CLO equity investors attended a cal=
+l hosted by Eagle Point Credit Management earlier this month where particip=
+ants discussed pushing CLO managers to advocate harder for their economic i=
+nterests, multiple firms that attended the meeting confirmed to Bloomberg.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">They=E2=80=99re particularly frustrated that s=
+ome borrowers have been able to switch their existing loans to the Secured =
+Overnight Financing Rate without including an adjustment blessed by industr=
+y officials that=E2=80=99s meant to compensate for the fact that SOFR consi=
+stently prints below Libor, allowing companies to reap significant savings =
+at their expense. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe regulators did not intend for the=
+ Libor-SOFR transition to create a windfall for private equity sponsors and=
+ loan issuers,=E2=80=9D said Dan Ko, principal and portfolio manager at Eag=
+le Point.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is more from Seligson <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMjAvbGV2ZXJhZ2VkLWxvYW4taW52ZXN0=
+b3JzLWxvc2luZy1taWxsaW9ucy1vbi1saWJvci10by1zb2ZyLXN3aXRjaC1maWdodC1iYWNrP2N=
+tcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB5521ed0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> last month</a>. Basically borrowers ask t=
+o amend their Libor loans to make them SOFR loans with the same spreads and=
+ no adjustments, and lenders are like =E2=80=9Csure whatever I guess=E2=80=
+=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">For months, lenders largely let them get away =
+with it.=C2=A0The reasons varied. Opinions differed among investors on whic=
+h deals were worth fighting over, and some saw diminishing returns from qui=
+bbling over a few basis points when the Fed was jacking up rates.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Moreover, they simply weren=E2=80=99t organize=
+d enough to block the proposals, especially those tied to loans with so-cal=
+led negative consent clauses, which comprise about 30% of the market, accor=
+ding to Covenant Review data. Those clauses, which Allied Universal had, re=
+quire more than half of creditors to actively vote to reject amendments, in=
+ contrast to a typical loan where debtholders must vote yes for an amendmen=
+t to pass.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One broad point here is that the traditional w=
+ay to think about bank lending is that the=C2=A0<em>lenders=C2=A0</em>are s=
+ophisticated finance professionals and the=C2=A0<em>borrowers=C2=A0</em>are=
+ not: Banks are in the business of making and pricing and negotiating loans=
+; corporate borrowers are in the business of retailing or software or manuf=
+acturing or whatever. The banks are repeat players who know the loans insid=
+e and out and can negotiate in ways that consistently advantage them; the c=
+orporate borrowers have to take what the banks give them.</p>
+<p style=3D"margin: 16px 0;">But in modern leveraged finance it is almost t=
+he opposite? Lenders are not (mainly) banks but CLOs, vehicles with weird i=
+ncentives and coordination problems. Borrowers meanwhile are not mainly wid=
+get manufacturers but, as Ko says, =E2=80=9Cprivate equity sponsors,=E2=80=
+=9D sophisticated repeat players who are good at making money by extracting=
+ it from lenders. If regulators decide to change how bank loans work, tradi=
+tionally that should be good for the banks. But now it=E2=80=99s good for t=
+he borrowers.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Every financing round that Elon Musk has ever done has been oversubsc=
+ribed</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">That=E2=80=99s what he said, in court,=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMjQvZWxvbi1=
+tdXNrLW5ldmVyLWpva2VzP2NtcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb867dc7a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  yesterday</a>! T=
+oday <a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.2594=
+49/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbG9uLW11c2stZXhwbG9yZXMtcmFpc2lu=
+Zy11cC10by0zLWJpbGxpb24tdG8tcGF5LW9mZi10d2l0dGVyLWRlYnQtMTE2NzQ2Njk0MTI_bW9=
+kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cB90d2a814" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> the Wall St=
+reet Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk=E2=80=98s team has been exploring us=
+ing as much as $3 billion in potential new fundraising to help repay some o=
+f the $13 billion in debt tacked onto Twitter Inc. for his buyout of the co=
+mpany, people familiar with the matter said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In mid-December, Mr. Musk=E2=80=99s team reach=
+ed out to new and existing backers about raising new equity capital at the =
+original Twitter takeover price.</p>
+<p style=3D"margin: 16px 0;">Mr. Musk=E2=80=99s advisers had hoped to reach=
+ a deal to raise cash at the initial takeover price by the end of 2022, acc=
+ording to an email sent to prospective investors at the time. However, some=
+ prospective backers said they balked at the terms, given concerns about Tw=
+itter=E2=80=99s financial performance. The Musk team didn=E2=80=99t specify=
+ a funding amount or purpose for the fundraise in the email.</p>
+<p style=3D"margin: 16px 0;">Fidelity, one of the co-investors that backed =
+Mr. Musk=E2=80=99s takeover of Twitter, has written down its stake in Twitt=
+er by 56%, public filings show, suggesting Mr. Musk would face an uphill ba=
+ttle raising funds at the original valuation from outside investors.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If he gets $6 billion in orders for a $3 billi=
+on financing round at the original takeover price =E2=80=A6=C2=A0I don=E2=
+=80=99t even know what to say. That would be amazing. He also testified tha=
+t he has raised =E2=80=9Cmore money than anyone in history by a significant=
+ margin,=E2=80=9D so he=E2=80=99s good at raising money and has devoted fan=
+s, but even for him this seems like a heavy lift.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Rupert Murdoch <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9ydXBlcnQtbXVyZG9jaC13aXRoZHJhd3MtcHJvcG9zYWwtdG8tbWVyZ2UtZm94LWNvcnAt=
+YW5kLW5ld3MtY29ycC0xMTY3NDU5NjY3OT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b=
+8524a319a23cB0a10c0b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Withdraws Proposal</a> to Merge Fox Corp. a=
+nd News Corp.=C2=A0How Cash-Needy Private Companies Are <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMjUvaGlnaC1pbnRlcmVzdC1yYXRlcy1m=
+b3JjZS1zdGFydHVwcy1pbnRvLWNyZWF0aXZlLWRlYWxzLXRvLWF2b2lkLWRvd24tcm91bmRzP2N=
+tcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cBe495af51" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  Avoiding Dreaded Down Rounds</a>. Jitter=
+y Investors <a href=3D"https://link.mail.bloombergbusiness.com/click/303585=
+93.259449/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qaXR0ZXJ5LWludmVzdG9ycy10d=
+XJuLXRvLWNhc2gtaW4taHVudC1mb3IteWllbGQtMTE2NzQ2MTU1MTU_bW9kPWhwX2xlYWRfcG9z=
+NQ/607f07ceef4b8524a319a23cB126c8adb" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Turn to Cash</a> in Hunt for=
+ Yield.=C2=A0US <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DEtMjUvaGluZGVuYnVyZy1zLWFuZGVyc29uLXR1cm5zLXNpZ2h0cy1vbi1hZGFuaS1hZnRlci1l=
+di1zcGFjLXdpbnM_Y21waWQ9QkJEMDEyNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTI1JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cB8acafbeb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Short Seller</a> Takes=
+ On Asia=E2=80=99s Richest Man After Targeting Nikola and Twitter.=C2=A0How=
+ a prestigious <a href=3D"https://link.mail.bloombergbusiness.com/click/303=
+58593.259449/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOWQzMzQ1ZmItY2YxOS00YzRlLW=
+FjMjYtNTgyZGMwYjZmNzQx/607f07ceef4b8524a319a23cBd0b6c6d3" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Wall Str=
+eet law firm</a> got caught up in FTX=E2=80=99s chaos.=C2=A0BlockFi <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAyMy8wMS8yNC9ibG9ja2ZpLXNlY3JldC1maW5hbmNpYWxzLXNob3ct=
+MXBvaW50Mi1iaWxsaW9uLXRpZS10by1mdHgtYW5kLWFsYW1lZGEuaHRtbD9fX3NvdXJjZT10d2l=
+0dGVyJTdDbWFpbg/607f07ceef4b8524a319a23cB5dd9556a" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> secret financia=
+ls</a> show a $1.2 billion relationship with Sam Bankman-Fried=E2=80=99s cr=
+ypto empire. Josh Kushner Is <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDEtMjQvam9zaC1rdXNobmVyLWlzLXJpY2hlci10aGFuLXRydW1wLWFmdGVyLWJ=
+pbGxpb25haXJlcy1iYWNrLWhpcy1maXJtP2NtcGlkPUJCRDAxMjUyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDEyNSZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd9088571" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Rich=
+er Than Trump</a> After Billionaires Back His Firm. A Startup Is Turning Po=
+rta-Potties Into <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0358593.259449/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMt=
+MDEtMjUvYS1zdGFydHVwLWlzLXR1cm5pbmctcG9ydGEtcG90dGllcy1pbnRvLXNvdXJjZXMtb2Y=
+tZmVydGlsaXplcj9jbXBpZD1CQkQwMTI1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMjUmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cBe432dcba" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Sources of Fertilizer<=
+/a>. Scientists Have Just Created a Black Hole in The Lab, And It Has Unexp=
+ectedly <a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.2=
+59449/aHR0cHM6Ly9ibG9nLnBoeXNpY3MtYXN0cm9ub215LmNvbS8yMDIyLzExL3NjaWVudGlzd=
+HMtY3JlYXRlZC1ibGFjay1ob2xlLWluLWxhYi5odG1s/607f07ceef4b8524a319a23cB203299=
+08" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Started to Glow</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30358593.259449/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB1e81b45d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30358593.259449/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7353ba82" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] If you want to buy a share of stock for, l=
+ike, $10 less than the market price, you can go ahead and put in an unmarke=
+table limit order and wait. Or there are dark pools that focus on crossing =
+natural investor interest, where you might wait a while.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This paragraph is a little bit loose. It i=
+s often useful for intuition to assume that limit orders come from market m=
+akers and market orders come from =E2=80=9Creal investors=E2=80=9D: You and=
+ I want immediacy and so we trade at whatever the market price is, paying t=
+he spread, but electronic market makers are in the business of providing th=
+at immediacy and so they put in resting limit orders and earn the spread. I=
+n reality the division is not nearly so neat: Real investors often use limi=
+t orders that rest on the book for a while, and market makers often cross t=
+he spread for risk management, etc. reasons. In the text I will keep it sim=
+ple, assuming that if we want to trade we use market orders and the limit o=
+rders of market makers are on the other side.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I mean, I guess Method 1 would also be a C=
+LOB, just without market makers, but we=E2=80=99re not going to discuss it =
+any further.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Modern markets have circuit breakers and <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aHR=
+0cHM6Ly93d3cubHVsZHBsYW4uY29tLw/607f07ceef4b8524a319a23cBa3d025bb" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ limit-up/limit-down bands</a> to prevent this from happening at *too* low =
+a price, but the idea is generally right at some scale.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] This is not really true; there are extende=
+d sessions for trading before and after the regular hours. But it=E2=80=99s=
+ true-ish.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Again, there is =E2=80=94 in the extended =
+session =E2=80=94 but this is basically right.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBad41f40a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB41dae991" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf41487dd" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB36696a93" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDM1ODU5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA2MTgwNDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK746b1775" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30358593&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBcca5b0f3" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30358593.259449/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5f3a0d5e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30358593.259449/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBdd6417f0" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30358593.259449/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8a4fd034" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB4=
+62cde2e" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30358593.259449/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+cd0ad9b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D303585=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D303585=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D303585=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D303585=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D303585=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30618042&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci2ou9.5k6x/b7b63d52.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_758860_1173957739.1674675413692--
+

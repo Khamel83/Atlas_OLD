@@ -1,0 +1,1791 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7ed0:0:b0:1aa:da54:354f with SMTP id o16csp1697485lkl;
+        Mon, 4 Apr 2022 10:32:59 -0700 (PDT)
+X-Received: by 2002:a05:600c:2304:b0:38e:4748:d902 with SMTP id 4-20020a05600c230400b0038e4748d902mr175248wmo.177.1649093578944;
+        Mon, 04 Apr 2022 10:32:58 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1649093578; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=CAhwyLjdtXU068Hk8K00V73jvl46B6WKiDK8ocoWxUb8MUQY+hBOiPmn0hQrSRgkQ+
+         yy8wnNwBDfNh0QaJCe5Mhfxz5i/YiehoY/8Zly3ANCJHKgJB1A0MESIWFOwc3HU09rQI
+         1O7ta2gmtMeYeVc/YlnRveRik6/rsxZpZ4QEbXN9JgzNZnp7PUAS+aduuFQp+QqeEjRj
+         R0eqfytEhF1SwBj3nV/RQJJsXblCs6bUDm7JK5Dg6sRixwjaInh2FdnSLQ3rNzEo98Hc
+         HV1qVhPvxePBoEny9Vyk3yewd4W4Je5pAkaTIqi3RlJ7eSL/5+melZuPD3jq+7bcbqbt
+         vA3w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=2J3KiF5I79sSkaxPNrdddjTzYzfF1tTcuSY4sgPECPs=;
+        b=sX3NFaiFVuEhRDmMsBczc4Yg/22Eb7e3j2dqtFr3undQ7YvK+ZkZpgy6mCpoVUPoNb
+         SvYvLs4f7nco19NJ4L7Bl/VGAqJ5BN7z/TppuNpiyHRO4OKxxD7P56vWEGBkndpS7mnQ
+         Db9m0jJopTlMQZP3xRfRBMg8lIaRWyy4KIfDSNav5uipAPM44VNCnDSDwOzU2h5YWSzE
+         MPwk4u3OYih/RnKqeceVA/iD46AUlcFpAvbCGF6e6EJaHA29IYn0arSsYaHHYJyXNeYN
+         LI2apFXJy2Z5u9HbcoydI7H0wZuWzN6nkdn3RX05kTaTLg6/+9JIH8nopwN6zS5mhPh/
+         2YyQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=5Ab98Aj4;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h5-20020a5d4fc5000000b00205cbb0b554sor5937475wrw.14.2022.04.04.10.32.58
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 04 Apr 2022 10:32:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=5Ab98Aj4;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=2J3KiF5I79sSkaxPNrdddjTzYzfF1tTcuSY4sgPECPs=;
+        b=cQO8hKuTPqcKa6+GxNB7YLOCWr+KPfGFltfW+p95/IppVHvxdtONJfr23QiJ+eWQw0
+         Kwx1Z8+CW7CGmiU3lrrKjdf+6dq8PZry2AiGe+sxv0MFx+rRYcBRTUBQQ/aeu6OijuEe
+         2GPw1X8XohM8s6aML1i0tmeiqvaYLhES6Y5BHRcLkaQcDpwqekjthupm8IdwbcCmwM8Y
+         hYiroKUvlCKYWgCsqd/12LGqP1nVWIUuPUSOkKdYKHGRfPqzgXegEAZ8k6WWC1Yyfqwg
+         GLFnTCzvgLhMiRDGvEOywc6aPAoQxLfQv6DR2hAiC5/vhWKYXzeds38CaWVzyIYrcXzB
+         X/Hg==
+X-Gm-Message-State: AOAM533BkalMkw74vU5lEj4J78Pxi1oPbRbdnpeZNWQLOY398o3TqTX5
+	74s/wn4PFXaO3adp6H9htrYAi/qNzKNn/pMMRkMjj+VVRFOrdhponw==
+X-Received: by 2002:adf:cd82:0:b0:206:1305:429a with SMTP id q2-20020adfcd82000000b002061305429amr636102wrj.128.1649093578315;
+        Mon, 04 Apr 2022 10:32:58 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:694f:0:0:0:0:0 with SMTP id r15csp1282462wrw;
+        Mon, 4 Apr 2022 10:32:55 -0700 (PDT)
+X-Received: by 2002:a05:6a00:801:b0:4fd:f66a:b36c with SMTP id m1-20020a056a00080100b004fdf66ab36cmr697822pfk.68.1649093575227;
+        Mon, 04 Apr 2022 10:32:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1649093575; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=GjJd6ZEmQUKM4IDWJl1rQtaTJI6uj19xHFz0X87kG2m7m1TO+s4MJoYRWmSOIDrPWn
+         2TUayrzNCs6MOCeI4ZlmDjmHhA3YoGH/k51HHsyeJIgxhnbWKH5QAgiVx6hdyU3D30RS
+         HYL6MYIW6wEsuYGxbA0BBPiw1OaSsaJCwUDSgfamW27rEo10RSluE00Gg5H7z/LsU2y3
+         uSRb/0iH5QzK5LFhL6oJhuaDEVH88PqJZtlUyo5wrQc2dHIQCarqHcTGUsgxwyaDyDJj
+         h46yvLjSvd7VQ4rc07NXdSnYuAwEVlTJ27otBlzF4aUz6H5UNxXP+f/kf971Wf8UWDPK
+         O8Zw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2J3KiF5I79sSkaxPNrdddjTzYzfF1tTcuSY4sgPECPs=;
+        b=RPMw7J1DXS5PU2VEp4RDlE+fkXUWbNcT+MUpMDCG0beUQkzzMyJsIlaPbIGKkt6w+Y
+         nEWmGJBoa35279NmhrQp42uyqdwHQHsvIlYKtOWJHvHaBihqp/rjuTa2aT0UYXpbN/5i
+         irWQy9X1P8I8Ihy0W/Rz1HuTBQsNCvlNk0zh2BQMAi7MmqYwd4sEaT1q+plq9D9Tuw2A
+         I98bXFx5/9TuqwxnuYGQwjkfC/u4RT8KyphKHS1obrZ/kJb0fSw6otDwTMZsRFdM0a5q
+         WovvgH+1SlLFIhiyPAYj2bwhJCF0frjo0CmQCv04/hoESaCVqJwmrkqjPdJ2/qHU/a0g
+         X27A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=5Ab98Aj4;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220404133152.27253239.266604@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220404133152.27253239.266604@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220404133152.27253239.266604@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h12-20020a056a00230c00b004f6b51ee3b3sor5539032pfh.72.2022.04.04.10.32.54
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 04 Apr 2022 10:32:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220404133152.27253239.266604@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJz9mZeKtBedHarXmBiXhZ/ECAG0hJrajoQHp/m4NxAC83ZuZlGwGxifFLWoI8F3u4wJDxFKUq4LNnnVy5SHD+vEiD84vjI=
+X-Received: by 2002:a05:6a00:1c95:b0:4fa:81f5:b9d4 with SMTP id y21-20020a056a001c9500b004fa81f5b9d4mr785615pfw.49.1649093574542;
+        Mon, 04 Apr 2022 10:32:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1649093574; cv=none;
+        d=google.com; s=arc-20160816;
+        b=l/TNhIUsmMtNvcZWU/9KtFiWmfo7bLxx4U3ogWFkFpfYqdZVjsi4k7GAaQYNvpOvna
+         XDd75a+VuiZrJvSCB9UaIfQGBDQfnvwme6K6hZPTFteP38Po+P7fwguDJC2RRtypn/jG
+         rewXk2IIPOeEr7XR8fvj7UhbZefQubh8DS4Dy2FdBaUi9P8TEMCGlaw1Jf4H18tUSk/r
+         7cs3wi61mi0eUyyxBp8niXsS3l7qI3/3DoV8MPbBSutnqlp/2xGfOhgHDEuny6txRXoJ
+         u5yfLJKivm7fbSjZzDfhpPkVqW8l5trSHPFitqEdFg5duZySRz7MOUL7DVZm9LKJpk0T
+         pJAQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2J3KiF5I79sSkaxPNrdddjTzYzfF1tTcuSY4sgPECPs=;
+        b=xoKeYARoukn/ZIlUj85iuFra9weXbmepEbSYibZ8shBn+ZKC+hnJiImf3wbWAKgTQe
+         R0tRGsOEyhfsz4f45ewTtevRZwy8yI3iTjzEffmBGpkT4kp+3Yh9w0U6yRU4aI+rMXaS
+         9hS+IYxJ3X66itxRb76gzyCyLkECrcPpMGpeKtuLT/Fdlq5MViXzmUpNshLTakKsyhDi
+         YvBnVpPHL32omQYNdrXdX1osXd7Fr7kbFsY1HHEpLn19bVtLkyy9KgoVi6lwiYSDnlRw
+         IWl7SHHBD8r9PG4kxlAbNr5+9g3pAJ0LEJX+wm3FhL7+j6t2uJS3Ngy2owF+PF+ZDdfa
+         YiZA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=5Ab98Aj4;
+       spf=pass (google.com: domain of delivery_20220404133152.27253239.266604@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220404133152.27253239.266604@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220404133152.27253239.266604@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id z2-20020a6553c2000000b00398a4238d5asi993929pgr.5.2022.04.04.10.32.46
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 04 Apr 2022 10:32:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220404133152.27253239.266604@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=HkNB2yQavFAY5lYahXpKZ7KQM34zMDehrUecoPb0tCo=;
+ b=5Ab98Aj4eW/9qQ7I4f50Zpoy6Rh2kPw1LwB2/8dj+NfOrzTOwVdXCfStCAz8DMCYovV3oimQxuNl
+   gPx2Z4CizdvKz1zCIw+sdm0ccFK9TmbO5avYi5QE1qLJhAlI0rllqjmFC3bcrBIh0LOXSucJ0txJ
+   5m0lF3DptFyXRvNlaM4=
+Received: from njmta-20.sailthru.com (173.228.155.20) by bloomberg-b.sailthru.com id h9clru2tkt0i for <bloomberg@khamel.com>; Mon, 4 Apr 2022 13:32:37 -0400 (envelope-from <delivery_20220404133152.27253239.266604@mx.sailthru.com>)
+Received: from nj1-wrylilac.flt (172.18.20.8) by njmta-20.sailthru.com id h9clra1qqbs6 for <bloomberg@khamel.com>; Mon, 4 Apr 2022 13:31:52 -0400 (envelope-from <delivery_20220404133152.27253239.266604@mx.sailthru.com>)
+Date: Mon, 4 Apr 2022 13:31:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220404133152.27253239.266604@sailthru.com>
+Subject: Money Stuff: Elon Musk Bought Some Twitter
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_198588_891361387.1649093512622"
+Precedence: bulk
+X-Feedback-ID: 6358:27253239:campaign:sailthru
+X-TM-ID: 20220404133152.27253239.266604
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg84qf.5ppo/57a16813
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg84qf.5ppo/57a16813>, <mailto:unsubscribe_20220404133152.27253239.266604@mx.sailthru.com>
+X-rpcampaign: stjko27253239
+
+------=_Part_198588_891361387.1649093512622
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff was supposed to be off today but, Elo=
+n. So here we are.Oh ElonLook this all makes complete sense, obvious, int
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff was supposed to be off today but, E=
+lon. So here we are.
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+Look this all makes complete sense,=C2=A0obvious, intuitive, simple sense. =
+If you are the richest person in the world, and annoying, and you constantl=
+y play a computer game, and you get a lot of enjoyment and a sense of ident=
+ity from that game and are maybe a little addicted, then at some point you =
+might=C2=A0have some suggestions for improvements in the game. So you might=
+ leave comments and email the company that makes the game saying =E2=80=9Ch=
+ey you should try my ideas.=E2=80=9D And the company=C2=A0might ignore you =
+(or respond politely but not move fast enough for your liking). It might oc=
+cur to you: =E2=80=9CLook, I am the richest person in the world; how much c=
+ould this game company possibly cost? I should just buy it and change the g=
+ame however I want.=E2=80=9D Even if your complaints are quite minor, why s=
+houldn=E2=80=99t you get to play exactly=C2=A0the game you want? Even if yo=
+u have no complaints, why not own the game you love, just to make sure it c=
+ontinues to be exactly what you want? The game is Twitter, the richest pers=
+on in the world is Elon Musk,  and:Elon Musk has taken a 9.2% stake in Twit=
+ter Inc. to become the platform=E2=80=99s biggest shareholder, a week after=
+ hinting he might shake up the social media industry.Twitter shares surged =
+about 26% in premarket trading after Musk=E2=80=99s purchase was revealed M=
+onday in a regulatory filing. The stake is worth about $2.89 billion, based=
+ on Friday=E2=80=99s market close.Musk, 50, polled his more than 80 million=
+ followers on Twitter last month, asking them whether the company adheres t=
+o the principles of free speech. After more than 70% said no, he asked whet=
+her a new platform was needed and said he was giving serious thought to sta=
+rting his own.=C2=A0I hope that if Elon Musk is going to do activism on Twi=
+tter, it will not be for tedious=C2=A0=E2=80=9Cfree speech=E2=80=9D advocac=
+y. I hope it is like:Twitter=E2=80=99s relatively new chief executive offic=
+er, Parag Agrawal: Welcome, Mr. Musk. We=E2=80=99re so glad that you are ou=
+r biggest shareholder. We have prepared a presentation showing how we are e=
+xecuting on our strategy of being more technically nimble, building new pro=
+ducts and growing revenue and active users. Here on slide 1 you can see=E2=
+=80=94=C2=A0Elon Musk: Make the font bigger when I tweet.Agrawal: What?=C2=
+=A0Musk: I am your biggest shareholder, I want the font on my tweets to be =
+bigger than the font on everyone else=E2=80=99s tweets.Agrawal: That=E2=80=
+=99s not really how we=E2=80=94Musk: And I want 290 characters. Again, just=
+ for me.Agrawal: =E2=80=A6Musk: And it should play a little sound when I tw=
+eet so everyone knows.Agrawal: I just feel like we want to make a good prod=
+uct for all of our millions of users? I feel like that is going to improve =
+profitability in the long run and, as our largest shareholder, you in parti=
+cular stand to benefit from=E2=80=94Musk: Oh I don=E2=80=99t care even a li=
+ttle bit about that, if your stock doubles that is rounding error on my net=
+ worth, I just love tweeting and want to meddle a bit to optimize it for my=
+ personal needs.I hope he demands a board seat. He=E2=80=99d be the first T=
+witter user ever to join the board.[1] I hope he live-tweets the board meet=
+ings.=C2=A0Actually the strange thing about Musk=E2=80=99s 9.2% stake is th=
+at he disclosed it on Schedule 13G, which suggests that he is=C2=A0not=C2=
+=A0planning to do activism or join the board.=C2=A0The ordinary way to disc=
+lose an activist stake of more than 5% of a company is a Schedule 13D; you =
+are eligible to use the shorter and less informative 13G only if you have =
+=E2=80=9Cnot acquired the securities with any purpose, or with the effect, =
+of changing or influencing the control of the issuer.=E2=80=9D=C2=A0Right a=
+way this strikes me as somewhat legally aggressive? Like, I am pretty sure =
+that=C2=A0the Elon Musk Division of the U.S. Securities and Exchange Commis=
+sion has already opened another inquiry into this filing. Elon Musk had acq=
+uired at least some of his shares by March 14,[2] and on March 26 he was as=
+king his followers =E2=80=9Cwhat should be done=E2=80=9D about Twitter=E2=
+=80=99s =E2=80=9Cfailing to adhere to free speech principles.=E2=80=9D (A d=
+ay earlier, he polled them about free speech and added, perhaps ominously, =
+=E2=80=9Cthe consequences of this poll will be important.=E2=80=9D) Was he =
+trying to =E2=80=9Cinfluence the control=E2=80=9D of Twitter, with those tw=
+eets?=C2=A0I think in general if you went to a securities lawyer and said =
+=E2=80=9CI am going to buy 9% of a public company and then make=C2=A0public=
+ statements about how it should change its business, should=C2=A0I file a 1=
+3D or 13G,=E2=80=9D the lawyer would say =E2=80=9Chmm that sounds like acti=
+vism, which is traditionally on 13D.=E2=80=9D (Not legal advice!) But if yo=
+u are Elon Musk you do not accept that sort of fuzzy reasoning. =E2=80=9CSh=
+ow me where in these tweets I demand a change of control of Twitter,=E2=80=
+=9D he presumably said to his harried securities lawyer, who by now  knows =
+better than to argue.I guess nothing stops him from changing his mind and d=
+oing activism later. Except that the SEC tends to look on that sort of thin=
+g =E2=80=94=C2=A0building a =E2=80=9Cpassive=E2=80=9D position, filing a 13=
+G, doing some public pressure campaigning, and later flipping to a 13D =E2=
+=80=94 with suspicion. But the SEC looks on everything Musk does with suspi=
+cion, and  he doesn=E2=80=99t care. All of the nuanced lore of activist dis=
+closure=C2=A0doesn=E2=80=99t quite=C2=A0apply here.=C2=A0Still it is entire=
+ly possible that Musk does=C2=A0not=C2=A0plan anything, that he=C2=A0isn=E2=
+=80=99t=C2=A0looking to get a board seat or buy the whole company or even m=
+ake the font bigger on his tweets. Perhaps this is just a passive financial=
+ investment, as the 13G filing would imply if it were anyone but Musk. If s=
+o it seems like a good one? As of 11 a.m. New York time today, Twitter was =
+up about 25%, giving Musk a profit of more than $700 million on his Twitter=
+ stake since he filed his 13G this morning. (It=E2=80=99s up about 50% sinc=
+e March 14, though it=E2=80=99s unclear how many shares he owned by then.)=
+=C2=A0Now, one move here would be to =E2=80=A6=C2=A0sell? We have talked a =
+lot around here about the  Elon Markets Hypothesis, the idea that financial=
+ assets are valuable not based on their cash flows but on their proximity t=
+o Elon Musk. Few things are closer to Elon Musk than Twitter, but now it is=
+, you know, 9.2% closer than it was before. Musk=E2=80=99s filing added $7.=
+8 billion=C2=A0to the market value of Twitter, and 9.2% of that value accru=
+es to him. If he were to sell his Twitter stock now =E2=80=94=C2=A0carefull=
+y, you know, over the course of a few weeks or months[3] =E2=80=94=C2=A0the=
+n he would have some time before he=E2=80=99d have to disclose that.[4] He =
+bought his shares at the pre-Musk price and could presumably sell many of t=
+hem at the post-Musk price for an easy nine-figure profit.This is true of D=
+ogecoin and Bitcoin, too: Musk can buy them and tweet about buying them and=
+ move the price up and then sell them at the new, higher, Musk-affected pri=
+ce.=C2=A0We have  talked about it before, but entirely hypothetically, beca=
+use=C2=A0it is impossible to imagine Elon Musk doing it. Elon Musk is not d=
+oing a pump and dump! Elon Musk is not interested in a quick and easy nine-=
+figure profit, that is absurd. Elon Musk did not buy 9.2% of Twitter to=C2=
+=A0make money. He already has all the money, and Twitter has kind of a mixe=
+d record of making money for its public shareholders. He bought 9.2% of Twi=
+tter because he=C2=A0has money, and wants to spend some of it on=C2=A0being=
+ more annoying on Twitter. I cannot tell you exactly how =E2=80=94=C2=A0pre=
+sumably not through traditional activism, proxy fights, etc., though who kn=
+ows really =E2=80=94=C2=A0but I bet we=E2=80=99ll=C2=A0find out.For a while=
+ there was a broad consensus about what public companies were for. The goal=
+ of a public company, all the sophisticated people agreed, was to make as m=
+uch money as possible for its shareholders. Sometimes managers got distract=
+ed from this goal, and then there was shareholder activism to get them back=
+ in line. =E2=80=9CWe want to replace management with other managers who wi=
+ll make more money for shareholders,=E2=80=9D an activist would say, and if=
+ other shareholders agreed with her plans then she=E2=80=99d win a proxy fi=
+ght and replace the managers and the system would move toward the perfect g=
+oal of maximizing profits.When I started in corporate law and finance, this=
+ consensus had been dominant for decades and felt very, very stable. In 202=
+2 it seems like a weird historical blip, a few decades (1980 to 2010?) when=
+ everyone fell into a radically oversimplified understanding of what compan=
+ies are. Now everyone =E2=80=94=C2=A0even big-company CEOs =E2=80=94=C2=A0t=
+alks about =E2=80=9Cstakeholder capitalism,=E2=80=9D the idea that companie=
+s don=E2=80=99t just answer to shareholders but have to optimize for lots o=
+f different constituencies that want different things. And even shareholder=
+s don=E2=80=99t monolithically want profit maximization: Many of them care =
+about environmental, social and governance issues, and a company has to wei=
+gh those issues against profits just to keep the shareholders happy. And  s=
+hareholder activism now can serve  ESG purposes: If you pollute too much, t=
+he shareholders might throw you out.But whereas the old consensus said that=
+ companies should maximize one thing, and identified what that thing was, t=
+he new theories do not. Now companies are for, you know, whatever someone w=
+ith a lot of money wants them to be for. This is I think largely what they =
+were for=C2=A0before=C2=A0the 1980s profit-maximizing consensus, too. This =
+is not a particularly normative or predictive model, but it is a simple one=
+.You can have various sophisticated systematic theories of ESG, and if you =
+are an institutional investor you probably should. But then there is Carl I=
+cahn, a billionaire longtime activist investor who has gotten very interest=
+ed in one animal-welfare issue and has plans to run proxy fights at  McDona=
+ld=E2=80=99s Corp. and Kroger Co. to make them treat pigs better. Presumabl=
+y to win a proxy fight he will need to appeal to other investors by making =
+broad arguments about ESG (=E2=80=9Cvote for me, if you claim to be a good =
+ESG fund=E2=80=9D) and even about profit maximization (=E2=80=9Ctreating pi=
+gs humanely is better for business in the long run=E2=80=9D). But if you ar=
+e an executive at those companies, you might feel a little bit like what is=
+ happening here is =E2=80=9Cthis rich guy=E2=80=99s hobby is making me chan=
+ge how I run my business.=E2=80=9D Humane treatment of pigs was not at the =
+top of your agenda, and it was not at the top of your biggest institutional=
+ shareholders=E2=80=99 agendas. But it is at the top of Carl Icahn=E2=80=99=
+s agenda, for essentially idiosyncratic personal reasons, and now companies=
+ have to listen to him because he has a lot of money and is very persistent=
+ and cares a lot.=C2=A0Elon Musk has even more money and is even more persi=
+stent and nobody has ever cared more about anything than he cares about twe=
+eting. If he wants to change Twitter, he might have to gesture in the direc=
+tion of ESG (=E2=80=9CGiven that Twitter serves as the de facto public town=
+ square, failing to adhere to free speech principles fundamentally undermin=
+es democracy=E2=80=9D) or profitability to get other shareholders to suppor=
+t him. Or he could just buy more stock and tell Twitter what to do.=C2=A0=
+=C2=A0
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Meanwhile in Berlin
+   =20
+ =20
+He=E2=80=99s going to mount a hostile takeover of Berghain:Elon Musk dived =
+into Berlin=E2=80=99s famed fetish and electronic music scene at the weeken=
+d in a club crawl that ended abruptly in front of the Berghain techno templ=
+e, prompting speculation that he had been denied entry.No, I kid, but there=
+ is an important=C2=A0question here, which is, did the bouncer know who he =
+was? When Elon Musk arrived at the door of Berghain, did the bouncer look a=
+t him and think =E2=80=9Cthis is a dork=E2=80=9D and turn him away for that=
+ reason, or did the bouncer instead think =E2=80=9Cthis is Elon Musk, the r=
+ichest person in the world=E2=80=9D and turn him away for=C2=A0that=C2=A0re=
+ason? Like probably there are a lot of nightclubs that would love to have E=
+lon Musk come party, because he is famous and has a lot of money, but surel=
+y Berghain isn=E2=80=99t one of them? Elon Musk partying at Berghain will n=
+ot raise Berghain=E2=80=99s profile or make it cooler, and he can=E2=80=99t=
+ spend=C2=A0that=C2=A0much money, but=C2=A0turning away Elon Musk=C2=A0is=
+=C2=A0obviously great for Berghain=E2=80=99s fame and coolness. Still, both=
+ possibilities are wonderful, and I suppose they could both be true sequent=
+ially:Elon Musk: What=E2=80=99s happening my man.Sven, Berghain=E2=80=99s =
+=E2=80=9Ciconic bouncer=E2=80=9D who =E2=80=9Clooks for outfits, aesthetic =
+and vibes=E2=80=9D:=C2=A0[Looks at outfit, aesthetic and vibes] You can=E2=
+=80=99t come in.Elon: Do you know who I am, I am Elon Musk, the richest per=
+son in the world, I have spaceships and stuff.Sven: [Googles] So you are.El=
+on: So!Sven: Now you really can=E2=80=99t come in.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Sure also GameStop
+   =20
+ =20
+Last Thursday after the close, GameStop Corp. announced that it is planning=
+ a=C2=A0stock split, missing April Fool=E2=80=99s Day by hours. The stock o=
+pened up almost 14% on Friday, though it lost those gains and closed down o=
+n the day. We  talked last week about stock splits, with the gist of it bei=
+ng =E2=80=9Cstock splits are good for meme stocks,=E2=80=9D and several sto=
+cks with very high prices and name recognition have split in recent years. =
+Is GameStop basically in the same category as Tesla, Alphabet Inc. and Amaz=
+on.com Inc.? Sure why not.Incidentally the phrase =E2=80=9Cstock dividend=
+=E2=80=9D has sort of bubbled up in popular awareness recently so let=E2=80=
+=99s do a quick explainer. Under Delaware corporate law (the law that appli=
+es to GameStop and Tesla and most other big U.S. public companies), there i=
+s a standard way to do a stock split. Section 242(a)(3) of the Delaware Gen=
+eral Corporation Law allows a company to amend its corporate charter =E2=80=
+=9Cto increase or decrease its authorized capital stock ...=C2=A0by subdivi=
+ding or combining the outstanding shares of any class or series of a class =
+of shares into a greater or lesser number of outstanding shares." So you ca=
+n turn every share into two shares, or 10 shares, or turn every two shares =
+into one share, or seven into three, or whatever.=C2=A0This requires a shar=
+eholder vote, though, which is a pain. At some point lawyers realized that =
+there is a different provision of the law =E2=80=94=C2=A0section 173 =E2=80=
+=94=C2=A0that allows companies to pay dividends =E2=80=9Cin shares of the c=
+orporation=E2=80=99s capital stock,=E2=80=9D without a shareholder vote. So=
+ instead of saying =E2=80=9Ceach share of stock splits into two shares,=E2=
+=80=9D which requires a shareholder=C2=A0vote, you can say =E2=80=9Ceach sh=
+are of stock will receive a dividend of one share of stock,=E2=80=9D which =
+has exactly the same effect but does not require a vote. So that=E2=80=99s =
+the normal way to do a forward=C2=A0stock split in modern public companies.=
+ (A reverse stock split =E2=80=94=C2=A0every 10 shares become one share =E2=
+=80=94=C2=A0still requires section 242 and a vote.)=C2=A0GameStop and Tesla=
+ can=E2=80=99t really do a stock-split-by-dividend, though, because they do=
+n=E2=80=99t have enough authorized shares. So they have both announced that=
+ they will ask their shareholders to vote to amend their charters to author=
+ize more shares, and=C2=A0then=C2=A0they will do a stock-split-by-dividend.=
+ (This is presumably a bit tidier than asking the shareholders to vote on a=
+ stock-split-by-section-242 in part because it gives the board a bit more f=
+lexibility to change its mind and in part because it lets you authorize=C2=
+=A0some extra shares for other purposes.) But there is nothing unusual abou=
+t the fact that they=E2=80=99re doing the stock split this way; it=E2=80=99=
+s just unusual that they had to mention it.
+ =20
+   =20
+      Meanwhile in Paulsboro
+   =20
+ =20
+Honestly it has been a wild few days=C2=A0for Money-Stuff-ish financial new=
+s stories. Here=E2=80=99s this:Hometown International =E2=80=94 that odd, p=
+ublicly traded company with a market capitalization of more than $100 milli=
+on despite owning just one small New Jersey deli =E2=80=94 has announced pl=
+ans to merge with Makamer, a private bioplastics start-up firm.The money-lo=
+sing Your Hometown Deli in Paulsboro, N.J., which is owned by Hometown Inte=
+rnational, will not be operated by the company that will result from the me=
+rger with the Los Angeles-based Makamer.But a woman who answered the phone =
+at the deli on Friday said, =E2=80=9CWe=E2=80=99re still going to be open=
+=E2=80=9D after the merger is completed.We  talked a  lot about  the deli b=
+ack  in 2021, and I characterized it as =E2=80=9Ca weird SPAC,=E2=80=9D a s=
+hell company that its backers were planning to use to merge with a private =
+(or foreign) company to take it public without the usual procedures of an i=
+nitial public offering. Apparently it found a target. The deli is not=C2=A0=
+a true shell company in that it actually runs a deli, but I suppose it=E2=
+=80=99s not that hard to get rid of the deli.=C2=A0Here is the announcement=
+ of the merger. Here is the merger agreement, which does say that =E2=80=9C=
+incoming management will continue to evaluate and determine the viability o=
+f the Parent=E2=80=99s existing delicatessen business currently operated th=
+rough its subsidiary Your Hometown Deli.=E2=80=9D I do not want to know abo=
+ut the potential synergies between bioplastics and the deli.
+ =20
+   =20
+      Me elsewhere
+   =20
+ =20
+I went on  Bloomberg=E2=80=99s =E2=80=9COdd Lots=E2=80=9D podcast to talk w=
+ith my friend Mary Childs about her book, =E2=80=9CThe Bond King.=E2=80=9D
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Zeke Faux profiles  Sam Bankman-Fried. Trump-Tied  Social Media SPAC Slides=
+ After Key Executives Quit.=C2=A0Judge Tosses California Law Mandating Dive=
+rsity on Boards.=C2=A0Starbucks Suspends Share Buybacks as Howard Schultz R=
+eturns as CEO.=C2=A0Tom Brady joins firm launched by disgraced PR guru Decl=
+an Kelly.=C2=A0In Defense of Bitcoin Maximalism (by Vitalk Buterin on April=
+ 1).If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, ri=
+ght in your inbox, please=C2=A0subscribe at this link. Or you can subscribe=
+ to Money Stuff and other great Bloomberg newsletters here. Thanks![1] This=
+ is a joke, and you can easily find Twitter board members who tweet. But ot=
+her than *maybe* Jack Dorsey, I think Musk would clearly be the first true =
+*poster* on Twitter=E2=80=99s board. Like everyone else tweets as part of a=
+ professional communications strategy. Musk tweets because he loves tweetin=
+g.[2] Another weird aspect: The filing came out today, April 4, and lists M=
+arch 14 as the =E2=80=9Cdate of event which requires filing.=E2=80=9D If th=
+at means what it intuitively seems like =E2=80=94=C2=A0that is, March 14 is=
+ the date on which Musk acquired more than 5% of Twitter=E2=80=99s stock, r=
+equiring a 13G filing =E2=80=94=C2=A0then =E2=80=A6=C2=A0isn=E2=80=99t the =
+filing late?=C2=A0[3] Twitter trades an average of about 16.4 million share=
+s a day,=C2=A0so it would take a week to sell all of Musk=E2=80=99s shares =
+*if he was 100% of volume*; a more reasonable pace would be 10-20% of volum=
+e, meaning a month or two. But those volume numbers are pre-Musk-announceme=
+nt, and his filing has boosted the volume as well as the price; by 11 a.m. =
+today Twitter had traded more than 110 million shares.[4] The amendment req=
+uirements for Schedule 13G require prompt disclosure if you reduce your sta=
+ke by more than five percentage points. So basically he could sell 4.9% wit=
+hout disclosure but then would have to bang out the rest fast.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg84qf.5ppo/7ed4a6d7.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_198588_891361387.1649093512622
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff was supposed to be off today but, Elon. So he=
+re we are.Oh ElonLook this all makes complete sense, obvious, int
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB6499dfed" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB5e0ebc1d"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCd999f3b4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Money S=
+tuff was supposed to be off today but, Elon. So here we are.</em></p><table=
+ class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Look this all makes complete sense,=C2=
+=A0obvious, intuitive, simple sense. If you are the richest person in the w=
+orld, and annoying, and you constantly play a computer game, and you get a =
+lot of enjoyment and a sense of identity from that game and are maybe a lit=
+tle addicted, then at some point you might=C2=A0have some suggestions for i=
+mprovements in the game. So you might leave comments and email the company =
+that makes the game saying =E2=80=9Chey you should try my ideas.=E2=80=9D A=
+nd the company=C2=A0might ignore you (or respond politely but not move fast=
+ enough for your liking). It might occur to you: =E2=80=9CLook, I am the ri=
+chest person in the world; how much could this game company possibly cost? =
+I should just buy it and change the game however I want.=E2=80=9D Even if y=
+our complaints are quite minor, why shouldn=E2=80=99t you get to play <em>e=
+xactly=C2=A0</em>the game you want? Even if you have <em>no </em>complaints=
+, why not <em>own</em> the game you love, just to make sure it continues to=
+ be exactly what you want? The game is Twitter, the richest person in the w=
+orld is Elon Musk, <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+ItMDQtMDQvbXVzay10YWtlcy05LTItc3Rha2UtaW4tdHdpdHRlci1hZnRlci1xdWVzdGlvbmluZ=
+y1wbGF0Zm9ybT9jbXBpZD1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cBd2832ad7" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> and</a>:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Elon Musk has taken a 9.2% stake in Twitter Inc.=
+ to become the platform=E2=80=99s biggest shareholder, a week after hinting=
+ he might shake up the social media industry.</p><p style=3D"margin: 16px 0=
+;">Twitter shares surged about 26% in premarket trading after Musk=E2=80=99=
+s purchase was revealed Monday in a regulatory filing. The stake is worth a=
+bout $2.89 billion, based on Friday=E2=80=99s market close.</p><p style=3D"=
+margin: 16px 0;">Musk, 50, polled his more than 80 million followers on Twi=
+tter last month, asking them whether the company adheres to the principles =
+of free speech. After more than 70% said no, he asked whether a new platfor=
+m was needed and said he was giving serious thought to starting his own.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">I hope that if Elon Musk i=
+s going to do activism on Twitter, it will not be for tedious=C2=A0=E2=80=
+=9Cfree speech=E2=80=9D advocacy. I hope it is like:</p><blockquote><p styl=
+e=3D"margin: 16px 0;"><strong>Twitter=E2=80=99s relatively new chief execut=
+ive officer, Parag Agrawal:</strong> Welcome, Mr. Musk. We=E2=80=99re so gl=
+ad that you are our biggest shareholder. We have prepared a presentation sh=
+owing how we are executing on our strategy of being more technically nimble=
+, building new products and growing revenue and active users. Here on slide=
+ 1 you can see=E2=80=94=C2=A0</p><p style=3D"margin: 16px 0;"><strong>Elon =
+Musk:</strong> Make the font bigger when I tweet.</p><p style=3D"margin: 16=
+px 0;"><strong>Agrawal:</strong> What?=C2=A0</p><p style=3D"margin: 16px 0;=
+"><strong>Musk:</strong> I am your biggest shareholder, I want the font on =
+my tweets to be bigger than the font on everyone else=E2=80=99s tweets.</p>=
+<p style=3D"margin: 16px 0;"><strong>Agrawal:</strong> That=E2=80=99s not r=
+eally how we=E2=80=94</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong=
+> And I want 290 characters. Again, just for me.</p><p style=3D"margin: 16p=
+x 0;"><strong>Agrawal:</strong> =E2=80=A6</p><p style=3D"margin: 16px 0;"><=
+strong>Musk:</strong> And it should play a little sound when I tweet so eve=
+ryone knows.</p><p style=3D"margin: 16px 0;"><strong>Agrawal:</strong> I ju=
+st feel like we want to make a good product for all of our millions of user=
+s? I feel like that is going to improve profitability in the long run and, =
+as our largest shareholder, you in particular stand to benefit from=E2=80=
+=94</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong> Oh I don=E2=80=
+=99t care even a little bit about that, if your stock doubles that is round=
+ing error on my net worth, I just love tweeting and want to meddle a bit to=
+ optimize it for my personal needs.</p></blockquote><p style=3D"margin: 16p=
+x 0;">I hope he demands a board seat. He=E2=80=99d be the first Twitter use=
+r ever to join the board.[1] I hope he live-tweets the board meetings.=C2=
+=A0</p><p style=3D"margin: 16px 0;">Actually the strange thing about Musk=
+=E2=80=99s 9.2% stake is that he <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27253239.266604/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdh=
+ci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDQxOTExL3RtMjIxMTQ4MmQxX3NjMTNnLmh0bQ/=
+607f07ceef4b8524a319a23cB1722c839" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">disclosed it on Schedule 13G</a>=
+, which suggests that he is=C2=A0<em>not=C2=A0</em>planning to do activism =
+or join the board.=C2=A0The ordinary way to disclose an activist stake of m=
+ore than 5% of a company is a Schedule 13D; you are eligible to use the sho=
+rter and less informative 13G <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27253239.266604/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh=
+0LzE3LzI0MC4xM2QtMQ/607f07ceef4b8524a319a23cB3f9e4a63" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">only if</a> =
+you have =E2=80=9Cnot acquired the securities with any purpose, or with the=
+ effect, of changing or influencing the control of the issuer.=E2=80=9D=C2=
+=A0</p><p style=3D"margin: 16px 0;">Right away this strikes me as somewhat =
+legally aggressive? Like, I am pretty sure that=C2=A0the Elon Musk Division=
+ of the U.S. Securities and Exchange Commission has already opened another =
+inquiry into this filing. Elon Musk had acquired at least some of his share=
+s by March 14,[2] and on March 26 he was <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27253239.266604/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVz=
+ay9zdGF0dXMvMTUwNzc3NzI2MTY1NDYwNTgyOA/607f07ceef4b8524a319a23cBd5fa4fed" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">asking his followers</a> =E2=80=9Cwhat should be done=E2=80=9D about=
+ Twitter=E2=80=99s =E2=80=9Cfailing to adhere to free speech principles.=E2=
+=80=9D (A day earlier, he polled them about free speech and added, perhaps =
+ominously, =E2=80=9Cthe consequences of this poll will be important.=E2=80=
+=9D) Was he trying to =E2=80=9Cinfluence the control=E2=80=9D of Twitter, w=
+ith those tweets?=C2=A0</p><p style=3D"margin: 16px 0;">I think in general =
+if you went to a securities lawyer and said =E2=80=9CI am going to buy 9% o=
+f a public company and then make=C2=A0public statements about how it should=
+ change its business, should=C2=A0I file a 13D or 13G,=E2=80=9D the lawyer =
+would say =E2=80=9Chmm that sounds like activism, which is traditionally on=
+ 13D.=E2=80=9D (Not legal advice!) But if you are Elon Musk you do not acce=
+pt that sort of fuzzy reasoning. =E2=80=9CShow me where in these tweets I d=
+emand a change of control of Twitter,=E2=80=9D he presumably said to his ha=
+rried securities lawyer, who by now <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMTktMDItMjcvd2hvLWNhbi1zYXktd2hhdC1jYWxpZm9ybmlhLW1lYW5z=
+P2NtcGlkPUJCRDA0MDQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cB576a8776" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> knows better than to argue</a>.</p><p =
+style=3D"margin: 16px 0;">I guess nothing stops him from changing his mind =
+and doing activism later. Except that the SEC tends to look on that sort of=
+ thing =E2=80=94=C2=A0building a =E2=80=9Cpassive=E2=80=9D position, filing=
+ a 13G, doing some public pressure campaigning, and later flipping to a 13D=
+ =E2=80=94 with suspicion. But the SEC looks on everything Musk does with s=
+uspicion, and <a href=3D"https://link.mail.bloombergbusiness.com/click/2725=
+3239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDM=
+tMjkvbXVzay1jbGFpbXMtc2VjLW1pc2NvbmR1Y3QtYXMtaGUtc2Vla3MtZW5kLXRvLWxpbWl0cy=
+1vbi10d2VldHM_Y21waWQ9QkJEMDQwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA0JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cBbb598368" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> he doesn=E2=80=99t care</a=
+>. All of the nuanced lore of activist disclosure=C2=A0doesn=E2=80=99t quit=
+e=C2=A0apply here.=C2=A0</p><p style=3D"margin: 16px 0;">Still it is entire=
+ly possible that Musk does=C2=A0<em>not=C2=A0</em>plan anything, that he=C2=
+=A0<em>isn=E2=80=99t=C2=A0</em>looking to get a board seat or buy the whole=
+ company or even make the font bigger on his tweets. Perhaps this is just a=
+ passive financial investment, as the 13G filing would imply if it were any=
+one but Musk. If so it seems like a good one? As of 11 a.m. New York time t=
+oday, Twitter was up about 25%, giving Musk a profit of more than $700 mill=
+ion on his Twitter stake since he filed his 13G this morning. (It=E2=80=99s=
+ up about 50% since March 14, though it=E2=80=99s unclear how many shares h=
+e owned by then.)=C2=A0</p><p style=3D"margin: 16px 0;">Now, one move here =
+would be to =E2=80=A6=C2=A0sell? We have talked a lot around here about the=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMTAvZWxv=
+bi1tdXNrLXR3ZWV0cy1ncmVhdC1uZXdzLWZvci1iaXRjb2luLWJhZC1uZXdzLWZvci1lY29uLW1=
+ham9ycz9jbXBpZD1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cBc3d9ab30" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Elon Markets Hypothesis</a>, the=
+ idea that financial assets are valuable not based on their cash flows but =
+on their proximity to Elon Musk. Few things are closer to Elon Musk than Tw=
+itter, but now it is, you know, 9.2% closer than it was before. Musk=E2=80=
+=99s filing added $7.8 billion=C2=A0to the market value of Twitter, and 9.2=
+% of that value accrues to him. If he were to sell his Twitter stock now =
+=E2=80=94=C2=A0carefully, you know, over the course of a few weeks or month=
+s[3] =E2=80=94=C2=A0then he would have some time before he=E2=80=99d have t=
+o disclose that.[4] He bought his shares at the pre-Musk price and could pr=
+esumably sell many of them at the post-Musk price for an easy nine-figure p=
+rofit.</p><p style=3D"margin: 16px 0;">This is true of Dogecoin and Bitcoin=
+, too: Musk can buy them and tweet about buying them and move the price up =
+and then sell them at the new, higher, Musk-affected price.=C2=A0We have <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTcvZWxvbi1=
+tdXNrLWNvbnRyb2xzLWJpdGNvaW4tYW5kLWRvZ2Vjb2luLXByaWNlcy13aXRoLXB1cmUtbWFnaW=
+M_Y21waWQ9QkJEMDQwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cBca63ee2a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> talked about it before</a>, but entire=
+ly hypothetically, because=C2=A0it is impossible to imagine Elon Musk doing=
+ it. Elon Musk is not doing a pump and dump! Elon Musk is not interested in=
+ a quick and easy nine-figure profit, that is absurd. Elon Musk did not buy=
+ 9.2% of Twitter to=C2=A0<em>make money</em>. He already has all the money,=
+ and Twitter has kind of a mixed record of making money for its public shar=
+eholders. He bought 9.2% of Twitter because he=C2=A0<em>has money</em>, and=
+ wants to <em>spend</em> some of it on=C2=A0<em>being more annoying on Twit=
+ter</em>. I cannot tell you exactly how =E2=80=94=C2=A0presumably not throu=
+gh traditional activism, proxy fights, etc., though who knows really =E2=80=
+=94=C2=A0but I bet we=E2=80=99ll=C2=A0find out.</p><p style=3D"margin: 16px=
+ 0;">For a while there was a broad consensus about what public companies we=
+re <em>for</em>. The goal of a public company, all the sophisticated people=
+ agreed, was to make as much money as possible for its shareholders. Someti=
+mes managers got distracted from this goal, and then there was shareholder =
+activism to get them back in line. =E2=80=9CWe want to replace management w=
+ith other managers who will make more money for shareholders,=E2=80=9D an a=
+ctivist would say, and if other shareholders agreed with her plans then she=
+=E2=80=99d win a proxy fight and replace the managers and the system would =
+move toward the perfect goal of maximizing profits.</p><p style=3D"margin: =
+16px 0;">When I started in corporate law and finance, this consensus had be=
+en dominant for decades and felt very, very stable. In 2022 it seems like a=
+ weird historical blip, a few decades (1980 to 2010?) when everyone fell in=
+to a radically oversimplified understanding of what companies are. Now ever=
+yone =E2=80=94=C2=A0even big-company CEOs =E2=80=94=C2=A0talks about =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgtMTkvbW=
+F4aW1pemUtc2hhcmVob2xkZXItdmFsdWUtdG9wLWNlb3MtbWlnaHQtYmUtb3B0aW5nLW91dD9jb=
+XBpZD1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cB46855a09" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">stakeholder capitalism</a>,=E2=80=9D the id=
+ea that companies don=E2=80=99t just answer to shareholders but have to opt=
+imize for lots of different constituencies that want different things. And =
+even shareholders don=E2=80=99t monolithically want profit maximization: Ma=
+ny of them care about environmental, social and governance issues, and a co=
+mpany has to weigh those issues against profits just to keep the shareholde=
+rs happy. And <a href=3D"https://link.mail.bloombergbusiness.com/click/2725=
+3239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjE=
+tMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ_Y21waWQ9QkJEMDQwNDIyX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjIwNDA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1bbecb=
+1a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> shareholder activism</a> now can serve <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjMvYnV5LXRoZS1jb2FsLXBsYW50LXR=
+vLXN0b3AtaXQ_Y21waWQ9QkJEMDQwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA0JnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB8d7fccfc" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> ESG purposes</a>: If you po=
+llute too much, the shareholders might throw you out.</p><p style=3D"margin=
+: 16px 0;">But whereas the old consensus said that companies should maximiz=
+e one thing, and identified what that thing was, the new theories do not. N=
+ow companies are for, you know, whatever someone with a lot of money wants =
+them to be for. This is I think largely what they were for=C2=A0<em>before=
+=C2=A0</em>the 1980s profit-maximizing consensus, too. This is not a partic=
+ularly normative or predictive model, but it is a simple one.</p><p style=
+=3D"margin: 16px 0;">You can have various sophisticated systematic theories=
+ of ESG, and if you are an institutional investor you probably should. But =
+then there is Carl Icahn, a billionaire longtime activist investor who has =
+gotten very interested in one animal-welfare issue and has plans to run pro=
+xy fights at <a href=3D"https://link.mail.bloombergbusiness.com/click/27253=
+239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjIt=
+MDItMjIvYm9yZWQtYXBlcy1nby10by1jb3VydD9jbXBpZD1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDQmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB71dfcdac" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ McDonald=E2=80=99s Corp.</a> and <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27253239.266604/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jYXJ=
+sLWljYWhuLXRhcmdldHMta3JvZ2VyLW92ZXItcG9yay1jZW8tcGF5LTExNjQ4NTk0NDI1/607f0=
+7ceef4b8524a319a23cBc1b770cc" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Kroger Co.</a> to make them treat pig=
+s better. Presumably to win a proxy fight he will need to appeal to other i=
+nvestors by making broad arguments about ESG (=E2=80=9Cvote for me, if you =
+claim to be a good ESG fund=E2=80=9D) and even about profit maximization (=
+=E2=80=9Ctreating pigs humanely is better for business in the long run=E2=
+=80=9D). But if you are an executive at those companies, you might feel a l=
+ittle bit like what is happening here is =E2=80=9Cthis rich guy=E2=80=99s h=
+obby is making me change how I run my business.=E2=80=9D Humane treatment o=
+f pigs was not at the top of your agenda, and it was not at the top of your=
+ biggest institutional shareholders=E2=80=99 agendas. But it is at the top =
+of Carl Icahn=E2=80=99s agenda, for essentially <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cud3NqLmNvbS9hc=
+nRpY2xlcy9jYXJsLWljYWhuLW1jZG9uYWxkcy1waWdzLWdlc3RhdGlvbi1jcmF0ZXMtMTE2NDQz=
+MzUxOTg/607f07ceef4b8524a319a23cB9f44452b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">idiosyncratic personal r=
+easons</a>, and now companies have to listen to him because he has a lot of=
+ money and is very persistent and cares a lot.=C2=A0</p><p style=3D"margin:=
+ 16px 0;">Elon Musk has even more money and is even more persistent and nob=
+ody has ever cared more about anything than he cares about tweeting. If he =
+wants to change Twitter, he might have to gesture in the direction of ESG (=
+=E2=80=9CGiven that Twitter serves as the de facto public town square, fail=
+ing to adhere to free speech principles <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27253239.266604/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVza=
+y9zdGF0dXMvMTUwNzc3NzI2MTY1NDYwNTgyOA/607f07ceef4b8524a319a23cCd5fa4fed" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">fundamentally undermines democracy</a>=E2=80=9D) or profitability to =
+get other shareholders to support him. Or he could just buy more stock and =
+tell Twitter what to do.=C2=A0=C2=A0</p><table class=3D"liveintent-sponsore=
+d-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD6593d35f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE6593d35f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF276bda07" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG276bda07" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile in Berlin</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">He=E2=80=99s going to mount a hostile =
+takeover <a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.=
+266604/aHR0cHM6Ly93d3cudGhldGltZXMuY28udWsvYXJ0aWNsZS9lbG9uLW11c2stZ29lcy1l=
+bGVjdHJvLXdpdGgtdG91ci1vZi1iZXJsaW4tY2x1Yi1zY2VuZS13Ymx4NnJ4OGo/607f07ceef4=
+b8524a319a23cB301ca484" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">of Berghain</a>:</p><blockquote><p style=3D=
+"margin: 16px 0;">Elon Musk dived into Berlin=E2=80=99s famed fetish and el=
+ectronic music scene at the weekend in a club crawl that ended abruptly in =
+front of the Berghain techno temple, prompting speculation that he had been=
+ denied entry.</p></blockquote><p style=3D"margin: 16px 0;">No, I kid, but =
+there is an important=C2=A0question here, which is, did the bouncer know wh=
+o he was? When Elon Musk arrived at the door of Berghain, did the bouncer l=
+ook at him and think =E2=80=9Cthis is a dork=E2=80=9D and turn him away for=
+ that reason, or did the bouncer instead think =E2=80=9Cthis is Elon Musk, =
+the richest person in the world=E2=80=9D and turn him away for=C2=A0<em>tha=
+t=C2=A0</em>reason? Like probably there are a lot of nightclubs that would =
+love to have Elon Musk come party, because he is famous and has a lot of mo=
+ney, but surely Berghain isn=E2=80=99t one of them? Elon Musk partying at B=
+erghain will not raise Berghain=E2=80=99s profile or make it cooler, and he=
+ can=E2=80=99t spend=C2=A0<em>that=C2=A0</em>much money, but=C2=A0<em>turni=
+ng away Elon Musk=C2=A0</em>is=C2=A0<em>obviously great</em> for Berghain=
+=E2=80=99s fame and coolness. Still, both possibilities are wonderful, and =
+I suppose they could both be true sequentially:</p><blockquote><p style=3D"=
+margin: 16px 0;"><strong>Elon Musk:</strong> What=E2=80=99s happening my ma=
+n.</p><p style=3D"margin: 16px 0;"><strong>Sven, Berghain=E2=80=99s =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604=
+/aHR0cHM6Ly9mdXR1cmlzbS5jb20vdGhlLWJ5dGUvZWxvbi1tdXNrLWJlcmdoYWlu/607f07cee=
+f4b8524a319a23cBeb6a6bff" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">iconic bouncer</a>=E2=80=9D who =E2=80=9C=
+looks for outfits, aesthetic and vibes=E2=80=9D:</strong>=C2=A0[<em>Looks a=
+t outfit, aesthetic and vibes</em>] You can=E2=80=99t come in.</p><p style=
+=3D"margin: 16px 0;"><strong>Elon:</strong> Do you know who I am, I am Elon=
+ Musk, the richest person in the world, I have spaceships and stuff.</p><p =
+style=3D"margin: 16px 0;"><strong>Sven:</strong> [<em>Googles</em>] So you =
+are.</p><p style=3D"margin: 16px 0;"><strong>Elon:</strong> So!</p><p style=
+=3D"margin: 16px 0;"><strong>Sven:</strong> Now you <em>really</em> can=E2=
+=80=99t come in.</p></blockquote><table class=3D"liveintent-flex-ad" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH5f28eb40" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sure also GameStop</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Last Thursday after the close, GameSto=
+p Corp. <a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.2=
+66604/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMyN=
+jM4MC8wMDAxMzI2MzgwMjIwMDAwMzgvZ21lLTIwMjIwMzMxLmh0bQ/607f07ceef4b8524a319a=
+23cB612eb5f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">announced that it is planning a=C2=A0stock split</a>,=
+ missing April Fool=E2=80=99s Day by hours. The stock opened up almost 14% =
+on Friday, though it lost those gains and closed down on the day. We <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjkvc3RvY2stc3B=
+saXRzLWFyZS1nb29kLW5vdz9jbXBpZD1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBef4febbe" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> talked last week=
+</a> about stock splits, with the gist of it being =E2=80=9Cstock splits ar=
+e good for meme stocks,=E2=80=9D and several stocks with very high prices a=
+nd name recognition have split in recent years. Is GameStop basically in th=
+e same category as Tesla, Alphabet Inc. and Amazon.com Inc.? Sure why not.<=
+/p><p style=3D"margin: 16px 0;">Incidentally the phrase =E2=80=9Cstock divi=
+dend=E2=80=9D has sort of <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27253239.266604/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXM=
+vMTUwODYwMjUzMjcyNTIwMjk1NA/607f07ceef4b8524a319a23cB4198c11b" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">bubb=
+led up</a> in <a href=3D"https://link.mail.bloombergbusiness.com/click/2725=
+3239.266604/aHR0cHM6Ly90d2l0dGVyLmNvbS9hYV9sZWhtYW5uL3N0YXR1cy8xNTA5ODkzNTU=
+0MjM1MDgwNzA4/607f07ceef4b8524a319a23cB660520b2" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">popular awareness<=
+/a> recently so let=E2=80=99s do a quick explainer. Under Delaware corporat=
+e law (the law that applies to GameStop and Tesla and most other big U.S. p=
+ublic companies), there is a standard way to do a stock split. <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly9kZW=
+xjb2RlLmRlbGF3YXJlLmdvdi90aXRsZTgvYzAwMS9zYzA4L2luZGV4Lmh0bWw/607f07ceef4b8=
+524a319a23cB7c8faa7e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Section 242(a)(3)</a> of the Delaware General=
+ Corporation Law allows a company to amend its corporate charter =E2=80=9Ct=
+o increase or decrease its authorized capital stock ...=C2=A0by subdividing=
+ or combining the outstanding shares of any class or series of a class of s=
+hares into a greater or lesser number of outstanding shares." So you can tu=
+rn every share into two shares, or 10 shares, or turn every two shares into=
+ one share, or seven into three, or whatever.=C2=A0</p><p style=3D"margin: =
+16px 0;">This requires a shareholder vote, though, which is a pain. At some=
+ point lawyers realized that there is a different provision of the law =E2=
+=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/272532=
+39.266604/aHR0cHM6Ly9kZWxjb2RlLmRlbGF3YXJlLmdvdi90aXRsZTgvYzAwMS9zYzA1L2luZ=
+GV4Lmh0bWw/607f07ceef4b8524a319a23cB2abac733" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">section 173</a> =E2=
+=80=94=C2=A0that allows companies to pay dividends =E2=80=9Cin shares of th=
+e corporation=E2=80=99s capital stock,=E2=80=9D without a shareholder vote.=
+ So instead of saying =E2=80=9Ceach share of stock splits into two shares,=
+=E2=80=9D which requires a shareholder=C2=A0vote, you can say =E2=80=9Ceach=
+ share of stock will receive a dividend of one share of stock,=E2=80=9D whi=
+ch has exactly the same effect but does not require a vote. So that=E2=80=
+=99s the normal way to do a forward=C2=A0stock split in modern public compa=
+nies. (A reverse stock split =E2=80=94=C2=A0every 10 shares become one shar=
+e =E2=80=94=C2=A0still requires section 242 and a vote.)=C2=A0</p><p style=
+=3D"margin: 16px 0;">GameStop and Tesla can=E2=80=99t really do a stock-spl=
+it-by-dividend, though, because they don=E2=80=99t have enough authorized s=
+hares. So they have both announced that they will ask their shareholders to=
+ vote to amend their charters to authorize more shares, and=C2=A0<em>then=
+=C2=A0</em>they will do a stock-split-by-dividend. (This is presumably a bi=
+t tidier than asking the shareholders to vote on a stock-split-by-section-2=
+42 in part because it gives the board a bit more flexibility to change its =
+mind and in part because it lets you authorize=C2=A0some extra shares for o=
+ther purposes.) But there is nothing unusual about the fact that they=E2=80=
+=99re doing the stock split this way; it=E2=80=99s just unusual that they h=
+ad to mention it.</p><table class=3D"header" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile in Paulsboro</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Honestly it has been a wild few days=
+=C2=A0for Money-Stuff-ish financial news stories. <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuY25iYy5jb20=
+vMjAyMi8wNC8wMS9uZXctamVyc2V5LWRlbGktb3duZXItaG9tZXRvd24taW50ZXJuYXRpb25hbC=
+10by1kby1tYWthbWVyLW1lcmdlci5odG1s/607f07ceef4b8524a319a23cB3507e1a0" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Here=E2=80=99s this</a>:</p><blockquote><p style=3D"margin: 16px 0;">Hom=
+etown International =E2=80=94 that odd, publicly traded company with a mark=
+et capitalization of more than $100 million despite owning just one small N=
+ew Jersey deli =E2=80=94 has announced plans to merge with Makamer, a priva=
+te bioplastics start-up firm.</p><p style=3D"margin: 16px 0;">The money-los=
+ing Your Hometown Deli in Paulsboro, N.J., which is owned by Hometown Inter=
+national, will not be operated by the company that will result from the mer=
+ger with the Los Angeles-based Makamer.</p><p style=3D"margin: 16px 0;">But=
+ a woman who answered the phone at the deli on Friday said, =E2=80=9CWe=E2=
+=80=99re still going to be open=E2=80=9D after the merger is completed.</p>=
+</blockquote><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTkvZXZlcnlvbmUtbG92ZXMtdGhlLTEwMC1taWx=
+saW9uLW5ldy1qZXJzZXktZGVsaS1leGNlcHQtZGF2aWQtZWluaG9ybi1rbm90dHJtYj9jbXBpZD=
+1CQkQwNDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cBdd911518" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> talked</a> a <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMDQtMjAvaG9tZXRvd24taW50ZXJuYXRpb25hbC1uZXctamV=
+yc2V5LWRlbGktaXMtYWN0dWFsbHktd29ydGgtMi1iaWxsaW9uP2NtcGlkPUJCRDA0MDQyMl9NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIyMDQwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcc554346=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> lot</a> about <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDQtMzAvaG9tZXRvd24taW50ZXJuYXRpb25hbC10aGUtMTAwLW1pbGxpb24tZGV=
+saS1pcy1hLXdlaXJkLXNwYWM_Y21waWQ9QkJEMDQwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA0JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa1e0b00f" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> the deli</a> ba=
+ck <a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDMvYW=
+1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw_Y21waWQ9QkJEMDQwNDIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA0=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBeced3b6c" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> in 2021</a>, and I characterized it as =E2=80=9Ca weird SPAC,=E2=80=9D a =
+shell company that its backers were planning to use to merge with a private=
+ (or foreign) company to take it public without the usual procedures of an =
+initial public offering. Apparently it found a target. The deli is not=C2=
+=A0a true shell company in that it actually runs a deli, but I suppose it=
+=E2=80=99s not that hard to get rid of the deli.=C2=A0</p><p style=3D"margi=
+n: 16px 0;">Here is the <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27253239.266604/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ=
+2FyL2RhdGEvMTYzMjA4MS8wMDAxMjEzOTAwMjIwMTY4OTAvZWExNTc3NDUtOGtfbWFrYW1lci5o=
+dG0/607f07ceef4b8524a319a23cC15e35f61" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">announcement of the merger</=
+a>. Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/272532=
+39.266604/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2MzIwODEvM=
+DAwMTIxMzkwMDIyMDE2ODkwL2VhMTU3NzQ1ZXgyLTFfbWFrYW1lci5odG0/607f07ceef4b8524=
+a319a23cB3a0dba77" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">the merger agreement</a>, which does say that =
+=E2=80=9Cincoming management will continue to evaluate and determine the vi=
+ability of the Parent=E2=80=99s existing delicatessen business currently op=
+erated through its subsidiary Your Hometown Deli.=E2=80=9D I do not want to=
+ know about the potential synergies between bioplastics and the deli.</p><t=
+able class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Me elsewhere</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I went on <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMDQvaG93LWJpbGwtZ3Jvc3MtbWFuYWdlZC10by1id=
+WlsZC1hLWJvbmQtZW1waXJlLXRoZW4tbG9zdC1pdC1hbGwtcG9kY2FzdD9jbXBpZD1CQkQwNDA0=
+MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1=
+fdGVybT0yMjA0MDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9=
+2dc2efd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Bloomberg=E2=80=99s =E2=80=9COdd Lots=E2=80=9D podcast</a=
+> to talk with my friend Mary Childs about her book, =E2=80=9CThe Bond King=
+.=E2=80=9D</p><table class=3D"header" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Zeke Faux profiles <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDQtMDMvc2FtLWJhbmttYW4tZnJpZWQtZnR4=
+LXMtY3J5cHRvLWJpbGxpb25haXJlLXdoby13YW50cy10by1naXZlLWhpcy1mb3J0dW5lLWF3YXk=
+_Y21waWQ9QkJEMDQwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB20639d99" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Sam Bankman-Fried</a>. Trump-Tied <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMDQvdHJ1bXAtdGllZC=
+1zcGFjLXNsaWRlcy1hcy1leGVjdXRpdmVzLXF1aXQtbXVzay1iZXRzLW9uLXR3aXR0ZXI_Y21wa=
+WQ9QkJEMDQwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjIwNDA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB05a9a737" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Social Media SPAC</a> Slides After Key Execu=
+tives Quit.=C2=A0Judge Tosses California Law Mandating <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9qdWRnZS10b3NzZXMtY2FsaWZvcm5pYS1sYXctbWFuZGF0aW5nLWRpdmVyc=
+2l0eS1vbi1ib2FyZHMtMTE2NDkwNzg3OTc_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524a=
+319a23cBeed1db99" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Diversity on Boards</a>.=C2=A0Starbucks <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9zdGFyYnVja3Mtc3VzcGVuZHMtYnV5YmFja3MtdG8taW52=
+ZXN0LWluLW9wZXJhdGlvbnMtYXMtc2NodWx0ei1yZXR1cm5zLTExNjQ5MDU1NjYwP21vZD1ocF9=
+sZWFkX3BvczI/607f07ceef4b8524a319a23cB2a688a36" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Suspends Share Buyb=
+acks</a> as Howard Schultz Returns as CEO.=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvOGZmYjk1YzgtZDQyMy00MGM3LWJlOTAtNTYwODM1YWYyY2Ux/607f07ceef4b8524a31=
+9a23cB9257d207" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">Tom Brady</a> joins firm launched by disgraced PR g=
+uru Declan Kelly.=C2=A0In Defense of Bitcoin Maximalism (by Vitalk Buterin =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly92aXRhbGlrLmNhL2dlbmVyYWwvMjAyMi8wNC8wMS9tYXhpbWFsaXN0Lmh0bWw/607f0=
+7ceef4b8524a319a23cB27f0229d" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">on April 1</a>).</p><p style=3D"margi=
+n: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd l=
+ike to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your in=
+box, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7253239.266604/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80=
+d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY=
+3YQ/607f07ceef4b8524a319a23cBc608ab0b" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+subscribe at this link</a>. Or you can subscribe to Money Stuff and other g=
+reat Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27253239.266604/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZX=
+Jz/607f07ceef4b8524a319a23cBf46d24c7" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"ma=
+rgin: 16px 0;"><em>[1] This is a joke, and you can easily find Twitter boar=
+d members who tweet. But other than *maybe* Jack Dorsey, I think Musk would=
+ clearly be the first true *poster* on Twitter=E2=80=99s board. Like everyo=
+ne else tweets as part of a professional communications strategy. Musk twee=
+ts because he loves tweeting.</em></p><p style=3D"margin: 16px 0;"><em>[2] =
+Another weird aspect: The filing came out today, April 4, and lists March 1=
+4 as the =E2=80=9Cdate of event which requires filing.=E2=80=9D If that mea=
+ns what it intuitively seems like =E2=80=94=C2=A0that is, March 14 is the d=
+ate on which Musk acquired more than 5% of Twitter=E2=80=99s stock, requiri=
+ng a 13G filing =E2=80=94=C2=A0then =E2=80=A6=C2=A0isn=E2=80=99t the filing=
+ late?=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[3] Twitter trades an=
+ average of about 16.4 million shares a day,=C2=A0so it would take a week t=
+o sell all of Musk=E2=80=99s shares *if he was 100% of volume*; a more reas=
+onable pace would be 10-20% of volume, meaning a month or two. But those vo=
+lume numbers are pre-Musk-announcement, and his filing has boosted the volu=
+me as well as the price; by 11 a.m. today Twitter had traded more than 110 =
+million shares.</em></p><p style=3D"margin: 16px 0;"><em>[4] The <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27253239.266604/aHR0cHM6Ly93=
+d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xM2QtMg/607f07ceef4b8524a319=
+a23cB3a247ac7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">amendment requirements</a> for Schedule 13G require =
+prompt disclosure if you reduce your stake by more than five percentage poi=
+nts. So basically he could sell 4.9% without disclosure but then would have=
+ to bang out the rest fast.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB530b231b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb60c7b7a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB8fb7bae6" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1a59a962" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzI1MzIzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1MTk4NDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIa20ea227" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27253239&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2725323=
+9.266604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB79579406" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27253239.266604/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCeebef679" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27253239.266604/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB3016fa2f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27253239.266604/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8c33c830" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB9=
+5a620ca" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27253239.266604/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+2c5f0c7" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D272532=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D272532=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D272532=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D272532=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D272532=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27519843&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg84qf.5ppo/7ed4a6d7.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_198588_891361387.1649093512622--
+

@@ -1,0 +1,2012 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp8132922rwb;
+        Tue, 27 Jun 2023 11:57:16 -0700 (PDT)
+X-Received: by 2002:a05:6512:3e19:b0:4fb:829b:197c with SMTP id i25-20020a0565123e1900b004fb829b197cmr2994806lfv.52.1687892235984;
+        Tue, 27 Jun 2023 11:57:15 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1687892235; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=NqoVRRER9U5iBBz/pAnmOMbeChFmuj5E+TaQsDoJl8aox/x0vR1VGADACEFugDJmU9
+         gKh2MGp4V235why4rUmE1Lz392rdAIagWCQJwyQPr+mzfwIGRiDZPtEzDUjtXO8Mdo/O
+         eeFom3vTWElauDWoaj2Jpou/sqb4RL1CNv9JooO91sYXJJzPYbTMlUI12/ETyrD0Jm7B
+         0/28SrsZM12a5wv3VIkOTrmy1gQ+GD7h8c/ZfrcxrPpsIbCLNwUBjDLA67uz9IV6a5Mo
+         7MoFD+qwdJ9EfBOXg8viWLRHQghp+zSK9SA3gAj8jlwuuSKK8Lo0kXA7Rsz9sz7dIniV
+         jZcA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=KqwcKOQEv3jj/6JrXgAo1TWJWNZxYNsjlB9knSmH/DY=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=p29UgpnUxns+U6UcYxVgPrSZ9kDwqZtN66NjRMEXSZM6zINlnuaDfjMJEHpLmKJHYP
+         R33XiS/YYGMTqJXoC3sIMTsYQmJjP+HNwdlQ/F9H0pAm0Pt7A2woK3jczaT+sFEuKCTo
+         QAdD0Mk2EozXdgRfDb3fWq2Rc8eupPBcbLnVj5FPDyJTW6wifDj0BLXDJ+kO8iMchbtQ
+         sLzR7Cc5amwbUojBZHsfxtljsqgYvUkKpm7PkNJKVNR87vUbyDVaXkdqw0xngAxVtaWQ
+         7akOnFPzcUab6vQLPSD7b8RWKoejkmv9eesZ3FJ5jM8jZeyD/xH/QBUSRFyJqPA45+yQ
+         HzoA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="aImG/Oz3";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d2-20020a194f02000000b004f877f66247sor2702618lfb.9.2023.06.27.11.57.15
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 27 Jun 2023 11:57:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="aImG/Oz3";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1687892235; x=1690484235;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=KqwcKOQEv3jj/6JrXgAo1TWJWNZxYNsjlB9knSmH/DY=;
+        b=U7feaeGB6SD9uq4H1l+AQEfGdXotWkmvqoIVPxWWHm7WR3fDhT/GkbbfknRbWkfOIO
+         +GVISGUO8WoHPUFW9FaKhReDtUHAUi6iddhhpxWvfI6RMfTOQHMOMi/9zy5rKfHCT7VG
+         HAfkKTr6t8GH0Sy9sobVo/UwRefv3rkfZEVHvWVX4QO5T7WV6oLrL4Rzh/S1/EJ4L2Bq
+         xwEWpi27SeHcwFPxYE9kxXBHjmB6UhelnRORfIaUBVNKoViIjypgHSzReucXnWkIrhhM
+         v1knxbvrncGL8SXW1lWKi3mfUUksLiEzfGslxE9sCnmhRsqUECnzu63PXq5OnVe3OP43
+         sQUw==
+X-Gm-Message-State: AC+VfDwm31CfoboU2KzlnePzURPuPSE/mB1l9e0ftDKsIXm9M888vrmy
+	WNOOWOMbEPVIKwkzICtk+LaOcuH6C76qntJUZCE4O4vxWte8llkM0Q==
+X-Received: by 2002:a19:ca10:0:b0:4f9:58bd:9e5c with SMTP id a16-20020a19ca10000000b004f958bd9e5cmr9737826lfg.3.1687892235336;
+        Tue, 27 Jun 2023 11:57:15 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:d4cc:0:0:0:0:0 with SMTP id w12csp958587wrk;
+        Tue, 27 Jun 2023 11:57:10 -0700 (PDT)
+X-Received: by 2002:a1f:bf41:0:b0:464:7445:cbcb with SMTP id p62-20020a1fbf41000000b004647445cbcbmr11250896vkf.2.1687892230346;
+        Tue, 27 Jun 2023 11:57:10 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1687892230; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=qSfPRK+NdjHZM3u0aIg8i7txq+XFOdCiOlhw+SMUzigmc1HlH3oyCqt9lJVeDpQi2e
+         FApF9SqH7qQVt3ATQme+/HsUI6WGjjVzakrPw2s+g/k0F5PDLmbn1+q9et+5+zQ2nLi+
+         Y/ggV7VnIYa6ehXwwyk6+fw6em1bYH/O82Ci5A1wkEwgDWft+jA2IsSNfHrm6GNoZJxY
+         smiT7agCkd9KnamzPk3tJIQ6zNGW4YxYBJBJ/vKrBA/veXiLzNqV+RDrPn91sl5TRKcP
+         1J1NFwFfKudgAHGGiXUhgc8Lfd8zjHVmgw9xHHcJV21V55PntOADU80VOItbbUzBXhVa
+         rE4Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KqwcKOQEv3jj/6JrXgAo1TWJWNZxYNsjlB9knSmH/DY=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=pQuouDY6j1UFRlTpsBpEU70qGN5xOmsMYRQsDtE8FoeA9Db4FJcs/F0ogv+giZmjCw
+         MwjQ/Lm7OsK9X164SEygSOgfAV7yiSvbXNoBxrG6hd4/cCbvcW3913y3aejzjIsl1jxw
+         qgYxHyc1zA/ebAg1aaGKGHOCmIUbOV5LQzhtz99pCfXZ14Y+gHJH15F5YfjtS1PEbejh
+         jBzlRoF9KYB5/c2YDMl00ER295O7ogwTaIHXaoBsWZZnBsDl7NKE1cuExhkL/lkdU7CJ
+         2WQRody4iMqX4q14s3aCNJC6cjEeLR8SnAaN33kMNNtPtTl31owZw6ygNgjkQfsmnQU1
+         Pofg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="aImG/Oz3";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230627145709.31919120.257399@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230627145709.31919120.257399@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230627145709.31919120.257399@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k3-20020a1fec03000000b004718774f36asor674636vkh.6.2023.06.27.11.57.10
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 27 Jun 2023 11:57:10 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230627145709.31919120.257399@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ4XQtKmumLaWzmBKtc+JLoC3mQ8KPU2D0w0uK7opgE9UzWq6rzgxgDD3TJ8beGpf+Tx1arV2VJU61sG2ivcLtv6MsmJD3c=
+X-Received: by 2002:a1f:4544:0:b0:476:2650:ab7f with SMTP id s65-20020a1f4544000000b004762650ab7fmr5395189vka.1.1687892230019;
+        Tue, 27 Jun 2023 11:57:10 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1687892230; cv=none;
+        d=google.com; s=arc-20160816;
+        b=pEWizMoCDMeb4O4c3gyIOkRV3hE7DmcgA9CAMZwM9MjiB2/lxmSnKM5okf95/j8TL4
+         P547jjku1Ahzme38Uky15E00XNKzh+0gVw2AO5Pv4+iuF8FXniok1G5dAcRTFCrnXbdH
+         zADdZJVsf74gmOJsjk1opXDCodQK0YHTVRva07Huck5/FJXNsFEdmrMrN2r4BkpG4Q3d
+         EQopIskKkGbJwzWpwtiNkMbBegNhTe1+X/NUVWuFVX+nSy8pJkBaYzUeiFKjgUoDFAxB
+         bZszjAd1N4zrP7YTfHV5J456jZHB760/+7V2euIDglgT3oOjPa6qf53k0+3pNctbOvyb
+         RUgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KqwcKOQEv3jj/6JrXgAo1TWJWNZxYNsjlB9knSmH/DY=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=XuIyEzUd6LwvVFoYBFuVoVIyiQgPzBGKXuEmsfkvnekuor5OzAfXdcRkJ+GQxaDFG5
+         xXKqpr0M1Px3VrsVmcT31KF4P5gZyvitrAtvBhYX/U9ljDrkWeiBxsVzR8XujEjPiZDP
+         mjadEWxoq+uCvkhB0r8z53jMT/7laq6SEAdyugGW4x61jV+Ul2eFGe8rryJt5FiATWwJ
+         Pz1r5vKDVQlxKn9KWY756iFdyY2SnEZR/22cqq20frXY4AnCgEMzN8M3ZynrZh2DyT5b
+         UrK1RFAonpvcm+wPVbN8nj7qZDiDOzQFL6SvDa8KzvFOY9/OXuy1+wISgSeeHc9IISha
+         UT3Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="aImG/Oz3";
+       spf=pass (google.com: domain of delivery_20230627145709.31919120.257399@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230627145709.31919120.257399@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230627145709.31919120.257399@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ce3-20020a056122410300b0047c5e9f55a1si280921vkb.2.2023.06.27.11.57.09
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 27 Jun 2023 11:57:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230627145709.31919120.257399@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=sNOxkcu9jiZw5GjThH6Oz/L2WQXlr4m7om8mvjtlQZw=;
+ b=aImG/Oz30BZrkb08eHNg8Gp8T8njZcB9BuFC798IVo/k+pCTGzSh6L1f+ZMtQW+iMZN7/IUrEHe6
+   F0vtI+CoJVrnrEDaihN8ZAtGsHYPJ5CGKsdvL8otND2jD4oRVayPDEQdybasl2FVu7FJX+LNG2r5
+   6teECVOyizIb1nEDzFw=
+Received: from nj1-mta30.sailthru.com (204.153.120.165) by bloomberg-b.sailthru.com id hjcoga30nu8e for <bloomberg@khamel.com>; Tue, 27 Jun 2023 13:57:09 -0500 (envelope-from <delivery_20230627145709.31919120.257399@mx.sailthru.com>)
+Date: Tue, 27 Jun 2023 14:57:09 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230627145709.31919120.257399@sailthru.com>
+Subject: Money Stuff: Silicon Valley Is On Drugs
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8703628_1705017622.1687892229222"
+Precedence: bulk
+x-job: 6358-31919120-20230627
+X-Feedback-ID: 6358:31919120:campaign:sailthru
+X-TM-ID: 20230627145709.31919120.257399
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj04y8.5ilz/5b618746
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj04y8.5ilz/5b618746>, <mailto:unsubscribe_20230627145709.31919120.257399@mx.sailthru.com>
+X-rpcampaign: stjko31919120
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_8703628_1705017622.1687892229222
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Uh, I don=E2=80=99t know, here=E2=80=99s one model for tech startup=
+s and venture capital: Most of the returns to venture capital come from mak=
+ing early-stag
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      The lifestyle
+   =20
+ =20
+
+Uh, I don=E2=80=99t know, here=E2=80=99s one model for tech startups and ve=
+nture capital:
+=09Most of the returns to venture capital come from making early-stage inve=
+stments in companies that go on to change the world in radical and unexpect=
+ed ways.=09Therefore, if you are a VC, you should make risky investments in=
+ visionary entrepreneurs with wild ideas: Many won=E2=80=99t work out, and =
+ some will be frauds,=C2=A0but one or two might hit it big, and the path to=
+ success is having one or two radical world-changing companies.=C2=A0=09The=
+refore, if you are a tech entrepreneur, you should try to come across as a =
+wild-eyed visionary, because VCs (correctly) look for that and will give yo=
+u money.=09Therefore, if you are a tech entrepreneur, you should take hallu=
+cinogenic drugs, in order to (1) be able to visualize an improbable future =
+and (2) be kind of weird to talk to.=09If you are a tech venture capitalist=
+, you should also take hallucinogenic drugs, in order to get on the wavelen=
+gth of the visionary entrepreneurs.
+
+I do not mean to endorse this model too much or anything, but here is a guy=
+ in the Wall Street Journal who believes it:
+
+Spencer Shulem, CEO of the startup BuildBetter.ai, said he uses LSD about e=
+very three months because it increases focus and helps him think more creat=
+ively. While working alone after hours, he will sometimes take a low-enough=
+ dose where he said no one would know he was on LSD. Other times, he=E2=80=
+=99ll take a larger dose alone and connect with nature on a hike.
+Shulem, who lives in New York City, said the high expectations of venture-c=
+apital firms and investors in general can lead founders to turn to psychede=
+lics to provide an edge. =E2=80=9CThey don=E2=80=99t want a normal person, =
+a normal company,=E2=80=9D he said. =E2=80=9CThey want something extraordin=
+ary. You=E2=80=99re not born extraordinary.=E2=80=9D
+
+You=E2=80=99re not born extraordinary, but if you take enough drugs you wil=
+l think you are extraordinary, and if they take enough drugs they=E2=80=99l=
+l agree. The article is about how everyone in Silicon Valley is on drugs:
+
+Elon Musk takes ketamine. Sergey Brin sometimes enjoys magic mushrooms. Exe=
+cutives at venture-capital firm Founders Fund, known for its investments in=
+ SpaceX and Facebook, have thrown parties that include psychedelics.
+Routine drug use has moved from an after-hours activity squarely into corpo=
+rate culture, leaving boards and business leaders to wrestle with their res=
+ponsibilities for a workforce that frequently uses. At the vanguard are tec=
+h executives and employees who see psychedelics and similar substances, amo=
+ng them psilocybin, ketamine and LSD, as gateways to business breakthroughs=
+.
+=E2=80=9CThere are millions of people microdosing psychedelics right now,=
+=E2=80=9D said Karl Goldfield, a former sales and marketing consultant in S=
+an Francisco who informally counsels friends and colleagues across the tech=
+ world on calibrating the right small dose for maximum mindfulness. It is =
+=E2=80=9Cthe fastest path to opening your mind up and clearly seeing for yo=
+urself what=E2=80=99s going on,=E2=80=9D said Goldfield.=C2=A0
+
+I do not generally look for pharmacological explanations of social or busin=
+ess phenomena; I don=E2=80=99t, for instance, believe that FTX failed becau=
+se its employees were all on Ritalin.=C2=A0But it would be very funny if th=
+e story of the American tech industry in the 21st century, good and bad, is=
+ mostly =E2=80=9CLSD and ketamine.=E2=80=9D=C2=A0The drugs help with busine=
+ss ideas:
+Some entrepreneurs microdose to derive benefits, often in hope of alleviati=
+ng anxiety or sharpening focus. Others in tech said they take full doses of=
+ a drug=E2=80=94using the term macrodose=E2=80=94as they try to reach a hig=
+h that will lead to a new disruptive idea. Goldfield describes this as =E2=
+=80=9Cego death,=E2=80=9D an experience when a user gets to the core of the=
+ir being and =E2=80=9Clets go.=E2=80=9D
+As well as with corporate strategy decisions:
+
+Tim Sae Koo was the founder of a digital marketing startup in San Francisco=
+ when he discovered psychedelics at the Coachella music festival in 2014.=
+=C2=A0
+He said they helped him realize he had started his business to make his mot=
+her proud, and that it was time to sell. =E2=80=9CA lot of that kind of exp=
+loration in my psychedelic experience helped give me a clarity that I had s=
+tarted the company from a place of a wound,=E2=80=9D he said.
+
+I have  previously suggested that some large percentage of M&A activity mig=
+ht be driven by executives who want to avoid spending time with their child=
+ren. I have less of an intuition for how much M&A activity is driven by exe=
+cutives achieving a breakthrough, via therapy or psychedelics, in understan=
+ding their relationship with their parents, but it=E2=80=99s surely some. (=
+This is the plot of Succession?) M&A bankers should be leading ayahuasca re=
+treats; when the drugs kick in they can be like =E2=80=9Cyour mom is proud =
+of you now, time to sell, here=E2=80=99s a pitchbook with some indicative v=
+aluations.=E2=80=9D
+There are, however, corporate governance and disclosure questions:
+Silicon Valley has long had a tolerance toward drug use=E2=80=94many compan=
+ies don=E2=80=99t test employees regularly=E2=80=94but the phenomenon is wo=
+rrying some companies and their boards, who fear they could be held liable =
+for illegal activity, according to consultants and others close to the comp=
+anies.
+Your general model might be that early-stage startup investing is about ide=
+ntifying visionary ideas people, and mature-public-company governance is ab=
+out making sure that companies are run by responsible adults, and it is not=
+ always the case that the visionary ideas people are (or grow up to be) the=
+ responsible adults. There is a transition, between early-stage and mature =
+companies, that might require a change of personnel or at least a change of=
+ behavior. The hallucinogens might be required for the ideas people and for=
+bidden for the responsible adults. If you are a certain sort of tech founde=
+r you might start taking hallucinogens because your board of directors love=
+s them, and then later have to stop taking hallucinogens because your board=
+ of directors hates them.
+Also of course everything is securities fraud: Tesla Inc.=E2=80=99s 10-K sa=
+ys things like =E2=80=9CWe are highly dependent on the services of Elon Mus=
+k, Technoking of Tesla and our Chief Executive Officer=E2=80=9D and disclos=
+es that =E2=80=9Che does not devote his full time and attention to Tesla,=
+=E2=80=9D but it does not mention ketamine. Probably someone is going to su=
+e about that eventually.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Private credit
+   =20
+ =20
+
+Last year my friend Mary Childs  published a book about Bill Gross called T=
+he Bond King: How One Man Made a Market, Built an Empire, and Lost It All.=
+=C2=A0The market that Gross built was the investment-grade bond market. In =
+the olden days, when Gross started out, the way bonds worked was that compa=
+nies sold bonds, and insurance companies bought them and held them to matur=
+ity.=C2=A0 Childs:
+
+Bill Gross, and Pimco, started small. After struggling to find a job out of=
+ business school, Gross landed at the staid old insurance company=C2=A0Paci=
+fic Mutual as a securities analyst and loan officer in its fixed income dep=
+artment. The business of life insurance necessitates knowing generally how =
+many customers will die each year, how much an insurer will need to pay out=
+, and when-ish. Usually it=E2=80=99s not for a while. So Pacific Mutual cou=
+ld take its customers=E2=80=99 life insurance premia and invest the money i=
+n bonds that throw off interest payments until they mature (and return the =
+money) approximately when the insurer expects to need it back. It could pre=
+tty safely buy a thirty-year=C2=A0bond, and earn the interest, with money f=
+rom customers who most likely wouldn=E2=80=99t die for another thirty years=
+. =E2=80=A6
+It was not stimulating work. Gross found himself with uninteresting jobs li=
+ke clipping bond coupons in Pacific Mutual=E2=80=99s vault, snipping the li=
+ttle tags off the bottom of corporate certificates and mailing them in for =
+interest payments. That was all a person would do with bonds at the time. F=
+or the first few years, Gross couldn=E2=80=99t wait to get transferred into=
+ the stocks division. But then, at the start of the 1970s, he convinced his=
+ boss to let him try a radical concept: trading bonds.
+
+Gross, and a few other innovators in the 1970s, realized that he could impr=
+ove his returns by actively managing his bond portfolio: He could sell bond=
+s he thought were overpriced, buy bonds he thought were underpriced, and ma=
+ke higher returns with lower risk than he could by just buying bonds at iss=
+ue and holding them to maturity. This was such a good idea that he ended up=
+ managing money for other investors, not just for his own insurance-company=
+ employer. And then other things happened in his career.
+One general thing you might think about this story is that this idea, like =
+so many ideas, gets less good over time. If you are the bond guy at an insu=
+rance company, and all the=C2=A0other=C2=A0insurance companies just buy bon=
+ds and hold them to maturity, but=C2=A0you trade bonds actively to try to m=
+aximize returns, you will probably outperform your competitors. (If you can=
+ find anyone to trade with you!) They are not paying attention or trying to=
+ make profit-maximizing decisions, but you are; the fruit is low-hanging. B=
+ut once you prove out the concept, everyone will actively trade=C2=A0bonds,=
+ and not everyone can be above average at trading bonds. By the time Gross =
+  retired in 2019, lots of bond portfolios were actively managed, there was=
+ big money and lots of competition in the bond-management business, and Gro=
+ss=E2=80=99s own recent performance wasn=E2=80=99t great.=C2=A0
+If you were a hotshot innovator in the credit department of an insurance co=
+mpany in the 2020s, it might occur to you to do the opposite=C2=A0of Gross.=
+ You might think thoughts like these:
+=09Look, I=C2=A0do=C2=A0sit on a pot of insurance money; I really=C2=A0can=
+=C2=A0hold bonds to maturity. I don=E2=80=99t=C2=A0need instantaneous liqui=
+dity on my bond investments. Given the choice between a liquid tradeable bo=
+nd paying 6%, and an illiquid non-tradeable bond that I can=E2=80=99t sell =
+for 10 years but that pays 6.5%, maybe I should take the higher interest ra=
+te and just wait.=C2=A0=09There is, in general, in financial markets, an il=
+liquidity premium: Bonds that can=E2=80=99t be traded tend to pay higher in=
+terest rates than=C2=A0 equally good bonds that can be traded. So I probabl=
+y=C2=A0can=C2=A0get an extra 0.5% for buying hard-to-trade bonds.=09When co=
+mpanies issue widely tradeable bonds, there is a lot of process. They have =
+to hire investment banks to find enough investors to buy the bonds; those b=
+anks charge fees for their efforts. If I just=C2=A0went to companies I like=
+d and asked to lend them money directly, without involving a bank, we could=
+ cut out some middlemen and some fees; I would capture more of the value be=
+cause the banks would get less.=C2=A0=09If I pick my own borrowers and stru=
+cture my own deals, I can probably get higher returns and higher credit qua=
+lity than if I just buy whatever the big banks are bringing to market each =
+week, and that might be better for my performance than trying to actively t=
+rade bonds in a competitive market.
+
+Simplistically, when no one has discovered the idea of trading bonds, you c=
+an get better returns by trading bonds. When everyone trades bonds, you can=
+ get better returns by not trading bonds.
+(As a technical point, if you were a hotshot innovator in the credit depart=
+ment of an insurance company in the 2020s,=C2=A0you probably wouldn=E2=80=
+=99t work at an=C2=A0insurance company; you=E2=80=99d probably work at an a=
+lternative asset manager that happens to own, or run money for, an insuranc=
+e company.)
+At the Financial Times, Eric Platt reports on  the rise of investment-grade=
+ private credit:
+
+Alternative asset managers such as Apollo, KKR and Blackstone are increasin=
+gly financing blue-chip companies, as businesses look for new sources of ca=
+pital to help counteract the effects of higher interest rates and a slowing=
+ economy.
+The deals =E2=80=94 including two announced this month with AT&T and PayPal=
+ =E2=80=94 underscore the growing reach of the private credit industry as i=
+t helps companies bypass traditional banks and bond markets to raise money.=
+ ...
+Executives said the shift was a natural outgrowth of private credit=E2=80=
+=99s fundraising spree, giving managers cash to lend. As well, most major p=
+rivate equity groups have bought or invested in an insurance company in the=
+ past five years, drawing in hundreds of billions of premiums to invest.
+Supercharging the push has been Apollo, whose insurer Athene has amassed ne=
+arly $260bn in capital =E2=80=94 roughly half of Apollo=E2=80=99s assets. .=
+..
+Apollo is not alone. KKR in 2021 bought a majority stake in insurer Global =
+Atlantic, adding $90bn to the group=E2=80=99s assets at the time. Carlyle p=
+urchased just under a fifth of reinsurer Fortitude Re from AIG in 2018 befo=
+re striking a new deal last year that reduced its stake but boosted Carlyle=
+=E2=80=99s assets by about $50bn. Blackstone, meanwhile, invests on behalf =
+of insurers such as Corebridge through its insurance solutions division.
+The insurance units are required by state regulators to invest the vast maj=
+ority of their holdings in investment-grade rated debt, to safeguard policy=
+holders.
+But unlike traditional insurers, alternative investment managers have been =
+more comfortable using financial wizardry to design private transactions th=
+at can provide a few extra percentage points of return compared with tradit=
+ional investment-grade corporate bonds, which yield about 5.5 per cent.
+
+The big discovery in investment-grade credit in the 1970s was =E2=80=9Cbond=
+s are liquid and fungible; let=E2=80=99s trade them to make more money.=E2=
+=80=9D The big discovery in investment-grade credit in the 2020s is =E2=80=
+=9Ctrading is overrated; we can make more money by doing our own structurin=
+g and getting paid for illiquidity.=E2=80=9D
+
+ =20
+   =20
+      Levered private credit
+   =20
+ =20
+
+Platt=E2=80=99s article also contains this=C2=A0quote from Apollo:
+=E2=80=9CWe made a bet on private investment grade,=E2=80=9D Marc Rowan, Ap=
+ollo=E2=80=99s chief executive, told a conference this month. =E2=80=9CWe a=
+re also a beneficiary of this de-banking of the world because the assets th=
+at we need=E2=80=89...=E2=80=89were the kinds of things that used to go on =
+to the balance sheets of banks, investment-grade private credit.=E2=80=9D
+Part of the story of private credit is about (private-equity-owned) insuran=
+ce companies moving from traditional insurance assets (bonds) to less-tradi=
+tional insurance assets (private credit). But part of the story is about le=
+nding moving from=C2=A0banks=C2=A0to (private-equity-owned) insurance compa=
+nies and other direct lenders, the =E2=80=9Cde-banking of the world.=E2=80=
+=9D
+We have over the past few months had some occasion to talk about the philos=
+ophy and social purpose of banking. =E2=80=9CBanking is a way for people co=
+llectively to make long-term, risky bets without noticing them, a way to po=
+ol risks so that everyone is safer and better-off,=E2=80=9D I wrote in Marc=
+h. I have quoted Steve Randy Waldman=E2=80=99s 2011 post about why finance =
+is complex: =E2=80=9CA banking system is a superposition of fraud and geniu=
+s that interposes itself between investors and entrepreneurs.=E2=80=9D The =
+point of a banking system is to transform=C2=A0risky loans=C2=A0(a bank=E2=
+=80=99s assets) into=C2=A0safe bank deposits=C2=A0(a bank=E2=80=99s liabili=
+ties). The bank takes risk (with your money) to make loans to businesses an=
+d home buyers, but you=C2=A0don=E2=80=99t take risk by depositing your mone=
+y in the bank. Your money is safe, it=E2=80=99s =E2=80=9Cmoney in the bank.=
+=E2=80=9D
+There is some sleight of hand here; that transformation is magical. Some of=
+ it is accomplished by diversification and prudent lending and regulation a=
+nd ample bank capital; some of it is accomplished by deposit insurance and =
+lender-of-last-resort support for banks; some of it is just, like, residual=
+ magic. Some of it is just=C2=A0belief; the banking system works because pe=
+ople believe that their deposits are safe.
+Earlier this month, Patrick McKenzie put it particularly well:
+
+The fundamental purpose of bank loans is to enable measured private risk-ta=
+king by leveraging a small amount of bank equity (from risk-taking investor=
+s) with a larger amount of risk-adverse deposits. ...
+Risk is not a=C2=A0four-letter word. Society wants restaurants, apartment b=
+uildings, and crash projects to build charitable medical infrastructure. Th=
+e banking system enables a higher rate of creation of these goods than woul=
+d prevail in an environment where only risk capital was available to fund t=
+hem. This is its main social purpose; the checking accounts and payments in=
+frastructure and tastefully decorated branches and bonus checks are all con=
+sequences of it.
+
+We have been talking about this a lot because it has broken down a bit: Peo=
+ple have=C2=A0noticed=C2=A0that banks are risky, and so they have gotten mo=
+re nervous about their risk-averse deposits. And the result is that banks =
+=E2=80=94=C2=A0at least, US regional banks =E2=80=94=C2=A0are=C2=A0worse le=
+nders; their funding model (leveraging a little bit of equity with a lot of=
+ deposits that can be withdrawn at any time) is no longer a great match for=
+ long-term loans. And so banks (at least, US regional banks) do seem to be =
+retreating from lending, leading to the =E2=80=9Cde-banking of the world=E2=
+=80=9D and an opportunity for private credit.
+Where does that leave banks? One possible idea here is, like, =E2=80=9Cadd =
+another layer of obfuscation.=E2=80=9D So the traditional form is:
+=09Banks have some risk-taking equity.=09They leverage that with a whole lo=
+t of risk-averse demand deposits.=09They use the money to make loans.
+
+And we have talked about=C2=A0the alternative of =E2=80=9Cnarrow banking,=
+=E2=80=9D which goes like this:
+=09You deposit your money at the Fed or whatever =E2=80=94=C2=A0it doesn=E2=
+=80=99t go to loans.=09Separate lending companies raise equity investment f=
+rom people who want to invest in loans.=09They use that equity funding to m=
+ake loans.
+
+And that is in fact a part of the story of private credit: Private-credit m=
+anagers have longer-term and more risk-aware funding, from insurance compan=
+ies,   retail investors in private-lending funds, etc. The rise of private =
+credit is a move to=C2=A0   somewhat=C2=A0narrower banking, where more long=
+-term lending is funded by long-term risk capital rather than by bank depos=
+its.
+But you could imagine a synthesis:
+=09Banks have some equity and take a lot of deposits.=09Separate lending co=
+mpanies raise equity from people who want to invest in loans.=09The banks=
+=C2=A0lend money to the lending companies=C2=A0to leverage=C2=A0their=C2=A0=
+equity.=09Now the bank loans are safer: They represent senior claims on sen=
+ior claims; a bank=E2=80=99s=C2=A0depositors lose money only after (1) the =
+lending company loses all its equity and (2) the bank loses all its equity.=
+=09Also, the mystification of banking is a bit more mystifying: Instead of =
+banks lending money to businesses, they lend money to people who lend money=
+ to businesses; the path from risky investments to safe bank deposits is=C2=
+=A0longer and more obscure.
+
+And this too is part of the story of private credit. We   talked last month=
+ about the fact that typical private credit funds don=E2=80=99t just use eq=
+uity funding to make loans; they sometimes borrow money to leverage their c=
+apital, and that borrowing is =E2=80=9Cmainly from U.S. financial instituti=
+ons.=E2=80=9D And this week the Financial Times=E2=80=99=C2=A0Lex column no=
+tes:
+
+On Monday, PacWest Bancorp announced it had sold a $2.3bn portfolio of loan=
+s=C2=A0to Ares Management for around 90 cents on the dollar in cash, part-f=
+inanced by Barclays.
+Ares manages $360bn which makes it one of the biggest private fund managers=
+ in the world.=C2=A0PacWest had some $25bn of deposits as of early May and =
+is one of the most beleaguered regional banks in the US.
+Fleeing customers forced it to shore up liquidity by borrowing from Federal=
+ Home Loan Bank and the Federal Reserve at rates far steeper than interest =
+paid to depositors. Deposits will not return at scale unless PacWest offers=
+ higher interest rates. The bank has therefore decided to retrench. That le=
+aves fringe assets to the likes of Ares.
+Ares is using leverage in the form of financing from Barclays to complete t=
+he purchase of loans. Private asset managers have not made banks completely=
+ obsolete, it appears. But their scale and the kinds of credit they origina=
+te is changing. =E2=80=A6
+Ares itself has various credit funds whose strategies demand returns betwee=
+n 5 and 15 per cent. Some may call on modest leverage. Regardless of this, =
+such borrowings bear the inherent extra costs of matching asset and liabili=
+ty durations.
+Banks like Barclays are best positioned to be lenders. They are large, heav=
+ily regulated and prefer credit types that involve less underwriting than f=
+unds like Ares. Like all good rebels, private capital managers are finding =
+benefits from doing business with the establishment.
+
+The old model was that US regional banks made complicated loans that requir=
+ed a lot of underwriting, and funded them with bank deposits. That model lo=
+oks risky now. The new model is something like:
+=09US regional banks make complicated loans that require a lot of underwrit=
+ing;=09They fund them with long-term money from private credit funds;=09The=
+ private credit funds get long-term equity=C2=A0funding from their investor=
+s and also senior funding from big multinational banks.=09The big multinati=
+onal banks get their funding from deposits.
+
+The deposits are still used to make loans, but in a safer and more indirect=
+ way.
+
+ =20
+   =20
+      Fun bank
+   =20
+ =20
+
+One banking service is that if you have $1,000 in your bank account and you=
+ go into your bank and ask to withdraw $100 they will hand you five $20 bil=
+ls. This is not the service that, like, Jamie Dimon touts in his investor l=
+etter at the front of the annual report; it is neither glamorous nor lucrat=
+ive.
+  [1]
+ Still  it is apparently a niche:
+
+Randal Quarles, the top banking regulator under President Donald Trump who =
+is credited with rolling back post-financial crisis bank regulations, has t=
+eamed up with a former risk officer at recently failed Silicon Valley Bank =
+to launch a bank.
+They want to tackle what they believe is a growing problem for global finan=
+cial markets =E2=80=94 a dearth of physical dollars.
+Unlike a traditional bank, Currency Reserve, which will also be headed by a=
+ former top Wall Street dealmaker, does not plan to make loans or take depo=
+sits. Instead, according to a description provided to the Financial Times b=
+y the firm, it plans to sell and deliver dollars primarily to local banks o=
+utside the US. =E2=80=A6
+
+Amusingly this business is in some sense=C2=A0riskier=C2=A0than the traditi=
+onal banking business of using demand deposits to make long-term loans, jus=
+t because moving physical dollars around the world has some reputational ri=
+sk:
+While moving around bags of cash is often associated with something nefario=
+us, Currency Reserve=E2=80=99s executives have said the greatest need for t=
+heir services is from local banks that service small merchants, many in pla=
+ces that are either visited by US travellers or lack a strong local currenc=
+y, who want to have the cash to be able to operate in dollars.
+Also:
+
+=E2=80=9CWe believe there does continue to be a demand for these services,=
+=E2=80=9D said Matthew Hurlock, a former M&A lawyer who was most recently a=
+ partner at White & Case and has joined Currency Reserve as general counsel=
+.
+=E2=80=9COur ambition is to provide this service better, faster and more ef=
+ficiently by utilising industry-leading technology.=E2=80=9D
+
+I am very curious what the =E2=80=9Cindustry-leading technology=E2=80=9D fo=
+r sending physical dollar bills around the world is. Drones? Quantum telepo=
+rtation?=C2=A0
+
+ =20
+   =20
+      Vivek Ramaswamy
+   =20
+ =20
+
+A general model would be:
+=09If you found and run a biotech company and it develops a drug that cures=
+ Alzheimer=E2=80=99s disease, that will be worth, I dunno, pick a number, s=
+ay $10 billion to you personally.=09If you found and run a biotech company =
+and it is developing a drug that has a 10% chance of curing Alzheimer=E2=80=
+=99s disease, that is worth, in expectation,=C2=A0$1 billion to you persona=
+lly. Once the clinical trials are completed, then it is worth either $0, wi=
+th 90% probability, or $10 billion, with 10% probability, but=C2=A0before t=
+he trials its expected value is $1 billion.=09If you can find someone to bu=
+y, say, 20% of your stake for $200 million, before the trials are completed=
+, then you have $200 million no matter what.=09If then the drug cures Alzhe=
+imer=E2=80=99s, you (1) have $8.2 billion and (2) cured Alzheimer=E2=80=99s=
+, and you live out the rest of your days as a billionaire drug magnate, phi=
+lanthropist, etc.=09If the drug does=C2=A0not=C2=A0cure Alzheimer=E2=80=99s=
+, you (1) have $200 million and (2) kind of need to find something else to =
+do with your life. Run for president I guess?
+
+Anyway here is  a New York Times article about Vivek Ramaswamy, who did not=
+ cure Alzheimer=E2=80=99s, but who did take a couple hundred million dollar=
+s off the table while running Roivant Sciences Ltd. and is now running for =
+president. =E2=80=9CIn an interview, Mr. Ramaswamy said he cashed out only =
+to make room for [another investor], not to hedge his bets ahead of intepir=
+dine=E2=80=99s clinical trial,=E2=80=9D but honestly I think it would be we=
+ird=C2=A0not=C2=A0to hedge your bets if you could. Ramaswamy=E2=80=99s upsi=
+de, just before that clinical trial, was that he could be a billionaire who=
+ cured Alzheimer=E2=80=99s, his downside, after that sale, was that at leas=
+t he could be a self-funded presidential candidate. Either way is fine! It=
+=E2=80=99s a good hedge.
+(Disclosure: I think Ramaswamy  once asked me to write a book about him? =
+=E2=80=9CA spokeswoman for Ramaswamy=E2=80=99s campaign said he unsuccessfu=
+lly tried to recruit Levine to join Roivant but doesn=E2=80=99t recall aski=
+ng him to write a book.=E2=80=9D Something like that, anyway.)
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Private-Equity Giants Settle for  Bite-Size Deals. US Truck Startup   Lords=
+town Files for Bankruptcy After Foxconn Deal Falls Through. Odey Asset Mana=
+gement  suspends flagship hedge funds. Senior Attorney Helped FTX Founder  =
+Misuse Customer Funds, Report Says. Brookfield Makes $4.3 Billion Bid for I=
+nsurer   American Equity. China  censors financial blogger as economic reco=
+very falters.=C2=A0Chinese Local Governments Used  Fake Property Deals to B=
+oost Revenues. CFA   Level I Pass Rate Rises to 39%, Closer to Historic Ave=
+rage.=C2=A0Why High-Powered People Are  Working in Their 80s.=C2=A0Pickleba=
+ll Injuries May Cost Americans Nearly $400 Million This Year, According to =
+UBS.=C2=A0Gritty, the Phanatic, and other mascots helped  reopen I-95.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Though it is *kind of* similar to the famous business model of First =
+Citiwide Change Bank.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj04y8.5ilz/14c48888.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8703628_1705017622.1687892229222
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Uh, I don=E2=80=99t know, here=E2=80=99s one model for tech startups and ve=
+nture capital: Most of the returns to venture capital come from making earl=
+y-stag
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB5cac6770"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTkxOTEyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxNzY1MTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB07c26513" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31919120&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32176519&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The lifestyle</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Uh, I don=E2=80=99t know, here=E2=80=99s one m=
+odel for tech startups and venture capital:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Most of the returns to venture capita=
+l come from making early-stage investments in companies that go on to chang=
+e the world in radical and unexpected ways.</li>=09<li style=3D"margin-bott=
+om: 5px;">Therefore, if you are a VC, you should make risky investments in =
+visionary entrepreneurs with wild ideas: Many won=E2=80=99t work out, and <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjYvc3Rhcn=
+R1cHMtc29tZXRpbWVzLXN0cmV0Y2gtdGhlLXRydXRoP2NtcGlkPUJCRDA2MjcyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYy=
+NyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB50bbc20c" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> some will be frauds</a>,=C2=A0but one or two might hit it big, and the =
+path to success is having one or two radical world-changing companies.=C2=
+=A0</li>=09<li style=3D"margin-bottom: 5px;">Therefore, if you are a tech e=
+ntrepreneur, you should try to come across as a wild-eyed visionary, becaus=
+e VCs (correctly) look for that and will give you money.</li>=09<li style=
+=3D"margin-bottom: 5px;">Therefore, if you are a tech entrepreneur, you sho=
+uld take hallucinogenic drugs, in order to (1) be able to visualize an impr=
+obable future and (2) be kind of weird to talk to.</li>=09<li style=3D"marg=
+in-bottom: 5px;">If you are a tech venture capitalist, you should also take=
+ hallucinogenic drugs, in order to get on the wavelength of the visionary e=
+ntrepreneurs.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I do not mean to endorse this model too much o=
+r anything, but here is a guy in the Wall Street Journal <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9zaWxpY29uLXZhbGxleS1taWNyb2Rvc2luZy1rZXRhbWluZS1sc2QtbWF=
+naWMtbXVzaHJvb21zLWQzODFlMjE0P21vZD1ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a2=
+3cB1f7b11ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">who believes it</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Spencer Shulem, CEO of the startup BuildBetter=
+.ai, said he uses LSD about every three months because it increases focus a=
+nd helps him think more creatively. While working alone after hours, he wil=
+l sometimes take a low-enough dose where he said no one would know he was o=
+n LSD. Other times, he=E2=80=99ll take a larger dose alone and connect with=
+ nature on a hike.</p>
+<p style=3D"margin: 16px 0;">Shulem, who lives in New York City, said the h=
+igh expectations of venture-capital firms and investors in general can lead=
+ founders to turn to psychedelics to provide an edge. =E2=80=9CThey don=E2=
+=80=99t want a normal person, a normal company,=E2=80=9D he said. =E2=80=9C=
+They want something extraordinary. You=E2=80=99re not born extraordinary.=
+=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You=E2=80=99re not born extraordinary, but if =
+you take enough drugs you will think you are extraordinary, and if they tak=
+e enough drugs they=E2=80=99ll agree. The article is about how everyone in =
+Silicon Valley is on drugs:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk takes ketamine. Sergey Brin sometime=
+s enjoys magic mushrooms. Executives at venture-capital firm Founders Fund,=
+ known for its investments in SpaceX and Facebook, have thrown parties that=
+ include psychedelics.</p>
+<p style=3D"margin: 16px 0;">Routine drug use has moved from an after-hours=
+ activity squarely into corporate culture, leaving boards and business lead=
+ers to wrestle with their responsibilities for a workforce that frequently =
+uses. At the vanguard are tech executives and employees who see psychedelic=
+s and similar substances, among them psilocybin, ketamine and LSD, as gatew=
+ays to business breakthroughs.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere are millions of people microdos=
+ing psychedelics right now,=E2=80=9D said Karl Goldfield, a former sales an=
+d marketing consultant in San Francisco who informally counsels friends and=
+ colleagues across the tech world on calibrating the right small dose for m=
+aximum mindfulness. It is =E2=80=9Cthe fastest path to opening your mind up=
+ and clearly seeing for yourself what=E2=80=99s going on,=E2=80=9D said Gol=
+dfield.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I do not generally look for pharmacological ex=
+planations of social or business phenomena; I don=E2=80=99t, for instance, =
+believe that FTX failed because <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31919120.257399/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9zY=
+W0tYmFua21hbi1mcmllZC1kcnVnLXVzZS1mdHgtYWxhbWVkYS1jYXJvbGluZS1lbGxpc29uLWFt=
+cGhldGFtaW5lcy0yMDIyLTEx/607f07ceef4b8524a319a23cBab150f5b" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">its emp=
+loyees were all on Ritalin</a>.=C2=A0But it would be very funny if the stor=
+y of the American tech industry in the 21st century, good and bad, is mostl=
+y =E2=80=9CLSD and ketamine.=E2=80=9D=C2=A0The drugs help with business ide=
+as:</p>
+<blockquote><p style=3D"margin: 16px 0;">Some entrepreneurs microdose to de=
+rive benefits, often in hope of alleviating anxiety or sharpening focus. Ot=
+hers in tech said they take full doses of a drug=E2=80=94using the term mac=
+rodose=E2=80=94as they try to reach a high that will lead to a new disrupti=
+ve idea. Goldfield describes this as =E2=80=9Cego death,=E2=80=9D an experi=
+ence when a user gets to the core of their being and =E2=80=9Clets go.=E2=
+=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">As well as with corporate strategy decisions:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Tim Sae Koo was the founder of a digital marke=
+ting startup in San Francisco when he discovered psychedelics at the Coache=
+lla music festival in 2014.=C2=A0</p>
+<p style=3D"margin: 16px 0;">He said they helped him realize he had started=
+ his business to make his mother proud, and that it was time to sell. =E2=
+=80=9CA lot of that kind of exploration in my psychedelic experience helped=
+ give me a clarity that I had started the company from a place of a wound,=
+=E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I have <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjItMDktMTMvY3J5cHRvLXdhbnRzLXNvbWUtc2VjLXJ1bGVzP2NtcGlk=
+PUJCRDA2MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMDYyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cBd216b1be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> previously suggested</a> that some large per=
+centage of M&amp;A activity might be driven by executives who want to avoid=
+ spending time with their children. I have less of an intuition for how muc=
+h M&amp;A activity is driven by executives achieving a breakthrough, via th=
+erapy or psychedelics, in understanding their relationship with their paren=
+ts, but it=E2=80=99s surely some. (This is the plot of <em>Succession</em>?=
+) M&amp;A bankers should be leading ayahuasca retreats; when the drugs kick=
+ in they can be like =E2=80=9Cyour mom is proud of you now, time to sell, h=
+ere=E2=80=99s a pitchbook with some indicative valuations.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There are, however, corporate governance and d=
+isclosure questions:</p>
+<blockquote><p style=3D"margin: 16px 0;">Silicon Valley has long had a tole=
+rance toward drug use=E2=80=94many companies don=E2=80=99t test employees r=
+egularly=E2=80=94but the phenomenon is worrying some companies and their bo=
+ards, who fear they could be held liable for illegal activity, according to=
+ consultants and others close to the companies.</p></blockquote>
+<p style=3D"margin: 16px 0;">Your general model might be that early-stage s=
+tartup investing is about identifying visionary ideas people, and mature-pu=
+blic-company governance is about making sure that companies are run by resp=
+onsible adults, and it is not always the case that the visionary ideas peop=
+le are (or grow up to be) the responsible adults. There is a transition, be=
+tween early-stage and mature companies, that might require a change of pers=
+onnel or at least a change of behavior. The hallucinogens might be required=
+ for the ideas people and forbidden for the responsible adults. If you are =
+a certain sort of tech founder you might start taking hallucinogens because=
+ your board of directors loves them, and then later have to stop taking hal=
+lucinogens because your board of directors hates them.</p>
+<p style=3D"margin: 16px 0;">Also of course everything is securities fraud:=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/a=
+HR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMxODYwNS8w=
+MDAwOTUwMTcwMjMwMDE0MDkvdHNsYS0yMDIyMTIzMS5odG0jcmlza19mYWN0b3Jz/607f07ceef=
+4b8524a319a23cB3a93862b" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Tesla Inc.=E2=80=99s 10-K</a> says things =
+like =E2=80=9CWe are highly dependent on the services of Elon Musk, Technok=
+ing of Tesla and our Chief Executive Officer=E2=80=9D and discloses that =
+=E2=80=9Che does not devote his full time and attention to Tesla,=E2=80=9D =
+but it does not mention ketamine. Probably someone is going to sue about th=
+at eventually.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTkxOTEyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxNzY1MTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCd05ac1b4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31919120&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32176519&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTkxOTEyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxNzY1MTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDd05ac1b4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31919120&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32176519&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private credit</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Last year my friend Mary Childs <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly91cy5t=
+YWNtaWxsYW4uY29tL2Jvb2tzLzk3ODEyNTAxMjA4NTQvdGhlYm9uZGtpbmc/607f07ceef4b852=
+4a319a23cB2eb68647" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> published a book</a> about Bill Gross called=
+ <em>The Bond King: How One Man Made a Market, Built an Empire, and Lost It=
+ All</em>.=C2=A0The market that Gross built was the investment-grade bond m=
+arket. In the olden days, when Gross started out, the way bonds worked was =
+that companies sold bonds, and insurance companies bought them and held the=
+m to maturity.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31919120.257399/aHR0cHM6Ly9ib29rcy5nb29nbGUuY29tL2Jvb2tzP2lkPXdwb09FQUFBU=
+UJBSiZwZz1QVDI5JmxwZz1QVDI5JmRxPSUyMkdyb3NzK2ZvdW5kK2hpbXNlbGYrd2l0aCt1bmlu=
+dGVyZXN0aW5nK2pvYnMrbGlrZStjbGlwcGluZytib25kK2NvdXBvbnMraW4rUGFjaWZpYytNdXR=
+1YWwlRTIlODAlOTlzK3ZhdWx0LCtzbmlwcGluZyt0aGUrbGl0dGxlK3RhZ3Mrb2ZmK3RoZStib3=
+R0b20rb2YrY29ycG9yYXRlK2NlcnRpZmljYXRlcythbmQrbWFpbGluZyt0aGVtK2luK2Zvcitpb=
+nRlcmVzdCtwYXltZW50cyUyMiZzb3VyY2U9Ymwmb3RzPU1WNlNmUU1QZ2Emc2lnPUFDZlUzVTBM=
+TjNFWmlZY3NERVRtblk4WUFNTmtrQnFpaFEmaGw9ZW4mc2E9WCZ2ZWQ9MmFoVUtFd2lUaS1DWTV=
+1UF9BaFV6bFlrRUhVTkhCQ0VRNkFGNkJBZ05FQU0jdj1vbmVwYWdlJnE9JTIyR3Jvc3MlMjBmb3=
+VuZCUyMGhpbXNlbGYlMjB3aXRoJTIwdW5pbnRlcmVzdGluZyUyMGpvYnMlMjBsaWtlJTIwY2xpc=
+HBpbmclMjBib25kJTIwY291cG9ucyUyMGluJTIwUGFjaWZpYyUyME11dHVhbCVFMiU4MCU5OXMl=
+MjB2YXVsdCUyQyUyMHNuaXBwaW5nJTIwdGhlJTIwbGl0dGxlJTIwdGFncyUyMG9mZiUyMHRoZSU=
+yMGJvdHRvbSUyMG9mJTIwY29ycG9yYXRlJTIwY2VydGlmaWNhdGVzJTIwYW5kJTIwbWFpbGluZy=
+UyMHRoZW0lMjBpbiUyMGZvciUyMGludGVyZXN0JTIwcGF5bWVudHMlMjImZj1mYWxzZQ/607f07=
+ceef4b8524a319a23cBe6ada6d3" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Childs</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bill Gross, and Pimco, started small. After st=
+ruggling to find a job out of business school, Gross landed at the staid ol=
+d insurance company=C2=A0Pacific Mutual as a securities analyst and loan of=
+ficer in its fixed income department. The business of life insurance necess=
+itates knowing generally how many customers will die each year, how much an=
+ insurer will need to pay out, and when-ish. Usually it=E2=80=99s not for a=
+ while. So Pacific Mutual could take its customers=E2=80=99 life insurance =
+premia and invest the money in bonds that throw off interest payments until=
+ they mature (and return the money) approximately when the insurer expects =
+to need it back. It could pretty safely buy a thirty-year=C2=A0bond, and ea=
+rn the interest, with money from customers who most likely wouldn=E2=80=99t=
+ die for another thirty years. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">It was not stimulating work. Gross found himse=
+lf with uninteresting jobs like clipping bond coupons in Pacific Mutual=E2=
+=80=99s vault, snipping the little tags off the bottom of corporate certifi=
+cates and mailing them in for interest payments. That was all a person woul=
+d do with bonds at the time. For the first few years, Gross couldn=E2=80=99=
+t wait to get transferred into the stocks division. But then, at the start =
+of the 1970s, he convinced his boss to let him try a radical concept: <em>t=
+rading </em>bonds.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Gross, and a few other innovators in the 1970s=
+, realized that he could improve his returns by actively managing his bond =
+portfolio: He could sell bonds he thought were overpriced, buy bonds he tho=
+ught were underpriced, and make higher returns with lower risk than he coul=
+d by just buying bonds at issue and holding them to maturity. This was such=
+ a good idea that he ended up managing money for other investors, not just =
+for his own insurance-company employer. And then other things happened in h=
+is career.</p>
+<p style=3D"margin: 16px 0;">One general thing you might think about this s=
+tory is that this idea, like so many ideas, gets less good over time. If yo=
+u are the bond guy at an insurance company, and all the=C2=A0<em>other=C2=
+=A0</em>insurance companies just buy bonds and hold them to maturity, but=
+=C2=A0<em>you </em>trade bonds actively to try to maximize returns, you wil=
+l probably outperform your competitors. (If you can find anyone to trade wi=
+th you!) They are not paying attention or trying to make profit-maximizing =
+decisions, but you are; the fruit is low-hanging. But once you prove out th=
+e concept, everyone will actively trade=C2=A0bonds, and not everyone can be=
+ above average at trading bonds. By the time Gross <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMTktMDItMDQvYmlsbC1ncm9zcy1yZXRpcmVzLWFmdGVyL=
+XN0b3JpZWQtZm91ci1kZWNhZGUtY2FyZWVyLWluLWJvbmRzP2NtcGlkPUJCRDA2MjcyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDYyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf5fcb9f6" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  retired in 2019</a>, lots of bond portfolios were actively manage=
+d, there was big money and lots of competition in the bond-management busin=
+ess, and Gross=E2=80=99s own recent performance wasn=E2=80=99t great.=C2=A0=
+</p>
+<p style=3D"margin: 16px 0;">If you were a hotshot innovator in the credit =
+department of an insurance company in the 2020s, it might occur to you to d=
+o the <em>opposite=C2=A0</em>of Gross. You might think thoughts like these:=
+</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Look, I=C2=A0<em>do=C2=A0</em>sit on =
+a pot of insurance money; I really=C2=A0<em>can=C2=A0</em>hold bonds to mat=
+urity. I don=E2=80=99t=C2=A0<em>need </em>instantaneous liquidity on my bon=
+d investments. Given the choice between a liquid tradeable bond paying 6%, =
+and an illiquid non-tradeable bond that I can=E2=80=99t sell for 10 years b=
+ut that pays 6.5%, maybe I should take the higher interest rate and just wa=
+it.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">There is, in general, in=
+ financial markets, an illiquidity premium: Bonds that can=E2=80=99t be tra=
+ded tend to pay higher interest rates than=C2=A0 equally good bonds that ca=
+n be traded. So I probably=C2=A0<em>can=C2=A0</em>get an extra 0.5% for buy=
+ing hard-to-trade bonds.</li>=09<li style=3D"margin-bottom: 5px;">When comp=
+anies issue widely tradeable bonds, there is a lot of <em>process</em>. The=
+y have to hire investment banks to find enough investors to buy the bonds; =
+those banks charge fees for their efforts. If I just=C2=A0<em>went to compa=
+nies I liked and asked to lend them money directly</em>, without involving =
+a bank, we could cut out some middlemen and some fees; I would capture more=
+ of the value because the banks would get less.=C2=A0</li>=09<li style=3D"m=
+argin-bottom: 5px;">If I pick my own borrowers and structure my own deals, =
+I can probably get higher returns and higher credit quality than if I just =
+buy whatever the big banks are bringing to market each week, and that might=
+ be better for my performance than trying to actively trade bonds in a comp=
+etitive market.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Simplistically, when no one has discovered the=
+ idea of trading bonds, you can get better returns by trading bonds. When e=
+veryone trades bonds, you can get better returns by not trading bonds.</p>
+<p style=3D"margin: 16px 0;">(As a technical point, if you were a hotshot i=
+nnovator in the credit department of an insurance company in the 2020s,=C2=
+=A0you probably wouldn=E2=80=99t work at an=C2=A0<em>insurance company</em>=
+; you=E2=80=99d probably work at an alternative asset manager that happens =
+to own, or run money for, an insurance company.)</p>
+<p style=3D"margin: 16px 0;">At the Financial Times, Eric Platt reports on =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjcxYmUyODYtYWMxMi00NDllLTk2ZjAtMGQzZmY5Y=
+jRkNmVl/607f07ceef4b8524a319a23cBce30781f" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> the rise of investment-=
+grade private credit</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Alternative asset managers such as Apollo, KKR=
+ and Blackstone are increasingly financing blue-chip companies, as business=
+es look for new sources of capital to help counteract the effects of higher=
+ interest rates and a slowing economy.</p>
+<p style=3D"margin: 16px 0;">The deals =E2=80=94 including two announced th=
+is month with AT&amp;T and PayPal =E2=80=94 underscore the growing reach of=
+ the private credit industry as it helps companies bypass traditional banks=
+ and bond markets to raise money. ...</p>
+<p style=3D"margin: 16px 0;">Executives said the shift was a natural outgro=
+wth of private credit=E2=80=99s fundraising spree, giving managers cash to =
+lend. As well, most major private equity groups have bought or invested in =
+an insurance company in the past five years, drawing in hundreds of billion=
+s of premiums to invest.</p>
+<p style=3D"margin: 16px 0;">Supercharging the push has been Apollo, whose =
+insurer Athene has amassed nearly $260bn in capital =E2=80=94 roughly half =
+of Apollo=E2=80=99s assets. ...</p>
+<p style=3D"margin: 16px 0;">Apollo is not alone. KKR in 2021 bought a majo=
+rity stake in insurer Global Atlantic, adding $90bn to the group=E2=80=99s =
+assets at the time. Carlyle purchased just under a fifth of reinsurer Forti=
+tude Re from AIG in 2018 before striking a new deal last year that reduced =
+its stake but boosted Carlyle=E2=80=99s assets by about $50bn. Blackstone, =
+meanwhile, invests on behalf of insurers such as Corebridge through its ins=
+urance solutions division.</p>
+<p style=3D"margin: 16px 0;">The insurance units are required by state regu=
+lators to invest the vast majority of their holdings in investment-grade ra=
+ted debt, to safeguard policyholders.</p>
+<p style=3D"margin: 16px 0;">But unlike traditional insurers, alternative i=
+nvestment managers have been more comfortable using financial wizardry to d=
+esign private transactions that can provide a few extra percentage points o=
+f return compared with traditional investment-grade corporate bonds, which =
+yield about 5.5 per cent.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The big discovery in investment-grade credit i=
+n the 1970s was =E2=80=9Cbonds are liquid and fungible; let=E2=80=99s trade=
+ them to make more money.=E2=80=9D The big discovery in investment-grade cr=
+edit in the 2020s is =E2=80=9Ctrading is overrated; we can make more money =
+by doing our own structuring and getting paid for illiquidity.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Levered private credit</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Platt=E2=80=99s article also contains this=C2=
+=A0quote from Apollo:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CWe made a bet on private =
+investment grade,=E2=80=9D Marc Rowan, Apollo=E2=80=99s chief executive, to=
+ld a conference this month. =E2=80=9CWe are also a beneficiary of this de-b=
+anking of the world because the assets that we need=E2=80=89...=E2=80=89wer=
+e the kinds of things that used to go on to the balance sheets of banks, in=
+vestment-grade private credit.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Part of the story of private credit is about (=
+private-equity-owned) insurance companies moving from traditional insurance=
+ assets (bonds) to less-traditional insurance assets (private credit). But =
+part of the story is about lending moving from=C2=A0<em>banks=C2=A0</em>to =
+(private-equity-owned) insurance companies and other direct lenders, the =
+=E2=80=9Cde-banking of the world.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">We have over the past few months had <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDkvaXQtcy1uZXZl=
+ci10b28tbGF0ZS1mb3ItYmFua3MtdG8taGVkZ2U_Y21waWQ9QkJEMDYyNzIzX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI3Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBab7e6522" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+some occasion</a> to <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjMtMDQtMjAvYmFua2luZy1nZXRzLWEtYml0LW5hcnJvd2VyP2NtcGlkPUJCRDA2MjcyM19=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIzMDYyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4bea2=
+511" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">talk about</a> the philosophy and social purpose of banking. =
+=E2=80=9CBanking is a way for people collectively to make long-term, risky =
+bets without noticing them, a way to pool risks so that everyone is safer a=
+nd better-off,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjMtMDMtMTcvYmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHVibGljLXdpdGgtdGhlaXIt=
+bW9uZXk_Y21waWQ9QkJEMDYyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB78104eb8" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">I wrote in March</a>. I have quot=
+ed Steve Randy Waldman=E2=80=99s <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31919120.257399/aHR0cHM6Ly93d3cuaW50ZXJmbHVpZGl0eS5jb20vdjIv=
+MjY2OS5odG1s/607f07ceef4b8524a319a23cB4dfd12a9" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">2011 post</a> about=
+ why finance is complex: =E2=80=9CA banking system is a superposition of fr=
+aud and genius that interposes itself between investors and entrepreneurs.=
+=E2=80=9D The point of a banking system is to transform=C2=A0<em>risky loan=
+s=C2=A0</em>(a bank=E2=80=99s assets) into=C2=A0<em>safe bank deposits=C2=
+=A0</em>(a bank=E2=80=99s liabilities). The bank takes risk (with your mone=
+y) to make loans to businesses and home buyers, but <em>you=C2=A0</em>don=
+=E2=80=99t take risk by depositing your money in the bank. Your money is sa=
+fe, it=E2=80=99s =E2=80=9Cmoney in the bank.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There is some sleight of hand here; that trans=
+formation is magical. Some of it is accomplished by diversification and pru=
+dent lending and regulation and ample bank capital; some of it is accomplis=
+hed by deposit insurance and lender-of-last-resort support for banks; some =
+of it is just, like, residual magic. Some of it is just=C2=A0<em>belief</em=
+>; the banking system works because people believe that their deposits are =
+safe.</p>
+<p style=3D"margin: 16px 0;">Earlier this month, Patrick McKenzie <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6L=
+y93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUvcmVxdWllbS1mb3ItYS1iYW5rLWxvYW4v=
+/607f07ceef4b8524a319a23cB0ce55ab3" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">put it particularly well</a>:</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The fundamental purpose of bank loans is to en=
+able measured private risk-taking by leveraging a small amount of bank equi=
+ty (from risk-taking investors) with a larger amount of risk-adverse deposi=
+ts. ...</p>
+<p style=3D"margin: 16px 0;">Risk is not a=C2=A0four-letter word. Society w=
+ants restaurants, apartment buildings, and crash projects to build charitab=
+le medical infrastructure. The banking system enables a higher rate of crea=
+tion of these goods than would prevail in an environment where only risk ca=
+pital was available to fund them. This is its main social purpose; the chec=
+king accounts and payments infrastructure and tastefully decorated branches=
+ and bonus checks are all consequences of it.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We have been talking about this a lot because =
+it has broken down a bit: People have=C2=A0<em>noticed=C2=A0</em>that banks=
+ are risky, and so they have gotten more nervous about their risk-averse de=
+posits. And the result is that banks =E2=80=94=C2=A0at least, US regional b=
+anks =E2=80=94=C2=A0are=C2=A0<em>worse lenders</em>; their funding model (l=
+everaging a little bit of equity with a lot of deposits that can be withdra=
+wn at any time) is no longer a great match for long-term loans. And so bank=
+s (at least, US regional banks) do seem to be retreating from lending, lead=
+ing to the =E2=80=9Cde-banking of the world=E2=80=9D and an opportunity for=
+ private credit.</p>
+<p style=3D"margin: 16px 0;">Where does that leave banks? One possible idea=
+ here is, like, =E2=80=9Cadd another layer of obfuscation.=E2=80=9D So the =
+traditional form is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Banks have some risk-taking equity.</=
+li>=09<li style=3D"margin-bottom: 5px;">They leverage that with a whole lot=
+ of risk-averse demand deposits.</li>=09<li style=3D"margin-bottom: 5px;">T=
+hey use the money to make loans.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And we have <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDgvb2lsLWNvbXBhbmllcy1naXZlLWJhY2stdGhlLWN=
+hc2g_Y21waWQ9QkJEMDYyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBb4b390a4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">talked about</a>=C2=A0the alternativ=
+e of =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/3191=
+9120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjM=
+tMDUtMTEvYmxhY2tzdG9uZS1jYW4tYmUtdGhlLWJhbms_Y21waWQ9QkJEMDYyNzIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwN=
+jI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0b1b0ce5" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">narrow banking</a>,=E2=80=9D which goes like this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You deposit your money at the Fed or =
+whatever =E2=80=94=C2=A0it doesn=E2=80=99t go to loans.</li>=09<li style=3D=
+"margin-bottom: 5px;">Separate lending companies raise equity investment fr=
+om people who want to invest in loans.</li>=09<li style=3D"margin-bottom: 5=
+px;">They use that equity funding to make loans.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And that is in fact a part of the story of pri=
+vate credit: Private-credit managers have longer-term and more risk-aware f=
+unding, from insurance companies, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDYtMjYvYmxhY2tyb2NrLWRlYnV0cy1yZXRhaWwtcHJpdmF0ZS1jcmVkaX=
+QtZnVuZC1hdC10cmlja3ktdGltZT9jbXBpZD1CQkQwNjI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjcmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd0b6bb28" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  retail inv=
+estors in private-lending funds</a>, etc. The rise of private credit is a m=
+ove to=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/319191=
+20.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtM=
+DQtMjAvYmFua2luZy1nZXRzLWEtYml0LW5hcnJvd2VyP2NtcGlkPUJCRDA2MjcyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDY=
+yNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC4bea2511" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">   <em>somewhat=C2=A0</em>narrower banking</a>, where more long-term le=
+nding is funded by long-term risk capital rather than by bank deposits.</p>
+<p style=3D"margin: 16px 0;">But you could imagine a synthesis:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Banks have some equity and take a lot=
+ of deposits.</li>=09<li style=3D"margin-bottom: 5px;">Separate lending com=
+panies raise equity from people who want to invest in loans.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">The banks=C2=A0<em>lend money to the lending com=
+panies=C2=A0</em>to leverage=C2=A0<em>their=C2=A0</em>equity.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Now the bank loans are safer: They represent se=
+nior claims on senior claims; a bank=E2=80=99s=C2=A0depositors lose money o=
+nly after (1) the lending company loses all its equity and (2) the bank los=
+es all its equity.</li>=09<li style=3D"margin-bottom: 5px;">Also, the mysti=
+fication of banking is a bit more mystifying: Instead of banks lending mone=
+y to businesses, they lend money to people who lend money to businesses; th=
+e path from risky investments to safe bank deposits is=C2=A0longer and more=
+ obscure.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And this too is part of the story of private c=
+redit. We <a href=3D"https://link.mail.bloombergbusiness.com/click/31919120=
+.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDU=
+tMDkvaXQtcy1uZXZlci10b28tbGF0ZS1mb3ItYmFua3MtdG8taGVkZ2U_Y21waWQ9QkJEMDYyNz=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCab=
+7e6522" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  talked last month</a> about the fact that typical private=
+ credit funds don=E2=80=99t just use equity funding to make loans; they som=
+etimes borrow money to leverage their capital, and that borrowing is =E2=80=
+=9Cmainly from U.S. financial institutions.=E2=80=9D And this week the Fina=
+ncial Times=E2=80=99=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31919120.257399/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGM1NTM1YjItMjF=
+iNi00YWE0LWJmMTctZDBkYmFmZjc3ZjBl/607f07ceef4b8524a319a23cB9917811c" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Lex column notes</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On Monday, PacWest Bancorp announced it had so=
+ld a $2.3bn portfolio of loans=C2=A0to Ares Management for around 90 cents =
+on the dollar in cash, part-financed by Barclays.</p>
+<p style=3D"margin: 16px 0;">Ares manages $360bn which makes it one of the =
+biggest private fund managers in the world.=C2=A0PacWest had some $25bn of =
+deposits as of early May and is one of the most beleaguered regional banks =
+in the US.</p>
+<p style=3D"margin: 16px 0;">Fleeing customers forced it to shore up liquid=
+ity by borrowing from Federal Home Loan Bank and the Federal Reserve at rat=
+es far steeper than interest paid to depositors. Deposits will not return a=
+t scale unless PacWest offers higher interest rates. The bank has therefore=
+ decided to retrench. That leaves fringe assets to the likes of Ares.</p>
+<p style=3D"margin: 16px 0;">Ares is using leverage in the form of financin=
+g from Barclays to complete the purchase of loans. Private asset managers h=
+ave not made banks completely obsolete, it appears. But their scale and the=
+ kinds of credit they originate is changing. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Ares itself has various credit funds whose str=
+ategies demand returns between 5 and 15 per cent. Some may call on modest l=
+everage. Regardless of this, such borrowings bear the inherent extra costs =
+of matching asset and liability durations.</p>
+<p style=3D"margin: 16px 0;">Banks like Barclays are best positioned to be =
+lenders. They are large, heavily regulated and prefer credit types that inv=
+olve less underwriting than funds like Ares. Like all good rebels, private =
+capital managers are finding benefits from doing business with the establis=
+hment.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The old model was that US regional banks made =
+complicated loans that required a lot of underwriting, and funded them with=
+ bank deposits. That model looks risky now. The new model is something like=
+:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">US regional banks make complicated lo=
+ans that require a lot of underwriting;</li>=09<li style=3D"margin-bottom: =
+5px;">They fund them with long-term money from private credit funds;</li>=
+=09<li style=3D"margin-bottom: 5px;">The private credit funds get long-term=
+ equity=C2=A0funding from their investors and also senior funding from big =
+multinational banks.</li>=09<li style=3D"margin-bottom: 5px;">The big multi=
+national banks get their funding from deposits.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The deposits are still used to make loans, but=
+ in a safer and more indirect way.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Fun bank</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One banking service is that if you have $1,000=
+ in your bank account and you go into your bank and ask to withdraw $100 th=
+ey will hand you five $20 bills. This is not the service that, like, Jamie =
+Dimon touts in his investor letter at the front of the annual report; it is=
+ neither glamorous nor lucrative.<a class=3D"footnote-index" href=3D"#footn=
+ote-1" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[1]</span>
+</a> Still <a href=3D"https://link.mail.bloombergbusiness.com/click/3191912=
+0.257399/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDM4Yzc4OTktMDU1OC00MjYyLWI1OW=
+UtMzQ5NGY2Y2Q0ODEw/607f07ceef4b8524a319a23cB8361638b" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> it is appare=
+ntly a niche</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Randal Quarles, the top banking regulator unde=
+r President Donald Trump who is credited with rolling back post-financial c=
+risis bank regulations, has teamed up with a former risk officer at recentl=
+y failed Silicon Valley Bank to launch a bank.</p>
+<p style=3D"margin: 16px 0;">They want to tackle what they believe is a gro=
+wing problem for global financial markets =E2=80=94 a dearth of physical do=
+llars.</p>
+<p style=3D"margin: 16px 0;">Unlike a traditional bank, Currency Reserve, w=
+hich will also be headed by a former top Wall Street dealmaker, does not pl=
+an to make loans or take deposits. Instead, according to a description prov=
+ided to the Financial Times by the firm, it plans to sell and deliver dolla=
+rs primarily to local banks outside the US. =E2=80=A6</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Amusingly this business is in some sense=C2=A0=
+<em>riskier=C2=A0</em>than the traditional banking business of using demand=
+ deposits to make long-term loans, just because moving physical dollars aro=
+und the world has some reputational risk:</p>
+<blockquote><p style=3D"margin: 16px 0;">While moving around bags of cash i=
+s often associated with something nefarious, Currency Reserve=E2=80=99s exe=
+cutives have said the greatest need for their services is from local banks =
+that service small merchants, many in places that are either visited by US =
+travellers or lack a strong local currency, who want to have the cash to be=
+ able to operate in dollars.</p></blockquote>
+<p style=3D"margin: 16px 0;">Also:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe believe there does continue to be =
+a demand for these services,=E2=80=9D said Matthew Hurlock, a former M&amp;=
+A lawyer who was most recently a partner at White &amp; Case and has joined=
+ Currency Reserve as general counsel.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9COur ambition is to provide this servi=
+ce better, faster and more efficiently by utilising industry-leading techno=
+logy.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I am very curious what the =E2=80=9Cindustry-l=
+eading technology=E2=80=9D for sending physical dollar bills around the wor=
+ld is. Drones? Quantum teleportation?=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Vivek Ramaswamy</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A general model would be:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you found and run a biotech compan=
+y and it develops a drug that cures Alzheimer=E2=80=99s disease, that will =
+be worth, I dunno, pick a number, say $10 billion to you personally.</li>=
+=09<li style=3D"margin-bottom: 5px;">If you found and run a biotech company=
+ and it is developing a drug that has a 10% chance of curing Alzheimer=E2=
+=80=99s disease, that is worth, in expectation,=C2=A0$1 billion to you pers=
+onally. Once the clinical trials are completed, then it is worth either $0,=
+ with 90% probability, or $10 billion, with 10% probability, but=C2=A0<em>b=
+efore </em>the trials its expected value is $1 billion.</li>=09<li style=3D=
+"margin-bottom: 5px;">If you can find someone to buy, say, 20% of your stak=
+e for $200 million, before the trials are completed, then you have $200 mil=
+lion no matter what.</li>=09<li style=3D"margin-bottom: 5px;">If then the d=
+rug cures Alzheimer=E2=80=99s, you (1) have $8.2 billion and (2) cured Alzh=
+eimer=E2=80=99s, and you live out the rest of your days as a billionaire dr=
+ug magnate, philanthropist, etc.</li>=09<li style=3D"margin-bottom: 5px;">I=
+f the drug does=C2=A0<em>not=C2=A0</em>cure Alzheimer=E2=80=99s, you (1) ha=
+ve $200 million and (2) kind of need to find something else to do with your=
+ life. Run for president I guess?</li>
+</ol>
+<p style=3D"margin: 16px 0;">Anyway here is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vM=
+jAyMy8wNi8yNy91cy9wb2xpdGljcy92aXZlay1yYW1hc3dhbXktd2VhbHRoLmh0bWw/607f07ce=
+ef4b8524a319a23cB23f79e05" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> a New York Times article</a> about Vive=
+k Ramaswamy, who did not cure Alzheimer=E2=80=99s, but who did take a coupl=
+e hundred million dollars off the table while running Roivant Sciences Ltd.=
+ and is now running for president. =E2=80=9CIn an interview, Mr. Ramaswamy =
+said he cashed out only to make room for [another investor], not to hedge h=
+is bets ahead of intepirdine=E2=80=99s clinical trial,=E2=80=9D but honestl=
+y I think it would be weird=C2=A0<em>not=C2=A0</em>to hedge your bets if yo=
+u could. Ramaswamy=E2=80=99s upside, just before that clinical trial, was t=
+hat he could be a billionaire who cured Alzheimer=E2=80=99s, his downside, =
+after that sale, was that at least he could be a self-funded presidential c=
+andidate. Either way is fine! It=E2=80=99s a good hedge.</p>
+<p style=3D"margin: 16px 0;">(Disclosure: I think Ramaswamy <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cud=
+3NqLmNvbS9hcnRpY2xlcy90aGUtYW50aS13b2tlLXByZXNpZGVudGlhbC1jYW5kaWRhdGUtd2hv=
+LXdhbnRzLXRvLWNydXNoLWVzZy1hbmQtZ3V0LXRoZS1mZWQtYTQ4NmZkYw/607f07ceef4b8524=
+a319a23cB4f3bceb1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> once asked me to write a book about him</a>? =
+=E2=80=9CA spokeswoman for Ramaswamy=E2=80=99s campaign said he unsuccessfu=
+lly tried to recruit Levine to join Roivant but doesn=E2=80=99t recall aski=
+ng him to write a book.=E2=80=9D Something like that, anyway.)</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Private-Equity Giants Settle for <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3c=
+ud3NqLmNvbS9hcnRpY2xlcy9wcml2YXRlLWVxdWl0eS1naWFudHMtc2V0dGxlLWZvci1iaXRlLX=
+NpemUtZGVhbHMtMWNkNmVhMDA_bW9kPWhwX2xlYWRfcG9zNg/607f07ceef4b8524a319a23cB9=
+5e7e893" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Bite-Size Deals</a>. US Truck Startup <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjcvbG9yZHN0b3duLWZpbGVzLWZvci1i=
+YW5rcnVwdGN5LWFmdGVyLWZveGNvbm4tZGVhbC1mYWxscy10aHJvdWdoP2NtcGlkPUJCRDA2Mjc=
+yM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIzMDYyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe=
+c79ae4a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  Lordstown</a> Files for Bankruptcy After Foxconn Deal Fa=
+lls Through. Odey Asset Management <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31919120.257399/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjYzMT=
+I1NDUtYjZkMi00YTYxLWIzMWEtNmU5Njg0MjJkOTBh/607f07ceef4b8524a319a23cB3742ada=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> suspends flagship hedge funds</a>. Senior Attorney Helped FTX=
+ Founder <a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.=
+257399/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZW5pb3ItYXR0b3JuZXktaGVscGVk=
+LWZ0eC1mb3VuZGVyLW1pc3VzZS1jdXN0b21lci1mdW5kcy1yZXBvcnQtc2F5cy03MTgwYWUyNT9=
+tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB8575a306" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Mis=
+use Customer Funds</a>, Report Says. Brookfield Makes $4.3 Billion Bid for =
+Insurer <a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.2=
+57399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjYvY=
+nJvb2tmaWVsZC1pcy1zYWlkLXRvLW5lYXItZGVhbC10by1idXktaW5zdXJlci1hbWVyaWNhbi1l=
+cXVpdHk_Y21waWQ9QkJEMDYyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBd548f80b" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  American Equity</a>. China <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cH=
+M6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzNlNjRjMTItY2NjYi00NTU5LWIwNDYtMWVhODFmYmY3M=
+Dlh/607f07ceef4b8524a319a23cBe497ad76" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> censors financial blogger</=
+a> as economic recovery falters.=C2=A0Chinese Local Governments Used <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6=
+Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaGluZXNlLWxvY2FsLWdvdmVybm1lbnRzLXVzZWQtZmF=
+rZS1wcm9wZXJ0eS1kZWFscy10by1ib29zdC1yZXZlbnVlcy0yZTE0MTkwNj9tb2Q9aHBfbGlzdG=
+NfcG9zMQ/607f07ceef4b8524a319a23cBd7d65d44" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> Fake Property Deals</a=
+> to Boost Revenues. CFA <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31919120.257399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMDYtMjcvY2ZhLWxldmVsLWktcGFzcy1yYXRlLXJpc2VzLXRvLTM5LWNsb3Nlci10by1=
+oaXN0b3JpYy1hdmVyYWdlP2NtcGlkPUJCRDA2MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyNyZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa7252728" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  Level I Pass Rat=
+e</a> Rises to 39%, Closer to Historic Average.=C2=A0Why High-Powered Peopl=
+e Are <a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257=
+399/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGUtcmVhc29ucy1tb3JlLXBlb3BsZS1=
+hcmUtd29ya2luZy1pbi10aGVpci04MHMtMzRmMTE2OTk_bW9kPWl0cF93c2omcnU9eWFob28/60=
+7f07ceef4b8524a319a23cB0e4cbf20" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Working in Their 80s</a>.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjYvcGlja2xlYmF=
+sbC1pbmp1cmllcy1tYXktY29zdC1hbWVyaWNhbnMtbmVhcmx5LTQwMC1taWxsaW9uLXRoaXMteW=
+Vhci1hY2NvcmRpbmctdG8tdWJzP2NtcGlkPUJCRDA2MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyNyZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB62cbd42a" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Pickleball In=
+juries</a> May Cost Americans Nearly $400 Million This Year, According to U=
+BS.=C2=A0Gritty, the Phanatic, and other mascots helped <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cuaW5xd=
+WlyZXIuY29tL2NvbHVtbmlzdHMvcGhpbGx5LW1hc2NvdHMtaTk1LWdyaXR0eS1waGFuYXRpYy0y=
+MDIzMDYyMy5odG1s/607f07ceef4b8524a319a23cBb4654ca0" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> reopen I-95</a=
+>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31919120.257399/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2f5dd70f" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31919120.257399/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBc1408c1d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Though it is *kind of* similar to the <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aHR0cH=
+M6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1DWER4TkN6VXNwTQ/607f07ceef4b8524a319a2=
+3cB63aeac45" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">famous</a> business <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31919120.257399/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0=
+Y2g_dj1Lb2RxSVBNYnlVZw/607f07ceef4b8524a319a23cCb4b8c52c" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">model</a>=
+ of First Citiwide Change Bank.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2be4bd84" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5308f9f6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBdaf0441d" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB89ae3239" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBfe6a4166" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.2573=
+99/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB83cea7da" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31919120.257399/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCae3f1bc6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31919120.257399/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB032533d5" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31919120.257399/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB3beaa829" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+2e65e26" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31919120.257399/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+315d339" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj04y8.5ilz/14c48888.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8703628_1705017622.1687892229222--
+

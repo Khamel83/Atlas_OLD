@@ -1,0 +1,2436 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2971056rwb;
+        Mon, 6 Mar 2023 11:31:30 -0800 (PST)
+X-Received: by 2002:a05:600c:1908:b0:3eb:39c3:8844 with SMTP id j8-20020a05600c190800b003eb39c38844mr10616960wmq.12.1678131090703;
+        Mon, 06 Mar 2023 11:31:30 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1678131090; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=eI9TUS3EmluDvCGk/2Jvu9jYnNH1YtzzPUpqcmTXWYSaptZJ0xHxOkLsTEGkxqRmSE
+         TAC3rsLsJ9XstGD/dYZzIWIrykUti9pvL1oeaZOmwl3A1jLDyzJjFCKzP4TBSUEVSx5K
+         1ZT38ozgAeOXqPhPb9VKpYS54jDgI94gvDa0NazBr4vE7mHm+7Ok4Ob8YNYss5GA/QjB
+         WWg9fBi6n+xfBE391V0G22GP/lPu/zaFqAFAq2wUNJEz94wu4PJXwF/GoJVxQdQ3Ddew
+         wQ2e/hwOwNXmmZc6AHrXz80Flb+32DtnbplWQRsoyZKZunPWLJ1V8T1TeOMQL7rsBgK3
+         tOXg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=MEe48FWyaItvBL6K9WGXcGebZMyoTmDN71u5zMevwCo=;
+        b=VesPvRu2wjPjWRYP87MXTypdOuSRu6L4eEpca6q78CxKLwQRY954ykrykOze6WZo6R
+         VqHu97+4xQOcBzARx6HghucpInIszE2QNffeGhYDA8pbKT0ts3RlBLSbxs+5VvyQHPgo
+         ZHMYSQUrnJynPM2fQJDAF4aR6wla4OIk8YCQWQPvMum7I2HzR6duNT1w7D6K4ZFLQtZG
+         onCNuy0JfBA+49nyB1nQih+0GKikCID01JxynNJhN6oABYJAclJhvu/GHHq/LEVHS4sb
+         YsWELoyzqFvGTqwmTkoDgUjZ8YarVd5mT5aQHOeqUsr2F0MgqnE0rnWkkhCtp2R/GDvF
+         p68Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zk0K9H0y;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e12-20020a05600c218c00b003cf573153ddsor3646316wme.11.2023.03.06.11.31.30
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 06 Mar 2023 11:31:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zk0K9H0y;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678131090;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=MEe48FWyaItvBL6K9WGXcGebZMyoTmDN71u5zMevwCo=;
+        b=2pJCr9rkW8+IoBm41/75LBPeNaoW9H96JVEDyKmhdQ2gscB7EIPGdRYuABIIh0Jyug
+         fpudSf+C7zNIH69u775PEzsUdZQ2W5qXMlwdG0bN0nWvt5fL7ybAFaa6jZCryWeHoDcD
+         pBi+HiCd4hJpMyfQCqiTpeuaIDPbhnti01taKlQczNAVJLusOybnqsRbg61E+JmSLfSV
+         EaZ1dbMn2IyfltnIjo/ZhymMmvnRmsH4ChkQH5IpTanSo/9ZQJV1zaXvR2v3ElUM8EeI
+         izjsMohYmCcWVoR2Zh5Ol7kT+Wn+qbVsdDDp/ew4ByZZZSHiKYbvmLwzHVzC5rRRTSYI
+         oisg==
+X-Gm-Message-State: AO0yUKXA2kPg8hyWluEM3DOip2ehvau/vPhw4K+3MOb9SyI9GYk2oPN/
+	dWDn86krcZzBBjOlG1NQsfEno70xeG98dN0NpSz/dfXuwKeGWhel5g==
+X-Received: by 2002:a05:600c:16c6:b0:3eb:2e68:5c86 with SMTP id l6-20020a05600c16c600b003eb2e685c86mr2728648wmn.6.1678131090363;
+        Mon, 06 Mar 2023 11:31:30 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp2269057wrr;
+        Mon, 6 Mar 2023 11:31:27 -0800 (PST)
+X-Received: by 2002:a05:600c:a46:b0:3ea:dc1b:90c with SMTP id c6-20020a05600c0a4600b003eadc1b090cmr10111443wmq.20.1678131087257;
+        Mon, 06 Mar 2023 11:31:27 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1678131087; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jEB2qVHZSRbju3W5VSqnuiXd1R38ZuQT5ltpRQ9d1jX3eejdBZbmV3TCu//o0I9HQK
+         Sxq1TIs84g2/4OTIBj1BwVEjKSqPBfEFs3x/TBLccB5PC5m/uVRzSySaEqJIKWPwowsN
+         ZXYHNq8/rBHRw0xYTRQO+nD3MJ5/LB03V+EgmX+z42cmue76r17JZ5UYcpkVfMQMdgRO
+         /1ERw8Q3c7X6PHrwtS/VNEiKbW9piAcuKrLKSAoznvltGjU3V6LQO9JMjsOzi2p+eVvt
+         VIU1QJ6dnjJpKv2K6GqS/nE8y5JQ6bcWgZbNYfDvHCkDGLjw0IHxGpabxALKo11EVZzI
+         oLQQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=MEe48FWyaItvBL6K9WGXcGebZMyoTmDN71u5zMevwCo=;
+        b=0nSEEzKEv/Hvd/BFuqIrCsNpNvrDVebO4iKq6DAqISb0b+b6qPEnwHqqLgHwf2wcl6
+         Xs8aHQhRalQ3MibPuyJhWL+D84Ip6D6W3zE6UcSnrPRAv89sU4S9O5dLh/DvIZh0Dm3W
+         aEKkJCIM4gWiNVnM5AZAXTVjWTzYUDpjyAVCk3rQZf03QH7OlgSE3UTnWdWO4oEBgu3E
+         f8QDamMIdqxS2HJMFPDLZno5XOat/nfnGLiJajEm7f9//HjYGZU8YgrHPy0e8Pv+LYKx
+         69k1NMUZoKDaBjyjflZ+bFN2onyXVGpDE++g80rqwZh8DV7dGQi4mgY6YBoetKfXDd8H
+         LFzg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zk0K9H0y;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230306143053.30747147.267413@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230306143053.30747147.267413@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230306143053.30747147.267413@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l16-20020a05600c4f1000b003dfe4bae0a2sor3932951wmq.26.2023.03.06.11.31.27
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 06 Mar 2023 11:31:27 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230306143053.30747147.267413@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set+i1cYA7JxDXOvmV+dN3WA63mgpTB/uq4j6g6PX3pp8ThYvao5Cj4eVdHjSNsXi4eFUapGC7GXOK9Pi1AWDSK+NbyFqYh4=
+X-Received: by 2002:a05:600c:4f0c:b0:3ea:c100:f18d with SMTP id l12-20020a05600c4f0c00b003eac100f18dmr10620187wmq.9.1678131087062;
+        Mon, 06 Mar 2023 11:31:27 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1678131087; cv=none;
+        d=google.com; s=arc-20160816;
+        b=pQyl/+10FbSpNWp0S3zV/pdbUTZuY1ZzaPlDjwmImCRgqLFVHMW2goiJSjo7oEdnWD
+         PQifHwBSzwn1AlQv+hdl1ENX9jfiWBLoMzboDC+cjWDS5qAKV45XwHEi4G1rkQ1EyxGs
+         PNUdzVHySTezN2jqKG7Wah0LFc7FfxifUd9QzMAwaf5lnOtM1L6mdFQdvdAIpy2AM6HW
+         QIdFWDjvuM4jgiQNg02scnClY9dou4mMFKTAAGkV8jB43fEggrVMJzNDbCJgVRZYxppN
+         TG9vyRgaj8T1v+L6c9ocVqcUPxcDfpQEAvBOnwuLi4khv1D2/02VqDg+1UBGx0Pu4UJW
+         pvBw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=MEe48FWyaItvBL6K9WGXcGebZMyoTmDN71u5zMevwCo=;
+        b=vW83DIzkxk/RA6+7DRsu/4uC40G8NyC6WNtGQt/jGOfsPQflId1oZF6Epd/B3wPYZC
+         oy4og3qTKN+S1ajL3WZXo+66RlgM5ixhylnF0vokZawtFfgHsBCo8ypRTsjSV0t9qFJX
+         AYd+g8YdK34UAJknbDfhpCXfPnesF35cer0V9kaKBY/hAEm8k7MAedIEhNzCt/flboCj
+         F6eb1TBfyrS1pvOmft30ogQiBKQIpWdFVL0KvGTgrW8xEOgW47I+2DbEXMCV8uzdj+4c
+         gwzt4GAvsSJiGQIooWXMo7U6hm5iLKTQ3tDwiTOMjCb1bnmviT9m3m8S5HUWyU1rZRvo
+         VwNQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zk0K9H0y;
+       spf=pass (google.com: domain of delivery_20230306143053.30747147.267413@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230306143053.30747147.267413@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230306143053.30747147.267413@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id b3-20020a05600c4e0300b003e21b96f27asi696041wmq.2.2023.03.06.11.31.26
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 06 Mar 2023 11:31:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230306143053.30747147.267413@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=YhZ+V9BwSur38rayBR02xxBMr94u8b4TkBUtBlvgHR0=;
+ b=zk0K9H0ydEMWpWkWB9a7vSNkF8v5aHQOCGXKS47SR2JFfV0FvUWQOur0pOeZEomqIA5Oe3HaAjLT
+   xUpzFOGA9Pgq9oC8jD3GZjRxziaNdNbWLrBYBElf40CJ16HppwysK+tnWdeOCt2DT+XmCD7MWhqx
+   QgA+HtgRZqLLuKjaGvs=
+Received: from nj1-mta32.sailthru.com (204.153.120.167) by bloomberg-b.sailthru.com id h0ovoq30nu8m for <bloomberg@khamel.com>; Mon, 6 Mar 2023 14:31:25 -0500 (envelope-from <delivery_20230306143053.30747147.267413@mx.sailthru.com>)
+Date: Mon, 6 Mar 2023 14:30:53 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230306143053.30747147.267413@sailthru.com>
+Subject: Money Stuff: Bed Bath & Beyond Stock Is On Sale
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9839618_1038661178.1678131053981"
+Precedence: bulk
+X-Feedback-ID: 6358:30747147:campaign:sailthru
+X-TM-ID: 20230306143053.30747147.267413
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotpine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cib0nf.5qc5/1344a68f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cib0nf.5qc5/1344a68f>, <mailto:unsubscribe_20230306143053.30747147.267413@mx.sailthru.com>
+X-rpcampaign: stjko30747147
+
+------=_Part_9839618_1038661178.1678131053981
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        We talked last month about a death-spiral-ish financing at Bed Bath=
+ & Beyond Inc. The company was days away from bankruptcy when a deal arri
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Bloodbath & Beyond
+   =20
+ =20
+
+We   talked last   month about a death-spiral-ish financing at Bed Bath & B=
+eyond Inc. The company was days away from bankruptcy when a deal arrived: H=
+udson Bay Capital Management
+  [1]
+=C2=A0would put about $1 billion into Bed Bath in exchange for vast amounts=
+ of stock. But not, like, Hudson Bay wrote a check for $1 billion and Bed B=
+ath gave it a pile of stock. Rather, the deal is that Bed Bath got $225 mil=
+lion, and in exchange it would basically give Hudson Bay stock each day, an=
+d Hudson Bay would sell it, until Hudson Bay got back its $225 million plus=
+ a nice little return. The mechanics were more complicated than that =E2=80=
+=94=C2=A0they involve convertible preferred stock with a floating conversio=
+n rate, etc. =E2=80=94=C2=A0but that=E2=80=99s the economic intuition. Each=
+ day Hudson Bay can convert some of its $225 million investment into shares=
+ at below the market price that day, and then sell those shares=C2=A0to pay=
+ itself back with interest.
+  [2]
+
+If all goes well, Hudson Bay will put up more money: as much as $800 millio=
+n more, in stages, over the course of the year. Each time, it will put up s=
+ome money and get the same deal again, convertible preferred stock that it =
+can convert over time into common shares at a discount to the market price =
+each day. It keeps doing that until Bed Bath has gotten the full billion.
+There are limits to this. This plan involves issuing hundreds of=C2=A0milli=
+ons of shares of Bed Bath stock; when the plan was announced, there were on=
+ly 117.3 million shares outstanding. So Bed Bath would be issuing many time=
+s more shares to Hudson Bay than it currently has outstanding, and Hudson B=
+ay would be dumping them, relentlessly, over the course of the year. Relent=
+lessly dumping stock will move the price down.=C2=A0The stock closed at $5.=
+86 per share on Feb. 6, as this plan was being finalized. It closed at $1.4=
+9 this past Friday.=C2=A0
+This doesn=E2=80=99t matter=C2=A0too=C2=A0much for Bed Bath, since the alte=
+rnative seems to have been a messy bankruptcy without much prospect=C2=A0fo=
+r recovery for the equity: Diluting=C2=A0the shareholders, and driving down=
+ the stock price, is a relatively good outcome. And it doesn=E2=80=99t matt=
+er too much for Hudson Bay, because it gets to buy the stock at a discount =
+to whatever the stock price is: If the stock is at $1.49, it gets to conver=
+t at $1.37, so it makes 12 cents per share.
+  [3]
+
+But it does matter a little, because (1) Bed Bath cannot issue infinite sha=
+res (it seems to be capped at about 780 million) and (2) Hudson Bay cannot =
+sell them at infinitesimal prices.
+  [4]
+=C2=A0In a   true death spiral, Hudson Bay would keep getting more shares a=
+nd dumping them, the stock would go to zero, and everyone would be sad, but=
+ that is not the deal here.=C2=A0In fact, the conversion price is floored a=
+t $0.716 per share: If the stock trades at, say, $0.60, Hudson Bay will los=
+e money.
+This gives Hudson Bay some incentive to manage its sales of the stock: It c=
+an=E2=80=99t dump too much too fast, or it will drive the price too far dow=
+n and lose money.=C2=A0
+On the other hand Hudson Bay was not going to put up $1 billion all at once=
+ and risk losing it all if the stock price cratered. Bed Bath only got the =
+first $225 million upfront; the rest comes in over time, and only if the st=
+ock can still support the trade. Specifically, Hudson Bay doesn=E2=80=99t h=
+ave to put up any more money unless the stock has consistently=C2=A0traded=
+=C2=A0above $1.25, for the first few tranches, or $1.50, for the remainder.
+  [5]
+
+And so=C2=A0the price is hovering right around there.=C2=A0If it goes up an=
+y more, Hudson Bay is incentivized to convert and bang out as much stock as=
+ it can. If it goes down much more, the mutually beneficial deal =E2=80=94=
+=C2=A0Hudson Bay gets to buy tons of stock at a discount, Bed Bath gets cas=
+h =E2=80=94=C2=A0stops working. So here we are. Bloomberg=E2=80=99s   Eliza=
+ Ronalds-Hannon reports:
+
+The financial lifeline that pulled Bed Bath & Beyond Inc. from the brink of=
+ bankruptcy last month is already at risk because of the retailer=E2=80=99s=
+ tumbling stock price. ...
+The additional cash has strings attached. Among them: Future injections are=
+ contingent on Bed Bath & Beyond maintaining a weighted average stock price=
+ of at least $1.25 or $1.50, depending on the timing, according to a regula=
+tory filing. The deal terms allow Hudson Bay to waive those conditions if i=
+t wants.
+But keeping the stock price above those thresholds may not be easy. It has =
+already tumbled over 70% since Feb. 6 and closed as low as $1.41 on Tuesday=
+. The shares ended Thursday at $1.56.
+
+Volume remains very high, though, so someone is still buying, and presumabl=
+y they=E2=80=99re buying stock that Hudson Bay is selling.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Tether
+   =20
+ =20
+
+In principle, Tether, the big stablecoin issuer,=C2=A0has an extremely simp=
+le business model:
+=09People give it dollars.=09It gives them back Tether stablecoins, or =E2=
+=80=9CUSDT.=E2=80=9D Each USDT is meant to be worth $1, and the exchange ra=
+te is one USDT for one dollar. If people give Tether $10,000, it gives them=
+ back 10,000 USDT.=09Tether keeps the dollars somewhere safe, presumably ea=
+rning interest on them, which it uses to pay operating expenses and executi=
+ve salaries and so forth.=09If people want their dollars back, they can giv=
+e Tether USDT and get back dollars, again one-for-one.
+
+As of its most recent =E2=80=A6=C2=A0auditor-related thingy? =E2=80=A6 Teth=
+er had about $67=C2=A0billion worth of assets backing about $66 billion of =
+Tether tokens, though that was in December 2022 and it has grown since then=
+.
+This is, in principle, a very simple and attractive business, but Tether ha=
+s found it hilariously difficult as an=C2=A0operational=C2=A0matter. In pri=
+nciple the way you do this business is you have people wire you the dollars=
+, and you send them their USDT (on the blockchain), and you keep the dollar=
+s in a bank account or money-market fund or Treasury bills or whatever earn=
+ing like 4%, and if people want their dollars back you wire them the dollar=
+s, and meanwhile you=E2=80=99re earning like $200 million a month on the fl=
+oat and life is good.
+But in practice what seems to happen is that people go to their banks and a=
+re like =E2=80=9CI would like to wire Tether $1 million to buy stablecoins=
+=E2=80=9D and the banks say =E2=80=9Cno.=E2=80=9D And then Tether goes to b=
+anks and says =E2=80=9Cwe would like to deposit the $67=C2=A0billion backin=
+g=C2=A0our stablecoins=E2=80=9D and the banks say =E2=80=9Cno.=E2=80=9D And=
+ then people go to Tether and say =E2=80=9CI would like you to wire me back=
+ $1 million for my stablecoins=E2=80=9D and everyone=E2=80=99s banks say =
+=E2=80=9Cno.=E2=80=9D I am exaggerating, but the basic fact of Tether=E2=80=
+=99s life seems to be that a lot of the financial intermediaries =E2=80=94=
+=C2=A0banks, brokers, auditors =E2=80=94=C2=A0who would normally be thrille=
+d to work with a $67 billion pot of money, for some reason, aren=E2=80=99t.=
+ So Tether has to do this very simple banking business in a very complicate=
+d way.
+How would you do it, if you were them? On Friday the Wall Street Journal ha=
+d an article about one possible answer, well summarized by the headline: =
+=E2=80=9CCrypto Companies Behind Tether Used Falsified Documents and Shell =
+Companies to Get Bank Accounts.=E2=80=9D Well, sure:
+
+Tether=E2=80=99s efforts to keep bank access grew urgent in March 2017, whe=
+n Wells Fargo & Co. stopped processing transactions from several Taiwanese =
+accounts that Tether was using. =E2=80=A6
+Phil Potter, Tether=E2=80=99s now-former chief strategy officer, sought to =
+calm anxious users on a conference call a few weeks later, saying Tether an=
+d Bitfinex had always found a solution. =E2=80=9CThere=E2=80=99s been lots =
+of sort of cat-and-mouse tricks that everyone in the industry has to avail =
+themselves of,=E2=80=9D Mr. Potter said on a recording of the call.
+The companies opened new accounts by using established business executives =
+and tweaking company names, according to the documents.=C2=A0In Taiwan, the=
+ accounts were held in trust by Chrise Lee, an executive of Hylab Technolog=
+y Ltd., which makes television set-top boxes. But the accounts were opened =
+under the name Hylab Holdings Ltd., documents show. Mr. Lee didn=E2=80=99t =
+reply to a request for comment.
+
+Right, one way around the problem is that you have all the customers wire m=
+oney to Legitimate Import/Export Ltd. and label it =E2=80=9Cfor televisions=
+,=E2=80=9D that is an approach. We  talked last month about how Sam Bankman=
+-Fried is facing bank-fraud charges for, um,=C2=A0that.=C2=A0Early in FTX T=
+rading Ltd.=E2=80=99s existence it had trouble getting bank accounts for it=
+self (as a crypto exchange, a high-risk sort of business), so it had custom=
+ers wire money to accounts under different names, and then sort of held the=
+ money in trust for the customers and figured it would all work out. Then i=
+t allegedly stole the money, but that is a separate point from the bank fra=
+ud; even if the money was still there, this is the sort of thing that can g=
+et you in trouble. You never want to use the phrase =E2=80=9Ccat-and-mouse =
+tricks=E2=80=9D=C2=A0about your banking relationships!
+Here's another anecdote=C2=A0about Tether and its sister company, the crypt=
+o exchange Bitfinex:
+
+Tether and Bitfinex executives also tried to expand their bank access with =
+an account at New York=E2=80=99s Signature Bank, which had made a push into=
+ crypto. Signature had closed two accounts tied to the companies earlier th=
+at year, according to the documents, and rejected another attempt by Bitfin=
+ex that fall, according to a person familiar with the matter.=C2=A0
+Signature bankers were then introduced to a company called AML Global, an a=
+viation fuel broker that was looking to open an account.
+The account would be controlled by Christopher Harborne, according to the a=
+pplication, which said it would be used to trade cryptocurrency primarily o=
+n a well-known exchange called Kraken for the purposes of hedging currency =
+exposure.
+
+I am going to stop you right there: You are selling=C2=A0aviation fuel, and=
+ you are hedging your=C2=A0currency exposure=C2=A0by=C2=A0trading crypto? =
+=C2=A0I think the=C2=A0best-case scenario there is that you are lying to ac=
+t as a front for a crypto exchange! Imagine walking into a bank and saying =
+=E2=80=9Coh yeah I am in a business where I sell aviation fuel for crypto=
+=E2=80=9D! What will they think? Who do they think is buying aviation fuel =
+with crypto? How is that a=C2=A0good=C2=A0story?
+Anyway =E2=80=9Cfalsified documents and shell companies to get bank account=
+s=E2=80=9D=C2=A0is=C2=A0one possible approach for Tether. (=E2=80=9CTether =
+said the Journal=E2=80=99s report was =E2=80=98wholly inaccurate and mislea=
+ding=E2=80=99=C2=A0and said that Tether and Bitfinex have =E2=80=98world-cl=
+ass compliance programs=E2=80=99 and adhere to legal requirements.=E2=80=9D=
+) There are others. One is to find some money-transmitting partner who is a=
+ little more risk-tolerant than, you know, Wells Fargo, but that has its ow=
+n problems:
+
+Bitfinex also moved more than $1 billion into a Panama-based payment proces=
+sor called Crypto Capital Corp., despite the lack of a written agreement be=
+tween the companies, court records show. Crypto Capital is now defunct. =E2=
+=80=A6
+By October 2018, the Crypto Capital plan was backfiring. Around $850 millio=
+n of the companies=E2=80=99 funds were seized by authorities in the U.S. an=
+d Europe as a result of criminal investigations into bank fraud and alleged=
+ money laundering. Customers had trouble withdrawing funds, tether lost its=
+ peg to the U.S. dollar and Bitfinex borrowed from Tether to cover the hole=
+ in its balance sheet.
+The following year, Bitfinex said it was defrauded by Crypto Capital and is=
+ still fighting the seizures.
+
+The advantage of finding a payment processor that doesn=E2=80=99t require a=
+ lot of paperwork is that they=E2=80=99ll take your money=C2=A0without a lo=
+t of paperwork. The disadvantage is that they won=E2=80=99t give it back. (=
+We  talked about the=C2=A0Crypto Capital aftermath in 2019; this approach=
+=C2=A0did not=C2=A0avoid=C2=A0regulatory trouble for Tether.)
+There are other, more theoretically interesting approaches. One good one is=
+ to do everything, as it were, synthetically. Your problems are=C2=A0with g=
+etting dollars, hanging onto the dollars, and wiring back dollars.=C2=A0Iss=
+uing Tethers=C2=A0on the blockchain is the easy part of your business. If y=
+ou can issue Tethers=C2=A0without=C2=A0getting dollars, that would simplify=
+ things. Of course then you wouldn=E2=80=99t have dollars! The whole point =
+of Tether is to be backed by dollars, to occasionally release auditor-flavo=
+red reports that loosely suggest that Tether is fully backed by dollars.
+But you could imagine a system that is like:
+=09Some crypto exchange or trading firm has an easier time getting dollars =
+than you do.=09So they get dollars and turn them into some sort of crypto-n=
+ative form of value. Another stablecoin, maybe.=C2=A0Or just Bitcoin, reall=
+y.=09They give you the crypto-native form of value in exchange for Tether.=
+=09You never have to touch dollars, avoiding a lot of headaches for you.=09=
+They do the cash-out too.
+
+Someone else =E2=80=94=C2=A0some independent third party with its own banki=
+ng relationships =E2=80=94=C2=A0is handling the dollars, so you don=E2=80=
+=99t have to. And in fact Tether seems to deal mainly with large customers =
+=E2=80=94=C2=A0crypto exchanges and big traders =E2=80=94=C2=A0rather than =
+letting every retail investor buy and sell USDT with Tether directly, which=
+ does make life easier: Tether=E2=80=99s banking life is simpler if it has =
+a few big customers making occasional trades than if it is sending and rece=
+iving money with hundreds of counterparties a day. But it would be even sim=
+pler if it did mostly non-cash trading even with them.
+I don=E2=80=99t think that is a huge part of Tether=E2=80=99s business, but=
+ here is another Journal story from December:
+
+The company behind the tether stablecoin has increasingly been lending its =
+own coins to customers rather than selling them for hard currency upfront. =
+The shift adds to risks that the company may not have enough liquid assets =
+to pay redemptions in a crisis.
+Tether Holdings Ltd. says it lends only to eligible customers and requires =
+that borrowers post lots of =E2=80=9Cextremely liquid=E2=80=9D collateral, =
+which could be sold for dollars if borrowers default.
+These loans have appeared for several quarters in the financial reports tha=
+t Tether shows on its website. In the most recent report, they reached $6.1=
+ billion as of Sept. 30, or 9% of the company=E2=80=99s total assets. They =
+were $4.1 billion, or 5% of total assets, at the end of 2021.=C2=A0
+Tether calls them =E2=80=9Csecured loans=E2=80=9D and discloses little abou=
+t the borrowers or the collateral accepted. Alex Welch, a Tether spokeswoma=
+n, confirmed that all of the secured loans listed in the reports were issue=
+d and denominated in tether. The company said the loans were short-term and=
+ that Tether holds the collateral.=C2=A0
+
+If you sell USDT for dollars, you have to do a dollar transfer; if you lend=
+ USDT secured by Bitcoin, you don=E2=80=99t. We  talked about that=C2=A0sto=
+ry at the time, and I wrote, somewhat exasperatedly:
+The thing with Tether is that there=E2=80=99s like $65 billion outstanding,=
+ it pays no interest and one-month US Treasury bills yield like 3.8%. Peopl=
+e do not give Tether money in order to earn interest on it; they give Tethe=
+r money in order to get back USDT to use for crypto transactions. If you we=
+re Tether, you could just park their money in the safest and most liquid po=
+ssible investments and earn billions of dollars of revenue that you get to =
+keep. This is a very good and easy business. You don=E2=80=99t need to do a=
+nything else. When people call you up for loans, instead of evaluating thei=
+r collateral and creditworthiness and negotiating good documentation and ha=
+ving a prudent risk management and monitoring system, you could just say =
+=E2=80=9Cno we=E2=80=99re good=E2=80=9D and buy Treasuries and sleep well o=
+n your giant pile of money.
+But of course I was wrong:=C2=A0In principle=C2=A0Tether has a very good an=
+d easy business, but=C2=A0in practice=C2=A0it is weirdly difficult, and iss=
+uing USDT in exchange for Bitcoin collateral might in fact be easier and sa=
+fer than issuing USDT in exchange for dollars in the bank. To get dollars i=
+n the bank, you need a bank.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Binance
+   =20
+ =20
+
+Elsewhere in=C2=A0crypto regulatory stuff, here=E2=80=99s a Wall Street Jou=
+rnal story=C2=A0about Binance:
+
+Worried about the threat of prosecution, Binance set out on a plan to neutr=
+alize U.S. authorities, according to messages and documents from 2018 to 20=
+20 reviewed by The Wall Street Journal as well as interviews with former em=
+ployees.
+The strategy centered on building a bare-bones American platform, Binance.U=
+S, that would license Binance=E2=80=99s technology and brand but otherwise =
+appear to be wholly independent of Binance.com. It would shield from U.S. r=
+egulators=E2=80=99 scrutiny the larger Binance.com exchange, which would ex=
+clude U.S. users.
+But Binance and Binance.US have been much more intertwined than the compani=
+es have disclosed, mixing staff and finances and sharing an affiliated enti=
+ty that bought and sold cryptocurrencies, according to the interviews and t=
+he messages and documents reviewed by the Journal. Binance developers in Ch=
+ina maintained the software code supporting Binance.US users=E2=80=99 digit=
+al wallets, potentially giving Binance access to U.S. customer data.
+
+In general if you are a global crypto exchange your options are:
+=09Get approval to trade in the US. This is pretty constraining =E2=80=94=
+=C2=A0you are limited in what products you can trade, the US Securities and=
+ Exchange Commission will come after you for products it doesn=E2=80=99t li=
+ke, etc. =E2=80=94=C2=A0and also just=C2=A0annoying; the SEC doesn=E2=80=99=
+t like you, and if you are in crypto for the permissionless innovation, get=
+ting permission from the SEC for everything is a drag.=09Don=E2=80=99t get =
+approval to trade in the US, but do it anyway. This was a pretty popular ap=
+proach in early crypto, but carries a lot of risk. The US is good at findin=
+g ways to prosecute foreigners for financial crimes.=09Don=E2=80=99t get ap=
+proval to trade in the US, and don=E2=80=99t trade in the US. This loses yo=
+u access to a lot of customers and liquidity. Also though some people in th=
+e US=C2=A0will=C2=A0find a way to trade on your exchange, and you=E2=80=99l=
+l probably get in trouble for it.=09Keep your main exchange off limits to=
+=C2=A0the US, but set up a US-only exchange that doesn=E2=80=99t do much an=
+d complies with US rules. This way=C2=A0you have some presence with US inve=
+stors, some way to lobby for more generous US rules, etc. Also this will pr=
+obably deter US investors from trading on your main exchange, which is what=
+ gets you in trouble. Also even if some US investors=C2=A0do=C2=A0trade on =
+your main exchange, you=E2=80=99ll look better: =E2=80=9CHow could we know =
+US investors would trade on our main exchange? We tried to stop them, even =
+gave them their own exchange, this isn=E2=80=99t our fault.=E2=80=9D
+
+Binance and FTX, most notably, chose Option 4. This strikes me as a reasona=
+ble choice, but there are always risks. In particular people are going to b=
+e skeptical of your separate US exchange. They are going to think that your=
+ heart isn=E2=80=99t quite in it. Also probably it isn=E2=80=99t:
+
+In the Binance chat on Telegram, an employee noted that more than 18% of pa=
+ge views on Binance.com were from U.S. users. Samuel Lim=E2=80=94then Binan=
+ce=E2=80=99s compliance chief, and the person who referred to =E2=80=9Cnucl=
+ear fall out=E2=80=9D from any U.S. regulatory lawsuit=E2=80=94suggested wa=
+ys Binance could retain the largest U.S. clients, despite its pledge not to=
+ let Americans trade on the global platform.
+=E2=80=9CHave them be creative and VPN,=E2=80=9D he said in a Telegram chat=
+ in June 2019. A VPN, or virtual private network, allows a computer user to=
+ appear to be located in another country.
+A part of Binance called Binance Academy that teaches users how to trade pu=
+blished a guide to using a VPN in 2020. It has since been deleted.
+
+Also, this isn=E2=80=99t legal advice, but whatever this is, don=E2=80=99t =
+do this:
+
+In one instance, an employee tried to create a Google Form for new Binance.=
+US customers, but he was using an account for the global exchange and had t=
+rouble changing the creator of the form from Binance.com to Binance.US.
+That =E2=80=9Cwill surely be seized upon by media and can be cited as direc=
+t evidence for corporate veil piercing in an adversarial judiciary proceedi=
+ng,=E2=80=9D Harry Zhou wrote on the Binance Telegram chat.
+=E2=80=9CIt is particularly concerning here because this form has to do wit=
+h opening client accounts,=E2=80=9D he wrote. =E2=80=9CIf I were an AG, I w=
+ould cite this as evidence that it is in fact Binance, an =E2=80=98unregist=
+ered foreign-based [money services business],=E2=80=99 onboarding the US cl=
+ients.=E2=80=9D
+
+What? Why write that? If you make an online form, and the metadata says tha=
+t the form was created by one legal entity instead of another legal entity,=
+=C2=A0maybe the=C2=A0media=C2=A0and prosecutors=C2=A0will notice and cite t=
+he form as evidence of corporate nefariousness, but honestly no one is goin=
+g to get that excited about it. But when you=C2=A0say in the chat=C2=A0that=
+ the thing =E2=80=9Cwill surely be seized upon by media,=E2=80=9D and that =
+if you were an attorney general you would cite it as evidence of crime, the=
+y will! The chats are always better evidence =E2=80=94=C2=A0more lively, mo=
+re indicative of intent, more intuitive to jurors or readers =E2=80=94=C2=
+=A0than the account-opening forms!
+
+ =20
+   =20
+      Multicoin
+   =20
+ =20
+
+Just a funny  series of numbers here:
+
+Multicoin Capital=E2=80=99s hedge fund lost 91.4% in 2022, according to a c=
+opy of the firm=E2=80=99s annual investor letter viewed by CoinDesk.
+The letter attributed last year=E2=80=99s decline to a turbulent year for c=
+ryptocurrencies, as well as direct and indirect impact from the collapse of=
+ crypto exchange FTX.
+=E2=80=9CWhile the fund successfully dodged the catastrophic implosions of =
+LUNA and Three Arrows Capital earlier in the year, we didn=E2=80=99t avoid =
+the explosive revelations about FTX nor the subsequent contagion that sprea=
+d across the market,=E2=80=9D said the letter. =E2=80=9CAfter a remarkable =
+year in 2021, our performance in 2022 was the worst since inception.=E2=80=
+=9D =E2=80=A6
+Despite the massive drawdown, Multicoin=E2=80=99s hedge fund remains up 1,3=
+76% net of fees from its inception through 2022. As the broader crypto mark=
+et rebounded from last year=E2=80=99s lows, Multicoin reported that the fun=
+d gained 100.9% in January 2023, bringing the fund=E2=80=99s inception-to-J=
+anuary return to 2,866%.
+
+You will sometimes hear traders talk about the importance of avoiding drawd=
+owns in terms of simple arithmetic: =E2=80=9CIf you=E2=80=99re down 50% one=
+ year, you have to be up 100% the next year to make up for it,=E2=80=9D tha=
+t sort of thing. In those terms it is very=C2=A0bad to be down 90% for the =
+year, because even if you=E2=80=99re up 100% the next year you=E2=80=99re s=
+till down 80% from your high. But Multicoin=C2=A0was=C2=A0up 100% in the fi=
+rst=C2=A0month=C2=A0of 2023, after being down 91% in 2022. And if you were =
+in the fund from the beginning, you have still made a lot of money, because=
+ I guess they=E2=80=99ve had more up-100% months than down-90% months. You =
+probably weren=E2=80=99t in the fund from the beginning =E2=80=94=C2=A0prob=
+ably the up-100% months attracted investors =E2=80=94=C2=A0but never mind. =
+=E2=80=9CMulticoin says it =E2=80=98remains steadfast=E2=80=99=C2=A0in its =
+long term strategy and =E2=80=98does not attempt to time the market.=E2=80=
+=99=E2=80=9D
+
+ =20
+   =20
+      Citadel
+   =20
+ =20
+
+If you put in many years of hard work at top academic institutions and ende=
+d up becoming the world=E2=80=99s leading expert=C2=A0at predicting the wea=
+ther two months in advance, who do you think is the best employer to moneti=
+ze your skills? Oh the answer is pretty much always =E2=80=9Can enormous mu=
+lti-strategy hedge fund.=E2=80=9D The  Financial Times reports:
+
+In 2018 Ken Griffin=E2=80=99s Citadel hired a group of scientists and analy=
+sts whose weather forecasts were more accurate than those of most meteorolo=
+gical offices. ...
+Griffin and his senior team are attracted [to commodities]=C2=A0by the size=
+ of the asset class, its low correlation with other markets and its complex=
+ity. In gas, supply can be mapped and analysed by his large teams of resear=
+chers while the many gas hubs across the US and beyond offer numerous price=
+s that can be traded.
+Forecasting demand is much harder. Weather heavily influences usage, which =
+is higher during hot summers because of air conditioners and in cold winter=
+s as homes are heated.
+This is where Citadel is seen as having a key advantage, with its traders f=
+ed information by a weather team that uses supercomputers to run forecasts =
+and includes specialists in areas such as thunderstorm and tropical cyclone=
+ prediction. Much of the team is based in London =E2=80=94 well placed to c=
+apitalise on volatile European gas and power prices.
+It has been bolstered in recent years with hires out of academia. Head of w=
+eather Nicholas Klingaman, formerly at the UK=E2=80=99s National Centre for=
+ Atmospheric Science, specialises in =E2=80=9Csub-seasonal=E2=80=9D forecas=
+ts. Such predictions, typically for up to two months ahead, are far more di=
+fficult than shorter-term forecasts and highly lucrative if accurate.
+
+I feel like this could=C2=A0be a good perk of working at Citadel? Like if y=
+ou are planning a ski trip or a beach vacation two months from now, call up=
+ the natural gas desk and they=E2=80=99ll tell you what the weather will be=
+ like? Citadel=E2=80=99s biggest weather-related move in recent years was p=
+robably moving its headquarters from Chicago to Miami, and you probably did=
+n=E2=80=99t need an advanced degree in meteorology to know that that would =
+be an improvement, but still.
+It is always sort of a mixed bag, when investment firms are the highest bid=
+der for this sort of useful-in-real-life talent and knowledge. On the one h=
+and, wouldn=E2=80=99t it be nice if your phone=E2=80=99s weather app was su=
+per-accurate two months out? Or if farmers, utilities, etc. had this foreca=
+sting ability, instead of a hedge fund? On the other hand, I suppose the fa=
+rmers, utilities, etc. get the information indirectly, in the form of price=
+ signals. And the hedge-fund bid for meteorological knowledge probably make=
+s meteorology a more lucrative field, which leads to more and better meteor=
+ologists, which trickles down to the rest of us?
+
+ =20
+   =20
+      Acronyms
+   =20
+ =20
+
+I  don=E2=80=99t care for this:
+
+Wall Street says it is done with TINA.=C2=A0
+For years after the 2008 financial crisis, investors held on to the belief =
+that =E2=80=9Cthere is no alternative=E2=80=9D to stocks. =E2=80=A6
+Then came last year=E2=80=99s market selloff. Stocks slumped and bond yield=
+s soared to levels not seen in more than a decade. =E2=80=A6
+Goldman Sachs Group Inc. has dubbed the shift =E2=80=9CTARA,=E2=80=9D short=
+ for =E2=80=9Cthere are reasonable alternatives,=E2=80=9D while Deutsche Ba=
+nk AG has endorsed =E2=80=9CTAPAS,=E2=80=9D meaning =E2=80=9Cthere are plen=
+ty of alternatives,=E2=80=9D and Insight Investment has come up with =E2=80=
+=9CTIARA,=E2=80=9D or =E2=80=9Cthere is a realistic alternative=E2=80=9D to=
+ stocks.
+
+I assume someone out there is building a large language model for coming up=
+ with cutesy investing acronyms.
+
+ =20
+   =20
+      ETF paradoxes
+   =20
+ =20
+
+We   talked on Thursday about LJIM and SJIM, two exchange-traded funds from=
+ Tuttle Capital Management=C2=A0that buy (LJIM) or short (SJIM)=C2=A0all th=
+e stocks that Jim Cramer recommends on television and on Twitter. They are =
+not affiliated with Cramer or anything, and seem to be making fun of him, b=
+ut they require three Tuttle employees to =E2=80=9Cwatch Cramer=E2=80=99s t=
+elevision appearances throughout the day and monitor his Twitter account,=
+=E2=80=9D so who really should be embarrassed here?
+Anyway=C2=A0a bunch of readers wrote in to make the same joke/point: Cramer=
+ should go on TV and recommend SJIM. Then, by its own rules, SJIM has to sh=
+ort itself. He should do it! Feels like a win-win. For Cramer, he gets to s=
+tick it to these guys who are making fun of him. For Tuttle, it=E2=80=99s f=
+unny, and =E2=80=9Cthis is funny=E2=80=9D seems to be the main=C2=A0theory =
+of attracting investors to these funds, so presumably having to short their=
+ ETF in their ETF would attract more investors. For me, also, it is funny, =
+and I want it to happen. Are ETFs allowed to short themselves? Probably? I =
+have no idea but I really hope we=E2=80=99re going to find out.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+US Banks Are Finally Being Forced to Raise   Rates on Deposits. German bank=
+s accused of  short-changing savers with low rates. AQR Leads 10 Hedge Fund=
+s Suing LME Over  Nickel Trade Debacle. Junk-Rated Companies Are  Borrowing=
+ Again. Fear of ratings downgrades puts companies off  debt-driven deals. G=
+ermany=E2=80=99s Sleepy Savings Banks Play Wall Street With   LBO Bets. Mis=
+sing Banker Reignites   Fear of Xi Among China=E2=80=99s Tech Bosses. =E2=
+=80=9CHell Is Coming=E2=80=9D: How  Bill Ackman Predicted the Covid Market =
+Crash =E2=80=94=C2=A0And Made a Fortune. Goldman=E2=80=99s   Top Stock Trad=
+er Whose Pay Rivaled CEO=E2=80=99s Makes Surprise Exit.   Credit Suisse Los=
+es One of Its Biggest Backers. Swiss fund manager GAM  rushes to find buyer=
+ before results. Short Seller Accuses Kroll and Jones Day of   Wirecard Har=
+assment. Musk  Delayed Paying Twitter=E2=80=99s Amazon Cloud Bill, Sparking=
+ Ad Threat. Auction for 13% of World=E2=80=99s   White Rhinos to Start at $=
+10 Million. =E2=80=9CGeorge Patterson, chief investment officer at PGIM Qua=
+ntitative Solutions, got a whiff of that retail urge recently when some fri=
+ends=E2=80=99   teenage kids asked him questions about 0DTE options.=E2=80=
+=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] And some other investors, but Hudson Bay was the anchor investor and =
+seems to have put up the bulk of the money =E2=80=94 most of the initial sl=
+ug of $225 million and all of the remaining $800 million.
+
+
+  [2] Technically I believe they can sell the stock first (short) and then =
+convert, though borrow in Bed Bath stock is tight and, given the pricing me=
+chanism of the conversion, they=E2=80=99d probably do *fine* converting fir=
+st and selling later.
+
+
+  [3] In fact the mechanics are more complicated than that, and Hudson Bay =
+gets to convert at  92% of the *lowest* daily volume-weighted average price=
+ of the stock over the 10 trading days up to and including the conversion d=
+ate. If the stock is volatile, this lookback option gives it a better price=
+ on some days: If the stock averages $1.40 on Monday and $1.50 on Tuesday, =
+it still gets to convert on Tuesday at $1.29. If the stock is monotonically=
+ down this doesn=E2=80=99t help that much. (Also Hudson Bay buys the prefer=
+red at a discount to its face value, so the economics are in fact a bit bet=
+ter than this.)
+
+
+  [4] It also matters because the conversion price is capped at $6.15, and =
+Hudson Bay gets warrants to buy even more stock at that price. So if the st=
+ock goes to $20, Hudson Bay gets to buy at $6.15 and makes a huge profit. N=
+ot that relevant now but, sure, technically, upside.
+
+
+  [5] See the definition of =E2=80=9CPrice Failure=E2=80=9D on page S-36 he=
+re: =E2=80=9C=E2=80=98Price Failure=E2=80=99 means, with respect to a parti=
+cular date of determination, the VWAP of the common stock on any Trading Da=
+y during the twenty (20) Trading Day period ending on the Trading Day immed=
+iately preceding such date of determination fails to exceed (x) at any time=
+ on or prior to the time at least 21,054 shares of preferred stock (as adju=
+sted for stock splits, stock dividends, stock combinations, recapitalizatio=
+ns or other similar transactions occurring after the Subscription Date, the=
+ 'Threshold Share Amount') have been issued under the Preferred Stock Warra=
+nts, $1.25 or (y) at any time after at least the Threshold Share Amount of =
+shares of preferred stock have been issued hereunder, $1.50.=E2=80=9D Again=
+, it=E2=80=99s the *worst* day in the 20 trading days before the tranche is=
+ drawn, not the average.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cib0nf.5qc5/5842879e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9839618_1038661178.1678131053981
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+We talked last month about a death-spiral-ish financing at Bed Bath &amp; B=
+eyond Inc. The company was days away from bankruptcy when a deal arri
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB8f4b8d86" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB6739967f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC6d4bdf46" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bloodbath &amp; Beyond</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDItMDcvYmVkLWJhdGgtYmV5b25kLXNvbGQtc29tZS1zdG9jaz9jbXBp=
+ZD1CQkQwMzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMzAzMDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB806151db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked</a> last <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMDgvYmVkLWJhdGgtYmV5b25kLWdvdC1pdHMt=
+ZGVhbC1kb25lP2NtcGlkPUJCRDAzMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB166631bf" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  month</a> about a death-s=
+piral-ish financing at Bed Bath &amp; Beyond Inc. The company was days away=
+ from bankruptcy when a deal arrived: Hudson Bay Capital Management<a class=
+=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0would put about $1 billion into Bed Bath in exchange for vast amo=
+unts of stock. But not, like, Hudson Bay wrote a check for $1 billion and B=
+ed Bath gave it a pile of stock. Rather, the deal is that Bed Bath got $225=
+ million, and in exchange it would basically give Hudson Bay stock each day=
+, and Hudson Bay would sell it, until Hudson Bay got back its $225 million =
+plus a nice little return. The mechanics were more complicated than that =
+=E2=80=94=C2=A0they involve convertible preferred stock with a floating con=
+version rate, etc. =E2=80=94=C2=A0but that=E2=80=99s the economic intuition=
+. Each day Hudson Bay can convert some of its $225 million investment into =
+shares at below the market price that day, and then sell those shares=C2=A0=
+to pay itself back with interest.<a class=3D"footnote-index" href=3D"#footn=
+ote-2" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">If all goes well, Hudson Bay will put up more =
+money: as much as $800 million more, in stages, over the course of the year=
+. Each time, it will put up some money and get the same deal again, convert=
+ible preferred stock that it can convert over time into common shares at a =
+discount to the market price each day. It keeps doing that until Bed Bath h=
+as gotten the full billion.</p>
+<p style=3D"margin: 16px 0;">There are limits to this. This plan involves i=
+ssuing hundreds of=C2=A0millions of shares of Bed Bath stock; when the plan=
+ was announced, there were only 117.3 million shares outstanding. So Bed Ba=
+th would be issuing many times more shares to Hudson Bay than it currently =
+has outstanding, and Hudson Bay would be dumping them, relentlessly, over t=
+he course of the year. Relentlessly dumping stock will move the price down.=
+=C2=A0The stock closed at $5.86 per share on Feb. 6, as this plan was being=
+ finalized. It closed at $1.49 this past Friday.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This doesn=E2=80=99t matter=C2=A0<em>too=C2=A0=
+</em>much for Bed Bath, since the alternative seems to have been a messy ba=
+nkruptcy without much prospect=C2=A0for recovery for the equity: <em>Diluti=
+ng=C2=A0</em>the shareholders, and driving down the stock price, is a relat=
+ively good outcome. And it doesn=E2=80=99t matter too much for Hudson Bay, =
+because it gets to buy the stock at a discount to whatever the stock price =
+is: If the stock is at $1.49, it gets to convert at $1.37, so it makes 12 c=
+ents per share.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But it does matter a little, because (1) Bed B=
+ath cannot issue infinite shares (it seems to be capped at about 780 millio=
+n) and (2) Hudson Bay cannot sell them at infinitesimal prices.<a class=3D"=
+footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0In a <a href=3D"https://link.mail.bloombergbusiness.com/click/307=
+47147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB77130cdb" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  true death sp=
+iral</a>, Hudson Bay would keep getting more shares and dumping them, the s=
+tock would go to zero, and everyone would be sad, but that is not the deal =
+here.=C2=A0In fact, the conversion price is floored at $0.716 per share: If=
+ the stock trades at, say, $0.60, Hudson Bay will lose money.</p>
+<p style=3D"margin: 16px 0;">This gives Hudson Bay some incentive to manage=
+ its sales of the stock: It can=E2=80=99t dump too much too fast, or it wil=
+l drive the price too far down and lose money.=C2=A0</p>
+<p style=3D"margin: 16px 0;">On the other hand Hudson Bay was not going to =
+put up $1 billion all at once and risk losing it all if the stock price cra=
+tered. Bed Bath only got the first $225 million upfront; the rest comes in =
+over time, and only if the stock can still support the trade. Specifically,=
+ Hudson Bay doesn=E2=80=99t have to put up any more money unless the stock =
+has consistently=C2=A0traded=C2=A0above $1.25, for the first few tranches, =
+or $1.50, for the remainder.<a class=3D"footnote-index" href=3D"#footnote-5=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: none !import=
+ant; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And so=C2=A0the price is hovering right around=
+ there.=C2=A0If it goes up any more, Hudson Bay is incentivized to convert =
+and bang out as much stock as it can. If it goes down much more, the mutual=
+ly beneficial deal =E2=80=94=C2=A0Hudson Bay gets to buy tons of stock at a=
+ discount, Bed Bath gets cash =E2=80=94=C2=A0stops working. So here we are.=
+ Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjMtMDMtMDMvYmVkLWJhdGgtYmV5b25kLXMtdGFua2luZy1zdG9jay1wdXRzLWhlZGdlLWZ1bmQ=
+tcmVzY3VlLWF0LXJpc2s_Y21waWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cBf031489a" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  Eliza Ronalds-Hann=
+on reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The financial lifeline that pulled Bed Bath &a=
+mp; Beyond Inc. from the brink of bankruptcy last month is already at risk =
+because of the retailer=E2=80=99s tumbling stock price. ...</p>
+<p style=3D"margin: 16px 0;">The additional cash has strings attached. Amon=
+g them: Future injections are contingent on Bed Bath &amp; Beyond maintaini=
+ng a weighted average stock price of at least $1.25 or $1.50, depending on =
+the timing, according to a regulatory filing. The deal terms allow Hudson B=
+ay to waive those conditions if it wants.</p>
+<p style=3D"margin: 16px 0;">But keeping the stock price above those thresh=
+olds may not be easy. It has already tumbled over 70% since Feb. 6 and clos=
+ed as low as $1.41 on Tuesday. The shares ended Thursday at $1.56.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Volume remains very high, though, so someone i=
+s still buying, and presumably they=E2=80=99re buying stock that Hudson Bay=
+ is selling.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDac3105a0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEac3105a0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF70733683" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG70733683" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHffc3a950" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIffc3a950" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tether</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In principle, Tether, the big stablecoin issue=
+r,=C2=A0has an extremely simple business model:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">People give it dollars.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">It gives them back Tether stablecoins, or =E2=
+=80=9CUSDT.=E2=80=9D Each USDT is meant to be worth $1, and the exchange ra=
+te is one USDT for one dollar. If people give Tether $10,000, it gives them=
+ back 10,000 USDT.</li>=09<li style=3D"margin-bottom: 5px;">Tether keeps th=
+e dollars somewhere safe, presumably earning interest on them, which it use=
+s to pay operating expenses and executive salaries and so forth.</li>=09<li=
+ style=3D"margin-bottom: 5px;">If people want their dollars back, they can =
+give Tether USDT and get back dollars, again one-for-one.</li>
+</ol>
+<p style=3D"margin: 16px 0;">As of its most recent =E2=80=A6=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0cHM6L=
+y9hc3NldHMuY3RmYXNzZXRzLm5ldC92eXNlODhjZ3dmYmwvNTNMOFlSTTRaSENFZXFscEtiYzNR=
+OC8yZTZjYmNkMTU5M2IzZTVlYTg2NzcxOGM1OTM4ZDZjOC9TdGRfSVNBRV8zMDAwUl9PcGluaW9=
+uX0JET18zMS0xMi0yMDIyX1RldGhlcl9DUlIucGRm/607f07ceef4b8524a319a23cBc47e3ea4=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">auditor-related thingy</a>? =E2=80=A6 Tether had about $67=C2=A0b=
+illion worth of assets backing about $66 billion of Tether tokens, though t=
+hat was in December 2022 and it has <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30747147.267413/aHR0cHM6Ly90ZXRoZXIudG8vZW4vdHJhbnNwYXJlb=
+mN5Lw/607f07ceef4b8524a319a23cBa0625a15" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">grown since then</a>.</p=
+>
+<p style=3D"margin: 16px 0;">This is, in principle, a very simple and attra=
+ctive business, but Tether has found it hilariously difficult as an=C2=A0<e=
+m>operational=C2=A0</em>matter. In principle the way you do this business i=
+s you have people wire you the dollars, and you send them their USDT (on th=
+e blockchain), and you keep the dollars in a bank account or money-market f=
+und or Treasury bills or whatever earning like 4%, and if people want their=
+ dollars back you wire them the dollars, and meanwhile you=E2=80=99re earni=
+ng like $200 million a month on the float and life is good.</p>
+<p style=3D"margin: 16px 0;">But in practice what seems to happen is that p=
+eople go to their banks and are like =E2=80=9CI would like to wire Tether $=
+1 million to buy stablecoins=E2=80=9D and the banks say =E2=80=9Cno.=E2=80=
+=9D And then Tether goes to banks and says =E2=80=9Cwe would like to deposi=
+t the $67=C2=A0billion backing=C2=A0our stablecoins=E2=80=9D and the banks =
+say =E2=80=9Cno.=E2=80=9D And then people go to Tether and say =E2=80=9CI w=
+ould like you to wire me back $1 million for my stablecoins=E2=80=9D and ev=
+eryone=E2=80=99s banks say =E2=80=9Cno.=E2=80=9D I am exaggerating, but the=
+ basic fact of Tether=E2=80=99s life seems to be that a lot of the financia=
+l intermediaries =E2=80=94=C2=A0banks, brokers, auditors =E2=80=94=C2=A0who=
+ would normally be thrilled to work with a $67 billion pot of money, for so=
+me reason, aren=E2=80=99t. So Tether has to do this very simple banking bus=
+iness in a very complicated way.</p>
+<p style=3D"margin: 16px 0;">How would you do it, if you were them? On Frid=
+ay the Wall Street Journal had an article about one possible answer, well s=
+ummarized by the headline: =E2=80=9CCrypto Companies Behind Tether <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tY29tcGFuaWVzLWJlaGluZC10ZXRoZXItdXNl=
+ZC1mYWxzaWZpZWQtZG9jdW1lbnRzLWFuZC1zaGVsbC1jb21wYW5pZXMtdG8tZ2V0LWJhbmstYWN=
+jb3VudHMtZjc5OGIwYTU_bW9kPWJyZWFraW5nbmV3cw/607f07ceef4b8524a319a23cB575596=
+4f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Used Falsified Documents and Shell Companies to Get Bank Accou=
+nts</a>.=E2=80=9D Well, sure:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Tether=E2=80=99s efforts to keep bank access g=
+rew urgent in March 2017, when Wells Fargo &amp; Co. stopped processing tra=
+nsactions from several Taiwanese accounts that Tether was using. =E2=80=A6<=
+/p>
+<p style=3D"margin: 16px 0;">Phil Potter, Tether=E2=80=99s now-former chief=
+ strategy officer, sought to calm anxious users on a conference call a few =
+weeks later, saying Tether and Bitfinex had always found a solution. =E2=80=
+=9CThere=E2=80=99s been lots of sort of cat-and-mouse tricks that everyone =
+in the industry has to avail themselves of,=E2=80=9D Mr. Potter said on a r=
+ecording of the call.</p>
+<p style=3D"margin: 16px 0;">The companies opened new accounts by using est=
+ablished business executives and tweaking company names, according to the d=
+ocuments.=C2=A0In Taiwan, the accounts were held in trust by Chrise Lee, an=
+ executive of Hylab Technology Ltd., which makes television set-top boxes. =
+But the accounts were opened under the name Hylab Holdings Ltd., documents =
+show. Mr. Lee didn=E2=80=99t reply to a request for comment.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Right, one way around the problem is that you =
+have all the customers wire money to Legitimate Import/Export Ltd. and labe=
+l it =E2=80=9Cfor televisions,=E2=80=9D that is an approach. We <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjQvc29tZS1zcGFjcy1o=
+YXZlLXNwYXJlLWNhc2g_Y21waWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cBb45d8bc9" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> talked last month</a=
+> about how Sam Bankman-Fried is facing bank-fraud charges for, um,=C2=A0th=
+at.=C2=A0Early in FTX Trading Ltd.=E2=80=99s existence it had trouble getti=
+ng bank accounts for itself (as a crypto exchange, a high-risk sort of busi=
+ness), so it had customers wire money to accounts under different names, an=
+d then sort of held the money in trust for the customers and figured it wou=
+ld all work out. Then it allegedly stole the money, but that is a separate =
+point from the bank fraud; even if the money was still there, this is the s=
+ort of thing that can get you in trouble. You never want to use the phrase =
+=E2=80=9Ccat-and-mouse tricks=E2=80=9D=C2=A0about your banking relationship=
+s!</p>
+<p style=3D"margin: 16px 0;">Here's another anecdote=C2=A0about Tether and =
+its sister company, the crypto exchange Bitfinex:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Tether and Bitfinex executives also tried to e=
+xpand their bank access with an account at New York=E2=80=99s Signature Ban=
+k, which had made a push into crypto. Signature had closed two accounts tie=
+d to the companies earlier that year, according to the documents, and rejec=
+ted another attempt by Bitfinex that fall, according to a person familiar w=
+ith the matter.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Signature bankers were then introduced to a co=
+mpany called AML Global, an aviation fuel broker that was looking to open a=
+n account.</p>
+<p style=3D"margin: 16px 0;">The account would be controlled by Christopher=
+ Harborne, according to the application, which said it would be used to tra=
+de cryptocurrency primarily on a well-known exchange called Kraken for the =
+purposes of hedging currency exposure.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I am going to stop you right there: You are se=
+lling=C2=A0<em>aviation fuel</em>, and you are hedging your=C2=A0<em>curren=
+cy exposure=C2=A0</em>by=C2=A0<em>trading crypto? </em>=C2=A0I think the=C2=
+=A0<em>best</em>-case scenario there is that you are lying to act as a fron=
+t for a crypto exchange! Imagine walking into a bank and saying =E2=80=9Coh=
+ yeah I am in a business where I sell aviation fuel for crypto=E2=80=9D! Wh=
+at will they think? Who do they think is buying aviation fuel with crypto? =
+How is that a=C2=A0<em>good=C2=A0</em>story?</p>
+<p style=3D"margin: 16px 0;">Anyway =E2=80=9Cfalsified documents and shell =
+companies to get bank accounts=E2=80=9D=C2=A0<em>is=C2=A0</em>one possible =
+approach for Tether. (=E2=80=9CTether said the Journal=E2=80=99s report was=
+ =E2=80=98wholly inaccurate and misleading=E2=80=99=C2=A0and said that Teth=
+er and Bitfinex have =E2=80=98world-class compliance programs=E2=80=99 and =
+adhere to legal requirements.=E2=80=9D) There are others. One is to find so=
+me money-transmitting partner who is a little more risk-tolerant than, you =
+know, Wells Fargo, but that has its own problems:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bitfinex also moved more than $1 billion into =
+a Panama-based payment processor called Crypto Capital Corp., despite the l=
+ack of a written agreement between the companies, court records show. Crypt=
+o Capital is now defunct. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">By October 2018, the Crypto Capital plan was b=
+ackfiring. Around $850 million of the companies=E2=80=99 funds were seized =
+by authorities in the U.S. and Europe as a result of criminal investigation=
+s into bank fraud and alleged money laundering. Customers had trouble withd=
+rawing funds, tether lost its peg to the U.S. dollar and Bitfinex borrowed =
+from Tether to cover the hole in its balance sheet.</p>
+<p style=3D"margin: 16px 0;">The following year, Bitfinex said it was defra=
+uded by Crypto Capital and is still fighting the seizures.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The advantage of finding a payment processor t=
+hat doesn=E2=80=99t require a lot of paperwork is that they=E2=80=99ll take=
+ your money=C2=A0without a lot of paperwork. The disadvantage is that they =
+won=E2=80=99t give it back. (We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzLWdvdC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRo=
+ZXI_Y21waWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB3afe7f05" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> talked about the=C2=A0Crypto Capital=
+ aftermath in 2019</a>; this approach=C2=A0did not=C2=A0<em>avoid=C2=A0</em=
+>regulatory trouble for Tether.)</p>
+<p style=3D"margin: 16px 0;">There are other, more theoretically interestin=
+g approaches. One good one is to do everything, as it were, synthetically. =
+Your problems are=C2=A0with getting dollars, hanging onto the dollars, and =
+wiring back dollars.=C2=A0<em>Issuing Tethers=C2=A0</em>on the blockchain i=
+s the easy part of your business. If you can issue Tethers=C2=A0<em>without=
+=C2=A0</em>getting dollars, that would simplify things. Of course then you =
+wouldn=E2=80=99t have dollars! The whole point of Tether is to be backed by=
+ dollars, to occasionally release auditor-flavored reports that loosely sug=
+gest that Tether is fully backed by dollars.</p>
+<p style=3D"margin: 16px 0;">But you could imagine a system that is like:</=
+p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Some crypto exchange or trading firm h=
+as an easier time getting dollars than you do.</li>=09<li style=3D"margin-b=
+ottom: 5px;">So they get dollars and turn them into some sort of crypto-nat=
+ive form of value. Another stablecoin, maybe.=C2=A0Or just Bitcoin, really.=
+</li>=09<li style=3D"margin-bottom: 5px;">They give you the crypto-native f=
+orm of value in exchange for Tether.</li>=09<li style=3D"margin-bottom: 5px=
+;">You never have to touch dollars, avoiding a lot of headaches for you.</l=
+i>=09<li style=3D"margin-bottom: 5px;">They do the cash-out too.</li>
+</ul>
+<p style=3D"margin: 16px 0;">Someone else =E2=80=94=C2=A0some independent t=
+hird party with its own banking relationships =E2=80=94=C2=A0is handling th=
+e dollars, so you don=E2=80=99t have to. And in fact Tether seems to deal m=
+ainly with large customers =E2=80=94=C2=A0crypto exchanges and big traders =
+=E2=80=94=C2=A0rather than letting every retail investor buy and sell USDT =
+with Tether directly, which does make life easier: Tether=E2=80=99s banking=
+ life is simpler if it has a few big customers making occasional trades tha=
+n if it is sending and receiving money with hundreds of counterparties a da=
+y. But it would be even simpler if it did mostly non-cash trading even with=
+ them.</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t think that is a huge part of T=
+ether=E2=80=99s business, but <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30747147.267413/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yaXNpbmc=
+tdGV0aGVyLWxvYW5zLWFkZC1yaXNrLXRvLXN0YWJsZWNvaW4tY3J5cHRvLXdvcmxkLTExNjY5OD=
+c1NTkwP21vZD1ocF9sZWFkX3BvczQ/607f07ceef4b8524a319a23cB7b4b87ed" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here is another Journal story from December</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The company behind the tether stablecoin has i=
+ncreasingly been lending its own coins to customers rather than selling the=
+m for hard currency upfront. The shift adds to risks that the company may n=
+ot have enough liquid assets to pay redemptions in a crisis.</p>
+<p style=3D"margin: 16px 0;">Tether Holdings Ltd. says it lends only to eli=
+gible customers and requires that borrowers post lots of =E2=80=9Cextremely=
+ liquid=E2=80=9D collateral, which could be sold for dollars if borrowers d=
+efault.</p>
+<p style=3D"margin: 16px 0;">These loans have appeared for several quarters=
+ in the financial reports that Tether shows on its website. In the most rec=
+ent report, they reached $6.1 billion as of Sept. 30, or 9% of the company=
+=E2=80=99s total assets. They were $4.1 billion, or 5% of total assets, at =
+the end of 2021.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Tether calls them =E2=80=9Csecured loans=E2=80=
+=9D and discloses little about the borrowers or the collateral accepted. Al=
+ex Welch, a Tether spokeswoman, confirmed that all of the secured loans lis=
+ted in the reports were issued and denominated in tether. The company said =
+the loans were short-term and that Tether holds the collateral.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you sell USDT for dollars, you have to do a=
+ dollar transfer; if you lend USDT secured by Bitcoin, you don=E2=80=99t. W=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMDEvc2J=
+mLW1pc3NlZC1mdHgtcy1yaXNrcz9jbXBpZD1CQkQwMzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDYmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6830138c" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> talked about=
+ that=C2=A0story at the time</a>, and I wrote, somewhat exasperatedly:</p>
+<blockquote><p style=3D"margin: 16px 0;">The thing with Tether is that ther=
+e=E2=80=99s like $65 billion outstanding, it pays no interest and one-month=
+ US Treasury bills yield like 3.8%. People do not give Tether money in orde=
+r to earn interest on it; they give Tether money in order to get back USDT =
+to use for crypto transactions. If you were Tether, you could just park the=
+ir money in the safest and most liquid possible investments and earn billio=
+ns of dollars of revenue that you get to keep. This is a very good and easy=
+ business. You don=E2=80=99t need to do anything else. When people call you=
+ up for loans, instead of evaluating their collateral and creditworthiness =
+and negotiating good documentation and having a prudent risk management and=
+ monitoring system, you could just say =E2=80=9Cno we=E2=80=99re good=E2=80=
+=9D and buy Treasuries and sleep well on your giant pile of money.</p></blo=
+ckquote>
+<p style=3D"margin: 16px 0;">But of course I was wrong:=C2=A0<em>In princip=
+le=C2=A0</em>Tether has a very good and easy business, but=C2=A0<em>in prac=
+tice=C2=A0</em>it is weirdly difficult, and issuing USDT in exchange for Bi=
+tcoin collateral might in fact be easier and safer than issuing USDT in exc=
+hange for dollars in the bank. To get dollars in the bank, you need a bank.=
+</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJdec9bf22" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Binance</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Elsewhere in=C2=A0crypto regulatory stuff, her=
+e=E2=80=99s a Wall Street Journal story=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy90ZXh0cy1mcm9tLWNyeXB0by1naWFudC1iaW5hbmNlLXJldmVhbC1wbGFuLXRvLWVsdWR=
+lLXUtcy1hdXRob3JpdGllcy0zYTE3ZGRlYj9jYW1wYWlnbl9pZD00JmVtYz1lZGl0X2RrXzIwMj=
+MwMzA2Jmluc3RhbmNlX2lkPTg2OTc5Jm5sPWRlYWxib29rJnJlZ2lfaWQ9MTI1MzI3NzUmc2Vnb=
+WVudF9pZD0xMjcwMTkmdGU9MSZ1c2VyX2lkPTNjNWMyNTc5OTQwYjQyYWNiZDk1ZDliYTIwNjMx=
+ZDgz/607f07ceef4b8524a319a23cB291b7473" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">about Binance</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Worried about the threat of prosecution, Binan=
+ce set out on a plan to neutralize U.S. authorities, according to messages =
+and documents from 2018 to 2020 reviewed by The Wall Street Journal as well=
+ as interviews with former employees.</p>
+<p style=3D"margin: 16px 0;">The strategy centered on building a bare-bones=
+ American platform, Binance.US, that would license Binance=E2=80=99s techno=
+logy and brand but otherwise appear to be wholly independent of Binance.com=
+. It would shield from U.S. regulators=E2=80=99 scrutiny the larger Binance=
+.com exchange, which would exclude U.S. users.</p>
+<p style=3D"margin: 16px 0;">But Binance and Binance.US have been much more=
+ intertwined than the companies have disclosed, mixing staff and finances a=
+nd sharing an affiliated entity that bought and sold cryptocurrencies, acco=
+rding to the interviews and the messages and documents reviewed by the Jour=
+nal. Binance developers in China maintained the software code supporting Bi=
+nance.US users=E2=80=99 digital wallets, potentially giving Binance access =
+to U.S. customer data.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">In general if you are a global crypto exchange=
+ your options are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Get approval to trade in the US. This=
+ is pretty constraining =E2=80=94=C2=A0you are limited in what products you=
+ can trade, the US Securities and Exchange Commission will come after you f=
+or products it doesn=E2=80=99t like, etc. =E2=80=94=C2=A0and also just=C2=
+=A0<em>annoying</em>; the SEC doesn=E2=80=99t like you, and if you are in c=
+rypto for the permissionless innovation, getting permission from the SEC fo=
+r everything is a drag.</li>=09<li style=3D"margin-bottom: 5px;">Don=E2=80=
+=99t get approval to trade in the US, but do it anyway. This was a pretty p=
+opular approach in early crypto, but carries a lot of risk. The US is good =
+at finding ways to prosecute foreigners for financial crimes.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Don=E2=80=99t get approval to trade in the US, =
+and don=E2=80=99t trade in the US. This loses you access to a lot of custom=
+ers and liquidity. Also though some people in the US=C2=A0<em>will=C2=A0</e=
+m>find a way to trade on your exchange, and you=E2=80=99ll probably get in =
+trouble for it.</li>=09<li style=3D"margin-bottom: 5px;">Keep your main exc=
+hange off limits to=C2=A0the US, but set up a US-only exchange that doesn=
+=E2=80=99t do much and complies with US rules. This way=C2=A0you have some =
+presence with US investors, some way to lobby for more generous US rules, e=
+tc. Also this will probably deter US investors from trading on your main ex=
+change, which is what gets you in trouble. Also even if some US investors=
+=C2=A0<em>do=C2=A0</em>trade on your main exchange, you=E2=80=99ll look bet=
+ter: =E2=80=9CHow could we know US investors would trade on our main exchan=
+ge? We tried to stop them, even gave them their own exchange, this isn=E2=
+=80=99t our fault.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Binance and FTX, most notably, chose Option 4.=
+ This strikes me as a reasonable choice, but there are always risks. In par=
+ticular people are going to be skeptical of your separate US exchange. They=
+ are going to think that your heart isn=E2=80=99t quite in it. Also probabl=
+y it isn=E2=80=99t:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In the Binance chat on Telegram, an employee n=
+oted that more than 18% of page views on Binance.com were from U.S. users. =
+Samuel Lim=E2=80=94then Binance=E2=80=99s compliance chief, and the person =
+who referred to =E2=80=9Cnuclear fall out=E2=80=9D from any U.S. regulatory=
+ lawsuit=E2=80=94suggested ways Binance could retain the largest U.S. clien=
+ts, despite its pledge not to let Americans trade on the global platform.</=
+p>
+<p style=3D"margin: 16px 0;">=E2=80=9CHave them be creative and VPN,=E2=80=
+=9D he said in a Telegram chat in June 2019. A VPN, or virtual private netw=
+ork, allows a computer user to appear to be located in another country.</p>
+<p style=3D"margin: 16px 0;">A part of Binance called Binance Academy that =
+teaches users how to trade published a guide to using a VPN in 2020. It has=
+ since been deleted.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Also, this isn=E2=80=99t legal advice, but wha=
+tever this is, don=E2=80=99t do this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In one instance, an employee tried to create a=
+ Google Form for new Binance.US customers, but he was using an account for =
+the global exchange and had trouble changing the creator of the form from B=
+inance.com to Binance.US.</p>
+<p style=3D"margin: 16px 0;">That =E2=80=9Cwill surely be seized upon by me=
+dia and can be cited as direct evidence for corporate veil piercing in an a=
+dversarial judiciary proceeding,=E2=80=9D Harry Zhou wrote on the Binance T=
+elegram chat.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt is particularly concerning here be=
+cause this form has to do with opening client accounts,=E2=80=9D he wrote. =
+=E2=80=9CIf I were an AG, I would cite this as evidence that it is in fact =
+Binance, an =E2=80=98unregistered foreign-based [money services business],=
+=E2=80=99 onboarding the US clients.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What? Why write that? If you make an online fo=
+rm, and the metadata says that the form was created by one legal entity ins=
+tead of another legal entity,=C2=A0<em>maybe </em>the=C2=A0media=C2=A0and p=
+rosecutors=C2=A0will notice and cite the form as evidence of corporate nefa=
+riousness, but honestly no one is going to get that excited about it. But w=
+hen you=C2=A0<em>say in the chat=C2=A0</em>that the thing =E2=80=9Cwill sur=
+ely be seized upon by media,=E2=80=9D and that if you were an attorney gene=
+ral you would cite it as evidence of crime, they will! The chats are always=
+ better evidence =E2=80=94=C2=A0more lively, more indicative of intent, mor=
+e intuitive to jurors or readers =E2=80=94=C2=A0than the account-opening fo=
+rms!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Multicoin</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Just a funny <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J=
+1c2luZXNzLzIwMjMvMDMvMDQvbXVsdGljb2luLWNhcGl0YWxzLWhlZGdlLWZ1bmQtbG9zdC05MT=
+QtbGFzdC15ZWFyLWludmVzdG9yLWxldHRlci1yZXZlYWxzLw/607f07ceef4b8524a319a23cB0=
+94032d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> series of numbers here</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Multicoin Capital=E2=80=99s hedge fund lost 91=
+.4% in 2022, according to a copy of the firm=E2=80=99s annual investor lett=
+er viewed by CoinDesk.</p>
+<p style=3D"margin: 16px 0;">The letter attributed last year=E2=80=99s decl=
+ine to a turbulent year for cryptocurrencies, as well as direct and indirec=
+t impact from the collapse of crypto exchange FTX.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhile the fund successfully dodged th=
+e catastrophic implosions of LUNA and Three Arrows Capital earlier in the y=
+ear, we didn=E2=80=99t avoid the explosive revelations about FTX nor the su=
+bsequent contagion that spread across the market,=E2=80=9D said the letter.=
+ =E2=80=9CAfter a remarkable year in 2021, our performance in 2022 was the =
+worst since inception.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Despite the massive drawdown, Multicoin=E2=80=
+=99s hedge fund remains up 1,376% net of fees from its inception through 20=
+22. As the broader crypto market rebounded from last year=E2=80=99s lows, M=
+ulticoin reported that the fund gained 100.9% in January 2023, bringing the=
+ fund=E2=80=99s inception-to-January return to 2,866%.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You will sometimes hear traders talk about the=
+ importance of avoiding drawdowns in terms of simple arithmetic: =E2=80=9CI=
+f you=E2=80=99re down 50% one year, you have to be up 100% the next year to=
+ make up for it,=E2=80=9D that sort of thing. In those terms it is very=C2=
+=A0bad to be down 90% for the year, because even if you=E2=80=99re up 100% =
+the next year you=E2=80=99re still down 80% from your high. But Multicoin=
+=C2=A0<em>was=C2=A0</em>up 100% in the first=C2=A0<em>month=C2=A0</em>of 20=
+23, after being down 91% in 2022. And if you were in the fund from the begi=
+nning, you have still made a lot of money, because I guess they=E2=80=99ve =
+had more up-100% months than down-90% months. You probably weren=E2=80=99t =
+in the fund from the beginning =E2=80=94=C2=A0probably the up-100% months a=
+ttracted investors =E2=80=94=C2=A0but never mind. =E2=80=9CMulticoin says i=
+t =E2=80=98remains steadfast=E2=80=99=C2=A0in its long term strategy and =
+=E2=80=98does not attempt to time the market.=E2=80=99=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Citadel</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you put in many years of hard work at top a=
+cademic institutions and ended up becoming the world=E2=80=99s leading expe=
+rt=C2=A0at predicting the weather two months in advance, who do you think i=
+s the best employer to monetize your skills? Oh the answer is pretty much a=
+lways =E2=80=9Can enormous multi-strategy hedge fund.=E2=80=9D The <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvZDkyZTdmMzAtYjRkYS00OGIyLThmZmYtZmQ1OWZkYTc1MWUx=
+/607f07ceef4b8524a319a23cBb9885f8d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Financial Times reports</a>:</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In 2018 Ken Griffin=E2=80=99s Citadel hired a =
+group of scientists and analysts whose weather forecasts were more accurate=
+ than those of most meteorological offices. ...</p>
+<p style=3D"margin: 16px 0;">Griffin and his senior team are attracted [to =
+commodities]=C2=A0by the size of the asset class, its low correlation with =
+other markets and its complexity. In gas, supply can be mapped and analysed=
+ by his large teams of researchers while the many gas hubs across the US an=
+d beyond offer numerous prices that can be traded.</p>
+<p style=3D"margin: 16px 0;">Forecasting demand is much harder. Weather hea=
+vily influences usage, which is higher during hot summers because of air co=
+nditioners and in cold winters as homes are heated.</p>
+<p style=3D"margin: 16px 0;">This is where Citadel is seen as having a key =
+advantage, with its traders fed information by a weather team that uses sup=
+ercomputers to run forecasts and includes specialists in areas such as thun=
+derstorm and tropical cyclone prediction. Much of the team is based in Lond=
+on =E2=80=94 well placed to capitalise on volatile European gas and power p=
+rices.</p>
+<p style=3D"margin: 16px 0;">It has been bolstered in recent years with hir=
+es out of academia. Head of weather Nicholas Klingaman, formerly at the UK=
+=E2=80=99s National Centre for Atmospheric Science, specialises in =E2=80=
+=9Csub-seasonal=E2=80=9D forecasts. Such predictions, typically for up to t=
+wo months ahead, are far more difficult than shorter-term forecasts and hig=
+hly lucrative if accurate.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I feel like this could=C2=A0be a good perk of =
+working at Citadel? Like if you are planning a ski trip or a beach vacation=
+ two months from now, call up the natural gas desk and they=E2=80=99ll tell=
+ you what the weather will be like? Citadel=E2=80=99s biggest weather-relat=
+ed move in recent years was probably moving its headquarters from Chicago t=
+o Miami, and you probably didn=E2=80=99t need an advanced degree in meteoro=
+logy to know that that would be an improvement, but still.</p>
+<p style=3D"margin: 16px 0;">It is always sort of a mixed bag, when investm=
+ent firms are the highest bidder for this sort of useful-in-real-life talen=
+t and knowledge. On the one hand, wouldn=E2=80=99t it be nice if your phone=
+=E2=80=99s weather app was super-accurate two months out? Or if farmers, ut=
+ilities, etc. had this forecasting ability, instead of a hedge fund? On the=
+ other hand, I suppose the farmers, utilities, etc. get the information ind=
+irectly, in the form of price signals. And the hedge-fund bid for meteorolo=
+gical knowledge probably makes meteorology a more lucrative field, which le=
+ads to more and better meteorologists, which trickles down to the rest of u=
+s?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Acronyms</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30747147.267413/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93YWxsLX=
+N0cmVldC1jb25jZWRlcy10aGVyZS1pcy1maW5hbGx5LWFuLWFsdGVybmF0aXZlLXRvLXN0b2Nrc=
+y1kMTlhZWJlNj9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cBe5d7c8cf" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> don=E2=80=99t care for this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Wall Street says it is done with TINA.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">For years after the 2008 financial crisis, inv=
+estors held on to the belief that =E2=80=9Cthere is no alternative=E2=80=9D=
+ to stocks. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Then came last year=E2=80=99s market selloff. =
+Stocks slumped and bond yields soared to levels not seen in more than a dec=
+ade. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Goldman Sachs Group Inc. has dubbed the shift =
+=E2=80=9CTARA,=E2=80=9D short for =E2=80=9Cthere are reasonable alternative=
+s,=E2=80=9D while Deutsche Bank AG has endorsed =E2=80=9CTAPAS,=E2=80=9D me=
+aning =E2=80=9Cthere are plenty of alternatives,=E2=80=9D and Insight Inves=
+tment has come up with =E2=80=9CTIARA,=E2=80=9D or =E2=80=9Cthere is a real=
+istic alternative=E2=80=9D to stocks.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I assume someone out there is building a large=
+ language model for coming up with cutesy investing acronyms.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ETF paradoxes</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDMtMDIvc2lsdmVyZ2F0ZS1oYWQtYS1jcnlwdG8tYmFuay1ydW4_Y21w=
+aWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cB92de0813" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked on Thursday</a> about LJIM and SJIM,=
+ two exchange-traded funds from Tuttle Capital Management=C2=A0that buy (LJ=
+IM) or short (SJIM)=C2=A0all the stocks that Jim Cramer recommends on telev=
+ision and on Twitter. They are not affiliated with Cramer or anything, and =
+seem to be making fun of him, but they require three Tuttle employees to =
+=E2=80=9Cwatch Cramer=E2=80=99s television appearances throughout the day a=
+nd monitor his Twitter account,=E2=80=9D so who really should be embarrasse=
+d here?</p>
+<p style=3D"margin: 16px 0;">Anyway=C2=A0a bunch of readers wrote in to mak=
+e the same joke/point: Cramer should go on TV and recommend SJIM. Then, by =
+its own rules, SJIM has to short itself. He should do it! Feels like a win-=
+win. For Cramer, he gets to stick it to these guys who are making fun of hi=
+m. For Tuttle, it=E2=80=99s funny, and =E2=80=9Cthis is funny=E2=80=9D seem=
+s to be the main=C2=A0theory of attracting investors to these funds, so pre=
+sumably having to short their ETF in their ETF would attract more investors=
+. For me, also, it is funny, and I want it to happen. Are ETFs allowed to s=
+hort themselves? Probably? I have no idea but I really hope we=E2=80=99re g=
+oing to find out.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">US Banks Are Finally Being Forced to Raise <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDYvYmFua3MtZm9y=
+Y2VkLXRvLWphY2stdXAtY2QtcmF0ZXMtdG8tc3RhbmNoLWJsZWVkaW5nLW9uLWRlcG9zaXRzP2N=
+tcGlkPUJCRDAzMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDMwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB719a7496" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  Rates on Deposits</a>. German banks accu=
+sed of <a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.26=
+7413/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGIxODU5NzAtYzk5ZC00YTVhLTllODQtOW=
+RmYTk4YzliZWE5/607f07ceef4b8524a319a23cBfc94cbfd" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> short-changing s=
+avers</a> with low rates. AQR Leads 10 Hedge Funds Suing LME Over <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDYvaGVkZ2UtZnVuZHMt=
+ZmlsZS1uZXctc3VpdC1hZ2FpbnN0LWxtZS1vdmVyLW5pY2tlbC10cmFkZS1kZWJhY2xlP2NtcGl=
+kPUJCRDAzMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDMwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBe4237f7a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Nickel Trade Debacle</a>. Junk-Rated Compani=
+es Are <a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.26=
+7413/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qdW5rLXJhdGVkLWNvbXBhbmllcy1hcm=
+UtYm9ycm93aW5nLWFnYWluLThhODgxMTBkP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a=
+319a23cB65ac39ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Borrowing Again</a>. Fear of ratings downgrades =
+puts companies off <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30747147.267413/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTBjNjZmZmItYWMwYy00MT=
+dkLWI2YWEtMDY3ZmNjMDVmZmY0/607f07ceef4b8524a319a23cB9cad7b93" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> debt=
+-driven deals</a>. Germany=E2=80=99s Sleepy Savings Banks Play Wall Street =
+With <a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.2674=
+13/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDYvZ2Vy=
+bWFueS1zLXNsZWVweS1zYXZpbmdzLWJhbmtzLXBsYXktd2FsbC1zdHJlZXQtd2l0aC1sYm8tYmV=
+0cz9jbXBpZD1CQkQwMzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cBbd56fe45" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  LBO Bets</a>. Missing Banker Reigni=
+tes <a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.26741=
+3/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDYvbWlzc=
+2luZy1iYW5rZXItcmVpZ25pdGVzLWZlYXJzLW9mLXhpLWluLWNoaW5hLXMtdGVjaC1zdGFydHVw=
+cy12ZW50dXJlLWNhcGl0YWw_Y21waWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cBde34d229" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  Fear of Xi</a> =
+Among China=E2=80=99s Tech Bosses. =E2=80=9CHell Is Coming=E2=80=9D: How <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0=
+cHM6Ly93d3cudmFuaXR5ZmFpci5jb20vbmV3cy8yMDIzLzAzL2JpbGwtYWNrbWFuLWNvdmlkLW1=
+hcmtldC1jcmFzaA/607f07ceef4b8524a319a23cBe99ac9d0" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Bill Ackman</a>=
+ Predicted the Covid Market Crash =E2=80=94=C2=A0And Made a Fortune. Goldma=
+n=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/307471=
+47.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtM=
+DYvZ29sZG1hbi1zdG9jay10cmFkZXItam9lLW1vbnRlc2Fuby13aG9zZS1wYXktcml2YWxlZC1j=
+ZW8tcy1tYWtlcy1zdXJwcmlzZS1leGl0P2NtcGlkPUJCRDAzMDYyM19NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwNiZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB49cfc546" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Top S=
+tock Trader</a> Whose Pay Rivaled CEO=E2=80=99s Makes Surprise Exit. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDYvdG9wLXNoYXJlaG9=
+sZGVyLXNvbGQtb3V0LW9mLWNyZWRpdC1zdWlzc2Utb3Zlci10aGUtcGFzdC0zLXRvLTQtbW9udG=
+hzP2NtcGlkPUJCRDAzMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB5a3b17fd" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  Credit Suisse</a> Loses One of Its =
+Biggest Backers. Swiss fund manager GAM <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvN=
+TkzMmU3ZWQtM2Q5OS00NzgwLWE3ZWUtNzg2M2E3ZGE2ZDFh/607f07ceef4b8524a319a23cB23=
+81e05c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> rushes to find buyer</a> before results. Short Seller Accu=
+ses Kroll and Jones Day of <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjMtMDMtMDYvc2hvcnRzZWxsZXItYWNjdXNlcy1rcm9sbC1hbmQtam9uZXMtZGF5LW9mL=
+XdpcmVjYXJkLWhhcmFzc21lbnQ_Y21waWQ9QkJEMDMwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzA2JnV0bV9jYW1wYWl=
+nbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1c36b12f" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  Wirecard Har=
+assment</a>. Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30747147.267413/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL211c2s=
+tZGVsYXllZC1wYXlpbmctdHdpdHRlcnMtYW1hem9uLWNsb3VkLWJpbGwtc3BhcmtpbmctYWQtdG=
+hyZWF0P3JlZj10aGUtZGlmZiZyYz0xYmRpNWg/607f07ceef4b8524a319a23cBfb4a9de6" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Delayed Paying Twitter=E2=80=99s Amazon Cloud Bill</a>, Sparking Ad =
+Threat. Auction for 13% of World=E2=80=99s <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDYvYXVjdGlvbi1mb3ItMTMtb2Ytd29ybGQtcy13aGl0Z=
+S1yaGlub3MtdG8tc3RhcnQtYXQtMTAtbWlsbGlvbj9jbXBpZD1CQkQwMzA2MjNfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDY=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB699c32d0" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  White Rhinos</a> to Start at $10 Million. =E2=80=9CGeorge Patterson, chi=
+ef investment officer at PGIM Quantitative Solutions, got a whiff of that r=
+etail urge recently when some friends=E2=80=99 <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDMvY2x1ZWxlc3Mtd2FsbC1zdHJlZXQtaXMtcmFja=
+W5nLXRvLXNpemUtdXAtemVyby1kYXktb3B0aW9ucy1ib29tP2NtcGlkPUJCRDAzMDYyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDMwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB19a07ea3" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  teenage kids asked him questions about 0DTE options</a>.=E2=80=9D=
+</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30747147.267413/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0c40113d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30747147.267413/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB8983fc7c" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] And some other investors, but Hudson Bay w=
+as the anchor investor and seems to have put up the bulk of the money =E2=
+=80=94 most of the initial slug of $225 million and all of the remaining $8=
+00 million.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Technically I believe they can sell the st=
+ock first (short) and then convert, though borrow in Bed Bath stock is tigh=
+t and, given the pricing mechanism of the conversion, they=E2=80=99d probab=
+ly do *fine* converting first and selling later.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] In fact the mechanics are more complicated=
+ than that, and Hudson Bay gets to convert at <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30747147.267413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmN=
+oaXZlcy9lZGdhci9kYXRhLzg4NjE1OC8wMDAxMTkzMTI1MjMwMzAzNTYvZDQwNjM2OGQ0MjRiNS=
+5odG0/607f07ceef4b8524a319a23cB720105f6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> 92% of the *lowest* dai=
+ly volume-weighted average price of the stock</a> over the 10 trading days =
+up to and including the conversion date. If the stock is volatile, this loo=
+kback option gives it a better price on some days: If the stock averages $1=
+.40 on Monday and $1.50 on Tuesday, it still gets to convert on Tuesday at =
+$1.29. If the stock is monotonically down this doesn=E2=80=99t help that mu=
+ch. (Also Hudson Bay buys the preferred at a discount to its face value, so=
+ the economics are in fact a bit better than this.)</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] It also matters because the conversion pri=
+ce is capped at $6.15, and Hudson Bay gets warrants to buy even more stock =
+at that price. So if the stock goes to $20, Hudson Bay gets to buy at $6.15=
+ and makes a huge profit. Not that relevant now but, sure, technically, ups=
+ide.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] See the definition of =E2=80=9CPrice Failu=
+re=E2=80=9D on <a href=3D"https://link.mail.bloombergbusiness.com/click/307=
+47147.267413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4NjE1OC=
+8wMDAxMTkzMTI1MjMwMzAzNTYvZDQwNjM2OGQ0MjRiNS5odG0/607f07ceef4b8524a319a23cC=
+720105f6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">page S-36 here</a>: =E2=80=9C=E2=80=98Price Failure=E2=80=
+=99 means, with respect to a particular date of determination, the VWAP of =
+the common stock on any Trading Day during the twenty (20) Trading Day peri=
+od ending on the Trading Day immediately preceding such date of determinati=
+on fails to exceed (x) at any time on or prior to the time at least 21,054 =
+shares of preferred stock (as adjusted for stock splits, stock dividends, s=
+tock combinations, recapitalizations or other similar transactions occurrin=
+g after the Subscription Date, the 'Threshold Share Amount') have been issu=
+ed under the Preferred Stock Warrants, $1.25 or (y) at any time after at le=
+ast the Threshold Share Amount of shares of preferred stock have been issue=
+d hereunder, $1.50.=E2=80=9D Again, it=E2=80=99s the *worst* day in the 20 =
+trading days before the tranche is drawn, not the average.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd401ec14" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1f28641f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB47a5fbff" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB26dc2098" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDc0NzE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwMTQ1NjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cKa8783a33" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30747147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBae61ddb8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30747147.267413/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCebcc9d72" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30747147.267413/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd1fd890a" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30747147.267413/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB24ffa68f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+c47313c" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30747147.267413/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+22424dd" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D307471=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D307471=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D307471=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D307471=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D307471=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31014560&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cib0nf.5qc5/5842879e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9839618_1038661178.1678131053981--
+

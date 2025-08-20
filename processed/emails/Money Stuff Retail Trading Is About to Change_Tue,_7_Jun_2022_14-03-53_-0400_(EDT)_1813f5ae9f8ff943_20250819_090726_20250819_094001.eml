@@ -1,0 +1,1884 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4e10:0:b0:1f2:501d:c564 with SMTP id q16csp3626136lko;
+        Tue, 7 Jun 2022 11:08:51 -0700 (PDT)
+X-Received: by 2002:a05:6000:1c02:b0:218:42ab:281f with SMTP id ba2-20020a0560001c0200b0021842ab281fmr10706075wrb.607.1654625331307;
+        Tue, 07 Jun 2022 11:08:51 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1654625331; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=068/wDNwpYFChtW7TL5pwHdM2vjTC+J6b8jXwGDOwHnG+KjNctDOBmOxYWEyLJ5HwN
+         qhC1B6TaPF+SHyiU2pg7NFn4/9U5e/fCsoThmsFXBHiPVkEHJK7LdCVgipexTu2pcsRN
+         W28CdB+3XHoAeoLB9YILF2EsFGpRAfmgbQKyUYz0Lo2bVxIwlTLpkQdKvfBLPsx7J+jr
+         Zg6pSdHM1oAaHc4C+Yr0Qr50ND9pXN40VS9qRvkek7qAZ9E3frH743aZflURNDvf1QVx
+         jaP1lGBb/Lp6Cdoc0dPlNsDBHdysSFGg4TG8UONIDvifcqwcS6SxB+y/xFfsQ1JM7Mo9
+         wUcg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=0PScJwsLdfC7QwbwFLl8afppKJAqabjlC2vzIep9gYw=;
+        b=Zc+XW6ujPQBYklJWaJjM3GDlBcvbzlEekFWoguMWbp9e4ciOYJF2ckK8I4sfB3SgA+
+         9Fqgpn4llKKaOxsmDuZQC/jeDdkIHvsQH7Ejpnz/0sRqEvEpqN1rhBlaKbnOABrPT8pD
+         +6NqjR9qPPn+/B7WHvGDJZxPa/3xMU/XLHhUrLA79qXgBL01MN6iWlSC/llR2hAsbKsn
+         yB8bTZb7L9i43CQ/DWBUCXEfdJIy9zGyLubSjYx/mDyscmy+RxjoeOLjEOoitSJR/qwJ
+         HRM0bQq0p0qlctM9K7+UZp6/ikicj8BbR2F4L6oJzQEviufKxcL9sutWywk18MiHdHg0
+         EP1Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=USLozkgY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o8-20020a5d4088000000b00210396b2ea8sor10192798wrp.52.2022.06.07.11.08.51
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 07 Jun 2022 11:08:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=USLozkgY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=0PScJwsLdfC7QwbwFLl8afppKJAqabjlC2vzIep9gYw=;
+        b=dBIbMWyX5+MtY67EiN8O4VdFN9IZa3z6gQvfK4rsD+6KumpFH8FWiCebZrYg8p8KsM
+         0V5S8dDGwGN+b5ki0q8UJCr2xbgbPxvk8Rzaxx1IfuR1s81w9MjYMoPW7cP8kzMY8U6X
+         B7HB02PkZrY0dVUvfH5dVdbPmUs/1D4+yGEgWd65P22m3g7pJd+Vr+f+hudbV7B67xSo
+         j3AXN0vBKTp3/1o1j66/qNScWfqmeeHPQI3nWWEJ3Z548ZxQ4jCD576+wHIMhFuf3BHs
+         Wj/kOpYlCIT05w/BqaBQ8asEakrm6ZQIUCGiWN2BOzVb8qjqBcNaFeixLCDPJQzcuWpm
+         e2vQ==
+X-Gm-Message-State: AOAM531TaOc0vkyDlJG2a2t4+qkrUtw0g8FIxnKLYeTnRlKKFH+HhUXq
+	dDxlYb0C30/j3KPykyntPWjtoJUQpjtz0S+ewxcGQqCb57HjdklyYA==
+X-Received: by 2002:a5d:47aa:0:b0:218:5ac8:f3a8 with SMTP id 10-20020a5d47aa000000b002185ac8f3a8mr1089313wrb.442.1654625331049;
+        Tue, 07 Jun 2022 11:08:51 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:470d:0:0:0:0:0 with SMTP id y13csp6442849wrq;
+        Tue, 7 Jun 2022 11:08:48 -0700 (PDT)
+X-Received: by 2002:a5b:a4f:0:b0:65c:a9c2:dc96 with SMTP id z15-20020a5b0a4f000000b0065ca9c2dc96mr31839632ybq.18.1654625328125;
+        Tue, 07 Jun 2022 11:08:48 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1654625328; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=joFQoMyvIeW8sZDTswtdYOlNIGyzpAnxI9JUGikqtpxdEwTrgF2u4+9trT805UPYiq
+         d9tqVfYynGQXk8HeNKx+0lyuav0GWBBGwCwwBHxz5iYqik7T31S29p7/IhK8FHRLYcRT
+         xKUw5hWKu3xy5b4DsCtJbZXWfS+yTrlmSRpLv+gQaVb8WJZYqvOSf1FUFmyM7jM5CLq7
+         8KYVThvx91BiViVZ9HQ62Q/cHbdwjYBEcar30nCEY1DR1I/ilRvoxgiZdxg7Wy5ccjBf
+         1iIIBavAjjGhd8eBY59AI/SuGw/r2SiJX2bii9jY0dZRhoe75ssnKlllJNuRyFPvDtKw
+         OwmQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=0PScJwsLdfC7QwbwFLl8afppKJAqabjlC2vzIep9gYw=;
+        b=jNI3ajdBrtmCrQrLk53XwUGUcVsQ++doZNZqO/v/W1bahLCkNm+eDf4rl5dvSp3/OU
+         rC4bB9U/umWBtsdsLjqOEaiSQ2nVq23mh3L80ZE47eEqMH2zwJEJMmAo/8pSpt6kXy47
+         MWi/jkowwZcE/VYpGWPJoEMbUOXcCldM0g7MRTfWoR1JL7uzr3/ZKboTdC5Sk88wEY29
+         gLpKBGttoueM1EmWR88FVNiN/Cn6d4CP2N7clhyP6fmvCDeJpvoLjw/PZxQ3ZvCFZr0x
+         guqedhfeEIMxiEQ0p7E0CZu3POJReoE5Wl4pRm0nF4E4rEBfXr0BZYwPNRp4Nb5elrxL
+         PG7A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=USLozkgY;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220607140353.27976693.262609@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220607140353.27976693.262609@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220607140353.27976693.262609@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x185-20020a817cc2000000b0030cbdbe0f6dsor6476411ywc.152.2022.06.07.11.08.47
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 07 Jun 2022 11:08:48 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220607140353.27976693.262609@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJw6GN6KVTxwiDP6NfXgSGgDwMtstluoRL9DqMa/PuBNTKSbbWL+eYnP2KUgkjgAGuaP7pTtnpnk/FniZG5eeSMU4dnsTsk=
+X-Received: by 2002:a81:71c2:0:b0:2fe:c534:ddcf with SMTP id m185-20020a8171c2000000b002fec534ddcfmr33610038ywc.252.1654625327804;
+        Tue, 07 Jun 2022 11:08:47 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1654625327; cv=none;
+        d=google.com; s=arc-20160816;
+        b=blUpGtAiYVVirkS1om9OhPdCCed4WdOL3Igc8wYiM3dAjBOgS+szAowE0lGWNi4Buw
+         UkluXW9xQrE32kFYf3LANBOwtOHdcJxs68il0kdSnL4qDNBvRPt1TzlVk8rayHoyRDs4
+         L0BOWlPGU5fe67Krl9UScnFEkASL5AkYwPqItUDN4XvGIDByQNPJbTPAy7U0twjL3gsu
+         /JFm6gjmoX4wQTMNtNCQj0MWxk5EX9ynTMGNtMOHY8azPIFQmJs+0mNp/5vwY6Ke7pVX
+         JCeOz0Ln9UcE3mnfMw9hx7tjLKwDJGNq2xvEvA6b2do0AQ+0/zt+/MFlp63bq92Oev4J
+         g0eA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=0PScJwsLdfC7QwbwFLl8afppKJAqabjlC2vzIep9gYw=;
+        b=1Aei8t2ByTJDwBva+4YP+eD77Ylee6sbwp2Ac7KCaKLJUZ1Hlu9Xp/Ov/UV00mvQ9M
+         EJ4Mqcuv945FlbMHLAR7OIrzKI8JpqZ8XLNMqEl4jSdSAO7XTBoM0BNQx6XFGFQDgcJJ
+         /bqEqY1+VTTCM0cgLOMIWf84zlMCgQdopzEFRUUwn94xXZtEoKJ/28Jw0T1SIWExhm9U
+         WWjvXIs8AUl2a0ZiHL4eYh5alTBLjiXO5zCBHWDKQacJjqN5O41P6qaDC5XpcUN/3bfF
+         e7G++S88lQW29wFSOnBPnKQ10SE2QQQFNqHTfE0NWJLr4yPkAArWNm6j5Id7GWISJoGz
+         B3Iw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=USLozkgY;
+       spf=pass (google.com: domain of delivery_20220607140353.27976693.262609@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220607140353.27976693.262609@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220607140353.27976693.262609@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id v76-20020a25c54f000000b006500741258esi1422819ybe.1.2022.06.07.11.08.41
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jun 2022 11:08:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220607140353.27976693.262609@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=dhfJKW4nwNCvxullNchZyqGPYusU7j1EfT+4BxzsrIk=;
+ b=USLozkgYyItVgJvB68mtayy9X0VlNg4vGPr12NTRR+9xvKxd2jmMLhZTPG+WuaXEBh1YGueLB4ac
+   +WAYdN76G+r4Y/od1q0jN4Con3ri/b5HGv3KxXU9+BQ1C2dlY6eD+NgZmfhFgnsanzgIqpoYk64R
+   wxekrmeWb7V8TOXONF4=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id hjua2k2tkt0m for <bloomberg@khamel.com>; Tue, 7 Jun 2022 14:03:53 -0400 (envelope-from <delivery_20220607140353.27976693.262609@mx.sailthru.com>)
+Received: from nj1-fadindigo.flt (172.18.20.20) by njmta-90.sailthru.com id hju9gi1qqbs1 for <bloomberg@khamel.com>; Tue, 7 Jun 2022 14:03:53 -0400 (envelope-from <delivery_20220607140353.27976693.262609@mx.sailthru.com>)
+Date: Tue, 7 Jun 2022 14:03:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220607140353.27976693.262609@sailthru.com>
+Subject: Money Stuff: Retail Trading Is About to Change
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8962735_908900500.1654625033250"
+Precedence: bulk
+X-Feedback-ID: 6358:27976693:campaign:sailthru
+X-TM-ID: 20220607140353.27976693.262609
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgnmyd.5mmp/b1c4d329
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgnmyd.5mmp/b1c4d329>, <mailto:unsubscribe_20220607140353.27976693.262609@mx.sailthru.com>
+X-rpcampaign: stjko27976693
+
+------=_Part_8962735_908900500.1654625033250
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Thursda=
+y.Payment for order flow, etc.I don=E2=80=99t know. The basic situation is:=
+ Retai
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Thurs=
+day.
+ =20
+   =20
+      Payment for order flow, etc.
+   =20
+ =20
+I don=E2=80=99t know. The basic situation is:=C2=A0=09Retail investors in U=
+S stock markets get to trade for free and get really good execution on thei=
+r stock trades.=09Everybody is mad about it.Retail investors get free trade=
+s because wholesale market makers pay retail brokers for the privilege of t=
+rading with their customers=E2=80=99 orders, which=C2=A0means that the reta=
+il brokers can make lots of money without charging commissions. They get go=
+od execution because (1) it is very pleasant for those market makers to tra=
+de with retail orders,=C2=A0which are less dangerous, less likely to suffer=
+ from adverse selection, than institutional orders on the stock exchange, a=
+nd (2) the market makers=C2=A0compete=C2=A0with each other to execute those=
+ orders efficiently, and if they do not give retail orders good execution t=
+hen the retail brokers will send the orders to other market makers. I am no=
+t going to rehash this in detail because nobody ever changes their mind, bu=
+t I have written about it extensively  here.Everybody is mad about it becau=
+se it=C2=A0seems=C2=A0fishy. Surely if market makers are paying retail brok=
+ers for order flow it is because they are up to no good. The market makers =
+seem to be getting pretty rich, while the retail traders often =E2=80=A6=C2=
+=A0aren=E2=80=99t. And certainly it seems like a conflict of interest: If t=
+he retail brokers are getting paid to send their orders to market makers, h=
+ow can you trust that they=E2=80=99re doing the right thing for the retail =
+orders?So now everything is going to be different:The Securities and Exchan=
+ge Commission is preparing to propose major changes to the stock market=E2=
+=80=99s plumbing as soon as this fall.Chairman Gary Gensler directed SEC st=
+aff last year to explore ways to make the stock market more efficient for s=
+mall investors and public companies. While aspects of the effort are in var=
+ying stages of development, one idea that has gained traction is to require=
+ brokerages to send most individual investors=E2=80=99 orders to be routed =
+into auctions where trading firms compete to execute them, people familiar =
+with the matter said. =E2=80=A6The most consequential change being discusse=
+d would affect the way trades are handled after an investor places a so-cal=
+led market order with a broker to buy or sell a stock. =E2=80=A6=C2=A0Under=
+ the auctions being considered by the SEC, different firms would compete wi=
+th each other to fill an individual investor=E2=80=99s trade, according to =
+people familiar with the agency=E2=80=99s plans. Such a mechanism would fun=
+damentally alter the business model of wholesalers, which can make more mon=
+ey by trading against small investors than they do on public exchanges, whe=
+re they might find themselves trading with other sophisticated trading firm=
+s or institutional investors.Will this be good for retail execution? The  w=
+holesalers say no, though they would:Doug Cifu, Virtu=E2=80=99s chief execu=
+tive officer, said the SEC should be careful not to make changes that unint=
+entionally make trading more expensive. =E2=80=9COrder-by-order competition=
+ enables selective competition because it removes the retail brokers=E2=80=
+=99 ability to demand best execution from wholesalers on every order,=E2=80=
+=9D he said in a statement.=C2=A0=E2=80=9CThe current market structure has =
+resulted in tighter spreads, greater transparency, and meaningfully reduced=
+ costs,=E2=80=9D a spokesperson for Citadel Securities said in an emailed s=
+tatement. =E2=80=9CWe look forward to reviewing the proposals and working w=
+ith the SEC and the industry towards our longstanding objective of further =
+improving competition and transparency.=E2=80=9DAnd nobody exactly says yes=
+. And yet everyone=C2=A0is=C2=A0mad about the current system, so I suppose =
+scrapping it and starting over is a political winner.Also the potential bad=
+ outcome here is that retail investors will get worse execution or won=E2=
+=80=99t be able to trade for free, and I am not sure that the SEC would=C2=
+=A0mind=C2=A0that. =E2=80=9CThe SEC commenced its review of market structur=
+e after the frenzied trading in GameStop Corp. and other meme stocks in ear=
+ly 2021 brought fresh scrutiny to the handling of individual investors=E2=
+=80=99 trades,=E2=80=9D and honestly it would be very weird if a securities=
+ regulator=E2=80=99s main takeaway from GameStop was =E2=80=9Cwe need to im=
+prove the execution quality of retail stock orders.=E2=80=9D The problem wi=
+th GameStop, to a regulator, was not that=C2=A0spreads on retail GameStop o=
+rders were too wide; it was that too many people were buying GameStop at se=
+emingly irrational prices. One could imagine the SEC wanting to rewrite the=
+ rules to add=C2=A0frictions to retail trading, for instance, by=C2=A0restr=
+ucturing the payment-for-order-flow model to make it harder to offer commis=
+sion-free retail trading. If the retail trading experience got a bit worse,=
+ there might be a bit less retail trading, and deep down that might be what=
+ the SEC wants.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Twitter stuff
+   =20
+ =20
+=E2=80=9CIt is all going to get so much dumber,=E2=80=9D I  wrote yesterday=
+, about Elon Musk=E2=80=99s efforts to get out of his deal to buy Twitter I=
+nc. by complaining about bots. Seventy-three minutes later, Texas Attorney =
+General Ken Paxton tweeted this:Today I=E2=80=99m investigating Twitter for=
+ potentially misleading Texans on the number of its =E2=80=9Cbot=E2=80=9D u=
+sers. I have a duty to protect Texans if Twitter is misrepresenting how man=
+y accounts are fake to drive up their revenue.The press release is =E2=80=
+=A6=C2=A0so dumb?=C2=A0Twitter has received intense scrutiny in recent week=
+s over claiming in its financial regulatory filings that fewer than 5% of a=
+ll users are bots, when they may in fact comprise as much as 20% or more. T=
+he difference could dramatically affect the cost to Texas consumers and bus=
+inesses who transact with Twitter. =C2=A0To address this concern, Attorney =
+General Paxton issued a Civil Investigative Demand (CID) to investigate whe=
+ther Twitter=E2=80=99s reporting on real versus fake users is =E2=80=9Cfals=
+e, misleading, or deceptive=E2=80=9D under the Texas Deceptive Trade Practi=
+ces Act. The CID requires Twitter to turn over documents related to how it =
+calculates and manages its user data and how these numbers relate to Twitte=
+r=E2=80=99s advertising businesses. Twitter has until June 27 to respond to=
+ Attorney General Paxton=E2=80=99s Demand. =C2=A0To be clear, Twitter has c=
+laimed that bots are fewer than 5% of =E2=80=9Cmonetizable daily active use=
+rs=E2=80=9D (not =E2=80=9Call users=E2=80=9D) for=C2=A0eight years, and the=
+ =E2=80=9Cintense scrutiny in recent weeks=E2=80=9D consists entirely of El=
+on Musk claiming, with no evidence, that there are a lot of bots because he=
+ regrets agreeing to buy Twitter for $54.20 per share just before a market =
+crash. This is a regulatory investigation entirely for the purposes of trol=
+ling: Paxton is harassing Twitter because (1) Musk moved to Texas, (2) Musk=
+ announced, like two weeks ago, that he=E2=80=99s a Republican, (3) Musk ha=
+s a passionate fan base on Twitter, and (4) Musk is trying to rile up that =
+fan base against Twitter by complaining about bots. So Paxton is happy to h=
+itch himself to that: If he harasses Twitter on Musk=E2=80=99s behalf, he w=
+ill endear himself to Musk=E2=80=99s fans online, which seems valuable for =
+an elected official though not, of course, for his constituents, or for the=
+ rule of law.=C2=A0The fact that this is all completely fake is beside the =
+point, as is the fact that Paxton himself is currently under indictment for=
+ felony securities fraud. This all seems bad! I don=E2=80=99t know what to =
+tell you! This is not how one wants one=E2=80=99s democracy to be going!=C2=
+=A0Elsewhere: =E2=80=9CMusk=E2=80=99s =E2=80=98Buyer=E2=80=99s Remorse=E2=
+=80=99 Won=E2=80=99t Get Him Out of Twitter Deal,=E2=80=9D  says Bloomberg =
+News.=C2=A0Man, who knows?=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Due diligence
+   =20
+ =20
+Traditionally venture capital firms offer a bundle of services. A VC firm d=
+oes, or tries to do, at least four things:=09It raises money.=09It picks go=
+od companies to invest the money in.=09It convinces the companies to take=
+=C2=A0the money: In a world flush with money, VCs often compete to give com=
+panies money, rather than the reverse.=09It helps the companies become bett=
+er, giving them advice on business and finance and governance and so forth.=
+Here is a Wall Street Journal article about Tiger Global Management, which =
+became famous in the most recent tech boom for disaggregating this bundle. =
+Tiger Global certainly raised money:In 2021, as some veteran venture capita=
+lists warned that valuations in the sector were unsustainable, Tiger sought=
+ $10 billion for a fund, extolling the virtues of fast-growing software com=
+panies to potential investors. It finalized the fund in March 2022 with $12=
+.7 billion in commitments. The firm neared $100 billion in assets under man=
+agement, an internal goal of some Tiger executives, people familiar with th=
+e firm said. =E2=80=A6=C2=A0Privately, some of Tiger=E2=80=99s investors ha=
+ve grumbled about the rapid clip at which the firm was raising successive v=
+enture funds.And it certainly convinced companies to take the money, in par=
+t by giving it to them quickly and in large quantities:Ali Javid, chief exe=
+cutive of Wrapbook, an entertainment-industry software company he co-founde=
+d in 2018, set out to raise Series B funding=E2=80=94an early round of fund=
+ing=E2=80=94in October. He emailed a Tiger partner, who quickly asked to sp=
+eak the next morning at 8:30. When they spoke, =E2=80=9CHe had already gone=
+ through our entire Series B deck,=E2=80=9D Mr. Javid said, referring to hi=
+s fundraising presentation. =E2=80=9CThree hours later, I got a term sheet =
+for $100 million.=E2=80=9DThe deal valued the company at $1 billion, up fro=
+m about $150 million in a funding round seven months earlier, according to =
+PitchBook. =E2=80=9CTiger offered us fuel and freedom to execute,=E2=80=9D =
+Mr. Javid said.But it got rid of =E2=80=94=C2=A0or outsourced =E2=80=94=C2=
+=A0the part of the business where VC funds try to make their portfolio comp=
+anies better:Some startup founders said Tiger instead tells them its goal i=
+s to stay out of the way. If a company wants connections, Tiger can make th=
+em. If founders want research, Tiger will commission consultants for them. =
+But Tiger=E2=80=99s main offering is money, the founders said: It comes qui=
+ckly and typically without new strings attached.And it at least de-emphasiz=
+ed the part where VC funds try to pick the good companies:Other venture inv=
+estors call it an index-fund-like approach to venture capital=E2=80=94makin=
+g it vulnerable to a sector-wide chill. While traditional firms concentrate=
+ their bets hoping for one or two winners to drive their returns, Tiger spr=
+eads bets broadly, sometimes backing competitors.And, to the extent it=C2=
+=A0did=C2=A0try to pick the good companies, it outsourced a lot of that wor=
+k too:Tiger outsources much of its background research to consultant Bain &=
+ Co., where analysts interview customers and create dossiers on prospective=
+ companies. Some founders said they were amazed Tiger could accurately esti=
+mate nonpublic revenue and other figures. Tiger tells startups that it is o=
+ne of Bain=E2=80=99s largest clients and that it pays the company more than=
+ $100 million a year, according to some founders. Bain didn=E2=80=99t respo=
+nd to requests for comment.My first reaction was =E2=80=9C$100 million a ye=
+ar doesn=E2=80=99t sound like that much=E2=80=9D? Like, traditionally, the =
+job of researching companies and figuring out which ones to buy=C2=A0is=C2=
+=A0the main job of an alternative asset manager (well, that and fundraising=
+), and an alternative asset manager with $100 billion of assets can charge =
+at least a billion dollars a year=C2=A0for doing that job. Outsourcing it t=
+o Bain for $100 million seems like a bargain. On the other hand, Tiger Glob=
+al=E2=80=99s =E2=80=9Chedge fund, which managed $23 billion at the end of 2=
+021, was down 52% this year,=E2=80=9D and Tiger=E2=80=99s principals had a =
+lot of their own money in the fund. Meanwhile=C2=A0Bain gets to keep its mo=
+ney.
+ =20
+   =20
+      Crypto securities
+   =20
+ =20
+A weird model for US cryptocurrency regulation would go like this:=09Virtua=
+lly all cryptocurrencies are securities, and sales of them to US retail inv=
+estors are securities offerings under US law. Not literally all of them =E2=
+=80=94=C2=A0Bitcoin is not a security =E2=80=94=C2=A0but many modern crypto=
+ projects are of the form =E2=80=9Cwe will sell millions of dollars=E2=80=
+=99 worth of some token in order to fund our efforts to build a platform, a=
+nd then the token holders will have an economic share in the growth of that=
+ platform.=E2=80=9D That looks like equity   to me, and   also I think to t=
+he US=C2=A0Securities and Exchange Commission.=09Virtually none of those sa=
+les are registered with the SEC, making them illegal securities offerings.=
+=09The SEC has about a five-year backlog to notice, investigate, and sue th=
+e people who do those offerings.This is a weird model because five years is=
+ just a lifetime in crypto. It=E2=80=99s one thing for someone to do an off=
+ering of $10 million of some crypto token to build a project, and then the =
+SEC calls them up and says =E2=80=9Cnope, give the money back.=E2=80=9D Tha=
+t=E2=80=99s fine, you just give the money back. It=E2=80=99s another thing =
+for someone to do an offering of $10 million of some token to build a proje=
+ct, and build the project, and grow into a huge business, and do a series o=
+f follow-on offerings, and then the SEC calls them up after five years and =
+says =E2=80=9Cthis is all illegal.=E2=80=9D=C2=A0Maybe it=E2=80=99s fine? I=
+f you sell securities illegally,  the=C2=A0main=C2=A0punishment is that you=
+ have to buy them back at the price you sold them for. If you run a short-l=
+ived scam that fizzles out, that is an expensive punishment; you have to gi=
+ve back all the money. If you run a hugely successful business that happens=
+ to have started with an illegal securities sale, it is not so expensive: I=
+f you sell your tokens for $1 and now they=E2=80=99re worth $20, no one wil=
+l take you up on your legally mandated offer to buy them back at $1.=C2=A0A=
+rguably this is a=C2=A0good=C2=A0regulatory model? The SEC lets everyone se=
+ll tokens illegally, and then the tokens that work out work out, while the =
+ones that don=E2=80=99t work out have to give the money back?=C2=A0Anyway h=
+ere=E2=80=99s  the crypto news from 2017:US regulators are investigating wh=
+ether Binance Holdings Ltd. broke securities rules by selling digital token=
+s just as the crypto exchange was getting off the ground five years ago, ac=
+cording to people familiar with the matter.The Securities and Exchange Comm=
+ission=E2=80=99s review pries into the firm=E2=80=99s origins and those of =
+its BNB token, which is now the world=E2=80=99s fifth-biggest. Investigator=
+s are examining if the 2017 initial coin offering amounted to the sale of a=
+ security that should have been registered with the agency, said the people=
+ who were granted anonymity to discuss the confidential probe. =E2=80=A6Ahe=
+ad of BNB=E2=80=99s launch in 2017, Binance laid out its plans in a white p=
+aper. =E2=80=A6 In the white paper, which was reviewed by Bloomberg, Binanc=
+e said as much as 85% of the funds raised in the ICO were to be used to bui=
+ld and market Binance=E2=80=99s global exchange. It made no mention of rest=
+rictions on who could participate. =E2=80=A6Recently, as part of a broader =
+rebranding of its blockchain, Binance switched BNB=E2=80=99s full name to B=
+uild and Build from Binance Coin. The company said it made the changes base=
+d on feedback from users about =E2=80=9Cthe need to further solidify the de=
+centralized nature of the chain and reinforce the community=E2=80=99s gover=
+nance over the chain.=E2=80=9DThe firm also backed away from plans laid out=
+ in the ICO=E2=80=99s white paper to spend 20% of the exchange=E2=80=99s pr=
+ofits every quarter to buy back BNB. Zhao in a 2020 blog post said the chan=
+ge was made in response to legal advice =E2=80=9Cindicating the potential f=
+or being misunderstood as a security=E2=80=9D in some regions.I guess if yo=
+u=E2=80=99re selling crypto now you have about five years to build up enoug=
+h of a business and a lobbying arm to be able to avoid, or at least afford,=
+ trouble with the=C2=A0SEC.
+ =20
+   =20
+      Crypto commodities
+   =20
+ =20
+The US Commodity Futures Trading Commission is in the business of approving=
+ futures contracts on cryptocurrencies. The way these futures generally wor=
+k, in the US, is that they are cash-settled.=C2=A0If I buy a Bitcoin future=
+ from you with a strike price of $30,000, at maturity we do not =E2=80=9Cph=
+ysically settle=E2=80=9D (where I give you $30,000 and you hand me a Bitcoi=
+n); instead, we just exchange cash for the difference. If at maturity a Bit=
+coin is worth $32,000, you pay me $2,000; if it=E2=80=99s worth $27,000, I =
+pay you $3,000.To do this sort of cash settlement, you need a reliable refe=
+rence price for Bitcoin: We need to cash settle against some official price=
+ of Bitcoin. Particularly back when Bitcoin futures were just getting start=
+ed, US regulators worried that the markets for Bitcoin were too opaque and =
+manipulated to generate a reliable official price; the SEC still won=E2=80=
+=99t approve spot Bitcoin exchange-traded funds because of worries like tha=
+t. But the CFTC eventually did approve some cash-settled Bitcoin futures pr=
+oducts because it got comfortable that the underlying markets for Bitcoin w=
+ere good enough.Last Friday the CFTC sued Gemini Trust Co. for allegedly ly=
+ing about how good those markets were, as part of its efforts to get a Bitc=
+oin futures contract approved in 2017:The complaint alleges that from appro=
+ximately July 2017 to around December 2017, Gemini, directly and through ot=
+hers, made false or misleading statements of material facts, or omitted to =
+state material facts, to the CFTC during an evaluation of the potential sel=
+f-certification of a bitcoin futures contract by a designated contract mark=
+et (DCM). The proposed bitcoin futures contract was to be settled by refere=
+nce to the spot bitcoin price on the relevant day as determined by an aucti=
+on held on Gemini=E2=80=99s digital asset trading platform (Gemini Bitcoin =
+Auction).=C2=A0According to the complaint, Gemini, directly and through the=
+ DCM, provided information to the CFTC concerning Gemini=E2=80=99s trading =
+platform and the Gemini Bitcoin Auction, and certain statements and informa=
+tion conveyed or omitted by Gemini were false or misleading with respect to=
+, among other things, facts relevant to understanding whether the proposed =
+Bitcoin Futures Contract would be readily susceptible to manipulation.=C2=
+=A0The stuff in the complaint isn=E2=80=99t=C2=A0that=C2=A0bad. Mainly the =
+claims are that Gemini encouraged trading on its platform =E2=80=94=C2=A0by=
+ lending Bitcoins to some traders, by giving fee rebate incentives, etc. =
+=E2=80=94=C2=A0in order to juice trading activity and liquidity, but lied t=
+o the CFTC about it, so the CFTC thought that all the trading was, as it we=
+re, =E2=80=9Cnatural=E2=80=9D rather than driven by incentives:In oral and =
+written communications to Commission staff during the Relevant Period, Gemi=
+ni represented that it was a =E2=80=9Cfull reserve=E2=80=9D exchange and th=
+at it required all transactions to be fully =E2=80=9Cpre-funded.=E2=80=9D G=
+emini represented that the =E2=80=9Cprefunding=E2=80=9D aspect of the Gemin=
+i Exchange made the Gemini Exchange and the Gemini Bitcoin Auction, and thu=
+s the Bitcoin Futures Contract, less susceptible to manipulation because it=
+ increased traders=E2=80=99 cost of capital and made improper trading condu=
+ct more expensive to malicious actors. =E2=80=A6Gemini did not disclose its=
+ substantial efforts to reduce or largely eliminate market participants=E2=
+=80=99 cost of capital in order to facilitate greater trading volume on the=
+ Gemini Exchange, including in the Gemini Bitcoin Auction.=C2=A0Gemini did =
+not disclose to Commission staff, for example, that certain market maker Ge=
+mini customers could and did obtain loans of digital assets controlled by G=
+emini Principal-1 and Gemini Principal-2 from an entity they controlled (=
+=E2=80=9CAffiliate A=E2=80=9D) =E2=80=A6Gemini also did not disclose to Com=
+mission staff that before and during the Relevant Period Gemini gave =E2=80=
+=9Cadvances=E2=80=9D or =E2=80=9Ccredits=E2=80=9D of fiat currency or digit=
+al assets to select customers, such that the funds could immediately be use=
+d for trading on Gemini, and that Gemini provided such advances by directly=
+ crediting the customer=E2=80=99s account.=C2=A0Meh? =E2=80=9CAll our trade=
+s are pre-funded=E2=80=9D and =E2=80=9Cour owners lend people money to pre-=
+fund their trades=E2=80=9D are not exactly contradictory. Also there was so=
+me self-trading:Gemini indicated that =E2=80=9Cself-trade prevention=E2=80=
+=9D was among the =E2=80=9Cattributes that promote the integrity of the auc=
+tion price and discourage manipulative conduct,=E2=80=9D explaining that =
+=E2=80=9C[w]e prohibit the same market participant from crossing with himse=
+lf or herself (either intentionally or unintentionally) on a continuous tra=
+ding order book or in a Gemini Bitcoin Auction.=E2=80=9D =E2=80=A6In fact, =
+before in or around May 2017, Gemini did not effectively prohibit selftradi=
+ng in Gemini Bitcoin Auctions or have any technological means to prevent se=
+lf-trading from occurring in Gemini Bitcoin Auctions. =E2=80=A6=C2=A0For ex=
+ample, for one auction in December 2016, approximately 70% of the total auc=
+tion trading volume resulted from a single auction participant trading with=
+ itself.None of it is like =E2=80=9CGemini=E2=80=99s Bitcoin prices were fa=
+ke=E2=80=9D; it is all =E2=80=9Cwe would have been slightly less confident =
+in Gemini=E2=80=99s Bitcoin prices if we had had the complete details.=E2=
+=80=9D The message here is not so much that the CFTC has lost confidence in=
+ Bitcoin futures, but rather that the CFTC really does not appreciate being=
+ tricked. Which is reasonable.
+ =20
+   =20
+      People are worried about stock market liquidity
+   =20
+ =20
+I  wrote yesterday about how people were worried about bond market liquidit=
+y, and I said: =E2=80=9CYou never hear this about stocks? Like, no one ever=
+ says =E2=80=98liquidity in stocks is declining because big US banks don=E2=
+=80=99t have much market-making capacity in stocks.=E2=80=99=E2=80=9D Well,=
+ here you go:Traders=E2=80=99 ability to seamlessly buy and sell stocks, bo=
+nds and other financial products on Wall Street has deteriorated sharply th=
+is year, adding fuel to the big swings on the world=E2=80=99s biggest and d=
+eepest capital markets.Liquidity across US markets is now at its worst leve=
+l since the early days of the pandemic in 2020, according to investors and =
+big US banks who say money managers are struggling to execute trades withou=
+t affecting prices. =E2=80=A6The trading landscape changed dramatically aft=
+er policymakers in Washington and Brussels sought to safeguard Main Street =
+from Wall Street in the wake of the 2008 financial crisis. Through a series=
+ of regulations introduced over the past 12 years, banks are now required t=
+o hold bigger capital cushions to protect their balance sheets against majo=
+r swings.It has meant banks now hold far fewer assets, like stocks and bond=
+s, making them less nimble at responding to investors=E2=80=99 requests to =
+buy or sell, and gumming up the pipes that connect buyers and sellers.=E2=
+=80=9CPeople [banks] are not willing to commit capital,=E2=80=9D said Edwar=
+ds. =E2=80=A6High-frequency trading firms like Citadel Securities and Jump =
+Trading have filled part of the gap left by big Wall Street banks, but inve=
+stors said the algorithms that help execute trades through those types of o=
+perators often meant that trading capacity was automatically reduced when s=
+tocks began to swing violently.In May, investors hoping to trade e-mini fut=
+ures on the S&P 500 =E2=80=94 one of the most important contracts that big =
+money managers use to bet on the direction of the market =E2=80=94 saw tiny=
+ offers to buy and sell when looking at their trading screens. Goldman Sach=
+s registered that on some days less than $2mn worth of the contracts could =
+be bought or sold at the price actively quoted in the market, the lowest le=
+vel since March 2020.I kind of feel like we=E2=80=99re stuck with algorithm=
+ic trading of stocks? Like if you told me =E2=80=9Cpost-2008 regulation red=
+uced banks=E2=80=99 willingness to commit balance sheet to bond trading, wh=
+ich caused deteriorating bond market liquidity in mid-2022,=E2=80=9D I=E2=
+=80=99d be like, sure, that=E2=80=99s a long time, but sure.=C2=A0But in st=
+ocks?
+ =20
+   =20
+      Things happen
+   =20
+ =20
+=E2=80=98We Are Back=E2=80=99: Credit Suisse=E2=80=99s Top Banker Signals  =
+New Swagger.=C2=A0JetBlue Boosts Breakup Fee, Pledges Dividend in Bid to Wo=
+o Spirit Holders. ESG Insiders Demand  Course Correction to Fix Industry Wo=
+es. Target Sinks After Cutting Profit View Over  Inventory Pain. Blackstone=
+, Other Large Private-Equity Firms Turn Attention to Vast Retail Market. Ca=
+viar =E2=80=98Bumps=E2=80=99 Are All the Rage.If you'd like to get=C2=A0Mon=
+ey=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0su=
+bscribe at this link. Or you can subscribe to Money Stuff and other great B=
+loomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgnmyd.5mmp/816ce18d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8962735_908900500.1654625033250
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Thursday.Paymen=
+t for order flow, etc.I don=E2=80=99t know. The basic situation is: Retai
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB71fe4a89" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MDcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBde470a89"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCf4824d65" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Thursday.</em></p><table class=3D"header=
+" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Payment for order flow, etc.</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I don=E2=80=99t know. The basic situat=
+ion is:=C2=A0</p><ol style=3D"list-style-type: decimal; padding-left: 40px;=
+ margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Retail investors in =
+US stock markets get to trade for free and get really good execution on the=
+ir stock trades.</li>=09<li style=3D"margin-bottom: 5px;">Everybody is mad =
+about it.</li></ol><p style=3D"margin: 16px 0;">Retail investors get free t=
+rades because wholesale market makers pay retail brokers for the privilege =
+of trading with their customers=E2=80=99 orders, which=C2=A0means that the =
+retail brokers can make lots of money without charging commissions. They ge=
+t good execution because (1) it is very pleasant for those market makers to=
+ trade with retail orders,=C2=A0which are less dangerous, less likely to su=
+ffer from adverse selection, than institutional orders on the stock exchang=
+e, and (2) the market makers=C2=A0<em>compete=C2=A0</em>with each other to =
+execute those orders efficiently, and if they do not give retail orders goo=
+d execution then the retail brokers will send the orders to other market ma=
+kers. I am not going to rehash this in detail because nobody ever changes t=
+heir mind, but I have written about it extensively <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ=
+2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waWQ9QkJEMDYwNzIyX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjI=
+wNjA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBea2f4338" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> here</a>.</p><p style=3D"margin: 16px 0;">Everybody is mad about it =
+because it=C2=A0<em>seems=C2=A0</em>fishy. Surely if market makers are payi=
+ng retail brokers for order flow it is because they are up to no good. The =
+market makers seem to be getting pretty rich, while the retail traders ofte=
+n =E2=80=A6=C2=A0aren=E2=80=99t. And certainly it seems like a conflict of =
+interest: If the retail brokers are getting paid to send their orders to ma=
+rket makers, how can you trust that they=E2=80=99re doing the right thing f=
+or the retail orders?</p><p style=3D"margin: 16px 0;">So now <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9zZWMtY2xvc2VzLWluLW9uLXJ1bGVzLXRoYXQtY291bGQtcmVzaGF=
+wZS1ob3ctc3RvY2stbWFya2V0LW9wZXJhdGVzLTExNjU0NTQ0Nzk5P21vZD1pdHBfd3NqJnJ1PX=
+lhaG9v/607f07ceef4b8524a319a23cBf3318b68" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">everything is going to b=
+e different</a>:</p><blockquote><p style=3D"margin: 16px 0;">The Securities=
+ and Exchange Commission is preparing to propose major changes to the stock=
+ market=E2=80=99s plumbing as soon as this fall.</p><p style=3D"margin: 16p=
+x 0;">Chairman Gary Gensler directed SEC staff last year to explore ways to=
+ make the stock market more efficient for small investors and public compan=
+ies. While aspects of the effort are in varying stages of development, one =
+idea that has gained traction is to require brokerages to send most individ=
+ual investors=E2=80=99 orders to be routed into auctions where trading firm=
+s compete to execute them, people familiar with the matter said. =E2=80=A6<=
+/p><p style=3D"margin: 16px 0;">The most consequential change being discuss=
+ed would affect the way trades are handled after an investor places a so-ca=
+lled market order with a broker to buy or sell a stock. =E2=80=A6=C2=A0Unde=
+r the auctions being considered by the SEC, different firms would compete w=
+ith each other to fill an individual investor=E2=80=99s trade, according to=
+ people familiar with the agency=E2=80=99s plans. Such a mechanism would fu=
+ndamentally alter the business model of wholesalers, which can make more mo=
+ney by trading against small investors than they do on public exchanges, wh=
+ere they might find themselves trading with other sophisticated trading fir=
+ms or institutional investors.</p></blockquote><p style=3D"margin: 16px 0;"=
+>Will this be good for retail execution? The <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjItMDYtMDYvc2VjLXdlaWdocy1zZW5kaW5nLXJldGFpbC1zdG9=
+jay1vcmRlcnMtdG8tYXVjdGlvbnMtZm9yLWV4ZWN1dGlvbj9jbXBpZD1CQkQwNjA3MjJfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+jA2MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB149fd92f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> wholesalers say no</a>, though they would:</p><blockquote><p style=
+=3D"margin: 16px 0;">Doug Cifu, Virtu=E2=80=99s chief executive officer, sa=
+id the SEC should be careful not to make changes that unintentionally make =
+trading more expensive. =E2=80=9COrder-by-order competition enables selecti=
+ve competition because it removes the retail brokers=E2=80=99 ability to de=
+mand best execution from wholesalers on every order,=E2=80=9D he said in a =
+statement.=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9CThe current marke=
+t structure has resulted in tighter spreads, greater transparency, and mean=
+ingfully reduced costs,=E2=80=9D a spokesperson for Citadel Securities said=
+ in an emailed statement. =E2=80=9CWe look forward to reviewing the proposa=
+ls and working with the SEC and the industry towards our longstanding objec=
+tive of further improving competition and transparency.=E2=80=9D</p></block=
+quote><p style=3D"margin: 16px 0;">And nobody exactly says yes. And yet eve=
+ryone=C2=A0<em>is=C2=A0</em>mad about the current system, so I suppose scra=
+pping it and starting over is a political winner.</p><p style=3D"margin: 16=
+px 0;">Also the potential bad outcome here is that retail investors will ge=
+t worse execution or won=E2=80=99t be able to trade for free, and I am not =
+sure that the SEC would=C2=A0<em>mind=C2=A0</em>that. =E2=80=9CThe SEC <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZWMtY2xvc2VzLWluLW9uLXJ1bGVzLXRoYXQtY291b=
+GQtcmVzaGFwZS1ob3ctc3RvY2stbWFya2V0LW9wZXJhdGVzLTExNjU0NTQ0Nzk5P21vZD1pdHBf=
+d3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cCf3318b68" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">commenced its r=
+eview</a> of market structure after the frenzied trading in GameStop Corp. =
+and other meme stocks in early 2021 brought fresh scrutiny to the handling =
+of individual investors=E2=80=99 trades,=E2=80=9D and honestly it would be =
+very weird if a securities regulator=E2=80=99s main takeaway from GameStop =
+was =E2=80=9Cwe need to improve the execution quality of retail stock order=
+s.=E2=80=9D The problem with GameStop, to a regulator, was not that=C2=A0<e=
+m>spreads on retail GameStop orders were too wide</em>; it was that too man=
+y people were buying GameStop at seemingly irrational prices. One could ima=
+gine the SEC wanting to rewrite the rules to <em>add=C2=A0</em>frictions to=
+ retail trading, for instance, by=C2=A0restructuring the payment-for-order-=
+flow model to make it harder to offer commission-free retail trading. If th=
+e retail trading experience got a bit worse, there might be a bit less reta=
+il trading, and deep down that might be what the SEC wants.</p><table class=
+=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspac=
+ing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDfcb6b3dc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEfcb6b3dc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFccb29ca6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGccb29ca6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Twitter stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=9CIt is all going to get so muc=
+h dumber,=E2=80=9D I <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD1CQkQwNjA3MjJfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMjA2MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB251f7492=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> wrote yesterday</a>, about Elon Musk=E2=80=99s efforts to get ou=
+t of his deal to buy Twitter Inc. by complaining about bots. Seventy-three =
+minutes later, Texas Attorney General Ken Paxton <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly90d2l0dGVyLmNvbS9U=
+WEFHL3N0YXR1cy8xNTMzODkwNzcyNzEzNTgyNTkz/607f07ceef4b8524a319a23cB02f1e77e"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">tweeted this</a>:</p><blockquote><p style=3D"margin: 16px 0;">Toda=
+y I=E2=80=99m investigating Twitter for potentially misleading Texans on th=
+e number of its =E2=80=9Cbot=E2=80=9D users. I have a duty to protect Texan=
+s if Twitter is misrepresenting how many accounts are fake to drive up thei=
+r revenue.</p></blockquote><p style=3D"margin: 16px 0;">The press release i=
+s =E2=80=A6=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7976693.262609/aHR0cHM6Ly93d3cudGV4YXNhdHRvcm5leWdlbmVyYWwuZ292L25ld3MvcmVs=
+ZWFzZXMvYWctcGF4dG9uLWxhdW5jaGVzLWludmVzdGlnYXRpb24tYWdhaW5zdC10d2l0dGVyLXB=
+vdGVudGlhbGx5LWRlY2VpdmluZy10ZXhhcy1jb25zdW1lcnMtdGV4YXM/607f07ceef4b8524a3=
+19a23cBecbb33e8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">so dumb</a>?=C2=A0</p><blockquote><p style=3D"marg=
+in: 16px 0;">Twitter has received intense scrutiny in recent weeks over cla=
+iming in its financial regulatory filings that fewer than 5% of all users a=
+re bots, when they may in fact comprise as much as 20% or more. The differe=
+nce could dramatically affect the cost to Texas consumers and businesses wh=
+o transact with Twitter. =C2=A0</p><p style=3D"margin: 16px 0;">To address =
+this concern, Attorney General Paxton issued a Civil Investigative Demand (=
+CID) to investigate whether Twitter=E2=80=99s reporting on real versus fake=
+ users is =E2=80=9Cfalse, misleading, or deceptive=E2=80=9D under the Texas=
+ Deceptive Trade Practices Act. The CID requires Twitter to turn over docum=
+ents related to how it calculates and manages its user data and how these n=
+umbers relate to Twitter=E2=80=99s advertising businesses. Twitter has unti=
+l June 27 to respond to Attorney General Paxton=E2=80=99s Demand. =C2=A0</p=
+></blockquote><p style=3D"margin: 16px 0;">To be clear, Twitter has claimed=
+ that bots are fewer than 5% of =E2=80=9Cmonetizable daily active users=E2=
+=80=9D (not =E2=80=9Call users=E2=80=9D) for=C2=A0<em>eight years</em>, and=
+ the =E2=80=9Cintense scrutiny in recent weeks=E2=80=9D consists entirely o=
+f Elon Musk claiming, with no evidence, that there are a lot of bots becaus=
+e he regrets agreeing to buy Twitter for $54.20 per share just before a mar=
+ket crash. This is a regulatory investigation entirely for the purposes of =
+trolling: Paxton is harassing Twitter because (1) Musk moved to Texas, (2) =
+Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.2626=
+09/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUyNjk5NzEzMjg1ODgyMjY1=
+OD9sYW5nPWVu/607f07ceef4b8524a319a23cBd6bc7cc8" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">announced</a>, like=
+ two weeks ago, that he=E2=80=99s a Republican, (3) Musk has a passionate f=
+an base on Twitter, and (4) Musk is trying to rile up that fan base against=
+ Twitter by complaining about bots. So Paxton is happy to hitch himself to =
+that: If he harasses Twitter on Musk=E2=80=99s behalf, he will endear himse=
+lf to Musk=E2=80=99s fans online, which seems valuable for an elected offic=
+ial though not, of course, for his constituents, or for the rule of law.=C2=
+=A0The fact that this is all completely fake is beside the point, as is the=
+ fact that Paxton himself is currently under indictment for <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cud=
+GV4YXN0cmlidW5lLm9yZy8yMDIyLzA1LzE4L3RleGFzLWF0dG9ybmV5LWdlbmVyYWwta2VuLXBh=
+eHRvbi1zY2FuZGFsLXN1cHBvcnRlcnMv/607f07ceef4b8524a319a23cB13da6912" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>felony securities fraud</a>. This all seems bad! I don=E2=80=99t know what=
+ to tell you! This is not how one wants one=E2=80=99s democracy to be going=
+!=C2=A0</p><p style=3D"margin: 16px 0;">Elsewhere: =E2=80=9CMusk=E2=80=99s =
+=E2=80=98Buyer=E2=80=99s Remorse=E2=80=99 Won=E2=80=99t Get Him Out of Twit=
+ter Deal,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+ItMDYtMDYvbXVzay1zYXlzLXR3aXR0ZXItcy1sYWNrLW9mLWluZm8tb24tYm90cy1icmVlY2hlc=
+y1tZXJnZXItZGVhbD9jbXBpZD1CQkQwNjA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MDcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB6ddeaa03" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> says Bloomberg News</a=
+>.=C2=A0Man, who knows?=C2=A0</p><table class=3D"liveintent-flex-ad" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH8e6dd40d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Due diligence</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Traditionally venture capital firms of=
+fer a bundle of services. A VC firm does, or tries to do, at least four thi=
+ngs:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: =
+16px 0;">=09<li style=3D"margin-bottom: 5px;">It raises money.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">It picks good companies to invest the money in=
+.</li>=09<li style=3D"margin-bottom: 5px;">It convinces the companies to <e=
+m>take=C2=A0</em>the money: In a world flush with money, VCs often compete =
+to give companies money, rather than the reverse.</li>=09<li style=3D"margi=
+n-bottom: 5px;">It helps the companies become better, giving them advice on=
+ business and finance and governance and so forth.</li></ol><p style=3D"mar=
+gin: 16px 0;">Here is a Wall Street Journal <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy90aWdlci1nbG9iYWwtZ2lhbnQtdGVjaC1iZXQtMTE2NTQ1MjM3MzU_bW9kPWl0cF93c2om=
+cnU9eWFob28/607f07ceef4b8524a319a23cB1f082512" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">article about Tiger =
+Global Management</a>, which became famous in the most recent tech boom for=
+ disaggregating this bundle. Tiger Global certainly raised money:</p><block=
+quote><p style=3D"margin: 16px 0;">In 2021, as some veteran venture capital=
+ists warned that valuations in the sector were unsustainable, Tiger sought =
+$10 billion for a fund, extolling the virtues of fast-growing software comp=
+anies to potential investors. It finalized the fund in March 2022 with $12.=
+7 billion in commitments. The firm neared $100 billion in assets under mana=
+gement, an internal goal of some Tiger executives, people familiar with the=
+ firm said. =E2=80=A6=C2=A0Privately, some of Tiger=E2=80=99s investors hav=
+e grumbled about the rapid clip at which the firm was raising successive ve=
+nture funds.</p></blockquote><p style=3D"margin: 16px 0;">And it certainly =
+convinced companies to take the money, in part by giving it to them quickly=
+ and in large quantities:</p><blockquote><p style=3D"margin: 16px 0;">Ali J=
+avid, chief executive of Wrapbook, an entertainment-industry software compa=
+ny he co-founded in 2018, set out to raise Series B funding=E2=80=94an earl=
+y round of funding=E2=80=94in October. He emailed a Tiger partner, who quic=
+kly asked to speak the next morning at 8:30. When they spoke, =E2=80=9CHe h=
+ad already gone through our entire Series B deck,=E2=80=9D Mr. Javid said, =
+referring to his fundraising presentation. =E2=80=9CThree hours later, I go=
+t a term sheet for $100 million.=E2=80=9D</p><p style=3D"margin: 16px 0;">T=
+he deal valued the company at $1 billion, up from about $150 million in a f=
+unding round seven months earlier, according to PitchBook. =E2=80=9CTiger o=
+ffered us fuel and freedom to execute,=E2=80=9D Mr. Javid said.</p></blockq=
+uote><p style=3D"margin: 16px 0;">But it got rid of =E2=80=94=C2=A0or outso=
+urced =E2=80=94=C2=A0the part of the business where VC funds try to make th=
+eir portfolio companies better:</p><blockquote><p style=3D"margin: 16px 0;"=
+>Some startup founders said Tiger instead tells them its goal is to stay ou=
+t of the way. If a company wants connections, Tiger can make them. If found=
+ers want research, Tiger will commission consultants for them. But Tiger=E2=
+=80=99s main offering is money, the founders said: It comes quickly and typ=
+ically without new strings attached.</p></blockquote><p style=3D"margin: 16=
+px 0;">And it at least de-emphasized the part where VC funds try to pick th=
+e good companies:</p><blockquote><p style=3D"margin: 16px 0;">Other venture=
+ investors call it an index-fund-like approach to venture capital=E2=80=94m=
+aking it vulnerable to a sector-wide chill. While traditional firms concent=
+rate their bets hoping for one or two winners to drive their returns, Tiger=
+ spreads bets broadly, sometimes backing competitors.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">And, to the extent it=C2=A0<em>did=C2=A0</em>try to=
+ pick the good companies, it outsourced a lot of that work too:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Tiger outsources much of its background re=
+search to consultant Bain &amp; Co., where analysts interview customers and=
+ create dossiers on prospective companies. Some founders said they were ama=
+zed Tiger could accurately estimate nonpublic revenue and other figures. Ti=
+ger tells startups that it is one of Bain=E2=80=99s largest clients and tha=
+t it pays the company more than $100 million a year, according to some foun=
+ders. Bain didn=E2=80=99t respond to requests for comment.</p></blockquote>=
+<p style=3D"margin: 16px 0;">My first reaction was =E2=80=9C$100 million a =
+year doesn=E2=80=99t sound like that much=E2=80=9D? Like, traditionally, th=
+e job of researching companies and figuring out which ones to buy=C2=A0<em>=
+is=C2=A0</em>the main job of an alternative asset manager (well, that and f=
+undraising), and an alternative asset manager with $100 billion of assets c=
+an charge at least a billion dollars a year=C2=A0for doing that job. Outsou=
+rcing it to Bain for $100 million seems like a bargain. On the other hand, =
+Tiger Global=E2=80=99s =E2=80=9Chedge fund, which managed $23 billion at th=
+e end of 2021, was down 52% this year,=E2=80=9D and Tiger=E2=80=99s princip=
+als had a lot of their own money in the fund. Meanwhile=C2=A0Bain gets to k=
+eep its money.</p><table class=3D"header" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto securities</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A weird model for US cryptocurrency re=
+gulation would go like this:</p><ol style=3D"list-style-type: decimal; padd=
+ing-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Virtu=
+ally all cryptocurrencies are securities, and sales of them to US retail in=
+vestors are securities offerings under US law. Not literally all of them =
+=E2=80=94=C2=A0Bitcoin is not a security =E2=80=94=C2=A0but many modern cry=
+pto projects are of the form =E2=80=9Cwe will sell millions of dollars=E2=
+=80=99 worth of some token in order to fund our efforts to build a platform=
+, and then the token holders will have an economic share in the growth of t=
+hat platform.=E2=80=9D That looks like equity <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMjUvdGVycmEtaXMtYmFjay1mcm9tLWJhbmtydX=
+B0Y3k_Y21waWQ9QkJEMDYwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cBd5c69587" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  to me</a>, and <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMTQvdGhlLXNlYy1yZWFsbHktZG9=
+lc24tdC1saWtlLWljb3M_Y21waWQ9QkJEMDYwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjA3JnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cBb482d091" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  also I think</a> t=
+o the US=C2=A0Securities and Exchange Commission.</li>=09<li style=3D"margi=
+n-bottom: 5px;">Virtually none of those sales are registered with the SEC, =
+making them illegal securities offerings.</li>=09<li style=3D"margin-bottom=
+: 5px;">The SEC has about a five-year backlog to notice, investigate, and s=
+ue the people who do those offerings.</li></ol><p style=3D"margin: 16px 0;"=
+>This is a weird model because five years is just a lifetime in crypto. It=
+=E2=80=99s one thing for someone to do an offering of $10 million of some c=
+rypto token to build a project, and then the SEC calls them up and says =E2=
+=80=9Cnope, give the money back.=E2=80=9D That=E2=80=99s fine, you just giv=
+e the money back. It=E2=80=99s another thing for someone to do an offering =
+of $10 million of some token to build a project, and build the project, and=
+ grow into a huge business, and do a series of follow-on offerings, and the=
+n the SEC calls them up after five years and says =E2=80=9Cthis is all ille=
+gal.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">Maybe it=E2=80=99s fine=
+? If you sell securities illegally, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjItMDMtMjgvYmFyY2xheXMtc29sZC10b28tbWFueS1ub3Rlcz9jbXBp=
+ZD1CQkQwNjA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMjA2MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cBd58c1bee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> the=C2=A0<em>main=C2=A0</em>punishment</a> i=
+s that you have to buy them back at the price you sold them for. If you run=
+ a short-lived scam that fizzles out, that is an expensive punishment; you =
+have to give back all the money. If you run a hugely successful business th=
+at happens to have started with an illegal securities sale, it is not so ex=
+pensive: If you sell your tokens for $1 and now they=E2=80=99re worth $20, =
+no one will take you up on your legally mandated offer to buy them back at =
+$1.=C2=A0</p><p style=3D"margin: 16px 0;">Arguably this is a=C2=A0<em>good=
+=C2=A0</em>regulatory model? The SEC lets everyone sell tokens illegally, a=
+nd then the tokens that work out work out, while the ones that don=E2=80=99=
+t work out have to give the money back?=C2=A0</p><p style=3D"margin: 16px 0=
+;">Anyway here=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMDYtMDYvdXMtcHJvYmVzLWJpbmFuY2Utb3Zlci10b2tlbi10aGF0LWlzLW5vdy13b3J=
+sZC1zLWZpZnRoLWxhcmdlc3Q_Y21waWQ9QkJEMDYwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjA3JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cBafe19864" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> the crypto news=
+ from 2017</a>:</p><blockquote><p style=3D"margin: 16px 0;">US regulators a=
+re investigating whether Binance Holdings Ltd. broke securities rules by se=
+lling digital tokens just as the crypto exchange was getting off the ground=
+ five years ago, according to people familiar with the matter.</p><p style=
+=3D"margin: 16px 0;">The Securities and Exchange Commission=E2=80=99s revie=
+w pries into the firm=E2=80=99s origins and those of its BNB token, which i=
+s now the world=E2=80=99s fifth-biggest. Investigators are examining if the=
+ 2017 initial coin offering amounted to the sale of a security that should =
+have been registered with the agency, said the people who were granted anon=
+ymity to discuss the confidential probe. =E2=80=A6</p><p style=3D"margin: 1=
+6px 0;">Ahead of BNB=E2=80=99s launch in 2017, Binance laid out its plans i=
+n a white paper. =E2=80=A6 In the white paper, which was reviewed by Bloomb=
+erg, Binance said as much as 85% of the funds raised in the ICO were to be =
+used to build and market Binance=E2=80=99s global exchange. It made no ment=
+ion of restrictions on who could participate. =E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">Recently, as part of a broader rebranding of its blockchain, B=
+inance switched BNB=E2=80=99s full name to Build and Build from Binance Coi=
+n. The company said it made the changes based on feedback from users about =
+=E2=80=9Cthe need to further solidify the decentralized nature of the chain=
+ and reinforce the community=E2=80=99s governance over the chain.=E2=80=9D<=
+/p><p style=3D"margin: 16px 0;">The firm also backed away from plans laid o=
+ut in the ICO=E2=80=99s white paper to spend 20% of the exchange=E2=80=99s =
+profits every quarter to buy back BNB. Zhao in a 2020 blog post said the ch=
+ange was made in response to legal advice =E2=80=9Cindicating the potential=
+ for being misunderstood as a security=E2=80=9D in some regions.</p></block=
+quote><p style=3D"margin: 16px 0;">I guess if you=E2=80=99re selling crypto=
+ now you have about five years to build up enough of a business and a lobby=
+ing arm to be able to avoid, or at least afford, trouble with the=C2=A0SEC.=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto commodities</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The US Commodity Futures Trading Commi=
+ssion is in the business of approving futures contracts on cryptocurrencies=
+. The way these futures generally work, in the US, is that they are cash-se=
+ttled.=C2=A0If I buy a Bitcoin future from you with a strike price of $30,0=
+00, at maturity we do not =E2=80=9Cphysically settle=E2=80=9D (where I give=
+ you $30,000 and you hand me a Bitcoin); instead, we just exchange cash for=
+ the difference. If at maturity a Bitcoin is worth $32,000, you pay me $2,0=
+00; if it=E2=80=99s worth $27,000, I pay you $3,000.</p><p style=3D"margin:=
+ 16px 0;">To do this sort of cash settlement, you need a reliable reference=
+ price for Bitcoin: We need to cash settle against some official price of B=
+itcoin. Particularly back when Bitcoin futures were just getting started, U=
+S regulators worried that the markets for Bitcoin were too opaque and manip=
+ulated to generate a reliable official price; the SEC still won=E2=80=99t a=
+pprove <a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.26=
+2609/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMi8wNS8wMy9zZWMtbGF5cy1vdXQtcGF0aC10by=
+1jb3ZldGVkLXNwb3QtYml0Y29pbi1ldGYtYnV0Lmh0bWw/607f07ceef4b8524a319a23cBc95b=
+a438" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">spot Bitcoin exchange-traded funds</a> because of worries lik=
+e that. But the CFTC eventually did approve some cash-settled Bitcoin futur=
+es products because it got comfortable that the underlying markets for Bitc=
+oin were good enough.</p><p style=3D"margin: 16px 0;">Last Friday the CFTC =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cuY2Z0Yy5nb3YvUHJlc3NSb29tL1ByZXNzUmVsZWFzZXMvODU0MC0yMg/607f07=
+ceef4b8524a319a23cBe488c34c" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">sued Gemini Trust Co.</a> for allegedl=
+y lying about how good those markets were, as part of its efforts to get a =
+Bitcoin futures contract approved in 2017:</p><blockquote><p style=3D"margi=
+n: 16px 0;">The complaint alleges that from approximately July 2017 to arou=
+nd December 2017, Gemini, directly and through others, made false or mislea=
+ding statements of material facts, or omitted to state material facts, to t=
+he CFTC during an evaluation of the potential self-certification of a bitco=
+in futures contract by a designated contract market (DCM). The proposed bit=
+coin futures contract was to be settled by reference to the spot bitcoin pr=
+ice on the relevant day as determined by an auction held on Gemini=E2=80=99=
+s digital asset trading platform (Gemini Bitcoin Auction).=C2=A0</p><p styl=
+e=3D"margin: 16px 0;">According to the complaint, Gemini, directly and thro=
+ugh the DCM, provided information to the CFTC concerning Gemini=E2=80=99s t=
+rading platform and the Gemini Bitcoin Auction, and certain statements and =
+information conveyed or omitted by Gemini were false or misleading with res=
+pect to, among other things, facts relevant to understanding whether the pr=
+oposed Bitcoin Futures Contract would be readily susceptible to manipulatio=
+n.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">The stuff in <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6L=
+y93d3cuY2Z0Yy5nb3YvbWVkaWEvNzMxNi9lbmZnZW1pbmljb21wbGFpbnQwNjAyMjIvZG93bmxv=
+YWQ/607f07ceef4b8524a319a23cB8cb4c83f" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">the complaint</a> isn=E2=80=
+=99t=C2=A0<em>that=C2=A0</em>bad. Mainly the claims are that Gemini encoura=
+ged trading on its platform =E2=80=94=C2=A0by lending Bitcoins to some trad=
+ers, by giving fee rebate incentives, etc. =E2=80=94=C2=A0in order to juice=
+ trading activity and liquidity, but lied to the CFTC about it, so the CFTC=
+ thought that all the trading was, as it were, =E2=80=9Cnatural=E2=80=9D ra=
+ther than driven by incentives:</p><blockquote><p style=3D"margin: 16px 0;"=
+>In oral and written communications to Commission staff during the Relevant=
+ Period, Gemini represented that it was a =E2=80=9Cfull reserve=E2=80=9D ex=
+change and that it required all transactions to be fully =E2=80=9Cpre-funde=
+d.=E2=80=9D Gemini represented that the =E2=80=9Cprefunding=E2=80=9D aspect=
+ of the Gemini Exchange made the Gemini Exchange and the Gemini Bitcoin Auc=
+tion, and thus the Bitcoin Futures Contract, less susceptible to manipulati=
+on because it increased traders=E2=80=99 cost of capital and made improper =
+trading conduct more expensive to malicious actors. =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">Gemini did not disclose its substantial efforts to red=
+uce or largely eliminate market participants=E2=80=99 cost of capital in or=
+der to facilitate greater trading volume on the Gemini Exchange, including =
+in the Gemini Bitcoin Auction.=C2=A0</p><p style=3D"margin: 16px 0;">Gemini=
+ did not disclose to Commission staff, for example, that certain market mak=
+er Gemini customers could and did obtain loans of digital assets controlled=
+ by Gemini Principal-1 and Gemini Principal-2 from an entity they controlle=
+d (=E2=80=9CAffiliate A=E2=80=9D) =E2=80=A6</p><p style=3D"margin: 16px 0;"=
+>Gemini also did not disclose to Commission staff that before and during th=
+e Relevant Period Gemini gave =E2=80=9Cadvances=E2=80=9D or =E2=80=9Ccredit=
+s=E2=80=9D of fiat currency or digital assets to select customers, such tha=
+t the funds could immediately be used for trading on Gemini, and that Gemin=
+i provided such advances by directly crediting the customer=E2=80=99s accou=
+nt.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Meh? =E2=80=9CAll ou=
+r trades are pre-funded=E2=80=9D and =E2=80=9Cour owners lend people money =
+to pre-fund their trades=E2=80=9D are not exactly contradictory. Also there=
+ was some self-trading:</p><blockquote><p style=3D"margin: 16px 0;">Gemini =
+indicated that =E2=80=9Cself-trade prevention=E2=80=9D was among the =E2=80=
+=9Cattributes that promote the integrity of the auction price and discourag=
+e manipulative conduct,=E2=80=9D explaining that =E2=80=9C[w]e prohibit the=
+ same market participant from crossing with himself or herself (either inte=
+ntionally or unintentionally) on a continuous trading order book or in a Ge=
+mini Bitcoin Auction.=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">In=
+ fact, before in or around May 2017, Gemini did not effectively prohibit se=
+lftrading in Gemini Bitcoin Auctions or have any technological means to pre=
+vent self-trading from occurring in Gemini Bitcoin Auctions. =E2=80=A6=C2=
+=A0For example, for one auction in December 2016, approximately 70% of the =
+total auction trading volume resulted from a single auction participant tra=
+ding with itself.</p></blockquote><p style=3D"margin: 16px 0;">None of it i=
+s like =E2=80=9CGemini=E2=80=99s Bitcoin prices were fake=E2=80=9D; it is a=
+ll =E2=80=9Cwe would have been slightly less confident in Gemini=E2=80=99s =
+Bitcoin prices if we had had the complete details.=E2=80=9D The message her=
+e is not so much that the CFTC has lost confidence in Bitcoin futures, but =
+rather that the CFTC really does not appreciate being tricked. Which is rea=
+sonable.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">People are worried about stock market liquidity</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZ=
+D1CQkQwNjA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yMjA2MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cC251f7492" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> wrote yesterday</a> about how people were wo=
+rried about bond market liquidity, and I said: =E2=80=9CYou never hear this=
+ about stocks? Like, no one ever says =E2=80=98liquidity in stocks is decli=
+ning because big US banks don=E2=80=99t have much market-making capacity in=
+ stocks.=E2=80=99=E2=80=9D Well, <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27976693.262609/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY2JjNDdi=
+YmYtZjE1OC00MzMwLTllMjktNWIwYjcxOTM1MTQw/607f07ceef4b8524a319a23cBf1c6542b"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">here you go</a>:</p><blockquote><p style=3D"margin: 16px 0;">Trade=
+rs=E2=80=99 ability to seamlessly buy and sell stocks, bonds and other fina=
+ncial products on Wall Street has deteriorated sharply this year, adding fu=
+el to the big swings on the world=E2=80=99s biggest and deepest capital mar=
+kets.</p><p style=3D"margin: 16px 0;">Liquidity across US markets is now at=
+ its worst level since the early days of the pandemic in 2020, according to=
+ investors and big US banks who say money managers are struggling to execut=
+e trades without affecting prices. =E2=80=A6</p><p style=3D"margin: 16px 0;=
+">The trading landscape changed dramatically after policymakers in Washingt=
+on and Brussels sought to safeguard Main Street from Wall Street in the wak=
+e of the 2008 financial crisis. Through a series of regulations introduced =
+over the past 12 years, banks are now required to hold bigger capital cushi=
+ons to protect their balance sheets against major swings.</p><p style=3D"ma=
+rgin: 16px 0;">It has meant banks now hold far fewer assets, like stocks an=
+d bonds, making them less nimble at responding to investors=E2=80=99 reques=
+ts to buy or sell, and gumming up the pipes that connect buyers and sellers=
+.</p><p style=3D"margin: 16px 0;">=E2=80=9CPeople [banks] are not willing t=
+o commit capital,=E2=80=9D said Edwards. =E2=80=A6</p><p style=3D"margin: 1=
+6px 0;">High-frequency trading firms like Citadel Securities and Jump Tradi=
+ng have filled part of the gap left by big Wall Street banks, but investors=
+ said the algorithms that help execute trades through those types of operat=
+ors often meant that trading capacity was automatically reduced when stocks=
+ began to swing violently.</p><p style=3D"margin: 16px 0;">In May, investor=
+s hoping to trade e-mini futures on the S&amp;P 500 =E2=80=94 one of the mo=
+st important contracts that big money managers use to bet on the direction =
+of the market =E2=80=94 saw tiny offers to buy and sell when looking at the=
+ir trading screens. Goldman Sachs registered that on some days less than $2=
+mn worth of the contracts could be bought or sold at the price actively quo=
+ted in the market, the lowest level since March 2020.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">I kind of feel like we=E2=80=99re stuck with algori=
+thmic trading of stocks? Like if you told me =E2=80=9Cpost-2008 regulation =
+reduced banks=E2=80=99 willingness to commit balance sheet to bond trading,=
+ which caused deteriorating bond market liquidity in mid-2022,=E2=80=9D I=
+=E2=80=99d be like, sure, that=E2=80=99s a long time, but sure.=C2=A0But in=
+ stocks?</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=98We Are Back=E2=80=99: Credit =
+Suisse=E2=80=99s Top Banker Signals <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDYtMDcvLXdlLWFyZS1iYWNrLWNyZWRpdC1zdWlzc2Utcy10b3AtYmFu=
+a2VyLXNpZ25hbHMtbmV3LXN3YWdnZXI_Y21waWQ9QkJEMDYwNzIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjA3JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBff8bcb31" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> New Swag=
+ger</a>.=C2=A0JetBlue Boosts Breakup Fee, Pledges Dividend in Bid to <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6=
+Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qZXRibHVlLWJvb3N0cy1icmVhay11cC1mZWUtcGxlZGd=
+lcy1kaXZpZGVuZC1pbi1iaWQtdG8td29vLXNwaXJpdC1ob2xkZXJzLTExNjU0NTE1MjQ4P21vZD=
+1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB6d28174b" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Woo Spiri=
+t Holders</a>. ESG Insiders Demand <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27976693.262609/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjItMDYtMDcvZXNnLWluc2lkZXJzLXNheS1pdC1zLXRpbWUtZm9yLWNvdXJzZ=
+S1jb3JyZWN0aW9uP2NtcGlkPUJCRDA2MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYwNyZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cBff77ba11" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Course Correction</a> t=
+o Fix Industry Woes. Target Sinks After Cutting Profit View Over <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMDcvdGFyZ2V0LWN1dHMtcHJ=
+vZml0LW91dGxvb2stYWdhaW4taW4tcHVzaC10by1lYXNlLWludmVudG9yeS1wYWluP2NtcGlkPU=
+JCRDA2MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIyMDYwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cBb6aba13a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Inventory Pain</a>. Blackstone, Other Large Priv=
+ate-Equity Firms Turn Attention to Vast <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27976693.262609/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlc=
+y9ibGFja3N0b25lLW90aGVyLWxhcmdlLXByaXZhdGUtZXF1aXR5LWZpcm1zLXR1cm4tYXR0ZW50=
+aW9uLXRvLXZhc3QtcmV0YWlsLW1hcmtldC0xMTY1NDYwMzIwMT9tb2Q9aHBfbGVhZF9wb3M0/60=
+7f07ceef4b8524a319a23cB29f93e6a" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Retail Market</a>. Caviar =E2=80=
+=98<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609=
+/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wNi8wNy9zdHlsZS9jYXZpYXItYnVtcC5odG=
+1s/607f07ceef4b8524a319a23cB13e18fee" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Bumps</a>=E2=80=99 Are All th=
+e Rage.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-co=
+nsumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy =
+email form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27976693.262609/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJl=
+cmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWN=
+hM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBed913b7e" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">subscribe at this link</a>. Or you can subscr=
+ibe to Money Stuff and other great Bloomberg newsletters <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27976693.262609/aHR0cHM6Ly9sb2dpbi5i=
+bG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB3237204e" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!=
+</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBfd07efcd" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB71467b21" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBb46240a7" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBb9575d9e" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzk3NjY5MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgyMzkzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI154c8537" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27976693&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb0ee7162" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27976693.262609/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4a45a191" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27976693.262609/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4618dbdf" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27976693.262609/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBbe197ed1" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+4283dbe" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27976693.262609/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBf=
+c6fb685" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D279766=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D279766=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D279766=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D279766=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D279766=
+93&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28239302&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgnmyd.5mmp/816ce18d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8962735_908900500.1654625033250--
+

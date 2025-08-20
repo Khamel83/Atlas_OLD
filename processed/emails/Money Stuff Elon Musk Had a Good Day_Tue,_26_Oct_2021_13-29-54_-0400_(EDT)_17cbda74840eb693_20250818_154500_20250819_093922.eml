@@ -1,0 +1,1909 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:128e:b0:14b:be0:2b5 with SMTP id dn14csp1068013lkb;
+        Tue, 26 Oct 2021 10:30:29 -0700 (PDT)
+X-Received: by 2002:a05:6402:34d1:: with SMTP id w17mr36856148edc.383.1635269429508;
+        Tue, 26 Oct 2021 10:30:29 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1635269429; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Y/u4d621Cg9b/u6mg6EAoAdYkNQkC0+zt1NU9eIlgsxQpDip9eJwFYu5BPr5r42EbE
+         qgAzppdHKWcuWzFWoMoVAQHdlXwSh8zUppb/X6qY1wGQBZCazXxYvcxC3q6LjpQQY/BO
+         hT7xOWetMSeGVvNquQkq9nK0pZXe35XfeAAKPeJWpAphCszmXWoxbxJJii3uv4pLSRQ/
+         YlGoLccJnuUfAMdpC44Sa476BlwPQlTgU1urPUpFeGyc7/P7itybdz1uPkKxqfVULBWr
+         EEQ6YJKkT5zB6xywHukhwxBOZUERHpAEiC7TQZ1MwHaI9sy+SamEdL3acrLpvwjat/dJ
+         oxGg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=4Pds42nRoC10mJIchP5MNBKzDbRngOqLGcpsXun7z4E=;
+        b=dvkgTK3Rr2t3r9CEVGL3Pr9d35NZPJf2MVUgPQSJZrCySHwYSetJqWReq8wO5xMjUt
+         /ln3Qmfdhd6+gXy2/RltW+AoEJvlUBONFiK+Q1nzGKZpMYNDbIbxLxfsSrIVp/14i2jd
+         zX1uPOiRvXuiakjgBKLmfDNbmNBQclSojq8wzUjB/bPjX5Edkpg6q0cu8ZvoA/HjlAIu
+         CjZNNYkMqFbsTixX3qPRpfEoQJnGEUDJdPp3nPKHFtKp8iXq4K0h1kFPp4fgqIhaC0fd
+         fPuQkupSgWKWte1u7frkkQcdN2XSDqicc9awpNcrvzOuSokrzVHJGJELKYCDpqaloc7M
+         jMgQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mUaNkauj;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w6sor13231266ejj.56.2021.10.26.10.30.29
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 26 Oct 2021 10:30:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mUaNkauj;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=4Pds42nRoC10mJIchP5MNBKzDbRngOqLGcpsXun7z4E=;
+        b=AyT0ZZhOc35l/p0Jhhn3P2RcLlCvH8dA2an00xxrIkt6hPXO5ESLt4LiyzskDc5/kF
+         lvxCmiLoeN5JIELuF43Jaogm8pJRIsLotML+nNNnqzxLV/+hHNYni0pTUBNu0zCcH6D/
+         3kg+q9UxoxLjEOonbzmNc2INGbn0sdgUBuJ9YK9L6robKGAubHZc89eOeKwQ3jzxgOJL
+         V6X/pp/oySn08c6qgC8yO35jJSSHtI5lo1SYIo3nznHM6DhTz3bGsAgewzeJFV31JFhr
+         hCvQU+c+f5lw6fwBHhWWOp4lMWQ0oKinGpmt9D83ZlVMWNQATMimMtmq2bNaVUb4hw1i
+         hrjA==
+X-Gm-Message-State: AOAM531RL8gVGhct53RJ/VnOBGUnRJs/OWRsEDbmaB4+jqBU6oaI45JM
+	Van0+dQPXUwNWhzLCEO7ZJs8bY6uTsKrFJNBhwL3tIlkm6iCC4HCyEI1
+X-Received: by 2002:a17:906:646:: with SMTP id t6mr28096823ejb.209.1635269429257;
+        Tue, 26 Oct 2021 10:30:29 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2090:0:0:0:0:0 with SMTP id v16csp1642154ecn;
+        Tue, 26 Oct 2021 10:30:26 -0700 (PDT)
+X-Received: by 2002:a05:6e02:20c7:: with SMTP id 7mr8950835ilq.3.1635269426159;
+        Tue, 26 Oct 2021 10:30:26 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1635269426; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SzmFUpw+E+Jj7X7Ok0Igr7J4aHR+RZxm+OSevONxWVtpDUdBjt6xDSLfAga0Tp+d6p
+         ChtRvSZltIkhJjfOgFGHplg1F8oAFcx+eBBYMtac1FuyKvySnLN79kjf4eA4c9BTEeu1
+         I2Tn4nwedOrRqm/cccp5+azhw1Q+03YuYrWmyfvWD1GQvhJy5OqEk700JV1YbcvuOXc8
+         reWNxGy6a7Nx4ZtZ2bYAKtG6hrLD8x1CxDlsaeWXSaQhoF6LWUttd87DuRsvt2ASzhzD
+         onZJ4TElq7qKMU6yZtqvTL3Vr5K3gH6ioR2JE76Zx8GIyRlxYPET4KzEXB25FJ3CH1lp
+         A4Pg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=4Pds42nRoC10mJIchP5MNBKzDbRngOqLGcpsXun7z4E=;
+        b=RPe9Ia+WpzrSECd3j/23qQYxTB7fdBkJ5sUWEPm7x4t8QHGS2eDhJ2MWoFVYLT7B9b
+         MzWdm1onNT1eeU3XntXwMsIA2JdU60sdTf7mo4b0IEh9gGPUIc0yS0LKoTRDYdD/pCrS
+         bpOvOVbzHX4sKVk514afdZefT3CXqZXdAK/6fN1wiPZ7zEsXbmTfXf+QPxAMUrBKodU0
+         QjcHCajT+hfMA0JsA0qYXj4TtIpH1whEiKCohZBatygxEdybG+b5iStgGPuwjHQIFiXr
+         xk58qR1ZNJxsO0h6+qnIVO/Rx3hmqGTMr4U53iawfW2P/aUen9uVC7mrqI7sfMY0KJR4
+         /kqw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mUaNkauj;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211026132954.25472439.275794@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211026132954.25472439.275794@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211026132954.25472439.275794@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m12sor10991091iov.25.2021.10.26.10.30.26
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 26 Oct 2021 10:30:26 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20211026132954.25472439.275794@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzBhDh70203w3uyikWrHzhHJlBp/jB0dP4aW7+Nn67p6RNPncEtbQcNVbTljm2DQ1TEpymkc7SdqlSf4O84Qk37xR519Mg=
+X-Received: by 2002:a05:6638:1502:: with SMTP id b2mr6996361jat.131.1635269425885;
+        Tue, 26 Oct 2021 10:30:25 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1635269425; cv=none;
+        d=google.com; s=arc-20160816;
+        b=gM3cKBso5qk6icYZrlj+sBErdpKaBq953jl01b1wEurE5xYMT6rRH6FI7zCTCP9Fq5
+         t/kwCMxYX+tnkmnKO0vJyrJfBs9Yih0LJ4RIMCgwsvznfhJ19tdtxrL3gDgRkJplNtLU
+         7RND+72ch1DV0A5kZI7Bsuk4oJBxrOfw8Y2jVbFWVlU0DvdRsw1ml4BGFEalGmrMWYwg
+         aNnWkPrHOkPOOX1PR8aT2Uaw5Up4Emc0zVY49U+Zsq+VLCtSS/ezOYeImcrEAB7xzm9T
+         8LuIluU0Ast/+N7T3jPcc4M+4BoGawJpaitokLbCoO2sVnycd1V+C1zDqumuFXyKxZef
+         iPfQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=4Pds42nRoC10mJIchP5MNBKzDbRngOqLGcpsXun7z4E=;
+        b=jd8E4ZpwWkn6QptvLYExDmtKJguicmhku5U3QEwc7jDoTLkcgmSqWDhFYZu+Ap7oxi
+         AEyZZ3GAVWSbEtmesVHEHFQgp5YP9sBnSPXgRobSjjBLycN/ak3h7WSrsy2L5t2lndcA
+         cvIlgWKZ5LE+DEWeK93UvXBvY62moHJ/MjbAFQLeO1DT1ipHi4LwuzA9QyqXKvB3aJPW
+         A5Jzpv1rITKqwwE2jtq2JCSCfyWQq0+6ErCOBLvxD6Qpg+/lM+Ghuyov2U5eBDUbSD2Q
+         2I902bgQC5tjnhPvlPtFjYNPnRWD5jl8LHzaFBJHfe8ec6jeqQb99mRqQZ1Cdjn8XBiv
+         ZoKQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mUaNkauj;
+       spf=pass (google.com: domain of delivery_20211026132954.25472439.275794@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20211026132954.25472439.275794@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211026132954.25472439.275794@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id w7si718793iow.3.2021.10.26.10.30.25
+        for <khamel83@gmail.com>;
+        Tue, 26 Oct 2021 10:30:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20211026132954.25472439.275794@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=t1+QXmCR8Q+9BC+osVGtjdEYj5Rkjbw/LdbkavneBZo=;
+ b=mUaNkaujoJ5I5OEYSMD1lCrmDmw8y77zyEo86d0fx7xdTKVhhsWKWmmuln/jbaMpEamqiUBm0yMm
+   2EMp8K/Vjq8eodaA2Zu1hFpW7Z37gCH2u1hSiYEKFePmoOm5oH26BVrOc9h95P91SUNCYPZ8Zet3
+   5fEwXMZm61gpBGHNWGo=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hf0tj22tkt04 for <bloomberg@khamel.com>; Tue, 26 Oct 2021 13:30:25 -0400 (envelope-from <delivery_20211026132954.25472439.275794@mx.sailthru.com>)
+Received: from nj1-lowvermillion.flt (172.18.20.37) by njmta-180.sailthru.com id hf0tj21qqbs4 for <bloomberg@khamel.com>; Tue, 26 Oct 2021 13:29:54 -0400 (envelope-from <delivery_20211026132954.25472439.275794@mx.sailthru.com>)
+Date: Tue, 26 Oct 2021 13:29:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211026132954.25472439.275794@sailthru.com>
+Subject: Money Stuff: Elon Musk Had a Good Day
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9181496_1556961336.1635269394863"
+Precedence: bulk
+X-Feedback-ID: 6358:25472439:campaign:sailthru
+X-TM-ID: 20211026132954.25472439.275794
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-lowvermillion.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf5ynr.5wsy/ea88ce13
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf5ynr.5wsy/ea88ce13>, <mailto:unsubscribe_20211026132954.25472439.275794@mx.sailthru.com>
+X-rpcampaign: stjko25472439
+
+------=_Part_9181496_1556961336.1635269394863
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Tesla $1 trillion
+   =20
+ =20
+Imagine how much sadder Elon Musk would be today if he had managed to take =
+Tesla Inc. private in 2018. In August 2018,  he tweeted =E2=80=9Cconsiderin=
+g taking Tesla private at $420. Funding secured,=E2=80=9D and spent a few d=
+ays pretending it might happen. Eventually he decided not to do it, because=
+ (1) in fact he had no funding and (2) it would not have been possible to t=
+ake Tesla private=C2=A0and keep all of its public shareholders, which for s=
+ome reason is something that Musk said he wanted to do. It was all pretty h=
+alf-baked, and later Musk  got in trouble with the Securities and Exchange =
+Commission because pretending you=E2=80=99re going to buy out a public comp=
+any is something of a no-no.But imagine he=E2=80=99d done it; imagine he ha=
+d taken umpteen billion dollars of  Saudi sovereign wealth money and bought=
+ out all of Tesla=E2=80=99s public shareholders, leaving himself and the Sa=
+udis as the only owners.[1] In some sense, it would have been an incredible=
+ trade. Tesla=E2=80=99s stock=C2=A0closed at $341.99 the day before Musk tw=
+eeted that he=E2=80=99d buy it for $420. It closed yesterday at $1,034.07. =
+In between there was a 5-for-1 stock split. The stock is up=C2=A0more than =
+1,100% from Musk=E2=80=99s proposed deal price in about three years. Yester=
+day=E2=80=99s closing price gave Tesla a market capitalization of $1.03 tri=
+llion.=C2=A0In hindsight, Musk would have been buying the company cheap:[2]=
+On the other hand. Since August 2018, Tesla has done four stock offerings r=
+aising a total of more than $13 billion, which it has used to, you know, ma=
+ke cars and become huge. Would it have been able to go back to its private =
+backers for $13 billion of capital after doing the largest leveraged buyout=
+ in history? Maybe, I don=E2=80=99t know; private markets were pretty gener=
+ous for much of that time. But the public market=C2=A0was=C2=A0extremely=C2=
+=A0generous to Tesla. The last two of those offerings, for $5 billion each,=
+ were  at-the-market offerings to Musk=E2=80=99s horde of retail-investor f=
+ans; one of them was timed to Tesla=E2=80=99s addition to the S&P 500 index=
+. You can=E2=80=99t do a retail at-the-market offering, or an index-add off=
+ering,=C2=A0with a private company. Tesla's cost of capital is incredibly, =
+incredibly low, because it raises money not from a handful of professional =
+private equity investors but from an army of Tesla enthusiasts. It is good =
+to have a low cost of capital if you are in a capital-intensive business.Ev=
+en more important, look, Elon Musk runs a trillion-dollar company. If he ha=
+d taken it private, he would be running a company that he bought for $80-od=
+d=C2=A0billion in 2018 and that had improved its financial performance sinc=
+e then. How much would it be worth? Who knows? It wouldn=E2=80=99t trade pu=
+blicly. Retail investors couldn=E2=80=99t bid up the price. It would be wor=
+th some vague amount north of $80 billion. =E2=80=9CIf Musk were to take Te=
+sla public again,=E2=80=9D analysts might write, =E2=80=9Che might be able =
+to get as much as a $400 billion valuation,=E2=80=9D or whatever. Might som=
+eone have written =E2=80=9Che might be able to get $1 trillion=E2=80=9D? Su=
+re, why not. But that wouldn=E2=80=99t be an accepted fact. The value of Te=
+sla would be some unknown number because it wouldn=E2=80=99t trade. Who wou=
+ld believe it was $1 trillion?Today Bloomberg=E2=80=99s billionaire list te=
+lls me that Musk is the richest person in the world, with a net worth of $2=
+88.6 billion, consisting mostly of Tesla stock. Jeff Bezos is in second pla=
+ce with $192.6 billion of mostly Amazon.com Inc. stock. Musk was well behin=
+d Bezos last year, but he=E2=80=99s up $118.9 billion year-to-date, because=
+ Tesla=E2=80=99s stock has been on a tear. No public stock, no tear, no =E2=
+=80=9Crichest person on Earth.=E2=80=9D It=E2=80=99s nice to be the richest=
+ person on earth! I assume.Of course in some sense he=E2=80=99d be=C2=A0eco=
+nomically=C2=A0 just as rich as he is now (richer, really), because he=E2=
+=80=99d control just as much (more, really) of the same company making the =
+same cars; maybe he=E2=80=99d even be able to make better business decision=
+s freed from the pressures of the public market, and revenue would be even =
+higher. But nobody would=C2=A0know about it. There=E2=80=99d be no scoreshe=
+et saying that he=E2=80=99s worth $288.6 billion. The value to Elon Musk of=
+ public markets is partly that they allow him to raise limitless capital to=
+ fund his business, but it=E2=80=99s mostly that they allow everyone to kee=
+p score of how rich and successful he is. Private-market success is quieter=
+. I do not think that Elon Musk likes quiet.People love to complain about t=
+he myopia and short-termism of public markets. Elon Musk, in particular,  u=
+sed to love to complain about that, which is why he briefly pretended he wa=
+s going to take Tesla private. There is probably some truth to some of thes=
+e complaints.=C2=A0But there is maybe no better counterexample in the histo=
+ry of capitalism=C2=A0than Tesla. Elon Musk had a dream of making electric =
+cars cool and ubiquitous, and that dream was pretty far out there, and he s=
+pent years missing production targets and losing money in pursuit of that d=
+ream, and his legions of public-market fans patiently funded him, and it tu=
+rns out that he and they were right and now you can  rent a Tesla at a Hert=
+z. And the stock market has rewarded him with hysterical lavishness, giving=
+ his company a bigger valuation than every other car company combined=C2=A0=
+and making him the richest person in the world. Imagine if he had given all=
+ that up to go private! He really dodged a bullet. Meanwhile:If you were wo=
+ndering which junk-rated company would be the first to reach a trillion-dol=
+lar market capitalization, your wait is over. It=E2=80=99s Tesla Inc.=C2=A0=
+The automaker=E2=80=99s debt may still be considered speculative-grade, but=
+ its stock passed the $1 trillion mark on Monday, according to data compile=
+d by Bloomberg. =E2=80=A6=C2=A0=E2=80=9CThe $1 trillion mark leaves Tesla c=
+reditors with unprecedented equity cushion for a junk-rated issuer,=E2=80=
+=9D said Bloomberg Intelligence credit analyst Joel Levington.The =E2=80=9C=
+equity cushion=E2=80=9D idea is a  somewhat strange way to think about cred=
+itworthiness but it does seem obviously true here. Bloomberg tells me that =
+Tesla has about $10 billion of total debt. If Musk ever wanted to pay that =
+off he could go to the stock market and raise $10 billion in an hour; the s=
+tock would probably go=C2=A0up. That has to make his creditors feel good.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bank debt
+   =20
+ =20
+One stylized fact about the current economy is that  banks have too much mo=
+ney. People and companies have lots of cash and want to store it somewhere,=
+ so they put it in bank deposits. Because they have so much cash, they do n=
+ot need to borrow much cash, so there is not a ton of demand for bank loans=
+. Banks are left with lots of deposits and no loans to invest them in. They=
+ dislike this situation and try to avoid it by, for instance, lowering inte=
+rest rates on deposits below zero, or just asking customers to cool it with=
+ the deposits. But there is only so much they can do.Two important stylized=
+ facts about bank deposits are (1) they can be withdrawn at any time and (2=
+) a dollar in the bank has to always be worth a dollar. If you have money i=
+n a checking account, you can go to the bank and ask for it back, and they =
+have to be able to give it to you in full immediately. If they can=E2=80=99=
+t, then the banking system is in bad trouble. This is the =E2=80=9CIt=E2=80=
+=99s a Wonderful Life=E2=80=9D problem, and modern banking regulation is de=
+signed to prevent it. In particular:=09There is=C2=A0capital=C2=A0regulatio=
+n=C2=A0(as well as =E2=80=9Csupplementary leverage ratio=E2=80=9D and =E2=
+=80=9Ctotal loss-absorbing capacity=E2=80=9D rules), which requires banks t=
+o fund a certain percentage of their assets with shareholders=E2=80=99 equi=
+ty (or bonds, for TLAC) so that, if the assets lose value, the shareholders=
+ lose money first and the depositors are protected.=09There are=C2=A0net st=
+able funding=C2=A0rules, which, to oversimplify, require banks to fund a ce=
+rtain percentage of their assets with=C2=A0long-term=C2=A0obligations (stoc=
+k, bonds, etc.) so that they don=E2=80=99t get asked for all of their money=
+ back at once.These rules make a lot of sense in an =E2=80=9CIt=E2=80=99s a=
+ Wonderful Life=E2=80=9D world, or in the world of the 2008 financial crisi=
+s, when banks had thin capital cushions and lots of short-term non-deposit =
+liabilities (repo, etc.) that led to surprising bank-run-type situations.Bu=
+t these rules are a little weird in a world where people keep shoveling cas=
+h into bank deposits and banks, not having enough loans to make,=C2=A0shove=
+l the cash into Treasury securities or reserves at the Federal Reserve. One=
+ reason that they=E2=80=99re weird is that, when a bank gets $100 of deposi=
+ts and puts the $100 into Fed reserves, its risk (of a capital loss or bank=
+ run) hasn=E2=80=99t really gone up any, so it=E2=80=99s weird that these r=
+isk-mitigating measures kick in.[3]But another reason they=E2=80=99re weird=
+ is that, when banks get too much money, that=C2=A0forces them to raise mor=
+e money. If you have a bank with assets consisting of $100 of loans and lia=
+bilities of $10 of equity capital (10% of assets), $10 of long-term bonds (=
+20% long-term funding including equity and bonds),=C2=A0and $80 of deposits=
+, and then all of a sudden you get $300 more of deposits and park them in T=
+reasuries, now your equity capital is only 2.5% of assets and you are under=
+capitalized and need to sell stock, and your long-term funding ratio is als=
+o too low and you need to sell some bonds.=C2=A0Here=E2=80=99s a fun Wall S=
+treet Journal story about how banks are rushing to issue bonds because they=
+ have too much money:U.S. banks are overrun with cash. So they are loading =
+up on debt. =E2=80=A6The record debt sales might seem unnecessary because b=
+anks are already up to their eyeballs in cash. The biggest consumer and com=
+mercial banks have collected trillions of dollars of deposits since the pan=
+demic started.But deposits are only one part of the liability equation for =
+the biggest banks. They are also required to keep a certain share of their =
+liabilities in long-term debt. Because of that, the ratio of debt to other =
+liabilities can get out of whack when deposits grow as much as they have. S=
+o banks are issuing more bonds to navigate the regulatory hurdles.Requireme=
+nts that long-term debt make up a minimum share of banks=E2=80=99 liabiliti=
+es is a consequence of regulations after the financial crisis of 2008-09. T=
+he idea is that a layer of long-term debt makes banks less susceptible to p=
+anic in short-term funding markets, which was a key reason for the demise o=
+f Lehman Brothers.As problems with the banking system go, =E2=80=9Cbanks ha=
+ve too much money so they have to raise more money=E2=80=9D is considerably=
+ nicer than the more traditional and=C2=A0scarier =E2=80=9Cbanks have too l=
+ittle money so they have to raise more money.=E2=80=9D This is more of a we=
+ird problem than a bad problem. It is weird though.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Good advice
+   =20
+ =20
+This  is great:Chinese authorities told billionaire Hui Ka Yan to use his p=
+ersonal wealth to alleviate China Evergrande Group=E2=80=99s deepening debt=
+ crisis, according to people familiar with the matter.Beijing=E2=80=99s dir=
+ective to the Evergrande founder came after his company missed an initial S=
+ept. 23 deadline for a coupon payment on a dollar bond, said the people, as=
+king not to be identified discussing a private matter. Local governments ac=
+ross China are monitoring Evergrande=E2=80=99s bank accounts to ensure comp=
+any cash is used to complete unfinished housing projects and not diverted t=
+o pay creditors, the people said.It=E2=80=99s unclear whether Hui=E2=80=99s=
+ fortune is big and liquid enough to make a sizable dent in Evergrande=E2=
+=80=99s liabilities, which swelled to more than $300 billion as of June. =
+=E2=80=A6Hui=E2=80=99s net worth has dwindled to about $7.8 billion from $4=
+2 billion at its peak in 2017, according to Bloomberg Billionaires Index es=
+timates. But the figure comes with considerable uncertainty.=C2=A0Much of H=
+ui=E2=80=99s known wealth is derived from his controlling stake in Evergran=
+de and the cash dividends he=E2=80=99s received from the company since its =
+2009 listing in Hong Kong. Hui has pocketed about $8 billion over the past =
+decade thanks to Evergrande=E2=80=99s generous payouts, according to Bloomb=
+erg calculations. It=E2=80=99s not known how Hui reinvested those dividends=
+.I do think that the concept of limited corporate liability is a bit porous=
+=C2=A0if you=E2=80=99re a Chinese billionaire. In America, if=C2=A0you=C2=
+=A0run a company with $300 billion in debt, and it can=E2=80=99t pay that d=
+ebt, and you have $8 billion sitting in your personal bank account,=C2=A0yo=
+u say =E2=80=9Cah I wish I could do something for all of my company=E2=80=
+=99s creditors but unfortunately my deep commitment to our capitalist econo=
+mic system prevents me from paying debts that aren=E2=80=99t mine, my hands=
+ are really tied here.=E2=80=9D That is so deeply the American way that Don=
+ald Trump did it repeatedly and was elected president for his troubles.In C=
+hina, if you run a company with $300 billion of debt, and it can=E2=80=99t =
+pay that debt, and you have $8 billion sitting in your personal bank accoun=
+t, and the government calls you up to say =E2=80=9Chey spend down your bank=
+ account to pay that debt,=E2=80=9D the=C2=A0only possible answer=C2=A0is =
+=E2=80=9Cyes, that=E2=80=99s what I was already doing, of course, I would n=
+ever take $8 billion and run and leave my creditors holding the bag.=E2=80=
+=9D Whether or not you signed a personal guarantee, you signed a personal g=
+uarantee.Temperamentally I tend to be a big fan of limited liability, but I=
+ do think that there is something to be said for each system.I don=E2=80=99=
+t know how much Hui ransacking his couch cushions for spare change will act=
+ually help with Evergrande=E2=80=99s $300 billion of debt, but=C2=A0I suppo=
+se if he has cashed out $8 billion then he probably has enough money to pay=
+ off a $100 million interest payment here, a $200 million maturity there. I=
+f this is more =E2=80=9Cbridging a temporary liquidity problem=E2=80=9D tha=
+n it is =E2=80=9Cthrowing money into the ocean of a catastrophic default,=
+=E2=80=9D maybe his personal fortune will help. But even if it doesn=E2=80=
+=99t help and Evergrande does default, it is probably wise for him, persona=
+lly and politically, not to end up with too much money.
+ =20
+   =20
+      Libor Robot
+   =20
+ =20
+At some level of generality, every big bank has roughly one zillion contrac=
+ts that all say =E2=80=9Cthe Interest Rate=C2=A0for any period shall be Lib=
+or plus the Spread,=E2=80=9D or something that means the same thing. And du=
+e to the demise of Libor (the London interbank offered rate) and its replac=
+ement by SOFR (the Secured Overnight Financing Rate) or some other regulato=
+r-approved benchmark, those contracts all need to be edited to say =E2=80=
+=9Cthe Interest Rate for any period shall be SOFR plus the Spread  plus the=
+ Other Spread.=E2=80=9DWhen I describe it like that the obvious solution is=
+ to write a teeny little computer program to find every instance of the fir=
+st expression and replace it with the second expression. But this is not in=
+ fact the solution. The main problem is that there a lot of different ways =
+to write the first expression. =E2=80=9CFor any Semiannual Period, the Inte=
+rest Payable shall be defined as the sum of (i) the Credit Spread plus (ii)=
+ the=C2=A0Relevant Libor=E2=80=9D would say the same thing in somewhat diff=
+erent words in a different order. Also, though, some of these contracts are=
+, like, blurry scanned PDFs. And anyway you can=E2=80=99t just unilaterally=
+ rewrite the contracts; you have to call up the counterparties and have the=
+m sign off on the changes =E2=80=94=C2=A0or you have to parse another secti=
+on of the contract to see if it gets rewritten automatically and, if so, ho=
+w.So the traditional solution is to hire battalions of lawyers to do that, =
+which is enormously expensive for the banks and honestly not all that fun f=
+or the lawyers either. Imagine being a first-year law-firm associate on tha=
+t job. You=E2=80=99d spend like the first three years of your career gettin=
+g real real real real good at revising Libor contracts, and then when you w=
+ere done your only skill would be permanently obsolete. Oops!So the correct=
+ solution is to write a=C2=A0large=C2=A0computer program to find every inst=
+ance of the first expression =E2=80=94=C2=A0but with artificial intelligenc=
+e =E2=80=94=C2=A0and replace it with the second expression. You know, write=
+ a program that can read all the contracts and figure out which sentences m=
+ean =E2=80=9Cthe Interest Rate=C2=A0for any period shall be Libor plus the =
+Spread=E2=80=9D and replace all of them with parallel sentences that mean=
+=C2=A0=E2=80=9Cthe Interest Rate for any period shall be SOFR plus the Spre=
+ad=C2=A0plus the Other Spread=E2=80=9D but use all the correct defined term=
+s.=C2=A0And then I guess email them to the counterparty for signoff.=C2=A0A=
+nd so Bloomberg=E2=80=99s William Shaw  reports:Finance giants are turning =
+to artificial intelligence to simplify and speed up a task mandated by regu=
+lators -- and spare human lawyers some serious drudgery.Morgan Stanley figu=
+res it=E2=80=99s saved legal staffers 50,000 hours of work and $10 million =
+in attorney fees by using robot Libor lawyers instead of only the human kin=
+d. Goldman Sachs Group Inc. says computer algorithms sped things up =E2=80=
+=9Cdrastically.=E2=80=9D These banks aren=E2=80=99t alone in adopting AI, a=
+nd the revolution likely won=E2=80=99t stop with the Libor transition -- bu=
+t the number of contracts involved in this shift provides an ideal testing =
+ground for the machines.The task would be grueling for paralegals, whose to=
+rture involves parsing dense clauses to sort out which govern in a post-Lib=
+or world. Does this paragraph decide how to replace the rate, or do these? =
+They=E2=80=99d sweat floating-rate options, applicable periodic rates and s=
+ubstitute basis to sort out the new interest payment, and grapple with whet=
+her the legalese applies just to bonds or to loans and swaps as well.Then r=
+epeat all that grunt work over millions of pages.=E2=80=9CWe had a client t=
+hat had 15 million queries and they were able to get all that answered with=
+in a quarter,=E2=80=9D said Lewis Liu, chief executive officer at Eigen Tec=
+hnologies Ltd., which helped Goldman Sachs and ING Groep NV deploy Libor-an=
+alyzing software. =E2=80=9CThe alternative would have been literally an arm=
+y of lawyers and paralegals over a year, or maybe two.=E2=80=9DI have to sa=
+y that if you are a lawyer who got automated out of this job your feeling i=
+s probably pure relief. You didn=E2=80=99t want this job!
+ =20
+   =20
+      Aramco emissions
+   =20
+ =20
+Okay:Saudi Aramco, the world=E2=80=99s biggest exporter of oil, set a goal =
+of reaching net-zero emissions from its wholly-owned operations by 2050.The=
+ target excludes emissions from customers burning its crude, but is a decad=
+e sooner than a government timetable for the kingdom. ...The pledge applies=
+ to emissions from the company=E2=80=99s own operations or from the generat=
+ion of power and heat to its assets, classified as Scope 1 and Scope 2. It =
+doesn=E2=80=99t apply to Scope 3, which are generated by customers burning =
+its fuels and make up more than 80% of the company=E2=80=99s total emission=
+s.I assume that the world will eventually reach an equilibrium in which (1)=
+ every single company, government, person, etc., can certify that they have=
+ net zero carbon emissions, but (2) the world keeps emitting carbon. (For i=
+nstance, every tree on earth will be sold multiple times to carbon emitters=
+ to offset their carbon, etc.) =E2=80=9CMust be aliens,=E2=80=9D people wil=
+l say.There is actually a weird sort of accounting logic here. People under=
+stand that oil companies contribute a lot to climate change. Oil companies =
+are, therefore, a focus for environmental criticism. =E2=80=9CDo stuff for =
+the climate,=E2=80=9D activists say, to oil companies. =E2=80=9COkay we wil=
+l be net zero emitters, eventually,=E2=80=9D the oil companies say. =E2=80=
+=9CSure we will drill oil and sell it to people, but=C2=A0our=C2=A0activiti=
+es will be totally clean; what our customers do with the oil is up to them.=
+=E2=80=9DLogically then the activists should go to the customers and say =
+=E2=80=9Cyou also should be net zero emitters,=E2=80=9D and obviously to so=
+me extent they do =E2=80=94=C2=A0big tech companies and airlines and utilit=
+ies and others get plenty of climate pressure and often go around committin=
+g to becoming net zero emitters eventually =E2=80=94=C2=A0but there are so =
+many more users of fossil fuels than there are producers, and their fossil-=
+fuel use is generally=C2=A0less salient. The investors in an enterprise sof=
+tware company or direct-to-consumer retail brand or whatever might=C2=A0car=
+e=C2=A0about the environment, but it will be pretty far down their list of =
+concerns=C2=A0about that company. Whereas at an oil major, from now until 2=
+050, climate is always going to dominate the discussion.So in a world where=
+ you can be a =E2=80=9Cnet zero emitter=E2=80=9D through some combination o=
+f (1) emitting lots of carbon and (2) buying somewhat abstract carbon offse=
+ts to get your total carbon to sum to zero, the highest bidders for those o=
+ffsets will be the companies where carbon emissions are most salient. The c=
+ost to a public=C2=A0oil major of emitting lots of carbon =E2=80=94=C2=A0in=
+ terms of investor complaints, proxy fights, higher cost of capital, etc. =
+=E2=80=94=C2=A0is high, so the value of getting to net zero is high. Wherea=
+s at a software company the salience is lower, so the cost is lower, so the=
+ value is lower. The oil companies want to shift emissions from themselves =
+to their customers because the emissions are=C2=A0cheaper=C2=A0for the cust=
+omers.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Trump-Tied  Meme Stock World Gets Bigger With NFT Drop. PayPal Abandons Pin=
+terest Takeover After Its Shareholders Balk. A Fight Over Biden=E2=80=99s P=
+ick for a  Banking Watchdog Gets Nasty.  Magnesium Crisis Is Showing Signs =
+of Easing.=C2=A0Mastercard Partners With Bakkt to Bring Cryptocurrency Paym=
+ents to the Masses. EY and Wirecard: anatomy of a flawed audit. =E2=80=9CSt=
+arting in 2017, Facebook=E2=80=99s ranking algorithm treated emoji reaction=
+s as five times more valuable than =E2=80=98likes,=E2=80=99=C2=A0internal d=
+ocuments reveal.=E2=80=9D Chinese Developer Modern Land Fails to Repay $250=
+ Million U.S. Dollar Bond. Dalio, Fink Say They=E2=80=99d Pay More Tax  If =
+Funds Were Spent Well. Equitable Chairman Departs Over Communications That =
+Didn=E2=80=99t Meet Standards. Jeff Bezos=E2=80=99 Blue Origin plans =E2=80=
+=98business park=E2=80=99 in space. Kellogg=E2=80=99s faces $5 million laws=
+uit for not having enough strawberries in its Pop-Tarts.=C2=A0Hiker lost fo=
+r 24 hours ignored calls from rescuers because of unknown number.If you'd l=
+ike to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your in=
+box, please=C2=A0subscribe at this link. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters here. Thanks![1] Again, this is not=
+ really what he proposed; he wrote at the time that =E2=80=9Cthis has nothi=
+ng to do with accumulating control for myself. I own about 20% of the compa=
+ny now, and I don=E2=80=99t envision that being substantially different aft=
+er any deal is completed.=E2=80=9D That just made no sense and is not how g=
+oing private works.=C2=A0[2] For the record, I made fun of the going-privat=
+e transaction for weeks because *it was obviously fake*, not because I thou=
+ght the valuation was crazy. I actually defended the price! =E2=80=9CEveryt=
+hing else here is insane and terrible,=E2=80=9D  I wrote,=C2=A0=E2=80=9Cbut=
+ =E2=80=98take the trading price and add 20 percent=E2=80=99 seems to me to=
+ be a perfectly normal and reasonable way to calculate a preliminary price =
+to start buyout negotiations.=E2=80=9D=C2=A0[3] There was some controversy =
+about this earlier this year. Last year, early in the Covid-19 pandemic, th=
+e Fed had temporarily excluded Fed reserves and Treasuries from the supplem=
+entary leverage ratio, meaning that if banks got deposits and parked them a=
+t the Fed or in Treasuries, they would not need to raise more capital again=
+st them. That exclusion expired this March, to much complaining.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf5ynr.5wsy/49ac2a08.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9181496_1556961336.1635269394863
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB450239e9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDI2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBdf2e378b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC0195b8e7" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tesla $1 trillion</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Imagine how much sadder Elon Musk woul=
+d be today if he had managed to take Tesla Inc. private in 2018. In August =
+2018, <a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275=
+794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMDg=
+vZWxvbi1tdXNrLWhhcy1zb21lLWZ1bi13aXRoLXRlc2xhP2NtcGlkPUJCRDEwMjYyMV9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxM=
+TAyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB02fbdd8e" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> he tweeted</a> =E2=80=9Cconsidering taking Tesla private at $420. Fu=
+nding secured,=E2=80=9D and spent a few days pretending it might happen. Ev=
+entually he decided not to do it, because (1) in fact he had no funding and=
+ (2) it would not have been possible to take Tesla private=C2=A0<em>and kee=
+p all of its public shareholders</em>, which for some reason is something t=
+hat Musk said he wanted to do. It was all pretty half-baked, and later Musk=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjgvbXVz=
+ay1zLXRlc2xhLWZ1bi1kb2VzLW5vdC1hbXVzZS1zZWM_Y21waWQ9QkJEMTAyNjIxX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMD=
+I2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2c83e1b8" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> got in trouble</a> with the Securities and Exchange Commission because =
+pretending you=E2=80=99re going to buy out a public company is something of=
+ a no-no.</p><p style=3D"margin: 16px 0;">But imagine he=E2=80=99d done it;=
+ imagine he had taken umpteen billion dollars of <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXM=
+tdGVzbGEtYnV5b3V0LXdhc24tdC1zby1zZWN1cmU_Y21waWQ9QkJEMTAyNjIxX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDI2J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB57967fd1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Saudi sovereign wealth money</a> and bought out all of Tesla=E2=80=99s pub=
+lic shareholders, leaving himself and the Saudis as the only owners.[1] In =
+some sense, it would have been an incredible trade. Tesla=E2=80=99s stock=
+=C2=A0closed at $341.99 the day before Musk tweeted that he=E2=80=99d buy i=
+t for $420. It closed yesterday at $1,034.07. In between there was a 5-for-=
+1 stock split. The stock is up=C2=A0more than 1,100% from Musk=E2=80=99s pr=
+oposed deal price in about three years. Yesterday=E2=80=99s closing price g=
+ave Tesla a market capitalization of $1.03 trillion.=C2=A0In hindsight, Mus=
+k would have been <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25472439.275794/aHR0cHM6Ly90d2l0dGVyLmNvbS9hbmRyZXdyc29ya2luL3N0YXR1cy8xNDU=
+yNzkxOTk0NzU4MTM5OTA3/607f07ceef4b8524a319a23cB3f9528d2" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">buying the=
+ company cheap</a>:[2]</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/i6yNar8bAgog/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/i6yNar8bAgog/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">On the other hand. Since August 20=
+18, Tesla has done four stock offerings raising a total of more than $13 bi=
+llion, which it has used to, you know, make cars and become huge. Would it =
+have been able to go back to its private backers for $13 billion of capital=
+ after doing the largest leveraged buyout in history? Maybe, I don=E2=80=99=
+t know; private markets were pretty generous for much of that time. But the=
+ public market=C2=A0was=C2=A0<em>extremely=C2=A0</em>generous to Tesla. The=
+ last two of those offerings, for $5 billion each, were <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDYvdGVzbGEta2VwdC1idXN5LWlu=
+LTIwMjA_Y21waWQ9QkJEMTAyNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB9977a2e9" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> at-the-market offerings</a> to M=
+usk=E2=80=99s horde of retail-investor fans; one of them was timed to Tesla=
+=E2=80=99s addition to the S&amp;P 500 index. You can=E2=80=99t do a retail=
+ at-the-market offering, or an index-add offering,=C2=A0with a private comp=
+any. Tesla's cost of capital is incredibly, incredibly low, because it rais=
+es money not from a handful of professional private equity investors but fr=
+om an army of Tesla enthusiasts. It is good to have a low cost of capital i=
+f you are in a capital-intensive business.</p><p style=3D"margin: 16px 0;">=
+Even more important, look, Elon Musk runs a trillion-dollar company. If he =
+had taken it private, he would be running a company that he bought for $80-=
+odd=C2=A0billion in 2018 and that had improved its financial performance si=
+nce then. How much would it be worth? Who knows? It wouldn=E2=80=99t trade =
+publicly. Retail investors couldn=E2=80=99t bid up the price. It would be w=
+orth some vague amount north of $80 billion. =E2=80=9CIf Musk were to take =
+Tesla public again,=E2=80=9D analysts might write, =E2=80=9Che might be abl=
+e to get as much as a $400 billion valuation,=E2=80=9D or whatever. Might s=
+omeone have written =E2=80=9Che might be able to get $1 trillion=E2=80=9D? =
+Sure, why not. But that wouldn=E2=80=99t be an <em>accepted fact</em>. The =
+value of Tesla would be some unknown number because it wouldn=E2=80=99t tra=
+de. Who would believe it was $1 trillion?</p><p style=3D"margin: 16px 0;">T=
+oday Bloomberg=E2=80=99s billionaire list tells me that Musk is the richest=
+ person in the world, with a net worth of $288.6 billion, consisting mostly=
+ of Tesla stock. Jeff Bezos is in second place with $192.6 billion of mostl=
+y Amazon.com Inc. stock. Musk was well behind Bezos last year, but he=E2=80=
+=99s up $118.9 billion year-to-date, because Tesla=E2=80=99s stock has been=
+ on a tear. No public stock, no tear, no =E2=80=9Crichest person on Earth.=
+=E2=80=9D It=E2=80=99s nice to be the richest person on earth! I assume.</p=
+><p style=3D"margin: 16px 0;">Of course in some sense he=E2=80=99d be=C2=A0=
+<em>economically=C2=A0</em><a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjEtMDctMjIvcHJpdmF0ZS1lcXVpdHktZmlybS1nb3QtcmljaC1tYWtpbmctcHJpd=
+mF0ZS1lcXVpdHktZmlybXMtcmljaD9jbXBpZD1CQkQxMDI2MjFfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjYmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB562b1a39" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> just as ri=
+ch</a> as he is now (richer, really), because he=E2=80=99d control just as =
+much (more, really) of the same company making the same cars; maybe he=E2=
+=80=99d even be able to make better business decisions freed from the press=
+ures of the public market, and revenue would be even higher. But nobody wou=
+ld=C2=A0<em>know </em>about it. There=E2=80=99d be no scoresheet saying tha=
+t he=E2=80=99s worth $288.6 billion. The value to Elon Musk of public marke=
+ts is partly that they allow him to raise limitless capital to fund his bus=
+iness, but it=E2=80=99s mostly that they allow everyone to keep score of ho=
+w rich and successful he is. Private-market success is quieter. I do not th=
+ink that Elon Musk likes quiet.</p><p style=3D"margin: 16px 0;">People love=
+ to complain about the myopia and short-termism of public markets. Elon Mus=
+k, in particular, <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTgtMDgtMTMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1zby=
+1zZWN1cmU_Y21waWQ9QkJEMTAyNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cC57967fd1" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> used to love to complain about=
+ that</a>, which is why he briefly pretended he was going to take Tesla pri=
+vate. There is probably some truth to some of these complaints.=C2=A0But th=
+ere is maybe no better counterexample in the history of capitalism=C2=A0<em=
+>than Tesla</em>. Elon Musk had a dream of making electric cars cool and ub=
+iquitous, and that dream was pretty far out there, and he spent years missi=
+ng production targets and losing money in pursuit of that dream, and his le=
+gions of public-market fans patiently funded him, and it turns out that he =
+and they were right and now you can <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjEtMTAtMjUvaGVydHotc2FpZC10by1vcmRlci0xMDAtMDAwLXRlc2xhcy1p=
+bi1jYXItcmVudGFsLW1hcmtldC1zaGFrZS11cD9jbXBpZD1CQkQxMDI2MjFfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjYmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2c0f3b59" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ rent a Tesla at a Hertz</a>. And the stock market has rewarded him with hy=
+sterical lavishness, giving his company a bigger valuation than <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly8yN=
+Dd3YWxsc3QuY29tL2F1dG9zLzIwMjAvMTIvMjIvdGVzbGEtaXMtd29ydGgtbW9yZS10aGFuLWFs=
+bC1iaWctY2FyLWNvbXBhbmllcy1pbi10aGUtd29ybGQtY29tYmluZWQvIzp-OnRleHQ9VGVzbGE=
+lMjBJcyUyMFdvcnRoJTIwTW9yZSUyMFRoYW4lMjBBbGwlMjBCaWclMjBDYXIlMjBDb21wYW5pZX=
+MlMjBpbiUyMHRoZSUyMFdvcmxkJTIwQ29tYmluZWQsLVBhdWwlMjBBdXNpY2smdGV4dD1TaW5jZ=
+SUyMG1pZCUyRE5vdmVtYmVyJTJDJTIwdGhlJTIwbWFya2V0LGFuJTIwaW5jcmVhc2UlMjBvZiUy=
+MGFyb3VuZCUyMDYwJTI1Lg/607f07ceef4b8524a319a23cBb1ef4896" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">every oth=
+er car company combined</a>=C2=A0and making him the richest person in the w=
+orld. Imagine if he had given all that up to go private! He really dodged a=
+ bullet.</p><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjEtMTAtMjUvdGVzbGEtaXMtdGhlLWZpcnN0LWp1bmstY29tcGFueS1=
+0by1nZXQtYS0xLXRyaWxsaW9uLXZhbHVhdGlvbj9jbXBpZD1CQkQxMDI2MjFfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjYmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6a017279" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Meanwhile</a>:</p><blockquote><p style=3D"margin: 16px 0;">If you were won=
+dering which junk-rated company would be the first to reach a trillion-doll=
+ar market capitalization, your wait is over. It=E2=80=99s Tesla Inc.=C2=A0<=
+/p><p style=3D"margin: 16px 0;">The automaker=E2=80=99s debt may still be c=
+onsidered speculative-grade, but its stock passed the $1 trillion mark on M=
+onday, according to data compiled by Bloomberg. =E2=80=A6=C2=A0=E2=80=9CThe=
+ $1 trillion mark leaves Tesla creditors with unprecedented equity cushion =
+for a junk-rated issuer,=E2=80=9D said Bloomberg Intelligence credit analys=
+t Joel Levington.</p></blockquote><p style=3D"margin: 16px 0;">The =E2=80=
+=9Cequity cushion=E2=80=9D idea is a <a href=3D"https://link.mail.bloomberg=
+business.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTgtMTEtMDUvZXhwZW5zaXZlLXN0b2Nrcy1tYWtlLWZvci1nb29kLWJ=
+vbmRzP2NtcGlkPUJCRDEwMjYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cBfc2863c1" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> somewhat strange way</a> to think=
+ about creditworthiness but it does seem obviously true here. Bloomberg tel=
+ls me that Tesla has about $10 billion of total debt. If Musk ever wanted t=
+o pay that off he could go to the stock market and raise $10 billion in an =
+hour; the stock would probably go=C2=A0<em>up</em>. That has to make his cr=
+editors feel good.</p><table class=3D"liveintent-sponsored-content" width=
+=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cDe356a543" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cEe356a543" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF171099e9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG171099e9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bank debt</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One stylized fact about the current ec=
+onomy is that <a href=3D"https://link.mail.bloombergbusiness.com/click/2547=
+2439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjA=
+tMDQtMDIvYmFua3MtaGF2ZS10b28tbXVjaC1tb25leS1ub3c_Y21waWQ9QkJEMTAyNjIxX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jExMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3ab16b07" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> banks have too much money</a>. People and companies have lots of c=
+ash and want to store it somewhere, so they put it in bank deposits. Becaus=
+e they have so much cash, they do not need to borrow much cash, so there is=
+ not a ton of demand for bank loans. Banks are left with lots of deposits a=
+nd no loans to invest them in. They dislike this situation and try to avoid=
+ it by, for instance, lowering interest rates on deposits below zero, or ju=
+st <a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794=
+/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rcy10by1jb21wYW5pZXMtbm8tbW9yZS=
+1kZXBvc2l0cy1wbGVhc2UtMTE2MjMyMzgyMDA/607f07ceef4b8524a319a23cB55ade292" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">asking customers to cool it with the deposits</a>. But there is only =
+so much they can do.</p><p style=3D"margin: 16px 0;">Two important stylized=
+ facts about bank deposits are (1) they can be withdrawn at any time and (2=
+) a dollar in the bank has to always be worth a dollar. If you have money i=
+n a checking account, you can go to the bank and ask for it back, and they =
+have to be able to give it to you in full immediately. If they can=E2=80=99=
+t, then the banking system is in bad trouble. This is the =E2=80=9CIt=E2=80=
+=99s a Wonderful Life=E2=80=9D problem, and modern banking regulation is de=
+signed to prevent it. In particular:</p><ol style=3D"list-style-type: decim=
+al; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px=
+;">There is=C2=A0<em>capital=C2=A0regulation</em>=C2=A0(as well as =E2=80=
+=9Csupplementary leverage ratio=E2=80=9D and =E2=80=9C<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmlzLm9=
+yZy9mc2kvZnNpc3VtbWFyaWVzL3RsYWMucGRm/607f07ceef4b8524a319a23cBae318092" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">total loss-absorbing capacity</a>=E2=80=9D rules), which requires ban=
+ks to fund a certain percentage of their assets with shareholders=E2=80=99 =
+equity (or bonds, for TLAC) so that, if the assets lose value, the sharehol=
+ders lose money first and the depositors are protected.</li>=09<li style=3D=
+"margin-bottom: 5px;">There are=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/25472439.275794/aHR0cHM6Ly93d3cub2NjLmdvdi9uZXdzLWlzc3Vh=
+bmNlcy9idWxsZXRpbnMvMjAyMS9idWxsZXRpbi0yMDIxLTkuaHRtbCM6fjp0ZXh0PVRoZSUyME5=
+TRlIlMkMlMjBhJTIwcXVhbnRpdGF0aXZlJTIwbGlxdWlkaXR5LGJ5JTIwdGhlJTIwYWdlbmNpZX=
+MlMjBpbiUyMDIwMTQu/607f07ceef4b8524a319a23cB7858ffa8" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"><em>net stabl=
+e funding=C2=A0</em>rules</a>, which, to oversimplify, require banks to fun=
+d a certain percentage of their assets with=C2=A0<em>long-term=C2=A0</em>ob=
+ligations (stock, bonds, etc.) so that they don=E2=80=99t get asked for all=
+ of their money back at once.</li></ol><p style=3D"margin: 16px 0;">These r=
+ules make a lot of sense in an =E2=80=9CIt=E2=80=99s a Wonderful Life=E2=80=
+=9D world, or in the world of the 2008 financial crisis, when banks had thi=
+n capital cushions and lots of short-term non-deposit liabilities (repo, et=
+c.) that led to surprising bank-run-type situations.</p><p style=3D"margin:=
+ 16px 0;">But these rules are <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3N=
+sZXR0ZXJzLzIwMjAtMDUtMjEvbW9uZXktc3R1ZmYtdG9vLW11Y2gtbW9uZXktY2FuLWJlLWJhZC=
+1mb3ItYmFua3M_Y21waWQ9QkJEMTAyNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cBc070edde" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">a little weird</a> in a wor=
+ld where people keep shoveling cash into bank deposits and banks, not havin=
+g enough loans to make,=C2=A0shovel the cash into Treasury securities or re=
+serves at the Federal Reserve. One reason that they=E2=80=99re weird is tha=
+t, when a bank gets $100 of deposits and puts the $100 into Fed reserves, i=
+ts risk (of a capital loss or bank run) hasn=E2=80=99t really gone up any, =
+so it=E2=80=99s weird that these risk-mitigating measures kick in.[3]</p><p=
+ style=3D"margin: 16px 0;">But another reason they=E2=80=99re weird is that=
+, when banks get too much money, that=C2=A0<em>forces them to raise more mo=
+ney</em>. If you have a bank with assets consisting of $100 of loans and li=
+abilities of $10 of equity capital (10% of assets), $10 of long-term bonds =
+(20% long-term funding including equity and bonds),=C2=A0and $80 of deposit=
+s, and then all of a sudden you get $300 more of deposits and park them in =
+Treasuries, now your equity capital is only 2.5% of assets and you are unde=
+rcapitalized and need to sell stock, and your long-term funding ratio is al=
+so too low and you need to sell some bonds.=C2=A0</p><p style=3D"margin: 16=
+px 0;">Here=E2=80=99s a <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/25472439.275794/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rcy1kZWJ0L=
+XNhbGVzLWFyZS1kcml2aW5nLXRoZS1jb3Jwb3JhdGUtYm9uZC1tYXJrZXQtMTE2MzUyNDA2MDE_=
+bW9kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cBff4a4c5c" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">fun Wall =
+Street Journal story</a> about how banks are rushing to issue bonds because=
+ they have too much money:</p><blockquote><p style=3D"margin: 16px 0;">U.S.=
+ banks are overrun with cash. So they are loading up on debt. =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">The record debt sales might seem unnecessary b=
+ecause banks are already up to their eyeballs in cash. The biggest consumer=
+ and commercial banks have collected trillions of dollars of deposits since=
+ the pandemic started.</p><p style=3D"margin: 16px 0;">But deposits are onl=
+y one part of the liability equation for the biggest banks. They are also r=
+equired to keep a certain share of their liabilities in long-term debt. Bec=
+ause of that, the ratio of debt to other liabilities can get out of whack w=
+hen deposits grow as much as they have. So banks are issuing more bonds to =
+navigate the regulatory hurdles.</p><p style=3D"margin: 16px 0;">Requiremen=
+ts that long-term debt make up a minimum share of banks=E2=80=99 liabilitie=
+s is a consequence of regulations after the financial crisis of 2008-09. Th=
+e idea is that a layer of long-term debt makes banks less susceptible to pa=
+nic in short-term funding markets, which was a key reason for the demise of=
+ Lehman Brothers.</p></blockquote><p style=3D"margin: 16px 0;">As problems =
+with the banking system go, =E2=80=9Cbanks have too much money so they have=
+ to raise more money=E2=80=9D is considerably nicer than the more tradition=
+al and=C2=A0scarier =E2=80=9Cbanks have too little money so they have to ra=
+ise more money.=E2=80=9D This is more of a weird problem than a bad problem=
+. It is weird though.</p><table class=3D"liveintent-flex-ad" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cHc85a6a7d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Good advice</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMTAtMjYvY2hpbmEtdXJnZXMtZXZlcmdyYW5kZS1mb3VuZGVyLX=
+RvLXBheS1kZWJ0LXdpdGgtcGVyc29uYWwtd2VhbHRoP2NtcGlkPUJCRDEwMjYyMV9NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAy=
+NiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf9da3b29" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> is great</a>:</p><blockquote><p style=3D"margin: 16px 0;">Chinese autho=
+rities told billionaire Hui Ka Yan to use his personal wealth to alleviate =
+China Evergrande Group=E2=80=99s deepening debt crisis, according to people=
+ familiar with the matter.</p><p style=3D"margin: 16px 0;">Beijing=E2=80=99=
+s directive to the Evergrande founder came after his company missed an init=
+ial Sept. 23 deadline for a coupon payment on a dollar bond, said the peopl=
+e, asking not to be identified discussing a private matter. Local governmen=
+ts across China are monitoring Evergrande=E2=80=99s bank accounts to ensure=
+ company cash is used to complete unfinished housing projects and not diver=
+ted to pay creditors, the people said.</p><p style=3D"margin: 16px 0;">It=
+=E2=80=99s unclear whether Hui=E2=80=99s fortune is big and liquid enough t=
+o make a sizable dent in Evergrande=E2=80=99s liabilities, which swelled to=
+ more than $300 billion as of June. =E2=80=A6</p><p style=3D"margin: 16px 0=
+;">Hui=E2=80=99s net worth has dwindled to about $7.8 billion from $42 bill=
+ion at its peak in 2017, according to Bloomberg Billionaires Index estimate=
+s. But the figure comes with considerable uncertainty.=C2=A0</p><p style=3D=
+"margin: 16px 0;">Much of Hui=E2=80=99s known wealth is derived from his co=
+ntrolling stake in Evergrande and the cash dividends he=E2=80=99s received =
+from the company since its 2009 listing in Hong Kong. Hui has pocketed abou=
+t $8 billion over the past decade thanks to Evergrande=E2=80=99s generous p=
+ayouts, according to Bloomberg calculations. It=E2=80=99s not known how Hui=
+ reinvested those dividends.</p></blockquote><p style=3D"margin: 16px 0;">I=
+ do think that the concept of limited corporate liability is a bit porous=
+=C2=A0if you=E2=80=99re a Chinese billionaire. In America, if=C2=A0you=C2=
+=A0run a company with $300 billion in debt, and it can=E2=80=99t pay that d=
+ebt, and you have $8 billion sitting in your personal bank account,=C2=A0yo=
+u say =E2=80=9Cah I wish I could do something for all of my company=E2=80=
+=99s creditors but unfortunately my deep commitment to our capitalist econo=
+mic system prevents me from paying debts that aren=E2=80=99t mine, my hands=
+ are really tied here.=E2=80=9D That is so deeply the American way that Don=
+ald Trump <a href=3D"https://link.mail.bloombergbusiness.com/click/25472439=
+.275794/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAxNi8wNi8xMi9ueXJlZ2lvbi9kb25hbGQ=
+tdHJ1bXAtYXRsYW50aWMtY2l0eS5odG1s/607f07ceef4b8524a319a23cB478ebbfd" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">did it repeatedly</a> and was elected president for his troubles.</p><p s=
+tyle=3D"margin: 16px 0;">In China, if you run a company with $300 billion o=
+f debt, and it can=E2=80=99t pay that debt, and you have $8 billion sitting=
+ in your personal bank account, and the government calls you up to say =E2=
+=80=9Chey spend down your bank account to pay that debt,=E2=80=9D the=C2=A0=
+<em>only possible answer=C2=A0</em>is =E2=80=9Cyes, that=E2=80=99s what I w=
+as already doing, of course, I would never take $8 billion and run and leav=
+e my creditors holding the bag.=E2=80=9D Whether or not you signed a person=
+al guarantee, you signed a personal guarantee.</p><p style=3D"margin: 16px =
+0;">Temperamentally I tend to be a big fan of limited liability, but I do t=
+hink that there is something to be said for each system.</p><p style=3D"mar=
+gin: 16px 0;">I don=E2=80=99t know how much Hui ransacking his couch cushio=
+ns for spare change will actually help with Evergrande=E2=80=99s $300 billi=
+on of debt, but=C2=A0I suppose if he has cashed out $8 billion then he prob=
+ably has enough money to pay off a $100 million interest payment here, a $2=
+00 million maturity there. If this is more =E2=80=9Cbridging a temporary li=
+quidity problem=E2=80=9D than it is =E2=80=9Cthrowing money into the ocean =
+of a catastrophic default,=E2=80=9D maybe his personal fortune will help. B=
+ut even if it doesn=E2=80=99t help and Evergrande does default, it is proba=
+bly wise for him, personally and politically, not to end up with too much m=
+oney.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Libor Robot</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">At some level of generality, every big=
+ bank has roughly one zillion contracts that all say =E2=80=9Cthe Interest =
+Rate=C2=A0for any period shall be Libor plus the Spread,=E2=80=9D or someth=
+ing that means the same thing. And due to the demise of Libor (the London i=
+nterbank offered rate) and its replacement by SOFR (the Secured Overnight F=
+inancing Rate) or some other regulator-approved benchmark, those contracts =
+all need to be edited to say =E2=80=9Cthe Interest Rate for any period shal=
+l be SOFR plus the Spread <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1sb29raW5nLWZvci10ZX=
+RoZXItcy1tb25leT9jbXBpZD1CQkQxMDI2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjYmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cB6c54c33a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> plus the Other Spread</=
+a>.=E2=80=9D</p><p style=3D"margin: 16px 0;">When I describe it like that t=
+he obvious solution is to write a teeny little computer program to find eve=
+ry instance of the first expression and replace it with the second expressi=
+on. But this is not in fact the solution. The main problem is that there a =
+lot of different ways to write the first expression. =E2=80=9CFor any Semia=
+nnual Period, the Interest Payable shall be defined as the sum of (i) the C=
+redit Spread <em>plus</em> (ii) the=C2=A0Relevant Libor=E2=80=9D would say =
+the same thing in somewhat different words in a different order. Also, thou=
+gh, some of these contracts are, like, blurry scanned PDFs. And anyway you =
+can=E2=80=99t just unilaterally rewrite the contracts; you have to call up =
+the counterparties and have them sign off on the changes =E2=80=94=C2=A0or =
+you have to parse another section of the contract to see if it gets rewritt=
+en automatically and, if so, how.</p><p style=3D"margin: 16px 0;">So the tr=
+aditional solution is to hire battalions of lawyers to do that, which is en=
+ormously expensive for the banks and honestly not all that fun for the lawy=
+ers either. Imagine being a first-year law-firm associate on that job. You=
+=E2=80=99d spend like the first three years of your career getting real rea=
+l real real good at revising Libor contracts, and then when you were done y=
+our only skill would be permanently obsolete. Oops!</p><p style=3D"margin: =
+16px 0;">So the <em>correct</em> solution is to write a=C2=A0<em>large=C2=
+=A0</em>computer program to find every instance of the first expression =E2=
+=80=94=C2=A0but with artificial intelligence =E2=80=94=C2=A0and replace it =
+with the second expression. You know, write a program that can read all the=
+ contracts and figure out which sentences mean =E2=80=9Cthe Interest Rate=
+=C2=A0for any period shall be Libor plus the Spread=E2=80=9D and replace al=
+l of them with parallel sentences that mean=C2=A0=E2=80=9Cthe Interest Rate=
+ for any period shall be SOFR plus the Spread=C2=A0plus the Other Spread=E2=
+=80=9D but use all the correct defined terms.=C2=A0And then I guess email t=
+hem to the counterparty for signoff.=C2=A0</p><p style=3D"margin: 16px 0;">=
+And so Bloomberg=E2=80=99s William Shaw <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjEtMTAtMjIvbW9yZ2FuLXN0YW5sZXktcy1yb2JvdC1saWJvci1sYXd5=
+ZXJzLXNhdmVkLTUwLTAwMC1ob3Vycy1vZi13b3JrP2NtcGlkPUJCRDEwMjYyMV9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAyNi=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3fc661df" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> reports</a>:</p><blockquote><p style=3D"margin: 16px 0;">Finance giants a=
+re turning to artificial intelligence to simplify and speed up a task manda=
+ted by regulators -- and spare human lawyers some serious drudgery.</p><p s=
+tyle=3D"margin: 16px 0;">Morgan Stanley figures it=E2=80=99s saved legal st=
+affers 50,000 hours of work and $10 million in attorney fees by using robot=
+ Libor lawyers instead of only the human kind. Goldman Sachs Group Inc. say=
+s computer algorithms sped things up =E2=80=9Cdrastically.=E2=80=9D These b=
+anks aren=E2=80=99t alone in adopting AI, and the revolution likely won=E2=
+=80=99t stop with the Libor transition -- but the number of contracts invol=
+ved in this shift provides an ideal testing ground for the machines.</p><p =
+style=3D"margin: 16px 0;">The task would be grueling for paralegals, whose =
+torture involves parsing dense clauses to sort out which govern in a post-L=
+ibor world. Does this paragraph decide how to replace the rate, or do these=
+? They=E2=80=99d sweat floating-rate options, applicable periodic rates and=
+ substitute basis to sort out the new interest payment, and grapple with wh=
+ether the legalese applies just to bonds or to loans and swaps as well.</p>=
+<p style=3D"margin: 16px 0;">Then repeat all that grunt work over millions =
+of pages.</p><p style=3D"margin: 16px 0;">=E2=80=9CWe had a client that had=
+ 15 million queries and they were able to get all that answered within a qu=
+arter,=E2=80=9D said Lewis Liu, chief executive officer at Eigen Technologi=
+es Ltd., which helped Goldman Sachs and ING Groep NV deploy Libor-analyzing=
+ software. =E2=80=9CThe alternative would have been literally an army of la=
+wyers and paralegals over a year, or maybe two.=E2=80=9D</p></blockquote><p=
+ style=3D"margin: 16px 0;">I have to say that if you are a lawyer who got a=
+utomated out of this job your feeling is probably pure relief. You didn=E2=
+=80=99t want this job!</p><table class=3D"header" width=3D"100%" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Aramco emissions</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjEtMTAtMjMvc2F1ZGktYXJhbWNvLXdpbGwtYWNoaWV2ZS1hbWJpdGlvbi1=
+vZi1uZXQtemVyby1ieS0yMDUwLW5hc3Nlcj9jbXBpZD1CQkQxMDI2MjFfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjYmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf9ed553d" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Okay<=
+/a>:</p><blockquote><p style=3D"margin: 16px 0;">Saudi Aramco, the world=E2=
+=80=99s biggest exporter of oil, set a goal of reaching net-zero emissions =
+from its wholly-owned operations by 2050.</p><p style=3D"margin: 16px 0;">T=
+he target excludes emissions from customers burning its crude, but is a dec=
+ade sooner than a government timetable for the kingdom. ...</p><p style=3D"=
+margin: 16px 0;">The pledge applies to emissions from the company=E2=80=99s=
+ own operations or from the generation of power and heat to its assets, cla=
+ssified as Scope 1 and Scope 2. It doesn=E2=80=99t apply to Scope 3, which =
+are generated by customers burning its fuels and make up more than 80% of t=
+he company=E2=80=99s total emissions.</p></blockquote><p style=3D"margin: 1=
+6px 0;">I assume that the world will eventually reach an equilibrium in whi=
+ch (1) every single company, government, person, etc., can certify that the=
+y have net zero carbon emissions, but (2) the world keeps emitting carbon. =
+(For instance, <a href=3D"https://link.mail.bloombergbusiness.com/click/254=
+72439.275794/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jYXJib24tb2Zmc2V0cy1hcm=
+UtdXNlZC1ieS1jb21wYW5pZXMtc2Vla2luZy1uZXQtemVyby1idXQtY29uY2VybnMtcGVyc2lzd=
+C0xMTYzNTA3OTQ4OQ/607f07ceef4b8524a319a23cB09ae4283" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">every tree</a>=
+ on earth will be sold multiple times to carbon emitters to offset their ca=
+rbon, etc.) =E2=80=9CMust be aliens,=E2=80=9D people will say.</p><p style=
+=3D"margin: 16px 0;">There is actually a weird sort of accounting logic her=
+e. People understand that oil companies contribute a lot to climate change.=
+ Oil companies are, therefore, a focus for environmental criticism. =E2=80=
+=9CDo stuff for the climate,=E2=80=9D activists say, to oil companies. =E2=
+=80=9COkay we will be net zero emitters, eventually,=E2=80=9D the oil compa=
+nies say. =E2=80=9CSure we will drill oil and sell it to people, but=C2=A0<=
+em>our=C2=A0</em>activities will be totally clean; what our customers do wi=
+th the oil is up to them.=E2=80=9D</p><p style=3D"margin: 16px 0;">Logicall=
+y then the activists should go to the customers and say =E2=80=9Cyou also s=
+hould be net zero emitters,=E2=80=9D and obviously to some extent they do =
+=E2=80=94=C2=A0big tech companies and airlines and utilities and others get=
+ plenty of climate pressure and often go around committing to becoming net =
+zero emitters eventually =E2=80=94=C2=A0but there are so many more users of=
+ fossil fuels than there are producers, and their fossil-fuel use is genera=
+lly=C2=A0less salient. The investors in an enterprise software company or d=
+irect-to-consumer retail brand or whatever might=C2=A0<em>care=C2=A0</em>ab=
+out the environment, but it will be pretty far down their list of concerns=
+=C2=A0<em>about that company</em>. Whereas at an oil major, from now until =
+2050, climate is always going to dominate the discussion.</p><p style=3D"ma=
+rgin: 16px 0;">So in a world where you can be a =E2=80=9Cnet zero emitter=
+=E2=80=9D through some combination of (1) emitting lots of carbon and (2) b=
+uying somewhat abstract carbon offsets to get your total carbon to sum to z=
+ero, the highest bidders for those offsets will be the companies where carb=
+on emissions are most salient. The cost to a public=C2=A0oil major of emitt=
+ing lots of carbon =E2=80=94=C2=A0in terms of investor complaints, proxy fi=
+ghts, higher cost of capital, etc. =E2=80=94=C2=A0is high, so the value of =
+getting to net zero is high. Whereas at a software company the salience is =
+lower, so the cost is lower, so the value is lower. The oil companies want =
+to shift emissions from themselves to their customers because the emissions=
+ are=C2=A0<em>cheaper=C2=A0</em>for the customers.</p><table class=3D"heade=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Trump-Tied <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMjUvdHJ1bXAtbmZ0LWhlbHBzLW1pbnQtYW5vdGhl=
+ci1tZW1lLXN0b2NrLXRpZWQtdG8tZm9ybWVyLXByZXNpZGVudD9jbXBpZD1CQkQxMDI2MjFfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMTEwMjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6546fcd9=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Meme Stock World</a> Gets Bigger With NFT Drop. PayPal Abandons =
+Pinterest Takeover After Its <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25472439.275794/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wYXlwYWwt=
+c2F5cy1ub3QtcHVyc3VpbmctYWNxdWlzaXRpb24tb2YtcGludGVyZXN0LTExNjM1MTQ4NDkwP21=
+vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBd2a9a363" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Shareh=
+olders Balk</a>. A Fight Over Biden=E2=80=99s Pick for a <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMjYvc2F1bGUtb21hcm92YS1jb25maXJ=
+tYXRpb24tYmVoaW5kLWJpZGVuLXMtcGljay1mb3ItY29tcHRyb2xsZXItb2YtdGhlLWN1cnJlbm=
+N5P2NtcGlkPUJCRDEwMjYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB628cbde4" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Banking Watchdog</a> Gets Nasty. <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMjYvbWFnbmVzaXVt=
+LWNyaXNpcy1zaG93cy1zaWducy1vZi1lYXNpbmctYXMtY2hpbmEtcmFtcHMtdXAtb3V0cHV0P2N=
+tcGlkPUJCRDEwMjYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIxMTAyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB9f0b25a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Magnesium Crisis</a> Is Showing Signs of =
+Easing.=C2=A0Mastercard Partners With Bakkt to Bring <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9tYXN0ZXJjYXJkLXBhcnRuZXJzLXdpdGgtYmFra3QtdG8tYnJpbmctY3J5cHR=
+vY3VycmVuY3ktc2VydmljZXMtdG8tdGhlLW1hc3Nlcy0xMTYzNTE4MTY1NT9tb2Q9aXRwX3dzai=
+ZydT15YWhvbw/607f07ceef4b8524a319a23cBb9064d87" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Cryptocurrency Paym=
+ents</a> to the Masses. EY and <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25472439.275794/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYmNhZGJkY2=
+ItNWNkNy00ODdlLWFmZGQtMWU5MjY4MzFlOWI3/607f07ceef4b8524a319a23cBf87e95d0" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Wirecard</a>: anatomy of a flawed audit. =E2=80=9CStarting in 2017, =
+Facebook=E2=80=99s ranking algorithm treated <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBv=
+c3QuY29tL3RlY2hub2xvZ3kvMjAyMS8xMC8yNi9mYWNlYm9vay1hbmdyeS1lbW9qaS1hbGdvcml=
+0aG0v/607f07ceef4b8524a319a23cB6e860662" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">emoji reactions</a> as f=
+ive times more valuable than =E2=80=98likes,=E2=80=99=C2=A0internal documen=
+ts reveal.=E2=80=9D Chinese Developer <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+jaGluZXNlLWRldmVsb3Blci1tb2Rlcm4tbGFuZC1mYWlscy10by1yZXBheS0yNTAtbWlsbGlvbi=
+11LXMtZG9sbGFyLWJvbmQtMTE2MzUyMjI4NTI_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b85=
+24a319a23cBc59edcf6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Modern Land</a> Fails to Repay $250 Million U=
+.S. Dollar Bond. Dalio, Fink Say They=E2=80=99d Pay More Tax <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMjYvZGFsaW8tZmluay1zYXktdGh=
+leS1kLXBheS1tb3JlLXRheC1pZi1mdW5kcy13ZXJlLXNwZW50LXdlbGw_Y21waWQ9QkJEMTAyNj=
+IxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjExMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB64=
+46021b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> If Funds Were Spent Well</a>. Equitable Chairman Departs O=
+ver <a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.27579=
+4/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lcXVpdGFibGUtY2hhaXJtYW4tZGVwYXJ0c=
+y1vdmVyLWNvbW11bmljYXRpb25zLXRoYXQtZGlkbnQtbWVldC1zdGFuZGFyZHMtMTE2MzUxNzg0=
+MDY_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBf75ca92f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Communications That Didn=E2=80=99t Meet Standards</a>. Jeff Bezos=E2=80=99 =
+Blue Origin plans =E2=80=98business park=E2=80=99 <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvZGVkNTBkYTEtYTFjMy00NmQzLTljOGItNzcwN2QwZDQ3MWIz/607f07ceef4b8524a=
+319a23cB1d5fe574" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">in space</a>. Kellogg=E2=80=99s faces $5 million =
+lawsuit for <a href=3D"https://link.mail.bloombergbusiness.com/click/254724=
+39.275794/aHR0cHM6Ly93d3cudXNhdG9kYXkuY29tL3N0b3J5L21vbmV5L2Zvb2QvMjAyMS8xM=
+C8yMy9rZWxsb2dncy1zdWVkLXN0cmF3YmVycmllcy1wb3AtdGFydHMtaWxsaW5vaXMtNS1taWxs=
+aW9uLzYxNjA2NzUwMDEv/607f07ceef4b8524a319a23cB36d4633f" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">not having =
+enough strawberries</a> in its Pop-Tarts.=C2=A0Hiker lost for 24 hours igno=
+red calls from rescuers because of <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25472439.275794/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMTAvMjUvaG=
+lrZXItbG9zdC1mb3ItMjQtaG91cnMtaWdub3JlZC1jYWxscy1mcm9tLXJlc2N1ZXJzLWJlY2F1c=
+2Utb2YtdW5rbm93bi1udW1iZXIv/607f07ceef4b8524a319a23cB8e916b5c" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">unkn=
+own number</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designe=
+d-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0i=
+n handy email form, right in your inbox, please=C2=A0<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25472439.275794/aHR0cDovL2xpbmsubWFpbC5i=
+bG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDI=
+yMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2c60ec5e" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">subscribe at this link</a>. Or you can =
+subscribe to Money Stuff and other great Bloomberg newsletters <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly9sb2=
+dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB658eebae" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">here</a>. T=
+hanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Again, this is n=
+ot really what he proposed; he <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25472439.275794/aHR0cHM6Ly93d3cudGVzbGEuY29tL2Jsb2cvdGFraW5nLX=
+Rlc2xhLXByaXZhdGU/607f07ceef4b8524a319a23cBd291651a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">wrote at the t=
+ime</a> that =E2=80=9Cthis has nothing to do with accumulating control for =
+myself. I own about 20% of the company now, and I don=E2=80=99t envision th=
+at being substantially different after any deal is completed.=E2=80=9D That=
+ just made no sense and is not how going private works.</em>=C2=A0</p><p st=
+yle=3D"margin: 16px 0;"><em>[2] For the record, I made fun of the going-pri=
+vate transaction for weeks because *it was obviously fake*, not because I t=
+hought the valuation was crazy. I actually defended the price! =E2=80=9CEve=
+rything else here is insane and terrible,=E2=80=9D <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25472439.275794/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjgvbXVzay1zLXRlc2xhLWZ1bi1kb2VzL=
+W5vdC1hbXVzZS1zZWM_Y21waWQ9QkJEMTAyNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDI2JnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cC2c83e1b8" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> I wrote</a>,=C2=A0=E2=
+=80=9Cbut =E2=80=98take the trading price and add 20 percent=E2=80=99 seems=
+ to me to be a perfectly normal and reasonable way to calculate a prelimina=
+ry price to start buyout negotiations.=E2=80=9D=C2=A0</em></p><p style=3D"m=
+argin: 16px 0;"><em>[3] There was some controversy about this earlier this =
+year. Last year, early in the Covid-19 pandemic, the Fed had temporarily ex=
+cluded Fed reserves and Treasuries from the supplementary leverage ratio, m=
+eaning that if banks got deposits and parked them at the Fed or in Treasuri=
+es, they would not need to raise more capital against them. That exclusion =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9iY=
+3JlZzIwMjEwMzE5YS5odG0/607f07ceef4b8524a319a23cB83a39261" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">expired t=
+his March</a>, to much complaining.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb0382044" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB21a3797b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBcc921689" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBdf131b7f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTQ3MjQzOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU3NDgyMzMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cIbfe8a286" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25472439&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2547243=
+9.275794/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB29d7955a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25472439.275794/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4374332a" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25472439.275794/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBbbfbd84f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25472439.275794/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9ecfc73c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+e4f5422" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25472439.275794/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+57f4d1d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D254724=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D254724=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D254724=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D254724=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D254724=
+39&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25748233&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf5ynr.5wsy/49ac2a08.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9181496_1556961336.1635269394863--
+

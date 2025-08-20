@@ -1,0 +1,1921 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:712:b0:13b:de3:276c with SMTP id o18csp543189lki;
+        Thu, 23 Sep 2021 09:42:03 -0700 (PDT)
+X-Received: by 2002:aa7:d814:: with SMTP id v20mr6774909edq.169.1632415323191;
+        Thu, 23 Sep 2021 09:42:03 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1632415323; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Ux25qFOZk5KUU7y12lM2bw2+zsek7RMCgki8KKCnplwVSRqRs+jTiDD1NIV2Fsbc8h
+         V4fAZyJjAOsOHAIowYTrDhUWgpFx/SHYx9GAXhLgs7SAZYNCytz6it0wFsbUzllDdL5h
+         huzDCr5J9+1SOnrHIeZ20/epfzzm/L2plcQENqK8PyMptKTqR1i4LTw+hoC82yHC+0vQ
+         p5hnEMXOGLhQn+Vs0AkgsTpPMQNZEHW549Ea00nBCyCn1uupWspdXT84B/Ih7hjM1xR0
+         D5E8zMpeQiZ28EB5bN3hCCtFVJb9p9fqS83cBkwHDKlom7XEc0AL9tNpQdwRqUjxX2vH
+         qOAQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=j3laINKve+Yn7EA82ryEEdFm6OLtxHxS0wU+aTvx9eg=;
+        b=suYUTI23HGVpRolt6HhKfXZ33V+j56G7iF6m9OjKXtYSew9WzRdZPPG0WgNkWOsUVa
+         SRNBUBuTkVlt5Ec88ur3T8z6LZIzRSprfPbmENEZKWiMXfnzRIoUkGx2m3UtCzbLt8Y1
+         Ywe2q+myNFiaQ1U0YyCIrSnH0Z2g0ECAaVQPGv2NaNmAYcqldElQ4MBYZD6P+7i5fLgr
+         WdR2ZqZ1jYC1HPkFelVfulLjtxImwHCvI6atQOmiug0mNGsA3poq9VD0nY+ZlT/btuUh
+         COfBYKWjxWxgM3ERY7BobZULUiY1NIYBZwYzfha+aVDPjC3szIEYUU6FSKhJnsyx1F2l
+         dtsw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cIAPQdhW;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id hs35sor3799973ejc.8.2021.09.23.09.42.02
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 23 Sep 2021 09:42:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cIAPQdhW;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=j3laINKve+Yn7EA82ryEEdFm6OLtxHxS0wU+aTvx9eg=;
+        b=40Z6dbAv2NVhgFyoBcTOltUga3isftBJCbKs0FgQSlSVG5yiEuqjzb0nU1ooqlUBOY
+         PfHPbHUIPsj3WlyzkHt2wgBwWJQR9T24eAbiOnjr2sfucpnbmDYYXLhw+sGeB8o2ZOQA
+         t1SuWUp0Orj7quCqcnmXReLQKrfYZ+BfCy8vGUOo81OYASpD+0Oaxp4agAJX90jPc6RH
+         4KhSBNoB2lcIeHN7i0HnNiGAfFBzTi7/c8O3As1LSfaJboAViS4MM5tXIRCAV3uoK5mQ
+         Vfc+BPGfsp7ciDPLqRUvpuzz0FhLqxdYteiAFICKLaKxIxlVZPOdKjQ64bLtD/7znbfV
+         6p5A==
+X-Gm-Message-State: AOAM531PashrSwsgU7jxqigR06b4yz0hs8k1JEvueIqVE2qkivxC5bzq
+	DfVZb4kd8LN13XXfEzia1LZGhERCDtCdH7t+N7vc5UJHdPnvkZdm9Fn/
+X-Received: by 2002:a17:906:4fd6:: with SMTP id i22mr5968628ejw.92.1632415322804;
+        Thu, 23 Sep 2021 09:42:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:a245:0:0:0:0:0 with SMTP id dh5csp452292ecb;
+        Thu, 23 Sep 2021 09:41:59 -0700 (PDT)
+X-Received: by 2002:a17:906:7208:: with SMTP id m8mr6057449ejk.82.1632415319215;
+        Thu, 23 Sep 2021 09:41:59 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1632415319; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ov9wdBdF4yWDmOXMOHK1UsobGZhQhJ3KXDRDRoZT6DRwDB7zqBpciv04n4NeAWTcrd
+         00TiB3Ca5AlCRJYjR48bUFj9wtWGkF6vSdcRLzsEM6LGKC0wQDU4BQifS9JTl+Txp2Fp
+         We9Ca1TpxoWewa63hHMKBtW2coH7ZS28a9ikns7w2uXN4Kb/giKll5Ln7HZYfFTjEAPI
+         DRR8Z9qVp+Vk/CwnqAR8LjtWB2lfRGh0qAdkupq3suV0+JTNm8t+hGlmCqH6aqmLWy7+
+         H/WGQMlY0j6mN00N56Lms9zMubjPUi9h/jwzup4AiLiIQXldWblsGFUKhxx9DEwbIKtl
+         rjTQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=j3laINKve+Yn7EA82ryEEdFm6OLtxHxS0wU+aTvx9eg=;
+        b=veJukoMzuBfQJN1X1JiTuTGori2hIJ/tz36TEq5uatj2VIwDPv0dj+3NT1Baj+dlBn
+         8rwhxJDQS2ckkd/GYiWaQfdsNZ7k2uCmRroctjEv/M4J3N4pQye1Xr+wxlDqlZt+eJmF
+         qpAv+8w/o/ZOEMSKQF7VM9FID1tx3gYO5C8tbXJbP4wErTNF3+F9s19DVVgvRKO/x4BI
+         FCSOsP23dw3It2g1990iRYwVhVFk2VOaRmIODOnNVbCd/QIjCVkR94CwNN1Di16VxT6j
+         DAquQoc3cnnzZCXOEVbQuIAJZTeLlbRQZjkkfam7cwZAQ8k6g9Y7dEQeefSFBe48Claq
+         CABw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cIAPQdhW;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210923123854.25123929.273053@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210923123854.25123929.273053@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210923123854.25123929.273053@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u9sor6192585edr.9.2021.09.23.09.41.58
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 23 Sep 2021 09:41:59 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210923123854.25123929.273053@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwT5a6QWUEAHv9Hwl4sjeUtgrmD8Vu3I7haFbcFhIt5eKdcTIA+pO5NbJJxU8v/rC1ZNJex4HgihswHI4h588PxOEsbk5M=
+X-Received: by 2002:a50:d80e:: with SMTP id o14mr6723195edj.49.1632415318558;
+        Thu, 23 Sep 2021 09:41:58 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1632415318; cv=none;
+        d=google.com; s=arc-20160816;
+        b=d6RaqjPSzlLhVUeoOdSa3aE+QBUFx7UKRtcBUd2inlaDmPrg8wjdnTgxq8zz445ThE
+         MGnM/yrOlsFlk4tRkWYF7mmdsUlViIWpCw+bq02RXsznYjR8hgbgSB4W848Ss09zE0Jw
+         wGPDE+nNCVliwhkrBybcvkzoEg2RvHIRAeiDC0AdR8HSgyrFF/k6nvnnXmqNRJqsb+Wy
+         RG9pNyUsis/SaI8H7EuP/MB/jJcKMHCrtoLHylwg2tSFUeUaLHtqC843E/J5x84qm2k5
+         2OUuXauxvdOJcaV1A55ifalNyrphqEbSgtlcNkIpJcsL653mPw/dU/Qn1Qy6ohssIbsa
+         ROgQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=j3laINKve+Yn7EA82ryEEdFm6OLtxHxS0wU+aTvx9eg=;
+        b=WhwKH2/O8W/AoqiP+VRRPuKAdgF/eZhL4coGuUDxqQH2OcvNVt42l3c3nw+rqomJ7L
+         xdGK1vwbUI9aXGSJrTejo/8xCLGJqnT8OgiIV8hDwqeTjjW8Z+E4dGVg3+8AhDY+6mGo
+         0bEv1cGRfhj5XnkTtrcSZVKcypALVXqcdzw3jakAj3JROUzTA+aZ9egoXG1VkH/+aYYE
+         taAzECTnapebHms5uOd/zEDiXZxvI5iHiuHXlvnu7t5oukLD+dPzi3RbarKLTSnxZReg
+         yE30Fy7CsSw5xvLJ9tSzEER/B9JE0cqeIRtK022uFIxc5yrQjAflDp9PtNIo4D8alNxC
+         DU0w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cIAPQdhW;
+       spf=pass (google.com: domain of delivery_20210923123854.25123929.273053@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210923123854.25123929.273053@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210923123854.25123929.273053@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id v9si371852edl.0.2021.09.23.09.41.58
+        for <khamel83@gmail.com>;
+        Thu, 23 Sep 2021 09:41:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210923123854.25123929.273053@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=gHMErQ8K9hWTQNFgMVjY7xjTPa0=;
+ b=cIAPQdhWlB0y5OYgc7BN3BHpj1NabPVWnCYEr2qJrKu47Vl9aEWlronahbsl4eO2yvK79oe7ADe2
+   qPk6TAsTVM2EEk86tas9yoNSe5DIBcfZGtPMewqVV/ssTWtGl43KReA3oCgAkmG8K+6RbTQjJ3XJ
+   8EWOb3XQrsyJQZQeIY8=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id h9in5c1qqbs2 for <bloomberg@khamel.com>; Thu, 23 Sep 2021 12:41:57 -0400 (envelope-from <delivery_20210923123854.25123929.273053@mx.sailthru.com>)
+Date: Thu, 23 Sep 2021 12:38:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210923123854.25123929.273053@sailthru.com>
+Subject: Money Stuff: Dark Pool Sold Some Order Flow
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_19271022_775863254.1632415134590"
+Precedence: bulk
+X-Feedback-ID: 6358:25123929:campaign:sailthru
+X-TM-ID: 20210923123854.25123929.273053
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceyhqx.5uot/1fb1b915
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceyhqx.5uot/1fb1b915>, <mailto:unsubscribe_20210923123854.25123929.273053@mx.sailthru.com>
+X-rpcampaign: stjko25123929
+
+------=_Part_19271022_775863254.1632415134590
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Bad PFOF
+   =20
+ =20
+A rough, inaccurate but useful way to think about U.S. equity market struct=
+ure is that the prices on the stock exchange are bad. You can go to a publi=
+c stock exchange and see a =E2=80=9Clit,=E2=80=9D public bid and offer for =
+every stock; the exchange will tell you at all times, like, =E2=80=9Cyou ca=
+n buy this stock for $10.05 or sell it for $9.95.=E2=80=9D (The best buying=
+ and selling price available on all the lit exchanges=C2=A0is called the =
+=E2=80=9Cnational best bid and offer=E2=80=9D or NBBO.)=C2=A0But if you eve=
+r find yourself paying the lit price to buy a stock, or accepting the lit p=
+rice to sell it, you have done poorly. That is just the sticker price, the =
+advertised price, the price for rubes.=C2=A0Somewhere, in the dark, there a=
+re hidden orders at better prices, and=C2=A0if you and your broker are any =
+good you will find them.=C2=A0I want to stress that this is rough and inacc=
+urate; if you work for a stock exchange, or for an electronic market maker =
+that quotes on the exchanges, you don=E2=80=99t have to email me to be like=
+ =E2=80=9Cactually our quotes are great.=E2=80=9D I just mean that, to unde=
+rstand what people get=C2=A0mad about in market structure, it is often help=
+ful to start from the premise =E2=80=9Cthey think the=C2=A0NBBO is bad.=E2=
+=80=9DIf you start from that premise you can build a model in which there a=
+re basically four different =E2=80=9Cmarket=E2=80=9D prices for a stock. In=
+ ascending order:=09The national best bid is the price you=E2=80=99d get if=
+ you tried to sell the stock on a lit stock exchange. This price is too low=
+. Say it=E2=80=99s $9.95.=09The =E2=80=9Creal=E2=80=9D best bid is the best=
+ price you could find to sell the stock if you knew where to look. Say ther=
+e=E2=80=99s some dark pool somewhere where someone has a hidden order to bu=
+y the stock at $9.99; if you find that order you can sell at $9.99.=09The =
+=E2=80=9Creal=E2=80=9D best offer is the best price you could find to buy t=
+he stock if you knew where to look. Say it=E2=80=99s $10.01.=09The national=
+ best offer is the best price you could find to buy the stock on a lit stoc=
+k exchange. This price is too high. Say it=E2=80=99s $10.05.Prices 1 and 4,=
+ the NBBO, are transparent; anyone can see what they are. Prices 2 and 3, t=
+he =E2=80=9Creal=E2=80=9D best prices available in dark pools and hidden li=
+quidity and internalizers=E2=80=99 books and so forth, are not; certain sor=
+ts of experts know what they are but most people have to guess at them.Your=
+ goal, as a person looking to buy or sell stock, is to find the real=C2=A0b=
+est price, by scouring dark pools and knowing a lot about markets and routi=
+ng orders cleverly, or by having a trusted intermediary do that for you. Th=
+e goal of the expert intermediary selling you the stock is =E2=80=A6=C2=A0w=
+ell, their goal is complicated. Their goal is to (1) make money for themsel=
+ves and (2) keep you coming back.If they sell you stock at=C2=A0worse=C2=A0=
+prices than the NBBO they will get in trouble. If they sell you stock at th=
+e NBBO, they will do well =E2=80=94 on this model,=C2=A0they=C2=A0can buy s=
+tock at the real best price and resell it to you at the NBBO, keeping the d=
+ifference for themselves =E2=80=94=C2=A0but if you are sophisticated you wo=
+n=E2=80=99t keep coming back. This model is so widely understood that execu=
+ting trades at the NBBO=C2=A0is often considered bad. What you want is to g=
+et =E2=80=9Cprice improvement,=E2=80=9D to execute at some price better tha=
+n the NBBO, so that you think you=C2=A0might=C2=A0be getting the real price=
+.=C2=A0And so the game for the expert intermediaries selling you the stock =
+is to sell it to you at some price between the lit best price and the real =
+best price. You try to buy stock, the national best offer is $10.05, your b=
+roker says =E2=80=9Cgood news, we got you price improvement, you=E2=80=99re=
+ filled at $10.03.=E2=80=9D You are happy because you got a better price th=
+an the NBBO; you got the great-customer discount; you might even have gotte=
+n the real price, what do you know. The market maker who sold you the stock=
+ is happy because it can buy at $10.01 (the real best price) and sell at $1=
+0.03 (the price-improved, better-than-NBBO-but-still-worse-than-real best p=
+rice). If you knew that the real price was $10.01 you=E2=80=99d be mad, but=
+ you don=E2=80=99t; for all you know the real price was $10.03, you got it,=
+ and you=E2=80=99re doing great.This model is too cynical, but I think it a=
+ccurately captures why people are mad about payment for order flow for reta=
+il stock trading. We have  discussed payment for order flow=C2=A0several ti=
+mes before, in more sensible and less cynical ways, but on the cynical mode=
+l all PFOF is is:=09You send an order to your broker.=09Your broker sends i=
+t to a wholesaler, an electronic market maker for retail customers.=09The w=
+holesaler buys it at the real price, say $10.01.=09The wholesaler sells it =
+to you at some price-improved price, say $10.03.=09The wholesaler makes $0.=
+02.=09The wholesaler gives some of that money to your broker as payment for=
+ getting to do this free-money trade.Again, again, too cynical. The wronges=
+t part of this model is probably point 3; the wholesaler does=C2=A0not, as =
+a general matter, go out and =E2=80=9Cfront-run=E2=80=9D your order by buyi=
+ng it at the real price and turning around to sell it to you at a higher pr=
+ice. (The wholesaler runs a book, trades with you out of inventory,=C2=A0ha=
+s its own model of the correct price, tries to trade at some spread around =
+that, etc.) But people do get really mad about payment for order flow,=C2=
+=A0even though it gives retail customers better prices than they would get =
+on the public stock exchange, and it is worth understanding that position. =
+If you start from =E2=80=9Cwell, of course, but the prices on the public st=
+ock exchange are for rubes, nobody pays those,=E2=80=9D it becomes pretty u=
+nderstandable.=C2=A0I don=E2=80=99t really want to endorse the model I laid=
+ out above except, oh man, look at this Securities and Exchange Commission =
+enforcement action from Monday:The Securities and Exchange Commission insti=
+tuted settled charges against Illinois-based Coda Markets, Inc. for making =
+material omissions and misleading statements to the broker-dealer subscribe=
+rs of its alternative trading system (ATS) about how it handled and routed =
+orders for execution. =E2=80=A6The SEC's order finds that from December 201=
+6 to July 2019, Coda failed to disclose its use of a circular routing arran=
+gement when handling subscriber orders. According to the SEC's order, Coda =
+disclosed that it created individually customized routing tables for the su=
+bscribers to its ATS, with venues ranked in the routing tables depending on=
+ the subscriber's trading priorities. The order finds that when Coda had di=
+scretion over the routing table, Coda inserted one of two broker-dealers as=
+ the first external destination because, among other reasons, Coda had agre=
+ements with these broker-dealers to share the net trading profits on execut=
+ions of orders routed from Coda.=C2=A0Coda is a broker-dealer, and it runs =
+a dark pool called Coda ATS. Some of its customers were subscribers to its =
+dark pool; they would send orders to Coda, and Coda would either execute th=
+e orders in the dark pool or, for =E2=80=9Cthe vast majority of Coda=E2=80=
+=99s order flow,=E2=80=9D route them somewhere else: It would send an order=
+ to other dark pools and stock exchanges until it executed, with the dark p=
+ools and exchanges ranked on some criteria along the lines of =E2=80=9Cwher=
+e will we get the best price.=E2=80=9D Customers would send their orders to=
+ Coda because they hoped to buy stock at the real price, rather than the li=
+t price. Maybe the stock is for sale at the real price in Coda=E2=80=99s da=
+rk pool, and they=E2=80=99ll buy it there, or maybe it=E2=80=99s for sale a=
+t the real price in some other dark pool, and Coda, which is smart, will ro=
+ute their orders to that pool so they can buy it there.=C2=A0And then here=
+=E2=80=99s what Coda did:During the relevant period, Coda had agreements wi=
+th two other broker-dealers to execute orders received from Coda by trading=
+ on a net basis (the =E2=80=9CNet Trading Firms=E2=80=9D), wherein Coda pre=
+scribed how the Net Trading Firms would handle the majority of the orders t=
+hey received from Coda.=C2=A0When Coda routed a subscriber order to one of =
+the Net Trading Firms, the Net Trading Firm would hold the subscriber order=
+ in reserve and then, in most cases, send a principal order back to Coda. C=
+oda would then route the Net Trading Firm=E2=80=99s principal order to one =
+or more external markets to seek non-displayed liquidity. If the Net Tradin=
+g Firm=E2=80=99s principal order executed, Coda would communicate the execu=
+tion(s) back to the Net Trading Firm, which would then effect an offsetting=
+ trade with the subscriber at a net price which was different than the pric=
+e of the trade obtained by Coda on the external market for the principal or=
+der.The Net Trading Firms and Coda agreed that they would price the offsett=
+ing leg (between the Net Trading Firm and the subscriber) such that the Net=
+ Trading Firm would provide 5% of the price improvement to Coda=E2=80=99s s=
+ubscriber order, and retain the remaining 95% of the price improvement.Duri=
+ng the relevant period, Coda had a profit sharing agreement with the Net Tr=
+ading Firms. When a Net Trading Firm executed an order routed from Coda, th=
+e Net Trading Firm paid Coda approximately 70% of the net trading profit de=
+rived from the net trade.=C2=A0That is:=09Coda would get a customer order t=
+o buy stock.=09Coda would send that order to one of its partner firms (the =
+=E2=80=9CNet Trading Firms=E2=80=9D) to execute.=09They would say =E2=80=9C=
+hang on a minute.=E2=80=9D=09They would send=C2=A0their=C2=A0order to buy t=
+he same stock back to the Coda dark pool.=09Coda would send=C2=A0that=C2=A0=
+order to some other dark pools to try to buy stock at the real price (=E2=
+=80=9Cto one or more external markets to seek non-displayed liquidity=E2=80=
+=9D).=09Coda would come back to the partner firm and say =E2=80=9Cgood news=
+, you bought the stock at $10.01.=E2=80=9D=09The partner firm would say =E2=
+=80=9Cgreat, also, we sold the stock to your customer at $10.048.=E2=80=9D[=
+1]=09Coda would go back to the customer and say =E2=80=9Cgood news, your or=
+der got filled in our dark pool at $10.048, which is $0.002 better than the=
+ national best offer of $10.05 on the lit stock exchange.=E2=80=9D=09The pa=
+rtner firm would say to Coda =E2=80=9Cpleasure doing business with you, her=
+e=E2=80=99s $0.027.=E2=80=9D[2]The customers think they have=C2=A0no cause =
+for complaint, because they did better than the NBBO. The whole thing is an=
+ institutional equivalent of retail payment for order flow: The partner fir=
+ms fill the customers at a better price than the NBBO, make some profit for=
+ themselves, and kick back some of it to the broker (Coda).[3]It seems =E2=
+=80=A6=C2=A0quite =E2=80=A6=C2=A0bad? Like the customers went to Coda expec=
+ting it to just=C2=A0route their order where it would get the best price. (=
+Because Coda sort of said that that=E2=80=99s what it would do.) Instead it=
+ gave the order to its partner net trading firms, then sent=C2=A0their=C2=
+=A0orders where they would get the best price, then let them fill the custo=
+mers=E2=80=99=C2=A0orders at a worse price, and then took a kickback. It is=
+ probably not technically =E2=80=9Cfront-running,=E2=80=9D=C2=A0but it is s=
+ort of front-running-adjacent. The customers got no value for it; the SEC s=
+ays:Coda was not =E2=80=9Cseeking liquidity=E2=80=9D from the Net Trading F=
+irms because the Net Trading Firms usually took no steps to obtain liquidit=
+y for the subscriber order, and pursuant to the arrangement with Coda, usua=
+lly would route a principal order directly back to Coda so that Coda could =
+route it to an away market for execution.It could have just done that with =
+the customer order, instead of going through the net trading firms. But the=
+n it wouldn=E2=80=99t get its money.Anyway Coda and its president settled w=
+ith the SEC for about $1.2 million in fines, without admitting or denying t=
+he findings. Also this all ended long ago:By December 2019, Coda stopped th=
+e circular routing arrangement described above. Coda also ended its profit =
+sharing agreements with the Net Trading Firms. Since December 2019, Coda ha=
+s had an agreement with a market maker to pay Coda fixed payments for order=
+ flow as agreed by the parties.=C2=A0Ah, well, I=E2=80=99m sure that=E2=80=
+=99s fine then.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      =E2=80=9CBanks are technology companies=E2=80=9D
+   =20
+ =20
+I used to work in an equity capital markets group at an investment bank so =
+this brought back happy memories:The syndicate desk=E2=80=94a longtime fixt=
+ure at banks across Wall Street where IPOs and other large stock sales are =
+priced and allocated to investors=E2=80=94has long clung to traditional way=
+s of doing business like phone orders and scribbled pieces of paper, even a=
+s other businesses go digital. ...Ben Batory, head of Franklin Equity Group=
+ Trading at Franklin Templeton, said for decades he and his team have kept =
+track of how many shares they asked for in IPOs=E2=80=94as well as how many=
+ they received and at what price=E2=80=94on loose sheets of paper. He and h=
+is counterparts at other firms talk of calling multiple bankers on a deal t=
+o make sure their orders are recorded correctly. And then they wait. The mo=
+rning after an IPO prices, a banker calls them, tells them how many shares =
+they got, at what price, and what percentage of fees they owe to each of th=
+e dozen or so underwriters. It is up to Mr. Batory, or someone in his shoes=
+, to keep track of it all.=E2=80=9CAll these things are ripe for error,=E2=
+=80=9D he said. =E2=80=9CThere can be five deals a day, and you need to get=
+ the amount right, get the commission right, and it=E2=80=99s all chicken s=
+cratch on a piece of paper on my desk. It=E2=80=99s incredibly challenging.=
+=E2=80=9DWould you believe that the solution is to have some sort of websit=
+e where customers can type in how many shares they want, and then the banks=
+ could look at the order book and decide how many shares to allocate to eac=
+h investor, and then the investors could just see on the website how many s=
+hares they got and how much they had to pay? Seems too easy, doesn't it? Li=
+ke if it were as simple as that someone would have just done it, right? Ha =
+well anyway:Capital Markets Gateway LLC has set out to change that. Backed =
+by Franklin Templeton, Fidelity Investments, Goldman Sachs Group Inc., JPMo=
+rgan Chase & Co. and Morgan Stanley,=C2=A0among others, CMG was launched in=
+ 2017 by former bankers at Robert W. Baird & Co. =E2=80=A6When the system i=
+s up and running, buy-side firms=E2=80=94of which nearly 100 are signed up=
+=E2=80=94will be able to see what deals are pricing when, what the terms ar=
+e and digitally enter their orders with lead bankers, so long as they have =
+an existing relationship with them.Once IPOs and other offerings are priced=
+, instead of waiting until the following morning to learn via a phone call =
+if they received any allocation, fund managers can find out electronically =
+that same evening.=C2=A0Isn=E2=80=99t technology amazing. My basic theory i=
+s that there are a lot of areas of finance where much of the lucrative valu=
+e-add that a highly paid expert provides is, like, =E2=80=9Cremembering who=
+ wants to buy a stock=E2=80=9D or =E2=80=9Cremembering the terms of the las=
+t 10 deals=E2=80=9D or whatever. Much of the work that investment banks do =
+requires nuanced judgment and creativity and boldness and deep personal con=
+nections; some of it =E2=80=A6=C2=A0does not.If people call you up and say =
+=E2=80=9CI want to buy the stock=E2=80=9D and you write down their names on=
+ a piece of paper and put it in your pocket, you can go to the client and s=
+ay =E2=80=9CI have a $10 billion book of demand for your stock,=E2=80=9D an=
+d the client will be like =E2=80=9Cwow you are amazing, our hero, here=E2=
+=80=99s a $20 million fee to pay for your expertise and hard work and marke=
+t knowledge and investor relationships.=E2=80=9D Whereas if people type the=
+ir orders on a website and the client looks at the website and sees $10 bil=
+lion of demand for the stock and you are standing next to the website looki=
+ng important the client will say =E2=80=9Ccould you move please, you=E2=80=
+=99re blocking our view of the website.=E2=80=9DJust putting all this stuff=
+ on a computer demystifies it a bit, which is probably not great for margin=
+s. Or maybe it=E2=80=99s great for margins insofar as it allows the bank to=
+ replace highly paid high-touch professionals with scalable apps; it=E2=80=
+=99s just not great for banker compensation. And my other basic theory is t=
+hat the goal of an investment=C2=A0bank is to maximize banker compensation.=
+=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Meme stocks
+   =20
+ =20
+A key explanation of, like, modern life is that politics are so vicious and=
+ polarized because (1) everyone uses Facebook, (2) Facebook has an algorith=
+m to decide what stuff to show people, (3) that algorithm is built to maxim=
+ize engagement, (4) the algorithm is very effective, and (5) it turns out t=
+hat what maximizes engagement is vicious polarizing stuff, oops. That proba=
+bly exaggerates the role of Facebook=E2=80=99s algorithm and understates th=
+e agency of its users =E2=80=94=C2=A0=E2=80=9CEverything you hate about the=
+ Internet is actually everything you hate about people,=E2=80=9D says Balk=
+=E2=80=99s First Law =E2=80=94 but there=E2=80=99s something to it. Social =
+media reflects and also shapes human behavior, in an emergent=C2=A0way. It =
+targets a behavior it likes =E2=80=94=C2=A0spending more time on Facebook, =
+basically =E2=80=94 and tries to maximize it. To do that, it maximizes beha=
+viors that correlate with the target behavior, like posting and reading vic=
+ious political content. It gives people what they want, as revealed by thei=
+r actions, which is not what they actually want. (Or is it?) And so at some=
+ level you have behaviors in the real world that seem to be designed by an =
+algorithm to maximize engagement on social media; politics are vicious and =
+volatile because that=E2=80=99s what Facebook, deep down, wants.Okay now le=
+t=E2=80=99s do stocks! At Margins, Ranjan Roy has a great post on =E2=80=9C=
+Memestocks and Reddit redesigns=E2=80=9D arguing that some of the 2021 meme=
+-stock craze is due to changes in Reddit=E2=80=99s algorithms to maximize e=
+ngagement: The stock market is volatile and bizarre because that=E2=80=99s =
+what Reddit, deep down, wants.=C2=A0You read about a stock, Reddit sends yo=
+u =E2=80=9Cyou might also like ...=E2=80=9D notifications about that stock =
+and other stocks, those notifications are designed to draw you in, they wor=
+k, you spend more time looking at stocks on Reddit, your identity starts to=
+ become =E2=80=9Cperson who cares about this stock,=E2=80=9D you buy the st=
+ock, you start posting about it, you start buying weekly-expiry out-of-the-=
+money call options on the stock and posting your daily profits and losses, =
+the stock goes to $1,000, it becomes the biggest story in the national news=
+, everyone in the country is obsessed with it, and=C2=A0they are all coming=
+ to Reddit=C2=A0because the story is not =E2=80=9Cstock goes up=E2=80=9D bu=
+t =E2=80=9Cstock goes up because people are having fun and getting rich on =
+Reddit.=E2=80=9D=C2=A0From the dumb perspective of the Reddit algorithm tha=
+t sends you those notifications, this is what success looks like: It sent y=
+ou those notifications, and now everyone is on Reddit. It is a paperclip ma=
+ximizer: Its goal is to get more people to spend more time on Reddit, and t=
+he way it does that is to cause global financial markets to be wildly volat=
+ile and disconnected from fundamental value because it turns out =E2=80=94=
+=C2=A0who knew? =E2=80=94 that that drives more engagement with Reddit. Nob=
+ody at Reddit sat down and said =E2=80=9Chey we should pump up some weird s=
+tocks, that will maximize traffic=E2=80=9D; its engagement algorithms just =
+figured that out on their own. And now here we are. Roy:When the history of=
+ the memestock craze is written, there are a lot of known factors (or at le=
+ast, they=E2=80=99re clear to me). ZIRP. Robinhood and the gamification of =
+trading. Stimulus checks and people sitting at home. But especially, in lig=
+ht of this week=E2=80=99s amazing Wall Street Journal series the Facebook F=
+iles ...=C2=A0unanticipated consequences of engagement-driven algorithms ar=
+e top of mind.When Reddit raised a ton of money and hired a media growth le=
+gend, I=E2=80=99m sure sending AMC to the moon was never on anyone=E2=80=99=
+s mind. But as we slowly try to make sense of what=E2=80=99s happened in th=
+e financial markets over the past year, it=E2=80=99s worth remembering how =
+a redirection in a business model and UX tweaks can create massive outsized=
+ behavioral changes that make the world a lot weirder and harder to underst=
+and.
+ =20
+   =20
+      Evergrande
+   =20
+ =20
+I guess that if you are a financial regulator there is something to be said=
+ for taking an inscrutable tough-love approach with companies that run into=
+ trouble:Company: We are almost out of money and have so many creditors. Sh=
+ould we prioritize delivering product to customers, or paying suppliers, or=
+ making payments on debt to local retail investors, or making payments on d=
+ebt to offshore bond investors?Regulator: Yes.Company: ...Regulator: ...Com=
+pany: Okay, good one, ha ha ha,=C2=A0but seriously we can=E2=80=99t pay eve=
+ryone.Regulator: Try.What is the benefit, to the regulator, of saying =E2=
+=80=9Cif I were you I=E2=80=99d pay the retail investors and stiff the offs=
+hore ones=E2=80=9D? Why would you want to sound like you approve of stiffin=
+g anyone?=C2=A0You=C2=A0want=C2=A0the company to feel bad about all of this=
+, to be nervous; you don=E2=80=99t want to be too quick to bless a plan to =
+wriggle out of any debts.=C2=A0I=E2=80=99m not sure that that=E2=80=99s exa=
+ctly what  this is, though it kind of sounds like it:Financial regulators i=
+n Beijing issued a broad set of instructions to China Evergrande Group, tel=
+ling the embattled developer to focus on completing unfinished properties a=
+nd repaying individual investors while avoiding a near-term default on doll=
+ar bonds.In a recent meeting with Evergrande representatives, regulators sa=
+id the company should communicate proactively with bondholders to avoid a d=
+efault but didn=E2=80=99t give more specific guidance, a person familiar wi=
+th the matter said. The developer has an $83.5 million coupon due Thursday,=
+ with a 30-day grace period to make the payment.There=E2=80=99s no indicati=
+on that regulators offered financial support to Evergrande for the bond pay=
+ment, and it=E2=80=99s unclear whether officials believe the company should=
+ eventually impose losses on offshore creditors. Policy makers are trying t=
+o learn more about who holds Evergrande=E2=80=99s bonds, the person said, a=
+sking not to be identified discussing sensitive information.Focus on delive=
+ring properties to customers and paying individual investors, but don=E2=80=
+=99t default on your offshore bonds either. Just try not to be in trouble a=
+nymore? I guess =E2=80=9Cavoiding near-term default on dollar bonds=E2=80=
+=9D is the softest ask there. =E2=80=9CGet dollar bondholders not to compla=
+in for a couple of weeks, then default on them=E2=80=9D is one possible int=
+erpretation of that one. If you are a dollar bondholder and Evergrande call=
+s you after this meeting to say =E2=80=9Chey just give us two weeks and we=
+=E2=80=99ll have your money,=E2=80=9D do you believe them?
+ =20
+   =20
+      Employer front-running
+   =20
+ =20
+The Financial Times has the story of a Frankfurt fund manager who =E2=80=9C=
+admitted in court on Wednesday to =E2=80=98front-running=E2=80=99=C2=A0inve=
+stment decisions he made on behalf of his employer on 55 occasions between =
+April and September last year, making =E2=82=AC8.1m in net profit=E2=80=9D:=
+On an ordinary trading day, he would buy and sell shares worth =E2=82=AC500=
+m on behalf of his employer and was aware that large orders placed by Union=
+ moved share prices, on average by 0.6 per cent to 0.8 per cent.In one exam=
+ple of his front-running, he spent =E2=82=AC913,000 on call options for sha=
+res in Deutsche Post just seconds before placing a large order of the stock=
+ on behalf of Union that moved the share price by 2.7 per cent. He sold the=
+ options within an hour, making a profit of =E2=82=AC227,000.The defendant =
+told the judges that he started insider trading as he was deeply frustrated=
+ by his pay of =E2=82=AC440,000 in 2019. After receiving only half the pay =
+rise he had hoped for in early April 2020, he felt =E2=80=9Coffended=E2=80=
+=9D and decided to recoup the rest himself.I guess? If you work for a big f=
+inancial institution, you are in proximity to a lot of money. They will pay=
+ you some of the money, but if they don=E2=80=99t pay you enough for your t=
+astes, I suppose you can just take some of the money for yourself. Particul=
+arly if no one is looking:The fund manager started executing private trades=
+ at his desk at Union=E2=80=99s headquarters. =E2=80=9CAs everyone else was=
+ working from home, it was only me and one junior colleague in the office,=
+=E2=80=9D he told five judges at Frankfurt district court.Meanwhile in the =
+U.S., here are uncannily similar allegations from the Securities and Exchan=
+ge Commission today:The Securities and Exchange Commission today announced =
+charges against Sergei Polevikov, who worked as a quantitative analyst at t=
+wo prominent asset management firms, for perpetrating a years-long front-ru=
+nning scheme that generated illicit profits of at least $8.5 million.Accord=
+ing to the SEC's complaint, filed in the United States District Court for t=
+he Southern District of New York, from at least January 2014 through Octobe=
+r 2019, Polevikov had access to real-time, non-public information about the=
+ size and timing of his employers' securities orders and trades, and used t=
+hat information to secretly trade on, and ahead of, his employers' trades. =
+As alleged, Polevikov, on nearly 3,000 occasions, bought or sold a stock on=
+ the same side of the market as his employers before his employers executed=
+ trades in the same stock for their fund clients. Polevikov typically would=
+ close his positions the same day as he opened them, capitalizing on the pr=
+ice movement caused by his employers' large trades. The SEC alleges that Po=
+levikov concealed his fraudulent scheme by executing the trades in the acco=
+unt of his wife, Maryna Arystava, who uses a different last name.He was als=
+o charged criminally. Apparently he was spotted because he, uh, made=C2=A0t=
+hree thousand=C2=A0successful day trades?The investigation originated from =
+the SEC's Market Abuse Unit's Analysis and Detection Center, which uses dat=
+a analysis tools to detect suspicious patterns, such as improbably successf=
+ul trading across different securities over time. These capabilities enable=
+d the SEC to spot Polevikov=E2=80=99s trading activities which consistently=
+ generated small profits that added up to a total of at least $8.5 million =
+over the course of the scheme.One of my main rules of insider trading is th=
+at if you are going to insider trade you shouldn=E2=80=99t do it by buying =
+short-dated out-of-the-money call options on merger targets, particularly i=
+f you have never traded options before: That looks real real suspicious and=
+ the SEC will notice. But I sympathize a little with the people who do that=
+, because it is a way to use your inside information to make a lot of money=
+ quickly, and the alternative is, what? Making smallish normal-seeming stoc=
+k trades without much obvious news but with some statistical edge from know=
+ing your employer=E2=80=99s orders, making a modest profit each time, and d=
+oing it=C2=A0thousands of times?=C2=A0They=E2=80=99re gonna notice that too=
+.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+=E2=80=9CThe reality is that if you created a business in China that=E2=80=
+=99s worth billions, you=E2=80=99ve done so with the blessing of the govern=
+ment, so it=E2=80=99s definitely the wrong time to be cashing in.=E2=80=9D=
+=C2=A0Fed Tees Up Taper and Signals Rate Rises Possible Next Year. Biden to=
+ Tap Crypto,  Big-Bank Critic to Run Wall Street Watchdog. Elizabeth Warren=
+ and Democrats Are Going After  SPAC Kingpins. Private Equity Party Is Endi=
+ng and  We=E2=80=99re Exhausted, Carlyle Says. =E2=80=9CCitigroup Inc. work=
+ers in London were greeted by  therapy puppies upon their return this month=
+.=E2=80=9D Elon Musk Says  Dogecoin Fees Need to Drop to be Viable for Purc=
+hases. Cathie Wood Would Sell Tesla Next Year  If It Reached $3,000. Pro-ra=
+ta vs. user-centric accounting. =E2=80=9CIn the mid-1980s, Mr. Van Peebles =
+was one of the few Black options traders on the American Stock Exchange =E2=
+=80=94 =E2=80=98making deals, like always,=E2=80=99=C2=A0he said.=E2=80=9DI=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0subscribe at this link. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters here. Thanks![1] I continu=
+e to assume that the national best offer is $10.05. So the partner firm, bu=
+ying at $10.01, got $0.04 of price improvement. It kept 95% ($0.038) for it=
+self and gave 5% ($0.002) to the customer.[2] That is, =E2=80=9Cthe Net Tra=
+ding Firm paid Coda approximately 70% of the net trading profit derived fro=
+m the net trade,=E2=80=9D or 70% of $0.038 in my example numbers.[3] The ec=
+onomics here do seem worse, for the customer, than they are in retail payme=
+nt for order flow. We talked about Larry Tabb=E2=80=99s and Jackson Gutenpl=
+an=E2=80=99s report at Bloomberg last month, finding that =E2=80=9CMarket m=
+akers captured 48.5% of the spread in executing self-directed retail orders=
+ in 2Q. Of the balance, 13.3% was paid to the broker and 38.2% went to the =
+client.=E2=80=9D That=E2=80=99s not exactly apples-to-apples with the SEC=
+=E2=80=99s numbers here.=C2=A0But roughly speaking here Coda gets 66.5% of =
+the economics (70% of 95%), the partner net trading firms get 28.5%, and th=
+e customers get 5%.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceyhqx.5uot/a32f830f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_19271022_775863254.1632415134590
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB86a58a62" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 5px;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBa105952f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC6a03a05b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bad PFOF</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A rough, inaccurate but useful way to =
+think about U.S. equity market structure is that the prices on the stock ex=
+change are bad. You can go to a public stock exchange and see a =E2=80=9Cli=
+t,=E2=80=9D public bid and offer for every stock; the exchange will tell yo=
+u at all times, like, =E2=80=9Cyou can buy this stock for $10.05 or sell it=
+ for $9.95.=E2=80=9D (The best buying and selling price available on all th=
+e lit exchanges=C2=A0is called the =E2=80=9Cnational best bid and offer=E2=
+=80=9D or NBBO.)=C2=A0But if you ever find yourself paying the lit price to=
+ buy a stock, or accepting the lit price to sell it, you have done poorly. =
+That is just the sticker price, the advertised price, the price for rubes.=
+=C2=A0<em>Somewhere</em>, in the dark, there are hidden orders at better pr=
+ices, and=C2=A0if you and your broker are any good you will find them.=C2=
+=A0</p><p style=3D"margin: 16px 0;">I want to stress that this is rough and=
+ inaccurate; if you work for a stock exchange, or for an electronic market =
+maker that quotes on the exchanges, you don=E2=80=99t have to email me to b=
+e like =E2=80=9Cactually our quotes are great.=E2=80=9D I just mean that, t=
+o understand what people get=C2=A0<em>mad </em>about in market structure, i=
+t is often helpful to start from the premise =E2=80=9Cthey think the=C2=A0N=
+BBO is bad.=E2=80=9D</p><p style=3D"margin: 16px 0;">If you start from that=
+ premise you can build a model in which there are basically four different =
+=E2=80=9Cmarket=E2=80=9D prices for a stock. In ascending order:</p><ol sty=
+le=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li=
+ style=3D"margin-bottom: 5px;">The national best bid is the price you=E2=80=
+=99d get if you tried to sell the stock on a lit stock exchange. This price=
+ is too low. Say it=E2=80=99s $9.95.</li>=09<li style=3D"margin-bottom: 5px=
+;">The =E2=80=9Creal=E2=80=9D best bid is the best price you could find to =
+sell the stock if you knew where to look. Say there=E2=80=99s some dark poo=
+l somewhere where someone has a hidden order to buy the stock at $9.99; if =
+you find that order you can sell at $9.99.</li>=09<li style=3D"margin-botto=
+m: 5px;">The =E2=80=9Creal=E2=80=9D best offer is the best price you could =
+find to buy the stock if you knew where to look. Say it=E2=80=99s $10.01.</=
+li>=09<li style=3D"margin-bottom: 5px;">The national best offer is the best=
+ price you could find to buy the stock on a lit stock exchange. This price =
+is too high. Say it=E2=80=99s $10.05.</li></ol><p style=3D"margin: 16px 0;"=
+>Prices 1 and 4, the NBBO, are transparent; anyone can see what they are. P=
+rices 2 and 3, the =E2=80=9Creal=E2=80=9D best prices available in dark poo=
+ls and hidden liquidity and internalizers=E2=80=99 books and so forth, are =
+not; certain sorts of experts know what they are but most people have to gu=
+ess at them.</p><p style=3D"margin: 16px 0;">Your goal, as a person looking=
+ to buy or sell stock, is to find the real=C2=A0best price, by scouring dar=
+k pools and knowing a lot about markets and routing orders cleverly, or by =
+having a trusted intermediary do that for you. The goal of the expert inter=
+mediary selling you the stock is =E2=80=A6=C2=A0well, their goal is complic=
+ated. Their goal is to (1) make money for themselves and (2) keep you comin=
+g back.</p><p style=3D"margin: 16px 0;">If they sell you stock at=C2=A0<em>=
+worse=C2=A0</em>prices than the NBBO they will get in trouble. If they sell=
+ you stock at the NBBO, they will do well =E2=80=94 on this model,=C2=A0<em=
+>they=C2=A0</em>can buy stock at the real best price and resell it to you a=
+t the NBBO, keeping the difference for themselves =E2=80=94=C2=A0but if you=
+ are sophisticated you won=E2=80=99t keep coming back. This model is so wid=
+ely understood that executing trades at the NBBO=C2=A0is often considered b=
+ad. What you want is to get =E2=80=9Cprice improvement,=E2=80=9D to execute=
+ at some price better than the NBBO, so that you think you=C2=A0<em>might=
+=C2=A0</em>be getting the real price.=C2=A0</p><p style=3D"margin: 16px 0;"=
+>And so the game for the expert intermediaries selling you the stock is to =
+sell it to you at some price between the lit best price and the real best p=
+rice. You try to buy stock, the national best offer is $10.05, your broker =
+says =E2=80=9Cgood news, we got you price improvement, you=E2=80=99re fille=
+d at $10.03.=E2=80=9D You are happy because you got a better price than the=
+ NBBO; you got the great-customer discount; you might even have gotten the =
+real price, what do you know. The market maker who sold you the stock is ha=
+ppy because it can buy at $10.01 (the real best price) and sell at $10.03 (=
+the price-improved, better-than-NBBO-but-still-worse-than-real best price).=
+ If you knew that the real price was $10.01 you=E2=80=99d be mad, but you d=
+on=E2=80=99t; for all you know the real price was $10.03, you got it, and y=
+ou=E2=80=99re doing great.</p><p style=3D"margin: 16px 0;">This model is to=
+o cynical, but I think it accurately captures why people are mad about paym=
+ent for order flow for retail stock trading. We have <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXN=
+hZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c/607f07ceef4b8524a319a23cB3=
+c1484f4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+discussed</a> payment for order flow=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDgtMzEvd2hhdC1oYXBwZW5zLXRvLXJvYmluaG9vZC1pZi=
+10aGUtc2VjLWJhbnMtcGF5bWVudC1mb3Itb3JkZXItZmxvdy1rdDBhNWtqZw/607f07ceef4b85=
+24a319a23cBc15b4571" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">several times</a> before, in more sensible and less cynical wa=
+ys, but on the cynical model all PFOF is is:</p><ol style=3D"list-style-typ=
+e: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bot=
+tom: 5px;">You send an order to your broker.</li>=09<li style=3D"margin-bot=
+tom: 5px;">Your broker sends it to a wholesaler, an electronic market maker=
+ for retail customers.</li>=09<li style=3D"margin-bottom: 5px;">The wholesa=
+ler buys it at the real price, say $10.01.</li>=09<li style=3D"margin-botto=
+m: 5px;">The wholesaler sells it to you at some price-improved price, say $=
+10.03.</li>=09<li style=3D"margin-bottom: 5px;">The wholesaler makes $0.02.=
+</li>=09<li style=3D"margin-bottom: 5px;">The wholesaler gives some of that=
+ money to your broker as payment for getting to do this free-money trade.</=
+li></ol><p style=3D"margin: 16px 0;">Again, again, too cynical. The wronges=
+t part of this model is probably point 3; the wholesaler does=C2=A0<em>not<=
+/em>, as a general matter, go out and =E2=80=9Cfront-run=E2=80=9D your orde=
+r by buying it at the real price and turning around to sell it to you at a =
+higher price. (The wholesaler runs a book, trades with you out of inventory=
+,=C2=A0has its own model of the correct price, tries to trade at some sprea=
+d around that, etc.) But people do get really mad about payment for order f=
+low,=C2=A0<em>even though it gives retail customers better prices than they=
+ would get on the public stock exchange</em>, and it is worth understanding=
+ that position. If you start from =E2=80=9Cwell, of course, but the prices =
+on the public stock exchange are for rubes, nobody pays those,=E2=80=9D it =
+becomes pretty understandable.=C2=A0</p><p style=3D"margin: 16px 0;">I don=
+=E2=80=99t really want to endorse the model I laid out above except, oh man=
+, look at this Securities and Exchange Commission <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+lbmZvcmNlLzMzLTEwOTg1LXM/607f07ceef4b8524a319a23cBad44e3ca" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">enforcement action from M=
+onday</a>:</p><blockquote><p style=3D"margin: 16px 0;">The Securities and E=
+xchange Commission instituted settled charges against Illinois-based Coda M=
+arkets, Inc. for making material omissions and misleading statements to the=
+ broker-dealer subscribers of its alternative trading system (ATS) about ho=
+w it handled and routed orders for execution. =E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">The SEC's order finds that from December 2016 to July 2019, Co=
+da failed to disclose its use of a circular routing arrangement when handli=
+ng subscriber orders. According to the SEC's order, Coda disclosed that it =
+created individually customized routing tables for the subscribers to its A=
+TS, with venues ranked in the routing tables depending on the subscriber's =
+trading priorities. The order finds that when Coda had discretion over the =
+routing table, Coda inserted one of two broker-dealers as the first externa=
+l destination because, among other reasons, Coda had agreements with these =
+broker-dealers to share the net trading profits on executions of orders rou=
+ted from Coda.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Coda is a=
+ broker-dealer, and it runs a dark pool called Coda ATS. Some of its custom=
+ers were subscribers to its dark pool; they would send orders to Coda, and =
+Coda would either execute the orders in the dark pool or, for =E2=80=9Cthe =
+vast majority of Coda=E2=80=99s order flow,=E2=80=9D route them somewhere e=
+lse: It would send an order to other dark pools and stock exchanges until i=
+t executed, with the dark pools and exchanges ranked on some criteria along=
+ the lines of =E2=80=9Cwhere will we get the best price.=E2=80=9D Customers=
+ would send their orders to Coda because they hoped to buy stock at the rea=
+l price, rather than the lit price. Maybe the stock is for sale at the real=
+ price in Coda=E2=80=99s dark pool, and they=E2=80=99ll buy it there, or ma=
+ybe it=E2=80=99s for sale at the real price in some other dark pool, and Co=
+da, which is smart, will route their orders to that pool so they can buy it=
+ there.=C2=A0</p><p style=3D"margin: 16px 0;">And then here=E2=80=99s <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIwMjEvMzMtMTA5ODUucGRm/607f07cee=
+f4b8524a319a23cB2a9b33b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">what Coda did</a>:</p><blockquote><p style=3D"margin: 16px =
+0;">During the relevant period, Coda had agreements with two other broker-d=
+ealers to execute orders received from Coda by trading on a net basis (the =
+=E2=80=9CNet Trading Firms=E2=80=9D), wherein Coda prescribed how the Net T=
+rading Firms would handle the majority of the orders they received from Cod=
+a.=C2=A0When Coda routed a subscriber order to one of the Net Trading Firms=
+, the Net Trading Firm would hold the subscriber order in reserve and then,=
+ in most cases, send a principal order back to Coda. Coda would then route =
+the Net Trading Firm=E2=80=99s principal order to one or more external mark=
+ets to seek non-displayed liquidity. If the Net Trading Firm=E2=80=99s prin=
+cipal order executed, Coda would communicate the execution(s) back to the N=
+et Trading Firm, which would then effect an offsetting trade with the subsc=
+riber at a net price which was different than the price of the trade obtain=
+ed by Coda on the external market for the principal order.</p><p style=3D"m=
+argin: 16px 0;">The Net Trading Firms and Coda agreed that they would price=
+ the offsetting leg (between the Net Trading Firm and the subscriber) such =
+that the Net Trading Firm would provide 5% of the price improvement to Coda=
+=E2=80=99s subscriber order, and retain the remaining 95% of the price impr=
+ovement.</p><p style=3D"margin: 16px 0;">During the relevant period, Coda h=
+ad a profit sharing agreement with the Net Trading Firms. When a Net Tradin=
+g Firm executed an order routed from Coda, the Net Trading Firm paid Coda a=
+pproximately 70% of the net trading profit derived from the net trade.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">That is:</p><ol style=3D"l=
+ist-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">Coda would get a customer order to buy stock.</li>=
+=09<li style=3D"margin-bottom: 5px;">Coda would send that order to one of i=
+ts partner firms (the =E2=80=9CNet Trading Firms=E2=80=9D) to execute.</li>=
+=09<li style=3D"margin-bottom: 5px;">They would say =E2=80=9Chang on a minu=
+te.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">They would send=C2=A0=
+<em>their=C2=A0</em>order to buy the same stock back to the Coda dark pool.=
+</li>=09<li style=3D"margin-bottom: 5px;">Coda would send=C2=A0<em>that=C2=
+=A0</em>order to some other dark pools to try to buy stock at the real pric=
+e (=E2=80=9Cto one or more external markets to seek non-displayed liquidity=
+=E2=80=9D).</li>=09<li style=3D"margin-bottom: 5px;">Coda would come back t=
+o the partner firm and say =E2=80=9Cgood news, you bought the stock at $10.=
+01.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">The partner firm woul=
+d say =E2=80=9Cgreat, also, we sold the stock to your customer at $10.048.=
+=E2=80=9D[1]</li>=09<li style=3D"margin-bottom: 5px;">Coda would go back to=
+ the customer and say =E2=80=9Cgood news, your order got filled in our dark=
+ pool at $10.048, which is $0.002 better than the national best offer of $1=
+0.05 on the lit stock exchange.=E2=80=9D</li>=09<li style=3D"margin-bottom:=
+ 5px;">The partner firm would say to Coda =E2=80=9Cpleasure doing business =
+with you, here=E2=80=99s $0.027.=E2=80=9D[2]</li></ol><p style=3D"margin: 1=
+6px 0;">The customers think they have=C2=A0no cause for complaint, because =
+they did better than the NBBO. The whole thing is an institutional equivale=
+nt of retail payment for order flow: The partner firms fill the customers a=
+t a better price than the NBBO, make some profit for themselves, and kick b=
+ack some of it to the broker (Coda).[3]</p><p style=3D"margin: 16px 0;">It =
+seems =E2=80=A6=C2=A0quite =E2=80=A6=C2=A0bad? Like the customers went to C=
+oda expecting it to just=C2=A0<em>route their order where it would get the =
+best price</em>. (Because Coda sort of said that that=E2=80=99s what it wou=
+ld do.) Instead it gave the order to its partner net trading firms, then se=
+nt=C2=A0<em>their=C2=A0</em>orders where they would get the best price, the=
+n let them fill the customers=E2=80=99=C2=A0orders at a worse price, and th=
+en took a kickback. It is probably not technically =E2=80=9Cfront-running,=
+=E2=80=9D=C2=A0but it is sort of front-running-adjacent. The customers got =
+no value for it; the SEC says:</p><blockquote><p style=3D"margin: 16px 0;">=
+Coda was not =E2=80=9Cseeking liquidity=E2=80=9D from the Net Trading Firms=
+ because the Net Trading Firms usually took no steps to obtain liquidity fo=
+r the subscriber order, and pursuant to the arrangement with Coda, usually =
+would route a principal order directly back to Coda so that Coda could rout=
+e it to an away market for execution.</p></blockquote><p style=3D"margin: 1=
+6px 0;">It could have just done that with the customer order, instead of go=
+ing through the net trading firms. But then it wouldn=E2=80=99t get its mon=
+ey.</p><p style=3D"margin: 16px 0;">Anyway Coda and its president settled w=
+ith the SEC for about $1.2 million in fines, without admitting or denying t=
+he findings. Also this all ended long ago:</p><blockquote><p style=3D"margi=
+n: 16px 0;">By December 2019, Coda stopped the circular routing arrangement=
+ described above. Coda also ended its profit sharing agreements with the Ne=
+t Trading Firms. Since December 2019, Coda has had an agreement with a mark=
+et maker to pay Coda fixed payments for order flow as agreed by the parties=
+.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Ah, well, I=E2=80=99m =
+sure that=E2=80=99s fine then.</p><table class=3D"liveintent-sponsored-cont=
+ent" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD4237dc34" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE4237dc34" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cFda2793f7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cGda2793f7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">=E2=80=9CBanks are technology companies=E2=80=9D</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I used to work in an equity capital ma=
+rkets group at an investment bank so <a href=3D"https://link.mail.bloomberg=
+business.com/click/25123929.273053/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9u=
+ZXctcGxhdGZvcm0tYmFja2VkLWJ5LWZpZGVsaXR5LWdvbGRtYW4tc2Vla3MtdG8tYnJpbmctaXB=
+vLW1hcmtldC1pbnRvLWRpZ2l0YWwtd29ybGQtMTE2MzIzODk0MDE_bW9kPWhwX2xpc3RhX3Bvcz=
+E/607f07ceef4b8524a319a23cBdfaabfab" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">this brought back happy memories</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">The syndicate desk=E2=80=94a longtime fix=
+ture at banks across Wall Street where IPOs and other large stock sales are=
+ priced and allocated to investors=E2=80=94has long clung to traditional wa=
+ys of doing business like phone orders and scribbled pieces of paper, even =
+as other businesses go digital. ...</p><p style=3D"margin: 16px 0;">Ben Bat=
+ory, head of Franklin Equity Group Trading at Franklin Templeton, said for =
+decades he and his team have kept track of how many shares they asked for i=
+n IPOs=E2=80=94as well as how many they received and at what price=E2=80=94=
+on loose sheets of paper. He and his counterparts at other firms talk of ca=
+lling multiple bankers on a deal to make sure their orders are recorded cor=
+rectly. And then they wait. The morning after an IPO prices, a banker calls=
+ them, tells them how many shares they got, at what price, and what percent=
+age of fees they owe to each of the dozen or so underwriters. It is up to M=
+r. Batory, or someone in his shoes, to keep track of it all.</p><p style=3D=
+"margin: 16px 0;">=E2=80=9CAll these things are ripe for error,=E2=80=9D he=
+ said. =E2=80=9CThere can be five deals a day, and you need to get the amou=
+nt right, get the commission right, and it=E2=80=99s all chicken scratch on=
+ a piece of paper on my desk. It=E2=80=99s incredibly challenging.=E2=80=9D=
+</p></blockquote><p style=3D"margin: 16px 0;">Would you believe that the so=
+lution is to have some sort of website where customers can type in how many=
+ shares they want, and then the banks could look at the order book and deci=
+de how many shares to allocate to each investor, and then the investors cou=
+ld just see on the website how many shares they got and how much they had t=
+o pay? Seems too easy, doesn't it? Like if it were as simple as that someon=
+e would have just done it, right? Ha well anyway:</p><blockquote><p style=
+=3D"margin: 16px 0;">Capital Markets Gateway LLC has set out to change that=
+. Backed by Franklin Templeton, Fidelity Investments, Goldman Sachs Group I=
+nc., JPMorgan Chase &amp; Co. and Morgan Stanley,=C2=A0among others, CMG wa=
+s launched in 2017 by former bankers at Robert W. Baird &amp; Co. =E2=80=A6=
+</p><p style=3D"margin: 16px 0;">When the system is up and running, buy-sid=
+e firms=E2=80=94of which nearly 100 are signed up=E2=80=94will be able to s=
+ee what deals are pricing when, what the terms are and digitally enter thei=
+r orders with lead bankers, so long as they have an existing relationship w=
+ith them.</p><p style=3D"margin: 16px 0;">Once IPOs and other offerings are=
+ priced, instead of waiting until the following morning to learn via a phon=
+e call if they received any allocation, fund managers can find out electron=
+ically that same evening.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;=
+">Isn=E2=80=99t technology amazing. My <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL25ld3NsZXR0ZXJzLzIwMjAtMDgtMDMvbW9uZXktc3R1ZmYtbm93LWFuLWFwcC1jYW4tcGl0Y=
+2gtbWVyZ2Vycw/607f07ceef4b8524a319a23cBce1c57f0" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">basic theory</a> is that there are a=
+ lot of areas of finance where much of the lucrative value-add that a highl=
+y paid expert provides is, like, =E2=80=9Cremembering who wants to buy a st=
+ock=E2=80=9D or =E2=80=9Cremembering the terms of the last 10 deals=E2=80=
+=9D or whatever. Much of the work that investment banks do requires nuanced=
+ judgment and creativity and boldness and deep personal connections; some o=
+f it =E2=80=A6=C2=A0does not.</p><p style=3D"margin: 16px 0;">If people cal=
+l you up and say =E2=80=9CI want to buy the stock=E2=80=9D and you write do=
+wn their names on a piece of paper and put it in your pocket, you can go to=
+ the client and say =E2=80=9CI have a $10 billion book of demand for your s=
+tock,=E2=80=9D and the client will be like =E2=80=9Cwow you are amazing, ou=
+r hero, here=E2=80=99s a $20 million fee to pay for your expertise and hard=
+ work and market knowledge and investor relationships.=E2=80=9D Whereas if =
+people type their orders on a website and the client looks at the website a=
+nd sees $10 billion of demand for the stock and you are standing next to th=
+e website looking important the client will say =E2=80=9Ccould you move ple=
+ase, you=E2=80=99re blocking our view of the website.=E2=80=9D</p><p style=
+=3D"margin: 16px 0;">Just putting all this stuff on a computer demystifies =
+it a bit, which is probably not great for margins. Or maybe it=E2=80=99s gr=
+eat for margins insofar as it allows the bank to replace highly paid high-t=
+ouch professionals with scalable apps; it=E2=80=99s just not great for bank=
+er compensation. And my other basic theory is that the goal of an investmen=
+t=C2=A0bank is to maximize banker compensation.=C2=A0</p><table class=3D"li=
+veintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D=
+"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cHca707988" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meme stocks</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A key explanation of, like, modern lif=
+e is that politics are so vicious and polarized because (1) everyone uses F=
+acebook, (2) Facebook has an algorithm to decide what stuff to show people,=
+ (3) that algorithm is built to maximize engagement, (4) the algorithm is v=
+ery effective, and (5) it turns out that what maximizes engagement is vicio=
+us polarizing stuff, oops. That probably exaggerates the role of Facebook=
+=E2=80=99s algorithm and understates the agency of its users =E2=80=94=C2=
+=A0=E2=80=9CEverything you hate about the Internet is actually everything y=
+ou hate about people,=E2=80=9D says <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25123929.273053/aHR0cHM6Ly93d3cudGhlYXdsLmNvbS8yMDE2LzExL=
+3RoZS1zcGlyaXQtb2YtdGhlLWludGVybmV0/607f07ceef4b8524a319a23cBa0d81a44" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Balk=E2=80=99s=
+ First Law</a> =E2=80=94 but there=E2=80=99s something to it. Social media =
+reflects and also shapes human behavior, in an emergent=C2=A0way. It target=
+s a behavior it likes =E2=80=94=C2=A0spending more time on Facebook, basica=
+lly =E2=80=94 and tries to maximize it. To do that, it maximizes behaviors =
+that correlate with the target behavior, like posting and reading vicious p=
+olitical content. It gives people what they want, as revealed by their acti=
+ons, which is not what they actually want. (Or is it?) And so at some level=
+ you have behaviors in the real world that seem to be designed by an algori=
+thm to maximize engagement on social media; politics are vicious and volati=
+le because that=E2=80=99s what Facebook, deep down, wants.</p><p style=3D"m=
+argin: 16px 0;">Okay now let=E2=80=99s do stocks! At Margins, Ranjan Roy ha=
+s a great post on =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25123929.273053/aHR0cHM6Ly93d3cucmVhZG1hcmdpbnMuY29tL3AvbWVtZXN0b2=
+Nrcy1hbmQtcmVkZGl0LXJlZGVzaWducz90b2tlbj1leUoxYzJWeVgybGtJam94TURZM01Dd2ljR=
+zl6ZEY5cFpDSTZOREUxTmpFMk1EZ3NJbDhpT2lJeFNub3pVU0lzSW1saGRDSTZNVFl6TWpJMk5q=
+azROeXdpWlhod0lqb3hOak15TWpjd05UZzNMQ0pwYzNNaU9pSndkV0l0TmpZNE15SXNJbk4xWWl=
+JNkluQnZjM1F0Y21WaFkzUnBiMjRpZlEuY19TWFRuN2l3V1Z2WFBfdnQyUVpQUEJ4SjZQR0tScV=
+htS21NSWFqcHNqTQ/607f07ceef4b8524a319a23cB809a4bb5" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Memestocks and Reddit redesigns</=
+a>=E2=80=9D arguing that some of the 2021 meme-stock craze is due to change=
+s in Reddit=E2=80=99s algorithms to maximize engagement: The stock market i=
+s volatile and bizarre because that=E2=80=99s what Reddit, deep down, wants=
+.=C2=A0You read about a stock, Reddit sends you =E2=80=9Cyou might also lik=
+e ...=E2=80=9D notifications about that stock and other stocks, those notif=
+ications are designed to draw you in, they work, you spend more time lookin=
+g at stocks on Reddit, your identity starts to become =E2=80=9Cperson who c=
+ares about this stock,=E2=80=9D you buy the stock, you start posting about =
+it, you start buying weekly-expiry out-of-the-money call options on the sto=
+ck and posting your daily profits and losses, the stock goes to $1,000, it =
+becomes the biggest story in the national news, everyone in the country is =
+obsessed with it, and=C2=A0<em>they are all coming to Reddit</em>=C2=A0beca=
+use the story is not =E2=80=9Cstock goes up=E2=80=9D but =E2=80=9Cstock goe=
+s up because people are having fun and getting rich on Reddit.=E2=80=9D=C2=
+=A0</p><p style=3D"margin: 16px 0;">From the dumb perspective of the Reddit=
+ algorithm that sends you those notifications, this is what success looks l=
+ike: It sent you those notifications, and now everyone is on Reddit. It is =
+a <a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/=
+aHR0cHM6Ly93d3cubGVzc3dyb25nLmNvbS90YWcvcGFwZXJjbGlwLW1heGltaXplcg/607f07ce=
+ef4b8524a319a23cB59041733" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">paperclip maximizer</a>: Its goal is to get more people to=
+ spend more time on Reddit, and the way it does that is to cause global fin=
+ancial markets to be wildly volatile and disconnected from fundamental valu=
+e because it turns out =E2=80=94=C2=A0who knew? =E2=80=94 that that drives =
+more engagement with Reddit. Nobody at Reddit sat down and said =E2=80=9Che=
+y we should pump up some weird stocks, that will maximize traffic=E2=80=9D;=
+ its engagement algorithms just figured that out on their own. And now here=
+ we are. Roy:</p><blockquote><p style=3D"margin: 16px 0;">When the history =
+of the memestock craze is written, there are a lot of known factors (or at =
+least, they=E2=80=99re clear to me). ZIRP. Robinhood and the gamification o=
+f trading. Stimulus checks and people sitting at home. But especially, in l=
+ight of this week=E2=80=99s amazing Wall Street Journal series the Facebook=
+ Files ...=C2=A0unanticipated consequences of engagement-driven algorithms =
+are top of mind.</p><p style=3D"margin: 16px 0;">When Reddit raised a ton o=
+f money and hired a media growth legend, I=E2=80=99m sure sending AMC to th=
+e moon was never on anyone=E2=80=99s mind. But as we slowly try to make sen=
+se of what=E2=80=99s happened in the financial markets over the past year, =
+it=E2=80=99s worth remembering how a redirection in a business model and UX=
+ tweaks can create massive outsized behavioral changes that make the world =
+a lot weirder and harder to understand.</p></blockquote><table class=3D"hea=
+der" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Evergrande</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I guess that if you are a financial re=
+gulator there is something to be said for taking an inscrutable tough-love =
+approach with companies that run into trouble:</p><blockquote><p style=3D"m=
+argin: 16px 0;"><strong>Company:</strong> We are almost out of money and ha=
+ve so many creditors. Should we prioritize delivering product to customers,=
+ or paying suppliers, or making payments on debt to local retail investors,=
+ or making payments on debt to offshore bond investors?</p><p style=3D"marg=
+in: 16px 0;"><strong>Regulator:</strong> Yes.</p><p style=3D"margin: 16px 0=
+;"><strong>Company:</strong> ...</p><p style=3D"margin: 16px 0;"><strong>Re=
+gulator:</strong> ...</p><p style=3D"margin: 16px 0;"><strong>Company:</str=
+ong> Okay, good one, ha ha ha,=C2=A0but seriously we can=E2=80=99t pay ever=
+yone.</p><p style=3D"margin: 16px 0;"><strong>Regulator: </strong>Try.</p><=
+/blockquote><p style=3D"margin: 16px 0;">What is the benefit, to the regula=
+tor, of saying =E2=80=9Cif I were you I=E2=80=99d pay the retail investors =
+and stiff the offshore ones=E2=80=9D? Why would you want to sound like you =
+approve of stiffing anyone?=C2=A0You=C2=A0want=C2=A0the company to feel bad=
+ about all of this, to be nervous; you don=E2=80=99t want to be too quick t=
+o bless a plan to wriggle out of any debts.=C2=A0I=E2=80=99m not sure that =
+that=E2=80=99s exactly what <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjEtMDktMjMvY2hpbmEtdGVsbHMtZXZlcmdyYW5kZS10by1hdm9pZC1uZWFyLXRlcm0t=
+ZG9sbGFyLWJvbmQtZGVmYXVsdA/607f07ceef4b8524a319a23cB2e059cef" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> this is</a>, though it=
+ kind of sounds like it:</p><blockquote><p style=3D"margin: 16px 0;">Financ=
+ial regulators in Beijing issued a broad set of instructions to China Everg=
+rande Group, telling the embattled developer to focus on completing unfinis=
+hed properties and repaying individual investors while avoiding a near-term=
+ default on dollar bonds.</p><p style=3D"margin: 16px 0;">In a recent meeti=
+ng with Evergrande representatives, regulators said the company should comm=
+unicate proactively with bondholders to avoid a default but didn=E2=80=99t =
+give more specific guidance, a person familiar with the matter said. The de=
+veloper has an $83.5 million coupon due Thursday, with a 30-day grace perio=
+d to make the payment.</p><p style=3D"margin: 16px 0;">There=E2=80=99s no i=
+ndication that regulators offered financial support to Evergrande for the b=
+ond payment, and it=E2=80=99s unclear whether officials believe the company=
+ should eventually impose losses on offshore creditors. Policy makers are t=
+rying to learn more about who holds Evergrande=E2=80=99s bonds, the person =
+said, asking not to be identified discussing sensitive information.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">Focus on delivering properties to cus=
+tomers and paying individual investors, but don=E2=80=99t default on your o=
+ffshore bonds either. Just try not to be in trouble anymore? I guess =E2=80=
+=9Cavoiding near-term default on dollar bonds=E2=80=9D is the softest ask t=
+here. =E2=80=9CGet dollar bondholders not to complain for a couple of weeks=
+, then default on them=E2=80=9D is one possible interpretation of that one.=
+ If you are a dollar bondholder and Evergrande calls you after this meeting=
+ to say =E2=80=9Chey just give us two weeks and we=E2=80=99ll have your mon=
+ey,=E2=80=9D do you believe them?</p><table class=3D"header" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Employer front-running</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The Financial Times has <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvYjBlMzg1NzAtZWFlNi00MzU5LWFmOWYtYTdlMmJlY2Q2ZTRm/607f07=
+ceef4b8524a319a23cB56774eac" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">the story of a Frankfurt fund manager</a> who =E2=80=9Ca=
+dmitted in court on Wednesday to =E2=80=98front-running=E2=80=99=C2=A0inves=
+tment decisions he made on behalf of his employer on 55 occasions between A=
+pril and September last year, making =E2=82=AC8.1m in net profit=E2=80=9D:<=
+/p><blockquote><p style=3D"margin: 16px 0;">On an ordinary trading day, he =
+would buy and sell shares worth =E2=82=AC500m on behalf of his employer and=
+ was aware that large orders placed by Union moved share prices, on average=
+ by 0.6 per cent to 0.8 per cent.</p><p style=3D"margin: 16px 0;">In one ex=
+ample of his front-running, he spent =E2=82=AC913,000 on call options for s=
+hares in Deutsche Post just seconds before placing a large order of the sto=
+ck on behalf of Union that moved the share price by 2.7 per cent. He sold t=
+he options within an hour, making a profit of =E2=82=AC227,000.</p><p style=
+=3D"margin: 16px 0;">The defendant told the judges that he started insider =
+trading as he was deeply frustrated by his pay of =E2=82=AC440,000 in 2019.=
+ After receiving only half the pay rise he had hoped for in early April 202=
+0, he felt =E2=80=9Coffended=E2=80=9D and decided to recoup the rest himsel=
+f.</p></blockquote><p style=3D"margin: 16px 0;">I guess? If you work for a =
+big financial institution, you are in proximity to a lot of money. They wil=
+l pay you some of the money, but if they don=E2=80=99t pay you enough for y=
+our tastes, I suppose you can just take some of the money for yourself. Par=
+ticularly if no one is looking:</p><blockquote><p style=3D"margin: 16px 0;"=
+>The fund manager started executing private trades at his desk at Union=E2=
+=80=99s headquarters. =E2=80=9CAs everyone else was working from home, it w=
+as only me and one junior colleague in the office,=E2=80=9D he told five ju=
+dges at Frankfurt district court.</p></blockquote><p style=3D"margin: 16px =
+0;">Meanwhile in the U.S., here are <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzL=
+XJlbGVhc2UvMjAyMS0xODY/607f07ceef4b8524a319a23cB19749e8e" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">uncannily similar allegatio=
+ns</a> from the Securities and Exchange Commission today:</p><blockquote><p=
+ style=3D"margin: 16px 0;">The Securities and Exchange Commission today ann=
+ounced charges against Sergei Polevikov, who worked as a quantitative analy=
+st at two prominent asset management firms, for perpetrating a years-long f=
+ront-running scheme that generated illicit profits of at least $8.5 million=
+.</p><p style=3D"margin: 16px 0;">According to the SEC's complaint, filed i=
+n the United States District Court for the Southern District of New York, f=
+rom at least January 2014 through October 2019, Polevikov had access to rea=
+l-time, non-public information about the size and timing of his employers' =
+securities orders and trades, and used that information to secretly trade o=
+n, and ahead of, his employers' trades. As alleged, Polevikov, on nearly 3,=
+000 occasions, bought or sold a stock on the same side of the market as his=
+ employers before his employers executed trades in the same stock for their=
+ fund clients. Polevikov typically would close his positions the same day a=
+s he opened them, capitalizing on the price movement caused by his employer=
+s' large trades. The SEC alleges that Polevikov concealed his fraudulent sc=
+heme by executing the trades in the account of his wife, Maryna Arystava, w=
+ho uses a different last name.</p></blockquote><p style=3D"margin: 16px 0;"=
+>He was also <a href=3D"https://link.mail.bloombergbusiness.com/click/25123=
+929.273053/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG55L3ByL2Zvcm1lci1hbmFs=
+eXN0LWNoYXJnZWQtOC1taWxsaW9uLWluc2lkZXItdHJhZGluZy1zY2hlbWUtZnJvbnQtcnVubml=
+uZy1lbXBsb3llci1z/607f07ceef4b8524a319a23cBf6560dee" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">charged criminally</a>. Apparent=
+ly he was spotted because he, uh, made=C2=A0<em>three thousand=C2=A0</em>su=
+ccessful day trades?</p><blockquote><p style=3D"margin: 16px 0;">The invest=
+igation originated from the SEC's Market Abuse Unit's Analysis and Detectio=
+n Center, which uses data analysis tools to detect suspicious patterns, suc=
+h as improbably successful trading across different securities over time. T=
+hese capabilities enabled the SEC to spot Polevikov=E2=80=99s trading activ=
+ities which consistently generated small profits that added up to a total o=
+f at least $8.5 million over the course of the scheme.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">One of my main <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMTgtMDgtMTIvdGhlLTEwLWxhd3Mtb2YtaW5zaWRlci10cmFkaW5n=
+/607f07ceef4b8524a319a23cBde6605e2" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">rules of insider trading</a> is that if you are g=
+oing to insider trade you shouldn=E2=80=99t do it by buying short-dated out=
+-of-the-money call options on merger targets, particularly if you have neve=
+r traded options before: That looks real real suspicious and the SEC will n=
+otice. But I sympathize a little with the people who do that, because it is=
+ a way to use your inside information to make a lot of money quickly, and t=
+he alternative is, what? Making smallish normal-seeming stock trades withou=
+t much obvious news but with some statistical edge from knowing your employ=
+er=E2=80=99s orders, making a modest profit each time, and doing it=C2=A0<e=
+m>thousands of times?=C2=A0</em>They=E2=80=99re gonna notice that too.</p><=
+table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=9CThe reality is that if you cr=
+eated a business in China that=E2=80=99s worth billions, you=E2=80=99ve don=
+e so with the blessing of the government, so it=E2=80=99s definitely <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aHR0cHM6=
+Ly93d3cuZnQuY29tL2NvbnRlbnQvMTllNTAwMmEtN2FjOC00NWM4LWFlN2MtZTMzYmNmNzMxOTM=
+5/607f07ceef4b8524a319a23cBf1e5cf67" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">the wrong time to be cashing in</a>.=E2=80=9D=C2=
+=A0Fed <a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.27=
+3053/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mZWQtdGVlcy11cC10YXBlci1hbmQtc2=
+lnbmFscy1yYXRlLXJpc2VzLXBvc3NpYmxlLW5leHQteWVhci0xMTYzMjMzMzYxNz9tb2Q9aXRwX=
+3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB060aafc1" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Tees Up Taper</a> and Signals Ra=
+te Rises Possible Next Year. Biden to Tap Crypto, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMjIvYmlkZW4tdG8tdGFwLWNyeXB0by1iaWctYm=
+Fuay1jcml0aWMtdG8tcnVuLXdhbGwtc3RyZWV0LXdhdGNoZG9n/607f07ceef4b8524a319a23c=
+Baebca390" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Big-Bank Critic</a> to Run Wall Street Watchdog. Elizabeth Warren and Dem=
+ocrats Are Going After <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDktMjIvc3BhYy1raW5ncGlucy1zY3J1dGluaXplZC1ieS13YXJyZW4tb3Zlci1taXNhb=
+GlnbmVkLWluY2VudGl2ZXM/607f07ceef4b8524a319a23cB51bbc42a" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> SPAC Kingpins</a>. Private=
+ Equity Party Is Ending and <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjEtMDktMjMvcHJpdmF0ZS1lcXVpdHktYm9zcy1zYXlzLXBhcnR5LXMtYWxtb3N0LW92=
+ZXItYW5kLXdlLXJlLWV4aGF1c3RlZA/607f07ceef4b8524a319a23cBb11ff172" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> We=E2=80=99re Exh=
+austed</a>, Carlyle Says. =E2=80=9CCitigroup Inc. workers in London were gr=
+eeted by <a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.=
+273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMjMv=
+d2FsbC1zdHJlZXQtY29uZnJvbnRzLXRvdWdoLXRyYW5zaXRpb24taW4tcmV0dXJuLXRvLW9mZml=
+jZS1wdXNo/607f07ceef4b8524a319a23cBb7d5bac6" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> therapy puppies</a> upon their return t=
+his month.=E2=80=9D Elon Musk Says <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjEtMDktMjIvbXVzay1zYXlzLWRvZ2Vjb2luLWZlZXMtbmVlZC10by1kcm9wL=
+XRvLWJlLXZpYWJsZS1mb3ItcHVyY2hhc2Vz/607f07ceef4b8524a319a23cBd4a6a9ce" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Dogecoin Fees=
+</a> Need to Drop to be Viable for Purchases. Cathie Wood Would Sell Tesla =
+Next Year <a href=3D"https://link.mail.bloombergbusiness.com/click/25123929=
+.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMjM=
+vY2F0aGllLXdvb2Qtd291bGQtc2VsbC10ZXNsYS1uZXh0LXllYXItaWYtaXQtcmVhY2hlZC0zLT=
+AwMA/607f07ceef4b8524a319a23cB8c05cfec" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> If It Reached $3,000</a>. Pro-rata vs. <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aHR0cHM=
+6Ly93d3cudG9kYXlpbnRhYnMuY29tL3AvaW50cm9kdWNpbmctc3BvcmtpZnk/607f07ceef4b85=
+24a319a23cB3a98bf92" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">user-centric accounting</a>. =E2=80=9CIn the mid-1980s, Mr. Va=
+n Peebles was one of the few Black <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25123929.273053/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wOS=
+8yMi9tb3ZpZXMvbWVsdmluLXZhbi1wZWVibGVzLWNoYW1waW9uLW9mLW5ldy1ibGFjay1jaW5lb=
+WEtZGllcy1hdC04OS5odG1s/607f07ceef4b8524a319a23cB9625c406" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">options traders on the Ame=
+rican Stock Exchange</a> =E2=80=94 =E2=80=98making deals, like always,=E2=
+=80=99=C2=A0he said.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=
+=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aHR0cD=
+ovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1za=
+WdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a=
+319a23cB865dfc4d" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">subscribe at this lin=
+k</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsle=
+tters <a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273=
+053/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a3=
+19a23cBf558836e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1=
+] I continue to assume that the national best offer is $10.05. So the partn=
+er firm, buying at $10.01, got $0.04 of price improvement. It kept 95% ($0.=
+038) for itself and gave 5% ($0.002) to the customer.</em></p><p style=3D"m=
+argin: 16px 0;"><em>[2] That is, =E2=80=9Cthe Net Trading Firm paid Coda ap=
+proximately 70% of the net trading profit derived from the net trade,=E2=80=
+=9D or 70% of $0.038 in my example numbers.</em></p><p style=3D"margin: 16p=
+x 0;"><em>[3] The economics here do seem worse, for the customer, than they=
+ are in retail payment for order flow. We <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25123929.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDgtMzEvd2hhdC1oYXBwZW5zLXRvLXJvYmluaG9vZC1pZi=
+10aGUtc2VjLWJhbnMtcGF5bWVudC1mb3Itb3JkZXItZmxvdy1rdDBhNWtqZw/607f07ceef4b85=
+24a319a23cCc15b4571" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">talked about</a> Larry Tabb=E2=80=99s and Jackson Gutenplan=E2=
+=80=99s report at Bloomberg last month, finding that =E2=80=9CMarket makers=
+ captured 48.5% of the spread in executing self-directed retail orders in 2=
+Q. Of the balance, 13.3% was paid to the broker and 38.2% went to the clien=
+t.=E2=80=9D That=E2=80=99s not exactly apples-to-apples with the SEC=E2=80=
+=99s numbers here.=C2=A0But roughly speaking here Coda gets 66.5% of the ec=
+onomics (70% of 95%), the partner net trading firms get 28.5%, and the cust=
+omers get 5%.=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb26067e3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc93e8599" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB80fa5bfd" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1485daf2" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTEyMzkyOSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzOTY5ODImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cIe2e4a1d8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25123929&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2512392=
+9.273053/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBfc247552" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25123929.273053/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC522783ae" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25123929.273053/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB28dc9b73" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25123929.273053/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9679a8b1" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+003e927" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25123929.273053/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+83c7b02" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D251239=
+29&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D251239=
+29&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D251239=
+29&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D251239=
+29&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D251239=
+29&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25396982&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceyhqx.5uot/a32f830f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_19271022_775863254.1632415134590--
+

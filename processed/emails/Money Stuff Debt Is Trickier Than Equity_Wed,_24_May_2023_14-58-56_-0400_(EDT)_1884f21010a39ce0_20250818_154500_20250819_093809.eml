@@ -1,0 +1,1875 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp3139426rwb;
+        Wed, 24 May 2023 11:59:03 -0700 (PDT)
+X-Received: by 2002:a5d:61c1:0:b0:309:51a4:d0b7 with SMTP id q1-20020a5d61c1000000b0030951a4d0b7mr440287wrv.65.1684954743311;
+        Wed, 24 May 2023 11:59:03 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1684954743; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=hxvjFjnw6TcAyvNleujHJ6A11Mx5IG3VVjaVGWHmtAUyQwBX7ivau9r7/wbZpoxfqA
+         0arTI7bqFJO3j27hSVMmS+Isr18rOdZ9dVQwjL6F0EFDbDb3dJvJZUTEYt5DXvWuZEcG
+         SFXuxhU2jx9s2mzBLKec1gtYiFi2Vg4MtkAOD4k8OfLsOmXhw/wFB3VysED5QIrBGQq1
+         hz5MI2FLLa9gS/TfffMEHEry0v0QNmOUE9y5oPZVajxUT5qD6sjAiu1rXzC9pkoA+s1S
+         nJXPeOcW0WuM162942PIhjmkHwKjEbhbVRNH8/tuMjg3J8+kRQgT85t6HaYdDqeha5b7
+         37MA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=SK++drBwvlbW0tknoK4+3QkhNioLE7WZZkUH3QAlHcA=;
+        b=HjYlTf23Ns8Oz8W2mYIzJiKg2jJz42c8fB8VCRgAbbqurUd+jT/o71evHOGpz6qw2z
+         GXns8yd6mD8BZi8NYUCR7QMEea1ZRm4y5bzgU4PuQim6vrSv0YF5zIxB6FQcNTamzYb9
+         dV4r881YzKWvLn0RdFcio6TQdVsJn+22p9Pq7sLK/Hv9Gn+BTNTBB/2OzypsQx1Zrk4e
+         n1iFhnnjfUkA2IrhCX2MK6NXgmsSrWsn036/NadFXIv293+pRJfcx8Tz800dNLAjF4vW
+         SqQxx9YcUjZmR+jATOLwfjMykbyv2asLwCu3hCiKeDZwNqPwYdhsPCWScDSH1r7IICPp
+         zYVg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Sp1cS4xv;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g16-20020adff410000000b003062b3c41a5sor3400173wro.9.2023.05.24.11.59.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 24 May 2023 11:59:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Sp1cS4xv;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684954743; x=1687546743;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=SK++drBwvlbW0tknoK4+3QkhNioLE7WZZkUH3QAlHcA=;
+        b=UMOMK/kCB4bgYAalTZhhxqDd1dPsX4RBtFl4AYHf3cpDfRMrnQinxDc5fHeyQL1FYy
+         1ftGMikyQdIJ/cfjWOR6f6zFSxXxn/AoJIwAzzkeN3kJJrGa+slGa2cdrRAPKlrY2X23
+         wPjgj+XNXijvMjfKQTmnJBSjSPh4YQgq/650xtBL3aslR9acCS80OJ2LW2y6pqsJqRJR
+         sUNPZLzUAK8GOVlwCM2Bo7EsiU39W9xdBokkiGfLEVserUdRpNn60KlduWBPr9x6FzbB
+         Qr2KSCEhlLyLCM5dO+NLEOcdVpx/h8lVHtuvlLbLOXukOg8J+fQPfr4PTy2L+TYMHYmh
+         fCcQ==
+X-Gm-Message-State: AC+VfDzm5MEx7NUOZhIpUjIXRfTxmaitiQ7UTsZaic5CvIE8zfZrEQLV
+	j6K7VkUGzRwJGpUsCt0ZzyQ589cngX3IClxJzTxgR5jcgk4TrT/N8g==
+X-Received: by 2002:a5d:564e:0:b0:309:3a9b:3328 with SMTP id j14-20020a5d564e000000b003093a9b3328mr100009wrw.1.1684954742678;
+        Wed, 24 May 2023 11:59:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4bcd:0:0:0:0:0 with SMTP id l13csp403043wrt;
+        Wed, 24 May 2023 11:58:58 -0700 (PDT)
+X-Received: by 2002:a05:6a20:42a3:b0:10a:ee1b:fdc4 with SMTP id o35-20020a056a2042a300b0010aee1bfdc4mr15958168pzj.47.1684954738067;
+        Wed, 24 May 2023 11:58:58 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1684954738; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=mcycFrpNdZ5MR2K8evTsYG40k4JtRQZH3duPUVFLgoIhSYPpIqsCMcyc2ZuuOVay4T
+         ZuV6uSmo/gHc+3cb/DvGLWAkBWw+1xsoCcgw3vtp37XzI+xayBvTpoHj7hb0mqgkfJRX
+         x7N6D8f8b2DcwCLZPB4+Pj9bSPk9kzPANNH7P/e74nNVcyRenSnr8wf/uj74JeAperM5
+         mT9/aUcABWOVKRcGiAJm3myqfyzBkZkALt0t0vxv/QsUGy3zEwpHHnWOHaBa1t2SjtKZ
+         Yo4FyCOnsq7RHlB/X6gwH2uybj3rWdASGtyVkegyZ+WMQ+9bJLYKV7CotsxpWB0o/1tN
+         sJKQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=SK++drBwvlbW0tknoK4+3QkhNioLE7WZZkUH3QAlHcA=;
+        b=pCT6dkdRvU/vb7x2DW8ck3343dIq/SXpt7wYHnRhjKKHrO5f3STTa46woj25i/BwRF
+         IxqTCjP86hb4sNKwWT88qCJ3BSkzg/lGYsouosUZbg7p3xvIuP5twv7zIXC6CV7SKr0o
+         ilMOkrwxn3JxWcudiU07xZIjlJvPU/yrSxSsh61+tOgNI5Sr1oj0tPhkGdjzKQYvowW/
+         STbal4CzVaj6pNKR0Ii1LuyFwgyYhtPwl9JLFVAv5pzS7bp6/L0W6vQNyTe7zZFAgwZ3
+         hkL+w0Q7VmcTCEiATVZyubo4cq28NUAzPBcfdnZ2DYdFs4Xc3PyaSHhLgYwDkaTyGVBg
+         Dx9A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Sp1cS4xv;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230524145856.31585391.284418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230524145856.31585391.284418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230524145856.31585391.284418@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s6-20020a17090aad8600b0024752142118sor4606313pjq.0.2023.05.24.11.58.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 24 May 2023 11:58:58 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230524145856.31585391.284418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ7BaAusdDNyKktcCh6XUPpM8h6laOVwKOKsj5o/RnPKDTdCa6FGs3KNzgJVzcTrVRI5v5MvSZMvTJLr1hugG95v7ZLs8Q0=
+X-Received: by 2002:a17:90b:1e44:b0:255:b07a:3d55 with SMTP id pi4-20020a17090b1e4400b00255b07a3d55mr6290909pjb.28.1684954737628;
+        Wed, 24 May 2023 11:58:57 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1684954737; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FnvHRtqbWegcSX1caHGTBdMSFl61yKkcqZzw7x/ikiUzblMDyFEvQv2T/4AHVAwV/j
+         MVwFR+7hAvgwandvXhMy5rsC1243KGnHshsBktG7cN+GDiAU53J9RBYl0Ko6DFGhoMl1
+         M335LLg46p3dvXJ16SsLCfkhn4XagLKtdOMBeTTO0JhH/YzJPuIDAzSZ86icqRnqHRJ8
+         /tGFfHh2O5eV91cIymT/iGfMt6tm9K802eEMZ1fE7Fs7ZT84JoWcuwGI/ZTgsVY04LQI
+         BanWpNHmRSLwfTyinl8bDqpmjl6iRqTRIoebxEwJCa9c+KmML4MjAu/UEPR7pDsbHjPK
+         Pr6g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=SK++drBwvlbW0tknoK4+3QkhNioLE7WZZkUH3QAlHcA=;
+        b=ig7Yc3rj+gkezsvsEWlxGlzE7RV14z6mtyzQyx9VRy3QdnCP6JILPyqczi9p78hqEk
+         /9Eb7RbUvNQ0PUV4mqd8x30E7mR3JRQjndI5M0oeeXBPyGDn6K/CqTmVpEswhtTAO0D6
+         WF8f8Ps3W7HIC9ASl/ZK9zLko3WNN3mBGI8loYHuXJYOvGNqPG5+vTy3nAeGq/Lvi1Ho
+         ALTta1xS1kGMIuBR9RV5L6xhVUO5kLk/3GsrjghSmGAxfFEbxSW0Li983WsxpCK5rQ9X
+         y9IeCuL4yy37Ww6CTzOCrhdRFR+R4eadWhuRKT8RNKOXAXCOelyPM1KVrDbE7rWL7g/C
+         rOvA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Sp1cS4xv;
+       spf=pass (google.com: domain of delivery_20230524145856.31585391.284418@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230524145856.31585391.284418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230524145856.31585391.284418@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id ft15-20020a17090b0f8f00b0023f99147cfdsi296807pjb.3.2023.05.24.11.58.57
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 24 May 2023 11:58:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230524145856.31585391.284418@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=P6/wIegRbNY+WBkvcKgqgkw6pP5pkhD5f8jQsMU1ZQY=;
+ b=Sp1cS4xvdz5kuEvFPX3l957+UPS0pg/vfBYXl4XVpHb10bWc1LgsiuS+UAf1f9keQXcrOTMDqxC7
+   q3O+KtnQwGbQ7nw1BGXm4605GYWqcS/vUxeb/vuTZhuqTrb5mL6N7AsOCwcHeSPLHXhmz/i3sya+
+   Luh37r4WrvMPcsgU1I8=
+Received: from nj1-mta30.sailthru.com (204.153.120.165) by pmta29.sailthru.com id hdpf702sd4s6 for <bloomberg@khamel.com>; Wed, 24 May 2023 13:58:56 -0500 (envelope-from <delivery_20230524145856.31585391.284418@mx.sailthru.com>)
+Date: Wed, 24 May 2023 14:58:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230524145856.31585391.284418@sailthru.com>
+Subject: Money Stuff: Debt Is Trickier Than Equity
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9626874_1667202626.1684954736288"
+Precedence: bulk
+x-job: 6358-31585391-20230524
+X-Feedback-ID: 6358:31585391:campaign:sailthru
+X-TM-ID: 20230524145856.31585391.284418
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciszfz.63gi/ad1561ca
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciszfz.63gi/ad1561ca>, <mailto:unsubscribe_20230524145856.31585391.284418@mx.sailthru.com>
+X-rpcampaign: stjko31585391
+
+------=_Part_9626874_1667202626.1684954736288
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        There are two main ways for companies to finance themselves, debt a=
+nd equity. Debt financing means that you borrow money and promise to pay=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Debt and equity
+   =20
+ =20
+
+There are two main ways for companies to finance themselves, debt and equit=
+y. Debt financing means that you borrow money and promise to pay it back on=
+ some set schedule with some set interest rate. Your creditors are entitled=
+ to exactly what you owe them, and if they don=E2=80=99t get it then they c=
+an sue you for the money, or put you into bankruptcy if you don=E2=80=99t h=
+ave it.
+Equity financing means that you sell stock to investors and you never have =
+to pay it back. Your shareholders are not entitled to anything specific; th=
+ere is no particular amount of money that they have to get back or any sche=
+dule for when they get it. But they are   in some loose sense part-owners o=
+f the company, they have a residual claim on its cash flows, and they vague=
+ly hope to one day get their money back through dividends or stock buybacks=
+ or mergers. They can=E2=80=99t make you share the profits in any direct wa=
+y,
+  [1]
+ but a share of the profits is what they want. And while there is no guaran=
+tee of what they=E2=80=99ll get, there is also no limit to it: If they buy =
+1% of the stock when the company is worth $10 million, they put in $100,000=
+; if they then sell when the company is worth $100 billion, they get back $=
+1 billion. That=E2=80=99s hard to do with debt.
+These different economics come with different legal regimes. Broadly speaki=
+ng, creditors have a specific contract =E2=80=94 a bond indenture or loan a=
+greement =E2=80=94 saying how much they are owed, and they are entitled to =
+what=E2=80=99s in the contract. If the company breaches the contract =E2=80=
+=94 if it doesn=E2=80=99t pay them what it owes when it owes them, or if it=
+ doesn=E2=80=99t do something else required by the agreement =E2=80=94 then=
+ the creditors can sue and get their money back or put the company in bankr=
+uptcy. But if the company doesn=E2=80=99t breach the contract, then the cre=
+ditors can=E2=80=99t complain.
+And so   we have   talked   occasionally around   here about various sorts =
+of debt shenanigans, where a company=E2=80=99s lawyers (or some of its cred=
+itors) read the debt contracts cleverly and say =E2=80=9Chey, technically, =
+this contract allows us to make life much worse for some of our creditors, =
+we can work with that.=E2=80=9D Generically, the way that this often works =
+is that the company takes some value from 49% of its creditors and gives it=
+ to the other 51%, in exchange for more money or flexibility. And then the =
+49% creditors sue, saying =E2=80=9Cthat=E2=80=99s not fair, you can=E2=80=
+=99t do that, that=E2=80=99s not allowed by the agreement,=E2=80=9D and the=
+ company says =E2=80=9Cno, actually, this paragraph says we can do that,=E2=
+=80=9D and there is a highly technical argument over what precisely the lan=
+guage of the contract allows.
+Equity is different. Shareholders have much less in the way of contractual =
+rights; they don=E2=80=99t have much legal right to force the company to do=
+ anything specific. But there are broad fiduciary duties requiring company =
+executives not to put one over on shareholders, to treat shareholders fairl=
+y, to run the business on behalf of all of the shareholders equally. The sh=
+areholders are not entitled to specific stuff, but they are entitled to gen=
+eral fairness.
+Last year, in this column, I   wrote about a weird merger deal where a buye=
+r was trying to pay some of the target shareholders more than others. My ba=
+sic point was that you mostly can=E2=80=99t do that =E2=80=94 there are som=
+e exceptions, but generally speaking the board of directors of a company ha=
+s an obligation to treat its shareholders fairly, and courts will get annoy=
+ed if it doesn=E2=80=99t. And then in the next section of that column, we t=
+alked about some lawsuits over distressed debt shenanigans. =E2=80=9CIn deb=
+t, the rule is different,=E2=80=9D I wrote. Treating creditors unfairly is =
+generally fine:
+The basic question in these cases is: Can you just read the debt documents =
+as craftily as possible, do whatever is strictly allowed by the text, and b=
+enefit some creditors at the expense of others? Or is there some background=
+ requirement of fairness or =E2=80=9Coh come on it can=E2=80=99t have meant=
+ that,=E2=80=9D so that your craftiest readings don=E2=80=99t actually work=
+? The traditional view is that shareholders are entitled to fiduciary dutie=
+s =E2=80=94 which is why mergers have to be more or less fair to all shareh=
+olders =E2=80=94 while creditors are entitled only to the letter of their c=
+ontract. That traditional view has given rise to, you know, all this: a who=
+le industry of distressed-debt cleverness built on structuring transactions=
+ to exploit the documents as much as possible. I suppose it is possible to =
+take it too far, though: If creditors get too good at ruthlessly exploiting=
+ each other, eventually courts might step in and say =E2=80=9Coh come on it=
+ can=E2=80=99t have meant that.=E2=80=9D If a rule like =E2=80=9Ccreditors =
+are only entitled to what their contract explicitly says=E2=80=9D always le=
+ads to absurd results, it might stop being the rule.
+Here is a  fascinating paper, and a  related blog post, by Jared Ellias and=
+ Elisabeth de Fontenay about =E2=80=9CLaw and Courts in an Age of Debt=E2=
+=80=9D:
+
+Highly leveraged firms are now commonplace in many U.S. industries. Shiftin=
+g from equity to debt financing is not simply a matter of optimizing a firm=
+=E2=80=99s cost of capital, however. It also has profound implications for =
+the firm=E2=80=99s behavior and investor outcomes.
+In Law and Courts in the Age of Debt, we describe one underappreciated feat=
+ure of the shift from equity to debt, which is that courts resolve disputes=
+ among shareholders and among creditors using strikingly different rules an=
+d decision frameworks. Shareholder disputes are typically resolved using eq=
+uitable doctrines such as fiduciary duties, with the explicit goal of reach=
+ing a substantively fair result. In creditor disputes, by contrast, courts =
+tend to limit their role to formal contract interpretation and procedural o=
+versight, often reaching results at odds with both market expectations and =
+notions of fairness. For example, a controlling stockholder attempting a mi=
+nority freezeout faces punishing scrutiny aimed at ensuring fair terms for =
+the minority stockholders, while majority creditor groups today can, and in=
+creasingly do, receive judicial blessing for transactions that simply extra=
+ct wealth from other creditors (an outcome colorfully referred to by practi=
+tioners as =E2=80=9Clender-on-lender violence=E2=80=9D).
+This disparate approach is increasingly difficult to justify. We argue that=
+ it rests on antiquated paradigms of powerless shareholders, in the one cas=
+e, and all-powerful banks, in the other. Judges compound this error by inco=
+rrectly assuming that creditors can prevent all opportunistic behavior sole=
+ly through contract language, when they make no such assumption in the case=
+ of shareholders.
+There is no easy fix for this doctrinal confusion, however. By increasing t=
+heir leverage, firms have typically also increased the complexity of their =
+capital structure, creating more opportunities for conflicting incentives a=
+mong investors and thus more potential for disputes. We simply suggest that=
+, under the current judicial approach to creditor disputes, we should expec=
+t to witness more opportunistic investor behavior, rather than less.
+
+One interesting thing to think about is whether some of the causation might=
+ run the other way: Are highly leveraged firms now commonplace because they=
+ allow for more opportunistic behavior? If you are the owner of a company t=
+hat needs financing, and you are choosing whether to issue more equity or m=
+ore debt, you will have a series of considerations:
+=09There are, as it were, first-order corporate finance considerations
+  [2]
+: Selling equity gives up more ownership of your company, and thus more ups=
+ide if things go right; if you are optimistic you will not want to sell equ=
+ity. Selling debt requires repayment, though, and if things go poorly havin=
+g too much debt can destroy your company. You will want to raise only as mu=
+ch debt as you can safely pay off.=09There are various considerations that =
+come from existing market and social and legal structures. You might not wa=
+nt to sell stock to meddling venture capitalists, or in a public offering w=
+here it will end up in the hands of activist investors and short-term-focus=
+ed institutions. You might want to sell debt because interest payments on d=
+ebt are tax-deductible and the cost of equity is not.=09There is, also, the=
+ potential for opportunism. If you sell stock, you mostly cannot be opportu=
+nistic in your treatment of your shareholders; they can sue you for breach =
+of fiduciary duty and come to court and say =E2=80=9Cthis wasn=E2=80=99t fa=
+ir=E2=80=9D and a court will agree with them. If you sell debt, you can be =
+very opportunistic in your treatment of your creditors; they can sue you fo=
+r breach of contract and come to court and say =E2=80=9Cthis wasn=E2=80=99t=
+ fair=E2=80=9D and you will say =E2=80=9Chahahahaha gotcha, in section 19.3=
+7(c)(ii) it says I can do whatever I want,=E2=80=9D and the court will say =
+=E2=80=9Cthat=E2=80=99s true it does=E2=80=9D and let you do whatever you w=
+ant.
+
+If you are confident in your ability to write and interpret contracts in a =
+way that allows you to be opportunistic (and prevents your creditors from b=
+eing opportunistic
+  [3]
+), and willing to put one over on your creditors to maximize value for your=
+self, you might be inclined to issue relatively more debt and relatively le=
+ss equity. You get some option value by having more contracts that you can =
+interpret opportunistically, which you don=E2=80=99t get from issuing equit=
+y that requires you to act fairly.
+If I ran, oh, just for instance a private equity firm that employed a lot o=
+f very smart capital-structure experts and retained the best lawyers and go=
+t lots of repeat experience buying companies and raising financing for them=
+ and doing clever stuff to make money off of them, I might prefer to financ=
+e those companies with a lot of debt not only for the favorable tax treatme=
+nt but also precisely because debt financing is a way for me to express and=
+ make money from my cleverness. You can=E2=80=99t be too clever with your s=
+hareholders!
+  [4]
+ You can be very clever indeed with your creditors.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Reciprocal deposits
+   =20
+ =20
+
+In the US, there are basically two kinds of bank deposits. Bank deposits of=
+ up to $250,000, per customer, per bank, are insured by the US Federal Depo=
+sit Insurance Corp.; they are backed by the full faith and credit of the US=
+ government. Deposits above $250,000 are not insured by the FDIC; they are =
+safe if the bank is safe and risky if the bank is risky. Recently many US r=
+egional banks have looked risky.
+The FDIC does not really price this difference. A bank can=E2=80=99t go to =
+the FDIC and say =E2=80=9CI=E2=80=99d like to pay you for insurance on all =
+my deposits up to $1 million=E2=80=9D; it doesn=E2=80=99t work that way. In=
+ fact the FDIC doesn=E2=80=99t exactly charge banks a premium for the insur=
+ance it does provide. Banks  pay assessments to the FDIC for deposit insura=
+nce, but =E2=80=9Cthe assessment base has always been more than just insure=
+d deposits=E2=80=9D: It used to be all deposits, and now it is all liabilit=
+ies. It=E2=80=99s not like a bank pays a premium of 0.1% on deposits up to =
+$250,000 to cover insurance, and 0% on deposits over $250,000 because they =
+are uninsured: It pays 0.1% on everything and only gets insurance on the fi=
+rst $250,000.
+And so in rough terms deposits of $250,000 or less come with very valuable =
+insurance for free, and deposits about that amount can=E2=80=99t get that v=
+aluable insurance at any price.
+And so the easiest most obvious most value-enhancing sort of financial engi=
+neering in banking is:
+=09I am a regional bank and I=E2=80=99ve got a customer with a $450,000 dep=
+osit.=09You are a different regional bank and you=E2=80=99ve got a customer=
+ with a $450,000 deposit.=09I am worried that my customer will take out $20=
+0,000 of her money and move it elsewhere to get FDIC insurance.=09You are w=
+orried that your customer will take out $200,000 of his money and move it e=
+lsewhere to get FDIC insurance.=09We trade those $200,000 deposits: I put $=
+200,000 of my customer=E2=80=99s money in your bank, and you put $200,000 o=
+f your customer=E2=80=99s money in my bank.=09Now both our customers have $=
+450,000 of insured deposits, and neither of us has lost any net deposits: I=
+ lost $200,000 from my customer but got $200,000 back from your customer, a=
+nd vice versa.
+
+This is called =E2=80=9Creciprocal deposits=E2=80=9D and it=E2=80=99s havin=
+g a moment. Stephen Gandel  reports at the Financial Times:
+
+Beverly Hills, California-based PacWest=E2=80=99s website says clients can =
+=E2=80=9Crest assured=E2=80=9D because the bank can offer up to $175mn in i=
+nsurance coverage per depositor, or 700 times the FDIC cap. =E2=80=A6 The b=
+ank said in its most recent financial filing that it was enrolling more of =
+its customers in =E2=80=9Creciprocal deposit networks=E2=80=9D, over which =
+hundreds, or in some cases thousands, of banks spread customers=E2=80=99 fu=
+nds in order to stretch insurance limits.
+The biggest of these networks is run by IntraFi, a little-known Virginia-ba=
+sed technology group. ...
+Banks can divert large accounts into the networks, where they are parcelled=
+ up into $250,000 chunks and sent off to other FDIC-insured banks. The netw=
+orks match up the parcels so that any bank sending a customer=E2=80=99s dep=
+osits into the system immediately receives a similarly sized parcel from an=
+other bank.
+Crucially, the networks allow banks to increase their level of insured depo=
+sits while giving large customers seamless access to their money. Banks pay=
+ the network operators a small management fee.
+Reciprocal deposits still make up just 2 per cent of the $10.4tn in deposit=
+s insured by the FDIC. But they made up a notable 15 per cent of the growth=
+ in insured deposits in the first quarter. The share of deposits covered by=
+ the federal Deposit Insurance Fund was highest in at least a decade at 56 =
+per cent.
+
+Is this good? The argument for it is, look, the government is pricing this =
+insurance irrationally, so rational bankers should load up on it:
+=E2=80=9CBanks are using reciprocal deposits aggressively, as they should,=
+=E2=80=9D says Christopher McGratty, an analyst who follows regional banks =
+for Keefe, Bruyette & Woods. He said that in the wake of SVB=E2=80=99s coll=
+apse, investors wanted banks to reduce their use of uninsured deposits. =E2=
+=80=9CIt=E2=80=99s a bit of window dressing, but it=E2=80=99s legit,=E2=80=
+=9D he said.
+The argument against it is, look, the government is pricing this insurance =
+irrationally and that leads to misallocations of capital:
+Others have been more sceptical. =E2=80=9CTo the extent that these deposit =
+exchange programs help weak banks attract deposits, it creates instability,=
+=E2=80=9D said Sheila Bair, who headed the FDIC during the global financial=
+ crisis. She has called out the deposit exchanges for =E2=80=9Cgaming the s=
+ystem,=E2=80=9D in the past. =E2=80=9CIt increases moral hazard. There are =
+many good banks that use these exchanges but the exchanges also allow weak =
+banks to attract large uninsured depositors who wouldn=E2=80=99t otherwise =
+bank with them.=E2=80=9D
+The argument against raising the cap on FDIC deposit insurance from $250,00=
+0 to infinity is that it   creates moral hazard: If you have $20 million to=
+ deposit in the bank, we might want you to pay some attention to the credit=
+worthiness of your bank, so that there are some limits on the growth of tru=
+ly terrible banks.
+  [5]
+ If deposit insurance is synthetically infinite, that has the same problem.
+
+ =20
+   =20
+      JPM vs. USVI
+   =20
+ =20
+
+A truly odd development in modern financial regulation is that people somet=
+imes think, or at least say, that the primary responsibility for combating =
+crimes lies with banks rather than the police. The way this works is:
+=09Banks do have some deputized responsibility to stop crime, to flag suspi=
+cious financial activity and raise it with law enforcement.=09When they fai=
+l to do that, the government can fine them a lot of money and hold a stern =
+press conference about holding them responsible for their bad behavior.=09W=
+hen the police fail to catch criminals, the government can=E2=80=99t fine t=
+hem a lot of money, and the optics of a stern press conference about police=
+ failings are not nearly as good.
+
+And so when banks fail to stop drug traffickers or terrorist financing, the=
+re are big fines and stern press conferences, and one thing leads to anothe=
+r and a bunch of big banks end up   getting fined for failing to stop Jeffr=
+ey Epstein=E2=80=99s sex trafficking.
+The U.S. Virgin Islands is suing JPMorgan Chase & Co. for not stopping Jeff=
+rey Epstein, and JPMorgan is now hitting back to say, well, you are the act=
+ual government and  you didn=E2=80=99t stop him either:
+
+The U.S. Virgin Islands late last year sued JPMorgan, alleging the bank had=
+ failed to monitor him as a client. By allowing him access to the bank acco=
+unts he used to pay victims, the government alleged, JPMorgan helped Epstei=
+n continue operating. ...
+JPMorgan has said the suits are misaimed, as the bank couldn=E2=80=99t have=
+ stopped Epstein. On Tuesday it argued hypocrisy.
+=E2=80=9CIn exchange for Epstein=E2=80=99s cash and gifts, [U.S. Virgin Isl=
+ands] made life easy for him,=E2=80=9D the bank said in the filing. =E2=80=
+=9CThe government mitigated any burdens from his sex offender status. And i=
+t made sure that no one asked too many questions about his transport and ke=
+eping of young girls on his island.=E2=80=9D
+In a statement, a spokeswoman for the U.S. Virgin Islands attorney general =
+said: =E2=80=9CThis is an obvious attempt to shift blame away from JPMorgan=
+ Chase, which had a legal responsibility to report the evidence in its poss=
+ession of Epstein=E2=80=99s human trafficking, and failed to do so.=E2=80=
+=9D
+
+Did the Virgin Islands attorney general have a responsibility to stop Jeffr=
+ey Epstein=E2=80=99s human trafficking in the Virgin Islands? Did Virgin Is=
+lands law enforcement have perhaps more ability to stop Epstein=E2=80=99s h=
+uman trafficking in the Virgin Islands than his bank did? Not the point.
+
+ =20
+   =20
+      Oil trading
+   =20
+ =20
+
+Financial markets place an enormous premium on speed, and have spent the la=
+st few hundred years getting faster and faster. By now it has reached the p=
+oint that in many markets, if someone offered to sell you a thing at a pric=
+e, it would be embarrassingly slow for you to respond to them a millisecond=
+ later. Come on! Markets move fast, people are busy, you can=E2=80=99t just=
+ lounge around considering your options for a whole millisecond. Government=
+ contracting  works differently:
+
+The U.S. government=E2=80=99s attempt to refill the skyscraper-sized cavern=
+s that hold the country=E2=80=99s emergency oil reserves is coming with a c=
+rash course in energy markets: How to think more like a trader.
+President Biden last year authorized an emergency sale of more than 180 mil=
+lion barrels from the U.S. Strategic Petroleum Reserve to ease gasoline pri=
+ces that skyrocketed after Russia=E2=80=99s invasion of Ukraine. The Energy=
+ Department sold high, averaging roughly $95 a barrel.
+Now the agency is learning that replenishing those stockpiles at the lower =
+rate it wants=E2=80=94between $67 to $72=E2=80=94is more difficult, despite=
+ prices sliding near those levels at various points this year. On Monday, b=
+enchmark U.S. crude closed at $71.99 a barrel, within Washington=E2=80=99s =
+window to buy. =E2=80=A6
+The Energy Department=E2=80=99s attempt to buy domestically produced sour c=
+rude earlier this year sought fixed-price proposals for up to 3 million bar=
+rels. But bids came in with higher prices than the agency expected or other=
+wise missed its specifications.
+The fixed price meant companies would have to swallow the risk of the marke=
+t sliding over a 13-day window as the agency evaluated proposals, said Ilia=
+ Bouchouev, managing partner at Pentathlon Investments. Producers likely bu=
+mped up their prices to account for the costs of hedging against the risk o=
+f oil prices swinging by several dollars a barrel.
+=E2=80=9CThat=E2=80=99s a lot of risk to hold a fixed price for two weeks,=
+=E2=80=9D Bouchouev said. =E2=80=9CNobody trades [on a] flat price.=E2=80=
+=9D
+
+So they have revised their approach to ask companies to submit offers based=
+ on a differential to benchmark crude prices, so that the government, rathe=
+r than the companies, takes the oil price risk. Still I am struck by =E2=80=
+=9Cproposals due May 31 and contracts expected to be awarded June 9.=E2=80=
+=9D Probably =E2=80=9Cthinking more like a trader=E2=80=9D does mean =E2=80=
+=9Cprice oil trades on differentials rather than absolute levels.=E2=80=9D =
+But might it also mean =E2=80=9Clift offers while you=E2=80=99re on the pho=
+ne rather than getting back to them in two weeks=E2=80=9D?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Debt-Limit Talks Stall as   Time Runs Short to Avert US Default. Debt-Ceili=
+ng Drama Has Some   T-Bills Trading Like Junk Bonds. Debt-Ceiling Fight Sen=
+ds Investors Hunting for  New Havens. Citigroup   Abandons Banamex Sale, Pl=
+ans 2025 IPO Instead. Five banks  broke competition law over UK government =
+bonds, watchdog says. The Biggest Challenge for Twitter=E2=80=99s New CEO W=
+ill Be  Managing Elon Musk. Schwarzman Says Blackstone in Talks to   Buy Re=
+gional Bank Assets. PacWest Sells  Real-Estate Lending Unit. Cayman Islands=
+ Regulator Exploring Legal Options After FDIC  Seized SVB Deposits.   Fundr=
+ise Seeks $500 Million Credit Fund for Real Estate Distress. Court Question=
+s Criteria for Carson Block=E2=80=99s $14 Million  SEC Whistleblower Award.=
+ Crypto Startup Says It Found Path to   Register With SEC Under a Broker Ru=
+le. Russian [Crypto Exchange Operator] Indicted in U.S. Lobbies for Freedom=
+ Through a  Prisoner Swap. The Long Fight Over =E2=80=98Taco Tuesday.=E2=80=
+=99 Final day to  return Bed Bath & Beyond and Buy Buy Baby items nears.  R=
+ay Dalio SoHo pergola fight.
+If you'd like to get Money Stuff in handy email form, right in your inbox, =
+please subscribe at this link. Or you can subscribe to Money Stuff and othe=
+r great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Well, not directly, but   they can do this through activism, proxy fi=
+ghts, hostile takeovers, etc., and in fact returning capital to shareholder=
+s is one of the more common goals of activism. Also  one of the most famous=
+ corporate law cases ever *was* some shareholders suing a company to pay a =
+dividend, and winning, but that was in 1916 and you don=E2=80=99t see a lot=
+ of that since.
+
+
+  [2] A  famous theorem of finance says: No there aren=E2=80=99t, under cer=
+tain stylized assumptions.
+
+
+  [3] My sense is that in general debt creates more opportunity for issuer =
+opportunism than for creditor opportunism, at least at big companies, thoug=
+h I may be biased by recent experience of a benign credit environment; mayb=
+e through the cycle there is more creditor opportunism. In any case   there=
+ definitely *is* creditor-against-issuer opportunism, and it would be a bum=
+mer to issue bonds and have a bondholder say =E2=80=9Csection 34.11(e)(ix) =
+says I can take your company from you=E2=80=9D and a court agree.
+
+
+  [4] We have talked a few times about blank-check preferred-stock voting c=
+ases (AMC Entertainment Holdings Inc.=E2=80=99s APES,   Purple Innovation I=
+nc.=E2=80=99s PRPLS), which look to some extent like doing cleverness to sh=
+areholders. But there: (1) the ostensible (and probably real) purpose is to=
+ be fair to all shareholders rather than to move value from some shareholde=
+rs to others, (2) objections turn on =E2=80=9Cis this fair to shareholders =
+and consistent with fiduciary duties?=E2=80=9D rather than just =E2=80=9Cis=
+ this allowed by the specific language of the corporate charter?=E2=80=9D a=
+nd (3) courts seem kinda skeptical.
+
+
+  [5] Another argument against raising the cap is that it would hurt IntraF=
+i=E2=80=99s business? We have   talked about this before: A business that c=
+onsists purely of engineering around FDIC caps might go away if the caps do=
+.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciszfz.63gi/a48d9d89.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9626874_1667202626.1684954736288
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+There are two main ways for companies to finance themselves, debt and equit=
+y. Debt financing means that you borrow money and promise to pay=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MjQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBeaae2e36"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTU4NTM5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE4Njk4MDkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBaec7fe7a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31585391&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31869809&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Debt and equity</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There are two main ways for companies to finan=
+ce themselves, debt and equity. Debt financing means that you borrow money =
+and promise to pay it back on some set schedule with some set interest rate=
+. Your creditors are entitled to exactly what you owe them, and if they don=
+=E2=80=99t get it then they can sue you for the money, or put you into bank=
+ruptcy if you don=E2=80=99t have it.</p>
+<p style=3D"margin: 16px 0;">Equity financing means that you sell stock to =
+investors and you never have to pay it back. Your shareholders are not enti=
+tled to <em>anything </em>specific; there is no particular amount of money =
+that they have to get back or any schedule for when they get it. But they a=
+re <a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDctMTEvaW=
+52ZXN0b3JzLWdhdmUtc25hcC1hLWdpZnQ_Y21waWQ9QkJEMDUyNDIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTI0JnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB64834117" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  in so=
+me loose sense</a> part-owners of the company, they have a residual claim o=
+n its cash flows, and they vaguely hope to one day get their money back thr=
+ough dividends or stock buybacks or mergers. They can=E2=80=99t <em>make </=
+em>you share the profits in any direct way,<a class=3D"footnote-index" href=
+=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[1]</span>
+</a> but a share of the profits is what they want. And while there is no gu=
+arantee of what they=E2=80=99ll get, there is also no <em>limit </em>to it:=
+ If they buy 1% of the stock when the company is worth $10 million, they pu=
+t in $100,000; if they then sell when the company is worth $100 billion, th=
+ey get back $1 billion. That=E2=80=99s hard to do with debt.</p>
+<p style=3D"margin: 16px 0;">These different economics come with different =
+legal regimes. Broadly speaking, creditors have a specific contract =E2=80=
+=94 a bond indenture or loan agreement =E2=80=94 saying how much they are o=
+wed, and they are entitled to what=E2=80=99s in the contract. If the compan=
+y breaches the contract =E2=80=94 if it doesn=E2=80=99t pay them what it ow=
+es when it owes them, or if it doesn=E2=80=99t do something else required b=
+y the agreement =E2=80=94 then the creditors can sue and get their money ba=
+ck or put the company in bankruptcy. But if the company <em>doesn=E2=80=99t=
+ </em>breach the contract, then the creditors can=E2=80=99t complain.</p>
+<p style=3D"margin: 16px 0;">And so <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjItMDQtMDcvZGlzdHJlc3NlZC1kZWJ0LWRlYWwtbWFrZXMtcGVvcGxl=
+LW1hZD9jbXBpZD1CQkQwNTI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cB03b4d7ae" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  we</a> have <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMDcvZGlzdHJlc3NlZC1kZWJ0LWRlY=
+WwtbWFrZXMtcGVvcGxlLW1hZD9jbXBpZD1CQkQwNTI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MjQmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC03b4d7ae" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  talked</a> <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMjYvbXVzay1=
+3aWxsLWJ1eS10d2l0dGVyLWF0LXRoZS1sYXN0LW1pbnV0ZT9jbXBpZD1CQkQwNTI0MjNfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+zA1MjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8b7b4559" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  occasionally</a> around <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMDItMTUvcHVycGxlLWlubm92YXRpb24tcy1wcnBscy1pbm5vdmF0aW9=
+uP2NtcGlkPUJCRDA1MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBdac6aec0" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  here</a> about various sorts of debt=
+ shenanigans, where a company=E2=80=99s lawyers (or some of its creditors) =
+read the debt contracts cleverly and say =E2=80=9Chey, technically, this co=
+ntract allows us to make life <em>much worse </em>for some of our creditors=
+, we can work with that.=E2=80=9D Generically, the way that this often work=
+s is that the company takes some value from 49% of its creditors and gives =
+it to the other 51%, in exchange for more money or flexibility. And then th=
+e 49% creditors sue, saying =E2=80=9Cthat=E2=80=99s not fair, you can=E2=80=
+=99t do that, that=E2=80=99s not allowed by the agreement,=E2=80=9D and the=
+ company says =E2=80=9Cno, actually, this paragraph says we can do that,=E2=
+=80=9D and there is a highly technical argument over what precisely the lan=
+guage of the contract allows.</p>
+<p style=3D"margin: 16px 0;">Equity is different. Shareholders have much le=
+ss in the way of contractual rights; they don=E2=80=99t have much legal rig=
+ht to force the company to do anything specific. But there are broad fiduci=
+ary duties requiring company executives not to put one over on shareholders=
+, to treat shareholders fairly, to run the business on behalf of all of the=
+ shareholders equally. The shareholders are not entitled to specific stuff,=
+ but they are entitled to general fairness.</p>
+<p style=3D"margin: 16px 0;">Last year, in this column, I <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDIvbWVyZ2Vycy1hcmVuLXQtYW=
+x3YXlzLWZhaXI_Y21waWQ9QkJEMDUyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTI0JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB42afda36" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  wrote about a weird merge=
+r deal</a> where a buyer was trying to pay some of the target shareholders =
+more than others. My basic point was that you mostly can=E2=80=99t do that =
+=E2=80=94 there are some exceptions, but generally speaking the board of di=
+rectors of a company has an obligation to treat its shareholders fairly, an=
+d courts will get annoyed if it doesn=E2=80=99t. And then in the next secti=
+on of that column, we talked about some lawsuits over distressed debt shena=
+nigans. =E2=80=9CIn debt, the rule is different,=E2=80=9D I wrote. Treating=
+ creditors unfairly is generally fine:</p>
+<blockquote><p style=3D"margin: 16px 0;">The basic question in these cases =
+is: Can you just read the debt documents as craftily as possible, do whatev=
+er is strictly allowed by the text, and benefit some creditors at the expen=
+se of others? Or is there some background requirement of fairness or =E2=80=
+=9Coh come on it can=E2=80=99t have <em>meant </em>that,=E2=80=9D so that y=
+our craftiest readings don=E2=80=99t actually work? The traditional view is=
+ that shareholders are entitled to fiduciary duties =E2=80=94 which is why =
+mergers have to be more or less fair to all shareholders =E2=80=94 while cr=
+editors are entitled only to the letter of their contract. That traditional=
+ view has given rise to, you know, all this: a whole industry of distressed=
+-debt cleverness built on structuring transactions to exploit the documents=
+ as much as possible. I suppose it is possible to take it too far, though: =
+If creditors get too good at ruthlessly exploiting each other, eventually c=
+ourts might step in and say =E2=80=9Coh come on it can=E2=80=99t have meant=
+ that.=E2=80=9D If a rule like =E2=80=9Ccreditors are only entitled to what=
+ their contract explicitly says=E2=80=9D always leads to absurd results, it=
+ might stop being the rule.</p></blockquote>
+<p style=3D"margin: 16px 0;">Here is a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31585391.284418/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy=
+9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQzODc0Mzc/607f07ceef4b8524a319a23cB251c8c70=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> fascinating paper</a>, and a <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31585391.284418/aHR0cHM6Ly9jb3JwZ292Lmxhdy5oYXJ2YXJkL=
+mVkdS8yMDIzLzA0LzIwL2xhdy1hbmQtY291cnRzLWluLWFuLWFnZS1vZi1kZWJ0Lw/607f07cee=
+f4b8524a319a23cB0efbca45" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> related blog post</a>, by Jared Ellias a=
+nd Elisabeth de Fontenay about =E2=80=9CLaw and Courts in an Age of Debt=E2=
+=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Highly leveraged firms are now commonplace in =
+many U.S. industries. Shifting from equity to debt financing is not simply =
+a matter of optimizing a firm=E2=80=99s cost of capital, however. It also h=
+as profound implications for the firm=E2=80=99s behavior and investor outco=
+mes.</p>
+<p style=3D"margin: 16px 0;">In Law and Courts in the Age of Debt, we descr=
+ibe one underappreciated feature of the shift from equity to debt, which is=
+ that courts resolve disputes among shareholders and among creditors using =
+strikingly different rules and decision frameworks. Shareholder disputes ar=
+e typically resolved using equitable doctrines such as fiduciary duties, wi=
+th the explicit goal of reaching a substantively fair result. In creditor d=
+isputes, by contrast, courts tend to limit their role to formal contract in=
+terpretation and procedural oversight, often reaching results at odds with =
+both market expectations and notions of fairness. For example, a controllin=
+g stockholder attempting a minority freezeout faces punishing scrutiny aime=
+d at ensuring fair terms for the minority stockholders, while majority cred=
+itor groups today can, and increasingly do, receive judicial blessing for t=
+ransactions that simply extract wealth from other creditors (an outcome col=
+orfully referred to by practitioners as =E2=80=9Clender-on-lender violence=
+=E2=80=9D).</p>
+<p style=3D"margin: 16px 0;">This disparate approach is increasingly diffic=
+ult to justify. We argue that it rests on antiquated paradigms of powerless=
+ shareholders, in the one case, and all-powerful banks, in the other. Judge=
+s compound this error by incorrectly assuming that creditors can prevent al=
+l opportunistic behavior solely through contract language, when they make n=
+o such assumption in the case of shareholders.</p>
+<p style=3D"margin: 16px 0;">There is no easy fix for this doctrinal confus=
+ion, however. By increasing their leverage, firms have typically also incre=
+ased the complexity of their capital structure, creating more opportunities=
+ for conflicting incentives among investors and thus more potential for dis=
+putes. We simply suggest that, under the current judicial approach to credi=
+tor disputes, we should expect to witness <em>more</em> opportunistic inves=
+tor behavior, rather than less.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One interesting thing to think about is whethe=
+r some of the causation might run the other way: Are highly leveraged firms=
+ now commonplace <em>because </em>they allow for more opportunistic behavio=
+r? If you are the owner of a company that needs financing, and you are choo=
+sing whether to issue more equity or more debt, you will have a series of c=
+onsiderations:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">There are, as it were, first-order co=
+rporate finance considerations<a class=3D"footnote-index" href=3D"#footnote=
+-2" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>: Selling equity gives up more ownership of your company, and thus more=
+ upside if things go right; if you are optimistic you will not want to sell=
+ equity. Selling debt requires repayment, though, and if things go poorly h=
+aving too much debt can destroy your company. You will want to raise only a=
+s much debt as you can safely pay off.</li>=09<li style=3D"margin-bottom: 5=
+px;">There are various considerations that come from existing market and so=
+cial and legal structures. You might not want to sell stock to meddling ven=
+ture capitalists, or in a public offering where it will end up in the hands=
+ of activist investors and short-term-focused institutions. You might want =
+to sell debt because interest payments on debt are tax-deductible and the c=
+ost of equity is not.</li>=09<li style=3D"margin-bottom: 5px;">There is, al=
+so, <em>the potential for opportunism</em>. If you sell stock, you <em>most=
+ly </em>cannot be opportunistic in your treatment of your shareholders; the=
+y can sue you for breach of fiduciary duty and come to court and say =E2=80=
+=9Cthis wasn=E2=80=99t fair=E2=80=9D and a court will agree with them. If y=
+ou sell debt, you can be <em>very </em>opportunistic in your treatment of y=
+our creditors; they can sue you for breach of contract and come to court an=
+d say =E2=80=9Cthis wasn=E2=80=99t fair=E2=80=9D and you will say =E2=80=9C=
+hahahahaha gotcha, in section 19.37(c)(ii) it says I can do whatever I want=
+,=E2=80=9D and the court will say =E2=80=9Cthat=E2=80=99s true it does=E2=
+=80=9D and let you do whatever you want.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If you are confident in your ability to write =
+and interpret contracts in a way that allows you to be opportunistic (and p=
+revents your creditors from being opportunistic<a class=3D"footnote-index" =
+href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: none !important; background-color: transparent !important; display: =
+inline-block;">
+<span>[3]</span>
+</a>), and <em>willing </em>to put one over on your creditors to maximize v=
+alue for yourself, you might be inclined to issue relatively more debt and =
+relatively less equity. You get some option value by having more contracts =
+that you can interpret opportunistically, which you don=E2=80=99t get from =
+issuing equity that requires you to act fairly.</p>
+<p style=3D"margin: 16px 0;">If I ran, oh, just for instance a private equi=
+ty firm that employed a lot of very smart capital-structure experts and ret=
+ained the best lawyers and got lots of repeat experience buying companies a=
+nd raising financing for them and doing clever stuff to make money off of t=
+hem, I might prefer to finance those companies with a lot of debt not only =
+for the favorable tax treatment but also precisely because <em>debt financi=
+ng is a way for me to express and make money from my cleverness. </em>You c=
+an=E2=80=99t be too clever with your shareholders!<a class=3D"footnote-inde=
+x" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: none !important; background-color: transparent !important; displa=
+y: inline-block;">
+<span>[4]</span>
+</a> You can be very clever indeed with your creditors.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTU4NTM5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE4Njk4MDkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC79057348" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31585391&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31869809&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTU4NTM5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE4Njk4MDkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD79057348" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31585391&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31869809&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Reciprocal deposits</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In the US, there are basically two kinds of ba=
+nk deposits. Bank deposits of up to $250,000, per customer, per bank, are i=
+nsured by the US Federal Deposit Insurance Corp.; they are backed by the fu=
+ll faith and credit of the US government. Deposits above $250,000 are not i=
+nsured by the FDIC; they are safe if the bank is safe and risky if the bank=
+ is risky. Recently many US regional banks have looked risky.</p>
+<p style=3D"margin: 16px 0;">The FDIC does not really <em>price </em>this d=
+ifference. A bank can=E2=80=99t go to the FDIC and say =E2=80=9CI=E2=80=99d=
+ like to pay you for insurance on all my deposits up to $1 million=E2=80=9D=
+; it doesn=E2=80=99t work that way. In fact the FDIC doesn=E2=80=99t exactl=
+y charge banks a premium for the insurance it does provide. Banks <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6L=
+y93d3cuZmRpYy5nb3YvcmVzb3VyY2VzL2RlcG9zaXQtaW5zdXJhbmNlL2RlcG9zaXQtaW5zdXJh=
+bmNlLWZ1bmQvZGlmLWFzc2Vzc21lbnRzLmh0bWw/607f07ceef4b8524a319a23cBc52bcbbd" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> pay assessments to the FDIC for deposit insurance</a>, but =E2=80=
+=9Cthe assessment base has always been more than just insured deposits=E2=
+=80=9D: It used to be all deposits, and now it is all liabilities. It=E2=80=
+=99s not like a bank pays a premium of 0.1% on deposits up to $250,000 to c=
+over insurance, and 0% on deposits over $250,000 because they are uninsured=
+: It pays 0.1% on everything and only gets insurance on the first $250,000.=
+</p>
+<p style=3D"margin: 16px 0;">And so in rough terms deposits of $250,000 or =
+less come with very valuable insurance for free, and deposits about that am=
+ount can=E2=80=99t get that valuable insurance at any price.</p>
+<p style=3D"margin: 16px 0;">And so the easiest most obvious most value-enh=
+ancing sort of financial engineering in banking is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">I am a regional bank and I=E2=80=99ve=
+ got a customer with a $450,000 deposit.</li>=09<li style=3D"margin-bottom:=
+ 5px;">You are a different regional bank and you=E2=80=99ve got a customer =
+with a $450,000 deposit.</li>=09<li style=3D"margin-bottom: 5px;">I am worr=
+ied that my customer will take out $200,000 of her money and move it elsewh=
+ere to get FDIC insurance.</li>=09<li style=3D"margin-bottom: 5px;">You are=
+ worried that your customer will take out $200,000 of his money and move it=
+ elsewhere to get FDIC insurance.</li>=09<li style=3D"margin-bottom: 5px;">=
+We trade those $200,000 deposits: I put $200,000 of my customer=E2=80=99s m=
+oney in your bank, and you put $200,000 of your customer=E2=80=99s money in=
+ my bank.</li>=09<li style=3D"margin-bottom: 5px;">Now both our customers h=
+ave $450,000 of insured deposits, and neither of us has lost any net deposi=
+ts: I lost $200,000 from my customer but got $200,000 back from your custom=
+er, and vice versa.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is called =E2=80=9Creciprocal deposits=E2=
+=80=9D and it=E2=80=99s having a moment. Stephen Gandel <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvNWZmOGI5OTAtYWUwOC00Y2QzLTk3NmQtZDM3YTkwMzVkMzhl/607f07ceef4=
+b8524a319a23cBb16be6c9" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> reports at the Financial Times</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Beverly Hills, California-based PacWest=E2=80=
+=99s website says clients can =E2=80=9Crest assured=E2=80=9D because the ba=
+nk can offer up to $175mn in insurance coverage per depositor, or 700 times=
+ the FDIC cap. =E2=80=A6 The bank said in its most recent financial filing =
+that it was enrolling more of its customers in =E2=80=9Creciprocal deposit =
+networks=E2=80=9D, over which hundreds, or in some cases thousands, of bank=
+s spread customers=E2=80=99 funds in order to stretch insurance limits.</p>
+<p style=3D"margin: 16px 0;">The biggest of these networks is run by IntraF=
+i, a little-known Virginia-based technology group. ...</p>
+<p style=3D"margin: 16px 0;">Banks can divert large accounts into the netwo=
+rks, where they are parcelled up into $250,000 chunks and sent off to other=
+ FDIC-insured banks. The networks match up the parcels so that any bank sen=
+ding a customer=E2=80=99s deposits into the system immediately receives a s=
+imilarly sized parcel from another bank.</p>
+<p style=3D"margin: 16px 0;">Crucially, the networks allow banks to increas=
+e their level of insured deposits while giving large customers seamless acc=
+ess to their money. Banks pay the network operators a small management fee.=
+</p>
+<p style=3D"margin: 16px 0;">Reciprocal deposits still make up just 2 per c=
+ent of the $10.4tn in deposits insured by the FDIC. But they made up a nota=
+ble 15 per cent of the growth in insured deposits in the first quarter. The=
+ share of deposits covered by the federal Deposit Insurance Fund was highes=
+t in at least a decade at 56 per cent.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Is this good? The argument for it is, look, th=
+e government is pricing this insurance irrationally, so rational bankers sh=
+ould load up on it:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CBanks are using reciproca=
+l deposits aggressively, as they should,=E2=80=9D says Christopher McGratty=
+, an analyst who follows regional banks for Keefe, Bruyette &amp; Woods. He=
+ said that in the wake of SVB=E2=80=99s collapse, investors wanted banks to=
+ reduce their use of uninsured deposits. =E2=80=9CIt=E2=80=99s a bit of win=
+dow dressing, but it=E2=80=99s legit,=E2=80=9D he said.</p></blockquote>
+<p style=3D"margin: 16px 0;">The argument against it is, look, the governme=
+nt is pricing this insurance irrationally and that leads to misallocations =
+of capital:</p>
+<blockquote><p style=3D"margin: 16px 0;">Others have been more sceptical. =
+=E2=80=9CTo the extent that these deposit exchange programs help weak banks=
+ attract deposits, it creates instability,=E2=80=9D said Sheila Bair, who h=
+eaded the FDIC during the global financial crisis. She has called out the d=
+eposit exchanges for =E2=80=9Cgaming the system,=E2=80=9D in the past. =E2=
+=80=9CIt increases moral hazard. There are many good banks that use these e=
+xchanges but the exchanges also allow weak banks to attract large uninsured=
+ depositors who wouldn=E2=80=99t otherwise bank with them.=E2=80=9D</p></bl=
+ockquote>
+<p style=3D"margin: 16px 0;">The argument against raising the cap on FDIC d=
+eposit insurance from $250,000 to infinity is that it <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTQvc3ZiLXRvb2stdGhlLXdyb25nLX=
+Jpc2tzP2NtcGlkPUJCRDA1MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cBee6fd3fb" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  creates moral hazard</a>: If yo=
+u have $20 million to deposit in the bank, we might want you to pay <em>som=
+e </em>attention to the creditworthiness of your bank, so that there are so=
+me limits on the growth of truly terrible banks.<a class=3D"footnote-index"=
+ href=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[5]</span>
+</a> If deposit insurance is <em>synthetically </em>infinite, that has the =
+same problem.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">JPM vs. USVI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A truly odd development in modern financial re=
+gulation is that people sometimes think, or at least say, that the primary =
+responsibility for combating crimes lies with <em>banks </em>rather than th=
+e <em>police.</em> The way this works is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Banks <em>do </em>have some deputized=
+ responsibility to stop crime, to flag suspicious financial activity and ra=
+ise it with law enforcement.</li>=09<li style=3D"margin-bottom: 5px;">When =
+they fail to do that, the government can fine them a lot of money and hold =
+a stern press conference about holding them responsible for their bad behav=
+ior.</li>=09<li style=3D"margin-bottom: 5px;">When the police fail to catch=
+ criminals, the government can=E2=80=99t fine them a lot of money, and the =
+optics of a stern press conference about police failings are not nearly as =
+good.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And so when banks fail to stop drug trafficker=
+s or terrorist financing, there are big fines and stern press conferences, =
+and one thing leads to another and a bunch of big banks end up <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDctMDcvdGVzbGEtcy1zdG9ja=
+y1rZWVwcy1nb2luZy11cD9jbXBpZD1CQkQwNTI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MjQmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB85bf17de" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  getting fined for=
+ failing to stop Jeffrey Epstein=E2=80=99s sex trafficking</a>.</p>
+<p style=3D"margin: 16px 0;">The U.S. Virgin Islands is suing JPMorgan Chas=
+e &amp; Co. for not stopping Jeffrey Epstein, and JPMorgan is now hitting b=
+ack to say, well, you are the actual government and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9qcG1vcmdhbi1zYXlzLXUtcy12aXJnaW4taXNsYW5kcy1mYWlsZWQtdG8tc3Rv=
+cC1lcHN0ZWluLTc5NDBlOGMyP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a2=
+3cB7063d6fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> you didn=E2=80=99t stop him either</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The U.S. Virgin Islands late last year sued JP=
+Morgan, alleging the bank had failed to monitor him as a client. By allowin=
+g him access to the bank accounts he used to pay victims, the government al=
+leged, JPMorgan helped Epstein continue operating. ...</p>
+<p style=3D"margin: 16px 0;">JPMorgan has said the suits are misaimed, as t=
+he bank couldn=E2=80=99t have stopped Epstein. On Tuesday it argued hypocri=
+sy.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn exchange for Epstein=E2=80=99s cas=
+h and gifts, [U.S. Virgin Islands] made life easy for him,=E2=80=9D the ban=
+k said in the filing. =E2=80=9CThe government mitigated any burdens from hi=
+s sex offender status. And it made sure that no one asked too many question=
+s about his transport and keeping of young girls on his island.=E2=80=9D</p=
+>
+<p style=3D"margin: 16px 0;">In a statement, a spokeswoman for the U.S. Vir=
+gin Islands attorney general said: =E2=80=9CThis is an obvious attempt to s=
+hift blame away from JPMorgan Chase, which had a legal responsibility to re=
+port the evidence in its possession of Epstein=E2=80=99s human trafficking,=
+ and failed to do so.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Did the Virgin Islands attorney general have a=
+ responsibility to stop Jeffrey Epstein=E2=80=99s human trafficking in the =
+Virgin Islands? Did Virgin Islands law enforcement have perhaps more <em>ab=
+ility </em>to stop Epstein=E2=80=99s human trafficking in the Virgin Island=
+s than <em>his bank </em>did? Not the point.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oil trading</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Financial markets place an enormous premium on=
+ speed, and have spent the last few hundred years getting faster and faster=
+. By now it has reached the point that in many markets, if someone offered =
+to sell you a thing at a price, it would be embarrassingly slow for you to =
+respond to them <em>a millisecond </em>later. Come on! Markets move fast, p=
+eople are busy, you can=E2=80=99t just lounge around considering your optio=
+ns for a whole millisecond. Government contracting <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9iaWRlbnMtYmlsbGlvbi1kb2xsYXItb2lsLXRyYWRlLWZhY2VzLWEtYmlnLXRlc=
+3QtYzQ3OWVjZT9tb2Q9aHBfbGlzdGFfcG9zMQ/607f07ceef4b8524a319a23cBd5ab7a66" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> works differently</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The U.S. government=E2=80=99s attempt to refil=
+l the skyscraper-sized caverns that hold the country=E2=80=99s emergency oi=
+l reserves is coming with a crash course in energy markets: How to think mo=
+re like a trader.</p>
+<p style=3D"margin: 16px 0;">President Biden last year authorized an emerge=
+ncy sale of more than 180 million barrels from the U.S. Strategic Petroleum=
+ Reserve to ease gasoline prices that skyrocketed after Russia=E2=80=99s in=
+vasion of Ukraine. The Energy Department sold high, averaging roughly $95 a=
+ barrel.</p>
+<p style=3D"margin: 16px 0;">Now the agency is learning that replenishing t=
+hose stockpiles at the lower rate it wants=E2=80=94between $67 to $72=E2=80=
+=94is more difficult, despite prices sliding near those levels at various p=
+oints this year. On Monday, benchmark U.S. crude closed at $71.99 a barrel,=
+ within Washington=E2=80=99s window to buy. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The Energy Department=E2=80=99s attempt to buy=
+ domestically produced sour crude earlier this year sought fixed-price prop=
+osals for up to 3 million barrels. But bids came in with higher prices than=
+ the agency expected or otherwise missed its specifications.</p>
+<p style=3D"margin: 16px 0;">The fixed price meant companies would have to =
+swallow the risk of the market sliding over a 13-day window as the agency e=
+valuated proposals, said Ilia Bouchouev, managing partner at Pentathlon Inv=
+estments. Producers likely bumped up their prices to account for the costs =
+of hedging against the risk of oil prices swinging by several dollars a bar=
+rel.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThat=E2=80=99s a lot of risk to hold =
+a fixed price for two weeks,=E2=80=9D Bouchouev said. =E2=80=9CNobody trade=
+s [on a] flat price.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">So they have revised their approach to ask com=
+panies to submit offers based on a differential to benchmark crude prices, =
+so that the government, rather than the companies, takes the oil price risk=
+. Still I am struck by =E2=80=9Cproposals due May 31 and contracts expected=
+ to be awarded June 9.=E2=80=9D Probably =E2=80=9Cthinking more like a trad=
+er=E2=80=9D <em>does </em>mean =E2=80=9Cprice oil trades on differentials r=
+ather than absolute levels.=E2=80=9D But might it also mean =E2=80=9Clift o=
+ffers while you=E2=80=99re on the phone rather than getting back to them in=
+ two weeks=E2=80=9D?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Debt-Limit Talks Stall as <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjQvZGVidC1saW1pdC10YWxrcy1zdGFsb=
+C1hcy10aW1lLXJ1bnMtc2hvcnQtdG8tYXZlcnQtdXMtZGVmYXVsdD9jbXBpZD1CQkQwNTI0MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzA1MjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbfdbe=
+cd6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Time Runs Short</a> to Avert US Default. Debt-Ceiling Drama =
+Has Some <a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.=
+284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjQv=
+ZGVidC1jZWlsaW5nLWRyYW1hLWhhcy1zb21lLXQtYmlsbHMtdHJhZGluZy1saWtlLWp1bmstYm9=
+uZHM_Y21waWQ9QkJEMDUyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBca764211" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  T-Bills Trading Like Junk Bonds</a=
+>. Debt-Ceiling Fight Sends Investors Hunting for <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9kZWJ0LWNlaWxpbmctZmlnaHQtc2VuZHMtaW52ZXN0b3JzLWh1bnRpbmctZm9yLW=
+5ldy1oYXZlbnMtNDVlYTU1ZTY_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a=
+23cBfdaf9c76" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> New Havens</a>. Citigroup <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjQvY2l0aWdyb3VwLWFiYW5kb25zLWJhbmFtZXg=
+tc2FsZS1wbGFucy0yMDI1LWlwby1mb3ItdW5pdC1pbnN0ZWFkP2NtcGlkPUJCRDA1MjQyM19NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIzMDUyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB865452b5=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  Abandons Banamex Sale</a>, Plans 2025 IPO Instead. Five banks <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aHR=
+0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2VhZDcxODAtZmZmZC00Y2FhLWI0OGYtMGY3Njc1Mj=
+JkODAy/607f07ceef4b8524a319a23cB0adb01a9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> broke competition law</=
+a> over UK government bonds, watchdog says. The Biggest Challenge for Twitt=
+er=E2=80=99s New CEO Will Be <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDUtMjQvbmV3LXR3aXR0ZXItY2VvLWxpbmRhLXlhY2Nhcmluby1uZWVkcy10by1=
+tYW5hZ2UtZWxvbi1tdXNrP2NtcGlkPUJCRDA1MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUyNCZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB62f83cc8" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Managing Elon Mus=
+k</a>. Schwarzman Says Blackstone in Talks to <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjQvc2Nod2Fyem1hbi1zYXlzLWJsYWNrc3RvbmUtaW=
+4tdGFsa3MtdG8tYnV5LXJlZ2lvbmFsLWJhbmstYXNzZXRzP2NtcGlkPUJCRDA1MjQyM19NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIz=
+MDUyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7539e4d9" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  Buy Regional Bank Assets</a>. PacWest Sells <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9wYWN3ZXN0LXNlbGxzLXJlYWwtZXN0YXRlLWxlbmRpbmctdW5pdC0zOWI0Mjk=
+0Zj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB50520258" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Real-Estate Lending Unit</a>. Cayman Islands Regulator Exploring Legal Opt=
+ions After FDIC <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+585391.284418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jYXltYW4taXNsYW5kcy1yZ=
+Wd1bGF0b3ItZXhwbG9yaW5nLWxlZ2FsLW9wdGlvbnMtYWZ0ZXItZmRpYy1zZWl6ZWQtc3ZiLWRl=
+cG9zaXRzLWIwMDcwNGFl/607f07ceef4b8524a319a23cB4268c756" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Seized SVB=
+ Deposits</a>. <a href=3D"https://link.mail.bloombergbusiness.com/click/315=
+85391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMD=
+UtMjQvZnVuZHJpc2Utc2Vla3MtNTAwLW1pbGxpb24tY3JlZGl0LWZ1bmQtZm9yLXJlYWwtZXN0Y=
+XRlLWRpc3RyZXNzP2NtcGlkPUJCRDA1MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUyNCZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cB2fb09084" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Fundrise</a> Seeks $50=
+0 Million Credit Fund for Real Estate Distress. Court Questions Criteria fo=
+r Carson Block=E2=80=99s $14 Million <a href=3D"https://link.mail.bloomberg=
+business.com/click/31585391.284418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9j=
+b3VydC1xdWVzdGlvbnMtY3JpdGVyaWEtZm9yLWNhcnNvbi1ibG9ja3MtMTQtbWlsbGlvbi1zZWM=
+td2hpc3RsZWJsb3dlci1hd2FyZC00MjgyOWFmZA/607f07ceef4b8524a319a23cBddbfc098" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> SEC Whistleblower Award</a>. Crypto Startup Says It Found Path to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjMvcHJvbWV0a=
+GV1bS1jYXBpdGFsLXNlZXMtcGF0aC10by1yZWdpc3Rlci13aXRoLXNlYy1hcy1zcGVjaWFsLXB1=
+cnBvc2UtYnJva2VyP2NtcGlkPUJCRDA1MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUyNCZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cBad341e3e" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  Register With SEC</a>=
+ Under a Broker Rule. Russian [Crypto Exchange Operator] Indicted in U.S. L=
+obbies for Freedom Through a <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31585391.284418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ydXNzaWFu=
+LWluZGljdGVkLWluLXUtcy1sb2JiaWVzLWZvci1mcmVlZG9tLXRocm91Z2gtYS1wcmlzb25lci1=
+zd2FwLThiMTViN2M4P21vZD1ocF9sZWFkX3BvczY/607f07ceef4b8524a319a23cBb8e09e69"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Prisoner Swap</a>. The Long Fight Over =E2=80=98<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy90aGUtbG9uZy1maWdodC1vdmVyLXRhY28tdHVlc2RheS00N2M4ODc3YT=
+9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB7d45444a" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Tac=
+o Tuesday</a>.=E2=80=99 Final day to <a href=3D"https://link.mail.bloomberg=
+business.com/click/31585391.284418/aHR0cHM6Ly93d3cud211ci5jb20vYXJ0aWNsZS9i=
+ZWQtYmF0aC1iZXlvbmQtYnV5LWJ1eS1iYWJ5LXJldHVybi1wb2xpY3ktdXBkYXRlLzQzOTc2OTc=
+5/607f07ceef4b8524a319a23cB13b73308" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> return Bed Bath &amp; Beyond<=
+/a> and Buy Buy Baby items nears. <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31585391.284418/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wNS8=
+yNC9ueXJlZ2lvbi9kYWxpby1zb2hvLWFwYXJ0bWVudC1mZXVkLmh0bWw/607f07ceef4b8524a3=
+19a23cB8cbdfb0a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Ray Dalio SoHo pergola fight</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get Money Stuff in handy email form, right in your =
+inbox, please <a href=3D"https://link.mail.bloombergbusiness.com/click/3158=
+5391.284418/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20=
+vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ=
+/607f07ceef4b8524a319a23cB88567e97" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">sub=
+scribe at this link</a>. Or you can subscribe to Money Stuff and other grea=
+t Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31585391.284418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/=
+607f07ceef4b8524a319a23cBe5e2cc71" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">here</a>. Thanks!</em></span></p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Well, not directly, but <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1=
+hdGUtcHJveHktZmlnaHQ_Y21waWQ9QkJEMDUyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTI0JnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cB02a34d88" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  they can do this</=
+a> through activism, proxy fights, hostile takeovers, etc., and in fact ret=
+urning capital to shareholders is one of the more common goals of activism.=
+ Also <a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284=
+418/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRG9kZ2Vfdi5fRm9yZF9Nb3Rvcl9Dby4=
+/607f07ceef4b8524a319a23cB1b578b01" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> one of the most famous corpora=
+te law cases ever</a> *was* some shareholders suing a company to pay a divi=
+dend, and winning, but that was in 1916 and you don=E2=80=99t see a lot of =
+that since.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] A <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31585391.284418/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTW=
+9kaWdsaWFuaSVFMiU4MCU5M01pbGxlcl90aGVvcmVt/607f07ceef4b8524a319a23cB32c8c30=
+e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> famous theorem of finance says</a>: No there aren=E2=80=99t, =
+under certain stylized assumptions.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] My sense is that in general debt creates m=
+ore opportunity for issuer opportunism than for creditor opportunism, at le=
+ast at big companies, though I may be biased by recent experience of a beni=
+gn credit environment; maybe through the cycle there is more creditor oppor=
+tunism. In any case <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMTktMDItMTkvYXVyZWxpdXMtd2lucy1hZ2FpbnN0LXdpbmRzdHJlYW0_Y21waWQ9QkJEMDUy=
+NDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjMwNTI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+ac0777c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  there definitely *is* creditor-against-issuer opportuni=
+sm</a>, and it would be a bummer to issue bonds and have a bondholder say =
+=E2=80=9Csection 34.11(e)(ix) says I can take your company from you=E2=80=
+=9D and a court agree.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] We have talked a few times about blank-che=
+ck preferred-stock voting cases (<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMDUtMDMvaXMtY2hhdGdwdC1zZWN1cml0aWVzLWZyYXVkP2NtcGlkPUJ=
+CRDA1MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIzMDUyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB5e9b56aa" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">AMC Entertainment Holdings Inc.=E2=80=99s APES</a>=
+, <a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTgvcHV=
+ycGxlLWR1bXBzLWl0cy1wcnBscz9jbXBpZD1CQkQwNTI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MjQmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5d21d0e7" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Purple Inno=
+vation Inc.=E2=80=99s PRPLS</a>), which look to some extent like doing clev=
+erness to shareholders. But there: (1) the ostensible (and probably real) p=
+urpose is to be fair to all shareholders rather than to move value from som=
+e shareholders to others, (2) objections turn on =E2=80=9Cis this fair to s=
+hareholders and consistent with fiduciary duties?=E2=80=9D rather than just=
+ =E2=80=9Cis this allowed by the specific language of the corporate charter=
+?=E2=80=9D and (3) courts seem kinda skeptical.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Another argument against raising the cap i=
+s that it would hurt IntraFi=E2=80=99s business? We have <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31585391.284418/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMjcvZmlyc3QtcmVwdWJsaWMtaXM=
+taW4tbGltYm8_Y21waWQ9QkJEMDUyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTI0JnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB2770222d" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  talked about this before</=
+a>: A business that consists purely of engineering around FDIC caps might g=
+o away if the caps do.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2a71bac2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7983991d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB99ea97c4" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB552e42b8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB263a4ebd" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.2844=
+18/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBc0eea835" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31585391.284418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC356709e7" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31585391.284418/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB555c9a62" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31585391.284418/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8027b0d5" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+fe61591" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31585391.284418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+d6e6c9d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciszfz.63gi/a48d9d89.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9626874_1667202626.1684954736288--
+

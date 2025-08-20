@@ -1,0 +1,2235 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp3017182rwb;
+        Mon, 1 May 2023 11:37:50 -0700 (PDT)
+X-Received: by 2002:a7b:ce86:0:b0:3f0:9d1a:223b with SMTP id q6-20020a7bce86000000b003f09d1a223bmr11352899wmj.16.1682966270299;
+        Mon, 01 May 2023 11:37:50 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1682966270; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=y2gTTMC9ghaC2rxnPk5lLt0/1A7kMQ6bYxsNhl+6WIUXasT//JlDAE/KHaBrZlICuS
+         +u3o5eivzfswf8gk69+139wwhbc67ablEb515DhTuyIQM6pk8kcQrdytONqSj4MVJXq6
+         ZrxxPdqWEQketxwnBTTRjkOIE7kwSeLLnFCoZgtMt+T60KmM7N6M5VqwufATyLBZkA14
+         HHWwH8PCS9ISyQDe9f8qImKnYAGtXgmtk+KQnmKUf4cwSLIR2txZTj5jht/9IMJoYBxG
+         NLJLDAwSuFU6tQJfGk33KuIAuUleX9srXy8+ASzjJAcBAuG1NQJ6TLrPn3llSt7EAJ64
+         BB1w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=k8tdR09T8CdXui2t0AomLXJhxRro8jQZB6QD7Lj4Q8E=;
+        b=hjz6FunZOBgKWiUPasuJiFtAqrolCs3kk5LuhfkSTHyANkD1b9ZbdjTFFk5mo+UWMB
+         QhWv5UDOZyHK8rTrNZQmApsPS4KSnBQ2C+ovFlElPcYDofyzVQ1pAFqiOHFnd9O2y0UH
+         FZy8fvq2sX7+iszOodLoUkcwS9gH1Bbt5VVi29r6PosqNjzlp91mF8RCIzU8D+aW7nxU
+         ttD3Iy8ghfBUIstgN+gxTvnY9p2IjCTZM3SUh0fAWGSvXi3/WNhJNkolMA3VpEurcBgA
+         6BUbhUqEyopXnylhFXvfWUAVUTvzg3efDvYNoOTq5gEx1B/Oftkvwf+SNzQpKWBKa0Y1
+         c/KQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JWx5ng5n;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m20-20020a7bce14000000b003edf928d425sor8793361wmc.12.2023.05.01.11.37.50
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 01 May 2023 11:37:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JWx5ng5n;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1682966270; x=1685558270;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=k8tdR09T8CdXui2t0AomLXJhxRro8jQZB6QD7Lj4Q8E=;
+        b=BmH16aopsgPqQPLImiixWSsPTV8qLxIoRL0MeNY6gO0/YPGfg4hgNwJiRfyxW8Gyll
+         SW/oeqCKwBmv3939uq4sfofFwzj4C5X+TJBH6TWecZNnv1C9KwNeso5brX5BQH0FExiW
+         V/CBGajG2KT5YN4B8F8mbcvLdeWgD0IhFDhafFszvOhpRNQqaGKi/Lu3486GLMzsu7g5
+         6Bv5NwdpatCMZx9McpmZo4Ay99NDuOWVKZ26yiImA6UBBfNB01kkLubZgspKbPQcLpqf
+         Np7PbAwKJV9dZZwTVsGDzDl4jkcvYc9Qnex1XNH3O/Pjz1gKpvCKFBgMx+A7MrK2xPsG
+         YvdA==
+X-Gm-Message-State: AC+VfDxL1h3tpjxp/0SPKzjLTR94/RRRVdSZow+a3msy1WgFl/XrZ3wQ
+	Svy/2Nmh2vE9pyt46eA2Yuls7m21sjyp85FOUsRGO93gWv/VJlyc3w==
+X-Received: by 2002:a7b:c7d0:0:b0:3f0:3d19:d925 with SMTP id z16-20020a7bc7d0000000b003f03d19d925mr2634305wmk.5.1682966269712;
+        Mon, 01 May 2023 11:37:49 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ee03:0:0:0:0:0 with SMTP id y3csp107830wrn;
+        Mon, 1 May 2023 11:37:46 -0700 (PDT)
+X-Received: by 2002:adf:f4cd:0:b0:2f5:b1aa:679c with SMTP id h13-20020adff4cd000000b002f5b1aa679cmr10683510wrp.39.1682966266697;
+        Mon, 01 May 2023 11:37:46 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1682966266; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=isZaguC6MNao8mcNQ5ug2qL+o20U3T900WY7EGT2cus0hMB58bYPJvud1RLOU3mMH6
+         Y4Yqr90tjJoMOIPGciKbROxwLIWbd+3+f2Tc6PgCi3WJkX9oZqAqDHryizg+4gS0+bUg
+         sltUYxSLj6Q/FmS0ZES/OBn7q+MVlAOAE/KuCWX440Tp8dTFecpfOBPE8CtB8UpO5/rC
+         pnBl8lzKDH+iT4sSbM9MRdQetGw44ZwykN73oGkCJFRE3GGlvY4BBbIvuZR2NN8emyBL
+         RNKoa3wm9jXaToh1nSPaOd9Q+ao2cSX62NjDdGF0RkKIc5F8EERSXPcpKbU78UxBO+0w
+         7itA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=k8tdR09T8CdXui2t0AomLXJhxRro8jQZB6QD7Lj4Q8E=;
+        b=rbKQQegkdehVeYZmJ/fXkqnEGJYpxFg8hSq2AW6KHoVIQkHyfWmhcEPqYNS3uV9601
+         FJeNBOHJeelMlBvit43MkE2rkDhzZbD53uCwn0Yf5t55GSM4ZS/WnyR+I8e6aliGtAvz
+         7vXxTKaCDmZOtDxKDp1J7JusrlUCQAex4kMO38pBCv8n6j2oTE0lDAuu2jTsUBrYWoFZ
+         U0AZvarJElJSqLNQv7vuVVHJsTJGCxHhuzBZmYV4toIbWtctzW8NW4iqsPJWbhmmUGE/
+         OI3YOlqXr5wHnHTagdSMW75JfmCwCsymusUJfdpnnV6Px7w6QVajBtIC2XWn80rw3QAs
+         s8UQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JWx5ng5n;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230501143654.31339354.258432@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230501143654.31339354.258432@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230501143654.31339354.258432@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k8-20020a5d6288000000b002d177665971sor11142911wru.37.2023.05.01.11.37.46
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 01 May 2023 11:37:46 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230501143654.31339354.258432@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ61jKppJsC7krJK4d/21TYpwDHmx/9yYB2GxaROj8k++uQprfnChWMjyHEshe6SsT/b/gFdW+hSYd1MSiyP9JmYhomerbo=
+X-Received: by 2002:a5d:56cb:0:b0:2cd:bc79:5444 with SMTP id m11-20020a5d56cb000000b002cdbc795444mr10349071wrw.2.1682966266453;
+        Mon, 01 May 2023 11:37:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1682966266; cv=none;
+        d=google.com; s=arc-20160816;
+        b=efYPtJTC5z6RUzQ9h7BbiD6OcSb6wyv+lxQMBkLVPVEF/CuQDn5OKJU6Zeeg55mcwU
+         P42fM6/9RKOXFTrcN/kLZHkUt9LVhCRtLImCLFvIWaVkZKIlLHa6K6vO0g1fUcq0RQll
+         4F6j6B0DhAxkgCbAK3oNrJmyw0uhIiVC7OdvO0NIdEdaVY3mMASglQOxyFK8eTN7S62m
+         6r4AjiTUTQFExjkMczgjXuus9JAWtTP4SVuH0JjcA1RTTGJJ/FXrKb7QyJokxpl0mA3N
+         c+ME0noqaRM3jNxYK6/MHTw7Pir3sxg7erpQhxS/s3DpDF/i+flOnyRylucTjzNMAcar
+         pfSQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=k8tdR09T8CdXui2t0AomLXJhxRro8jQZB6QD7Lj4Q8E=;
+        b=WHq63BDMPibJ3Ge6GfZ1d6nG9KgOArZ+Cy0id3lhA6wuWdutUyUE6ETPXmE27sNKjE
+         fnEl24jCBGSglhpWHyXV2O37pewSn0y2NGQpv2Cly+TzLD9YOl0BXXHdHLFmuv8AgXBS
+         fX7DtWoNM2Hv5dBDNrvBtyeAIsVnr0cwTbVdvzOIe/O851LXz8ELxW3bjJ5OAY7IG2f2
+         qnibHxIq64ylZgzq+5CjAohUKmCz/vo+qWa0XCZIQ9wIQtqxm1oiAKGwGUK8zq+RlISo
+         ajzf3G6KoEayAH6HcH2U4QpvYmUBnA7NNWOrD2vx8iYnhFI2ehqEMmb0yGPuad7O8Me8
+         7RTQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JWx5ng5n;
+       spf=pass (google.com: domain of delivery_20230501143654.31339354.258432@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230501143654.31339354.258432@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230501143654.31339354.258432@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ba12-20020a0560001c0c00b002f419cfd872si1590620wrb.3.2023.05.01.11.37.45
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 01 May 2023 11:37:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230501143654.31339354.258432@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=pou7Qw/y6wW4H4qnHZDJAaL0vrd85iLj9w+8QJ2phJo=;
+ b=JWx5ng5nl1+OrM5jrX4J4yMNyS1FU3/l8miY3tQgGDE0QdoksUk1/jlqKSbXFSxc+2fg3CR3p2gr
+   zWOjZGCVxE1gxq/EQ0TRid7hvqXjEnParioxb7ljMxyg535FbHOANDiDQ4/uSGf8mj/afk6n95Zi
+   etE1fIOEiLNvwPLmOGc=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id ha03fi30nu87 for <bloomberg@khamel.com>; Mon, 1 May 2023 14:37:45 -0400 (envelope-from <delivery_20230501143654.31339354.258432@mx.sailthru.com>)
+Date: Mon, 1 May 2023 14:36:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230501143654.31339354.258432@sailthru.com>
+Subject: Money Stuff: JPMorgan Got a Deal on First Republic
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30775550_1252967658.1682966214416"
+Precedence: bulk
+X-Feedback-ID: 6358:31339354:campaign:sailthru
+X-TM-ID: 20230501143654.31339354.258432
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cinplm.5jeo/cf583445
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cinplm.5jeo/cf583445>, <mailto:unsubscribe_20230501143654.31339354.258432@mx.sailthru.com>
+X-rpcampaign: stjko31339354
+
+------=_Part_30775550_1252967658.1682966214416
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Wednesd=
+ay.Let=E2=80=99s start with some bank accounting. You=E2=80=99ve got a bank=
+, its assets a
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Wedne=
+sday.
+
+ =20
+   =20
+      First Republic
+   =20
+ =20
+
+Let=E2=80=99s start with some bank accounting. You=E2=80=99ve got a bank, i=
+ts assets are $100 of loans, and its liabilities are $90 of deposits. Share=
+holders=E2=80=99 equity (assets minus liabilities) is $10, for a=C2=A0capit=
+al ratio (equity divided by assets) of 10%. Pretty normal stuff.
+Then the assets go down: The loans were worth $100, but then interest rates=
+ went up and now they are only worth $85. This is less than $90, so the ban=
+k is insolvent, people panic, depositors get nervous and the bank fails. It=
+=C2=A0is seized by the Federal Deposit Insurance Corp., which quickly looks=
+ for a healthy bank to buy the failed one. Ideally a buyer will take over t=
+he entire failed bank, buying $85 worth of loans and assuming $90 worth of =
+deposits; borrowers and depositors will wake up to find that they are now c=
+ustomers of the buyer bank, but everything else is the same.
+How much should the buyer pay for this? The simple math is $85 of assets mi=
+nus $90 of assets equals negative $5: The buyer should pay negative $5, whi=
+ch means something like =E2=80=9Cthe FDIC gives the buyer $5 of cash to tak=
+e over the failed bank,=E2=80=9D though it could be more complicated.
+  [1]
+
+But that simple math is not quite right. If you pay negative $5 to take ove=
+r a bank with $85 of assets and $90 of liabilities, you effectively get a b=
+ank with $90 of assets,=C2=A0$90 of liabilities and $0 of shareholders=E2=
+=80=99 equity. That doesn=E2=80=99t work. The bank, in the first paragraph,=
+ in the good times, did not have assets that equaled its liabilities; it ha=
+d assets that were $10 more than its liabilities. Banks are required =E2=80=
+=94=C2=A0by regulation but also by common sense =E2=80=94=C2=A0to have capi=
+tal, that is, shareholders=E2=80=99 equity,=C2=A0assets that exceed their l=
+iabilities. The buyer bank also has to have assets that exceed its liabilit=
+ies, to have capital against the assets that it buys. If it is buying $85 o=
+f loans, it will want to fund them with no more than, say, $75 of liabiliti=
+es. If it is=C2=A0assuming $90 of deposits, it will have to pay, like, nega=
+tive $15 for them, which means something like =E2=80=9Cthe FDIC gives the b=
+uyer $15 to take over the failed bank.=E2=80=9D
+This is a little weird. You could imagine a different scenario. The FDIC se=
+izes the bank and sells its loans to someone =E2=80=94=C2=A0a hedge fund, o=
+r a bank I guess =E2=80=94=C2=A0for $85, which is what they are worth. Then=
+ the FDIC just hands cash out to all the depositors at the failed bank, a t=
+otal of $90, which is the amount of deposits. At the end of the day there=
+=E2=80=99s nothing left of the failed bank and the FDIC is out of pocket $5=
+, which is less than $15.=C2=A0
+The FDIC mostly doesn=E2=80=99t do this, though, for a couple of reasons. O=
+ne is that usually banks, even failed banks, have some franchise value: The=
+y have relationships and bankers and advisers that allow them to earn money=
+, and the buying bank should want to pay something for that. The value of a=
+ bank is not just its financial assets minus its liabilities; its actual bu=
+siness is worth something too. Selling it whole can bring in more moneuy.
+Another reason is that this approach is far more disruptive than keeping th=
+e bank open: Telling depositors =E2=80=9Cyour bank has vanished but here=E2=
+=80=99s an envelope with your=C2=A0cash=E2=80=9D is worse, for general conf=
+idence in the banking system, than telling them =E2=80=9Coh your bank got b=
+ought this weekend but everything is normal.=E2=80=9D
+Also there is a capital problem for the banking system as a whole: If the F=
+DIC just hands out checks for $90 to all the depositors, they will deposit =
+those checks in other banks, which will then have $90 more of liabilities a=
+nd will need some more capital as well. Selling the whole failed bank to an=
+other bank for $75 will cost the FDIC $15, but it will=C2=A0recapitalize th=
+e banking system. The goal is to have banks with ample capital, whose asset=
+s are worth much more than their liabilities; the acute problem with a fail=
+ed bank is that it has negative capital; the solution is for someone to put=
+ in more money=C2=A0so that the system as a whole is well capitalized again=
+. Sometimes the FDIC puts in the money.
+This morning the FDIC   seized First Republic Bank and sold it to=C2=A0JPMo=
+rgan Chase & Co. My best guess at First Republic=E2=80=99s balance sheet as=
+ of, you know, yesterday would be something like this
+  [2]
+:
+=09
+Assets: Bonds worth about $30 billion; loans with a face value of about $17=
+3 billion but a market value of about $150 billion; cash of about $15 billi=
+on; other stuff worth about $9=C2=A0billion; for a total of about $227 bill=
+ion at pre-deal accounting values=C2=A0but only $204 billion of actual valu=
+e.
+  [3]
+
+=09
+Liabilities:=C2=A0Deposits of about $92 billion, of which $5 billion came f=
+rom JPMorgan and $25 billion came from a group of other big banks, who   pu=
+t their money into First Republic in March to shore up confidence; the othe=
+r $62 billion came from normal depositors. About $28 billion of advances fr=
+om the   Federal Home Loan Bank system. About $93 billion of short-term bor=
+rowings from the Federal Reserve (discount window and Bank Term Funding Pro=
+gram).=C2=A0Those three liabilities =E2=80=94=C2=A0to depositors, to the FH=
+LB, to the Fed =E2=80=94=C2=A0really need to be paid back, and they add to =
+about $213=C2=A0billion. First Republic had some other liabilities, includi=
+ng a bit less than $1 billion of=C2=A0subordinated bonds, but let=E2=80=99s=
+ ignore those.=C2=A0=09
+Equity: The book value of First Republic=E2=80=99s equity yesterday was som=
+ething like $11 billion, including about $4 billion of preferred stock.
+  [4]
+ The actual value of its equity was negative, though; its total assets of $=
+204=C2=A0billion, at market value, were less than the $213 billion it owed =
+to depositors, the Fed and the FHLB, never mind its other creditors.
+
+Here is, roughly, how the sale worked:
+=09
+Assets: JPMorgan bought all the loans and bonds, marking them at their mark=
+et value, about $30 billion for the bonds and $150 billion for the loans. I=
+t also bought $5 billion of other assets. And it attributed $1 billion to i=
+ntangible assets, i.e. First Republic=E2=80=99s relationships and business.
+  [5]
+=C2=A0That=E2=80=99s a total of about $186 billion of asset value. JPMorgan=
+ left behind some assets, though, mainly the $15 billion of cash and=C2=A0a=
+bout $4 billion of other stuff.
+  [6]
+
+=09
+Liabilities: JPMorgan assumed all of the deposits and FHLB advances,=C2=A0p=
+lus another $2 billion of other liabilities, for a total of about $122 bill=
+ion. (Of that, $5 billion was JPMorgan=E2=80=99s own deposit, which it will=
+ cancel.) The subordinated bonds  got vaporized: =E2=80=9CJPMorgan Chase di=
+d not assume First Republic Bank=E2=80=99s corporate debt or preferred stoc=
+k.=E2=80=9D That effectively leaves the shell of First Republic =E2=80=94=
+=C2=A0now effectively owned by the FDIC in receivership =E2=80=94=C2=A0on t=
+he hook to pay back the roughly $93 billion it borrowed from the Fed.=09
+Payment:=C2=A0JPMorgan will pay the FDIC $10.6 billion in cash now,
+  [7]
+ and another $50 billion in five years. It will pay (presumably low) intere=
+st on that $50 billion.
+  [8]
+ So the FDIC will get about $60.6 billion to pay back the Fed, plus the rou=
+ghly $15 billion of cash and roughly $4 billion of other assets=C2=A0still =
+left over at First Republic, for a total of about $80 billion.=C2=A0First R=
+epublic owes the Fed about $93 billion, leaving the=C2=A0FDIC=E2=80=99s ins=
+urance fund with a loss of $10=C2=A0billion or so. =E2=80=9CThe FDIC estima=
+tes that the cost to the Deposit Insurance Fund will be about $13 billion,=
+=E2=80=9D says  the FDIC=E2=80=99s announcement, though =E2=80=9CThis is an=
+ estimate and the final cost will be determined when the FDIC terminates th=
+e receivership.=E2=80=9D=09
+Equity: JPMorgan is getting about $186 billion of assets for about $182.6 b=
+illion ($122 billion of assumed liabilities, plus $10.6 billion in cash, pl=
+us $50 billion borrowed from the FDIC), meaning that it will have about a $=
+3.4 billion equity cushion against these assets.
+
+JPMorgan was the highest bidder in the FDIC=E2=80=99s  weekend auction for =
+First Republic;   Bloomberg reports that its bid =E2=80=9Cwas more appealin=
+g for the agency than the competing bids, which proposed breaking up First =
+Republic or would have required complex financial arrangements to fund its =
+$100 billion of mortgages.=E2=80=9D And=C2=A0this is a pretty high bid: JPM=
+organ is paying $182.6 billion, total, in cash and assumed liabilities, for=
+ a bank with about $180 billion of loans and bonds at their current fair va=
+lue; it is paying a bit extra for the other assets and the intangible value=
+ of the First Republic franchise. Still, it is acquiring the total package =
+of assets for less than they are worth. That discount is required so that J=
+PMorgan can properly capitalize the assets, so that it can have enough capi=
+tal against them. And that discount is paid for by (1) First Republic=E2=80=
+=99s shareholders, preferred stockholders and bondholders, who are getting =
+wiped out and (2) the FDIC, which is also taking a loss on the deal.
+Another point of the deal is that the FDIC is entering into loss-sharing ag=
+reements with JPMorgan, in which the FDIC will agree to bear 80% of the cre=
+dit losses on First Republic=E2=80=99s mortgages and commercial loans. You =
+can sort of imagine a simple story here: First Republic is a failed bank, i=
+t made some bad choices, who knows if its loans are toxic, JPMorgan had onl=
+y a weekend to review them, it is not comfortable taking the risk, so it de=
+manded that the FDIC share in the risk.
+But this is not really right. First Republic=E2=80=99s loans had famously=
+=C2=A0good=C2=A0credit quality; First Republic   got itself in trouble by m=
+aking   low-interest mortgages to very rich people, who will probably pay b=
+ack those loans. (But the loans have lost value due to the move in interest=
+ rates.)=C2=A0And JPMorgan=E2=80=99s  investor presentation touts both the =
+=E2=80=9Chigh-quality portfolio=E2=80=9D=C2=A0with a =E2=80=9Cstrong credit=
+ profile=E2=80=9D=C2=A0and also JPMorgan=E2=80=99s own =E2=80=9Ccomprehensi=
+ve due diligence to support transaction assumptions.=E2=80=9D JPMorgan did =
+not need a loss-sharing agreement with the FDIC because it was worried that=
+ First Republic=E2=80=99s loans were toxic.
+JPMorgan needed a loss-sharing agreement to=C2=A0improve the capital accoun=
+ting for the deal. I have, above, used simple math =E2=80=94=C2=A0assets mi=
+nus liabilities, equity divided by assets =E2=80=94=C2=A0to describe bank c=
+apital, but actual bank capital requirements are based on risk-weighed asse=
+ts. Capital is a cushion designed to protect a bank from losses, and a bank=
+ needs more capital against risky assets than it does against safe assets. =
+A big pile of mortgages and commercial loans=C2=A0will get an=C2=A0okay=C2=
+=A0risk weighting, but a big pile of mortgages and commercial loans=C2=A0in=
+sured by the FDIC=C2=A0will get a=C2=A0better=C2=A0risk weighting. If JPMor=
+gan had just bought these loans outright, its capital ratios would have suf=
+fered. But, it says, the =E2=80=9CFDIC loss share agreements reduce risk we=
+ighting on covered loans,=E2=80=9D so=C2=A0its common equity tier 1 capital=
+ ratio will still be =E2=80=9Cconsistent with 1Q24 target of 13.5%.=E2=80=
+=9D=C2=A0
+On an analyst call=C2=A0this morning, JPMorgan Chief Financial Officer Jere=
+my Barnum discussed this point:
+What I would say broadly is that given the nature of the portfolio and ques=
+tion, I think First Republic is very well-known for very good credit discip=
+line. As you point out, these are primarily rate marks. And therefore, the =
+benefit of the loss share really is the sort of enhancement to the RWA [ris=
+k-weighted asset]=C2=A0risk-weighting, which in turn is what makes these ot=
+herwise generally not very-high returning assets, in other words, prime jum=
+bo mortgages primarily, actually quite attractive from a returns perspectiv=
+e. So the CET1 [common equity tier 1 capital] numbers fully incorporate the=
+ expected risk-weighting of the RWA, and we'll leave it at that, I think.
+A normal mortgage loan  gets about a 50% risk weight, so at its 13.5% targe=
+t capital ratio, JPMorgan would need to fund that mortgage with almost 7% e=
+quity capital. These mortgages get about a 25% risk weight, meaning that JP=
+Morgan can get away with half as much capital, which makes its return on eq=
+uity from these mortgages much higher.
+This is, by the way, a classic sort of financial engineering, a  capital re=
+lief trade.=C2=A0You have a situation where the bank has loans that it thin=
+ks are very safe, but the regulatory capital requirements treat them as kin=
+da risky; the regulators and the bank disagree on their risk. So the bank f=
+inds some well-funded third party that agrees with it that the loans are ve=
+ry safe, and buys very cheap insurance from that third party: The bank thin=
+ks the loans are safe,=C2=A0the third party agrees they=E2=80=99re safe, so=
+ the insurance premium is low, and insuring the loans lowers their capital =
+requirements. It=E2=80=99s just that, here, the regulator (the FDIC) is als=
+o selling JPMorgan the insurance (for free). Everyone agrees that these loa=
+ns are safe, but the capital regulations treat them as risky. There is a tr=
+ade to be done. With the regulator.
+For that matter, why does JPMorgan need to borrow $50 billion from the FDIC=
+ to do this deal? Why can=E2=80=99t it pay $60.6 billion upfront? The answe=
+r is not that it couldn=E2=80=99t=C2=A0scrape together the $60.6 billion in=
+ cash today; the answer is that JPMorgan, as a big stable bank, needs to ke=
+ep a lot of cash around in case=C2=A0it=C2=A0has a bank run, and spending s=
+o much cash on First Republic would not be a prudent use of liquidity. On t=
+he analyst call, Barnum described the FDIC loan in these terms: =E2=80=9CTh=
+e deal also includes a $50 billion 5-year fixed-rate funding facility from =
+the FDIC, which helps manage the ALM [asset/liability management] profile o=
+f the transaction, as well as the liquidity consumption.=E2=80=9D First Rep=
+ublic had some long-term loans that it funded with short-term deposits, and=
+ look what happened to it. JPMorgan is going to fund those long-term loans =
+with=C2=A0long-term borrowing.
+You can see the levers here, the financial engineering. The FDIC=E2=80=99s =
+goal here is to minimize the loss to its insurance fund, to sell First Repu=
+blic for roughly what it is worth. But its other goal is to make sure that =
+the banking system is well capitalized, and selling First Republic for 100%=
+ of its asset value doesn=E2=80=99t help with that goal; it just moves the =
+capital hole somewhere else. The solution is some combination of:
+=09Sell First Republic to a very-well-capitalized bank, one that can absorb=
+ the capital hole. =E2=80=9CFortress principles position us to invest throu=
+gh cycles =E2=80=94=C2=A0organically and inorganically,=E2=80=9D says JPMor=
+gan=E2=80=99s presentation about the deal; it has spent years bragging abou=
+t its =E2=80=9Cfortress balance sheet,=E2=80=9D and that really does let it=
+ do deals like this. But this deal will bring down its capital ratios a bit=
+; a well-capitalized bank that absorbs an insolvent one will become a bit l=
+ess well capitalized.
+  [9]
+
+=09Give that bank a discount: JPMorgan is paying a bit more than 100% of th=
+e current market value of First Republic=E2=80=99s bonds and loans, but a b=
+it less than 100% of the total value of its assets. It will book a gain on =
+the deal, which will help maintain its capital ratios.=09Engineer the deal =
+to optimize the regulatory treatment: If giving JPMorgan an FDIC guarantee =
+on some assets will lower its risk-weighted assets, you do that. If giving =
+JPMorgan a long-term FDIC loan will improve its liquidity ratios, you do th=
+at.=C2=A0
+
+You can to some extent trade off the discount against the engineering: Sure=
+ly JPMorgan=C2=A0could=C2=A0have absorbed First Republic with no loan from =
+the FDIC (worse for its regulatory liquidity requirements) and no loss-shar=
+ing agreement (worse for its regulatory capital ratios), but it would have =
+paid less, which means that the FDIC would have paid more. But the FDIC did=
+ the math and concluded that the loan and loss-sharing made for a better de=
+al.
+You could imagine going further. JPMorgan could have come to the FDIC and t=
+he Fed and said =E2=80=9Clook, we would like to pay full value for these as=
+sets, but we have these pesky capital requirements. But you set the capital=
+ requirements; you could, you know,=C2=A0waive=C2=A0them a bit. Let us igno=
+re First Republic in calculating our capital ratios; then we won=E2=80=99t =
+need as much capital to do the deal, and we can pay more.=E2=80=9D Somethin=
+g a=C2=A0little=C2=A0like that happened in   UBS Group AG=E2=80=99s deal to=
+ buy Credit Suisse Group AG in March: Swiss regulators, who insisted on the=
+ deal,  agreed to =E2=80=9Cgrant appropriate transitional periods=E2=80=9D =
+for UBS to meet its capital requirements after the deal.
+But of course you want to minimize that sort of thing, because the goal her=
+e is not just to make sure that First Republic opens for business today or =
+to minimize the dollar losses to the FDIC=E2=80=99s insurance fund. The goa=
+l here is to restore confidence in the banking system, to send the message =
+that the crisis is over and everything is fixed. A rescue deal for First Re=
+public that weakens the capital or liquidity of its buyer is not a good sol=
+ution. You don=E2=80=99t want to do too much financial engineering; you don=
+=E2=80=99t want to leave the buyer=C2=A0technically=C2=A0well capitalized b=
+ut=C2=A0really=C2=A0in a more dangerous place. But a little engineering is =
+fine.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      US CDS
+   =20
+ =20
+
+The simple way to think about a credit default swap is that it is insurance=
+ on a bond. If you own $1 million=C2=A0of the bonds of some company or gove=
+rnment, you can buy $1 million of CDS to protect yourself; you pay some per=
+iodic insurance premium for this protection. If the issuer defaults on its =
+debt, you get made whole; you get your $1 million back.
+When an issuer defaults on its debt, usually the debt is worth=C2=A0somethi=
+ng:=C2=A0A company will go bankrupt and pay back its bonds at 20 or 40 cent=
+s on the dollar or whatever, or a government will restructure its debt and =
+give bondholders some value back. And so the way CDS works is basically tha=
+t, when an issuer defaults, the CDS pays back 100 cents on the dollar=C2=A0=
+minus=C2=A0the value of the bonds. If a company goes bankrupt and its bonds=
+ recover 37 cents on the dollar, then its CDS will pay out 63 cents on the =
+dollar. If you have $1 million of bonds plus $1 million of CDS, you will ge=
+t back $370,000 on the bonds and $630,000 on the CDS and be fully insured.
+Sometimes this works simply enough: A company has one set of bonds, it defa=
+ults, they pay out 37 cents, the CDS pays the other 63 cents, easy. Sometim=
+es, though, a company or government will have different bonds that get diff=
+erent recoveries that are all covered by the same CDS contract. The CDS wil=
+l pay out one amount, set by an auction and more or less corresponding to t=
+he recovery of the=C2=A0worst=C2=A0(=E2=80=9Ccheapest-to-deliver=E2=80=9D) =
+bond.
+  [10]
+=C2=A0And so if a company goes bankrupt and one bond gets 37 cents on the d=
+ollar and another gets 41, the CDS will probably pay out about 63 cents on =
+the dollar, and if you had one of the 41-cent bonds and hedged with CDS you=
+ will get back 104 cents on the dollar, great.
+To be clear, unlike in actual insurance, you don=E2=80=99t need to own the =
+bonds to buy CDS. If you want to bet against a company=E2=80=99s credit, yo=
+u can buy CDS on it, and then if it defaults you get the CDS payoff. (Peopl=
+e get mad about this, but never mind; in financial markets buying CDS is a =
+way to=C2=A0short=C2=A0bonds.) If=C2=A0the bonds pay off 37, then you get b=
+ack 63; you never owned the bonds but that=E2=80=99s fine.
+Notice that if you are a bond investor who bought CDS as a hedge, you don=
+=E2=80=99t care very much about the bond recovery; if the recovery is X, yo=
+u get X on the bonds and 1 - X on the CDS and it doesn=E2=80=99t matter wha=
+t X is. If you bought CDS to short the bonds, though, you want the bond rec=
+overy to be as low as possible, because you get paid 1 - X.
+Where this becomes very fun is in the category of trade that is sometimes l=
+oosely referred to as =E2=80=9Cmanufactured defaults.=E2=80=9D These trades=
+ go something like this. Some company needs money. Some hedge fund owns a l=
+ot of CDS on the company.
+  [11]
+=C2=A0The hedge fund goes to the company and says =E2=80=9Clook, it will he=
+lp us out a lot if you default on your debt. Why don=E2=80=99t you just, li=
+ke, miss the deadline for an interest payment by a week.
+  [12]
+=C2=A0Then you will be in default and our CDS will trigger and we=E2=80=99l=
+l get paid. Then you go back and make the interest payment and nobody compl=
+ains too much; you won=E2=80=99t go bankrupt or anything. And then we=E2=80=
+=99ll have all this money from our CDS payoff, and we=E2=80=99ll write you =
+a big check, and you=E2=80=99ll have more money too.=E2=80=9D
+The mechanics are a bit more complicated,=C2=A0and people =E2=80=94=C2=A0ev=
+en the pope! =E2=80=94=C2=A0get mad about this, but never mind that either.=
+ The point I want to make here is just that there is a flaw in this logic, =
+which is that if you manufacture a default at a company where=C2=A0everythi=
+ng is otherwise fine, the bonds=C2=A0won=E2=80=99t lose much value, and so =
+the CDS won=E2=80=99t pay off that much. The CDS will trigger, there=E2=80=
+=99ll be an auction for the debt, people will be like =E2=80=9Cmeh this deb=
+t is fine,=E2=80=9D the auction will clear at like 95 cents on the dollar, =
+and the CDS will pay off like 5 cents.
+And so there is a refinement on the manufactured-default trade, which is th=
+at you also have to find, or manufacture, a bad=C2=A0bond. If some junk-rat=
+ed-but-okay company has a lot of bonds that pay 12% interest and trade at 9=
+9 cents on the dollar, and it manufactures a default, that doesn=E2=80=99t =
+do its CDS holders much good. But if it has a 30-year bond with a 2% intere=
+st rate that trades at 20 cents on the dollar, and=C2=A0it manufactures a d=
+efault, then the CDS will pay off 80.
+  [13]
+
+Every so often the US government thinks about defaulting on its debt for no=
+ particular reason; this is called the =E2=80=9Cdebt ceiling standoff.=E2=
+=80=9D The somewhat surprising rule of thumb is that when there is a debt c=
+eiling standoff =E2=80=94=C2=A0when the US government starts thinking about=
+ defaulting on its debt =E2=80=94=C2=A0the price of US government debt goes=
+=C2=A0up. The thinking is:
+=09A US government default would be a bad destabilizing event in financial =
+markets generally.=09When markets are bad and destabilized, there is a flig=
+ht to quality; people want to buy safe assets.=09The safest assets are US g=
+overnment debt, so the price of US government debt goes up.=09
+Even in a US government default, US government debt will be safe, because t=
+he government has plenty of money and is defaulting for no particular reaso=
+n, and it will quickly fix the default and start paying its debts again.
+
+So a US debt default would lead to panic, but not actually any significant =
+impairment on the payments of, like, 30-year Treasury bonds. Which means th=
+at the prices of those bonds will go up in the panic.
+You can buy credit default swaps on US government debt, but historically th=
+at has not been a great way to speculate on the debt ceiling standoff: If t=
+he US government defaults, its bonds will=C2=A0trade to, like, 102 cents on=
+ the dollar, and your CDS might trigger but won=E2=80=99t pay much.
+But that is the thinking from a long period of declining interest rates, an=
+d now things have changed. Bloomberg=E2=80=99s=C2=A0Sujata Rao-Coverley, De=
+nitsa Tsekova and Liz McCormick reported on Friday:
+
+In what is a traditionally moribund corner of Wall Street, speculators are =
+piling into a bet that once seemed unthinkable: that the US government will=
+ default on its debts.=C2=A0
+With the Treasury Department inching ever closer to running out of cash =E2=
+=80=94 most estimates give it another=C2=A0few months=C2=A0=E2=80=94 tradin=
+g in the derivatives, known as credit-default swaps, is growing. The amount=
+ of money tied to the contracts, which will reward investors if the US miss=
+es any payments, has increased roughly eight-fold since the start of the ye=
+ar.
+This isn=E2=80=99t the first time that a mini-mania around this trade has e=
+rupted. There were episodes back in 2011, 2013, and to a lesser extent 2021=
+. But this time, it all feels a bit different. =E2=80=A6 A quirk in the der=
+ivatives market means they can take advantage of the rock-bottom prices on =
+long-term US bonds to juice gains on the contracts should the US actually d=
+efault. With some Treasuries recently trading below 60 cents on the dollar =
+=E2=80=94 the result of the Federal Reserve=E2=80=99s rapid-fire series of =
+interest-rate hikes =E2=80=94 the potential payout could exceed 2,400%, acc=
+ording to Bloomberg calculations.
+
+Treasuries don=E2=80=99t trade below 60 cents on the dollar because people =
+are worried about the credit risk of the US government. Treasuries trade be=
+low 60 cents on the dollar because they are 30-year bonds issued in 2020 wi=
+th interest rates of 1.25%, and now long-term interest rates are much highe=
+r.
+  [14]
+=C2=A0If the US government defaulted this year, it is overwhelmingly likely=
+ that holders of those bonds would get all of their money back, more or les=
+s on schedule. But if the US government defaulted this year, credit default=
+ swaps would trigger, and those bonds would sell for about 60 cents on the =
+dollar. Which means that the CDS could pay out a lot.
+
+ =20
+   =20
+      Terra=E2=80=99s back!
+   =20
+ =20
+
+Love  these guys:=C2=A0
+
+Terra Classic community members are mulling a revival of the network=E2=80=
+=99s failed terraUSD (USTC) token nearly a year after Terra=E2=80=99s implo=
+sion.
+Terra Classic is the original network created by Terraform Labs. It has con=
+tinued as an independent blockchain rather than Terra 2.0, which is a forke=
+d version that was created in the wake of Terra's collapse.
+In discussions that started in mid-April, community members are describing =
+a model that relies on token buybacks, unidirectional swaps, staking and an=
+ =E2=80=9Calgorithmic peg divergence fee=E2=80=9D to address the issues wit=
+h the original design.
+
+When the TerraUSD stablecoin=C2=A0collapsed last May,   I wrote about its e=
+ssential death-spiral mechanics, and said:
+This is extremely well-known stuff in traditional finance. =E2=80=A6=C2=A0I=
+n crypto, however, people are much more willing to believe in perpetual-mot=
+ion machines, and there is just a lot more mumbo-jumbo about ecosystems and=
+ staking rewards that you can throw over all of this to distract people fro=
+m the essential mechanics, so =E2=80=A6 look, this is also extremely well-k=
+nown stuff in crypto, and lots of people are skeptical of algorithmic stabl=
+ecoins, but people keep doing them.
+Ah but now they are =E2=80=9Cdescribing a model that relies on token buybac=
+ks, unidirectional swaps, staking and an =E2=80=98algorithmic peg divergenc=
+e fee=E2=80=99 to address the issues with the original design,=E2=80=9D tha=
+t should be fine then.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+US Supreme Court to Consider   Curbing Authority of Federal Regulatory Agen=
+cies.=C2=A0Money-Market Funds Are Hot Again After Years of Fee Discounts.=
+=C2=A0Lazard to Cut Workforce 10% as CEO Sees Slump Through 2023. Deutsche =
+Bank Cuts Debt Plan as Funding Costs Rise After Crisis.  Epstein=E2=80=99s =
+Private Calendar Reveals Prominent Names, Including CIA Chief, Goldman=E2=
+=80=99s Top Lawyer. Billionaire Steve Cohen Has a Plan to Become the King o=
+f Queens.=C2=A0The Kingdom Of  Bhutan Has Been Quietly Mining Bitcoin For Y=
+ears. Twitter Co-Founder Dorsey   Rues Musk Deal: =E2=80=98It All Went Sout=
+h.=E2=80=99 How=E2=80=99s  Truth Social doing?=C2=A0 Hippos Spawned From Dr=
+ug Lord Pablo Escobar=E2=80=99s Ranch Won=E2=80=99t Stop Multiplying.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] More complicated approaches include =E2=80=9Cthe buyer does not assum=
+e some of the deposits,=E2=80=9D or =E2=80=9Cthe FDIC gives the buyer some =
+goodies =E2=80=94 a below-market line of credit, a contingent loss-sharing =
+agreement =E2=80=94 that are worth around $5.=E2=80=9D
+
+
+  [2] This draws on JPMorgan=E2=80=99s  investor presentation and  press re=
+lease for the deal, on the California Department of Financial Protection an=
+d Innovation  order seizing First Republic, and on First Republic=E2=80=99s=
+ balance sheet as of March 31 from its  earnings report last week. The FDIC=
+=E2=80=99s announcement of the seizure  includes some other numbers as of A=
+pril 13, but I am not sure what to do with them.
+
+
+  [3] Numbers don=E2=80=99t add due to rounding. These numbers are mostly f=
+rom page 2 of  the JPMorgan deck and from the DFPI order. The $9 billion mi=
+scellaneous category here includes =E2=80=9Cother assets=E2=80=9D  like lea=
+se assets and interest receivables, broken out a bit more on page 170 of  t=
+he annual report, which come to about $5 billion, plus a $4 billion plug to=
+ get the numbers to work. My guess is that that $4 billion is mostly availa=
+ble-for-sale securities that JPMorgan did not buy, but I am not sure.
+
+
+  [4] That is, my $227 billion calculation of assets minus $213 billion of =
+important liabilities minus $3 billion of =E2=80=9Cother liabilities=E2=80=
+=9D and subordinated debt. As of March 31 its book equity was about $18 bil=
+lion, including $3.6 billion of preferred stock.=20
+
+
+  [5] Strictly this is for  the =E2=80=9Ccore deposit=E2=80=9D intangible, =
+sort of a subset of the franchise value.
+
+
+  [6] See footnote 3 on the $4 billion of miscellaneous assets.
+
+
+  [7] Or =E2=80=9Cdid pay=E2=80=9D? The presentation says =E2=80=9CJPMorgan=
+ Chase will make a payment of $10.6B to the FDIC.=E2=80=9D The deal has alr=
+eady closed, so I assume that the payment=E2=80=99s due date is, like, as s=
+oon as the wire transfers open today?=20
+
+
+  [8] =E2=80=9CFDIC will provide a new $50B five-year fixed-rate term finan=
+cing,=E2=80=9D says the presentation. On the  analyst call, JPMorgan declin=
+ed to say the rate on that financing.
+
+
+  [9] Barnum on the analyst call: =E2=80=9CThe net of the day one gain and =
+the corresponding RWA increase will reduce our CET1 ratio by approximately =
+40 basis points.=E2=80=9D
+
+
+  [10] We have   talked about these   mechanics a few times before.
+
+
+  [11] As a short bet, or not. This works pretty much just as well if the C=
+DS investor is also long bonds, though there are some nuances you=E2=80=99l=
+l want to keep straight. (You don=E2=80=99t want to tank the recovery *on t=
+he bonds the CDS investor owns*; you want to tank some other bonds.)
+
+
+  [12] There=E2=80=99s generally a grace period in the bond documents, so, =
+like, miss it by 30 days plus a week or whatever.
+
+
+  [13] This is,   roughly, the Hovnanian trade.=20
+
+
+  [14] Bloomberg=E2=80=99s FIT page shows me a 1.25% long bond due in May 2=
+050 trading a bit below 57 cents on the dollar today, for a yield of about =
+3.8%.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cinplm.5jeo/a0a8f1de.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_30775550_1252967658.1682966214416
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Wednesday.Let=
+=E2=80=99s start with some bank accounting. You=E2=80=99ve got a bank, its =
+assets a
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB970021ec"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTMzOTM1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE1OTc3ODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBbedca8af" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31339354&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31597786&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Wednesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">First Republic</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Let=E2=80=99s start with some bank accounting.=
+ You=E2=80=99ve got a bank, its assets are $100 of loans, and its liabiliti=
+es are $90 of deposits. Shareholders=E2=80=99 equity (assets minus liabilit=
+ies) is $10, for a=C2=A0capital ratio (equity divided by assets) of 10%. Pr=
+etty normal stuff.</p>
+<p style=3D"margin: 16px 0;">Then the assets go down: The loans were worth =
+$100, but then interest rates went up and now they are only worth $85. This=
+ is less than $90, so the bank is insolvent, people panic, depositors get n=
+ervous and the bank fails. It=C2=A0is seized by the Federal Deposit Insuran=
+ce Corp., which quickly looks for a healthy bank to buy the failed one. Ide=
+ally a buyer will take over the entire failed bank, buying $85 worth of loa=
+ns and assuming $90 worth of deposits; borrowers and depositors will wake u=
+p to find that they are now customers of the buyer bank, but everything els=
+e is the same.</p>
+<p style=3D"margin: 16px 0;">How much should the buyer pay for this? The si=
+mple math is $85 of assets minus $90 of assets equals negative $5: The buye=
+r should pay negative $5, which means something like =E2=80=9Cthe FDIC give=
+s the buyer $5 of cash to take over the failed bank,=E2=80=9D though it cou=
+ld be more complicated.<a class=3D"footnote-index" href=3D"#footnote-1" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But that simple math is not quite right. If yo=
+u pay negative $5 to take over a bank with $85 of assets and $90 of liabili=
+ties, you effectively get a bank with $90 of assets,=C2=A0$90 of liabilitie=
+s and $0 of shareholders=E2=80=99 equity. That doesn=E2=80=99t work. The ba=
+nk, in the first paragraph, in the good times, did not have assets that equ=
+aled its liabilities; it had assets that were $10 <em>more</em> than its li=
+abilities. Banks are required =E2=80=94=C2=A0by regulation but also by comm=
+on sense =E2=80=94=C2=A0to have <em>capital</em>, that is, shareholders=E2=
+=80=99 equity,=C2=A0assets that exceed their liabilities. The buyer bank al=
+so has to have assets that exceed its liabilities, to have capital against =
+the assets that it buys. If it is buying $85 of loans, it will want to fund=
+ them with no more than, say, $75 of liabilities. If it is=C2=A0assuming $9=
+0 of deposits, it will have to pay, like, negative $15 for them, which mean=
+s something like =E2=80=9Cthe FDIC gives the buyer $15 to take over the fai=
+led bank.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">This is a little weird. You could imagine a di=
+fferent scenario. The FDIC seizes the bank and sells its loans to someone =
+=E2=80=94=C2=A0a hedge fund, or a bank I guess =E2=80=94=C2=A0for $85, whic=
+h is what they are worth. Then the FDIC just hands cash out to all the depo=
+sitors at the failed bank, a total of $90, which is the amount of deposits.=
+ At the end of the day there=E2=80=99s nothing left of the failed bank and =
+the FDIC is out of pocket $5, which is less than $15.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The FDIC mostly doesn=E2=80=99t do this, thoug=
+h, for a couple of reasons. One is that usually banks, even failed banks, h=
+ave some franchise value: They have relationships and bankers and advisers =
+that allow them to earn money, and the buying bank should want to pay somet=
+hing for that. The value of a bank is not just its financial assets minus i=
+ts liabilities; its actual business is worth something too. Selling it whol=
+e can bring in more moneuy.</p>
+<p style=3D"margin: 16px 0;">Another reason is that this approach is far mo=
+re disruptive than keeping the bank open: Telling depositors =E2=80=9Cyour =
+bank has vanished but here=E2=80=99s an envelope with your=C2=A0cash=E2=80=
+=9D is worse, for general confidence in the banking system, than telling th=
+em =E2=80=9Coh your bank got bought this weekend but everything is normal.=
+=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Also there is a capital problem for the bankin=
+g system as a whole: If the FDIC just hands out checks for $90 to all the d=
+epositors, they will deposit those checks in other banks, which will then h=
+ave $90 more of liabilities and will need some more capital as well. Sellin=
+g the whole failed bank to another bank for $75 will cost the FDIC $15, but=
+ it will=C2=A0<em>recapitalize the banking system</em>. The goal is to have=
+ banks with ample capital, whose assets are worth much more than their liab=
+ilities; the acute problem with a failed bank is that it has negative capit=
+al; the solution is for someone to put in more money=C2=A0so that the syste=
+m as a whole is well capitalized again. Sometimes the FDIC puts in the mone=
+y.</p>
+<p style=3D"margin: 16px 0;">This morning the FDIC <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDEvZmlyc3QtcmVwdWJsaWMtc2VpemVkLWJ5L=
+XJlZ3VsYXRvcnMtd2lsbC1iZS1zb2xkLXRvLWpwbW9yZ2FuP2NtcGlkPUJCRDA1MDEyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDUwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1b8e2d4f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  seized First Republic Bank and sold it</a> to=C2=A0JPMorgan Chase=
+ &amp; Co. My best guess at First Republic=E2=80=99s balance sheet as of, y=
+ou know, yesterday would be something like this<a class=3D"footnote-index" =
+href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: none !important; background-color: transparent !important; display: =
+inline-block;">
+<span>[2]</span>
+</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">
+<em>Assets:</em> Bonds worth about $30 billion; loans with a face value of =
+about $173 billion but a market value of about $150 billion; cash of about =
+$15 billion; other stuff worth about $9=C2=A0billion; for a total of about =
+$227 billion at pre-deal accounting values=C2=A0but only $204 billion of ac=
+tual value.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: none !important; background-c=
+olor: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Liabilities:=C2=A0</em>Deposits of about $92 billion, of which $5 billi=
+on came from JPMorgan and $25 billion came from a group of other big banks,=
+ who <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.2584=
+32/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTcv=
+YmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHVibGljLXdpdGgtdGhlaXItbW9uZXk_Y21waWQ9QkJ=
+EMDUwMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNTAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cBdc841e1b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  put their money into First Republic</a> in March t=
+o shore up confidence; the other $62 billion came from normal depositors. A=
+bout $28 billion of advances from the <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMDQtMjgvZmVkZXJhbC1ob21lLWxvYW4tYmFuay1zeXN0ZW0tYXZlcn=
+RlZC1iaWdnZXItYmFua2luZy1jcmlzaXM_Y21waWQ9QkJEMDUwMTIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTAxJnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcd4461f3" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Feder=
+al Home Loan Bank system</a>. About $93 billion of short-term borrowings fr=
+om the Federal Reserve (discount window and Bank Term Funding Program).=C2=
+=A0Those three liabilities =E2=80=94=C2=A0to depositors, to the FHLB, to th=
+e Fed =E2=80=94=C2=A0really need to be paid back, and they add to about $21=
+3=C2=A0billion. First Republic had some other liabilities, including a bit =
+less than $1 billion of=C2=A0subordinated bonds, but let=E2=80=99s ignore t=
+hose.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Equity:</em> The book value of First Republic=E2=80=99s equity yesterda=
+y was something like $11 billion, including about $4 billion of preferred s=
+tock.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> The actual value of its equity was negative, though; its total assets =
+of $204=C2=A0billion, at market value, were less than the $213 billion it o=
+wed to depositors, the Fed and the FHLB, never mind its other creditors.</l=
+i>
+</ul>
+<p style=3D"margin: 16px 0;">Here is, roughly, how the sale worked:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">
+<em>Assets:</em> JPMorgan bought all the loans and bonds, marking them at t=
+heir market value, about $30 billion for the bonds and $150 billion for the=
+ loans. It also bought $5 billion of other assets. And it attributed $1 bil=
+lion to intangible assets, i.e. First Republic=E2=80=99s relationships and =
+business.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0That=E2=80=99s a total of about $186 billion of asset value. JPMo=
+rgan left behind some assets, though, mainly the $15 billion of cash and=C2=
+=A0about $4 billion of other stuff.<a class=3D"footnote-index" href=3D"#foo=
+tnote-6" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none =
+!important; background-color: transparent !important; display: inline-block=
+;">
+<span>[6]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Liabilities:</em> JPMorgan assumed all of the deposits and FHLB advance=
+s,=C2=A0plus another $2 billion of other liabilities, for a total of about =
+$122 billion. (Of that, $5 billion was JPMorgan=E2=80=99s own deposit, whic=
+h it will cancel.) The subordinated bonds <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuanBtb3JnYW5jaGFzZS5=
+jb20vY29udGVudC9kYW0vanBtYy9qcG1vcmdhbi1jaGFzZS1hbmQtY28vaW52ZXN0b3ItcmVsYX=
+Rpb25zL2RvY3VtZW50cy9ldmVudHMvMjAyMy9qcG1vcmdhbi1jaGFzZS1hY3F1aXJlcy1zdWJzd=
+GFudGlhbC1tYWpvcml0eS1vZi1hc3NldHMtYW5kLWFzc3VtZXMtY2VydGFpbi1saWFiaWxpdGll=
+cy1vZi1maXJzdC1yZXB1YmxpYy1iYW5rLWNvbmZlcmVuY2UtY2FsbC0vSlBNb3JnYW5fQ2hhc2V=
+fUHJlc2VudGF0aW9uLnBkZg/607f07ceef4b8524a319a23cB100ff7f2" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> got vap=
+orized</a>: =E2=80=9CJPMorgan Chase did not assume First Republic Bank=E2=
+=80=99s corporate debt or preferred stock.=E2=80=9D That effectively leaves=
+ the shell of First Republic =E2=80=94=C2=A0now effectively owned by the FD=
+IC in receivership =E2=80=94=C2=A0on the hook to pay back the roughly $93 b=
+illion it borrowed from the Fed.</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Payment:=C2=A0</em>JPMorgan will pay the FDIC $10.6 billion in cash now=
+,<a class=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: none !important; background-color: tran=
+sparent !important; display: inline-block;">
+<span>[7]</span>
+</a> and another $50 billion in five years. It will pay (presumably low) in=
+terest on that $50 billion.<a class=3D"footnote-index" href=3D"#footnote-8"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a> So the FDIC will get about $60.6 billion to pay back the Fed, plus the=
+ roughly $15 billion of cash and roughly $4 billion of other assets=C2=A0st=
+ill left over at First Republic, for a total of about $80 billion.=C2=A0Fir=
+st Republic owes the Fed about $93 billion, leaving the=C2=A0FDIC=E2=80=99s=
+ insurance fund with a loss of $10=C2=A0billion or so. =E2=80=9CThe FDIC es=
+timates that the cost to the Deposit Insurance Fund will be about $13 billi=
+on,=E2=80=9D says <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31339354.258432/aHR0cHM6Ly93d3cuZmRpYy5nb3YvbmV3cy9wcmVzcy1yZWxlYXNlcy8yMDI=
+zL3ByMjMwMzQuaHRtbA/607f07ceef4b8524a319a23cB11ddaa0d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> the FDIC=E2=
+=80=99s announcement</a>, though =E2=80=9CThis is an estimate and the final=
+ cost will be determined when the FDIC terminates the receivership.=E2=80=
+=9D</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Equity:</em> JPMorgan is getting about $186 billion of assets for about=
+ $182.6 billion ($122 billion of assumed liabilities, plus $10.6 billion in=
+ cash, plus $50 billion borrowed from the FDIC), meaning that it will have =
+about a $3.4 billion equity cushion against these assets.</li>
+</ul>
+<p style=3D"margin: 16px 0;">JPMorgan was the highest bidder in the FDIC=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.2=
+58432/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qcG1vcmdhbi1wbmMtYmlkLXRvLWJ1e=
+S1maXJzdC1yZXB1YmxpYy1hcy1wYXJ0LW9mLWZkaWMtdGFrZW92ZXItYWViOTM2YTA_bW9kPWhw=
+X2xlYWRfcG9zNg/607f07ceef4b8524a319a23cBd16989c1" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> weekend auction =
+for First Republic</a>; <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjMtMDUtMDEvZmlyc3QtcmVwdWJsaWMtc2VpemVkLWJ5LXJlZ3VsYXRvcnMtd2lsbC1iZS1z=
+b2xkLXRvLWpwbW9yZ2FuP2NtcGlkPUJCRDA1MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cC1b8e2d4f" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  Bloomberg reports=
+</a> that its bid =E2=80=9Cwas more appealing for the agency than the compe=
+ting bids, which proposed breaking up First Republic or would have required=
+ complex financial arrangements to fund its $100 billion of mortgages.=E2=
+=80=9D And=C2=A0this is a pretty high bid: JPMorgan is paying $182.6 billio=
+n, total, in cash and assumed liabilities, for a bank with about $180 billi=
+on of loans and bonds at their current fair value; it is paying a bit extra=
+ for the other assets and the intangible value of the First Republic franch=
+ise. Still, it is acquiring the total package of assets for less than they =
+are worth. That discount is required so that JPMorgan can properly capitali=
+ze the assets, so that it can have enough capital against them. And that di=
+scount is paid for by (1) First Republic=E2=80=99s shareholders, preferred =
+stockholders and bondholders, who are getting wiped out and (2) the FDIC, w=
+hich is also taking a loss on the deal.</p>
+<p style=3D"margin: 16px 0;">Another point of the deal is that the FDIC is =
+entering into loss-sharing agreements with JPMorgan, in which the FDIC will=
+ agree to bear 80% of the credit losses on First Republic=E2=80=99s mortgag=
+es and commercial loans. You can sort of imagine a simple story here: First=
+ Republic is a failed bank, it made some bad choices, who knows if its loan=
+s are toxic, JPMorgan had only a weekend to review them, it is not comforta=
+ble taking the risk, so it demanded that the FDIC share in the risk.</p>
+<p style=3D"margin: 16px 0;">But this is not really right. First Republic=
+=E2=80=99s loans had famously=C2=A0<em>good=C2=A0</em>credit quality; First=
+ Republic <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354=
+.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDE=
+vZmlyc3QtcmVwdWJsaWMtcy1oaXN0b3J5LW9mLWp1bWJvLW1vcnRnYWdlcy1sZWQtYmFuay10by=
+1mYWlsdXJlLXNhbGU_Y21waWQ9QkJEMDUwMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTAxJnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB375a5b06" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  got itself in trouble=
+</a> by making <a href=3D"https://link.mail.bloombergbusiness.com/click/313=
+39354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDQtMTcvdGhlLXNlYy1jb21lcy1mb3ItYml0dHJleD9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTV=
+FVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1=
+MDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB262645ee" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  low-interest mortgages to very rich people</a>, who will probably pay=
+ back those loans. (But the loans have lost value due to the move in intere=
+st rates.)=C2=A0And JPMorgan=E2=80=99s <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuanBtb3JnYW5jaGFzZS5jb2=
+0vY29udGVudC9kYW0vanBtYy9qcG1vcmdhbi1jaGFzZS1hbmQtY28vaW52ZXN0b3ItcmVsYXRpb=
+25zL2RvY3VtZW50cy9ldmVudHMvMjAyMy9qcG1vcmdhbi1jaGFzZS1hY3F1aXJlcy1zdWJzdGFu=
+dGlhbC1tYWpvcml0eS1vZi1hc3NldHMtYW5kLWFzc3VtZXMtY2VydGFpbi1saWFiaWxpdGllcy1=
+vZi1maXJzdC1yZXB1YmxpYy1iYW5rLWNvbmZlcmVuY2UtY2FsbC0vSlBNb3JnYW5fQ2hhc2VfUH=
+Jlc2VudGF0aW9uLnBkZg/607f07ceef4b8524a319a23cC100ff7f2" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> investor p=
+resentation</a> touts both the =E2=80=9Chigh-quality portfolio=E2=80=9D=C2=
+=A0with a =E2=80=9Cstrong credit profile=E2=80=9D=C2=A0and also JPMorgan=E2=
+=80=99s own =E2=80=9Ccomprehensive due diligence to support transaction ass=
+umptions.=E2=80=9D JPMorgan did not need a loss-sharing agreement with the =
+FDIC because it was worried that First Republic=E2=80=99s loans were toxic.=
+</p>
+<p style=3D"margin: 16px 0;">JPMorgan needed a loss-sharing agreement to=C2=
+=A0<em>improve the capital accounting for the deal</em>. I have, above, use=
+d simple math =E2=80=94=C2=A0assets minus liabilities, equity divided by as=
+sets =E2=80=94=C2=A0to describe bank capital, but actual bank capital requi=
+rements are based on <em>risk-weighed assets</em>. Capital is a cushion des=
+igned to protect a bank from losses, and a bank needs more capital against =
+risky assets than it does against safe assets. A big pile of mortgages and =
+commercial loans=C2=A0will get an=C2=A0<em>okay=C2=A0</em>risk weighting, b=
+ut a big pile of mortgages and commercial loans=C2=A0<em>insured by the FDI=
+C</em>=C2=A0will get a=C2=A0<em>better=C2=A0</em>risk weighting. If JPMorga=
+n had just bought these loans outright, its capital ratios would have suffe=
+red. But, it says, the =E2=80=9CFDIC loss share agreements reduce risk weig=
+hting on covered loans,=E2=80=9D so=C2=A0its common equity tier 1 capital r=
+atio will still be =E2=80=9Cconsistent with 1Q24 target of 13.5%.=E2=80=9D=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">On an <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31339354.258432/aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJnLmNvbS9uZX=
+dzL3N0b3JpZXMvUlRaRUFPR0pDRDIwP2NtcGlkPUJCRDA1MDEyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMSZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6229b461" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">analyst c=
+all</a>=C2=A0this morning, JPMorgan Chief Financial Officer Jeremy Barnum d=
+iscussed this point:</p>
+<blockquote><p style=3D"margin: 16px 0;">What I would say broadly is that g=
+iven the nature of the portfolio and question, I think First Republic is ve=
+ry well-known for very good credit discipline. As you point out, these are =
+primarily rate marks. And therefore, the benefit of the loss share really i=
+s the sort of enhancement to the RWA [<em>risk-weighted asset</em>]=C2=A0ri=
+sk-weighting, which in turn is what makes these otherwise generally not ver=
+y-high returning assets, in other words, prime jumbo mortgages primarily, a=
+ctually quite attractive from a returns perspective. So the CET1 [<em>commo=
+n equity tier 1 capital</em>] numbers fully incorporate the expected risk-w=
+eighting of the RWA, and we'll leave it at that, I think.</p></blockquote>
+<p style=3D"margin: 16px 0;">A normal mortgage loan <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuZGF2aXNwb=
+2xrLmNvbS9zaXRlcy9kZWZhdWx0L2ZpbGVzL3VwZGF0ZWRfYXByaWxfMjAxNV92aXN1YWxfbWVt=
+b191c19iYXNlbF8zX2ZpbmFsX3J1bGUucGRm/607f07ceef4b8524a319a23cB2573f756" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> gets about a 50% risk weight</a>, so at its 13.5% target capital rati=
+o, JPMorgan would need to fund that mortgage with almost 7% equity capital.=
+ <em>These</em> mortgages get about a 25% risk weight, meaning that JPMorga=
+n can get away with half as much capital, which makes its return on equity =
+from these mortgages much higher.</p>
+<p style=3D"margin: 16px 0;">This is, by the way, a classic sort of financi=
+al engineering, a <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTgtMDUtMjUvZXVyb3BlYW4tYmFua3MtZ2V0LWNyZWF0aXZlLXdpdGgtY2FwaXRhbC1yZWxpZW=
+Y_Y21waWQ9QkJEMDUwMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cBcca82a4e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> capital relief trade</a>.=C2=A0You hav=
+e a situation where the bank has loans that it thinks are very safe, but th=
+e regulatory capital requirements treat them as kinda risky; the regulators=
+ and the bank disagree on their risk. So the bank finds some well-funded th=
+ird party that agrees with it that the loans are very safe, and buys very c=
+heap insurance from that third party: The bank thinks the loans are safe,=
+=C2=A0the third party agrees they=E2=80=99re safe, so the insurance premium=
+ is low, and insuring the loans lowers their capital requirements. It=E2=80=
+=99s just that, here, the regulator (the FDIC) is also selling JPMorgan the=
+ insurance (for free). Everyone agrees that these loans are safe, but the c=
+apital regulations treat them as risky. There is a trade to be done. With t=
+he regulator.</p>
+<p style=3D"margin: 16px 0;">For that matter, why does JPMorgan need to bor=
+row $50 billion from the FDIC to do this deal? Why can=E2=80=99t it pay $60=
+.6 billion upfront? The answer is not that it couldn=E2=80=99t=C2=A0scrape =
+together the $60.6 billion in cash today; the answer is that JPMorgan, as a=
+ big stable bank, needs to keep a lot of cash around in case=C2=A0<em>it=C2=
+=A0</em>has a bank run, and spending so much cash on First Republic would n=
+ot be a prudent use of liquidity. On the analyst call, Barnum described the=
+ FDIC loan in these terms: =E2=80=9CThe deal also includes a $50 billion 5-=
+year fixed-rate funding facility from the FDIC, which helps manage the ALM =
+[<em>asset/liability management</em>] profile of the transaction, as well a=
+s the liquidity consumption.=E2=80=9D First Republic had some long-term loa=
+ns that it funded with short-term deposits, and look what happened to it. J=
+PMorgan is going to fund those long-term loans with=C2=A0long-term borrowin=
+g.</p>
+<p style=3D"margin: 16px 0;">You can see the levers here, the financial eng=
+ineering. The FDIC=E2=80=99s goal here is to minimize the loss to its insur=
+ance fund, to sell First Republic for roughly what it is worth. But its oth=
+er goal is to make sure that the banking system is well capitalized, and se=
+lling First Republic for 100% of its asset value doesn=E2=80=99t help with =
+that goal; it just moves the capital hole somewhere else. The solution is s=
+ome combination of:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Sell First Republic to a very-well-ca=
+pitalized bank, one that can absorb the capital hole. =E2=80=9CFortress pri=
+nciples position us to invest through cycles =E2=80=94=C2=A0organically and=
+ inorganically,=E2=80=9D says JPMorgan=E2=80=99s presentation about the dea=
+l; it has spent years bragging about its =E2=80=9Cfortress balance sheet,=
+=E2=80=9D and that really does let it do deals like this. But this deal wil=
+l bring down its capital ratios a bit; a well-capitalized bank that absorbs=
+ an insolvent one will become a bit less well capitalized.<a class=3D"footn=
+ote-index" href=3D"#footnote-9" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[9]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Give that bank a discount: JPMorg=
+an is paying a bit more than 100% of the current market value of First Repu=
+blic=E2=80=99s bonds and loans, but a bit less than 100% of the total value=
+ of its assets. It will book a gain on the deal, which will help maintain i=
+ts capital ratios.</li>=09<li style=3D"margin-bottom: 5px;">Engineer the de=
+al to optimize the regulatory treatment: If giving JPMorgan an FDIC guarant=
+ee on some assets will lower its risk-weighted assets, you do that. If givi=
+ng JPMorgan a long-term FDIC loan will improve its liquidity ratios, you do=
+ that.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">You can to some extent trade off the discount =
+against the engineering: Surely JPMorgan=C2=A0<em>could=C2=A0</em>have abso=
+rbed First Republic with no loan from the FDIC (worse for its regulatory li=
+quidity requirements) and no loss-sharing agreement (worse for its regulato=
+ry capital ratios), but it would have paid less, which means that the FDIC =
+would have paid more. But the FDIC did the math and concluded that the loan=
+ and loss-sharing made for a better deal.</p>
+<p style=3D"margin: 16px 0;">You could imagine going further. JPMorgan coul=
+d have come to the FDIC and the Fed and said =E2=80=9Clook, we would like t=
+o pay full value for these assets, but we have these pesky capital requirem=
+ents. But you set the capital requirements; you could, you know,=C2=A0<em>w=
+aive=C2=A0</em>them a bit. Let us ignore First Republic in calculating our =
+capital ratios; then we won=E2=80=99t need as much capital to do the deal, =
+and we can pay more.=E2=80=9D Something a=C2=A0<em>little</em>=C2=A0like th=
+at happened in <a href=3D"https://link.mail.bloombergbusiness.com/click/313=
+39354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDMtMjAvdWJzLWdvdC1jcmVkaXQtc3Vpc3NlLWZvci1hbG1vc3Qtbm90aGluZz9jbXBpZD1CQ=
+kQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB80a18dd8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  UBS Group AG=E2=80=99s deal</a> to buy Credit Sui=
+sse Group AG in March: Swiss regulators, who insisted on the deal, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6L=
+y93d3cuZmlubWEuY2gvZW4vbmV3cy8yMDIzLzAzLzIwMjMwMzE5LW1tLWNzLXVicy8/607f07ce=
+ef4b8524a319a23cBa7b3244c" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> agreed to</a> =E2=80=9Cgrant appropriat=
+e transitional periods=E2=80=9D for UBS to meet its capital requirements af=
+ter the deal.</p>
+<p style=3D"margin: 16px 0;">But of course you want to minimize that sort o=
+f thing, because the goal here is not just to make sure that First Republic=
+ opens for business today or to minimize the dollar losses to the FDIC=E2=
+=80=99s insurance fund. The goal here is to restore confidence in the banki=
+ng system, to send the message that the crisis is over and everything is fi=
+xed. A rescue deal for First Republic that weakens the capital or liquidity=
+ of its buyer is not a good solution. You don=E2=80=99t want to do too much=
+ financial engineering; you don=E2=80=99t want to leave the buyer=C2=A0<em>=
+technically=C2=A0</em>well capitalized but=C2=A0<em>really=C2=A0</em>in a m=
+ore dangerous place. But a <em>little</em> engineering is fine.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTMzOTM1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE1OTc3ODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC8c11fabf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31339354&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31597786&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTMzOTM1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE1OTc3ODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD8c11fabf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31339354&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31597786&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">US CDS</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The simple way to think about a credit default=
+ swap is that it is insurance on a bond. If you own $1 million=C2=A0of the =
+bonds of some company or government, you can buy $1 million of CDS to prote=
+ct yourself; you pay some periodic insurance premium for this protection. I=
+f the issuer defaults on its debt, you get made whole; you get your $1 mill=
+ion back.</p>
+<p style=3D"margin: 16px 0;">When an issuer defaults on its debt, usually t=
+he debt is worth=C2=A0<em>something:=C2=A0</em>A company will go bankrupt a=
+nd pay back its bonds at 20 or 40 cents on the dollar or whatever, or a gov=
+ernment will restructure its debt and give bondholders some value back. And=
+ so the way CDS works is basically that, when an issuer defaults, the CDS p=
+ays back 100 cents on the dollar=C2=A0<em>minus=C2=A0</em>the value of the =
+bonds. If a company goes bankrupt and its bonds recover 37 cents on the dol=
+lar, then its CDS will pay out 63 cents on the dollar. If you have $1 milli=
+on of bonds plus $1 million of CDS, you will get back $370,000 on the bonds=
+ and $630,000 on the CDS and be fully insured.</p>
+<p style=3D"margin: 16px 0;">Sometimes this works simply enough: A company =
+has one set of bonds, it defaults, they pay out 37 cents, the CDS pays the =
+other 63 cents, easy. Sometimes, though, a company or government will have =
+different bonds that get different recoveries that are all covered by the s=
+ame CDS contract. The CDS will pay out one amount, set by an auction and mo=
+re or less corresponding to the recovery of the=C2=A0<em>worst=C2=A0</em>(=
+=E2=80=9Ccheapest-to-deliver=E2=80=9D) bond.<a class=3D"footnote-index" hre=
+f=3D"#footnote-10" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[10]</span>
+</a>=C2=A0And so if a company goes bankrupt and one bond gets 37 cents on t=
+he dollar and another gets 41, the CDS will probably pay out about 63 cents=
+ on the dollar, and if you had one of the 41-cent bonds and hedged with CDS=
+ you will get back 104 cents on the dollar, great.</p>
+<p style=3D"margin: 16px 0;">To be clear, unlike in actual insurance, you d=
+on=E2=80=99t need to own the bonds to buy CDS. If you want to bet against a=
+ company=E2=80=99s credit, you can buy CDS on it, and then if it defaults y=
+ou get the CDS payoff. (People get mad about this, but never mind; in finan=
+cial markets buying CDS is a way to=C2=A0<em>short=C2=A0</em>bonds.) If=C2=
+=A0the bonds pay off 37, then you get back 63; you never owned the bonds bu=
+t that=E2=80=99s fine.</p>
+<p style=3D"margin: 16px 0;">Notice that if you are a bond investor who bou=
+ght CDS as a hedge, you don=E2=80=99t care very much about the bond recover=
+y; if the recovery is X, you get X on the bonds and 1 - X on the CDS and it=
+ doesn=E2=80=99t matter what X is. If you bought CDS to short the bonds, th=
+ough, you want the bond recovery to be as low as possible, because you get =
+paid 1 - X.</p>
+<p style=3D"margin: 16px 0;">Where this becomes very fun is in the category=
+ of trade that is sometimes loosely referred to as =E2=80=9Cmanufactured de=
+faults.=E2=80=9D These trades go something like this. Some company needs mo=
+ney. Some hedge fund owns a lot of CDS on the company.<a class=3D"footnote-=
+index" href=3D"#footnote-11" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[11]</span>
+</a>=C2=A0The hedge fund goes to the company and says =E2=80=9Clook, it wil=
+l help us out a lot if you default on your debt. Why don=E2=80=99t you just=
+, like, miss the deadline for an interest payment by a week.<a class=3D"foo=
+tnote-index" href=3D"#footnote-12" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[12]</span>
+</a>=C2=A0Then you will be in default and our CDS will trigger and we=E2=80=
+=99ll get paid. Then you go back and make the interest payment and nobody c=
+omplains too much; you won=E2=80=99t go bankrupt or anything. And then we=
+=E2=80=99ll have all this money from our CDS payoff, and we=E2=80=99ll writ=
+e you a big check, and you=E2=80=99ll have more money too.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The mechanics are a bit more complicated,=C2=
+=A0and people =E2=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMTgtMDUtMTgvc2luZnVsLWRlcml2YXRpdmVzLWhhdmUtdGhlaXItdXNlcz9jbXB=
+pZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB6e9a8f86" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">even the pope</a>! =E2=80=94=C2=A0get mad abo=
+ut this, but never mind that either. The point I want to make here is just =
+that there is a flaw in this logic, which is that if you manufacture a defa=
+ult at a company where=C2=A0<em>everything is otherwise fine</em>, the bond=
+s=C2=A0<em>won=E2=80=99t lose much value</em>, and so the CDS won=E2=80=99t=
+ pay off that much. The CDS will trigger, there=E2=80=99ll be an auction fo=
+r the debt, people will be like =E2=80=9Cmeh this debt is fine,=E2=80=9D th=
+e auction will clear at like 95 cents on the dollar, and the CDS will pay o=
+ff like 5 cents.</p>
+<p style=3D"margin: 16px 0;">And so there is a refinement on the manufactur=
+ed-default trade, which is that you also have to find, or manufacture, a ba=
+d=C2=A0<em>bond</em>. If some junk-rated-but-okay company has a lot of bond=
+s that pay 12% interest and trade at 99 cents on the dollar, and it manufac=
+tures a default, that doesn=E2=80=99t do its CDS holders much good. But if =
+it has a 30-year bond with a 2% interest rate that trades at 20 cents on th=
+e dollar, and<em>=C2=A0</em>it manufactures a default, then the CDS will pa=
+y off 80.<a class=3D"footnote-index" href=3D"#footnote-13" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[13]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Every so often the US government thinks about =
+defaulting on its debt for no particular reason; this is called the =E2=80=
+=9Cdebt ceiling standoff.=E2=80=9D The somewhat surprising rule of thumb is=
+ that when there is a debt ceiling standoff =E2=80=94=C2=A0when the US gove=
+rnment starts thinking about defaulting on its debt =E2=80=94=C2=A0the pric=
+e of US government debt goes=C2=A0<em>up</em>. The thinking is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A US government default would be a ba=
+d destabilizing event in financial markets generally.</li>=09<li style=3D"m=
+argin-bottom: 5px;">When markets are bad and destabilized, there is a fligh=
+t to quality; people want to buy safe assets.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">The safest assets are US government debt, so the price of US go=
+vernment debt goes up.</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Even in a US government default</em>, US government debt will be safe, =
+because the government has plenty of money and is defaulting for no particu=
+lar reason, and it will quickly fix the default and start paying its debts =
+again.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So a US debt default would lead to panic, but =
+not actually any significant impairment on the payments of, like, 30-year T=
+reasury bonds. Which means that the prices of those bonds will go up in the=
+ panic.</p>
+<p style=3D"margin: 16px 0;">You can buy credit default swaps on US governm=
+ent debt, but historically that has not been a great way to speculate on th=
+e debt ceiling standoff: If the US government defaults, its bonds will=C2=
+=A0trade to, like, 102 cents on the dollar, and your CDS might trigger but =
+won=E2=80=99t pay much.</p>
+<p style=3D"margin: 16px 0;">But that is the thinking from a long period of=
+ declining interest rates, and now things have changed. Bloomberg=E2=80=99s=
+=C2=A0Sujata Rao-Coverley, Denitsa Tsekova and Liz McCormick <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMjgvYmV0cy1vZmZlcmluZy0yLTQ=
+wMC1wYXlvdXQtb24tdXMtZGVmYXVsdC1sdXJlLWdyb3dpbmctY3Jvd2Q_Y21waWQ9QkJEMDUwMT=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwNTAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB99=
+14cb9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">reported on Friday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In what is a traditionally moribund corner of =
+Wall Street, speculators are piling into a bet that once seemed unthinkable=
+: that the US government will default on its debts.=C2=A0</p>
+<p style=3D"margin: 16px 0;">With the Treasury Department inching ever clos=
+er to running out of cash =E2=80=94 most estimates give it another=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMjEvZGVidC1jZWls=
+aW5nLWFueGlldHktdHJhY2tlci13b3JyaWVzLWZ1ZWwtYmlsbC1jdXJ2ZS1kaXN0b3J0aW9uP2N=
+tcGlkPUJCRDA1MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cBb1c416b0" target=3D"_blank" title=3D"Debt-Ceiling Anxiety Tr=
+acker: Worries Fuel Bill Curve Distortion" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">few months</a>=
+=C2=A0=E2=80=94 trading in the derivatives, known as credit-default swaps, =
+is growing. The amount of money tied to the contracts, which will reward in=
+vestors if the US misses any payments, has increased roughly eight-fold sin=
+ce the start of the year.</p>
+<p style=3D"margin: 16px 0;">This isn=E2=80=99t the first time that a mini-=
+mania around this trade has erupted. There were episodes back in 2011, 2013=
+, and to a lesser extent 2021. But this time, it all feels a bit different.=
+ =E2=80=A6 A quirk in the derivatives market means they can take advantage =
+of the rock-bottom prices on long-term US bonds to juice gains on the contr=
+acts should the US actually default. With some Treasuries recently trading =
+below 60 cents on the dollar =E2=80=94 the result of the Federal Reserve=E2=
+=80=99s rapid-fire series of interest-rate hikes =E2=80=94 the potential pa=
+yout could exceed 2,400%, according to Bloomberg calculations.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Treasuries don=E2=80=99t trade below 60 cents =
+on the dollar because people are worried about the credit risk of the US go=
+vernment. Treasuries trade below 60 cents on the dollar because they are 30=
+-year bonds issued in 2020 with interest rates of 1.25%, and now long-term =
+interest rates are much higher.<a class=3D"footnote-index" href=3D"#footnot=
+e-14" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[14]</span>
+</a>=C2=A0If the US government defaulted this year, it is overwhelmingly li=
+kely that holders of those bonds would get all of their money back, more or=
+ less on schedule. But if the US government defaulted this year, credit def=
+ault swaps would trigger, and those bonds would sell for about 60 cents on =
+the dollar. Which means that the CDS could pay out a lot.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Terra=E2=80=99s back!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Love <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31339354.258432/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL3RlY2gvMjA=
+yMy8wNC8yOC90ZXJyYS1jbGFzc2ljLWhvcGVmdWxzLW11bGwtcmV2aXZhbC1vZi1mYWlsZWQtdX=
+N0LXN0YWJsZWNvaW4v/607f07ceef4b8524a319a23cBb988c168" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> these guys</=
+a>:=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Terra Classic community members are mulling a =
+revival of the network=E2=80=99s failed terraUSD (USTC) token nearly a year=
+ after Terra=E2=80=99s implosion.</p>
+<p style=3D"margin: 16px 0;">Terra Classic is the original network created =
+by Terraform Labs. It has continued as an independent blockchain rather tha=
+n Terra 2.0, which is a forked version that was created in the wake of Terr=
+a's collapse.</p>
+<p style=3D"margin: 16px 0;">In discussions that started in mid-April, comm=
+unity members are describing a model that relies on token buybacks, unidire=
+ctional swaps, staking and an =E2=80=9Calgorithmic peg divergence fee=E2=80=
+=9D to address the issues with the original design.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">When the TerraUSD stablecoin=C2=A0collapsed la=
+st May, <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.2=
+58432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtM=
+TEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDUwMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTAxJnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cB907be964" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  I wrote</a> about it=
+s essential death-spiral mechanics, and said:</p>
+<blockquote><p style=3D"margin: 16px 0;">This is extremely well-known stuff=
+ in traditional finance. =E2=80=A6=C2=A0In crypto, however, people are much=
+ more willing to believe in perpetual-motion machines, and there is just a =
+lot more mumbo-jumbo about ecosystems and staking rewards that you can thro=
+w over all of this to distract people from the essential mechanics, so =E2=
+=80=A6 look, this is <em>also</em> extremely well-known stuff in crypto, an=
+d lots of people are skeptical of algorithmic stablecoins, but people keep =
+doing them.</p></blockquote>
+<p style=3D"margin: 16px 0;">Ah but now they are =E2=80=9Cdescribing a mode=
+l that relies on token buybacks, unidirectional swaps, staking and an =E2=
+=80=98algorithmic peg divergence fee=E2=80=99 to address the issues with th=
+e original design,=E2=80=9D that should be fine then.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">US Supreme Court to Consider <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDEvc3VwcmVtZS1jb3VydC10by1jb2=
+5zaWRlci10b3BwbGluZy1wcmVjZWRlbnQtY3VyYmluZy1hZ2VuY2llcz9jbXBpZD1CQkQwNTAxM=
+jNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2b=
+a2ce10" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Curbing Authority</a> of Federal Regulatory Agencies.=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMjgvbW9uZX=
+ktbWFya2V0LWZ1bmRzLWFyZS1ob3QtYWdhaW4tYWZ0ZXIteWVhcnMtb2YtZmVlLWRpc2NvdW50c=
+z9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBef2b80a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Money-Market Funds</a> Are Hot Again Af=
+ter Years of Fee Discounts.=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDQtMjgvbGF6YXJkLXBsYW5zLXRvLWN1dC1pdHMtd29ya2ZvcmNlLTEwLWF=
+taWQtZGVhbG1ha2luZy1zbHVtcD9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB10ab96e1" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Lazard</a> to=
+ Cut Workforce 10% as CEO Sees Slump Through 2023. <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMjgvZGV1dHNjaGUtYmFuay1jdXRzLWRlYnQtc=
+Gxhbi1hcy1mdW5kaW5nLWNvc3RzLXJpc2UtYWZ0ZXItY3Jpc2lzP2NtcGlkPUJCRDA1MDEyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMDUwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB13c9d7=
+41" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Deutsche Bank</a> Cuts Debt Plan as Funding Costs Rise After C=
+risis. <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.25=
+8432/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qZWZmcmV5LWVwc3RlaW4tY2FsZW5kYX=
+ItY2lhLWRpcmVjdG9yLWdvbGRtYW4tc2FjaHMtbm9hbS1jaG9tc2t5LWM5ZjZhM2ZmP21vZD1oc=
+F9sZWFkX3BvczU/607f07ceef4b8524a319a23cB96778f62" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Epstein=E2=80=99=
+s Private Calendar</a> Reveals Prominent Names, Including CIA Chief, Goldma=
+n=E2=80=99s Top Lawyer. Billionaire Steve Cohen Has a Plan to Become the <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMjgvbWV0cy1vd25=
+lci1zdGV2ZS1jb2hlbi1zcGVuZHMtYmlnLXRvLXdpbi1uZXcteW9yay1jaXR5LWNhc2luby1saW=
+NlbnNlP2NtcGlkPUJCRDA1MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cBe82b27eb" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">King of Queens</a>.=C2=A0The King=
+dom Of <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.25=
+8432/aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9pYWlubWFydGluLzIwMjMvMDQvMzAvYm=
+h1dGFuLWJpdGNvaW4tbWluaW5nLWNyeXB0by8_c2g9NmI3NTFjZTcxZjFi/607f07ceef4b8524=
+a319a23cB7c8aaf9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Bhutan</a> Has Been Quietly Mining Bitcoin For =
+Years. Twitter Co-Founder Dorsey <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDQtMjkvdHdpdHRlci1jby1mb3VuZGVyLWRvcnNleS1ydWVzLW11c2stZGV=
+hbC1pdC1hbGwtd2VudC1zb3V0aD9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd916b161" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Rues Musk D=
+eal</a>: =E2=80=98It All Went South.=E2=80=99 How=E2=80=99s <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cud=
+2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvMjAyMy8wNC8yOS90cnV0aC1zb2NpYWwtd2ls=
+a2Vyc29uLXN0YXJidWNrcy8/607f07ceef4b8524a319a23cB8dff9804" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Truth S=
+ocial</a> doing?=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/31339354.258432/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9oaXBwb3MtY29sb21=
+iaWEtcGFibG8tZXNjb2Jhci1iNjU1NzQyYz9tb2Q9aHBfZmVhdHN0X3BvczU/607f07ceef4b85=
+24a319a23cB3fdb7290" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Hippos</a> Spawned From Drug Lord Pablo Esco=
+bar=E2=80=99s Ranch Won=E2=80=99t Stop Multiplying.</p>
+<p style=3D"margin: 16px 0;"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cDovL2xpbmsub=
+WFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFz=
+aD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBc11=
+2c62b" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">subscribe at this link</a>. Or y=
+ou can subscribe to Money Stuff and other great Bloomberg newsletters <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM=
+6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBbae6=
+447c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">here=
+</a>. Thanks!</em></p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] More complicated approaches include =E2=80=
+=9Cthe buyer does not assume some of the deposits,=E2=80=9D or =E2=80=9Cthe=
+ FDIC gives the buyer some goodies =E2=80=94 a below-market line of credit,=
+ a contingent loss-sharing agreement =E2=80=94 that are worth around $5.=E2=
+=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This draws on JPMorgan=E2=80=99s <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6L=
+y93d3cuanBtb3JnYW5jaGFzZS5jb20vY29udGVudC9kYW0vanBtYy9qcG1vcmdhbi1jaGFzZS1h=
+bmQtY28vaW52ZXN0b3ItcmVsYXRpb25zL2RvY3VtZW50cy9ldmVudHMvMjAyMy9qcG1vcmdhbi1=
+jaGFzZS1hY3F1aXJlcy1zdWJzdGFudGlhbC1tYWpvcml0eS1vZi1hc3NldHMtYW5kLWFzc3VtZX=
+MtY2VydGFpbi1saWFiaWxpdGllcy1vZi1maXJzdC1yZXB1YmxpYy1iYW5rLWNvbmZlcmVuY2UtY=
+2FsbC0vSlBNb3JnYW5fQ2hhc2VfUHJlc2VudGF0aW9uLnBkZg/607f07ceef4b8524a319a23cD=
+100ff7f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> investor presentation</a> and <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuanBtb3JnYW5j=
+aGFzZS5jb20vaXIvbmV3cy8yMDIzL2pwbWMtYWNxdWlyZXMtc3Vic3RhbnRpYWwtbWFqb3JpdHk=
+tb2YtYXNzZXRzLWFuZC1hc3N1bWVzLWNlcnRhaW4tbGlhYmlsaXRpZXMtb2YtZmlyc3QtcmVwdW=
+JsaWMtYmFuaw/607f07ceef4b8524a319a23cB072886a7" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> press release</a> =
+for the deal, on the California Department of Financial Protection and Inno=
+vation <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.25=
+8432/aHR0cHM6Ly9kZnBpLmNhLmdvdi93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvMzM3LzIwMj=
+MvMDQvRmlyc3QtUmVwdWJsaWMtT3JkZXItVGFraW5nLVBvc3Nlc3Npb24tdW5kZXItRkMtNTkyL=
+UZJTkFMLnBkZg/607f07ceef4b8524a319a23cB48e79d29" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> order seizing Fir=
+st Republic</a>, and on First Republic=E2=80=99s balance sheet as of March =
+31 from its <a href=3D"https://link.mail.bloombergbusiness.com/click/313393=
+54.258432/aHR0cHM6Ly9pci5maXJzdHJlcHVibGljLmNvbS9zdGF0aWMtZmlsZXMvMDEzZjU3Z=
+mItYjk4MC00MzUzLWJiYjMtMGU3YTNiMjdmMjBh/607f07ceef4b8524a319a23cBfb4cda0b" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> earnings report last week</a>. The FDIC=E2=80=99s announcement of =
+the seizure <a href=3D"https://link.mail.bloombergbusiness.com/click/313393=
+54.258432/aHR0cHM6Ly93d3cuZmRpYy5nb3YvbmV3cy9wcmVzcy1yZWxlYXNlcy8yMDIzL3ByM=
+jMwMzQuaHRtbA/607f07ceef4b8524a319a23cC11ddaa0d" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> includes some oth=
+er numbers</a> as of April 13, but I am not sure what to do with them.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Numbers don=E2=80=99t add due to rounding.=
+ These numbers are mostly from page 2 of <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuanBtb3JnYW5jaGFzZS5j=
+b20vY29udGVudC9kYW0vanBtYy9qcG1vcmdhbi1jaGFzZS1hbmQtY28vaW52ZXN0b3ItcmVsYXR=
+pb25zL2RvY3VtZW50cy9ldmVudHMvMjAyMy9qcG1vcmdhbi1jaGFzZS1hY3F1aXJlcy1zdWJzdG=
+FudGlhbC1tYWpvcml0eS1vZi1hc3NldHMtYW5kLWFzc3VtZXMtY2VydGFpbi1saWFiaWxpdGllc=
+y1vZi1maXJzdC1yZXB1YmxpYy1iYW5rLWNvbmZlcmVuY2UtY2FsbC0vSlBNb3JnYW5fQ2hhc2Vf=
+UHJlc2VudGF0aW9uLnBkZg/607f07ceef4b8524a319a23cE100ff7f2" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> the JPMo=
+rgan deck</a> and from the DFPI order. The $9 billion miscellaneous categor=
+y here includes =E2=80=9Cother assets=E2=80=9D  like lease assets and inter=
+est receivables, broken out a bit more on page 170 of <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly9pci5maXJzdHJ=
+lcHVibGljLmNvbS9zdGF0aWMtZmlsZXMvODlhMWRmNjYtN2UyOC00NDkxLTg2YWEtYTMzMTkwMG=
+RiMjIy/607f07ceef4b8524a319a23cB4c70e167" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> the annual report</a>, =
+which come to about $5 billion, plus a $4 billion plug to get the numbers t=
+o work. My guess is that that $4 billion is mostly available-for-sale secur=
+ities that JPMorgan did not buy, but I am not sure.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] That is, my $227 billion calculation of as=
+sets minus $213 billion of important liabilities minus $3 billion of =E2=80=
+=9Cother liabilities=E2=80=9D and subordinated debt. As of March 31 its boo=
+k equity was about $18 billion, including $3.6 billion of preferred stock. =
+</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Strictly this is for <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmRvLmN=
+vbS9pbnNpZ2h0cy9pbmR1c3RyaWVzL2NvcmUtb2YtdGhlLWNvcmUtZGVwb3NpdC1pbnRhbmdpYm=
+xlLXZhbHVhdGlvbi1hbmQtdHJlbmRz/607f07ceef4b8524a319a23cB2c5266d7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ the =E2=80=9Ccore deposit=E2=80=9D intangible</a>, sort of a subset of the=
+ franchise value.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] See footnote 3 on the $4 billion of miscel=
+laneous assets.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Or =E2=80=9Cdid pay=E2=80=9D? The presenta=
+tion says =E2=80=9CJPMorgan Chase will make a payment of $10.6B to the FDIC=
+.=E2=80=9D The deal has already closed, so I assume that the payment=E2=80=
+=99s due date is, like, as soon as the wire transfers open today? </p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] =E2=80=9CFDIC will provide a new $50B five=
+-year fixed-rate term financing,=E2=80=9D says the presentation. On the <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0c=
+HM6Ly9ibGlua3MuYmxvb21iZXJnLmNvbS9uZXdzL3N0b3JpZXMvUlRaRUFPR0pDRDIwP2NtcGlk=
+PUJCRDA1MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMDUwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cC6229b461" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> analyst call</a>, JPMorgan declined to say t=
+he rate on that financing.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Barnum on the analyst call: =E2=80=9CThe n=
+et of the day one gain and the corresponding RWA increase will reduce our C=
+ET1 ratio by approximately 40 basis points.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] We have <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMjAvaGVkZ2UtZnVuZHMtZmlnaHQtb3Zlci1zZWFycy=
+1zd2Fwcz9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cB25a42ee9" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  talked</a> about these <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDQtMTAvaG92bmFuaWFu=
+LXMtd2VpcmQtY2RzLXRyYWRlLWdldHMtd2VpcmRlcj9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MD=
+EmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB059bedd4" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  mechanics</a> a few times before.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] As a short bet, or not. This works pretty=
+ much just as well if the CDS investor is also long bonds, though there are=
+ some nuances you=E2=80=99ll want to keep straight. (You don=E2=80=99t want=
+ to tank the recovery *on the bonds the CDS investor owns*; you want to tan=
+k some other bonds.)</p>
+</div>
+<div id=3D"footnote-12" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[12] There=E2=80=99s generally a grace period =
+in the bond documents, so, like, miss it by 30 days plus a week or whatever=
+.</p>
+</div>
+<div id=3D"footnote-13" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[13] This is, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31339354.258432/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMTgtMDQtMTAvaG92bmFuaWFuLXMtd2VpcmQtY2RzLXRyYWRlL=
+WdldHMtd2VpcmRlcj9jbXBpZD1CQkQwNTAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cC059bedd4" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  roughly</a>, the <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMTEtMTcvYmxhY2tzd=
+G9uZS1tYXktZG8taXRzLWNsZXZlcmVzdC1jZHMtdHJhZGUtYWdhaW4_Y21waWQ9QkJEMDUwMTIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwNTAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4bf1=
+77c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Hovnanian trade</a>. </p>
+</div>
+<div id=3D"footnote-14" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[14] Bloomberg=E2=80=99s FIT page shows me a 1=
+.25% long bond due in May 2050 trading a bit below 57 cents on the dollar t=
+oday, for a yield of about 3.8%. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB9114bb4f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBed0cc0a8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe7c2b694" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB459244b9" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB643249e2" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.2584=
+32/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB8d303cb7" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31339354.258432/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCd005ba9e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31339354.258432/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB7d8602ff" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31339354.258432/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB7169f228" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBb=
+5045bcd" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31339354.258432/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+28f5db7" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cinplm.5jeo/a0a8f1de.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_30775550_1252967658.1682966214416--
+

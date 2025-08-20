@@ -1,0 +1,342 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:2d14:b0:6d4:efc:848e with SMTP id mz20csp2201199qvb;
+        Sun, 1 Dec 2024 09:56:02 -0800 (PST)
+X-Forwarded-Encrypted: i=5; AJvYcCUGhxZg6eKW55RtdSrmkhxm1LvTsz0N/59v9y+ac+vmZhvAHUsGXfys/PD8j8RLhlqVCHRr+TM=@gmail.com
+X-Received: by 2002:a05:600c:4e8b:b0:431:93d8:e1a1 with SMTP id 5b1f17b1804b1-434a9df1f34mr170752635e9.27.1733075761931;
+        Sun, 01 Dec 2024 09:56:01 -0800 (PST)
+ARC-Seal: i=4; a=rsa-sha256; t=1733075761; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=WZjbn8CmctzJMZT5N2/b+JuWimbusAB4NGPVYiQFVtdALUmt/mPhhIJcpFTgeGAUqD
+         8nEJd1BhEIBIgQHV2QTdPELTieczFD9GhXWb2zVE4q55Kg3cksZJnHwn8YIMgC4u3YAA
+         Wfo7C8LNUX6v3ZDLc9NnhiBEx12zCVqXkA9X34mq9RRfPwxAtDRNG0kqrKG/QF8F8el6
+         hoAAce136uAKzEgqMTXxXSIg4bw2Gfr/cldtxpEaA8m3Ed/N3ZLb8dbx6gPWlmkDiFdN
+         pIkUtsK7kBoQLs9KJ02qKxyazKajs5D67bVQvyMKwU5cA/9XYKw/Sltbih3ZLA0WzK4h
+         4cgw==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:mime-version:message-id:subject:reply-to:from:to
+         :dkim-signature:dkim-signature:dkim-signature:delivered-to;
+        bh=lKInGXQIhFTrUmdyaQ9svnRK8oWI1iYotHpZAVS4MlY=;
+        fh=9dFtxPJ8tUEJpkYKvVDxWwGe9KmsG16SPEbvk1lfKh8=;
+        b=fjd+emlflL01bFJbN8aeZXNX/ZpJ+CJEf3IxfziTVOrwDaRCdJkd4uex/PZLRhv+Q7
+         DiAeSZfWQRsQYj9HTD7k+vwaIMF2CK3YQpIOMGG+Tt3OazIiBUajCm6fVRy3ORNdZ2Yf
+         iVRRNSP671m7e5nqPUqAAU+GmzHpD0bJPqiSiA5uKim3q0WnWwsHIYzb18cRzRGyKlpb
+         BNea24Geu19VYzW3aUBdffZhZBu3Q0fQqwMmt3fF5YuS1FM8QLVoX5NfeWwF0QIVRQ3k
+         Gdts1p0rJjzn2jlCwJ5W0e30AQKe5ZTie0CggzQezmF1LKx7PToZ8/8mJUthzxh5u473
+         fysg==;
+        dara=google.com
+ARC-Authentication-Results: i=4; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=ImIX9Ewn;
+       dkim=pass header.i=@stratechery.com header.s=thyrshtvumvosni2q2qzreevasx4at3s header.b=oC+oeFBn;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=DZdzV2H3;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=stratechery.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=stratechery.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com;
+       dara=fail header.i=@gmail.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 5b1f17b1804b1-434b1095babsor27365045e9.8.2024.12.01.09.56.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Sun, 01 Dec 2024 09:56:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=ImIX9Ewn;
+       dkim=pass header.i=@stratechery.com header.s=thyrshtvumvosni2q2qzreevasx4at3s header.b=oC+oeFBn;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=DZdzV2H3;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=stratechery.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=stratechery.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com;
+       dara=fail header.i=@gmail.com
+ARC-Seal: i=3; a=rsa-sha256; t=1733075761; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=FGAMm3Z1ilvC7ZYpgaW088hFUmgaMddquAG1HTcjPKYaVdLBetf+Vv2nrbzt8n30/T
+         YyiaVS5VsmKg9vblUsnFjjj1/BvvpyJLxNT8W514izzL4yKcVrUxQ1EbhcvaAcTY28PA
+         C3Ov4g0EbxT/ecDo3EgsHbcG1rYxoy+pOIc+LdFFKOWm19CZJLio32TBzNmmcoZzEInw
+         tT+i+0nGxpPO9ObBUwfltd4yegwHlU+QqQPA2m3eA9cUULJ2R88hJN9a0PbV6BHJIdod
+         RQVjA6WWsmtETbSX+zUqR1w9FTpetGuYSrW/kSyZRKnC0X/XZHvGhCgATLHgZ4GjlMTo
+         wmLQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:mime-version:message-id:subject:reply-to:from:to
+         :dkim-signature:dkim-signature:dkim-signature:delivered-to;
+        bh=lKInGXQIhFTrUmdyaQ9svnRK8oWI1iYotHpZAVS4MlY=;
+        fh=9dFtxPJ8tUEJpkYKvVDxWwGe9KmsG16SPEbvk1lfKh8=;
+        b=KHZwp0yOX/ogObpXrfEsMVcql+mODe4I0IsboUSKBiQK/OJNdCLcYlS4d2AA97+waI
+         r0jYDvV+3Q6cl7mb5KxNq3LcrHppUD/f2a2u+E3B//7yB/LGmnW6/Oz9IFMvWP6sundS
+         sn2h2jJgzd8YGl14//OYHD9N3KvT+UPJmKlZfeV4i8OgMGSZrdMU3TFJqtOzw4rWKrS0
+         hw1GvJfoyKuHDucZNEA75TEMU2ZU8G/IvY/eN0W9OmFzZwCBIk5wtgVD0MHNzCo7f7cU
+         apqZ9dTfUXQBpCszqohx+1kkRxvY02bTMQoKxTaSMMFrlZ/V1nyDv92rD2Wolx6TQ1sp
+         kDtw==;
+        dara=google.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=ImIX9Ewn;
+       dkim=pass header.i=@stratechery.com header.s=thyrshtvumvosni2q2qzreevasx4at3s header.b=oC+oeFBn;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=DZdzV2H3;
+       arc=pass (i=1 spf=pass spfdomain=amazonses.com dkim=pass dkdomain=amazonses.com dkim=pass dkdomain=stratechery.com dmarc=pass fromdomain=stratechery.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.169 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1733075761; x=1733680561;
+        h=feedback-id:date:mime-version:message-id:subject:reply-to:from:to
+         :dkim-signature:dkim-signature:dkim-signature:delivered-to
+         :x-forwarded-for:x-forwarded-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=lKInGXQIhFTrUmdyaQ9svnRK8oWI1iYotHpZAVS4MlY=;
+        b=Hj0NWqKsA7glS+pTOaZCSpWV6zbWyeIaafvOypx7U4VldNKeU8JGwRcSQCK7LczGDW
+         lSfEB9LaGYtSo9WqJIZ0wOVijwWlx9qbZ+WHYrnHrb3lgnsdFAvrefFaW82of5Vwx3JE
+         nQYv59VZTJSVezdl2emUj+VjYs7Kd9ODNQpN30Hw7qINN15jU8nr5/5is1r2YqMVhMet
+         9rz3xLlVzSwmxjOFhGO6Xhg7wkA3Z+lQ8lJSYSRZAoOCtVcKZb05DSFYitQKgQ07qZfV
+         AmIig6PxkLGVAWOWfw38YLLf/41zQxPBdQQr44ULWLBSjnyPG998iTvxVVEj3VAQM9/I
+         08hQ==
+X-Forwarded-Encrypted: i=3; AJvYcCV/34A8fkNL1W7mLuT7OLSKYLf7VYGKsg9ZhKoudg/8ev6mfHw4zJr++HZR9WAIrQeSL/5dN8I=@gmail.com
+X-Gm-Message-State: AOJu0YxaWIIHADygfA9q9psY6ctwtqGdsRd69u6lAb34nAXW+Ya0hR1f
+	PSqoz+SAbFcdOy4Q2WJAoaj51bqoRXtQeCo/mQcqJIR6J46GkTXm0om4o0agDTiv4denXt+jvi3
+	yxl36uesgyyvZtQbZwTCZgqtDD4QK0xpERHY2eUMY9y15lqY/2IaMg/u8JQ==
+X-Received: by 2002:a05:600c:5021:b0:434:a706:c0f0 with SMTP id 5b1f17b1804b1-434a9dc16damr189684395e9.14.1733075761224;
+        Sun, 01 Dec 2024 09:56:01 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fb4d:0:b0:382:3252:8137 with SMTP id c13csp1951361wrs;
+        Sun, 1 Dec 2024 09:55:59 -0800 (PST)
+X-Forwarded-Encrypted: i=3; AJvYcCXzciNLEtHNdVlbybRlrA7mS76I59SMJx89yL8JdKTjFBDDZNWQy6HiAYV45Qw1QiJRRPC+ooe3Xg==@gmail.com
+X-Google-Smtp-Source: AGHT+IHhfDFa9uTOiVKptpqCT2sIiaMa99hZhtaCvt6JwIsBWAz8qFI3N9wVL96NKHh6Vh5da3YT
+X-Received: by 2002:a17:902:e5c1:b0:206:c486:4c4c with SMTP id d9443c01a7336-21501e68001mr183075785ad.57.1733075759502;
+        Sun, 01 Dec 2024 09:55:59 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1733075759; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=QEEVY9TkduedVSETgqQntL/QuexUGL/J+lG0eGbzZv0G8pLmVv8+09rRnKf8jl0R1W
+         PuOEoVo+b0NV5TKtz4NvNuXPEaUYsNmQ0lojdiL5q9+S59CB4RkLYTTwfAQ8avZMQWeM
+         m+sRzaclpcCGqhNMTILXOvdN0/BOm83sMbcTQOHg51zV3GrwVCPnl1E1DvLinbU52I37
+         DwvJc6Xb5jI7oElpRxq9M5sEcXWellYm6M9HnQwS4kg5AvHgtdirj6yzMM4ZDWxgLsAm
+         FpMalAMvbLE+ntY1hW7bFvmI5JDUFEwPKsM+TjFz7LaYzRMHuPPGJnQy/0T1OfnPBy3/
+         hDjg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:mime-version:message-id:subject:reply-to:from:to
+         :dkim-signature:dkim-signature:dkim-signature;
+        bh=lKInGXQIhFTrUmdyaQ9svnRK8oWI1iYotHpZAVS4MlY=;
+        fh=bt3//uZT0Sk0RKghEtKZsm+MygAOFTOO3cavS7wP2Vc=;
+        b=Vz4z15PusMidftWFJjoMCDWTqnDHCoXkea1PRhloBNOyqtfSSpZzvUVUimw2LY3/DD
+         A8Yg/cjtR2gU0FXD2Y+diYrO35swU7xgVsQLpTNA4CDvVJ44GWs5hStapoOrwPTEKdC5
+         DuW/yDvyq1BBgK6f7X69h/AnjxU2McWf+7NqNukqqwcCOYgDAKKHVwkthGRoQvFM0O2f
+         QIAJOgr2bQfQ9X60URL5Iv4DoK4bHwiFGd1dmAWmwvXCBCjKzYLoP1Hd6QcEzyyRVamW
+         yWzE0trzdBYDnt6hG6pLfH+ksOCulDR4fFM/kC2pqZa+g/cx/zMQrFqNhEj4dpqofl1B
+         EO2A==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=ImIX9Ewn;
+       dkim=pass header.i=@stratechery.com header.s=thyrshtvumvosni2q2qzreevasx4at3s header.b=oC+oeFBn;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=DZdzV2H3;
+       arc=pass (i=1 spf=pass spfdomain=amazonses.com dkim=pass dkdomain=amazonses.com dkim=pass dkdomain=stratechery.com dmarc=pass fromdomain=stratechery.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.169 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=stratechery.com
+Return-Path: <bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com>
+Received: from a169.a94b46b0.use4.send.mailgun.net (a169.a94b46b0.use4.send.mailgun.net. [198.244.55.169])
+        by mx.google.com with UTF8SMTPS id d9443c01a7336-215385e7347si76946075ad.423.2024.12.01.09.55.58
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 01 Dec 2024 09:55:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.169 as permitted sender) client-ip=198.244.55.169;
+ARC-Seal: i=1; cv=none; a=rsa-sha256; d=mailgun.org; s=mg; t=1733075757;
+ b=J3iCoKXoyWzsNVlUkofQ8Zk6EeXMFZrw7dVD/96q773XrvgZwWkkTztm10IIb0/Do5uMbRQ2Ituc3VUCOyZCvnPDn/XqmyZxnht0T66wW/j9OlD9CHdjhXKvEaKjxlg4+ftKzzEeOzQzw2+5IBd8g0+ApWBQ9d0Mvmrp8pvZzEQ=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=mailgun.org; s=mg; t=1733075757;
+ h=Date: Mime-Version: Message-ID: Subject: Subject: Reply-To: Content-Type: From: From: To: To: X-Feedback-Id: Sender: DKIM-Signature: DKIM-Signature: DKIM-Signature;
+ bh=lKInGXQIhFTrUmdyaQ9svnRK8oWI1iYotHpZAVS4MlY=;
+ b=m8MC1dkirpIjuGILv2XkUFFENvLrDqyuZjTsT8lDXi8w7/6HRTe02yaFHhNGUrIV1z3NgNguLPgebsUsXQdtckrf4+6L/4zrxniBLThaYSqFRJw5B7tF8mUZ38Iz402dZBVhz0Psnks6dCE7/YAtHqhSNZXxoKxD7AVEgVqu7NU=
+ARC-Authentication-Results: i=1; mailgun.org;
+ dkim=pass header.d=amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=DZdzV2H3;
+ dkim=pass header.d=stratechery.com header.s=thyrshtvumvosni2q2qzreevasx4at3s header.b=oC+oeFBn;
+ spf=pass (domain amazonses.com designates 54.240.123.248 as permitted sender) smtp.mailfrom="01000193835d6809-21e37556-fd4f-44e9-8c74-01414baad859-000000@amazonses.com";
+ dmarc=pass (dkim=pass domain=stratechery.com) header.from=stratechery.com;
+ arc=none
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=khamel.com; q=dns/txt; s=pic; t=1733075757; x=1733082957;
+ h=Date: Mime-Version: Message-ID: Subject: Subject: Reply-To: Content-Type: From: From: To: To: X-Feedback-Id: Sender;
+ bh=lKInGXQIhFTrUmdyaQ9svnRK8oWI1iYotHpZAVS4MlY=;
+ b=ImIX9Ewn+tPcc3CukEjnHweu4FT45BPHqAFuHc3IHb2K6W8wNFyZOSrG0+xBFAQKb0mTFhV19VDgwk4udKBtQ2zw0LQ4PPTL39yhMbqBe2EODOZoYx40Cm3h8sPmUD+GY5GutQUxLlLaGlUz0QiujGUhENM5OyT4l5mkcNzOJOE=
+X-Feedback-Id: 01000193835d6809-21e37556-fd4f-44e9-8c74-01414baad859-000000@amazonses.com::663d69d519aae0348c93b932:mailgun
+X-Mailgun-Sending-Ip: 198.244.55.169
+X-Mailgun-Sending-Ip-Pool-Name: DIPP A
+X-Mailgun-Sending-Ip-Pool: 65bcf905b98832dd873024a9
+Received: from a123-248.smtp-out.amazonses.com (a123-248.smtp-out.amazonses.com
+ [54.240.123.248]) by 4520c402cadd with SMTP id 674ca32d48fbc82222c7f8b9
+ (version=TLS1.3, cipher=TLS_AES_128_GCM_SHA256); Sun, 01 Dec 2024 17:55:57
+ GMT
+X-Mailgun-Incoming: Yes
+X-Envelope-From: 01000193835d6809-21e37556-fd4f-44e9-8c74-01414baad859-000000@amazonses.com
+Received: from a123-248.smtp-out.amazonses.com (a123-248.smtp-out.amazonses.com
+ [54.240.123.248]) by 4520c402cadd with SMTP id <undefined> (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Sun, 01 Dec 2024 17:55:57 GMT
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=thyrshtvumvosni2q2qzreevasx4at3s; d=stratechery.com;
+	t=1733075757;
+	h=To:From:Content-Type:Reply-To:Subject:Message-Id:Mime-Version:Date;
+	bh=5EGDieO3vNJcgeVhdPwUDYY+rk2UZyAJgj0cJRQ+zYk=;
+	b=oC+oeFBnhsdb/h/Lds/MfTqkUBh9GLGR5DURRxW6FKV0EgrjJ7LMYtzbiK8GlB+o
+	1eHnyjVpQP2QZEJelQSDShj8N9bQ4aXWMBaaNj8jD23HGhwdAjN75FjjpZooSZ6z/EP
+	8v5R38vPyY4uSgzDnkh/7lgvkmXUJeR0Ls98aPZU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1733075757;
+	h=To:From:Content-Type:Reply-To:Subject:Message-Id:Mime-Version:Date:Feedback-ID;
+	bh=5EGDieO3vNJcgeVhdPwUDYY+rk2UZyAJgj0cJRQ+zYk=;
+	b=DZdzV2H38kGQmlid7/zJxjrlJjSsWJltVqXc7X4LmzxvC6alpw1TEoti5DL9wB6y
+	msjBInb9hUp5USs1QhbWN+jZ1wQ9GIn4wEE5Jj+Ptbs9rgYum+mzTdz3K+7a3F/Rucq
+	2ipodYzdlBtH/XKpIxaSdaoUpF+5n+8GhMQxdiJ4=
+To: Omar Zoheri <stratecheryUSC@khamel.com>
+From: Stratechery <email@stratechery.com>
+X-Atomic-User-ID: RseuYE8jgHePpWJf1fAb4C
+Content-Type: multipart/alternative;
+ boundary=424169abad52b71b702c84ec8bf66275f0b814c79ddae8c00d5788cb6596
+Reply-To: Stratechery <email@stratechery.com>
+Subject: Your Stratechery subscription will renew soon.
+Message-ID: <01000193835d6809-21e37556-fd4f-44e9-8c74-01414baad859-000000@email.amazonses.com>
+Mime-Version: 1.0
+X-Atomic-Instance: Kf59dDJgrz3Ba7EdNLtK75
+Date: Sun, 1 Dec 2024 17:55:57 +0000
+Feedback-ID: ::1.us-east-1.FYBj3dwfG4ns/E8tPHtYl8/vzf0Bph74SzXO8Zw5nV0=:AmazonSES
+X-SES-Outgoing: 2024.12.01-54.240.123.248
+
+--424169abad52b71b702c84ec8bf66275f0b814c79ddae8c00d5788cb6596
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+( https://stratechery.com/wp-json/atomicPlugin/v1/refresh )
+Hi Omar Zoheri, Your subscription will renew on December 8, 2024
+
+1 =C3=97 Stratechery Plus (Tier 1 at $150.00 / year) $150.00 *Total* *$150.=
+00*
+
+To manage your subscription please sign in.
+Sign In ( https://api.passport.online/oauth/session?access_token=3DeyJhbGci=
+OiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ=
+9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod=
+1AyWURLYmZQV00xIiwiZXhwIjoxNzY0MTc5NzU2LCJpYXQiOjE3MzMwNzU3NTYsImlzcyI6Imh0=
+dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInJkciI6Imh0dHBzOi8vc3RyYXRlY2h=
+lcnkucGFzc3BvcnQub25saW5lL21lbWJlci9hY2NvdW50Iiwic2NvcGUiOiJmZWVkOnJlYWQgYX=
+J0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgc2Vzc2lvb=
+iIsInN1YiI6ImMwZWRkNGMyLWUyNzMtNDdiMS1hY2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFj=
+Y2VzcyJ9.Avnr1xFrdyr1vd9V8nHWIZK4uXZ_1i6F7PXNWbp8jIHUWUOFcQ6GqWfgm7WZ_OgA4d=
+Rk8dqgZIdwwhpqgr9oagZMC-ZEJXZqWvF035Ehp2BisKSjbZ8eqRbz0G5_CPy4uXSph0jv7LjZv=
+fOAYD1ahgQoMUtC1-AoLILHX3eWpyfJdMMBtBMYuSn9yE2ANHFAdoWelGEzux2sNGyupbotkSAk=
+uS4kRj2pRZy4GddWZlu5l5XgrP5U8ROEpaQq2fQV3P_KsSakHUe5dPIjsmQFPXPhyc9a3uniF5g=
+C_pSCR_BA98shb27BmIv1RUcia9K_Oa-9Wh4bsXYQ5Hzi8muzmA&redirect_uri=3Dhttps%3A=
+%2F%2Fstratechery.passport.online%2Fmember%2Flogin&session_uri=3Dhttps%3A%2=
+F%2Fstratechery.passport.online%2Fmember%2Faccount )
+--424169abad52b71b702c84ec8bf66275f0b814c79ddae8c00d5788cb6596
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html><html style=3D"margin-left:1%;margin-right:0%;margin-bottom:=
+0;margin-top:0;width:99%;height:100%;padding:0;font-size:100%;min-width:100=
+%"><head><style type=3D"text/css">@media only screen and (max-width:600px){
+table img {
+width: 100% !important;
+height: auto !important
+}
+}
+@media screen and (max-width: 480px){
+p {
+font-size: 18px !important;
+max-width: 480px !important
+}
+}
+@media only screen and (max-width: 480px){
+h4 {
+font-size: 20px !important
+}
+img {
+max-width: 480px im !important
+}
+}
+</style></head><body style=3D"margin-left:1%;margin-right:0%;margin-bottom:=
+0;margin-top:0;width:99%;height:100%;padding:0;font-size:100%;min-width:100=
+%">
+<table style=3D"display: block; max-width: 600px !important; padding-top: 2=
+4px;">
+    <tbody>
+        <tr>
+            <td>
+                <a target=3D"_blank" href=3D"https://stratechery.com/wp-jso=
+n/atomicPlugin/v1/refresh" style=3D"color:#8888FF;font-weight:bold;font-fam=
+ily:Helvetica,Arial,sans-serif;text-decoration:none">
+                    <img src=3D"https://assets.stratechery.passport.online/=
+assets/banner_orangeLogoBlackText@2x.png" border=3D"0" alt=3D"Stratechery" =
+width=3D"320px" style=3D"outline:none;text-decoration:none;-ms-interpolatio=
+n-mode:bicubic;text-align:left;display:block;margin:0 auto;font-size:24px;f=
+ont-weight:bold;font-family:Helvetica, Arial, sans-serif;color:#000000;bord=
+er:none;align-self:left;float:left;height:auto"/>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br/>
+                <h4 style=3D"font-family:Helvetica, Arial, sans-serif;font-=
+size:19px;line-height:125%;font-weight:normal;padding-bottom:2px;padding-to=
+p:0px;display:block;text-transform:none;color:#000000;text-decoration:none;=
+margin-bottom:0">
+                    Hi Omar Zoheri,
+                </h4>
+                <h4 style=3D"font-family:Helvetica, Arial, sans-serif;font-=
+size:19px;line-height:125%;font-weight:normal;padding-bottom:2px;padding-to=
+p:0px;display:block;text-transform:none;color:#000000;text-decoration:none;=
+margin-bottom:0">
+                    Your subscription will renew on December 8, 2024
+                </h4>
+                <br/>
+                <table>
+                    <tbody>
+                        <!--  -->
+                        <tr>
+                            <td style=3D"padding-left: 12px;">1 =C3=97 Stra=
+techery Plus (Tier 1 at $150.00 / year)</td>
+                            <td>$150.00 </td>
+                        </tr>
+                        <!--	 -->
+                        <tr>
+                            <td colspan=3D"2">
+                                <hr/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"padding-left: 12px; text-align: ri=
+ght; padding-right: 20px;"><b>Total</b></td>
+                            <td><b>$150.00</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4 style=3D"font-family:Helvetica, Arial, sans-serif;font-=
+size:19px;line-height:125%;font-weight:normal;padding-bottom:2px;padding-to=
+p:0px;display:block;text-transform:none;color:#000000;text-decoration:none;=
+margin-bottom:0">
+                    To manage your subscription please sign in.
+                </h4>
+                <br/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target=3D"_blank" href=3D"https://api.passport.online/oa=
+uth/session?access_token=3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBh=
+c3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC=
+5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZXhwIjoxNzY0MTc5NzU2L=
+CJpYXQiOjE3MzMwNzU3NTYsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0=
+aCIsInJkciI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL21lbWJlci9hY2N=
+vdW50Iiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcn=
+k6cmVhZCBlbnRpdGxlbWVudHMgc2Vzc2lvbiIsInN1YiI6ImMwZWRkNGMyLWUyNzMtNDdiMS1hY=
+2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY2VzcyJ9.Avnr1xFrdyr1vd9V8nHWIZK4uXZ_1i6=
+F7PXNWbp8jIHUWUOFcQ6GqWfgm7WZ_OgA4dRk8dqgZIdwwhpqgr9oagZMC-ZEJXZqWvF035Ehp2=
+BisKSjbZ8eqRbz0G5_CPy4uXSph0jv7LjZvfOAYD1ahgQoMUtC1-AoLILHX3eWpyfJdMMBtBMYu=
+Sn9yE2ANHFAdoWelGEzux2sNGyupbotkSAkuS4kRj2pRZy4GddWZlu5l5XgrP5U8ROEpaQq2fQV=
+3P_KsSakHUe5dPIjsmQFPXPhyc9a3uniF5gC_pSCR_BA98shb27BmIv1RUcia9K_Oa-9Wh4bsXY=
+Q5Hzi8muzmA&amp;redirect_uri=3Dhttps%3A%2F%2Fstratechery.passport.online%2F=
+member%2Flogin&amp;session_uri=3Dhttps%3A%2F%2Fstratechery.passport.online%=
+2Fmember%2Faccount" width=3D"160" style=3D"font-weight:bold;background:#faa=
+634;display:block;border-radius:5px;text-align:center;padding:12px;width:16=
+0px;color:#ffffff;font-size:18px;font-family:Helvetica,Arial,sans-serif;tex=
+t-decoration:none">
+                    <span>Sign In</span>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table></body></html>
+--424169abad52b71b702c84ec8bf66275f0b814c79ddae8c00d5788cb6596--

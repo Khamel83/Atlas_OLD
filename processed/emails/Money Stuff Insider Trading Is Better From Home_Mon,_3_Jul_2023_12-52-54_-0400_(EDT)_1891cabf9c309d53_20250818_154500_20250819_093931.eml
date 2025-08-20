@@ -1,0 +1,1913 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9209:b0:134:f286:1793 with SMTP id d9csp2618648rwb;
+        Mon, 3 Jul 2023 09:53:00 -0700 (PDT)
+X-Received: by 2002:adf:e58c:0:b0:311:19a2:e7f8 with SMTP id l12-20020adfe58c000000b0031119a2e7f8mr13114755wrm.1.1688403179828;
+        Mon, 03 Jul 2023 09:52:59 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1688403179; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=HK/U2JWruTF8/zecNho/CwKvJy9Nf/ntGnsT8T4VOJdfh8jkE3lCACns9bZRIR4+wS
+         LBaishzzFtEBvegyX8fPAwura6thDs5bYHAZIELeY3d3XUdXNcYhvQTLwFs02iulTWCq
+         mVnhDFqqnhbE9wAppg1IUfgTS80gWPseo71WHuS/ibNc6sCgsNCx4iWR2+5I7uAxusgF
+         40wL9T+6PDJMc3Pthzdrbr86BjtNNNn4qsGpDX2ApqNsRLQJeS0rto3sv9E5l8NsNm3N
+         6maap3kQSWSijxVrUquwPg5rf/Pl/laU3/6nmEsNCSFmKExpL2y7SRqWR5qT01sFsnsT
+         000A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=dyreGwhYz4br1uBiC8p8p/p0+5tyXx8I6V8xGzfG0V0=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Ans01ly1dBRDzXc3cNnOkgYpua6GTYWQTJJPDtMf5COWeNnXV6dVkJVSfXPO/uO2JB
+         0mBPQHkHWpjksL4DMgAIb6ZW16DrN6PvzX4Y49faNa+yxb/lqjhPlLHjh2wgUNZwugJr
+         mgglPg4iTky51XGyvpSQ1kea9f7rcHcTakA58n+MYASAMw6INvcsiighhIXddADwSSoN
+         Vb3Rgp538gb2GWNWCf/G9lvD39yrbMdz3N6wiu6L2qt63VPfKyZIo0mx0RHhpu0sfzm8
+         CazLKxqH1S148gOQTdenzoQfg2AS6A5Cda0H2ymCPXZYjD3lgwKwjwAiwwGqd81uTiGs
+         AoGg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ddl1vb13;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u16-20020adfa190000000b0030e5390d6e4sor4999285wru.4.2023.07.03.09.52.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 03 Jul 2023 09:52:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ddl1vb13;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688403179; x=1690995179;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=dyreGwhYz4br1uBiC8p8p/p0+5tyXx8I6V8xGzfG0V0=;
+        b=FsCLwMQI7WH3Nc98gTnIn7sL0eUCd0BYo/62MbZB5vH3nCn5gJwsBQUrJhj3SlATu5
+         M89CMABBfdF4hFBPngLcz5unP8zLyBLnyp1/JYk7blYHkiKR8OGMz/RghWGP8UFjtYhp
+         MQ4MwNG/hdMn6k8xFaizXCVyOhjGUMIYoG8JkIu4Tu1z1v4/nC1UUqR5zSlJc5cKA9yB
+         2ebv5jqUplyJkLaHLmMAgUUKiJgsRM9KyZq4o97JBWsjSWoMVj/X3nTGd8nMZPcTll0Q
+         E6PpOK/MtjSGIjSnlJg6iDPxB3y1jNCvPKXSupZ4yGvvZXPgiKicfTOoFGGYdfGt7Kdb
+         J9ZA==
+X-Gm-Message-State: ABy/qLa+CZz8pAGgM6QebNJRfWwTQOnx1Y4qC7P6+0HKb588gM267/kq
+	+fxgdfgVnldoGxZl5IsFhbvHGrukKJEYTApr8dpCMEzleEYwU69/1A==
+X-Received: by 2002:adf:decb:0:b0:314:101c:42ba with SMTP id i11-20020adfdecb000000b00314101c42bamr12890914wrn.54.1688403179249;
+        Mon, 03 Jul 2023 09:52:59 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4ec4:0:0:0:0:0 with SMTP id s4csp540093wrv;
+        Mon, 3 Jul 2023 09:52:56 -0700 (PDT)
+X-Received: by 2002:a9d:77d4:0:b0:6b8:6bd1:f097 with SMTP id w20-20020a9d77d4000000b006b86bd1f097mr9160524otl.11.1688403175719;
+        Mon, 03 Jul 2023 09:52:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1688403175; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IVhM5iQFfe64Jwtlv8OklBMOfoM6zH0Lh3cgUIWpOKhCzvsQDriSOX3g7hUfSbACz+
+         fNujjtv9HKeqLJlTz5o1cp8gGeKujuG6vbVClxFRCOovVeDSMznM5kASlQkXJrn/zqoy
+         fSqLwxOHwZoEUEbSmDkcPijYAuwr5y6fVamR3vtKxLcL9P5zTGiCJ4cqTZ9+JQl4lwaA
+         UbWgAzpvMN7hbTc/HlYpetKLgyifoZg35cWas2Trgjx933mQ7UMYTaawi4pO5HWfasIO
+         SM0rlyHpmXYD07z/pXh95GCMgtQUX+/q/xoFMuSqdzEz+z3Zm/1ETGw+dgit4HGQ8FQ1
+         OcdA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dyreGwhYz4br1uBiC8p8p/p0+5tyXx8I6V8xGzfG0V0=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Snb2IA8D+HF8b/505lS77YskghfBousUn+Lpg3A0duMpizW5BDlv6XgmN3FRx9fPR8
+         VW3MBtA9reP1Rj1kPrqRCoWx1F6DCrAIcqteyQHU1xGe9IA+t0XMOHTEomDLWha3cc/6
+         rRR7jSH49/h7BoeDIFGPygweLb5vCMnGpaIqqXGYtbHPNiBhGYUzg6dxlWiY48gksQA2
+         rMDHXG+5Lp88MvBp3MjGy7ixFJfuGisO4XrravE5HrNL9wbudgLyhAcMXOZhd95c5o5D
+         a2r+Dm4neLlQYDi4IID2vx6GjsVDZTNGt0nuamCIl4YoHldETeb64f2uyuPVYcNGrq47
+         89HQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ddl1vb13;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230703125254.31975621.257407@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230703125254.31975621.257407@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230703125254.31975621.257407@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y27-20020a02ce9b000000b0042b448853afsor192006jaq.9.2023.07.03.09.52.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 03 Jul 2023 09:52:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230703125254.31975621.257407@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlEQA9v94m6rXNO+EgVgyVXZDuoktVVhcwMeJhTjc/rv/1tBrSS4qoQ7LCudFWp2aljRfwuewDkFYJqmphiaJJkzrJxceuI=
+X-Received: by 2002:a92:c608:0:b0:345:c8cd:2245 with SMTP id p8-20020a92c608000000b00345c8cd2245mr10303437ilm.20.1688403175299;
+        Mon, 03 Jul 2023 09:52:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1688403175; cv=none;
+        d=google.com; s=arc-20160816;
+        b=AOcCUcAl9rrMtA23cJ2o8+lzHcuHuctLX1hWJ3QSwUQ5dAehKMdZvGi1ICmj8xkeiO
+         WM3bhqOqdTrXtQY0GqXLAbpO5FYc9/RgwMkZyrNTEv9SvctFonu/DRqPf2WvU9mVRGOI
+         tiHfbAGlHKr+VBrW+M5mF2sm6ARWiOKY9AD7tkOgry590eZDxR1uwhQncSW16Orys5NT
+         Bmu07jesDdT8ut/cBCI141cEpjKnR7uEemJtD8+9YhBV57HQ+HW811VOvBmBN0RfqIRV
+         V+wj7Y25w2yM9U8rXWUTbyHBFtqKKS9sra7BhamBwvZuWQ2w63SFhpt2c5Ezuonp+OSD
+         hsAQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dyreGwhYz4br1uBiC8p8p/p0+5tyXx8I6V8xGzfG0V0=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Yhrq/WdQn2GCFCTJxk6MKaGqKEmzcYrnvs1Mag5nCkqAilnXlLyNCaAC+4uaKcZwT/
+         yakdkJRzwlSA2tNclROrKDZK0CAgzSrJnr5/g/brOIiJsungBFaD3e+5SmYeVx05bC2w
+         DJ5rwL2AT62ZUGxucP+Yqs2GYWIScGBIqc8jstm14CqtusmOUx+lz2XJBUbr9EkgVgGl
+         SoG9/oA3viHEWGaXTkC9FhxLbm8C7vToN6luI5wNyIZd4JJ7IoIx7H+KUPMbYGuPb3/a
+         49S0msIQXrKIRH8xED7R2y+uztLLgN3Vf9uMp6Iv/a8lBaX2JY1HrEsb1pc128QST17e
+         KuAQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ddl1vb13;
+       spf=pass (google.com: domain of delivery_20230703125254.31975621.257407@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230703125254.31975621.257407@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230703125254.31975621.257407@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id cs14-20020a056638470e00b0042a49b96029si1551257jab.2.2023.07.03.09.52.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 03 Jul 2023 09:52:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230703125254.31975621.257407@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=AmvXWDz2cAnUZDmswTKRAkfRjcvPydvHID2CAifBZmI=;
+ b=ddl1vb13R2V8MjhmZTAGk4MR0A9TbHqMaXx+OoJdzt6rfq6cTc4iS+1iHJfhJlC2K8klg1K3f9RK
+   1gcwxkI3t6XwXqwaVmpAUn5iWiWn9HWtPmpG+zqp42Itap0eKBdgOsVEhM5LZ9DGvuLqi767m56e
+   r77LSEa9DJucL6BvHmk=
+Received: from nj1-mta32.sailthru.com (204.153.120.167) by pmta29.sailthru.com id hkbuec2sd4sp for <bloomberg@khamel.com>; Mon, 3 Jul 2023 11:52:54 -0500 (envelope-from <delivery_20230703125254.31975621.257407@mx.sailthru.com>)
+Date: Mon, 3 Jul 2023 12:52:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230703125254.31975621.257407@sailthru.com>
+Subject: Money Stuff: Insider Trading Is Better From Home
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_26027775_2055871199.1688403174758"
+Precedence: bulk
+x-job: 6358-31975621-20230703
+X-Feedback-ID: 6358:31975621:campaign:sailthru
+X-TM-ID: 20230703125254.31975621.257407
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-badmanatee.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj1cjp.5im7/5bc7fb4d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj1cjp.5im7/5bc7fb4d>, <mailto:unsubscribe_20230703125254.31975621.257407@mx.sailthru.com>
+X-rpcampaign: stjko31975621
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_26027775_2055871199.1688403174758
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Wednesd=
+ay.We have talked a few times about the effect of working from home on fi
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Wedne=
+sday.
+
+ =20
+   =20
+      Covid and insider trading (1)
+   =20
+ =20
+
+We have   talked a few   times about the effect of working from home on fin=
+ancial crime. You could imagine it going either way: Being out of the offic=
+e might cause you to do more crime, because you are less closely observed b=
+y bosses and compliance, or more crime, because you are not around peer pre=
+ssure to do crime. Empirically, though,=C2=A0the answer seems to be =E2=80=
+=9Cless crime.=E2=80=9D=C2=A0
+That said, there is one classic form of financial crime that I=C2=A0think=
+=C2=A0would have to be increased by work-from-home? That form of financial =
+crime is =E2=80=9Clooking at your girlfriend=E2=80=99s computer to see what=
+ high-stakes deals she is working on,
+  [1]
+ and then insider trading on them.=E2=80=9D People love that one. If your g=
+irlfriend mostly works from her law firm=E2=80=99s or investment bank=E2=80=
+=99s office, but logs in at night=C2=A0or does weekend conference calls on =
+live deals, you might pick up some information to trade on, though she migh=
+t remember to use code names when you=E2=80=99re in earshot and lock her co=
+mputer when she steps away. But if she works from home all day every day in=
+ your one-bedroom apartment, you are just far more likely=C2=A0to know what=
+ she is working on. And if you are inclined to trade on it,  you will:
+
+The Securities and Exchange Commission [Thursday] announced insider trading=
+ charges against Jordan Meadow, a registered representative for a New York-=
+based broker-dealer, and Steven Teixeira, the Chief Compliance Officer of a=
+n international payment processing company, in connection with their tradin=
+g based on material nonpublic information that Teixeira obtained from his g=
+irlfriend=E2=80=99s laptop while she was working at home during the COVID-1=
+9 pandemic.
+The SEC=E2=80=99s complaint alleges that Teixeira accessed nonpublic inform=
+ation on possible upcoming mergers and acquisitions of public companies fro=
+m the laptop of his girlfriend, who was employed at a prominent New York-ba=
+sed investment bank. As alleged, Teixeira then used the information to purc=
+hase call options on several issuers ahead of the announcement of the deals=
+ and tipped the information to his friends, including Meadow, so that they =
+could trade as well. The scheme allegedly generated illicit profits of appr=
+oximately $28,600 for Teixeira, while Meadow made more than $730,000. Addit=
+ionally, according to the complaint, Meadow recommended trades to his broke=
+rage customers based on the material nonpublic information from Teixeira, r=
+esulting in millions of dollars in profits for them and hundreds of thousan=
+ds of dollars in commissions for Meadow.
+=E2=80=9COur complaint alleges brazen betrayals of trust by Teixeira, who m=
+isappropriated information from his girlfriend=E2=80=99s laptop to make a q=
+uick buck, and by industry-veteran Meadow, who was all too eager to use the=
+ information to line his pockets,=E2=80=9D said Scott Thompson, the Associa=
+te Regional Director of the SEC=E2=80=99s Philadelphia Regional Office. =E2=
+=80=9CWe will continue to pursue and prosecute insider trading where approp=
+riate to hold people accountable for their actions.=E2=80=9D
+
+There are also  criminal charges. Always the compliance officers, always th=
+e call options. The girlfriend was an executive assistant at the investment=
+ bank (reportedly   Morgan Stanley),  where she =E2=80=9Cwas responsible fo=
+r, among other things, scheduling meetings of the Investment Bank=E2=80=99s=
+ valuation and fairness=C2=A0committees concerning potential transactions i=
+nvolving the Investment Bank=E2=80=99s clients=E2=80=9D:
+Deal teams working on transactions provided the Executive Assistant with sc=
+heduling request forms for valuation and fairness committee meetings. These=
+ forms included the names of the companies participating in, and the materi=
+al terms relating to, the proposed deals. The Executive Assistant created a=
+nd sent calendar invitations for the meetings, attaching the scheduling req=
+uest forms to the invitations.=C2=A0
+And:
+Teixeira accessed the Executive Assistant=E2=80=99s laptop while she was aw=
+ay=E2=80=94either out of the room or away from the apartment entirely. Usin=
+g his access, Teixeira reviewed the Executive Assistant=E2=80=99s Outlook a=
+pplication to find valuation and fairness committee meetings relating to me=
+rgers and acquisitions of public companies.=C2=A0He then reviewed the attac=
+hment=C2=A0containing the party names and material terms of potential trans=
+actions involving the Investment Bank=E2=80=99s clients.
+Sure, right, of course. The executive assistant for the fairness committee =
+is far more useful, for insider trading, than a high-powered investment ban=
+ker would be: The banker sees mostly her own deals; the committee assistant=
+ sees just enough information on every deal.
+Also there is a great information-security detail here.=C2=A0The bank was c=
+areful about remote access to data, to prevent exactly this sort of thing:
+The Investment Bank=E2=80=99s online portal for employees working remotely =
+locked automatically after a period of inactivity. The system could detect =
+that an employee was not typing or moving their mouse, for example, and wou=
+ld require the employee to log in again to access the Investment Bank=E2=80=
+=99s files.=C2=A0
+This security system had a downside, though, which is that it is=C2=A0annoy=
+ing. Nobody wants to be logged out of their remote work every time they go =
+to the bathroom. So:
+Teixeira provided the Executive Assistant with a device that moved the Exec=
+utive Assistant=E2=80=99s mouse while she was away from her computer. This =
+device simulated user activity and prevented the Investment Bank=E2=80=99s =
+online portal from detecting that the Executive Assistant was away from her=
+ computer, which would otherwise cause the system to lock and require the E=
+xecutive Assistant to log in to access the Investment Bank=E2=80=99s files.
+So she could go to the bathroom without having to log back in, and also he =
+could steal her bank=E2=80=99s information and insider trade on it. The tri=
+ck with information security is that you have to make your security measure=
+s strong enough to defeat criminals, but not so strong that they annoy your=
+ employees into disabling them.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Covid and insider trading (2)
+   =20
+ =20
+
+A more straightforward sort of  Covid-driven insider trading:
+
+The Securities and Exchange Commission [Thursday] announced insider trading=
+ charges against Amit Dagar, a former Pfizer Inc. employee, and his close f=
+riend and business partner, Atul Bhiwapurkar, for trading in advance of the=
+ company=E2=80=99s November 5, 2021, announcement that a randomized, double=
+-blind study of its COVID-19 antiviral treatment, Paxlovid, was successful.=
+ Following that announcement in which Pfizer=E2=80=99s CEO referred to the =
+news as a =E2=80=9Cgame-changer=E2=80=9D in the global efforts to =E2=80=9C=
+halt the devastation=E2=80=9D of the pandemic, the company=E2=80=99s stock =
+price increased by nearly 11 percent, the largest single-day price move in =
+the stock since 2009.
+According to the SEC=E2=80=99s complaint, Dagar was a senior statistical pr=
+ogram lead for the Paxlovid drug trial, which began in July 2021 as part of=
+ the company=E2=80=99s efforts to address the global health pandemic. On th=
+e day before the Paxlovid announcement, the complaint alleges, Dagar learne=
+d material, nonpublic information about the success of the trial. Specifica=
+lly, the SEC alleges that Dagar=E2=80=99s supervisor informed him via chat =
+that =E2=80=9Cwe got the outcome,=E2=80=9D there was a =E2=80=9Clot of work=
+ lined up,=E2=80=9D and that there would be a =E2=80=9Cpress release tomorr=
+ow,=E2=80=9D to which Dagar responded with =E2=80=9Coh really=E2=80=9D and =
+=E2=80=9Ckind of exciting.=E2=80=9D Several hours after that exchange, Daga=
+r allegedly purchased short term, out-of-the-money Pfizer call options, inc=
+luding options that expired the very next day, and then tipped Bhiwapurkar,=
+ who also purchased similar call options in Pfizer. The complaint alleges t=
+hat Dagar=E2=80=99s and Bhiwapurkar=E2=80=99s trading generated approximate=
+ly $214,395 and $60,300 respectively in illicit profits, which amounted to =
+one-day investment returns of 2,458 percent and 791 percent.
+The case originated from the SEC=E2=80=99s Market Abuse Unit=E2=80=99s Anal=
+ysis and Detection Center, which uses data analysis tools to detect suspici=
+ous trading patterns.
+=E2=80=9CAs alleged in our complaint, Amit Dagar misused his access to conf=
+idential clinical trial results to enrich himself and his friend, Atul Bhiw=
+apurkar,=E2=80=9D said Joseph Sansone, Chief of the Market Abuse Unit. =E2=
+=80=9CDagar and Bhiwapurkar allegedly leveraged this information by trading=
+ out-of-the-money call options to generate massive one-day returns. Thanks =
+to our surveillance, the defendants must now face the consequences of their=
+ greed.=E2=80=9D
+
+There are also criminal charges. Always the call options.
+But come on! This was not some random financial windfall for Pfizer; this w=
+as a=C2=A0Covid treatment. Be a little more creative! On Nov. 5, 2021, Pfiz=
+er announced this trial result and its stock went up 11%. That day, Royal C=
+aribbean Cruises Ltd.=E2=80=99s stock was up 8%. Carnival Corp. was up 9%.=
+=C2=A0Delta Air Lines Inc. was up 8%. Wynn Resorts Ltd. was up 6%. Zoom Vid=
+eo Communications Inc. was down 6%. =E2=80=9CA game-changing Covid treatmen=
+t will be good for the stocks of cruise-ship companies, airlines and casino=
+s and bad for work-from-home stocks=E2=80=9D was about as obvious a thesis =
+as =E2=80=9Ca game-changing Covid treatment will be good for the stock of t=
+he company that discovers it=E2=80=9D; certainly I was banging on about thi=
+s in  2020 and   2021. If you happened to know about that game-changing res=
+ult a day in advance,=C2=A0because you worked for Pfizer and your boss told=
+ you the results, insider trading in short-term out-of-the-money call optio=
+ns in your own personal account is the most=C2=A0direct=C2=A0way to profit =
+from the news, sure, but also the most direct way to get caught.
+Oh but if you traded Royal Caribbean options! If you bought a bunch of Delt=
+a calls and hedged by selling a bunch of Zoom calls!=C2=A0That would be int=
+eresting:
+=09It would work. You could reasonably have predicted how those stocks woul=
+d move on the Paxlovid news, and in fact they did move that way.=09It might=
+ not be illegal? We have   talked a   lot about =E2=80=9Cshadow trading,=E2=
+=80=9D when employees of one company use news that they learn about that co=
+mpany to trade=C2=A0other=C2=A0stocks that will move in predictable ways on=
+ their company=E2=80=99s news. The SEC doesn=E2=80=99t=C2=A0like=C2=A0it, a=
+nd=C2=A0brought   one notable shadow-trading case=C2=A0in 2021, but the law=
+ is less clear here than it is when you trade your own company=E2=80=99s st=
+ock.
+  [2]
+=C2=A0(Not legal advice!)=C2=A0=09They might not catch you: =E2=80=9CCheck =
+for Pfizer employees who traded Pfizer call options right before Pfizer ann=
+ounced its biggest news in years=E2=80=9D is a no-brainer for the SEC; =E2=
+=80=9Ccheck for Pfizer employees who traded Wynn Resorts call options right=
+ before Pfizer announced its biggest news in years=E2=80=9D is=C2=A0not as =
+obvious. (Not crime-detection-avoidance advice!)=09If they=C2=A0did=C2=A0ca=
+tch you and bring a case, I would be more impressed by your gumption, and h=
+ave more fun writing about it. (Not =E2=80=A6=C2=A0I mean, I don=E2=80=99t =
+want to encourage you to do crimes. But conditional on you doing crimes, I =
+do want to encourage you to do clever, interesting crimes.)
+
+
+ =20
+   =20
+      SoftBank
+   =20
+ =20
+
+If you have a thesis that artificial intelligence will reshape the world an=
+d revolutionize every industry, how should you invest? Some options:
+=09Invest in AI companies, companies that are working to develop AI technol=
+ogy. Presumably they=E2=80=99ll find a way to make money with it.=09Invest =
+in chip companies, betting that the rise of AI will lead to rising demand f=
+or powerful microchips. A sell-shovels-in-a-gold-rush strategy.=09Invest in=
+  pizza delivery startups, betting that the rise of AI will create new poss=
+ibilities for increased efficiency of pizza delivery, and that your portfol=
+io of pizza-delivery startups will capture the upside. I dunno, man.
+
+Today the Wall Street Journal has a funny and rather cruel story about how =
+SoftBank Group went all-in on artificial intelligence in 2018, invested $14=
+0 billion in the theme, and somehow =E2=80=A6=C2=A0missed it =E2=80=A6=C2=
+=A0entirely?
+
+=E2=80=9CWe are not just recklessly making investments,=E2=80=9D [SoftBank =
+CEO Masayoshi] Son told investors in 2018. =E2=80=9CWe are focusing on one =
+theme, which is AI.=E2=80=9D
+Despite the unprecedented spending spree that Son in 2020 said would make S=
+oftBank =E2=80=9Cthe investment company for the AI revolution,=E2=80=9D one=
+ of the world=E2=80=99s most prolific tech investors has missed out on the =
+frenzy in generative AI, the red-hot subsector in which products such as Ch=
+atGPT learn from huge datasets to create unique text or images.
+The Tokyo-based conglomerate has invested in just one of the 26 generative =
+AI startups valued at more than $1 billion, according to PitchBook. =E2=80=
+=A6=C2=A0SoftBank missed out on huge gains at AI-focused chip maker Nvidia:=
+ The Tokyo-based investor put around $4 billion into the company in 2017, o=
+nly to sell its shares in 2019. Nvidia stock is up about 10 times since.=C2=
+=A0
+
+It is possible that the problem is that Son was=C2=A0too optimistic about A=
+I:
+
+In quirky investor presentations that featured diagrams with dinosaurs and =
+steam engines, the SoftBank CEO said AI would =E2=80=9Credefine all industr=
+ies=E2=80=9D and usher in a powerful new wave of the information revolution=
+ that began with computers=E2=80=94language similar to that many CEOs have =
+begun using in recent months. ...
+During the years that SoftBank was investing, it generally avoided companie=
+s focused specifically on developing AI technology. Instead, it poured mone=
+y into companies that Son said were leveraging AI and would benefit from it=
+s growth. For example, it put billions of dollars into numerous self-drivin=
+g car tech companies, which tend to use AI to help learn how humans drive a=
+nd react to objects on the road. ...
+Son told investors that AI would power huge expansions at numerous companie=
+s where, years later, the benefits are unclear or nonexistent. In 2018, he =
+highlighted AI at real-estate agency Compass, now-bankrupt construction com=
+pany Katerra, and office-rental company WeWork, which he said would use AI =
+to analyze how people communicate and then sell them products.
+
+Intuitively a thesis like =E2=80=9CAI will redefine all industries=E2=80=9D=
+ gets expressed by=C2=A0investing in all industries, picking the companies =
+in each industry that will use AI the best, not investing in generative-AI =
+developers. If you go around saying in public =E2=80=9Cwe think that AI wil=
+l transform every industry and we plan to invest absolute gobs of money alo=
+ng those lines,=E2=80=9D then perhaps someone building a generative-AI comp=
+any will come to you and ask you for some of that money.=C2=A0But=C2=A0defi=
+nitely=C2=A0people who are building real-estate agencies or construction co=
+mpanies or office-rental companies or pizza-delivery companies will say =E2=
+=80=9Chuh, the guy with all the money wants to invest in AI transforming ev=
+ery industry, let=E2=80=99s get some of that money,=E2=80=9D and they will =
+add slides to their decks like =E2=80=9CHow We Will Use AI To Transform Piz=
+za Delivery=E2=80=9D with clip art of a robot and a pizza,=C2=A0and your ey=
+es will light up when you see that slide and you will say =E2=80=9Csee=C2=
+=A0this=C2=A0is what I am talking=C2=A0about, AI is gonna transform all the=
+ industries, here=E2=80=99s $375 million.=E2=80=9D
+By the way the bull case here is that he was just early, and SoftBank reall=
+y did manage to pick all the companies that will do the best job of deployi=
+ng AI to redefine their industries, and in 10 years all of us will work out=
+ of WeWorks because WeWork is uniquely good at using AI models to, you know=
+, adjust the air conditioning and dynamically price desk space and whatever=
+. The real upshot of the computer revolution is that every company became a=
+ tech company, and I suppose the real upshot of the AI revolution=C2=A0migh=
+t be that every company becomes an AI company, and some will get there fast=
+er than others. I don=E2=80=99t have any=C2=A0reason=C2=A0to think that Son=
+ did pick all the right winners, but it is perhaps too early to tell.
+Elsewhere in industries getting transformed by AI:
+
+The boom in demand for high-end chips powering the rise of artificial intel=
+ligence has given new life to some of the survivors of the last tech-hype c=
+ycle: cryptocurrency miners.
+During the crypto upsurge, Satoshi Spain sold and leased out hundreds of so=
+uped-up computers=E2=80=94known as mining rigs=E2=80=94equipped with powerf=
+ul graphics chips. Then, as many of them sat idle starting last year becaus=
+e of the decline of mining currencies, the Spanish company began helping it=
+s customers retool the machines for AI.
+Today, Satoshi Spain=E2=80=99s machines are handling AI workloads for start=
+ups, universities and individual developers in Europe.
+=E2=80=9CYou can still make money from your mining rig,=E2=80=9D Satoshi Sp=
+ain founder Alejandro Ib=C3=A1=C3=B1ez de Pedro said. =E2=80=9CIt=E2=80=99s=
+ mining 2.0.=E2=80=9D
+
+It would be very funny if, completely by accident,=C2=A0the big winners fro=
+m the AI boom were crypto miners.
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+Well, look, if=C2=A0I=C2=A0were the newly hired chief executive officer of =
+a social media company, and if the directors and shareholders who brought m=
+e in as CEO had told me that my main mission was to turn around the company=
+=E2=80=99s precarious financial situation by improving our position with ad=
+vertisers, and if I spent my  first few weeks reassuring advertisers and re=
+building relationships and talking up our site=E2=80=99s unique audience an=
+d powerful engagement, and then one day my head of software engineering cam=
+e to me and said =E2=80=9Chey boss, too many people were too engaged with t=
+oo many posts, so I=C2=A0had to limit everyone=E2=80=99s ability to view po=
+sts on our site, just FYI,=E2=80=9D I would =E2=80=A6=C2=A0probably =E2=80=
+=A6=C2=A0fire ... him?
+I mean I suppose I might ask questions like =E2=80=9CIs this because of som=
+e technological limitation on our system? Is it because you were monkeying =
+with the code without understanding it? Is it because you   tried to stop p=
+eople from reading the site without logging in,
+  [3]
+ and  messed up and stopped them from reading the site even when they logge=
+d in? Is it because you fired and  demoralized too many engineers so no one=
+ was left to keep the systems running normally? Is it because you forgot to=
+ pay the  cloud bills? Is it because deep down you don=E2=80=99t like it wh=
+en people read posts on our site and you want to stop them, or you don=E2=
+=80=99t like relying on ad revenue and want to sabotage my ability to sell =
+ads?=E2=80=9D Those are all interesting questions, and I suppose having the=
+ answers would help my=C2=A0new=C2=A0head of software engineering fix whate=
+ver this guy broke. But no matter what the answers are, this guy=E2=80=99s =
+gotta go. If you are in charge of the software engineers at a social media =
+site, and you make it so that people can=E2=80=99t read the site, that=E2=
+=80=99s bad.
+Anyway something very funny  happened at Twitter this weekend:
+
+Twitter began limiting how many posts users can read on its platform, an un=
+usual move that came as owner Elon Musk says he is fighting companies tryin=
+g to use its data for developing artificial intelligence programs.=C2=A0
+Musk on Saturday detailed the temporary changes, which involved limiting un=
+verified accounts to reading just 600 posts a day while verified accounts=
+=E2=80=94those paying a monthly subscription=E2=80=94can read 6,000 posts d=
+aily. He later announced multiple increases to the number of allowed posts.
+=E2=80=9CTo address extreme levels of data scraping & system manipulation, =
+we=E2=80=99ve applied the following temporary limits,=E2=80=9D Musk tweeted=
+. =E2=80=A6
+=E2=80=9CIt=E2=80=99s unprecedented as far as I know since the time of=E2=
+=80=9D internet bulletin boards, Jason Goldman, a former Twitter executive =
+who has been critical of Musk=E2=80=99s stewardship, said about the limits.=
+ =E2=80=9CTo set limits so low that it renders the site unusable to average=
+ users is just the latest in the purely extractive approach the new ownersh=
+ip is taking.=E2=80=9D
+
+Oh man! Musk, the head of Twitter's  software and servers teams, is gonna b=
+e in so much trouble when his boss, Twitter CEO Linda Yaccarino, gets to th=
+e office today.
+Oh I kid, I kid, but what a weird job that must be. The CEO job I mean. The=
+ software-and-servers job isn=E2=80=99t that weird =E2=80=94=C2=A0he=E2=80=
+=99s in charge of a website=C2=A0=E2=80=94 but he manages to make it weird.
+Also:
+
+As the ramification of Musk=E2=80=99s data battle became clear Saturday, so=
+me users complained about being limited.=C2=A0
+One user tweeted: =E2=80=9CYour addiction is about to be broken. We will al=
+l be free. See you guys at the park.=E2=80=9D=C2=A0
+=E2=80=9CTouch grass again,=E2=80=9D Musk tweeted in reply.
+
+Ha ha ha!  Yes! Musk is limiting access to Twitter in order to break its us=
+ers=E2=80=99 addiction and free them to touch grass.=C2=A0He has correctly =
+diagnosed the problem (Twitter users are too obsessed with it)=C2=A0and imp=
+lemented a solution (don=E2=80=99t let them see too many tweets). Of course=
+ to do this he had to become completely obsessed with Twitter, devote himse=
+lf full-time to running it, tweet constantly and sink tens of billions of d=
+ollars of his own money into buying Twitter and then breaking it. He has sa=
+crificed so much himself so that people like me can spend a bit less time o=
+n Twitter; he has taken the burden of Twitter addiction from millions of us=
+ers and put it all on himself. Thanks!
+In=C2=A0other news:
+
+If you thought that a cage fight between two of the world=E2=80=99s richest=
+ men was just a far-fetched social media stunt, think again.
+Over the past 10 days, [Ultimate Fighting Championship President Dana]=C2=
+=A0White said he, Mr. Musk and [Mark] Zuckerberg =E2=80=94 aided by adviser=
+s =E2=80=94 have negotiated behind the scenes and are inching toward physic=
+al combat. While there are no guarantees a match will happen, the broad con=
+tours of an event are taking shape, said Mr. White and three people with kn=
+owledge of the discussions.
+
+People keep emailing to ask about, like, the fiduciary duties and securitie=
+s-law=C2=A0disclosure issues here, but I=E2=80=99m gonna wait until they=E2=
+=80=99re in the octagon before I worry about that stuff.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Leveraged-Loan Logjam Eases After Banks Unload Tens of Billions of Debt. Re=
+cent Deals Fail to Spark  Lackluster IPO Market. Goldman Is Looking for a W=
+ay Out of Its  Partnership With Apple. UBS aims to avoid using $10bn  Credi=
+t Suisse backstop amid backlash. Saudi Arabia and Russia announce new  oil =
+production cuts. Fidelity Leads Flurry of   Bitcoin ETF Refilings to Answer=
+ SEC. US private equity faces extra scrutiny under new merger review rules.=
+=C2=A0Tesla and BYD   Post Record Sales on Surge in Electric-Car Demand. Jo=
+e Biden=E2=80=99s  $400 Billion Man. Soros=E2=80=99 Foundations to   Cut 40=
+% of Staff After Handover to Son.=C2=A0Greenhill boss set for $78mn payout =
+in sale to Mizuho. =E2=80=9CAbout 40% of the professional investors anticip=
+ate   AI will come up over burgers and beer on the US holiday; 30% of retai=
+l investors agree.=E2=80=9D Taylor Swift Is Making More Than   $13 Million =
+a Night on Her Tour.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I try to be thoughtful when I gender hypothetical characters in this =
+newsletter, but 100% of the cases I am aware of seem to be  boyfriends (occ=
+asionally  husbands) looking at girlfriends=E2=80=99 (or wives=E2=80=99) co=
+mputers.
+
+
+  [2] In particular, in that case (Panuwat), the defendant worked at a comp=
+any with an insider-trading policy that specifically forbade him from tradi=
+ng in competitors=E2=80=99 stock, and the SEC referenced that policy to arg=
+ue that Panuwat was illegally misappropriating the information to do his tr=
+ades. Here, the SEC  cites Pfizer=E2=80=99s Code of Conduct, which says =E2=
+=80=9CSecurities laws and Pfizer policy prohibit us from disclosing or usin=
+g any material non-public or =E2=80=98inside=E2=80=99 information that we a=
+cquire during our employment at Pfizer. We do not use material, non-public =
+information to buy or sell the securities of Pfizer . . . before this infor=
+mation is known publicly.=E2=80=9D This is not as clear a prohibition on sh=
+adow trading.
+
+
+  [3] Itself sort of a wild move to limit the site=E2=80=99s reach but what=
+ever!=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj1cjp.5im7/306ba546.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_26027775_2055871199.1688403174758
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Wednesday.We ha=
+ve talked a few times about the effect of working from home on fi
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBbb98b9fd"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTk3NTYyMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyMzMwMjgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB0123cc55" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31975621&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32233028&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Money S=
+tuff will be off tomorrow, back on Wednesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Covid and insider trading (1)</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMDEtMTMvZnJhdWQtaXMtbm8tZnVuLXdpdGhvdXQtZnJpZW5kcz9=
+jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cB9b41d432" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  talked</a> a few <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMTYvdHJhZGVycy1kby1sZXNzLWNyaW1=
+lLWF0LWhvbWU_Y21waWQ9QkJEMDcwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzAzJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cBc2341c44" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  times</a> about the effect=
+ of working from home on financial crime. You could imagine it going either=
+ way: Being out of the office might cause you to do more crime, because you=
+ are less closely observed by bosses and compliance, or more crime, because=
+ you are not around peer pressure to do crime. Empirically, though,=C2=A0th=
+e answer seems to be =E2=80=9Cless crime.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">That said, there is one classic form of financ=
+ial crime that I=C2=A0<em>think=C2=A0</em>would have to be increased by wor=
+k-from-home? That form of financial crime is =E2=80=9Clooking at your girlf=
+riend=E2=80=99s computer to see what high-stakes deals she is working on,<a=
+ class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: none !important; background-color: transpa=
+rent !important; display: inline-block;">
+<span>[1]</span>
+</a> and then insider trading on them.=E2=80=9D People love that one. If yo=
+ur girlfriend mostly works from her law firm=E2=80=99s or investment bank=
+=E2=80=99s office, but logs in at night=C2=A0or does weekend conference cal=
+ls on live deals, you might pick up some information to trade on, though sh=
+e might remember to use code names when you=E2=80=99re in earshot and lock =
+her computer when she steps away. But if she works from home all day every =
+day in your one-bedroom apartment, you are just far more likely=C2=A0to kno=
+w what she is working on. And if you are inclined to trade on it, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xMjQ/607f07ceef4b8524a319=
+a23cB2b6b88f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> you will</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [Thursd=
+ay] announced insider trading charges against Jordan Meadow, a registered r=
+epresentative for a New York-based broker-dealer, and Steven Teixeira, the =
+Chief Compliance Officer of an international payment processing company, in=
+ connection with their trading based on material nonpublic information that=
+ Teixeira obtained from his girlfriend=E2=80=99s laptop while she was worki=
+ng at home during the COVID-19 pandemic.</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s complaint alleges that Teixe=
+ira accessed nonpublic information on possible upcoming mergers and acquisi=
+tions of public companies from the laptop of his girlfriend, who was employ=
+ed at a prominent New York-based investment bank. As alleged, Teixeira then=
+ used the information to purchase call options on several issuers ahead of =
+the announcement of the deals and tipped the information to his friends, in=
+cluding Meadow, so that they could trade as well. The scheme allegedly gene=
+rated illicit profits of approximately $28,600 for Teixeira, while Meadow m=
+ade more than $730,000. Additionally, according to the complaint, Meadow re=
+commended trades to his brokerage customers based on the material nonpublic=
+ information from Teixeira, resulting in millions of dollars in profits for=
+ them and hundreds of thousands of dollars in commissions for Meadow.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9COur complaint alleges brazen betrayal=
+s of trust by Teixeira, who misappropriated information from his girlfriend=
+=E2=80=99s laptop to make a quick buck, and by industry-veteran Meadow, who=
+ was all too eager to use the information to line his pockets,=E2=80=9D sai=
+d Scott Thompson, the Associate Regional Director of the SEC=E2=80=99s Phil=
+adelphia Regional Office. =E2=80=9CWe will continue to pursue and prosecute=
+ insider trading where appropriate to hold people accountable for their act=
+ions.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are also <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Yvd=
+XNhby1zZG55L3ByL3VzLWF0dG9ybmV5LWFubm91bmNlcy1jaGFyZ2VzLWZvdXItc2VwYXJhdGUt=
+aW5zaWRlci10cmFkaW5nLWNhc2VzLWFnYWluc3QtMTA/607f07ceef4b8524a319a23cB3b1e10=
+de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> criminal charges</a>. Always the compliance officers, always =
+the call options. The girlfriend was an executive assistant at the investme=
+nt bank (reportedly <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jMtMDYtMjkvYnJva2VyLWNoYXJnZWQtb3Zlci1pbnNpZGUtZGF0YS1zdG9sZW4tZnJvbS1iYW5r=
+LXdvcmtlci1zLWxhcHRvcD9jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB876692dd" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  Morgan Stanley</=
+a>), <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.2574=
+07/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXBy=
+MjAyMy0xMjQucGRm/607f07ceef4b8524a319a23cB06175c76" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> where she</a> =
+=E2=80=9Cwas responsible for, among other things, scheduling meetings of th=
+e Investment Bank=E2=80=99s valuation and fairness=C2=A0committees concerni=
+ng potential transactions involving the Investment Bank=E2=80=99s clients=
+=E2=80=9D:</p>
+<blockquote><p style=3D"margin: 16px 0;">Deal teams working on transactions=
+ provided the Executive Assistant with scheduling request forms for valuati=
+on and fairness committee meetings. These forms included the names of the c=
+ompanies participating in, and the material terms relating to, the proposed=
+ deals. The Executive Assistant created and sent calendar invitations for t=
+he meetings, attaching the scheduling request forms to the invitations.=C2=
+=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">And:</p>
+<blockquote><p style=3D"margin: 16px 0;">Teixeira accessed the Executive As=
+sistant=E2=80=99s laptop while she was away=E2=80=94either out of the room =
+or away from the apartment entirely. Using his access, Teixeira reviewed th=
+e Executive Assistant=E2=80=99s Outlook application to find valuation and f=
+airness committee meetings relating to mergers and acquisitions of public c=
+ompanies.=C2=A0He then reviewed the attachment=C2=A0containing the party na=
+mes and material terms of potential transactions involving the Investment B=
+ank=E2=80=99s clients.</p></blockquote>
+<p style=3D"margin: 16px 0;">Sure, right, of course. The executive assistan=
+t for the fairness committee is far more useful, for insider trading, than =
+a high-powered investment banker would be: The banker sees mostly her own d=
+eals; the committee assistant sees just enough information on every deal.</=
+p>
+<p style=3D"margin: 16px 0;">Also there is a great information-security det=
+ail here.=C2=A0The bank was careful about remote access to data, to prevent=
+ exactly this sort of thing:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Investment Bank=E2=80=99s onli=
+ne portal for employees working remotely locked automatically after a perio=
+d of inactivity. The system could detect that an employee was not typing or=
+ moving their mouse, for example, and would require the employee to log in =
+again to access the Investment Bank=E2=80=99s files.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">This security system had a downside, though, w=
+hich is that it is=C2=A0<em>annoying</em>. Nobody wants to be logged out of=
+ their remote work every time they go to the bathroom. So:</p>
+<blockquote><p style=3D"margin: 16px 0;">Teixeira provided the Executive As=
+sistant with a device that moved the Executive Assistant=E2=80=99s mouse wh=
+ile she was away from her computer. This device simulated user activity and=
+ prevented the Investment Bank=E2=80=99s online portal from detecting that =
+the Executive Assistant was away from her computer, which would otherwise c=
+ause the system to lock and require the Executive Assistant to log in to ac=
+cess the Investment Bank=E2=80=99s files.</p></blockquote>
+<p style=3D"margin: 16px 0;">So she could go to the bathroom without having=
+ to log back in, and also he could steal her bank=E2=80=99s information and=
+ insider trade on it. The trick with information security is that you have =
+to make your security measures strong enough to defeat criminals, but not s=
+o strong that they annoy your employees into disabling them.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTk3NTYyMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyMzMwMjgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC78d91147" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31975621&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32233028&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTk3NTYyMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyMzMwMjgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD78d91147" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31975621&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32233028&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Covid and insider trading (2)</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A more straightforward sort of <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xMjM/607f07ceef4b8524a319a23cB73e=
+dfd4a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Covid-driven insider trading</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [Thursd=
+ay] announced insider trading charges against Amit Dagar, a former Pfizer I=
+nc. employee, and his close friend and business partner, Atul Bhiwapurkar, =
+for trading in advance of the company=E2=80=99s November 5, 2021, announcem=
+ent that a randomized, double-blind study of its COVID-19 antiviral treatme=
+nt, Paxlovid, was successful. Following that announcement in which Pfizer=
+=E2=80=99s CEO referred to the news as a =E2=80=9Cgame-changer=E2=80=9D in =
+the global efforts to =E2=80=9Chalt the devastation=E2=80=9D of the pandemi=
+c, the company=E2=80=99s stock price increased by nearly 11 percent, the la=
+rgest single-day price move in the stock since 2009.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s complaint, Daga=
+r was a senior statistical program lead for the Paxlovid drug trial, which =
+began in July 2021 as part of the company=E2=80=99s efforts to address the =
+global health pandemic. On the day before the Paxlovid announcement, the co=
+mplaint alleges, Dagar learned material, nonpublic information about the su=
+ccess of the trial. Specifically, the SEC alleges that Dagar=E2=80=99s supe=
+rvisor informed him via chat that =E2=80=9Cwe got the outcome,=E2=80=9D the=
+re was a =E2=80=9Clot of work lined up,=E2=80=9D and that there would be a =
+=E2=80=9Cpress release tomorrow,=E2=80=9D to which Dagar responded with =E2=
+=80=9Coh really=E2=80=9D and =E2=80=9Ckind of exciting.=E2=80=9D Several ho=
+urs after that exchange, Dagar allegedly purchased short term, out-of-the-m=
+oney Pfizer call options, including options that expired the very next day,=
+ and then tipped Bhiwapurkar, who also purchased similar call options in Pf=
+izer. The complaint alleges that Dagar=E2=80=99s and Bhiwapurkar=E2=80=99s =
+trading generated approximately $214,395 and $60,300 respectively in illici=
+t profits, which amounted to one-day investment returns of 2,458 percent an=
+d 791 percent.</p>
+<p style=3D"margin: 16px 0;">The case originated from the SEC=E2=80=99s Mar=
+ket Abuse Unit=E2=80=99s Analysis and Detection Center, which uses data ana=
+lysis tools to detect suspicious trading patterns.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAs alleged in our complaint, Amit Dag=
+ar misused his access to confidential clinical trial results to enrich hims=
+elf and his friend, Atul Bhiwapurkar,=E2=80=9D said Joseph Sansone, Chief o=
+f the Market Abuse Unit. =E2=80=9CDagar and Bhiwapurkar allegedly leveraged=
+ this information by trading out-of-the-money call options to generate mass=
+ive one-day returns. Thanks to our surveillance, the defendants must now fa=
+ce the consequences of their greed.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are also <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Yvd=
+XNhby1zZG55L3ByL3VzLWF0dG9ybmV5LWFubm91bmNlcy1jaGFyZ2VzLWZvdXItc2VwYXJhdGUt=
+aW5zaWRlci10cmFkaW5nLWNhc2VzLWFnYWluc3QtMTA/607f07ceef4b8524a319a23cC3b1e10=
+de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">criminal charges</a>. Always the call options.</p>
+<p style=3D"margin: 16px 0;">But come on! This was not some random financia=
+l windfall for Pfizer; this was a=C2=A0<em>Covid treatment</em>. Be a littl=
+e more creative! On Nov. 5, 2021, Pfizer announced this trial result and it=
+s stock went up 11%. That day, Royal Caribbean Cruises Ltd.=E2=80=99s stock=
+ was up 8%. Carnival Corp. was up 9%.=C2=A0Delta Air Lines Inc. was up 8%. =
+Wynn Resorts Ltd. was up 6%. Zoom Video Communications Inc. was down 6%. =
+=E2=80=9CA game-changing Covid treatment will be good for the stocks of cru=
+ise-ship companies, airlines and casinos and bad for work-from-home stocks=
+=E2=80=9D was about as obvious a thesis as =E2=80=9Ca game-changing Covid t=
+reatment will be good for the stock of the company that discovers it=E2=80=
+=9D; certainly I was banging on about this in <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDMtMTkvbW9uZXktc3R1ZmYtY3VyaW5nLWEtcGFuZG=
+VtaWMtY291bGQtbWFrZS15b3UtcmljaD9jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1fd2b696" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> 2020</a=
+> and <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257=
+407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQ=
+vdGhlLXZhY2NpbmUtaXMtbm90LWEtY29tcGV0aXRpb24_Y21waWQ9QkJEMDcwMzIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwN=
+zAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB40f078ab" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  2021</a>. If you happened to know about that game-changing result a d=
+ay in advance,=C2=A0<em>because you worked for Pfizer and your boss told yo=
+u the results</em>, insider trading in short-term out-of-the-money call opt=
+ions in your own personal account is the most=C2=A0direct=C2=A0way to profi=
+t from the news, sure, but also the most direct way to get caught.</p>
+<p style=3D"margin: 16px 0;">Oh but if you traded <em>Royal Caribbean</em> =
+options! If you bought a bunch of Delta calls and hedged by selling a bunch=
+ of Zoom calls!=C2=A0<em>That </em>would be interesting:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It would work. You could reasonably h=
+ave predicted how those stocks would move on the Paxlovid news, and in fact=
+ they did move that way.</li>=09<li style=3D"margin-bottom: 5px;">It might =
+not be illegal? We have <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjItMDEtMjYvd2F0Y2gtb3V0LWZvci1zaGFkb3ctdHJhZGluZz9jbXBpZD1CQkQwNzAz=
+MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1=
+fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1=
+42eabea" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  talked</a> a <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDYtMjIvZG9lcy1tYXJrLXp1Y2tlcmJlcmctb3duLXRvby1tdWNoLW1l=
+dGE_Y21waWQ9QkJEMDcwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB2ada9aef" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  lot</a> about =E2=80=9Cshadow tradi=
+ng,=E2=80=9D when employees of one company use news that they learn about t=
+hat company to trade=C2=A0<em>other=C2=A0</em>stocks that will move in pred=
+ictable ways on their company=E2=80=99s news. The SEC doesn=E2=80=99t=C2=A0=
+<em>like=C2=A0</em>it, and=C2=A0brought <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXRvLXNwYXJjcz9jbXBp=
+ZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB500819d5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  one notable shadow-trading case</a>=C2=A0in=
+ 2021, but the law is less clear here than it is when you trade your own co=
+mpany=E2=80=99s stock.<a class=3D"footnote-index" href=3D"#footnote-2" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: none !important; b=
+ackground-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0(Not legal advice!)=C2=A0</li>=09<li style=3D"margin-bottom: 5px;=
+">They might not catch you: =E2=80=9CCheck for Pfizer employees who traded =
+Pfizer call options right before Pfizer announced its biggest news in years=
+=E2=80=9D is a no-brainer for the SEC; =E2=80=9Ccheck for Pfizer employees =
+who traded Wynn Resorts call options right before Pfizer announced its bigg=
+est news in years=E2=80=9D is=C2=A0not as obvious. (Not crime-detection-avo=
+idance advice!)</li>=09<li style=3D"margin-bottom: 5px;">If they=C2=A0<em>d=
+id=C2=A0</em>catch you and bring a case, I would be more impressed by your =
+gumption, and have more fun writing about it. (Not =E2=80=A6=C2=A0I mean, I=
+ don=E2=80=99t want to encourage you to do crimes. But conditional on you d=
+oing crimes, I do want to encourage you to do clever, interesting crimes.)<=
+/li>
+</ol>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SoftBank</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you have a thesis that artificial intellige=
+nce will reshape the world and revolutionize every industry, how should you=
+ invest? Some options:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Invest in AI companies, companies tha=
+t are working to develop AI technology. Presumably they=E2=80=99ll find a w=
+ay to make money with it.</li>=09<li style=3D"margin-bottom: 5px;">Invest i=
+n chip companies, betting that the rise of AI will lead to rising demand fo=
+r powerful microchips. A sell-shovels-in-a-gold-rush strategy.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">Invest in  pizza delivery startups, betting th=
+at the rise of AI will create new possibilities for increased efficiency of=
+ pizza delivery, and that your portfolio of pizza-delivery startups will ca=
+pture the upside. I dunno, man.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Today the Wall Street Journal has a <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9hcnRpY2xlcy9oZS1zcGVudC0xNDAtYmlsbGlvbi1vbi1haS13aXRoLWxpdHR=
+sZS10by1zaG93LW5vdy1oZS1pcy10cnlpbmctYWdhaW4tZGJjY2ExNz9tb2Q9aHBfbGVhZF9wb3=
+Mx/607f07ceef4b8524a319a23cBefc1bb13" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">funny and rather cruel story<=
+/a> about how SoftBank Group went all-in on artificial intelligence in 2018=
+, invested $140 billion in the theme, and somehow =E2=80=A6=C2=A0missed it =
+=E2=80=A6=C2=A0entirely?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe are not just recklessly making inv=
+estments,=E2=80=9D [SoftBank CEO Masayoshi] Son told investors in 2018. =E2=
+=80=9CWe are focusing on one theme, which is AI.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Despite the unprecedented spending spree that =
+Son in 2020 said would make SoftBank =E2=80=9Cthe investment company for th=
+e AI revolution,=E2=80=9D one of the world=E2=80=99s most prolific tech inv=
+estors has missed out on the frenzy in generative AI, the red-hot subsector=
+ in which products such as ChatGPT learn from huge datasets to create uniqu=
+e text or images.</p>
+<p style=3D"margin: 16px 0;">The Tokyo-based conglomerate has invested in j=
+ust one of the 26 generative AI startups valued at more than $1 billion, ac=
+cording to PitchBook. =E2=80=A6=C2=A0SoftBank missed out on huge gains at A=
+I-focused chip maker Nvidia: The Tokyo-based investor put around $4 billion=
+ into the company in 2017, only to sell its shares in 2019. Nvidia stock is=
+ up about 10 times since.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It is possible that the problem is that Son wa=
+s=C2=A0<em>too </em>optimistic about AI:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In quirky investor presentations that featured=
+ diagrams with dinosaurs and steam engines, the SoftBank CEO said AI would =
+=E2=80=9Credefine all industries=E2=80=9D and usher in a powerful new wave =
+of the information revolution that began with computers=E2=80=94language si=
+milar to that many CEOs have begun using in recent months. ...</p>
+<p style=3D"margin: 16px 0;">During the years that SoftBank was investing, =
+it generally avoided companies focused specifically on developing AI techno=
+logy. Instead, it poured money into companies that Son said were leveraging=
+ AI and would benefit from its growth. For example, it put billions of doll=
+ars into numerous self-driving car tech companies, which tend to use AI to =
+help learn how humans drive and react to objects on the road. ...</p>
+<p style=3D"margin: 16px 0;">Son told investors that AI would power huge ex=
+pansions at numerous companies where, years later, the benefits are unclear=
+ or nonexistent. In 2018, he highlighted AI at real-estate agency Compass, =
+now-bankrupt construction company Katerra, and office-rental company WeWork=
+, which he said would use AI to analyze how people communicate and then sel=
+l them products.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Intuitively a thesis like =E2=80=9CAI will red=
+efine all industries=E2=80=9D gets expressed by=C2=A0<em>investing in all i=
+ndustries</em>, picking the companies in each industry that will use AI the=
+ best, not investing in generative-AI developers. If you go around saying i=
+n public =E2=80=9Cwe think that AI will transform every industry and we pla=
+n to invest absolute gobs of money along those lines,=E2=80=9D then perhaps=
+ someone building a generative-AI company will come to you and ask you for =
+some of that money.=C2=A0But=C2=A0<em>definitely=C2=A0</em>people who are b=
+uilding real-estate agencies or construction companies or office-rental com=
+panies or <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621=
+.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDI=
+tMTQvcm9ib3QtcGl6emEtdHJ1Y2tzLWhpdC1zb21lLWJ1bXBzP2NtcGlkPUJCRDA3MDMyM19NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIzMDcwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2cfdbe83=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">pizza-delivery companies</a> will say =E2=80=9Chuh, the guy with =
+all the money wants to invest in AI transforming every industry, let=E2=80=
+=99s get some of that money,=E2=80=9D and they will add slides to their dec=
+ks like =E2=80=9CHow We Will Use AI To Transform Pizza Delivery=E2=80=9D wi=
+th clip art of a robot and a pizza,=C2=A0and your eyes will light up when y=
+ou see that slide and you will say =E2=80=9Csee=C2=A0<em>this=C2=A0</em>is =
+what I am talking=C2=A0about, AI is gonna transform all the industries, her=
+e=E2=80=99s $375 million.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">By the way the bull case here is that he was j=
+ust early, and SoftBank really did manage to pick all the companies that wi=
+ll do the best job of deploying AI to redefine their industries, and in 10 =
+years all of us will work out of WeWorks because WeWork is uniquely good at=
+ using AI models to, you know, adjust the air conditioning and dynamically =
+price desk space and whatever. The real upshot of the computer revolution i=
+s that every company became a tech company, and I suppose the real upshot o=
+f the AI revolution=C2=A0might be that every company becomes an AI company,=
+ and some will get there faster than others. I don=E2=80=99t have any=C2=A0=
+<em>reason=C2=A0</em>to think that Son did pick all the right winners, but =
+it is perhaps too early to tell.</p>
+<p style=3D"margin: 16px 0;">Elsewhere in <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9jcnlwdG8tbWluZXJzLXNlZWstYS1uZXctbGlmZS1pbi1haS1ib29tLWFmdGVyLWFuLWltcG=
+xvc2lvbi1pbi1taW5pbmctOTJhMTgxZmQ_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8=
+524a319a23cBed5f8efc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">industries getting transformed by AI</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The boom in demand for high-end chips powering=
+ the rise of artificial intelligence has given new life to some of the surv=
+ivors of the last tech-hype cycle: cryptocurrency miners.</p>
+<p style=3D"margin: 16px 0;">During the crypto upsurge, Satoshi Spain sold =
+and leased out hundreds of souped-up computers=E2=80=94known as mining rigs=
+=E2=80=94equipped with powerful graphics chips. Then, as many of them sat i=
+dle starting last year because of the decline of mining currencies, the Spa=
+nish company began helping its customers retool the machines for AI.</p>
+<p style=3D"margin: 16px 0;">Today, Satoshi Spain=E2=80=99s machines are ha=
+ndling AI workloads for startups, universities and individual developers in=
+ Europe.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou can still make money from your mi=
+ning rig,=E2=80=9D Satoshi Spain founder Alejandro Ib=C3=A1=C3=B1ez de Pedr=
+o said. =E2=80=9CIt=E2=80=99s mining 2.0.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It would be very funny if, completely by accid=
+ent,=C2=A0the big winners from the AI boom were crypto miners.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Well, look, if=C2=A0<em>I=C2=A0</em>were the n=
+ewly hired chief executive officer of a social media company, and if the di=
+rectors and shareholders who brought me in as CEO had told me that my main =
+mission was to turn around the company=E2=80=99s precarious financial situa=
+tion by improving our position with advertisers, and if I spent my <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6L=
+y93d3cubnl0aW1lcy5jb20vMjAyMy8wNi8yOS90ZWNobm9sb2d5L3R3aXR0ZXItY2VvLWxpbmRh=
+LXlhY2Nhcmluby5odG1s/607f07ceef4b8524a319a23cBe681ed1a" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> first few =
+weeks</a> reassuring advertisers and rebuilding relationships and talking u=
+p our site=E2=80=99s unique audience and powerful engagement, and then one =
+day my head of software engineering came to me and said =E2=80=9Chey boss, =
+too many people were too engaged with too many posts, so I=C2=A0had to limi=
+t everyone=E2=80=99s ability to view posts on our site, just FYI,=E2=80=9D =
+I would =E2=80=A6=C2=A0probably =E2=80=A6=C2=A0fire ... him?</p>
+<p style=3D"margin: 16px 0;">I mean I suppose I might ask questions like =
+=E2=80=9CIs this because of some technological limitation on our system? Is=
+ it because you were monkeying with the code without understanding it? Is i=
+t because you <a href=3D"https://link.mail.bloombergbusiness.com/click/3197=
+5621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDY=
+tMzAvdHdpdHRlci1ibG9ja3MtcGVvcGxlLWZyb20tc2VlaW5nLXR3ZWV0cy11bmxlc3MtcmVnaX=
+N0ZXJlZD9jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cB44709c9a" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  tried to stop</a> people from =
+reading the site without logging in,<a class=3D"footnote-index" href=3D"#fo=
+otnote-3" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[3]</span>
+</a> and <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.=
+257407/aHR0cHM6Ly93d3cuZGV4ZXJ0by5jb20vdGVjaC90d2l0dGVyLXVzZXJzLWNsYWltLWVs=
+b24tbXVza3MtcmVjZW50LWNoYW5nZXMtbWF5LWJlLXNlbGYtZGRvc2luZy10aGUtcGxhdGZvcm0=
+tMjE5NjQxMy8/607f07ceef4b8524a319a23cBabdb0cc7" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> messed up</a> and =
+stopped them from reading the site even when they logged in? Is it because =
+you fired and <a href=3D"https://link.mail.bloombergbusiness.com/click/3197=
+5621.257407/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS90d2l0dGVyLWNlby1saW5=
+kYS15YWNjYXJpbm8tdHJpZXMtYm9vc3RpbmctbW9yYWxlLXdpdGgtdGVhLXRpbWUtMjAyMy02/6=
+07f07ceef4b8524a319a23cB536a0abc" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> demoralized</a> too many enginee=
+rs so no one was left to keep the systems running normally? Is it because y=
+ou forgot to pay the <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31975621.257407/aHR0cHM6Ly93d3cucGxhdGZvcm1lci5uZXdzL3AvdHdpdHRlci1zdGlm=
+ZnMtZ29vZ2xl/607f07ceef4b8524a319a23cBb19a627f" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> cloud bills</a>? I=
+s it because deep down you don=E2=80=99t like it when people read posts on =
+our site and you want to stop them, or you don=E2=80=99t like relying on ad=
+ revenue and want to sabotage my ability to sell ads?=E2=80=9D Those are al=
+l interesting questions, and I suppose having the answers would help my=C2=
+=A0<em>new=C2=A0</em>head of software engineering fix whatever this guy bro=
+ke. But no matter what the answers are, this guy=E2=80=99s gotta go. If you=
+ are in charge of the software engineers at a social media site, and you ma=
+ke it so that people can=E2=80=99t read the site, that=E2=80=99s bad.</p>
+<p style=3D"margin: 16px 0;">Anyway something very funny <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy90d2l0dGVyLWxpbWl0cy1udW1iZXItb2YtcG9zdHMtdXNlcnMtY2FuLXJ=
+lYWQtcHJvbXB0aW5nLWRpc3J1cHRpb25zLWZvci1zb21lLTE1YmMwMWNjP21vZD1pdHBfd3NqJn=
+J1PXlhaG9v/607f07ceef4b8524a319a23cB3098ec27" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> happened at Twitter =
+this weekend</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Twitter began limiting how many posts users ca=
+n read on its platform, an unusual move that came as owner Elon Musk says h=
+e is fighting companies trying to use its data for developing artificial in=
+telligence programs.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Musk on Saturday detailed the temporary change=
+s, which involved limiting unverified accounts to reading just 600 posts a =
+day while verified accounts=E2=80=94those paying a monthly subscription=E2=
+=80=94can read 6,000 posts daily. He later announced multiple increases to =
+the number of allowed posts.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CTo address extreme levels of data scr=
+aping &amp; system manipulation, we=E2=80=99ve applied the following tempor=
+ary limits,=E2=80=9D Musk tweeted. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s unprecedented as far as =
+I know since the time of=E2=80=9D internet bulletin boards, Jason Goldman, =
+a former Twitter executive who has been critical of Musk=E2=80=99s stewards=
+hip, said about the limits. =E2=80=9CTo set limits so low that it renders t=
+he site unusable to average users is just the latest in the purely extracti=
+ve approach the new ownership is taking.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Oh man! Musk, the head of Twitter's <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly90=
+d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwNTM3MjcyNDgwMDM5MzIxNj9yZWZfc3JjPXR=
+3c3JjJTVFdGZ3/607f07ceef4b8524a319a23cBcdfb2efc" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> software and serv=
+ers teams</a>, is gonna be in so much trouble when his boss, Twitter CEO Li=
+nda Yaccarino, gets to the office today.</p>
+<p style=3D"margin: 16px 0;">Oh I kid, I kid, but what a weird job that mus=
+t be. The CEO job I mean. The software-and-servers job isn=E2=80=99t that w=
+eird =E2=80=94=C2=A0<em>he=E2=80=99s in charge of a website=C2=A0</em>=E2=
+=80=94 but he manages to make it weird.</p>
+<p style=3D"margin: 16px 0;">Also:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As the ramification of Musk=E2=80=99s data bat=
+tle became clear Saturday, some users complained about being limited.=C2=A0=
+</p>
+<p style=3D"margin: 16px 0;">One user tweeted: =E2=80=9CYour addiction is a=
+bout to be broken. We will all be free. See you guys at the park.=E2=80=9D=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CTouch grass again,=E2=80=9D Musk twee=
+ted in reply.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ha ha ha! <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31975621.257407/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldm=
+luZS9zdGF0dXMvMTY3NTI0ODM4MjgxNjcxMDY1Ng/607f07ceef4b8524a319a23cBe151127f"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Yes</a>! Musk is limiting access to Twitter in order to break its=
+ users=E2=80=99 addiction and free them to touch grass.=C2=A0He has correct=
+ly diagnosed the problem (Twitter users are too obsessed with it)=C2=A0and =
+implemented a solution (don=E2=80=99t let them see too many tweets). Of cou=
+rse to do this <em>he </em>had to become completely obsessed with Twitter, =
+devote himself full-time to running it, tweet constantly and sink tens of b=
+illions of dollars of his own money into buying Twitter and then breaking i=
+t. He has sacrificed so much himself so that people like me can spend a bit=
+ less time on Twitter; he has taken the burden of Twitter addiction from mi=
+llions of users and put it all on himself. Thanks!</p>
+<p style=3D"margin: 16px 0;">In=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/31975621.257407/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8w=
+Ny8wMS90ZWNobm9sb2d5L2Vsb24tbXVzay1tYXJrLXp1Y2tlcmJlcmctY2FnZS1tYXRjaC5odG1=
+sP3NtaWQ9bnl0Y29yZS1pb3Mtc2hhcmUmcmVmZXJyaW5nU291cmNlPWFydGljbGVTaGFyZQ/607=
+f07ceef4b8524a319a23cB9e6ff438" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">other news</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">If you thought that a cage fight between two o=
+f the world=E2=80=99s richest men was just a far-fetched social media stunt=
+, think again.</p>
+<p style=3D"margin: 16px 0;">Over the past 10 days, [Ultimate Fighting Cham=
+pionship President Dana]=C2=A0White said he, Mr. Musk and [Mark] Zuckerberg=
+ =E2=80=94 aided by advisers =E2=80=94 have negotiated behind the scenes an=
+d are inching toward physical combat. While there are no guarantees a match=
+ will happen, the broad contours of an event are taking shape, said Mr. Whi=
+te and three people with knowledge of the discussions.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">People keep emailing to ask about, like, the f=
+iduciary duties and securities-law=C2=A0disclosure issues here, but I=E2=80=
+=99m gonna wait until they=E2=80=99re in the octagon before I worry about t=
+hat stuff.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31975621.257407/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9sZXZlcmFn=
+ZWQtbG9hbi1sb2dqYW0tZWFzZXMtYWZ0ZXItYmFua3MtdW5sb2FkLXRlbnMtb2YtYmlsbGlvbnM=
+tb2YtZGVidC0xMjJlNjUyYj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23=
+cB4a69da8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Leveraged-Loan Logjam Eases</a> After Banks Unload Tens=
+ of Billions of Debt. Recent Deals Fail to Spark <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cud3NqLmNvbS9h=
+cnRpY2xlcy9yZWNlbnQtZGVhbHMtZmFpbC10by1zcGFyay1sYWNrbHVzdGVyLWlwby1tYXJrZXQ=
+tNTgwZTliMWM_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB84778e6f"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Lackluster IPO Market</a>. Goldman Is Looking for a Way Out of It=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nb2xkbWFuLWlzLWxvb2tpbmctZm9yLWEtd2F=
+5LW91dC1vZi1pdHMtcGFydG5lcnNoaXAtd2l0aC1hcHBsZS03OTg0OWE5MT9yZWY9dGhlZGlmZi=
+5jbw/607f07ceef4b8524a319a23cB8f6b90ab" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Partnership With Apple</a>=
+. UBS aims to avoid using $10bn <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31975621.257407/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNDFmYTgyZ=
+DItMTM3ZS00Y2ZkLWExZWYtZTE1MzVmZWJmOTY3/607f07ceef4b8524a319a23cBd69e0948" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Credit Suisse backstop</a> amid backlash. Saudi Arabia and Russia =
+announce new <a href=3D"https://link.mail.bloombergbusiness.com/click/31975=
+621.257407/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZjQyMWNhMzAtYTU1Yi00NWVjLTk4=
+ZDYtNjZjNmE4Y2MzYjQx/607f07ceef4b8524a319a23cBbc4be7e6" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> oil produc=
+tion cuts</a>. Fidelity Leads Flurry of <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjMtMDYtMzAvZmlkZWxpdHktbGVhZHMtZmx1cnJ5LW9mLWJpdGNvaW4t=
+YnRjLWV0Zi1yZWZpbGluZ3MtdG8tYW5zd2VyLXNlYz9jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MD=
+MmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5f71a55e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  Bitcoin ETF Refilings</a> to Answer SEC. US private equity faces extra =
+scrutiny under new <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/31975621.257407/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOGViYjBhZGUtMDY3Mi00MT=
+k2LTg3OGItOTYwYWE2MTk1YjI0/607f07ceef4b8524a319a23cB112fb103" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">merge=
+r review rules</a>.=C2=A0Tesla and BYD <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjMtMDctMDIvdGVzbGEtc2V0cy1hLW5ldy1kZWxpdmVyeS1yZWNvcmQtY=
+XMtcHJpY2UtY3V0cy15aWVsZC1yZXN1bHRzP2NtcGlkPUJCRDA3MDMyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwMyZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8b82cfdb" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Po=
+st Record Sales</a> on Surge in Electric-Car Demand. Joe Biden=E2=80=99s <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ncmVlbi1lbmVyZ3ktY2xpbWF0ZS1sb2Fucy00OWZ=
+kYTczYj9tb2Q9aHBfbGVhZF9wb3M3/607f07ceef4b8524a319a23cB6532d1e0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ $400 Billion Man</a>. Soros=E2=80=99 Foundations to <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMzAvc29yb3MtZm91bmRhdGlvbnMtdG8tY3V=
+0LTQwLW9mLXN0YWZmLWFmdGVyLWhhbmRvdmVyLXRvLXNvbj9jbXBpZD1CQkQwNzAzMjNfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+zA3MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc0199f88" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  Cut 40% of Staff</a> After Handover to Son.=C2=A0Greenhill boss se=
+t for <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257=
+407/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNmRlMTQyYTQtMmU0Yy00YzE1LWEwYjItMzI=
+1NDY4Nzc0MzRm/607f07ceef4b8524a319a23cB90ccad0d" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">$78mn payout</a> i=
+n sale to Mizuho. =E2=80=9CAbout 40% of the professional investors anticipa=
+te <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDMvd2lsbC=
+1haS10YWtlLW15LWpvYi1pdC1zLWEtaG90LXRvcGljLWZvci1pbnZlc3RvcnMtdGhpcy1zdW1tZ=
+XI_Y21waWQ9QkJEMDcwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cBa04dbf04" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  AI will come up</a> over burgers and=
+ beer on the US holiday; 30% of retail investors agree.=E2=80=9D Taylor Swi=
+ft Is Making More Than <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/31975621.257407/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjMtMDYtMzAvaG93LW11Y2gtbW9uZXktaXMtdGF5bG9yLXN3aWZ0LW1ha2luZy1mcm9tLWVyY=
+XMtdG91cj9jbXBpZD1CQkQwNzAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9z=
+b3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY=
+/607f07ceef4b8524a319a23cB8ee0ceb5" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  $13 Million a Night</a> on He=
+r Tour.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31975621.257407/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2aa71cb4" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31975621.257407/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB58fb622b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I try to be thoughtful when I gender hypot=
+hetical characters in this newsletter, but 100% of the cases I am aware of =
+seem to be <a href=3D"https://link.mail.bloombergbusiness.com/click/3197562=
+1.257407/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2xpdHJlbGVhc2VzLzIwMjIvbH=
+IyNTQ1MS5odG0/607f07ceef4b8524a319a23cB3f3ec0e0" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> boyfriends</a> (o=
+ccasionally <a href=3D"https://link.mail.bloombergbusiness.com/click/319756=
+21.257407/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2xpdHJlbGVhc2VzLzIwMTgvb=
+HIyNDIyNS5odG0/607f07ceef4b8524a319a23cBdccc2a9e" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> husbands</a>) lo=
+oking at girlfriends=E2=80=99 (or wives=E2=80=99) computers.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] In particular, in that case (Panuwat), the=
+ defendant worked at a company with an insider-trading policy that specific=
+ally forbade him from trading in competitors=E2=80=99 stock, and the SEC re=
+ferenced that policy to argue that Panuwat was illegally misappropriating t=
+he information to do his trades. Here, the SEC <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31975621.257407/aHR0cHM6Ly93d3cuc2VjLmdvdi9saX=
+RpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMjMucGRm/607f07ceef4b8524=
+a319a23cB472c840f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> cites Pfizer=E2=80=99s Code of Conduct</a>, whi=
+ch says =E2=80=9CSecurities laws and Pfizer policy prohibit us from disclos=
+ing or using any material non-public or =E2=80=98inside=E2=80=99 informatio=
+n that we acquire during our employment at Pfizer. We do not use material, =
+non-public information to buy or sell the securities of Pfizer . . . before=
+ this information is known publicly.=E2=80=9D This is not as clear a prohib=
+ition on shadow trading.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Itself sort of a wild move to limit the si=
+te=E2=80=99s reach but whatever! </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBabfda7c0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa9f09c23" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBdb24767a" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB23bc44c5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB5be1ae4f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.2574=
+07/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB6eb2f585" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31975621.257407/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC1739dd6a" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31975621.257407/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBcdb7affc" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31975621.257407/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB1b05eaba" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+6d7b6c5" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31975621.257407/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+d35f5de" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj1cjp.5im7/306ba546.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_26027775_2055871199.1688403174758--
+

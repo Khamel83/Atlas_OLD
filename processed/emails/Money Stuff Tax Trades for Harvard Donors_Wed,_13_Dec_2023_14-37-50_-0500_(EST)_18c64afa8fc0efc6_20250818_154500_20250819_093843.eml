@@ -1,0 +1,1912 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:dd94:0:b0:67a:8dc3:b581 with SMTP id v20csp7877699qvk;
+        Wed, 13 Dec 2023 11:38:03 -0800 (PST)
+X-Received: by 2002:a5d:6802:0:b0:333:2fd2:51e2 with SMTP id w2-20020a5d6802000000b003332fd251e2mr4334618wru.91.1702496282964;
+        Wed, 13 Dec 2023 11:38:02 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1702496282; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=h+fWEqaFNEiOP4RjyL1vms4jxohucrahRmKTmRfn98OsF5/ICGZ0oHJZyoMMsI5L5+
+         WC1JjXAxbxLnIYwSEfVI5/73+ytw9Wk7PZKfKNUypX9J6d5aKDdvMIUpDOdl77l0ocMS
+         t2ANXBnpgTISQTTj8LYyR7ZztkZcXhaF9f6q/OyjgcCYRYsupTqv0UatILlGKfi6H60V
+         K+AEAz56WUSYT2y1SCrJvrV4tNHO4IWMDEuHjMD9ITQAbdPMABaEEfqCIU43VZTK724F
+         Umpt2/S3Iq5t7AROFK82KzddxgCIcyPv4lQNbRdHSc34PLOEXkxSDT6ooEOFVrhofoQG
+         FXvA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=e4PJ3naQgKkJb+G/r51gN9nprPf/Yknk0kUiDefMyOc=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=SA2gEaRRwO59vn0MWBrRs9igarQHGNVg1D0B7WeoLcAGZPP55wVuaGyIdrAC041lYB
+         PkfzxvzTwFLFm8BsNVeQpm0OAvmj+h9H59CEL5sZlm9o3/Eib6/TW7hJFFWQi6k+o7vQ
+         e1LAlct28p/VPWzfkOaT9/3tGmu9P8J1HBdX/UfGVm9Sp9H1aNWmZKvfkzqD/tPWZ1gK
+         ikUAM3mezHTJ7fb75OURf4pBkqfQ6EDBeEU1hujDrnaxUf4udKt7pao/R0A5LhyYpOAd
+         dmzcqGlYrB/JQOtJvdg/Lxg6+dOVntCDTxSnX03OtVJs/4y5o4lWIUdyIdKZFeThfik4
+         7Nqg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AUmnZGJ0;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g19-20020adfa493000000b00336454ea562sor79875wrb.10.2023.12.13.11.38.02
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 13 Dec 2023 11:38:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AUmnZGJ0;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702496282; x=1703101082;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=e4PJ3naQgKkJb+G/r51gN9nprPf/Yknk0kUiDefMyOc=;
+        b=jY9MYIFv/8TXc/N8twHjGwt0GO1GvFIQqCzkjXojfWARigD8AI6pT2KdsIkfETzGOA
+         6znD6kRclPQoixKcwewEd1uWCQO5zhrZmoUNR4DfuWrpddcY7GCHzQg7UK2JOXzAU5SL
+         oQ/BIepXb1Xyfpg6gbl/6Yt3lH+6EtaTe3kiqYmMQP4JB5NFhnzYD1+8kRj9wk3lhXJx
+         ODc6ZYvk8tKTQ6fnjDd1846nIVfao+nmhfsK5hq2A6612x0CPEMlMcTRXecs8fpgjxVx
+         9YKxEKRjwEzG30qGuLdLt+ucPbJCIS3RoIt/B+uBexJwickgi4QkSkLbzLyHDlIz4O9W
+         1Lzg==
+X-Gm-Message-State: AOJu0YwKMF+xT5CEgKyv9UUcyid/0HTxP+AQSRbk66pa8RYXMXHBppyw
+	o9cLLgNTd37cpGiEWZw/TVwvl+OOJ8e57fLsmOibMDiMnuzqU1z9Fw==
+X-Received: by 2002:adf:eecc:0:b0:336:36a5:8375 with SMTP id a12-20020adfeecc000000b0033636a58375mr1128810wrp.88.1702496282403;
+        Wed, 13 Dec 2023 11:38:02 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e109:0:b0:333:384e:c9a6 with SMTP id t9csp2432129wrz;
+        Wed, 13 Dec 2023 11:37:52 -0800 (PST)
+X-Received: by 2002:a05:6870:7f05:b0:203:f26:4e91 with SMTP id xa5-20020a0568707f0500b002030f264e91mr3088250oab.28.1702496272164;
+        Wed, 13 Dec 2023 11:37:52 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1702496272; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gKM8W4MMaOV3jPyJOnpMR/Egd8tSVJuItL0EseqF8w2WH+5su8GWoB3BDBvLuV6w/8
+         vK+MCvhyYaJPR5H8BFLwUsAzbbUIrlnxNL6B8v24/Op4p39KXBpUFEbQ4JfX203zKeN4
+         4Xrw2CcT1ww1Xb7MRqnWW2F+SvwD05jb3ljUhU9wYtVq7ZSEU+PRIbRgq4pVDc8jicaE
+         goVnXgsSiVKQgKoZO52aAEHgMOlqpOQcf8LnRtdWthkDdhfxDdNYKz6BXU+0IafOhj/G
+         B6gTSj7JeNGl/Hgy7fjkUNtWLGB1COSnNHanP3gYnzVMBes+arvWfN/OqdotbfZeRCpb
+         3HQg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=e4PJ3naQgKkJb+G/r51gN9nprPf/Yknk0kUiDefMyOc=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=wc0ng2W3OLSkKbA7UeAr5C4gmdZOuaYgHZEeKVQN9tMoq+6pK+/mCQEBlAvEmmIfk8
+         WrfeAD4rB4Szzl7nbtFriipSXXH72B4w3pRFaw0T/TwNmQcpakCO4Vol3x9moDLfnEIF
+         rMPWPF6ybSR9C/mfBvXY+f8ZrfVQv3WaEGsFSy8H6BDQBtze/hiytE8/LAx0S4ibWSr4
+         nuHCF/Y23Q4Z6uVS7Kz8v/hFQFqO2K7PTelRjA3qsN/ozFICYBY0V5xGN1ZEDVCS4ybW
+         Owt/sXFqgu2TCTOXE33WS6k/EJsYZimRlQpCZfyD6QFwjtulJ2mWcJz5FZP7UO2j3Y3U
+         WUvQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AUmnZGJ0;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231213143750.33683779.258399@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231213143750.33683779.258399@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231213143750.33683779.258399@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g13-20020a056830160d00b006d7d3a2608asor8093183otr.12.2023.12.13.11.37.51
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 13 Dec 2023 11:37:52 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231213143750.33683779.258399@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGor9pqqaXky1f37l7gxc+HRb1rAJUTKGSerhu9OWTosTDH/PGMSnDVW2yII7Ry8SRchcSWZV4E1LAwSAbiZhC8yKbHjk4=
+X-Received: by 2002:a05:6871:22c6:b0:1fa:e282:3a81 with SMTP id se6-20020a05687122c600b001fae2823a81mr10490371oab.25.1702496271797;
+        Wed, 13 Dec 2023 11:37:51 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1702496271; cv=none;
+        d=google.com; s=arc-20160816;
+        b=bGXx/VvtQuC0zK5GOyaZy/VRKMUDidLcu8gEUycf+85RM5+zhxfNZYHOIbraaPXSHn
+         tlFHWBoUTlmKY+XLAw95ecoHNmymx1nImBCLGRsHIJDov6oYFxH2DGZkVrH+camWhkni
+         at0MnIe3paeIPJtaEmO2aUBIhaAdjaXkBHi7QGwSpm1PhMojs4Vb63E5pUyrhGYjTtVO
+         xKjQqBI1aGUV9hlwOuGM052eGtY6LLSHySgZgWTnFfvRfv4SyYaJcsgRijdtQH5XUeUB
+         wibuCvm3Q2aKQx5k0VY/uVOgvRZHQDAgTo3MkHFpB0Pa6JHj2s0O7glPP3dW0jyk3Vrl
+         m3Pg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=e4PJ3naQgKkJb+G/r51gN9nprPf/Yknk0kUiDefMyOc=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=cKH3Y1mrKcAOkblXQ3qhAQm3iYZHv2gVAe+6CThebiCoHbNnw8Pm/qtgm0TKIXO5nB
+         NirOk5tmWUpsz3iEOTvldabFdm9L92iBLe0rqM055ydX0xtingKs9gnEVoj+q5mIUwPd
+         KSZQL7eW3EL7NHXh/+G4hr47DOXBOKGmcfpxx1ym6vb6H/lVX8qTJVovKfox51j7a8RT
+         DnIlwzBSYveqZZTcRajME6gwLt9wtGQPl2bkQkWVPwqndwgsHQdh2Hy9SlKUYsstF+8i
+         z8saXi7xKxGP3pEV5OSHjJygWFqpZ8ozxidtMXwNS3g6XGeWC4yW7uUG5b8ddXkZ5meh
+         PHPw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AUmnZGJ0;
+       spf=pass (google.com: domain of delivery_20231213143750.33683779.258399@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231213143750.33683779.258399@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231213143750.33683779.258399@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id hx10-20020a056871530a00b001fb179a3c63si1471244oac.3.2023.12.13.11.37.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 13 Dec 2023 11:37:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231213143750.33683779.258399@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=+r3mgxC/iMhRtI9kP0DZHNzEQEWb27lzVzguJ6vURVw=;
+ b=AUmnZGJ0CCdoicUOjxbV37vzNpfoVye0rYKu0HU49kJcpdNn/yR4G0J83FAE15xwp98eZKe/WZJC
+   /Ib9Jq1SAjV18HX00009jixNHs9zWPemZQg0fSjXmvxD3LR6R7RqEczOh3yb6W9HuqaZZBxSE/Mz
+   2mukgrtQK6xyADCn4e4=
+Received: from aws1-mta-relay6.sailthru.cloud (10.55.61.156) by bloomberg-b.sailthru.com id hf840u30nu8e for <bloomberg@khamel.com>; Wed, 13 Dec 2023 13:37:50 -0600 (envelope-from <delivery_20231213143750.33683779.258399@mx.sailthru.com>)
+Date: Wed, 13 Dec 2023 14:37:50 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231213143750.33683779.258399@sailthru.com>
+Subject: Money Stuff: Tax Trades for Harvard Donors
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_12495357_461220904.1702496270888"
+Precedence: bulk
+x-job: 6358-33683779-20231213
+X-Feedback-ID: 6358:33683779:campaign:sailthru
+X-TM-ID: 20231213143750.33683779.258399
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-55-127.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck1ykj.5jdr/00887a8c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck1ykj.5jdr/00887a8c>, <mailto:unsubscribe_20231213143750.33683779.258399@mx.sailthru.com>
+X-rpcampaign: stjko33683779
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_12495357_461220904.1702496270888
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One model of a charitable endowment is that you are in the business=
+ of selling appreciated assets on behalf of your donors in order to maxim
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Bill Ackman vs. Harvard
+   =20
+ =20
+
+One model of a=C2=A0charitable endowment is that you are in the business of=
+ selling appreciated assets on behalf of your donors in order to maximize t=
+ax efficiency. Like:
+=09A rich person owns some stock. She bought it for, say, $1 million, and i=
+t is worth $10 million now.=09She could sell the stock for $10 million, pay=
+ taxes on her gains, and be left with something like $8 million.
+  [1]
+=C2=A0She could then donate that money to you and deduct $8 million from he=
+r income taxes for the year, saving $3 million or so.
+  [2]
+
+=09
+Or she could=C2=A0give=C2=A0you the stock. Then she would not recognize any=
+ gains on the sale, and she=E2=80=99d get to deduct its full market value f=
+rom her income taxes, saving almost $4 million. You get a bigger gift ($10 =
+million instead of $8 million), and she gets a bigger tax deduction. Better=
+ trade!=09Then=C2=A0you=C2=A0sell the stock, for $10 million, and don=E2=80=
+=99t pay any taxes, because you are a non-taxable charitable endowment.
+
+This is a very well-known feature of US tax law; wealth managers will commo=
+nly=C2=A0tell you to donate appreciated stock rather than cash, and if you =
+go to, like, Harvard University=E2=80=99s web page, they will tell you how =
+to donate stock, because it comes up a lot.
+In this process, Step 4 is not strictly essential. If you are a big charita=
+ble endowment, you are not spending all of your money every year. You are i=
+nvesting it for the long run. Maybe you want to keep this stock; maybe you =
+think it has room to run and will be worth more in the long run.=C2=A0
+But if you are a big charitable endowment, you have some=C2=A0plan. You sit=
+ down and think about how to construct your portfolio; you say =E2=80=9Cwe =
+should be 50% stocks and 5% bonds and 15% hedge funds and 20% private equit=
+y and 10% timberland=E2=80=9D or whatever, and then you pick assets and man=
+agers within each category to get the portfolio that you think will best po=
+sition you for the long run. And then if some big donor comes in and gives =
+you $10 million in cash, you allocate it to that portfolio.
+But lots of donors instead come to you with stock that has appreciated a lo=
+t (often stock in their own companies), they want to maximize their gifts a=
+nd their deductions, and they know that the way to do that is by donating t=
+he stock. The stock doesn=E2=80=99t fit with your plan. You are not making =
+an=C2=A0investment decision=C2=A0each time they donate the stock. You are, =
+several times a year, getting a big concentrated position in some random st=
+ock that your big donors happen to own. An endowment with an investment por=
+tfolio consisting only of the stuff that its donors happened to have lying =
+around would look crazy. You take the random stuff, you sell it, you buy in=
+dex funds or timberland or whatever.
+You are essentially a middleman: You have some target portfolio of assets y=
+ou want to own, but your donations come largely in the form of=C2=A0other=
+=C2=A0assets that your donors happen to own, and you are in a position to e=
+fficiently turn the donated assets into the target assets.=C2=A0
+This can lead to occasional problems, though:
+=09Your donors are often able to give all that money because they are succe=
+ssful investors, and they=C2=A0like=C2=A0the stock they gave you. They thin=
+k it has room to run. If you dump it the second they donate it, they will b=
+e offended. If you are like =E2=80=9Cno, you don=E2=80=99t understand, we d=
+ump=C2=A0all=C2=A0the random stuff that donors give us, we have our own inv=
+estment thesis and don=E2=80=99t want to just own your hand-me-downs,=E2=80=
+=9D they will be even more offended. =E2=80=9CRandom stuff!=E2=80=9D=C2=A0=
+=09Your donors are often in position to give all that money because they ar=
+e=C2=A0good=C2=A0investors, and often they are=C2=A0right, and the stock=C2=
+=A0does=C2=A0go up much more than your timberland or whatever, and then you=
+ look dumb in hindsight.
+
+Bloomberg=E2=80=99s  Pierre Paulden reports:=C2=A0
+
+Bill Ackman=C2=A0denied that his weeks-long crusade against=C2=A0Harvard Un=
+iversity=C2=A0and its president was driven by resentment toward his alma ma=
+ter, but acknowledged a =E2=80=9Cserious=E2=80=9D dispute with the school o=
+ver a donation he made in 2017.
+=E2=80=9CTo be extremely clear, my advocacy on behalf of antisemitism, free=
+ speech on campus, and my concerns with DEI at Harvard have absolutely noth=
+ing to do with my unfortunate experience as a donor to the university,=E2=
+=80=9D Ackman wrote in a post on X Tuesday night.
+
+In 2017, Ackman wanted to give Harvard money to recruit economist Raj Chett=
+y, but he =E2=80=9Chad no liquidity=E2=80=9D due to a divorce. So:
+
+Ackman=E2=80=99s solution was to give Harvard stock in=C2=A0Coupang Inc., a=
+t the time a speculative private venture-backed company.
+The stock he was giving was valued at $10 million, but Ackman said he agree=
+d with Harvard that if the value went below $10 million he would make up th=
+e difference. But if the company went public and the stock was worth more t=
+han $15 million, he would have the right =E2=80=9Cto allocate the excess re=
+alized value=E2=80=9D above that amount to any Harvard-related initiative o=
+f his choice.
+
+From Ackman=E2=80=99s long tweet on the matter:
+In Wall Street speak, Harvard had a put to me at $10m, and I retained a cal=
+l at $15m, with the right to allocate the excess value to the Harvard initi=
+ative of my choice.
+In 2021, Coupang   went public, and the shares he gave to Harvard were wort=
+h $85 million. He called Harvard with the good news, only to find out that =
+Harvard had already dumped the stock. Paulden:
+He was informed that Harvard Management Co., which oversees the $51 billion=
+ endowment, had sold the stock back to Coupang in a private transaction in =
+March 2020. Ackman said no one from Harvard Management or the administratio=
+n contacted him at the time to ask if he wanted to buy back the stock or to=
+ apologize after the fact for missing out on $75 million of potential gains=
+.
+Apparently the sale price was $10 million, the same as the valuation when h=
+e gave it. Ackman argues that this was a bad investing decision by Harvard:
+
+Harvard had sold stock which it could have put to me for $10m at a massive =
+discount to its value at that time. Coupang had made massive progress since=
+ my gift in December 2017 and the stock's value had increased enormously. =
+=C2=A0
+And Harvard had never told me that they had sold the shares.=C2=A0I was nev=
+er offered the opportunity to buy the shares back for $10m or a higher pric=
+e, which I would happily have done, had I known the University needed liqui=
+dity. =C2=A0
+And the notion that Harvard needed $10m of liquidity in the context of a $5=
+0 billion endowment is on its face absurd. Any sophisticated investor shoul=
+d also understand that when a private venture-backed company is buying back=
+ stock, it is a bad idea to sell.
+Harvard sold the stock despite the fact that we had a contract which provid=
+ed the University with downside protection at $10m while allowing it to ret=
+ain 100% of the upside. It made no economic sense whatsoever for Harvard to=
+ have sold.
+
+And, sure, I suppose that=E2=80=99s right. Selling at $10 million when you =
+have a put from Ackman at $10 million does extinguish a lot of option value=
+; better to keep the stock,=C2=A0let it ride, and have some chance of getti=
+ng $85 million with insurance that you won=E2=80=99t get less than $10 mill=
+ion.
+  [3]
+=C2=A0And sure, arguably, it would have been polite (and a good financial m=
+ove) for Harvard=E2=80=99s Portfolio Manager For Bill Ackman to call him to=
+ be like =E2=80=9Chey we are reshuffling the Bill Ackman Portfolio, do you =
+want to buy any of it?=E2=80=9D I just don=E2=80=99t think that Harvard rea=
+lly has a Portfolio Manager For Bill Ackman, and I think that its decision =
+process is often less =E2=80=9Cdoes it make economic sense to sell this con=
+centrated stock position that someone walked in and handed to us=E2=80=9D a=
+nd more =E2=80=9Cwhy=C2=A0wouldn=E2=80=99t=C2=A0we sell this stuff and inve=
+st the money in something we picked?=E2=80=9D
+Still there is also Ackman=E2=80=99s =E2=80=9Ccall right,=E2=80=9D which is=
+ a little odd: Did he have the right to allocate the excess above $15 milli=
+on=C2=A0if Harvard kept the stock and realized that excess, or was it just =
+a standalone derivative contract where Harvard owed him any value of Coupan=
+g over $15 million whether or not it owned the stock? The latter seems weir=
+d, but Ackman seems to think that was the spirit of the deal; he writes:
+
+Unfortunately, the stock sale issue has never been resolved and nearly thre=
+e years have gone by. And it should not have been hard for Harvard to resol=
+ve this problem. All Harvard has to do is honor the agreement it had made w=
+ith me.=C2=A0That is, to grant me the right I bargained for:
+The right to allocate the $70m of excess proceeds to the Harvard-related in=
+itiative of my choice. =C2=A0
+And this should not be hard. Harvard has $50,000,000,000 of assets, and Har=
+vard's obligation to me represents only 0.14% of these funds, and the funds=
+ all stay at Harvard. =C2=A0
+
+Put his name on a program in nonprofit portfolio management.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Ross Stevens vs. Penn
+   =20
+ =20
+
+Here=E2=80=99s a trade:
+=09You are the founder, chief executive officer and main owner of some priv=
+ate company. Say it=E2=80=99s worth $1 billion and you own 90%; your employ=
+ees own the other 10%.=09You would like to make a charitable donation, say =
+to your alma mater. Instead of giving cash, you give some of the shares tha=
+t you own in your company. Say you give the charity 10% of the company, wor=
+th $100 million. Now you own 80%, the charity owns 10%, your employees own =
+10%.=09You take a $100=C2=A0million tax deduction, on your personal taxes: =
+You gave the charity property worth $100 million, so you deduct that from y=
+our income for this year. That saves you, like,  $37=C2=A0million in taxes.=
+=09A week=C2=A0later, you change your mind. But the gift is already final.=
+=09But! Your=C2=A0company=C2=A0has an interesting corporate charter. Until =
+last week, the only owners of the company were you and your employees. What=
+ if they do something scandalous and you have to fire=C2=A0them? The compan=
+y=E2=80=99s charter anticipates that possibility: It says that, if an emplo=
+yee is fired for cause =E2=80=94=C2=A0for breaking the law, for bringing di=
+sgrace on the company, etc. =E2=80=94=C2=A0then their shares are forfeited.=
+ They just disappear: They don=E2=80=99t get paid out for those shares, the=
+y just lose them, and everyone else owns a bit more of the company.=09What =
+if you can fire the charity for cause? What if your alma mater did somethin=
+g scandalous? Then you can take away their shares without paying them. The =
+$100 million stake that the charity owned in your company just vanishes.=09=
+Because the charity=E2=80=99s 10% stake is canceled, you now own 88.9% of t=
+he company, and your employees own 11.1%.
+  [4]
+
+=09But what about taxes?=09Arguably, by canceling the charity=E2=80=99s sha=
+re of the company and effectively reallocating it (mostly) to yourself (and=
+ a little to your employees), you have income: The value of your stake in t=
+he company increased by about $89 million, so you have $89 million of taxab=
+le income. (And your employees have $11 million of taxable income, whoops.
+  [5]
+)=09But=C2=A0arguably=C2=A0there is no income. After all, you haven=E2=80=
+=99t=C2=A0gotten more shares:=C2=A0All that is happened is that some=C2=A0o=
+ther owner=E2=80=99s shares were canceled. If I own stock in Amazon.com Inc=
+., and Amazon buys back somebody else=E2=80=99s stock, my ownership interes=
+t in Amazon goes up, but I don=E2=80=99t report income or pay taxes. (If I =
+donate $1 million of corporate stock to charity in 2023, and in 2024 the co=
+mpany goes bankrupt and the shares become worthless, I still keep the 2023 =
+tax deduction.) Arguably something similar happened here: Someone else=E2=
+=80=99s shares were canceled, but you didn=E2=80=99t get any more shares, s=
+o you have no income, so you don=E2=80=99t pay any taxes.=09So you donated =
+$100 million of stock (Step 2), got a tax deduction worth $37 million (Step=
+ 3), got=C2=A0back=C2=A0$89 million of stock (Step 7), and kept the tax ded=
+uction (Step 10). You are up $26 million. Good trade!=09Such a good trade t=
+hat you might go out and find some=C2=A0other=C2=A0charities to give money =
+to, charities that you think might=C2=A0also=C2=A0disappoint you, so you ca=
+n do this again.
+
+I=E2=80=99m kidding, I think. I don=E2=80=99t think this trade actually wor=
+ks, or that anyone would do it. But having spotted a funny possible tax she=
+lter, I feel obligated to mention it to you, though I feel far more obligat=
+ed to tell you that (1) it is not legal or tax advice and (2) in fact a tax=
+ lawyer I talked to was like =E2=80=9Cnah I don=E2=80=99t think so.=E2=80=
+=9D
+  [6]
+ Still here=E2=80=99s this:
+
+A University of Pennsylvania donor is withdrawing a gift worth around $100 =
+million to protest the school's response to antisemitism on campus.
+The big picture: The final straw for Ross Stevens, founder and CEO of Stone=
+ Ridge Asset Management, was Tuesday's widely criticized congressional test=
+imony by Penn president Liz Magill.
+Details: The gift from Stevens, a Penn undergrad alum, was given in Decembe=
+r 2017 to help establish a center for innovation in finance.
+It was in the form of limited partnership units in Stone Ridge, with the cu=
+rrent value estimated at around $100 million.
+Stevens, in a letter from his lawyers to Penn, alleges that the school has =
+violated the terms of the limited partnership agreement, including its anti=
+-discrimination and anti-harassment policies.
+
+That=E2=80=99s from Axios=E2=80=99s Dan Primack last Thursday; since then, =
+Magill has resigned and maybe Stevens is appeased. I have no idea if he act=
+ually withdrew the gift,=C2=A0or will do it. But the bones of the trade are=
+ there. He is the founder and controlling owner of Stone Ridge Holdings Gro=
+up LP, which owns Stone Ridge Asset Management and a few related financial =
+businesses. He donated some Stone Ridge limited partnership units to Penn; =
+those units are =E2=80=9Cnow valued at approximately $100 million,=E2=80=9D=
+ Stone Ridge=E2=80=99s lawyers say in a letter to Penn that Primack include=
+d with his story.
+And then, well,=C2=A0Stevens=C2=A0didn=E2=80=99t ask for the units back; ra=
+ther,=C2=A0Stone Ridge=C2=A0threatened to cancel them. The lawyers represen=
+t the firm, not Stevens himself. They write:
+
+As a holder of Stone Ridge Unit, the University is bound by and must comply=
+ with the terms of Stone Ridge=E2=80=99s limited partner agreement (=E2=80=
+=98LP Agreement=E2=80=99). Under that Agreement, Stone Ridge has the abilit=
+y, in its sole discretion, to retire the Units of a limited partner that ha=
+s engaged in conduct constituting =E2=80=9CLimited Partner Cause.=E2=80=9D =
+(LP Agreement =C2=A7 10.12.) The LP Agreement defines =E2=80=9CLimited Part=
+ner Cause=E2=80=9D broadly to include, as relevant here, violations (by the=
+ limited partner) of laws or rules applicable to Stone Ridge that are "mate=
+rially injurious to [Stone Ridge's] business, reputation, character or stan=
+ding.=E2=80=9D (Id. =C2=A7 2.1.)
+Among the rules applicable to Stone Ridge are its own anti-discrimination a=
+nd anti-harassment policies and the laws=C2=A0of New York State that prohib=
+it workplace discrimination and harassment. For example, Stone Ridge strict=
+ prohibits all forms of discrimination and harassment based on, among other=
+ things, religion. =E2=80=9CThis prohibition applies to physical conduct, v=
+erbal conduct (including taunting,=C2=A0jokes, threats, epithets, derogator=
+y comments or slurs based on an individual's protected status);=C2=A0and vi=
+sual and/or written conduct {including derogatory posters. photographs, cal=
+endars, cartoons, drawings, websites, email, text messages or gestures base=
+d on an indvidual=E2=80=99s protected status). These policies, among others=
+, were enacted by Stone Ridge to ensure a safe and respectful environment o=
+r its employees.
+Mr. Stevens and Stone Ridge are appalled by the University=E2=80=99s stance=
+ on antisemitism on campus. Its permissive approach to hate speech calling =
+for violence against Jews and laissez faire attitude toward harassment and =
+discrimination against Jewish students would violate any policies of rules =
+that prohibit harassment and discrimination based on religion, including th=
+ose of Stone Ridge. =E2=80=A6=C2=A0In light of the foregoing, Stone Ridge h=
+as reason to believe that the University=E2=80=99s actions (or lack thereof=
+) constitute =E2=80=9CLimited Partner Cause=E2=80=9D under Section 10.12 of=
+ the LP Agreement, which gives Stone Ridge the ability, in its sole discret=
+ion, to retire the University=E2=80=99s Units.
+
+This is an incredibly weird argument. The idea of that =E2=80=9CLimited Par=
+tner Cause=E2=80=9D provision is surely, like, if one of the employee-owner=
+s of Stone Ridge does sexual harassment and embarrasses the firm, he can be=
+ fired and his units confiscated. It is harder to see how Penn violated any=
+ =E2=80=9Claws or rules applicable to Stone Ridge,=E2=80=9D or could possib=
+ly have done so, or could possibly do something =E2=80=9Cmaterially injurio=
+us to [Stone Ridge=E2=80=99s] business, reputation, character or standing.=
+=E2=80=9D I assume the point here is to make a clever threat, not an argume=
+nt that could stand up in court.
+But never mind that! My point is just that when Stevens donated the units, =
+he presumably could have taken a tax deduction, but if=C2=A0Stone Ridge=C2=
+=A0takes them back, he maybe doesn=E2=80=99t need to reverse that deduction=
+? Cool trade if so.
+
+ =20
+   =20
+      Lawyer AI
+   =20
+ =20
+
+I   wrote yesterday about how deals are typically negotiated by arguing abo=
+ut what terms are =E2=80=9Cmarket,=E2=80=9D that is, standard in deals of t=
+hat type. One question is how you know what terms are market. I said:
+You have to pay attention to what deals happen, and have someone summarize =
+them, but with a bit of work you can build a database, or even keep running=
+ track of all the deals in your head I guess.=C2=A0Or get yourself a large =
+language model and ask it =E2=80=9Cwhat is a standard ordinary course of bu=
+siness covenant for a US public company merger these days?=E2=80=9D
+Coincidentally also yesterday Bloomberg=E2=80=99s Brian Baxter   wrote abou=
+t an AI-for-lawyers startup that wants to do that:
+
+Noetica AI, a startup software platform headed by a former Wachtell, Lipton=
+, Rosen & Katz associate, announced Tuesday a $6 million seed investment ro=
+und led by venture capital firm Lightspeed Venture Partners. =E2=80=A6
+The technology is still not a =E2=80=9Csilver bullet,=E2=80=9D though if us=
+ed properly, artificial intelligence can be for lawyers what Microsoft Exce=
+l was to investment bankers, said Daniel Wertman, Noetica AI=E2=80=99s chie=
+f executive officer, who until last year was a corporate finance associate =
+at Wachtell. =E2=80=A6
+He said he was sitting at his desk at Wachtell one day and asked a senior l=
+awyer how to access a market database to check if a borrower of a certain t=
+ype could get specific terms. The answer? It didn=E2=80=99t exist.
+
+I feel like a lot of junior lawyers have had that experience. Lawyers are t=
+raditionally=C2=A0enemies of databases.
+  [7]
+=C2=A0The only way to get that database, at a law firm, is to have a robot =
+build it for you.
+
+ =20
+   =20
+      Citi bonuses
+   =20
+ =20
+
+I worked at an investment bank during several waves of layoffs, and it alwa=
+ys felt odd, because I spent most of my day sitting around with my colleagu=
+es complaining about our jobs and fantasizing about quitting. So when layof=
+fs would come around we=E2=80=99d all be like =E2=80=9Chow do we get laid o=
+ff?=E2=80=9D After all, if you get laid off, you often get a nice severance=
+ package, but if you quit you don=E2=80=99t. Of course many of the people w=
+ho=C2=A0did=C2=A0get laid off didn=E2=80=99t want to be laid off. They pref=
+erred their jobs to the severance package. There were trades to be=C2=A0mad=
+e, and it is not unheard-of for investment bankers to volunteer for layoffs=
+: If you want to get laid off, and your colleague doesn=E2=80=99t, you can =
+make everyone better off by volunteering=C2=A0
+Anyway   here=E2=80=99s Citi:
+
+Citigroup Inc. is offering to pay some staffers a portion of their bonuses =
+early if they agree to depart as executives continue with their restructuri=
+ng of the Wall Street giant.
+The bank is making the offer to a limited number of staff, according to peo=
+ple familiar with the matter. In addition to the bonus awards, employees wh=
+o accept the offer would also be allowed to keep all of their deferred stoc=
+k awards, the people said, asking not to be identified discussing personnel=
+ information.
+Staffers cannot volunteer for the offers because they are being made to tho=
+se impacted by Citigroup=E2=80=99s ongoing reorganization, which is focused=
+ on restructuring its ranks to fit Chief Executive Officer Jane Fraser=E2=
+=80=99s strategy for the bank.
+
+If you get this offer, should you be offended? Does it mean that they=E2=80=
+=99d like to get rid of you but wanted to start with a gentle nudge? Or sho=
+uld you be thrilled because you get to quit with your bonus?
+Also it is mid-December? You have pretty much earned your whole bonus at th=
+is point? Sure you get it early by quitting now instead of in March (=E2=80=
+=9CCitigroup typically awards staffers their bonuses in February=E2=80=9D),=
+ but it=E2=80=99s not=C2=A0that=C2=A0good a deal. Getting half a bonus for =
+quitting in May would be an incentive; getting =E2=80=9Ca portion of your b=
+onus=E2=80=9D for quitting in December is a little insulting.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+COP28 Nations Reach First-Ever Deal to   Move Away From Fossil Fuels. China=
+  Turns the Tables on Wall Street. Tesla Recalls 2 Million Cars to Fix   Au=
+topilot Safety Flaws.=C2=A0Citadel Is Handing Back About $7 Billion in Prof=
+its to Clients. Vanguard Is Closer Than Ever to Ending BlackRock=E2=80=99s =
+  ETF Reign. Morgan Stanley Seeks to   Sell Unwanted Loans to European Firm=
+s. Private Equity Owners Hand Over Company Keys as   Defaults Rise.=C2=A0Ar=
+gentina Bonds Rise to Two-Year High After Milei Debuts Shock Plan. OpenAI t=
+o Pay Politico Parent Axel Springer for  Using Its Content. Class of 2024  =
+ Can=E2=80=99t Land Jobs as Hiring in Tech, Finance Wanes. =E2=80=98I repea=
+tedly failed to win any awards=E2=80=99: my doomed career as a  North Korea=
+n novelist.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] That=E2=80=99s $9 million of gains times a top federal capital gains =
+rate of 20% is $1.8 million of taxes, leaving her with a bit more than $8 m=
+illion, but then there=E2=80=99s state tax etc.
+
+
+  [2] That is, $8 million times the top federal income tax rate of 37% is a=
+bout $3 million.
+
+
+  [3] I could argue this the other way. What is Ackman=E2=80=99s put worth?=
+ Well, let=E2=80=99s say you=E2=80=99re Harvard, you have this Coupang stoc=
+k, Ackman has promised to pay you the difference if it goes below $10 milli=
+on, and it goes to $0 =E2=80=94 it=E2=80=99s a startup, startups commonly f=
+ail, etc. You go to Ackman for the $10 million. One possibility is that he =
+doesn=E2=80=99t have it: Whatever wiped out the value of Coupang also wiped=
+ out his fortune, leaving him too strapped to give you the $10 million. Thi=
+s doesn=E2=80=99t seem that likely, but it's not a zero probability. Anothe=
+r possibility is that he doesn=E2=80=99t want to give it: Between his donat=
+ion and Coupang=E2=80=99s fall, he has gotten mad at Harvard for some reaso=
+n, and no longer wants to make up the shortfall. This has a higher probabil=
+ity! Ackman does have some problems with Harvard! (In either of these two c=
+ases, maybe you can sue him to enforce your arrangement, but that is a bad =
+look and I don=E2=80=99t know how enforceable it is.) A third possibility i=
+s that he writes you the $10 million check, but in his own mind he deducts =
+that $10 million from what he would have given to Harvard anyway. You come =
+to him at the end of the year saying =E2=80=9CHarvard could use an internat=
+ional airport, could you chip in $10 million=E2=80=9D and he says =E2=80=9C=
+what, no, I already wrote you a $10 million check this year, go away.=E2=80=
+=9D The $10 million is not necessarily *additive*. So you would not, ex ant=
+e, value this put at its full Black-Scholes value; you would not be absolut=
+ely certain that the stock plus the put will always be worth at least $10 m=
+illion.
+
+
+  [4] That is, before, you owned 80 units, the charity owned 10, the employ=
+ees owned 10. Now the charity=E2=80=99s 10 units are canceled, so you own 8=
+0 out of 90 units, and the employees own 10 out of 90. This is not the only=
+ way this contract could work, and my understanding is that it is more comm=
+on, in an investment firm's limited partnership agreement, for canceled sha=
+res to essentially be reallocated to the founder/CEO, meaning that in pract=
+ice you=E2=80=99d end up back with 90% and the employees with 10%. But this=
+ mechanism is theoretically possible, and funnier.
+
+
+  [5] Again, this leakage is not necessary, or even common (see previous fo=
+otnote); you might just get all $100 million of the value.
+
+
+  [6] But with some doubt! Also, to be clear, I think the trade is pretty t=
+ricky if your company is a *partnership*, as Stone Ridge is. Then the reall=
+ocation of capital caused by the cancelation of another partner=E2=80=99s s=
+hares arguably is income to you. (The relevant case is Lehman v. Commission=
+er.) But I think that if your company is a *corporation* you are in better =
+shape; canceling shares of a corporation clearly *isn=E2=80=99t* income to =
+the other shareholders. I think it is less common for a corporation to have=
+ a cancelation-of-shares-for-cause provision, though not theoretically impo=
+ssible, and I think there are other tax reasons why you wouldn=E2=80=99t wa=
+nt the company to be organized as a corporation, but still there=E2=80=99s =
+maybe a fun trade there. This is incredibly not tax or legal advice.
+
+
+  [7] Like, Microsoft Excel could be for lawyers what Microsoft Excel was t=
+o investment bankers: When I was an investment banker, we *did* keep track =
+of legal terms in an Excel spreadsheet, so we knew what was market. But tha=
+t required someone to input each deal into the spreadsheet, and what lawyer=
+ would do that?
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck1ykj.5jdr/8298b57d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_12495357_461220904.1702496270888
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One model of a charitable endowment is that you are in the business of sell=
+ing appreciated assets on behalf of your donors in order to maxim
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB18d001d6"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzY4Mzc3OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NDIxNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBbcc68c79" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33683779&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33942178&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bill Ackman vs. Harvard</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One model of a=C2=A0charitable endowment is th=
+at you are in the business of selling appreciated assets on behalf of your =
+donors in order to maximize tax efficiency. Like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A rich person owns some stock. She bo=
+ught it for, say, $1 million, and it is worth $10 million now.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">She could sell the stock for $10 million, pay =
+taxes on her gains, and be left with something like $8 million.<a class=3D"=
+footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0She could then donate that money to you and deduct $8 million fro=
+m her income taxes for the year, saving $3 million or so.<a class=3D"footno=
+te-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: none !important; background-color: transparent !important;=
+ display: inline-block;">
+<span>[2]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Or </em>she could=C2=A0<em>give=C2=A0</em>you the stock. Then she would=
+ not recognize any gains on the sale, and she=E2=80=99d get to deduct its f=
+ull market value from her income taxes, saving almost $4 million. You get a=
+ bigger gift ($10 million instead of $8 million), and she gets a bigger tax=
+ deduction. Better trade!</li>=09<li style=3D"margin-bottom: 5px;">Then=C2=
+=A0<em>you=C2=A0</em>sell the stock, for $10 million, and don=E2=80=99t pay=
+ any taxes, because you are a non-taxable charitable endowment.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is a very well-known feature of US tax la=
+w; <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399=
+/aHR0cHM6Ly93d3cuZmlkZWxpdHljaGFyaXRhYmxlLm9yZy9naXZpbmctYWNjb3VudC93aGF0LX=
+lvdS1jYW4tZG9uYXRlL2RvbmF0aW5nLXN0b2NrLXRvLWNoYXJpdHktYjExMjMuaHRtbA/607f07=
+ceef4b8524a319a23cBd687880e" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">wealth managers</a> will commonly=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399=
+/aHR0cHM6Ly93d3cuc2Nod2FiLmNvbS9sZWFybi9zdG9yeS9pcy1pdC1iZXR0ZXItdG8tZ2l2ZS=
+1zdG9jay1vci1jYXNoLXRvLWNoYXJpdHk/607f07ceef4b8524a319a23cBc214b288" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">tell you</a> to donate appreciated stock rather than cash, and if you go =
+to, like, <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779=
+.258399/aHR0cHM6Ly9hbHVtbmkuaGFydmFyZC5lZHUvZ2l2aW5n/607f07ceef4b8524a319a2=
+3cB090b988f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Harvard University=E2=80=99s web page</a>, they will t=
+ell you how to donate stock, because it comes up a lot.</p>
+<p style=3D"margin: 16px 0;">In this process, Step 4 is not strictly essent=
+ial. If you are a big charitable endowment, you are not spending all of you=
+r money every year. You are investing it for the long run. Maybe you want t=
+o keep this stock; maybe you think it has room to run and will be worth mor=
+e in the long run.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But if you are a big charitable endowment, you=
+ have some=C2=A0<em>plan</em>. You sit down and think about how to construc=
+t your portfolio; you say =E2=80=9Cwe should be 50% stocks and 5% bonds and=
+ 15% hedge funds and 20% private equity and 10% timberland=E2=80=9D or what=
+ever, and then you pick assets and managers within each category to get the=
+ portfolio that you think will best position you for the long run. And then=
+ if some big donor comes in and gives you $10 million in cash, you allocate=
+ it to that portfolio.</p>
+<p style=3D"margin: 16px 0;">But lots of donors instead come to you with st=
+ock that has appreciated a lot (often stock in their own companies), they w=
+ant to maximize their gifts and their deductions, and they know that the wa=
+y to do that is by donating the stock. The stock doesn=E2=80=99t fit with y=
+our plan. You are not making an=C2=A0<em>investment decision=C2=A0</em>each=
+ time they donate the stock. You are, several times a year, getting a big c=
+oncentrated position in some random stock that your big donors happen to ow=
+n. An endowment with an investment portfolio consisting only of the stuff t=
+hat its donors happened to have lying around would look crazy. You take the=
+ random stuff, you sell it, you buy index funds or timberland or whatever.<=
+/p>
+<p style=3D"margin: 16px 0;">You are essentially a middleman: You have some=
+ target portfolio of assets you want to own, but your donations come largel=
+y in the form of=C2=A0<em>other=C2=A0</em>assets that your donors happen to=
+ own, and you are in a position to efficiently turn the donated assets into=
+ the target assets.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This can lead to occasional problems, though:<=
+/p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Your donors are often able to give al=
+l that money because they are successful investors, and they=C2=A0<em>like=
+=C2=A0</em>the stock they gave you. They think it has room to run. If you d=
+ump it the second they donate it, they will be offended. If you are like =
+=E2=80=9Cno, you don=E2=80=99t understand, we dump=C2=A0<em>all=C2=A0</em>t=
+he random stuff that donors give us, we have our own investment thesis and =
+don=E2=80=99t want to just own your hand-me-downs,=E2=80=9D they will be ev=
+en more offended. =E2=80=9CRandom stuff!=E2=80=9D=C2=A0</li>=09<li style=3D=
+"margin-bottom: 5px;">Your donors are often in position to give all that mo=
+ney because they are=C2=A0<em>good=C2=A0</em>investors, and often they are=
+=C2=A0<em>right</em>, and the stock=C2=A0<em>does=C2=A0</em>go up much more=
+ than your timberland or whatever, and then you look dumb in hindsight.</li=
+>
+</ol>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvYmlsbC1hY2ttYW4tc2F5cy1oYXJ2YXJkLXN=
+xdWFuZGVyZWQtZ2lmdC1idXQtZGVuaWVzLXJlc2VudG1lbnQ_Y21waWQ9QkJEMTIxMzIzX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jMxMjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4e89886f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Pierre Paulden reports</a>:=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bill Ackman=C2=A0denied that his weeks-long cr=
+usade against=C2=A0Harvard University=C2=A0and its president was driven by =
+resentment toward his alma mater, but acknowledged a =E2=80=9Cserious=E2=80=
+=9D dispute with the school over a donation he made in 2017.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CTo be extremely clear, my advocacy on=
+ behalf of antisemitism, free speech on campus, and my concerns with DEI at=
+ Harvard have absolutely nothing to do with my unfortunate experience as a =
+donor to the university,=E2=80=9D Ackman wrote in a post on X Tuesday night=
+.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">In 2017, Ackman wanted to give Harvard money t=
+o recruit economist Raj Chetty, but he =E2=80=9Chad no liquidity=E2=80=9D d=
+ue to a divorce. So:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Ackman=E2=80=99s solution was to give Harvard =
+stock in=C2=A0Coupang Inc., at the time a speculative private venture-backe=
+d company.</p>
+<p style=3D"margin: 16px 0;">The stock he was giving was valued at $10 mill=
+ion, but Ackman said he agreed with Harvard that if the value went below $1=
+0 million he would make up the difference. But if the company went public a=
+nd the stock was worth more than $15 million, he would have the right =E2=
+=80=9Cto allocate the excess realized value=E2=80=9D above that amount to a=
+ny Harvard-related initiative of his choice.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">From Ackman=E2=80=99s <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33683779.258399/aHR0cHM6Ly90d2l0dGVyLmNvbS=
+9CaWxsQWNrbWFuL3N0YXR1cy8xNzM0NzE1MTM1Njc4MTc3NDE5/607f07ceef4b8524a319a23c=
+Bb24e6c8f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">long tweet</a> on the matter:</p>
+<blockquote><p style=3D"margin: 16px 0;">In Wall Street speak, Harvard had =
+a put to me at $10m, and I retained a call at $15m, with the right to alloc=
+ate the excess value to the Harvard initiative of my choice.</p></blockquot=
+e>
+<p style=3D"margin: 16px 0;">In 2021, Coupang <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMTYvY291cGFuZy1zLWlwby1wb3Atc2VydmVkLW=
+EtcHVycG9zZT9jbXBpZD1CQkQxMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBfbd6157b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  went public</a>, and the s=
+hares he gave to Harvard were worth $85 million. He called Harvard with the=
+ good news, only to find out that Harvard had already dumped the stock. Pau=
+lden:</p>
+<blockquote><p style=3D"margin: 16px 0;">He was informed that Harvard Manag=
+ement Co., which oversees the $51 billion endowment, had sold the stock bac=
+k to Coupang in a private transaction in March 2020. Ackman said no one fro=
+m Harvard Management or the administration contacted him at the time to ask=
+ if he wanted to buy back the stock or to apologize after the fact for miss=
+ing out on $75 million of potential gains.</p></blockquote>
+<p style=3D"margin: 16px 0;">Apparently the sale price was $10 million, the=
+ same as the valuation when he gave it. Ackman argues that this was a bad i=
+nvesting decision by Harvard:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Harvard had sold stock which it could have put=
+ to me for $10m at a massive discount to its value at that time. Coupang ha=
+d made massive progress since my gift in December 2017 and the stock's valu=
+e had increased enormously. =C2=A0</p>
+<p style=3D"margin: 16px 0;">And Harvard had never told me that they had so=
+ld the shares.=C2=A0I was never offered the opportunity to buy the shares b=
+ack for $10m or a higher price, which I would happily have done, had I know=
+n the University needed liquidity. =C2=A0</p>
+<p style=3D"margin: 16px 0;">And the notion that Harvard needed $10m of liq=
+uidity in the context of a $50 billion endowment is on its face absurd. Any=
+ sophisticated investor should also understand that when a private venture-=
+backed company is buying back stock, it is a bad idea to sell.</p>
+<p style=3D"margin: 16px 0;">Harvard sold the stock despite the fact that w=
+e had a contract which provided the University with downside protection at =
+$10m while allowing it to retain 100% of the upside. It made no economic se=
+nse whatsoever for Harvard to have sold.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And, sure, I suppose that=E2=80=99s right. Sel=
+ling at $10 million when you have a put from Ackman at $10 million does ext=
+inguish a lot of option value; better to keep the stock,=C2=A0let it ride, =
+and have some chance of getting $85 million with insurance that you won=E2=
+=80=99t get less than $10 million.<a class=3D"footnote-index" href=3D"#foot=
+note-3" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[3]</span>
+</a>=C2=A0And sure, arguably, it would have been polite (and a good financi=
+al move) for Harvard=E2=80=99s Portfolio Manager For Bill Ackman to call hi=
+m to be like =E2=80=9Chey we are reshuffling the Bill Ackman Portfolio, do =
+you want to buy any of it?=E2=80=9D I just don=E2=80=99t think that Harvard=
+ really has a Portfolio Manager For Bill Ackman, and I think that its decis=
+ion process is often less =E2=80=9Cdoes it make economic sense to sell this=
+ concentrated stock position that someone walked in and handed to us=E2=80=
+=9D and more =E2=80=9Cwhy=C2=A0<em>wouldn=E2=80=99t=C2=A0</em>we sell this =
+stuff and invest the money in something we picked?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Still there is also Ackman=E2=80=99s =E2=80=9C=
+call right,=E2=80=9D which is a little odd: Did he have the right to alloca=
+te the excess above $15 million=C2=A0<em>if Harvard kept the stock and real=
+ized that excess</em>, or was it just a standalone derivative contract wher=
+e Harvard owed him any value of Coupang over $15 million whether or not it =
+owned the stock? The latter seems weird, but Ackman seems to think that was=
+ the spirit of the deal; he writes:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Unfortunately, the stock sale issue has never =
+been resolved and nearly three years have gone by. And it should not have b=
+een hard for Harvard to resolve this problem. All Harvard has to do is hono=
+r the agreement it had made with me.=C2=A0That is, to grant me the right I =
+bargained for:</p>
+<p style=3D"margin: 16px 0;">The right to allocate the $70m of excess proce=
+eds to the Harvard-related initiative of my choice. =C2=A0</p>
+<p style=3D"margin: 16px 0;">And this should not be hard. Harvard has $50,0=
+00,000,000 of assets, and Harvard's obligation to me represents only 0.14% =
+of these funds, and the funds all stay at Harvard. =C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Put his name on a program in nonprofit portfol=
+io management.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzY4Mzc3OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NDIxNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC048d90b1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33683779&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33942178&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzY4Mzc3OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NDIxNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD048d90b1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33683779&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33942178&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ross Stevens vs. Penn</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a trade:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You are the founder, chief executive =
+officer and main owner of some private company. Say it=E2=80=99s worth $1 b=
+illion and you own 90%; your employees own the other 10%.</li>=09<li style=
+=3D"margin-bottom: 5px;">You would like to make a charitable donation, say =
+to your alma mater. Instead of giving cash, you give some of the shares tha=
+t you own in your company. Say you give the charity 10% of the company, wor=
+th $100 million. Now you own 80%, the charity owns 10%, your employees own =
+10%.</li>=09<li style=3D"margin-bottom: 5px;">You take a $100=C2=A0million =
+tax deduction, on your personal taxes: You gave the charity property worth =
+$100 million, so you deduct that from your income for this year. That saves=
+ you, like, <a href=3D"https://link.mail.bloombergbusiness.com/click/336837=
+79.258399/aHR0cHM6Ly93d3cubmVyZHdhbGxldC5jb20vYXJ0aWNsZS90YXhlcy9mZWRlcmFsL=
+WluY29tZS10YXgtYnJhY2tldHM/607f07ceef4b8524a319a23cB7515086a" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> $37=
+=C2=A0million in taxes</a>.</li>=09<li style=3D"margin-bottom: 5px;">A week=
+=C2=A0later, you change your mind. But the gift is already final.</li>=09<l=
+i style=3D"margin-bottom: 5px;">But! Your=C2=A0<em>company=C2=A0</em>has an=
+ interesting corporate charter. Until last week, the only owners of the com=
+pany were you and your employees. What if they do something scandalous and =
+you have to fire=C2=A0them? The company=E2=80=99s charter anticipates that =
+possibility: It says that, if an employee is fired for cause =E2=80=94=C2=
+=A0for breaking the law, for bringing disgrace on the company, etc. =E2=80=
+=94=C2=A0then their shares are forfeited. They just disappear: They don=E2=
+=80=99t get paid out for those shares, they just lose them, and everyone el=
+se owns a bit more of the company.</li>=09<li style=3D"margin-bottom: 5px;"=
+>What if you can fire <em>the charity </em>for cause? What if your alma mat=
+er did something scandalous? Then you can take away their shares without pa=
+ying them. The $100 million stake that the charity owned in your company ju=
+st vanishes.</li>=09<li style=3D"margin-bottom: 5px;">Because the charity=
+=E2=80=99s 10% stake is canceled, you now own 88.9% of the company, and you=
+r employees own 11.1%.<a class=3D"footnote-index" href=3D"#footnote-4" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: none !important; b=
+ackground-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">But what about taxes?</li>=09<li =
+style=3D"margin-bottom: 5px;">Arguably, by canceling the charity=E2=80=99s =
+share of the company and effectively reallocating it (mostly) to yourself (=
+and a little to your employees), you have income: The value of your stake i=
+n the company increased by about $89 million, so you have $89 million of ta=
+xable income. (And your employees have $11 million of taxable income, whoop=
+s.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[5]</span>
+</a>)</li>=09<li style=3D"margin-bottom: 5px;">But=C2=A0<em>arguably=C2=A0<=
+/em>there is no income. After all, you haven=E2=80=99t=C2=A0<em>gotten more=
+ shares:=C2=A0</em>All that is happened is that some=C2=A0<em>other </em>ow=
+ner=E2=80=99s shares were canceled. If I own stock in Amazon.com Inc., and =
+Amazon buys back somebody else=E2=80=99s stock, my ownership interest in Am=
+azon goes up, but I don=E2=80=99t report income or pay taxes. (If I donate =
+$1 million of corporate stock to charity in 2023, and in 2024 the company g=
+oes bankrupt and the shares become worthless, I still keep the 2023 tax ded=
+uction.) Arguably something similar happened here: Someone else=E2=80=99s s=
+hares were canceled, but you didn=E2=80=99t get any more shares, so you hav=
+e no income, so you don=E2=80=99t pay any taxes.</li>=09<li style=3D"margin=
+-bottom: 5px;">So you donated $100 million of stock (Step 2), got a tax ded=
+uction worth $37 million (Step 3), got=C2=A0<em>back=C2=A0</em>$89 million =
+of stock (Step 7), and kept the tax deduction (Step 10). You are up $26 mil=
+lion. Good trade!</li>=09<li style=3D"margin-bottom: 5px;">Such a good trad=
+e that you might go out and find some=C2=A0<em>other=C2=A0</em>charities to=
+ give money to, charities that you think might=C2=A0<em>also=C2=A0</em>disa=
+ppoint you, so you can do this again.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I=E2=80=99m kidding, I think. I don=E2=80=99t =
+think this trade actually works, or that anyone would do it. But having spo=
+tted a funny possible tax shelter, I feel obligated to mention it to you, t=
+hough I feel far more obligated to tell you that (1) it is not legal or tax=
+ advice and (2) in fact a tax lawyer I talked to was like =E2=80=9Cnah I do=
+n=E2=80=99t think so.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote=
+-6" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a> Still <a href=3D"https://link.mail.bloombergbusiness.com/click/3368377=
+9.258399/aHR0cHM6Ly93d3cuYXhpb3MuY29tLzIwMjMvMTIvMDcvdXBlbm4tYW50aXNlbWl0aX=
+NtLW1hZ2lsbC0xMDAtbWlsbGlvbi1kb25hdGlvbg/607f07ceef4b8524a319a23cB150352b1"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A University of Pennsylvania donor is withdraw=
+ing a gift worth around $100 million to protest the school's response to an=
+tisemitism on campus.</p>
+<p style=3D"margin: 16px 0;">The big picture: The final straw for Ross Stev=
+ens, founder and CEO of Stone Ridge Asset Management, was Tuesday's widely =
+criticized congressional testimony by Penn president Liz Magill.</p>
+<p style=3D"margin: 16px 0;">Details: The gift from Stevens, a Penn undergr=
+ad alum, was given in December 2017 to help establish a center for innovati=
+on in finance.</p>
+<p style=3D"margin: 16px 0;">It was in the form of limited partnership unit=
+s in Stone Ridge, with the current value estimated at around $100 million.<=
+/p>
+<p style=3D"margin: 16px 0;">Stevens, in a letter from his lawyers to Penn,=
+ alleges that the school has violated the terms of the limited partnership =
+agreement, including its anti-discrimination and anti-harassment policies.<=
+/p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s from Axios=E2=80=99s Dan Primac=
+k last Thursday; since then, Magill has resigned and maybe Stevens is appea=
+sed. I have no idea if he actually withdrew the gift,=C2=A0or will do it. B=
+ut the bones of the trade are there. He is the founder and controlling owne=
+r of Stone Ridge Holdings Group LP, which owns Stone Ridge Asset Management=
+ and <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.2583=
+99/aHR0cHM6Ly93d3cuc3RvbmVyaWRnZWFtLmNvbS8/607f07ceef4b8524a319a23cB019b0f3=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">a few related financial businesses</a>. He donated some Stone =
+Ridge limited partnership units to Penn; those units are =E2=80=9Cnow value=
+d at approximately $100 million,=E2=80=9D Stone Ridge=E2=80=99s lawyers say=
+ in a letter to Penn that Primack included with his story.</p>
+<p style=3D"margin: 16px 0;">And then, well,=C2=A0<em>Stevens=C2=A0</em>did=
+n=E2=80=99t ask for the units back; rather,=C2=A0<em>Stone Ridge=C2=A0</em>=
+threatened to cancel them. The lawyers represent the firm, not Stevens hims=
+elf. They write:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As a holder of Stone Ridge Unit, the Universit=
+y is bound by and must comply with the terms of Stone Ridge=E2=80=99s limit=
+ed partner agreement (=E2=80=98LP Agreement=E2=80=99). Under that Agreement=
+, Stone Ridge has the ability, in its sole discretion, to retire the Units =
+of a limited partner that has engaged in conduct constituting =E2=80=9CLimi=
+ted Partner Cause.=E2=80=9D (LP Agreement =C2=A7 10.12.) The LP Agreement d=
+efines =E2=80=9CLimited Partner Cause=E2=80=9D broadly to include, as relev=
+ant here, violations (by the limited partner) of laws or rules applicable t=
+o Stone Ridge that are "materially injurious to [Stone Ridge's] business, r=
+eputation, character or standing.=E2=80=9D (Id. =C2=A7 2.1.)</p>
+<p style=3D"margin: 16px 0;">Among the rules applicable to Stone Ridge are =
+its own anti-discrimination and anti-harassment policies and the laws=C2=A0=
+of New York State that prohibit workplace discrimination and harassment. Fo=
+r example, Stone Ridge strict prohibits all forms of discrimination and har=
+assment based on, among other things, religion. =E2=80=9CThis prohibition a=
+pplies to physical conduct, verbal conduct (including taunting,=C2=A0jokes,=
+ threats, epithets, derogatory comments or slurs based on an individual's p=
+rotected status);=C2=A0and visual and/or written conduct {including derogat=
+ory posters. photographs, calendars, cartoons, drawings, websites, email, t=
+ext messages or gestures based on an indvidual=E2=80=99s protected status).=
+ These policies, among others, were enacted by Stone Ridge to ensure a safe=
+ and respectful environment or its employees.</p>
+<p style=3D"margin: 16px 0;">Mr. Stevens and Stone Ridge are appalled by th=
+e University=E2=80=99s stance on antisemitism on campus. Its permissive app=
+roach to hate speech calling for violence against Jews and laissez faire at=
+titude toward harassment and discrimination against Jewish students would v=
+iolate any policies of rules that prohibit harassment and discrimination ba=
+sed on religion, including those of Stone Ridge. =E2=80=A6=C2=A0In light of=
+ the foregoing, Stone Ridge has reason to believe that the University=E2=80=
+=99s actions (or lack thereof) constitute =E2=80=9CLimited Partner Cause=E2=
+=80=9D under Section 10.12 of the LP Agreement, which gives Stone Ridge the=
+ ability, in its sole discretion, to retire the University=E2=80=99s Units.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is an incredibly weird argument. The idea=
+ of that =E2=80=9CLimited Partner Cause=E2=80=9D provision is surely, like,=
+ if one of the employee-owners of Stone Ridge does sexual harassment and em=
+barrasses the firm, he can be fired and his units confiscated. It is harder=
+ to see how Penn violated any =E2=80=9Claws or rules applicable to Stone Ri=
+dge,=E2=80=9D or could possibly have done so, or could possibly do somethin=
+g =E2=80=9Cmaterially injurious to [Stone Ridge=E2=80=99s] business, reputa=
+tion, character or standing.=E2=80=9D I assume the point here is to make a =
+clever threat, not an argument that could stand up in court.</p>
+<p style=3D"margin: 16px 0;">But never mind that! My point is just that whe=
+n <em>Stevens </em>donated the units, he presumably could have taken a tax =
+deduction, but if=C2=A0<em>Stone Ridge=C2=A0</em>takes them back, he maybe =
+doesn=E2=80=99t need to reverse that deduction? Cool trade if so.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Lawyer AI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33683779.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMTItMTIvaG93LW11Y2gtZG8tYnVmZmV0dC1zLXRydWNrLXN0b3BzLW1ha=
+2U_Y21waWQ9QkJEMTIxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cB0f5d0c91" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  wrote yesterday</a> about how deals =
+are typically negotiated by arguing about what terms are =E2=80=9Cmarket,=
+=E2=80=9D that is, standard in deals of that type. One question is how you =
+know what terms are market. I said:</p>
+<blockquote><p style=3D"margin: 16px 0;">You have to pay attention to what =
+deals happen, and have someone summarize them, but with a bit of work you c=
+an build a database, or even keep running track of all the deals in your he=
+ad I guess.=C2=A0Or get yourself a large language model and ask it =E2=80=
+=9Cwhat is a standard ordinary course of business covenant for a US public =
+company merger these days?=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Coincidentally also yesterday Bloomberg=E2=80=
+=99s Brian Baxter <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33683779.258399/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vYnVzaW5lc3MtYW5kLXB=
+yYWN0aWNlL2V4LXdhY2h0ZWxsLWxhd3llci13ZXJ0bWFuLXNlY3VyZXMtNi1taWxsaW9uLWZvci=
+1haS1zdGFydHVw/607f07ceef4b8524a319a23cB73766534" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  wrote about an =
+AI-for-lawyers startup</a> that wants to do that:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Noetica AI, a startup software platform headed=
+ by a former Wachtell, Lipton, Rosen &amp; Katz associate, announced Tuesda=
+y a $6 million seed investment round led by venture capital firm Lightspeed=
+ Venture Partners. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The technology is still not a =E2=80=9Csilver =
+bullet,=E2=80=9D though if used properly, artificial intelligence can be fo=
+r lawyers what Microsoft Excel was to investment bankers, said Daniel Wertm=
+an, Noetica AI=E2=80=99s chief executive officer, who until last year was a=
+ corporate finance associate at Wachtell. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">He said he was sitting at his desk at Wachtell=
+ one day and asked a senior lawyer how to access a market database to check=
+ if a borrower of a certain type could get specific terms. The answer? It d=
+idn=E2=80=99t exist.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I feel like a lot of junior lawyers have had t=
+hat experience. Lawyers are traditionally=C2=A0enemies of databases.<a clas=
+s=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0The only way to get that database, at a law firm, is to have a ro=
+bot build it for you.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Citi bonuses</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I worked at an investment bank during several =
+waves of layoffs, and it always felt odd, because I spent most of my day si=
+tting around with my colleagues complaining about our jobs and fantasizing =
+about quitting. So when layoffs would come around we=E2=80=99d all be like =
+=E2=80=9Chow do we get laid off?=E2=80=9D After all, if you get laid off, y=
+ou often get a nice severance package, but if you quit you don=E2=80=99t. O=
+f course many of the people who=C2=A0<em>did=C2=A0</em>get laid off didn=E2=
+=80=99t want to be laid off. They preferred their jobs to the severance pac=
+kage. There were trades to be=C2=A0made, and it is not unheard-of for inves=
+tment bankers to volunteer for layoffs: If you want to get laid off, and yo=
+ur colleague doesn=E2=80=99t, you can make everyone better off by volunteer=
+ing=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33683779.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMTItMTMvY2l0aS1vZmZlcnMtcGFydGlhbC1lYXJseS1ib251c2VzLXRv=
+LWVuY291cmFnZS1zdGFmZi1kZXBhcnR1cmVzP2NtcGlkPUJCRDEyMTMyM19NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxMyZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5685fe37" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  h=
+ere=E2=80=99s Citi</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Citigroup Inc. is offering to pay some staffer=
+s a portion of their bonuses early if they agree to depart as executives co=
+ntinue with their restructuring of the Wall Street giant.</p>
+<p style=3D"margin: 16px 0;">The bank is making the offer to a limited numb=
+er of staff, according to people familiar with the matter. In addition to t=
+he bonus awards, employees who accept the offer would also be allowed to ke=
+ep all of their deferred stock awards, the people said, asking not to be id=
+entified discussing personnel information.</p>
+<p style=3D"margin: 16px 0;">Staffers cannot volunteer for the offers becau=
+se they are being made to those impacted by Citigroup=E2=80=99s ongoing reo=
+rganization, which is focused on restructuring its ranks to fit Chief Execu=
+tive Officer Jane Fraser=E2=80=99s strategy for the bank.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you get this offer, should you be offended?=
+ Does it mean that they=E2=80=99d like to get rid of you but wanted to star=
+t with a gentle nudge? Or should you be thrilled because you get to quit wi=
+th your bonus?</p>
+<p style=3D"margin: 16px 0;">Also it is mid-December? You have pretty much =
+earned your whole bonus at this point? Sure you get it early by quitting no=
+w instead of in March (=E2=80=9CCitigroup typically awards staffers their b=
+onuses in February=E2=80=9D), but it=E2=80=99s not=C2=A0<em>that=C2=A0</em>=
+good a deal. Getting half a bonus for quitting in May would be an incentive=
+; getting =E2=80=9Ca portion of your bonus=E2=80=9D for quitting in Decembe=
+r is a little insulting.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">COP28 Nations Reach First-Ever Deal to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvY29wMjgtZW5kcy13=
+aXRoLWRlYWwtb24tdHJhbnNpdGlvbi1hd2F5LWZyb20tZm9zc2lsLWZ1ZWxzP2NtcGlkPUJCRDE=
+yMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMTIxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cBb7467fc2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Move Away From Fossil Fuels</a>. China <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3c=
+ud3NqLmNvbS9maW5hbmNlL2NoaW5hLXR1cm5zLXRoZS10YWJsZXMtb24td2FsbC1zdHJlZXQtZW=
+QxMjZhNDc_bW9kPWhwX2xlYWRfcG9zMTE/607f07ceef4b8524a319a23cBf27371bd" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Turns the Tables</a> on Wall Street. Tesla Recalls 2 Million Cars to Fix=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvdGVzbGEt=
+YXV0b3BpbG90LXJlY2FsbC0yLW1pbGxpb24tY2Fycy1uZWVkLXNvZnR3YXJlLWZpeD9jbXBpZD1=
+CQkQxMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzEyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBde67d419" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Autopilot Safety Flaws</a>.=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9jaXRhZGVsLWlzLWhhbmRpbmctYmFjay1hYm91dC0=
+3LWJpbGxpb24taW4tcHJvZml0cy10by1jbGllbnRzLWVlNTczNjU3P21vZD1pdHBfd3Nq/607f0=
+7ceef4b8524a319a23cB83a58f7c" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Citadel</a> Is Handing Back About $7 =
+Billion in Profits to Clients. Vanguard Is Closer Than Ever to Ending Black=
+Rock=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/336=
+83779.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMT=
+ItMTMvdmFuZ3VhcmQtZXRmLWdyb3d0aC10aHJlYXRlbnMtYmxhY2tyb2NrLXMtZG9taW5hbmNlP=
+2NtcGlkPUJCRDEyMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB9ebb42ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  ETF Reign</a>. Morgan Stanley Seeks to=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvbW9yZ2Fu=
+LXN0YW5sZXktc2Vla3MtdG8tc2VsbC11bndhbnRlZC1sb2Fucy10by1ldXJvcGVhbi1maXJtcz9=
+jbXBpZD1CQkQxMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzEyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cB809a1d7d" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  Sell Unwanted Loans</a> to European Fir=
+ms. Private Equity Owners Hand Over Company Keys as <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvcHJpdmF0ZS1lcXVpdHktZmlybXMtbG9z=
+ZS1vdXQtdG8tY3JlZGl0b3JzLWFzLWRlZmF1bHRzLXJpc2U_Y21waWQ9QkJEMTIxMzIzX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+MxMjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB949dda71" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  Defaults Rise</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33683779.258399/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMTItMTMvYXJnZW50aW5hLWJvbmRzLXJpc2UtdG8tdHdvLXllYXItaGlnaC1=
+hcy1taWxlaS1kZWJ1dHMtc2hvY2stcGxhbj9jbXBpZD1CQkQxMjEzMjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTMmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB42b68807" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Argen=
+tina Bonds</a> Rise to Two-Year High After Milei Debuts Shock Plan. OpenAI =
+to Pay Politico Parent Axel Springer for <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVz=
+cy9tZWRpYS9vcGVuYWktdG8tcGF5LXBvbGl0aWNvLXBhcmVudC1heGVsLXNwcmluZ2VyLWZvci1=
+1c2luZy1pdHMtY29udGVudC1iZGMzMzMzMj9tb2Q9aHBfbGVhZF9wb3MxMA/607f07ceef4b852=
+4a319a23cBf4f35622" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Using Its Content</a>. Class of 2024 <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvam9icy1mb3ItY29s=
+bGVnZS1ncmFkdWF0ZXMtY2xhc3Mtb2YtMjAyNC1zdHJ1Z2dsZXMtdG8tZmluZC10ZWNoLWZpbmF=
+uY2Utcm9sZXM_Y21waWQ9QkJEMTIxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjEzJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB339ad667" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Can=E2=80=99t Land Jobs</a=
+> as Hiring in Tech, Finance Wanes. =E2=80=98I repeatedly failed to win any=
+ awards=E2=80=99: my doomed career as a <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33683779.258399/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL=
+25ld3MvMjAyMy9kZWMvMTIvbXktZG9vbWVkLWNhcmVlci1hcy1hLW5vcnRoLWtvcmVhbi1ub3Zl=
+bGlzdA/607f07ceef4b8524a319a23cB2b2c7340" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> North Korean novelist</=
+a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33683779.258399/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBf7f26285" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33683779.258399/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB19b2d989" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] That=E2=80=99s $9 million of gains times a=
+ top <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.2583=
+99/aHR0cHM6Ly93d3cuaXJzLmdvdi90YXh0b3BpY3MvdGM0MDk/607f07ceef4b8524a319a23c=
+Bd02cf34c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">federal capital gains rate of 20%</a> is $1.8 million of=
+ taxes, leaving her with a bit more than $8 million, but then there=E2=80=
+=99s state tax etc.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] That is, $8 million times the top federal =
+income tax rate of 37% is about $3 million.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I could argue this the other way. What is =
+Ackman=E2=80=99s put worth? Well, let=E2=80=99s say you=E2=80=99re Harvard,=
+ you have this Coupang stock, Ackman has promised to pay you the difference=
+ if it goes below $10 million, and it goes to $0 =E2=80=94 it=E2=80=99s a s=
+tartup, startups commonly fail, etc. You go to Ackman for the $10 million. =
+One possibility is that he doesn=E2=80=99t have it: Whatever wiped out the =
+value of Coupang also wiped out his fortune, leaving him too strapped to gi=
+ve you the $10 million. This doesn=E2=80=99t seem that likely, but it's not=
+ a zero probability. Another possibility is that he doesn=E2=80=99t want to=
+ give it: Between his donation and Coupang=E2=80=99s fall, he has gotten ma=
+d at Harvard for some reason, and no longer wants to make up the shortfall.=
+ This has a higher probability! Ackman does have some problems with Harvard=
+! (In either of these two cases, maybe you can sue him to enforce your arra=
+ngement, but that is a bad look and I don=E2=80=99t know how enforceable it=
+ is.) A third possibility is that he writes you the $10 million check, but =
+in his own mind he deducts that $10 million from what he would have given t=
+o Harvard anyway. You come to him at the end of the year saying =E2=80=9CHa=
+rvard <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258=
+399/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1JYk5kY2RPM19Hbw/607f07ceef4b=
+8524a319a23cBafd66635" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">could use an international airport</a>, coul=
+d you chip in $10 million=E2=80=9D and he says =E2=80=9Cwhat, no, I already=
+ wrote you a $10 million check this year, go away.=E2=80=9D The $10 million=
+ is not necessarily *additive*. So you would not, ex ante, value this put a=
+t its full Black-Scholes value; you would not be absolutely certain that th=
+e stock plus the put will always be worth at least $10 million.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] That is, before, you owned 80 units, the c=
+harity owned 10, the employees owned 10. Now the charity=E2=80=99s 10 units=
+ are canceled, so you own 80 out of 90 units, and the employees own 10 out =
+of 90. This is not the only way this contract could work, and my understand=
+ing is that it is more common, in an investment firm's limited partnership =
+agreement, for canceled shares to essentially be reallocated to the founder=
+/CEO, meaning that in practice you=E2=80=99d end up back with 90% and the e=
+mployees with 10%. But this mechanism is theoretically possible, and funnie=
+r.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Again, this leakage is not necessary, or e=
+ven common (see previous footnote); you might just get all $100 million of =
+the value.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] But with some doubt! Also, to be clear, I =
+think the trade is pretty tricky if your company is a *partnership*, as Sto=
+ne Ridge is. Then the reallocation of capital caused by the cancelation of =
+another partner=E2=80=99s shares arguably is income to you. (The relevant c=
+ase is <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.25=
+8399/aHR0cHM6Ly9jYXNldGV4dC5jb20vY2FzZS9sZWhtYW4tdi1jb21tci1vZi1pbnRlcm5hbC=
+1yZXZlbnVlLTE/607f07ceef4b8524a319a23cB28431d8b" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Lehman v. Commissi=
+oner</a>.) But I think that if your company is a *corporation* you are in b=
+etter shape; canceling shares of a corporation clearly *isn=E2=80=99t* inco=
+me to the other shareholders. I think it is less common for a corporation t=
+o have a cancelation-of-shares-for-cause provision, though not theoreticall=
+y impossible, and I think there are other tax reasons why you wouldn=E2=80=
+=99t want the company to be organized as a corporation, but still there=E2=
+=80=99s maybe a fun trade there. This is incredibly not tax or legal advice=
+.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Like, Microsoft Excel could be for lawyers=
+ what Microsoft Excel was to investment bankers: When I was an investment b=
+anker, we *did* keep track of legal terms in an Excel spreadsheet, so we kn=
+ew what was market. But that required someone to input each deal into the s=
+preadsheet, and what lawyer would do that?</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2e58f2e2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB4efb136b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB450332ae" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa540a5cb" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBf0fe969c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.2583=
+99/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB79ca4093" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33683779.258399/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5cecc941" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33683779.258399/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd0c83296" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33683779.258399/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB62234342" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+7b8bf6e" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33683779.258399/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+667bed4" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck1ykj.5jdr/8298b57d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_12495357_461220904.1702496270888--
+

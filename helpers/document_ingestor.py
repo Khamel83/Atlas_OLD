@@ -22,8 +22,10 @@ from urllib.request import urlretrieve
 import requests
 
 from helpers.base_ingestor import BaseIngestor, IngestorResult
-from helpers.document_processor import (AtlasDocumentProcessor,
-                                        is_document_processing_available)
+from helpers.document_processor import (
+    AtlasDocumentProcessor,
+    is_document_processing_available,
+)
 from helpers.metadata_manager import ContentMetadata, ContentType
 
 
@@ -206,16 +208,20 @@ class DocumentIngestor(BaseIngestor):
             print(f"[{self.module_name}] Processing document: {file_path}")
 
             # COMPREHENSIVE METADATA EXTRACTION - Never lose any data!
-            comprehensive_metadata = self._extract_all_document_metadata(file_path, metadata.source)
-            
+            comprehensive_metadata = self._extract_all_document_metadata(
+                file_path, metadata.source
+            )
+
             # Add comprehensive metadata to metadata object
             metadata.type_specific.update(comprehensive_metadata["type_specific"])
-            
+
             # Save raw file for complete preservation (for small files)
             file_size = os.path.getsize(file_path)
-            if file_size < 50 * 1024 * 1024:  # Only preserve files under 50MB as raw data
+            if (
+                file_size < 50 * 1024 * 1024
+            ):  # Only preserve files under 50MB as raw data
                 try:
-                    with open(file_path, 'rb') as f:
+                    with open(file_path, "rb") as f:
                         raw_data = f.read()
                     self.save_raw_data(raw_data, metadata, "raw_document")
                 except Exception as e:
@@ -268,9 +274,9 @@ class DocumentIngestor(BaseIngestor):
             content = metadata.type_specific["content"]
             if len(content) > 500:
                 try:
-                    from process.evaluate import summarize_text
+                    from process.evaluate import summarize_content
 
-                    metadata.type_specific["summary"] = summarize_text(
+                    metadata.type_specific["summary"] = summarize_content(
                         content[:4000]
                     )  # Limit for summarization
                 except Exception as e:
@@ -341,13 +347,15 @@ class DocumentIngestor(BaseIngestor):
         # Final fallback: first 50 words
         words = content.split()[:50]
         return " ".join(words) + "..." if len(words) == 50 else " ".join(words)
-    
-    def _extract_all_document_metadata(self, file_path: str, source_url: str) -> Dict[str, Any]:
+
+    def _extract_all_document_metadata(
+        self, file_path: str, source_url: str
+    ) -> Dict[str, Any]:
         """
         Extract ALL available metadata from document file.
         CORE PRINCIPLE: Never lose any data - capture everything!
         """
-        
+
         # File system metadata
         try:
             stat_info = os.stat(file_path)
@@ -362,11 +370,13 @@ class DocumentIngestor(BaseIngestor):
                 "file_permissions": oct(stat_info.st_mode)[-3:],
                 "inode": stat_info.st_ino,
                 "device": stat_info.st_dev,
-                "hard_links": stat_info.st_nlink
+                "hard_links": stat_info.st_nlink,
             }
         except Exception as e:
-            filesystem_metadata = {"error": f"Could not extract filesystem metadata: {e}"}
-        
+            filesystem_metadata = {
+                "error": f"Could not extract filesystem metadata: {e}"
+            }
+
         # File path analysis
         path_obj = Path(file_path)
         path_metadata = {
@@ -376,61 +386,79 @@ class DocumentIngestor(BaseIngestor):
             "suffixes": path_obj.suffixes,
             "parent_directory": str(path_obj.parent),
             "is_absolute": path_obj.is_absolute(),
-            "parts": list(path_obj.parts)
+            "parts": list(path_obj.parts),
         }
-        
+
         # Document format detection
         format_metadata = {
             "detected_extension": path_obj.suffix.lower(),
-            "is_supported_format": self.document_processor.is_supported_format(file_path) if hasattr(self, 'document_processor') else False,
-            "supported_extensions": self.document_processor.get_supported_extensions() if hasattr(self, 'document_processor') else []
+            "is_supported_format": (
+                self.document_processor.is_supported_format(file_path)
+                if hasattr(self, "document_processor")
+                else False
+            ),
+            "supported_extensions": (
+                self.document_processor.get_supported_extensions()
+                if hasattr(self, "document_processor")
+                else []
+            ),
         }
-        
+
         # Content preview (first few bytes for format identification)
         content_preview = {}
         try:
-            with open(file_path, 'rb') as f:
+            with open(file_path, "rb") as f:
                 first_bytes = f.read(512)  # First 512 bytes
                 content_preview = {
                     "first_512_bytes_hex": first_bytes.hex(),
-                    "first_512_bytes_preview": first_bytes[:100].decode('utf-8', errors='ignore'),
+                    "first_512_bytes_preview": first_bytes[:100].decode(
+                        "utf-8", errors="ignore"
+                    ),
                     "magic_number": first_bytes[:8].hex(),
-                    "detected_encoding": "binary"
+                    "detected_encoding": "binary",
                 }
-                
+
                 # Try to detect text encoding for text files
                 try:
                     f.seek(0)
-                    text_sample = f.read(1024).decode('utf-8')
+                    text_sample = f.read(1024).decode("utf-8")
                     content_preview["text_sample"] = text_sample[:200]
                     content_preview["detected_encoding"] = "utf-8"
                 except UnicodeDecodeError:
                     try:
                         f.seek(0)
-                        text_sample = f.read(1024).decode('latin-1')
+                        text_sample = f.read(1024).decode("latin-1")
                         content_preview["text_sample"] = text_sample[:200]
                         content_preview["detected_encoding"] = "latin-1"
                     except Exception:
                         pass
         except Exception as e:
             content_preview = {"error": f"Could not read file preview: {e}"}
-        
+
         # Source information
         source_metadata = {
             "original_source": source_url,
-            "is_remote_source": source_url.startswith(('http://', 'https://')),
-            "is_local_file": not source_url.startswith(('http://', 'https://')),
-            "source_domain": urlparse(source_url).netloc if source_url.startswith(('http://', 'https://')) else None
+            "is_remote_source": source_url.startswith(("http://", "https://")),
+            "is_local_file": not source_url.startswith(("http://", "https://")),
+            "source_domain": (
+                urlparse(source_url).netloc
+                if source_url.startswith(("http://", "https://"))
+                else None
+            ),
         }
-        
+
         # Processing metadata
         processing_metadata = {
             "extraction_timestamp": datetime.now().isoformat(),
             "extraction_method": "atlas_document_ingestor",
             "processor_version": "atlas_v1.0",
-            "available_processors": getattr(self.document_processor, 'available_processors', []) if hasattr(self, 'document_processor') else []
+            "available_processors": (
+                getattr(self.document_processor, "available_processors", [])
+                if hasattr(self, "document_processor")
+                else []
+            ),
         }
-        
+
         return {
             "type_specific": {
                 "document": {
@@ -439,7 +467,7 @@ class DocumentIngestor(BaseIngestor):
                     "format_detection": format_metadata,
                     "content_preview": content_preview,
                     "source_information": source_metadata,
-                    "processing": processing_metadata
+                    "processing": processing_metadata,
                 }
             }
         }

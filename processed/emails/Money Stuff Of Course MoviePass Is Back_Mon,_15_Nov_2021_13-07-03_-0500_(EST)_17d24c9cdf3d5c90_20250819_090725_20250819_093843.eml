@@ -1,0 +1,2112 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp4929719lkd;
+        Mon, 15 Nov 2021 10:09:04 -0800 (PST)
+X-Received: by 2002:a05:6402:270b:: with SMTP id y11mr812035edd.377.1636999744686;
+        Mon, 15 Nov 2021 10:09:04 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1636999744; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=C9mwFdXLoiLhOhKqF9hRoLgwgeQC4dL3x6yy0eCvjAubPzf5bnlk88oI7cpS8oNxtH
+         wiW8d4WZrFb2PRY9FLVqFqNHAmYS/lDVby7aZhkimWFN0y+W36fOFdsSgsDAxp/O2eJq
+         17GipJ/6rJU/Yz5Ap3TAK030gPFtaNvb/vuI3a6wRbep1NAV5rxzUJg05AdL4fB4TVZ1
+         G/PeLT57qjzcl/hlbQtOqhu3LBxeaJsjecrn4M+uGp3SkDaZ6t8DK8wJ6edAqxUalVG/
+         8PgSXUE6HBijHh5jbCgY0k+SCmGLbX2g+FbSNy5VyUhR5yNMj+G0lIHL0qp8/ReHovHb
+         l/Kw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=bFSGzq/uxGD/+I4FVxmCrmAFviweRBcGzr6aW2jzrWE=;
+        b=KOKf0WAQiB1FaQHC3Xt40YjxQfDuB8qWPqEUfIS3UOnADMfNPc6L1f/Q5i0VABVHnu
+         9O4RgtRj7UpJbdO/uT68RHb3SvglXBuFdBlMY3TliH2n5DJRj7VmcG6ZyyQT93HVwar1
+         gBGZ9n6wszjfz8z1skD3DcUzuEau0EHEBFv80C0NjIPT4RZwGxDBbHto2Fq6F7/pssxV
+         DGktlBtTbrspBAfioHmspwFYxvRNHc5v/Mz+i98teXUK4TU6gF2FtqhN3sKBJtBKNYsa
+         0z1bYJtrA+rVTntmPrKg2XKMdOWW2Cwp6QslbSio0/hWo5HIc2Gbl+JgB74Z4tAHDuFe
+         ebWw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=04asNUTd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m15sor3545540edd.9.2021.11.15.10.09.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 15 Nov 2021 10:09:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=04asNUTd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=bFSGzq/uxGD/+I4FVxmCrmAFviweRBcGzr6aW2jzrWE=;
+        b=cHoAEE0QCvG0+M6wtY9TFOHIG3EZcWw1ZIJ1ng9GH4ZlrHQffpSpPk3V8aYtEDLkRw
+         kTleapYkwNAy6y7R2e8QLiVR0c9NiHaxKD54gIERL5QPieGQ73saW1eSoFLCFwZ0gNTo
+         +CIVUQpMoK8dcR8f3X2U148OINkWXf0eqhOCZPqJQpzy7ApnQ+07V+I0ZAW+JDDzWhDH
+         6rCc1uPSJY1h+fyVXnfPxjfJd3eiRVlszC61nUvjKlPl5wuN56+VSijCuDpJ8lVGqiRc
+         /9uLjYtZiuhWATWwDGIhAf+DcmAGlfPQbLLDM7Jj6sGaNGQVOebOsz7OcGFUjZO1Z2pH
+         WI8A==
+X-Gm-Message-State: AOAM532p57cSR1lVYS2BfkcSdeHuNU0BZ6WC3G07sXuI8DIjrW5ZuwmA
+	eznutkiIva8j4mvnbXC4lcOQGybJXKdGnx9WeBFg/9qG6PkmE/Uezw==
+X-Received: by 2002:a50:e707:: with SMTP id a7mr934882edn.352.1636999744244;
+        Mon, 15 Nov 2021 10:09:04 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3f11:0:0:0:0:0 with SMTP id b17csp707579ecq;
+        Mon, 15 Nov 2021 10:09:00 -0800 (PST)
+X-Received: by 2002:a17:902:7c8a:b0:143:bb4a:7bb3 with SMTP id y10-20020a1709027c8a00b00143bb4a7bb3mr21806571pll.46.1636999740653;
+        Mon, 15 Nov 2021 10:09:00 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1636999740; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Jek+QE69cL/X4SHSRAyu35bNfqEkwYFV7MifHgSEt5uL1KVi2NHCa8OmEtpcDccyCJ
+         GOkw6ewsCM2BOj39gwm3IOkBlo97yXJFPtA0Bo2ClSAp0M8tqbWYVoqYTtJeOo4Qdija
+         Lyx/OZCWKjcbRVt6En+/MoKRgvwe2IbrBVKBl+gsu0rNiBbE/j9RME4ucMBPl/8wCTwA
+         6b0oUnNRFmAsDHR5juUAxn8Y3X7Cj9vb4vO/xF/pK+IS6mN+fSJcprt0FUMSaZ3HOJf9
+         /X8/Wg/wUnGDpHkNWo1NOMsOgqBm3VTKEtv6zw7cbiVxID1D+wgq7iUSwvsvRWxQYxSR
+         JM2A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=bFSGzq/uxGD/+I4FVxmCrmAFviweRBcGzr6aW2jzrWE=;
+        b=bsnVlaWQ75VyinAJppKTLAUcPCH1ZHbhBo6IXQ8IkihN+NPTW+q9MaVzf/Lom+BhsM
+         JGrieKofVi/gt19o7RNyzmFDza370RjBYOv6anZ8oDxZIxun1cHqKUNvsmXTB/xerq4L
+         lNoiquPcq1L0bY8ZXQjD2SdWBDYIpZUOsYiKhWhq2sdwpHbnxS7RmWOljZ2+Nhw6B0Sf
+         ubz8VhySdPl2kzD9TATzi8aMX871L1jVHV37LSAxr7cxwhB4rsDJMlpaVkwUNsfpwsd2
+         yvLC+CBIb3dDth/iEw3B4IP4yreq84yPoGLhEess60ZG17imj9ZucQYBztXCvZJ6U5S9
+         AgqA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=04asNUTd;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211115130703.25710228.278663@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211115130703.25710228.278663@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211115130703.25710228.278663@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u17sor9916297plg.37.2021.11.15.10.09.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 15 Nov 2021 10:09:00 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211115130703.25710228.278663@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwwFo7qofQDNE7cactqQOchRypPJO37OvTn2C9gCWfp6scyNOBs3J86JfVIDjlWelNGxl1NyaZfpy/Y+X/jvXHKUPt17pc=
+X-Received: by 2002:a17:903:2283:b0:141:f858:f9af with SMTP id b3-20020a170903228300b00141f858f9afmr37759592plh.80.1636999740261;
+        Mon, 15 Nov 2021 10:09:00 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1636999740; cv=none;
+        d=google.com; s=arc-20160816;
+        b=N5lAOvr+iVsRHFZufs2La/Ca4QkgU24sxbfrqfcP9SjSubu5k1xJ8HYQ9Sznw04FU2
+         ajoSBiDq0epjxHWBkCvuz56AsldVH4ZsoQh/tgBwJKwiCxetym6OCzK0rL7UhmXPQpEW
+         +YDUdnG5p1RwvfIJazPu/d9OBnsruQY0BPAJMozklXiDzwd5bLA5Gtl6npLrCFVPfTkH
+         ZyvM9PfIOSIMXRpdAtHjxLQsZFyFsXQPiHe/BFySSBd0nxoQJtANVhtJXEaDabVm3Q66
+         6eV+45yqtk5r4OuCOUJArjFr46KqvOE/lAOy9Ua3DimRFK//zHS7LjDzFQOqVmvtvZeF
+         PPUA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=bFSGzq/uxGD/+I4FVxmCrmAFviweRBcGzr6aW2jzrWE=;
+        b=seEevCgNYXOKDp9SHR7GUJ//vm52ndDqynaFviZON5Hz0+VMce9276Welm0O+KYMJN
+         yvqUy8ptcO/q4DLBoirdf8DF3hrEWs7R6Fnm7MT1wwOvAsNOxA121H0rFcAna855IVgc
+         NER6rKAvWVgjvpA0w4Q+ZM2siR5PHe95XPV+4CY3r9D04bBHpFzNTBLOnmB0eNTBpQHM
+         EnTV779PLN+hpYCO+4wCoHuAnEChCQ9A625AeYwMcM51exKEwqzYtEbioTwmX3jaMkHv
+         XlmyZrg33Kv0ffcJBkdz9FukdJIvpEr8FshleDFr7Id9pY0hEtG7VD2tjkUh+coWTgWQ
+         Vi3Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=04asNUTd;
+       spf=pass (google.com: domain of delivery_20211115130703.25710228.278663@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20211115130703.25710228.278663@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211115130703.25710228.278663@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id q20si1203855pgt.1.2021.11.15.10.08.50
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Nov 2021 10:09:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211115130703.25710228.278663@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=UO4eVJaY//0fVrTcoN/zK8XTCeNpNSMN19b2FDilyh4=;
+ b=04asNUTd3n2bxJYVWqFXF6r2FGOsvAAXFp/w+IqIBHWMbZevL0edBiFk73LhfgDYRe8KexkMO8jZ
+   J55Z55t1OLVtiY3yL84vq0F4RU8Qtgqi21t7zhFTKSxgtQdw35FUixFqzjPvYGyAXx/NFVsgVsyy
+   0nZyzKrddAC2ymQ0WSU=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id hiah362tkt0b for <bloomberg@khamel.com>; Mon, 15 Nov 2021 13:08:43 -0500 (envelope-from <delivery_20211115130703.25710228.278663@mx.sailthru.com>)
+Date: Mon, 15 Nov 2021 13:07:03 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211115130703.25710228.278663@sailthru.com>
+Subject: Money Stuff: Of Course MoviePass Is Back
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_17732330_1273139455.1636999623952"
+Precedence: bulk
+X-Feedback-ID: 6358:25710228:campaign:sailthru
+X-TM-ID: 20211115130703.25710228.278663
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfb250.5z0n/fce0aad9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfb250.5z0n/fce0aad9>, <mailto:unsubscribe_20211115130703.25710228.278663@mx.sailthru.com>
+X-rpcampaign: stjko25710228
+
+------=_Part_17732330_1273139455.1636999623952
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+        MoviePassObviously if MoviePass hadn=E2=80=99t gone bankrupt in Jan=
+uary 2020, but had instead limped along until January 2021, it would be a $=
+50 bil
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      MoviePass
+   =20
+ =20
+Obviously=C2=A0if MoviePass hadn=E2=80=99t gone bankrupt in January 2020, b=
+ut had instead limped along until January 2021, it would be a $50 billion c=
+ompany right now. How could it not have become a meme stock? It has everyth=
+ing. Its product =E2=80=94=C2=A0you pay MoviePass $10 a month, and in excha=
+nge you can see as many movies as you want, in theaters =E2=80=94=C2=A0has =
+the retail-focused, nostalgic, pandemic-scarred appeal of other meme stocks=
+ like AMC Entertainment Holdings Inc. and GameStop Corp. Also its business =
+model made no sense: You could see all those movies because MoviePass would=
+ buy tickets for you, at full price, generally $10 a ticket or more; it los=
+t money on most of its customers every month. This led people to short the =
+company (technically its parent company, Helios & Matheson Analytics Inc.),=
+ which would no doubt have infuriated Reddit meme-stock traders and led the=
+m to short-squeeze it.Also I guess =E2=80=A6=C2=A0I guess that Covid-19 wou=
+ld have been really good for MoviePass? Its main risk was that people would=
+ use its product, and in a pandemic they=E2=80=99d have to stop. (For a whi=
+le, pre-pandemic,=C2=A0MoviePass dealt with this risk by  changing people=
+=E2=80=99s passwords so they couldn=E2=80=99t use the product, an incredibl=
+e power move that surely would have appealed to Reddit?) It just seems perf=
+ectly set up for 2021, and it=E2=80=99s a shame we never got to see what ha=
+ppened, because its business model=C2=A0 did not work, it ran out of money,=
+ and Helios & Matheson filed for bankruptcy in 2020.=C2=A0Back in the day, =
+I wrote admiringly about MoviePass because it seemed so crazy, a leading ex=
+ample of how late-2010s consumer services were uneconomically subsidized by=
+ growth-hungry investors. (=E2=80=9CThe MoviePass Economy,=E2=80=9D we call=
+ed it.)=C2=A0But MoviePass was a symbol of wild incomprehensibility back in=
+ what was, in retrospect, a fairly comprehensible time. In 2021 every singl=
+e thing that I write about makes less sense than MoviePass. =E2=80=9CBuy un=
+limited $10 movie tickets and give them to people for a $10 monthly fee=E2=
+=80=9D? Sure yeah that sounds fine, have you heard about NFTs?Anyway it=E2=
+=80=99s back:MoviePass cofounder Stacy Spikes was granted ownership of the =
+company by a Southern District of New York bankruptcy court judge who appro=
+ved the sale on [last]=C2=A0Monday, according to court documents reviewed b=
+y Insider. The financial transaction took place on Wednesday.Spikes had pla=
+ced a bid of an undisclosed amount to the trustee handling the bankruptcy o=
+f Helios and Matheson Analytics (HMNY), the former parent company of MovieP=
+ass."I can confirm that we acquired MoviePass out of bankruptcy on Wednesda=
+y," Spikes said in a statement to Insider. "We are thrilled to have it back=
+ and are exploring the possibility of relaunching soon. Our pursuit to recl=
+aim the brand was encouraged by the continued interest from the moviegoing =
+community. We believe, if done properly, theatrical subscription can play a=
+n instrumental role in lifting moviegoing attendance to new heights." ...Sp=
+ikes hopes to relaunch MoviePass sometime next year.=C2=A0A new site has be=
+en created for the relaunch, iwantmoviepass.com, and its logo will now feat=
+ure a black background with white lettering, ditching its previous red back=
+ground. Here is the new logo:The new logo is somehow not a picture of Doge.=
+ He=E2=80=99d better be selling non-fungible tokens of movie tickets. He=E2=
+=80=99d better be teaming up with AMC to get people free MoviePass shares w=
+ith  a large popcorn. He=E2=80=99d better be launching his own cryptocurren=
+cy. There=E2=80=99d better be an  electric-vehicle angle in there somewhere=
+.=C2=A0Sure=C2=A0financial news in 2021 has been dumb, but it has been miss=
+ing MoviePass. Now it=E2=80=99s perfect.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      MBA ESG
+   =20
+ =20
+One theory you could have about environmental, social and governance invest=
+ing is that it is a good investing=C2=A0strategy; it maximizes expected ret=
+urns. Coolly self-interested investors say to themselves =E2=80=9Cif we don=
+=E2=80=99t reduce carbon emissions and racial inequalities, we will make le=
+ss money, so we should do those things.=E2=80=9D This is a real theory that=
+ people very much believe in, though there are also doubters.Another theory=
+ you could have about ESG is that it is a good=C2=A0marketing=C2=A0strategy=
+; it maximizes the ability of institutional asset managers to gather assets=
+. Coolly self-interested asset managers say to themselves =E2=80=9Cif we te=
+ll people that we are reducing carbon emissions and racial inequalities, th=
+ey will give us their money to manage.=E2=80=9D There is some obvious truth=
+ to this one, and you don=E2=80=99t have to be cynical about it; big asset =
+managers do say that their ESG concerns=C2=A0are=C2=A0client-driven, and ge=
+nerally it is good for asset managers to do what clients want. (This theory=
+ pushes down the question of, well, why do the clients want it?)A third the=
+ory you could have about ESG is that it is a good=C2=A0personal=C2=A0strate=
+gy: Investors are people, they live on a planet and in a society, they want=
+ the planet to be habitable and the society to be good, investment returns =
+are not everything.What do you make of this?A decade ago, the hottest M.B.A=
+. courses typically covered topics such as game theory, valuing securities =
+and negotiating mergers. Today, some of the most popular classes are about =
+climate finance, impact investing and social entrepreneurship.The Universit=
+y of Pennsylvania Wharton School of Business now offers more than 50 underg=
+raduate and graduate courses related to social impact. The Duke University =
+Fuqua School of Business recently added a course to its core curriculum cal=
+led =E2=80=9CBusiness and Common Purpose.=E2=80=9D At Harvard Business Scho=
+ol, 600 students took second-year elective courses related to social enterp=
+rise last year, compared with 251 in 2012.=E2=80=9CThere=E2=80=99s been an =
+explosion of interest from students,=E2=80=9D said Todd Cort, a lecturer on=
+ sustainability at the Yale School of Management and the co-director of the=
+ school=E2=80=99s environment and business center.This interest reflects an=
+ increase in jobs that require knowledge in environmental, social and gover=
+nance, or E.S.G., topics.Global sustainable investment topped $30 trillion =
+in 2019 =E2=80=94 up 68 percent since 2014, according to McKinsey. That has=
+ created more jobs in the field, which has pushed salaries higher for worke=
+rs with the necessary skills. In addition, companies say they=E2=80=99re ha=
+ving an easier time recruiting junior employees than senior leaders in E.S.=
+G. roles, which could give younger workers an advantage in climbing the cor=
+porate ladder (or allow them to start at a higher rung) than for the typica=
+l jobs for M.B.A. graduates.You could tell a marketing story here: ESG inve=
+sting is hot, so business school students want to market themselves to empl=
+oyers by taking ESG courses. You could tell an investing-returns story here=
+: ESG investing is hot because it works, so business schools on the cutting=
+ edge of financial research teach it as a way to maximize long-term returns=
+. You could tell a personal story here: Young people in business school are=
+ relatively idealistic (compared to grizzled financial veterans, I mean, no=
+t compared to, like, young people in social work school), and they are the =
+paying consumers of business education, so they want classes that align wit=
+h their personal morality.One other story I would tell is one of intellectu=
+al frameworks. We  talked a few years ago about a paper finding that changi=
+ng academic views about the benefits of conglomerates in business schools l=
+ed, a decade or two later, to changes in how businesses were run: Chief exe=
+cutive officers who were taught in business school that diversification and=
+ conglomeration were good ended up building conglomerates, while CEOs who w=
+ere taught that they were bad ended up dismantling them. I wrote that this =
+was kind of a nice result:It says something nice about the value of teacher=
+s and scholars, for one thing. But it also says something nice about CEOs. =
+It suggests that they want to do the right thing, and they have a socially =
+developed framework for deciding what the right thing is, and that framewor=
+k changes over time for intellectual reasons rather than just because of co=
+nstraints and incentives. There is really nothing weird or surprising about=
+ that, but it just tends not to be how corporate-finance theory works.Why a=
+re business schools teaching dozens of ESG courses? Maybe because that=E2=
+=80=99s the cutting edge of financial return maximization, maybe because it=
+=E2=80=99s what employers want for market reasons, maybe because it=E2=80=
+=99s what students want for personal reasons. But they=C2=A0are=C2=A0teachi=
+ng lots of ESG courses, which means that if you go to business school now y=
+ou=E2=80=99ll get a lot of ESG in your curriculum. Probably that will affec=
+t how you think companies should be run, and how you eventually run compani=
+es yourself.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The Elon show
+   =20
+ =20
+Elon Musk keeps selling Tesla Inc. shares and I suppose I=E2=80=99m obliged=
+ to keep up to date on that?=C2=A0We have discussed it previously=C2=A0 her=
+e and  here. There are two strands of Musk-selling-Tesla things that seem t=
+o be going on these days:=09He has 22.9 million stock options that expire n=
+ext August. He has previously said that he was going to exercise all of tho=
+se options and sell roughly half the underlying shares to pay taxes, all wi=
+thin the fourth quarter of 2021. He has an automatic Rule 10b5-1 plan, whic=
+h he set up in September, to do some or all of that option-exercising and s=
+tock-selling. Last Monday, the automatic plan exercised 2.15 million option=
+s and sold 934,091 shares. That was the first, and so far the last, that=C2=
+=A0we heard of it.[1]=09As of last weekend (Nov. 6), he owned between 170 m=
+illion and 244 million shares of Tesla stock, depending how you count. (Dep=
+ending whether you count only shares he owns outright, or also shares under=
+lying options.) On Nov. 6, he asked Twitter if he should sell 10% of those =
+shares for no particular reason. (I mean, the stated reason was something l=
+ike =E2=80=9Cshould I voluntarily trigger a few billion dollars of capital-=
+gains taxes for trolling purposes?=E2=80=9D) He took a poll, he promised to=
+ abide by the results of the poll,=C2=A058% of votes were for =E2=80=9Cyes,=
+=E2=80=9D and off he went selling stock. He started last Tuesday, and by Fr=
+iday he had sold about 5.4 million shares for about $5.8 billion. Here I am=
+ not counting the 934,091 shares that he sold in Strand 1; the shares sold =
+in Strand 2 were not the results of new=C2=A0option exercises.[2]So where a=
+re we? Last week Musk sold a total of about 6.4 million Tesla shares for ab=
+out $6.9 billion. On Strand 1,=C2=A0I would naively assume that Musk will e=
+xercise another 20.7 million options, and sell another 10-million-ish share=
+s, automatically under his 10b5-1=C2=A0plan in the next six weeks. But ther=
+e=E2=80=99s no guarantee of that. Maybe the 10b5-1 plan runs through next y=
+ear, or maybe it only exercises if the stock price is above a certain level=
+, and it won=E2=80=99t actually do the whole 20.7 million. Maybe he cancele=
+d the 10b5-1 plan after Monday=E2=80=99s sales to focus more on his trollin=
+g. Who knows!=C2=A0On Strand 2, I=E2=80=99m assuming he will sell at least =
+11.6 million more shares, to get to 17 million, which represents roughly 10=
+% of the shares he had when he tweeted the poll. I assume he will do that f=
+airly quickly; at roughly his current clip, that means something like anoth=
+er two or three weeks to get through the full 17 million. But, again, who k=
+nows!The simplest possibility is that his Strand 2 selling =E2=80=94=C2=A0j=
+ust selling shares he already owns=C2=A0=E2=80=94=C2=A0will raise enough ca=
+sh to pay his taxes on the stock-option exercise, so that he doesn=E2=80=99=
+t need to do any more Strand 1 selling. If he sells 17 million shares he wi=
+ll collect, let=E2=80=99s say, $18 billion.[3] That would incur taxes of pe=
+rhaps $4 billion, leaving him with perhaps $14 billion of net proceeds.[4] =
+If he then exercises his remaining 20.7 million options, he=E2=80=99ll have=
+ taxable income of something like $21.3 billion.[5] He has said he pays a 5=
+3% income tax rate, so he=E2=80=99ll owe about $11.3 billion more in taxes.=
+ His sales will cover that with a couple billion dollars left over. This is=
+ not the traditional way to pay taxes on options exercise =E2=80=94=C2=A0th=
+e traditional way is what he did last Monday, exercising and selling a port=
+ion of the underlying shares =E2=80=94=C2=A0but, you know, also fine.[6]=C2=
+=A0Anyway on Saturday Bernie Sanders tweeted something=C2=A0anodyne about h=
+ow rich people should pay taxes, and Musk got mad on Twitter and offered to=
+ sell more stock. =E2=80=9CWant me to sell more stock, Bernie? Just say the=
+ word =E2=80=A6,=E2=80=9D he tweeted. Sanders should do it! =E2=80=9CSure E=
+lon, sell another 30 million,=E2=80=9D why not, see if it works.The stock w=
+as down about 4% as of 11 a.m. today; it=E2=80=99s down about 19% since Nov=
+. 5, the last trading day before Musk=E2=80=99s poll. In general it is my t=
+heory that when Musk is loud, annoying and funny on Twitter, that is good f=
+or Tesla=E2=80=99s stock price; that attracts the attention of loyal fans w=
+ho will bid up the stock. But it is not working here, I suppose for the obv=
+ious reason that the particular loud, annoying, funny thing that Musk is do=
+ing on Twitter is dumping billions of dollars of Tesla stock. One lesson he=
+re is that if Musk wants to tank Tesla=E2=80=99s stock =E2=80=94=C2=A0by=C2=
+=A0talking constantly for a week about how he=E2=80=99s selling it=C2=A0=E2=
+=80=94=C2=A0he can do it. Why does he want to?
+ =20
+   =20
+      Narrow banking and stablecoins
+   =20
+ =20
+The basic idea of a stablecoin is that it is a cryptocurrency that lives on=
+ the blockchain and is always worth one U.S. dollar. (Or one euro, or some =
+other pegged unit of account.) The simple way to do a stablecoin is to have=
+ the issuer sell stablecoins for one dollar each, and put the dollar somewh=
+ere safe. Then when a stablecoin holder wants her dollar back, the stableco=
+in issuer has it, and can give it to her.This is the way that some stableco=
+ins work.=C2=A0They put the dollars into Treasury bills or bank accounts at=
+ reputable banks or whatever, somewhere safe. Other stablecoins work differ=
+ently. A=C2=A0popular way to build a stablecoin is with  senior claims on v=
+olatile cryptocurrency. But arguably=C2=A0the leading way to build a stable=
+coin is a variant on the simple approach: The issuer sells stablecoins for =
+one dollar each=C2=A0and puts the dollar  somewhere=C2=A0not=C2=A0safe. The=
+n, when you ask the issuer where it's keeping your dollars,  it says =E2=80=
+=9Cooh sorry no that=E2=80=99s a big secret but trust us, it=E2=80=99s some=
+where real good.=E2=80=9DThis =E2=80=A6=C2=A0look, I don=E2=80=99t know man=
+, maybe that=E2=80=99s fine, but it makes people nervous. U.S.=C2=A0financi=
+al regulators are particularly nervous and have proposed new rules for stab=
+lecoins. The gist of the proposed rules is that only regulated banks will b=
+e allowed to issue stablecoins. We have  talked about these rules, and I ha=
+ve pointed out that they are strange. In particular, these rules are=C2=A0s=
+tricter=C2=A0than the rules for traditional finance. In traditional finance=
+, you can start a money-market fund that takes your dollar, puts it into Tr=
+easury bills or bank certificates of deposit or whatever, and promises to g=
+ive you the dollar back when you want it; that would=C2=A0not be regulated =
+as a bank. But in crypto, under the proposed rules, that would have to be a=
+ bank.But here is a memo from Davis Polk & Wardwell LLP that points out som=
+ething even stranger: Under the proposed rules,=C2=A0it would be impossible=
+ to do stablecoins the good simple way. If you wanted to set up a stablecoi=
+n under these proposed rules, you=E2=80=99d need to do it in a bank. So you=
+ set up Stablecoin Bank Corp. You issue $1 billion of stablecoins and inves=
+t the money in $1 billion of extremely safe stuff, Treasury bills expiring =
+tomorrow or whatever. And then the banking regulators would come to you and=
+ say: No, this doesn=E2=80=99t work, if you have $1 billion of Treasuries y=
+ou need $40 million of equity; that is a central rule of bank capital regul=
+ation, that you need equity alongside your deposits. And then as you issue =
+more stablecoins you have to raise more equity, and it is hard to get a dec=
+ent return on equity if you=E2=80=99re investing in only the very safest th=
+ings.[7]=C2=A0 So you are forced to reach for yield, to buy riskier=C2=A0th=
+ings with higher yields in order to make a return on equity =E2=80=94=C2=A0=
+you know, like banks do.=C2=A0Davis Polk:By recommending that Congress requ=
+ire all stablecoin issuers to be IDIs [insured depository institutions, i.e=
+. banks], the Report would effectively require all stablecoin issuers to en=
+gage in fractional reserve banking and effectively prohibit them from being=
+ structured as 100% reserve banks (i.e., narrow banks) that limit their act=
+ivities to the issuance of stablecoins fully backed by a 100% reserve of ca=
+sh or cash equivalents.The reason is that IDIs are subject to minimum lever=
+age capital ratios that were calibrated for banks that engage in fractional=
+ reserve banking and invest the vast portion of the funds they raise throug=
+h deposit-taking in commercial loans or other illiquid assets that are risk=
+ier but generate higher returns than cash or cash equivalents. Minimum leve=
+rage ratios treat cash and cash equivalents as if they had the same risk an=
+d return profile as commercial loans, commercial paper and long-term corpor=
+ate debt, even though they do not. Unless Congress recalibrated the minimum=
+ leverage capital ratios to reflect the lower risk and return profile of ID=
+Is that limit their assets to cash and cash equivalents, the minimum levera=
+ge capital ratios would make the 100% reserve model for stablecoin issuance=
+ uneconomic and therefore effectively prohibited. It is puzzling why the PW=
+G, FDIC and OCC would recommend a regulatory framework that would effective=
+ly require stablecoin issuers to invest in riskier assets and rely on FDIC =
+insurance rather than permitting stablecoins backed by a 100% cash and cash=
+ equivalent reserve.We have  talked previously about the Fed=E2=80=99s host=
+ility to =E2=80=9C narrow banking,=E2=80=9D the idea of a bank that would j=
+ust take deposits and park them in reserves at the Fed. This is a perfectly=
+ safe form of banking, but it is not a traditional form of banking; traditi=
+onally, banks take deposits and use them to make longer-term loans to busin=
+esses and consumers and homeowners. The Fed seems to like traditional banki=
+ng, the kind where banks use deposits productively (but riskily); it does n=
+ot like narrow banking, the kind where banks just park deposits somewhere s=
+afe. If stablecoins have to be banks, they will have to be risky: They will=
+ have to have equity capital, which will cushion stablecoin users against t=
+he risk of loss, but they=E2=80=99ll need to buy assets that create that ri=
+sk of loss. The dream of a stablecoin as a narrow bank, where it issues dol=
+lar-denominated crypto assets and backs them with dollars deposited at the =
+Fed, won=E2=80=99t work.Again, this is weird! Again, it is not the rule in =
+traditional finance, where narrow banks are disfavored but Treasury money-m=
+arket funds are fine. But the rules seem harder for crypto.
+ =20
+   =20
+      Fiduciaries
+   =20
+ =20
+Honestly it=E2=80=99s a little weird that Meta Platforms Inc. (sorry! that =
+means Facebook!) board member Peter Thiel is trying to  break up Meta Platf=
+orms Inc. from the outside?Ohio Senate candidate JD Vance says his Silicon =
+Valley experience makes him ideal to take on big technology companies, a fa=
+vorite target of Republicans, but he=E2=80=99ll have to brush off attacks f=
+rom rivals who question his sincerity on tech issues. =E2=80=A6Vance, a Yal=
+e Law School graduate, argues that his background in technology makes him b=
+est equipped to dismantle the =E2=80=9Cbig tech oligarchy.=E2=80=9D Yet his=
+ connections invite attacks from rivals as someone who made his money in Si=
+licon Valley and is backed by a super political action committee that recei=
+ved $10 million from technology billionaire Peter Thiel. =E2=80=A6As part o=
+f his bid to replace retiring Senator Rob Portman, Vance advocates for brea=
+king up companies including Alphabet Inc.=E2=80=99s Google, Meta Platforms =
+Inc., the company formerly known as Facebook, Twitter Inc., Amazon.com, and=
+ Apple Inc., because they=E2=80=99re =E2=80=9Cway too powerful for the comm=
+on good.=E2=80=9DHow do you parse that? Thiel is putting a portion of his t=
+ime and personal fortune into backing efforts to break up Meta and make it =
+less powerful. What could that mean for his service on Meta=E2=80=99s board=
+? Some possibilities:=09Thiel believes that breaking up Meta and making it =
+less powerful would be good for Meta shareholders, so it is consistent with=
+ his fiduciary duties to try to break it up and limit its power.=C2=A0This =
+is counterintuitive but I kind of like it; I have   argued before that shar=
+eholders now=C2=A0want=C2=A0companies to put society=E2=80=99s interests ab=
+ove their own. But is Thiel advocating for a breakup at Meta board meetings=
+? Has he been shot down by other board members with a shorter-term focus? H=
+as he considered going public with his concerns? Or has he not actually pus=
+hed for this change, which he considers good, from the inside?=09Thiel beli=
+eves that breaking up Meta would be=C2=A0bad=C2=A0for Meta shareholders, an=
+d so as a Meta board member he has not advocated for that, but when he leav=
+es the boardroom he devotes a lot of his time and money to that cause. That=
+ seems like a bad thing for a fiduciary to do! I suppose it is=C2=A0possibl=
+e=C2=A0that, in his capacity as a Meta board member, he does everything in =
+his power to help shareholders, and he carefully divides his helping-shareh=
+olders in the boardroom from his hurting-shareholders outside of it. Still =
+it feels like Meta could probably get directors who spend none of their tim=
+e=C2=A0trying=C2=A0to hurt its shareholders?=09I suppose I have to put the =
+words =E2=80=9CStraussian reading=E2=80=9D here somewhere. One version of t=
+hat is: Thiel thinks that saying =E2=80=9CI will break up Facebook=E2=80=9D=
+ is a winning electoral strategy,[8]=C2=A0and that the candidates he backs =
+will say it but not do it, and then they=E2=80=99ll get elected and do othe=
+r things he wants without actually breaking up Meta. This is, I suppose, el=
+ectorally=C2=A0distasteful but fine as a matter of Thiel=E2=80=99s fiduciar=
+y duties. Or perhaps he thinks they might do it but the risk of that to Met=
+a is small, while the benefits of them doing other things are large.=C2=A0O=
+ne of  my great themes around here is that, if you try hard enough, you can=
+ transform basically anything you dislike into a shareholder lawsuit. I fee=
+l like there has to be a Meta shareholder who dislikes Thiel=E2=80=99s poli=
+tics and can make some hay with this.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Pfizer Fights to Control Secret of $36 Billion Covid Vaccine Recipe. M.B.A.=
+ Starting Salaries Are Soaring. Private equity buyers plot to carve up Gene=
+ral Electric. Crypto prime brokerage. Bitcoin Creator Satoshi Nakamoto Coul=
+d Be Unmasked at Florida Trial. Debit cards are hidden financial infrastruc=
+ture. A  $27 Billion Token Loved by Exiled Billionaire and Steve Bannon.  A=
+rgentina Bonds Climb as President Promises New Plan After Vote. Jes Staley =
+exchanged 1,200 emails with Epstein that included unexplained phrases. Chin=
+a Bought Italian Military-Drone Maker Without Authorities=E2=80=99 Knowledg=
+e. The Coach Who Led the U.S. Math Team Back to the Top. =E2=80=9CAn online=
+ dating service targeting Harvard students was recently revealed to be an e=
+laborate prank and the brainchild of an MIT student.=E2=80=9D The new Russi=
+an fighter jet has a perfume.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0subscribe at this =
+link. Or you can subscribe to Money Stuff and other great Bloomberg newslet=
+ters here. Thanks![1] One weird note about the 10b5-1 plan. The way  10b5-1=
+ plans work is that when an executive of a public company does=C2=A0not=C2=
+=A0have any material nonpublic information, she can set up a 10b5-1 plan to=
+ automatically sell (or buy) stock in the future. Then, when the 10b5-1 pla=
+n sells stock, she will not get in trouble for insider trading, even if at=
+=C2=A0that=C2=A0point she has material nonpublic information. Generally the=
+re's a convention that executives are in an =E2=80=9Copen window=E2=80=9D f=
+or at least a few weeks shortly after announcing earnings: Right after earn=
+ings, the market supposedly knows everything the company does, and so execu=
+tives can trade or set up 10b5-1 plans. Now, I  pointed out last week that =
+Musk is apparently in an open window right now. (That's how he can dump all=
+ the stock from Strand 2, which does not involve a 10b5-1 plan.) But a read=
+er emailed me to point out that, when Musk set up this 10b5-1 plan on Sept.=
+ 14, he =E2=80=A6 arguably =E2=80=A6 was not? I mean, =E2=80=9Copen window=
+=E2=80=9D is a vague concept. But Sept. 14 was about two weeks before the e=
+nd of the third quarter, a time when many companies consider their executiv=
+es to be =E2=80=9Cin blackout=E2=80=9D and not allowed to trade. Also the t=
+hird quarter of 2021 =E2=80=94=C2=A0the one that ended two weeks after he s=
+et up the 10b5-1 plan =E2=80=94=C2=A0was Tesla=E2=80=99s best ever. Weird t=
+o set up a 10b5-1 plan then, just *before* earnings.=C2=A0[2] One technical=
+ note. When we last discussed this, last Thursday, Musk owned shares in two=
+ different forms. At the close of trading on Nov. 10, he owned 166,904,938 =
+shares in the name of The Elon Musk Revocable Trust, which is how he normal=
+ly owns all his shares, and 1,220,481 shares in his own name, which he got =
+from exercising options last Monday. At some point that evening, I guess, h=
+e transferred the 1.2 million personal shares to his trust, leaving him wit=
+h 168,125,419 shares in the trust, which he then kept selling the next day.=
+ This is mentioned in note 2 to the first Form 4 he filed on Friday. Whethe=
+r he sold those 1.2 million shares on Thursday or Friday (as opposed to sel=
+ling shares he owned earlier) I don=E2=80=99t know, but they were his highe=
+st-basis shares (he already paid taxes on them in the options exercise) so =
+I assume so? But this whole thing was a tax-trolling exercise, so who knows=
+.=C2=A0[3] Real casual math here. He=E2=80=99s collected $6.9 billion from =
+selling 6,361,875 shares. I assume his target is 17,049,299 shares, 10% of =
+his holdings as of Nov. 6 (before this all started). That leaves him 10,687=
+,424=C2=A0more shares. The lowest average daily price that he got for his s=
+hares was $1,029 this past Friday; I just multiply that by the remaining sh=
+ares to get $11 billion more proceeds. The share number is uncertain and th=
+e sales price is of course totally unknown at this point; if he keeps selli=
+ng millions of shares that might drive the price down. But at this point ev=
+eryone knows it=E2=80=99s coming.[4] The top federal long-term capital gain=
+s rate is effectively 23.8%. I assume his basis in most of these shares is =
+essentially zero. However, I would guess that his basis on about 1.2 millio=
+n shares would be essentially his sale price (or higher); see footnote 2. S=
+o not quite 23.8% of $18 billion; call it $4 billion.[5] The income is the =
+price of the stock at exercise minus the strike price of the options ($6.24=
+). I assume the stock is worth $1,033.42, the closing price on Friday, thou=
+gh of course that will move. So $21.3 billion of taxable gains, taxed at 53=
+% is $11.3 billion.[6] One reason it=E2=80=99s not traditional is that, doi=
+ng it this way, you get taxed twice: He pays capital gains on the (long-hel=
+d, low-basis) shares that he sells, and then pays income tax on option exer=
+cise. If you do the normal approach, you pay income tax on the exercise but=
+ no tax on the shares you sell (because your basis in them is basically the=
+ sales price, as opposed to selling the long-held low-basis shares). This s=
+aves you taxes =E2=80=94=C2=A0in my rough numbers, it would save Musk about=
+ $4 billion. But the trade-off is that if he does this, Musk ends up with 2=
+0.7 million shares with high ($1,000-ish) basis, which is not nothing. Trad=
+itionally you=E2=80=99re supposed to defer taxes as long as possible but if=
+ you=E2=80=99re Elon Musk perhaps you don=E2=80=99t care that much.[7] Trea=
+sury bill rates these days are in the ballpark of 5 to 7 basis points. If y=
+ou kept those returns, had zero expenses, and ran a minimum 4% leverage rat=
+io, you=E2=80=99d get a return on equity of about 1.25% or so: You=E2=80=99=
+d put up $40 million of your own money to run a billion-dollar stablecoin, =
+and in return you=E2=80=99d get about $500,000 a year.[8] Obviously saying =
+=E2=80=9CI will break up Meta=E2=80=9D is not a winning electoral strategy =
+because no one knows what Meta is. Or maybe that's good? =E2=80=9CI will br=
+eak up the Galactic Spice Mining Conglomerate, which has become too powerfu=
+l for the common good and created all of our modern problems.=E2=80=9D That=
+=E2=80=99s=C2=A0a good pitch!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfb250.5z0n/8b7903e4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_17732330_1273139455.1636999623952
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+MoviePassObviously if MoviePass hadn=E2=80=99t gone bankrupt in January 202=
+0, but had instead limped along until January 2021, it would be a $50 bil
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB33a5c5ee" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE1MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB04e8128c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC0ab8201b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">MoviePass</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Obviously=C2=A0if MoviePass hadn=E2=80=
+=99t <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.2786=
+63/aHR0cHM6Ly93d3cuY25uLmNvbS8yMDIwLzAxLzI5L21lZGlhL21vdmllcGFzcy1iYW5rcnVw=
+dGN5L2luZGV4Lmh0bWw/607f07ceef4b8524a319a23cB6da7ab7e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">gone bankrup=
+t in January 2020</a>, but had instead limped along until January 2021, it =
+would be a $50 billion company right now. How could it not have become a me=
+me stock? It has everything. Its product =E2=80=94=C2=A0you pay MoviePass $=
+10 a month, and in exchange you can see as many movies as you want, in thea=
+ters =E2=80=94=C2=A0has the retail-focused, nostalgic, pandemic-scarred app=
+eal of other meme stocks like AMC Entertainment Holdings Inc. and GameStop =
+Corp. Also its business model made no sense: You could see all those movies=
+ because MoviePass would buy tickets for you, at full price, generally $10 =
+a ticket or more; it lost money on most of its customers every month. This =
+led people to short the company (technically its parent company, Helios &am=
+p; Matheson Analytics Inc.), which would no doubt have infuriated Reddit me=
+me-stock traders and led them to short-squeeze it.</p><p style=3D"margin: 1=
+6px 0;">Also I guess =E2=80=A6=C2=A0I guess that Covid-19 would have been r=
+eally good for MoviePass? Its main risk was that people would use its produ=
+ct, and in a pandemic they=E2=80=99d have to stop. (For a while, pre-pandem=
+ic,=C2=A0MoviePass dealt with this risk by <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDYtMDgvbW9uZXktc3R1ZmYtbW92aWVwYXNzLWNoYW5nZ=
+WQtc29tZS1wYXNzd29yZHM_Y21waWQ9QkJEMTExNTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTE1JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cB4eec603f" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> <em>changing peop=
+le=E2=80=99s passwords so they couldn=E2=80=99t use the product</em></a>, a=
+n incredible power move that surely would have appealed to Reddit?) It just=
+ seems perfectly set up for 2021, and it=E2=80=99s a shame we never got to =
+see what happened, because its business model=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgtMDcvbW92aWVwYXNzLXdvcmtlZC1vdXQtZ=
+3JlYXQ_Y21waWQ9QkJEMTExNTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cB12bc4e28" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> did not work</a>, it ran out of m=
+oney, and Helios &amp; Matheson filed for bankruptcy in 2020.=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;">Back in the day, I wrote admiringly about MoviePas=
+s because it seemed so crazy, a leading example of how late-2010s consumer =
+services were uneconomically subsidized by growth-hungry investors. (=E2=80=
+=9CThe MoviePass Economy,=E2=80=9D <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25710228.278663/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAxOC8wNS=
+8xNi90ZWNobm9sb2d5L21vdmllcGFzcy1lY29ub215LXN0YXJ0dXBzLmh0bWw_c210eXA9Y3VyJ=
+nNtaWQ9dHctbnl0aW1lc2J1c2luZXNz/607f07ceef4b8524a319a23cB24edbb26" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+we called it</a>.)=C2=A0But MoviePass was a symbol of wild incomprehensibil=
+ity back in what was, in retrospect, a fairly comprehensible time. In 2021 =
+every single thing that I write about makes less sense than MoviePass. =E2=
+=80=9CBuy unlimited $10 movie tickets and give them to people for a $10 mon=
+thly fee=E2=80=9D? Sure yeah that sounds fine, have you heard about NFTs?</=
+p><p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmN=
+vbS9tb3ZpZXBhc3MtY29mb3VuZGVyLXN0YWN5LXNwaWtlcy1idXlzLWJhY2stY29tcGFueS1hbm=
+QtcGxhbnMtcmVsYXVuY2gtMjAyMS0xMQ/607f07ceef4b8524a319a23cBec1a418c" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>it=E2=80=99s back</a>:</p><blockquote><p style=3D"margin: 16px 0;">MoviePa=
+ss cofounder Stacy Spikes was granted ownership of the company by a Souther=
+n District of New York bankruptcy court judge who approved the sale on [las=
+t]=C2=A0Monday, according to court documents reviewed by Insider. The finan=
+cial transaction took place on Wednesday.</p><p style=3D"margin: 16px 0;">S=
+pikes had placed a bid of an undisclosed amount to the trustee handling the=
+ bankruptcy of Helios and Matheson Analytics (HMNY), the former parent comp=
+any of MoviePass.</p><p style=3D"margin: 16px 0;">"I can confirm that we ac=
+quired MoviePass out of bankruptcy on Wednesday," Spikes said in a statemen=
+t to Insider. "We are thrilled to have it back and are exploring the possib=
+ility of relaunching soon. Our pursuit to reclaim the brand was encouraged =
+by the continued interest from the moviegoing community. We believe, if don=
+e properly, theatrical subscription can play an instrumental role in liftin=
+g moviegoing attendance to new heights." ...</p><p style=3D"margin: 16px 0;=
+">Spikes hopes to relaunch MoviePass sometime next year.=C2=A0A new site ha=
+s been created for the relaunch, iwantmoviepass.com, and its logo will now =
+feature a black background with white lettering, ditching its previous red =
+background. Here is the new logo:</p></blockquote><p style=3D"margin: 16px =
+0;">The new logo is somehow not a picture of Doge. He=E2=80=99d better be s=
+elling non-fungible tokens of movie tickets. He=E2=80=99d better be teaming=
+ up with AMC to get people free MoviePass shares with <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDIvYW1jLWJyaW5ncy1vdXQtdGhlLX=
+BvcGNvcm4_Y21waWQ9QkJEMTExNTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB7246a92e" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> a large popcorn</a>. He=E2=80=
+=99d better be launching his own cryptocurrency. There=E2=80=99d better be =
+an <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDQvbW=
+FjeS1zLXRhcmdldGVkLWJ5LW1lbWUtYWN0aXZpc3RzP2NtcGlkPUJCRDExMTUyMV9NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEx=
+NSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb59db757" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> electric-vehicle angle</a> in there somewhere.=C2=A0Sure=C2=A0financial=
+ news in 2021 has been dumb, but it has been missing MoviePass. Now it=E2=
+=80=99s perfect.</p><table class=3D"liveintent-sponsored-content" width=3D"=
+auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD831c0176" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE831c0176" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF3bdbc7a7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG3bdbc7a7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">MBA ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One theory you could have about enviro=
+nmental, social and governance investing is that it is a good <em>investing=
+=C2=A0</em>strategy; it maximizes expected returns. Coolly self-interested =
+investors say to themselves =E2=80=9Cif we don=E2=80=99t reduce carbon emis=
+sions and racial inequalities, we will make less money, so we should do tho=
+se things.=E2=80=9D This is a real theory that people very much believe in,=
+ though <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.2=
+78663/aHR0cHM6Ly93d3cuYXFyLmNvbS9JbnNpZ2h0cy9QZXJzcGVjdGl2ZXMvVmlydHVlLWlzL=
+Wl0cy1Pd24tUmV3YXJkLU9yLU9uZS1NYW5zLUNlaWxpbmctaXMtQW5vdGhlci1NYW5zLUZsb29y=
+/607f07ceef4b8524a319a23cB3203dde8" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">there are also doubters</a>.</p=
+><p style=3D"margin: 16px 0;">Another theory you could have about ESG is th=
+at it is a good=C2=A0<em>marketing=C2=A0</em>strategy; it maximizes the abi=
+lity of institutional asset managers to gather assets. Coolly self-interest=
+ed asset managers say to themselves =E2=80=9Cif we tell people that we are =
+reducing carbon emissions and racial inequalities, they will give us their =
+money to manage.=E2=80=9D There is some obvious truth to this one, and you =
+don=E2=80=99t have to be cynical about it; big asset managers do say that t=
+heir ESG concerns=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjAtMDEtMTQvYmxhY2tyb2NrLWhhcy1ncmVlbi1wbGFucz9jbXBpZD1CQkQxMTE1MjFfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB847642=
+8e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">are=C2=A0client-driven</a>, and generally it is good for asset=
+ managers to do what clients want. (This theory pushes down the question of=
+, well, why do the clients want it?)</p><p style=3D"margin: 16px 0;">A thir=
+d theory you could have about ESG is that it is a good=C2=A0<em>personal=C2=
+=A0</em>strategy: Investors are people, they live on a planet and in a soci=
+ety, they want the planet to be habitable and the society to be good, inves=
+tment returns are not everything.</p><p style=3D"margin: 16px 0;">What do y=
+ou <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663=
+/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8xMS8xMy9idXNpbmVzcy9kZWFsYm9vay9idX=
+NpbmVzcy1zY2hvb2xzLWVzZy5odG1s/607f07ceef4b8524a319a23cBbba6582f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+make of this</a>?</p><blockquote><p style=3D"margin: 16px 0;">A decade ago,=
+ the hottest M.B.A. courses typically covered topics such as game theory, v=
+aluing securities and negotiating mergers. Today, some of the most popular =
+classes are about climate finance, impact investing and social entrepreneur=
+ship.</p><p style=3D"margin: 16px 0;">The University of Pennsylvania Wharto=
+n School of Business now offers more than 50 undergraduate and graduate cou=
+rses related to social impact. The Duke University Fuqua School of Business=
+ recently added a course to its core curriculum called =E2=80=9CBusiness an=
+d Common Purpose.=E2=80=9D At Harvard Business School, 600 students took se=
+cond-year elective courses related to social enterprise last year, compared=
+ with 251 in 2012.</p><p style=3D"margin: 16px 0;">=E2=80=9CThere=E2=80=99s=
+ been an explosion of interest from students,=E2=80=9D said Todd Cort, a le=
+cturer on sustainability at the Yale School of Management and the co-direct=
+or of the school=E2=80=99s environment and business center.</p><p style=3D"=
+margin: 16px 0;">This interest reflects an increase in jobs that require kn=
+owledge in environmental, social and governance, or E.S.G., topics.</p><p s=
+tyle=3D"margin: 16px 0;">Global sustainable investment topped $30 trillion =
+in 2019 =E2=80=94 up 68 percent since 2014, according to McKinsey. That has=
+ created more jobs in the field, which has pushed salaries higher for worke=
+rs with the necessary skills. In addition, companies say they=E2=80=99re ha=
+ving an easier time recruiting junior employees than senior leaders in E.S.=
+G. roles, which could give younger workers an advantage in climbing the cor=
+porate ladder (or allow them to start at a higher rung) than for the typica=
+l jobs for M.B.A. graduates.</p></blockquote><p style=3D"margin: 16px 0;">Y=
+ou could tell a marketing story here: ESG investing is hot, so business sch=
+ool students want to market themselves to employers by taking ESG courses. =
+You could tell an investing-returns story here: ESG investing is hot <em>be=
+cause it works</em>, so business schools on the cutting edge of financial r=
+esearch teach it as a way to maximize long-term returns. You could tell a p=
+ersonal story here: Young people in business school are relatively idealist=
+ic (compared to grizzled financial veterans, I mean, not compared to, like,=
+ young people in social work school), and they are the paying consumers of =
+business education, so they want classes that align with their personal mor=
+ality.</p><p style=3D"margin: 16px 0;">One other story I would tell is one =
+of intellectual frameworks. We <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMTktMDQtMDkvY2Vvcy1sZWFybi1zb21ldGhpbmctaW4tYnVzaW5lc3Mtc2Nob=
+29sP2NtcGlkPUJCRDExMTUyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB334455fc" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> talked a few years ago</a> about <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aHR0=
+cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTMxNDgyNjY=
+/607f07ceef4b8524a319a23cB7e4a2083" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">a paper</a> finding that changi=
+ng academic views about the benefits of conglomerates in business schools l=
+ed, a decade or two later, to changes in how businesses were run: Chief exe=
+cutive officers who were taught in business school that diversification and=
+ conglomeration were good ended up building conglomerates, while CEOs who w=
+ere taught that they were bad ended up dismantling them. I wrote that this =
+was kind of a nice result:</p><blockquote><p style=3D"margin: 16px 0;">It s=
+ays something nice about the value of teachers and scholars, for one thing.=
+ But it also says something nice about CEOs. It suggests that they want to =
+do the right thing, and they have a socially developed framework for decidi=
+ng what the right thing is, and that framework changes over time for intell=
+ectual reasons rather than just because of constraints and incentives. Ther=
+e is really nothing weird or surprising about that, but it just tends not t=
+o be how corporate-finance theory works.</p></blockquote><p style=3D"margin=
+: 16px 0;">Why are business schools teaching dozens of ESG courses? Maybe b=
+ecause that=E2=80=99s the cutting edge of financial return maximization, ma=
+ybe because it=E2=80=99s what employers want for market reasons, maybe beca=
+use it=E2=80=99s what students want for personal reasons. But they=C2=A0<em=
+>are=C2=A0</em>teaching lots of ESG courses, which means that if you go to =
+business school now you=E2=80=99ll get a lot of ESG in your curriculum. Pro=
+bably that will affect how you think companies should be run, and how you e=
+ventually run companies yourself.</p><table class=3D"liveintent-flex-ad" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH91eecac5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The Elon show</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Elon Musk keeps selling Tesla Inc. sha=
+res and I suppose I=E2=80=99m obliged to keep up to date on that?=C2=A0We h=
+ave discussed it previously=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMTEtMDgvZWxvbi1tdXNrLWRpZC1zb21lLXR3ZWV0cz9jbXBpZD1CQkQ=
+xMTE1MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cB705cd077" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> here</a> and <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMTEtMTEvZWxvbi1tdXNrLXNvbGQtc29tZS10ZXNsYS1zdG9jay1r=
+dnY3NGtjZT9jbXBpZD1CQkQxMTE1MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1Zm=
+Y/607f07ceef4b8524a319a23cBc037f6a7" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> here</a>. There are two stran=
+ds of Musk-selling-Tesla things that seem to be going on these days:</p><ol=
+ style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">He has 22.9 million stock options that=
+ expire next August. He has previously said that he was going to exercise a=
+ll of those options and sell roughly half the underlying shares to pay taxe=
+s, all within the fourth quarter of 2021. He has an automatic Rule 10b5-1 p=
+lan, which he set up in September, to do some or all of that option-exercis=
+ing and stock-selling. Last Monday, the automatic plan exercised 2.15 milli=
+on options and sold 934,091 shares. That was the first, and so far the last=
+, that=C2=A0we heard of it.[1]</li>=09<li style=3D"margin-bottom: 5px;">As =
+of last weekend (Nov. 6), he owned between 170 million and 244 million shar=
+es of Tesla stock, depending how you count. (Depending whether you count on=
+ly shares he owns outright, or also shares underlying options.) On Nov. 6, =
+he asked Twitter if he should sell 10% of those shares for no particular re=
+ason. (I mean, the stated reason was something like =E2=80=9Cshould I volun=
+tarily trigger a few billion dollars of capital-gains taxes for trolling pu=
+rposes?=E2=80=9D) He took a poll, he promised to abide by the results of th=
+e poll,=C2=A058% of votes were for =E2=80=9Cyes,=E2=80=9D and off he went s=
+elling stock. He started last Tuesday, and by Friday he had sold about 5.4 =
+million shares for about $5.8 billion. Here I am not counting the 934,091 s=
+hares that he sold in Strand 1; the shares sold in Strand 2 were not the re=
+sults of new=C2=A0option exercises.[2]</li></ol><p style=3D"margin: 16px 0;=
+">So where are we? Last week Musk sold a total of about 6.4 million Tesla s=
+hares for about $6.9 billion. On Strand 1,=C2=A0I would naively assume that=
+ Musk will exercise another 20.7 million options, and sell another 10-milli=
+on-ish shares, automatically under his 10b5-1=C2=A0plan in the next six wee=
+ks. But there=E2=80=99s no guarantee of that. Maybe the 10b5-1 plan runs th=
+rough next year, or maybe it only exercises if the stock price is above a c=
+ertain level, and it won=E2=80=99t actually do the whole 20.7 million. Mayb=
+e he canceled the 10b5-1 plan after Monday=E2=80=99s sales to focus more on=
+ his trolling. Who knows!=C2=A0</p><p style=3D"margin: 16px 0;">On Strand 2=
+, I=E2=80=99m assuming he will sell at least 11.6 million more shares, to g=
+et to 17 million, which represents roughly 10% of the shares he had when he=
+ tweeted the poll. I assume he will do that fairly quickly; at roughly his =
+current clip, that means something like another two or three weeks to get t=
+hrough the full 17 million. But, again, who knows!</p><p style=3D"margin: 1=
+6px 0;">The simplest possibility is that his Strand 2 selling =E2=80=94=C2=
+=A0just selling shares he already owns=C2=A0=E2=80=94=C2=A0will raise enoug=
+h cash to pay his taxes on the stock-option exercise, so that he doesn=E2=
+=80=99t need to do any more Strand 1 selling. If he sells 17 million shares=
+ he will collect, let=E2=80=99s say, $18 billion.[3] That would incur taxes=
+ of perhaps $4 billion, leaving him with perhaps $14 billion of net proceed=
+s.[4] If he then exercises his remaining 20.7 million options, he=E2=80=99l=
+l have taxable income of something like $21.3 billion.[5] He has said he pa=
+ys a 53% income tax rate, so he=E2=80=99ll owe about $11.3 billion more in =
+taxes. His sales will cover that with a couple billion dollars left over. T=
+his is not the traditional way to pay taxes on options exercise =E2=80=94=
+=C2=A0the traditional way is what he did last Monday, exercising and sellin=
+g a portion of the underlying shares =E2=80=94=C2=A0but, you know, also fin=
+e.[6]=C2=A0</p><p style=3D"margin: 16px 0;">Anyway on Saturday Bernie Sande=
+rs <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663=
+/aHR0cHM6Ly90d2l0dGVyLmNvbS9TZW5TYW5kZXJzL3N0YXR1cy8xNDU5NTg0MjUwNjY4MzMxMD=
+Ex/607f07ceef4b8524a319a23cB6d1726c5" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">tweeted something=C2=A0anodyn=
+e</a> about how rich people should pay taxes, and Musk <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly90d2l0dGVyLm=
+NvbS9lbG9ubXVzay9zdGF0dXMvMTQ1OTg5MTIzODM4NDExNTcyMg/607f07ceef4b8524a319a2=
+3cB2d2be82c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">got mad</a> on Twitter and offered to sell more stock.=
+ =E2=80=9CWant me to sell more stock, Bernie? Just say the word =E2=80=A6,=
+=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228=
+.278663/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTQ1OTkwNDk2NjE5NDI=
+1MzgyNA/607f07ceef4b8524a319a23cB36b4c85a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">he tweeted</a>. Sanders =
+should do it! =E2=80=9CSure Elon, sell another 30 million,=E2=80=9D why not=
+, see if it works.</p><p style=3D"margin: 16px 0;">The stock was down about=
+ 4% as of 11 a.m. today; it=E2=80=99s down about 19% since Nov. 5, the last=
+ trading day before Musk=E2=80=99s poll. In general it is my theory that wh=
+en Musk is loud, annoying and funny on Twitter, that is good for Tesla=E2=
+=80=99s stock price; that attracts the attention of loyal fans who will bid=
+ up the stock. But it is not working here, I suppose for the obvious reason=
+ that the particular loud, annoying, funny thing that Musk is doing on Twit=
+ter is dumping billions of dollars of Tesla stock. One lesson here is that =
+if Musk wants to tank Tesla=E2=80=99s stock =E2=80=94=C2=A0by=C2=A0<em>talk=
+ing constantly for a week about how he=E2=80=99s selling it=C2=A0</em>=E2=
+=80=94=C2=A0he can do it. Why does he want to?</p><table class=3D"header" w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Narrow banking and stablecoins</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The basic idea of a stablecoin is that=
+ it is a cryptocurrency that lives on the blockchain and is always worth on=
+e U.S. dollar. (Or one euro, or some other pegged unit of account.) The sim=
+ple way to do a stablecoin is to have the issuer sell stablecoins for one d=
+ollar each, and put the dollar somewhere safe. Then when a stablecoin holde=
+r wants her dollar back, the stablecoin issuer has it, and can give it to h=
+er.</p><p style=3D"margin: 16px 0;">This is the way that some stablecoins w=
+ork.=C2=A0They put the dollars into Treasury bills or bank accounts at repu=
+table banks or whatever, somewhere safe. Other stablecoins work differently=
+. A=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.=
+278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAt=
+MTEvbG9vay1vdXQtZm9yLWNvcHMtaW4tdGhlLXB1bXAtYW5kLWR1bXA_Y21waWQ9QkJEMTExNTI=
+xX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjExMTE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB669=
+b6aba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">popular way</a> to build a stablecoin is with <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1=
+tb25leS1zdHVmZi1sb29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZD1CQkQxMTE1MjFfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBac2ef06=
+3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> senior claims on volatile cryptocurrency</a>. But arguably=C2=
+=A0the leading way to build a stablecoin is a variant on the simple approac=
+h: The issuer sells stablecoins for one dollar each=C2=A0and puts the dolla=
+r <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGh=
+pbmdzLWdvdC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRoZXI_Y21waWQ9QkJEMTExNTIxX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jExMTE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf9d88fe9" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> somewhere=C2=A0<em>not=C2=A0</em>safe</a>. Then, when you ask the =
+issuer where it's keeping your dollars, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDctMjIvcHJpdmF0ZS1lcXVpdHktZmlybS1nb3QtcmljaC1t=
+YWtpbmctcHJpdmF0ZS1lcXVpdHktZmlybXMtcmljaD9jbXBpZD1CQkQxMTE1MjFfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMT=
+UmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB18732a50" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> it says</a> =E2=80=9Cooh sorry no that=E2=80=99s a big secret but trust =
+us, it=E2=80=99s somewhere real good.=E2=80=9D</p><p style=3D"margin: 16px =
+0;">This =E2=80=A6=C2=A0look, I don=E2=80=99t know man, maybe that=E2=80=99=
+s fine, but it makes people nervous. U.S.=C2=A0financial regulators are par=
+ticularly nervous and have proposed new rules for stablecoins. The gist of =
+the proposed rules is that only regulated banks will be allowed to issue st=
+ablecoins. We have <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMTEtMDIvc3RhYmxlY29pbnMtbWlnaHQtaGF2ZS10by1iZS1iYW5rcz9jbXBpZD1CQkQxM=
+TE1MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cB03a9dff7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> talked about these rules</a>, and I have pointed out t=
+hat they are strange. In particular, these rules are=C2=A0<em>stricter=C2=
+=A0</em>than the rules for traditional finance. In traditional finance, you=
+ can start a money-market fund that takes your dollar, puts it into Treasur=
+y bills or bank certificates of deposit or whatever, and promises to give y=
+ou the dollar back when you want it; that would=C2=A0<em>not </em>be regula=
+ted as a bank. But in crypto, under the proposed rules, that would have to =
+be a bank.</p><p style=3D"margin: 16px 0;">But here is <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuZGF2aX=
+Nwb2xrLmNvbS9pbnNpZ2h0cy9jbGllbnQtdXBkYXRlL3VzLXJlZ3VsYXRvcnMtc3BlYWstc3RhY=
+mxlY29pbi1hbmQtY3J5cHRvLXJlZ3VsYXRpb24/607f07ceef4b8524a319a23cB759639f7" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">a memo from Davis Polk &amp; Wardwell LLP</a> that points out someth=
+ing even stranger: Under the proposed rules,=C2=A0<em>it would be impossibl=
+e to do stablecoins the good simple way</em>. If you wanted to set up a sta=
+blecoin under these proposed rules, you=E2=80=99d need to do it in a bank. =
+So you set up Stablecoin Bank Corp. You issue $1 billion of stablecoins and=
+ invest the money in $1 billion of extremely safe stuff, Treasury bills exp=
+iring tomorrow or whatever. And then the banking regulators would come to y=
+ou and say: No, this doesn=E2=80=99t work, if you have $1 billion of Treasu=
+ries you need <a href=3D"https://link.mail.bloombergbusiness.com/click/2571=
+0228.278663/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzEyLzMuMTA/607=
+f07ceef4b8524a319a23cBce05ac75" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">$40 million of equity</a>; that is =
+a central rule of bank capital regulation, that you need equity alongside y=
+our deposits. And then as you issue more stablecoins you have to raise more=
+ equity, and it is hard to get a decent return on equity if you=E2=80=99re =
+investing in only the very safest things.[7]=C2=A0 So you are forced to rea=
+ch for yield, to buy <em>riskier=C2=A0</em>things with higher yields in ord=
+er to make a return on equity =E2=80=94=C2=A0you know, like banks do.=C2=A0=
+Davis Polk:</p><blockquote><p style=3D"margin: 16px 0;">By recommending tha=
+t Congress require all stablecoin issuers to be IDIs [insured depository in=
+stitutions, i.e. banks], the Report would effectively require all stablecoi=
+n issuers to engage in fractional reserve banking and effectively prohibit =
+them from being structured as 100% reserve banks (i.e., narrow banks) that =
+limit their activities to the issuance of stablecoins fully backed by a 100=
+% reserve of cash or cash equivalents.</p><p style=3D"margin: 16px 0;">The =
+reason is that IDIs are subject to minimum leverage capital ratios that wer=
+e calibrated for banks that engage in fractional reserve banking and invest=
+ the vast portion of the funds they raise through deposit-taking in commerc=
+ial loans or other illiquid assets that are riskier but generate higher ret=
+urns than cash or cash equivalents. Minimum leverage ratios treat cash and =
+cash equivalents as if they had the same risk and return profile as commerc=
+ial loans, commercial paper and long-term corporate debt, even though they =
+do not. Unless Congress recalibrated the minimum leverage capital ratios to=
+ reflect the lower risk and return profile of IDIs that limit their assets =
+to cash and cash equivalents, the minimum leverage capital ratios would mak=
+e the 100% reserve model for stablecoin issuance uneconomic and therefore e=
+ffectively prohibited. It is puzzling why the PWG, FDIC and OCC would recom=
+mend a regulatory framework that would effectively require stablecoin issue=
+rs to invest in riskier assets and rely on FDIC insurance rather than permi=
+tting stablecoins backed by a 100% cash and cash equivalent reserve.</p></b=
+lockquote><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMDgvdGhlLWZlZC12ZXJzdXMtdGhlLW5hcnJvd=
+y1iYW5rP2NtcGlkPUJCRDExMTUyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cBaecfb0c1" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> talked previously</a> about the=
+ Fed=E2=80=99s hostility to =E2=80=9C<a href=3D"https://link.mail.bloomberg=
+business.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMTEtMDIvc3RhYmxlY29pbnMtbWlnaHQtaGF2ZS10by1iZS1iYW5=
+rcz9jbXBpZD1CQkQxMTE1MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cC03a9dff7" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> narrow banking</a>,=E2=80=9D the ide=
+a of a bank that would just take deposits and park them in reserves at the =
+Fed. This is a perfectly safe form of banking, but it is not a traditional =
+form of banking; traditionally, banks take deposits and use them to make lo=
+nger-term loans to businesses and consumers and homeowners. The Fed seems t=
+o like traditional banking, the kind where banks use deposits productively =
+(but riskily); it does not like narrow banking, the kind where banks just p=
+ark deposits somewhere safe. If stablecoins have to be banks, <em>they will=
+ have to be risky: </em>They will have to have equity capital, which will c=
+ushion stablecoin users against the risk of loss, but they=E2=80=99ll need =
+to buy assets that create that risk of loss. The dream of <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYXh=
+pb3MuY29tL2NpcmNsZS1jcnlwdG8tZGlnaXRhbC1jdXJyZW5jeS1iYW5rLTQ4NjU2NTgxLTg0Y2=
+UtNGM5ZS05Y2UwLTBmNDRiZTIwYzlhMy5odG1s/607f07ceef4b8524a319a23cB89e397df" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">a stablecoin as a narrow bank</a>, where it issues dollar-denominate=
+d crypto assets and backs them with dollars deposited at the Fed, won=E2=80=
+=99t work.</p><p style=3D"margin: 16px 0;">Again, this is weird! Again, it =
+is not the rule in traditional finance, where narrow banks are disfavored b=
+ut Treasury money-market funds are fine. But the rules seem harder for cryp=
+to.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Fiduciaries</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Honestly it=E2=80=99s a little weird t=
+hat Meta Platforms Inc. (sorry! that means Facebook!) board member Peter Th=
+iel is trying to <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+5710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MTEtMTMvamQtdmFuY2UtY2hhcnRzLWdvcC1wdXNoLWFnYWluc3QtYmlnLXRlY2gtd2l0aC1oZWx=
+wLWZyb20tdGhpZWw_Y21waWQ9QkJEMTExNTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTE1JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cBee5679fa" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> break up Meta Platforms=
+ Inc. from the outside</a>?</p><blockquote><p style=3D"margin: 16px 0;">Ohi=
+o Senate candidate JD Vance says his Silicon Valley experience makes him id=
+eal to take on big technology companies, a favorite target of Republicans, =
+but he=E2=80=99ll have to brush off attacks from rivals who question his si=
+ncerity on tech issues. =E2=80=A6</p><p style=3D"margin: 16px 0;">Vance, a =
+Yale Law School graduate, argues that his background in technology makes hi=
+m best equipped to dismantle the =E2=80=9Cbig tech oligarchy.=E2=80=9D Yet =
+his connections invite attacks from rivals as someone who made his money in=
+ Silicon Valley and is backed by a super political action committee that re=
+ceived $10 million from technology billionaire Peter Thiel. =E2=80=A6</p><p=
+ style=3D"margin: 16px 0;">As part of his bid to replace retiring Senator R=
+ob Portman, Vance advocates for breaking up companies including Alphabet In=
+c.=E2=80=99s Google, Meta Platforms Inc., the company formerly known as Fac=
+ebook, Twitter Inc., Amazon.com, and Apple Inc., because they=E2=80=99re =
+=E2=80=9Cway too powerful for the common good.=E2=80=9D</p></blockquote><p =
+style=3D"margin: 16px 0;">How do you parse that? Thiel is putting a portion=
+ of his time and personal fortune into backing efforts to break up Meta and=
+ make it less powerful. What could that mean for his service on Meta=E2=80=
+=99s board? Some possibilities:</p><ol style=3D"list-style-type: decimal; p=
+adding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Th=
+iel believes that breaking up Meta and making it less powerful would be <em=
+>good </em>for Meta shareholders, so it is consistent with his fiduciary du=
+ties to try to break it up and limit its power.=C2=A0This is counterintuiti=
+ve but I kind of like it; I have <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMTAtMDQvZmFjZWJvb2std2hpc3RsZWJsb3dlci1zaG93cy1hLXNoaWZ=
+0LWluLXNoYXJlaG9sZGVyLXZhbHVlcy1hd2F5LWZyb20tcHJvZml0cz9jbXBpZD1CQkQxMTE1Mj=
+FfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9db=
+92c12" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  argued before</a> that shareholders now=C2=A0<em>want=C2=
+=A0</em>companies to put society=E2=80=99s interests above their own. But i=
+s Thiel advocating for a breakup at Meta board meetings? Has he been shot d=
+own by other board members with a shorter-term focus? Has he considered goi=
+ng public with his concerns? Or has he not actually pushed for this change,=
+ which he considers good, from the inside?</li>=09<li style=3D"margin-botto=
+m: 5px;">Thiel believes that breaking up Meta would be=C2=A0<em>bad=C2=A0</=
+em>for Meta shareholders, and so as a Meta board member he has not advocate=
+d for that, but when he leaves the boardroom he devotes a lot of his time a=
+nd money to that cause. That seems like a bad thing for a fiduciary to do! =
+I suppose it is=C2=A0<em>possible=C2=A0</em>that, in his capacity as a Meta=
+ board member, he does everything in his power to help shareholders, and he=
+ carefully divides his helping-shareholders in the boardroom from his hurti=
+ng-shareholders outside of it. Still it feels like Meta could probably get =
+directors who spend <em>none </em>of their time=C2=A0trying=C2=A0to hurt it=
+s shareholders?</li>=09<li style=3D"margin-bottom: 5px;">I suppose I have t=
+o put the words =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25710228.278663/aHR0cHM6Ly9sYWNrZXIuaW8vYm9va3MvMjAxNy8wMy8yNi9zdHJh=
+dXNzaWFuLXJlYWRpbmcuaHRtbA/607f07ceef4b8524a319a23cB48b18541" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Strau=
+ssian reading</a>=E2=80=9D here somewhere. One version of that is: Thiel th=
+inks that saying =E2=80=9CI will break up Facebook=E2=80=9D is a winning el=
+ectoral strategy,[8]=C2=A0and that the candidates he backs will say it but =
+not do it, and then they=E2=80=99ll get elected and do other things he want=
+s without actually breaking up Meta. This is, I suppose, electorally=C2=A0d=
+istasteful but fine as a matter of Thiel=E2=80=99s fiduciary duties. Or per=
+haps he thinks they <em>might </em>do it but the risk of that to Meta is sm=
+all, while the benefits of them doing other things are large.=C2=A0</li></o=
+l><p style=3D"margin: 16px 0;">One of <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY2=
+91cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDExMTUyM=
+V9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIxMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBae9=
+11d83" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> my great themes</a> around here is that, if you try hard en=
+ough, you can transform basically anything you dislike into a shareholder l=
+awsuit. I feel like there has to be a Meta shareholder who dislikes Thiel=
+=E2=80=99s politics and can make some hay with this.</p><table class=3D"hea=
+der" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Pfizer Fights to Control Secret of $36=
+ Billion <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.=
+278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDIxLXBmaXplci1zZWNy=
+ZXQtdG8td2hhdHMtaW4tdGhlLWNvdmlkLXZhY2NpbmUvP2NtcGlkPUJCRDExMTUyMV9NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMT=
+ExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc1b03eae" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Covid Vaccine Recipe</a>. M.B.A. <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+tLWItYS1zdGFydGluZy1zYWxhcmllcy1hcmUtc29hcmluZy0xMTYzNjk1MjQ2ND9tb2Q9aHBfZm=
+VhdHN0X3BvczU/607f07ceef4b8524a319a23cB7d3a5ff7" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Starting Salaries<=
+/a> Are Soaring. Private equity buyers plot to carve up <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvZDJjNDIxYmQtMGFkMi00MDNiLWE1ODUtN2I0ZjUyYTNhYmY3/607f07ceef4=
+b8524a319a23cBd8a05a09" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">General Electric</a>. Crypto <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cu=
+bmV0aW50ZXJlc3QuY28vcC9wcmltZS10aW1lLWluLWNyeXB0by0wNjc/607f07ceef4b8524a31=
+9a23cBb2bd8041" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">prime brokerage</a>. Bitcoin Creator <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9iaXRjb2luLWNyZWF0b3Itc2F0b3NoaS1uYWthbW90by1jb3VsZC1=
+iZS11bm1hc2tlZC1hdC1mbG9yaWRhLXRyaWFsLTExNjM2ODA4NDAxP21vZD1pdHBfd3NqJnJ1PX=
+lhaG9v/607f07ceef4b8524a319a23cB235b6485" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Satoshi Nakamoto</a> Cou=
+ld Be Unmasked at Florida Trial. Debit cards are <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly9iYW0ua2FsenVtZXVz=
+LmNvbS9hcmNoaXZlL2RlYml0LWNhcmRzLWFyZS1oaWRkZW4tZmluYW5jaWFsLWluZnJhc3RydWN=
+0dXJlLw/607f07ceef4b8524a319a23cB50508d9d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">hidden financial infrast=
+ructure</a>. A <a href=3D"https://link.mail.bloombergbusiness.com/click/257=
+10228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMT=
+EtMTIvYS0yNy1iaWxsaW9uLXRva2VuLWxvdmVkLWJ5LWV4aWxlZC1iaWxsaW9uYWlyZS1hbmQtc=
+3RldmUtYmFubm9uP2NtcGlkPUJCRDExMTUyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTExNSZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cBc5c4ee0a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> $27 Billion Token</a> L=
+oved by Exiled Billionaire and Steve Bannon. <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTUvYXJnZW50aW5hLWJvbmRzLWNsaW1iLWFzLXByZXN=
+pZGVudC1wcm9taXNlcy1uZXctcGxhbi1hZnRlci12b3RlP2NtcGlkPUJCRDExMTUyMV9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxM=
+TExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf67c13f0" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Argentina</a> Bonds Climb as President Promises New Plan After Vote.=
+ Jes Staley exchanged 1,200 emails with Epstein that included <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvZTI1ZjMyZWMtNmYxYi00YTlhLWIyY2MtZmVkNzk0YmI2YTIw/607f0=
+7ceef4b8524a319a23cB484cc3aa" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">unexplained phrases</a>. China Bought=
+ Italian <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.=
+278663/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaGluYS1ib3VnaHQtaXRhbGlhbi1t=
+aWxpdGFyeS1kcm9uZS1tYWtlci13aXRob3V0LWF1dGhvcml0aWVzLWtub3dsZWRnZS0xMTYzNjk=
+3MjUxMz9tb2Q9aHBfZmVhdHN0X3BvczM/607f07ceef4b8524a319a23cBf1429077" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>Military-Drone Maker</a> Without Authorities=E2=80=99 Knowledge. The Coach=
+ Who Led the <a href=3D"https://link.mail.bloombergbusiness.com/click/25710=
+228.278663/aHR0cHM6Ly93d3cucXVhbnRhbWFnYXppbmUub3JnL3BvLXNoZW4tbG9oLWxlZC10=
+aGUtdS1zLW1hdGgtdGVhbS1iYWNrLXRvLWZpcnN0LXBsYWNlLTIwMjEwMjE2Lw/607f07ceef4b=
+8524a319a23cB3465ad20" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">U.S. Math Team</a> Back to the Top. =E2=80=
+=9CAn online dating service targeting Harvard students was recently reveale=
+d to be an <a href=3D"https://link.mail.bloombergbusiness.com/click/2571022=
+8.278663/aHR0cHM6Ly93d3cuYm9zdG9uZ2xvYmUuY29tLzIwMjEvMTEvMTIvbWV0cm8vaGFydm=
+FyZC1zdHVkZW50cy1sb29raW5nLWxvdmUtZmFsbC12aWN0aW0tbWl0LXN0dWRlbnRzLXByYW5rL=
+w/607f07ceef4b8524a319a23cB9a785c29" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">elaborate prank</a> and the br=
+ainchild of an MIT student.=E2=80=9D The new Russian fighter jet <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly9y=
+b3N0ZWMucnUvZW4vbmV3cy9jaGVja21hdGUtZmlnaHRlci1qZXQtc2NlbnRlZC1wZXJmdW1lLWN=
+yZWF0ZWQtaW4tcnVzc2lhLw/607f07ceef4b8524a319a23cB9a2d7221" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">has a pe=
+rfume</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for=
+-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in han=
+dy email form, right in your inbox, please=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25710228.278663/aHR0cDovL2xpbmsubWFpbC5ibG9vb=
+WJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAw=
+MWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBc941d75d" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">subscribe at this link</a>. Or you can subsc=
+ribe to Money Stuff and other great Bloomberg newsletters <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25710228.278663/aHR0cHM6Ly9sb2dpbi5=
+ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe2978696" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks=
+!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] One weird note about =
+the 10b5-1 plan. The way <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25710228.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1wYXNzd29yZHM_Y21waWQ9QkJ=
+EMTExNTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjExMTE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB612e7fdc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> 10b5-1 plans work</a> is that when an executive of =
+a public company does=C2=A0not=C2=A0have any material nonpublic information=
+, she can set up a 10b5-1 plan to automatically sell (or buy) stock in the =
+future. Then, when the 10b5-1 plan sells stock, she will not get in trouble=
+ for insider trading, even if at=C2=A0that=C2=A0point she has material nonp=
+ublic information. Generally there's a convention that executives are in an=
+ =E2=80=9Copen window=E2=80=9D for at least a few weeks shortly after annou=
+ncing earnings: Right after earnings, the market supposedly knows everythin=
+g the company does, and so executives can trade or set up 10b5-1 plans. Now=
+, I <a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.27866=
+3/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMTEvZ=
+Wxvbi1tdXNrLXNvbGQtc29tZS10ZXNsYS1zdG9jay1rdnY3NGtjZT9jbXBpZD1CQkQxMTE1MjFf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMTExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmYjZm9vdG5vdGUtNw/607f07ceef4b852=
+4a319a23cBde2e69b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> pointed out last week</a> that Musk is appar=
+ently in an open window right now. (That's how he can dump all the stock fr=
+om Strand 2, which does not involve a 10b5-1 plan.) But a reader emailed me=
+ to point out that, when Musk set up this 10b5-1 plan on Sept. 14, he =E2=
+=80=A6 arguably =E2=80=A6 was not? I mean, =E2=80=9Copen window=E2=80=9D is=
+ a vague concept. But Sept. 14 was about two weeks before the end of the th=
+ird quarter, a time when many companies consider their executives to be =E2=
+=80=9Cin blackout=E2=80=9D and not allowed to trade. Also the third quarter=
+ of 2021 =E2=80=94=C2=A0the one that ended two weeks after he set up the 10=
+b5-1 plan =E2=80=94=C2=A0was <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25710228.278663/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3RlY2hub2xv=
+Z3kvMjAyMS9vY3QvMjAvdGVzbGEtdGhpcmQtcXVhcnRlci1uZXQtZWFybmluZ3MtZ2xvYmFsLXN=
+1cHBseS1jaGFpbg/607f07ceef4b8524a319a23cB46352370" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Tesla=E2=80=99s =
+best ever</a>. Weird to set up a 10b5-1 plan then, just *before* earnings.=
+=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[2] One technical note. Whe=
+n we last discussed this, last Thursday, Musk owned shares in two different=
+ forms. At the close of trading on Nov. 10, he owned 166,904,938 shares in =
+the name of The Elon Musk Revocable Trust, which is how he normally owns al=
+l his shares, and 1,220,481 shares in his own name, which he got from exerc=
+ising options last Monday. At some point that evening, I guess, he transfer=
+red the 1.2 million personal shares to his trust, leaving him with 168,125,=
+419 shares in the trust, which he then kept selling the next day. This is m=
+entioned in note 2 to the first <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/25710228.278663/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhc=
+i9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MjYxL3hzbEYzNDVYMDMvZG9jNC54bWw/607f=
+07ceef4b8524a319a23cB4993f3fa" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Form 4</a> he filed on Friday. Wheth=
+er he sold those 1.2 million shares on Thursday or Friday (as opposed to se=
+lling shares he owned earlier) I don=E2=80=99t know, but they were his high=
+est-basis shares (he already paid taxes on them in the options exercise) so=
+ I assume so? But this whole thing was a tax-trolling exercise, so who know=
+s.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[3] Real casual math here=
+. He=E2=80=99s collected $6.9 billion from selling 6,361,875 shares. I assu=
+me his target is 17,049,299 shares, 10% of his holdings as of Nov. 6 (befor=
+e this all started). That leaves him 10,687,424=C2=A0more shares. The lowes=
+t average daily price that he got for his shares was $1,029 this past Frida=
+y; I just multiply that by the remaining shares to get $11 billion more pro=
+ceeds. The share number is uncertain and the sales price is of course total=
+ly unknown at this point; if he keeps selling millions of shares that might=
+ drive the price down. But at this point everyone knows it=E2=80=99s coming=
+.</em></p><p style=3D"margin: 16px 0;"><em>[4] The top federal long-term ca=
+pital gains rate is <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25710228.278663/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wNC8yMi9ob3ctdGhlLWJpZ=
+GVuLWNhcGl0YWwtZ2FpbnMtdGF4LXByb3Bvc2FsLXdvdWxkLWhpdC10aGUtd2VhbHRoeS5odG1s=
+/607f07ceef4b8524a319a23cB909584a2" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">effectively 23.8%</a>. I assume=
+ his basis in most of these shares is essentially zero. However, I would gu=
+ess that his basis on about 1.2 million shares would be essentially his sal=
+e price (or higher); see footnote 2. So not quite 23.8% of $18 billion; cal=
+l it $4 billion.</em></p><p style=3D"margin: 16px 0;"><em>[5] The income is=
+ the price of the stock at exercise minus the strike price of the options (=
+$6.24). I assume the stock is worth $1,033.42, the closing price on Friday,=
+ though of course that will move. So $21.3 billion of taxable gains, taxed =
+at 53% is $11.3 billion.</em></p><p style=3D"margin: 16px 0;"><em>[6] One r=
+eason it=E2=80=99s not traditional is that, doing it this way, you get taxe=
+d twice: He pays capital gains on the (long-held, low-basis) shares that he=
+ sells, and then pays income tax on option exercise. If you do the normal a=
+pproach, you pay income tax on the exercise but no tax on the shares you se=
+ll (because your basis in them is basically the sales price, as opposed to =
+selling the long-held low-basis shares). This saves you taxes =E2=80=94=C2=
+=A0in my rough numbers, it would save Musk about $4 billion. But the trade-=
+off is that if he does this, Musk ends up with 20.7 million shares with hig=
+h ($1,000-ish) basis, which is not nothing. Traditionally you=E2=80=99re su=
+pposed to defer taxes as long as possible but if you=E2=80=99re Elon Musk p=
+erhaps you don=E2=80=99t care that much.</em></p><p style=3D"margin: 16px 0=
+;"><em>[7] Treasury <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25710228.278663/aHR0cHM6Ly93d3cudHJlYXN1cnkuZ292L3Jlc291cmNlLWNlbnRlci9kY=
+XRhLWNoYXJ0LWNlbnRlci9pbnRlcmVzdC1yYXRlcy9QYWdlcy9UZXh0Vmlldy5hc3B4P2RhdGE9=
+YmlsbHJhdGVz/607f07ceef4b8524a319a23cB22edd05e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">bill rates</a> thes=
+e days are in the ballpark of 5 to 7 basis points. If you kept those return=
+s, had zero expenses, and ran a minimum 4% leverage ratio, you=E2=80=99d ge=
+t a return on equity of about 1.25% or so: You=E2=80=99d put up $40 million=
+ of your own money to run a billion-dollar stablecoin, and in return you=E2=
+=80=99d get about $500,000 a year.</em></p><p style=3D"margin: 16px 0;"><em=
+>[8] Obviously saying =E2=80=9CI will break up Meta=E2=80=9D is not a winni=
+ng electoral strategy because no one knows what Meta is. Or maybe that's go=
+od? =E2=80=9CI will break up the Galactic Spice Mining Conglomerate, which =
+has become too powerful for the common good and created all of our modern p=
+roblems.=E2=80=9D That=E2=80=99s=C2=A0a good pitch!</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB5447f7bd" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7105a3f1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB9be31b71" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB93f85d3c" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTcxMDIyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5ODg4OTEmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cIe8dfe511" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25710228&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2571022=
+8.278663/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBa0fb179e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25710228.278663/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3a35da67" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25710228.278663/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe8786275" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25710228.278663/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB2b47b739" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB7=
+026b523" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25710228.278663/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+cc3e5ca" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D257102=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D257102=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D257102=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D257102=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D257102=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25988891&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfb250.5z0n/8b7903e4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_17732330_1273139455.1636999623952--
+

@@ -24,6 +24,7 @@ from helpers.input_cleanup import (
     cleanup_html_files,
     cleanup_email_files,
     get_processed_file_stats,
+    move_processed_file,
 )
 from helpers.utils import log_info, log_error
 from ingest.link_dispatcher import process_url_file, process_instapaper_csv
@@ -50,10 +51,12 @@ def process_html_files(config: dict) -> int:
 
         for html_file in html_files:
             try:
-                # For now, we'll use a simple document processor
-                # In a full implementation, you'd integrate with DocumentIngestor
+                # ACTUAL PROCESSING - Use DocumentIngestor to process HTML files
+                from helpers.document_ingestor import DocumentIngestor
+                from helpers.metadata_manager import ContentType
 
-                # This is a placeholder - actual implementation would depend on DocumentIngestor interface
+                doc_ingestor = DocumentIngestor(config)
+
                 log_info(
                     os.path.join(
                         config.get("data_directory", "output"),
@@ -62,9 +65,38 @@ def process_html_files(config: dict) -> int:
                     f"Processing HTML file: {html_file}",
                 )
 
-                # Mark as processed for cleanup (in real implementation, check if actually processed)
-                processed_files.append(html_file)
-                processed_count += 1
+                # Actually process the file
+                result = doc_ingestor.ingest_single(html_file)
+
+                if result.success:
+                    processed_files.append(html_file)
+                    processed_count += 1
+                    content_id = result.metadata.uid if result.metadata else "unknown"
+                    log_info(
+                        os.path.join(
+                            config.get("data_directory", "output"),
+                            "automated_ingestion.log",
+                        ),
+                        f"Successfully processed HTML file: {html_file} -> {content_id}",
+                    )
+
+                    # IMMEDIATELY move the file after successful processing
+                    if move_processed_file(html_file, "html", config):
+                        log_info(
+                            os.path.join(
+                                config.get("data_directory", "output"),
+                                "automated_ingestion.log",
+                            ),
+                            f"Moved processed HTML file: {html_file} -> processed/html/",
+                        )
+                else:
+                    log_error(
+                        os.path.join(
+                            config.get("data_directory", "output"),
+                            "automated_ingestion.log",
+                        ),
+                        f"Failed to process HTML file {html_file}: {result.error}",
+                    )
 
             except Exception as e:
                 log_error(
@@ -107,8 +139,12 @@ def process_email_files(config: dict) -> int:
 
     for email_file in email_files:
         try:
-            # For now, we'll use a simple document processor
-            # In a full implementation, you'd integrate with email processor
+            # ACTUAL PROCESSING - Use DocumentIngestor to process email files
+            from helpers.document_ingestor import DocumentIngestor
+            from helpers.metadata_manager import ContentType
+
+            doc_ingestor = DocumentIngestor(config)
+
             log_info(
                 os.path.join(
                     config.get("data_directory", "output"), "automated_ingestion.log"
@@ -116,9 +152,38 @@ def process_email_files(config: dict) -> int:
                 f"Processing email file: {email_file}",
             )
 
-            # Mark as processed for cleanup (in real implementation, check if actually processed)
-            processed_files.append(email_file)
-            processed_count += 1
+            # Actually process the file
+            result = doc_ingestor.ingest_single(email_file)
+
+            if result.success:
+                processed_files.append(email_file)
+                processed_count += 1
+                content_id = result.metadata.uid if result.metadata else "unknown"
+                log_info(
+                    os.path.join(
+                        config.get("data_directory", "output"),
+                        "automated_ingestion.log",
+                    ),
+                    f"Successfully processed email file: {email_file} -> {content_id}",
+                )
+
+                # IMMEDIATELY move the file after successful processing
+                if move_processed_file(email_file, "emails", config):
+                    log_info(
+                        os.path.join(
+                            config.get("data_directory", "output"),
+                            "automated_ingestion.log",
+                        ),
+                        f"Moved processed email file: {email_file} -> processed/emails/",
+                    )
+            else:
+                log_error(
+                    os.path.join(
+                        config.get("data_directory", "output"),
+                        "automated_ingestion.log",
+                    ),
+                    f"Failed to process email file {email_file}: {result.error}",
+                )
 
         except Exception as e:
             log_error(

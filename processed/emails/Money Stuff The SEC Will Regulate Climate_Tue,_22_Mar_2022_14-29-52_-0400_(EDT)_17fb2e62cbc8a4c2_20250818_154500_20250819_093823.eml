@@ -1,0 +1,2209 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:63c7:0:b0:1a5:fa8c:80ab with SMTP id n7csp3076437lkk;
+        Tue, 22 Mar 2022 11:31:44 -0700 (PDT)
+X-Received: by 2002:a5d:6208:0:b0:203:dde4:c76e with SMTP id y8-20020a5d6208000000b00203dde4c76emr23628885wru.273.1647973903766;
+        Tue, 22 Mar 2022 11:31:43 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1647973903; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=qHSBuTYOwMIagxv5RNRTeqwugb+KjZvPsQtKEUtYqkL5GSCPQf8SM3oRC4QcespDlV
+         saD9nbs5at385V4vvpteuFBjmm5zVTKkhzQRsmgIQmxH+duV5TICAvShjVf3DWDsdrAS
+         T8M1vl9BbjFQtSPLjz/VWDdwLjVLk4r0w7h7BdoLZBlr+1wGTZLaxKPOob8qAgtea/aM
+         Hwo7rYh8j6UpunpoHMGZMn+k7fRIOyNGczvjt+LIFnyV2Q24ZWP99vnvY/lVPwMO7weZ
+         huY9lCR4/7LPDUDBF21bQH7dPdhkQ1ChFl0VoKqpJ/U1Cg0PH+eKm0qIP8rqZPaQuqGm
+         SEHA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=rhvUJO5Qr5I1WeSSrsR4e85pBSWkbOrFwk9J5HRyYbA=;
+        b=LmnKjVaIXSH4XZ5h4hP2zCwUvZKc4+gRwDX8M6wfFhIYW2m8s6zj62pvGW81UwaJkF
+         6IiC974LL3h2Tq43jeQKxsjL5f6sAAvIIIGlA6HqWkxyYXt2r00a4RcY4f+FkIfNJ85F
+         Y0BiF3fEKyfDmhxc1nUM+oeyM3Ey7Bs2yjxzQFymPL8pOZUvrveBYMjRNbQmXfG3WpFB
+         PLiBdqPnpSZOHQB01KeO0XUclzG3OljF+EEnZhcV3UF+O+lpEwmvqkqCv4EGGIwt1Aum
+         ftLkdCHRMu0UWkBnoVmLJnq+e/tA1khqTiHoWyll2DEweXg4lNkJ+GsFI81kkGEFhIBT
+         rb5g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=T+IAKEbU;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f9-20020adff449000000b00203ee6903f2sor8279575wrp.60.2022.03.22.11.31.43
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 22 Mar 2022 11:31:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=T+IAKEbU;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=rhvUJO5Qr5I1WeSSrsR4e85pBSWkbOrFwk9J5HRyYbA=;
+        b=vEZf+EV5MzVQAb5bzhbH4GI7Fb66Ytl7NFpSiluhF0Qz1zOGxQL3v6m7OlQHO8um9t
+         4wSwq3Af8on+ekwVakrifQ94lw0b1yY7k2hfFcXKjB1wyHj61nS40CwbHnjjPsh6HT5R
+         5HV4FKT6QchS56v9OzuerHTlgIUkhf2rODWS37U9k5ySBUwhY58JDwYQZW0NTtyMVzD5
+         sJrzoZOO90SNxx0+lKzpHVoKRib30sKxgoCjuoAMqx85apKmhKRZ9Az2BuwYdeDsdNxv
+         ICJd/EjdThH//HiAyENCUHPqZiWj9rG5FwLEP6B0HwDga/Tg2LDZjthP6hAMFyUFuwEX
+         iumw==
+X-Gm-Message-State: AOAM531txud9J5vMPaz4DMZiETYxDjjgvZriDGvfHq15On6WY16cEk0U
+	cotAd7k0xkcSuaHgxOwTsTtOCfhIrYHMsKOEPDUegAl7TEk5Tb6ItQ==
+X-Received: by 2002:a5d:59a2:0:b0:204:20d9:a5b9 with SMTP id p2-20020a5d59a2000000b0020420d9a5b9mr4258657wrr.560.1647973903318;
+        Tue, 22 Mar 2022 11:31:43 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f410:0:0:0:0:0 with SMTP id g16csp2459516wro;
+        Tue, 22 Mar 2022 11:31:40 -0700 (PDT)
+X-Received: by 2002:a05:6638:24d6:b0:317:cf47:aaf7 with SMTP id y22-20020a05663824d600b00317cf47aaf7mr14204165jat.107.1647973899825;
+        Tue, 22 Mar 2022 11:31:39 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1647973899; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=xzRpsnggL0vlZScw1j0QLlzt2cwd19dQMkYJ4pS0KJCvY0FsavkUDUNKhOWmd381Fh
+         nH+aRb/OdUOUVm19hQqJ6OdvGdsQF2lMW7BET0WHIrYGJw2M23IVdURSh5+vLO5LW3FR
+         xA/Y60iV0TJEv3Hki72FkpsZQVxBKJb3m2PlbhZcAlgyi+g2dyqHmVG6vX1l52GcyUef
+         r1UuSAPwJzZJHDrDDnnAivjXJU0GWyGQ9oUnqNzwgbIaTeDlhdUqoSGSr0ZCzMj6AHwT
+         N/kZn/qBfHXgrZAxTT3f3FwZTlVOnd4lAa4ECdeII/2w5x1FWiJKi6ud8L0FH5LU7gRu
+         1GCg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=rhvUJO5Qr5I1WeSSrsR4e85pBSWkbOrFwk9J5HRyYbA=;
+        b=iNWKzvnA6zsHwW4tGb8KJPQdQKDEOh/h/sNTOICsbe0nNu+p6eTPb200aVP2bFdIbd
+         rQz1TWzyKzuAdA0fmlw+4j3ayM1N56CZJ8qLe9Q0ODky8kV28WFjYRctNIxrOVPiYPhy
+         RWAI89ANNqVdec8njvtmXEUNobdVioii0+iDjdL4QxaUhIXJhmdmPU0OmucHgouB41V3
+         KPnPuwkYhEveKl9g5nfQpNy7og0fHZAzA7utmGLtZAxiEOeoCGAVvWtZzYNn1X+b6Cd4
+         0DS1tXtTCyUGEeZTY5lz73mmJvg3Jw6ymRPZuotDw80QUMKjDOPRd4Rq9OwLrhRDb6TM
+         yMBQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=T+IAKEbU;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220322142952.27113584.264606@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220322142952.27113584.264606@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220322142952.27113584.264606@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w9-20020a5d8a09000000b006496b4ca572sor3621890iod.66.2022.03.22.11.31.39
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 22 Mar 2022 11:31:39 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220322142952.27113584.264606@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxK2ShdE4b0ubM+1Efs2GQABopo2fxrFmMoEWJqSxfRM38iO2uJXHcLHym6IOI1pbyBqFIB5ulSKd4EbSLTdUPe45/1s6U=
+X-Received: by 2002:a5d:83c8:0:b0:604:c09b:259c with SMTP id u8-20020a5d83c8000000b00604c09b259cmr13209308ior.106.1647973899490;
+        Tue, 22 Mar 2022 11:31:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1647973899; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ZDxILuGrf8U8JPGLV7/xQqN+7bx23Y9HTWnjhWYL/msg3tKalGQ2Duz6xo2JnpmabF
+         j2HIJLeWtgHQZhHRWg+lenpa2MLj5ENiivOGBRrWrShoC+uXiUPdz93YTVG5ApeKINGN
+         KF8VCfPDEpbWknJIK1c7CyvZ38DYrvgGIkTWXOHUnEumfyIucxgqO3dkfqe0aq2rRTiP
+         ym4iGBTWa0ujeFkWSw7r7lEu25UnaLNpQcsXVirRu+3s981TOt3lR1R3LGe/L16zA6VJ
+         a1qrt8eYD285oTjx2vg4iiUfoQug7JHU90EQiDvpZcPc6konv3yQEER4b0pCXPWr3qP2
+         MB/w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=rhvUJO5Qr5I1WeSSrsR4e85pBSWkbOrFwk9J5HRyYbA=;
+        b=d08//68/xRTtGjXkbg8wSZqZOUbDcOSVoMraDMG4pM4uj2H9VgrL8EJziFkKg+TKZy
+         TORFzzw5E9xiZgr6FIZgJCtDEzzncOt+A6SYdD9oNbqCmFXcXD7JojumxJqzXdxgbU//
+         wI3p94AedsAQkrVSuLdSRfHYVO98CE/4tkIvW7wXaaxLa7mkPKKhYVlKMOeW0wyK5S9w
+         xAnHpJOkpPq5EgPD6BlamEn8/cxqUT+5WydkbHjg4bBVqiH3S0XAzUcbJHCSzI7IrbSb
+         rvuArqpPT7f5gPVmo33tb5KIKboUfSbaMYHstmE7JtXJGlpkyJKXN7ExQ7Sj1DyzzN+u
+         YVsg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=T+IAKEbU;
+       spf=pass (google.com: domain of delivery_20220322142952.27113584.264606@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220322142952.27113584.264606@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220322142952.27113584.264606@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id z26-20020a056602205a00b00649679895a4si802189iod.3.2022.03.22.11.31.30
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 22 Mar 2022 11:31:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220322142952.27113584.264606@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=LmN0bb6F5UDDYZSSbuzKb5PB+iV8dN/dTq9RB9ntpPY=;
+ b=T+IAKEbU9BZwDeUhQP+L+TJPBKmWFRie1UkjLWRgbR24UGXY23VaY+Z90Nq9ExIGz4jI+19wXp30
+   oy0+I/EwiyUvX1m+niObgV4o8Gek3J4zN4J+VBd7EgmjXjZ7GZ+4SWGPTaQidEiuF6kn3DwuAgVK
+   QxojLOy++ypDSHCx4j4=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id h78b082tkt0b for <bloomberg@khamel.com>; Tue, 22 Mar 2022 14:31:24 -0400 (envelope-from <delivery_20220322142952.27113584.264606@mx.sailthru.com>)
+Date: Tue, 22 Mar 2022 14:29:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220322142952.27113584.264606@sailthru.com>
+Subject: Money Stuff: The SEC Will Regulate Climate
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_16083679_1242616247.1647973792684"
+Precedence: bulk
+X-Feedback-ID: 6358:27113584:campaign:sailthru
+X-TM-ID: 20220322142952.27113584.264606
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg54z4.5o66/7e8ca456
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg54z4.5o66/7e8ca456>, <mailto:unsubscribe_20220322142952.27113584.264606@mx.sailthru.com>
+X-rpcampaign: stjko27113584
+
+------=_Part_16083679_1242616247.1647973792684
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Securities and Environment CommissionYesterday the U.S. Securities =
+and Exchange Commission proposed a new set of rules requiring public comp
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Securities and Environment Commission
+   =20
+ =20
+Yesterday the U.S. Securities and Exchange Commission proposed a new set of=
+ rules requiring public companies to make =E2=80=9Ccertain climate-related =
+disclosures=E2=80=9D in their public reports. Here is the 510-page proposal=
+. There is a lot. But then, why wouldn=E2=80=99t there be? The SEC has had =
+88 years to create and refine a system of rules regulating how companies di=
+sclose their financial performance. Now it is building a parallel system re=
+gulating how companies disclose their environmental performance. Of course =
+that is complicated.The rules=C2=A0will require companies to describe what =
+climate-related risks they face and how they manage those risks. If a compa=
+ny has a =E2=80=9Ctransition plan=E2=80=9D to adapt to a warming world, or =
+if it =E2=80=9Cuses scenario analysis to assess the resilience of its busin=
+ess strategy to climate-related risks,=E2=80=9D or if it =E2=80=9Cuses=C2=
+=A0an internal carbon price=E2=80=9D to budget for emissions, it will have =
+to describe how it uses those tools. Companies that use carbon offsets will=
+ have to disclose and quantify that. There will be disclosures in companies=
+=E2=80=99 financial statements describing how the financials are affected b=
+y climate risks. These rules reference the recommendations of the Task Forc=
+e on Climate-Related Financial Disclosures; =E2=80=9CMichael Bloomberg,=C2=
+=A0founder and majority owner of the parent company of Bloomberg News, is c=
+hairman of=E2=80=9D the TCFD.Companies will also have to disclose their gre=
+enhouse gas emissions. Here the SEC references the standards of the Greenho=
+use Gas Protocol, which breaks greenhouse gas emissions into three categori=
+es: Scope 1 (=E2=80=9Cdirect GHG emissions that occur from sources owned or=
+ controlled by the company=E2=80=9D), Scope 2 (=E2=80=9Cemissions primarily=
+ resulting from the generation of electricity purchased and consumed by the=
+ company=E2=80=9D),=C2=A0and Scope 3 (=E2=80=9Call indirect GHG emissions n=
+ot otherwise included in a registrant=E2=80=99s Scope 2 emissions, which oc=
+cur in the upstream and downstream activities of a registrant=E2=80=99s val=
+ue chain=E2=80=9D). Companies would have to disclose their Scope 1 and 2 em=
+issions, and also Scope 3 =E2=80=9Cif material, or if the registrant has se=
+t a GHG emissions reduction target or goal that includes its Scope 3 emissi=
+ons.=E2=80=9D Large companies will have to get their Scope 1 and 2 numbers=
+=C2=A0audited, or rather =E2=80=9Cattested=E2=80=9D by a qualified carbon-e=
+missions-attesting firm. (Scope 3 emissions are harder to measure and would=
+ not have to be attested, and there is a =E2=80=9Csafe harbor=E2=80=9D for =
+companies that try their best but get their Scope 3 numbers wrong.)That is =
+a very brief summary; for more you can read=C2=A0Bloomberg News=C2=A0or the=
+ Wall Street Journal, or Bloomberg=E2=80=99s =E2=80=9CFive Key Takeaways,=
+=E2=80=9D or the SEC=E2=80=99s own summary fact sheet. Here I just want to =
+talk about a few high-level themes.First: It seems fair to say, broadly spe=
+aking, that a lot of investors want this sort of disclosure. ESG =E2=80=94=
+=C2=A0environmental, social and governance investing =E2=80=94=C2=A0is hot =
+right now, and many investors have pushed many companies to make many discl=
+osures like this.In a sense, this is an argument for regulation. The SEC is=
+ basically in the business of making sure investors get the information tha=
+t they need, and if lots of investors=C2=A0want=C2=A0some sort of informati=
+on, then that is good evidence that they need it. If investors care about a=
+ thing, then that thing=C2=A0is material, and companies should disclose it.=
+In another sense, it is an argument against regulation. The fact that some =
+companies disclose some of this stuff, because investors want them to, sugg=
+ests that investors are able to (1) tell companies what they want and (2) g=
+et the companies to do it. Companies with material climate risks will get p=
+ressure from investors to quantify those risks and explain=C2=A0what they p=
+lan to do about them; if the companies say no then they will have a harder =
+time raising capital.Or that is the basic theory of =E2=80=9Cprivate orderi=
+ng=E2=80=9D: In a world where a smallish number of large investors have a l=
+ot of power, why do they need the SEC to tell companies what to disclose? W=
+hy can=E2=80=99t the investors do it themselves?=C2=A0The market is working=
+; why do we need 510 pages of new regulation?I think there are three main a=
+nswers to this:=09Not=C2=A0all=C2=A0investors have a lot of power. Traditio=
+nally the SEC has seen itself largely as a protector of small retail invest=
+ors, since big investors can better take care of themselves. In theory I su=
+ppose that retail investors might care about climate risk at a company that=
+ big powerful institutions don=E2=80=99t care about. In practice =E2=80=A6=
+=C2=A0this rule proposal does not seem particularly interested in retail in=
+vestors? I suppose many retail investors are interested in ESG in at least =
+some approximate sense, but caring about environmental disclosures, and qua=
+ntifying environmental risk, seems like a purely institutional preoccupatio=
+n. These rules are designed to make it easier for professional ESG investor=
+s to do their jobs.=09Investors don=E2=80=99t have=C2=A0that=C2=A0much powe=
+r. A general theme in U.S. corporate and securities law is that, if shareho=
+lders want a company to do something, and the company=E2=80=99s board and m=
+anagers don=E2=80=99t want to do it, the shareholders=E2=80=99 ability to=
+=C2=A0force=C2=A0them is   rather limited. This is especially true because,=
+ even as it is proposing these climate rules, the SEC has proposed other ru=
+les to vastly cut back on shareholder activism, making it much harder for s=
+hareholders to hold corporate managers to account. (The SEC is planning to =
+limit activism through the  swaps disclosure rules and  the 13D rules; we h=
+ave   talked about them a   little bit and I hope to discuss them more in a=
+ future column.) If you are a big shareholder and you want to get your port=
+folio companies to do something =E2=80=94=C2=A0particularly if you want to =
+get them=C2=A0all=C2=A0to do it =E2=80=94=C2=A0the most efficient approach =
+might be to lobby the SEC.=09It is not easy for big shareholders to act col=
+lectively. If big shareholders all want companies to start disclosing more =
+stuff about climate, and they team up to pressure those companies, they mig=
+ht run into trouble. It might raise antitrust eyebrows for competing instit=
+utions to=C2=A0tell competing companies to all do the same thing. Teaming u=
+p to pressure a company might run into trouble with the SEC=E2=80=99s limit=
+s on =E2=80=9Cgroup=E2=80=9D activities by shareholders. My model of a lot =
+of the financial industry is that there are entities =E2=80=94=C2=A0index p=
+roviders,   proxy advisers =E2=80=94=C2=A0that are basically in the busines=
+s of allowing big investors to act collectively without explicitly teaming =
+up with each other. Arguably the SEC is another way for big shareholders to=
+ act collectively.Anyway the SEC is fairly clear that it does not think tha=
+t private ordering works for climate disclosure, and that the disclosures t=
+hat companies now do voluntarily are too limited and inconsistent to be use=
+ful for investors. They are also insufficiently=C2=A0legally actionable? If=
+ the SEC tells you to write some climate disclosures and put them in your a=
+nnual report on Form 10-K, and those climate disclosures are=C2=A0wrong, yo=
+u will get very sued. If instead your shareholders ask you to write some cl=
+imate disclosures, and you put them in a separate climate report on your we=
+bsite, and=C2=A0those=C2=A0disclosures are wrong =E2=80=A6 well, you will a=
+lso get quite sued.=C2=A0=E2=80=9CEverything is securities fraud,=E2=80=9D =
+as I often say around here, and if a company lies on its website about some=
+thing material to shareholders there will be lawsuits. But if it lies in it=
+s 10-K about something mandated by the SEC, the lawsuits will be more compe=
+lling. =E2=80=9CThe information provided outside of Commission filings is n=
+ot subject to the full range of liability and other investor protections th=
+at help elicit complete and accurate disclosure by public companies,=E2=80=
+=9D says the rule proposal (pages 8-9).A second theme: Why do investors wan=
+t this disclosure? One possible answer is, for the same reason they want go=
+od consistent financial disclosure: They want to be able to understand how =
+companies work, so that they can buy the good ones and avoid the risky ones=
+. And most of the proposal is about that sort of thing: Climate risks can a=
+ffect a company=E2=80=99s business and financial results, so investors need=
+ to understand those risks to understand the business, etc.But there is a s=
+uggestion, in the rule proposal, that that=E2=80=99s not all that=E2=80=99s=
+ going on. On page 9 of the release, the SEC stresses the importance of con=
+sistency in environmental reporting, saying:We understand investors often e=
+mploy diversified strategies, and therefore do not necessarily consider ris=
+k and return of a particular security in isolation but also in terms of the=
+ security=E2=80=99s effect on the portfolio as a whole, which requires comp=
+arable data across registrants.And on page 166, the SEC notes that some=C2=
+=A0institutional investors want greenhouse gas disclosure from public compa=
+nies because they have committed to their own carbon-neutrality goals:Sever=
+al large institutional investors and financial institutions, which collecti=
+vely have trillions of dollars in assets under management, have formed init=
+iatives and made commitments to achieve a net-zero economy by 2050, with in=
+terim targets set for 2030. These initiatives further support the notion th=
+at investors currently need and use GHG emissions data to make informed inv=
+estment decisions. These investors and financial institutions are working t=
+o reduce the GHG emissions of companies in their portfolios or of their cou=
+nterparties and need GHG emissions data to evaluate the progress made regar=
+ding their net-zero commitments and to assess any associated potential asse=
+t devaluation or loan default risks.Notice that this is weird. This is not =
+=E2=80=9Cinvestors need this information to understand the company providin=
+g the information,=E2=80=9D but rather =E2=80=9Clook, investors these days =
+are diversified, and many of them care about the systemic risks to their po=
+rtfolios, not about how any one company runs its business.=E2=80=9D If it=
+=E2=80=99s material=C2=A0to an institutional investor=C2=A0that its portfol=
+io be carbon-neutral, then it needs to know the carbon emissions of each po=
+rtfolio company, even if those emissions are not actually material to that =
+company.This strikes me as very new! And basically correct, I mean: Investo=
+rs are=C2=A0often diversified and systemic these days, so the SEC=E2=80=99s=
+ rules might as well reflect how investing actually works. Still it is a no=
+vel and surprising concession, asking a company to disclose stuff because i=
+t is useful to its shareholders=C2=A0as universal shareholders, not (just) =
+because it is relevant to the company=E2=80=99s own business. SEC Commissio=
+ner Hester Peirce, in her dissenting statement, objects:Not only does this =
+justification depart from the Commission=E2=80=99s traditional company-spec=
+ific approach to disclosure, but it suggests that it is appropriate for sha=
+reholders of the disclosing company to subsidize other investors=E2=80=99 p=
+ortfolio analysis. How could a company=E2=80=99s management possibly be exp=
+ected to prepare disclosure to satisfy the informational demands of all the=
+ company=E2=80=99s investors, each with her own idiosyncratic portfolio?Thi=
+rd: We  talked yesterday about the booming market for environmental, social=
+ and governance experts. I wrote that =E2=80=9Cone way to understand the pr=
+oliferation of ESG reporting regimes, carbon credit trading systems, etc., =
+is that adding a lot of rules and complexity to ESG makes it feel more like=
+ finance.=E2=80=9D There is a fuzzy form of ESG in which you try to invest =
+in companies that make the world a better place and try to avoid companies =
+that make it worse, in each case measured by your own subjective and case-s=
+pecific feelings about the company.And then there is this. This is a comple=
+x accounting regime for ESG, a legally approved set of Generally Accepted C=
+limate Principles, with its own body of technical standards and its own set=
+ of climate attestation professionals. There is already a large industry of=
+ professionals who certify companies=E2=80=99 environmental behavior; makin=
+g those certifications mandatory will be good for business.So page 200 of t=
+he proposal discusses the question: Well, how do you calculate your greenho=
+use gas emissions?=C2=A0In addition to setting its organizational and opera=
+tional boundaries, a registrant would need to select a GHG emissions calcul=
+ation approach. While the direct measurement of GHG emissions from a source=
+ by monitoring concentration and flow rate is likely to yield the most accu=
+rate calculations, due to the expense of the direct monitoring of emissions=
+, an acceptable and common method for calculating emissions involves the ap=
+plication of published emission factors to the total amount of purchased fu=
+el consumed by a particular source. The proposed rules would define =E2=80=
+=9Cemission factor=E2=80=9D as a multiplication factor allowing actual GHG =
+emissions to be calculated from available activity data or, if no activity =
+data is available, economic data, to derive absolute GHG emissions. Emissio=
+n factors are ratios that typically relate GHG emissions to a proxy measure=
+ of activity at an emissions source. Examples of activity data reflected in=
+ emission factors include kilowatt-hours of electricity used, quantity of f=
+uel used, output of a process, hours of operation of equipment, distance tr=
+avelled, and floor area of a building. If no activity data is available, a =
+registrant may use an emission factor based on economic data. For example, =
+when calculating Scope 3 emissions from purchased goods or services, a regi=
+strant could determine the economic value of the goods or services purchase=
+d and multiply it by an industry average emission factor (expressed as aver=
+age emissions per monetary value of goods or services).And pages 250 to 259=
+ discuss the required qualifications for an =E2=80=9Cattestation provider,=
+=E2=80=9D that is, a firm that audits and certifies=C2=A0a company=E2=80=99=
+s reported greenhouse gas emissions. The attestation provider has to be =E2=
+=80=9Can expert in GHG emissions by virtue of having significant experience=
+ in measuring, analyzing, reporting, or attesting to GHG emissions=E2=80=9D=
+; it also has to be =E2=80=9Cindependent=E2=80=9D of the company, in the sa=
+me way that a company=E2=80=99s financial auditors have to be independent. =
+So for instance if you are an environmental consulting firm advising a comp=
+any on how to reduce its greenhouse gas emissions, you probably can=E2=80=
+=99t=C2=A0also=C2=A0attest to its greenhouse gas report in its SEC filings,=
+ because that would put=C2=A0=E2=80=9Cthe attestation provider in the posit=
+ion of attesting to such attestation provider=E2=80=99s own work=E2=80=9D (=
+page 254).=C2=A0There are obvious problems with an approach to environmenta=
+l investing that relies on each investor's fuzzy subjective feelings about =
+how pollution-y a company seems to be. There are =E2=80=A6=C2=A0subtler, mo=
+re interesting, more=C2=A0financial=C2=A0problems with an approach that rel=
+ies on complex accounting methodologies and proxy measurements for emission=
+s? It just feels like the industry that these rules will create, the indust=
+ry of optimizing this reporting, will be an=C2=A0industry of optimizing=C2=
+=A0this reporting, which is not quite the same thing as an industry of redu=
+cing greenhouse gas emissions.Fourth: This is entirely disclosure regulatio=
+n. The rules don=E2=80=99t require companies to change any=C2=A0behavior,=
+=C2=A0except insofar as they now have=C2=A0to measure and report a bunch of=
+ stuff. But you can see, from the rule proposal, how a disclosure regulatio=
+n can function as a substantive regulation. For instance (page 100):The pro=
+posed rules would require a registrant to disclose a number of board govern=
+ance items, as applicable. The first item would require a registrant to ide=
+ntify any board members or board committees responsible for the oversight o=
+f climate-related risks. The responsible board committee might be an existi=
+ng committee, such as the audit committee or risk committee, or a separate =
+committee established to focus on climate-related risks. The next proposed =
+item would require disclosure of whether any member of a registrant=E2=80=
+=99s board of directors has expertise in climate-related risks, with disclo=
+sure required in sufficient detail to fully describe the nature of the expe=
+rtise.Another proposed item would require a description of the processes an=
+d frequency by which the board or board committee discusses climate-related=
+ risks.=C2=A0The registrant would have to disclose how the board is informe=
+d about climate-related risks, and how frequently the board considers such =
+risks. These proposed disclosure items could provide investors with insight=
+ into how a registrant=E2=80=99s board considers climate-related risks and =
+any relevant qualifications of board members.Is the SEC here telling compan=
+ies =E2=80=9Cyour board needs to spend 20 minutes of every meeting talking =
+about climate risk, and have an environmental expert on the board=E2=80=9D?=
+ No, it is not; that is surely beyond the SEC=E2=80=99s authority. But =E2=
+=80=A6=C2=A0it is kind of telling them that, isn=E2=80=99t it? If your disc=
+losure under this item says =E2=80=9COur board is not informed about climat=
+e-related risks in any systematic way, and never really considers them,=E2=
+=80=9D that will look bad. Investors will complain, the SEC will look at yo=
+u with suspicion, it will be unpleasant. To check this box, you will have t=
+o start providing the board with regular reports about climate risk, and de=
+voting time to it in board meetings. (This is true even if you are, like, a=
+ software company with a modest environmental footprint.) Perhaps this will=
+ all be surly and pro forma and your behavior won=E2=80=99t change, but the=
+ (reasonable) theory seems to be that if you force boards to talk about cli=
+mate change they will end up doing something about it too.Or here is a pass=
+age about Scope 3 greenhouse gas disclosure (page 169):Scope 3 emissions ar=
+e indirect, but registrants can and do take steps to limit Scope 3 emission=
+s and the attendant risks. Although a registrant may not own or control the=
+ operational activities in its value chain that produce Scope 3 emissions, =
+it nevertheless may influence those activities, for example, by working wit=
+h its suppliers and downstream distributors to take steps to reduce those e=
+ntities=E2=80=99 Scopes 1 and 2 emissions (and thus help reduce the registr=
+ant=E2=80=99s Scope 3 emissions) and any attendant risks. As such, a regist=
+rant may be able to mitigate the challenges of collecting the data required=
+ for Scope 3 disclosure.Is the SEC here telling large public companies =E2=
+=80=9Cyou have to pressure your private suppliers to stop emitting so much =
+carbon=E2=80=9D? No; that=C2=A0is again beyond its authority. It is just sa=
+ying, look, you do what you want, but if=C2=A0you=C2=A0don't=C2=A0pressure =
+your suppliers to reduce their emissions, you=E2=80=99re gonna have a heck =
+of a hard time reporting your Scope 3 emissions. The disclosure regime effe=
+ctively deputizes public companies to be climate enforcers: If their suppli=
+ers don=E2=80=99t start measuring and reducing their emissions, the compani=
+es won=E2=80=99t be able to do the required disclosure.I  sometimes  say th=
+at, in the U.S., the SEC is the all-purpose meta-regulator, and here you ca=
+n see why. Public companies exist in society, so=C2=A0everything that matte=
+rs to society is probably material to public companies, and what public com=
+panies do about any issue probably matters to society. And regulating what=
+=C2=A0public companies have to say about that issue will affect how they ac=
+t on it. The title of Commissioner Peirce=E2=80=99s dissenting statement is=
+: =E2=80=9CWe are Not the Securities and Environment Commission - At Least =
+Not Yet.=E2=80=9D But they are! They=E2=80=99re the Securities and Everythi=
+ng Commission.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Sell-side M&A fees
+   =20
+ =20
+A weird thing about being the investment bank advising the seller in a publ=
+ic-company mergers-and-acquisitions transaction is that, if all goes well, =
+your client will disappear, and at exactly the moment it is supposed to pay=
+ your fee. Your fee is due at the closing of the deal, and at the closing o=
+f the deal your client stops being an independent public company and become=
+s a subsidiary of the buyer. You have spent months negotiating hard against=
+ the buyer to extract every last dollar for your client, and then you send =
+a bill for all your hard work, and you hope the buyer will pay it. The buye=
+r might say no!I mean, the buyer=C2=A0probably=C2=A0won=E2=80=99t say no; y=
+ou have a contract, after all, and the contract is still valid after the bu=
+yer acquires your client. And it=E2=80=99s not like the buyer will be=C2=A0=
+surprised:=C2=A0Your fee will generally be disclosed during the merger nego=
+tiations, and in the merger agreement, and in the proxy statement filed for=
+ the deal; the buyer will have ample warning that your bill is coming, and =
+if it doesn=E2=80=99t object before the closing it=E2=80=99s not like it ha=
+s much standing to object afterwards. Still it can make you a bit nervous! =
+Carl Icahn once=C2=A0did=C2=A0acquire a public company and then refused to =
+pay its bankers=E2=80=99 fee. (They sued and won.)Also  here=E2=80=99s Warr=
+en Buffett:Warren Buffett is telegraphing his disdain for Wall Street banke=
+rs with an oddball price on his latest multibillion-dollar takeover.The $84=
+8.02 for every share that Alleghany Corp. stockholders get from Berkshire H=
+athaway Inc. is the result of Buffett balking at the banking fee being set =
+aside by the target company -- in this case for Goldman Sachs Group Inc., w=
+hich is advising the insurer.=C2=A0Berkshire had offered to pay $850 a shar=
+e with Buffett cautioning Alleghany that he didn=E2=80=99t want to foot the=
+ bill for the banking fees, according to a person with knowledge of the mat=
+ter who asked not to be identified discussing private information. So any f=
+ee for a financial adviser would come out of the proceeds for Alleghany=E2=
+=80=99s shareholders. The result is spelled out in a regulatory filing: An =
+announced purchase price that subtracts roughly $27 million for Goldman -- =
+calling attention to Buffett=E2=80=99s stand. =E2=80=A6While deal prices ty=
+pically reflect the back-and-forth between buyers and sellers, it gets smoo=
+thed over before the deal is struck. Most announcements are priced to avoid=
+ clunky numbers after both sides agree on a plan for how advisors are paid.=
+ A regulatory filing notes that the price would have been $850 per share bu=
+t for the roughly $27 million fee paid to Goldman.Here is that filing: The =
+merger agreement says that=C2=A0each Alleghany share will be =E2=80=9Cconve=
+rted into the right to receive $848.02 in cash, representing $850.00 per Sh=
+are less the financial advisory fee due to the Financial Advisor in connect=
+ion with the Merger.=E2=80=9DIn a sense this is a nothing. Goldman is still=
+ getting paid.=C2=A0The buyer always effectively pays the fee (generally ou=
+t of the target=E2=80=99s cash on hand at closing), the buyer always budget=
+s for it, and really it always reduces the amount payable to the shareholde=
+rs. It=E2=80=99s rarely explicit; it=E2=80=99s unusual for a buyer to say =
+=E2=80=9Cwe=E2=80=99ll pay you $100=E2=80=9D and then find out about the ba=
+nkers=E2=80=99 fee and say =E2=80=9Cactually $98.=E2=80=9D In general that =
+is sort of an amateurish move: Every seller hires a banker (it is almost le=
+gally required!), every buyer knows it will have a sell-side=C2=A0fee to pa=
+y, and so every buyer includes an expected fee in its financial analysis be=
+fore=C2=A0proposing a price. Renegotiating the price when you find out the =
+bankers=E2=80=99 fee suggests that you are acting in bad faith or don=E2=80=
+=99t know what you=E2=80=99re doing. You can get away with it if the banker=
+s=E2=80=99 fee is egregiously large, or if you=E2=80=99re Warren Buffett an=
+d want to be weird just for the sake of being weird.Also the fee is $1.98 o=
+n a price of $850?=C2=A0That is not egregiously large; in fact it is a belo=
+w-market fee. The stock closed at $676.76 last week, before the deal was an=
+nounced.=C2=A0Buffett is paying a 25.3% premium, and Goldman is getting a f=
+ee of about 0.23% of the equity value. Without Goldman=E2=80=99s fee, the s=
+hareholders would be getting a 25.6% premium =E2=80=94=C2=A0but without Gol=
+dman, they might not be getting a premium at all? Like, I dunno, the banker=
+s spent the weekend working out a deal, and shareholders came in on Monday =
+to find that they were getting an extra $170 per share, but will have to pa=
+y Goldman two bucks for it? That seems good? Warren Buffett is kind of tele=
+graphing that Wall Street bankers are worth it?Also =E2=80=94=C2=A0presumab=
+ly Alleghany has lawyers working on this deal? Presumably they=E2=80=99re g=
+etting paid? Effectively, by Berkshire? How does Warren Buffett decide whic=
+h fees to deduct and which to pay? Just, like, =E2=80=9Cif we pretend to st=
+iff the bankers we will get good headlines, while if we pretend to stiff th=
+e lawyers we won=E2=80=99t=E2=80=9D? I don=E2=80=99t know, it=E2=80=99s a s=
+trange choice.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Search fund
+   =20
+ =20
+You could have a simple model of business school in which, in the olden day=
+s, people went to business school to learn how to run a business. Then they=
+ used their MBA degree to take over the family pest-control business, or pe=
+rhaps to rise through the ranks in some big company. And then in the 1980s =
+finance was invented, and business school became training for jobs in the f=
+inancial industry. And then in the 1990s tech was invented, and business sc=
+hool became training for jobs in the tech and financial industries.=C2=A0Th=
+ese developments were in many ways good for business schools (higher salari=
+es for graduates, more organized recruiting, professors were more=C2=A0pres=
+tigious=C2=A0because they did more math, etc.). But they left a certain gap=
+ in industrial America, specifically at its pest-control companies. Who wil=
+l take over the family pest-control business, if all the MBAs go into finan=
+ce and tech?If you, uh, went to a modern business school, you might say =E2=
+=80=9Caha, a gap! We can solve it through financial engineering.=E2=80=9D A=
+nd you would be correct! I loved this Wall Street Journal article:Plenty of=
+ M.B.A.s finish business school with a hot startup pitch for investors. The=
+ latest breed of student-entrepreneur is skipping the startup part and pitc=
+hing themselves as the investment.Consider the model a SPAC of sorts=E2=80=
+=94akin to the stock-market trend in which a special-purpose acquisition, o=
+r =E2=80=9Cblank-check,=E2=80=9D company raises money and lists its shares,=
+ then finds a private business to merge with. In this case, the investment =
+vehicle is a fund for a newly minted M.B.A. graduate. The M.B.A. uses the m=
+oney to search for a privately held, under-the-radar business and run it as=
+ chief executive and part owner.=C2=A0These so-called search funds came on =
+the business-school scene decades ago, but they have taken off in the pande=
+mic years as investors=E2=80=94awash in capital=E2=80=94look for promising =
+places to put it. =E2=80=A6For M.B.A.s, the search-fund model is a way to b=
+ecome a CEO and business owner soon after graduation, without starting a bu=
+siness from scratch. Though some non-M.B.A.s have led search funds, recent =
+M.B.A. graduates have used the networking and mentoring support they get fr=
+om their business schools to start the majority of them. =E2=80=A6The compa=
+nies that M.B.A. searchers target aren=E2=80=99t flashy startups or well-kn=
+own brands. Many are family firms without a succession plan or companies to=
+o small to attract typical investors. The searchers typically hold the busi=
+nesses for six to 10 years before exiting, sometimes selling to private equ=
+ity. Recently acquired companies operate in insurance sales, security, soft=
+ware services, pest abatement and construction, Stanford said.=C2=A0What a =
+great trick! If you get your MBA from Stanford and tell your classmates =E2=
+=80=9CI am taking over a family-owned pest-control business in Scranton,=E2=
+=80=9D and they have fancy offers from private equity firms and tech compan=
+ies, they will look down on you. But if you tell them =E2=80=9CI am running=
+ a=C2=A0search fund=E2=80=9D then that is, you know, cool, and finance.
+ =20
+   =20
+      Nickel=E2=80=99s=C2=A0back
+   =20
+ =20
+Hey it=E2=80=99s  all fine now:Nickel volumes surged as prices traded withi=
+n the London Metal Exchange=E2=80=99s daily limits for the first time since=
+ reopening last week, in a sign that the market is starting to stabilize af=
+ter an unprecedented squeeze sent prices spiking.The flurry of deals on Tue=
+sday came as LME prices moved back into line with nickel contracts trading =
+on the Shanghai Futures Exchange, which remained open during a weeklong sus=
+pension of trading in London in the wake of the short squeeze. More than 11=
+,300 contracts, or 67,800 tons of nickel, had traded by 2:18 p.m, while LME=
+ prices pared sharp early losses as the evening session got underway on the=
+ rival Chinese bourse. =E2=80=A6LME nickel was trading 6% lower at $29,510 =
+ton at 2:20 p.m, rebounding from a loss of as much as 15%. SHFE prices rose=
+ 1.6% to 210,040 yuan a ton, which is equivalent to about to $29,200 a ton =
+once currency conversions and VAT deductions are taken into account. =E2=80=
+=A6=E2=80=9CIt is now logical with the situation surrounding that squeeze h=
+aving been resolved that we would come back down to a more normalized level=
+, and obviously the Shanghai price is a good guide there,=E2=80=9D LME Chie=
+f Executive Matthew Chamberlain said on Bloomberg TV shortly before the mar=
+ket opened. =E2=80=9CThere is a good chance we=E2=80=99ll discover a price =
+over the next couple of days, and possibly even today.=E2=80=9DHe was right=
+. We talked  last week and again  yesterday about the LME=E2=80=99s strange=
+ juddering approach to discovering a price: Everyone roughly knew the price=
+ by last Thursday, but LME took a week to ease into it slowly with a bunch =
+of days of sparse, limit-down trading. It was not a great look. A lot of pe=
+ople spent the last week very huffily announcing=C2=A0that this would be th=
+e end of the LME, that they would never trade nickel there again, etc., but=
+ financial-market memories are usually pretty short and now that nickel is =
+back I assume everyone will forget this unpleasantness forever.Elsewhere, m=
+y Bloomberg Opinion colleague  David Fickling argues that LME=E2=80=99s rel=
+iance on Class 1 nickel as a benchmark is outdated. And:=C2=A0=E2=80=9CLME =
+in Talks with Governments on Whether to  Block Russian Metal.=E2=80=9D
+ =20
+   =20
+      Amalgamation
+   =20
+ =20
+You may recall that Amalgamated Bank  proposed to amalgamate with Amalgamat=
+ed Bank. (Fine, fine, the holding company of Amalgamated Bank agreed to acq=
+uire the holding company of Amalgamated Bank of Chicago.)=C2=A0Then Amalgam=
+ated Bank  called off the amalgamation, but Amalgamated Bank is not happy a=
+bout this and might sue Amalgamated Bank for not amalgamating:Amalgamated I=
+nvestments Co., parent of Amalgamated Bank of Chicago, may pursue compensat=
+ory damages from Amalgamated Financial Corp. in New York for allegedly brea=
+ching terms of their merger agreement.Amalgamated Financial in February cal=
+led off its $98.1 million acquisition of Amalgamated Investments, citing an=
+ inability to secure regulatory approval. At the time, however, the seller =
+said its executives believed the deal could proceed.In a regulatory filing =
+this week, the $7 billion-asset Amalgamated Financial disclosed that its na=
+mesake peer in the Windy City had threatened the lawsuit. The New York comp=
+any shot back by denying any breach of the deal terms and said it would "vi=
+gorously" defend any legal claims.I hope they sue and it goes to a jury and=
+ the jury comes back and says =E2=80=9Cwe find that Amalgamated Bank is at =
+fault here=E2=80=9D and the judge says =E2=80=9Cwhich one?=E2=80=9D and the=
+ jury says =E2=80=9Cwait what there were two?=E2=80=9D It really is extreme=
+ly untidy that these Amalgamated Banks are not amalgamating.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Bitcoin Miners Want to Recast Themselves as Eco-Friendly. S&P to Pull Credi=
+t Ratings for  All Russian Firms After EU Ban. Russia=E2=80=99s local bonds=
+ drop as Moscow takes first steps towards reopening markets.=C2=A0=E2=80=98=
+Grand Theft Aero=E2=80=99: Russia=E2=80=99s $10bn plane grab signals losses=
+ for lessors. Evergrande Delays Results as Banks Seize $2 Billion at Unit. =
+Archegos quietly built stake in Deutsche Bank. Credit Suisse Remakes Board =
+in Aftermath of Scandals.=C2=A0Ex-Goldman Banker=E2=80=99s Wife Created She=
+ll Entity After  1MDB Deal. What=E2=80=99s Greg Smith up to since leaving G=
+oldman Sachs?=C2=A0U.K. Fines Lottery Operator for  Telling Winners They We=
+re Losers. David Solomon is playing Lollapalooza. Please stop putting COVID=
+-19 test solution in your eyes and nose, FDA says.=C2=A0If you'd like to ge=
+t=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, plea=
+se=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and oth=
+er great Bloomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg54z4.5o66/2b8839f1.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_16083679_1242616247.1647973792684
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Securities and Environment CommissionYesterday the U.S. Securities and Exch=
+ange Commission proposed a new set of rules requiring public comp
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB29ab21e0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc35be316"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCb554f971" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Securities and Environment Commission</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday the U.S. Securities and Exch=
+ange Commission <a href=3D"https://link.mail.bloombergbusiness.com/click/27=
+113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi00N=
+j91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9Z292ZGVsaXZlcnk/607f07ceef4b8524a319=
+a23cB28cd1af9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">proposed a new set of rules</a> requiring public com=
+panies to make =E2=80=9Ccertain climate-related disclosures=E2=80=9D in the=
+ir public reports. Here is <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMD=
+IyLzMzLTExMDQyLnBkZg/607f07ceef4b8524a319a23cB14c7f791" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">the 510-pag=
+e proposal</a>. There is a lot. But then, why wouldn=E2=80=99t there be? Th=
+e SEC has had 88 years to create and refine a system of rules regulating ho=
+w companies disclose their financial performance. Now it is building a para=
+llel system regulating how companies disclose their environmental performan=
+ce. Of course that is complicated.</p><p style=3D"margin: 16px 0;">The rule=
+s=C2=A0will require companies to describe what climate-related risks they f=
+ace and how they manage those risks. If a company has a =E2=80=9Ctransition=
+ plan=E2=80=9D to adapt to a warming world, or if it =E2=80=9Cuses scenario=
+ analysis to assess the resilience of its business strategy to climate-rela=
+ted risks,=E2=80=9D or if it =E2=80=9Cuses=C2=A0an internal carbon price=E2=
+=80=9D to budget for emissions, it will have to describe how it uses those =
+tools. Companies that use carbon offsets will have to disclose and quantify=
+ that. There will be disclosures in companies=E2=80=99 financial statements=
+ describing how the financials are affected by climate risks. These rules r=
+eference the recommendations of the Task Force on Climate-Related Financial=
+ Disclosures; =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjItMDMtMjEvc2VjLXRvLXJlcXVpcmUtY29tcGFuaWVzLXRvLWRpc2Nsb3NlLXBvbGx1dGlvb=
+i11bmRlci1uZXctcGxhbj9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3dcdaf47" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Michael Bloomberg</=
+a>,=C2=A0founder and majority owner of the parent company of Bloomberg News=
+, is chairman of=E2=80=9D the TCFD.</p><p style=3D"margin: 16px 0;">Compani=
+es will also have to disclose their greenhouse gas emissions. Here the SEC =
+references the standards of the Greenhouse Gas Protocol, which breaks green=
+house gas emissions into three categories: Scope 1 (=E2=80=9Cdirect GHG emi=
+ssions that occur from sources owned or controlled by the company=E2=80=9D)=
+, Scope 2 (=E2=80=9Cemissions primarily resulting from the generation of el=
+ectricity purchased and consumed by the company=E2=80=9D),=C2=A0and Scope 3=
+ (=E2=80=9Call indirect GHG emissions not otherwise included in a registran=
+t=E2=80=99s Scope 2 emissions, which occur in the upstream and downstream a=
+ctivities of a registrant=E2=80=99s value chain=E2=80=9D). Companies would =
+have to disclose their Scope 1 and 2 emissions, and also Scope 3 =E2=80=9Ci=
+f material, or if the registrant has set a GHG emissions reduction target o=
+r goal that includes its Scope 3 emissions.=E2=80=9D Large companies will h=
+ave to get their Scope 1 and 2 numbers=C2=A0audited, or rather =E2=80=9Catt=
+ested=E2=80=9D by a qualified carbon-emissions-attesting firm. (Scope 3 emi=
+ssions are harder to measure and would not have to be attested, and there i=
+s a =E2=80=9Csafe harbor=E2=80=9D for companies that try their best but get=
+ their Scope 3 numbers wrong.)</p><p style=3D"margin: 16px 0;">That is a ve=
+ry brief summary; for more you can read=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjEvc2VjLXRvLXJlcXVpcmUtY29tcGFuaWVzLXRvLWR=
+pc2Nsb3NlLXBvbGx1dGlvbi11bmRlci1uZXctcGxhbj9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzM=
+jImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC3dcdaf47" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Bloomberg News</a>=C2=A0or <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27113584.264606/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZWMtdG8=
+tZmxvYXQtbWFuZGF0b3J5LWRpc2Nsb3N1cmUtb2YtY2xpbWF0ZS1jaGFuZ2Utcmlza3MtZW1pc3=
+Npb25zLTExNjQ3ODc0ODE0P21vZD1ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23cB5ad1=
+4659" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">the Wall Street Journal</a>, or Bloomberg=E2=80=99s =E2=80=9C=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjEvZml2ZS1rZ=
+XktdGFrZWF3YXlzLWZyb20tc2VjLXMtcHJvcG9zYWwtZm9yLWNsaW1hdGUtZGlzY2xvc3VyZXM_=
+Y21waWQ9QkJEMDMyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cB648cbebe" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Five Key Takeaways</a>,=E2=80=9D or the S=
+EC=E2=80=99s own <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy8zMy0xMTA0Mi1mYWN0LXNoZWV0=
+LnBkZg/607f07ceef4b8524a319a23cBed1d3688" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">summary fact sheet</a>. =
+Here I just want to talk about a few high-level themes.</p><p style=3D"marg=
+in: 16px 0;">First: It seems fair to say, broadly speaking, that a lot of i=
+nvestors want this sort of disclosure. ESG =E2=80=94=C2=A0environmental, so=
+cial and governance investing =E2=80=94=C2=A0is hot right now, and many inv=
+estors have pushed many companies to make many disclosures like this.</p><p=
+ style=3D"margin: 16px 0;">In a sense, this is an argument for regulation. =
+The SEC is basically in the business of making sure investors get the infor=
+mation that they need, and if lots of investors=C2=A0<em>want=C2=A0</em>som=
+e sort of information, then that is good evidence that they need it. If inv=
+estors care about a thing, then that thing=C2=A0is material, and companies =
+should disclose it.</p><p style=3D"margin: 16px 0;">In another sense, it is=
+ an argument against regulation. The fact that some companies disclose some=
+ of this stuff, because investors want them to, suggests that investors are=
+ able to (1) tell companies what they want and (2) get the companies to do =
+it. Companies with material climate risks will get pressure from investors =
+to quantify those risks and explain=C2=A0what they plan to do about them; i=
+f the companies say no then they will have a harder time raising capital.</=
+p><p style=3D"margin: 16px 0;">Or that is the basic theory of =E2=80=9Cpriv=
+ate ordering=E2=80=9D: In a world where a smallish number of large investor=
+s have a lot of power, why do they need the SEC to tell companies what to d=
+isclose? Why can=E2=80=99t the investors do it themselves?=C2=A0The market =
+is working; why do we need 510 pages of new regulation?</p><p style=3D"marg=
+in: 16px 0;">I think there are three main answers to this:</p><ol style=3D"=
+list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">Not=C2=A0<em>all=C2=A0</em>investors have a lot of=
+ power. Traditionally the SEC has seen itself largely as a protector of sma=
+ll retail investors, since big investors can better take care of themselves=
+. In theory I suppose that retail investors might care about climate risk a=
+t a company that big powerful institutions don=E2=80=99t care about. In pra=
+ctice =E2=80=A6=C2=A0this rule proposal does not seem particularly interest=
+ed in retail investors? I suppose many retail investors are interested in E=
+SG in at least some approximate sense, but caring about environmental <em>d=
+isclosures</em>, and quantifying environmental risk, seems like a purely in=
+stitutional preoccupation. These rules are designed to make it easier for p=
+rofessional ESG investors to do their jobs.</li>=09<li style=3D"margin-bott=
+om: 5px;">Investors don=E2=80=99t have=C2=A0<em>that=C2=A0</em>much power. =
+A general theme in U.S. corporate and securities law is that, if shareholde=
+rs want a company to do something, and the company=E2=80=99s board and mana=
+gers don=E2=80=99t want to do it, the shareholders=E2=80=99 ability to=C2=
+=A0<em>force=C2=A0</em>them is <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ_Y21wa=
+WQ9QkJEMDMyMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjIwMzIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cBcb65bf8e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  rather limited</a>. This is especially true=
+ because, even as it is proposing these climate rules, the SEC has proposed=
+ other rules to vastly cut back on shareholder activism, making it much har=
+der for shareholders to hold corporate managers to account. (The SEC is pla=
+nning to limit activism through the <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzL=
+XJlbGVhc2UvMjAyMS0yNTk/607f07ceef4b8524a319a23cB9d338ab6" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> swaps di=
+sclosure rules</a> and <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMj=
+AyMi0yMg/607f07ceef4b8524a319a23cB23201ecf" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> the 13D rules</a>; we =
+have <a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.2646=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTYv=
+dGhlLXNlYy1oYXMtYmlnLXBsYW5zP2NtcGlkPUJCRDAzMjIyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMyMiZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBce8d0cbd" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  talked</a=
+> about them a <a href=3D"https://link.mail.bloombergbusiness.com/click/271=
+13584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMDEtMjAvYS1nb29kLXJlcHV0YXRpb24taXMtZXhwZW5zaXZlP2NtcGlkPUJCRDAzMjIyMl9NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0c04307=
+8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  little bit</a> and I hope to discuss them more in a future c=
+olumn.) If you are a big shareholder and you want to get your portfolio com=
+panies to do something =E2=80=94=C2=A0particularly if you want to get them=
+=C2=A0<em>all=C2=A0</em>to do it =E2=80=94=C2=A0the most efficient approach=
+ might be to lobby the SEC.</li>=09<li style=3D"margin-bottom: 5px;">It is =
+not easy for big shareholders to act collectively. If big shareholders all =
+want companies to start disclosing more stuff about climate, and they team =
+up to pressure those companies, they might run into trouble. It might raise=
+ antitrust eyebrows for competing institutions to=C2=A0tell competing compa=
+nies to all do the same thing. Teaming up to pressure a company might run i=
+nto trouble with the SEC=E2=80=99s limits on =E2=80=9Cgroup=E2=80=9D activi=
+ties by shareholders. My model of a lot of the financial industry is that t=
+here are entities =E2=80=94=C2=A0index providers, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDItMTIvaW52ZXN0b3JzLWdldC10aGUtYWR2aW=
+NlLXRoZXktd2FudD9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cB6096026c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  proxy advisers</a> =E2=
+=80=94=C2=A0that are basically in the business of allowing big investors to=
+ act collectively without explicitly teaming up with each other. Arguably t=
+he SEC is another way for big shareholders to act collectively.</li></ol><p=
+ style=3D"margin: 16px 0;">Anyway the SEC is fairly clear that it does not =
+think that private ordering works for climate disclosure, and that the disc=
+losures that companies now do voluntarily are too limited and inconsistent =
+to be useful for investors. They are also insufficiently=C2=A0legally actio=
+nable? If the SEC tells you to write some climate disclosures and put them =
+in your annual report on Form 10-K, and those climate disclosures are=C2=A0=
+<em>wrong</em>, you will get very sued. If instead your shareholders ask yo=
+u to write some climate disclosures, and you put them in a separate climate=
+ report on your website, and=C2=A0<em>those=C2=A0</em>disclosures are wrong=
+ =E2=80=A6 well, you will also get quite sued.=C2=A0=E2=80=9C<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1=
+nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNn=
+dzP2NtcGlkPUJCRDAzMjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB06fdec6f" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Everything is securities fraud</a>,=
+=E2=80=9D as I often say around here, and if a company lies on its website =
+about something material to shareholders there will be lawsuits. But if it =
+lies in its 10-K about something mandated by the SEC, the lawsuits will be =
+more compelling. =E2=80=9CThe information provided outside of Commission fi=
+lings is not subject to the full range of liability and other investor prot=
+ections that help elicit complete and accurate disclosure by public compani=
+es,=E2=80=9D says the rule proposal (pages 8-9).</p><p style=3D"margin: 16p=
+x 0;">A second theme: Why do investors want this disclosure? One possible a=
+nswer is, for the same reason they want good consistent financial disclosur=
+e: They want to be able to understand how companies work, so that they can =
+buy the good ones and avoid the risky ones. And most of the proposal is abo=
+ut that sort of thing: Climate risks can affect a company=E2=80=99s busines=
+s and financial results, so investors need to understand those risks to und=
+erstand the business, etc.</p><p style=3D"margin: 16px 0;">But there is a s=
+uggestion, in the rule proposal, that that=E2=80=99s not all that=E2=80=99s=
+ going on. On page 9 of the release, the SEC stresses the importance of con=
+sistency in environmental reporting, saying:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">We understand investors often employ diversified strategies, =
+and therefore do not necessarily consider risk and return of a particular s=
+ecurity in isolation but also in terms of the security=E2=80=99s effect on =
+the portfolio as a whole, which requires comparable data across registrants=
+.</p></blockquote><p style=3D"margin: 16px 0;">And on page 166, the SEC not=
+es that some=C2=A0institutional investors want greenhouse gas disclosure fr=
+om public companies because they have committed to their own carbon-neutral=
+ity goals:</p><blockquote><p style=3D"margin: 16px 0;">Several large instit=
+utional investors and financial institutions, which collectively have trill=
+ions of dollars in assets under management, have formed initiatives and mad=
+e commitments to achieve a net-zero economy by 2050, with interim targets s=
+et for 2030. These initiatives further support the notion that investors cu=
+rrently need and use GHG emissions data to make informed investment decisio=
+ns. These investors and financial institutions are working to reduce the GH=
+G emissions of companies in their portfolios or of their counterparties and=
+ need GHG emissions data to evaluate the progress made regarding their net-=
+zero commitments and to assess any associated potential asset devaluation o=
+r loan default risks.</p></blockquote><p style=3D"margin: 16px 0;">Notice t=
+hat this is weird. This is not =E2=80=9Cinvestors need this information to =
+understand the company providing the information,=E2=80=9D but rather =E2=
+=80=9Clook, investors these days are diversified, and many of them care abo=
+ut the systemic risks to their portfolios, not about how any one company ru=
+ns its business.=E2=80=9D If it=E2=80=99s material=C2=A0<em>to an instituti=
+onal investor=C2=A0</em>that its portfolio be carbon-neutral, then it needs=
+ to know the carbon emissions of each portfolio company, even if those emis=
+sions are not actually material <em>to that company</em>.</p><p style=3D"ma=
+rgin: 16px 0;">This strikes me as very new! And basically correct, I mean: =
+Investors <em>are=C2=A0</em>often diversified and systemic these days, so t=
+he SEC=E2=80=99s rules might as well reflect how investing actually works. =
+Still it is a novel and surprising concession, asking a company to disclose=
+ stuff because it is useful to its shareholders=C2=A0<em>as universal share=
+holders</em>, not (just) because it is relevant to the company=E2=80=99s ow=
+n business. SEC Commissioner Hester Peirce, in her <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9uZXdzL3N0YXRlbWVudC9wZWlyY2UtY2xpbWF0ZS1kaXNjbG9zdXJlLTIwMjIwMzIx/607f07ce=
+ef4b8524a319a23cBc6ba1594" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">dissenting statement</a>, objects:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Not only does this justification dep=
+art from the Commission=E2=80=99s traditional company-specific approach to =
+disclosure, but it suggests that it is appropriate for shareholders of the =
+disclosing company to subsidize other investors=E2=80=99 portfolio analysis=
+. How could a company=E2=80=99s management possibly be expected to prepare =
+disclosure to satisfy the informational demands of all the company=E2=80=99=
+s investors, each with her own idiosyncratic portfolio?</p></blockquote><p =
+style=3D"margin: 16px 0;">Third: We <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjItMDMtMjEvZXZlcnlvbmUtd2FudHMtdG8tZG8tZXNnLW5vdz9jbXBp=
+ZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB466c8fd4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> talked yesterday</a> about the booming marke=
+t for environmental, social and governance experts. I wrote that =E2=80=9Co=
+ne way to understand the proliferation of ESG reporting regimes, carbon cre=
+dit trading systems, etc., is that adding a lot of rules and complexity to =
+ESG makes it feel more like finance.=E2=80=9D There is a fuzzy form of ESG =
+in which you try to invest in companies that make the world a better place =
+and try to avoid companies that make it worse, in each case measured by you=
+r own subjective and case-specific feelings about the company.</p><p style=
+=3D"margin: 16px 0;">And then there is this. This is a complex accounting r=
+egime for ESG, a legally approved set of Generally Accepted Climate Princip=
+les, with its own body of technical standards and its own set of climate at=
+testation professionals. There is already a large industry of professionals=
+ who certify companies=E2=80=99 environmental behavior; making those certif=
+ications mandatory will be good for business.</p><p style=3D"margin: 16px 0=
+;">So page 200 of the proposal discusses the question: Well, how do you cal=
+culate your greenhouse gas emissions?=C2=A0</p><blockquote><p style=3D"marg=
+in: 16px 0;">In addition to setting its organizational and operational boun=
+daries, a registrant would need to select a GHG emissions calculation appro=
+ach. While the direct measurement of GHG emissions from a source by monitor=
+ing concentration and flow rate is likely to yield the most accurate calcul=
+ations, due to the expense of the direct monitoring of emissions, an accept=
+able and common method for calculating emissions involves the application o=
+f published emission factors to the total amount of purchased fuel consumed=
+ by a particular source. The proposed rules would define =E2=80=9Cemission =
+factor=E2=80=9D as a multiplication factor allowing actual GHG emissions to=
+ be calculated from available activity data or, if no activity data is avai=
+lable, economic data, to derive absolute GHG emissions. Emission factors ar=
+e ratios that typically relate GHG emissions to a proxy measure of activity=
+ at an emissions source. Examples of activity data reflected in emission fa=
+ctors include kilowatt-hours of electricity used, quantity of fuel used, ou=
+tput of a process, hours of operation of equipment, distance travelled, and=
+ floor area of a building. If no activity data is available, a registrant m=
+ay use an emission factor based on economic data. For example, when calcula=
+ting Scope 3 emissions from purchased goods or services, a registrant could=
+ determine the economic value of the goods or services purchased and multip=
+ly it by an industry average emission factor (expressed as average emission=
+s per monetary value of goods or services).</p></blockquote><p style=3D"mar=
+gin: 16px 0;">And pages 250 to 259 discuss the required qualifications for =
+an =E2=80=9Cattestation provider,=E2=80=9D that is, a firm that audits and =
+certifies=C2=A0a company=E2=80=99s reported greenhouse gas emissions. The a=
+ttestation provider has to be =E2=80=9Can expert in GHG emissions by virtue=
+ of having significant experience in measuring, analyzing, reporting, or at=
+testing to GHG emissions=E2=80=9D; it also has to be =E2=80=9Cindependent=
+=E2=80=9D of the company, in the same way that a company=E2=80=99s financia=
+l auditors have to be independent. So for instance if you are an environmen=
+tal consulting firm advising a company on how to reduce its greenhouse gas =
+emissions, you probably can=E2=80=99t=C2=A0<em>also=C2=A0</em>attest to its=
+ greenhouse gas report in its SEC filings, because that would put=C2=A0=E2=
+=80=9Cthe attestation provider in the position of attesting to such attesta=
+tion provider=E2=80=99s own work=E2=80=9D (page 254).=C2=A0</p><p style=3D"=
+margin: 16px 0;">There are obvious problems with an approach to environment=
+al investing that relies on each investor's fuzzy subjective feelings about=
+ how pollution-y a company seems to be. There are =E2=80=A6=C2=A0subtler, m=
+ore interesting, more=C2=A0<em>financial=C2=A0</em>problems with an approac=
+h that relies on complex accounting methodologies and proxy measurements fo=
+r emissions? It just feels like the industry that these rules will create, =
+the industry of optimizing this reporting, will be an=C2=A0<em>industry of =
+optimizing=C2=A0this reporting</em>, which is not quite the same thing as a=
+n industry of reducing greenhouse gas emissions.</p><p style=3D"margin: 16p=
+x 0;">Fourth: This is entirely disclosure regulation. The rules don=E2=80=
+=99t require companies to change any=C2=A0<em>behavior,=C2=A0</em>except in=
+sofar as they now have=C2=A0to measure and report a bunch of stuff. But you=
+ can see, from the rule proposal, how a disclosure regulation can function =
+as a substantive regulation. For instance (page 100):</p><blockquote><p sty=
+le=3D"margin: 16px 0;">The proposed rules would require a registrant to dis=
+close a number of board governance items, as applicable. The first item wou=
+ld require a registrant to identify any board members or board committees r=
+esponsible for the oversight of climate-related risks. The responsible boar=
+d committee might be an existing committee, such as the audit committee or =
+risk committee, or a separate committee established to focus on climate-rel=
+ated risks. The next proposed item would require disclosure of whether any =
+member of a registrant=E2=80=99s board of directors has expertise in climat=
+e-related risks, with disclosure required in sufficient detail to fully des=
+cribe the nature of the expertise.</p><p style=3D"margin: 16px 0;">Another =
+proposed item would require a description of the processes and frequency by=
+ which the board or board committee discusses climate-related risks.=C2=A0T=
+he registrant would have to disclose how the board is informed about climat=
+e-related risks, and how frequently the board considers such risks. These p=
+roposed disclosure items could provide investors with insight into how a re=
+gistrant=E2=80=99s board considers climate-related risks and any relevant q=
+ualifications of board members.</p></blockquote><p style=3D"margin: 16px 0;=
+">Is the SEC here telling companies =E2=80=9Cyour board needs to spend 20 m=
+inutes of every meeting talking about climate risk, and have an environment=
+al expert on the board=E2=80=9D? No, it is not; that is surely beyond the S=
+EC=E2=80=99s authority. But =E2=80=A6=C2=A0it is kind of telling them that,=
+ isn=E2=80=99t it? If your disclosure under this item says =E2=80=9COur boa=
+rd is not informed about climate-related risks in any systematic way, and n=
+ever really considers them,=E2=80=9D that will look bad. Investors will com=
+plain, the SEC will look at you with suspicion, it will be unpleasant. To c=
+heck this box, you will have to start providing the board with regular repo=
+rts about climate risk, and devoting time to it in board meetings. (This is=
+ true even if you are, like, a software company with a modest environmental=
+ footprint.) Perhaps this will all be surly and pro forma and your behavior=
+ won=E2=80=99t change, but the (reasonable) theory seems to be that if you =
+force boards to talk about climate change they will end up doing something =
+about it too.</p><p style=3D"margin: 16px 0;">Or here is a passage about Sc=
+ope 3 greenhouse gas disclosure (page 169):</p><blockquote><p style=3D"marg=
+in: 16px 0;">Scope 3 emissions are indirect, but registrants can and do tak=
+e steps to limit Scope 3 emissions and the attendant risks. Although a regi=
+strant may not own or control the operational activities in its value chain=
+ that produce Scope 3 emissions, it nevertheless may influence those activi=
+ties, for example, by working with its suppliers and downstream distributor=
+s to take steps to reduce those entities=E2=80=99 Scopes 1 and 2 emissions =
+(and thus help reduce the registrant=E2=80=99s Scope 3 emissions) and any a=
+ttendant risks. As such, a registrant may be able to mitigate the challenge=
+s of collecting the data required for Scope 3 disclosure.</p></blockquote><=
+p style=3D"margin: 16px 0;">Is the SEC here telling large public companies =
+=E2=80=9Cyou have to pressure your private suppliers to stop emitting so mu=
+ch carbon=E2=80=9D? No; that=C2=A0is again beyond its authority. It is just=
+ saying, look, you do what you want, but if=C2=A0you=C2=A0<em>don't=C2=A0</=
+em>pressure your suppliers to reduce their emissions, you=E2=80=99re gonna =
+have a heck of a hard time reporting your Scope 3 emissions. The disclosure=
+ regime effectively deputizes public companies to be climate enforcers: If =
+their suppliers don=E2=80=99t start measuring and reducing their emissions,=
+ the companies won=E2=80=99t be able to do the required disclosure.</p><p s=
+tyle=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjItMDEtMTEvd2hvLWNhbi1yZXNpc3QtdGhlLWNyeXB0by1ib29tP2NtcGlkPUJCR=
+DAzMjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cBb7c9bad2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> sometimes</a> <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjAtMDEtMTUvaXQtcy1ub3QtaW5zaWRlci10cmFkaW5nLWlmLXRoZS=
+1wcmVzaWRlbnQtZG9lcy1pdD9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB092e0061" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> say</a> that, i=
+n the U.S., the SEC is the all-purpose meta-regulator, and here you can see=
+ why. Public companies exist in society, so=C2=A0everything that matters to=
+ society is probably material to public companies, and what public companie=
+s do about any issue probably matters to society. And regulating what=C2=A0=
+public companies have to say about that issue will affect how they act on i=
+t. The title of Commissioner Peirce=E2=80=99s dissenting statement is: =E2=
+=80=9CWe are Not the Securities and Environment Commission - At Least Not Y=
+et.=E2=80=9D But they are! They=E2=80=99re the Securities and Everything Co=
+mmission.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" c=
+ellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD3e87ae3e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE3e87ae3e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF734d47d4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG734d47d4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sell-side M&amp;A fees</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A weird thing about being the investme=
+nt bank advising the seller in a public-company mergers-and-acquisitions tr=
+ansaction is that, if all goes well, your client will disappear, and at exa=
+ctly the moment it is supposed to pay your fee. Your fee is due at the clos=
+ing of the deal, and at the closing of the deal your client stops being an =
+independent public company and becomes a subsidiary of the buyer. You have =
+spent months negotiating hard against the buyer to extract every last dolla=
+r for your client, and then you send a bill for all your hard work, and you=
+ hope the buyer will pay it. The buyer might say no!</p><p style=3D"margin:=
+ 16px 0;">I mean, the buyer=C2=A0<em>probably=C2=A0</em>won=E2=80=99t say n=
+o; you have a contract, after all, and the contract is still valid after th=
+e buyer acquires your client. And it=E2=80=99s not like the buyer will be=
+=C2=A0<em>surprised:=C2=A0</em>Your fee will generally be disclosed during =
+the merger negotiations, and in the merger agreement, and in the proxy stat=
+ement filed for the deal; the buyer will have ample warning that your bill =
+is coming, and if it doesn=E2=80=99t object before the closing it=E2=80=99s=
+ not like it has much standing to object afterwards. Still it can make you =
+a bit nervous! Carl Icahn once=C2=A0<em>did=C2=A0</em>acquire a public comp=
+any and then <a href=3D"https://link.mail.bloombergbusiness.com/click/27113=
+584.264606/aHR0cHM6Ly9kZWFsYnJlYWtlci5jb20vMjAxMi8wNi9nb2xkbWFuLXN1cnByaXNl=
+ZC10by1maW5kLWNhcmwtaWNhaG4tYmVpbmctYS1kaWNr/607f07ceef4b8524a319a23cBe14b3=
+e2a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">refused to pay its bankers=E2=80=99 fee</a>. (They sued and <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0=
+cHM6Ly93d3cucmV1dGVycy5jb20vYXJ0aWNsZS9jdnItZW5lcmd5LWJhbmtzL29pbC1yZWZpbmV=
+yLWJvdW5kLXRvLWdvbGRtYW4tZGV1dHNjaGUtZmVlLWFncmVlbWVudHMtbnktanVkZ2UtaWRJTk=
+wxTjBSRDFNNDIwMTQwOTEy/607f07ceef4b8524a319a23cB51bf708f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">won</a>.)=
+</p><p style=3D"margin: 16px 0;">Also <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjItMDMtMjEvYnVmZmV0dC10aHVtYnMtbm9zZS1hdC1nb2xkbWFuLWJhbm=
+tlcnMtd2l0aC1xdWlya3ktZGVhbC1wcmljZT9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf984e8aa" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> her=
+e=E2=80=99s Warren Buffett</a>:</p><blockquote><p style=3D"margin: 16px 0;"=
+>Warren Buffett is telegraphing his disdain for Wall Street bankers with an=
+ oddball price on his latest multibillion-dollar takeover.</p><p style=3D"m=
+argin: 16px 0;">The $848.02 for every share that Alleghany Corp. stockholde=
+rs get from Berkshire Hathaway Inc. is the result of Buffett balking at the=
+ banking fee being set aside by the target company -- in this case for Gold=
+man Sachs Group Inc., which is advising the insurer.=C2=A0</p><p style=3D"m=
+argin: 16px 0;">Berkshire had offered to pay $850 a share with Buffett caut=
+ioning Alleghany that he didn=E2=80=99t want to foot the bill for the banki=
+ng fees, according to a person with knowledge of the matter who asked not t=
+o be identified discussing private information. So any fee for a financial =
+adviser would come out of the proceeds for Alleghany=E2=80=99s shareholders=
+. The result is spelled out in a regulatory filing: An announced purchase p=
+rice that subtracts roughly $27 million for Goldman -- calling attention to=
+ Buffett=E2=80=99s stand. =E2=80=A6</p><p style=3D"margin: 16px 0;">While d=
+eal prices typically reflect the back-and-forth between buyers and sellers,=
+ it gets smoothed over before the deal is struck. Most announcements are pr=
+iced to avoid clunky numbers after both sides agree on a plan for how advis=
+ors are paid. A regulatory filing notes that the price would have been $850=
+ per share but for the roughly $27 million fee paid to Goldman.</p></blockq=
+uote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZ=
+lcy9lZGdhci9kYXRhLzc3NTM2OC8wMDAxMTkzMTI1MjIwODA3MTQvZDMzNjMzMWRkZWZhMTRhLm=
+h0bQ/607f07ceef4b8524a319a23cB54774f9d" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">that filing</a>: The merger=
+ agreement says that=C2=A0each Alleghany share will be =E2=80=9Cconverted i=
+nto the right to receive $848.02 in cash, representing $850.00 per Share le=
+ss the financial advisory fee due to the Financial Advisor in connection wi=
+th the Merger.=E2=80=9D</p><p style=3D"margin: 16px 0;">In a sense this is =
+a nothing. Goldman is still getting paid.=C2=A0The buyer always effectively=
+ pays the fee (generally out of the target=E2=80=99s cash on hand at closin=
+g), the buyer always budgets for it, and really it always reduces the amoun=
+t payable to the shareholders. It=E2=80=99s rarely explicit; it=E2=80=99s u=
+nusual for a buyer to say =E2=80=9Cwe=E2=80=99ll pay you $100=E2=80=9D and =
+then find out about the bankers=E2=80=99 fee and say =E2=80=9Cactually $98.=
+=E2=80=9D In general that is sort of an amateurish move: Every seller hires=
+ a banker (it is almost <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27113584.264606/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP=
+2Fic3RyYWN0X2lkPTMwNjE0MQ/607f07ceef4b8524a319a23cB6f6121d6" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">legall=
+y required</a>!), every buyer knows it will have a sell-side=C2=A0fee to pa=
+y, and so every buyer includes an expected fee in its financial analysis <e=
+m>before=C2=A0</em>proposing a price. Renegotiating the price when you find=
+ out the bankers=E2=80=99 fee suggests that you are acting in bad faith or =
+don=E2=80=99t know what you=E2=80=99re doing. You can get away with it if t=
+he bankers=E2=80=99 fee is egregiously large, or if you=E2=80=99re Warren B=
+uffett and want to be weird just for the sake of being weird.</p><p style=
+=3D"margin: 16px 0;">Also the fee is $1.98 on a price of $850?=C2=A0That is=
+ not egregiously large; in fact it is a below-market fee. The stock closed =
+at $676.76 last week, before the deal was announced.=C2=A0Buffett is paying=
+ a 25.3% premium, and Goldman is getting a fee of about 0.23% of the equity=
+ value. Without Goldman=E2=80=99s fee, the shareholders would be getting a =
+25.6% premium =E2=80=94=C2=A0but without Goldman, they might not be getting=
+ a premium at all? Like, I dunno, the bankers spent the weekend working out=
+ a deal, and shareholders came in on Monday to find that they were getting =
+an extra $170 per share, but will have to pay Goldman two bucks for it? Tha=
+t seems good? Warren Buffett is kind of telegraphing that Wall Street banke=
+rs are worth it?</p><p style=3D"margin: 16px 0;">Also =E2=80=94=C2=A0presum=
+ably Alleghany has lawyers working on this deal? Presumably they=E2=80=99re=
+ getting paid? Effectively, by Berkshire? How does Warren Buffett decide wh=
+ich fees to deduct and which to pay? Just, like, =E2=80=9Cif we pretend to =
+stiff the bankers we will get good headlines, while if we pretend to stiff =
+the lawyers we won=E2=80=99t=E2=80=9D? I don=E2=80=99t know, it=E2=80=99s a=
+ strange choice.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHaf2831c2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Search fund</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">You could have a simple model of busin=
+ess school in which, in the olden days, people went to business school to l=
+earn how to run a business. Then they used their MBA degree to take over th=
+e family pest-control business, or perhaps to rise through the ranks in som=
+e big company. And then in the 1980s finance was invented, and business sch=
+ool became training for jobs in the financial industry. And then in the 199=
+0s tech was invented, and business school became training for jobs in the t=
+ech and financial industries.=C2=A0</p><p style=3D"margin: 16px 0;">These d=
+evelopments were in many ways good for business schools (higher salaries fo=
+r graduates, more organized recruiting, professors were more=C2=A0prestigio=
+us=C2=A0because they did more math, etc.). But they left a certain gap in i=
+ndustrial America, specifically at its pest-control companies. Who will tak=
+e over the family pest-control business, if all the MBAs go into finance an=
+d tech?</p><p style=3D"margin: 16px 0;">If you, uh, went to a modern busine=
+ss school, you might say =E2=80=9Caha, a gap! We can solve it through finan=
+cial engineering.=E2=80=9D And you would be correct! I loved <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9tLWItYS1zLWxhdGVzdC1waXRjaC1pbnZlc3RvcnMtc3RhcnR1cC1=
+idXNpbmVzcy1zY2hvb2wtc3BhYy0xMTY0NzQ1NzI1NQ/607f07ceef4b8524a319a23cB8a4d25=
+e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">this Wall Street Journal article</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Plenty of M.B.A.s finish business school with a hot st=
+artup pitch for investors. The latest breed of student-entrepreneur is skip=
+ping the startup part and pitching themselves as the investment.</p><p styl=
+e=3D"margin: 16px 0;">Consider the model a SPAC of sorts=E2=80=94akin to th=
+e stock-market trend in which a special-purpose acquisition, or =E2=80=9Cbl=
+ank-check,=E2=80=9D company raises money and lists its shares, then finds a=
+ private business to merge with. In this case, the investment vehicle is a =
+fund for a newly minted M.B.A. graduate. The M.B.A. uses the money to searc=
+h for a privately held, under-the-radar business and run it as chief execut=
+ive and part owner.=C2=A0</p><p style=3D"margin: 16px 0;">These so-called s=
+earch funds came on the business-school scene decades ago, but they have ta=
+ken off in the pandemic years as investors=E2=80=94awash in capital=E2=80=
+=94look for promising places to put it. =E2=80=A6</p><p style=3D"margin: 16=
+px 0;">For M.B.A.s, the search-fund model is a way to become a CEO and busi=
+ness owner soon after graduation, without starting a business from scratch.=
+ Though some non-M.B.A.s have led search funds, recent M.B.A. graduates hav=
+e used the networking and mentoring support they get from their business sc=
+hools to start the majority of them. =E2=80=A6</p><p style=3D"margin: 16px =
+0;">The companies that M.B.A. searchers target aren=E2=80=99t flashy startu=
+ps or well-known brands. Many are family firms without a succession plan or=
+ companies too small to attract typical investors. The searchers typically =
+hold the businesses for six to 10 years before exiting, sometimes selling t=
+o private equity. Recently acquired companies operate in insurance sales, s=
+ecurity, software services, pest abatement and construction, Stanford said.=
+=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">What a great trick! If =
+you get your MBA from Stanford and tell your classmates =E2=80=9CI am takin=
+g over a family-owned pest-control business in Scranton,=E2=80=9D and they =
+have fancy offers from private equity firms and tech companies, they will l=
+ook down on you. But if you tell them =E2=80=9CI am running a=C2=A0<em>sear=
+ch fund</em>=E2=80=9D then that is, you know, cool, and finance.</p><table =
+class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nickel=E2=80=99s=C2=A0back</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Hey it=E2=80=99s <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjIvbmlja2VsLWlzLXRyYWRpbmctYXQtbG=
+FzdC1vbi1sbWUtYXMtYnV5ZXJzLXJldHVybi1hZnRlci1zcXVlZXplP2NtcGlkPUJCRDAzMjIyM=
+l9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBae1=
+33dbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> all fine now</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">Nickel volumes surged as prices traded within the London Metal Exchange=
+=E2=80=99s daily limits for the first time since reopening last week, in a =
+sign that the market is starting to stabilize after an unprecedented squeez=
+e sent prices spiking.</p><p style=3D"margin: 16px 0;">The flurry of deals =
+on Tuesday came as LME prices moved back into line with nickel contracts tr=
+ading on the Shanghai Futures Exchange, which remained open during a weeklo=
+ng suspension of trading in London in the wake of the short squeeze. More t=
+han 11,300 contracts, or 67,800 tons of nickel, had traded by 2:18 p.m, whi=
+le LME prices pared sharp early losses as the evening session got underway =
+on the rival Chinese bourse. =E2=80=A6</p><p style=3D"margin: 16px 0;">LME =
+nickel was trading 6% lower at $29,510 ton at 2:20 p.m, rebounding from a l=
+oss of as much as 15%. SHFE prices rose 1.6% to 210,040 yuan a ton, which i=
+s equivalent to about to $29,200 a ton once currency conversions and VAT de=
+ductions are taken into account. =E2=80=A6</p><p style=3D"margin: 16px 0;">=
+=E2=80=9CIt is now logical with the situation surrounding that squeeze havi=
+ng been resolved that we would come back down to a more normalized level, a=
+nd obviously the Shanghai price is a good guide there,=E2=80=9D LME Chief E=
+xecutive Matthew Chamberlain said on Bloomberg TV shortly before the market=
+ opened. =E2=80=9CThere is a good chance we=E2=80=99ll discover a price ove=
+r the next couple of days, and possibly even today.=E2=80=9D</p></blockquot=
+e><p style=3D"margin: 16px 0;">He was right. We talked <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjIvbmlja2VsLWlzLXRyYWRpbmctYXQtb=
+GFzdC1vbi1sbWUtYXMtYnV5ZXJzLXJldHVybi1hZnRlci1zcXVlZXplP2NtcGlkPUJCRDAzMjIy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCae=
+133dbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> last week</a> and again <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMDMtMjEvZXZlcnlvbmUtd2FudHMtdG8tZG8tZXNnLW5vdz9=
+jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cC466c8fd4" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> yesterday</a> about the LME=E2=80=99s st=
+range juddering approach to discovering a price: Everyone roughly knew the =
+price by last Thursday, but LME took a week to ease into it slowly with a b=
+unch of days of sparse, limit-down trading. It was not a great look. A lot =
+of people spent the last week very huffily announcing=C2=A0that this would =
+be the end of the LME, that they would never trade nickel there again, etc.=
+, but financial-market memories are usually pretty short and now that nicke=
+l is back I assume everyone will forget this unpleasantness forever.</p><p =
+style=3D"margin: 16px 0;">Elsewhere, my Bloomberg Opinion colleague <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjEvdGhlLW5pY2tl=
+bC1tYXJrZXQtd2lsbC1iZS1icm9rZW4tZXZlbi1hZnRlci10aGUtbG9uZG9uLW1ldGFsLWV4Y2h=
+hbmdlLWlzLWZpeGVkP2NtcGlkPUJCRDAzMjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cB8184a72d" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> David Fickling argues=
+</a> that LME=E2=80=99s reliance on Class 1 nickel as a benchmark is outdat=
+ed. And:=C2=A0=E2=80=9CLME in Talks with Governments on Whether to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjIvbG1lLWluLXRhbGtz=
+LXdpdGgtZ292ZXJubWVudHMtb24td2hldGhlci10by1ibG9jay1ydXNzaWFuLW1ldGFsP2NtcGl=
+kPUJCRDAzMjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB0ed44dbf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Block Russian Metal</a>.=E2=80=9D</p><table =
+class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Amalgamation</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">You may recall that Amalgamated Bank <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMjIvY3J5cH=
+RvLXJlZ3VsYXRvcnMtYXJlbi10LXZlcnktc3ltcGF0aGV0aWM_Y21waWQ9QkJEMDMyMjIyX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjIwMzIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBc1b4e90a"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> proposed to amalgamate</a> with Amalgamated Bank. (Fine, fine, th=
+e holding company of Amalgamated Bank agreed to acquire the holding company=
+ of Amalgamated Bank of Chicago.)=C2=A0Then Amalgamated Bank <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjgvcnVzc2lhLXMtbW9uZXk=
+taXMtZ29uZT9jbXBpZD1CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cB1cf5a1c5" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> called off the amalgamation<=
+/a>, but Amalgamated Bank is not happy about this and <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuYW1lcml=
+jYW5iYW5rZXIuY29tL25ld3MvYW1hbGdhbWF0ZWQtYmFuay1pbi1jaGljYWdvLXRocmVhdGVucy=
+10by1zdWUtbmFtZXNha2UtYmFuay1pbi1uZXcteW9yaw/607f07ceef4b8524a319a23cB31453=
+a0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">might sue Amalgamated Bank</a> for not amalgamating:</p><block=
+quote><p style=3D"margin: 16px 0;">Amalgamated Investments Co., parent of A=
+malgamated Bank of Chicago, may pursue compensatory damages from Amalgamate=
+d Financial Corp. in New York for allegedly breaching terms of their merger=
+ agreement.</p><p style=3D"margin: 16px 0;">Amalgamated Financial in Februa=
+ry called off its $98.1 million acquisition of Amalgamated Investments, cit=
+ing an inability to secure regulatory approval. At the time, however, the s=
+eller said its executives believed the deal could proceed.</p><p style=3D"m=
+argin: 16px 0;">In a regulatory filing this week, the $7 billion-asset Amal=
+gamated Financial disclosed that its namesake peer in the Windy City had th=
+reatened the lawsuit. The New York company shot back by denying any breach =
+of the deal terms and said it would "vigorously" defend any legal claims.</=
+p></blockquote><p style=3D"margin: 16px 0;">I hope they sue and it goes to =
+a jury and the jury comes back and says =E2=80=9Cwe find that Amalgamated B=
+ank is at fault here=E2=80=9D and the judge says =E2=80=9Cwhich one?=E2=80=
+=9D and the jury says =E2=80=9Cwait what there were two?=E2=80=9D It really=
+ is extremely untidy that these Amalgamated Banks are not amalgamating.</p>=
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Bitcoin Miners Want to Recast Themselv=
+es as <a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264=
+606/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMy8yMi90ZWNobm9sb2d5L2JpdGNvaW4=
+tbWluZXJzLWVudmlyb25tZW50LWNyeXB0by5odG1s/607f07ceef4b8524a319a23cB2ca8337d=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Eco-Friendly</a>. S&amp;P to Pull Credit Ratings for <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjEvcy1wLXNheXMtaXQtd2lsb=
+C13aXRoZHJhdy1yYXRpbmdzLW9uLWFsbC1ydXNzaWFuLWVudGl0aWVzP2NtcGlkPUJCRDAzMjIy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBea=
+f1b14b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> All Russian Firms</a> After EU Ban. Russia=E2=80=99s <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvZDAzOTA5MTctNDFlMi00ZjMxLWIzNTUtNmY3Mzc1OWU1Nz=
+gy/607f07ceef4b8524a319a23cB8d61683b" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">local bonds drop</a> as Mosco=
+w takes first steps towards reopening markets.=C2=A0=E2=80=98Grand Theft Ae=
+ro=E2=80=99: Russia=E2=80=99s $10bn <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjFhM=
+mRhYWItMjI1MS00YThiLTg5NjAtZjY5ZmRlMWY1NjQy/607f07ceef4b8524a319a23cB8efeef=
+cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">plane grab</a> signals losses for lessors. Evergrande Delays R=
+esults as <a href=3D"https://link.mail.bloombergbusiness.com/click/27113584=
+.264606/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldmVyZ3JhbmRlLWRlbGF5cy1yZXN=
+1bHRzLWFzLWJhbmtzLXNlaXplLTItYmlsbGlvbi1mcm9tLXVuaXQtMTE2NDc5MzIxMzE_bW9kPW=
+hwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a23cBba7f58e5" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Banks Seize $2 =
+Billion</a> at Unit. Archegos quietly built <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlb=
+nQvZjYxMjU5NTItZmMwYi00OTVhLThiNTYtODI2ZmUwNzczNjgy/607f07ceef4b8524a319a23=
+cBb230c92f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">stake in Deutsche Bank</a>. Credit Suisse <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3c=
+ud3NqLmNvbS9hcnRpY2xlcy9jcmVkaXQtc3Vpc3NlLXJlbWFrZXMtYm9hcmQtaW4tYWZ0ZXJtYX=
+RoLW9mLXNjYW5kYWxzLTExNjQ3ODY0MjAyP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b=
+8524a319a23cB35105c30" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">Remakes Board</a> in Aftermath of Scandals.=
+=C2=A0Ex-Goldman Banker=E2=80=99s Wife Created Shell Entity After <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjEvZXgtZ29sZG1hbi1i=
+YW5rZXItcy13aWZlLWNyZWF0ZWQtc2hlbGwtZW50aXR5LWFmdGVyLTFtZGItZGVhbD9jbXBpZD1=
+CQkQwMzIyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMjAzMjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB8340b462" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> 1MDB Deal</a>. What=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3cubWFy=
+a2V0d2F0Y2guY29tL3N0b3J5L3doeS1pLWFtLWxlYXZpbmctZ29sZG1hbi1zYWNocy1vbi10aGU=
+tMTB0aC1hbm5pdmVyc2FyeS1vZi1oaXMtc2NhdGhpbmctcmVzaWduYXRpb24tZ3JlZy1zbWl0aC=
+1zYXlzLWhlLWhhcy1mb3VuZC10aGUtcHJvYmxlbS1oZS13YW50cy10by1zb2x2ZS0xMTY0NzAzO=
+Tc4NQ/607f07ceef4b8524a319a23cB21c36dce" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Greg Smith up to</a> sin=
+ce leaving Goldman Sachs?=C2=A0U.K. Fines Lottery Operator for <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27113584.264606/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjIvdS1rLWZpbmVzLWxvdHRlc=
+nktb3BlcmF0b3ItZm9yLXRlbGxpbmctd2lubmVycy10aGV5LXdlcmUtbG9zZXJzP2NtcGlkPUJC=
+RDAzMjIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIyMDMyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cBa288ce22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Telling Winners They Were Losers</a>. David Solomo=
+n is <a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.2646=
+06/aHR0cHM6Ly90d2l0dGVyLmNvbS9sb2xsYXBhbG9vemEvc3RhdHVzLzE1MDYyODQ3ODE5NDM4=
+ODk5MjUvcGhvdG8vMQ/607f07ceef4b8524a319a23cBbac873dd" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">playing Lolla=
+palooza</a>. Please stop putting COVID-19 test solution in your eyes and no=
+se, <a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.26460=
+6/aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2NpZW5jZS8yMDIyLzAzL3RoZS1mZGEtd291bGQtb=
+GlrZS15b3UtdG8tbm90LXB1dC1jb3ZpZC0xOS10ZXN0LXNvbHV0aW9uLWluLXlvdXItZXllcy1u=
+b3NlLw/607f07ceef4b8524a319a23cB79f13e70" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">FDA says</a>.=C2=A0</p><=
+p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media=
+"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, =
+right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27113584.264606/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVz=
+cy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGY=
+yNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2cfa29fc" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money S=
+tuff and other great Bloomberg newsletters <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27113584.264606/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY2=
+9tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB639b33bc" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></=
+p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe01b1642" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB54dcee94" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc4241af3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB2ee4b56c" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzExMzU4NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjczNzgxOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI419d6f8a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27113584&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2711358=
+4.264606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB3ec0c3c4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27113584.264606/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC60501220" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27113584.264606/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB727d9198" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27113584.264606/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB3b996e0f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBb=
+4dece05" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27113584.264606/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+57d68db" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D271135=
+84&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D271135=
+84&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D271135=
+84&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D271135=
+84&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D271135=
+84&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27378190&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg54z4.5o66/2b8839f1.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_16083679_1242616247.1647973792684--
+

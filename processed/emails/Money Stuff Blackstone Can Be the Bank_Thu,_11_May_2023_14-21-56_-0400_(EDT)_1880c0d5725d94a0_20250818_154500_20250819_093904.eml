@@ -1,0 +1,2385 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp4269774rwb;
+        Thu, 11 May 2023 11:23:01 -0700 (PDT)
+X-Received: by 2002:a05:600c:383:b0:3f1:93c2:4df6 with SMTP id w3-20020a05600c038300b003f193c24df6mr15172098wmd.12.1683829381037;
+        Thu, 11 May 2023 11:23:01 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1683829381; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OMUABH3eoxzUsluo65vCvH0HC4PNrkKD4nt2EpcIYFYy+r93WRALdpVsw96Gya2H34
+         VGoij1xHhCoJjCf3dz1ZzYzuMb/sIaNE/eLj7+O2bPcmAqvuqkOuKFw/30nJKrr8vL9Y
+         9/VnMc/4QjhnmY6FkbFPNA//BXKw0d/+EG6si8DDobfI+LCGE/EhZNlew2+KnCf91Ccw
+         90+Ovy9awTHJmtsKx3XjyH3MBkgSIEZKQuF1ew070BgqaXwBt6ISMQLpnHDEFKsKBJCc
+         Y8Hjyzx8H2MWvrpBk+ILnPbNO8Bzao5NB5IZNGZp5Er0ZLUK2sDjCkkdB5c1s7BLL/03
+         /IZQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=HdJErEs2oM1ViGWfQH5jFit9BSustGdPyDZdOpBhXDs=;
+        b=W7JtR7yUcFtSIeOQUnyM0kvo839IQQ6rfjltSMI/Bd+hdcfEu30nNMMllQxMrT0dBB
+         SYpcFAso53cmyKp7UNSinyLMPXQQBgj0b7ovEM4MjazuIpF6zg0/qtiMpEESN8LXQJdj
+         DfhhAq1Ed5RRVhN9JWZspn4FWM47BRqCruAeL9H5xZ1DCJ6yArK2rcZgcrZuAXIGEoSq
+         387iMjhZn6WzSLjUryWgn56MF9sUHQ1BXhnrJVMIDgX114qbtza3GsVkMQwchPjikhCn
+         1Iva+yZ1w1+AqYspDomkHvSRLIZEwYRCL88Sinz2cuDMn7s2IZwQ+ELHk6yucWkCvjAc
+         Cglg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mq5t+zkn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n12-20020a05600c3b8c00b003f42deec59dsor9170015wms.2.2023.05.11.11.23.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 11 May 2023 11:23:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mq5t+zkn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683829380; x=1686421380;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=HdJErEs2oM1ViGWfQH5jFit9BSustGdPyDZdOpBhXDs=;
+        b=V+TLOR+Olwh8fPiiADFIr+pd7ZoYXeP/1ScAY6P0F1ko/kORnyRUZni1sBnRb92+HL
+         TtTyyFPrUK67BpT3qD+QCvw4N/CODqO6is5v2pr/zVySDkVcV8PxIikvLkZ0jKmPMRuc
+         c3jUpPsBCdiA0cnPCJdDBouW2eInAsr0K32d4YYmZZ1UrmGoIcEcMh6oJ0sIYY1roOnb
+         6dSuti6gYr9pxVwWSWY2QcvZg9HY5YuHalWZHESH6lg6dSFfmCjGxSO4OeNyExBzRzPc
+         MxnzmO7g5f+bbQwxC55rf6Cun7oLXt5SMwMSjgsSy+vWHSPe0+yiWalpwvYwnc1buBWA
+         D2gQ==
+X-Gm-Message-State: AC+VfDwvscq7cc6lcy7HKDFeZsjjBBNmfrzqp2NOqb6XMCiMT1CUXqo1
+	dYb3lHnGb1MRz23EEBcpbveSaRRVSvQFe0T8UZx9bBKAWWEdkZhDPQ==
+X-Received: by 2002:a5d:6f02:0:b0:306:2c12:667b with SMTP id ay2-20020a5d6f02000000b003062c12667bmr6541374wrb.4.1683829380424;
+        Thu, 11 May 2023 11:23:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f404:0:0:0:0:0 with SMTP id g4csp1588335wro;
+        Thu, 11 May 2023 11:22:57 -0700 (PDT)
+X-Received: by 2002:ac2:46ee:0:b0:4f1:5001:1d9c with SMTP id q14-20020ac246ee000000b004f150011d9cmr3371062lfo.55.1683829376865;
+        Thu, 11 May 2023 11:22:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1683829376; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=RuJxvSBC8rXawx+KN5VVRXCJ5rcupZtan2OL1Kh5dsaFCoucBSUhDQRLGzkcVlMDEu
+         urjWTItKtMypyzrx6Mmphd3HxskxKXJXZaKLwds96rjFxLXAdQmtDjDy83Mw3iXvojQT
+         7oesgd5J/vejvfdjDUneMisQBuGCYADFLv5iq5VqeNgTzTVOTXDVcdckuWJr9DDd7a/M
+         +IS6sr3rq+hpxr4pfGxItNc5crdcUSkoV1JkvKfXBEoI0DN9RuhKpC8n6JKSvOuVp03E
+         8nDy7h26LoWDuu/so6NCFGlU0VZeUzFWKezlXTSWi1vHwml3KLiuGGHWF6DrWtQtOYiK
+         41Ng==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=HdJErEs2oM1ViGWfQH5jFit9BSustGdPyDZdOpBhXDs=;
+        b=xdMpM+MSr6cd/8l7CRcS43ApDbjrvrvf18vPU7lv6100thvc6W6I8CW+tn2Qs4zNb7
+         IIKJm5rfVXBFMq3u3tfr9Is38dVWlmvc0NGYcJ7FhbdlGvVDUSF2z3XcGPt18TgEaN3X
+         0wmb4yaoYEeTLySJjrY2FnT/QrHaSp8bi9pBNkDDPMsOSQn4OV5VR3nJVaCPogYNX0p2
+         NNlf6hiQUPKSFPRXReKzc1w5pnbO1TVImXSg/K3g0qeccIZdsntmzodbG0HNwTSh7UWF
+         SfE42b1ULMzdj2LVFwLmqFMGN/r8kCXpYHc+aKb2OJEd3eeYTzuNCuH76dMiakeGk1X9
+         QsHg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mq5t+zkn;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230511142156.31452208.261438@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230511142156.31452208.261438@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230511142156.31452208.261438@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o10-20020ac24e8a000000b004eb366be3a7sor2385533lfr.0.2023.05.11.11.22.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 11 May 2023 11:22:56 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230511142156.31452208.261438@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ4bDYLuDKYDE8kSVNCGv7VLUaThwXF/wYVvrvoUgS1LZHZg6k2uHLuxUbNQZGY8y5gSx6tkh8vXjBYsvqJ7u4vZNYw6GsQ=
+X-Received: by 2002:a05:6512:924:b0:4f0:1149:c875 with SMTP id f4-20020a056512092400b004f01149c875mr2943784lft.31.1683829376543;
+        Thu, 11 May 2023 11:22:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1683829376; cv=none;
+        d=google.com; s=arc-20160816;
+        b=uiB1DPToL3/lSRMFBy0j4UEzTgWso5elWDHLeon0S4IQQ/iBJad5+b9NOmD05gpIsK
+         Ky8Hpb0A/CQ42BAAfmQPRliIlL7jlT+kaK2Yp4rKMux/nKDu1u9gTA/z1bubncRhGrqu
+         Tccsid6gYXyj2KlVfpLsFrHjTrrGfHw6LFCqIXvA5Hn9OI71Ewc5L18an6iznc+l5o4z
+         FfjWGBMAQIXWfodAkNRKSxvFW8BjoHd4A+buTfHm6xbv/M2Kb/iYzpUvcn3xICt+BfZb
+         YfPZ2OEsYIrlyghVhO+rxe6S5vABhpy9oKf42UAvHSNm50ogMHj905GsQh3cbJbgZ0Kz
+         sNuw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=HdJErEs2oM1ViGWfQH5jFit9BSustGdPyDZdOpBhXDs=;
+        b=HwDs5rdV+Dn9ZHBTZtg2Iq6rBae+6eyb1X8H9hU7xoAE7KaOedFWcRcqNbqEJo4QUU
+         SjLzaABeZBrIlvMpwUyAgzDvwj3FgJCFMRv5O/L92uKZOP2PKwo18yY+36Ej4Cgg4EDK
+         SVx45w4IbatirNPPG+lK/iBcHcgkyYXPeAjVWJT4OTkdjjuu13XGdpZOJIIYiPoG+kyc
+         Cu5pQnSJIJ955usjmzYo30H93UdYnYPTzTtrgE9QT7VUIXS9mC5sZAx7Zrs7VzpMnShy
+         1fXAapc1nAqtKg9mXsH8upPm4ca46XtDTKtEUyXB9+1xFXau5KtZnK2MmJ+2S/UFx1HW
+         XNJg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mq5t+zkn;
+       spf=pass (google.com: domain of delivery_20230511142156.31452208.261438@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230511142156.31452208.261438@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230511142156.31452208.261438@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id be12-20020a056512250c00b004f25250dd69si591599lfb.11.2023.05.11.11.22.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 11 May 2023 11:22:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230511142156.31452208.261438@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=cz1Szp3vcHE8NOoekvkcjtmV94ynjfOf1YMYLwjTcaY=;
+ b=mq5t+zknNH+TAOkoqCQYmyLWAKgAuajaKDM6tuIleJaPJ1d50RgbC1Xs89LAMVKXarg7a9G1ZETR
+   VSkrfGJ3zSF07GZ1vbP/Mo8duufWID4lzreOxv4FcJysxDHHjVbqSzmRCjS5bNL4pQfrFcANz51w
+   eSmrOwVJmAWG0CJI3VM=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id hbkp7s30nu8e for <bloomberg@khamel.com>; Thu, 11 May 2023 14:22:54 -0400 (envelope-from <delivery_20230511142156.31452208.261438@mx.sailthru.com>)
+Received: from nj1-wrylilac.flt (172.18.20.8) by njmta-149.sailthru.com id hbkp7s1qqbsq for <bloomberg@khamel.com>; Thu, 11 May 2023 14:21:56 -0400 (envelope-from <delivery_20230511142156.31452208.261438@mx.sailthru.com>)
+Date: Thu, 11 May 2023 14:21:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230511142156.31452208.261438@sailthru.com>
+Subject: Money Stuff: Blackstone Can Be the Bank
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9152185_992262821.1683829316251"
+Precedence: bulk
+X-Feedback-ID: 6358:31452208:campaign:sailthru
+X-TM-ID: 20230511142156.31452208.261438
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciq4og.5lq6/8d2fa787
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciq4og.5lq6/8d2fa787>, <mailto:unsubscribe_20230511142156.31452208.261438@mx.sailthru.com>
+X-rpcampaign: stjko31452208
+
+------=_Part_9152185_992262821.1683829316251
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+Why are there regional banks? We have talked a lot recently about the cen
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Blackstone Bank
+   =20
+ =20
+
+Why are there regional banks? We have   talked a   lot recently about the c=
+entral fragility of the business model: Banks take short-term deposits to f=
+und long-term loans, and when interest rates go up their depositors might l=
+eave (or demand higher interest) as their loans lose value, making them fai=
+l. Giant global banks mitigate this problem by being =E2=80=9Ctoo big to fa=
+il,=E2=80=9D which means not only that if their depositors flee the governm=
+ent will bail them out, but also that their creditors might reasonably thin=
+k something like =E2=80=9Cwell, if JPMorgan fails, then the world has proba=
+bly ended, so I=E2=80=99m not going to worry too much about their credit ri=
+sk.=E2=80=9D
+  [1]
+=C2=A0But regional banks don=E2=80=99t really have that advantage
+  [2]
+: They=C2=A0are=C2=A0fragile, and their depositors notice their fragility, =
+and they can go bust rather easily, as they have found out this year.
+When this happens, there=C2=A0is more concentration of US banking at the to=
+o-big-to-fail banks, either because JPMorgan Chase & Co.   buys failed regi=
+onal banks, or because people  just take their money out of rickety regiona=
+l banks and   put it at safer big banks.
+  [3]
+=C2=A0Some people think this is bad: Concentration is bad, too-big-to-failn=
+ess is bad. Other people are not so sure. What, they ask, are regional bank=
+s=C2=A0for? Why does the US have so very many banks, so many of which are s=
+mall and under-supervised and liable to vanish over a weekend and cause a l=
+ot of trouble as they go? Why shouldn=E2=80=99t everyone bank at a few big =
+banks that are closely monitored, and robustly supported, by the government=
+?
+The intuitive answer is that regional banks are=C2=A0regional, they are loc=
+al, they have relationships and expertise specific to some part of the coun=
+try. Historically this answer was often about deposits: You=E2=80=99d open =
+an account at the bank in your town, because you had to go to the bank to g=
+et your money, and it was easiest to go to the bank in your town. But now p=
+eople bank online and get their money from national ATM networks, and the b=
+ig banks probably have better banking apps than the small ones. There is le=
+ss reason to prefer having a checking account at your local bank.
+  [4]
+
+But the local expertise advantage is real in=C2=A0banks=E2=80=99 lending=C2=
+=A0business: If you want to buy a house, a bank that knows your neighborhoo=
+d will be better equipped to underwrite your mortgage. If you have a small =
+business and want to=C2=A0borrow money to expand, a local banker might have=
+ a better sense of your prospects than a big bank, and might be more flexib=
+le and willing to work with you. And in fact smaller banks are important pl=
+ayers in=C2=A0commercial real estate and    small-business lending, where l=
+ocal knowledge is more important.
+Still it is odd to think of regional banks as, like, good credit-underwriti=
+ng and customer-service businesses stapled to a wildly risky funding model.=
+ Why have the wildly risky funding model? We have also   talked a   lot   r=
+ecently about the idea of =E2=80=9Cnarrow banking,=E2=80=9D in which:
+=09Deposits would=C2=A0just be kept at the Federal Reserve, they would just=
+ be=C2=A0money, they would=C2=A0not be funding for banks to make loans; and=
+=09Loans would be funded by locked-up, long-term investors with the appropr=
+iate time horizons. Some lending fund would raise money from investors who =
+commit their money for 10 years, and then it would go out and make 10-year =
+loans, and it would never have to worry about the investors asking for thei=
+r money back before the loans matured.
+
+This would be=C2=A0safer=C2=A0than the current system of fractional reserve=
+ banking; it would get rid of the central fragility of banking. Something w=
+ould probably be lost: Fractional-reserve banking is   a way to get society=
+ to take more risk, to transform risky investments into safe deposits. (=E2=
+=80=9CFinancial systems help us overcome a collective action problem,=E2=80=
+=9D  writes Steve Randy Waldman: =E2=80=9CIn a world of investment projects=
+ whose costs and risks are perfectly transparent, most individuals would be=
+ frightened.=E2=80=9D) But some version of it is happening, a little bit, a=
+nyway: Deposits are flowing   into money market funds that just park them a=
+t the Fed, and=C2=A0private credit funds are becoming increasingly importan=
+t in lending.
+If you like narrow banking, you will want to have=C2=A0answers to some prac=
+tical questions like =E2=80=9Cwho decides who gets the loans=E2=80=9D and =
+=E2=80=9Care these loan funds going to hire a bunch of lending officers in =
+every small town to make small-business loans?=E2=80=9D But you can sort of=
+ imagine it with a reshuffling of the pieces of the current system. What if=
+ regional banks kept=C2=A0making loans, the thing they are good at, but ins=
+tead of=C2=A0taking deposits=C2=A0they went out and got funding=C2=A0from t=
+he long-term, locked-up, run-proof=C2=A0loan funds? What if you kept the cr=
+edit-underwriting and customer-service functions of regional banking, but g=
+ot rid of the wildly risky funding model?
+Well I=E2=80=99m sure there would be all sorts of costs and disruptions =E2=
+=80=94=C2=A0banks like the risky funding model because deposits are usually=
+ pretty=C2=A0cheap=C2=A0=E2=80=94=C2=A0but  here=E2=80=99s a gesture in tha=
+t direction:
+
+Blackstone is in discussions with large US regional banks about providing t=
+hem with extra firepower to lend to companies amid signs the recent industr=
+y turmoil is morphing into a credit crunch.
+Jon Gray, president of Blackstone, told the Financial Times his company was=
+ talking to regional banks about entering into partnerships, which would in=
+volve lenders making or =E2=80=9Coriginating=E2=80=9D loans that the privat=
+e equity group can funnel to its insurance customers.
+
+That is from Antoine Gara at the Financial Times; it goes on:
+
+Gray said regional banks were still best placed to decide whether to lend t=
+o commercial and real estate clients, describing them as having =E2=80=9Cpo=
+werful origination capabilities and relationships=E2=80=9D.
+But he said groups such as his could be a =E2=80=9Cvaluable partner=E2=80=
+=9D by helping to offload some of the risk after a loan has been securitise=
+d. =E2=80=9CRather than putting all [of the risk] on its balance sheet, may=
+be they keep 50 cents [on the dollar], and put 50 cents with us.=E2=80=9D
+Blackstone plans to channel the securities to asset-hungry insurers which w=
+ould hold the debt to maturity. =E2=80=9CWhat=E2=80=99s really changed from=
+ our standpoint is that we have a very low-cost capital because of our insu=
+rance clients,=E2=80=9D Gray said.
+Blackstone does not have a controlling stake in any insurers but offers ass=
+et management services to large players such as AIG. These customers, Gray =
+said, are a natural home for assets that might otherwise be held on banks=
+=E2=80=99 balance sheets.
+
+Insurance companies have long-term liabilities (life insurance, annuities, =
+etc.) that they use to fund long-term assets. They are natural long-term bu=
+yers of long-term loans. They do not necessarily have branches=C2=A0in lots=
+ of places to=C2=A0make those loans. Regional banks, meanwhile, do have bra=
+nches=C2=A0that are good at making those loans, but they do not have partic=
+ularly long-term funding to own them for the long term. These days, as thei=
+r deposits leave, some of them don=E2=80=99t have much funding at all. Ther=
+e are trades to be done.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      BlackRock Power & Light
+   =20
+ =20
+
+In the olden days, simplistically, there were two sorts of shareholders of =
+public companies. There were=C2=A0active shareholders, owner-operators, sto=
+ck promoters, robber barons, railroad tycoons, etc., who would buy 100% or =
+51% or 15% of some company and involve themselves in=C2=A0running=C2=A0it, =
+going to board meetings and making strategic decisions. And there were=C2=
+=A0passive=C2=A0shareholders, regular investors, who would buy 100 shares o=
+f some company to get dividends.
+Over time, as the stock market grew, these archetypal shareholders were inc=
+reasingly pools of capital rather than individual humans. (None of this his=
+tory is particularly=C2=A0real, by the way; it is just schematic.) Active s=
+hareholders are now often private equity firms, corporate raiders,=C2=A0act=
+ivist hedge funds, etc., who=C2=A0buy 100% or 51% or 15% of some company an=
+d try to change its management. Passive shareholders are often mutual funds=
+ or other asset managers, who pool capital from regular investors and buy 0=
+.1% or 1% or 9% of some company for investment purposes.
+There are, in US law, lots of=C2=A0rules=C2=A0about corporate ownership, ab=
+out who can own a company and who has to approve any change in ownership.=
+=C2=A0Some of these rules apply to every company, or every public company: =
+ Securities law regulates how people can take over companies, what they hav=
+e to disclose, how they have to treat other shareholders, etc.;  antitrust =
+law regulates how people can acquire multiple companies in the same industr=
+y, to prevent anyone from gaining monopoly power. Others are industry-speci=
+fic: Lots of industries have their own regulators, who will want to vet the=
+ owners of the companies they regulate, so if you want to acquire a  bank o=
+r a  casino or a   defense contractor or a  television network, you will ha=
+ve to get the approval of the relevant industry regulator.
+Often =E2=80=94=C2=A0not always, but often =E2=80=94=C2=A0these rules will =
+make a distinction between active and passive owners: Active owner-operator=
+s often need to get these approvals, while passive investor-shareholders of=
+ten do not, or can get them quickly and automatically. If you want to buy 5=
+1% of a publicly traded=C2=A0casino company and run it, that implicates sec=
+urities law and antitrust law and casino regulation. If you want to buy 100=
+ shares of a casino company in your 401(k), that does=C2=A0not. There is so=
+metimes a size-based distinction=C2=A0=E2=80=94=C2=A0acquiring more than $X=
+ or Y% of the shares triggers review =E2=80=94=C2=A0but often there is also=
+ a subjective intent distinction, where even if you acquire more than $X or=
+ Y%, as long as you are a passive investor, that=E2=80=99s fine.
+The problem is that, in modern markets, the passive investors have become m=
+ore active.
+  [5]
+=C2=A0Modern asset managers feel some fiduciary duty to their investors, no=
+t just to pick good stocks, but also to do =E2=80=9Cstewardship,=E2=80=9D t=
+o supervise the managers of the companies whose stocks they own and tell th=
+em how to run their businesses better. (In fact many modern asset managers =
+don=E2=80=99t pick stocks at all; they just buy the stocks in the index, wh=
+ich makes stewardship more important.)
+Not all of this is about environmental, social and governance issues, but a=
+ lot of it is, in part because ESG has recently been a good marketing pitch=
+ for many asset managers and in part because, if you=E2=80=99re a very dive=
+rsified investor, you may not have any great ideas for how any particular c=
+ompany can improve its margins, but good governance and climate change affe=
+ct=C2=A0all=C2=A0of your investments so you=E2=80=99ll have some more devel=
+oped views. But the point here isn=E2=80=99t really about ESG; it=E2=80=99s=
+ about the fact that asset managers are fiduciaries for their investors, an=
+d =E2=80=9Cehh we just let companies do what they want and don=E2=80=99t=C2=
+=A0bother checking up on them=E2=80=9D feels lazy and unprofessional. (Wher=
+eas, if you own 100 shares of some company in your personal account, it wou=
+ld be sort of crazy for=C2=A0you=C2=A0to try to check up on management.)=C2=
+=A0
+What does this mean for all the rules about ownership?=C2=A0I think it crea=
+tes hard problems: The rules were written when the distinction between acti=
+ve owner-operators and passive investors was a bit sharper, and they don=E2=
+=80=99t give very clear answers now. The antitrust rules distinguish passiv=
+e owners who acquire stock =E2=80=9Csolely for the purpose of investment=E2=
+=80=9D from active owners who try to =E2=80=9Cinfluence the business decisi=
+ons=E2=80=9D of the company, but surely an index fund with 5% of a company=
+=E2=80=99s stock is=C2=A0mostly=C2=A0the former but also a little bit the l=
+atter. SEC rules distinguish passive owners who buy stock =E2=80=9Cin the o=
+rdinary course of [their] business and not with the purpose nor with the ef=
+fect of changing or influencing the control of the issuer=E2=80=9D from act=
+ive owners who try to =E2=80=9Cchange or influence the control=E2=80=9D of =
+the company; surely an index fund with 5% of a company=E2=80=99s stock boug=
+ht it =E2=80=9Cin the ordinary course of its business=E2=80=9D and without =
+planning to change the control of the company, but can its stewardship team=
+ come in and talk about governance, or is that =E2=80=9Cinfluencing the con=
+trol=E2=80=9D?
+So a certain amount of action in securities regulation has to do with polic=
+ing this now somewhat blurry line between active and passive shareholders. =
+(Ask=C2=A0  Elon Musk!) A significant=C2=A0amount of   action in=C2=A0antit=
+rust enforcement, and a   huge amount of   action in antitrust scholarship,=
+ has to do with this shifting line: Historically it would have been somewha=
+t insane to say =E2=80=9Can index fund is an antitrust problem because it o=
+wns stocks of lots of competing companies,=E2=80=9D but as asset managers h=
+ave become more interested in stewardship, that has become a far more popul=
+ar thing to say,   even among antitrust regulators.
+You see less of this action in industry-specific regulatory regimes, but I =
+guess that could=C2=A0change. In particular, if you don=E2=80=99t=C2=A0like=
+=C2=A0asset-manager stewardship, these industry regulatory regimes might be=
+ a promising way to check the power of asset managers, or at least to annoy=
+ them. And =E2=80=9Cif you don=E2=80=99t like asset-manager stewardship=E2=
+=80=9D means mostly =E2=80=9Cif you don=E2=80=99t like ESG.=E2=80=9D
+  [6]
+=C2=A0So   here=E2=80=99s this:
+
+A group of Republican state attorneys general want regulators to block Blac=
+kRock Inc. from putting pressure on power utilities to cut their use of fos=
+sil fuels.
+The motion, filed with the Federal Energy Regulatory Commission by 17 attor=
+neys general from states including Indiana and Texas, questions whether the=
+ world=E2=80=99s largest asset manager should be allowed to buy stakes wort=
+h more than $10 million in utilities.
+=E2=80=9CMaybe BlackRock was a passive investor 10 years ago, but today it=
+=E2=80=99s an environmental activist,=E2=80=9D according to the motion, whi=
+ch was earlier reported by Fox Business.
+
+Here is  the motion, which I think is pretty thin stuff, but never mind tha=
+t. The point is that the FERC regulates public utilities, and the utility b=
+usiness is one of those sensitive industries where the regulator gets some =
+veto power over owners. =E2=80=9CAny public=C2=A0utility holding company se=
+eking to acquire more than $10 million in voting securities in another util=
+ity must secure an order from the Commission authorizing it to do so,=E2=80=
+=9D says the motion, and BlackRock, as the owner of shares in lots of utili=
+ties, could in some loose sense be called a utility holding company. Becaus=
+e that doesn=E2=80=99t really make much sense, the FERC gives it a renewabl=
+e three-year=C2=A0=E2=80=9Cblanket authorization=E2=80=9D to buy utility sh=
+ares. But=C2=A0=E2=80=9Conly if the Commission finds the transaction is con=
+sistent with the public interest in light of competition, rates, and regula=
+tion will it then approve an application for blanket authorization.=E2=80=
+=9D And the state attorneys general suggest: What if it isn=E2=80=99t?=C2=
+=A0
+Incidentally, utilities do not really compete with each other much; that=E2=
+=80=99s sort of the point of a utility, and of utility regulation. If Black=
+Rock buys shares in an electric utility in Indiana and in another one in Te=
+xas, it will not influence=C2=A0them to compete against each other less fie=
+rcely, because electric utilities tend to be local monopolies and=C2=A0can=
+=E2=80=99t=C2=A0compete against each other. The concern here is not traditi=
+onal antitrust stuff, but rather that BlackRock will push utilities to use =
+less fossil fuel, which will have the effect of raising costs and thus rate=
+s. Historically, it has never occurred to anyone that a giant asset manager=
+ owning a bunch of shares of a bunch of utilities would be bad for utility =
+rates, but now it has, so there you go.
+
+ =20
+   =20
+      Short-selling ban?
+   =20
+ =20
+
+Should the US government ban short sales of bank stocks? No, is I think the=
+ answer, but I want to acknowledge that there is a=C2=A0better=C2=A0case fo=
+r that than for most short-sale bans. We   talked about it last week; brief=
+ly, the argument is that ordinarily a business will not fail if its stock p=
+rice goes down, but a bank is a confidence-driven business, so driving down=
+ its stock price can cause it to fail and leave taxpayers with the bill.=C2=
+=A0And in fact the US government has, in recent memory, banned short sales =
+of bank stocks, for more or less that reason: The US Securities and Exchang=
+e Commission  banned short selling of financial stocks for  about three wee=
+ks=C2=A0during the financial crisis of 2008.
+My sense is that most people are not especially=C2=A0proud of that history,=
+ or eager to repeat it, but it did happen. And there are=C2=A0some=C2=A0cal=
+ls to repeat it.=C2=A0Bloomberg=E2=80=99s Carmen Reinicke reports that =E2=
+=80=9CNew Calls for Short-Selling Ban Has Experts Defending the Tactic=E2=
+=80=9D; most experts think short-sale bans are silly and there does not see=
+m to be too much momentum in government for another=C2=A0one.
+  [7]
+=C2=A0
+But one thing about doing a short-sale ban in the=C2=A02008 financial crisi=
+s is that, in the 2023 financial crisis, short sellers remember, and it mak=
+es them a bit nervous. Bloomberg=E2=80=99s   Laura Benitez reports:
+
+The risk of a short-selling ban by the US government is giving veteran bear=
+ Marc Cohodes pause for thought before betting against the country=E2=80=99=
+s regional banks, even though he says the outlook for the industry remains =
+gloomy.=C2=A0
+The former hedge fund boss, who now manages his own money while raising chi=
+ckens on a farm in California, said deposits will continue to be pulled fro=
+m US regional banks because of where Treasuries are trading in relation to =
+regional banks=E2=80=99 deposit and CD rates. ...
+=E2=80=9CThe government needs to fix the problem instead of putting a band-=
+aid over the gangrene that they created,=E2=80=9D Cohodes said. =E2=80=9CTr=
+ying or talking about putting a short-selling ban in place is sheer insanit=
+y and will make the problem worse.=E2=80=9D=C2=A0
+
+Banning short sales might have the advantage=C2=A0of propping up bank stock=
+s,
+  [8]
+ but it has the disadvantage of looking ad hoc and lawless and panicky.=C2=
+=A0Not=C2=A0banning short sales, but=C2=A0having banned them for three week=
+s 15 years ago and occasionally talking about a ban now, has the advantage =
+of deterring short sellers with the vague threat that it might happen again=
+, but without looking like panic.
+
+ =20
+   =20
+      Is the writers=E2=80=99 strike securities fraud?
+   =20
+ =20
+
+If you run a business, you will always feel pressure to tell some people th=
+at it=E2=80=99s going well and other people that it=E2=80=99s going poorly.=
+ You will always want to tell=C2=A0investors=C2=A0that the business is goin=
+g well, because then they will reward you by giving you more capital. You w=
+ill generally want to tell the=C2=A0tax collectors=C2=A0that the business i=
+s going poorly, because then they will collect less money in taxes. (Thus, =
+tax accounting and financial accounting are sometimes different, and people=
+ sometimes=C2=A0get mad about it.) Other categories are more ambiguous: You=
+ might want to tell suppliers that business is going well (so they are comf=
+ortable increasing the relationship and selling you more stuff on credit), =
+or that it is going poorly (so that they feel sorry for you and give you a =
+discount). You might want to tell employees that business is going well (so=
+ they don=E2=80=99t quit for a more stable job), or that it is going poorly=
+ (so they don=E2=80=99t demand a raise).
+Ideally you would not lie to any of them, but there is a range of ways to c=
+haracterize your business, and to make conditional predictions about an unc=
+ertain future. And everything is on the internet these days, so it is often=
+ possible for one audience to find what you are telling another audience an=
+d say =E2=80=9Chey, you are telling us two different things.=E2=80=9D And i=
+f you are a public company and one of the audiences is your shareholders, s=
+omeone =E2=80=94=C2=A0not necessarily the shareholders! =E2=80=94=C2=A0migh=
+t say =E2=80=9Chey, is this securities fraud?=E2=80=9D Because   everything=
+ is securities fraud.
+A few years ago, the US Department of Labor proposed some new rules for inv=
+estment advisers, and some companies that would be subject to the rules wro=
+te comment letters to the DOL about how bad the rules would be for their bu=
+siness, because =E2=80=9Cthis is a catastrophe for investment advice=E2=80=
+=9D is a good argument against the rules. But they also did investor calls =
+where they told investors that the rules would be fine for their business, =
+because =E2=80=9Cthis is a catastrophe for investment advice=E2=80=9D is a =
+bad thing to tell your shareholders. And then Senator Elizabeth Warren =E2=
+=80=94=C2=A0who supported the rule and didn=E2=80=99t like the investment i=
+ndustry =E2=80=94=C2=A0just wrote down all the things they told the DOL, an=
+d all the things they told their investors, and put them in a letter to the=
+ US Securities and Exchange Commission asking =E2=80=9Chey is this securiti=
+es fraud or what?=E2=80=9D  She wrote:
+Both sets of industry claims - that the proposed rule will harm them and th=
+eir business model, and that the proposed rule will not harm them and their=
+ business model - cannot possibly be true. And if one these public statemen=
+ts is materially false, it would appear to violate long-standing interpreta=
+tions of our securities laws.
+We   talked about it at the time. It was a very fun rhetorical move.
+  [9]
+=C2=A0Was=C2=A0it fraud? I wrote:
+I mean, the comments to the regulators and the comments to the shareholders=
+ are both contingent predictions about the unknowable future, so you can't =
+really hold anyone responsible if they turn out to be wrong. And nobody act=
+ually makes different unconditional quantified falsifiable predictions to t=
+he two different audiences -- no one says to the regulators "this rule will=
+ definitely cost us $100 million a year no matter what we do in response," =
+while also telling the shareholders "this rule won't affect our bottom line=
+ at all no matter what." They make vague, conditional predictions; they str=
+ess the problems to the regulators and the solutions to the shareholders.
+Still, awkward.=C2=A0Anyway here is a  Wall Street Journal podcast with tel=
+evision writer Michael Schur about the Hollywood writers=E2=80=99 strike
+  [10]
+:
+
+Ryan Knutson: A lot of studios say this is a bad time to be making major ch=
+anges to writers pay. Most streaming services are losing money, and many st=
+udios are under pressure from Wall Street to cut costs. Warner Brothers, Di=
+scovery, and Paramount have all canceled projects lately, and companies lik=
+e Disney have been laying people off. How do you respond to that?
+Michael Schur: It's very funny, they say one thing on their investor calls =
+and then a very different thing to us when we're in the negotiating room. O=
+n their investor calls, it's all rosy. We're going to make so much money. W=
+e're going to be profitable very soon. We're going to make X billions of do=
+llars over the next Y years. And then when they get in a room with us, they=
+'re like, "Guys, you've picked a really bad time to ask for a raise." We ar=
+e like, we read the notes of your call. We know how much money you're proje=
+cting.=C2=A0
+
+Yes right when you are negotiating a union contract you turn your pockets i=
+nside out and say =E2=80=9Cwe=E2=80=99re broke, you gotta take a pay cut,=
+=E2=80=9D and then when you have an investor day you pull sacks of gold out=
+ of your pockets and say =E2=80=9Cwe=E2=80=99re so rich it=E2=80=99s great.=
+=E2=80=9D It=E2=80=99s just that the union can hear you, and the shareholde=
+rs are litigious.
+
+ =20
+   =20
+      Plugging oil wells
+   =20
+ =20
+
+I  mentioned this in a footnote the other day, but perhaps it deserves more=
+ attention. We were talking about oil companies doing stock buybacks. My ma=
+in point was that if you are an oil-company executive, and you think that t=
+he=C2=A0very long-term=C2=A0future of oil is bad (people will stop using it=
+ for environmental reasons, etc.), but you have a lot of cash flow from oil=
+ now (people use a lot of oil now), then you might consider returning that =
+cash flow to shareholders, in the form of stock buybacks and dividends, rat=
+her than investing it in your business for the long term. Because, by hypot=
+hesis, your business does not have a long term.
+There are counterarguments, with the main one being something like =E2=80=
+=9Cpeople will always use energy, even if they don=E2=80=99t always use oil=
+, and=C2=A0as an oil company, you are best positioned to=C2=A0develop=C2=A0=
+the energy sources of the future, so you should invest your current oil cas=
+h flows in long-term green energy projects.=E2=80=9D I think that is a reas=
+onable argument, and I certainly don=E2=80=99t presume to know which choice=
+ oil-company chief executive officers should make. I just wanted to point o=
+ut that both choices make a certain sense, and that if you (1) don=E2=80=99=
+t like stock buybacks but (2) do like environmental investing, you might fi=
+nd oil-company buybacks a little bit more sympathetic.
+But  in a footnote I added one particular reason to prefer stock buybacks o=
+ver long-term investment:
+In my schematic description, the value of oil drilling declines to zero in =
+Year X. Lower numbers are possible! You could imagine a future where, in X =
+years, (1) nobody uses oil and (2) everybody is going around suing oil comp=
+anies for the costs of repairing environmental damage. In that scenario, be=
+ing capital-light is a benefit: If you've given the money back to the share=
+holders, they get to keep it, while if you've held onto it, it can go to pa=
+y liabilities. The=C2=A0US coal industry=C2=A0has already very much discove=
+red this point.
+That is: When you=E2=80=99re done with an oil well, you have to clean it up=
+ so it doesn=E2=80=99t just leak pollution forever. That is the responsibil=
+ity of the company that drilled the well, and there are various rules and b=
+onding mechanisms to try to make sure that an oil company that drilled a we=
+ll sticks around to pay for cleaning it up. Those rules are imperfect. Gene=
+rally speaking, if you=E2=80=99re a half-trillion-dollar global energy comp=
+any, and you=E2=80=99ve got some wells that you=E2=80=99re done with, the g=
+overnment is going to make you clean them up. If you=E2=80=99re a rotten hu=
+sk of a former energy company with $26 in the bank, though, there=E2=80=99s=
+ only so much the government can do. (It can take your $26.) If you are an =
+oil company now, and things are good, and you return a dollar to shareholde=
+rs, the shareholders keep the dollar. (It is pretty hard for the government=
+ to claw back money distributed to public shareholders.) If you keep that d=
+ollar to invest, the government might end up taking it to pay for cleaning =
+up your wells. That dollar might be worth a lot more in shareholders=E2=80=
+=99 hands than in yours.
+I mean, if you are a shareholder-value-maximizing oil-company CEO, this is =
+a reasonable calculation. If you are someone who doesn=E2=80=99t like stock=
+ buybacks but likes environmental investing, you will=C2=A0not=C2=A0like th=
+is; this is, schematically, a way for oil companies to get away with pollut=
+ion without paying for it.
+Anyway here=E2=80=99s  a New York Times story about plugging offshore oil w=
+ells:
+
+Ever since the first offshore platforms went up off Louisiana 85 years ago,=
+ the Gulf of Mexico has been an oil and gas juggernaut. But decades of dril=
+ling has left behind more than 14,000 old, unplugged wells at risk of sprin=
+ging dangerous leaks and spills that may cost more than $30 billion to plug=
+, a new study has found. Nonproducing wells that haven=E2=80=99t been plugg=
+ed now outnumber active wells in the gulf, the study says.
+The researchers also found that, in federal waters, nearly 90 percent of th=
+e old wells were owned at some point in the past by giant oil companies kno=
+wn as the =E2=80=9Csupermajors,=E2=80=9D including BP, Shell, Chevron and E=
+xxon. Under federal law, that means those companies would still be responsi=
+ble for cleanup costs, even though they might have sold the wells in the pa=
+st, the study=E2=80=99s authors said.
+Oil and gas companies are responsible under federal and state rules for sec=
+urely plugging wells that are no longer in service. In the boom-and-bust wo=
+rld of oil and gas drilling, though, operators frequently go bankrupt, leav=
+ing wells orphaned and unplugged, and taxpayers on the hook. =E2=80=A6
+Still, in federal waters, the government can hold prior owners of wells lia=
+ble for plugging them, even if the current owners go under or otherwise don=
+=E2=80=99t fulfill their cleanup obligations. Eighty-seven percent of wells=
+ under federal jurisdiction were once owned by one of the supermajors, many=
+ of which have recently booked record profits.
+=E2=80=9CSo for federal waters, these companies with deep pockets would be =
+on the hook,=E2=80=9D Dr. Agerton said. =E2=80=9CThere=E2=80=99s someone to=
+ go after.=E2=80=9D
+
+But maybe not forever?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Wall Street Loads Up on   Doom Hedges as Countdown to X-Day Begins. SoftBan=
+k  Vision funds post record $39bn annual loss.=C2=A0Bond Selloff Adds to th=
+e Pressure on  Regional Banks. Short Seller   Hindenburg Hits Out Again at =
+Carl Icahn, Adds Bet Against Bonds.  Gautam Adani retreats after short-sell=
+er attack. The SEC extracted some  cell-phone fines from HSBC and Scotia Ca=
+pital. Shortage of  young accountants leads BDO USA to double offshore work=
+force. Finance Professionals See   Biggest Pay Rise in 10 Years, Survey Fin=
+ds.=C2=A0Man Group Appoints its First Female CEO in 240 Years. Manhattanite=
+s bring their  private school blood sport to Miami.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Also, because everyone knows this, the too-big-to-fail banks are prob=
+ably more careful, and are supervised more carefully, than smaller banks. T=
+hey don=E2=80=99t just casually blunder into taking too much duration risk =
+or having too little liquidity, because a lot of people are watching.
+
+
+  [2] Empirically, regional banks *have* been getting a lot of government s=
+upport (in the form of the   Bank Term Funding Program and Federal Deposit =
+Insurance Corp.   bailouts for uninsured depositors of failed banks), but d=
+epositors still seem to worry way more about them than about the too-big-to=
+-fails.
+
+
+  [3] Modest Proposal  on Twitter: =E2=80=9CThere are two main ways to incr=
+ease concentration in the banking sector: 1. Let big banks acquire troubled=
+ banks. 2. Don=E2=80=99t let big banks acquire troubled banks.=E2=80=9D
+
+
+  [4] Your local bank might pay you more interest, which is a reason for *y=
+ou* to keep your money there, but not an advantage for the bank. For the ba=
+nk, that just means its cost of funds is higher than JPMorgan=E2=80=99s.
+
+
+  [5] Sometimes the active investors become more passive too; there are som=
+e activist hedge fund managers who have mellowed into =E2=80=9Cwell we are =
+value investors who go activist only when we have to,=E2=80=9D and sometime=
+s they get in trouble when they think they are passive but regulators think=
+ they are active.
+
+
+  [6] Not entirely. The =E2=80=9Cindex funds are an antitrust problem=E2=80=
+=9D people are not necessarily anti-ESG; their worry is that asset-manager =
+stewardship is bad for consumers and workers, and they can be quite lefty. =
+But, realistically, in 2023, it=E2=80=99s mostly anti-ESG.
+
+
+  [7] My old law firm, Wachtell, Lipton, Rosen & Katz,   has called for a t=
+emporary ban on bank short sales, but they would wouldn=E2=80=99t they.
+
+
+  [8] I think part of the case against short-sale bans is that this isn=E2=
+=80=99t really true, and that a short-sale ban can *depress* bank stocks by=
+ creating an overhang that makes them uninvestable. If there=E2=80=99s a 14=
+-day ban on shorting bank stocks, you might assume =E2=80=9Cwell on day 15 =
+everyone=E2=80=99s gonna short these bank stocks, so why would I buy them n=
+ow?=E2=80=9D And so you wait, and nobody buys them and they go down.=20
+
+
+  [9] I did not *love* it as a way to deter political advocacy, but that is=
+ not relevant to our current story.
+
+
+  [10] Dave Guarino on Twitter  pointed me to this exchange, and asked me t=
+o, you know, make fun of it for being securities fraud.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciq4og.5lq6/911b5150.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9152185_992262821.1683829316251
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.Why are =
+there regional banks? We have talked a lot recently about the cen
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB410dad76"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTQ1MjIwOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE3MTM2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBeee10668" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31452208&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31713646&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Blackstone Bank</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Why are there regional banks? We have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRy=
+dXN0cy10aGUtYmFua3Mtbm93P2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8a87798d" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  talked</a> a =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDkvaXQtc=
+y1uZXZlci10b28tbGF0ZS1mb3ItYmFua3MtdG8taGVkZ2U_Y21waWQ9QkJEMDUxMTIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+wNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb7f7e19d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  lot</a> recently about the central fragility of the business model:=
+ Banks take short-term deposits to fund long-term loans, and when interest =
+rates go up their depositors might leave (or demand higher interest) as the=
+ir loans lose value, making them fail. Giant global banks mitigate this pro=
+blem by being =E2=80=9Ctoo big to fail,=E2=80=9D which means not only that =
+if their depositors flee the government will bail them out, but also that t=
+heir creditors might reasonably think something like =E2=80=9Cwell, if JPMo=
+rgan fails, then the world has probably ended, so I=E2=80=99m not going to =
+worry too much about their credit risk.=E2=80=9D<a class=3D"footnote-index"=
+ href=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[1]</span>
+</a>=C2=A0But regional banks don=E2=80=99t really have that advantage<a cla=
+ss=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[2]</span>
+</a>: They=C2=A0are=C2=A0fragile, and their depositors notice their fragili=
+ty, and they can go bust rather easily, as they have found out this year.</=
+p>
+<p style=3D"margin: 16px 0;">When this happens, there=C2=A0is more concentr=
+ation of US banking at the too-big-to-fail banks, either because JPMorgan C=
+hase &amp; Co. <a href=3D"https://link.mail.bloombergbusiness.com/click/314=
+52208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDUtMDEvanBtb3JnYW4tZ290LWEtZGVhbC1vbi1maXJzdC1yZXB1YmxpYz9jbXBpZD1CQkQwN=
+TExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMzA1MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cBb621e757" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  buys failed regional banks</a>, or because people <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0c=
+HM6Ly9saWJlcnR5c3RyZWV0ZWNvbm9taWNzLm5ld3lvcmtmZWQub3JnLzIwMjMvMDUvYmFuay1m=
+dW5kaW5nLWR1cmluZy10aGUtY3VycmVudC1tb25ldGFyeS1wb2xpY3ktdGlnaHRlbmluZy1jeWN=
+sZS8/607f07ceef4b8524a319a23cBf4a62732" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> just take their money out<=
+/a> of rickety regional banks and <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDMtMjcvc21hbGwtdXMtYmFua3MtbG9zZS0xMDktYmlsbGlvbi1pbi1kZX=
+Bvc2l0cy1pbi1hLXNpbmdsZS13ZWVrP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf5e20125" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  put it =
+at safer big banks</a>.<a class=3D"footnote-index" href=3D"#footnote-3" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0Some people think this is bad: Concentration is bad, too-big-to-f=
+ailness is bad. Other people are not so sure. What, they ask, are regional =
+banks=C2=A0<em>for</em>? Why does the US have so very many banks, so many o=
+f which are small and under-supervised and liable to vanish over a weekend =
+and cause a lot of trouble as they go? Why <em>shouldn=E2=80=99t</em> every=
+one bank at a few big banks that are closely monitored, and robustly suppor=
+ted, by the government?</p>
+<p style=3D"margin: 16px 0;">The intuitive answer is that regional banks ar=
+e=C2=A0regional, they are local, they have relationships and expertise spec=
+ific to some part of the country. Historically this answer was often about =
+deposits: You=E2=80=99d open an account at the bank in your town, because y=
+ou had to go to the bank to get your money, and it was easiest to go to the=
+ bank in your town. But now people bank online and get their money from nat=
+ional ATM networks, and the big banks probably have better banking apps tha=
+n the small ones. There is less reason to prefer having a checking account =
+at your local bank.<a class=3D"footnote-index" href=3D"#footnote-4" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But the local expertise advantage is real in=
+=C2=A0banks=E2=80=99 <em>lending=C2=A0</em>business: If you want to buy a h=
+ouse, a bank that knows your neighborhood will be better equipped to underw=
+rite your mortgage. If you have a small business and want to=C2=A0borrow mo=
+ney to expand, a local banker might have a better sense of your prospects t=
+han a big bank, and might be more flexible and willing to work with you. An=
+d in fact smaller banks are important players in=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cudGhvbXN=
+vbnJldXRlcnMuY29tL2VuLXVzL3Bvc3RzL2ludmVzdGlnYXRpb24tZnJhdWQtYW5kLXJpc2svcm=
+VnaW9uYWwtYmFua3MtY29tbWVyY2lhbC1yZWFsLWVzdGF0ZS13b3JyaWVzLw/607f07ceef4b85=
+24a319a23cB518b3f64" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">commercial real estate</a> and <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cu=
+cmV1dGVycy5jb20vbWFya2V0cy91cy9mZWRzLWplZmZlcnNvbi1zdGlsbC1sZWFybmluZy1pbXB=
+hY3QtdGlnaHRlci1tb25ldGFyeS1wb2xpY3ktMjAyMy0wMy0yNy8/607f07ceef4b8524a319a2=
+3cBbe34bb4e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">   small</a><a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDUtMTEvcmVnaW9uYWwtYmFua3MtbWlnaHQtYmUtdG9vLXNtYWxsLXRvLXR=
+ocml2ZS1hbWlkLXR1cm1vaWw_Y21waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3935f90d" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">-business</a> le=
+nding, where local knowledge is more important.</p>
+<p style=3D"margin: 16px 0;">Still it is odd to think of regional banks as,=
+ like, good credit-underwriting and customer-service businesses stapled to =
+a wildly risky funding model. Why have the wildly risky funding model? We h=
+ave also <a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.=
+261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMt=
+MzAvYmVkLWJhdGgtYmV5b25kLWhhcy1tb3JlLXN0b2NrLXRvLXNlbGw_Y21waWQ9QkJEMDUxMTI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB820=
+e51c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  talked</a> a <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjMtMDQtMjAvYmFua2luZy1nZXRzLWEtYml0LW5hcnJvd2VyP2NtcGlkPUJCRD=
+A1MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIzMDUxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB2783033e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  lot</a> <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDUtMDgvb2lsLWNvbXBhbmllcy1naXZlLWJhY2stdGhlLWNhc2g_Y21w=
+aWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cBede39982" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  recently</a> about the idea of =E2=80=9Cnar=
+row banking,=E2=80=9D in which:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Deposits would=C2=A0just be kept at t=
+he Federal Reserve, they would just be=C2=A0<em>money</em>, they would=C2=
+=A0not be funding for banks to make loans; and</li>=09<li style=3D"margin-b=
+ottom: 5px;">Loans would be funded by locked-up, long-term investors with t=
+he appropriate time horizons. Some lending fund would raise money from inve=
+stors who commit their money for 10 years, and then it would go out and mak=
+e 10-year loans, and it would never have to worry about the investors askin=
+g for their money back before the loans matured.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This would be=C2=A0<em>safer=C2=A0</em>than th=
+e current system of fractional reserve banking; it would get rid of the cen=
+tral fragility of banking. Something would probably be lost: Fractional-res=
+erve banking is <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jMtMDMtMTcvYmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHVibGljLXdpdGgtdGhlaXItbW9uZXk_=
+Y21waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cBbbe84899" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  a way to get society to take more risk<=
+/a>, to transform risky investments into safe deposits. (=E2=80=9CFinancial=
+ systems help us overcome a collective action problem,=E2=80=9D <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d=
+3cuaW50ZXJmbHVpZGl0eS5jb20vdjIvMjY2OS5odG1s/607f07ceef4b8524a319a23cBe5366b=
+a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> writes Steve Randy Waldman</a>: =E2=80=9CIn a world of invest=
+ment projects whose costs and risks are perfectly transparent, most individ=
+uals would be frightened.=E2=80=9D) But some version of it is happening, a =
+little bit, anyway: Deposits are flowing <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjMtMDMtMzAvYmVkLWJhdGgtYmV5b25kLWhhcy1tb3JlLXN0b2N=
+rLXRvLXNlbGw_Y21waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cC820e51c3" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  into money market funds</a=
+> that just park them at the Fed, and=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDkvaXQtcy1uZXZlci10b28tbGF0ZS1mb3ItYmFua=
+3MtdG8taGVkZ2U_Y21waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cCb7f7e19d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">private credit funds</a>=
+ are becoming increasingly important in lending.</p>
+<p style=3D"margin: 16px 0;">If you like narrow banking, you will want to h=
+ave=C2=A0answers to some practical questions like =E2=80=9Cwho decides who =
+gets the loans=E2=80=9D and =E2=80=9Care these loan funds going to hire a b=
+unch of lending officers in every small town to make small-business loans?=
+=E2=80=9D But you can sort of imagine it with a reshuffling of the pieces o=
+f the current system. What if regional banks kept=C2=A0<em>making loans</em=
+>, the thing they are good at, but instead of=C2=A0<em>taking deposits=C2=
+=A0</em>they went out and got funding=C2=A0from the long-term, locked-up, r=
+un-proof=C2=A0loan funds? What if you kept the credit-underwriting and cust=
+omer-service functions of regional banking, but got rid of the wildly risky=
+ funding model?</p>
+<p style=3D"margin: 16px 0;">Well I=E2=80=99m sure there would be all sorts=
+ of costs and disruptions =E2=80=94=C2=A0banks like the risky funding model=
+ because deposits are usually pretty=C2=A0<em>cheap=C2=A0</em>=E2=80=94=C2=
+=A0but <a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.26=
+1438/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTFiMzVkY2QtMzQ1ZS00ZjM4LTlkYmUtYz=
+Y5NzdhNzE3OWVm/607f07ceef4b8524a319a23cB6f79c582" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> here=E2=80=99s a=
+ gesture in that direction</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Blackstone is in discussions with large US reg=
+ional banks about providing them with extra firepower to lend to companies =
+amid signs the recent industry turmoil is morphing into a credit crunch.</p=
+>
+<p style=3D"margin: 16px 0;">Jon Gray, president of Blackstone, told the Fi=
+nancial Times his company was talking to regional banks about entering into=
+ partnerships, which would involve lenders making or =E2=80=9Coriginating=
+=E2=80=9D loans that the private equity group can funnel to its insurance c=
+ustomers.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is from Antoine Gara at the Financial Tim=
+es; it goes on:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Gray said regional banks were still best place=
+d to decide whether to lend to commercial and real estate clients, describi=
+ng them as having =E2=80=9Cpowerful origination capabilities and relationsh=
+ips=E2=80=9D.</p>
+<p style=3D"margin: 16px 0;">But he said groups such as his could be a =E2=
+=80=9Cvaluable partner=E2=80=9D by helping to offload some of the risk afte=
+r a loan has been securitised. =E2=80=9CRather than putting all [of the ris=
+k] on its balance sheet, maybe they keep 50 cents [on the dollar], and put =
+50 cents with us.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Blackstone plans to channel the securities to =
+asset-hungry insurers which would hold the debt to maturity. =E2=80=9CWhat=
+=E2=80=99s really changed from our standpoint is that we have a very low-co=
+st capital because of our insurance clients,=E2=80=9D Gray said.</p>
+<p style=3D"margin: 16px 0;">Blackstone does not have a controlling stake i=
+n any insurers but offers asset management services to large players such a=
+s AIG. These customers, Gray said, are a natural home for assets that might=
+ otherwise be held on banks=E2=80=99 balance sheets.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Insurance companies have long-term liabilities=
+ (life insurance, annuities, etc.) that they use to fund long-term assets. =
+They are natural long-term buyers of long-term loans. They do not necessari=
+ly have branches=C2=A0in lots of places to=C2=A0<em>make</em> those loans. =
+Regional banks, meanwhile, <em>do</em> have branches=C2=A0that are good at =
+making those loans, but they do not have particularly long-term funding to =
+own them for the long term. These days, as their deposits leave, some of th=
+em don=E2=80=99t have much funding at all. There are trades to be done.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTQ1MjIwOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE3MTM2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC2c63ede0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31452208&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31713646&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTQ1MjIwOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE3MTM2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD2c63ede0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31452208&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31713646&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">BlackRock Power &amp; Light</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In the olden days, simplistically, there were =
+two sorts of shareholders of public companies. There were=C2=A0<em>active <=
+/em>shareholders, owner-operators, stock promoters, robber barons, railroad=
+ tycoons, etc., who would buy 100% or 51% or 15% of some company and involv=
+e themselves in=C2=A0<em>running=C2=A0</em>it, going to board meetings and =
+making strategic decisions. And there were=C2=A0<em>passive=C2=A0</em>share=
+holders, regular investors, who would buy 100 shares of some company to get=
+ dividends.</p>
+<p style=3D"margin: 16px 0;">Over time, as the stock market grew, these arc=
+hetypal shareholders were increasingly pools of capital rather than individ=
+ual humans. (None of this history is particularly=C2=A0<em>real</em>, by th=
+e way; it is just schematic.) Active shareholders are now often private equ=
+ity firms, corporate raiders,=C2=A0activist hedge funds, etc., who=C2=A0buy=
+ 100% or 51% or 15% of some company and try to change its management. Passi=
+ve shareholders are often mutual funds or other asset managers, who pool ca=
+pital from regular investors and buy 0.1% or 1% or 9% of some company for i=
+nvestment purposes.</p>
+<p style=3D"margin: 16px 0;">There are, in US law, lots of=C2=A0<em>rules=
+=C2=A0</em>about corporate ownership, about who can own a company and who h=
+as to approve any change in ownership.=C2=A0Some of these rules apply to ev=
+ery company, or every public company: <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31452208.261438/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2k=
+vV2lsbGlhbXNfQWN0/607f07ceef4b8524a319a23cB4d4bade1" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Securities la=
+w</a> regulates how people can take over companies, what they have to discl=
+ose, how they have to treat other shareholders, etc.; <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuZnRjLmd=
+vdi9lbmZvcmNlbWVudC9wcmVtZXJnZXItbm90aWZpY2F0aW9uLXByb2dyYW0/607f07ceef4b85=
+24a319a23cBfbc7a01a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> antitrust law</a> regulates how people can a=
+cquire multiple companies in the same industry, to prevent anyone from gain=
+ing monopoly power. Others are industry-specific: Lots of industries have t=
+heir own regulators, who will want to vet the owners of the companies they =
+regulate, so if you want to acquire a <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cub2NjLnRyZWFzLmdvdi9uZXd=
+zLWlzc3VhbmNlcy9uZXdzLXJlbGVhc2VzLzIwMjMvbnItb2NjLTIwMjMtMTUuaHRtbA/607f07c=
+eef4b8524a319a23cBa6600f5a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> bank</a> or a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly9nYW1pbmcubnYuZ2=
+92L21vZHVsZXMvc2hvd2RvY3VtZW50LmFzcHg_ZG9jdW1lbnRpZD0zMTY1/607f07ceef4b8524=
+a319a23cB12eb61ba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> casino</a> or a <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDItMTUvZGVmZW5zZS1jb250cmFjdG9yLW0tYS10by1nZXQt=
+dG91Z2hlci1zY3J1dGlueS1mcm9tLXRoZS1wZW50YWdvbj9jbXBpZD1CQkQwNTExMjNfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMz=
+A1MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB52b055a0" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  defense contractor</a> or a <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuZmNjLmdvdi9yZXBvcnRzLXJlc=
+2VhcmNoL2d1aWRlcy9yZXZpZXctb2Ytc2lnbmlmaWNhbnQtdHJhbnNhY3Rpb25z/607f07ceef4=
+b8524a319a23cB9c04a92c" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> television network</a>, you will have to g=
+et the approval of the relevant industry regulator.</p>
+<p style=3D"margin: 16px 0;">Often =E2=80=94=C2=A0not always, but often =E2=
+=80=94=C2=A0these rules will make a distinction between active and passive =
+owners: Active owner-operators often need to get these approvals, while pas=
+sive investor-shareholders often do not, or can get them quickly and automa=
+tically. If you want to buy 51% of a publicly traded=C2=A0casino company an=
+d run it, that implicates securities law and antitrust law and casino regul=
+ation. If you want to buy 100 shares of a casino company in your 401(k), th=
+at does=C2=A0not. There is sometimes a size-based distinction=C2=A0=E2=80=
+=94=C2=A0acquiring more than $X or Y% of the shares triggers review =E2=80=
+=94=C2=A0but often there is also a subjective intent distinction, where eve=
+n if you acquire more than $X or Y%, as long as you are a passive investor,=
+ that=E2=80=99s fine.</p>
+<p style=3D"margin: 16px 0;">The problem is that, in modern markets, the pa=
+ssive investors have become more active.<a class=3D"footnote-index" href=3D=
+"#footnote-5" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[5]</span>
+</a>=C2=A0Modern asset managers feel some fiduciary duty to their investors=
+, not just to pick good stocks, but also to do =E2=80=9Cstewardship,=E2=80=
+=9D to supervise the managers of the companies whose stocks they own and te=
+ll them how to run their businesses better. (In fact many modern asset mana=
+gers don=E2=80=99t pick stocks at all; they just buy the stocks in the inde=
+x, which makes stewardship more important.)</p>
+<p style=3D"margin: 16px 0;">Not all of this is about environmental, social=
+ and governance issues, but a lot of it is, in part because ESG has recentl=
+y been a good marketing pitch for many asset managers and in part because, =
+if you=E2=80=99re a very diversified investor, you may not have any great i=
+deas for how any particular company can improve its margins, but good gover=
+nance and climate change affect=C2=A0<em>all=C2=A0</em>of your investments =
+so you=E2=80=99ll have some more developed views. But the point here isn=E2=
+=80=99t really about ESG; it=E2=80=99s about the fact that asset managers a=
+re fiduciaries for their investors, and =E2=80=9Cehh we just let companies =
+do what they want and don=E2=80=99t=C2=A0bother checking up on them=E2=80=
+=9D feels lazy and unprofessional. (Whereas, if you own 100 shares of some =
+company in your personal account, it would be sort of crazy for=C2=A0<em>yo=
+u=C2=A0</em>to try to check up on management.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">What does this mean for all the rules about ow=
+nership?=C2=A0I think it creates hard problems: The rules were written when=
+ the distinction between active owner-operators and passive investors was a=
+ bit sharper, and they don=E2=80=99t give very clear answers now. The <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM=
+6Ly9jb3JwZ292Lmxhdy5oYXJ2YXJkLmVkdS8yMDIwLzEwLzMwL3Byb3Bvc2VkLWhzci1ydWxlLW=
+NoYW5nZS13b3VsZC1iZW5lZml0LWFjdGl2aXN0cy8/607f07ceef4b8524a319a23cBc1c37d44=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">antitrust rules</a> distinguish passive owners who acquire stock =
+=E2=80=9Csolely for the purpose of investment=E2=80=9D from active owners w=
+ho try to =E2=80=9Cinfluence the business decisions=E2=80=9D of the company=
+, but surely an index fund with 5% of a company=E2=80=99s stock is=C2=A0<em=
+>mostly=C2=A0</em>the former but also a little bit the latter. <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3=
+cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xM2QtMQ/607f07ceef4b8524a319a2=
+3cBf49d56ee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">SEC rules</a> distinguish passive owners who buy stock=
+ =E2=80=9Cin the ordinary course of [their] business and not with the purpo=
+se nor with the effect of changing or influencing the control of the issuer=
+=E2=80=9D from active owners who try to =E2=80=9Cchange or influence the co=
+ntrol=E2=80=9D of the company; surely an index fund with 5% of a company=E2=
+=80=99s stock bought it =E2=80=9Cin the ordinary course of its business=E2=
+=80=9D and without planning to change the control of the company, but can i=
+ts stewardship team come in and talk about governance, or is that =E2=80=9C=
+influencing the control=E2=80=9D?</p>
+<p style=3D"margin: 16px 0;">So a certain amount of action in securities re=
+gulation has to do with policing this now somewhat blurry line between acti=
+ve and passive shareholders. (Ask=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9Q=
+kJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0=
+ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a3=
+19a23cB70e6e8b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  Elon Musk</a>!) A <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDctMTMvc29tZXRpbWVzLWl0LXMtaGFyZC1mb3Itb3d=
+uZXJzLXRvLXRhbGstdG8tY29tcGFuaWVzP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6935fdb0" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">signif=
+icant</a>=C2=A0amount of <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMTUtMDgtMjUvZGFuLWxvZWItcy1oZWRnZS1mdW5kLWZpbGVkLWEtZm9ybS1sYXRlP2N=
+tcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cBb29c43f3" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  action</a> in=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDQtMDQvc2hhcmVob2xkZXItYWN0aXZpc2=
+0tbWlnaHQtaGF2ZS1hbnRpdHJ1c3QtaXNzdWVzP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB073c303f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+antitrust enforcement</a>, and a <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMTUtMDQtMTYvc2hvdWxkLW11dHVhbC1mdW5kcy1iZS1pbGxlZ2FsLT9jbXB=
+pZD1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA1MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB0cdc8db5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  huge</a> amount of <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDctMjIvaW5kZXgtZnVuZHMtbWF5LXdvcmstY=
+S1saXR0bGUtdG9vLXdlbGw_Y21waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cBc1767470" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  action</a> in an=
+titrust <em>scholarship</em>, has to do with this shifting line: Historical=
+ly it would have been somewhat insane to say =E2=80=9Can index fund is an a=
+ntitrust problem because it owns stocks of lots of competing companies,=E2=
+=80=9D but as asset managers have become more interested in stewardship, th=
+at has become a far more popular thing to say, <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMDcvcmVndWxhdG9ycy1hc2staWYtaW5kZXgtZ=
+nVuZHMtYXJlLWJhZD9jbXBpZD1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB953dfbd8" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  even among antitrust =
+regulators</a>.</p>
+<p style=3D"margin: 16px 0;">You see less of this action in industry-specif=
+ic regulatory regimes, but I guess that could=C2=A0change. In particular, i=
+f you don=E2=80=99t=C2=A0<em>like=C2=A0</em>asset-manager stewardship, thes=
+e industry regulatory regimes might be a promising way to check the power o=
+f asset managers, or at least to annoy them. And =E2=80=9Cif you don=E2=80=
+=99t like asset-manager stewardship=E2=80=9D means mostly =E2=80=9Cif you d=
+on=E2=80=99t like ESG.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnot=
+e-6" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0So <a href=3D"https://link.mail.bloombergbusiness.com/click/31452=
+208.261438/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vZXNnL3JlcHVibGljYW4tYWdz=
+LXNlZWstdG8tYmFyLWJsYWNrcm9jay1mcm9tLXV0aWxpdHktc3Rha2VzLTE/607f07ceef4b852=
+4a319a23cB563c253d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A group of Republican state attorneys general =
+want regulators to block BlackRock Inc. from putting pressure on power util=
+ities to cut their use of fossil fuels.</p>
+<p style=3D"margin: 16px 0;">The motion, filed with the Federal Energy Regu=
+latory Commission by 17 attorneys general from states including Indiana and=
+ Texas, questions whether the world=E2=80=99s largest asset manager should =
+be allowed to buy stakes worth more than $10 million in utilities.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMaybe BlackRock was a passive investo=
+r 10 years ago, but today it=E2=80=99s an environmental activist,=E2=80=9D =
+according to the motion, which was earlier reported by Fox Business.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/31452208.261438/aHR0cHM6Ly9jb250ZW50LmdvdmRlbGl2ZXJ5LmNv=
+bS9hdHRhY2htZW50cy9JTkFHLzIwMjMvMDUvMTAvZmlsZV9hdHRhY2htZW50cy8yNDkzNjAwL1N=
+0YXRlJTIwQUclMjBGRVJDJTIwTW90aW9uJTIwQmxhY2tSb2NrJTIwRklOQUwucGRm/607f07cee=
+f4b8524a319a23cB56655110" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> the motion</a>, which I think is pretty =
+thin stuff, but never mind that. The point is that the FERC regulates publi=
+c utilities, and the utility business is one of those sensitive industries =
+where the regulator gets some veto power over owners. =E2=80=9CAny public=
+=C2=A0utility holding company seeking to acquire more than $10 million in v=
+oting securities in another utility must secure an order from the Commissio=
+n authorizing it to do so,=E2=80=9D says the motion, and BlackRock, as the =
+owner of shares in lots of utilities, could in some loose sense be called a=
+ utility holding company. Because that doesn=E2=80=99t really make much sen=
+se, the FERC gives it a renewable three-year=C2=A0=E2=80=9Cblanket authoriz=
+ation=E2=80=9D to buy utility shares. But=C2=A0=E2=80=9Conly if the Commiss=
+ion finds the transaction is consistent with the public interest in light o=
+f competition, rates, and regulation will it then approve an application fo=
+r blanket authorization.=E2=80=9D And the state attorneys general suggest: =
+What if it isn=E2=80=99t?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Incidentally, utilities do not really compete =
+with each other much; that=E2=80=99s sort of the point of a utility, and of=
+ utility regulation. If BlackRock buys shares in an electric utility in Ind=
+iana and in another one in Texas, it will not influence=C2=A0them to compet=
+e against each other less fiercely, because electric utilities tend to be l=
+ocal monopolies and=C2=A0<em>can=E2=80=99t=C2=A0</em>compete against each o=
+ther. The concern here is not traditional antitrust stuff, but rather that =
+BlackRock will push utilities to use less fossil fuel, which will have the =
+effect of raising costs and thus rates. Historically, it has never occurred=
+ to anyone that a giant asset manager owning a bunch of shares of a bunch o=
+f utilities would be bad for utility rates, but now it has, so there you go=
+.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Short-selling ban?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Should the US government ban short sales of ba=
+nk stocks? No, is I think the answer, but I want to acknowledge that there =
+is a=C2=A0<em>better=C2=A0</em>case for that than for most short-sale bans.=
+ We <a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.26143=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDUvY=
+mFuay1zdG9ja3MtbG9vay13b3JzZS10aGFuLWJhbmtzLWRvP2NtcGlkPUJCRDA1MTEyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDUxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa57fb878" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  talked about it last week</a>; briefly, the argument is that ordi=
+narily a business will not fail if its stock price goes down, but a bank is=
+ a confidence-driven business, so driving down its stock price can cause it=
+ to fail and leave taxpayers with the bill.=C2=A0And in fact the US governm=
+ent has, in recent memory, banned short sales of bank stocks, for more or l=
+ess that reason: The US Securities and Exchange Commission <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuc2=
+VjLmdvdi9uZXdzL3ByZXNzLzIwMDgvMjAwOC0yMTEuaHRt/607f07ceef4b8524a319a23cB757=
+ff89c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> banned short selling</a> of financial stocks for <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93=
+d3cuc2VjLmdvdi9jb21tZW50cy9zNy0wOC0wOS9zNzA4MDktMzc3OS5wZGY/607f07ceef4b852=
+4a319a23cB36b95ee7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> about three weeks</a>=C2=A0during the financ=
+ial crisis of 2008.</p>
+<p style=3D"margin: 16px 0;">My sense is that most people are not especiall=
+y=C2=A0proud of that history, or eager to repeat it, but it did happen. And=
+ there are=C2=A0<em>some=C2=A0</em>calls to repeat it.=C2=A0Bloomberg=E2=80=
+=99s Carmen Reinicke reports that =E2=80=9C<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTAvbmV3LWNhbGxzLWZvci1zaG9ydC1zZWxsaW5nLWJhb=
+i1oYXMtcHVuZGl0cy1kZWZlbmRpbmctdGhlLXRhY3RpYz9jbXBpZD1CQkQwNTExMjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+1MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBef75ffea" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">New Calls for Short-Selling Ban Has Experts Defending the Tactic</a>=
+=E2=80=9D; most experts think short-sale bans are silly and there does not =
+seem to be too much momentum in government for another=C2=A0one.<a class=3D=
+"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">But one thing about doing a short-sale ban in =
+the=C2=A02008 financial crisis is that, in the 2023 financial crisis, short=
+ sellers remember, and it makes them a bit nervous. Bloomberg=E2=80=99s <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTAvc2hvcnQtc2Vs=
+bGVyLW1hcmMtY29ob2Rlcy1tdWxscy13YWdlcnMtYWdhaW5zdC11cy1yZWdpb25hbC1iYW5rcz9=
+jbXBpZD1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzA1MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cB3a0db5c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  Laura Benitez reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The risk of a short-selling ban by the US gove=
+rnment is giving veteran bear Marc Cohodes pause for thought before betting=
+ against the country=E2=80=99s regional banks, even though he says the outl=
+ook for the industry remains gloomy.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The former hedge fund boss, who now manages hi=
+s own money while raising chickens on a farm in California, said deposits w=
+ill continue to be pulled from US regional banks because of where Treasurie=
+s are trading in relation to regional banks=E2=80=99 deposit and CD rates. =
+...</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe government needs to fix the probl=
+em instead of putting a band-aid over the gangrene that they created,=E2=80=
+=9D Cohodes said. =E2=80=9CTrying or talking about putting a short-selling =
+ban in place is sheer insanity and will make the problem worse.=E2=80=9D=C2=
+=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Banning short sales might have the advantage=
+=C2=A0of propping up bank stocks,<a class=3D"footnote-index" href=3D"#footn=
+ote-8" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[8]</span>
+</a> but it has the disadvantage of looking ad hoc and lawless and panicky.=
+=C2=A0<em>Not=C2=A0</em>banning short sales, but=C2=A0<em>having banned the=
+m for three weeks 15 years ago</em> and occasionally talking about a ban no=
+w, has the advantage of deterring short sellers with the vague threat that =
+it might happen again, but without looking like panic.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Is the writers=E2=80=99 strike securities fraud?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you run a business, you will always feel pr=
+essure to tell some people that it=E2=80=99s going well and other people th=
+at it=E2=80=99s going poorly. You will always want to tell=C2=A0<em>investo=
+rs=C2=A0</em>that the business is going well, because then they will reward=
+ you by giving you more capital. You will generally want to tell the=C2=A0<=
+em>tax collectors=C2=A0</em>that the business is going poorly, because then=
+ they will collect less money in taxes. (Thus, tax accounting and financial=
+ accounting are sometimes different, and people sometimes=C2=A0get mad abou=
+t it.) Other categories are more ambiguous: You might want to tell supplier=
+s that business is going well (so they are comfortable increasing the relat=
+ionship and selling you more stuff on credit), or that it is going poorly (=
+so that they feel sorry for you and give you a discount). You might want to=
+ tell employees that business is going well (so they don=E2=80=99t quit for=
+ a more stable job), or that it is going poorly (so they don=E2=80=99t dema=
+nd a raise).</p>
+<p style=3D"margin: 16px 0;">Ideally you would not <em>lie</em> to any of t=
+hem, but there is a range of ways to characterize your business, and to mak=
+e conditional predictions about an uncertain future. And everything is on t=
+he internet these days, so it is often possible for one audience to find wh=
+at you are telling another audience and say =E2=80=9Chey, you are telling u=
+s two different things.=E2=80=9D And if you are a public company and one of=
+ the audiences is your shareholders, someone =E2=80=94=C2=A0not necessarily=
+ the shareholders! =E2=80=94=C2=A0might say =E2=80=9Chey, is this securitie=
+s fraud?=E2=80=9D Because <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2=
+UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUx=
+MSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB25d7d4b4" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  everything is securities fraud</a>.</p>
+<p style=3D"margin: 16px 0;">A few years ago, the US Department of Labor pr=
+oposed some new rules for investment advisers, and some companies that woul=
+d be subject to the rules wrote comment letters to the DOL about how bad th=
+e rules would be for their business, because =E2=80=9Cthis is a catastrophe=
+ for investment advice=E2=80=9D is a good argument against the rules. But t=
+hey also did investor calls where they told investors that the rules would =
+be fine for their business, because =E2=80=9Cthis is a catastrophe for inve=
+stment advice=E2=80=9D is a bad thing to tell your shareholders. And then S=
+enator Elizabeth Warren =E2=80=94=C2=A0who supported the rule and didn=E2=
+=80=99t like the investment industry =E2=80=94=C2=A0just wrote down all the=
+ things they told the DOL, and all the things they told their investors, an=
+d put them in a letter to the US Securities and Exchange Commission asking =
+=E2=80=9Chey is this securities fraud or what?=E2=80=9D <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cud2Fyc=
+mVuLnNlbmF0ZS5nb3YvZmlsZXMvZG9jdW1lbnRzLzIwMTYtMy0zMV9TZW5XYXJyZW5fTHRyX3Rv=
+X1NFQy5wZGY/607f07ceef4b8524a319a23cB81eb8b3d" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> She wrote</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Both sets of industry claims - tha=
+t the proposed rule will harm them and their business model, and that the p=
+roposed rule will not harm them and their business model - cannot possibly =
+be true. And if one these public statements is materially false, it would a=
+ppear to violate long-standing interpretations of our securities laws.</p><=
+/blockquote>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMTYtMDMtMzEvc2VuYXRvci1kb2Vzbi10LWxpa2UtY29tcGFuaWVzLWx5aW5n=
+LXRvLWdvdmVybm1lbnQ_Y21waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cB2e97f319" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  talked about it at =
+the time</a>. It was a very fun rhetorical move.<a class=3D"footnote-index"=
+ href=3D"#footnote-9" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[9]</span>
+</a>=C2=A0<em>Was=C2=A0</em>it fraud? I wrote:</p>
+<blockquote><p style=3D"margin: 16px 0;">I mean, the comments to the regula=
+tors and the comments to the shareholders are both contingent predictions a=
+bout the unknowable future, so you can't really hold anyone responsible if =
+they turn out to be wrong. And nobody actually makes different unconditiona=
+l quantified falsifiable predictions to the two different audiences -- no o=
+ne says to the regulators "this rule will definitely cost us $100 million a=
+ year no matter what we do in response," while also telling the shareholder=
+s "this rule won't affect our bottom line at all no matter what." They make=
+ vague, conditional predictions; they stress the problems to the regulators=
+ and the solutions to the shareholders.</p></blockquote>
+<p style=3D"margin: 16px 0;">Still, awkward.=C2=A0Anyway here is a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6L=
+y93d3cud3NqLmNvbS9wb2RjYXN0cy90aGUtam91cm5hbC9vbmUtaG9sbHl3b29kLXdyaXRlci1v=
+bi10aGUtaW5kdXN0cnlzLWRpcmUtc2l0dWF0aW9uLzVlMWYxMDgyLTU4N2MtNDY5MS1iMTZjLTc=
+3ZDVhMWE3NzRhNQ/607f07ceef4b8524a319a23cBeeb9e9f6" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Wall Street Jou=
+rnal podcast</a> with television writer Michael Schur about the Hollywood w=
+riters=E2=80=99 strike<a class=3D"footnote-index" href=3D"#footnote-10" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[10]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Ryan Knutson:</strong> A lot of studio=
+s say this is a bad time to be making major changes to writers pay. Most st=
+reaming services are losing money, and many studios are under pressure from=
+ Wall Street to cut costs. Warner Brothers, Discovery, and Paramount have a=
+ll canceled projects lately, and companies like Disney have been laying peo=
+ple off. How do you respond to that?</p>
+<p style=3D"margin: 16px 0;"><strong>Michael Schur:</strong> It's very funn=
+y, they say one thing on their investor calls and then a very different thi=
+ng to us when we're in the negotiating room. On their investor calls, it's =
+all rosy. We're going to make so much money. We're going to be profitable v=
+ery soon. We're going to make X billions of dollars over the next Y years. =
+And then when they get in a room with us, they're like, "Guys, you've picke=
+d a really bad time to ask for a raise." We are like, we read the notes of =
+your call. We know how much money you're projecting.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes right when you are negotiating a union con=
+tract you turn your pockets inside out and say =E2=80=9Cwe=E2=80=99re broke=
+, you gotta take a pay cut,=E2=80=9D and then when you have an investor day=
+ you pull sacks of gold out of your pockets and say =E2=80=9Cwe=E2=80=99re =
+so rich it=E2=80=99s great.=E2=80=9D It=E2=80=99s just that the union can h=
+ear you, and the shareholders are litigious.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Plugging oil wells</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDUtMDgvb2lsLWNvbXBhbmllcy1naXZlLWJhY2stdGhlLWNhc2g_Y21wa=
+WQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cCede39982" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> mentioned this</a> in a footnote the other d=
+ay, but perhaps it deserves more attention. We were talking about oil compa=
+nies doing stock buybacks. My main point was that if you are an oil-company=
+ executive, and you think that the=C2=A0<em>very long-term=C2=A0</em>future=
+ of oil is bad (people will stop using it for environmental reasons, etc.),=
+ but you have a lot of cash flow from oil now (people use a lot of oil now)=
+, then you might consider returning that cash flow to shareholders, in the =
+form of stock buybacks and dividends, rather than investing it in your busi=
+ness for the long term. Because, by hypothesis, your business does not have=
+ a long term.</p>
+<p style=3D"margin: 16px 0;">There are counterarguments, with the main one =
+being something like =E2=80=9Cpeople will always use <em>energy</em>, even =
+if they don=E2=80=99t always use <em>oil</em>, and=C2=A0as an oil company, =
+you are best positioned to=C2=A0<em>develop=C2=A0</em>the energy sources of=
+ the future, so you should invest your current oil cash flows in long-term =
+green energy projects.=E2=80=9D I think that is a reasonable argument, and =
+I certainly don=E2=80=99t presume to know which choice oil-company chief ex=
+ecutive officers should make. I just wanted to point out that both choices =
+make a certain sense, and that if you (1) don=E2=80=99t like stock buybacks=
+ but (2) do like environmental investing, you might find oil-company buybac=
+ks a little bit more sympathetic.</p>
+<p style=3D"margin: 16px 0;">But <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMDUtMDgvb2lsLWNvbXBhbmllcy1naXZlLWJhY2stdGhlLWNhc2g_Y21=
+waWQ9QkJEMDUxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjMwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmI2Zvb3Rub3RlL=
+TM/607f07ceef4b8524a319a23cBac45e0bf" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> in a footnote</a> I added on=
+e particular reason to prefer stock buybacks over long-term investment:</p>
+<blockquote><p style=3D"margin: 16px 0;">In my schematic description, the v=
+alue of oil drilling declines to zero in Year X. Lower numbers are possible=
+! You could imagine a future where, in X years, (1) nobody uses oil and (2)=
+ everybody is going around suing oil companies for the costs of repairing e=
+nvironmental damage. In that scenario, being capital-light is a benefit: If=
+ you've given the money back to the shareholders, they get to keep it, whil=
+e if you've held onto it, it can go to pay liabilities. The=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy9kaXZlcnNpZmllZC1lbmVyZ3ktbmF0dXJhbC1nYXM=
+td2VsbHMtbWV0aGFuZS1sZWFrcy0yMDIxLz9jbXBpZD1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTEmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB90911c04" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">US coal industry</a>=C2=A0has already very much disc=
+overed this point.</p></blockquote>
+<p style=3D"margin: 16px 0;">That is: When you=E2=80=99re done with an oil =
+well, you have to clean it up so it doesn=E2=80=99t just leak pollution for=
+ever. That is the responsibility of the company that drilled the well, and =
+there are various rules and bonding mechanisms to try to make sure that an =
+oil company that drilled a well sticks around to pay for cleaning it up. Th=
+ose rules are imperfect. Generally speaking, if you=E2=80=99re a half-trill=
+ion-dollar global energy company, and you=E2=80=99ve got some wells that yo=
+u=E2=80=99re done with, the government is going to make you clean them up. =
+If you=E2=80=99re a rotten husk of a former energy company with $26 in the =
+bank, though, there=E2=80=99s only so much the government can do. (It can t=
+ake your $26.) If you are an oil company now, and things are good, and you =
+return a dollar to shareholders, the shareholders keep the dollar. (It is p=
+retty hard for the government to claw back money distributed to public shar=
+eholders.) If you keep that dollar to invest, the government might end up t=
+aking it to pay for cleaning up your wells. That dollar might be worth a lo=
+t more in shareholders=E2=80=99 hands than in yours.</p>
+<p style=3D"margin: 16px 0;">I mean, if you are a shareholder-value-maximiz=
+ing oil-company CEO, this is a reasonable calculation. If you are someone w=
+ho doesn=E2=80=99t like stock buybacks but likes environmental investing, y=
+ou will=C2=A0<em>not=C2=A0</em>like this; this is, schematically, a way for=
+ oil companies to get away with pollution without paying for it.</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cubnl0aW1lcy=
+5jb20vMjAyMy8wNS8wOC9jbGltYXRlL2d1bGYtb2YtbWV4aWNvLW9pbC13ZWxscy1wbHVnLmh0b=
+Ww_dW5sb2NrZWRfYXJ0aWNsZV9jb2RlPXp5NElCN0J5azNSLXVGRnhQVjY1aE10VDUzb1YxSGlj=
+dWhpdHRDQ0lvYVdTQUZBT1ZlM0prRkR5ZVN3OVEzOFVxNlg2V3ZPektyQTVKOWRWcHRhWk9PT3J=
+NbHpsTW9PWDRKbHk3Mm9RNjJMQmhGVXhwdWRDdTJrMXl3ZXdaSWQ1ODhIdUtXWmJaTzBoYkxac2=
+ZlWmI4QnJRVVE1SDh1TXNPQm5CUkJWMWpyMUF0ZzdYLXdtTVl1NTVFZWpUWnE4SUdEbEJnWGVzU=
+jBrNW4yRGdrWVBTb2VzdjJhLW50cGNaRF82ZGk4S0ZEeHVGSGZTal9jWlptdTdtOWx1STlfM1F6=
+YUFfUVlEcXgxMFlQSnVPOW5UanBiRm9IUnZXWm00dXJWOHU5bm52NXZsd0l3dHZTa0M5V1N3RmV=
+nOTJSVi1DRlZYa3lkWVBRVjlVcWg4QmMyZ3RSTWpFekY1YU1HOCZzbWlkPXVybC1zaGFyZQ/607=
+f07ceef4b8524a319a23cB3d4b8f18" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> a New York Times story</a> about p=
+lugging offshore oil wells:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Ever since the first offshore platforms went u=
+p off Louisiana 85 years ago, the Gulf of Mexico has been an oil and gas ju=
+ggernaut. But decades of drilling has left behind more than 14,000 old, unp=
+lugged wells at risk of springing dangerous leaks and spills that may cost =
+more than $30 billion to plug, a new study has found. Nonproducing wells th=
+at haven=E2=80=99t been plugged now outnumber active wells in the gulf, the=
+ study says.</p>
+<p style=3D"margin: 16px 0;">The researchers also found that, in federal wa=
+ters, nearly 90 percent of the old wells were owned at some point in the pa=
+st by giant oil companies known as the =E2=80=9Csupermajors,=E2=80=9D inclu=
+ding BP, Shell, Chevron and Exxon. Under federal law, that means those comp=
+anies would still be responsible for cleanup costs, even though they might =
+have sold the wells in the past, the study=E2=80=99s authors said.</p>
+<p style=3D"margin: 16px 0;">Oil and gas companies are responsible under fe=
+deral and state rules for securely plugging wells that are no longer in ser=
+vice. In the boom-and-bust world of oil and gas drilling, though, operators=
+ frequently go bankrupt, leaving wells orphaned and unplugged, and taxpayer=
+s on the hook. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Still, in federal waters, the government can h=
+old prior owners of wells liable for plugging them, even if the current own=
+ers go under or otherwise don=E2=80=99t fulfill their cleanup obligations. =
+Eighty-seven percent of wells under federal jurisdiction were once owned by=
+ one of the supermajors, many of which have recently booked record profits.=
+</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CSo for federal waters, these companie=
+s with deep pockets would be on the hook,=E2=80=9D Dr. Agerton said. =E2=80=
+=9CThere=E2=80=99s someone to go after.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But maybe not forever?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Wall Street Loads Up on <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTEvd2FsbC1zdHJlZXQtdGFrZXMtdXAtaGV=
+kZ2VzLWFnYWluc3QtZGVidC1jZWlsaW5nLWRvb21zZGF5P2NtcGlkPUJCRDA1MTEyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DUxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8a1fed7f" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  Doom Hedges</a> as Countdown to X-Day Begins. SoftBank <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvMWRkNDcwYzItYmU4MC00ODg3LTgzY2MtODdiZTkzMTAwYTEy/607f=
+07ceef4b8524a319a23cBc6aac41b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Vision funds</a> post record $39bn =
+annual loss.=C2=A0Bond Selloff Adds to the Pressure on <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9ib25kLXNlbGxvZmYtYWRkcy10by10aGUtcHJlc3N1cmUtb24tcmVnaW9uY=
+WwtYmFua3MtODc1Mjg2N2Y_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a23cBc1e3=
+e9e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Regional Banks</a>. Short Seller <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTEvc2hvcnQtc2VsbGVyLWhpbmRlbmJ1cmctaGl0=
+cy1vdXQtYWdhaW4tYXQtaWNhaG4tb24tZGlzY2xvc3VyZXM_Y21waWQ9QkJEMDUxMTIzX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+MwNTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBba79f74a" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  Hindenburg Hits Out Again at Carl Icahn</a>, Adds Bet Against Bond=
+s. <a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438=
+/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOTM4YjFlYWUtZmM5NS00NTM0LWIwNDItZWEyOD=
+UxYTZjMmRh/607f07ceef4b8524a319a23cB465cc0a2" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Gautam Adani</a> ret=
+reats after short-seller attack. The SEC extracted some <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy05MQ/607f07ceef4b8524a319a23cBf645ea58=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> cell-phone fines</a> from HSBC and Scotia Capital. Shortage of <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR=
+0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWUyYTNkMGQtNTdjZi00ZTlhLWE4ZWEtZDM4NzdlMT=
+I0MDM3/607f07ceef4b8524a319a23cB64c78a67" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> young accountants</a> l=
+eads BDO USA to double offshore workforce. Finance Professionals See <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTAvZmluYW5jZS1wcm9=
+mZXNzaW9uYWxzLXNlZS1iaWdnZXN0LXBheS1yaXNlLWluLTEwLXllYXJzLXN1cnZleT9jbXBpZD=
+1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzA1MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB4a84bfff" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  Biggest Pay Rise</a> in 10 Years, Survey Finds=
+.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.26=
+1438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTEvbW=
+FuLWdyb3VwLWNlby1sdWtlLWVsbGlzLXRvLXJldGlyZS1yb2J5bi1ncmV3LXRvLXJlcGxhY2Uta=
+GltP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB3a6dc340" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Man Group</a> Appoints its First Fem=
+ale CEO in 240 Years. Manhattanites bring their <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvOTdlMzFjYmQtNjBkYS00ODAxLWFjMDEtODVlM2Q4NzA4YWE3/607f07ceef4b8524a31=
+9a23cBfc167e47" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> private school blood sport</a> to Miami.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31452208.261438/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB288be74f" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31452208.261438/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB137f975d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Also, because everyone knows this, the too=
+-big-to-fail banks are probably more careful, and are supervised more caref=
+ully, than smaller banks. They don=E2=80=99t just casually blunder into tak=
+ing too much duration risk or having too little liquidity, because a lot of=
+ people are watching.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Empirically, regional banks *have* been ge=
+tting a lot of government support (in the form of the <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS=
+1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwNTExMjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTEmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBefa43541" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Ba=
+nk Term Funding Program</a> and Federal Deposit Insurance Corp. <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTQvc3ZiLXRvb2stdGhl=
+LXdyb25nLXJpc2tzP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cB151c50b4" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  bailouts for uninsure=
+d depositors</a> of failed banks), but depositors still seem to worry way m=
+ore about them than about the too-big-to-fails.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Modest Proposal <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly90d2l0dGVyLmNvbS9t=
+b2Rlc3Rwcm9wb3NhbDEvc3RhdHVzLzE2MzUyNTk3ODI4MDU0NTg5NDQ/607f07ceef4b8524a31=
+9a23cB7125080d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> on Twitter</a>: =E2=80=9CThere are two main ways t=
+o increase concentration in the banking sector: 1. Let big banks acquire tr=
+oubled banks. 2. Don=E2=80=99t let big banks acquire troubled banks.=E2=80=
+=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Your local bank might pay you more interes=
+t, which is a reason for *you* to keep your money there, but not an advanta=
+ge for the bank. For the bank, that just means its cost of funds is higher =
+than JPMorgan=E2=80=99s.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Sometimes the active investors become more=
+ passive too; there are some activist hedge fund managers who have mellowed=
+ into =E2=80=9Cwell we are value investors who go activist only when we hav=
+e to,=E2=80=9D and sometimes they get in trouble when they think they are p=
+assive but regulators think they are active.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Not entirely. The =E2=80=9Cindex funds are=
+ an antitrust problem=E2=80=9D people are not necessarily anti-ESG; their w=
+orry is that asset-manager stewardship is bad for consumers and workers, an=
+d they can be quite lefty. But, realistically, in 2023, it=E2=80=99s mostly=
+ anti-ESG.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] My old law firm, Wachtell, Lipton, Rosen &=
+amp; Katz, <a href=3D"https://link.mail.bloombergbusiness.com/click/3145220=
+8.261438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMD=
+Uvc2hvcnQtc2VsbGVycy1vZi11cy1iYW5rcy1yaXNrLWJpZy1zcXVlZXplLWFzLXBhY3dlc3Qtc=
+3RydWdnbGVzP2NtcGlkPUJCRDA1MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB5aad9b5c" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  has called for</a> a tempo=
+rary ban on bank short sales, but they would wouldn=E2=80=99t they.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] I think part of the case against short-sal=
+e bans is that this isn=E2=80=99t really true, and that a short-sale ban ca=
+n *depress* bank stocks by creating an overhang that makes them uninvestabl=
+e. If there=E2=80=99s a 14-day ban on shorting bank stocks, you might assum=
+e =E2=80=9Cwell on day 15 everyone=E2=80=99s gonna short these bank stocks,=
+ so why would I buy them now?=E2=80=9D And so you wait, and nobody buys the=
+m and they go down. </p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] I did not *love* it as a way to deter poli=
+tical advocacy, but that is not relevant to our current story.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Dave Guarino on Twitter <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31452208.261438/aHR0cHM6Ly90d2l0dGV=
+yLmNvbS9hbGxhZmFyY2Uvc3RhdHVzLzE2NTYwMjg2OTIxMzk4ODg2NDA/607f07ceef4b8524a3=
+19a23cB8624b971" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> pointed me to this exchange</a>, and asked me to,=
+ you know, make fun of it for being securities fraud.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2d102568" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB06c0f49a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB77527a6a" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf53411e1" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB9dc6b06d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.2614=
+38/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB6bbdd7fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31452208.261438/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa3a134b7" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31452208.261438/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB6294f4c9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31452208.261438/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB3348fa4b" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+9c4ecc3" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31452208.261438/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+b56ab6f" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciq4og.5lq6/911b5150.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9152185_992262821.1683829316251--
+

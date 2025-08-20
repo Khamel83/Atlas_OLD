@@ -1,0 +1,1894 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c696:b0:130:da8c:7dd9 with SMTP id fe22csp34306rwb;
+        Wed, 9 Aug 2023 11:08:59 -0700 (PDT)
+X-Received: by 2002:adf:fa90:0:b0:317:6992:855c with SMTP id h16-20020adffa90000000b003176992855cmr107634wrr.19.1691604539199;
+        Wed, 09 Aug 2023 11:08:59 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1691604539; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Cuer+FMs7yz1GGE3794WFG9S73EnYgpcYlJA9fCIYvrWSrMYgduJ8GcX/+65BfDkpF
+         sqAVBiclpgamkcXFszKc+EoepSDLtior649v43TYymNeHCLOEhJnC/BJQGUbj8CbsEHe
+         gQLCqMpUd+f/jAD6erRMIbjahoOFVsZ0xYYtCpnPkX7vKL3OXU2rKqH8ecltmbYC81Qu
+         aLzERE58WuezuqFGiCbe7FmZDB9ViMurAqUSsURovy/ODKbHyX5rbpT9xCoQKIfMyhIp
+         QXUFeyhjWi2Ue4UPkeq1JX7F2NGpgKU9Qjcbq1ySZCzopaq/FIm/ATA07p8HGkdPruFG
+         y5nQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=2baXle1q7KKKyMws+3bSaAwo2oBLQtNfrznD9CSpu3Q=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=YPtzz5tTcP/SwdxL8Npko4ycn036a1dazco7ixqYEP8vWL01qH5KSpx7v2eYoaN0fs
+         0MRa8g9XezS7XpAYyWy4LB+PDxQFXfNu3SHyB6W4MFit7bh1K17MLgFy6pmuz7nU7h7X
+         mvHTCYDFHpIcIzmPU+gobb/SuZiAcfbu8ereSY+ee/XyjErRIAq6HxWtFBHAqad03fqA
+         4qYyIce/2vv4XFxVchr2uKVpo0X/ESIdXaLqUCh7xeienmqdOEDaCXpMK8i5HTuvOS/Y
+         qzGt3iaXDe7tHXRwmyVDZl3aLTk7irFvg0BmmBaxb+xipL+Kw630PPGBfM9uFdfyg2zA
+         rjXw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WNgzdq3F;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r19-20020adfb1d3000000b00317dcecabb9sor3441084wra.0.2023.08.09.11.08.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Aug 2023 11:08:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WNgzdq3F;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1691604539; x=1692209339;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=2baXle1q7KKKyMws+3bSaAwo2oBLQtNfrznD9CSpu3Q=;
+        b=egW6tOR7t/gN1G09cXSgAMtllwxrK7kEJQueclz4IkvSgQX6Nh3HCtBOevOIVZPh8Y
+         QZYKbRbXFAcVStISiJYtMDiEM0vuiKBWSRibw+GmyaT+BGLE0h+/7Nr3JW8j0g3FKQV6
+         PpJ0eJl3AbDjEBLNeubMeNqyZwzT3JGAFORjpI7VnvpxDT2lYoDit91zCqlYQUW52ra/
+         XNFp1o8slP3FQrwKor8uMZ+yCHaZmEQTDiZ9A8r4RFTlg7T9xC3xSDd/RydU/VNmRC5S
+         6oagIWzgtrkLQUNl1AneGfbvZA4OMVtNEzhK2W4lxq+I5llr+plWf4iQPtUwZJdpMWNe
+         yVDg==
+X-Gm-Message-State: AOJu0Yy5Lv4gah4EeXv2Ah5gMatlmVBD1gOPJuC5R10S5M2VKsz4s04p
+	fkDpOXGWPMn+jbZHNiLD9X/fqLQInzmT/u85xUm992+tu/iA1RKruQ==
+X-Received: by 2002:a5d:4711:0:b0:317:5686:e4b9 with SMTP id y17-20020a5d4711000000b003175686e4b9mr99565wrq.56.1691604538641;
+        Wed, 09 Aug 2023 11:08:58 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f251:0:b0:317:6ac3:4e22 with SMTP id b17csp412743wrp;
+        Wed, 9 Aug 2023 11:08:54 -0700 (PDT)
+X-Received: by 2002:a05:6870:9a19:b0:1ad:4a74:9d63 with SMTP id fo25-20020a0568709a1900b001ad4a749d63mr4320167oab.53.1691604534117;
+        Wed, 09 Aug 2023 11:08:54 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1691604534; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QYt8BMqAz1RBTByDSE5iO/qWRNtaQ9wcK7joVsU4m1kk/sypr2l92AfQhm15rRgxIi
+         JgNdiN71tY+ZQKpvymvm7M2fVRCF9A4Wtyaa9IWDDjSqNoS8QZsODrTQkzh3X6ZTPySJ
+         1wASaQgvlXajBxdxLnbmCHv556bd6rN5w3/2WG2JhvhjrT58U7J3oc0qBTWvJcdTlG8K
+         LRxkjhwm4B6ijDkng6iZrJvqpfCc+QYlV1+11u3RL5jzO++taZ1aDmOzsc4op2gH3GoR
+         /nJjB9mCslHjrWwpB3W62/fP+m8P4uIM30hY9F2FBqF3xFWAk0ILnTLMW3hhLdIwqgwC
+         KH5Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2baXle1q7KKKyMws+3bSaAwo2oBLQtNfrznD9CSpu3Q=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=RLMoLnwVu7Yd8hlpzjFdB1rERIu2s8i0kkhpMST6reaqxTdhspSXqgrjSED3e0Vh5/
+         5SAuRUA0hukWXY+eKwhFMp7nYjZBiC6OpAS6XsqeUSM9VDagsckN4VOMwaH+CSp3b8JO
+         ODM5b0dUANviYCaPd43OmofZAxLvV+RoRP0xLfjzwVsKPCMlaDOgAAT/b9sCt9Ykqkf+
+         NxHv7hsUfI4mgpuXEUHLXj5140LG9WvuOCaex5zWYtkHaZpQsKng57i78YLLlR/qxqcT
+         bDDBJdXE87xof5V0MMV2dQb+JZoPwVtv0MtOT30PttE6QHrWxlpt3Vtd7beXsi5+Xi6c
+         KyLg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WNgzdq3F;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230809140852.32347622.263413@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230809140852.32347622.263413@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230809140852.32347622.263413@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id du27-20020a0568703a1b00b001bef2813c49sor10434401oab.2.2023.08.09.11.08.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Aug 2023 11:08:54 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230809140852.32347622.263413@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGMzoIJB1l0QTdAzw4mrBlPM2a06jEIt3oc0dJQRrAN0nZvMeRnJLZ9x9ESD8j2rH1ygzjpSkgNhu41FLc5b2Q13J8G4yg=
+X-Received: by 2002:a05:6870:c0ce:b0:1b3:ef56:270a with SMTP id e14-20020a056870c0ce00b001b3ef56270amr4086961oad.29.1691604533727;
+        Wed, 09 Aug 2023 11:08:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1691604533; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Y7Qem7DA1VxhM1wUNItQVG/kkBODW8Qo+TjIbU6CN2Jg1qZKGL3r58tEriOfbimHmD
+         ptf2NpDB2IQlROQatbpv8jJtMnSF2KSZJBYty73acKo1BuQMgoFjS7hXXD7mj83XBJ7P
+         liahaK7INfgLZ5GnVy8tNhE7tC3O/kktDIJqzu0QKBSCyKGkToTMtwRRFwx5YFQpANAx
+         SNd5jrLDI6QvgNk3r48qAjK/Zhzw8XH5bkAMmE92qyY4sahJrUy5UXLyYobM3F5FjtA9
+         vyERiksGCIq83aX09eOz+AuH7FWwhHsCoIwrZxEFwHShUD3jY8dPou5F1LWzKRJZx3Hw
+         xAbQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2baXle1q7KKKyMws+3bSaAwo2oBLQtNfrznD9CSpu3Q=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=tWKaobUfcZvBlyZlK7nyIzdV5gyKX22rPIdLaGi7+Gkb20ERuhrJipr7nu9Yhaz43i
+         iqzd7OcAa/QiS+AhlJZnpJ4AEmXEmT+gWCRClYm4xM6SKIoQrPTX9YM/oJc8ZJyOI6Xg
+         wTfZDtRcskeFspDcH0luyuaXMi7CcH4wB+jE/j8JjStQR0qr4ECeEyoLn8qyWYyvvZSm
+         dhe3Gqh4xwhuEGTX8ptE3iFoDfe0UkPnndQoNcPHwGNQsiuNblHHi7S3lQH5KUIt2IGt
+         QYCrhDMYQ05JztbkqSGNAHfWThDd/c4YLGs0EyueMb3utMwdvU0LtWpvOxLsiUFt9RVf
+         p9nQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WNgzdq3F;
+       spf=pass (google.com: domain of delivery_20230809140852.32347622.263413@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230809140852.32347622.263413@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230809140852.32347622.263413@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id e19-20020a056870451300b001bb4e51a1e9si876919oao.3.2023.08.09.11.08.53
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 09 Aug 2023 11:08:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230809140852.32347622.263413@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=BqgD21CgUb+tPFFC7594QX8ntIF6wM1yXCncA57EkAc=;
+ b=WNgzdq3FnY6+p3v5DlJT6KM8cx7J9UaEaiOqtvaHnmQfji0W5SOngAy/Dw1IL+G842KpT6F6CZmA
+   WdTilFnS/UGXH7lvM2JwS2TQabvfMqmLHZVWAc4rdlHKaKdL9ySMjaKl+A9ejcwicL/2d/fE7Mes
+   2aIkThGOvL7+ngj2GcI=
+Received: from ip-10-55-85-2.ec2.internal (10.55.85.2) by aws1-mta-relay1.sailthru.cloud id hqfb381qqbsi for <bloomberg@khamel.com>; Wed, 9 Aug 2023 13:08:52 -0500 (envelope-from <delivery_20230809140852.32347622.263413@mx.sailthru.com>)
+Date: Wed, 9 Aug 2023 14:08:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230809140852.32347622.263413@sailthru.com>
+Subject: Money Stuff: Barstool Sold High and Bought Low
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7810238_195593882.1691604532919"
+Precedence: bulk
+x-job: 6358-32347622-20230809
+X-Feedback-ID: 6358:32347622:campaign:sailthru
+X-TM-ID: 20230809140852.32347622.263413
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-85-2.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj9bl2.5n91/9729b6c7
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj9bl2.5n91/9729b6c7>, <mailto:unsubscribe_20230809140852.32347622.263413@mx.sailthru.com>
+X-rpcampaign: stjko32347622
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_7810238_195593882.1691604532919
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One way to think about it is that if you are a gambling company, an=
+d it is 2020 and sports gambling is becoming broadly legal in the US, you
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Barstool
+   =20
+ =20
+
+One way to think about it is that if you are a gambling company, and it is =
+2020 and sports gambling is  becoming broadly legal in the US, you will wan=
+t to market sports gambling broadly to potential customers, and the best wa=
+y to do that might be to team up with a popular sports media brand. Name yo=
+ur sports gambling site after the sports media brand, and at the top of eve=
+ry article on the media brand=E2=80=99s website have a little call to actio=
+n like =E2=80=9CI see you are reading about the Mets, would you like to pla=
+ce a wager on the Mets?=E2=80=9D You are fundamentally a=C2=A0gambling=C2=
+=A0company, which is still a bit suspicious and seedy to some sports fans; =
+you will get more customers and trust and=C2=A0goodwill from a=C2=A0sports=
+=C2=A0company.
+So, when sports gambling is becoming broadly legal in the US, you strike a =
+marketing partnership=C2=A0with the very biggest and best sports media bran=
+d you can get. Which will not be=C2=A0that=C2=A0big or=C2=A0that=C2=A0good.=
+ You=E2=80=99re not going to get ESPN. It=E2=80=99s early days for broadly =
+accepted sports gambling, it=E2=80=99s still a little edgy, and the best yo=
+u will do is teaming up with kind of an edgy sports media brand. Barstool S=
+ports, for instance, the bro-y and controversial site that appeals particul=
+arly to young men.=C2=A0And you will pay it a large amount of money for a l=
+icensing deal where you get to name your sports gambling site Barstool Spor=
+tsbook and advertise it on Barstool=E2=80=99s media properties.
+And you=E2=80=99ll do that for a few years, and legal sports gambling will =
+continue to take off and become more widely acceptable and normal in the US=
+,=C2=A0and then one day you=E2=80=99ll look around and say =E2=80=9Cwait ac=
+tually now we can get ESPN.=E2=80=9D And so you will. You will=C2=A0enter a=
+ licensing deal with ESPN, where you call your sports gambling site ESPN Be=
+ts and advertise it on ESPN=E2=80=99s media properties.=C2=A0
+And it would be confusing to do both simultaneously, so you end your licens=
+ing deal with Barstool. And you reach an agreement with Barstool not to lic=
+ense their name to any=C2=A0other=C2=A0gambling sites, so that there=E2=80=
+=99s not a Barstool Bets out there to confuse your customers. And you renam=
+e Barstool Sportsbook as ESPN Bets and get a wider audience for your sports=
+ gambling. And if you paid Barstool $550 million for roughly three years of=
+ marketing, that=C2=A0is maybe a bit high, but legal sports gambling in the=
+ US was kind of a gold rush and maybe that number wasn=E2=80=99t crazy.
+I don=E2=80=99t know, that=E2=80=99s one interpretation. The other interpre=
+tation =E2=80=94=C2=A0the one that is more literally accurate =E2=80=94=C2=
+=A0is that Dave Portnoy sold Barstool to Penn Entertainment Inc. for $550 m=
+illion in 2020
+  [1]
+=C2=A0and then   bought it back yesterday=C2=A0for zero dollars:
+
+Walt Disney Co.=E2=80=99s ESPN has signed a long-term exclusive agreement w=
+ith casino operator Penn Entertainment Inc., licensing its brand for sports=
+ betting and deepening the media giant=E2=80=99s ties to the growing online=
+ gambling business.
+Penn will have the 10-year right to use the ESPN Bet name in the US, the co=
+mpany said in a statement Tuesday. Penn will rebrand its Barstool sportsboo=
+k with ESPN starting this fall. ...
+Penn also said Tuesday it=E2=80=99s selling all of its Barstool Sports Inc.=
+ subsidiary to David Portnoy, who founded the sports and pop culture media =
+company, in exchange for a non-compete and other agreements. Penn has the r=
+ight to get half of the proceeds received by Portnoy in any subsequent sale=
+ of Barstool. =E2=80=A6
+Penn will make cash payments totaling $1.5 billion over the 10-year term an=
+d grant ESPN $500 million of warrants to purchase Penn shares. ESPN will ha=
+ve the right to designate one, non-voting board observer at Penn. The casin=
+o company can extend the term for another 10 years by mutual agreement. Pen=
+n said the deal could generate between $500 million and $1 billion in annua=
+l earnings before interest, taxes, depreciation and amortization. ...
+Starting in 2020, Penn bought Barstool in two transactions totaling more th=
+an $550 million, part of the growing convergence of sports, media and gambl=
+ing. The casino operator launched sportsbooks under the Barstool brand name=
+ and said it helped the company reach a younger audience.
+But the affiliation with Barstool also brought unwanted attention. On an ea=
+rnings call in February of last year, Penn Chief Executive Officer Jay Snow=
+den urged investors to be patient after articles on the website Insider det=
+ailed sexual misconduct claims against Portnoy. The accusations led gamblin=
+g regulators in some states to review Penn=E2=80=99s business. Earlier this=
+ year, Barstool paid a $250,000 fine after regulators in Ohio found it brok=
+e rules on advertising near a college campus and targeting customers under =
+21.
+In a video posted Tuesday on X, formerly known as Twitter, Portnoy said Bar=
+stool and Penn =E2=80=9Cunderestimated just how tough it is for myself and =
+Barstool to operate in a regulated world.=E2=80=9D He suggested that Barsto=
+ol had been denied state gambling licenses because of him, and that he has =
+no plans to sell Barstool sports again.
+=E2=80=9CFor the first time in forever, we don=E2=80=99t need to watch what=
+ we say, how we talk, what we do,=E2=80=9D Portnoy said. =E2=80=9CIt=E2=80=
+=99s back to the pirate ship.=E2=80=9D
+
+And:
+"Every time we did something, it was one step forward, two steps back," Por=
+tnoy said in his video announcement on Tuesday. "We got denied licenses bec=
+ause of me. You name it. So the regulated industry probably not the best pl=
+ace for Barstool Sports and the type of content we make."
+Look, as a trade, I am always going to love a founder selling high at the p=
+eak of the cycle=C2=A0and then buying back low when valuations have collaps=
+ed. (=E2=80=9CThe Wag trade,=E2=80=9D I have   sometimes called it, after t=
+he dog-walking startup that extracted a bunch of money out of SoftBank Grou=
+p Corp. when SoftBank was particularly enthused about, you know, throwing h=
+undreds of millions of dollars at dog-walking startups, and then bought Sof=
+tBank out cheap when that enthusiasm waned.) And I suppose if this is your =
+plan, then it helps to (1) sell high, (2) continue running your startup as =
+a division of the buyer and (3) be=C2=A0controversial and bad at it, so the=
+ value goes down and the buyer feels forced to sell. Crafty!
+  [2]
+
+But =E2=80=9CDave Portnoy sold Barstool high at the peak of legalized sport=
+s gambling in 2020, and then bought it back low when the bubble popped in 2=
+023,=E2=80=9D does not seem quite right? I would not exactly say that Penn =
+got what it paid for, with Barstool, but on the other hand  Penn=E2=80=99s =
+=E2=80=9Cinteractive=E2=80=9D segment =E2=80=94=C2=A0consisting largely tho=
+ugh not exclusively of its =E2=80=9Conline sports betting and casino app ca=
+lled Barstool Sportsbook and Casino=E2=80=9D and its in-casino Barstool-bra=
+nded retail sportsbooks =E2=80=94=C2=A0went from $121 million in revenue in=
+ 2020 to  $663 million in 2022, and was  up another 66% year-over-year in t=
+he first half of 2023, for a run rate of almost $1 billion. =E2=80=9CBarsto=
+ol has been a great partner and we are thankful to Dave Portnoy, Erika Ayer=
+s, Dan Katz and their team for helping to rapidly scale our digital footpri=
+nt across 16 jurisdictions in the U.S. and introducing their audience to ou=
+r retail and digital products,=E2=80=9D said Penn in  announcing yesterday=
+=E2=80=99s deal. Could Penn have added $500 million of annual sports gambli=
+ng revenue=C2=A0without=C2=A0the marketing partnership? Could it have added=
+=C2=A0more, without the public-relations and licensing problems that Barsto=
+ol brought? Quite possibly! There really was a pretty big sports-gambling g=
+old rush, and it does look like=C2=A0Penn spent lavishly and imprecisely to=
+ get in on it.
+But basically Penn paid $550 million to Barstool to get into online sports =
+gambling with a popular brand, and amortized that cost over about three yea=
+rs, or call it $180 million a year. And now it is paying ESPN $2 billion fo=
+r a 10-year licensing agreement, or $200 million a year. Portnoy didn=E2=80=
+=99t exactly sell Barstool at the peak and buy at the bottom: He sold Barst=
+ool at the point when it made sense for Penn to partner with Barstool, and =
+bought it back at the point when it made sense for Penn to partner=C2=A0wit=
+h Disney.
+One assumes that Penn would have preferred to sell Barstool back to Portnoy=
+ for some price higher than zero, but:
+=09It didn=E2=80=99t make sense for them to keep it,=09It was perhaps too c=
+ontroversial for most other media or gaming companies, and=C2=A0=09Presumab=
+ly any buyer would have to come to terms with Portnoy for it to make sense.
+
+So I guess Portnoy was the only bidder? I dunno, I just Googled =E2=80=9CDa=
+ve Portnoy enemies=E2=80=9D and got  this list that he tweeted last year be=
+ginning with Henry Blodget, and if I were Penn I would have called Blodget =
+(a wealthy media mogul!)=C2=A0and said =E2=80=9Chey you can have Dave Portn=
+oy for $10,000=E2=80=9D just to see if I could spark a bidding war. It is p=
+ossible though that Portnoy=E2=80=99s non-compete promises are worth more t=
+o Penn than a buyer would pay.
+Also Penn gets 50% of the proceeds if Portnoy sells. He =E2=80=9Chas no pla=
+ns to sell Barstool Sports again,=E2=80=9D and why would he? He sold it for=
+ $550 million and got it back for free; selling it again would just be gree=
+dy. Once you=E2=80=99ve cashed out $550 million and kept the business, it=
+=C2=A0can be a lifestyle business. I assume that Penn=E2=80=99s 50% is just=
+=C2=A0schmuck insurance.
+  [3]
+=C2=A0It=E2=80=99s embarrassing enough to buy it from Portnoy for $550 mill=
+ion and then sell it back to him=C2=A0for $0, but it would be much worse if=
+ he turned around and sold it to someone else for $550 million again.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      WeWork
+   =20
+ =20
+
+Elsewhere in, uh, controversial founders who sold high and then rode their =
+startups=C2=A0down to zero, I have always had kind of a soft spot for WeWor=
+k Inc.=E2=80=99s business model. WeWork did many absurd things, which I lov=
+ingly documented, but the idea=C2=A0seems fine? Companies want to outsource=
+ real-estate management, lots of people work for smaller startup-y companie=
+s that want flexible office arrangements, and particularly in this new post=
+-pandemic world of remote work it makes sense for office-space management t=
+o be more flexible and outsourced and pooled. I feel like if WeWork didn=E2=
+=80=99t exist and you started it now, people would say =E2=80=9Coh that mak=
+es a lot of sense.=E2=80=9D
+But WeWork does exist, and=C2=A0it does not make a lot of sense:
+
+The co-working company now says there=E2=80=99s =E2=80=9Csubstantial doubt=
+=E2=80=9D it will even be able to stay in business.
+The New York-based company is bleeding cash, and customers of its office re=
+ntals are canceling their memberships in droves, WeWork said in a statement=
+ Tuesday. Its shares fell 26% in the first minutes of trading Wednesday mor=
+ning.
+WeWork=E2=80=99s stock has plunged 98% since the company went public in Oct=
+ober 2021, wiping out nearly $9 billion in market value. The stock was trad=
+ing at 16 cents early Wednesday. Its bonds are also at deeply distressed le=
+vels. The company=E2=80=99s 7.875% unsecured notes due in 2025 last changed=
+ hands for 33.5 cents on the dollar, according to data from Trace. =E2=80=
+=A6
+As the pandemic dragged on, WeWork insisted that the shift toward remote an=
+d hybrid work would actually favor the company rather than weaken its busin=
+ess. Employers would be more wary of signing long-term leases and would tur=
+n to WeWork=E2=80=99s flexible models instead, the company argued.
+Though that could still pan out, it hasn=E2=80=99t been happening quickly e=
+nough for WeWork. In Tuesday=E2=80=99s statement, the company said more cus=
+tomers were leaving and fewer new members were signing up than it had antic=
+ipated. That churn was cutting into its occupancy rate, which dropped in th=
+e second quarter compared to the previous one.
+
+Ah, well. I have also  long=C2=A0been an admirer of WeWork founder Adam Neu=
+mann=E2=80=99s ability to=C2=A0extract money from SoftBank,=C2=A0collecting=
+=C2=A0hundreds of millions of dollars for himself at the peak and then walk=
+ing away (for more money!) as WeWork crashed. As an=C2=A0entrepreneur, Neum=
+ann is more impressive if the business he built is a lasting success, even =
+at a lower valuation than the one he cashed out at. But as a=C2=A0trader, h=
+is accomplishment is more impressive if the business goes to zero. =E2=80=
+=9CSoftBank made a mistake that involved spending $10 billion to build a $4=
+00 million company, and Adam Neumann was there to take the other side of th=
+at mistake,=E2=80=9D I  once wrote, and that=C2=A0story is starker and shar=
+per and more absurd if SoftBank spent the $10 billion on=C2=A0nothing.
+
+ =20
+   =20
+      Yellow
+   =20
+ =20
+
+Yellow Corp., the trucking company, shut down its operations in July and fi=
+led for bankruptcy this past weekend. Its stock is up since it shut down op=
+erations. That=E2=80=99s weird! Well, I mean, it=E2=80=99s weird, but it=E2=
+=80=99s pretty common these days: Meme-stock companies sometimes become ext=
+ra meme-y when they are near, or in, bankruptcy, as retail investors develo=
+p conspiracy theories about short squeezes and rescue deals and rush to buy=
+ the stock. And there have been some references to Yellow as a meme stock.
+But that explanation does not quite work, because a lot of the buying in th=
+e Yellow rally was done by an investment firm called MFN Partners that is a=
+lso a big shareholder in another trucking company, and that disclosed a=C2=
+=A042.5%=C2=A0stake in Yellow early last week. Not really the way meme inve=
+sting works. What was going on? I  expressed some puzzlement earlier this w=
+eek, but I suppose the simplest answer would be =E2=80=9CMFN knows trucking=
+ and sees equity value here.=E2=80=9D Anyway:
+
+Trucking company Yellow Corp's assets=C2=A0have attracted significant bidde=
+rs and their sale could likely surpass the company's $1.4 billion in secure=
+d debt, Fox Business reported on Tuesday, citing people with direct knowled=
+ge of the matter.
+That means stock holders will get a payday if significant unsecured debt cr=
+editors do not emerge, Fox Business reporter Charles Gasparino said in a po=
+st on X social media platform, formerly known as Twitter.
+Shares of the company closed 24% higher in regular trading after the news. =
+They fell 16% in extended trading.
+
+I cannot stress enough that this is not investing advice and that you shoul=
+d not go buy Yellow stock because I said it might get a recovery, but Charl=
+ie Gasparino said it might anyway.
+You could tell a simple corporate finance story in which bankruptcy, or rum=
+ors of bankruptcy,=C2=A0should=C2=A0be good news for a declining company. T=
+he story would go something like this:
+=09Some companies are in decline; they have no good long-term prospects and=
+ will eventually stop being viable and go bankrupt.=09Executives=C2=A0like=
+=C2=A0running their company =E2=80=94=C2=A0they get paid, they like their c=
+olleagues, running a company is prestigious =E2=80=94=C2=A0and are eternal =
+optimists, so they will try to avoid bankruptcy as long as possible.=09Avoi=
+ding bankruptcy as long as possible means spending cash on operations, losi=
+ng money, gambling on redemption and not filing for bankruptcy=C2=A0until t=
+here is negative equity value.=09Executives who are=C2=A0good=C2=A0stewards=
+ of investor capital will try to liquidate their company=C2=A0early, when t=
+he writing is on the wall rather than when all the value is gone. But that =
+goes against the executives=E2=80=99 self-interest and self-confidence, and=
+ so is rare.
+
+And so=C2=A0if you see some declining company muddling along, you might ass=
+ume =E2=80=9Cwell sure there=E2=80=99s value left here but they=E2=80=99re =
+gonna waste it all, shareholders are never going to see a penny of it,=E2=
+=80=9D and you might value the stock at roughly zero. And then if the compa=
+ny said =E2=80=9Cokay never mind we=E2=80=99re going bankrupt and liquidati=
+ng=E2=80=9D you might change your mind and buy the stock. That is not=C2=A0=
+quite=C2=A0Yellow=E2=80=99s story =E2=80=94=C2=A0there were labor=C2=A0trou=
+bles, etc. =E2=80=94 but it could be the right model. It is rare for compan=
+ies to liquidate while there is still value left for shareholders, but it i=
+s not impossible, and I suppose if you find one who is doing it you should =
+bet on it.
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+
+The syllogism is:
+=09Every bad thing that a public company does  is securities fraud: The com=
+pany did the bad thing, it didn=E2=80=99t tell shareholders about it in adv=
+ance, the shareholders bought the stock not knowing about the bad thing, an=
+d when they learned of it they felt defrauded.=09In the US, politics are bo=
+th=C2=A0polarized and totalizing: Everything that everyone does has some po=
+litical valence, and some people will think it is bad while others will thi=
+nk it is good.=09Therefore everything that a public company does=C2=A0strik=
+es someone as bad, and is therefore securities fraud.
+
+I don=E2=80=99t make the rules! I mean, I guess I did kind of make up the r=
+ule =E2=80=9Ceverything is securities fraud,=E2=80=9D but only as a descrip=
+tion of what I have observed in reality. I don=E2=80=99t like it. But   her=
+e you go:
+
+Target is facing a lawsuit from former Trump officials who claim the retail=
+er misled investors about financial risks from LGBTQ Pride marketing that b=
+rought a conservative backlash costing shareholders billions of dollars.
+America First Legal Foundation, led by former senior Trump adviser Stephen =
+Miller, filed the lawsuit against Target Corp. on behalf of a company share=
+holder Tuesday in federal court in Florida. Target in May sold LGBTQ-themed=
+ merchandise that drew the retailer into the US culture wars alongside Bud =
+Light maker Anheuser-Busch InBev NV and other companies.
+Some customers condemned Target=E2=80=99s merchandising of clothing and pro=
+ducts intended for Pride Month in June, which celebrates lesbian, gay, bise=
+xual and transgender people. The retailer then said it was pulling some ite=
+ms after threats against employees, garnering additional rebukes from custo=
+mers angered by its retreat.
+Target lost $10 billion in market valuation between May 18 and 28, as it fa=
+iled to oversee the risks of ESG initiatives, according to America First Le=
+gal=E2=80=99s complaint filed in the US District Court for the Middle Distr=
+ict of Florida.
+=E2=80=9CNo rational board of directors or management of a retailer with a =
+core customer base of working families would have approved such a nationwid=
+e campaign,=E2=80=9D America First Legal said in the complaint. =E2=80=9CNo=
+netheless, Target=E2=80=99s officials pursued.=E2=80=9D
+
+Here is  the complaint, which is pretty goofy.=C2=A0They do not try very ha=
+rd to actually make out a case for securities fraud, which requires not onl=
+y that a company did a thing that you don=E2=80=99t like but also that it=
+=C2=A0lied=C2=A0about it:
+
+Target=E2=80=99s 2022 and 2023 Annual Proxy Statements, the Board assured t=
+he Plaintiff and other investors that it was monitoring for social and poli=
+tical risks created by the ESG and DEI mandates that the Board and Target m=
+anagement had imposed on the company. In reality, the Board, both itself an=
+d through the applicable Board committees, only acknowledged risks it perce=
+ived from failing to achieve its selfimposed ESG and DEI mandates. These =
+=E2=80=9Crisks=E2=80=9D were definably not =E2=80=9Csocial or political=E2=
+=80=9D risks of ESG and DEI mandates=E2=80=94neither according to Target=E2=
+=80=99s definition nor by how=C2=A0a reasonable investor would understand t=
+he phrase=E2=80=99s meaning=E2=80=94but instead were =E2=80=9Crisks=E2=80=
+=9D driven by a select group of nonprofit-organization =E2=80=9Cstakeholder=
+s=E2=80=9D that Target worked with directly to adopt those very ESG and DEI=
+ mandates. These =E2=80=9Cstakeholder=E2=80=9D-driven =E2=80=9Crisks=E2=80=
+=9D were a pretext for Target to adopt ESG and DEI mandates, not a good-fai=
+th oversight of the social and political risks of adopting ESG and DEI corp=
+orate policies.
+Even if these =E2=80=9Cstakeholder=E2=80=9D-driven risks could be defined a=
+s =E2=80=9Csocial and political=E2=80=9D risks to ESG and DEI mandates, the=
+ Board still misrepresented its oversight because the Board monitored only =
+one side=E2=80=94i.e., whether it would face backlash from having too littl=
+e ESG and DEI, and not whether its divisive ESG and DEI mandates would crea=
+te social and political risk, such as customer backlash.
+
+Sure. I guess the important point here is that the stock went down. Half of=
+ Americans might think that anything a public company does is bad, and half=
+ might think it is good, but it=E2=80=99s only securities fraud if the stoc=
+k went down.
+We  talked a few years ago about a shareholder lawsuit against Oracle Corp.=
+ for not doing enough to implement its diversity policies; now here=E2=80=
+=99s one against Target for doing too much. =E2=80=9CEverything is securiti=
+es fraud=E2=80=9D started as mostly a left-ish sort of idea, that you could=
+ sue companies for securities fraud to punish  pollution or  sexual harassm=
+ent, but the idea is too good and too all-purpose=C2=A0to be limited to one=
+ side of American politics. Caring about diversity is securities fraud, and=
+ not caring about diversity is securities fraud, because everything is secu=
+rities fraud, as long as the stock goes down.
+
+ =20
+   =20
+      M&A typo
+   =20
+ =20
+
+On July 28, Biogen Inc.  agreed to acquire Reata Pharmaceuticals Inc. for  =
+ about $7.3 billion, with the deal expected to close in the fourth quarter.=
+ As is usual in a merger agreement, there are some  provisions for terminat=
+ion fees: If Reata walks away because it gets a better offer, it has to pay=
+ Biogen $264 million; if Biogen fails to get antitrust approvals, it has to=
+ pay Reata $301 million. Yesterday morning Reata filed its  quarterly repor=
+t on Form 10-Q, and it=C2=A0almost=C2=A0described those fees correctly:
+If the Merger Agreement is terminated under specified circumstances, we wil=
+l be required to pay Biogen a termination fee of $264.0 million. =C2=A0The =
+Merger Agreement also provides that, in connection with the termination of =
+the Merger Agreement under specified circumstances including antitrust rela=
+ted circumstances, Merck will be required to pay us a termination fee of $3=
+01.0 million.
+Oops! Merck & Co. will not actually be required to pay Reata a termination =
+fee in any circumstances; Merck is an entirely different company and not in=
+volved in this merger. As far as I knew! But=C2=A0I learned of this typo fr=
+om an Evercore ISI research note saying =E2=80=9CReata 10-Q implicates MRK =
+as other bidder=E2=80=9D and noting that =E2=80=9Cthis disclosure is making=
+ the rounds in risk arb investor community,=E2=80=9D and Reata=E2=80=99s st=
+ock was actually up a bit yesterday. Is it possible that Merck was competin=
+g with Biogen to buy Reata, Biogen won the deal but Reata still has unresol=
+ved feelings for Merck, this typo was Freudian, Merck will read it that way=
+ and rekindle its interest in Reata, and=C2=A0ultimately there will be a to=
+pping bid? Sure I dunno maybe. My sense is that most typos in merger docume=
+nts are not Freudian but are the result of law-firm associates getting too =
+little sleep and copying things from precedents, but it would be very funny=
+ if this deal did get topped and this 10-Q was the first sign of it, or eve=
+n the cause.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+U.S. to Ban Some  Investments in China. NYSE, Nasdaq Battle for New Listing=
+s in Sign of  IPO Awakening. Abu Dhabi oil giant builds internal =E2=80=98i=
+nvestment bank=E2=80=99 to chase $50bn in global deals.   Italian Banks=E2=
+=80=99 Payout Pledges Seen Feasible After Tax Cap. Banks Face Stepped-Up   =
+Scrutiny From Fed Over Crypto Activities.  Loan losses at US banks hit $19b=
+n as borrowers feel rate rise pain.  TED talks cross free speech =E2=80=98r=
+ed line=E2=80=99 in Xi Jinping=E2=80=99s China. =E2=80=9CSiegel scrutinized=
+ Two Sigma=E2=80=99s website,  upset if his biography was shorter than Over=
+deck=E2=80=99s.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Actually Penn bought a minority interest in Barstool in 2020, and bou=
+ght the rest of it this February, but from the beginning there were  put/ca=
+ll options that made it likely that Penn would be a complete owner eventual=
+ly. It=E2=80=99s not quite that Penn decided to buy all of Barstool in Febr=
+uary and then to sell it in August.
+
+
+  [2] Not really. If you actually do destroy the value of your business, yo=
+u can buy it back for $0 but it=E2=80=99s worth $0. Here, though, I suppose=
+ it is crafty for Portnoy to be controversial in a way that thrills his fan=
+s and alienates gaming regulators: That makes his business worth less *to P=
+enn* (as a gambling brand), but more *to himself* (as a generator of media =
+controversy).
+
+
+  [3] Conceivably they should have asked for 99% of the proceeds, but I sup=
+pose that they=E2=80=99re better off if he does have some incentive to sell=
+ it and to maximize the price, so 50% is probably about right.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj9bl2.5n91/d5f6dff1.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7810238_195593882.1691604532919
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One way to think about it is that if you are a gambling company, and it is =
+2020 and sports gambling is becoming broadly legal in the US, you
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB0dd61199"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjM0NzYyMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI2MTEwMzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB82684980" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32347622&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32611035&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Barstool</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One way to think about it is that if you are a=
+ gambling company, and it is 2020 and sports gambling is <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly9lbi53aWtp=
+cGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9nYW1ibGluZ19pbl90aGVfVW5pdGVkX1N0YXRlcyN=
+MZWdhbGlzYXRpb25fb2Zfc3BvcnRzX2dhbWJsaW5n/607f07ceef4b8524a319a23cBdfbb1483=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> becoming broadly legal</a> in the US, you will want to market sp=
+orts gambling broadly to potential customers, and the best way to do that m=
+ight be to team up with a popular sports media brand. Name your sports gamb=
+ling site after the sports media brand, and at the top of every article on =
+the media brand=E2=80=99s website have a little call to action like =E2=80=
+=9CI see you are reading about the Mets, would you like to place a wager on=
+ the Mets?=E2=80=9D You are fundamentally a=C2=A0<em>gambling=C2=A0</em>com=
+pany, which is still a bit suspicious and seedy to some sports fans; you wi=
+ll get more customers and trust and=C2=A0goodwill from a=C2=A0<em>sports=C2=
+=A0</em>company.</p>
+<p style=3D"margin: 16px 0;">So, when sports gambling is becoming broadly l=
+egal in the US, you strike a <em>marketing partnership=C2=A0</em>with the v=
+ery biggest and best sports media brand you can get. Which will not be=C2=
+=A0<em>that=C2=A0</em>big or=C2=A0<em>that=C2=A0</em>good. You=E2=80=99re n=
+ot going to get ESPN. It=E2=80=99s early days for broadly accepted sports g=
+ambling, it=E2=80=99s still a little edgy, and the best you will do is team=
+ing up with kind of an edgy sports media brand. Barstool Sports, for instan=
+ce, the bro-y and controversial site that appeals particularly to young men=
+.=C2=A0And you will pay it a large amount of money for a licensing deal whe=
+re you get to name your sports gambling site Barstool Sportsbook and advert=
+ise it on Barstool=E2=80=99s media properties.</p>
+<p style=3D"margin: 16px 0;">And you=E2=80=99ll do that for a few years, an=
+d legal sports gambling will continue to take off and become more widely ac=
+ceptable and normal in the US,=C2=A0and then one day you=E2=80=99ll look ar=
+ound and say =E2=80=9Cwait actually now we can get ESPN.=E2=80=9D And so yo=
+u will. You will=C2=A0enter a licensing deal with ESPN, where you call your=
+ sports gambling site ESPN Bets and advertise it on ESPN=E2=80=99s media pr=
+operties.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And it would be confusing to do both simultane=
+ously, so you end your licensing deal with Barstool. And you reach an agree=
+ment with Barstool not to license their name to any=C2=A0<em>other=C2=A0</e=
+m>gambling sites, so that there=E2=80=99s not a Barstool Bets out there to =
+confuse your customers. And you rename Barstool Sportsbook as ESPN Bets and=
+ get a wider audience for your sports gambling. And if you paid Barstool $5=
+50 million for roughly three years of marketing, that=C2=A0is maybe a bit h=
+igh, but legal sports gambling in the US was kind of a gold rush and maybe =
+that number wasn=E2=80=99t crazy.</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know, that=E2=80=99s one inter=
+pretation. The other interpretation =E2=80=94=C2=A0the one that is more lit=
+erally accurate =E2=80=94=C2=A0is that Dave Portnoy sold Barstool to Penn E=
+ntertainment Inc. for $550 million in 2020<a class=3D"footnote-index" href=
+=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[1]</span>
+</a>=C2=A0and then <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32347622.263413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+MtMDgtMDgvZXNwbi1zaWducy1zcG9ydHMtYmV0dGluZy1kZWFsLXdpdGgtcGVubi1lbnRlcnRha=
+W5tZW50P2NtcGlkPUJCRDA4MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB5fd2d15e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  bought it back yesterday=C2=A0=
+</a><em><a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.2=
+63413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDgvZ=
+XNwbi1zaWducy1zcG9ydHMtYmV0dGluZy1kZWFsLXdpdGgtcGVubi1lbnRlcnRhaW5tZW50P2Nt=
+cGlkPUJCRDA4MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDgwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cC5fd2d15e" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">for zero dollars</a>:</em></p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Walt Disney Co.=E2=80=99s ESPN has signed a lo=
+ng-term exclusive agreement with casino operator Penn Entertainment Inc., l=
+icensing its brand for sports betting and deepening the media giant=E2=80=
+=99s ties to the growing online gambling business.</p>
+<p style=3D"margin: 16px 0;">Penn will have the 10-year right to use the ES=
+PN Bet name in the US, the company said in a statement Tuesday. Penn will r=
+ebrand its Barstool sportsbook with ESPN starting this fall. ...</p>
+<p style=3D"margin: 16px 0;">Penn also said Tuesday it=E2=80=99s selling al=
+l of its Barstool Sports Inc. subsidiary to David Portnoy, who founded the =
+sports and pop culture media company, in exchange for a non-compete and oth=
+er agreements. Penn has the right to get half of the proceeds received by P=
+ortnoy in any subsequent sale of Barstool. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Penn will make cash payments totaling $1.5 bil=
+lion over the 10-year term and grant ESPN $500 million of warrants to purch=
+ase Penn shares. ESPN will have the right to designate one, non-voting boar=
+d observer at Penn. The casino company can extend the term for another 10 y=
+ears by mutual agreement. Penn said the deal could generate between $500 mi=
+llion and $1 billion in annual earnings before interest, taxes, depreciatio=
+n and amortization. ...</p>
+<p style=3D"margin: 16px 0;">Starting in 2020, Penn bought Barstool in two =
+transactions totaling more than $550 million, part of the growing convergen=
+ce of sports, media and gambling. The casino operator launched sportsbooks =
+under the Barstool brand name and said it helped the company reach a younge=
+r audience.</p>
+<p style=3D"margin: 16px 0;">But the affiliation with Barstool also brought=
+ unwanted attention. On an earnings call in February of last year, Penn Chi=
+ef Executive Officer Jay Snowden urged investors to be patient after articl=
+es on the website Insider detailed sexual misconduct claims against Portnoy=
+. The accusations led gambling regulators in some states to review Penn=E2=
+=80=99s business. Earlier this year, Barstool paid a $250,000 fine after re=
+gulators in Ohio found it broke rules on advertising near a college campus =
+and targeting customers under 21.</p>
+<p style=3D"margin: 16px 0;">In a video posted Tuesday on X, formerly known=
+ as Twitter, Portnoy said Barstool and Penn =E2=80=9Cunderestimated just ho=
+w tough it is for myself and Barstool to operate in a regulated world.=E2=
+=80=9D He suggested that Barstool had been denied state gambling licenses b=
+ecause of him, and that he has no plans to sell Barstool sports again.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CFor the first time in forever, we don=
+=E2=80=99t need to watch what we say, how we talk, what we do,=E2=80=9D Por=
+tnoy said. =E2=80=9CIt=E2=80=99s back to the pirate ship.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32347622.263413/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9kYXZl=
+LXBvcnRub3ktYnV5cy1iYXJzdG9vbC1zcG9ydHMtYmFjay1wZW5uLW5hdGlvbmFsLTIwMjMtOA/=
+607f07ceef4b8524a319a23cBe8b5bf23" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">And</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">"Every time we did something, it w=
+as one step forward, two steps back," Portnoy said in his video announcemen=
+t on Tuesday. "We got denied licenses because of me. You name it. So the re=
+gulated industry probably not the best place for Barstool Sports and the ty=
+pe of content we make."</p></blockquote>
+<p style=3D"margin: 16px 0;">Look, as a trade, I am always going to love a =
+founder selling high at the peak of the cycle=C2=A0and then buying back low=
+ when valuations have collapsed. (=E2=80=9CThe Wag trade,=E2=80=9D I have <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTItMTAvdGhlLW=
+RvZ3MtYXRlLXNvZnRiYW5rLXMtbW9uZXk_Y21waWQ9QkJEMDgwOTIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODA5JnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB910b7abe" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  somet=
+imes called it</a>, after the dog-walking startup that extracted a bunch of=
+ money out of SoftBank Group Corp. when SoftBank was particularly enthused =
+about, you know, throwing hundreds of millions of dollars at dog-walking st=
+artups, and then bought SoftBank out cheap when that enthusiasm waned.) And=
+ I suppose if this is your plan, then it helps to (1) sell high, (2) contin=
+ue running your startup as a division of the buyer and (3) be=C2=A0controve=
+rsial and bad at it, so the value goes down and the buyer feels forced to s=
+ell. Crafty!<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: none !important; background-=
+color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But =E2=80=9CDave Portnoy sold Barstool high a=
+t the peak of legalized sports gambling in 2020, and then bought it back lo=
+w when the bubble popped in 2023,=E2=80=9D does not seem quite right? I wou=
+ld not exactly say that Penn got what it paid for, with Barstool, but on th=
+e other hand <a href=3D"https://link.mail.bloombergbusiness.com/click/32347=
+622.263413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzkyMTczOC8w=
+MDAwOTIxNzM4MjMwMDAwMTAvcGVubi0yMDIyMTIzMS5odG0jaWQ2N2U5YjAwOGZmMzQ2YWZiNjZ=
+iMDQyNTM3ZDMzYmMxXzE2/607f07ceef4b8524a319a23cBefe39040" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Penn=E2=
+=80=99s =E2=80=9Cinteractive=E2=80=9D segment</a> =E2=80=94=C2=A0consisting=
+ largely though not exclusively of its =E2=80=9Conline sports betting and c=
+asino app called Barstool Sportsbook and Casino=E2=80=9D and its in-casino =
+Barstool-branded retail sportsbooks =E2=80=94=C2=A0went from $121 million i=
+n revenue in 2020 to <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/32347622.263413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzky=
+MTczOC8wMDAwOTIxNzM4MjMwMDAwMTAvcGVubi0yMDIyMTIzMS5odG0jaWQ2N2U5YjAwOGZmMzQ=
+2YWZiNjZiMDQyNTM3ZDMzYmMxXzc5/607f07ceef4b8524a319a23cB1520dcc8" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ $663 million in 2022</a>, and was <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32347622.263413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZG=
+dhci9kYXRhLzkyMTczOC8wMDAwOTIxNzM4MjMwMDAwMjMvZXhoaWJpdDk5MS1xMjIwMjMuaHRt/=
+607f07ceef4b8524a319a23cBfe6d99c0" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> up another 66% year-over-year</=
+a> in the first half of 2023, for a run rate of almost $1 billion. =E2=80=
+=9CBarstool has been a great partner and we are thankful to Dave Portnoy, E=
+rika Ayers, Dan Katz and their team for helping to rapidly scale our digita=
+l footprint across 16 jurisdictions in the U.S. and introducing their audie=
+nce to our retail and digital products,=E2=80=9D said Penn in <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3c=
+uc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzkyMTczOC8wMDAxMTA0NjU5MjMwODg4NTUvdG=
+0yMzIzMDQ1ZDFfZXg5OS0xLmh0bQ/607f07ceef4b8524a319a23cB8cae1f16" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> an=
+nouncing yesterday=E2=80=99s deal</a>. Could Penn have added $500 million o=
+f annual sports gambling revenue=C2=A0<em>without=C2=A0</em>the marketing p=
+artnership? Could it have added=C2=A0<em>more</em>, without the public-rela=
+tions and licensing problems that Barstool brought? Quite possibly! There r=
+eally was a pretty big sports-gambling gold rush, and it does look like=C2=
+=A0Penn spent lavishly and imprecisely to get in on it.</p>
+<p style=3D"margin: 16px 0;">But basically Penn paid $550 million to Barsto=
+ol to get into online sports gambling with a popular brand, and amortized t=
+hat cost over about three years, or call it $180 million a year. And now it=
+ is paying ESPN $2 billion for a 10-year licensing agreement, or $200 milli=
+on a year. Portnoy didn=E2=80=99t exactly sell Barstool at the peak and buy=
+ at the bottom: He sold Barstool at the point when it made sense for Penn t=
+o partner with Barstool, and bought it back at the point when it made sense=
+ for Penn to partner=C2=A0<em>with Disney</em>.</p>
+<p style=3D"margin: 16px 0;">One assumes that Penn would have preferred to =
+sell Barstool back to Portnoy for some price higher than zero, but:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It didn=E2=80=99t make sense for them=
+ to keep it,</li>=09<li style=3D"margin-bottom: 5px;">It was perhaps too co=
+ntroversial for most other media or gaming companies, and=C2=A0</li>=09<li =
+style=3D"margin-bottom: 5px;">Presumably any buyer would have to come to te=
+rms with Portnoy for it to make sense.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So I guess Portnoy was the only bidder? I dunn=
+o, I just Googled =E2=80=9CDave Portnoy enemies=E2=80=9D and got <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly90=
+d2l0dGVyLmNvbS9zdG9vbHByZXNpZGVudGUvc3RhdHVzLzE1MDI3MDE4Nzg2OTM1MzU3NDQ_bGF=
+uZz1lbg/607f07ceef4b8524a319a23cB28d9d1aa" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> this list that he tweet=
+ed</a> last year beginning with Henry Blodget, and if I were Penn I would h=
+ave called Blodget (a wealthy media mogul!)=C2=A0and said =E2=80=9Chey you =
+can have Dave Portnoy for $10,000=E2=80=9D just to see if I could spark a b=
+idding war. It is possible though that Portnoy=E2=80=99s non-compete promis=
+es are worth more to Penn than a buyer would pay.</p>
+<p style=3D"margin: 16px 0;">Also Penn gets 50% of the proceeds if Portnoy =
+sells. He =E2=80=9Chas no plans to sell Barstool Sports again,=E2=80=9D and=
+ why would he? He sold it for $550 million and got it back for free; sellin=
+g it again would just be greedy. Once you=E2=80=99ve cashed out $550 millio=
+n and kept the business, it=C2=A0can be a lifestyle business. I assume that=
+ Penn=E2=80=99s 50% is just=C2=A0schmuck insurance.<a class=3D"footnote-ind=
+ex" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[3]</span>
+</a>=C2=A0It=E2=80=99s embarrassing enough to buy it from Portnoy for $550 =
+million and then sell it back to him=C2=A0for $0, but it would be much wors=
+e if he turned around and sold it to someone else for $550 million again.</=
+p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjM0NzYyMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI2MTEwMzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC3ee2a5bf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32347622&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32611035&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjM0NzYyMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI2MTEwMzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD3ee2a5bf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32347622&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32611035&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">WeWork</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Elsewhere in, uh, controversial founders who s=
+old high and then rode their startups=C2=A0down to zero, I have always had =
+kind of a soft spot for WeWork Inc.=E2=80=99s business model. WeWork did ma=
+ny absurd things, which I lovingly documented, but the idea=C2=A0seems fine=
+? Companies want to outsource real-estate management, lots of people work f=
+or smaller startup-y companies that want flexible office arrangements, and =
+particularly in this new post-pandemic world of remote work it makes sense =
+for office-space management to be more flexible and outsourced and pooled. =
+I feel like if WeWork didn=E2=80=99t exist and you started it now, people w=
+ould say =E2=80=9Coh that makes a lot of sense.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But WeWork does exist, and=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDkvd2V3b3JrLXMtc3Vic3RhbnR=
+pYWwtZG91YnQtYWJvdXQtaXRzLWZ1dHVyZS1tYXJrcy1hLXN0dW5uaW5nLWZhbGw_Y21waWQ9Qk=
+JEMDgwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwODA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB99a03d3a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">it does not make a lot of sense</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The co-working company now says there=E2=80=99=
+s =E2=80=9Csubstantial doubt=E2=80=9D it will even be able to stay in busin=
+ess.</p>
+<p style=3D"margin: 16px 0;">The New York-based company is bleeding cash, a=
+nd customers of its office rentals are canceling their memberships in drove=
+s, WeWork said in a statement Tuesday. Its shares fell 26% in the first min=
+utes of trading Wednesday morning.</p>
+<p style=3D"margin: 16px 0;">WeWork=E2=80=99s stock has plunged 98% since t=
+he company went public in October 2021, wiping out nearly $9 billion in mar=
+ket value. The stock was trading at 16 cents early Wednesday. Its bonds are=
+ also at deeply distressed levels. The company=E2=80=99s 7.875% unsecured n=
+otes due in 2025 last changed hands for 33.5 cents on the dollar, according=
+ to data from Trace. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">As the pandemic dragged on, WeWork insisted th=
+at the shift toward remote and hybrid work would actually favor the company=
+ rather than weaken its business. Employers would be more wary of signing l=
+ong-term leases and would turn to WeWork=E2=80=99s flexible models instead,=
+ the company argued.</p>
+<p style=3D"margin: 16px 0;">Though that could still pan out, it hasn=E2=80=
+=99t been happening quickly enough for WeWork. In Tuesday=E2=80=99s stateme=
+nt, the company said more customers were leaving and fewer new members were=
+ signing up than it had anticipated. That churn was cutting into its occupa=
+ncy rate, which dropped in the second quarter compared to the previous one.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ah, well. I have also <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMjMvaG93LWRvLXlvdS1saWtlLXdlLW5vd=
+z9jbXBpZD1CQkQwODA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB38a0762a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> long=C2=A0been an admirer</a> of WeWor=
+k founder Adam Neumann=E2=80=99s ability to=C2=A0<em>extract money from Sof=
+tBank</em>,=C2=A0collecting=C2=A0hundreds of millions of dollars for himsel=
+f at the peak and then walking away (for more money!) as WeWork crashed. As=
+ an=C2=A0<em>entrepreneur</em>, Neumann is more impressive if the business =
+he built is a lasting success, even at a lower valuation than the one he ca=
+shed out at. But as a=C2=A0<em>trader</em>, his accomplishment is more impr=
+essive if the business goes to zero. =E2=80=9CSoftBank made a mistake that =
+involved spending $10 billion to build a $400 million company, and Adam Neu=
+mann was there to take the other side of that mistake,=E2=80=9D I <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMTIvdGhyZWUtYXJy=
+b3dzLWhhZC1hLWZ1bi1idWJibGU_Y21waWQ9QkJEMDgwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODA5JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB04cb9c77" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> once wrote</=
+a>, and that=C2=A0story is starker and sharper and more absurd if SoftBank =
+spent the $10 billion on=C2=A0<em>nothing</em>.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Yellow</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Yellow Corp., the trucking company, shut down =
+its operations in July and filed for bankruptcy this past weekend. Its stoc=
+k is up since it shut down operations. That=E2=80=99s weird! Well, I mean, =
+it=E2=80=99s <em>weird</em>, but it=E2=80=99s pretty common these days: Mem=
+e-stock companies sometimes become extra meme-y when they are near, or in, =
+bankruptcy, as retail investors develop conspiracy theories about short squ=
+eezes and rescue deals and rush to buy the stock. And there have been some =
+references to Yellow as a <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32347622.263413/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90dXBwZXJ3YXJ=
+lLXllbGxvdy1yaXRlLWFpZC1tZW1lLXN0b2Nrcy1zb2FyLWMzMWNmNTZmP3NpdGVpZD15aG9vZj=
+ImcmVmPXRoZWRpZmYuY28/607f07ceef4b8524a319a23cBc9f823b6" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">meme stock=
+</a>.</p>
+<p style=3D"margin: 16px 0;">But that explanation does not quite work, beca=
+use a lot of the buying in the Yellow rally was done by an investment firm =
+called MFN Partners that is also a big shareholder in another trucking comp=
+any, and that <a href=3D"https://link.mail.bloombergbusiness.com/click/3234=
+7622.263413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzcxNjAwNi8=
+wMDAxMTkzMTI1MjMxOTk4OTEvZDQ1NzcwMGRzYzEzZGEuaHRt/607f07ceef4b8524a319a23cB=
+76a38817" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">disclosed</a> a=C2=A0<em>42.5%=C2=A0</em>stake in Yellow =
+early last week. Not really the way meme investing works. What was going on=
+? I <a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.26341=
+3/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMDcva=
+XJsLXMtdXNlcnMtd2VyZS1ub3QtaXJsP2NtcGlkPUJCRDA4MDkyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwOSZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB09ed2eee" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> express=
+ed some puzzlement</a> earlier this week, but I suppose the simplest answer=
+ would be =E2=80=9CMFN knows trucking and sees equity value here.=E2=80=9D =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cucmV1dGVycy5jb20vYnVzaW5lc3MvYXV0b3MtdHJhbnNwb3J0YXRpb24veWVsb=
+G93LWNvcnAtYXNzZXQtc2FsZS1jb3VsZC1zdXJwYXNzLTE0LWJsbi1mb3gtYnVzaW5lc3MtMjAy=
+My0wOC0wOC8/607f07ceef4b8524a319a23cB637a66e0" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Trucking company Yellow Corp's assets=C2=A0hav=
+e attracted significant bidders and their sale could likely surpass the com=
+pany's $1.4 billion in secured debt, Fox Business reported on Tuesday, citi=
+ng people with direct knowledge of the matter.</p>
+<p style=3D"margin: 16px 0;">That means stock holders will get a payday if =
+significant unsecured debt creditors do not emerge, Fox Business reporter C=
+harles Gasparino said in a post on X social media platform, formerly known =
+as Twitter.</p>
+<p style=3D"margin: 16px 0;">Shares of the company closed 24% higher in reg=
+ular trading after the news. They fell 16% in extended trading.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I cannot stress enough that this is not invest=
+ing advice and that you should not go buy Yellow stock because I said it mi=
+ght get a recovery, but Charlie Gasparino said it might anyway.</p>
+<p style=3D"margin: 16px 0;">You could tell a simple corporate finance stor=
+y in which bankruptcy, or rumors of bankruptcy,=C2=A0<em>should=C2=A0</em>b=
+e good news for a declining company. The story would go something like this=
+:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Some companies are in decline; they h=
+ave no good long-term prospects and will eventually stop being viable and g=
+o bankrupt.</li>=09<li style=3D"margin-bottom: 5px;">Executives=C2=A0<em>li=
+ke=C2=A0</em>running their company =E2=80=94=C2=A0they get paid, they like =
+their colleagues, running a company is prestigious =E2=80=94=C2=A0and are e=
+ternal optimists, so they will try to avoid bankruptcy as long as possible.=
+</li>=09<li style=3D"margin-bottom: 5px;">Avoiding bankruptcy as long as po=
+ssible means spending cash on operations, losing money, gambling on redempt=
+ion and not filing for bankruptcy=C2=A0until there is negative equity value=
+.</li>=09<li style=3D"margin-bottom: 5px;">Executives who are=C2=A0<em>good=
+=C2=A0</em>stewards of investor capital will try to liquidate their company=
+=C2=A0<em>early</em>, when the writing is on the wall rather than when all =
+the value is gone. But that goes against the executives=E2=80=99 self-inter=
+est and self-confidence, and so is rare.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And so=C2=A0if you see some declining company =
+muddling along, you might assume =E2=80=9Cwell sure there=E2=80=99s value l=
+eft here but they=E2=80=99re gonna waste it all, shareholders are never goi=
+ng to see a penny of it,=E2=80=9D and you might value the stock at roughly =
+zero. And then if the company said =E2=80=9Cokay never mind we=E2=80=99re g=
+oing bankrupt and liquidating=E2=80=9D you might change your mind and buy t=
+he stock. That is not=C2=A0<em>quite=C2=A0</em>Yellow=E2=80=99s story =E2=
+=80=94=C2=A0there were labor=C2=A0troubles, etc. =E2=80=94 but it could be =
+the right model. It is rare for companies to liquidate while there is still=
+ value left for shareholders, but it is not impossible, and I suppose if yo=
+u find one who is doing it you should bet on it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The syllogism is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Every bad thing that a public company=
+ does <a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263=
+413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDM=
+vZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLW=
+dhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDA4MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwOSZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc5e11ec5" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> is securities fr=
+aud</a>: The company did the bad thing, it didn=E2=80=99t tell shareholders=
+ about it in advance, the shareholders bought the stock not knowing about t=
+he bad thing, and when they learned of it they felt defrauded.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">In the US, politics are both=C2=A0polarized an=
+d totalizing: Everything that everyone does has some political valence, and=
+ some people will think it is bad while others will think it is good.</li>=
+=09<li style=3D"margin-bottom: 5px;">Therefore everything that a public com=
+pany does=C2=A0<em>strikes someone as bad</em>, and <em>is therefore securi=
+ties fraud</em>.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t make the rules! I mean, I gues=
+s I did kind of make up the rule =E2=80=9Ceverything is securities fraud,=
+=E2=80=9D but only as a description of what I have observed in reality. I d=
+on=E2=80=99t like it. But <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32347622.263413/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vYnVzaW5lc3M=
+tYW5kLXByYWN0aWNlL2V4LXRydW1wLW9mZmljaWFscy1zdWUtdGFyZ2V0LWFsbGVnaW5nLXByaW=
+RlLW1vbnRoLWludmVzdG9yLXJpc2s/607f07ceef4b8524a319a23cB9e93d59b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  here you go</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Target is facing a lawsuit from former Trump o=
+fficials who claim the retailer misled investors about financial risks from=
+ LGBTQ Pride marketing that brought a conservative backlash costing shareho=
+lders billions of dollars.</p>
+<p style=3D"margin: 16px 0;">America First Legal Foundation, led by former =
+senior Trump adviser Stephen Miller, filed the lawsuit against Target Corp.=
+ on behalf of a company shareholder Tuesday in federal court in Florida. Ta=
+rget in May sold LGBTQ-themed merchandise that drew the retailer into the U=
+S culture wars alongside Bud Light maker Anheuser-Busch InBev NV and other =
+companies.</p>
+<p style=3D"margin: 16px 0;">Some customers condemned Target=E2=80=99s merc=
+handising of clothing and products intended for Pride Month in June, which =
+celebrates lesbian, gay, bisexual and transgender people. The retailer then=
+ said it was pulling some items after threats against employees, garnering =
+additional rebukes from customers angered by its retreat.</p>
+<p style=3D"margin: 16px 0;">Target lost $10 billion in market valuation be=
+tween May 18 and 28, as it failed to oversee the risks of ESG initiatives, =
+according to America First Legal=E2=80=99s complaint filed in the US Distri=
+ct Court for the Middle District of Florida.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CNo rational board of directors or man=
+agement of a retailer with a core customer base of working families would h=
+ave approved such a nationwide campaign,=E2=80=9D America First Legal said =
+in the complaint. =E2=80=9CNonetheless, Target=E2=80=99s officials pursued.=
+=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32347622.263413/aHR0cHM6Ly9hYm91dGJsYXcuY29tLzlTcA/607f0=
+7ceef4b8524a319a23cBaf4d30d3" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> the complaint</a>, which is pretty g=
+oofy.=C2=A0They do not try very hard to actually make out a case for securi=
+ties fraud, which requires not only that a company did a thing that you don=
+=E2=80=99t like but also that it=C2=A0<em>lied=C2=A0</em>about it:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Target=E2=80=99s 2022 and 2023 Annual Proxy St=
+atements, the Board assured the Plaintiff and other investors that it was m=
+onitoring for social and political risks created by the ESG and DEI mandate=
+s that the Board and Target management had imposed on the company. In reali=
+ty, the Board, both itself and through the applicable Board committees, onl=
+y acknowledged risks it perceived from failing to achieve its selfimposed E=
+SG and DEI mandates. These =E2=80=9Crisks=E2=80=9D were definably not =E2=
+=80=9Csocial or political=E2=80=9D risks of ESG and DEI mandates=E2=80=94ne=
+ither according to Target=E2=80=99s definition nor by how=C2=A0a reasonable=
+ investor would understand the phrase=E2=80=99s meaning=E2=80=94but instead=
+ were =E2=80=9Crisks=E2=80=9D driven by a select group of nonprofit-organiz=
+ation =E2=80=9Cstakeholders=E2=80=9D that Target worked with directly to ad=
+opt those very ESG and DEI mandates. These =E2=80=9Cstakeholder=E2=80=9D-dr=
+iven =E2=80=9Crisks=E2=80=9D were a pretext for Target to adopt ESG and DEI=
+ mandates, not a good-faith oversight of the social and political risks of =
+adopting ESG and DEI corporate policies.</p>
+<p style=3D"margin: 16px 0;">Even if these =E2=80=9Cstakeholder=E2=80=9D-dr=
+iven risks could be defined as =E2=80=9Csocial and political=E2=80=9D risks=
+ to ESG and DEI mandates, the Board still misrepresented its oversight beca=
+use the Board monitored only one side=E2=80=94i.e., whether it would face b=
+acklash from having too little ESG and DEI, and not whether its divisive ES=
+G and DEI mandates would create social and political risk, such as customer=
+ backlash.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure. I guess the important point here is that=
+ the stock went down. Half of Americans might think that anything a public =
+company does is bad, and half might think it is good, but it=E2=80=99s only=
+ securities fraud if the stock went down.</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32347622.263413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjAtMDctMTMvd2UtaGFzLWRlY2lkZWQtdG8tbWFrZS1tb25leT9jbXBpZD1C=
+QkQwODA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzA4MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB8f3b1073" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> talked a few years ago</a> about a shareholder la=
+wsuit against Oracle Corp. for not doing enough to implement its diversity =
+policies; now here=E2=80=99s one against Target for doing too much. =E2=80=
+=9CEverything is securities fraud=E2=80=9D started as mostly a left-ish sor=
+t of idea, that you could sue companies for securities fraud to punish <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMTEtMDYvZXh4b24tb=
+WlnaHQtYmUtaW4tdHJvdWJsZS1vdmVyLWNsaW1hdGUtY2hhbmdlP2NtcGlkPUJCRDA4MDkyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMDgwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2b2742=
+7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> pollution</a> or <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32347622.263413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjAtMDUtMDEvaXQtZG9lc24tdC1wYXktdG8tYmUtdG9vLWV0aGljYWw_Y21wa=
+WQ9QkJEMDgwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjMwODA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB971ee6ba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> sexual harassment</a>, but the idea is too g=
+ood and too all-purpose=C2=A0to be limited to one side of American politics=
+. Caring about diversity is securities fraud, and not caring about diversit=
+y is securities fraud, because everything is securities fraud, as long as t=
+he stock goes down.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">M&amp;A typo</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">On July 28, Biogen Inc. <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9BcmNoaXZlcy9lZGdhci9kYXRhLzEzNTg3NjIvMDAwMTE5MzEyNTIzMTk2ODEyL2Q0NTQ4OTZ=
+kZXg5OTEuaHRt/607f07ceef4b8524a319a23cBa871f019" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> agreed to acquire=
+</a> Reata Pharmaceuticals Inc. for <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32347622.263413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDctMjgvYmlvZ2VuLXRvLWV4cGFuZC1pbi1yYXJlLWRpc2Vhc2VzLXdp=
+dGgtNy0zLWJpbGxpb24tcmVhdGEtZGVhbD9jbXBpZD1CQkQwODA5MjNfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDkmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB52ba4265" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  abou=
+t $7.3 billion</a>, with the deal expected to close in the fourth quarter. =
+As is usual in a merger agreement, there are some <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTM1ODc2Mi8wMDAxMTkzMTI1MjMxOTg1NDMvZD=
+UyNzUzOWQ4ay5odG0/607f07ceef4b8524a319a23cB6353f9d6" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> provisions fo=
+r termination fees</a>: If Reata walks away because it gets a better offer,=
+ it has to pay Biogen $264 million; if Biogen fails to get antitrust approv=
+als, it has to pay Reata $301 million. Yesterday morning Reata filed its <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTM1ODc2Mi8wMDA=
+wOTUwMTcwMjMwMzkyMjUvcmV0YS0yMDIzMDYzMC5odG0/607f07ceef4b8524a319a23cCd7d75=
+0b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> quarterly report on Form 10-Q</a>, and it=C2=A0<em>almost=C2=
+=A0</em>described those fees correctly:</p>
+<blockquote><p style=3D"margin: 16px 0;">If the Merger Agreement is termina=
+ted under specified circumstances, we will be required to pay Biogen a term=
+ination fee of $264.0 million. =C2=A0The Merger Agreement also provides tha=
+t, in connection with the termination of the Merger Agreement under specifi=
+ed circumstances including antitrust related circumstances, Merck will be r=
+equired to pay us a termination fee of $301.0 million.</p></blockquote>
+<p style=3D"margin: 16px 0;">Oops! Merck &amp; Co. will not actually be req=
+uired to pay Reata a termination fee in any circumstances; Merck is an enti=
+rely different company and not involved in this merger. As far as I knew! B=
+ut=C2=A0I learned of this typo from an Evercore ISI research note saying =
+=E2=80=9CReata 10-Q implicates MRK as other bidder=E2=80=9D and noting that=
+ =E2=80=9Cthis disclosure is making the rounds in risk arb investor communi=
+ty,=E2=80=9D and Reata=E2=80=99s stock was actually up a bit yesterday. Is =
+it possible that Merck was competing with Biogen to buy Reata, Biogen won t=
+he deal but Reata still has unresolved feelings for Merck, this typo was Fr=
+eudian, Merck will read it that way and rekindle its interest in Reata, and=
+=C2=A0ultimately there will be a topping bid? Sure I dunno maybe. My sense =
+is that most typos in merger documents are not Freudian but are the result =
+of law-firm associates getting too little sleep and copying things from pre=
+cedents, but it would be very funny if this deal did get topped and this 10=
+-Q was the first sign of it, or even the cause.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">U.S. to Ban Some <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy91LXMtdG8tYmFuLXNvbWUtaW52ZXN0bWVudHMtaW4tY2hpbmEtNzFmNTE5ZDY_bW9kPW=
+hwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cBfb95c07e" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Investments in=
+ China</a>. NYSE, Nasdaq Battle for New Listings in Sign of <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cud=
+3NqLmNvbS9hcnRpY2xlcy9ueXNlLW5hc2RhcS1iYXR0bGUtZm9yLW5ldy1saXN0aW5ncy1pbi1z=
+aWduLW9mLWlwby1hd2FrZW5pbmctYmIyNWI4Zjg_bW9kPWhwX2xpc3RhX3BvczM/607f07ceef4=
+b8524a319a23cBa39bb7f6" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> IPO Awakening</a>. Abu Dhabi oil giant bui=
+lds <a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.26341=
+3/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZjlmMjY3NmItZGI3OC00ZTdjLTg4ZDYtMjJlM=
+zJjODQ5Njg3/607f07ceef4b8524a319a23cB12046e16" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">internal =E2=80=98in=
+vestment bank=E2=80=99</a> to chase $50bn in global deals. <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDkvaXRhbGlhbi1iYW5rcy1wYXlvd=
+XQtcGxlZGdlcy1zZWVuLWZlYXNpYmxlLWFmdGVyLXRheC1jYXA_Y21waWQ9QkJEMDgwOTIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMwODA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe0b451ea=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  Italian Banks=E2=80=99</a> Payout Pledges Seen Feasible After T=
+ax Cap. Banks Face Stepped-Up <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32347622.263413/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMDgtMDgvYmFua3MtZmFjZS1zdGVwcGVkLXVwLXNjcnV0aW55LWZyb20tZmVkLW=
+92ZXItY3J5cHRvLWFjdGl2aXRpZXM_Y21waWQ9QkJEMDgwOTIzX01PTkVZU1RVRkYmdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODA5JnV0bV9jYW1w=
+YWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa0d37882" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  Scrutiny =
+From Fed</a> Over Crypto Activities. <a href=3D"https://link.mail.bloomberg=
+business.com/click/32347622.263413/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNmIy=
+OGQzMWMtMWE2OS00MzA5LTk3NTItYTk2ZDc0NTVkMGU5/607f07ceef4b8524a319a23cBb5786=
+9e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Loan losses</a> at US banks hit $19bn as borrowers feel rate =
+rise pain. <a href=3D"https://link.mail.bloombergbusiness.com/click/3234762=
+2.263413/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDU0ZTZmMWUtMTM5OS00YTliLWEzYT=
+ctOGJiMzZmNjE0Yjk3/607f07ceef4b8524a319a23cB905f9de9" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> TED talks</a=
+> cross free speech =E2=80=98red line=E2=80=99 in Xi Jinping=E2=80=99s Chin=
+a. =E2=80=9CSiegel scrutinized Two Sigma=E2=80=99s website, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32347622.263413/aHR0cHM6Ly93d3cud=
+3NqLmNvbS9hcnRpY2xlcy90aGlzLWhlZGdlLWZ1bmRzLXR3by1mZXVkaW5nLWZvdW5kZXJzLWFy=
+ZS11bmRlci1wcmVzc3VyZS10by1tYWtlLXBlYWNlLTZlOWRhZDkzP21vZD1ocF9sZWFkX3Bvczg=
+/607f07ceef4b8524a319a23cBaf0a9db4" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> upset if his biography was sho=
+rter than Overdeck=E2=80=99s</a>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32347622.263413/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB333900f5" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32347622.263413/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB19edb2b8" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Actually Penn bought a minority interest i=
+n Barstool in 2020, and bought the rest of it this February, but from the b=
+eginning there were <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32347622.263413/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzkyM=
+TczOC8wMDAwOTIxNzM4MjMwMDAwMTAvcGVubi0yMDIyMTIzMS5odG0jaWQ2N2U5YjAwOGZmMzQ2=
+YWZiNjZiMDQyNTM3ZDMzYmMxXzE1NA/607f07ceef4b8524a319a23cBfe9543a5" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ put/call options</a> that made it likely that Penn would be a complete own=
+er eventually. It=E2=80=99s not quite that Penn decided to buy all of Barst=
+ool in February and then to sell it in August.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Not really. If you actually do destroy the=
+ value of your business, you can buy it back for $0 but it=E2=80=99s worth =
+$0. Here, though, I suppose it is crafty for Portnoy to be controversial in=
+ a way that thrills his fans and alienates gaming regulators: That makes hi=
+s business worth less *to Penn* (as a gambling brand), but more *to himself=
+* (as a generator of media controversy).</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Conceivably they should have asked for 99%=
+ of the proceeds, but I suppose that they=E2=80=99re better off if he does =
+have some incentive to sell it and to maximize the price, so 50% is probabl=
+y about right.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB11cc7ae4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0aaf6cff" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBb45411d5" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB304e61d4" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBc33da554" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.2634=
+13/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBdab0013a" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32347622.263413/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3f8ba6dc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32347622.263413/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB05652407" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32347622.263413/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb80810eb" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+7cca44f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32347622.263413/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+ca2abe3" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj9bl2.5n91/d5f6dff1.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7810238_195593882.1691604532919--
+

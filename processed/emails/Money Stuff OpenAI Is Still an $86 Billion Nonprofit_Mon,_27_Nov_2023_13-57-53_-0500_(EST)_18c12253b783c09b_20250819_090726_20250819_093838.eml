@@ -1,0 +1,2359 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:4c01:b0:67a:d34:be6f with SMTP id qh1csp3183470qvb;
+        Mon, 27 Nov 2023 10:57:59 -0800 (PST)
+X-Received: by 2002:adf:e9c3:0:b0:332:ff83:ca97 with SMTP id l3-20020adfe9c3000000b00332ff83ca97mr3346976wrn.40.1701111479131;
+        Mon, 27 Nov 2023 10:57:59 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1701111479; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DcnrigOJyzbK1kKlQbRNWAADeMHDFT1DkC/nJwqlkveiwJ7mbsz41pLbzxV2TEBim+
+         3kqM57Zuj1Fe/EyfQshc+EypLvdNuYW7wJkb+Zy9FEYD6pbPRccuVf0QqzucZrlSjuoT
+         jKtsRAP1e8LCPXz5AriS2IKFm2jRN17oeBcG5sYAPV6tAxiiGF1MewrjSR4GRfFVHv5P
+         jqHoBRCmXyJmxCrl7zjOFtReigNdv6txInzhkhYNvYCjVuwqWcnZfhywJP7YmFDGqa2d
+         TW3n9f8c1NoZVdh5P5dz/W94J7tDeBFl/uK0KZSz1xZDQoTyOHz8C3bpE7xemMORu6+B
+         4OAw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=7EltwmeU9qZD5y1LW+Zcg7wXnC+iFUc+S1YptigYaig=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=gVlvrnLDxIcXuAEJmoBNclIm4T8yL9Suo8OJRNFHU2dbkBTefWU+KpeBOPuHa7fHG+
+         yrX4vWJO0FDeh2Cwew53y6osl7RCARMwHGrub7hmTh4QsZ+ZN4Jwea7z0rm+jGv/4zvO
+         QsbTF/Bv+/rLy6olS+Q/BaOIs5g/Y6atQAiMXUrIhMm1D4lRswa3CvYzhLoioZrFxVHC
+         wUl9wfPzlGQLSpvLZXOsfOtXJV8euNx6KqgdE+J5oO9mFZ7i9EwBh8mxOJ6hiiXXXFvJ
+         08wlOLL7wHODBqLQIMs4EAkmp60lC14y0Omu6CcI6ZsZvBSLtznkcALrzt3L2uV5OsZN
+         Ordg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="m/Dm46Du";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z12-20020a5d640c000000b0032fccc15b57sor2408707wru.2.2023.11.27.10.57.58
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Nov 2023 10:57:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="m/Dm46Du";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1701111478; x=1701716278;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=7EltwmeU9qZD5y1LW+Zcg7wXnC+iFUc+S1YptigYaig=;
+        b=ryX2ztROGUHV/6e6FJXmbh+8H4EuONewqDqzqz5vx04akiRu1LCdRZEpGmqY2oq07h
+         idmD18MBJ7e2i//YQJGlF/2HFiDusBL2LQmfjlPQktlGE8I+9k2xbJMa4H1kcFQuuY86
+         wsEAv+G2eKV67ZKNru2ln10APqckWTZz6bptCgkUyLA06v+ZdLFr/oyP5jTg5jI/SgZ2
+         psDG9zuWu7RTwnAdFbXs9UHZKkMwlfBt+/hSUjo/bsQHiXG6DZZ7GyaHAoOQEZHpYVNs
+         52CNPAOV3M7uBJ9fuyuGWxftxral6683GzbVXGxNGNOPEvgZjbfX4GjRZ0T9b+cuHGFK
+         VPpA==
+X-Gm-Message-State: AOJu0YxLY0bxbUqgTZMFX4A85K3jIEFWYGPhPWJAa+WceHKYEaI4yO0c
+	YdPO33XKC/SHk9/92BWTDxdCT1D5JEACXMCrEm8zfHBhO7pYFdTO5Q==
+X-Received: by 2002:a05:6000:4c7:b0:332:f3c9:1c8f with SMTP id h7-20020a05600004c700b00332f3c91c8fmr5509219wri.16.1701111478534;
+        Mon, 27 Nov 2023 10:57:58 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ed90:0:b0:332:e438:de51 with SMTP id c16csp2522371wro;
+        Mon, 27 Nov 2023 10:57:54 -0800 (PST)
+X-Received: by 2002:a05:6122:4586:b0:49d:723f:590b with SMTP id de6-20020a056122458600b0049d723f590bmr12947964vkb.7.1701111474555;
+        Mon, 27 Nov 2023 10:57:54 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1701111474; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0OZHSo585zTjeisBB7DEJGvkI4K8IbPMbE8Yl1WV/7aR2PwWZDASYlwT6ed72mFsuT
+         j42uQk6jNlAdZJcUYZPxbiNpe8wXGXeeO239es4ONbjqWtdkwnZubTQJXZ/MmXZ+kuPd
+         F1XBbn1S0ryiqPvKkjVm39ELrG5u6F23TE6j29VR5w9enlWIkxUgPvPlanBvwttmjJig
+         O2DKHRRBaqw/Wf/AfRgE7mmkK+iVVs2CJrXGgtqWL+Cyn6HKH0oM4q34udk5A3JQ8VL8
+         8Csr9MP/wkreyRHakSEbSBXB1kJL31Z2mAMgMNciH14qlFc0WyjLepnxD5RVi6tsqt+d
+         d6Wg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7EltwmeU9qZD5y1LW+Zcg7wXnC+iFUc+S1YptigYaig=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=pnlstwiPKqYjcSzQwXnQm4nsQLgL1Qt94ZcdkQ1eB4fhcnKMMg421posgyrF4HQKK1
+         +uk9rUbT3vDELEoZA+I4VpfKy11UdNTBzEx3ddVvrmCQwFn2/4FzFuBzG6UhCDFoa7xP
+         2MZBH+BQaYfTW+3FFPRF82vdYQ1oqI8QwsoVAR7xq+GPzmhZUjEHiC1amlZdpniQBp4/
+         XVFQDtQCf+mLjoOb078QWAmdoE4rUAwHhR1bXm/MGczHAM/nlC6LbgfOK5FePlLfhn0r
+         wmSdOocxBEFg2lAf45nxwJPYVpgzhYl5fz3/zESTGmwWLrFnCy5J4CMMQIPxsoSa5IMR
+         MlvA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="m/Dm46Du";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231127135753.33498739.286429@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231127135753.33498739.286429@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231127135753.33498739.286429@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m7-20020ac5cfc7000000b004ac11eb4360sor2156484vkf.3.2023.11.27.10.57.54
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Nov 2023 10:57:54 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231127135753.33498739.286429@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGtb66oOwHsL9WrIg0rpKiUt+nfwPG3CLoQHEMPlZL+uIc1LPybNjLrj2DcnfBf1ow6dfsMJMvGFRh/hf0L4fvGGOhbCKc=
+X-Received: by 2002:a05:6122:c94:b0:49c:79f3:27a4 with SMTP id ba20-20020a0561220c9400b0049c79f327a4mr13750070vkb.3.1701111474195;
+        Mon, 27 Nov 2023 10:57:54 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701111474; cv=none;
+        d=google.com; s=arc-20160816;
+        b=WHVgr4ph98wQ3nwthytpTmXGAh/Cz02kRAC28uBI50MgDGfSrJB/Qte0QqGWHFI71/
+         A6ti3MHAQYzTNwY2j4IKdGFXQ+rkJLopo1SVkwkZfgvF7C6OHbr0+/Z8zsnDbNpxuKR+
+         WDwopxAY+0UX4j2Yfk9vdQxAZbaiBq2fmreqab5G/jN2U76pP0MKd+WfAcNBD5fTIr/Y
+         Xj7gSw2wWS9IfjAZ9HVbP6t4IQbiZSG8fh5E0nkhxcnUGFkQM5qt/d/NBbPAj5sFy5Tg
+         cpkaKo1zZ3MSHdFXPaPVBqUaSKitM3fwlbDtqVUy7Afxog6KP+fX5jxiEaNy+1NLvnEl
+         UiSg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7EltwmeU9qZD5y1LW+Zcg7wXnC+iFUc+S1YptigYaig=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=MQOh2uisRAucb9tebhdxs2GBJWo6F8JjXLe9Bvjae7OeNbz3PnLZKaHs2VwP2Fr2qH
+         4FMhuskSo7vQbiY9AWwlp2qKSL8oW7aQkZTx9y+p6S8tiVqKvJ/x0bguJtAgPzqulGo4
+         2TltSoj8yv3Em1UHHer+rkJDsoUIdJgzuBJU/0LH2csiK00ztEngaVahTi928oRoYwaI
+         BrB3jIDfeviXxQAZ5z3eDllQP+/9EyM5aahm8QDBvetRVV/hg1aW9KdaEs+OhEG3MchO
+         ZI5CUEhrmMum0u0EtfF4r59unt1UXjDvFNxCIoQzTQk/O/bNs37CzI+7/bFftNLQXqn4
+         jDpA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="m/Dm46Du";
+       spf=pass (google.com: domain of delivery_20231127135753.33498739.286429@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231127135753.33498739.286429@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231127135753.33498739.286429@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ge31-20020a0561224e1f00b004abd0f58a5esi1227572vkb.2.2023.11.27.10.57.54
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 27 Nov 2023 10:57:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231127135753.33498739.286429@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=3ITxUTNSJhbygfmC7B/ZicWHnItVHISL4L2dXRSQZrM=;
+ b=m/Dm46DuWaoobjsXxA6yZ4DOfcUYfsmakl1nDEmwGKyRcwFZirE72D8rJUIL6tQ1EZJ9RRvoGFvA
+   wkhOo/zcoeA1mVamPUzEFABwCr7c2HHPBzmWUt2CTGHSMawsmJFG6sgK+cmt1JXAim0J3R0fhihU
+   0GaTYQd8Oy/DehaODEE=
+Received: from aws1-mta-relay5.sailthru.cloud (10.55.76.97) by bloomberg-b.sailthru.com id hcjjb230nu8m for <bloomberg@khamel.com>; Mon, 27 Nov 2023 12:57:53 -0600 (envelope-from <delivery_20231127135753.33498739.286429@mx.sailthru.com>)
+Date: Mon, 27 Nov 2023 13:57:53 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231127135753.33498739.286429@sailthru.com>
+Subject: Money Stuff: OpenAI Is Still an $86 Billion Nonprofit
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_132608000_2040397856.1701111473548"
+Precedence: bulk
+x-job: 6358-33498739-20231127
+X-Feedback-ID: 6358:33498739:campaign:sailthru
+X-TM-ID: 20231127135753.33498739.286429
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-80-231.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjxzsj.650d/978938c1
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjxzsj.650d/978938c1>, <mailto:unsubscribe_20231127135753.33498739.286429@mx.sailthru.com>
+X-rpcampaign: stjko33498739
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_132608000_2040397856.1701111473548
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Ten days ago OpenAI was worth $86 billion. Investors in OpenAI were=
+ about to launch a tender offer to buy employee shares at that valuation,
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      OpenAI
+   =20
+ =20
+
+Ten days ago OpenAI was worth $86 billion. Investors in OpenAI were about t=
+o launch a tender offer to buy employee shares at that valuation, and emplo=
+yees were lining up to tender; there were willing buyers and sellers at tha=
+t price. Then events occurred. There was a boardroom coup, and OpenAI=E2=80=
+=99s founder and chief executive officer, Sam Altman, was fired. At one poi=
+nt, the valuation of OpenAI was apparently=C2=A0zero dollars:=C2=A0Several =
+OpenAI investors were noisily saying that they were going to   write down t=
+heir shares to zero,
+  [1]
+ and it looked like Microsoft Corp. was about to  acquire most of OpenAI=E2=
+=80=99s staff=C2=A0without paying the company (or its other investors) anyt=
+hing for them.
+But then there was another boardroom coup, Altman   got his job back, and m=
+ost of the directors who fired him were themselves fired. Altman returned, =
+and there have been suggestions that he=C2=A0(and Microsoft, OpenAI=E2=80=
+=99s biggest investor) extracted some promises=C2=A0that this sort of thing=
+ won=E2=80=99t be allowed to happen again, that there will be fundamental g=
+overnance changes to make OpenAI more robust and, probably, more commercial=
+.=C2=A0
+So how much should OpenAI be worth=C2=A0today?=C2=A0Some possible answers:
+=09Less than $86 billion, for governance reasons: After a rapid rise in pro=
+minence and valuation, OpenAI revealed some serious cracks,=C2=A0causing it=
+s valuation to become zero dollars for a while, meaning that investors shou=
+ld be far more cautious about it now than they were before. It is more vola=
+tile than people thought. The lesson of the last week, I  suggested on Tues=
+day, might be =E2=80=9Cdon=E2=80=99t invest in nonprofits at an $86 billion=
+ valuation=E2=80=9D; maybe investors will learn that lesson.=C2=A0=09More t=
+han $86 billion, for governance reasons: Those cracks were there from the b=
+eginning, and investors presumably accounted for them in that $86 billion v=
+aluation. But now that Altman has won his power struggle and  cemented his =
+control, the future OpenAI  will be=C2=A0less=C2=A0weird and nonprofit-y an=
+d afraid of its own shadow. It=E2=80=99s the same exciting business but wit=
+h better, more investor-friendly governance, so it should be worth more to =
+investors.=09Less than $86 billion, for governance reasons (2): Did=C2=A0Al=
+tman win his power struggle? Ten days ago, he was the CEO and a board membe=
+r; now he is off the board. Ben Thompson quotes a  Reddit post arguing that=
+ the drama was precipitated by Altman=E2=80=99s=C2=A0efforts to seize total=
+ control of the board, and that the other board members outmaneuvered him, =
+with the result that his power has been diminished. The other board members=
+ =E2=80=9Cget the outcome they want: Sam and Greg [Brockman] gone from the =
+board; Adam [D=E2=80=99Angelo] remains, who has experience of Sam and Greg=
+=E2=80=99s shenanigans; and two mutually agreeable independent board member=
+s are added=E2=80=9D who will presumably rein in Altman.=09More than $86 bi=
+llion, for governance reasons (2): Maybe a board that reins in Altman will =
+start by reining in his   extracurricular AI-related business ventures (a c=
+hip company, =E2=80=9Can AI-focused hardware device=E2=80=9D) and make him =
+focus more on OpenAI, which will be good for the company. =E2=80=9CWhen Alt=
+man returns, he=E2=80=99ll likely have to address claims that he=E2=80=99s =
+been distracted by a number of projects, including those outside OpenAI,=E2=
+=80=9D  reports the Information. Maybe he=E2=80=99ll do the hardware stuff =
+within OpenAI instead of in a new startup, creating more value for OpenAI i=
+nvestors.=09Less than $86 billion, for straightforward business reasons: Th=
+e instability of the last week was bad for customers, who will be reluctant=
+ to base their AI strategies on OpenAI and will shift to its competitors.  =
+Thompson writes: =E2=80=9CAny company would have to think long and hard abo=
+ut basing their business on OpenAI=E2=80=99s API.=E2=80=9D=09More than $86 =
+billion, for business reasons: This last week sure drew a lot of=C2=A0atten=
+tion=C2=A0to OpenAI and its products and their capabilities, and if you thi=
+nk of OpenAI as basically a consumer internet company then any attention is=
+ good. If you read a week of press about how OpenAI=E2=80=99s board members=
+ are afraid that its product will enslave humanity, I mean, that is kind of=
+ good advertising for the capabilities of that product?=09More than $86 bil=
+lion, for technological reasons.=C2=A0One precipitating event of the boardr=
+oom coup might have been a breakthrough in OpenAI=E2=80=99s research. Reute=
+rs  reported=C2=A0that =E2=80=9Cseveral staff researchers wrote a letter to=
+ the board of directors warning of a powerful artificial intelligence disco=
+very that they said could threaten humanity,=E2=80=9D and the Information  =
+reported=C2=A0that this was =E2=80=9Can innovation by the company=E2=80=99s=
+ researchers earlier this year that would allow them to develop far more po=
+werful artificial intelligence models,=E2=80=9D including a model called Q*=
+ that=C2=A0=E2=80=9Cwas able to solve math problems that it hadn=E2=80=99t =
+seen before.=E2=80=9D If you were willing to buy OpenAI stock at an $86 bil=
+lion valuation as a bet that it would develop increasingly powerful AI mode=
+ls, evidence that it has in fact developed increasingly powerful AI models =
+should cause you to increase your valuation.
+  [2]
+
+=09Less than $86 billion, for regulatory reasons: All this drama is going t=
+o increase regulatory attention on AI, and new rules will make it harder fo=
+r OpenAI to innovate and commercialize rapidly.=09More than $86 billion, fo=
+r regulatory reasons:=C2=A0All this drama is going to increase regulatory a=
+ttention on AI, and new rules will make it harder for OpenAI=E2=80=99s=C2=
+=A0smaller competitors=C2=A0to innovate and commercialize rapidly, leaving =
+it with a head start on building=C2=A0a monopoly.=09Precisely $86 billion: =
+Nothing worth thinking about=C2=A0happened over the last 10 days.
+
+I think that last answer is obviously insane but I am not a venture capital=
+ist! We talk a lot around here, in a semi-joking way,=C2=A0about this   app=
+ealing feature=C2=A0of private market investments: They are less volatile t=
+han public investments, because when dramatic shifts in markets or fundamen=
+tals happen,=C2=A0you can ignore them=C2=A0and just say that the value of y=
+our private investments is miraculously unchanged. Without a market price, =
+you never need to mark to market.=C2=A0It would be very, very funny if the =
+events of the last 10 days caused=C2=A0no change=C2=A0in the valuation of O=
+penAI. And yet!  The Information reported last week:
+
+An OpenAI employee share sale that values the firm at $86 billion is back o=
+n track following Sam Altman=E2=80=99s reinstatement as CEO late Tuesday ni=
+ght, a person familiar with the matter said. The deal, in which a group of =
+investors led by Thrive Capital will buy up to $1 billion of stock=E2=80=94=
+and conceivably more=E2=80=94held by employees or other investors, is expec=
+ted to close next month. =E2=80=A6
+In a statement, a spokesperson for the Josh Kushner=E2=80=93run Thrive said=
+ they were impressed by the =E2=80=9Cresilience and strength=E2=80=9D they =
+witnessed over the last few days and that they =E2=80=9Cconsider it a true =
+honor to be their partners now and in the future.=E2=80=9D
+
+Though the Financial Times  is less confident:
+
+An upcoming sale of shares in OpenAI is set to test how much the past week=
+=E2=80=99s leadership chaos has cost the company and its backers, though bi=
+g investors are bullish about securing a high valuation.
+The employee stock sale, which had been planned before the sacking last wee=
+k of chief executive Sam Altman and expected to value the company at $86bn,=
+ will continue as planned, according to two investors with direct knowledge=
+ of the matter.=C2=A0
+Investors remain confident that a new share sale can still treble the $29bn=
+ valuation placed on OpenAI when Microsoft committed to invest $10bn in the=
+ company at the start of this year.
+=E2=80=9CClearly this almost destroyed a lot of value in the short term, it=
+=E2=80=99s hard to say what happens next,=E2=80=9D said Vinod Khosla, an ea=
+rly investor in OpenAI. =E2=80=9CValuation is a function of investor percep=
+tions. The company is the same or better off than it was last Thursday.=E2=
+=80=9D
+But analysts have suggested that OpenAI will be hit by the week=E2=80=99s e=
+vents, with rival groups such as Google and Amazon representing strong and =
+stable challengers in the race to offer generative artificial intelligence =
+services to businesses and consumers.
+
+I don=E2=80=99t know that there are still willing buyers and willing seller=
+s at that $86 billion price, or that there are as many of them as there wer=
+e 10 days ago, but it seems like there might be. Doesn=E2=80=99t someone ha=
+ve to be wrong? I suppose it is possible that the answer is =E2=80=9Cthe di=
+stribution of possible OpenAI outcomes is much wider than it was 10 days ag=
+o, but the midpoint of that distribution is still $86 billion,=E2=80=9D but=
+ what a weird coincidence that would be.
+Actually another possible answer is that the distribution of outcomes is=C2=
+=A0narrower=C2=A0than it used to be. Like, 10 days ago:
+=09I suppose it was=C2=A0possible that Altman would come to the board and s=
+ay =E2=80=9Cthis nonprofit stuff isn=E2=80=99t working, we need to fire you=
+ and become a regular for-profit startup.=E2=80=9D I mean,=C2=A0OpenAI used=
+ to be=C2=A0entirely=C2=A0a nonprofit, and now it is a hybrid nonprofit/cap=
+ped-profit entity, and you might have expected it to continue to move in th=
+at direction.=09Conversely, it was totally possible that the nonprofit boar=
+d would fire Altman and burn the company to the ground in order to prevent =
+it from developing unsafe artificial intelligence. (=E2=80=9CAllowing the c=
+ompany to be destroyed =E2=80=98would be consistent with the mission,=E2=80=
+=99=E2=80=9D  a board member apparently told employees.)
+
+And then these last 10 days have cut off some of those possibilities. The f=
+irst possibility =E2=80=94=C2=A0OpenAI becomes purely for-profit =E2=80=94=
+=C2=A0I guess is still open, but it might be less likely, given the fierce =
+resistance the old board put up and the fact that that board still has a re=
+presentative on the new board. Altman =E2=80=9Calso agreed to an internal i=
+nvestigation into the conduct that led to his dismissal,=E2=80=9D which sug=
+gests that there will still be a counterbalance to his power in the new com=
+pany, and limits on his ability to do, uh, whatever that conduct was.
+The second possibility =E2=80=94=C2=A0burn the company to the ground, etc. =
+=E2=80=94=C2=A0seems much less likely now. The=C2=A0board did fire Altman, =
+and it almost burned the company to the ground, and then the board blinked,=
+ and presumably the new board (and any future board)=C2=A0won=E2=80=99t do =
+that again. Like, they tried that, they saw what happened, they didn=E2=80=
+=99t like it,=C2=A0lessons have been learned, and that is no longer an opti=
+on for the board.
+And so for instance consider Microsoft Corp., which has committed some $13 =
+billion to OpenAI and relies on its products for its AI strategy. One possi=
+ble conclusion for Microsoft to draw from this drama would be =E2=80=9Cwe n=
+eed much more robust legal protections, and a board seat, so that this does=
+n=E2=80=99t happen again.=E2=80=9D But another possible conclusion would be=
+ =E2=80=9Cactually no, it turns out we have plenty of leverage already, we =
+got what we wanted after a few tense days, so we don=E2=80=99t need a board=
+ seat after all.=E2=80=9D The Wall Street Journal  reported last week:
+
+Even after investing $13 billion, Microsoft didn=E2=80=99t have a board sea=
+t or visibility into OpenAI=E2=80=99s governance, since it worried that hav=
+ing too much sway would alarm increasingly aggressive regulators. That left=
+ Microsoft exposed to the risks of OpenAI=E2=80=99s curious structure. Altm=
+an=E2=80=99s company was set up as a nonprofit with a board whose primary r=
+esponsibility wasn=E2=80=99t maximizing shareholder value but developing sa=
+fe AI =E2=80=9Cthat benefits all of humanity.=E2=80=9D By not having a boar=
+d seat, Microsoft ended up blindsided. The company was also vulnerable to A=
+ltman leaving to start another company and taking employees with him=E2=80=
+=94or, in a possibility that seemed remote until suddenly it was reality, O=
+penAI=E2=80=99s board firing him without asking for input from its biggest =
+investor. =E2=80=A6
+Microsoft has had to strike a tricky balance with OpenAI: safeguarding its =
+investment while ensuring that its ownership stake remained below 50% to av=
+oid regulatory pitfalls.
+
+And there were moments last week when it looked like Microsoft had gotten t=
+hat balance wrong, and its investment might be worthless. But not too many =
+of them? The worst case seems to have been mostly =E2=80=9CMicrosoft hires =
+Altman and all of his employees and has basically acquired OpenAI for=C2=A0=
+$13 billion=E2=80=9D; the best case=C2=A0=E2=80=94 and largely=C2=A0the act=
+ual outcome =E2=80=94=C2=A0was =E2=80=9CMicrosoft can tell OpenAI=E2=80=99s=
+ board what to do even without having a board seat.=E2=80=9D No board seats=
+ and tons of practical leverage is probably better, for economic and regula=
+tory reasons, than having a board seat. And now everyone knows!
+Last Monday, I   wrote a column the gist of which is =E2=80=9Csure the nonp=
+rofit OpenAI board technically controls the company and Microsoft and the o=
+ther investors have no legal rights, but practically the investors have the=
+ money=C2=A0and they will probably get what they want.=E2=80=9D I qualified=
+ that conclusion,=C2=A0because at the time the investors conspicuously had =
+not gotten what they wanted, but by Tuesday night they did. It turns out th=
+at Microsoft=E2=80=99s informal sources of leverage were in fact good enoug=
+h. It turns out that, in exactly the right circumstances, investing $13 bil=
+lion in a nonprofit at an $86 billion valuation is fine.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Further OpenAI
+   =20
+ =20
+
+A few quick points.
+First, University of Kentucky law professor=C2=A0Alan James Kluegel emailed=
+ me to suggest a=C2=A0theory that maps the OpenAI conflict =E2=80=94=C2=A0b=
+etween its nonprofit board that worried=C2=A0about AI safety, and its emplo=
+yees who love Altman and wanted him back =E2=80=94=C2=A0onto a straightforw=
+ard valuation dispute:
+
+The board is made up of AI evangelists; the reason they openly worry about =
+AI getting too powerful is out of a belief in the potential for a godlike A=
+I or at least out of concern that this soon-to-be-ubiquitous technology sho=
+uld be in its best possible shape before being distributed to the world. ..=
+.
+The employees, however, are familiar with all of the AI=E2=80=99s limitatio=
+ns and problems and costs, and =E2=80=94 being Silicon Valley veterans =E2=
+=80=94 are also familiar with the hype cycle at play here. =E2=80=A6
+In other words, this is a story about the employees wanting to secure the b=
+ag while the unrealized potential of their product has captured everyone=E2=
+=80=99s attention and imagination, and Sam Altman=E2=80=99s fundraising (an=
+d the Thrive Capital tender offer, in particular) was going to be their gol=
+den ticket =E2=80=94=C2=A0until the starry-eyed board killed their payday i=
+n a flurry of techno-optimistic excitement.
+
+This is absolutely not at all what anyone was=C2=A0saying, and I suspect th=
+at it is not what anyone was=C2=A0thinking, but I like it as an objective e=
+xplanation of what they were=C2=A0doing. It is not unheard-of=C2=A0for a st=
+artup to get a pretty high valuation, and for its employees to think =E2=80=
+=9Chey let=E2=80=99s cash out while the money is there,=E2=80=9D while its =
+board members are venture capitalists with diversified portfolios and liqui=
+dation preferences who are more willing to wait and gamble. Venture capital=
+ist board members are=C2=A0supposed=C2=A0to be able to take the long view a=
+nd bet on changing the world, while employees are often more risk-averse an=
+d need cash to pay the mortgage.
+  [3]
+
+OpenAI=E2=80=99s board members are not venture capitalists, don=E2=80=99t o=
+wn equity at all,=C2=A0are not motivated by hopes of a trillion-dollar valu=
+ation, and were in fact adverse to its venture capitalist investors. And ye=
+t I think the model=C2=A0applies. They took a very long and grandiose view =
+of the importance of their product and its ability to change the world, whi=
+le the employees would like to see some cash now.
+Second, we   talked last week about the oddity of OpenAI as a nonprofit org=
+anization with a board that does not answer to shareholders. Tyler Cowen  p=
+ointed out that the literature on nonprofit governance is pretty negative, =
+quoting  a 2014 paper by George Dent:
+A remarkable consensus of experts on NPOs agrees that their governance is g=
+enerally abysmal, considerably worse than that of for-profit corporations. =
+NPO directors are mostly ill-informed, quarrelsome, clueless about their pr=
+oper role, and dominated by the CEO=E2=80=94as proponents of shareholder pr=
+imacy would predict.
+=E2=80=9CDominated by the CEO=E2=80=9D was apparently not true of OpenAI, b=
+ut you gotta give them =E2=80=9Cquarrelsome.=E2=80=9D
+Third, I really do have to quote last week=E2=80=99s incredible  Wall Stree=
+t Journal report about the board=E2=80=99s non-explanation of what Altman d=
+id to get himself fired:
+
+On the call, the leadership team pressed the board over the course of about=
+ 40 minutes for specific examples of Altman=E2=80=99s lack of candor, the p=
+eople said. The board refused, citing legal reasons, the people said. =E2=
+=80=A6
+The board agreed to discuss the matter with their counsel. After a few hour=
+s, they returned, still unwilling to provide specifics. They said that Altm=
+an wasn=E2=80=99t candid, and often got his way. The board said that Altman=
+ had been so deft they couldn=E2=80=99t even give a specific example, accor=
+ding to the people familiar with the executives.=C2=A0
+
+=E2=80=9CWithout realizing it, we were gradually overmatched by a=C2=A0supe=
+rior intelligence, until he ended up controlling us in ways that are too su=
+btle for us to even explain,=E2=80=9D thought the AI-nervous board of OpenA=
+I. I love them. Their fears about rogue AI are   such obvious metaphors for=
+ their mundane real-life problems.=C2=A0
+Fourth, last week   I asked some questions like =E2=80=9Cdid [Microsoft]=C2=
+=A0agree to any sort of non-compete or non-solicit,=E2=80=9D and =E2=80=9Cd=
+oes Altman have any sort of non-solicit?=E2=80=9D I was careful not to ask =
+=E2=80=9Cdid OpenAI=E2=80=99s employees sign non-competes,=E2=80=9D because=
+ I am aware (not legal advice!) that employee non-competes  don=E2=80=99t w=
+ork in California. But a lot of readers emailed me to point that out anyway=
+, and also pointed out that non-solicitation clauses are also  generally  n=
+ot enforced in California. So, there, that=E2=80=99s why.
+Finally, it is a  long-running schtick of this column that whenever I take =
+a day off, Elon Musk does something crazy. I took much of last week off for=
+ Thanksgiving. =E2=80=9CI guess by Monday Elon Musk is going to own OpenAI =
+and Binance,=E2=80=9D I  threaded.=C2=A0But I wasn=E2=80=99t really worried=
+ until OpenAI=E2=80=99s new board  was announced.=C2=A0The chairman is=C2=
+=A0Bret Taylor, who was also the chairman of the board of Twitter Inc. when=
+ Musk bought it. I don=E2=80=99t really think that Musk is going to buy Ope=
+nAI, but I am going to take some time off for the holidays in December so w=
+ho knows.
+
+ =20
+   =20
+      Binance
+   =20
+ =20
+
+Here are two possible=C2=A0theories of what Binance=C2=A0is:
+=09Binance is the world=E2=80=99s leading crypto exchange, a large financia=
+l institution that allows investors, speculators, hedgers and other users t=
+o transact in the trillion-dollar cryptocurrency sector. It is in many ways=
+ the leading financial institution in crypto, but it is fairly young and ag=
+gressive, and it has not always been very careful about compliance. In part=
+icular, it has not been careful about anti-money-laundering and know-your-c=
+ustomer checks, and so has allowed a certain number of bad people to do bad=
+ transactions using crypto.=09Binance is a place for laundering money.
+
+These theories differ in degree; they start from similar facts but emphasiz=
+e them differently. Nobody disputes that a lot of criminals have laundered =
+money on Binance. =E2=80=9CFor example,=E2=80=9D the US Department of Justi=
+ce pointed out in a  criminal information against Binance last week, =E2=80=
+=9Cin a February 2019 chat conversation, one compliance employee wrote, =E2=
+=80=98we need a banner =E2=80=9Cis washing drug money too hard these days =
+=E2=80=94=C2=A0come to binance we got cake for you.=E2=80=9D=E2=80=99=E2=80=
+=9D If your=C2=A0compliance employees=C2=A0are suggesting that you=C2=A0adv=
+ertise your drug money laundering business, that seems bad.
+  [4]
+
+And yet last week=E2=80=99s US federal charges against Binance struck me as=
+ fairly gentle. The US Securities and Exchange Commission, in practice thou=
+gh not in so many words, takes the position that=C2=A0crypto exchanges are =
+fundamentally illegal; the practical goal of=20
+its crypto enforcement actions (including against Binance) is to shut them =
+down, or at least shut them out of the US. The US Department of Justice doe=
+s=C2=A0not=C2=A0take that position; its basic theory of Binance is that Bin=
+ance messed up, a lot, and has to pay a huge fine and change its practices,=
+ but that it can go ahead and do that. It=E2=80=99s a basically legitimate =
+business with a money laundering problem, the Justice Department thinks. Wh=
+ich is a pretty good outcome?
+Anyway here are the Justice Department  press release from last Tuesday, th=
+e  charging document=C2=A0and Attorney General  Merrick Garland=E2=80=99s r=
+emarks. Binance will pay about $4.3 billion and =E2=80=9Cretain an independ=
+ent compliance monitor for three years and remediate and enhance their anti=
+-money laundering and sanctions compliance programs.=E2=80=9D There was a t=
+ime, not so long ago, when people thought that it was a death blow to a fin=
+ancial institution to make it plead guilty to criminal charges. But   that =
+time ended, and now it is =E2=80=A6=C2=A0not routine, maybe, but kind of ac=
+ceptable for a big bank or other financial institution to plead guilty to c=
+rimes. Binance is in some sense just a financial institution like any other=
+, and paying $4.3 billion to settle compliance problems is =E2=80=A6=C2=A0a=
+lmost a step toward=C2=A0the mainstreaming of crypto?
+Maybe that is too glib. Binance founder=C2=A0Changpeng =E2=80=9CCZ=E2=80=9D=
+ Zhao=C2=A0pleaded guilty to his own federal crimes and agreed to step down=
+ as chief executive officer; he faces prison time, which is pretty unusual =
+for the CEO of a financial institution.  Patrick McKenzie argues that this =
+is the beginning of the end for Binance, that it =E2=80=9Cis going to be sl=
+owly ground into a very fine paste.=E2=80=9D But my impression is that US p=
+rosecutors can make varying amounts of hay out of =E2=80=9Cthis company sen=
+t money to terrorists,=E2=80=9D and in this case they are   making an=C2=A0=
+average=C2=A0amount of hay. This reads, to me, like the guilty plea of a tr=
+oubled=C2=A0financial institution, not the guilty plea of a criminal conspi=
+racy that the government wants to end.
+To be clear, though, Binance=E2=80=99s compliance  was very bad:
+
+Binance also did not implement the core components of an effective AML prog=
+ram: Binance did not implement comprehensive know-your-customer (KYC) proto=
+cols or systematically monitor transactions, and Binance never filed a susp=
+icious activity report (SAR) with FinCEN. For years, Binance allowed users =
+to open accounts and trade without submitting any identifying information b=
+eyond an email address. Binance began requiring all users to provide KYC in=
+formation in August 2021 but allowed users who had not provided KYC to cont=
+inue trading on the exchange until May 2022. ...
+As Binance=E2=80=99s internal communications showed, Binance=E2=80=99s comp=
+liance employees recognized that Binance did not have protocols to flag or =
+report transactions for money laundering risks, which employees recognized =
+would attract criminals to the exchange. As one compliance employee wrote, =
+=E2=80=9Cwe need a banner =E2=80=98is washing drug money too hard these day=
+s - come to binance we got cake for you.=E2=80=99=E2=80=9D Due in part to B=
+inance=E2=80=99s failure to implement an effective AML program, illicit act=
+ors used Binance=E2=80=99s exchange in various ways, including conducting t=
+ransactions for mixing services that obfuscated the source and ownership of=
+ cryptocurrency; transferring illicit proceeds from ransomware variants; an=
+d moving proceeds of darknet market transactions, exchange hacks, and vario=
+us internet-related scams.
+
+One other point. I   wrote last week that a problem, for Binance, is that =
+=E2=80=9Cyou can ring-fence yourself from the US and solve your securities-=
+law problems, but that doesn=E2=80=99t work for your money-laundering or sa=
+nctions problems=E2=80=9D: US authorities don=E2=80=99t like big financial =
+institutions laundering money for terrorists even if they=C2=A0don=E2=80=99=
+t=C2=A0have US customers. I=C2=A0kind=C2=A0of still think that=E2=80=99s tr=
+ue, but I must say that last week=E2=80=99s charges suggest that just block=
+ing US users is a possible option for Binance. From the charging document:
+Defendant understood that the Company would violate U.S. laws by matching U=
+.S. users with users in comprehensively sanctioned jurisdictions, but it di=
+d not implement sufficiently effective controls to prevent such sanctions v=
+iolations from occurring. For example, Defendant could have removed from Bi=
+nance=E2=80=99s platform all accounts associated with either (i) U.S. users=
+ or (ii) users in comprehensively sanctioned jurisdictions. Or Defendant co=
+uld have implemented controls in its matching engine to prevent U.S. users =
+from violating sanctions by preventing them from transacting with users in =
+comprehensively sanctioned jurisdictions.
+What an amazing suggestion. The Justice Department is saying=C2=A0that, if =
+Binance (1) had North Korean customers, (2) had US customers, (3) did not a=
+llow them to trade directly with each other (by programming its matching en=
+gine to reject trades between US and North Korean customers), but (4) allow=
+ed third-country market makers to intermediate trades between them,=C2=A0th=
+at would be fine and the US government would not object. I don=E2=80=99t th=
+ink I believe that but it is an interesting idea.
+Elsewhere, the Wall Street Journal reports on =E2=80=9CSam Bankman-Fried=E2=
+=80=99s Life Behind Bars: Crypto Tips and Paying With Fish.=E2=80=9D Back w=
+hen Bankman-Fried, Alex Mashinsky, the Three Arrows guys, Do Kwon and=C2=A0=
+other tarnished crypto luminaries were in their various legal limbos, I lik=
+ed to imagine them all living in a group house in a non-extradition country=
+, filming a reality television show, grousing about whose manipulative trad=
+ing destroyed whose project.
+  [5]
+=C2=A0Now they=E2=80=99re all in jail though. But if CZ=C2=A0does=C2=A0get =
+sent to prison in the US I suppose there is still a possibility that he and=
+ Bankman-Fried will be roommates?
+
+ =20
+   =20
+      Cheap electricity
+   =20
+ =20
+
+So on the one hand, har har har, traditional   fat finger error:
+
+A power trader error sent shockwaves through the Finnish market as it mista=
+kenly offered to sell the equivalent of at least half the country=E2=80=99s=
+ entire consumption at an hourly auction.
+Prices dived after the mistake by Kinect Energy AS, which said it was an =
+=E2=80=9Cinternal system error.=E2=80=9D ...
+=E2=80=9CSlightly simplified, you can say that they sold something they did=
+n=E2=80=99t have, and buyers bought something that doesn=E2=80=99t exist,=
+=E2=80=9D said Pontus de Mare, head of power system operation at Svenska Kr=
+aftnat AB. While tomorrow will be manageable, it could be messy, he said. .=
+..
+The faulty trades led to an average price of -203 euros ($-221) per megawat=
+t-hour, compared with an average in the Nordic region of 35.28 euros, accor=
+ding to Nord Pool.
+
+On the other hand, those prices seem to be =E2=80=A6=C2=A0real? Like, to co=
+nsumers? I think not literally negative to consumers, but quite cheap. And =
+so the Finnish press last week had articles  like=C2=A0=E2=80=9CElectricity=
+ is now record cheap, this is how much you can save by consuming electricit=
+y=E2=80=9D  and=C2=A0=E2=80=9C=E2=80=98Sauna on all evening, ham in the ove=
+n and electric car charging=E2=80=99 =E2=80=94 This is how readers feel abo=
+ut exceptional Fridays=E2=80=9D (per Google Translate):
+
+Two electric cars in the yard, the batteries are full, the water in the out=
+door jacuzzi takes about 12 hours to change with a power of 3kW, and you co=
+uld probably heat the sauna too if you were excited to visit in the evening=
+. It=E2=80=99s nice to have this kind of Black Friday campaign pricing, las=
+t year at this time more than a thousand euros in electricity bills were pa=
+id.
+I mine cryptocurrency in two different commercial apartments. Due to the re=
+alization of the cheap price, I am changing the timing of the cryptomining =
+devices so that the devices are allowed to be on from Thursday evening with=
+out a break until further notice, instead of them being off during 05-23 as=
+ I had scheduled.
+
+I love that some guy is gonna mine an extra 0.2 Bitcoins because a Finnish =
+power company fat-fingered some trades. That=E2=80=99s the best use case fo=
+r crypto that I think I=E2=80=99ve ever read. What is a financial system fo=
+r,   if not to ruthlessly turn some people=E2=80=99s errors into=C2=A0other=
+ people=E2=80=99s wealth? Before Satoshi Nakamoto invented Bitcoin, if your=
+ electric company accidentally gifted you free power, the most you could do=
+ with it=C2=A0was, uh, run your outdoor jacuzzi in Finland in November? Whi=
+ch, honestly, fair play, that=E2=80=99s a very funny thing to do with free =
+power, but it does not create lasting wealth. Whereas now you can turn your=
+ electric company=E2=80=99s error directly into financial assets.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Behind Credit Suisse=E2=80=99s Fall: A Chairman=E2=80=99s Lasting Mark on t=
+he Culture. ICBC=E2=80=99s Entree Onto Wall Street Looked Like a Bargain=E2=
+=80=94Until Hackers Crippled Its U.S. Unit. Boards  Dither Over Buyout Bids=
+ in $40 Billion Takeover Wave.=C2=A0New York Court Gives Blessing on  Venez=
+uela Bond Standstill.=C2=A0A Bank Watchdog Crowned Its First Chief Fintech =
+Officer: His Work History Was A Web Of Lies.=C2=A0Billions Wiped Out as Sto=
+ck-Safety Trade on Wall Street Misfires.=C2=A0Signa=E2=80=99s Insolvency Wa=
+ve Nears as Last-Ditch Funding Talks Falter. SEC Defeats Summary Judgment i=
+n Insider-Trading Suit Alleging =E2=80=9CShadow Trading.=E2=80=9D=C2=A0Leon=
+ Black=E2=80=99s downfall confounds the legacy of #MeToo on Wall Street.=C2=
+=A0Warren Buffett Says  His Will Is Going to Be =E2=80=98Simple=E2=80=99 an=
+d Public. Goldman Sachs  paid pro golfer Patrick Cantlay more than $1 milli=
+on annually, sources say. Inside last-of-its kind  Chuck E. Cheese with an =
+animatronic band.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] The somewhat hilarious rationale for this was that, if the investors =
+*said* =E2=80=9Cour shares are worth zero dollars=E2=80=9D in a sufficientl=
+y loud and angry voice, the board would feel bad about what it had done and=
+ bring back Altman. (Bloomberg: =E2=80=9CThe potential move, which would ma=
+ke it more difficult for the company to raise additional funds, seemed desi=
+gned to pressure the board to resign and bring Altman back.=E2=80=9D) This =
+might even have been correct, but it is, like, corporate governance by tant=
+rum.
+
+
+  [2] For symmetry I want an answer like =E2=80=9Cless than $86 billion, fo=
+r discovery of artificial general intelligence reasons,=E2=80=9D but I have=
+ trouble coming up with a good one. Probably Q* uses a lot of expensive com=
+puting power? But if you were buying OpenAI stock before this, you were not=
+ worried about the short-term costs of computing power; you were betting on=
+ AI in the long run.
+
+
+  [3] Of course this sometimes goes the other way, with VCs happy to take a=
+ big check now while the founders are the true believers and won=E2=80=99t =
+sell. =E2=80=9CA million dollars isn=E2=80=99t cool,=E2=80=9D experienced i=
+nvestor Sean Parker  tells Facebook=E2=80=99s naive college-student founder=
+s in The Social Network, but in real life  Mark Zuckerberg also turned down=
+ a billion-dollar sale to Yahoo that his venture capitalist board members t=
+hought he should take.
+
+
+  [4] That=E2=80=99s a little unfair: This person probably wasn=E2=80=99t *=
+really* suggesting advertising the money laundering; that was probably sarc=
+astic. It is reasonable to expect that your compliance employees will take =
+the dimmest possible view of your compliance efforts; of course *they* want=
+ to be more compliant, and will complain sarcastically about what they perc=
+eive as compliance failures. Preferably not in writing, though! Come on, wh=
+at are they teaching in compliance school?
+
+
+  [5] I definitely also imagined  Gerald Cotten living in this house, altho=
+ugh he is probably actually dead.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjxzsj.650d/5c616dd8.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_132608000_2040397856.1701111473548
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Ten days ago OpenAI was worth $86 billion. Investors in OpenAI were about t=
+o launch a tender offer to buy employee shares at that valuation,
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMjcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB512c9819"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzQ5ODczOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM3ODUxNjgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB4645c072" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33498739&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33785168&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">OpenAI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Ten days ago OpenAI was worth $86 billion. Inv=
+estors in OpenAI were about to launch a tender offer to buy employee shares=
+ at that valuation, and employees were lining up to tender; there were will=
+ing buyers and sellers at that price. Then events occurred. There was a boa=
+rdroom coup, and OpenAI=E2=80=99s founder and chief executive officer, Sam =
+Altman, was fired. At one point, the valuation of OpenAI was apparently=C2=
+=A0<em>zero dollars:=C2=A0</em>Several OpenAI investors were noisily saying=
+ that they were going to <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMTEtMjAvb3BlbmFpLXN0YWZmLXRocmVhdGVuLXRvLWdvLXRvLW1pY3Jvc29mdC1pZi1=
+ib2FyZC1kb2Vzbi10LXF1aXQ_Y21waWQ9QkJEMTEyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cB517e7a0f" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  write down the=
+ir shares to zero</a>,<a class=3D"footnote-index" href=3D"#footnote-1" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: none !important; b=
+ackground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a> and it looked like Microsoft Corp. was about to <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly9zdHJhdGVjaGVy=
+eS5jb20vMjAyMy9vcGVuYWlzLW1pc2FsaWdubWVudC1hbmQtbWljcm9zb2Z0cy1nYWluLw/607f=
+07ceef4b8524a319a23cB9ca0a020" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> acquire most of OpenAI=E2=80=99s st=
+aff</a>=C2=A0without paying the company (or its other investors) anything f=
+or them.</p>
+<p style=3D"margin: 16px 0;">But then there was another boardroom coup, Alt=
+man <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.28642=
+9/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjIvc2FtL=
+WFsdG1hbi10by1yZXR1cm4tYXMtb3BlbmFpLWNlby13aXRoLWEtbmV3LWJvYXJkP2NtcGlkPUJC=
+RDExMjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIzMTEyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB51bdf4bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  got his job back</a>, and most of the directors w=
+ho fired him were themselves fired. Altman returned, and there have been su=
+ggestions that he=C2=A0(and Microsoft, OpenAI=E2=80=99s biggest investor) e=
+xtracted some promises=C2=A0that this sort of thing won=E2=80=99t be allowe=
+d to happen again, that there will be fundamental governance changes to mak=
+e OpenAI more robust and, probably, more commercial.=C2=A0</p>
+<p style=3D"margin: 16px 0;">So how much should OpenAI be worth=C2=A0<em>to=
+day?=C2=A0</em>Some possible answers:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Less than $86 billion, for governance=
+ reasons: After a rapid rise in prominence and valuation, OpenAI revealed s=
+ome serious cracks,=C2=A0<em>causing its valuation to become zero dollars f=
+or a while</em>, meaning that investors should be far more cautious about i=
+t now than they were before. It is more volatile than people thought. The l=
+esson of the last week, I <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMTEtMjEvb3BlbmFpLWlzLWEtc3RyYW5nZS1ub25wcm9maXQ_Y21waWQ9QkJEMT=
+EyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cB8aa1de35" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> suggested on Tuesday</a>, might be =E2=80=9Cdon=E2=80=
+=99t invest in nonprofits at an $86 billion valuation=E2=80=9D; maybe inves=
+tors will learn that lesson.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;"=
+>More than $86 billion, for governance reasons: Those cracks were there fro=
+m the beginning, and investors presumably accounted for them in that $86 bi=
+llion valuation. But now that Altman has won his power struggle and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6L=
+y93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9zYW0tYWx0bWFuLW9wZW5haS1zdGFmZi1sb3lhbHR5=
+LXBvd2VyLWNoYXRncHQtbWljcm9zb2Z0LTIwMjMtMTE_dXRtX21lZGl1bT1uZXdzbGV0dGVyJnV=
+0bV9zb3VyY2U9U2FpbHRocnUmdXRtX2NhbXBhaWduPUluc2lkZXJfVG9kYXk/607f07ceef4b85=
+24a319a23cBf8ff672a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> cemented his control</a>, the future OpenAI =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2FpL2FpLWFjY2VsZXJhdGlvbmlzdHMtY29tZS1vdXQtY=
+WhlYWQtd2l0aC1zYW0tYWx0bWFucy1yZXR1cm4tdG8tb3BlbmFpLWEyNDk2MDVj/607f07ceef4=
+b8524a319a23cBe18689c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> will be=C2=A0<em>less=C2=A0</em>weird and =
+nonprofit-y</a> and afraid of its own shadow. It=E2=80=99s the same excitin=
+g business but with better, more investor-friendly governance, so it should=
+ be worth more to investors.</li>=09<li style=3D"margin-bottom: 5px;">Less =
+than $86 billion, for governance reasons (2): <em>Did=C2=A0</em>Altman win =
+his power struggle? Ten days ago, he was the CEO and a board member; now he=
+ is off the board. Ben Thompson <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33498739.286429/aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMy9zYW0tY=
+Wx0bWFuLWJhY2stYXQtb3BlbmFpLXEtZ29pbmctZm9yd2FyZC8/607f07ceef4b8524a319a23c=
+B91e175b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">quotes</a> a <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33498739.286429/aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL01hY2hpbmVMZ=
+WFybmluZy9jb21tZW50cy8xODEydzA0L2NvbW1lbnQva2Fiazczcy8/607f07ceef4b8524a319=
+a23cB833c6786" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Reddit post</a> arguing that the drama was precipit=
+ated by <em>Altman=E2=80=99s=C2=A0</em>efforts to seize total control of th=
+e board, and that the other board members outmaneuvered him, with the resul=
+t that his power has been diminished. The other board members =E2=80=9Cget =
+the outcome they want: Sam and Greg [Brockman] gone from the board; Adam [D=
+=E2=80=99Angelo] remains, who has experience of Sam and Greg=E2=80=99s shen=
+anigans; and two mutually agreeable independent board members are added=E2=
+=80=9D who will presumably rein in Altman.</li>=09<li style=3D"margin-botto=
+m: 5px;">More than $86 billion, for governance reasons (2): Maybe a board t=
+hat reins in Altman will start by reining in his <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTkvYWx0bWFuLXNvdWdodC1iaWxsaW9ucy1mb3I=
+tYWktY2hpcC12ZW50dXJlLWJlZm9yZS1vcGVuYWktb3VzdGVyP2NtcGlkPUJCRDExMjcyM19NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIzMTEyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB16f6ea17=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  extracurricular AI-related business ventures</a> (a chip compan=
+y, =E2=80=9Can AI-focused hardware device=E2=80=9D) and make him focus more=
+ on OpenAI, which will be good for the company. =E2=80=9CWhen Altman return=
+s, he=E2=80=99ll likely have to address claims that he=E2=80=99s been distr=
+acted by a number of projects, including those outside OpenAI,=E2=80=9D <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0c=
+HM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3doYXQtY29tZXMtbmV4dC1mb3It=
+c2FtLWFsdG1hbnMtb3BlbmFp/607f07ceef4b8524a319a23cB5e5713ef" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> report=
+s the Information</a>. Maybe he=E2=80=99ll do the hardware stuff within Ope=
+nAI instead of in a new startup, creating more value for OpenAI investors.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Less than $86 billion, for straigh=
+tforward business reasons: The instability of the last week was bad for cus=
+tomers, who will be reluctant to base their AI strategies on OpenAI and wil=
+l shift to its competitors. <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/33498739.286429/aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMy9zYW0tYWx0b=
+WFuLWJhY2stYXQtb3BlbmFpLXEtZ29pbmctZm9yd2FyZC8/607f07ceef4b8524a319a23cC91e=
+175b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Thompson writes</a>: =E2=80=9CAny company would have to thi=
+nk long and hard about basing their business on OpenAI=E2=80=99s API.=E2=80=
+=9D</li>=09<li style=3D"margin-bottom: 5px;">More than $86 billion, for bus=
+iness reasons: This last week sure drew a lot of=C2=A0<em>attention=C2=A0</=
+em>to OpenAI and its products and their capabilities, and if you think of O=
+penAI as basically a consumer internet company then any attention is good. =
+If you read a week of press about how OpenAI=E2=80=99s board members are af=
+raid that its product will enslave humanity, I mean, that is kind of good a=
+dvertising for the capabilities of that product?</li>=09<li style=3D"margin=
+-bottom: 5px;">More than $86 billion, for technological reasons.=C2=A0One p=
+recipitating event of the boardroom coup might have been a breakthrough in =
+OpenAI=E2=80=99s research. Reuters <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33498739.286429/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdGVjaG5vbG=
+9neS9zYW0tYWx0bWFucy1vdXN0ZXItb3BlbmFpLXdhcy1wcmVjaXBpdGF0ZWQtYnktbGV0dGVyL=
+WJvYXJkLWFib3V0LWFpLWJyZWFrdGhyb3VnaC0yMDIzLTExLTIyLw/607f07ceef4b8524a319a=
+23cB3ed1b930" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> reported</a>=C2=A0that =E2=80=9Cseveral staff resear=
+chers wrote a letter to the board of directors warning of a powerful artifi=
+cial intelligence discovery that they said could threaten humanity,=E2=80=
+=9D and the Information <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/33498739.286429/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL=
+29wZW5haS1tYWRlLWFuLWFpLWJyZWFrdGhyb3VnaC1iZWZvcmUtYWx0bWFuLWZpcmluZy1zdG9r=
+aW5nLWV4Y2l0ZW1lbnQtYW5kLWNvbmNlcm4_dXRtX3Rlcm09cG9wdWxhci1hcnRpY2xlcyZ1dG1=
+fY2FtcGFpZ249UlRTVSstK0F1dG9tYXRlZCtGbG8mdXRtX2NvbnRlbnQ9OTA0JnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1jaW8mdXRtX3Rlcm09NzcmcmM9MWJkaTVo/607f07ceef4b8524=
+a319a23cB6b0421d2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> reported</a>=C2=A0that this was =E2=80=9Can inn=
+ovation by the company=E2=80=99s researchers earlier this year that would a=
+llow them to develop far more powerful artificial intelligence models,=E2=
+=80=9D including a model called Q* that=C2=A0=E2=80=9Cwas able to solve mat=
+h problems that it hadn=E2=80=99t seen before.=E2=80=9D If you were willing=
+ to buy OpenAI stock at an $86 billion valuation as a bet that it would dev=
+elop increasingly powerful AI models, evidence that it has in fact develope=
+d increasingly powerful AI models should cause you to increase your valuati=
+on.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[2]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Less than $86 billion, for regula=
+tory reasons: All this drama is going to increase regulatory attention on A=
+I, and new rules will make it harder for OpenAI to innovate and commerciali=
+ze rapidly.</li>=09<li style=3D"margin-bottom: 5px;">More than $86 billion,=
+ for regulatory reasons:=C2=A0All this drama is going to increase regulator=
+y attention on AI, and new rules will make it harder for OpenAI=E2=80=99s=
+=C2=A0<em>smaller competitors</em>=C2=A0to innovate and commercialize rapid=
+ly, leaving it with a head start on building=C2=A0a monopoly.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Precisely $86 billion: Nothing worth thinking a=
+bout=C2=A0happened over the last 10 days.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I think that last answer is obviously insane b=
+ut I am not a venture capitalist! We talk a lot around here, in a semi-joki=
+ng way,=C2=A0about this <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMTktMTItMjAveW91LWQtcGF5LW5vdC10by1zZWUteW91ci1zdG9jay1wcmljZT9jbXBp=
+ZD1CQkQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMzExMjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cBd7023875" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  appealing feature=C2=A0of private market in=
+vestments</a>: They are less volatile than public investments, because when=
+ dramatic shifts in markets or fundamentals happen,=C2=A0<em>you can ignore=
+ them=C2=A0</em>and just say that the value of your private investments is =
+miraculously unchanged. Without a market price, you never need to mark to m=
+arket.=C2=A0It would be very, very funny if the events of the last 10 days =
+caused=C2=A0<em>no change=C2=A0</em>in the valuation of OpenAI. And yet! <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0=
+cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3Rocml2ZS1sZWQtb3BlbmFpLXR=
+lbmRlci10by1jb250aW51ZS1hZnRlci1hbHRtYW4tcmV0dXJucz9yYz0xYmRpNWg/607f07ceef=
+4b8524a319a23cBdd4b2f21" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> The Information reported last week</a>:</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An OpenAI employee share sale that values the =
+firm at $86 billion is back on track following Sam Altman=E2=80=99s reinsta=
+tement as CEO late Tuesday night, a person familiar with the matter said. T=
+he deal, in which a group of investors led by Thrive Capital will buy up to=
+ $1 billion of stock=E2=80=94and conceivably more=E2=80=94held by employees=
+ or other investors, is expected to close next month. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In a statement, a spokesperson for the Josh Ku=
+shner=E2=80=93run Thrive said they were impressed by the =E2=80=9Cresilienc=
+e and strength=E2=80=9D they witnessed over the last few days and that they=
+ =E2=80=9Cconsider it a true honor to be their partners now and in the futu=
+re.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Though the Financial Times <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvYzRkZDJlYzAtMDI2Zi00NWRkLWE3ZDQtZDdhYWE1Y2Y5Mzk2/607f07ceef4=
+b8524a319a23cBa33f9cfe" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> is less confident</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An upcoming sale of shares in OpenAI is set to=
+ test how much the past week=E2=80=99s leadership chaos has cost the compan=
+y and its backers, though big investors are bullish about securing a high v=
+aluation.</p>
+<p style=3D"margin: 16px 0;">The employee stock sale, which had been planne=
+d before the sacking last week of chief executive Sam Altman and expected t=
+o value the company at $86bn, will continue as planned, according to two in=
+vestors with direct knowledge of the matter.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Investors remain confident that a new share sa=
+le can still treble the $29bn valuation placed on OpenAI when Microsoft com=
+mitted to invest $10bn in the company at the start of this year.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CClearly this almost destroyed a lot o=
+f value in the short term, it=E2=80=99s hard to say what happens next,=E2=
+=80=9D said Vinod Khosla, an early investor in OpenAI. =E2=80=9CValuation i=
+s a function of investor perceptions. The company is the same or better off=
+ than it was last Thursday.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But analysts have suggested that OpenAI will b=
+e hit by the week=E2=80=99s events, with rival groups such as Google and Am=
+azon representing strong and stable challengers in the race to offer genera=
+tive artificial intelligence services to businesses and consumers.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know that there are still will=
+ing buyers and willing sellers at that $86 billion price, or that there are=
+ as many of them as there were 10 days ago, but it seems like there might b=
+e. Doesn=E2=80=99t someone have to be wrong? I suppose it is possible that =
+the answer is =E2=80=9Cthe distribution of possible OpenAI outcomes is much=
+ wider than it was 10 days ago, but the midpoint of that distribution is st=
+ill $86 billion,=E2=80=9D but what a weird coincidence that would be.</p>
+<p style=3D"margin: 16px 0;">Actually another possible answer is that the d=
+istribution of outcomes is=C2=A0<em>narrower=C2=A0</em>than it used to be. =
+Like, 10 days ago:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">I suppose it was=C2=A0possible that A=
+ltman would come to the board and say =E2=80=9Cthis nonprofit stuff isn=E2=
+=80=99t working, we need to fire you and become a regular for-profit startu=
+p.=E2=80=9D I mean,=C2=A0OpenAI used to be=C2=A0<em>entirely=C2=A0</em>a no=
+nprofit, and now it is a hybrid nonprofit/capped-profit entity, and you mig=
+ht have expected it to continue to move in that direction.</li>=09<li style=
+=3D"margin-bottom: 5px;">Conversely, it was totally possible that the nonpr=
+ofit board would fire Altman and burn the company to the ground in order to=
+ prevent it from developing unsafe artificial intelligence. (=E2=80=9CAllow=
+ing the company to be destroyed =E2=80=98would be consistent with the missi=
+on,=E2=80=99=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33498739.286429/aHR0cHM6Ly93d3cuYXhpb3MuY29tLzIwMjMvMTEvMjAvb3BlbmFpLXN=
+0YWZmLWxldHRlci1ib2FyZC1yZXNpZ24tc2FtLWFsdG1hbg/607f07ceef4b8524a319a23cB1a=
+7eaaa1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> a board member apparently told employees</a>.)</li>
+</ol>
+<p style=3D"margin: 16px 0;">And then these last 10 days have cut off some =
+of those possibilities. The first possibility =E2=80=94=C2=A0OpenAI becomes=
+ purely for-profit =E2=80=94=C2=A0I guess is still open, but it might be le=
+ss likely, given the fierce resistance the old board put up and the fact th=
+at that board still has a representative on the new board. Altman =E2=80=9C=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjIvc2FtLWFsd=
+G1hbi10by1yZXR1cm4tYXMtb3BlbmFpLWNlby13aXRoLWEtbmV3LWJvYXJkP2NtcGlkPUJCRDEx=
+MjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIzMTEyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cC51bdf4bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">also agreed</a> to an internal investigation into the c=
+onduct that led to his dismissal,=E2=80=9D which suggests that there will s=
+till be a counterbalance to his power in the new company, and limits on his=
+ ability to do, uh, whatever that conduct was.</p>
+<p style=3D"margin: 16px 0;">The second possibility =E2=80=94=C2=A0burn the=
+ company to the ground, etc. =E2=80=94=C2=A0seems much less likely now. The=
+=C2=A0board <em>did</em> fire Altman, and it almost burned the company to t=
+he ground, and then the board blinked, and presumably the new board (and an=
+y future board)=C2=A0<em>won=E2=80=99t do that again</em>. Like, they tried=
+ that, they saw what happened, they didn=E2=80=99t like it,=C2=A0lessons ha=
+ve been learned, and that is no longer an option for the board.</p>
+<p style=3D"margin: 16px 0;">And so for instance consider Microsoft Corp., =
+which has committed some $13 billion to OpenAI and relies on its products f=
+or its AI strategy. One possible conclusion for Microsoft to draw from this=
+ drama would be =E2=80=9Cwe need much more robust legal protections, and a =
+board seat, so that this doesn=E2=80=99t happen again.=E2=80=9D But another=
+ possible conclusion would be =E2=80=9Cactually no, it turns out we have pl=
+enty of leverage already, we got what we wanted after a few tense days, so =
+we don=E2=80=99t need a board seat after all.=E2=80=9D The Wall Street Jour=
+nal <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.28642=
+9/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2FpL3NhdHlhLW5hZGVsbGEtbWljcm9zb2Z0LWNlb=
+y1haS1vcGVuYWktYWx0bWFuLTg1ZTc1NTMxP21vZD1ocF9sZWFkX3BvczI/607f07ceef4b8524=
+a319a23cB786c1b01" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> reported last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Even after investing $13 billion, Microsoft di=
+dn=E2=80=99t have a board seat or visibility into OpenAI=E2=80=99s governan=
+ce, since it worried that having too much sway would alarm increasingly agg=
+ressive regulators. That left Microsoft exposed to the risks of OpenAI=E2=
+=80=99s curious structure. Altman=E2=80=99s company was set up as a nonprof=
+it with a board whose primary responsibility wasn=E2=80=99t maximizing shar=
+eholder value but developing safe AI =E2=80=9Cthat benefits all of humanity=
+.=E2=80=9D By not having a board seat, Microsoft ended up blindsided. The c=
+ompany was also vulnerable to Altman leaving to start another company and t=
+aking employees with him=E2=80=94or, in a possibility that seemed remote un=
+til suddenly it was reality, OpenAI=E2=80=99s board firing him without aski=
+ng for input from its biggest investor. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Microsoft has had to strike a tricky balance w=
+ith OpenAI: safeguarding its investment while ensuring that its ownership s=
+take remained below 50% to avoid regulatory pitfalls.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And there were moments last week when it looke=
+d like Microsoft had gotten that balance wrong, and its investment might be=
+ worthless. But not too many of them? The worst case seems to have been mos=
+tly =E2=80=9CMicrosoft hires Altman and all of his employees and has basica=
+lly acquired OpenAI for=C2=A0$13 billion=E2=80=9D; the best case=C2=A0=E2=
+=80=94 and largely=C2=A0the actual outcome =E2=80=94=C2=A0was =E2=80=9CMicr=
+osoft can tell OpenAI=E2=80=99s board what to do even without having a boar=
+d seat.=E2=80=9D No board seats and tons of practical leverage is probably =
+better, for economic and regulatory reasons, than having a board seat. And =
+now everyone knows!</p>
+<p style=3D"margin: 16px 0;">Last Monday, I <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjAvd2hvLWNvbnRyb2xzLW9wZW5haT9jbXBpZD1C=
+QkQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzExMjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cBb8195787" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  wrote a column</a> the gist of which is =E2=80=
+=9Csure the nonprofit OpenAI board technically controls the company and Mic=
+rosoft and the other investors have no legal rights, but practically the in=
+vestors have the money=C2=A0and they will probably get what they want.=E2=
+=80=9D I qualified that conclusion,=C2=A0because at the time the investors =
+conspicuously had not gotten what they wanted, but by Tuesday night they di=
+d. It turns out that Microsoft=E2=80=99s informal sources of leverage were =
+in fact good enough. It turns out that, in exactly the right circumstances,=
+ investing $13 billion in a nonprofit at an $86 billion valuation is fine.<=
+/p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzQ5ODczOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM3ODUxNjgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7b3da66d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33498739&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33785168&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzQ5ODczOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM3ODUxNjgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD7b3da66d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33498739&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33785168&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Further OpenAI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A few quick points.</p>
+<p style=3D"margin: 16px 0;">First, University of Kentucky law professor=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429=
+/aHR0cHM6Ly9sYXcudWt5LmVkdS9wZW9wbGUvYWxhbi1rbHVlZ2Vs/607f07ceef4b8524a319a=
+23cB012fd18b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Alan James Kluegel</a> emailed me to suggest a=C2=A0t=
+heory that maps the OpenAI conflict =E2=80=94=C2=A0between its nonprofit bo=
+ard that worried=C2=A0about AI safety, and its employees who love Altman an=
+d wanted him back =E2=80=94=C2=A0onto a straightforward valuation dispute:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The board is made up of AI evangelists; the re=
+ason they openly worry about AI getting <em>too powerful</em> is out of a b=
+elief in the potential for a godlike AI or at least out of concern that thi=
+s soon-to-be-ubiquitous technology should be in its best possible shape bef=
+ore being distributed to the world. ...</p>
+<p style=3D"margin: 16px 0;">The employees, however, are familiar with all =
+of the AI=E2=80=99s limitations and problems and costs, and =E2=80=94 being=
+ Silicon Valley veterans =E2=80=94 are also familiar with the hype cycle at=
+ play here. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In other words, this is a story about the empl=
+oyees wanting to secure the bag while the unrealized potential of their pro=
+duct has captured everyone=E2=80=99s attention and imagination, and Sam Alt=
+man=E2=80=99s fundraising (and the Thrive Capital tender offer, in particul=
+ar) was going to be their golden ticket =E2=80=94=C2=A0until the starry-eye=
+d board killed their payday in a flurry of techno-optimistic excitement.</p=
+>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is absolutely not at all what anyone was=
+=C2=A0<em>saying</em>, and I suspect that it is not what anyone was=C2=A0<e=
+m>thinking</em>, but I like it as an objective explanation of what they wer=
+e=C2=A0<em>doing</em>. It is not unheard-of=C2=A0for a startup to get a pre=
+tty high valuation, and for its employees to think =E2=80=9Chey let=E2=80=
+=99s cash out while the money is there,=E2=80=9D while its board members ar=
+e venture capitalists with diversified portfolios and liquidation preferenc=
+es who are more willing to wait and gamble. Venture capitalist board member=
+s are=C2=A0<em>supposed=C2=A0</em>to be able to take the long view and bet =
+on changing the world, while employees are often more risk-averse and need =
+cash to pay the mortgage.<a class=3D"footnote-index" href=3D"#footnote-3" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">OpenAI=E2=80=99s board members are not venture=
+ capitalists, don=E2=80=99t own equity at all,=C2=A0are not motivated by ho=
+pes of a trillion-dollar valuation, and were in fact adverse to its venture=
+ capitalist investors. And yet I think the model=C2=A0applies. They took a =
+very long and grandiose view of the importance of their product and its abi=
+lity to change the world, while the employees would like to see some cash n=
+ow.</p>
+<p style=3D"margin: 16px 0;">Second, we <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMTEtMjEvb3BlbmFpLWlzLWEtc3RyYW5nZS1ub25wcm9maXQ_=
+Y21waWQ9QkJEMTEyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cC8aa1de35" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  talked last week</a> about the oddity o=
+f OpenAI as a nonprofit organization with a board that does not answer to s=
+hareholders. Tyler Cowen <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33498739.286429/aHR0cHM6Ly9tYXJnaW5hbHJldm9sdXRpb24uY29tL21hcmdpbmFs=
+cmV2b2x1dGlvbi8yMDIzLzExL3doYXQtZG8td2Uta25vdy1hYm91dC1ub24tcHJvZml0LWJvYXJ=
+kcy5odG1s/607f07ceef4b8524a319a23cBeace5b58" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> pointed out</a> that =
+the literature on nonprofit governance is pretty negative, quoting <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6L=
+y9zY2hvbGFybHljb21tb25zLmxhdy5jYXNlLmVkdS9jZ2kvdmlld2NvbnRlbnQuY2dpP2FydGlj=
+bGU9MjA5NiZjb250ZXh0PWZhY3VsdHlfcHVibGljYXRpb25z/607f07ceef4b8524a319a23cBf=
+6e093ca" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> a 2014 paper by George Dent</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">A remarkable consensus of experts =
+on NPOs agrees that their governance is generally abysmal, considerably wor=
+se than that of for-profit corporations. NPO directors are mostly ill-infor=
+med, quarrelsome, clueless about their proper role, and dominated by the CE=
+O=E2=80=94as proponents of shareholder primacy would predict.</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">=E2=80=9CDominated by the CEO=E2=80=9D was app=
+arently not true of OpenAI, but you gotta give them =E2=80=9Cquarrelsome.=
+=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Third, I really do have to quote last week=E2=
+=80=99s incredible <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33498739.286429/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2FpL2FsdG1hbi1maXJpbmctb3=
+BlbmFpLTUyMGEzYThj/607f07ceef4b8524a319a23cB9f3cdfdd" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Wall Street =
+Journal report</a> about the board=E2=80=99s non-explanation of what Altman=
+ did to get himself fired:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On the call, the leadership team pressed the b=
+oard over the course of about 40 minutes for specific examples of Altman=E2=
+=80=99s lack of candor, the people said. The board refused, citing legal re=
+asons, the people said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The board agreed to discuss the matter with th=
+eir counsel. After a few hours, they returned, still unwilling to provide s=
+pecifics. They said that Altman wasn=E2=80=99t candid, and often got his wa=
+y. The board said that Altman had been so deft they couldn=E2=80=99t even g=
+ive a specific example, according to the people familiar with the executive=
+s.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CWithout realizing it, we were gradual=
+ly overmatched by a=C2=A0superior intelligence, until he ended up controlli=
+ng us in ways that are too subtle for us to even explain,=E2=80=9D thought =
+the AI-nervous board of OpenAI. I love them. Their fears about rogue AI are=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjAvd2hv=
+LWNvbnRyb2xzLW9wZW5haT9jbXBpZD1CQkQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMjcmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCb8195787" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  such obvious met=
+aphors</a> for their mundane real-life problems.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Fourth, last week <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjEvb3BlbmFpLWlzLWEtc3RyYW5nZS1ub25wc=
+m9maXQ_Y21waWQ9QkJEMTEyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cD8aa1de35" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  I asked</a> some questions like =
+=E2=80=9Cdid [Microsoft]=C2=A0agree to any sort of non-compete or non-solic=
+it,=E2=80=9D and =E2=80=9Cdoes Altman have any sort of non-solicit?=E2=80=
+=9D I was careful not to ask =E2=80=9Cdid OpenAI=E2=80=99s employees sign n=
+on-competes,=E2=80=9D because I am aware (not legal advice!) that employee =
+non-competes <a href=3D"https://link.mail.bloombergbusiness.com/click/33498=
+739.286429/aHR0cHM6Ly9jYWxlbXBsb3ltZW50bGF3dXBkYXRlLnByb3NrYXVlci5jb20vMjAy=
+My8wOS9jYWxpZm9ybmlhLWV4cGFuZHMtcHJvaGliaXRpb24tYWdhaW5zdC1ub24tY29tcGV0ZXM=
+v/607f07ceef4b8524a319a23cB0fa9fe64" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> don=E2=80=99t work in Califor=
+nia</a>. But a lot of readers emailed me to point that out anyway, and also=
+ pointed out that non-solicitation clauses are also <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly9vZ2xldHJlZS5jb=
+20vaW5zaWdodHMtcmVzb3VyY2VzL2Jsb2ctcG9zdHMvY2FsaWZvcm5pYS1ub25zb2xpY2l0YXRp=
+b24tY2xhdXNlLWhlbGQtZW5mb3JjZWFibGUtdW5kZXItbmFycm93LWV4Y2VwdGlvbi1mb3Itc2F=
+sZS1vZi1hLWJ1c2luZXNzLw/607f07ceef4b8524a319a23cBd3e1e6d2" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> general=
+ly</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.28=
+6429/aHR0cHM6Ly9rcm9naGRlY2tlci5jb20vYXJlLW5vbi1zb2xpY2l0YXRpb24tYWdyZWVtZW=
+50cy1lbmZvcmNlYWJsZS1pbi1jYWxpZm9ybmlhIzp-OnRleHQ9Tm9uJTJEc29saWNpdGF0aW9uJ=
+TIwYWdyZWVtZW50cyUyMGFyZSUyMG9mdGVuLGluJTIwdmlvbGF0aW9uJTIwb2YlMjBwdWJsaWMl=
+MjBwb2xpY3ku/607f07ceef4b8524a319a23cB452f0be0" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> not enforced</a> i=
+n California. So, there, that=E2=80=99s why.</p>
+<p style=3D"margin: 16px 0;">Finally, it is a <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29=
+tLzIwMjIvMTAvMjgvMjM0MjcxMzcvZWxvbi1tdXNrLXR3aXR0ZXItbWF0dC1sZXZpbmUtbW9uZX=
+ktc3R1ZmY/607f07ceef4b8524a319a23cBcd96091d" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> long-running schtick<=
+/a> of this column that whenever I take a day off, Elon Musk does something=
+ crazy. I took much of last week off for Thanksgiving. =E2=80=9CI guess by =
+Monday Elon Musk is going to own OpenAI and Binance,=E2=80=9D I <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d=
+3cudGhyZWFkcy5uZXQvQGl0aXNtYXR0bGV2aW5lL3Bvc3QvQ3o2eENLYnUxMXA/607f07ceef4b=
+8524a319a23cBb1362397" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> threaded</a>.=C2=A0But I wasn=E2=80=99t rea=
+lly worried until OpenAI=E2=80=99s new board <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33498739.286429/aHR0cHM6Ly90d2l0dGVyLmNvbS9PcGVu=
+QUkvc3RhdHVzLzE3MjcyMDYxODcwNzczNzAxMTU/607f07ceef4b8524a319a23cBd65b4ec8" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> was announced</a>.=C2=A0The chairman is=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDktMTQvd2hvLWlzLXR3aXR0ZXItY2hhaXJtYW=
+4tYnJldC10YXlsb3ItZWxvbi1tdXNrLXMtb3Bwb3NpdGU_Y21waWQ9QkJEMTEyNzIzX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMx=
+MTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3003424f" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Bret Taylor</a>, who was also the chairman of the board of Twitter Inc=
+. when Musk bought it. I don=E2=80=99t really think that Musk is going to b=
+uy OpenAI, but I am going to take some time off for the holidays in Decembe=
+r so who knows.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Binance</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here are two possible=C2=A0theories of what Bi=
+nance=C2=A0<em>is:</em></p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Binance is the world=E2=80=99s leadin=
+g crypto exchange, a large financial institution that allows investors, spe=
+culators, hedgers and other users to transact in the trillion-dollar crypto=
+currency sector. It is in many ways the leading financial institution in cr=
+ypto, but it is fairly young and aggressive, and it has not always been ver=
+y careful about compliance. In particular, it has not been careful about an=
+ti-money-laundering and know-your-customer checks, and so has allowed a cer=
+tain number of bad people to do bad transactions using crypto.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">Binance is a place for laundering money.</li>
+</ol>
+<p style=3D"margin: 16px 0;">These theories differ in degree; they start fr=
+om similar facts but emphasize them differently. Nobody disputes that a lot=
+ of criminals have laundered money on Binance. =E2=80=9CFor example,=E2=80=
+=9D the US Department of Justice pointed out in a <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly9hc3NldHMuYndieC5=
+pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3J4SGtkNkNRak9nUS92MA/607f07ceef4=
+b8524a319a23cBaec7d9db" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> criminal information</a> against Binance l=
+ast week, =E2=80=9Cin a February 2019 chat conversation, one compliance emp=
+loyee wrote, =E2=80=98we need a banner =E2=80=9Cis washing drug money too h=
+ard these days =E2=80=94=C2=A0come to binance we got cake for you.=E2=80=9D=
+=E2=80=99=E2=80=9D If your=C2=A0<em>compliance employees=C2=A0</em>are sugg=
+esting that you=C2=A0<em>advertise your drug money laundering business</em>=
+, that seems bad.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And yet last week=E2=80=99s US federal charges=
+ against Binance struck me as fairly gentle. The US Securities and Exchange=
+ Commission, in practice though not in so many words, takes the position th=
+at=C2=A0<em>crypto exchanges are fundamentally illegal</em>; the practical =
+goal of <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.2=
+86429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtM=
+DYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDExMjcyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTEyNyZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB48b08ef7" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+its crypto enforcement actions (including against Binance)</a> is to shut t=
+hem down, or at least shut them out of the US. The US Department of Justice=
+ does=C2=A0<em>not=C2=A0</em>take that position; its basic theory of Binanc=
+e is that Binance messed up, a lot, and has to pay a huge fine and change i=
+ts practices, but that it can go ahead and do that. It=E2=80=99s a basicall=
+y legitimate business with a money laundering problem, the Justice Departme=
+nt thinks. Which is a pretty good outcome?</p>
+<p style=3D"margin: 16px 0;">Anyway here are the Justice Department <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6L=
+y93d3cuanVzdGljZS5nb3Yvb3BhL3ByL2JpbmFuY2UtYW5kLWNlby1wbGVhZC1ndWlsdHktZmVk=
+ZXJhbC1jaGFyZ2VzLTRiLXJlc29sdXRpb24/607f07ceef4b8524a319a23cB1ae60e2d" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> press release</a> from last Tuesday, the <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly9hc3NldHMuYndieC5pby9=
+kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3J4SGtkNkNRak9nUS92MA/607f07ceef4b852=
+4a319a23cCaec7d9db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> charging document</a>=C2=A0and Attorney Gene=
+ral <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.28642=
+9/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Yvb3BhL3NwZWVjaC9hdHRvcm5leS1nZW5lcmFsLW1lc=
+nJpY2stYi1nYXJsYW5kLWRlbGl2ZXJzLXJlbWFya3MtYW5ub3VuY2luZy1iaW5hbmNlLWFuZC1j=
+ZW8tZ3VpbHR5/607f07ceef4b8524a319a23cB89ffa52e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> Merrick Garland=E2=
+=80=99s remarks</a>. Binance will pay about $4.3 billion and =E2=80=9Cretai=
+n an independent compliance monitor for three years and remediate and enhan=
+ce their anti-money laundering and sanctions compliance programs.=E2=80=9D =
+There was a time, not so long ago, when people thought that it was a death =
+blow to a financial institution to make it plead guilty to criminal charges=
+. But <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286=
+429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDUtMTE=
+vbm9ib2R5LXMtd29ycmllZC1hYm91dC10b28tYmlnLXRvLWphaWwtYW55LW1vcmU_Y21waWQ9Qk=
+JEMTEyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBd374eb03" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  that time ended</a>, and now it is =E2=80=A6=C2=
+=A0not routine, maybe, but kind of acceptable for a big bank or other finan=
+cial institution to plead guilty to crimes. Binance is in some sense just a=
+ financial institution like any other, and paying $4.3 billion to settle co=
+mpliance problems is =E2=80=A6=C2=A0almost a step toward=C2=A0the mainstrea=
+ming of crypto?</p>
+<p style=3D"margin: 16px 0;">Maybe that is too glib. Binance founder=C2=A0C=
+hangpeng =E2=80=9CCZ=E2=80=9D Zhao=C2=A0pleaded guilty to his own federal c=
+rimes and agreed to step down as chief executive officer; he faces prison t=
+ime, which is pretty unusual for the CEO of a financial institution. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6=
+Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUvYm9uZC12aWxsYWluLWNvbXBsaWFuY2U=
+tc3RyYXRlZ3kv/607f07ceef4b8524a319a23cBab7fbb1c" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Patrick McKenzie =
+argues</a> that this is the beginning of the end for Binance, that it =E2=
+=80=9Cis going to be slowly ground into a very fine paste.=E2=80=9D But my =
+impression is that US prosecutors can make varying amounts of hay out of =
+=E2=80=9Cthis company sent money to terrorists,=E2=80=9D and in this case t=
+hey are <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.2=
+86429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjEva=
+GFtYXMtdXNlLW9mLWJpbmFuY2UtY2l0ZWQtaW4tNC0zLWJpbGxpb24tc2V0dGxlbWVudC13aXRo=
+LXVzP2NtcGlkPUJCRDExMjcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTEyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cBc0743a5a" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  making an=C2=A0average=C2=A0amoun=
+t of hay</a>. This reads, to me, like the guilty plea of a troubled=C2=A0fi=
+nancial institution, not the guilty plea of a criminal conspiracy that the =
+government wants to end.</p>
+<p style=3D"margin: 16px 0;">To be clear, though, Binance=E2=80=99s complia=
+nce <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.28642=
+9/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Yvb3BhL3ByL2JpbmFuY2UtYW5kLWNlby1wbGVhZC1nd=
+WlsdHktZmVkZXJhbC1jaGFyZ2VzLTRiLXJlc29sdXRpb24/607f07ceef4b8524a319a23cC1ae=
+60e2d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> was very bad</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Binance also did not implement the core compon=
+ents of an effective AML program: Binance did not implement comprehensive k=
+now-your-customer (KYC) protocols or systematically monitor transactions, a=
+nd Binance never filed a suspicious activity report (SAR) with FinCEN. For =
+years, Binance allowed users to open accounts and trade without submitting =
+any identifying information beyond an email address. Binance began requirin=
+g all users to provide KYC information in August 2021 but allowed users who=
+ had not provided KYC to continue trading on the exchange until May 2022. .=
+..</p>
+<p style=3D"margin: 16px 0;">As Binance=E2=80=99s internal communications s=
+howed, Binance=E2=80=99s compliance employees recognized that Binance did n=
+ot have protocols to flag or report transactions for money laundering risks=
+, which employees recognized would attract criminals to the exchange. As on=
+e compliance employee wrote, =E2=80=9Cwe need a banner =E2=80=98is washing =
+drug money too hard these days - come to binance we got cake for you.=E2=80=
+=99=E2=80=9D Due in part to Binance=E2=80=99s failure to implement an effec=
+tive AML program, illicit actors used Binance=E2=80=99s exchange in various=
+ ways, including conducting transactions for mixing services that obfuscate=
+d the source and ownership of cryptocurrency; transferring illicit proceeds=
+ from ransomware variants; and moving proceeds of darknet market transactio=
+ns, exchange hacks, and various internet-related scams.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One other point. I <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjEvb3BlbmFpLWlzLWEtc3RyYW5nZS1ub25w=
+cm9maXQ_Y21waWQ9QkJEMTEyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cE8aa1de35" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  wrote last week</a> that a prob=
+lem, for Binance, is that =E2=80=9Cyou can ring-fence yourself from the US =
+and solve your securities-law problems, but that doesn=E2=80=99t work for y=
+our money-laundering or sanctions problems=E2=80=9D: US authorities don=E2=
+=80=99t like big financial institutions laundering money for terrorists eve=
+n if they=C2=A0<em>don=E2=80=99t=C2=A0</em>have US customers. I=C2=A0<em>ki=
+nd=C2=A0</em>of still think that=E2=80=99s true, but I must say that last w=
+eek=E2=80=99s charges suggest that just blocking US users is a possible opt=
+ion for Binance. From the <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/33498739.286429/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnM=
+vaXFqV0hCRmRmeElVL3J4SGtkNkNRak9nUS92MA/607f07ceef4b8524a319a23cDaec7d9db" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">charging document</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Defendant understood that the Comp=
+any would violate U.S. laws by matching U.S. users with users in comprehens=
+ively sanctioned jurisdictions, but it did not implement sufficiently effec=
+tive controls to prevent such sanctions violations from occurring. For exam=
+ple, Defendant could have removed from Binance=E2=80=99s platform all accou=
+nts associated with either (i) U.S. users or (ii) users in comprehensively =
+sanctioned jurisdictions. Or Defendant could have implemented controls in i=
+ts matching engine to prevent U.S. users from violating sanctions by preven=
+ting them from transacting with users in comprehensively sanctioned jurisdi=
+ctions.</p></blockquote>
+<p style=3D"margin: 16px 0;">What an amazing suggestion. The Justice Depart=
+ment is saying=C2=A0that, if Binance (1) had North Korean customers, (2) ha=
+d US customers, (3) did not allow them to trade directly with each other (b=
+y programming its matching engine to reject trades between US and North Kor=
+ean customers), but (4) allowed third-country market makers to intermediate=
+ trades between them,=C2=A0<em>that would be fine and the US government wou=
+ld not object</em>. I don=E2=80=99t think I believe that but it is an inter=
+esting idea.</p>
+<p style=3D"margin: 16px 0;">Elsewhere, the Wall Street Journal reports on =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.=
+286429/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2N1cnJlbmNpZXMvc2FtLWJhbmttYW4t=
+ZnJpZWRzLWxpZmUtYmVoaW5kLWJhcnMtY3J5cHRvLXRpcHMtYW5kLXBheWluZy13aXRoLWZpc2g=
+tODU4MDk3YzY_bW9kPWhwX2xlYWRfcG9zOQ/607f07ceef4b8524a319a23cB9a2b09ed" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Sam Bankman-Fried=E2=80=99s Life Behind Bars: Crypto Tips and Paying Wi=
+th Fish</a>.=E2=80=9D Back when Bankman-Fried, <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cubnl0aW1lcy5jb2=
+0vMjAyMy8wNy8xMy9idXNpbmVzcy9jZWxzaXVzLWNyeXB0b2N1cnJlbmN5LWZvdW5kZXItYXJyZ=
+XN0ZWQuaHRtbA/607f07ceef4b8524a319a23cB0fe85956" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Alex Mashinsky</a>=
+, the <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286=
+429/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wOS8yOS90ZWNobm9sb2d5L3N1LXpodS1=
+mb3VuZGVyLWNyeXB0by10aHJlZS1hcnJvd3MtY2FwaXRhbC1hcnJlc3RlZC5odG1s/607f07cee=
+f4b8524a319a23cB7021d45c" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Three Arrows guys</a>, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cucmV1=
+dGVycy5jb20vd29ybGQvZXVyb3BlL21vbnRlbmVncm8tY291cnQtYXBwcm92ZXMtZXh0cmFkaXR=
+pb24tY3J5cHRvY3VycmVuY3kta2luZy1kby1rd29uLTIwMjMtMTEtMjQv/607f07ceef4b8524a=
+319a23cB4d5df9cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Do Kwon</a> and=C2=A0other tarnished crypto lumin=
+aries were in their various legal limbos, I liked to imagine them all livin=
+g in a group house in a non-extradition country, filming a reality televisi=
+on show, grousing about whose manipulative trading destroyed whose project.=
+<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0Now they=E2=80=99re all in jail though. But if CZ=C2=A0<em>does=
+=C2=A0</em>get sent to prison in the US I suppose there is still a possibil=
+ity that he and Bankman-Fried will be roommates?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cheap electricity</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">So on the one hand, har har har, traditional <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjMvdHJhZGVyLW=
+Vycm9yLWNhdXNlcy1odWdlLXBsdW5nZS1pbi1maW5uaXNoLXBvd2VyLXByaWNlcz9jbXBpZD1CQ=
+kQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMzExMjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB346a39be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  fat finger error</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A power trader error sent shockwaves through t=
+he Finnish market as it mistakenly offered to sell the equivalent of at lea=
+st half the country=E2=80=99s entire consumption at an hourly auction.</p>
+<p style=3D"margin: 16px 0;">Prices dived after the mistake by Kinect Energ=
+y AS, which said it was an =E2=80=9Cinternal system error.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CSlightly simplified, you can say that=
+ they sold something they didn=E2=80=99t have, and buyers bought something =
+that doesn=E2=80=99t exist,=E2=80=9D said Pontus de Mare, head of power sys=
+tem operation at Svenska Kraftnat AB. While tomorrow will be manageable, it=
+ could be messy, he said. ...</p>
+<p style=3D"margin: 16px 0;">The faulty trades led to an average price of -=
+203 euros ($-221) per megawatt-hour, compared with an average in the Nordic=
+ region of 35.28 euros, according to Nord Pool.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">On the other hand, those prices seem to be =E2=
+=80=A6=C2=A0real? Like, to consumers? I think not literally negative to con=
+sumers, but quite cheap. And so the Finnish press last week had articles <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0=
+cHM6Ly93d3cuaHMuZmkvdGFsb3VzL2FydC0yMDAwMDEwMDEzMTcwLmh0bWw/607f07ceef4b852=
+4a319a23cBf05b95e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> like</a>=C2=A0=E2=80=9CElectricity is now re=
+cord cheap, this is how much you can save by consuming electricity=E2=80=9D=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/a=
+HR0cHM6Ly93d3cuaHMuZmkvdGFsb3VzL2FydC0yMDAwMDEwMDEzNDg3Lmh0bWw/607f07ceef4b=
+8524a319a23cB1e5bc7eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> and</a>=C2=A0=E2=80=9C=E2=80=98Sauna on all=
+ evening, ham in the oven and electric car charging=E2=80=99 =E2=80=94 This=
+ is how readers feel about exceptional Fridays=E2=80=9D (per Google Transla=
+te):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Two electric cars in the yard, the batteries a=
+re full, the water in the outdoor jacuzzi takes about 12 hours to change wi=
+th a power of 3kW, and you could probably heat the sauna too if you were ex=
+cited to visit in the evening. It=E2=80=99s nice to have this kind of Black=
+ Friday campaign pricing, last year at this time more than a thousand euros=
+ in electricity bills were paid.</p>
+<p style=3D"margin: 16px 0;">I mine cryptocurrency in two different commerc=
+ial apartments. Due to the realization of the cheap price, I am changing th=
+e timing of the cryptomining devices so that the devices are allowed to be =
+on from Thursday evening without a break until further notice, instead of t=
+hem being off during 05-23 as I had scheduled.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I love that some guy is gonna mine an extra 0.=
+2 Bitcoins because a Finnish power company fat-fingered some trades. That=
+=E2=80=99s the best use case for crypto that I think I=E2=80=99ve ever read=
+. What is a financial system for, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMTktMTAtMjMvaG93LWRvLXlvdS1saWtlLXdlLW5vdz9jbXBpZD1CQkQxMT=
+I3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1d=
+G1fdGVybT0yMzExMjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23c=
+Be2fa98ac" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  if not</a> to ruthlessly turn some people=E2=80=99s er=
+rors into=C2=A0other people=E2=80=99s wealth? Before Satoshi Nakamoto inven=
+ted Bitcoin, if your electric company accidentally gifted you free power, t=
+he most you could do with it=C2=A0was, uh, run your outdoor jacuzzi in Finl=
+and in November? Which, honestly, fair play, that=E2=80=99s a very funny th=
+ing to do with free power, but it does not create lasting wealth. Whereas n=
+ow you can turn your electric company=E2=80=99s error directly into financi=
+al assets.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Behind <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33498739.286429/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2Jhb=
+mtpbmcvYmVoaW5kLWNyZWRpdC1zdWlzc2VzLWZhbGwtYS1jaGFpcm1hbnMtbGFzdGluZy1tYXJr=
+LW9uLXRoZS1jdWx0dXJlLTRkYmIyMjJjP21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cBe=
+d68a0c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Credit Suisse=E2=80=99s Fall</a>: A Chairman=E2=80=99s Las=
+ting Mark on the Culture. <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/33498739.286429/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2JhbmtpbmcvaWN=
+iY3MtZW50cmVlLW9udG8td2FsbC1zdHJlZXQtbG9va2VkLWxpa2UtYS1iYXJnYWludW50aWwtaG=
+Fja2Vycy1jcmlwcGxlZC1pdHMtdS1zLXVuaXQtYTY5ZTU4YWI_bW9kPWl0cF93c2o/607f07cee=
+f4b8524a319a23cB4165e2d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">ICBC=E2=80=99s</a> Entree Onto Wall Stree=
+t Looked Like a Bargain=E2=80=94Until Hackers Crippled Its U.S. Unit. Board=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjMvY29tcGF=
+ueS1ib2FyZHMtd2FmZmxlLW92ZXItYnV5b3V0LWJpZHMtaW4tNDAtYmlsbGlvbi1kZWFsLXdhdm=
+U_Y21waWQ9QkJEMTEyNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB020fc961" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Dither Over Buyout Bids</a> in $40 Bil=
+lion Takeover Wave.=C2=A0New York Court Gives Blessing on <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly9uZXdzLmJ=
+sb29tYmVyZ2xhdy5jb20vYmFua3J1cHRjeS1sYXcvbmV3LXlvcmstY291cnQtZ2l2ZXMtYmxlc3=
+Npbmctb24tdmVuZXp1ZWxhLWJvbmQtc3RhbmRzdGlsbA/607f07ceef4b8524a319a23cB063f3=
+db1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Venezuela Bond Standstill</a>.=C2=A0A Bank Watchdog Crowned I=
+ts First Chief Fintech Officer: His Work History Was A <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cudGhlaW=
+5mb3JtYXRpb24uY29tL2FydGljbGVzL3RoZS1vY2MtY3Jvd25lZC1pdHMtZmlyc3QtY2hpZWYtZ=
+mludGVjaC1vZmZpY2VyLWhpcy13b3JrLWhpc3Rvcnktd2FzLWEtd2ViLW9mLWxpZXM_cmM9MWJk=
+aTVo/607f07ceef4b8524a319a23cB782b3f08" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Web Of Lies</a>.=C2=A0Billi=
+ons Wiped Out as Stock-Safety Trade on Wall Street <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjcvYmlsbGlvbnMtd2lwZWQtb3V0LWFzLXN0b=
+2NrLXNhZmV0eS10cmFkZS1vbi13YWxsLXN0cmVldC1taXNmaXJlcz9jbXBpZD1CQkQxMTI3MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzExMjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB62d6c=
+7f8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Misfires</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjMtMTEtMjcvc2lnbmEtcy1pbnNvbHZlbmN5LXdhdmUtbmVhcnMtYXMtbGFzdC1k=
+aXRjaC1mdW5kaW5nLXRhbGtzLWZhbHRlcj9jbXBpZD1CQkQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMjcmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfc684b06" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Signa=
+=E2=80=99s</a> Insolvency Wave Nears as Last-Ditch Funding Talks Falter. SE=
+C Defeats Summary Judgment in Insider-Trading Suit Alleging =E2=80=9C<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6=
+Ly93d3cuY29ycG9yYXRlZGVmZW5zZWRpc3B1dGVzLmNvbS8yMDIzLzExL3NlYy1kZWZlYXRzLXN=
+1bW1hcnktanVkZ21lbnQtaW4taW5zaWRlci10cmFkaW5nLXN1aXQtYWxsZWdpbmctc2hhZG93LX=
+RyYWRpbmcvI3BhZ2U9MQ/607f07ceef4b8524a319a23cBb255c7cc" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Shadow Trad=
+ing</a>.=E2=80=9D=C2=A0Leon Black=E2=80=99s downfall confounds the legacy o=
+f <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzQyNDBmOWYtZjA5Yy00YjE1LTkwMTEtZGNjYmV=
+hMmUwMDBj/607f07ceef4b8524a319a23cB2d9ae3bf" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">#MeToo on Wall Street<=
+/a>.=C2=A0Warren Buffett Says <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMTEtMjIvd2FycmVuLWJ1ZmZldHQtc2F5cy1oaXMtd2lsbC1pcy1nb2luZy10by=
+1iZS1zaW1wbGUtYW5kLXB1YmxpYz9jbXBpZD1CQkQxMTI3MjNfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMjcmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB596a9c6b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> His Will</a=
+> Is Going to Be =E2=80=98Simple=E2=80=99 and Public. Goldman Sachs <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAyMy8xMS8yMi9nb2xkbWFuLXNhY2hzLXBhdHJpY2stY2FudGxheS1w=
+YXkuaHRtbA/607f07ceef4b8524a319a23cB655c9000" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> paid pro golfer</a> =
+Patrick Cantlay more than $1 million annually, sources say. Inside last-of-=
+its kind <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.=
+286429/aHR0cHM6Ly9rdGxhLmNvbS9uZXdzL3RlY2hub2xvZ3kvaW5zaWRlLWxhc3QtY2h1Y2st=
+ZS1jaGVlc2Utbm9ydGhyaWRnZS1hbmltYXRyb25pY3MtYmFuZC8/607f07ceef4b8524a319a23=
+cB7a592827" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Chuck E. Cheese with an animatronic band</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33498739.286429/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB766ef0e7" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33498739.286429/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB8c5ce834" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] The somewhat hilarious rationale for this =
+was that, if the investors *said* =E2=80=9Cour shares are worth zero dollar=
+s=E2=80=9D in a sufficiently loud and angry voice, the board would feel bad=
+ about what it had done and bring back Altman. (<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjAvb3BlbmFpLXN0YWZmLXRocmVhdGVuLXRvLWdv=
+LXRvLW1pY3Jvc29mdC1pZi1ib2FyZC1kb2Vzbi10LXF1aXQ_Y21waWQ9QkJEMTEyNzIzX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+MxMTI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC517e7a0f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Bloomberg</a>: =E2=80=9CThe potential move, which would make it more=
+ difficult for the company to raise additional funds, seemed designed to pr=
+essure the board to resign and bring Altman back.=E2=80=9D) This might even=
+ have been correct, but it is, like, corporate governance by tantrum.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] For symmetry I want an answer like =E2=80=
+=9Cless than $86 billion, for discovery of artificial general intelligence =
+reasons,=E2=80=9D but I have trouble coming up with a good one. Probably Q*=
+ uses a lot of expensive computing power? But if you were buying OpenAI sto=
+ck before this, you were not worried about the short-term costs of computin=
+g power; you were betting on AI in the long run.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Of course this sometimes goes the other wa=
+y, with VCs happy to take a big check now while the founders are the true b=
+elievers and won=E2=80=99t sell. =E2=80=9CA million dollars isn=E2=80=99t c=
+ool,=E2=80=9D experienced investor Sean Parker <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cueW91dHViZS5jb2=
+0vd2F0Y2g_dj1OM3EyVmZGaVVfOA/607f07ceef4b8524a319a23cB5435344e" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> te=
+lls Facebook=E2=80=99s naive college-student founders</a> in <em>The Social=
+ Network</em>, but in real life <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33498739.286429/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS93a=
+HktbWFyay16dWNrZXJiZXJnLXR1cm5lZC1kb3duLXlhaG9vcy0xLWJpbGxpb24tb2ZmZXItdG8t=
+YnV5LWZhY2Vib29rLWluLTIwMDYtMjAxNy00/607f07ceef4b8524a319a23cBe064f94f" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Mark Zuckerberg also turned down</a> a billion-dollar sale to Yahoo t=
+hat his venture capitalist board members thought he should take.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] That=E2=80=99s a little unfair: This perso=
+n probably wasn=E2=80=99t *really* suggesting advertising the money launder=
+ing; that was probably sarcastic. It is reasonable to expect that your comp=
+liance employees will take the dimmest possible view of your compliance eff=
+orts; of course *they* want to be more compliant, and will complain sarcast=
+ically about what they perceive as compliance failures. Preferably not in w=
+riting, though! Come on, what are they teaching in compliance school?</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I definitely also imagined <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/33498739.286429/aHR0cHM6Ly93d3cuZ=
+XhpdHNjYW0uc2hvdy8/607f07ceef4b8524a319a23cB02c77763" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Gerald Cotte=
+n</a> living in this house, although he is probably actually dead.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBcef2790a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0b30102e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB0c5a3565" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd872c319" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBc45eea0b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.2864=
+29/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB1683b5a6" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33498739.286429/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc0f62c98" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33498739.286429/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB2e04d84b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33498739.286429/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6f4f8e07" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+f0eef3b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33498739.286429/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+c4658eb" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjxzsj.650d/5c616dd8.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_132608000_2040397856.1701111473548--
+

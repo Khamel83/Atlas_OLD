@@ -1,0 +1,2999 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:791:b0:dc:4011:408e with SMTP id n17csp4561198rwj;
+        Mon, 14 Nov 2022 10:14:42 -0800 (PST)
+X-Received: by 2002:a5d:694c:0:b0:238:b29e:4919 with SMTP id r12-20020a5d694c000000b00238b29e4919mr8540916wrw.583.1668449681521;
+        Mon, 14 Nov 2022 10:14:41 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1668449681; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=NwqW9wiMGPWgiPMGpePFbKUxDKWeUsHzUtnyQgjAzyjbwZbNTA1dr5g95ydjEUynV9
+         2nddA3R5xvqyJMcsSOjgSipmD0jFyyekCacgVMEYoPvr/Ma5DPh1OD2UHooY+v7VLSqu
+         eE+z0Au6xqDLvkNjfhnXilZDw9SwVJEkzj7dpHRncUbfUyyIwvwaU7lNgyzieCsOM9pm
+         Nv2yMEJHUb304Yyg+yReTRfyjmuLIctc6rzCrCORVZ27KSLmhiPElImXr9lO74Py1G6Z
+         H426grnNW85Llja8q3TZ9azKEHBUKy8wwiEeosvnvQS4NCIpUEZhWDBXOwMO+WgfV9Lh
+         +XpQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=KQxd1oUO/48cjZL06JKV/qoWxv4T2GYZ4RVpYUjE/R8=;
+        b=RHuN/+Vk8E9X9J0Ftz1T+1x4ogopWeLoZxhI+z5KEf55tDj9sxfW7/N1B6wFad1JA9
+         tZBV74kyHBgyRiaWL30W9qT40s2JFfdubNuoSdzlXgXH+e8Hn9a/UEIJiayTapUCMZ4X
+         bst6AXrqmaOZ45wueotaQsyasJ6G0qa+H0r9c/LwCij4JqrXczs5LxwXeZ6y7HIa6chD
+         r1qoFaNRmKJRxKIP9maN2OK5cg8Z9i7CpMHEovUykJaajML6TEANNqK0RaP/SJK7jNrt
+         58odZu4FAPgIpfGZbZi5UrD3ybRk1XoeaAcp33lDCI33j4yEtxEL7Ddy7x21uKz0Kj/+
+         rpsw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=no9rJVyK;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p17-20020adf9591000000b0022e5ec02779sor5008727wrp.61.2022.11.14.10.14.41
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 14 Nov 2022 10:14:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=no9rJVyK;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=KQxd1oUO/48cjZL06JKV/qoWxv4T2GYZ4RVpYUjE/R8=;
+        b=sbwhGcQR2tG0TLorLLdGeqiI3i1zNZ88FOPBbv4BgeqS2jBKOLxiRVpdZc4KP5u9yz
+         srkAtXFBvcCQZ0xTjlnEtjXK4m1LN56njPp4BCmHPn988rUuNkD3uCCxELhvE8T/Detd
+         sEWlJ1sTYZqB35roQbx3mJ3+GDptLPNDgC8EzXle1EyD7PFPV77YiYs+5r8Zi9QFr171
+         2zbnT1A7UVX+jeIoM5m9mACsoBoTgd2SpQ5GVGn5C8pD8By+peiTIeHLJugZCFkKg2u6
+         jk3u106AX+Jp5vJ+evaFAG7oAXzdR83j4odr92/ryoV4z9e89FBA5tjc68eTKbvpITyl
+         vayA==
+X-Gm-Message-State: ANoB5pmZ0yFtEog0BCxExbEl+vHJmRGFVcp0/mgKybFJ+4A/EQQJNrzY
+	3mM5vY+OejfbKCLPRHt5N0ECuSWoBKsgjX0m2a5Fyg5mLTcxTRNg0A==
+X-Received: by 2002:a5d:4589:0:b0:236:698d:9c44 with SMTP id p9-20020a5d4589000000b00236698d9c44mr8486770wrq.571.1668449680873;
+        Mon, 14 Nov 2022 10:14:40 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f647:0:0:0:0:0 with SMTP id x7csp2287835wrp;
+        Mon, 14 Nov 2022 10:14:35 -0800 (PST)
+X-Received: by 2002:a67:eec5:0:b0:3ad:8e05:5d68 with SMTP id o5-20020a67eec5000000b003ad8e055d68mr6644961vsp.14.1668449675465;
+        Mon, 14 Nov 2022 10:14:35 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1668449675; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=EmMgtz82i2YdsoESoH2ywaiqmkz1fvWZPf55iCPPuN8F3zxr2W6inMtqxkPrUacAbi
+         DXmViXAv3xXxqJMWyGxKiQ7aH7PfC8uOJSloHxkdc1NE8BvT3RfduiiVkBJIRbzWskiU
+         Zn3pEVnPzXdDv2Mc2nZXBicYjWJPjufoqW7/XT7g8lz4JOi99hP56cbzIB24+LXr947e
+         Iumcnx/NlaFP9aTz89sP/HZHRwL2q3Lwx4rrHouMWLDoZyqWBElrllxBibtUiPkPGcmI
+         c3vpgxm6o0Vub+DIk1NCpRDy9X1KyQwQ7A8UfV8EwKwPQ4uwJCskIlYs6bg6aGpMQDb9
+         PZIQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KQxd1oUO/48cjZL06JKV/qoWxv4T2GYZ4RVpYUjE/R8=;
+        b=kyIPtadLNTEpsXgIpx7WirYf12qqcxks1CG97deRDlygw2sVlcuifuY0ARpnAAoLAC
+         KO04ly4R0mGBjOrVn3YPKr2ilssbFMphsXbSCfWF/p7rSH9sJ5FTKIExCRJ7AjttDrOA
+         DqZJiJDSsyFnp6vF0ZD6Wg3DhRHMdapAza0DOtZbBSUIeUDGnwkErv5bdV/8PGxf4ZlE
+         +jAXdKalmXiQpZUulJAidbkCRc6JIL70IxlMUexy1L56lgWtW+HNH48pxKilHtMtyJ55
+         Ahp6J922JkBw0sRcHp//k+NkgBamKJC5naMw2GIAtan8ccfuQZilJ2TCEBXSd6bMiyY+
+         BD+g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=no9rJVyK;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221114131055.29694056.277519@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221114131055.29694056.277519@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221114131055.29694056.277519@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r9-20020a05610221c900b003aa6741a146sor3877339vsg.61.2022.11.14.10.14.35
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 14 Nov 2022 10:14:35 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20221114131055.29694056.277519@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA0mqf7ua6n5U7IXtshLClVCS+ZtLpLnDUBZzRH5YC2Sy3FlLfgvcr4s1UI7Px6bcDvVIxhECzi2Ia46qM2joFrDxzQnwJQpqww=
+X-Received: by 2002:a67:f454:0:b0:3aa:12a1:c023 with SMTP id r20-20020a67f454000000b003aa12a1c023mr6619538vsn.59.1668449675135;
+        Mon, 14 Nov 2022 10:14:35 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1668449675; cv=none;
+        d=google.com; s=arc-20160816;
+        b=eUS9Cj9sm7KAVzDGz/d08Ea0gUL8YTEl23YFhS5RZr1yorfARrbh0UrjozahAvEZTx
+         YzGZqlySP/KM5wNopBBpNvJ0SrPckk+n12zSlou9xtPMpb/AnlJPlwsGw5bV1ckgQU+k
+         j8WHVGYPptXwW/a6tFOP9x2cQZLWYvjJHk04tJXqi4ZDpvNgijfnnW1St3hirolpaWcz
+         bZvV8NrMHoHg2Fwb8JejZaHD/bearFEbBTXW0yq0NFsAGjdJrWXQ7hEEMT2r6RxwzcRK
+         n608tPNfEMAfNQCOc32n2D4jmcv1qWbJQNcPyRg0YUtev/tvNEH8YKC23apCqxoHcRua
+         s/DQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KQxd1oUO/48cjZL06JKV/qoWxv4T2GYZ4RVpYUjE/R8=;
+        b=FCbg++znPTFJMH+rWW/OjMFrjsl/wUIPulQBVgyHqYfJNmlVa8DZeHF2xQ5xFtUg4b
+         Y1clYktdw5TUD3Q1qA2WAVFWm2Xps+YRvk08kDg8sTcuo6RhiiYjPJM6TXhybt2g1Oy9
+         BMITQU0Ypt9DsyPV/WoaNjXxpAfpe6Z4TqODLv1p93AfjpKg+CdQIWolKks2mYFQX1j4
+         PNscgsf4SO7MT7IqX3ztsccg2BgIora6/2euVCVQIA+mBC5WY/f5lAJLDnbXcT6LSu1B
+         MJnX8oTmsAbuWKtTczy8440TU0OGfMicXRVISRlKiGeLhB0xVvLoCJub3KYn7zbxt5i1
+         pHWA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=no9rJVyK;
+       spf=pass (google.com: domain of delivery_20221114131055.29694056.277519@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20221114131055.29694056.277519@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221114131055.29694056.277519@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id a13-20020ab03c8d000000b0040ac33271e7si1561215uax.2.2022.11.14.10.14.34
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 14 Nov 2022 10:14:35 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20221114131055.29694056.277519@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=y01v7D9O7Co6VwpWitXjXM4FOeLs4T6LLi/PD8zvnNo=;
+ b=no9rJVyKUtmEcOq25GjkTrRhh30dFLCQVb7BoK6WcazMfvHturfRtQ+fNmzKhAAej0lg4HvYQpMh
+   Unqiaup/q+LlM1MiyUW5qdG9SzN6xDtvJoiTaLc3VJyvYiVup2jFsVeLJ4hxNoEmyapEvs51JBPJ
+   JANL3Es/pD72sc5RvLA=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hea2ok30nu8p for <bloomberg@khamel.com>; Mon, 14 Nov 2022 13:14:34 -0500 (envelope-from <delivery_20221114131055.29694056.277519@mx.sailthru.com>)
+Date: Mon, 14 Nov 2022 13:10:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221114131055.29694056.277519@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEZUWOKAmXMgQmFsYW5jZSBTaGVldCBXYXMgQmFk?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_86899617_122740686.1668449455590"
+Precedence: bulk
+X-Feedback-ID: 6358:29694056:campaign:sailthru
+X-TM-ID: 20221114131055.29694056.277519
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-badmanatee.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chog2w.5y4v/6c096136
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chog2w.5y4v/6c096136>, <mailto:unsubscribe_20221114131055.29694056.277519@mx.sailthru.com>
+X-rpcampaign: stjko29694056
+
+------=_Part_86899617_122740686.1668449455590
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        There is so much, but I want to start with Serum.If a troubled comp=
+any has a few days to beg potential investors for a bailout before it fil
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      The box
+   =20
+ =20
+
+There is so much, but I want to start with Serum.
+If a troubled company has a few days to beg potential investors for a bailo=
+ut before it files for bankruptcy, and it sends those investors its balance=
+ sheet so they can consider investing, and they all pass, and then the comp=
+any files for bankruptcy, of course the balance sheet was=C2=A0bad. That is=
+ not a state of affairs that is consistent with a pristine fortress balance=
+ sheet.
+But there is a range of possible badness, even in bankruptcy, and the balan=
+ce sheet that Sam Bankman-Fried=E2=80=99s failed crypto exchange FTX.com se=
+nt to potential investors last week before filing for bankruptcy on Friday =
+is very bad. It=E2=80=99s=C2=A0an Excel file full of the howling of ghosts =
+and the shrieking of tortured souls. If you look too long at that spreadshe=
+et,=C2=A0you will go insane. Antoine Gara, Kadhim Shubber and Joshua Oliver=
+ at the Financial Times=C2=A0reported on Saturday:
+
+Sam Bankman-Fried=E2=80=99s main international FTX exchange held just $900m=
+n in easily sellable assets against $9bn of liabilities the day before it c=
+ollapsed into bankruptcy, according to investment materials seen by the Fin=
+ancial Times.
+The largest portion of those liquid assets listed on a FTX international ba=
+lance sheet dated Thursday was $470mn of Robinhood shares owned by a Bankma=
+n-Fried vehicle not listed in Friday=E2=80=99s bankruptcy filing, which inc=
+luded 134 corporate entities.
+
+Seems bad, but it somehow keeps getting worse:
+A spreadsheet listing FTX international=E2=80=99s assets and liabilities, s=
+een by the Financial Times, point at the issues that brought Bankman-Fried =
+crashing back down to earth. It references $5bn of withdrawals last Sunday,=
+ and a negative $8bn entry described as =E2=80=9Chidden, poorly internally =
+labled =E2=80=98fiat@=E2=80=99 account=E2=80=9D.
+What.
+The vast majority of FTX Trading=E2=80=99s recorded assets are either illiq=
+uid venture capital investments or crypto tokens that are not widely traded=
+, according to the spreadsheet, which cautions that the figures =E2=80=9Car=
+e rough values, and could be slightly off; there is also obviously a chance=
+ of typos etc. They also change a bit over time as trades happen.=E2=80=9D
+What.
+In all, the spreadsheet says FTX Trading=E2=80=99s assets were $900mn of =
+=E2=80=9Cliquid=E2=80=9D assets, $5.5bn of =E2=80=9Cless liquid=E2=80=9D as=
+sets consisting of crypto tokens, and $3.2bn of illiquid private equity inv=
+estments. There is also an obscure $7mn holding called =E2=80=9CTRUMPLOSE=
+=E2=80=9D. There are no bitcoin assets listed, despite bitcoin liabilities =
+of $1.4bn.
+What. And yet bad as all of this is, it can=E2=80=99t prepare you for the b=
+alance sheet itself,  published by FT Alphaville, which is less a balance s=
+heet and more a list of some tickers interspersed with hasty apologies. If =
+you blithely add up the =E2=80=9Cliquid,=E2=80=9D =E2=80=9Cless liquid=E2=
+=80=9D and =E2=80=9Cilliquid=E2=80=9D assets, at their =E2=80=9Cdeliverable=
+=E2=80=9D value as of Thursday, and subtract the liabilities, you do get a =
+positive net equity of about $700 million. (Roughly $9.6 billion of assets =
+versus $8.9 billion of liabilities.) But then there is the =E2=80=9CHidden,=
+ poorly internally labeled =E2=80=98fiat@=E2=80=99 account,=E2=80=9D with a=
+ balance of negative $8 billion.
+  [1]
+=C2=A0I don=E2=80=99t actually think that you=E2=80=99re supposed to subtra=
+ct that number from net equity =E2=80=94 though I do not know how this bala=
+nce sheet is supposed to work! =E2=80=94 but it doesn=E2=80=99t matter. If =
+you try to calculate the equity of a balance sheet with an entry for HIDDEN=
+ POORLY INTERNALLY LABELED ACCOUNT, Microsoft Clippy will appear before you=
+ in the flesh, bloodshot and staggering, with a knife in his little paper-c=
+lip hand, saying =E2=80=9Cjust what do you think you=E2=80=99re doing=C2=A0=
+Dave?=E2=80=9D You cannot apply ordinary arithmetic to numbers in a cell la=
+beled =E2=80=9CHIDDEN POORLY INTERNALLY LABELED ACCOUNT.=E2=80=9D The resul=
+t of adding or subtracting those numbers with ordinary numbers is not a num=
+ber; it is prison.
+  [2]
+
+But here is the paragraph that drove me=C2=A0insane:
+The company=E2=80=99s biggest asset as of Thursday was $2.2bn worth of a cr=
+yptocurrency called Serum. Serum=E2=80=99s market value was $88mn on Saturd=
+ay, according to data provider CryptoCompare, suggesting FTX=E2=80=99s hold=
+ings would be worth far less if sold into the market. CryptoCompare=E2=80=
+=99s figures take into account the coin=E2=80=99s liquidity.
+If you look on the balance sheet, that=E2=80=99s the biggest =E2=80=9Cdeliv=
+erable=E2=80=9D number: $2,187,876,172 of SRM, the ticker for the Serum tok=
+en, down from $5,430,110,335 =E2=80=9Cbefore this week.=E2=80=9D (=E2=80=9C=
+Before this week=E2=80=9D means, of course, before=C2=A0last=C2=A0week =E2=
+=80=94=C2=A0before the week that FTX was circulating this spreadsheet =E2=
+=80=94=C2=A0and I will use it as a shorthand to mean roughly =E2=80=9Cbefor=
+e Nov. 8.=E2=80=9D On Nov. 8, the trouble at FTX became public, and everyth=
+ing FTX-related crashed.)
+As of about 11 a.m. today,  CoinMarketCap showed the Serum token having a p=
+rice of $0.25,=C2=A0a =E2=80=9Cmarket cap=E2=80=9D of about $65 million and=
+ a =E2=80=9Cfully diluted market cap=E2=80=9D of about $2.5 billion. Those =
+numbers would have been a bit higher =E2=80=94=C2=A0say $0.35 to $0.40 per =
+token =E2=80=94 on Thursday, when this balance sheet was created. The price=
+ crashed last Tuesday, during FTX=E2=80=99s death throes; before that the t=
+oken=C2=A0traded around $0.80. In round numbers FTX probably held something=
+ like two-thirds of Serum=E2=80=99s fully diluted market cap, and roughly 2=
+0 times its basic market cap.
+In crypto, market cap is (as CoinMarketCap puts it) =E2=80=9Cthe total mark=
+et value of a cryptocurrency's circulating supply =E2=80=A6=C2=A0analogous =
+to the free-float capitalization in the stock market,=E2=80=9D while fully =
+diluted market cap is =E2=80=9Cthe market cap if the max supply was in circ=
+ulation.=E2=80=9D So if for instance some company creates a token, and says=
+ that there can be 10 billion of the token, and reserves them all for=C2=A0=
+itself, and then sells 1 million of them to outside investors for $1 each, =
+then the market cap=C2=A0of that token is $1 million ($1 times 1 million ci=
+rculating tokens), while the fully diluted market cap is $10 billion ($1 ti=
+mes 10 billion total tokens), and the issuer=E2=80=99s 9,999,000,000 remain=
+ing tokens have a value, on this math, of $9.999 billion. We will come back=
+ to this point.
+What is Serum? Serum is=C2=A0a =E2=80=9Cprotocol for decentralized exchange=
+s that brings unprecedented speed and low transaction costs to decentralize=
+d finance=E2=80=9D that runs on the Solana blockchain. Also Serum (the toke=
+n, ticker SRM)=C2=A0=E2=80=9Cis the utility and governance token of Serum (=
+the protocol). If you hold SRM in your wallet, you receive a discount on fe=
+es=E2=80=9D for trading on the Serum protocol. Also, when the protocol coll=
+ects trading fees, it uses a portion of the fees to buy and burn SRM. The r=
+esult is that SRM functions a lot like stock in Serum: If the Serum project=
+ does well and a lot of decentralized trading happens on its exchanges, the=
+n it will collect a lot of fees and use those fees to buy SRM, which will d=
+rive up the value of SRM and make SRM investors rich. (Also the SRM investo=
+rs can vote on how Serum is run.) If you are bullish on Serum as a business=
+, as a platform for decentralized crypto trading, then you should buy SRM, =
+because SRM is more or less a claim on the cash flows of that business.
+One thing that is really really really really really important to mention a=
+bout the Serum=C2=A0protocol is that it was  created=C2=A0and=C2=A0promoted=
+ by FTX and Alameda Research, the FTX-affiliated crypto hedge fund that was=
+ also founded by Bankman-Fried. FTX is a centralized crypto exchange, but a=
+ lot of people in crypto do not trust centralized exchanges (for reasons!) =
+and prefer to trade on decentralized exchanges. Serum is, in a loose but me=
+aningful way, the decentralized exchange of FTX.
+Go back to what I said above, about a company creating a token, issuing a b=
+unch of it to itself, and selling a little of it into the public market. So=
+mething like 3% of the total value of Serum is held by the public and tradi=
+ng on exchanges. The other 97% is not. Something like two-thirds of that 97=
+% is held by FTX and Alameda.=C2=A0
+How did they get their SRM? Well, you can look at  the distribution of SRM =
+here, but the main point=C2=A0is that they did=C2=A0not=C2=A0buy it on the =
+open market for cash. When FTX=E2=80=99s balance sheet says that, =E2=80=9C=
+before this week,=E2=80=9D it held $5.4 billion worth of Serum, that does=
+=C2=A0not=C2=A0mean that Alameda or FTX took $5.4 billion of cash (their ow=
+n, their investors=E2=80=99, their customers=E2=80=99, anyone=E2=80=99s) an=
+d used it to buy a lot of Serum tokens in the open market. They got all tho=
+se Serum tokens for, in round numbers,=C2=A0free, as the initial backers of=
+ the Serum protocol. (Presumably they paid some startup costs.)=C2=A0
+For a minute, ignore this nightmare balance sheet, and think about what FTX=
+=E2=80=99s balance sheet should=C2=A0be. Conceptually, customers give you m=
+oney =E2=80=94=C2=A0apparently about $16 billion in dollars, crypto, etc. =
+=E2=80=94=C2=A0and then you hang on to the money and owe it back to them. I=
+n the simplest world, you keep the customers=E2=80=99 money in exactly the =
+form they give it to you: Someone deposits $100, you keep $100 for him; som=
+eone deposits one Bitcoin, you keep one Bitcoin for her. For   reasons we h=
+ave discussed =E2=80=94=C2=A0some legitimate! =E2=80=94=C2=A0FTX doesn=E2=
+=80=99t quite work that way, and you could imagine some more complicated ba=
+lance sheet where a lot of the money and crypto that came in from some cust=
+omers was loaned to others. But broadly speaking your balance sheet is stil=
+l going to look roughly like:
+
+Liabilities:=C2=A0Money customers gave you, which you owe to them;
+Assets: Stuff you bought with that money.
+
+And then the basic question is, how bad is the mismatch. Like, $16 billion =
+of dollar liabilities and $16 billion of liquid dollar-denominated assets? =
+Sure, great.=C2=A0$16 billion of dollar liabilities and $16 billion worth o=
+f Bitcoin assets? Not ideal, incredibly risky, but in some broad sense unde=
+rstandable. $16 billion of dollar liabilities and assets consisting entirel=
+y of some magic beans that you bought in the market for $16 billion? Very b=
+ad. $16 billion of dollar liabilities and assets consisting mostly of some =
+magic beans=C2=A0that you invented yourself and acquired for zero dollars? =
+WHAT? Never mind the valuation=C2=A0of the beans; where did the=C2=A0money=
+=C2=A0go? What happened to the $16 billion? Spending $5 billion of customer=
+ money on Serum would have been horrible, but FTX didn=E2=80=99t do that, a=
+nd couldn=E2=80=99t have, because there wasn=E2=80=99t $5 billion of Serum =
+available to buy. FTX shot its customer money into some still-unexplained r=
+eaches of the astral plane and was like =E2=80=9Cwell we do have $5 billion=
+ of this Serum token we made up, that=E2=80=99s something?=E2=80=9D No it i=
+sn=E2=80=99t!
+One simple point=C2=A0here is that FTX=E2=80=99s Serum holdings =E2=80=94=
+=C2=A0$2.2 billion last week, $5.4 billion before that =E2=80=94 could not =
+have been sold for=C2=A0anything like $2.2 billion. FTX=E2=80=99s Serum hol=
+dings were vastly=C2=A0larger than the entire circulating supply of Serum. =
+If FTX had attempted to sell them into the market over the course of a week=
+ or month or year, it would have swamped the market=C2=A0and crashed the pr=
+ice. Perhaps it could have gotten a few hundred million dollars for them. B=
+ut I think a realistic valuation of that huge stash of Serum would be close=
+r to zero. That is not a comment on Serum; it=E2=80=99s a comment on the si=
+ze of the stash.
+But I=C2=A0do=C2=A0want to comment on Serum, because=C2=A0Serum is not some=
+ weird token that FTX cornered for some reason; Serum is a token that FTX m=
+ade up. To use a loose but reasonable analogy, Serum (the protocol) is sort=
+ of FTX=E2=80=99s decentralized exchange subsidiary, and SRM (the token) is=
+ sort of the stock in that subsidiary. A little of the stock trades publicl=
+y, but it is mostly held by FTX, its corporate parent, as it were. The publ=
+ic market price of the small free float might give a reasonable estimate of=
+ the value of the subsidiary. But in the real world, the value of the subsi=
+diary is=C2=A0incredibly tightly linked=C2=A0to the value of FTX=E2=80=99s =
+overall business. If everyone is like =E2=80=9Cah yes FTX is a good exchang=
+e operator and a leader in safe crypto trading,=E2=80=9D then its decentral=
+ized exchange protocol has a good chance of being popular and profitable. I=
+f everyone is like =E2=80=9Cah yes FTX is a careless fraud,=E2=80=9D then S=
+erum is going to have a hard time.
+  [3]
+=C2=A0At the point that FTX is shopping its Serum stake to seek a rescue fi=
+nancing due to=C2=A0HIDDEN POORLY INTERNALLY LABELED ACCOUNT, its huge stas=
+h of Serum is toast! Just toast!=C2=A0
+Does this sound familiar? This is pretty much exactly what I said last week=
+ about FTT, the utility token of FTX=E2=80=99s regular centralized exchange=
+.   I wrote:
+FTX issues a token called FTT. The attributes of this token are, like, it e=
+ntitles you to some discounts and stuff, but the main attribute is that FTX=
+ periodically uses=C2=A0a portion of its profits to buy back FTT tokens. Th=
+is makes FTT=C2=A0kind of=C2=A0like=C2=A0stock=C2=A0in FTX: The higher FTX=
+=E2=80=99s profits are, the higher the price of FTT will be.=C2=A0 It is no=
+t=C2=A0actually=C2=A0stock in FTX =E2=80=94=C2=A0in fact FTX is a company a=
+nd has stock and venture capitalists bought it, etc. =E2=80=94=C2=A0but it =
+is a lot=C2=A0like=C2=A0stock in FTX.=C2=A0FTT is a bet on FTX=E2=80=99s fu=
+ture profits.
+I was writing about reports suggesting that FTX might have loaned a lot of =
+customer money to Alameda and taken Alameda=E2=80=99s stash of FTT tokens a=
+s collateral,
+  [4]
+=C2=A0and I said:
+If you think of the token as =E2=80=9Cmore or less stock,=E2=80=9D and you =
+think of a crypto exchange as a securities broker-dealer,=C2=A0this is comp=
+letely insane.=C2=A0If you go to an investment bank and say =E2=80=9Clend m=
+e $1 billion, and I will post $2 billion of your stock as collateral,=E2=80=
+=9D you are messing with very dark magic=C2=A0and they will say no.=C2=A0Th=
+e problem with this is that it is=C2=A0wrong-way risk.=C2=A0(It is also, at=
+ least sometimes,=C2=A0illegal.)=C2=A0If people start to worry about the in=
+vestment bank=E2=80=99s financial health, its stock will go down, which mea=
+ns that its collateral will be less valuable, which means that its financia=
+l health will get worse, which means that its stock will go down, etc. It i=
+s a=C2=A0death spiral.
+Last week I was shocked that one of the main assets of FTX =E2=80=94=C2=A0o=
+ne of the main assets it relied on to be able to pay out customer balances =
+=E2=80=94=C2=A0was a token it had just made up. But I was wrong! It was=C2=
+=A0two=C2=A0tokens that it had just made up! FTX=E2=80=99s=C2=A0two=C2=A0la=
+rgest asset balances, =E2=80=9Cbefore this week,=E2=80=9D were $5.9 billion=
+ of FTT ($553 million at post-crash prices last Thursday) and $5.4 billion =
+of SRM ($2.2 billion post-crash). Something like two-thirds of the money th=
+at FTX owed to customers was backed by its own tokens that it had made up.
+The third-biggest asset, incidentally, was SOL, the token of the Solana blo=
+ckchain. Solana is not something that FTX made up, and has  an existence in=
+dependent of FTX. But it is certainly=C2=A0associated=C2=A0with Alameda, FT=
+X and Sam Bankman-Fried; they have=C2=A0been=C2=A0big backers of the Solana=
+ ecosystem. It=E2=80=99s not that Solana is =E2=80=9Cthe blockchain of FTX,=
+=E2=80=9D but it=E2=80=99s a little bit like that. There is wrong-way risk =
+there too.
+And another big asset is $616 million=C2=A0worth of the MAPS token ($865 mi=
+llion =E2=80=9Cbefore last week=E2=80=9D). MAPS is the token of Maps.me 2.0=
+, a sort of Serum spinoff that was  also launched by FTX; its market cap, a=
+ccording to CoinMarketCap at about 11 a.m. today, is  about $3 million. Aga=
+in, FTX=E2=80=99s MAPS holdings were=C2=A0two hundred times=C2=A0the=C2=A0t=
+otal value of MAPS actually tradable in the market. It=E2=80=99s the same s=
+tory as Serum, but worse, though on a smaller scale. (There=E2=80=99s a lot=
+ of this all over the balance sheet: Bloomberg=E2=80=99s Annie Massa report=
+ed=C2=A0on these projects today, under the headline =E2=80=9CSam Bankman-Fr=
+ied=E2=80=99s Magic Money Box Enriched Vast Crypto Network.=E2=80=9D)
+In round numbers, FTX=E2=80=99s Thursday desperation balance sheet shows ab=
+out $8.9 billion of customer liabilities against assets with a value=C2=A0o=
+f roughly $19.6 billion before last week=E2=80=99s crash, and roughly $9.6 =
+billion after the crash (as of Thursday, per FTX=E2=80=99s numbers). Of tha=
+t $19.6 billion of=C2=A0assets=C2=A0back in the good times, some $14.4 bill=
+ion was in more-or-less FTX-associated tokens (FTT, SRM, SOL, MAPS). Only a=
+bout $5.2 billion of assets =E2=80=94=C2=A0against $8.9 billion of customer=
+ liabilities=C2=A0=E2=80=94=C2=A0was in more-or-less normal financial stuff=
+. (And even that was=C2=A0mostly=C2=A0in illiquid venture investments; only=
+ about $1 billion was in liquid cash, stock and cryptocurrencies =E2=80=94=
+=C2=A0and half of that was Robinhood stock.) After the run on FTX, the FTX-=
+associated stuff, predictably, crashed. The Thursday balance sheet valued t=
+he FTT, SRM, SOL and MAPS holdings at a combined $4.3 billion, and that num=
+ber is still way too high.
+I am not saying that=C2=A0all=C2=A0of FTX=E2=80=99s assets were made up. Th=
+at desperation balance sheet lists dollar and yen accounts, stablecoins, un=
+affiliated cryptocurrencies, equities, venture investments, etc., all thing=
+s that were not created or controlled by FTX.
+  [5]
+ And that desperation balance sheet reflects FTX=E2=80=99s position=C2=A0af=
+ter=C2=A0$5 billion of customer outflows last weekend; presumably FTX burne=
+d through its more liquid normal stuff (Bitcoin, dollars, etc.) to meet tho=
+se withdrawals, so what was left was the weirdo cats and dogs.
+  [6]
+ Still it is striking that the balance sheet that FTX circulated to potenti=
+al rescuers=C2=A0consisted=C2=A0mostly=C2=A0of stuff it made up. Its balanc=
+e sheet consisted mostly of stuff it made up! Stuff it made up! You can=E2=
+=80=99t do that! That=E2=80=99s not how balance sheets work! That=E2=80=99s=
+ not how anything works!
+Oh, fine: It is how crypto works. This might all sound familiar not just be=
+cause we talked about FTT last week, but because we   talked about the coll=
+apse of   TerraUSD and=C2=A0Luna earlier this year. Terra was a blockchain =
+system run by Do Kwon, and it raised billions of dollars by selling dollar-=
+denominated tokens =E2=80=94=C2=A0TerraUSD =E2=80=94=C2=A0that were suppose=
+d to keep their value because they were backed by a variable amount of anot=
+her token =E2=80=94=C2=A0Luna =E2=80=94=C2=A0that Kwon had also invented. F=
+or a while people thought the Terra ecosystem was promising, so the Luna to=
+ken was=C2=A0worth a lot, so Terra could go around saying its TerraUSD toke=
+ns were extremely safe, because the billions of=C2=A0dollars of TerraUSD =
+=E2=80=9Cdebt=E2=80=9D were backed by more billions of dollars=E2=80=99 wor=
+th of Luna. And then one day people changed their minds, and the price of L=
+una =E2=80=94=C2=A0which was just a bet on Terra=E2=80=99s future =E2=80=94=
+=C2=A0collapsed, so TerraUSD was unbacked, and the whole thing collapsed. T=
+he FTX situation is not the same, but it rhymes. The role of TerraUSD =E2=
+=80=94=C2=A0the =E2=80=9Cdebt=E2=80=9D =E2=80=94=C2=A0is played here by FTX=
+=E2=80=99s customer balances; the role of Luna =E2=80=94=C2=A0the backing t=
+oken =E2=80=94=C2=A0is played by FTT and SRM. In both cases, confidence in =
+the business collapsed, and it turned out that the debt was actually backed=
+ by nothing.
+Or it might sound familiar because Bankman-Fried said it himself, to me,=C2=
+=A0on a=C2=A0now-infamous   episode of Bloomberg=E2=80=99s Odd Lots podcast=
+ last year. I asked him a question about yield farming, and in the course o=
+f his answer he said:
+
+You start with a company that builds a box and in practice this box, they p=
+robably dress it up to look like a life-changing, you know, world-altering =
+protocol that's gonna replace all the big banks in 38 days or whatever. May=
+be for now actually ignore what it does or pretend it does literally nothin=
+g. It's just a box. So what this protocol is, it's called =E2=80=98Protocol=
+ X,=E2=80=99 it's a box, and you take a token. =E2=80=A6
+So you've got this box=C2=A0and it=E2=80=99s kind of dumb, but like what's =
+the end game, right? This box is worth zero obviously. =E2=80=A6 But on the=
+ other hand, if everyone kind of now thinks that this box token is worth ab=
+out a billion dollar market cap, that's what people are pricing it at and s=
+ort of has that market cap. Everyone's gonna mark=C2=A0to market. In fact, =
+you can even finance this, right? You put X token in a borrow lending proto=
+col and borrow dollars with it. If you think it's worth like less than two =
+thirds of that, you could even just like put some in there, take the dollar=
+s out. Never, you know, give the dollars back. You just get liquidated even=
+tually. And it is sort of like real monetizable stuff in some senses.=C2=A0
+
+The box, it turns out,=C2=A0was FTX (and Serum). It looked like a life-chan=
+ging, world-altering business that would replace all the banks. It had a to=
+ken, FTT (and SRM), with a multibillion-dollar market cap. You could even f=
+inance it, or FTX/Alameda could anyway: They could put FTT (and SRM) tokens=
+ in a box and get money out. (From customers.) They could take the dollars =
+out and never, you know, give the dollars back. They=C2=A0just got liquidat=
+ed eventually. And=C2=A0those tokens, FTT and SRM, were sort of like real m=
+onetizable stuff in some senses. But in other senses, not.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      But where did it go?
+   =20
+ =20
+
+I tried, in the previous section, to capture the horrors of FTX=E2=80=99s b=
+alance sheet as it spiraled into bankruptcy. But, as I said, there is somet=
+hing important missing in that account. What=E2=80=99s missing is the money=
+. What=E2=80=99s missing is that FTX had at some point something like $16 b=
+illion of customer money, but most of its assets turned out to be tokens th=
+at it made up. It did not pay $16 billion for those tokens, or even $1 bill=
+ion, probably.
+  [7]
+=C2=A0Money came in, but then when customers came to FTX and pried open the=
+ doors of the safe, all they found were cobwebs and Serum. Where did the mo=
+ney go?
+I don=E2=80=99t know, but the leading story appears to be that FTX gave the=
+ money to Alameda, and Alameda lost it. I am not sure about the order of op=
+erations here. The most sensible explanation is that Alameda lost the money=
+ first =E2=80=94=C2=A0during the crypto-market meltdown of this spring and =
+summer, when markets were crazy and Alameda=C2=A0spent=C2=A0money propping =
+up=C2=A0other=C2=A0failing crypto firms =E2=80=94=C2=A0and then FTX transfe=
+rred customer money to prop up Alameda. And Alameda never made the money ba=
+ck, and eventually everyone noticed that it was gone.
+So Reuters  reported last week:
+
+At least $1 billion of customer funds have vanished from collapsed crypto e=
+xchange FTX, according to two people familiar with the matter.
+The exchange's founder Sam Bankman-Fried secretly transferred $10 billion o=
+f customer funds from FTX to Bankman-Fried's trading company Alameda Resear=
+ch, the people told Reuters.
+A large portion of that total has since disappeared, they said.=C2=A0
+
+And the Wall Street Journal  reported over the weekend:
+
+Alameda Research=E2=80=99s chief executive and senior FTX officials knew th=
+at FTX had lent its customers=E2=80=99 money to Alameda to help it meet its=
+ liabilities, according to people familiar with the matter. ...
+Alameda faced a barrage of demands from lenders after crypto hedge fund Thr=
+ee Arrows Capital collapsed in June, creating losses for crypto brokers suc=
+h as Voyager Digital Ltd., the people said.
+In a video meeting with Alameda employees late Wednesday Hong Kong time, Al=
+ameda CEO Caroline Ellison said that she, Mr. Bankman-Fried and two other F=
+TX executives, Nishad Singh and Gary Wang, were aware of the decision to se=
+nd customer funds to Alameda, according to people familiar with the video. =
+=E2=80=A6
+Ms. Ellison said on the call that FTX used customer money to help Alameda m=
+eet its liabilities, the people said.
+Alameda had taken out loans to fund illiquid venture investments, the peopl=
+e said.
+
+Here we are in the realm of pure speculation, but you could imagine a numbe=
+r of ways this could have gone:
+=09Crypto prices, and firms, crashed earlier this year, and Alameda spotted=
+ a huge opportunity. It deployed as much capital as it could into buying gr=
+eat assets at bargain-basement prices. But since there was a crypto winter,=
+ it couldn=E2=80=99t deploy all that much capital, and was getting calls fr=
+om its own lenders. So Ellison and Bankman-Fried conferred and sensibly dec=
+ided that they couldn=E2=80=99t miss this opportunity, and that they would =
+deploy FTX customers=E2=80=99 money against it. They=E2=80=99d make a fortu=
+ne in short order on can=E2=80=99t-lose trades, and pay back the customer f=
+unds with interest. Then, oops, they were wrong. This story is bad =E2=80=
+=94=C2=A0none of these stories are going to be good! =E2=80=94=C2=A0but und=
+erstandable. If you run an opaque business in a lightly regulated industry,=
+ and customers trust you with their money, and you use it to make what you =
+think are good bets, and those bets turn out wrong, well, that happens some=
+times.=09Crypto prices crashed earlier this year, and Alameda was caught ou=
+t. It lost money and was facing calls from its lenders. Ellison and Bankman=
+-Fried realized that Alameda would=C2=A0go under without help, so they took=
+ FTX customer money to prop up Alameda, and gambled on redemption. This sto=
+ry is not=C2=A0so=C2=A0different from the previous one, though it is worse,=
+ but=C2=A0also very understandable. It is=C2=A0the typical way these things=
+ go, the default assumption for why someone would use customer money. No on=
+e wants to fail, no one wants to admit that they lost money, and if there=
+=E2=80=99s a poorly guarded pot of money they can use to paper over losses,=
+ sometimes they will.=09Crypto prices, and firms, crashed earlier this year=
+, and FTX/Alameda were like =E2=80=9Cwe are in a confidence business, and i=
+f we let these firms crash then investors will lose confidence in crypto ex=
+changes, which is bad for our business.=E2=80=9D Either in a good, public-s=
+pirited, we-want-crypto-to-thrive way, or in a bad, we-need-suckers way, or=
+ a bit of both.=C2=A0So they bailed those firms out with customer money. He=
+re is a video of Bankman-Fried and me discussing this possibility at the Bl=
+oomberg Crypto Summit in July, in which he said:=C2=A0=E2=80=9CThe explicit=
+ working principle we had=E2=80=9D in these bailouts was that =E2=80=9Cwe a=
+re incinerating a relatively small-ish amount of money in doing this,=E2=80=
+=9D in order to keep the crypto ecosystem healthy. Alameda/FTX was willing =
+to lose money bailing out other firms, if doing so improved confidence in c=
+rypto generally. Of course we did not talk about the possibility that FTX w=
+as doing this with customer money.=09Crypto prices, and firms, crashed earl=
+ier this year, and FTX/Alameda spotted an opportunity to acquire new custom=
+er deposits cheaply and use them for nefarious purposes. Like, you pay zero=
+ dollars for the equity of some busted crypto lending platform, you roll th=
+e customers over to become FTX customers, you cash out anyone who wants to =
+cash out, you assume that most people will trust FTX (their savior) and=C2=
+=A0not=C2=A0cash out, and then you use=C2=A0their=C2=A0deposits to fund you=
+r wild speculations. If FTX/Alameda were already=C2=A0using customer deposi=
+ts for bad reasons, and losing them, then acquiring more customer deposits =
+would be a way to keep things going.
+  [8]
+=C2=A0=09FTX/Alameda were funneling customer money into lavish lifestyles f=
+or their executives. This one does not seem likely here =E2=80=94=C2=A0they=
+   slept on beanbag chairs in the office, etc. =E2=80=94=C2=A0but it is in =
+general a very common explanation of missing customer money, and you=E2=80=
+=99d want some accounting.=09FTX/Alameda were funneling customer money into=
+ effective altruism. Bankman-Fried seems to have generously funded a lot of=
+ effective altruism charities, artificial-intelligence and pandemic researc=
+h, Democratic political candidates, etc. One $500 million entry on the desp=
+eration balance sheet is =E2=80=9CAnthropic,=E2=80=9D a venture investment =
+in an AI safety company. At that same Bloomberg Crypto Summit, I asked Bank=
+man-Fried
+  [9]
+: =E2=80=9CYou are sort of in the business of funneling money from people w=
+ho are going to use it poorly on gambling to, like, animal charities and pa=
+ndemic preparedness and Joe Biden. Is that too cynical a view, or is that n=
+ot cynical at all, or what?=E2=80=9D My question assumed that FTX and Alame=
+da made a lot of money on fees and spreads from running a crypto exchange a=
+nd=C2=A0market-maker, so they were legitimately taking=C2=A0money from gamb=
+lers and using it for charity. But =E2=80=9Cnot cynical enough=E2=80=9D mig=
+ht have been the correct answer.
+  [10]
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      So many other things
+   =20
+ =20
+
+Let=E2=80=99s do=C2=A0an FTX lightning round:
+=09Due to=C2=A0some combination of the speed of its collapse and the casual=
+ness of its accounting and governance,   FTX did a =E2=80=9Cfreefall=E2=80=
+=9D bankruptcy filing, without any prepared first-day motions or declaratio=
+ns. (Here is  the filing.)=C2=A0Ordinarily in a bankruptcy you get, pretty =
+early on, a declaration from some senior officer kind of explaining what we=
+nt down. Here we are still waiting for that.=09Customers are, obviously, un=
+happy =E2=80=94=C2=A0including retail customers of FTX US, a separate entit=
+y that was supposed to be insulated from FTX international, but that seems =
+to have =E2=80=9Cstopped processing withdrawals Friday after the bankruptcy=
+ filing.=E2=80=9D=C2=A0=09FTX was also an=C2=A0institutional exchange, and =
+some number of crypto hedge funds seem to have gotten caught with  their mo=
+ney trapped at FTX.=09Withdrawals from FTX.com were mostly shut down as it =
+imploded, but some off-ramps were open. For instance  Justin Sun=E2=80=99s =
+Tron blockchain provided a credit facility allowing people to, effectively,=
+ withdraw Tron=E2=80=99s tokens from FTX. This led to FTX customers dumping=
+ other assets to buy Tron assets so they could get out. If you are a blockc=
+hain entrepreneur, =E2=80=9Cbuy=C2=A0my token because even if your exchange=
+ collapses you=E2=80=99ll still be able to get your money back=E2=80=9D is =
+kind of a good pitch?=09Another off-ramp is that for a while=C2=A0Bahamas r=
+esidents  could take their money out,=C2=A0=E2=80=9Cper our Bahamian HQ=E2=
+=80=99s regulation and regulators.=E2=80=9D But then the Securities Commiss=
+ion of the Bahamas  put out a statement on Saturday saying, no, actually, =
+=E2=80=9Cthe Commission wishes to advise that it has not directed, authoriz=
+ed or suggested to FTX Digital Markets Ltd. the prioritization of withdrawa=
+ls for Bahamian clients,=E2=80=9D and that those withdrawals might be voida=
+ble in bankruptcy. Oops?=09That Bahamas off-ramp led to a weird nonfungible=
+ token trade, where Bahamas residents could create NFTs, sell them at absur=
+d markups on FTX to non-Bahamian customers, take out the proceeds and then =
+transfer the proceeds to an outside wallet of the non-Bahamian customer. He=
+re is more from  Aleksandar Gilbert at the Defiant. =E2=80=9C=E2=80=98This =
+appears to be the first recorded case of NFT utility in existence,=E2=80=99=
+=C2=A0crypto influencer Cobie sarcastically tweeted early Friday.=E2=80=9D=
+=C2=A0=09I guess FTX got hacked? =E2=80=9CSam Bankman-Fried=E2=80=99s bankr=
+upt digital-asset exchange FTX was hit by a mysterious outflow of about $66=
+2 million in tokens in the past 24 hours,=E2=80=9D   reported Bloomberg New=
+s on Saturday.=09=E2=80=9CFTX=E2=80=99s  list of investors spans powerful a=
+nd well-known investment firms: NEA, IVP, Iconiq Capital, Third Point Ventu=
+res, Tiger Global, Altimeter Capital Management, Lux Capital, Mayfield, Ins=
+ight Partners, Sequoia Capital, SoftBank, Lightspeed Venture Partners, Ribb=
+it Capital, Temasek Holdings, BlackRock and Thoma Bravo.=E2=80=9D I suppose=
+ FTX is a failure of venture capitalist due diligence, but it=E2=80=99s an =
+odd kind. The usual VC due diligence failure is, like, you back an entrepre=
+neur who promises a futuristic product, and the product doesn=E2=80=99t wor=
+k. FTX worked fine: People liked its technology, and it seems to have made =
+money. The problem was in its balance sheet, which was full of snakes, and =
+its governance, which put all the snakes there. Ideally the venture capital=
+ists would have spotted that in due diligence, but the typical VC company h=
+as a very simple balance sheet and terrible governance, so it is sort of un=
+derstandable that they sailed right by those problems.=09=E2=80=9CFTX=E2=80=
+=99s Sam Bankman-Fried was interviewed by Bahamian police and regulators on=
+ Saturday,=E2=80=9D   obviously.   And: =E2=80=9CThe Bahamian police said t=
+hey=E2=80=99re working with the Bahamas Securities Commission to investigat=
+e whether there was any criminal misconduct in the collapse of the crypto e=
+xchange FTX.=E2=80=9D  And: =E2=80=9CThe Manhattan U.S. attorney=E2=80=99s =
+office is investigating FTX=E2=80=99s collapse.=E2=80=9D=09=E2=80=9CBankman=
+-Fried=E2=80=99s Cabal of Roommates in the Bahamas Ran His Crypto Empire =
+=E2=80=93 and Dated. Other Employees Have Lots of Questions,=E2=80=9D was a=
+=C2=A0brisk and informative  CoinDesk headline last week.=09=E2=80=9CBig In=
+vestors Are Giving Up on Crypto Markets Going Mainstream,=E2=80=9D ha.=09Mi=
+chael Lewis was somehow there for all of this, and is=C2=A0already  selling=
+ the=C2=A0movie rights.=09=E2=80=9CSam Bankman-Fried is not very good at Le=
+ague of Legends,=E2=80=9D reports the Financial Times.=C2=A0
+
+Also   this is not FTX news but it is funny: =E2=80=9CCrypto.com said it re=
+covered almost $400 million in cryptoasset Ether from Asian exchange Gate.i=
+o, after it accidentally transferred the funds to the wrong account.=E2=80=
+=9D Not now, Crypto.com!
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+Imagine being Elon Musk=E2=80=99s bankers on the Twitter Inc. deal. They ha=
+ve loaned him about $13 billion, which they planned to syndicate to investo=
+rs, but which they are currently stuck holding. To syndicate that debt, the=
+y will need to prepare disclosure materials describing Twitter=E2=80=99s bu=
+siness plans and financial position.=C2=A0How will they do that? Twitter ha=
+s completely upended  its business=C2=A0every few hours over the last two w=
+eeks. Musk  fired its chief accounting officer. Before the deal closed, Mus=
+k went around accusing Twitter of massive fraud, and as far as I know he is=
+ still pursuing those claims. He=C2=A0will, with absolutely no prompting,  =
+ tell anyone who listens that Twitter is at risk of imminent bankruptcy.
+What do you say, in the debt offering documents? =E2=80=9CPlease lend money=
+ to this company, which is a fraud and probably bankrupt, but we can=E2=80=
+=99t tell you much about its business plan or financials=E2=80=9D? Who woul=
+d buy that? I mean, probably=C2=A0someone, is the answer; there is some pri=
+ce at which some high-yield investor would be willing to underwrite this me=
+ss. That price   seems to be roughly 60:
+
+Wall Street banks that lent $13 billion to help fund Elon Musk=E2=80=99s bu=
+yout of Twitter Inc. have been quietly sounding out hedge funds and other a=
+sset managers for their interest in a chunk of the buyout debt at deeply di=
+scounted prices.
+Some funds have offered to take a piece of the loan package at a discount a=
+s low as 60 cents on the dollar, which would be among the steepest markdown=
+s in a decade. The banks have so far deemed those bids unattractive, accord=
+ing to people with knowledge of the discussions who asked not to be identif=
+ied because the talks were private. =E2=80=A6
+Discussions so far have centered around the $6.5 billion leveraged loan por=
+tion of the financing, the people said. Banks had seemed unwilling to sell =
+for any price below 70 cents on the dollar, one of the people said.=C2=A0
+
+Even at 70 we are talking about billions of dollars of losses for the banks=
+. But even at 60, like, how do you=C2=A0document=C2=A0that trade? Do you pu=
+t together offering materials, and run the risk of investors suing you if M=
+usk files for bankruptcy the day after you place the debt? Or do you sell t=
+he debt on an as-is basis and make everyone sign a waiver saying, like, =E2=
+=80=9Cnobody knows what is going on here, we make no promises,=C2=A0and you=
+ are buying this stuff at your own risk=E2=80=9D? Can you even do that?=C2=
+=A0
+Incidentally one natural, extremely funny buyer for this debt would be Musk=
+ himself, and I (and others) have  half-joked on Twitter that he should jus=
+t bid the banks 50 cents on the dollar to buy up all the debt. Sure that is=
+ throwing good money after bad, but (1) it would save Twitter a lot of inte=
+rest expense, (2) it would ensure that Musk can own Twitter forever if for =
+some reason he wants that, (3) it=E2=80=99s not throwing away=C2=A0that=C2=
+=A0much more money, compared to what he has already spent and (4) it would =
+be a good troll, which seems to be the main business purpose of this deal.=
+=C2=A0Also the more he talks about bankruptcy the lower the price presumabl=
+y gets.
+Elsewhere:
+
+Elon Musk=E2=80=99s aerospace business SpaceX has ordered one of the larger=
+ advertising packages available from Twitter, the social media business he =
+just acquired in a $44 billion deal and where he is now serving as CEO.
+The campaign will promote the SpaceX-owned and -operated satellite internet=
+ service called Starlink on Twitter in Spain and Australia, according to in=
+ternal records from the social media business viewed by CNBC.
+The ad campaign SpaceX is buying to promote Starlink is called a Twitter =
+=E2=80=9Ctakeover.=E2=80=9D When a company buys one of these packages, they=
+ typically spend upwards of $250,000 to put their brand on top of the main =
+Twitter timeline for a full day, according to one current and one former Tw=
+itter employee who asked to remain unnamed because they were not authorized=
+ to speak on behalf of the company.
+
+Sure. And in Delaware today,  the trial is starting in a lawsuit about Musk=
+=E2=80=99s compensation plan at Tesla Inc.; for some reason Tesla sharehold=
+ers seem to think that Musk runs his companies like personal playthings rat=
+her than acting as a loyal fiduciary for his outside shareholders.
+
+ =20
+   =20
+      Anti-ESG antitrust
+   =20
+ =20
+
+Imagine that a big investor buys up a lot of stock in all of the oil compan=
+ies, and she goes to meet with the chief executive officers of all the oil =
+companies, and she says to them: =E2=80=9CAs your biggest shareholder, I wa=
+nt you to drill less oil, so that supplies are constrained and the price of=
+ oil goes up. Don=E2=80=99t worry though, I am also the biggest shareholder=
+ of all your competitors, and I will tell them the=C2=A0same thing. Everyon=
+e will drill less oil, so the price will go up, and you=E2=80=99ll all make=
+ more money with less work.=E2=80=9D And this works, and all the oil compan=
+ies drill less, and the price of oil goes up, and they all make more profit=
+.
+I am not an antitrust expert, and nothing here is ever legal advice, but yo=
+u can see how that could be an antitrust violation, no? It seems like a con=
+spiracy to restrain trade and raise prices. It=E2=80=99s a bit odd =E2=80=
+=94=C2=A0the CEOs are not conspiring with each other, but sort of coordinat=
+ing through their big shareholder =E2=80=94=C2=A0but it=E2=80=99s=C2=A0fish=
+y, anyway.
+Now imagine instead that a big investor buys up a lot of stock in all of th=
+e oil companies, and she goes to meet with the chief executive officers of =
+all the oil companies, and she says to them: =E2=80=9CAs your biggest share=
+holder, I want you to drill less oil, to reduce global carbon emissions.=C2=
+=A0I am also the biggest shareholder of all your competitors, and I will te=
+ll them the same thing. Everyone will drill less oil, so carbon emissions w=
+ill be lower.=E2=80=9D Is that =E2=80=A6=C2=A0hmm.
+Bloomberg=E2=80=99s   Alastair Marsh reports:
+
+Wall Street is walking into a new era of risk that has bankers, lawyers and=
+ climate campaigners reaching for a different playbook. ...=C2=A0That=E2=80=
+=99s as Republicans plan a new wave of antitrust action against firms perce=
+ived to be playing an active role in reducing greenhouse gas emissions. =E2=
+=80=A6
+The GOP says it=E2=80=99s targeting =E2=80=9CESG collusion.=E2=80=9D In let=
+ters sent to a group of lawyers just before the midterms, Senators Tom Cott=
+on, Michael Lee, Charles Grassley, Marsha Blackburn and Marco Rubio said fi=
+rms supporting environmental, social and governance goals should brace for =
+=E2=80=9Cinvestigations=E2=80=9D over =E2=80=9Cthe coming months and years.=
+=E2=80=9D=C2=A0
+
+One way to analyze this is that ESG investing and democracy are two differe=
+nt ways to coordinate behavior. One way to make the world better is to vote=
+ for representatives who will enact laws that make the world better; anothe=
+r way is to buy shares in companies and pressure them to do things that mak=
+e the world better. It is tempting, and not exactly wrong, to think that ES=
+G investing might sometimes be more=C2=A0effective,=C2=A0or that it is more=
+ likely to change the world in ways that=C2=A0you=C2=A0think are better. (S=
+implistically: Democracy, in the US, overweights the views of rural voters;=
+ investing overweights the views of coastal asset managers.) And so if you =
+decide that something needs to be done to fight climate change, and you loo=
+k at American politics, and then you look at the executives of big asset ma=
+nagement companies, you might think =E2=80=9Cah, yes, the asset managers ne=
+ed to fight climate change.=E2=80=9D=C2=A0
+But investing is only a very limited way to coordinate behavior! If you buy=
+ all the stocks of all the companies and=C2=A0too clearly coordinate betwee=
+n them, that=E2=80=99s an antitrust risk.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+China Plans   Property Rescue in Latest Surprise Policy Shift. Elizabeth Ho=
+lmes Should Get   15 Years=E2=80=99 Prison for Fraud, US Says. Elizabeth Ho=
+lmes Asks for a Lenient   18-Month Sentence at Home. More Zealot Than Showm=
+an:   Elizabeth Holmes Admirers Speak Out. Wealthy Russians Seen Fueling De=
+mand for   Caribbean Island=E2=80=99s Passport. Jeff Bezos Is   Giving Doll=
+y Parton $100 Million in Latest Award. KFC apologises after German  Kristal=
+lnacht promotion.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I mean, the entry is =E2=80=9C-8,000,000,000.=E2=80=9D Below that is =
+an entry for =E2=80=9Cwithdrawals on Sunday=E2=80=9D of =E2=80=9C5,000,000,=
+000.=E2=80=9D These are *bizarrely* round numbers. I suppose that if you=E2=
+=80=99re siphoning off $8 billion to your affiliated trading firm in a hidd=
+en account, you might siphon off a round $8 billion, but lots of uncoordina=
+ted customer withdrawals are not going to add up to exactly $5 billion even=
+. The point here is that FTX appears to have had no real accounting system =
+for customer withdrawals? Just sort of take a guess and chuck it in an Exce=
+l sheet?
+
+
+  [2] There is also a truly nightmarish calculation of =E2=80=9Cactual leve=
+rage=E2=80=9D (high) and =E2=80=9Cperceived leverage=E2=80=9D (zero) that I=
+ do not ever want to think about. =E2=80=9CPerceived leverage=E2=80=9D!
+
+
+  [3] CoinDesk reported this weekend: =E2=80=9COn Saturday, DeFi protocols =
+across the Solana ecosystem began unplugging from Serum for fear that they =
+didn=E2=80=99t know who wielded control =E2=80=93 a concern fueled by the l=
+ate-Friday hack at FTX. The developers once associated with Serum have gone=
+ silent. Meanwhile, the protocol=E2=80=99s dependence on Bankman-Fried and =
+his bankrupt companies Alameda and FTX loomed large.=E2=80=9D And The Block=
+ reported yesterday: =E2=80=9CSolana founder Anatoly Yakovenko noted that d=
+evelopers are rushing to fork Serum=E2=80=99s code today and resume the pro=
+tocol without the involvement of FTX. Developers need another version of Se=
+rum because the original can only be updated via a private key that was con=
+trolled by someone at FTX and not the Serum DAO. As a result of the FTX hac=
+k, that key may have been compromised.=E2=80=9D
+
+
+  [4] Were those reports true? I don=E2=80=99t think you can really tell on=
+e way or the other from the Financial Times=E2=80=99s leaked balance sheet,=
+ which seems to be for the FTX/Alameda consolidated group, and which does n=
+ot exactly follow accounting best practices. But I do think those reports r=
+emain plausible; as we will discuss in the next section, the best guess as =
+to where FTX=E2=80=99s customer money went was pretty much to Alameda. =E2=
+=80=9CFTX=E2=80=99s Digital Coin Was at Heart of Crypto Exchange=E2=80=99s =
+Fall,=E2=80=9D the Wall Street Journal reported today, though =E2=80=9Cit c=
+ouldn=E2=80=99t be determined if FTT was used as collateral for the custome=
+r loans.=E2=80=9D
+
+
+  [5] Also a little bit of rolled-over stock in Elon Musk=E2=80=99s Twitter=
+ Inc. deal?
+
+
+  [6] So =E2=80=94 if you wanted to do math to these numbers, which I do no=
+t recommend =E2=80=94 you could sort of reconstruct a rough =E2=80=9Cbefore=
+ last week=E2=80=9D balance sheet that is like $14 billion of customer liab=
+ilities, $6 billion of liquid assets, $4 billion of illiquid assets, and $1=
+4 billion of FTX-associated tokens, for a total of $24 billion of assets an=
+d $10 billion of net equity. (Then you subtract $5 billion from customer li=
+abilities and $5 billion from liquid assets to reflect customer outflows la=
+st weekend, and you get the =E2=80=9Cbefore this week=E2=80=9D numbers in F=
+TX=E2=80=99s spreadsheet.) This reconstructed balance sheet is *less bad* t=
+han the one I describe in the text, because it has $6 billion of liquid ass=
+ets against $14 billion of customer liabilities, which seems like sort of a=
+ plausible amount of liquidity for ordinary circumstances. (Versus the $1 b=
+illion of liquidity against $9 billion of liabilities in the actual spreads=
+heet.) But it is still very bad deep down, because you=E2=80=99ve got $10 b=
+illion of net equity but $14 billion of that is stuff you made up. If you l=
+ose confidence, that all goes to zero and you=E2=80=99re insolvent. (I am e=
+xaggerating here by counting Solana tokens in the =E2=80=9Cstuff you made u=
+p,=E2=80=9D but that was only about $2.2 billion of the $14 billion, so eve=
+n if you move it to the =E2=80=9Cliquid=E2=80=9D category the point still h=
+olds.)
+
+
+  [7] FTX could have paid *Alameda* for those tokens =E2=80=94 or taken tho=
+se tokens as collateral for loans to Alameda =E2=80=94 but as a consolidate=
+d-group matter no money flowed out of the system for those tokens.
+
+
+  [8] The  Petition newsletter today discusses speculation about this possi=
+bility, and reports on the fallout from FTX=E2=80=99s implosion for the *ot=
+her* imploded crypto platforms that FTX/Alameda had agreed to bail out.
+
+
+  [9] See about 31:45 in   this video.
+
+
+  [10] See also Byrne Hobart=E2=80=99s post today about Bankman-Fried, util=
+itarianism, and more-than-full-Kelly betting. You can construct some weird =
+utilitarianism that is like =E2=80=9Cit is optimal to constantly gamble cus=
+tomer money on crypto bets in order to maximize your chances of stopping a =
+malignant AI from destroying humanity.=E2=80=9D=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chog2w.5y4v/4d55fb24.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_86899617_122740686.1668449455590
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+There is so much, but I want to start with Serum.If a troubled company has =
+a few days to beg potential investors for a bailout before it fil
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB54ce3824" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBbd0397cc"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC6c512063" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The box</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is so much, but I want to start with Ser=
+um.</p>
+<p style=3D"margin: 16px 0;">If a troubled company has a few days to beg po=
+tential investors for a bailout before it files for bankruptcy, and it send=
+s those investors its balance sheet so they can consider investing, and the=
+y all pass, and then the company files for bankruptcy, of course the balanc=
+e sheet was=C2=A0<em>bad</em>. That is not a state of affairs that is consi=
+stent with a pristine fortress balance sheet.</p>
+<p style=3D"margin: 16px 0;">But there is a range of possible badness, even=
+ in bankruptcy, and the balance sheet that Sam Bankman-Fried=E2=80=99s fail=
+ed crypto exchange FTX.com sent to potential investors last week before fil=
+ing for bankruptcy on Friday is very bad. It=E2=80=99s=C2=A0an Excel file f=
+ull of the howling of ghosts and the shrieking of tortured souls. If you lo=
+ok too long at that spreadsheet,=C2=A0you will go insane. Antoine Gara, Kad=
+him Shubber and Joshua Oliver at the Financial Times=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuZnQ=
+uY29tL2NvbnRlbnQvZjA1ZmU5ZjgtY2EwYS00OGQ1LThlZjItN2E0ZDgxM2FmNTU4/607f07cee=
+f4b8524a319a23cB55a1eae9" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">reported on Saturday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Sam Bankman-Fried=E2=80=99s main international=
+ FTX exchange held just $900mn in easily sellable assets against $9bn of li=
+abilities the day before it collapsed into bankruptcy, according to investm=
+ent materials seen by the Financial Times.</p>
+<p style=3D"margin: 16px 0;">The largest portion of those liquid assets lis=
+ted on a FTX international balance sheet dated Thursday was $470mn of Robin=
+hood shares owned by a Bankman-Fried vehicle not listed in Friday=E2=80=99s=
+ bankruptcy filing, which included 134 corporate entities.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Seems bad, but it somehow keeps getting worse:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">A spreadsheet listing FTX internat=
+ional=E2=80=99s assets and liabilities, seen by the Financial Times, point =
+at the issues that brought Bankman-Fried crashing back down to earth. It re=
+ferences $5bn of withdrawals last Sunday, and a negative $8bn entry describ=
+ed as =E2=80=9Chidden, poorly internally labled =E2=80=98fiat@=E2=80=99 acc=
+ount=E2=80=9D.</p></blockquote>
+<p style=3D"margin: 16px 0;">What.</p>
+<blockquote><p style=3D"margin: 16px 0;">The vast majority of FTX Trading=
+=E2=80=99s recorded assets are either illiquid venture capital investments =
+or crypto tokens that are not widely traded, according to the spreadsheet, =
+which cautions that the figures =E2=80=9Care rough values, and could be sli=
+ghtly off; there is also obviously a chance of typos etc. They also change =
+a bit over time as trades happen.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">What.</p>
+<blockquote><p style=3D"margin: 16px 0;">In all, the spreadsheet says FTX T=
+rading=E2=80=99s assets were $900mn of =E2=80=9Cliquid=E2=80=9D assets, $5.=
+5bn of =E2=80=9Cless liquid=E2=80=9D assets consisting of crypto tokens, an=
+d $3.2bn of illiquid private equity investments. There is also an obscure $=
+7mn holding called =E2=80=9CTRUMPLOSE=E2=80=9D. There are no bitcoin assets=
+ listed, despite bitcoin liabilities of $1.4bn.</p></blockquote>
+<p style=3D"margin: 16px 0;">What. And yet bad as all of this is, it can=E2=
+=80=99t prepare you for the balance sheet itself, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvMGMyYTU1YjYtZDM0Yy00Njg1LThhOGQtM2M5NjI4ZjFmMTg1/607f07ceef4b8524a=
+319a23cBdafff2b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> published by FT Alphaville</a>, which is less a =
+balance sheet and more a list of some tickers interspersed with hasty apolo=
+gies. If you blithely add up the =E2=80=9Cliquid,=E2=80=9D =E2=80=9Cless li=
+quid=E2=80=9D and =E2=80=9Cilliquid=E2=80=9D assets, at their =E2=80=9Cdeli=
+verable=E2=80=9D value as of Thursday, and subtract the liabilities, you do=
+ get a positive net equity of about $700 million. (Roughly $9.6 billion of =
+assets versus $8.9 billion of liabilities.) But then there is the =E2=80=9C=
+Hidden, poorly internally labeled =E2=80=98fiat@=E2=80=99 account,=E2=80=9D=
+ with a balance of negative $8 billion.<a class=3D"footnote-index" href=3D"=
+#footnote-1" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[1]</span>
+</a>=C2=A0I don=E2=80=99t actually think that you=E2=80=99re supposed to su=
+btract that number from net equity =E2=80=94 though I do not know how this =
+balance sheet is supposed to work! =E2=80=94 but it doesn=E2=80=99t matter.=
+ If you try to calculate the equity of a balance sheet with an entry for HI=
+DDEN POORLY INTERNALLY LABELED ACCOUNT, Microsoft Clippy will appear before=
+ you in the flesh, bloodshot and staggering, with a knife in his little pap=
+er-clip hand, saying =E2=80=9Cjust what do you think you=E2=80=99re doing=
+=C2=A0Dave?=E2=80=9D You cannot apply ordinary arithmetic to numbers in a c=
+ell labeled =E2=80=9CHIDDEN POORLY INTERNALLY LABELED ACCOUNT.=E2=80=9D The=
+ result of adding or subtracting those numbers with ordinary numbers is not=
+ a number; it is prison.<a class=3D"footnote-index" href=3D"#footnote-2" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But here is the paragraph that drove <em>me=C2=
+=A0</em>insane:</p>
+<blockquote><p style=3D"margin: 16px 0;">The company=E2=80=99s biggest asse=
+t as of Thursday was $2.2bn worth of a cryptocurrency called Serum. Serum=
+=E2=80=99s market value was $88mn on Saturday, according to data provider C=
+ryptoCompare, suggesting FTX=E2=80=99s holdings would be worth far less if =
+sold into the market. CryptoCompare=E2=80=99s figures take into account the=
+ coin=E2=80=99s liquidity.</p></blockquote>
+<p style=3D"margin: 16px 0;">If you look on the balance sheet, that=E2=80=
+=99s the biggest =E2=80=9Cdeliverable=E2=80=9D number: $2,187,876,172 of SR=
+M, the ticker for the Serum token, down from $5,430,110,335 =E2=80=9Cbefore=
+ this week.=E2=80=9D (=E2=80=9CBefore this week=E2=80=9D means, of course, =
+before=C2=A0<em>last=C2=A0</em>week =E2=80=94=C2=A0before the week that FTX=
+ was circulating this spreadsheet =E2=80=94=C2=A0and I will use it as a sho=
+rthand to mean roughly =E2=80=9Cbefore Nov. 8.=E2=80=9D On Nov. 8, the trou=
+ble at FTX became public, and everything FTX-related crashed.)</p>
+<p style=3D"margin: 16px 0;">As of about 11 a.m. today, <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly9jb2lubWFya=
+2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3NlcnVtLw/607f07ceef4b8524a319a23cB159eb044" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> CoinMarketCap showed</a> the Serum token having a price of $0.25,=C2=
+=A0a =E2=80=9Cmarket cap=E2=80=9D of about $65 million and a =E2=80=9Cfully=
+ diluted market cap=E2=80=9D of about $2.5 billion. Those numbers would hav=
+e been a bit higher =E2=80=94=C2=A0say $0.35 to $0.40 per token =E2=80=94 o=
+n Thursday, when this balance sheet was created. The price crashed last Tue=
+sday, during FTX=E2=80=99s death throes; before that the token=C2=A0traded =
+around $0.80. In round numbers FTX probably held something like two-thirds =
+of Serum=E2=80=99s fully diluted market cap, and roughly 20 <em>times</em> =
+its basic market cap.</p>
+<p style=3D"margin: 16px 0;">In crypto, market cap is (as CoinMarketCap put=
+s it) =E2=80=9Cthe total market value of a cryptocurrency's circulating sup=
+ply =E2=80=A6=C2=A0analogous to the free-float capitalization in the stock =
+market,=E2=80=9D while fully diluted market cap is =E2=80=9Cthe market cap =
+if the max supply was in circulation.=E2=80=9D So if for instance some comp=
+any creates a token, and says that there can be 10 billion of the token, an=
+d reserves them all for=C2=A0itself, and then sells 1 million of them to ou=
+tside investors for $1 each, then the market cap=C2=A0of that token is $1 m=
+illion ($1 times 1 million circulating tokens), while the fully diluted mar=
+ket cap is $10 billion ($1 times 10 billion total tokens), and the issuer=
+=E2=80=99s 9,999,000,000 remaining tokens have a value, on this math, of $9=
+.999 billion. We will come back to this point.</p>
+<p style=3D"margin: 16px 0;">What is Serum? <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cucHJvamVjdHNlcnVtL=
+mNvbS8/607f07ceef4b8524a319a23cBa3ec45d9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Serum is</a>=C2=A0a =E2=
+=80=9Cprotocol for decentralized exchanges that brings unprecedented speed =
+and low transaction costs to decentralized finance=E2=80=9D that runs on th=
+e Solana blockchain. Also Serum (the token, ticker SRM)=C2=A0=E2=80=9C<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM=
+6Ly9kb2NzLnByb2plY3RzZXJ1bS5jb20vaW50cm9kdWN0aW9uL3NybS10b2tlbg/607f07ceef4=
+b8524a319a23cBdc39ac9b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">is the utility and governance token</a> of =
+Serum (the protocol). If you hold SRM in your wallet, you receive a discoun=
+t on fees=E2=80=9D for trading on the Serum protocol. Also, when the protoc=
+ol collects trading fees, it uses a portion of the fees to buy and burn SRM=
+. The result is that SRM functions a lot like stock in Serum: If the Serum =
+project does well and a lot of decentralized trading happens on its exchang=
+es, then it will collect a lot of fees and use those fees to buy SRM, which=
+ will drive up the value of SRM and make SRM investors rich. (Also the SRM =
+investors can vote on how Serum is run.) If you are bullish on Serum as a b=
+usiness, as a platform for decentralized crypto trading, then you should bu=
+y SRM, because SRM is more or less a claim on the cash flows of that busine=
+ss.</p>
+<p style=3D"margin: 16px 0;">One thing that is really really really really =
+really important to mention about the Serum=C2=A0protocol is that it was <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0=
+cHM6Ly9tZWRpdW0uY29tL3NvbGFuYS1sYWJzL2Z0eC1jaG9vc2VzLXNvbGFuYS1mb3Itc2VydW0=
+tYS1oaWdoLXNwZWVkLW5vbi1jdXN0b2RpYWwtZGVjZW50cmFsaXplZC1kZXJpdmF0aXZlcy1leG=
+NoYW5nZS1jMzQ2YTI3YzFmMmI/607f07ceef4b8524a319a23cBbf7daec2" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> creat=
+ed</a>=C2=A0and=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/29694056.277519/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL21hcmtldHMvMjAyMS8wNC8y=
+OC9zZXJ1bS10b2tlbi1iZWNvbWVzLWxhdGVzdC1wcm9qZWN0LWluLWJhbmttYW4tZnJpZWQtZW1=
+waXJlLXRvLXR1cm4taGVhZHMv/607f07ceef4b8524a319a23cB119d15d3" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">promot=
+ed</a> by FTX and Alameda Research, the FTX-affiliated crypto hedge fund th=
+at was also founded by Bankman-Fried. FTX is a centralized crypto exchange,=
+ but a lot of people in crypto do not trust centralized exchanges (for reas=
+ons!) and prefer to trade on decentralized exchanges. Serum is, in a loose =
+but meaningful way, the decentralized exchange <em>of</em> FTX.</p>
+<p style=3D"margin: 16px 0;">Go back to what I said above, about a company =
+creating a token, issuing a bunch of it to itself, and selling a little of =
+it into the public market. Something like 3% of the total value of Serum is=
+ held by the public and trading on exchanges. The other 97% is not. Somethi=
+ng like two-thirds of that 97% is held by FTX and Alameda.=C2=A0</p>
+<p style=3D"margin: 16px 0;">How did they get their SRM? Well, you can look=
+ at <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.27751=
+9/aHR0cHM6Ly93d3cucHJvamVjdHNlcnVtLmNvbS9zZXJ1bS10b2tlbi1zdW1tYXJ5/607f07ce=
+ef4b8524a319a23cB470e97c0" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> the distribution of SRM here</a>, but t=
+he main point=C2=A0is that they did=C2=A0<em>not=C2=A0</em>buy it on the op=
+en market for cash. When FTX=E2=80=99s balance sheet says that, =E2=80=9Cbe=
+fore this week,=E2=80=9D it held $5.4 billion worth of Serum, that does=C2=
+=A0<em>not=C2=A0</em>mean that Alameda or FTX took $5.4 billion of cash (th=
+eir own, their investors=E2=80=99, their customers=E2=80=99, anyone=E2=80=
+=99s) and used it to buy a lot of Serum tokens in the open market. They got=
+ all those Serum tokens for, in round numbers,=C2=A0<em>free</em>, as the i=
+nitial backers of the Serum protocol. (Presumably they paid some startup co=
+sts.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">For a minute, ignore this nightmare balance sh=
+eet, and think about what FTX=E2=80=99s balance sheet <em>should=C2=A0</em>=
+be. Conceptually, customers give you money =E2=80=94=C2=A0apparently about =
+$16 billion in dollars, crypto, etc. =E2=80=94=C2=A0and then you hang on to=
+ the money and owe it back to them. In the simplest world, you keep the cus=
+tomers=E2=80=99 money in exactly the form they give it to you: Someone depo=
+sits $100, you keep $100 for him; someone deposits one Bitcoin, you keep on=
+e Bitcoin for her. For <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb=
+3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB17dcb338" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  reasons we have d=
+iscussed</a> =E2=80=94=C2=A0some legitimate! =E2=80=94=C2=A0FTX doesn=E2=80=
+=99t quite work that way, and you could imagine some more complicated balan=
+ce sheet where a lot of the money and crypto that came in from some custome=
+rs was loaned to others. But broadly speaking your balance sheet is still g=
+oing to look roughly like:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><em>Liabilities:=C2=A0</em>Money customers gav=
+e you, which you owe to them;</p>
+<p style=3D"margin: 16px 0;"><em>Assets: </em>Stuff you bought with that mo=
+ney.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And then the basic question is, how bad is the=
+ mismatch. Like, $16 billion of dollar liabilities and $16 billion of liqui=
+d dollar-denominated assets? Sure, great.=C2=A0$16 billion of dollar liabil=
+ities and $16 billion worth of Bitcoin assets? Not ideal, incredibly risky,=
+ but in some broad sense understandable. $16 billion of dollar liabilities =
+and assets consisting entirely of some magic beans that you bought in the m=
+arket for $16 billion? Very bad. $16 billion of dollar liabilities and asse=
+ts consisting mostly of some magic beans=C2=A0<em>that you invented yoursel=
+f and acquired for zero dollars? </em>WHAT? Never mind the <em>valuation</e=
+m>=C2=A0of the beans; where did the=C2=A0<em>money=C2=A0</em>go? What happe=
+ned to the $16 billion? Spending $5 billion of customer money on Serum woul=
+d have been horrible, but FTX didn=E2=80=99t do that, and couldn=E2=80=99t =
+have, because there wasn=E2=80=99t $5 billion of Serum available to buy. FT=
+X shot its customer money into some still-unexplained reaches of the astral=
+ plane and was like =E2=80=9Cwell we do have $5 billion of this Serum token=
+ we made up, that=E2=80=99s something?=E2=80=9D No it isn=E2=80=99t!</p>
+<p style=3D"margin: 16px 0;">One simple point=C2=A0here is that FTX=E2=80=
+=99s Serum holdings =E2=80=94=C2=A0$2.2 billion last week, $5.4 billion bef=
+ore that =E2=80=94 could not have been sold for=C2=A0<em>anything like </em=
+>$2.2 billion. FTX=E2=80=99s Serum holdings were <em>vastly=C2=A0</em>large=
+r than the entire circulating supply of Serum. If FTX had attempted to sell=
+ them into the market over the course of a week or month or year, it would =
+have swamped the market=C2=A0and crashed the price. Perhaps it could have g=
+otten a few hundred million dollars for them. But I think a realistic valua=
+tion of that huge stash of Serum would be closer to zero. That is not a com=
+ment on Serum; it=E2=80=99s a comment on the size of the stash.</p>
+<p style=3D"margin: 16px 0;">But I=C2=A0<em>do=C2=A0</em>want to comment on=
+ Serum, because=C2=A0Serum is not some weird token that FTX cornered for so=
+me reason; Serum is a token that FTX <em>made up</em>. To use a loose but r=
+easonable analogy, Serum (the protocol) is sort of FTX=E2=80=99s decentrali=
+zed exchange subsidiary, and SRM (the token) is sort of the stock in that s=
+ubsidiary. A little of the stock trades publicly, but it is mostly held by =
+FTX, its corporate parent, as it were. The public market price of the small=
+ free float might give a reasonable estimate of the value of the subsidiary=
+. But in the real world, the value of the subsidiary is=C2=A0<em>incredibly=
+ tightly linked=C2=A0</em>to the value of FTX=E2=80=99s overall business. I=
+f everyone is like =E2=80=9Cah yes FTX is a good exchange operator and a le=
+ader in safe crypto trading,=E2=80=9D then its decentralized exchange proto=
+col has a good chance of being popular and profitable. If everyone is like =
+=E2=80=9Cah yes FTX is a careless fraud,=E2=80=9D then Serum is going to ha=
+ve a hard time.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0At the point that FTX is shopping its Serum stake to seek a rescu=
+e financing due to=C2=A0HIDDEN POORLY INTERNALLY LABELED ACCOUNT, its huge =
+stash of Serum is toast! Just toast!=C2=A0</p>
+<p style=3D"margin: 16px 0;">Does this sound familiar? This is pretty much =
+exactly what I said last week about FTT, the utility token of FTX=E2=80=99s=
+ regular centralized exchange. <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyY=
+WwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC17dcb338" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  I wrote</=
+a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">FTX issues a token called FTT. The=
+ attributes of this token are, like, it entitles you to some discounts and =
+stuff, but the main attribute is that FTX periodically uses=C2=A0a portion =
+of its profits to buy back FTT tokens. This makes FTT=C2=A0<em>kind of=C2=
+=A0</em>like=C2=A0<em>stock=C2=A0</em>in FTX: The higher FTX=E2=80=99s prof=
+its are, the higher the price of FTT will be.=C2=A0 It is not=C2=A0<em>actu=
+ally=C2=A0</em>stock in FTX =E2=80=94=C2=A0in fact FTX is a company and has=
+ stock and venture capitalists bought it, etc. =E2=80=94=C2=A0but it is a l=
+ot=C2=A0<em>like=C2=A0</em>stock in FTX.=C2=A0FTT is a bet on FTX=E2=80=99s=
+ future profits.</p></blockquote>
+<p style=3D"margin: 16px 0;">I was writing about reports suggesting that FT=
+X might have loaned a lot of customer money to Alameda and taken Alameda=E2=
+=80=99s stash of FTT tokens as collateral,<a class=3D"footnote-index" href=
+=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[4]</span>
+</a>=C2=A0and I said:</p>
+<blockquote><p style=3D"margin: 16px 0;">If you think of the token as =E2=
+=80=9Cmore or less stock,=E2=80=9D and you think of a crypto exchange as a =
+securities broker-dealer,=C2=A0<em>this is completely insane.=C2=A0</em>If =
+you go to an investment bank and say =E2=80=9Clend me $1 billion, and I wil=
+l post $2 billion of your stock as collateral,=E2=80=9D you are messing wit=
+h very dark magic=C2=A0and they will say no.=C2=A0The problem with this is =
+that it is=C2=A0<em>wrong-way risk.=C2=A0</em>(It is also, at least sometim=
+es,=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.=
+277519/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDczZWZhZTItMGUyYy0xMWU3LWIwMzAt=
+NzY4OTU0Mzk0NjIz/607f07ceef4b8524a319a23cBde3ea359" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">illegal</a>.)=C2=A0If people start to worry about the investme=
+nt bank=E2=80=99s financial health, its stock will go down, which means tha=
+t its collateral will be less valuable, which means that its financial heal=
+th will get worse, which means that its stock will go down, etc. It is a=C2=
+=A0death spiral.</p></blockquote>
+<p style=3D"margin: 16px 0;">Last week I was shocked that one of the main a=
+ssets of FTX =E2=80=94=C2=A0one of the main assets it relied on to be able =
+to pay out customer balances =E2=80=94=C2=A0was a token it had just made up=
+. But I was wrong! It was=C2=A0<em>two=C2=A0</em>tokens that it had just ma=
+de up! FTX=E2=80=99s=C2=A0<em>two=C2=A0</em>largest asset balances, =E2=80=
+=9Cbefore this week,=E2=80=9D were $5.9 billion of FTT ($553 million at pos=
+t-crash prices last Thursday) and $5.4 billion of SRM ($2.2 billion post-cr=
+ash). Something like two-thirds of the money that FTX owed to customers was=
+ backed by its own tokens that it had made up.</p>
+<p style=3D"margin: 16px 0;">The third-biggest asset, incidentally, was SOL=
+, the token of the Solana blockchain. Solana is <em>not</em> something that=
+ FTX made up, and has <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/29694056.277519/aHR0cHM6Ly9kb2NzLnNvbGFuYS5jb20vaGlzdG9yeQ/607f07ceef4b=
+8524a319a23cB931f332b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> an existence independent of FTX</a>. But it=
+ is certainly=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/29694056.277519/aHR0cHM6Ly9tZXNzYXJpLmlvL2Fzc2V0L3NlcnVtL3Byb2ZpbGUvbGF1bm=
+NoLWFuZC1pbml0aWFsLXRva2VuLWRpc3RyaWJ1dGlvbg/607f07ceef4b8524a319a23cB45b25=
+8c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"><em>associated=C2=A0</em>with</a> Alameda, FTX and Sam Bankman=
+-Fried; they have=C2=A0been=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjItMTEtMTQvc29sYW5hLXNvbC1nYW1lcy1zdHVtYmxlLWFzLWVjb3N5c3RlbS1=
+0YWtlcy1hLWhpdC1hZnRlci1mdHgtY29sbGFwc2U_Y21waWQ9QkJEMTExNDIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE0J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5b985587" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+big backers of the Solana ecosystem</a>. It=E2=80=99s not that Solana is =
+=E2=80=9Cthe blockchain of FTX,=E2=80=9D but it=E2=80=99s a little bit like=
+ that. There is wrong-way risk there too.</p>
+<p style=3D"margin: 16px 0;">And another big asset is $616 million=C2=A0wor=
+th of the MAPS token ($865 million =E2=80=9Cbefore last week=E2=80=9D). MAP=
+S is the token of Maps.me 2.0, a sort of Serum spinoff that was <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly9oZ=
+WxwLmZ0eC5jb20vaGMvZW4tdXMvYXJ0aWNsZXMvMzYwMDU1NTk5MjcxLUhvdy10by1QYXJ0aWNp=
+cGF0ZS1pbi10aGUtTWFwcy1tZS1TYWxl/607f07ceef4b8524a319a23cB09dc792c" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> also launched by FTX</a>; its market cap, according to CoinMarketCap at a=
+bout 11 a.m. today, is <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/29694056.277519/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL21hcH=
+Mv/607f07ceef4b8524a319a23cBa0c6c8de" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> about $3 million</a>. Again,=
+ FTX=E2=80=99s MAPS holdings were=C2=A0<em>two hundred times=C2=A0</em>the=
+=C2=A0total value of MAPS actually tradable in the market. It=E2=80=99s the=
+ same story as Serum, but worse, though on a smaller scale. (There=E2=80=99=
+s a lot of this all over the balance sheet: Bloomberg=E2=80=99s Annie Massa=
+ reported=C2=A0on these projects today, under the headline =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTQvc2FtLWJhbmttYW4t=
+ZnJpZWQtcy1tYWdpYy1tb25leS1ib3gtZW5yaWNoZWQtdmFzdC1jcnlwdG8tbmV0d29yaz9jbXB=
+pZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB37e8ba54" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Sam Bankman-Fried=E2=80=99s Magic Money Box E=
+nriched Vast Crypto Network.</a>=E2=80=9D)</p>
+<p style=3D"margin: 16px 0;">In round numbers, FTX=E2=80=99s Thursday despe=
+ration balance sheet shows about $8.9 billion of customer liabilities again=
+st assets with a value=C2=A0of roughly $19.6 billion before last week=E2=80=
+=99s crash, and roughly $9.6 billion after the crash (as of Thursday, per F=
+TX=E2=80=99s numbers). Of that $19.6 billion of=C2=A0assets=C2=A0<em>back i=
+n the good times</em>, some $14.4 billion was in more-or-less FTX-associate=
+d tokens (FTT, SRM, SOL, MAPS). Only about $5.2 billion of assets =E2=80=94=
+=C2=A0against $8.9 billion of customer liabilities=C2=A0=E2=80=94=C2=A0was =
+in more-or-less normal financial stuff. (And even that was=C2=A0<em>mostly=
+=C2=A0</em>in illiquid venture investments; only about $1 billion was in li=
+quid cash, stock and cryptocurrencies =E2=80=94=C2=A0and half of that was R=
+obinhood stock.) After the run on FTX, the FTX-associated stuff, predictabl=
+y, crashed. The Thursday balance sheet valued the FTT, SRM, SOL and MAPS ho=
+ldings at a combined $4.3 billion, and that number is still way too high.</=
+p>
+<p style=3D"margin: 16px 0;">I am not saying that=C2=A0<em>all=C2=A0</em>of=
+ FTX=E2=80=99s assets were made up. That desperation balance sheet lists do=
+llar and yen accounts, stablecoins, unaffiliated cryptocurrencies, equities=
+, venture investments, etc., all things that were not created or controlled=
+ by FTX.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: none !important; background-colo=
+r: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> And that desperation balance sheet reflects FTX=E2=80=99s position=C2=
+=A0<em>after=C2=A0</em>$5 billion of customer outflows last weekend; presum=
+ably FTX burned through its more liquid normal stuff (Bitcoin, dollars, etc=
+.) to meet those withdrawals, so what was left was the weirdo cats and dogs=
+.<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: none !important; background-color: tran=
+sparent !important; display: inline-block;">
+<span>[6]</span>
+</a> Still it is striking that the balance sheet that FTX circulated to pot=
+ential rescuers=C2=A0consisted=C2=A0<em>mostly=C2=A0</em>of stuff it made u=
+p. Its balance sheet consisted mostly of stuff it made up! Stuff it made up=
+! You can=E2=80=99t do that! That=E2=80=99s not how balance sheets work! Th=
+at=E2=80=99s not how anything works!</p>
+<p style=3D"margin: 16px 0;">Oh, fine: <em>It is how crypto works</em>. Thi=
+s might all sound familiar not just because we talked about FTT last week, =
+but because we <a href=3D"https://link.mail.bloombergbusiness.com/click/296=
+94056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMTExNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE0JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0599af1a" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  talked about<=
+/a> the collapse of <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjItMDUtMTAvYW5vdGhlci1hbGdvcml0aG1pYy1zdGFibGVjb2luLWlzbi10P2NtcGlkPUJC=
+RDExMTQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIyMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cBcedc9b96" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  TerraUSD and=C2=A0Luna</a> earlier this year. Ter=
+ra was a blockchain system run by Do Kwon, and it raised billions of dollar=
+s by selling dollar-denominated tokens =E2=80=94=C2=A0TerraUSD =E2=80=94=C2=
+=A0that were supposed to keep their value because they were backed by a var=
+iable amount of another token =E2=80=94=C2=A0Luna =E2=80=94=C2=A0that Kwon =
+had also invented. For a while people thought the Terra ecosystem was promi=
+sing, so the Luna token was=C2=A0worth a lot, so Terra could go around sayi=
+ng its TerraUSD tokens were extremely safe, because the billions of=C2=A0do=
+llars of TerraUSD =E2=80=9Cdebt=E2=80=9D were backed by more billions of do=
+llars=E2=80=99 worth of Luna. And then one day people changed their minds, =
+and the price of Luna =E2=80=94=C2=A0which was just a bet on Terra=E2=80=99=
+s future =E2=80=94=C2=A0collapsed, so TerraUSD was unbacked, and the whole =
+thing collapsed. The FTX situation is not the same, but it rhymes. The role=
+ of TerraUSD =E2=80=94=C2=A0the =E2=80=9Cdebt=E2=80=9D =E2=80=94=C2=A0is pl=
+ayed here by FTX=E2=80=99s customer balances; the role of Luna =E2=80=94=C2=
+=A0the backing token =E2=80=94=C2=A0is played by FTT and SRM. In both cases=
+, confidence in the business collapsed, and it turned out that the debt was=
+ actually backed by nothing.</p>
+<p style=3D"margin: 16px 0;">Or it might sound familiar because Bankman-Fri=
+ed <em>said it himself</em>, to me,<em>=C2=A0</em>on a=C2=A0now-infamous <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMDYvdHJhbnNjcml=
+wdC1zYW0tYmFua21hbi1mcmllZC1hbmQtbWF0dC1sZXZpbmUtb24tY3J5cHRvLW1hcmtldC1zdH=
+J1Y3R1cmU_Y21waWQ9QkJEMTExNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cBfea74fa2" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  episode of Bloomberg=E2=80=99=
+s Odd Lots podcast</a> last year. I asked him a question about yield farmin=
+g, and in the course of his answer he said:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">You start with a company that builds a box and=
+ in practice this box, they probably dress it up to look like a life-changi=
+ng, you know, world-altering protocol that's gonna replace all the big bank=
+s in 38 days or whatever. Maybe for now actually ignore what it does or pre=
+tend it does literally nothing. It's just a box. So what this protocol is, =
+it's called =E2=80=98Protocol X,=E2=80=99 it's a box, and you take a token.=
+ =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">So you've got this box=C2=A0and it=E2=80=99s k=
+ind of dumb, but like what's the end game, right? This box is worth zero ob=
+viously. =E2=80=A6 But on the other hand, if everyone kind of now thinks th=
+at this box token is worth about a billion dollar market cap, that's what p=
+eople are pricing it at and sort of has that market cap. Everyone's gonna m=
+ark=C2=A0to market. In fact, you can even finance this, right? You put X to=
+ken in a borrow lending protocol and borrow dollars with it. If you think i=
+t's worth like less than two thirds of that, you could even just like put s=
+ome in there, take the dollars out. Never, you know, give the dollars back.=
+ You just get liquidated eventually. And it is sort of like real monetizabl=
+e stuff in some senses.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The box, it turns out,=C2=A0was FTX (and Serum=
+). It looked like a life-changing, world-altering business that would repla=
+ce all the banks. It had a token, FTT (and SRM), with a multibillion-dollar=
+ market cap. You could even finance it, or FTX/Alameda could anyway: They c=
+ould put FTT (and SRM) tokens in a box and get money out. (From customers.)=
+ They could take the dollars out and never, you know, give the dollars back=
+. They=C2=A0just got liquidated eventually. And=C2=A0those tokens, FTT and =
+SRM, were sort of like real monetizable stuff in some senses. But in other =
+senses, not.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD57a81b01" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE57a81b01" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF88bbde1e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG88bbde1e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">But where did it go?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I tried, in the previous section, to capture t=
+he horrors of FTX=E2=80=99s balance sheet as it spiraled into bankruptcy. B=
+ut, as I said, there is something important missing in that account. What=
+=E2=80=99s missing is the money. What=E2=80=99s missing is that FTX had at =
+some point something like $16 billion of customer money, but most of its as=
+sets turned out to be tokens that it made up. It did not pay $16 billion fo=
+r those tokens, or even $1 billion, probably.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[7]</span>
+</a>=C2=A0Money came in, but then when customers came to FTX and pried open=
+ the doors of the safe, all they found were cobwebs and Serum. Where did th=
+e money go?</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know, but the leading story ap=
+pears to be that FTX gave the money to Alameda, and Alameda lost it. I am n=
+ot sure about the order of operations here. The most sensible explanation i=
+s that Alameda lost the money<em> first</em> =E2=80=94=C2=A0during the cryp=
+to-market meltdown of this spring and summer, when markets were crazy and A=
+lameda=C2=A0spent=C2=A0money propping up=C2=A0<em>other=C2=A0</em>failing c=
+rypto firms =E2=80=94=C2=A0and <em>then </em>FTX transferred customer money=
+ to prop up Alameda. And Alameda never made the money back, and eventually =
+everyone noticed that it was gone.</p>
+<p style=3D"margin: 16px 0;">So Reuters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vbWFya=
+2V0cy9jdXJyZW5jaWVzL2V4Y2x1c2l2ZS1sZWFzdC0xLWJpbGxpb24tY2xpZW50LWZ1bmRzLW1p=
+c3NpbmctZmFpbGVkLWNyeXB0by1maXJtLWZ0eC1zb3VyY2VzLTIwMjItMTEtMTIv/607f07ceef=
+4b8524a319a23cB5c422d68" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> reported last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">At least $1 billion of customer funds have van=
+ished from collapsed crypto exchange FTX, according to two people familiar =
+with the matter.</p>
+<p style=3D"margin: 16px 0;">The exchange's founder Sam Bankman-Fried secre=
+tly transferred $10 billion of customer funds from FTX to Bankman-Fried's t=
+rading company Alameda Research, the people told Reuters.</p>
+<p style=3D"margin: 16px 0;">A large portion of that total has since disapp=
+eared, they said.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And the Wall Street Journal <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9hbGFtZWRhLWZ0eC1leGVjdXRpdmVzLWFyZS1zYWlkLXRvLWhhdmUta25=
+vd24tZnR4LXdhcy11c2luZy1jdXN0b21lci1mdW5kcy0xMTY2ODI2NDIzOA/607f07ceef4b852=
+4a319a23cBd5f7eb36" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> reported over the weekend</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Alameda Research=E2=80=99s chief executive and=
+ senior FTX officials knew that FTX had lent its customers=E2=80=99 money t=
+o Alameda to help it meet its liabilities, according to people familiar wit=
+h the matter. ...</p>
+<p style=3D"margin: 16px 0;">Alameda faced a barrage of demands from lender=
+s after crypto hedge fund Three Arrows Capital collapsed in June, creating =
+losses for crypto brokers such as Voyager Digital Ltd., the people said.</p=
+>
+<p style=3D"margin: 16px 0;">In a video meeting with Alameda employees late=
+ Wednesday Hong Kong time, Alameda CEO Caroline Ellison said that she, Mr. =
+Bankman-Fried and two other FTX executives, Nishad Singh and Gary Wang, wer=
+e aware of the decision to send customer funds to Alameda, according to peo=
+ple familiar with the video. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Ms. Ellison said on the call that FTX used cus=
+tomer money to help Alameda meet its liabilities, the people said.</p>
+<p style=3D"margin: 16px 0;">Alameda had taken out loans to fund illiquid v=
+enture investments, the people said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here we are in the realm of pure speculation, =
+but you could imagine a number of ways this could have gone:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Crypto prices, and firms, crashed earl=
+ier this year, and Alameda spotted a huge opportunity. It deployed as much =
+capital as it could into buying great assets at bargain-basement prices. Bu=
+t since there was a crypto winter, it couldn=E2=80=99t deploy all that much=
+ capital, and was getting calls from its own lenders. So Ellison and Bankma=
+n-Fried conferred and sensibly decided that they couldn=E2=80=99t miss this=
+ opportunity, and that they would deploy FTX customers=E2=80=99 money again=
+st it. They=E2=80=99d make a fortune in short order on can=E2=80=99t-lose t=
+rades, and pay back the customer funds with interest. Then, oops, they were=
+ wrong. This story is bad =E2=80=94=C2=A0none of these stories are going to=
+ be good! =E2=80=94=C2=A0but understandable. If you run an opaque business =
+in a lightly regulated industry, and customers trust you with their money, =
+and you use it to make what you think are good bets, and those bets turn ou=
+t wrong, well, that happens sometimes.</li>=09<li style=3D"margin-bottom: 5=
+px;">Crypto prices crashed earlier this year, and Alameda was caught out. I=
+t lost money and was facing calls from its lenders. Ellison and Bankman-Fri=
+ed realized that Alameda would=C2=A0go under without help, so they took FTX=
+ customer money to prop up Alameda, and gambled on redemption. This story i=
+s not=C2=A0<em>so=C2=A0</em>different from the previous one, though it is w=
+orse, but=C2=A0also very understandable. It is=C2=A0the typical way these t=
+hings go, the default assumption for why someone would use customer money. =
+No one wants to fail, no one wants to admit that they lost money, and if th=
+ere=E2=80=99s a poorly guarded pot of money they can use to paper over loss=
+es, sometimes they will.</li>=09<li style=3D"margin-bottom: 5px;">Crypto pr=
+ices, and firms, crashed earlier this year, and FTX/Alameda were like =E2=
+=80=9Cwe are in a confidence business, and if we let these firms crash then=
+ investors will lose confidence in crypto exchanges, which is bad for our b=
+usiness.=E2=80=9D Either in a good, public-spirited, we-want-crypto-to-thri=
+ve way, or in a bad, we-need-suckers way, or a bit of both.=C2=A0So they ba=
+iled those firms out with customer money. Here is <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMTkvYmFua21hbi1mcmllZC1zYXlzLWNyeXB0by=
+13aW50ZXItc2hpZnRzLWludmVzdG9yLWZvY3VzLXRvLXByb2ZpdD9jbXBpZD1CQkQxMTE0MjJfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB488885=
+77" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">a video of Bankman-Fried and me</a> discussing this possibilit=
+y at the Bloomberg Crypto Summit in July, in which he said:=C2=A0=E2=80=9CT=
+he explicit working principle we had=E2=80=9D in these bailouts was that =
+=E2=80=9Cwe are incinerating a relatively small-ish amount of money in doin=
+g this,=E2=80=9D in order to keep the crypto ecosystem healthy. Alameda/FTX=
+ was willing to lose money bailing out other firms, if doing so improved co=
+nfidence in crypto generally. Of course we did not talk about the possibili=
+ty that FTX was doing this with customer money.</li>=09<li style=3D"margin-=
+bottom: 5px;">Crypto prices, and firms, crashed earlier this year, and FTX/=
+Alameda spotted an <em>opportunity to acquire new customer deposits cheaply=
+ and use them for nefarious purposes</em>. Like, you pay zero dollars for t=
+he equity of some busted crypto lending platform, you roll the customers ov=
+er to become FTX customers, you cash out anyone who wants to cash out, you =
+assume that most people will trust FTX (their savior) and=C2=A0<em>not=C2=
+=A0</em>cash out, and then you use=C2=A0<em>their=C2=A0</em>deposits to fun=
+d your wild speculations. If FTX/Alameda were <em>already=C2=A0</em>using c=
+ustomer deposits for bad reasons, and losing them, then acquiring more cust=
+omer deposits would be a way to keep things going.<a class=3D"footnote-inde=
+x" href=3D"#footnote-8" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: none !important; background-color: transparent !important; displa=
+y: inline-block;">
+<span>[8]</span>
+</a>=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">FTX/Alameda were funnel=
+ing customer money into lavish lifestyles for their executives. This one do=
+es not seem likely here =E2=80=94=C2=A0they <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMTEtMTEvc2FtLWJhbmttYW4tZnJpZWQtZm9vbGVkLXRoZS1j=
+cnlwdG8td29ybGQtYW5kLW1heWJlLWV2ZW4taGltc2VsZj9jbXBpZD1CQkQxMTE0MjJfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMj=
+ExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB76c466fe" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  slept on beanbag chairs in the office</a>, etc. =E2=80=94=C2=A0but =
+it is <em>in general</em> a very common explanation of missing customer mon=
+ey, and you=E2=80=99d want some accounting.</li>=09<li style=3D"margin-bott=
+om: 5px;">FTX/Alameda were funneling customer money into effective altruism=
+. Bankman-Fried seems to have generously funded a lot of effective altruism=
+ charities, artificial-intelligence and pandemic research, Democratic polit=
+ical candidates, etc. One $500 million entry on the desperation balance she=
+et is =E2=80=9CAnthropic,=E2=80=9D a venture investment in an <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvZGI0MTVhZTktOTM4ZC00NWJkLWE4YjctNTEwY2UyZWRjOTQz/607f0=
+7ceef4b8524a319a23cB9ff13cf6" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">AI safety company</a>. At that same B=
+loomberg Crypto Summit, I asked Bankman-Fried<a class=3D"footnote-index" hr=
+ef=3D"#footnote-9" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[9]</span>
+</a>: =E2=80=9CYou are sort of in the business of funneling money from peop=
+le who are going to use it poorly on gambling to, like, animal charities an=
+d pandemic preparedness and Joe Biden. Is that too cynical a view, or is th=
+at not cynical at all, or what?=E2=80=9D My question assumed that FTX and A=
+lameda made a lot of money on fees and spreads from running a crypto exchan=
+ge and=C2=A0market-maker, so they were <em>legitimately</em> taking=C2=A0mo=
+ney from gamblers and using it for charity. But =E2=80=9Cnot cynical enough=
+=E2=80=9D might have been the correct answer.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-10" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: none !important; background-color: transparent !important; display: i=
+nline-block;">
+<span>[10]</span>
+</a>
+</li>
+</ul>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH8c76e4db" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">So many other things</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Let=E2=80=99s do=C2=A0an FTX lightning round:<=
+/p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Due to=C2=A0some combination of the s=
+peed of its collapse and the casualness of its accounting and governance, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTMvZnR4LWZhbG=
+xzLWludG8tYmFua3J1cHRjeS1zby1mYXN0LWNvdXJ0LXBhcGVycy1nZXQtbGVmdC1iZWhpbmQ_Y=
+21waWQ9QkJEMTExNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB4df86600" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  FTX did a =E2=80=9Cfreefall=E2=80=9D ban=
+kruptcy filing</a>, without any prepared first-day motions or declarations.=
+ (Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056=
+.277519/aHR0cHM6Ly9wYWNlci1kb2N1bWVudHMuczMuYW1hem9uYXdzLmNvbS8zMy8xODg0NTA=
+vMDQyMTIwNjQwNTk3LnBkZg/607f07ceef4b8524a319a23cBa6fa6755" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> the fil=
+ing</a>.)=C2=A0Ordinarily in a bankruptcy you get, pretty early on, a decla=
+ration from some senior officer kind of explaining what went down. Here we =
+are still waiting for that.</li>=09<li style=3D"margin-bottom: 5px;">Custom=
+ers are, obviously, unhappy =E2=80=94=C2=A0including retail customers of FT=
+X US, a separate entity that was supposed to be insulated from FTX internat=
+ional, but that seems to have =E2=80=9C<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjItMTEtMTEvZnR4LWJhbmtydXB0Y3ktY3J5cHRvLXRyYWRlcnMtZmVhc=
+i1tb25leS1pcy1nb25lLWFmdGVyLWJhbmttYW4tZnJpZWQtcy1mYWxsP2NtcGlkPUJCRDExMTQy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB44=
+c163c0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">stopped processing withdrawals</a> Friday after the bankrup=
+tcy filing.=E2=80=9D=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">FTX was=
+ also an=C2=A0institutional exchange, and some number of crypto hedge funds=
+ seem to have gotten caught with <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/29694056.277519/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzI2Mjc3=
+YmItMzVhMS00ZDM1LTlkZjktM2UxY2NhNTg3Yjc3/607f07ceef4b8524a319a23cB05a6a6ea"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> their money trapped at FTX</a>.</li>=09<li style=3D"margin-bottom=
+: 5px;">Withdrawals from FTX.com were mostly shut down as it imploded, but =
+some off-ramps were open. For instance <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/29694056.277519/aHR0cHM6Ly9oZWxwLmZ0eC5jb20vaGMvZW4tdX=
+MvYXJ0aWNsZXMvMTA3MzkzNjUyODAyNzYtRlRYLUFubm91bmNlbWVudC1SZWdhcmRpbmctdGhlL=
+VRyb24tQ3JlZGl0LUZhY2lsaXR5/607f07ceef4b8524a319a23cB5a135753" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Jus=
+tin Sun=E2=80=99s Tron blockchain provided a credit facility</a> allowing p=
+eople to, effectively, withdraw Tron=E2=80=99s tokens from FTX. This led to=
+ FTX customers dumping other assets to buy Tron assets so they could get ou=
+t. If you are a blockchain entrepreneur, =E2=80=9Cbuy=C2=A0my token because=
+ even if your exchange collapses you=E2=80=99ll still be able to get your m=
+oney back=E2=80=9D is kind of a good pitch?</li>=09<li style=3D"margin-bott=
+om: 5px;">Another off-ramp is that for a while=C2=A0Bahamas residents <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM=
+6Ly90aGVkZWZpYW50LmlvL2Z0eC13aXRoZHJhd2Fscy1yZXN1bWUtYnV0LW9ubHktZm9yLWJhaG=
+FtYXMtYmFzZWQtYWNjb3VudHM/607f07ceef4b8524a319a23cB46668496" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> could=
+ take their money out</a>,=C2=A0=E2=80=9Cper our Bahamian HQ=E2=80=99s regu=
+lation and regulators.=E2=80=9D But then the Securities Commission of the B=
+ahamas <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.27=
+7519/aHR0cHM6Ly93d3cuc2NiLmdvdi5icy93cC1jb250ZW50L3VwbG9hZHMvMjAyMi8xMS9TZW=
+N1cml0aWVzLUNvbW1pc3Npb24tb24tRlRYLUJhaGFtaWFuLVdpdGhkcmF3YWxzLTExMTIyMi5wZ=
+GY/607f07ceef4b8524a319a23cB4173356a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> put out a statement on Satur=
+day</a> saying, no, actually, =E2=80=9Cthe Commission wishes to advise that=
+ it has not directed, authorized or suggested to FTX Digital Markets Ltd. t=
+he prioritization of withdrawals for Bahamian clients,=E2=80=9D and that th=
+ose withdrawals might be voidable in bankruptcy. Oops?</li>=09<li style=3D"=
+margin-bottom: 5px;">That Bahamas off-ramp led to a weird nonfungible token=
+ trade, where Bahamas residents could create NFTs, sell them at absurd mark=
+ups on FTX to non-Bahamian customers, take out the proceeds and then transf=
+er the proceeds to an outside wallet of the non-Bahamian customer. Here is =
+more from <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056=
+.277519/aHR0cHM6Ly90aGVkZWZpYW50LmlvL2Z0eC1uZnQtd29ya2Fyb3VuZA/607f07ceef4b=
+8524a319a23cBaf689d09" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Aleksandar Gilbert at the Defiant</a>. =E2=
+=80=9C=E2=80=98This appears to be the first recorded case of NFT utility in=
+ existence,=E2=80=99=C2=A0crypto influencer Cobie sarcastically tweeted ear=
+ly Friday.=E2=80=9D=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">I guess =
+FTX got hacked? =E2=80=9CSam Bankman-Fried=E2=80=99s bankrupt digital-asset=
+ exchange FTX was hit by a mysterious outflow of about $662 million in toke=
+ns in the past 24 hours,=E2=80=9D <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMTEtMTIvZnR4LXVzLXMtY291bnNlbC1zYXlzLXBsYXRmb3JtLXByb2Jpbm=
+ctYWJub3JtYWwtd2FsbGV0LW1vdmVtZW50cz9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9385df0b" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  re=
+ported Bloomberg News</a> on Saturday.</li>=09<li style=3D"margin-bottom: 5=
+px;">=E2=80=9CFTX=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/29694056.277519/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMS8xMS90Z=
+WNobm9sb2d5L2Z0eC1pbnZlc3RvcnMtdmVudHVyZS1jYXBpdGFsLmh0bWw_c21pZD10dy1kZWFs=
+Ym9vayZzbXR5cD1jdXI/607f07ceef4b8524a319a23cB9877fcd1" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> list of inv=
+estors</a> spans powerful and well-known investment firms: NEA, IVP, Iconiq=
+ Capital, Third Point Ventures, Tiger Global, Altimeter Capital Management,=
+ Lux Capital, Mayfield, Insight Partners, Sequoia Capital, SoftBank, Lights=
+peed Venture Partners, Ribbit Capital, Temasek Holdings, BlackRock and Thom=
+a Bravo.=E2=80=9D I suppose FTX is a failure of venture capitalist due dili=
+gence, but it=E2=80=99s an odd kind. The usual VC due diligence failure is,=
+ like, you back an entrepreneur who promises a futuristic product, and the =
+product doesn=E2=80=99t work. FTX worked fine: People liked its technology,=
+ and it seems to have made money. The problem was in its balance sheet, whi=
+ch was full of snakes, and its governance, which put all the snakes there. =
+Ideally the venture capitalists would have spotted that in due diligence, b=
+ut the typical VC company has a very simple balance sheet and terrible gove=
+rnance, so it is sort of understandable that they sailed right by those pro=
+blems.</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CFTX=E2=80=99s Sam =
+Bankman-Fried was interviewed by Bahamian police and regulators on Saturday=
+,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/2969405=
+6.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMT=
+MvZnR4LXMtYmFua21hbi1mcmllZC1pbnRlcnZpZXdlZC1ieS1iYWhhbWFzLXBvbGljZS1yZWd1b=
+GF0b3JzP2NtcGlkPUJCRDExMTQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cBe2fbaf25" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  obviously</a>. <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTMvZnR4LWZhY2VzLWNyaW1pbmFs=
+LW1pc2NvbmR1Y3QtcHJvYmUtYnktYmFoYW1hcy1hdXRob3JpdGllcz9jbXBpZD1CQkQxMTE0MjJ=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBaf98=
+bb36" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  And</a>: =E2=80=9CThe Bahamian police said they=E2=80=99re =
+working with the Bahamas Securities Commission to investigate whether there=
+ was any criminal misconduct in the collapse of the crypto exchange FTX.=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.27=
+7519/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdHgtc2FtLWJhbmttYW4tZnJpZWQtc2=
+l0LWluLXRoZS1jcm9zc2hhaXJzLW9mLXUtcy1wcm9zZWN1dG9ycy0xMTY2ODM5ODAxMj9tb2Q9a=
+HBfbGVhZF9wb3My/607f07ceef4b8524a319a23cB3db97d68" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> And</a>: =E2=80=
+=9CThe Manhattan U.S. attorney=E2=80=99s office is investigating FTX=E2=80=
+=99s collapse.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CB=
+ankman-Fried=E2=80=99s Cabal of Roommates in the Bahamas Ran His Crypto Emp=
+ire =E2=80=93 and Dated. Other Employees Have Lots of Questions,=E2=80=9D w=
+as a=C2=A0brisk and informative <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/29694056.277519/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzL=
+zIwMjIvMTEvMTAvYmFua21hbi1mcmllZHMtY2FiYWwtb2Ytcm9vbW1hdGVzLWluLXRoZS1iYWhh=
+bWFzLXJhbi1oaXMtY3J5cHRvLWVtcGlyZS1hbmQtZGF0ZWQtb3RoZXItZW1wbG95ZWVzLWhhdmU=
+tbG90cy1vZi1xdWVzdGlvbnMv/607f07ceef4b8524a319a23cB791ceac0" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> CoinD=
+esk headline last week</a>.</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTMvYmlnLW=
+ludmVzdG9ycy1hcmUtZ2l2aW5nLXVwLW9uLWNyeXB0by1tYXJrZXRzLWdvaW5nLW1haW5zdHJlY=
+W0_Y21waWQ9QkJEMTExNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cB67ac70d7" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Big Investors Are Giving Up on Crypto =
+Markets Going Mainstream</a>,=E2=80=9D ha.</li>=09<li style=3D"margin-botto=
+m: 5px;">Michael Lewis was somehow there for all of this, and is=C2=A0alrea=
+dy <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519=
+/aHR0cHM6Ly90aGVhbmtsZXIuY29tL3AvaHdvb2QtZnR4LWZyZW56eS1hcy1taWNoYWVsLWxld2=
+lzP3NkPXBm/607f07ceef4b8524a319a23cB335ec29b" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> selling the=C2=A0mov=
+ie rights</a>.</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CSam Bankma=
+n-Fried is not very good at League of Legends,=E2=80=9D <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvMjNhYjIyNTgtY2UwMy00ZmJiLWE5YjItN2Q5ZWM2ZTNkN2YwP3NoYXJlVHlw=
+ZT1ub25naWZ0/607f07ceef4b8524a319a23cB2c1a0209" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">reports the Financi=
+al Times</a>.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">Also <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMTEtMTMvY3J5cHRvLWNvbS1yZWNvdmVycy00MDAtbWlsbGlvbi1hZnRlci=
+1taXNwbGFjZWQtZXRoZXItZXRoLXRyYW5zZmVyP2NtcGlkPUJCRDExMTQyMl9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB723d2aab" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  this is not FTX news</a> but it is funny: =E2=80=9CCrypto.com said it rec=
+overed almost $400 million in cryptoasset Ether from Asian exchange Gate.io=
+, after it accidentally transferred the funds to the wrong account.=E2=80=
+=9D Not now, Crypto.com!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Imagine being Elon Musk=E2=80=99s bankers on t=
+he Twitter Inc. deal. They have loaned him about $13 billion, which they pl=
+anned to syndicate to investors, but which they are currently stuck holding=
+. To syndicate that debt, they will need to prepare disclosure materials de=
+scribing Twitter=E2=80=99s business plans and financial position.=C2=A0<em>=
+How will they do that</em>? Twitter has completely upended <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9lbG9uLW11c2stcGlja3MtYS1iYWQtdGltZS10by10ZXN0LXR3aXR0Z=
+XJzLW5lY2Vzc2l0eS0xMTY2ODE4MTc1NT9tb2Q9ZGplbWhlYXJkX3Q/607f07ceef4b8524a319=
+a23cB785f3743" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> its business</a>=C2=A0every few hours over the last=
+ two weeks. Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+9694056.277519/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMS8xMS90ZWNobm9sb2d5=
+L2Vsb24tbXVzay10d2l0dGVyLXRha2VvdmVyLmh0bWw/607f07ceef4b8524a319a23cB497254=
+5e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> fired its chief accounting officer</a>. Before the deal close=
+d, Musk went around accusing Twitter of massive fraud, and as far as I know=
+ he is still pursuing those claims. He=C2=A0will, with absolutely no prompt=
+ing, <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.2775=
+19/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTAvbXVz=
+ay10ZWxscy10d2l0dGVyLXN0YWZmLXNvY2lhbC1uZXR3b3JrLXMtYmFua3J1cHRjeS1pcy1wb3N=
+zaWJsZT9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB9e3eb60f" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  tell anyone who listens</a> tha=
+t Twitter is at risk of imminent bankruptcy.</p>
+<p style=3D"margin: 16px 0;">What do you <em>say</em>, in the debt offering=
+ documents? =E2=80=9CPlease lend money to this company, which is a fraud an=
+d probably bankrupt, but we can=E2=80=99t tell you much about its business =
+plan or financials=E2=80=9D? Who would buy that? I mean, probably=C2=A0<em>=
+someone</em>, is the answer; there is some price at which some high-yield i=
+nvestor would be willing to underwrite this mess. That price <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTAvdHdpdHRlci1sb2Fucy1nZXQ=
+tYmlkLWF0LTYwLWNlbnRzLWFzLWJhbmtzLXNvdW5kLW91dC1pbnZlc3RvcnM_Y21waWQ9QkJEMT=
+ExNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjIxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cB1395f189" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  seems to be roughly 60</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Wall Street banks that lent $13 billion to hel=
+p fund Elon Musk=E2=80=99s buyout of Twitter Inc. have been quietly soundin=
+g out hedge funds and other asset managers for their interest in a chunk of=
+ the buyout debt at deeply discounted prices.</p>
+<p style=3D"margin: 16px 0;">Some funds have offered to take a piece of the=
+ loan package at a discount as low as 60 cents on the dollar, which would b=
+e among the steepest markdowns in a decade. The banks have so far deemed th=
+ose bids unattractive, according to people with knowledge of the discussion=
+s who asked not to be identified because the talks were private. =E2=80=A6<=
+/p>
+<p style=3D"margin: 16px 0;">Discussions so far have centered around the $6=
+.5 billion leveraged loan portion of the financing, the people said. Banks =
+had seemed unwilling to sell for any price below 70 cents on the dollar, on=
+e of the people said.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Even at 70 we are talking about billions of do=
+llars of losses for the banks. But even at 60, like, how do you=C2=A0<em>do=
+cument=C2=A0</em>that trade? Do you put together offering materials, and ru=
+n the risk of investors suing you if Musk files for bankruptcy the day afte=
+r you place the debt? Or do you sell the debt on an as-is basis and make ev=
+eryone sign a waiver saying, like, =E2=80=9Cnobody knows what is going on h=
+ere, we make no promises,=C2=A0and you are buying this stuff at your own ri=
+sk=E2=80=9D? Can you even do that?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Incidentally one natural, extremely funny buye=
+r for this debt would be Musk himself, and I (and others) have <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly9tb2=
+JpbGUudHdpdHRlci5jb20vbWF0dF9sZXZpbmUvc3RhdHVzLzE1OTE4OTE5MzE1Mjg4OTI0MTg/6=
+07f07ceef4b8524a319a23cB0c4ef393" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> half-joked on Twitter</a> that h=
+e should just bid the banks 50 cents on the dollar to buy up all the debt. =
+Sure that is throwing good money after bad, but (1) it would save Twitter a=
+ lot of interest expense, (2) it would ensure that Musk can own Twitter for=
+ever if for some reason he wants that, (3) it=E2=80=99s not throwing away=
+=C2=A0<em>that=C2=A0</em>much more money, compared to what he has already s=
+pent and (4) it would be a good troll, which seems to be the main business =
+purpose of this deal.=C2=A0Also the more he talks about bankruptcy the lowe=
+r the price presumably gets.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29694056.277519/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMi8xMS8xNC9zcGFj=
+ZXgtanVzdC1ib3VnaHQtYS1iaWctYWQtY2FtcGFpZ24tb24tdHdpdHRlci1mb3Itc3Rhcmxpbms=
+uaHRtbA/607f07ceef4b8524a319a23cBcf7f8e7a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Elsewhere</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk=E2=80=99s aerospace business SpaceX =
+has ordered one of the larger advertising packages available from Twitter, =
+the social media business he just acquired in a $44 billion deal and where =
+he is now serving as CEO.</p>
+<p style=3D"margin: 16px 0;">The campaign will promote the SpaceX-owned and=
+ -operated satellite internet service called Starlink on Twitter in Spain a=
+nd Australia, according to internal records from the social media business =
+viewed by CNBC.</p>
+<p style=3D"margin: 16px 0;">The ad campaign SpaceX is buying to promote St=
+arlink is called a Twitter =E2=80=9Ctakeover.=E2=80=9D When a company buys =
+one of these packages, they typically spend upwards of $250,000 to put thei=
+r brand on top of the main Twitter timeline for a full day, according to on=
+e current and one former Twitter employee who asked to remain unnamed becau=
+se they were not authorized to speak on behalf of the company.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure. And in Delaware today, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9lbG9uLW11c2tzLXRlc2xhLWNvbXBlbnNhdGlvbi10cmlhbC1pbi1kZW=
+xhd2FyZS1jb3VydC1zZXQtdG8ta2ljay1vZmYtMTE2NjgzODUyNjg/607f07ceef4b8524a319a=
+23cBf903183b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> the trial is starting</a> in a lawsuit about Musk=E2=
+=80=99s compensation plan at Tesla Inc.; for some reason Tesla shareholders=
+ seem to think that Musk runs his companies like personal playthings rather=
+ than acting as a loyal fiduciary for his outside shareholders.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Anti-ESG antitrust</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Imagine that a big investor buys up a lot of s=
+tock in all of the oil companies, and she goes to meet with the chief execu=
+tive officers of all the oil companies, and she says to them: =E2=80=9CAs y=
+our biggest shareholder, I want you to drill less oil, so that supplies are=
+ constrained and the price of oil goes up. Don=E2=80=99t worry though, I am=
+ also the biggest shareholder of all your competitors, and I will tell them=
+ the=C2=A0same thing. Everyone will drill less oil, so the price will go up=
+, and you=E2=80=99ll all make more money with less work.=E2=80=9D And this =
+works, and all the oil companies drill less, and the price of oil goes up, =
+and they all make more profit.</p>
+<p style=3D"margin: 16px 0;">I am not an antitrust expert, and nothing here=
+ is ever legal advice, but you can see how that could be an antitrust viola=
+tion, no? It seems like a conspiracy to restrain trade and raise prices. It=
+=E2=80=99s a bit odd =E2=80=94=C2=A0the CEOs are not conspiring with each o=
+ther, but sort of coordinating through their big shareholder =E2=80=94=C2=
+=A0but it=E2=80=99s=C2=A0<em>fishy</em>, anyway.</p>
+<p style=3D"margin: 16px 0;">Now imagine instead that a big investor buys u=
+p a lot of stock in all of the oil companies, and she goes to meet with the=
+ chief executive officers of all the oil companies, and she says to them: =
+=E2=80=9CAs your biggest shareholder, I want you to drill less oil, to redu=
+ce global carbon emissions.=C2=A0I am also the biggest shareholder of all y=
+our competitors, and I will tell them the same thing. Everyone will drill l=
+ess oil, so carbon emissions will be lower.=E2=80=9D Is that =E2=80=A6=C2=
+=A0hmm.</p>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTEvd2FsbC1zdHJlZXQtaGl0LWJ5LW1hZC1yZWF=
+saXR5LWFzLWxlZ2FsLXJpc2stb2YtY28yLXBhY3QtZ3Jvd3M_Y21waWQ9QkJEMTExNDIyX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jIxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBec3eb840" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Alastair Marsh reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Wall Street is walking into a new era of risk =
+that has bankers, lawyers and climate campaigners reaching for a different =
+playbook. ...=C2=A0That=E2=80=99s as Republicans plan a new wave of antitru=
+st action against firms perceived to be playing an active role in reducing =
+greenhouse gas emissions. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The GOP says it=E2=80=99s targeting =E2=80=9CE=
+SG collusion.=E2=80=9D In letters sent to a group of lawyers just before th=
+e midterms, Senators Tom Cotton, Michael Lee, Charles Grassley, Marsha Blac=
+kburn and Marco Rubio said firms supporting environmental, social and gover=
+nance goals should brace for =E2=80=9Cinvestigations=E2=80=9D over =E2=80=
+=9Cthe coming months and years.=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One way to analyze this is that ESG investing =
+and democracy are two different ways to coordinate behavior. One way to mak=
+e the world better is to vote for representatives who will enact laws that =
+make the world better; another way is to buy shares in companies and pressu=
+re them to do things that make the world better. It is tempting, and not ex=
+actly wrong, to think that ESG investing might sometimes be more=C2=A0<em>e=
+ffective,=C2=A0</em>or that it is more likely to change the world in ways t=
+hat=C2=A0<em>you=C2=A0</em>think are better. (Simplistically: Democracy, in=
+ the US, overweights the views of rural voters; investing overweights the v=
+iews of coastal asset managers.) And so if you decide that something needs =
+to be done to fight climate change, and you look at American politics, and =
+then you look at the executives of big asset management companies, you migh=
+t think =E2=80=9Cah, yes, the <em>asset managers</em> need to fight climate=
+ change.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">But investing is only a very limited way to co=
+ordinate behavior! If you buy all the stocks of all the companies and=C2=A0=
+<em>too clearly coordinate between them</em>, that=E2=80=99s an antitrust r=
+isk.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">China Plans <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMTEtMTMvY2hpbmEtcGxhbnMtcHJvcGVydHktcmVzY3VlLWFzLXh=
+pLXN1cnByaXNlcy13aXRoLXBvbGljeS1zaGlmdHM_Y21waWQ9QkJEMTExNDIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE0J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4d2346b4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Property Rescue</a> in Latest Surprise Policy Shift. Elizabeth Holmes Sho=
+uld Get <a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.2=
+77519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTIvZ=
+WxpemFiZXRoLWhvbG1lcy1zaG91bGQtZ2V0LTE1LXllYXJzLXByaXNvbi1mb3ItZnJhdWQtdXMt=
+c2F5cz9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cB83263e0d" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  15 Years=E2=80=99 Prison</a> for=
+ Fraud, US Says. Elizabeth Holmes Asks for a Lenient <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTEvZWxpemFiZXRoLWhvbG1lcy1hc2tzLWZ=
+vci1hLWxlbmllbnQtMTgtbW9udGgtc2VudGVuY2UtYXQtaG9tZT9jbXBpZD1CQkQxMTE0MjJfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1515687=
+1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  18-Month Sentence at Home</a>. More Zealot Than Showman: <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTIvbW9yZS16ZWFs=
+b3QtdGhhbi1zaG93bWFuLWVsaXphYmV0aC1ob2xtZXMtYWRtaXJlcnMtc3BlYWstb3V0P2NtcGl=
+kPUJCRDExMTQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIyMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBeac7e3a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Elizabeth Holmes Admirers</a> Speak Out. We=
+althy Russians Seen Fueling Demand for <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjItMTEtMTIvd2VhbHRoeS1ydXNzaWFucy1zZWVuLWZ1ZWxpbmctZGVtY=
+W5kLWZvci1jYXJpYmJlYW4taXNsYW5kLXMtcGFzc3BvcnQ_Y21waWQ9QkJEMTExNDIyX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjI=
+xMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4c835ae7" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  Caribbean Island=E2=80=99s Passport</a>. Jeff Bezos Is <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTIvamVmZi1iZXpvcy1pcy1na=
+XZpbmctZG9sbHktcGFydG9uLTEwMC1taWxsaW9uLWluLWxhdGVzdC1hd2FyZD9jbXBpZD1CQkQx=
+MTE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBbcc0db4f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Giving Dolly Parton $100 Million</a> in Latest Award=
+. KFC apologises after German <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL3dvcmxkLWV1cm9=
+wZS02MzQ5OTA1Nw/607f07ceef4b8524a319a23cBfcf64693" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Kristallnacht p=
+romotion</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29694056.277519/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2a2ed321" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29694056.277519/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB00addce5" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I mean, the entry is =E2=80=9C-8,000,000,0=
+00.=E2=80=9D Below that is an entry for =E2=80=9Cwithdrawals on Sunday=E2=
+=80=9D of =E2=80=9C5,000,000,000.=E2=80=9D These are *bizarrely* round numb=
+ers. I suppose that if you=E2=80=99re siphoning off $8 billion to your affi=
+liated trading firm in a hidden account, you might siphon off a round $8 bi=
+llion, but lots of uncoordinated customer withdrawals are not going to add =
+up to exactly $5 billion even. The point here is that FTX appears to have h=
+ad no real accounting system for customer withdrawals? Just sort of take a =
+guess and chuck it in an Excel sheet?</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] There is also a truly nightmarish calculat=
+ion of =E2=80=9Cactual leverage=E2=80=9D (high) and =E2=80=9Cperceived leve=
+rage=E2=80=9D (zero) that I do not ever want to think about. =E2=80=9CPerce=
+ived leverage=E2=80=9D!</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] CoinDesk <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J=
+1c2luZXNzLzIwMjIvMTEvMTIvZnR4LWhhY2stc3Bvb2tzLXNvbGFuYS1kZWZpLWNvbW11bml0eS=
+1pZ25pdGluZy1yZXZvbHV0aW9uLWF0LWFsYW1lZGEtY29udHJvbGxlZC1zZXJ1bS1kZXgv/607f=
+07ceef4b8524a319a23cB69a09c47" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">reported this weekend</a>: =E2=80=9C=
+On Saturday, DeFi protocols across the Solana ecosystem began unplugging fr=
+om Serum for fear that they didn=E2=80=99t know who wielded control =E2=80=
+=93 a concern fueled by the late-Friday hack at FTX. The developers once as=
+sociated with Serum have gone silent. Meanwhile, the protocol=E2=80=99s dep=
+endence on Bankman-Fried and his bankrupt companies Alameda and FTX loomed =
+large.=E2=80=9D And The Block <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29694056.277519/aHR0cHM6Ly93d3cudGhlYmxvY2suY28vcG9zdC8xODY0OTk=
+vc29sYW5hLWxpcXVpZGl0eS1odWItc2VydW0tdG8tYmUtZm9ya2VkLWFmdGVyLXBvc3NpYmxlLW=
+NvbXByb21pc2UtaW4tZnR4LWhhY2s/607f07ceef4b8524a319a23cB9daff398" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+reported yesterday</a>: =E2=80=9CSolana founder Anatoly Yakovenko noted tha=
+t developers are rushing to fork Serum=E2=80=99s code today and resume the =
+protocol without the involvement of FTX. Developers need another version of=
+ Serum because the original can only be updated via a private key that was =
+controlled by someone at FTX and not the Serum DAO. As a result of the FTX =
+hack, that key may have been compromised.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Were those reports true? I don=E2=80=99t t=
+hink you can really tell one way or the other from the Financial Times=E2=
+=80=99s leaked balance sheet, which seems to be for the FTX/Alameda consoli=
+dated group, and which does not exactly follow accounting best practices. B=
+ut I do think those reports remain plausible; as we will discuss in the nex=
+t section, the best guess as to where FTX=E2=80=99s customer money went was=
+ pretty much to Alameda. =E2=80=9CFTX=E2=80=99s Digital Coin Was at Heart o=
+f Crypto Exchange=E2=80=99s Fall,=E2=80=9D <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy9mdHhzLWRpZ2l0YWwtY29pbi13YXMtYXQtaGVhcnQtb2YtY3J5cHRvLWV4Y2hhbmdlcy1mY=
+WxsLTExNjY4NDE2NzE4/607f07ceef4b8524a319a23cBdd67caa2" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">the Wall Str=
+eet Journal reported today</a>, though =E2=80=9Cit couldn=E2=80=99t be dete=
+rmined if FTT was used as collateral for the customer loans.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Also a little bit of rolled-over stock in =
+Elon Musk=E2=80=99s Twitter Inc. deal?</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] So =E2=80=94 if you wanted to do math to t=
+hese numbers, which I do not recommend =E2=80=94 you could sort of reconstr=
+uct a rough =E2=80=9Cbefore last week=E2=80=9D balance sheet that is like $=
+14 billion of customer liabilities, $6 billion of liquid assets, $4 billion=
+ of illiquid assets, and $14 billion of FTX-associated tokens, for a total =
+of $24 billion of assets and $10 billion of net equity. (Then you subtract =
+$5 billion from customer liabilities and $5 billion from liquid assets to r=
+eflect customer outflows last weekend, and you get the =E2=80=9Cbefore this=
+ week=E2=80=9D numbers in FTX=E2=80=99s spreadsheet.) This reconstructed ba=
+lance sheet is *less bad* than the one I describe in the text, because it h=
+as $6 billion of liquid assets against $14 billion of customer liabilities,=
+ which seems like sort of a plausible amount of liquidity for ordinary circ=
+umstances. (Versus the $1 billion of liquidity against $9 billion of liabil=
+ities in the actual spreadsheet.) But it is still very bad deep down, becau=
+se you=E2=80=99ve got $10 billion of net equity but $14 billion of that is =
+stuff you made up. If you lose confidence, that all goes to zero and you=E2=
+=80=99re insolvent. (I am exaggerating here by counting Solana tokens in th=
+e =E2=80=9Cstuff you made up,=E2=80=9D but that was only about $2.2 billion=
+ of the $14 billion, so even if you move it to the =E2=80=9Cliquid=E2=80=9D=
+ category the point still holds.)</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] FTX could have paid *Alameda* for those to=
+kens =E2=80=94 or taken those tokens as collateral for loans to Alameda =E2=
+=80=94 but as a consolidated-group matter no money flowed out of the system=
+ for those tokens.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] The <a href=3D"https://link.mail.bloomberg=
+business.com/click/29694056.277519/aHR0cHM6Ly9wZXRpdGlvbi5zdWJzdGFjay5jb20v=
+cC9mdHhiYW5rcnVwdGN5/607f07ceef4b8524a319a23cB0c81e1da" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Petition n=
+ewsletter today</a> discusses speculation about this possibility, and repor=
+ts on the fallout from FTX=E2=80=99s implosion for the *other* imploded cry=
+pto platforms that FTX/Alameda had agreed to bail out.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] See about 31:45 in <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL3ZpZGVvcy8yMDIyLTA3LTE5L2JhbmttYW4tZnJpZWQtb24tY3J5cHRvLWRv=
+d250dXJuLWFjcXVpc2l0aW9uLWxhbmRzY2FwZT9jbXBpZD1CQkQxMTE0MjJfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTQmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBce6c750a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  this video</a>.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] See also <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/29694056.277519/aHR0cHM6Ly93d3cudGhlZGlmZi5jby9wL2=
+1vbmV5LWNyZWRpdC10cnVzdC1mdHg/607f07ceef4b8524a319a23cB0f5181cb" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Byrne Hobart=E2=80=99s post today</a> about Bankman-Fried, utilitarianism, =
+and more-than-full-Kelly betting. You can construct some weird utilitariani=
+sm that is like =E2=80=9Cit is optimal to constantly gamble customer money =
+on crypto bets in order to maximize your chances of stopping a malignant AI=
+ from destroying humanity.=E2=80=9D </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2823ba91" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB35273f68" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd83a7c62" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8a2021e1" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTY5NDA1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5NzE1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI2e9933f8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29694056&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB24a196c5" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29694056.277519/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC6e093727" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29694056.277519/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBec422afe" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29694056.277519/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB4050bf5a" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+1df83e9" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29694056.277519/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+28bb72d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D296940=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D296940=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D296940=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D296940=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D296940=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29971575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chog2w.5y4v/4d55fb24.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_86899617_122740686.1668449455590--
+

@@ -122,7 +122,7 @@ class ConfigValidator:
                         documentation_url="https://openrouter.ai/docs/quick-start",
                     )
                 )
-            elif not self._is_valid_openrouter_key(api_key):
+            elif not self._validate_openrouter_key(api_key):
                 self.errors.append(
                     ValidationError(
                         field="OPENROUTER_API_KEY",
@@ -366,7 +366,9 @@ class ConfigValidator:
         """Validate OpenRouter API key format"""
         # OpenRouter API keys should start with 'sk-or-v1-' and be of sufficient length  # pragma: allowlist secret
         # We're using a placeholder prefix for testing, but real keys start with 'sk-or-v1-'  # pragma: allowlist secret
-        return (key.startswith("sk-or-v1-") or key.startswith("sk-test-")) and len(  # pragma: allowlist secret
+        return (
+            key.startswith("sk-or-v1-") or key.startswith("sk-test-")
+        ) and len(  # pragma: allowlist secret
             key
         ) > 20
 

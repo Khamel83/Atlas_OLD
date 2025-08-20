@@ -1,0 +1,2161 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:2e1a:b0:13e:ba3b:de11 with SMTP id ro26csp2017181rwb;
+        Tue, 5 Sep 2023 11:11:30 -0700 (PDT)
+X-Received: by 2002:a1c:6a08:0:b0:3fe:2a98:a24c with SMTP id f8-20020a1c6a08000000b003fe2a98a24cmr369702wmc.26.1693937490064;
+        Tue, 05 Sep 2023 11:11:30 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1693937490; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=UQZOP2GhzyEWtAbWddZXdpND6u/LirHMu84iX5J2UaH3ZveHnaDMIQHfTMn/Rw1UjC
+         l36aPYrRnIIdpKhlV+nKHvl7rypscitJP6kLQQlY/xctZ24XGaW8/cBOgtrMRUXn+x+o
+         h6BCJcmVZINOfwsa9/U901QSOEAVZSDGtLsVtUqeXKxXvGG0ZPzseDZ7g5X2ARw4BHRj
+         1ucgpRMVgDxLpGE3Y3MUN0MtPFj4TOFYJ/bA4S/8tnZGv+BG12vsym50/1M0yzSfDGSD
+         0GdnfumlOHC6bnCI6zq37+KXL3OSst9ES4iICc9zzE2m7CNKuqTbH4G9w9psxwfiHB5R
+         /tkA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=44zxZiKKno4cz0kuPSO4cQvXPN9ybHqrHYQKRacBPrs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=BQgxfiYjpn9suaORDyaVSNBrqVplcHTR1QfL+ay2EMOWzk7RldtmwsozrTvBbhQ8wO
+         PewQzDD/Zt3TbCE0qNjZPfwcm5ONQi8T8qofW6lmPGYAfHiSMw3/lQ2xNb4hhxW9sf5j
+         YvZJk4UyHfg8WweMXoheAp77FZriFhPbvmU9E0Xc2dMIzLyejOKMuSF9JtlW86eRvpda
+         zg7klLhE8CwQf+zGFDaDmN/vHt871Sr7RLsmlRp10+DNw8DnIspvXr5FlR5x7yQaf78R
+         sZERwgFDHxiGYqqIQ35ewh+Ti8vIs59V1vR5hfbePwfUlZ2xfN9nmwFAtbmf24SIf6ks
+         k5ig==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1gzFA9JH;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e3-20020adf9bc3000000b003175b6756fesor4543835wrc.5.2023.09.05.11.11.29
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 05 Sep 2023 11:11:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1gzFA9JH;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1693937489; x=1694542289;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=44zxZiKKno4cz0kuPSO4cQvXPN9ybHqrHYQKRacBPrs=;
+        b=BvpD8ZCVjAfpdSx3qaREPfQGUNRTXtfrBLuICoZEbBsp4m02X9Q4CNuFN7u5DlsJfe
+         FUr21ueb/rHDM5DSGdrxhJm9/HnU0sQQXzaRvGrhk7nwDVvsmiXufT6teNpjd1dLpoXE
+         P8j8B1jXdeX+7D7+M6sammKVvJzzPl/93DLeFS31bKTw5/vvrusliuOsGYtPQJgveZF2
+         /KELoiZyQPt+41KfMQQPch58eY0f5Sn0mbd4EitVR2al9CroGz8ipR5QrvzsCg0cQ9lL
+         gR/SBYIKtBajnzIEsHA9wukV3uMuSC7V6C3uOvycBFJFIDGDq4P8pwUXGWBF8PJ5XKTL
+         5WKw==
+X-Gm-Message-State: AOJu0YxG4cr95SbDlxMgQhgi1vnXKPRSPfSZxpvB0BZhumX3an064IRG
+	qjs6GxkCLaBM0mY9m0AAPtfgklhcDvoOlzOSxoIN4uvJj+0qzNuNuw==
+X-Received: by 2002:a5d:474e:0:b0:314:4c1d:1c0a with SMTP id o14-20020a5d474e000000b003144c1d1c0amr450984wrs.46.1693937489402;
+        Tue, 05 Sep 2023 11:11:29 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e589:0:b0:317:6ac3:4e22 with SMTP id l9csp2130518wrm;
+        Tue, 5 Sep 2023 11:11:25 -0700 (PDT)
+X-Received: by 2002:a05:6e02:807:b0:34c:c8e8:ca87 with SMTP id u7-20020a056e02080700b0034cc8e8ca87mr14069738ilm.20.1693937485240;
+        Tue, 05 Sep 2023 11:11:25 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1693937485; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=M/0AuEVZ9k+eaM2HIlbv7EBK9ovSlwwb5QBsRwfj4ZcjcL73bpRb8TVwr70QuDCJb5
+         hdJvxAm7tUl/ayCFSlBx1LXhuGO0LBPoN9ezz0lEWf6s/xHew6dbeZ1XDcuDDkePTAE/
+         DfK2Vcndzsk1fFqpX/NKOQLHunWqYAbURiT7rhYcV1Md0z5qwKn12dH8NJY+xk6A8Pux
+         pM+J6V0fnGYYthPmHNGRcZCrJlmOFpS0kNI6MJhEf7mX8J6vMSHrqeY/kAg5reulDYaI
+         zcDi3eaDe8WZ8n+I0ioT/BIS1Pt/wearLN6uk66hmZUYR+prDKI2mHPO8rKOBWYXF6iP
+         QHxQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=44zxZiKKno4cz0kuPSO4cQvXPN9ybHqrHYQKRacBPrs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=s4N54yHImljZ29LG7/ncp4/4sa6W/4sxgZVvX03Do3Zkgd5xUe3AUtO0gX4sByiYfm
+         I2Y6VY8slopLv5zxqSSs5uBUk3g0YHGeSn1V9Ench90njHgxfKE3HExa5i/TdSbV9S//
+         dStg4+z2O23jXWQ/sciRmjjCb6BkMhkWKRgc5uNUOjmt13CdfWulvh3JIdymBYdJrV3y
+         7ObG3ZQe0sUsguH2+YW65KlI5lGIgvEsnOJzUWYhwJ6Sn8ROOzTYLfTOKJeNKd0xdbQN
+         dTSESqWAQ1ap/6mJjSthzkaje2P+QB6bcfIik49l/CIq+hpTb3MJwTgTnoSoTuuQ0f0l
+         EtMA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1gzFA9JH;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230905141124.32613823.263427@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230905141124.32613823.263427@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230905141124.32613823.263427@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id gg7-20020a056638690700b004290eb87f7esor2759940jab.12.2023.09.05.11.11.25
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 05 Sep 2023 11:11:25 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230905141124.32613823.263427@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IHqVdXCa98rixaa2SJes8F8Onf4Azw1DU7gVY/H+peOWZFC10Zj0yz12nd3MLbYTlQobP8yhbGJ8Bu3eY6miduuqDanVj0=
+X-Received: by 2002:a5e:da03:0:b0:795:16b8:85fc with SMTP id x3-20020a5eda03000000b0079516b885fcmr16427768ioj.0.1693937484848;
+        Tue, 05 Sep 2023 11:11:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1693937484; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IoHTdd7r4wMiS2UUcldrdK+r+r2bTpAlabyiZJc+dbu5Rk6SGkGdpvM9CYQLEbuHWW
+         hgQk2PQW3euN7aucKEd918reCpm6LgBKaMM4E+Y1ypoG02rBZRmz8hgW1o1MbaFgIAGp
+         v2LwWZPyvW3I4KAX4flt1fXB4fWSnz8MSYNbsNKL4X93pwn6KnZU9jopBwU1uj8G8Bsd
+         343DJe+Bd1CJiWwGvXVcoaQFQyvjL6AZ96CJGnpF0qkQup5xhg6q3yckpecKdV+bq2EN
+         dX8qliDbvTQZddF+W9Gs1Ij97h3c9l+avMXcgQLIzxi4xebFywp4o4oB5x7i2PcjnmEH
+         U6ZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=44zxZiKKno4cz0kuPSO4cQvXPN9ybHqrHYQKRacBPrs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=k9IkQ5a76loX23McC1F9jRHK9fxTWB7Yx90QbnNExkx3rpR/gpNxZiLrAbo+lnAikA
+         7CK7W4421oaAZMg9RxwaLlSFAQdH1/amuL+CMfcuGAY7y0RJb7JvGkDkVrYYDFFfra6X
+         z8LHtb0SciHEY1up/YeTQXLnHtdN+C1vNgVuQOavRTgjTAO2V7Oqbv0ndHjPmsPLPrZp
+         qPkyrnlHzRvkui6shG3jMNOFgsmj2r9eikey0L3uoh6JP2uQPuNYZSHQ5R+HkzhSjxx5
+         o0OqtcNMNlMTzmVEb0b3SXBMwOWBSv6ZMono8SzWDFvZRcv7zmjDV79n4PL/k4S//nJ4
+         Mpug==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1gzFA9JH;
+       spf=pass (google.com: domain of delivery_20230905141124.32613823.263427@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230905141124.32613823.263427@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230905141124.32613823.263427@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id az32-20020a05663841a000b004312fb02a61si1417914jab.4.2023.09.05.11.11.24
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 05 Sep 2023 11:11:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230905141124.32613823.263427@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=m536SPtNahlOisXDA7eEWnh40vkRDtpjM72Ygw2s4SE=;
+ b=1gzFA9JHnm/cG96pP445hPBUnYlR4IsCOM9qSG9l5peefIu/ZCzFf/+yWkAerTCNn4VcznmraU4M
+   ntvyvVc4AnP9iKFFy3lc8mAcSPDnFC7vii6LTkZXOy1kZgApU8DZ3O1B9ovOGt0Rcfn3kG4iZi+1
+   OF43enldRLsfh6nmOX0=
+Received: from ip-10-55-92-74.ec2.internal (10.55.92.74) by aws1-mta-relay10.sailthru.cloud id hutnko1qqbsv for <bloomberg@khamel.com>; Tue, 5 Sep 2023 13:11:24 -0500 (envelope-from <delivery_20230905141124.32613823.263427@mx.sailthru.com>)
+Date: Tue, 5 Sep 2023 14:11:24 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230905141124.32613823.263427@sailthru.com>
+Subject: Money Stuff: Retail FX Traders Made Money for Someone
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_80052762_2076985745.1693937484403"
+Precedence: bulk
+x-job: 6358-32613823-20230905
+X-Feedback-ID: 6358:32613823:campaign:sailthru
+X-TM-ID: 20230905141124.32613823.263427
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-92-74.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjf0zj.5n9f/63ee14ed
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjf0zj.5n9f/63ee14ed>, <mailto:unsubscribe_20230905141124.32613823.263427@mx.sailthru.com>
+X-rpcampaign: stjko32613823
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_80052762_2076985745.1693937484403
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Hi! Bloomberg is doing a survey of Money Stuff readers; please take=
+ a few minutes to fill it out if you haven=E2=80=99t yet. Thanks!Two styliz=
+ed fac
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Hi! Bloomberg is doing a survey of=C2=A0Money Stuff readers; plea=
+se take a few minutes to fill it out if you haven=E2=80=99t yet. Thanks!
+
+ =20
+   =20
+      My Forex Funds
+   =20
+ =20
+
+Two stylized facts about the foreign exchange markets are:
+=09It is very hard for retail traders to reliably make money trading curren=
+cies, and=09They keep trying?
+
+From first principles,=C2=A0it seems like a good idea to be on the other si=
+de of their trades. If retail traders want to buy pounds, sell them pounds.=
+ If they want to sell yen, buy yen from them. Etc.
+If you do this as a full-time business, you=C2=A0will want to make some ref=
+inements. Here are the three main refinements:
+=09It can=E2=80=99t really be the case that retail investors lose money bec=
+ause they consistently bet the wrong way on currency movements. (That would=
+ take skill!) They lose money because (1) they make essentially random-chan=
+ce bets on currency movements, with zero expected value, and (2) they lose =
+a bit of money on each trade from commissions and spreads. So, if you are i=
+n the business of trading with retail traders, make sure to charge them lot=
+s of commissions and spreads.=09Meanwhile=C2=A0you=C2=A0don=E2=80=99t want =
+to incur the costs of going out and buying yen, pounds, etc., each time you=
+r retail customers do a trade. Ideally you will =E2=80=9Cbucket=E2=80=9D th=
+eir trades: A customer comes to you and says =E2=80=9CI want to buy $1,000 =
+worth of yen,=E2=80=9D they give you $1,000, and you say =E2=80=9Cokay grea=
+t you have 14,400 yen in your account.=E2=80=9D
+  [1]
+ You don=E2=80=99t actually go and buy them any yen (you just make a note i=
+n your books saying that you owe them 14,400 yen), and=C2=A0they don=E2=80=
+=99t actually want yen (they just want to bet on the price). They will even=
+tually close out the bet by selling you the 14,400 yen back for dollars, an=
+d when they do you will cheerfully deliver them, like, $970. You keep their=
+ $30 loss as your profit. No yen are ever involved.=09You will want them to=
+ make=C2=A0leveraged=C2=A0bets: Instead of giving you $1,000 to buy $1,000 =
+worth of yen, they=C2=A0give you, like, $100 to buy $10,000 worth of yen. T=
+hen if the yen moves against them by 1%, they have lost all their money. If=
+ the yen moves in their favor by 1% they have doubled their money, but the =
+odds are in your favor.=C2=A0
+
+The straightforward way to combine Refinements 2 and 3 is to trade FX=C2=A0=
+futures, where the customers put down a small amount of collateral to enter=
+ into a contract with you that pays out based on=C2=A0the price movements o=
+f some currency pair, so (1) the trade is leveraged and (2) you never have =
+to go out and actually buy any foreign currencies. FX futures are a very st=
+andard way to trade currencies, so customers will be happy to trade them wi=
+th you.
+It should go without saying that none of these refinements are legal advice=
+.
+  [2]
+
+You can make=C2=A0further, shadier=C2=A0refinements. For instance, if your =
+customers are only trading with you =E2=80=94=C2=A0if you never go out and =
+buy any actual currencies or do futures trades with outside dealers =E2=80=
+=94=C2=A0you might think, well, it is not=C2=A0strictly=C2=A0necessary that=
+ the prices I charge customers reflect actual market prices. They could jus=
+t be=C2=A0different=C2=A0prices. If yen futures currently trade at 147.4 an=
+d a customer comes to you looking to buy yen, you sell them yen at 146.9 to=
+ the dollar. Why not, who cares, it=E2=80=99s all just happening on your ow=
+n computer systems.=C2=A0You have to be careful with this: You probably hav=
+e to show your customers some screen of bid and ask prices before they trad=
+e, and if you show them that yen are 147.5 bid / 147.4 offered and they hit=
+ =E2=80=9Cbuy,=E2=80=9D they might be puzzled to get only 146.9 yen for the=
+ir dollar.
+  [3]
+=C2=A0But (1) they might not be (not everyone pays attention) and (2) you c=
+an explain it away. =E2=80=9CAh, price impact, market slippage, the market =
+was at 147.4 but then your big buy order moved it,=E2=80=9D you can say.
+Another important set of refinements is: Some=C2=A0customers might actually=
+ be good at trading foreign exchange, and will cost you money; what do you =
+do about them? Your answer might be some combination of:
+=09Shut down their accounts.=09Jack up the commissions, spreads, fake price=
+s, etc., that you charge them, so that they start losing money.=09Stop buck=
+eting their orders, route them to real markets, and let them trade with the=
+ir own money with someone else; you charge commissions but no longer take t=
+he other side of their bets.
+
+The last important refinement, of course, is that you probably want to lie =
+about all of this? =E2=80=9CWe charge zero commissions and all of our custo=
+mers make money!=E2=80=9D might be a lie, but it is a better pitch than, li=
+ke, =E2=80=9Cwe have found a maximally efficient way to fleece rubes like y=
+ou.=E2=80=9D=C2=A0Everything else I said above can get you in trouble =E2=
+=80=94=C2=A0none of it is legal advice! =E2=80=94=C2=A0but the lying is its=
+ own=C2=A0separate way to get in trouble.
+On Friday the US Commodity Futures Trading Commission brought a fun enforce=
+ment action against Traders Global Group Inc., which runs an online FX trad=
+ing platform called =E2=80=9CMy Forex Funds=E2=80=9D that =E2=80=9Coffers r=
+etail customers the opportunity to become =E2=80=98professional traders,=E2=
+=80=99=C2=A0using Traders Global=E2=80=99s money to trade against third-par=
+ty =E2=80=98liquidity providers=E2=80=99=C2=A0and sharing in any trading pr=
+ofits=E2=80=9D:
+In return for the opportunity, customers pay certain fees to Traders Global=
+, and are required by Traders Global to maintain a certain minimum amount o=
+f account equity, referred to as a =E2=80=9Cdrawdown limit.=E2=80=9D Trader=
+s Global assures customers that =E2=80=9Cyour success is our business,=E2=
+=80=9D and =E2=80=9Cwe only make money when you do.=E2=80=9D Traders Global=
+=E2=80=99s pitch has proven appealing to customers; more than 135,000 of th=
+em signed up during the relevant period, paying at least $310 million in fe=
+es.
+But Traders Global is allegedly on the other side of all the trades:
+Traders Global is a fraud. In reality, Traders Global is the counterparty t=
+o substantially all customer trades. When customers make money, it means th=
+at Traders Global loses money. =E2=80=A6=C2=A0Customers do not trade =E2=80=
+=9Clive funds=E2=80=9D against =E2=80=9Cmultiple liquidity providers=E2=80=
+=9D nor do customers share in =E2=80=9Ctrading profits,=E2=80=9D as Traders=
+ Global claims. In reality, customers trade against Traders Global in an el=
+ectronic trading environment that Traders Global controls.
+The CFTC=E2=80=99s complaint hits all the highlights. There are commissions=
+ of course:
+
+Traders Global claims on its website that customer trades are subject to =
+=E2=80=9Ccommissions=E2=80=9D of $3 per lot. Because Traders Global tells i=
+ts customers that they are using Traders Global=E2=80=99s funds to trade, t=
+he customer is led by Traders Global to believe that the commissions are th=
+ose being charged to Traders Global by a liquidity provider, exchange, or o=
+ther third party.
+In fact, Traders Global is not charged commissions by any third party on =
+=E2=80=9Ctrades=E2=80=9D for which it acts as counterparty. Traders Global =
+fails to disclose, however, that it=E2=80=94not some third party=E2=80=94as=
+sesses these commissions. The so-called =E2=80=9Ccommissions=E2=80=9D are s=
+imply a charge against customer account equity imposed by Traders Global.
+
+And customers make leveraged futures trades, maximizing their likelihood of=
+ losing all their money and having to put in more:
+
+A customer who signs up for an account is required to stay within a =E2=80=
+=9Cdrawdown limit=E2=80=9D imposed by Traders Global. The drawdown limit re=
+quires a customer to maintain a certain minimum amount of equity in his or =
+her trading account. The amount varies with the size of account. =E2=80=A6
+In a December 11, 2021, YouTube video, Kazmi explained that the drawdown is=
+ designed =E2=80=9Cto force traders to get into that habit of locking in so=
+me of the profits . . . .=E2=80=9D =E2=80=9CIf you lose all that money,=E2=
+=80=9D Kazmi explained, =E2=80=9Cit=E2=80=99s not only you that=E2=80=99s l=
+osing, it=E2=80=99s us as well right. Because we want to make you profitabl=
+e so we can be profitable . . . .=E2=80=9D
+If a customer exceeds the drawdown limit, Traders Global will =E2=80=9Cdisa=
+ble=E2=80=9D (i.e., terminate) the customer=E2=80=99s account. If the custo=
+mer wishes to continue with Traders Global, the customer is required to re-=
+start their account and pay another fee.
+
+=C2=A0
+There is, uh, slippage:
+
+Traders Global uses specialized software to automatically add =E2=80=9Cdela=
+y=E2=80=9D or =E2=80=9Cslippage=E2=80=9D to customer orders. Traders Global=
+ does this in order to reduce the likelihood, or amount, of a customer=E2=
+=80=99s profitable trading=E2=80=A6.
+By dialing the =E2=80=9Cslippage=E2=80=9D up, Traders Global sets the softw=
+are to automatically execute a customer=E2=80=99s market order at a worse p=
+rice than the best bid or offer displayed at the time the customer entered =
+the order. For example, if a customer entered an order to buy a leveraged c=
+ontract for Euros when the offer price displayed on the customer=E2=80=99s =
+computer screen was $1.759, imposition of slippage would result in the orde=
+r being executed at a higher price, e.g., $1.800.
+Traders Global subjects most of its customers to some amount of delay or sl=
+ippage.
+
+And there is the handling of profitable traders, which involves dialing up =
+the slippage:
+Customers whose trading generates consistent profits, however, are subjecte=
+d to longer delays and increased slippage, implemented by Traders Global.
+And then, if that doesn=E2=80=99t work,=C2=A0routing them to other counterp=
+arties so they are no longer Traders Global=E2=80=99s problem:
+
+A very small number of customers trading =E2=80=9Clive=E2=80=9D accounts ma=
+nage to trade profitably despite Traders Global=E2=80=99s attempts to handi=
+cap them. After identifying such customers, Traders Global may route some o=
+r all of these customers=E2=80=99 orders to an off-exchange leveraged forex=
+ and commodities dealer outside the U.S. (hereinafter, the =E2=80=9CDealer=
+=E2=80=9D). Traders Global refers to this as =E2=80=9CSTP=E2=80=99ing=E2=80=
+=9D a customer=E2=80=99s account; =E2=80=9CSTP=E2=80=9D stands for =E2=80=
+=9Cstraight-through processing.=E2=80=9D
+STP=E2=80=99ing a customer is very rare. Of 24,000 customers with =E2=80=9C=
+live=E2=80=9D accounts during the Relevant Period, fewer than 100 of them h=
+ad a single trade STP=E2=80=99d.
+In one respect, the STP=E2=80=99d customers get what they were promised=E2=
+=80=94the opportunity to trade against a liquidity provider using Traders G=
+lobal=E2=80=99s money, which Traders Global has on deposit with the Dealer,=
+ in a margin account. =E2=80=A6
+For customers on STP, Traders Global uses its specialized software to impos=
+e an additional =E2=80=9Cspread=E2=80=9D on the price feed visible to STP=
+=E2=80=99d customers. This spread results in a customer seeing=E2=80=94and =
+believing himself or herself to be executed at=E2=80=94a worse price than w=
+hat Traders Global got from the Dealer.
+
+All the good stuff.=C2=A0I guess one=C2=A0question is how much of this is i=
+llegal. The bones of it =E2=80=94=C2=A0=E2=80=9Cwe will trade futures clien=
+ts with our customers, charge them commissions, close their contracts when =
+their equity gets too low, and route orders we don=E2=80=99t want to other =
+deals=E2=80=9D =E2=80=94=C2=A0seems kind of fine? As long as you don=E2=80=
+=99t lie about it?
+  [4]
+=C2=A0But the combination, plus the alleged lying, is quite lucrative:
+
+[Chief Executive Officer Murtuza] Kazmi has used the proceeds from the Trad=
+ers Global fraud to fund a luxury lifestyle.
+In April 2022, Kazmi paid $1.6 million to purchase a Lamborghini Aventador =
+at auction. In December 2022, Kazmi paid $3.3 million for a Bugatti racecar=
+.
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Grayscale fees
+   =20
+ =20
+
+Grayscale Bitcoin Trust is a pot full of Bitcoins managed by an investment =
+firm called Grayscale Investments LLC, part=C2=A0of Barry Silbert=E2=80=99s=
+ Digital Currency Group.=C2=A0Shares of the trust trade publicly under the =
+ticker GBTC, and you can buy them in your brokerage account. New shares can=
+ be created by handing Grayscale a pile of=C2=A0Bitcoins and getting back n=
+ew GBTC shares. For a long time a lot of people did this =E2=80=94=C2=A0it =
+was called,   somewhat misleadingly, the =E2=80=9CGrayscale arbitrage=E2=80=
+=9D =E2=80=94=C2=A0because GBTC traded at a big premium to the actual price=
+ of Bitcoin, and so it now has about $16 billion worth of Bitcoin. But that=
+ premium collapsed (in part because everyone kept doing the trade), and as =
+of early last week=C2=A0GBTC traded at about a 25% discount to the value of=
+ its pot of Bitcoins.
+An odd feature of GBTC is that you can=E2=80=99t take the Bitcoins back=C2=
+=A0out: You can create new shares by giving Grayscale Bitcoins, but you can=
+=E2=80=99t get back the Bitcoins by handing back your shares. The pot can g=
+row, but it can never shrink, so the discount persists.=C2=A0
+If you read those two=C2=A0paragraphs and thought =E2=80=9Cwow=C2=A0I bet G=
+rayscale charges a lot of money to manage that pot=E2=80=9D then congratula=
+tions, you are qualified to work in financial services. Grayscale charges a=
+ lot of money to manage that pot. GBTC investors complain about it, but wha=
+t are they gonna do?=C2=A0They can=E2=80=99t take their money out! They can=
+ sue =E2=80=94=C2=A0they have sued =E2=80=94=C2=A0but for the most part GBT=
+C looks like a perpetual fee bonanza for Grayscale. It charges 2% per year,=
+ on a pot of $16 billion, to just, like, hold onto the pot. Very lucrative.
+Grayscale has bigger plans, though. Specifically it wants to convert GBTC i=
+nto an exchange-traded fund. If GBTC were an ETF, then it is plausible=C2=
+=A0that:
+=09People would be able to take Bitcoins out.=C2=A0=09This would collapse t=
+he discount, and GBTC would trade more or less in line with its net asset v=
+alue.=09Therefore people wouldn=E2=80=99t take their Bitcoins out, but in f=
+act would put more in, and the GBTC ETF would use its brand name and first-=
+mover advantage to become even bigger. It would become the main way for ord=
+inary investors to own Bitcoin.
+
+Points 1 and 2 there seem like straightforward consequences of converting t=
+o an ETF. Point 3 is more of a gamble. Maybe everyone will pile into a more=
+ efficient Grayscale Bitcoin ETF. Maybe they won=E2=80=99t.
+Grayscale wants to be an ETF, the US Securities and Exchange Commission kep=
+t rejecting its applications for not very compelling reasons, Grayscale sue=
+d and last week it won in court. It=E2=80=99s not an ETF yet, and things co=
+uld go wrong, but they are trending in the right direction ETF-wise.
+We  talked about the court case last week, and several readers=C2=A0emailed=
+ me to ask: Did Grayscale=C2=A0want=C2=A0to win this case? The math is kind=
+ of:
+=09If GBTC is=C2=A0not=C2=A0an ETF, then it has a perpetually locked-up pot=
+ of $16=C2=A0billion of Bitcoins, paying it 2% per year=C2=A0forever.=09If =
+GBTC becomes an ETF, then (1) everyone can take their money out, (2)=C2=A0o=
+ther=C2=A0Bitcoin ETFs will start to compete with it, (3) ETFs compete larg=
+ely on fees and (4) come on, no other passive ETF charges anywhere close to=
+ 2%.
+
+Grayscale winning this case kills its golden-goose fee stream. The optimal =
+approach for Grayscale, a lot of people have long assumed, was to=C2=A0talk=
+=C2=A0a lot about how aggressively it was fighting the SEC to become an ETF=
+, in order to appease investors who want to collapse the discount, but to n=
+ever actually win the case. If you win the case you lose the fees.
+We have   talked about these incentives before. I think that this view is s=
+omewhat too cynical, and that Grayscale probably expects to benefit by beco=
+ming an ETF (by growing assets under management, by expanding into other re=
+lated crypto-ETF-y businesses, by saving on legal fees) and wanted to win. =
+(That=E2=80=99s why it did win!)=C2=A0But I take the point. Bloomberg=E2=80=
+=99s Katie Greifeld and Vildana Hajric   reported last week:
+
+Fresh off a pivotal win in court this week, Grayscale Investments LLC may s=
+oon find itself in another fight: the $7.5 trillion US exchange-traded indu=
+stry=E2=80=99s never-ending contest over fees. ...=C2=A0
+The product carries a 2% fee in its current form. That compares to an avera=
+ge of 0.54% across US-listed ETFs, and 1.48% for crypto exchange-traded pro=
+ducts globally, Bloomberg Intelligence data show. =E2=80=A6 Asset-managemen=
+t titans including BlackRock Inc., Invesco Ltd and Fidelity Investment =E2=
+=80=94 known for their low-cost lineups =E2=80=94 all have similar applicat=
+ions filed with the SEC, which the regulator is expected to respond to in t=
+he coming days. Fees aren=E2=80=99t yet listed for their proposed products,=
+ though history suggests it=E2=80=99ll be a fraction of what GBTC charges.
+=E2=80=9CGrayscale is up against issuers such as BlackRock and Invesco who =
+are highly accustomed to bludgeoning each other on fees,=E2=80=9D said Nate=
+ Geraci, president of The ETF Store, an advisory firm. =E2=80=9CSpot-Bitcoi=
+n ETFs will all generally look the same =E2=80=93 they simply hold Bitcoin =
+=E2=80=94 which makes fees a key differentiator.=E2=80=9D
+Grayscale=E2=80=99s Chief Executive Officer Michael Sonnenshein reiterated =
+on Bloomberg Television Wednesday that the firm is =E2=80=9Ccommitted to lo=
+wering fees when GBTC converts to an ETF,=E2=80=9D but declined to specify =
+by how much.=C2=A0
+
+GBTC had, for Grayscale, the extremely neat features of (1) being the only =
+real publicly traded US Bitcoin product in a world where the SEC was blocki=
+ng spot Bitcoin ETFs and (2)=C2=A0not allowing withdrawals. A GBTC ETF will=
+ have neither of those advantages.
+
+ =20
+   =20
+      Sculptor=C2=A0
+   =20
+ =20
+
+We have   talked a   lot,   over the   last few   weeks, about the conteste=
+d merger situation at Sculptor Capital Management Inc., the publicly traded=
+ hedge fund firm.=C2=A0Sculptor=E2=80=99s board has agreed to sell the comp=
+any for $11.15 per share to Rithm Capital Corp., which would keep Jimmy Lev=
+in, Sculptor=E2=80=99s chief executive officer and chief investment officer=
+, around to run Sculptor=E2=80=99s funds. But since the Rithm deal was anno=
+unced in July, a group of hedge fund managers including Boaz Weinstein, Bil=
+l Ackman and Marc Lasry has offered to buy the company themselves=C2=A0for =
+$12.25 per share, which they later raised to $12.76. Sculptor=E2=80=99s boa=
+rd has said no, arguing that the Weinstein offer, while obviously=C2=A0high=
+er=C2=A0than Rithm=E2=80=99s, is less certain. In particular, either deal w=
+ould be contingent on most of Sculptor=E2=80=99s clients approving the new =
+management, and the board argues that clients will happily approve Rithm (s=
+ince it will keep Levin around to manage their money) but might not approve=
+ Weinstein et al. (since their deal would involve a new group of managers, =
+led by Weinstein and possibly also including Levin, running Sculptor=E2=80=
+=99s funds). The risk of clients saying no and the Weinstein deal falling a=
+part is too great for the board, so they are sticking with the lower but sa=
+fer Rithm deal.
+One open question is:=C2=A0Is the board right? Will most of Sculptor=E2=80=
+=99s clients balk at having Weinstein and friends manage their money, or wi=
+ll they be excited about the opportunity? I   have suggested that a reasona=
+ble approach might be to just ask them? Probably in some carefully controll=
+ed and lawyered way? There are apparently impediments.
+Last Thursday, Sculptor=E2=80=99s former CEO Rob Shafir =E2=80=94=C2=A0who =
+ran the firm for a while between its founder Dan Och and its current CEO Le=
+vin =E2=80=94=C2=A0 sent the board an open letter supporting Weinstein:
+Your fiduciary duties require you to maximize value for Sculptor's sharehol=
+ders. $12.76 with committed financing is clearly superior to $11.15. It is =
+not credible that Bidder J =E2=80=93 publicly reported to be comprised of l=
+eading investors such as Boaz Weinstein, Jeff Yass, Bill Ackman and Marc La=
+sry =E2=80=93 would not be acceptable to limited partners, especially at th=
+e 50.1% threshold publicly reported as compared to the 85% in the deal with=
+ Rithm Capital Corp. ("Rithm"). It is also not credible to maintain the pos=
+ition that this group does not have the funds and resources to complete thi=
+s transaction. I therefore will not be supporting your proposed sale to Rit=
+hm.
+Shafir presumably knows Sculptor=E2=80=99s business and clients better than=
+, you know, I do, and he thinks that at least 50.1% of them would be happy =
+with Weinstein and friends. Still seems like best practices to ask them but=
+ what do I know.
+Another open question is: What happens next? Sculptor=E2=80=99s stock was t=
+rading at about $11.75 as of noon today, and it has been above the $11.15 R=
+ithm deal price for the last two weeks or so. Sculptor has a contract to se=
+ll itself to Rithm, contingent on a vote of Sculptor=E2=80=99s shareholders=
+, and as far as the board is concerned I guess it is moving ahead with that=
+ vote. There is no date set yet for the vote, but there is a  preliminary=
+=C2=A0proxy statement, and the board has consistently said that it has no r=
+eason to engage with Weinstein and that the Rithm deal is still on.
+But if Sculptor does hold the vote, will it win? Will the Rithm deal go thr=
+ough? Levin and a few other current Sculptor executives  have agreed to vot=
+e their shares in favor of the deal, and  they own about a quarter of the v=
+otes, but the rest are up for grabs, and Och and Shafir, who own about 16% =
+between them, are opposed. Meanwhile if you are a disinterested public shar=
+eholder just looking for the best price, you get to decide:
+=09If you vote yes, and everyone else does, then you get $11.15 in cash rig=
+ht away.=09If you vote no, and everyone else does, then you don=E2=80=99t g=
+et $11.15 in cash, the Rithm deal fails, and=C2=A0maybe=C2=A0the board has =
+to negotiate with Weinstein?
+
+The fact that the stock is at like $11.75 suggests that most shareholders t=
+hink they can do much better than $11.15, and will vote no on the $11.15 Ri=
+thm deal to try to get the $12.76 Weinstein deal, but it is not exactly a s=
+traightforward choice between those two deals. Also of course Rithm could a=
+gree to pay=C2=A0more =E2=80=94=C2=A0more than $11.15, not necessarily more=
+ than $12.76 =E2=80=94=C2=A0to help get the votes.
+Incidentally, a point I have made a few times about this situation is that =
+hostile takeovers of hedge fund management firms are rare, in part because =
+hedge fund managers are usually private companies and in part because of th=
+e problem of client retention: The hedge fund=E2=80=99s clients presumably =
+like the current manager, so if you take over the company and force her out=
+, the clients might leave too and you=E2=80=99ll be left with nothing.
+A reader emailed to point me to a precedent. Here=E2=80=99s a 2005  New Yor=
+k Times article about BKF Capital Group:
+
+Nearly a year ago, Steel Partners, a hedge fund that has made a name for it=
+self shaking up boards to unlock shareholder value, thought it saw a big fa=
+t target in BKF, a publicly traded asset management company. Steel Partners=
+, later joined by Cannell Capital, a hedge fund based in San Francisco, wag=
+ed a proxy fight against BKF, a fight that turned nasty.
+For six months it lobbied for accountability from management, lower compens=
+ation for money managers and improved corporate governance standards. In Ju=
+ne, the activists won three seats on the board, and by August, BKF's chief =
+had resigned.
+It was a pyrrhic victory. Any value that was unlocked at BKF seems to be ru=
+nning for the exits. BKF has disclosed that more than $7 billion of the com=
+pany's $12.4 billion in assets could be gone by year-end.
+Shares of BKF have fallen 39 percent since Steel started the crusade last D=
+ecember. The firm has lost 56 percent of its funds.=C2=A0Whether BKF can no=
+w survive is a question. But a greater mystery is why investors who are mon=
+ey managers themselves failed to see how important it is for such a company=
+ to hold onto its managers and money.
+
+Yeah, but if you are a money manager yourself, your natural inclination is =
+to think that you could manage the money better than the current manager ca=
+n.
+
+ =20
+   =20
+      A stock buyback
+   =20
+ =20
+
+In happier times  last spring, Sam Bankman-Fried  bought about 7.6% of the =
+stock of Robinhood Markets Inc. for about $648 million. He bought the share=
+s in the open market using a vehicle he had formed called Emergent Fidelity=
+ Technologies Ltd. The shares =E2=80=9Cwere purchased by Emergent using wor=
+king capital,=E2=80=9D said his disclosure form. In hindsight it seems more=
+ like they were purchased using customer money from FTX Trading Ltd., Bankm=
+an-Fried=E2=80=99s crypto exchange, which collapsed a few months after his =
+Robinhood purchases. Oops.=C2=A0
+Last week, Robinhood bought back the stock.  From the US Marshals:
+
+On August 30, 2023, Robinhood Markets, Inc. (the =E2=80=9CCompany=E2=80=9D)=
+ entered into a Share Purchase Agreement (the =E2=80=9CShare Purchase Agree=
+ment=E2=80=9D) with the United States Marshal Service (the "USMS"), for and=
+ on behalf of the United States, pursuant to which the Company agreed to pu=
+rchase 55,273,469 shares of the Company's Class A common stock (the "Shares=
+") from the USMS. The transaction closed on August 31, 2023.
+The sale of the Shares was approved by the United States District Court for=
+ the Southern District of New York pursuant to an interlocutory sales order=
+ (the =E2=80=9COrder=E2=80=9D), granted on August 28, 2023, providing for t=
+he sale of the Shares to the Company free and clear of any claims, interest=
+s, liens and encumbrances. Pursuant to the Share Purchase Agreement, the Co=
+mpany purchased the Shares for an aggregate purchase price of $605,694,411.=
+59, or approximately $10.96 per share, which was determined based on the ar=
+ithmetic average of the per share volume-weighted average price of the Comp=
+any=E2=80=99s Class A common stock over each of the five consecutive tradin=
+g days preceding August 13, 2023, the date on which the United States filed=
+ a motion under seal with the United States District Court for the Southern=
+ District of New York requesting the Order. The Company funded the purchase=
+ of the Shares from corporate cash available from its balance sheet.
+The Company previously announced on February 8, 2023 that its Board of Dire=
+ctors had authorized it to pursue purchasing most or all of the Shares. As =
+previously disclosed, the Shares were originally acquired by Emergent Fidel=
+ity Technologies, Ltd. The Shares were seized and were subsequently transfe=
+rred to the custody of the United States.
+
+Here is the  share purchase agreement, and here is  the court order authori=
+zing the sale. I am not sure why this is happening now?=C2=A0=E2=80=9CAs a =
+result of fluctuation in market prices, the Robinhood Shares could diminish=
+ in value,=E2=80=9D says the court order, which is true of all stock and ha=
+s been true of the Robinhood shares since Bankman-Fried was arrested; the s=
+tock is down since he bought it but actually up modestly since he was arres=
+ted.=C2=A0The =E2=80=9Csale of the Robinhood Shares is necessary in order t=
+o prevent the deterioration of its value during the criminal case and any s=
+ubsequent ancillary forfeiture proceedings,=E2=80=9D says the court order.
+Bankman-Fried is scheduled to stand trial for various alleged frauds in Oct=
+ober; if he is found guilty of the frauds then presumably the government wi=
+ll seize the proceeds of those frauds, including the Robinhood shares. The =
+government, and really=C2=A0the judge, seem pretty confident that he will b=
+e found guilty, but he hasn=E2=80=99t yet, so it=E2=80=99s a bit odd to sei=
+ze and sell his Robinhood shares before the trial. If he=E2=80=99s found no=
+t guilty they will give him back the money =E2=80=94=C2=A0$605.7 million =
+=E2=80=94 instead of the shares. (=E2=80=9CThe net proceeds realized from t=
+he sale of the Robinhood Shares, and any and all income or interest accrued=
+ thereon, shall be the substitute res for the Robinhood Shares,=E2=80=9D sa=
+ys the court order.) And then presumably he=E2=80=99ll   hand that over to =
+FTX=E2=80=99s bankruptcy estate, so maybe it doesn=E2=80=99t matter that mu=
+ch to him.=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Country Garden Pays Dollar Bond Interest Within Grace Period.   Arm IPO Ex=
+pectations Tempered as Roadshow Kicks Off. Arm  Banks Set for $100 Million =
+Payday From Chip Designer=E2=80=99s IPO. Billionaire   L=E2=80=99Occitane B=
+oss Ends Talks on Potential Buyout Deal. Albemarle Raises Bid for Australia=
+=E2=80=99s  Liontown Resources to $4.25 Billion.=C2=A0Investors raise quest=
+ions after  Sequoia Capital=E2=80=99s turbulent year. How  Insurance Compan=
+ies Created a Peculiar Investment Talent Crunch. Inside a Sales Army Turnin=
+g a  Tax Break Into a Modern-Day Gold Rush. EU Pledges Help to Build Africa=
+n   Green Bond Market.=C2=A0  Crypto Market-Making Profit Margins Sink 30% =
+in =E2=80=98Wake-Up Call.=E2=80=99=C2=A0 Stablecoin Reshuffling Chips Away =
+at Tether=E2=80=99s Crypto Market Dominance. =E2=80=98The  Citadel migratio=
+n=E2=80=99 shaking up Miami=E2=80=99s luxury property market. Wall Street G=
+ets Tough on   Return-to-Office Laggards. More Than One-Third of Desks Glob=
+ally   Sit Empty All Week Long. Embattled Goldman Sachs CEO David Solomon s=
+tages  =E2=80=98awkward=E2=80=99 dinner parties at NYC loft.=C2=A0Inside Si=
+licon Valley=E2=80=99s New Boys Club: The Testosterone-Testing =E2=80=98T P=
+arty.=E2=80=99=C2=A0Trapped in Mud,  Burning Man Attendees Are Told to Cons=
+erve Food.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] As I wrote this the USDJPY rate was about 147.4; I have rounded down =
+for your commissions and spreads.
+
+
+  [2] Bucketing stock trades is, in the US, mostly illegal, though elsewher=
+e contracts for differences are pretty common. Trading FX futures is genera=
+lly fine in the US, though doing it with retail customers is pretty regulat=
+ed due to, you know, all the fraud. In the complaint I quote below, the CFT=
+C notes that "by acting as counterparty to its customers=E2=80=99 trades, T=
+raders Global is violating Regulation 5.3(a)(6)(i), 17 C.F.R. =C2=A7 5.3(a)=
+(6)(i) (2022), which requires registration by dealers of retail leveraged f=
+orex contracts." The regulation is here.
+
+
+  [3] If you show them 147.9 bid / 146.9 offered, they will know that you a=
+re charging a wide spread, and will go to someone else who advertises tight=
+ spreads.
+
+
+  [4] A fun exercise is: How much of what is described here could also desc=
+ribe, say, a retail stock brokerage that routes orders to a wholesaler? A c=
+rypto futures exchange? Not *all* of it =E2=80=94 not the lying =E2=80=94 b=
+ut some.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjf0zj.5n9f/3a4bfb2e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_80052762_2076985745.1693937484403
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few m=
+inutes to fill it out if you haven=E2=80=99t yet. Thanks!Two stylized fac
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MDUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB6c3226cc"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjYxMzgyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI4NzcyNTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe79a87fc" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32613823&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32877250&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><em>Hi! Bloomberg is doing a survey of=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0=
+cHM6Ly9ibWVkaWEuaWFkMS5xdWFsdHJpY3MuY29tL2pmZS9mb3JtL1NWXzhCbVBONEFCdVlvYWN=
+Ycw/607f07ceef4b8524a319a23cBe8283abf" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Money Stuff readers</a>; ple=
+ase take a few minutes to fill it out if you haven=E2=80=99t yet. Thanks!</=
+em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">My Forex Funds</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Two stylized facts about the foreign exchange =
+markets are:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">It is very hard for retail traders to =
+reliably make money trading currencies, and</li>=09<li style=3D"margin-bott=
+om: 5px;">They keep trying?</li>
+</ul>
+<p style=3D"margin: 16px 0;">From first principles,=C2=A0it seems like a go=
+od idea to be on the other side of their trades. If retail traders want to =
+buy pounds, sell them pounds. If they want to sell yen, buy yen from them. =
+Etc.</p>
+<p style=3D"margin: 16px 0;">If you do this as a full-time business, you=C2=
+=A0will want to make some refinements. Here are the three main refinements:=
+</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It can=E2=80=99t really be the case t=
+hat retail investors lose money because they consistently bet the wrong way=
+ on currency movements. (That would take skill!) They lose money because (1=
+) they make essentially random-chance bets on currency movements, with zero=
+ expected value, and (2) they lose a bit of money on each trade from commis=
+sions and spreads. So, if you are in the business of trading with retail tr=
+aders, make sure to charge them lots of commissions and spreads.</li>=09<li=
+ style=3D"margin-bottom: 5px;">Meanwhile=C2=A0<em>you=C2=A0</em>don=E2=80=
+=99t want to incur the costs of going out and buying yen, pounds, etc., eac=
+h time your retail customers do a trade. Ideally you will =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6L=
+y9lbi53aWtpcGVkaWEub3JnL3dpa2kvQnVja2V0X3Nob3BfKHN0b2NrX21hcmtldCk/607f07ce=
+ef4b8524a319a23cBee7849cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">bucket</a>=E2=80=9D their trades: A cust=
+omer comes to you and says =E2=80=9CI want to buy $1,000 worth of yen,=E2=
+=80=9D they give you $1,000, and you say =E2=80=9Cokay great you have 14,40=
+0 yen in your account.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnot=
+e-1" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a> You don=E2=80=99t actually go and buy them any yen (you just make a no=
+te in your books saying that you owe them 14,400 yen), and=C2=A0they don=E2=
+=80=99t actually want yen (they just want to bet on the price). They will e=
+ventually close out the bet by selling you the 14,400 yen back for dollars,=
+ and when they do you will cheerfully deliver them, like, $970. You keep th=
+eir $30 loss as your profit. No yen are ever involved.</li>=09<li style=3D"=
+margin-bottom: 5px;">You will want them to make=C2=A0<em>leveraged=C2=A0</e=
+m>bets: Instead of giving you $1,000 to buy $1,000 worth of yen, they=C2=A0=
+give you, like, $100 to buy $10,000 worth of yen. Then if the yen moves aga=
+inst them by 1%, they have lost all their money. If the yen moves in their =
+favor by 1% they have doubled their money, but the odds are in your favor.=
+=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">The straightforward way to combine Refinements=
+ 2 and 3 is to trade FX=C2=A0<em>futures</em>, where the customers put down=
+ a small amount of collateral to enter into a contract with you that pays o=
+ut based on=C2=A0the price movements of some currency pair, so (1) the trad=
+e is leveraged and (2) you never have to go out and actually buy any foreig=
+n currencies. FX futures are a very standard way to trade currencies, so cu=
+stomers will be happy to trade them with you.</p>
+<p style=3D"margin: 16px 0;">It should go without saying that none of these=
+ refinements are legal advice.<a class=3D"footnote-index" href=3D"#footnote=
+-2" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">You can make=C2=A0further, shadier=C2=A0refine=
+ments. For instance, if your customers are only trading with you =E2=80=94=
+=C2=A0if you never go out and buy any actual currencies or do futures trade=
+s with outside dealers =E2=80=94=C2=A0you might think, well, it is not=C2=
+=A0<em>strictly=C2=A0</em>necessary that the prices I charge customers refl=
+ect actual market prices. They could just be=C2=A0<em>different=C2=A0</em>p=
+rices. If yen futures currently trade at 147.4 and a customer comes to you =
+looking to buy yen, you sell them yen at 146.9 to the dollar. Why not, who =
+cares, it=E2=80=99s all just happening on your own computer systems.=C2=A0Y=
+ou have to be careful with this: You probably have to show your customers s=
+ome screen of bid and ask prices before they trade, and if you show them th=
+at yen are 147.5 bid / 147.4 offered and they hit =E2=80=9Cbuy,=E2=80=9D th=
+ey might be puzzled to get only 146.9 yen for their dollar.<a class=3D"foot=
+note-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0But (1) they might not be (not everyone pays attention) and (2) y=
+ou can explain it away. =E2=80=9CAh, price impact, market slippage, the mar=
+ket was at 147.4 but then your big buy order moved it,=E2=80=9D you can say=
+.</p>
+<p style=3D"margin: 16px 0;">Another important set of refinements is: <em>S=
+ome=C2=A0</em>customers might actually be good at trading foreign exchange,=
+ and will cost you money; what do you do about them? Your answer might be s=
+ome combination of:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Shut down their accounts.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">Jack up the commissions, spreads, fake prices,=
+ etc., that you charge them, so that they start losing money.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Stop bucketing their orders, route them to real=
+ markets, and let them trade with their own money with someone else; you ch=
+arge commissions but no longer take the other side of their bets.</li>
+</ul>
+<p style=3D"margin: 16px 0;">The last important refinement, of course, is t=
+hat you probably want to lie about all of this? =E2=80=9CWe charge zero com=
+missions and all of our customers make money!=E2=80=9D might be a lie, but =
+it is a better pitch than, like, =E2=80=9Cwe have found a maximally efficie=
+nt way to fleece rubes like you.=E2=80=9D=C2=A0Everything else I said above=
+ can get you in trouble =E2=80=94=C2=A0none of it is legal advice! =E2=80=
+=94=C2=A0but the lying is its own=C2=A0separate way to get in trouble.</p>
+<p style=3D"margin: 16px 0;">On Friday the US Commodity Futures Trading Com=
+mission <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.2=
+63427/aHR0cHM6Ly93d3cuY2Z0Yy5nb3YvUHJlc3NSb29tL1ByZXNzUmVsZWFzZXMvODc3MS0yM=
+w/607f07ceef4b8524a319a23cB29c92934" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">brought a fun enforcement acti=
+on</a> against Traders Global Group Inc., which runs an online FX trading p=
+latform called =E2=80=9CMy Forex Funds=E2=80=9D that =E2=80=9Coffers retail=
+ customers the opportunity to become =E2=80=98professional traders,=E2=80=
+=99=C2=A0using Traders Global=E2=80=99s money to trade against third-party =
+=E2=80=98liquidity providers=E2=80=99=C2=A0and sharing in any trading profi=
+ts=E2=80=9D:</p>
+<blockquote><p style=3D"margin: 16px 0;">In return for the opportunity, cus=
+tomers pay certain fees to Traders Global, and are required by Traders Glob=
+al to maintain a certain minimum amount of account equity, referred to as a=
+ =E2=80=9Cdrawdown limit.=E2=80=9D Traders Global assures customers that =
+=E2=80=9Cyour success is our business,=E2=80=9D and =E2=80=9Cwe only make m=
+oney when you do.=E2=80=9D Traders Global=E2=80=99s pitch has proven appeal=
+ing to customers; more than 135,000 of them signed up during the relevant p=
+eriod, paying at least $310 million in fees.</p></blockquote>
+<p style=3D"margin: 16px 0;">But Traders Global is allegedly on the other s=
+ide of all the trades:</p>
+<blockquote><p style=3D"margin: 16px 0;">Traders Global is a fraud. In real=
+ity, Traders Global is the counterparty to substantially all customer trade=
+s. When customers make money, it means that Traders Global loses money. =E2=
+=80=A6=C2=A0Customers do not trade =E2=80=9Clive funds=E2=80=9D against =E2=
+=80=9Cmultiple liquidity providers=E2=80=9D nor do customers share in =E2=
+=80=9Ctrading profits,=E2=80=9D as Traders Global claims. In reality, custo=
+mers trade against Traders Global in an electronic trading environment that=
+ Traders Global controls.</p></blockquote>
+<p style=3D"margin: 16px 0;">The CFTC=E2=80=99s <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuY2Z0Yy5nb3Yvb=
+WVkaWEvOTE5Ni9lbmZ0cmFkZXJzZ2xvYmFsZ3JvdXBjb21wbGFpbnQwODI5MjMvZG93bmxvYWQ/=
+607f07ceef4b8524a319a23cB98f3eaae" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">complaint</a> hits all the highl=
+ights. There are commissions of course:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Traders Global claims on its website that cust=
+omer trades are subject to =E2=80=9Ccommissions=E2=80=9D of $3 per lot. Bec=
+ause Traders Global tells its customers that they are using Traders Global=
+=E2=80=99s funds to trade, the customer is led by Traders Global to believe=
+ that the commissions are those being charged to Traders Global by a liquid=
+ity provider, exchange, or other third party.</p>
+<p style=3D"margin: 16px 0;">In fact, Traders Global is not charged commiss=
+ions by any third party on =E2=80=9Ctrades=E2=80=9D for which it acts as co=
+unterparty. Traders Global fails to disclose, however, that it=E2=80=94not =
+some third party=E2=80=94assesses these commissions. The so-called =E2=80=
+=9Ccommissions=E2=80=9D are simply a charge against customer account equity=
+ imposed by Traders Global.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And customers make leveraged futures trades, m=
+aximizing their likelihood of losing all their money and having to put in m=
+ore:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A customer who signs up for an account is requ=
+ired to stay within a =E2=80=9Cdrawdown limit=E2=80=9D imposed by Traders G=
+lobal. The drawdown limit requires a customer to maintain a certain minimum=
+ amount of equity in his or her trading account. The amount varies with the=
+ size of account. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In a December 11, 2021, YouTube video, Kazmi e=
+xplained that the drawdown is designed =E2=80=9Cto force traders to get int=
+o that habit of locking in some of the profits . . . .=E2=80=9D =E2=80=9CIf=
+ you lose all that money,=E2=80=9D Kazmi explained, =E2=80=9Cit=E2=80=99s n=
+ot only you that=E2=80=99s losing, it=E2=80=99s us as well right. Because w=
+e want to make you profitable so we can be profitable . . . .=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">If a customer exceeds the drawdown limit, Trad=
+ers Global will =E2=80=9Cdisable=E2=80=9D (i.e., terminate) the customer=E2=
+=80=99s account. If the customer wishes to continue with Traders Global, th=
+e customer is required to re-start their account and pay another fee.</p>
+</blockquote>
+<blockquote>=C2=A0</blockquote>
+<p style=3D"margin: 16px 0;">There is, uh, slippage:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Traders Global uses specialized software to au=
+tomatically add =E2=80=9Cdelay=E2=80=9D or =E2=80=9Cslippage=E2=80=9D to cu=
+stomer orders. Traders Global does this in order to reduce the likelihood, =
+or amount, of a customer=E2=80=99s profitable trading=E2=80=A6.</p>
+<p style=3D"margin: 16px 0;">By dialing the =E2=80=9Cslippage=E2=80=9D up, =
+Traders Global sets the software to automatically execute a customer=E2=80=
+=99s market order at a worse price than the best bid or offer displayed at =
+the time the customer entered the order. For example, if a customer entered=
+ an order to buy a leveraged contract for Euros when the offer price displa=
+yed on the customer=E2=80=99s computer screen was $1.759, imposition of sli=
+ppage would result in the order being executed at a higher price, e.g., $1.=
+800.</p>
+<p style=3D"margin: 16px 0;">Traders Global subjects most of its customers =
+to some amount of delay or slippage.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And there is the handling of profitable trader=
+s, which involves dialing up the slippage:</p>
+<blockquote><p style=3D"margin: 16px 0;">Customers whose trading generates =
+consistent profits, however, are subjected to longer delays and increased s=
+lippage, implemented by Traders Global.</p></blockquote>
+<p style=3D"margin: 16px 0;">And then, if that doesn=E2=80=99t work,=C2=A0r=
+outing them to other counterparties so they are no longer Traders Global=E2=
+=80=99s problem:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A very small number of customers trading =E2=
+=80=9Clive=E2=80=9D accounts manage to trade profitably despite Traders Glo=
+bal=E2=80=99s attempts to handicap them. After identifying such customers, =
+Traders Global may route some or all of these customers=E2=80=99 orders to =
+an off-exchange leveraged forex and commodities dealer outside the U.S. (he=
+reinafter, the =E2=80=9CDealer=E2=80=9D). Traders Global refers to this as =
+=E2=80=9CSTP=E2=80=99ing=E2=80=9D a customer=E2=80=99s account; =E2=80=9CST=
+P=E2=80=9D stands for =E2=80=9Cstraight-through processing.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">STP=E2=80=99ing a customer is very rare. Of 24=
+,000 customers with =E2=80=9Clive=E2=80=9D accounts during the Relevant Per=
+iod, fewer than 100 of them had a single trade STP=E2=80=99d.</p>
+<p style=3D"margin: 16px 0;">In one respect, the STP=E2=80=99d customers ge=
+t what they were promised=E2=80=94the opportunity to trade against a liquid=
+ity provider using Traders Global=E2=80=99s money, which Traders Global has=
+ on deposit with the Dealer, in a margin account. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">For customers on STP, Traders Global uses its =
+specialized software to impose an additional =E2=80=9Cspread=E2=80=9D on th=
+e price feed visible to STP=E2=80=99d customers. This spread results in a c=
+ustomer seeing=E2=80=94and believing himself or herself to be executed at=
+=E2=80=94a worse price than what Traders Global got from the Dealer.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">All the good stuff.=C2=A0I guess one=C2=A0ques=
+tion is how much of this is illegal. The bones of it =E2=80=94=C2=A0=E2=80=
+=9Cwe will trade futures clients with our customers, charge them commission=
+s, close their contracts when their equity gets too low, and route orders w=
+e don=E2=80=99t want to other deals=E2=80=9D =E2=80=94=C2=A0seems kind of f=
+ine? As long as you don=E2=80=99t lie about it?<a class=3D"footnote-index" =
+href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: none !important; background-color: transparent !important; display: =
+inline-block;">
+<span>[4]</span>
+</a>=C2=A0But the combination, plus the alleged lying, is quite lucrative:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">[Chief Executive Officer Murtuza] Kazmi has us=
+ed the proceeds from the Traders Global fraud to fund a luxury lifestyle.</=
+p>
+<p style=3D"margin: 16px 0;">In April 2022, Kazmi paid $1.6 million to purc=
+hase a Lamborghini Aventador at auction. In December 2022, Kazmi paid $3.3 =
+million for a Bugatti racecar.</p>
+</blockquote>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjYxMzgyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI4NzcyNTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC586402b5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32613823&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32877250&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjYxMzgyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI4NzcyNTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD586402b5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32613823&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32877250&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Grayscale fees</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Grayscale Bitcoin Trust is a pot full of Bitco=
+ins managed by an investment firm called Grayscale Investments LLC, part=C2=
+=A0of Barry Silbert=E2=80=99s Digital Currency Group.=C2=A0Shares of the tr=
+ust trade publicly under the ticker GBTC, and you can buy them in your brok=
+erage account. New shares can be created by handing Grayscale a pile of=C2=
+=A0Bitcoins and getting back new GBTC shares. For a long time a lot of peop=
+le did this =E2=80=94=C2=A0it was called, <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjItMTItMDUvY3J5cHRvLWhhZC1hLWNyZWRpdC1idWJibGU_Y2=
+1waWQ9QkJEMDkwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjMwOTA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cB3e695c03" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  somewhat misleadingly</a>, the =E2=80=9CG=
+rayscale arbitrage=E2=80=9D =E2=80=94=C2=A0because GBTC traded at a big pre=
+mium to the actual price of Bitcoin, and so it now has about $16 billion wo=
+rth of Bitcoin. But that premium collapsed (in part because everyone kept d=
+oing the trade), and as of early last week=C2=A0GBTC traded at about a 25% =
+discount to the value of its pot of Bitcoins.</p>
+<p style=3D"margin: 16px 0;">An odd feature of GBTC is that you can=E2=80=
+=99t take the Bitcoins back=C2=A0<em>out: </em>You can create new shares by=
+ giving Grayscale Bitcoins, but you can=E2=80=99t get back the Bitcoins by =
+handing back your shares. The pot can grow, but it can never shrink, so the=
+ discount persists.=C2=A0</p>
+<p style=3D"margin: 16px 0;">If you read those two=C2=A0paragraphs and thou=
+ght =E2=80=9Cwow=C2=A0I bet Grayscale charges a lot of money to manage that=
+ pot=E2=80=9D then congratulations, you are qualified to work in financial =
+services. Grayscale charges a lot of money to manage that pot. GBTC investo=
+rs complain about it, but what are they gonna do?=C2=A0<em>They can=E2=80=
+=99t take their money out! </em>They can sue =E2=80=94=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMDcvZnR4LXdhbnRzLWl0cy1i=
+aXRjb2lucy1iYWNrLWZyb20tZ3JheXNjYWxlP2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4efefabe" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">the=
+y have sued</a> =E2=80=94=C2=A0but for the most part GBTC looks like a perp=
+etual fee bonanza for Grayscale. It charges 2% per year, on a pot of $16 bi=
+llion, to just, like, hold onto the pot. Very lucrative.</p>
+<p style=3D"margin: 16px 0;">Grayscale has bigger plans, though. Specifical=
+ly it wants to convert GBTC into an exchange-traded fund. If GBTC were an E=
+TF, then it is plausible=C2=A0that:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">People would be able to take Bitcoins=
+ out.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">This would collapse th=
+e discount, and GBTC would trade more or less in line with its net asset va=
+lue.</li>=09<li style=3D"margin-bottom: 5px;">Therefore people <em>wouldn=
+=E2=80=99t</em> take their Bitcoins out, but in fact would put more in, and=
+ the GBTC ETF would use its brand name and first-mover advantage to become =
+even bigger. It would become the main way for ordinary investors to own Bit=
+coin.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Points 1 and 2 there seem like straightforward=
+ consequences of converting to an ETF. Point 3 is more of a gamble. Maybe e=
+veryone will pile into a more efficient Grayscale Bitcoin ETF. Maybe they w=
+on=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">Grayscale wants to be an ETF, the US Securitie=
+s and Exchange Commission kept rejecting its applications for not very comp=
+elling reasons, Grayscale sued and last week it won in court. It=E2=80=99s =
+not an ETF yet, and things could go wrong, but they are trending in the rig=
+ht direction ETF-wise.</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDgtMjkvZ3JheXNjYWxlLWNhbi1iZS1hLWJpdGNvaW4tZXRmP2NtcGlk=
+PUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cBa2b1c947" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> talked about</a> the court case last week, a=
+nd several readers=C2=A0emailed me to ask: Did Grayscale=C2=A0<em>want=C2=
+=A0</em>to win this case? The math is kind of:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If GBTC is=C2=A0<em>not=C2=A0</em>an =
+ETF, then it has a perpetually locked-up pot of $16=C2=A0billion of Bitcoin=
+s, paying it 2% per year=C2=A0forever.</li>=09<li style=3D"margin-bottom: 5=
+px;">If GBTC becomes an ETF, then (1) everyone can take their money out, (2=
+)=C2=A0<em>other=C2=A0</em>Bitcoin ETFs will start to compete with it, (3) =
+ETFs compete largely on fees and (4) come on, no other passive ETF charges =
+anywhere close to 2%.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Grayscale winning this case kills its golden-g=
+oose fee stream. The optimal approach for Grayscale, a lot of people have l=
+ong assumed, was to=C2=A0<em>talk=C2=A0</em>a lot about how aggressively it=
+ was fighting the SEC to become an ETF, in order to appease investors who w=
+ant to collapse the discount, but to never actually win the case. If you wi=
+n the case you lose the fees.</p>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDMtMDcvZnR4LXdhbnRzLWl0cy1iaXRjb2lucy1iYWNrLWZyb20=
+tZ3JheXNjYWxlP2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cC4efefabe" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  talked about</a> these=
+ incentives before. I think that this view is somewhat too cynical, and tha=
+t Grayscale probably expects to benefit by becoming an ETF (by growing asse=
+ts under management, by expanding into other related crypto-ETF-y businesse=
+s, by saving on legal fees) and wanted to win. (That=E2=80=99s why it did w=
+in!)=C2=A0But I take the point. Bloomberg=E2=80=99s Katie Greifeld and Vild=
+ana Hajric <a href=3D"https://link.mail.bloombergbusiness.com/click/3261382=
+3.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMz=
+EvZ3JheXNjYWxlLWdidGMtZmFjZXMtZmVlLXdhci13aXRoLWJsYWNrcm9jay1pbi1iaXRjb2luL=
+WJ0Yy1ldGYtcmFjZT9jbXBpZD1CQkQwOTA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MDUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB8c4ccf18" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  reported last week</a=
+>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Fresh off a pivotal win in court this week, Gr=
+ayscale Investments LLC may soon find itself in another fight: the $7.5 tri=
+llion US exchange-traded industry=E2=80=99s never-ending contest over fees.=
+ ...=C2=A0</p>
+<p style=3D"margin: 16px 0;">The product carries a 2% fee in its current fo=
+rm. That compares to an average of 0.54% across US-listed ETFs, and 1.48% f=
+or crypto exchange-traded products globally, Bloomberg Intelligence data sh=
+ow. =E2=80=A6 Asset-management titans including BlackRock Inc., Invesco Ltd=
+ and Fidelity Investment =E2=80=94 known for their low-cost lineups =E2=80=
+=94 all have similar applications filed with the SEC, which the regulator i=
+s expected to respond to in the coming days. Fees aren=E2=80=99t yet listed=
+ for their proposed products, though history suggests it=E2=80=99ll be a fr=
+action of what GBTC charges.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CGrayscale is up against issuers such =
+as BlackRock and Invesco who are highly accustomed to bludgeoning each othe=
+r on fees,=E2=80=9D said Nate Geraci, president of The ETF Store, an adviso=
+ry firm. =E2=80=9CSpot-Bitcoin ETFs will all generally look the same =E2=80=
+=93 they simply hold Bitcoin =E2=80=94 which makes fees a key differentiato=
+r.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Grayscale=E2=80=99s Chief Executive Officer Mi=
+chael Sonnenshein reiterated on Bloomberg Television Wednesday that the fir=
+m is =E2=80=9Ccommitted to lowering fees when GBTC converts to an ETF,=E2=
+=80=9D but declined to specify by how much.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">GBTC had, for Grayscale, the extremely neat fe=
+atures of (1) being the only real publicly traded US Bitcoin product in a w=
+orld where the SEC was blocking spot Bitcoin ETFs and (2)=C2=A0<em>not allo=
+wing withdrawals</em>. A GBTC ETF will have neither of those advantages.</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sculptor=C2=A0</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDgtMjEvZXZlcnlvbmUtd2FudHMtYS1waWVjZS1vZi1zY3VscHR=
+vcj9jbXBpZD1CQkQwOTA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cBf7f0efa9" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  talked</a> a <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjMvY291bGQtc2N1bHB0b3ItYmUtYmV=
+0dGVyLW9yLWNoZWFwZXI_Y21waWQ9QkJEMDkwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTA1JnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cB91d8d560" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  lot</a>, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjkvZ3JheXNjYWxl=
+LWNhbi1iZS1hLWJpdGNvaW4tZXRmP2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCa2b1c947" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  over</a> =
+the <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.26342=
+7/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMzAvc=
+2N1bHB0b3ItaXMtZnVsbC1vZi1jb25mbGljdHM_Y21waWQ9QkJEMDkwNTIzX01PTkVZU1RVRkYm=
+dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTA1JnV=
+0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5b9e36ba" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  last</a> few <a href=3D"https://link.mail.bloombergbusiness.com/click/326=
+13823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDgtMzEvc2N1bHB0b3ItZ2V0cy1hbm90aGVyLW9mZmVyP2NtcGlkPUJCRDA5MDUyM19NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIz=
+MDkwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb04bf4a6" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  weeks</a>, about the contested merger situation at Sculptor Capita=
+l Management Inc., the publicly traded hedge fund firm.=C2=A0Sculptor=E2=80=
+=99s board has agreed to sell the company for $11.15 per share to Rithm Cap=
+ital Corp., which would keep Jimmy Levin, Sculptor=E2=80=99s chief executiv=
+e officer and chief investment officer, around to run Sculptor=E2=80=99s fu=
+nds. But since the Rithm deal was announced in July, a group of hedge fund =
+managers including Boaz Weinstein, Bill Ackman and Marc Lasry has offered t=
+o buy the company themselves=C2=A0for $12.25 per share, which they later ra=
+ised to $12.76. Sculptor=E2=80=99s board has said no, arguing that the Wein=
+stein offer, while obviously=C2=A0<em>higher=C2=A0</em>than Rithm=E2=80=99s=
+, is less certain. In particular, either deal would be contingent on most o=
+f Sculptor=E2=80=99s clients approving the new management, and the board ar=
+gues that clients will happily approve Rithm (since it will keep Levin arou=
+nd to manage their money) but might not approve Weinstein et al. (since the=
+ir deal would involve a new group of managers, led by Weinstein and possibl=
+y also including Levin, running Sculptor=E2=80=99s funds). The risk of clie=
+nts saying no and the Weinstein deal falling apart is too great for the boa=
+rd, so they are sticking with the lower but safer Rithm deal.</p>
+<p style=3D"margin: 16px 0;">One open question is:=C2=A0Is the board right?=
+ Will most of Sculptor=E2=80=99s clients balk at having Weinstein and frien=
+ds manage their money, or will they be excited about the opportunity? I <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMzEvc2N1bHB0=
+b3ItZ2V0cy1hbm90aGVyLW9mZmVyP2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCb04bf4a6" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  have sugg=
+ested</a> that a reasonable approach might be to just ask them? Probably in=
+ some carefully controlled and lawyered way? There are apparently impedimen=
+ts.</p>
+<p style=3D"margin: 16px 0;">Last Thursday, Sculptor=E2=80=99s former CEO R=
+ob Shafir =E2=80=94=C2=A0who ran the firm for a while between its founder D=
+an Och and its current CEO Levin =E2=80=94=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cucHJuZXdzd2lyZ=
+S5jb20vbmV3cy1yZWxlYXNlcy9jb25jZXJuZWQtc2hhcmVob2xkZXItYW5kLWZvcm1lci1jZW8t=
+cm9iLXNoYWZpci1pc3N1ZXMtbGV0dGVyLXRvLXNjdWxwdG9yLWNhcGl0YWwtbWFuYWdlbWVudHM=
+tc3BlY2lhbC1jb21taXR0ZWUtcmVnYXJkaW5nLXByb2Nlc3MtY29uY2VybnMtYW5kLW9wcG9zaX=
+Rpb24tdG8tdGhlLXJpdGhtLWNhcGl0YWwtdHJhbnNhY3Rpb24tMzAxOTE1MzU3Lmh0bWw/607f0=
+7ceef4b8524a319a23cB22a3d670" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> sent the board an open letter</a> su=
+pporting Weinstein:</p>
+<blockquote><p style=3D"margin: 16px 0;">Your fiduciary duties require you =
+to maximize value for Sculptor's shareholders. $12.76 with committed financ=
+ing is clearly superior to $11.15. It is not credible that Bidder J =E2=80=
+=93 publicly reported to be comprised of leading investors such as Boaz Wei=
+nstein, Jeff Yass, Bill Ackman and Marc Lasry =E2=80=93 would not be accept=
+able to limited partners, especially at the 50.1% threshold publicly report=
+ed as compared to the 85% in the deal with Rithm Capital Corp. ("Rithm"). I=
+t is also not credible to maintain the position that this group does not ha=
+ve the funds and resources to complete this transaction. I therefore will n=
+ot be supporting your proposed sale to Rithm.</p></blockquote>
+<p style=3D"margin: 16px 0;">Shafir presumably knows Sculptor=E2=80=99s bus=
+iness and clients better than, you know, I do, and he thinks that at least =
+50.1% of them would be happy with Weinstein and friends. Still seems like b=
+est practices to ask them but what do I know.</p>
+<p style=3D"margin: 16px 0;">Another open question is: What happens next? S=
+culptor=E2=80=99s stock was trading at about $11.75 as of noon today, and i=
+t has been above the $11.15 Rithm deal price for the last two weeks or so. =
+Sculptor has a contract to sell itself to Rithm, contingent on a vote of Sc=
+ulptor=E2=80=99s shareholders, and as far as the board is concerned I guess=
+ it is moving ahead with that vote. There is no date set yet for the vote, =
+but there is a <a href=3D"https://link.mail.bloombergbusiness.com/click/326=
+13823.263427/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDMyNT=
+YvMDAwMTE0MDM2MTIzMDQwNTk1L255MjAwMDk5Mzl4MV9wcmVtMTRhLmh0bQ/607f07ceef4b85=
+24a319a23cB4bac4af5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> preliminary=C2=A0proxy statement</a>, and th=
+e board has consistently said that it has no reason to engage with Weinstei=
+n and that the Rithm deal is still on.</p>
+<p style=3D"margin: 16px 0;">But if Sculptor does hold the vote, will it wi=
+n? Will the Rithm deal go through? Levin and a few other current Sculptor e=
+xecutives <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823=
+.263427/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDMyNTYvMDA=
+wMTE0MDM2MTIzMDQwNTk1L255MjAwMDk5Mzl4MV9wcmVtMTRhLmh0bSN0VkE/607f07ceef4b85=
+24a319a23cB90f36ac8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> have agreed</a> to vote their shares in favo=
+r of the deal, and <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32613823.263427/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MD=
+MyNTYvMDAwMTE0MDM2MTIzMDQwNTk1L255MjAwMDk5Mzl4MV9wcmVtMTRhLmh0bSN0U09D/607f=
+07ceef4b8524a319a23cBe843a419" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> they own</a> about a quarter of the=
+ votes, but the rest are up for grabs, and Och and Shafir, who own about 16=
+% between them, are opposed. Meanwhile if you are a disinterested public sh=
+areholder just looking for the best price, you get to decide:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">If you vote yes, and everyone else doe=
+s, then you get $11.15 in cash right away.</li>=09<li style=3D"margin-botto=
+m: 5px;">If you vote no, and everyone else does, then you don=E2=80=99t get=
+ $11.15 in cash, the Rithm deal fails, and=C2=A0<em>maybe=C2=A0</em>the boa=
+rd has to negotiate with Weinstein?</li>
+</ul>
+<p style=3D"margin: 16px 0;">The fact that the stock is at like $11.75 sugg=
+ests that most shareholders think they can do much better than $11.15, and =
+will vote no on the $11.15 Rithm deal to try to get the $12.76 Weinstein de=
+al, but it is not exactly a straightforward choice between those two deals.=
+ Also of course Rithm could agree to pay=C2=A0<em>more </em>=E2=80=94=C2=A0=
+more than $11.15, not necessarily more than $12.76 =E2=80=94=C2=A0to help g=
+et the votes.</p>
+<p style=3D"margin: 16px 0;">Incidentally, a point I have made a few times =
+about this situation is that hostile takeovers of hedge fund management fir=
+ms are rare, in part because hedge fund managers are usually private compan=
+ies and in part because of the problem of client retention: The hedge fund=
+=E2=80=99s clients presumably like the current manager, so if you take over=
+ the company and force her out, the clients might leave too and you=E2=80=
+=99ll be left with nothing.</p>
+<p style=3D"margin: 16px 0;">A reader emailed to point me to a precedent. H=
+ere=E2=80=99s a 2005 <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/32613823.263427/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAwNS8xMC8yOC9idXNpbmVz=
+cy93aGVuLXdpbm5pbmctdGhlLWJhdHRsZS1sZWFkcy10by1sb3NpbmctdGhlLXdhci5odG1s/60=
+7f07ceef4b8524a319a23cB6009f626" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> New York Times article about BKF =
+Capital Group</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Nearly a year ago, Steel Partners, a hedge fun=
+d that has made a name for itself shaking up boards to unlock shareholder v=
+alue, thought it saw a big fat target in BKF, a publicly traded asset manag=
+ement company. Steel Partners, later joined by Cannell Capital, a hedge fun=
+d based in San Francisco, waged a proxy fight against BKF, a fight that tur=
+ned nasty.</p>
+<p style=3D"margin: 16px 0;">For six months it lobbied for accountability f=
+rom management, lower compensation for money managers and improved corporat=
+e governance standards. In June, the activists won three seats on the board=
+, and by August, BKF's chief had resigned.</p>
+<p style=3D"margin: 16px 0;">It was a pyrrhic victory. Any value that was u=
+nlocked at BKF seems to be running for the exits. BKF has disclosed that mo=
+re than $7 billion of the company's $12.4 billion in assets could be gone b=
+y year-end.</p>
+<p style=3D"margin: 16px 0;">Shares of BKF have fallen 39 percent since Ste=
+el started the crusade last December. The firm has lost 56 percent of its f=
+unds.=C2=A0Whether BKF can now survive is a question. But a greater mystery=
+ is why investors who are money managers themselves failed to see how impor=
+tant it is for such a company to hold onto its managers and money.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah, but if you are a money manager yourself,=
+ your natural inclination is to think that you could manage the money bette=
+r than the current manager can.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A stock buyback</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In happier times <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmN=
+oaXZlcy9lZGdhci9kYXRhLzE3ODM4NzkvMDAwMTE0MDM2MTIyMDE4ODI3L2JyaGMxMDAzNzQ2NV=
+9leDk5LTIuaHRt/607f07ceef4b8524a319a23cB658f1741" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> last spring</a>,=
+ Sam Bankman-Fried <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32613823.263427/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3OD=
+M4NzkvMDAwMTE0MDM2MTIyMDE4ODI3L2JyaGMxMDAzNzQ2NV9zYzEzZC5odG0/607f07ceef4b8=
+524a319a23cB13ca8d20" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> bought about 7.6%</a> of the stock of Robinh=
+ood Markets Inc. for about $648 million. He bought the shares in the open m=
+arket using a vehicle he had formed called Emergent Fidelity Technologies L=
+td. The shares =E2=80=9Cwere purchased by Emergent using working capital,=
+=E2=80=9D said his disclosure form. In hindsight it seems more like they we=
+re purchased using customer money from FTX Trading Ltd., Bankman-Fried=E2=
+=80=99s crypto exchange, which collapsed a few months after his Robinhood p=
+urchases. Oops.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Last week, Robinhood bought back the stock. <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTc4Mzg3OS8wMDA=
+xNzgzODc5MjMwMDAyMDEvaG9vZC0yMDIzMDgzMC5odG0/607f07ceef4b8524a319a23cB244ad=
+616" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> From the US Marshals</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On August 30, 2023, Robinhood Markets, Inc. (t=
+he =E2=80=9CCompany=E2=80=9D) entered into a Share Purchase Agreement (the =
+=E2=80=9CShare Purchase Agreement=E2=80=9D) with the United States Marshal =
+Service (the "USMS"), for and on behalf of the United States, pursuant to w=
+hich the Company agreed to purchase 55,273,469 shares of the Company's Clas=
+s A common stock (the "Shares") from the USMS. The transaction closed on Au=
+gust 31, 2023.</p>
+<p style=3D"margin: 16px 0;">The sale of the Shares was approved by the Uni=
+ted States District Court for the Southern District of New York pursuant to=
+ an interlocutory sales order (the =E2=80=9COrder=E2=80=9D), granted on Aug=
+ust 28, 2023, providing for the sale of the Shares to the Company free and =
+clear of any claims, interests, liens and encumbrances. Pursuant to the Sha=
+re Purchase Agreement, the Company purchased the Shares for an aggregate pu=
+rchase price of $605,694,411.59, or approximately $10.96 per share, which w=
+as determined based on the arithmetic average of the per share volume-weigh=
+ted average price of the Company=E2=80=99s Class A common stock over each o=
+f the five consecutive trading days preceding August 13, 2023, the date on =
+which the United States filed a motion under seal with the United States Di=
+strict Court for the Southern District of New York requesting the Order. Th=
+e Company funded the purchase of the Shares from corporate cash available f=
+rom its balance sheet.</p>
+<p style=3D"margin: 16px 0;">The Company previously announced on February 8=
+, 2023 that its Board of Directors had authorized it to pursue purchasing m=
+ost or all of the Shares. As previously disclosed, the Shares were original=
+ly acquired by Emergent Fidelity Technologies, Ltd. The Shares were seized =
+and were subsequently transferred to the custody of the United States.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is the <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZl=
+cy9lZGdhci9kYXRhLzE3ODM4NzkvMDAwMTc4Mzg3OTIzMDAwMjAxL2V4aGliaXQxMDEuaHRt/60=
+7f07ceef4b8524a319a23cBed770327" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> share purchase agreement</a>, and=
+ here is <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.=
+263427/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElV=
+L3JjNWpnS3V5VTNYVS92MA/607f07ceef4b8524a319a23cBc1494b47" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> the cour=
+t order</a> authorizing the sale. I am not sure why this is happening now?=
+=C2=A0=E2=80=9CAs a result of fluctuation in market prices, the Robinhood S=
+hares could diminish in value,=E2=80=9D says the court order, which is true=
+ of all stock and has been true of the Robinhood shares since Bankman-Fried=
+ was arrested; the stock is down since he bought it but actually up modestl=
+y since he was arrested.=C2=A0The =E2=80=9Csale of the Robinhood Shares is =
+necessary in order to prevent the deterioration of its value during the cri=
+minal case and any subsequent ancillary forfeiture proceedings,=E2=80=9D sa=
+ys the court order.</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried is scheduled to stand trial for =
+various alleged frauds in October; if he is found guilty of the frauds then=
+ presumably the government will seize the proceeds of those frauds, includi=
+ng the Robinhood shares. The government, and really=C2=A0the judge, seem pr=
+etty confident that he will be found guilty, but he hasn=E2=80=99t yet, so =
+it=E2=80=99s a bit odd to seize and sell his Robinhood shares before the tr=
+ial. If he=E2=80=99s found not guilty they will give him back the money =E2=
+=80=94=C2=A0$605.7 million =E2=80=94 instead of the shares. (=E2=80=9CThe n=
+et proceeds realized from the sale of the Robinhood Shares, and any and all=
+ income or interest accrued thereon, shall be the substitute <em>res</em> f=
+or the Robinhood Shares,=E2=80=9D says the court order.) And then presumabl=
+y he=E2=80=99ll <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DItMDMvYmFua21hbi1mcmllZC1lbnRpdHktdGhhdC1vd25zLXJvYmluaG9vZC1zdGFrZS1nb2Vz=
+LWJhbmtydXB0P2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB16dad9f1" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  hand that over to FTX=E2=
+=80=99s bankruptcy estate</a>, so maybe it doesn=E2=80=99t matter that much=
+ to him.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDktMDUvY291bnRyeS1nYXJkZW4tcGF5cy1kb2xsYXItYm9uZC1pbnRlcmVzdHM=
+td2l0aGluLWdyYWNlLXBlcmlvZD9jbXBpZD1CQkQwOTA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MDUmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8983ad19" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Country Gard=
+en</a> Pays Dollar Bond Interest Within Grace Period. <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMDQvYXJtLWlwby1leHBlY3RhdGlvbnMtdG=
+VtcGVyZWQtYnktcmVhbGl0eS1hcy1yb2Fkc2hvdy1raWNrcy1vZmY_Y21waWQ9QkJEMDkwNTIzX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjMwOTA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB606d4=
+615" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Arm</a> IPO Expectations Tempered as Roadshow Kicks Off. Arm=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMDUvYXJtLWJh=
+bmtzLXNldC1mb3ItMTAwLW1pbGxpb24tcGF5ZGF5LWZyb20tY2hpcC1kZXNpZ25lci1zLWlwbz9=
+jbXBpZD1CQkQwOTA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzA5MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cBb5115bca" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Banks</a> Set for $100 Million Payday Fr=
+om Chip Designer=E2=80=99s IPO. Billionaire <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMDktMDQvYmlsbGlvbmFpcmUtbC1vY2NpdGFuZS1ib3NzLWVu=
+ZHMtdGFsa3Mtb24tcG90ZW50aWFsLWJ1eW91dC1kZWFsP2NtcGlkPUJCRDA5MDUyM19NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMD=
+kwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB15bd9e84" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  L=E2=80=99Occitane</a> Boss Ends Talks on Potential Buyout Deal. Alb=
+emarle Raises Bid for Australia=E2=80=99s <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmV=
+zcy9lbmVyZ3ktb2lsL2FsYmVtYXJsZS1yYWlzZXMtYmlkLWZvci1hdXN0cmFsaWFzLWxpb250b3=
+duLXJlc291cmNlcy10by00LTI1LWJpbGxpb24tYTc3MjRiMzI_bW9kPWhwX2xpc3RjX3BvczM/6=
+07f07ceef4b8524a319a23cB2ebee361" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Liontown Resources</a> to $4.25 =
+Billion.=C2=A0Investors raise questions after <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnR=
+lbnQvYjg5MDI3NGQtNTkwYi00MDlmLWEwMWYtMzVhNjY3YjUzOTEy/607f07ceef4b8524a319a=
+23cB819895d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Sequoia Capital=E2=80=99s</a> turbulent year. How <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0=
+cHM6Ly93d3cuaW5zdGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xlLzJjNGZkOHhrMXZ1YzR=
+3eGd5eTUxYy9jb3JuZXItb2ZmaWNlL2hvdy1pbnN1cmFuY2UtY29tcGFuaWVzLWNyZWF0ZWQtYS=
+1wZWN1bGlhci1pbnZlc3RtZW50LXRhbGVudC1jcnVuY2g/607f07ceef4b8524a319a23cBd304=
+3d21" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Insurance Companies</a> Created a Peculiar Investment Talent=
+ Crunch. Inside a Sales Army Turning a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy=
+9lbnRyZXByZW5ldXJzaGlwL2luc2lkZS1hLXNhbGVzLWFybXktdHVybmluZy1hLXRheC1icmVha=
+y1pbnRvLWEtbW9kZXJuLWRheS1nb2xkLXJ1c2gtMzc0MWZhNDI_bW9kPWhwX2xlYWRfcG9zNw/6=
+07f07ceef4b8524a319a23cB91b3218d" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Tax Break</a> Into a Modern-Day =
+Gold Rush. EU Pledges Help to Build African <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMDktMDUvZXUtcGxlZGdlcy1oZWxwLXRvLWJ1aWxkLWFmcmlj=
+YW4tZ3JlZW4tYm9uZC1tYXJrZXQ_Y21waWQ9QkJEMDkwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTA1JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfd69e4d5" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Green Bond =
+Market</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMt=
+MDktMDUvY3J5cHRvLW1hcmtldC1tYWtpbmctcHJvZml0LW1hcmdpbnMtc2luay0zMC1wb3N0LWZ=
+0eC1iYW5rcnVwdGN5P2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cB38f94246" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  Crypto Market-Making=
+</a> Profit Margins Sink 30% in =E2=80=98Wake-Up Call.=E2=80=99=C2=A0<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMDIvc3RhYmxlY29pbi1=
+yZXNodWZmbGluZy1jaGlwcy1hd2F5LWF0LXRldGhlci1zLXVzZHQtY3J5cHRvLW1hcmtldC1kb2=
+1pbmFuY2U_Y21waWQ9QkJEMDkwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB8118e08d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Stablecoin Reshuffling</a> Chi=
+ps Away at Tether=E2=80=99s Crypto Market Dominance. =E2=80=98The <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvZGI3NGZmZDYtZmMyMC00ZGM4LTg4MTYtNmI3YjY1ZmRmYjJm=
+/607f07ceef4b8524a319a23cB3caefeb5" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Citadel migration</a>=E2=80=99=
+ shaking up Miami=E2=80=99s luxury property market. Wall Street Gets Tough =
+on <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMDEvYmFua3=
+MtZ2V0LXRvdWdoLW9uLXJldHVybi10by1vZmZpY2UtbGFnZ2FyZHMtYWZ0ZXItc3VtbWVyLWJyZ=
+WFrP2NtcGlkPUJCRDA5MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB74ec9d23" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Return-to-Office</a> Laggards. Mor=
+e Than One-Third of Desks Globally <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32613823.263427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMDgtMjIvbW9yZS10aGFuLWEtdGhpcmQtb2YtZGVza3MtaW4tb2ZmaWNlc=
+y1hcm91bmQtdGhlLWdsb2JlLWFyZS11bm9jY3VwaWVkLWFsbC13ZWVrP2NtcGlkPUJCRDA5MDUy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDkwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB96=
+32ec29" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Sit Empty</a> All Week Long. Embattled Goldman Sachs CEO =
+David Solomon stages <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/32613823.263427/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDgvMzEvZW1iYXR0bGVkLWdv=
+bGRtYW4tc2FjaHMtY2VvLWRhdmlkLXNvbG9tb24tc3RhZ2VzLWF3a3dhcmQtZGlubmVyLXBhcnR=
+pZXMtYXQtaGlzLXNvaG8tbG9mdC8/607f07ceef4b8524a319a23cB81192946" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+=E2=80=98awkward=E2=80=99 dinner parties</a> at NYC loft.=C2=A0Inside Silic=
+on Valley=E2=80=99s New Boys Club: The Testosterone-Testing =E2=80=98<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6=
+Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL2luc2lkZS1zaWxpY29uLXZhbGxleXM=
+tbmV3LWJveXMtY2x1Yi10aGUtdGVzdG9zdGVyb25lLXRlc3RpbmctdC1wYXJ0eT91dG1fY2FtcG=
+FpZ249QXV0b21hdGVkK0ZhbGxiYWNrK1ImdXRtX2NvbnRlbnQ9ODkmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPWNpbyZ1dG1fdGVybT0xOSZyYz0xYmRpNWg/607f07ceef4b8524a319a23c=
+B675ae2ff" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">T Party</a>.=E2=80=99=C2=A0Trapped in Mud, <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3c=
+ubnl0aW1lcy5jb20vMjAyMy8wOS8wMi91cy9idXJuaW5nLW1hbi1zdG9ybS1mbG9vZC1tdWQuaH=
+RtbA/607f07ceef4b8524a319a23cBe42d530c" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Burning Man Attendees</a> =
+Are Told to Conserve Food.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32613823.263427/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB581fa2e1" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32613823.263427/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB20f0ad0f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] As I wrote this the USDJPY rate was about =
+147.4; I have rounded down for your commissions and spreads.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Bucketing stock trades is, in the US, most=
+ly illegal, though elsewhere contracts for differences are pretty common. T=
+rading FX futures is generally fine in the US, though doing it with retail =
+customers is pretty regulated due to, you know, all the fraud. In the compl=
+aint I quote below, the CFTC notes that "by acting as counterparty to its c=
+ustomers=E2=80=99 trades, Traders Global is violating Regulation 5.3(a)(6)(=
+i), 17 C.F.R. =C2=A7 5.3(a)(6)(i) (2022), which requires registration by de=
+alers of retail leveraged forex contracts." The <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32613823.263427/aHR0cHM6Ly93d3cubGF3LmNvcm5lb=
+GwuZWR1L2Nmci90ZXh0LzE3LzUuMw/607f07ceef4b8524a319a23cBf2da957b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+regulation is here</a>.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] If you show them 147.9 bid / 146.9 offered=
+, they will know that you are charging a wide spread, and will go to someon=
+e else who advertises tight spreads.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] A fun exercise is: How much of what is des=
+cribed here could also describe, say, a retail stock brokerage that routes =
+orders to a wholesaler? A crypto futures exchange? Not *all* of it =E2=80=
+=94 not the lying =E2=80=94 but some. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB7d5b1c69" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5a77a37a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe529cfbf" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB3f5e92f0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB1e8d79f5" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.2634=
+27/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB93a00a53" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32613823.263427/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCb1df9df8" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32613823.263427/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB88768a72" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32613823.263427/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe6df4990" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+6074d4c" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32613823.263427/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+810719e" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjf0zj.5n9f/3a4bfb2e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_80052762_2076985745.1693937484403--
+

@@ -20,13 +20,12 @@ try:
     from ask.recall.recall_engine import RecallEngine
     from ask.socratic.question_engine import QuestionEngine
     from ask.temporal.temporal_engine import TemporalEngine
+
     ASK_AVAILABLE = True
 except ImportError:
     ASK_AVAILABLE = False
 
 from helpers.metadata_manager import MetadataManager
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cognitive_engine import CognitiveEngine
 
 
 # For demo: instantiate with default config (replace with real config/manager in production)
@@ -45,7 +44,7 @@ app = FastAPI(title="Atlas Cognitive Platform")
 templates = Jinja2Templates(directory="templates")
 
 # Initialize cognitive engine
-cognitive_engine = CognitiveEngine()
+# cognitive_engine = CognitiveEngine()  # Removed - using ask modules directly
 
 # Path to the scheduler's SQLite job store (should match Atlas scheduler)
 JOBSTORE_PATH = os.path.join(
@@ -235,9 +234,6 @@ def trigger_job(job_id: str):
             params = urlencode({"error": "Failed to trigger job."})
             return RedirectResponse(url=f"/jobs/html?{params}", status_code=303)
     return RedirectResponse(url="/jobs/html", status_code=303)
-
-
-
 
 
 @app.post("/jobs/{job_id}/enable")
@@ -440,13 +436,14 @@ async def analyze_content(text: str = "", limit: int = 3):
     """Analyze content using cognitive engine"""
     if not text:
         return {"error": "No text provided"}
-    
+
     analysis = {
         "condensed": cognitive_engine.condense_content(text),
         "insights": cognitive_engine.extract_insights(text),
-        "connections": cognitive_engine.find_connections(text, limit)
+        "connections": cognitive_engine.find_connections(text, limit),
     }
     return analysis
+
 
 @app.get("/cognitive/status")
 async def cognitive_status():
@@ -455,6 +452,9 @@ async def cognitive_status():
         "ai_enabled": bool(cognitive_engine.openrouter_api_key),
         "search_enabled": cognitive_engine.search_engine is not None,
         "model": cognitive_engine.model,
-        "features": ["content_condensation", "insight_extraction", "connection_finding"]
+        "features": [
+            "content_condensation",
+            "insight_extraction",
+            "connection_finding",
+        ],
     }
-

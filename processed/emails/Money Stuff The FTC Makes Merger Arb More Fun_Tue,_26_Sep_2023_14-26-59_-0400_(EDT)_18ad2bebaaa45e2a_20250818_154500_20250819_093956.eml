@@ -1,0 +1,2234 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:611e:b0:13e:ba3b:de11 with SMTP id 30csp1903077rws;
+        Tue, 26 Sep 2023 11:27:09 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEXfo5SxNXoWASrDmwnTvcCQ+6L6608jCcAMgJaA0HGqW3e02he6NPsqsUTVOU2RV4fYHnG
+X-Received: by 2002:a17:906:3082:b0:993:fba5:cdf1 with SMTP id 2-20020a170906308200b00993fba5cdf1mr10386045ejv.22.1695752829472;
+        Tue, 26 Sep 2023 11:27:09 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1695752829; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=CzA+vMn44PG/mHwOzmQ3gZVE9gHa4aIWlNclMExSgNdU6a2A05LPEV2nfG6XaEyDDM
+         SlDmYZ93O7/kxBWX0NStGzd+7bplc+tDS8EaOiHIYX6BpFuIS7WtapnR4aqFx/Agzq0r
+         qDCcOr0yXOx9LeqsFUDFU5S4CluCi+lrMk9NeCQjKtUHODJXvWBoh/NKl47PsZ7Gvw25
+         QzB9a/EI4tpzL0YFirR1W1o2ymgc1PdG2RJ9iiK4qErVNxLDx0bObzFQJi47NZxcXFHa
+         cueBRkdnUPYgzegx4KS5TMrNuCMF8tNgX0+l9T0Xhlyhudt/W/1XM/PXjOueSDU/tIGx
+         iwWw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=nCsSvEA1vplGdz9FAgnpGs3r0pn399MNip5wSPsaNBM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=CpjpxRtlZQAhzNGIyVylxbuFI3UTTwwoq8iCtYB2lSJs/ZdToaIhAdJyhXKsw74SDK
+         iffrxjnOIE3CnacYeHBC7yAf1DmKktfUY/1G8bvFE1J83Y92uXYulzOJhGYq8Ufs81uE
+         /hQUL7gMKj+M2Fe/q/SZL1byPsUMMRCeFd9kJuxhmj1PVfzMQ4WXVZAvIViR6QCpDuJy
+         xcfTH+z/wR6heqqAerW3JS1B14pCq5dWyWN2maQKlZr6enNAWZrPCc8Vgu6B2ZX64TZC
+         pqfFVe/6BJdVH87eXLxg7MQhfMNaUJ4junSb9BinZz6T0QBxneqJczjEvveOxLLLBrm2
+         kSdA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DzKFJ3xw;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 2a00:1450:4864:20::332 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-wm1-x332.google.com (mail-wm1-x332.google.com. [2a00:1450:4864:20::332])
+        by mx.google.com with ESMTPS id fi13-20020a170906da0d00b0099bc8db97basi10394807ejb.139.2023.09.26.11.27.09
+        for <zoheri@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 26 Sep 2023 11:27:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 2a00:1450:4864:20::332 as permitted sender) client-ip=2a00:1450:4864:20::332;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DzKFJ3xw;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 2a00:1450:4864:20::332 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Received: by mail-wm1-x332.google.com with SMTP id 5b1f17b1804b1-405361bb93bso92846095e9.3
+        for <zoheri@gmail.com>; Tue, 26 Sep 2023 11:27:09 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695752829; x=1696357629;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=nCsSvEA1vplGdz9FAgnpGs3r0pn399MNip5wSPsaNBM=;
+        b=AomoAvSQfBUNQfiYrlhXVPjdXQs4IHth7MjRacGqnSjV13sBYD01wEAlqFwT9NEHCT
+         Fnc2Akip2m3Wg+7fXT3tjPmAA2jc7h/c4pS3yCv3GMBVuvBr7VopEm+c3aGtsfKliNMl
+         97s5cSycDdHne7MZz/Dlu3bRI1knZc2NdO7iT/4/eitguuBBxP/5sIvG0iEvO8yTxlLN
+         dc+yopSdrN+CJN+VUwlb4n5jwQORF8e5oZKTLW6JmZlSqvS+pb2NQTyddIEeezZS3XGQ
+         DPimh7qEYJXq4l2DWfqT19ev+8CYvl4n+6i0VnL819skmXglSI8wSbWs5HuttD8ztqWa
+         HEXw==
+X-Gm-Message-State: AOJu0YyCzG7CrlWTVMezEKprT2IJABKz50vTlqovE5YLMBCz3WIK3Rit
+	AyhfNQPhxoWkNfJ6RoSXSOMIR3F49bwd8Fhj4eAgg7Q+FszPdR4o/A==
+X-Received: by 2002:a7b:ce10:0:b0:401:73b2:f043 with SMTP id m16-20020a7bce10000000b0040173b2f043mr9057166wmc.1.1695752828840;
+        Tue, 26 Sep 2023 11:27:08 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1e90:b0:323:3a1d:ee52 with SMTP id dd16csp325925wrb;
+        Tue, 26 Sep 2023 11:27:02 -0700 (PDT)
+X-Received: by 2002:a25:7391:0:b0:d81:5ec1:80d5 with SMTP id o139-20020a257391000000b00d815ec180d5mr9323831ybc.18.1695752821486;
+        Tue, 26 Sep 2023 11:27:01 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1695752821; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=spZX9N5gd4LXywJl6SDTdVsyaQqjZCMzKEcuOeCuD1e9sm+uyDpcw7u3qb2Ttskk1K
+         4vyZYHYsC1ut3L5v9bGw1KceiMDJvtLtjg00Q95Mb0uIPwe7jLm5atgV2LvAeEsUEDtq
+         vF49xmsDb1TxG2k1wJucf+uhq0I/xJ4f2BVL/z2krm/24FqQUbIFYItzjaQgeshBa6aD
+         5+6z+4iHkfjllmJ3+cLDxHTLkVmjF3ImvfAwymUGJPxoiL2lvkAlIT0hloMbAEPvU5AM
+         UFKK4cSx6OB51AHypL0+nnnOxKkcLwW8CeU4iDrgCPEeryOh+AMuB7w4kkM0jf366gMU
+         PnNA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=nCsSvEA1vplGdz9FAgnpGs3r0pn399MNip5wSPsaNBM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=XXkKX4A+aLJMPdU7cbZpLE+IA9UMv5ae9+mgXofEGeHUr98zHj45nE6g2wB30cPuy3
+         b9d7/BTQWKkpSDstmsKfUJD4f/mkWVZwY9m3bKtSMztga8Q3k9waNAO76MuJI4eW15jA
+         YEsWyvs3zJ+iwB21P1nP0uJQYFlUpRsOAMrJ5hZGjGMZbt/CCgIUz8oQiFvPhIzW69RY
+         XCwkX4zI7anVGJ5n5dwIDfZFjgX4aOy5jyVJaxKM9EKz7UGAEwgaTv0FgTCVDCEtq4+G
+         MC+Ihhb3G7gqtvKaNYvLIqWq1okYcst0Sz9evrAtJ+GZvp8/vIy6imWX6TKbSifU5wsW
+         AAFw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DzKFJ3xw;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230926142659.32838589.290424@mx.sailthru.com does not designate 2607:f8b0:4864:20::112e as permitted sender) smtp.mailfrom=delivery_20230926142659.32838589.290424@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230926142659.32838589.290424@mx.sailthru.com>
+Received: from mail-yw1-x112e.google.com (mail-yw1-x112e.google.com. [2607:f8b0:4864:20::112e])
+        by mx.google.com with ESMTPS id y202-20020a2532d3000000b00d7c7e32bc53si4523438yby.641.2023.09.26.11.27.00
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 26 Sep 2023 11:27:01 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230926142659.32838589.290424@mx.sailthru.com does not designate 2607:f8b0:4864:20::112e as permitted sender) client-ip=2607:f8b0:4864:20::112e;
+Received: by mail-yw1-x112e.google.com with SMTP id 00721157ae682-579de633419so115931977b3.3
+        for <khamel83@gmail.com>; Tue, 26 Sep 2023 11:27:00 -0700 (PDT)
+X-Received: by 2002:a05:690c:3104:b0:59f:672a:ffd3 with SMTP id fb4-20020a05690c310400b0059f672affd3mr7144837ywb.21.1695752820797;
+        Tue, 26 Sep 2023 11:27:00 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1695752820; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yzaUhNXaWEnqYE0dyIPtGwabvzsE26zgPcjN5R/zOG5t0AFRDpwx4AiMmWYYm2/OAQ
+         QX+epn6jBCJh5C3m4aYMR5Ep5inqc/zIfCpJ/shaHJlXrUaOWAcgZAAfUJSkfX0Dr9Mg
+         MGU15lcQwSn9kPFEc1TgMATYjWt7kApp2cbzKGEYwx/ONTF9OhZ37as31RZEO/TjV8fI
+         kKFH8QQ69fAlUhh93ySlRtcrMBT2xG7HqMfsVgeT60e0pcktQMSB4XZbs748tV8s+o7M
+         BkgGg3e+U03lT0nxUFcebQ+d5AIt143tA8ZV3aGGn10H0kZEZEoXnq8zqq0OraE2x0wm
+         sdYQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=nCsSvEA1vplGdz9FAgnpGs3r0pn399MNip5wSPsaNBM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Z4dWma7cLwqAs0MbVrHZ2j0BpzMstPZy067ivWkj7C5lZFTxAV08NyXYUUwoqTFUl5
+         3gU1Cs8MvFmflEcjr7wNqsaCY3ycOpkTocPm1dv3TyySIvHFATQgOpl+xbZAsqz0+sJs
+         +SsBIAKUy35/eJFJuaz6JjEKMoRyGf5ZihAbdnr8EZCycP+K2LgBpMSVFuAQBbW4qSEj
+         UEpMrFGX1u7N2/jkpJY/MZ4CI2r4KbbDzBYvoQm63CcDm1Ccx0qDhyFN3m8PDSSlYMjY
+         n5puyZZ3U+SDIvT8LXkdUqGhdo1rafqqM6ZFutZ7WSHLUpxduY0uUCQVOiEqoCVwD2ju
+         8JjA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DzKFJ3xw;
+       spf=pass (google.com: domain of delivery_20230926142659.32838589.290424@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230926142659.32838589.290424@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230926142659.32838589.290424@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id eb6-20020a05620a480600b0076709fdb678si91842qkb.4.2023.09.26.11.27.00
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 26 Sep 2023 11:27:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230926142659.32838589.290424@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=aE6ybDyfsXf4nz3LwAh89nM+XbIvbeqjU0Wo9EkyABU=;
+ b=DzKFJ3xw4i13Vayb1I9m5zLsPhMuFaSUpizBOUwYuik/dgKDnzXzpE1cVLC+CfAflNMp25JNk+K2
+   zUJ7wiP1VU1100rEfoYvC2HPSj3ie+WJ3Pp7VqGbn4JNPodnFoqhKpFTMvPnibk6xmihuqqc1P8f
+   SN2JD5i2+UsF1c//8x8=
+Received: from aws1-mta-relay5.sailthru.cloud (10.55.76.97) by pmta29.sailthru.com id h2ch782sd4sa for <bloomberg@khamel.com>; Tue, 26 Sep 2023 13:27:00 -0500 (envelope-from <delivery_20230926142659.32838589.290424@mx.sailthru.com>)
+Date: Tue, 26 Sep 2023 14:26:59 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230926142659.32838589.290424@sailthru.com>
+Subject: Money Stuff: The FTC Makes Merger Arb More Fun
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11342752_632167993.1695752819913"
+Precedence: bulk
+x-job: 6358-32838589-20230926
+X-Feedback-ID: 6358:32838589:campaign:sailthru
+X-TM-ID: 20230926142659.32838589.290424
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-57-79.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjjuf1.683c/03b732cd
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjjuf1.683c/03b732cd>, <mailto:unsubscribe_20230926142659.32838589.290424@mx.sailthru.com>
+X-rpcampaign: stjko32838589
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_11342752_632167993.1695752819913
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One idea that you sometimes hear is that, when the broad stock mark=
+et steadily goes up each year, that is bad for investment managers. If th
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Merger arb v. Lina Khan
+   =20
+ =20
+
+One idea that you sometimes hear is that, when the broad stock market stead=
+ily goes up each year, that is=C2=A0bad=C2=A0for investment managers. If th=
+e S&P 500 index just goes up 15% per year, then anyone can do great by buyi=
+ng an index fund, and the benefits of picking the best stocks are lower. Hi=
+ghly paid active managers distinguish themselves more in choppy markets, wh=
+ere picking the right stocks is distinctly more valuable than picking the w=
+rong ones.
+Similarly you could imagine an antitrust enforcement regime in which the US=
+ Federal Trade Commission almost never tries to block mergers, except in th=
+e most egregious cases of monopoly power. In this regime:
+=09Most mergers, once announced, will close: The FTC won=E2=80=99t step in =
+to block them.=09If the FTC=C2=A0does=C2=A0step in to block a merger, the d=
+eal=C2=A0won=E2=80=99t=C2=A0close: The FTC only tries to block egregious me=
+rgers, so if it tries, that means its case is strong and it will win in cou=
+rt.=09(Also, the egregious mergers mostly=C2=A0won=E2=80=99t be announced:=
+=C2=A0The FTC=E2=80=99s approach is predictable, and companies won=E2=80=99=
+t bother to sign merger agreements that they know the FTC will try to block=
+, since they=E2=80=99ll lose.)
+
+This makes mergers very predictable, which is probably good for financial m=
+arkets and investors. It is in some loose sense good for merger arbitrage f=
+unds, which bet on mergers closing: The mergers they bet on will mostly clo=
+se, and the ones that won=E2=80=99t close are pretty obvious and they can a=
+void those.=C2=A0
+But it is also bad=C2=A0for merger arbitrageurs, because the returns to ski=
+ll go down. If a merger is announced, that means it will close, which means=
+ that the target=E2=80=99s stock price will jump up close to the deal price=
+ right away, and you can=E2=80=99t make any money doing merger arbitrage. E=
+veryone knows =E2=80=9Cif a merger is announced at $20 per share, the stock=
+ is worth $20 per share,=E2=80=9D so the stock goes to $20 per share right =
+away, and your special knowledge about mergers is worthless.
+On the other hand you could imagine an antitrust enforcement regime in whic=
+h the FTC tries to block=C2=A0every=C2=A0merger, whether or not it has good=
+ arguments. In this regime, the FTC would often lose in court, but would so=
+metimes win. Every time a deal is announced, the target=E2=80=99s stock wou=
+ld go up (=E2=80=9Cooh they=E2=80=99ll pay $20 per share!=E2=80=9D), and th=
+en the FTC would announce a lawsuit and the stock would go down (=E2=80=9Co=
+oh the FTC is blocking the deal!=E2=80=9D), and then the stock would bounce=
+ around on the results of the court case.=C2=A0
+This is great for merger arbs! If they=E2=80=99re good! The returns to skil=
+l =E2=80=94=C2=A0to reading FTC complaints and using your expertise to know=
+ which mergers will close and which will be blocked =E2=80=94=C2=A0go way u=
+p. You buy the deals that will close (and double down when the FTC sues and=
+ the stock drops) and avoid the deals that won=E2=80=99t; you use skill to =
+generate alpha, rather than just being a passive index investor in every de=
+al.
+Obviously the actual FTC does not sue to block=C2=A0every=C2=A0deal, but it=
+ has definitely turned the dial toward blocking more deals and making more =
+aggressive arguments, which probably annoys some merger arbs in their day-t=
+o-day lives but in the long run makes their lives better. The  Wall Street =
+Journal reports:
+
+The efforts by Federal Trade Commission Chair Lina Khan to protect Main Str=
+eet are inadvertently enriching some on Wall Street, generating outsize pro=
+fits for Pentwater Capital Management and other large hedge funds that bet =
+on merger deals.
+Florida-based Pentwater stands to be a large winner from the FTC=E2=80=99s =
+recent failed bid to block the Amgen-Horizon deal. It built a stake of almo=
+st 7% in Horizon after the drugmaker began fielding takeover interest last =
+year.=C2=A0
+Pentwater is estimated to have scored around $100 million on its Horizon tr=
+ade on paper, according to an analysis of the hedge fund=E2=80=99s public f=
+ilings. =E2=80=A6
+D.E. Shaw Group is also among the funds that stood their ground following t=
+he FTC lawsuit against Horizon. The New York-based firm steadily increased =
+its position and currently holds more than $500 million in the shares, fili=
+ngs show. Other funds that bet on Horizon include Farallon Capital Manageme=
+nt and HBK Capital Management, according to public filings.
+=E2=80=9CBecause of the FTC=E2=80=99s lawsuit, we have had the ability to t=
+ake something that would have made tens of millions of dollars and instead =
+make many, many times that amount,=E2=80=9D said Matt Halbower, Pentwater=
+=E2=80=99s chief executive. =E2=80=A6
+Since its inception, Pentwater, which oversees close to $5 billion, has ave=
+raged a net return of more than 11% annually, according to a person familia=
+r with the matter. By comparison, the HFRI Event-Driven Index generated an =
+annualized net return of 4.47% from January 2007 through August 2023, accor=
+ding to research firm HFR.
+
+Yes right if you are good at merger arb you want some dispersion in outcome=
+s.=C2=A0Pentwater also =E2=80=9Clast year scooped up shares of Twitter, now=
+ X, in a wager that Elon Musk would ultimately acquire the company,=E2=80=
+=9D another situation where it was helpful to be able to notice that Musk=
+=E2=80=99s case for getting out of the deal   was laughably weak.
+Elsewhere in the FTC: =E2=80=9CFTC Sues Amazon in Landmark Antitrust Case O=
+ver Marketplace.=E2=80=9D
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Citadel Securities oops
+   =20
+ =20
+
+Did the US Securities and Exchange Commission catch Citadel doing naked sho=
+rt selling? Ahahaha no, come on, I would never say a thing like that.  It w=
+as Citadel Securities:
+
+The Securities and Exchange Commission [Friday] announced settled charges a=
+gainst broker-dealer Citadel Securities LLC for violating a provision of Re=
+gulation SHO, the regulatory framework designed to address abusive short se=
+lling practices, which requires broker-dealers to mark sale orders as long,=
+ short, or short exempt. These records are routinely used by regulators in =
+policing prohibited short selling activity. To settle the SEC=E2=80=99s cha=
+rges, Miami-based Citadel Securities agreed to pay a $7 million penalty.
+According to the SEC=E2=80=99s order, for a five-year period, it is estimat=
+ed that Citadel Securities incorrectly marked millions of orders, inaccurat=
+ely denoting that certain short sales were long sales and vice versa. The S=
+EC=E2=80=99s order finds that the inaccurate marks resulted from a coding e=
+rror in Citadel Securities=E2=80=99s automated trading system and that the =
+firm provided the inaccurate data to regulators, including the SEC during t=
+his period.
+=E2=80=9CCompliance with the order marking requirements of Reg SHO is a key=
+ component of regulatory efforts to curtail abusive market practices, inclu=
+ding =E2=80=98naked=E2=80=99 short selling,=E2=80=9D said Mark Cave, Associ=
+ate Director of the SEC=E2=80=99s Division of Enforcement. =E2=80=9CThis ac=
+tion against Citadel Securities demonstrates that a broker-dealer=E2=80=99s=
+ failure to comply with the requirements of Reg SHO can have negative downs=
+tream consequences on the accuracy of the firm=E2=80=99s electronic records=
+, including its electronic blue sheet reporting, depriving the Commission o=
+f important information about the markets it regulates.=E2=80=9D
+
+No, no, still kidding, they didn=E2=80=99t do any naked short selling.=C2=
+=A0Basically Citadel Securities is a broker-dealer, and sometimes customers=
+ will come in and say =E2=80=9Cbuy me 10,000 shares of XYZ stock over the c=
+ourse of the day, use your judgment, get the best price.=E2=80=9D And so Ci=
+tadel Securities will buy 10 shares here, 20 shares there, etc., until it g=
+ets to 10,000, delivering the shares to the customer and charging it the pr=
+ices it pays.
+Usually Citadel Securities will buy 10 shares, sell the customer 10 shares,=
+ buy 20 shares, sell the customer 20 shares, etc. But some customers do not=
+ want to be pinged every few seconds, and they will tell Citadel Securities=
+ =E2=80=9Cjust buy me the 10,000 shares and tell me when you=E2=80=99re don=
+e; don=E2=80=99t tell me about every little trade.=E2=80=9D And so Citadel =
+Securities will buy 10 shares, make a mental note that they=E2=80=99re for =
+the customer, buy 20 more shares, make another mental note, etc., until it =
+gets up to 10,000 shares and pings the customer saying =E2=80=9Cwe finished=
+ the 10,000 shares, here you go.=E2=80=9D
+Fine. But for five years, there was a glitch in Citadel Securities=E2=80=99=
+ little mental notes. The part of Citadel Securities=E2=80=99=C2=A0computer=
+=C2=A0that kept track of its positions =E2=80=94=C2=A0for, among other thin=
+gs, short-selling order-marking purposes =E2=80=94=C2=A0did not get the lit=
+tle mental notes for the interim trades. One part of Citadel Securities=E2=
+=80=99 computer=C2=A0saw it buy 10 shares and said =E2=80=9Cah we own 10 sh=
+ares,=E2=80=9D and then it bought 20 more shares and was like =E2=80=9Cah n=
+ow we own 30 shares,=E2=80=9D and so on, until right before the order was f=
+inished it was like =E2=80=9Cah we own 9,900 shares=E2=80=9D or whatever. A=
+nd then it would buy the last 100 shares and wiser logic would step in and =
+say =E2=80=9Cnow we own 10,000 shares, but we have sold 10,000 shares to th=
+e customer, so we=E2=80=99re back to zero shares.=E2=80=9D Citadel Securiti=
+es did the=C2=A0trade=C2=A0correctly. But before it=C2=A0finished=C2=A0the =
+trade, it thought that it=C2=A0owned=C2=A0all of the shares, whereas really=
+ it was selling them to the customer. It did not really own them at all.
+  [1]
+
+And so if Citadel Securities was halfway through working this order, its co=
+mputer would think it owned 5,000 shares. And then if some other part of Ci=
+tadel Securities wanted to=C2=A0sell=C2=A0100 shares of XYZ, for market-mak=
+ing or whatever purposes, the computer would think =E2=80=9C5,000 minus 100=
+ is 4,900, which is a positive number, so this is a=C2=A0long sale,=E2=80=
+=9D a sale of stock Citadel Securities=C2=A0owned. So the computer would ma=
+rk it as a long sale. But=C2=A0really=C2=A0the math is =E2=80=9C5,000 share=
+s we bought minus 5,000 shares we sold to the client equals zero, minus 100=
+ is negative 100, so this is a short sale,=E2=80=9D so the computer should =
+have marked it as a short sale. But it didn=E2=80=99t.
+And so Citadel Securities sometimes reported that it was doing long sales w=
+hen it was really doing short sales, which is a no-no, and the sort of thin=
+g that sometimes  lands people in trouble for naked short selling. Ordinari=
+ly, when you sell stock short, you need to check that you can borrow the sh=
+ares that you are selling before doing the trade. But if you think (or repo=
+rt) that you already=C2=A0own=C2=A0the shares, you don=E2=80=99t have to bo=
+rrow them. And if you=E2=80=99re wrong, and you don=E2=80=99t borrow them, =
+then you are naked short, and that=E2=80=99s bad.
+Of course here this is silly, it=E2=80=99s a nothing. The SEC mentions nake=
+d short selling in the press release, but not in its order; there is no act=
+ual allegation that Citadel Securities did any naked short selling at all, =
+and I think it probably did not.
+  [2]
+=C2=A0(Also the problem here was symmetrical, and Citadel Securities someti=
+mes marked long sales as short because it was selling for customers and tho=
+ught it was shorter than it was.) The SEC says that =E2=80=9Cthis delay did=
+ not benefit Citadel=C2=A0Securities or its trading strategies=E2=80=9D; it=
+ is a clerical mishap that made some trading data wrong, but it was not int=
+entional, didn=E2=80=99t save Citadel Securities any money, and doesn=E2=80=
+=99t seem to have had any effect on anything but the SEC=E2=80=99s recordke=
+eping.
+Still.=C2=A0Dumb Money, the GameStop movie, will be in wide release this co=
+ming weekend, portraying Citadel Securities (and Citadel) boss Ken Griffin =
+as a cartoon villain. If you think that Ken Griffin is a cartoon villain, t=
+here=E2=80=99s a decent chance that you are also  mad about naked short sel=
+ling, and, you know, here=E2=80=99s this!
+
+ =20
+   =20
+      AI in banking
+   =20
+ =20
+
+One somewhat plausible view of artificial intelligence in investment bankin=
+g is:
+=09A robot can do most of the work that first-year investment banking analy=
+sts do: preparing financial models from templates, choosing comparable comp=
+anies, formatting pitchbooks, cutting league-table data in exactly the righ=
+t way to make their bank No. 1, etc.=09A robot cannot do most of the work t=
+hat senior managing directors do: meeting clients face-to-face with a firm =
+handshake and good eye contact, asking them about their kids and their golf=
+ game, giving strategic advice about merger negotiations and financing opti=
+ons, exercising good judgment, tossing aside the pitchbook that the analyst=
+s spent sleepless nights preparing to have a heart-to-heart chat about what=
+ever=E2=80=99s on the client=E2=80=99s mind,=C2=A0etc.
+
+I am not sure that that=E2=80=99s right? Judging by actually existing large=
+ language models, I would not be stunned if it was easier to program a robo=
+t to give confident and sage-sounding strategic advice, and remember the cl=
+ients=E2=80=99 kids=E2=80=99 names, than it is to program a robot to build =
+financial models with no tolerance for error, or perform the dark arts of l=
+eague-table manipulation. But broadly speaking the junior bankers do some c=
+ombination of analytical and grunt work, while the senior bankers provide t=
+he strategic vision and the personal touch, and it=C2=A0seems=C2=A0like the=
+ former would be easier to automate than the latter.
+Investment banking is an odd sort of apprenticeship business in that=C2=A0y=
+ou spend a few years doing the analytical and grunt work=C2=A0as training=
+=C2=A0to be strategic and personal. It is not obvious=C2=A0that preparing p=
+itchbooks and discounted cash flow models would be good preparation for giv=
+ing clients firm handshakes and nuanced negotiating advice, but that is the=
+ way it=E2=80=99s done.
+  [3]
+=C2=A0Some (large) number of good junior analysts will not make it as senio=
+r investment bankers, because they are good at spreadsheets and formatting =
+but bad at strategy and handshakes. Some (smaller) number of bad junior ana=
+lysts will wash out because they are bad at spreadsheets and formatting, bu=
+t if they had scraped through they would have been amazing managing directo=
+rs, with an ingratiating manner and a good grasp of what clients want. You =
+need both qualities, in sequence, for some reason.
+But if you give all the analytical and grunt work to the robot then how do =
+you mold senior investment bankers? I don=E2=80=99t know. Insider=E2=80=99s=
+=C2=A0Bianca Chan and Emmalyse Brownstein reported last week:
+
+"A lot of the work analysts do is very mundane. You're doing random Excel s=
+tuff or editing a deck or putting logos on a Powerpoint," said a first-year=
+ investment banking analyst who works on tech deals. "As a junior banker yo=
+u don't critically think. You just do as you're told." =E2=80=A6
+"[Artificial intelligence] could be a good thing for banking if there are s=
+ome parts that are more automated because it'll get rid of some of the work=
+ that takes hours and hours for some of these junior guys to go through," s=
+aid a Wall Street recruiter who specializes in placements in investment ban=
+king.
+"It could be good for the hours," added the first-year analyst.=C2=A0=E2=80=
+=A6
+Over at Deutsche Bank, executives like [Tamara] Bitticks are seeing the ben=
+efits firsthand. The bank has been running dozens of generative AI pilots a=
+nd hiring hundreds of engineers to transform how its employees work across =
+the firm. Some of the pilots aim to improve time-consuming and mundane task=
+s carried out by juniors in the corporate bank, which serves Deutsche's ins=
+titutional clients, financial services firms, and investors.
+One tool set to launch at the beginning of the year will use AI to generate=
+ reports senior bankers need to prepare for client meetings, Bitticks said.=
+ Making one of these reports =E2=80=94 which brief the bankers on leadershi=
+p changes, company performance, and relevant industry trends =E2=80=94 usua=
+lly takes a team of junior bankers a day or two to produce, said Bitticks, =
+vice chair in Deutsche's corporate bank.=C2=A0
+The new tool will allow these reports to be created in just a few keystroke=
+s.
+The technology will pave the way for "a new way of being a banker," Bittick=
+s said, and enable juniors to focus on building up more analytical skills a=
+nd soft skills.
+"What I struggle with our juniors a lot of times is they're gathering the i=
+nformation, and they're so consumed with the gathering that they don't thin=
+k about the analyzing," Bitticks told Insider in an interview at the Google=
+ Cloud Next conference in San Francisco last month.=C2=A0
+
+Is it possible that tediously compiling an update on industry trends and cl=
+ient personnel gossip, and then handing it to your managing director before=
+ she flies off to the meeting,=C2=A0is good preparation for one day flying =
+to the meeting yourself to give a market update and gossip with the client?=
+ I honestly have no idea. But, like, when the analysts are not preparing th=
+e pitchbooks for the meetings they are not attending, what=C2=A0will=C2=A0t=
+hey be doing to become more strategic and analytical?
+
+ =20
+   =20
+      Short ESG
+   =20
+ =20
+
+One basic idea in environmental, social and governance investing is that yo=
+u should allocate much (100%?) of your investment portfolio to companies wi=
+th good ESG credentials, and less (0%?) of your portfolio to companies with=
+ bad ESG credentials. You have some reason for liking ESG =E2=80=94=C2=A0th=
+e  main ones are =E2=80=9CI think I will make the world a better place by a=
+llocating capital to green companies and withholding capital from dirty one=
+s,=E2=80=9D or =E2=80=9CI think that ESG risk factors are important for lon=
+g-run financial returns, so companies with good ESG credentials will outper=
+form those with bad ESG credentials=E2=80=9D
+  [4]
+ =E2=80=94=C2=A0and that reason counsels you to put more money in good ESG =
+stocks and less (or zero) money in bad ESG stocks.
+But zero is a pretty arbitrary cutoff. If it is good to put 100% of your mo=
+ney in good ESG stocks and 0% in bad ESG stocks, then isn=E2=80=99t it even=
+ better to put 120% of your money in good ESG stocks and negative 20% in ba=
+d ESG stocks? Shouldn=E2=80=99t you=C2=A0short=C2=A0companies with bad ESG =
+credentials? I mean, again, your reasons for liking ESG might vary, but eit=
+her way
+  [5]
+:
+=09If you think it is good for the world to give capital to good ESG compan=
+ies and deny it to bad ESG companies, then shorting the stocks of bad ESG c=
+ompanies raises their cost of capital even more, so you should do it.=09If =
+you think that bad ESG companies face underappreciated financial risks that=
+ will drive down their stock prices, then betting against them should be lu=
+crative.
+  [6]
+
+
+
+This is somewhat controversial, because investing actual money in environme=
+ntally friendly companies seems like a straightforwardly good thing to do, =
+while betting against environmentally bad companies seems like, you know, f=
+inancial engineering. I  wrote once:
+It feels very=C2=A0financial, using the abstract workings of the financial =
+system to make bold claims about a real-world result. If you are, say, Jim =
+Chanos and you run a short-focused fund, presumably the overall carbon impa=
+ct of your portfolio is very negative (because most companies, in any indus=
+try, are using some carbon to make stuff or fly to meetings or whatever, an=
+d so if you=E2=80=99re shorting a bunch of companies you have a negative po=
+sition on a lot of carbon use). Could Jim Chanos just like fly in circles i=
+n a private jet while eating beef and taking long showers and saying =E2=80=
+=9CI am the greatest climate hero in the history of the world,=E2=80=9D bec=
+ause of his short selling? Maybe?
+A further, more nuanced version is: Is it good ESG to short companies that=
+=C2=A0claim=C2=A0to be good at ESG, but that you think are actually bad at =
+ESG? Not forthrightly dirty coal companies, but energy companies that prete=
+nd to be green and aren=E2=80=99t? A classic sort of short selling is that =
+a company reports good financial results, its stock goes up, you investigat=
+e and determine that the company is doing accounting fraud, you short it, y=
+ou expose the fraud, the stock goes to zero and you get rich. This is all v=
+ery intuitive: The stock price is high because people think the company is =
+profitable, you bet that it isn=E2=80=99t, you win. The mechanism of the tr=
+ade is that a stock price is the present value of the company=E2=80=99s fut=
+ure cash flows, and if the cash flows are fraud then the price is probably =
+too high.
+But what if the ESG is fraud? Should you short bad-but-pretending-to-be-goo=
+d ESG companies, on a theory like =E2=80=9Ca stock price is partly the mark=
+et=E2=80=99s=C2=A0valuation=C2=A0of a company=E2=80=99s ESG behavior, and i=
+f the company=E2=80=99s ESG behavior is fake then the price is probably too=
+ high=E2=80=9D? I mean? It makes some sense, right? The stock price is not=
+=C2=A0just=C2=A0the present value of the future cash flows. It=E2=80=99s al=
+so the present value of what people will pay you for the stock. And if peop=
+le mostly want to pay for good ESG performance, then the fake-ESG stocks wi=
+ll have high prices now and low prices when they are found out.
+Anyway Bloomberg=E2=80=99s=C2=A0Ishika Mookerjee and Sheryl Tian Tong Lee r=
+eport:
+
+Hedge fund managers are piling into short positions in ESG stocks as they h=
+unt for bogus green claims and valuations inflated by record stimulus.
+Bloated prices can be found =E2=80=9Call over ESG,=E2=80=9D according to So=
+ren Aandahl, the founder and chief investment officer of Texas-based Blue O=
+rca Capital LLC. He says he didn=E2=80=99t set out to target ESG but, here =
+and now, the =E2=80=9Cgreat shorts just happen to be in the ESG space.=E2=
+=80=9D
+There=E2=80=99s =E2=80=9Cso much capital chasing=E2=80=9D ESG assets, but t=
+here are =E2=80=9Cso few good ideas,=E2=80=9D Aandahl said in an interview.=
+ He argues that using short positions to expose bad bets =E2=80=9Cwill actu=
+ally make a positive difference for the earth and environment.=E2=80=9D
+
+As with so much of ESG, one theory here is that this is a good way to make =
+money: People overpay for fake ESG stocks, so you short them and make money=
+ as the market corrects. But another theory is that this is=C2=A0good for t=
+he earth:=C2=A0People overpay for fake ESG stocks, providing cheap capital =
+to companies that are bad for the earth, but creating an incentive for you =
+to go sniff out the fraud and short them, increasing their cost of capital =
+and making ESG=E2=80=99s work =E2=80=94=C2=A0of rewarding good ESG companie=
+s =E2=80=94=C2=A0more efficient.
+
+ =20
+   =20
+      Elsewhere in greenwashing
+   =20
+ =20
+
+Another basic idea in ESG investing is:
+=09You run an investment firm.=09You tell people =E2=80=9Cwe always conside=
+r ESG factors in making our investment decisions,=E2=80=9D because people l=
+ike to hear that. =E2=80=9CWe have an ESG checklist,=E2=80=9D you say, =E2=
+=80=9Cand we check it every time we make an investment.=E2=80=9D Your inves=
+tors are pleased to hear about the checklist.=09You don=E2=80=99t=C2=A0lite=
+rally always=C2=A0consider ESG factors. Sometimes an investment seems good =
+and you just forget about the checklist.=09The US Securities and Exchange C=
+ommission  eventually sues you.
+
+So here=E2=80=99s this:
+The Securities and Exchange Commission [yesterday] charged registered inves=
+tment adviser DWS Investment Management Americas Inc. (DIMA or DWS), a subs=
+idiary of Deutsche Bank AG, in two separate enforcement actions, one addres=
+sing its failure to develop a mutual fund Anti-Money Laundering (AML) progr=
+am, and the other concerning misstatements regarding its Environmental, Soc=
+ial, and Governance (ESG) investment process. To settle the charges, DIMA a=
+greed to pay a total of $25 million in penalties.
+The ESG order is exactly what you=E2=80=99d expect. There was advertising o=
+f ESG considerations:
+For example, in 2019, a DIMA senior leader described in a public marketing =
+piece that ESG is =E2=80=9Ctop of mind throughout our organization=E2=80=9D=
+ through use of a proprietary =E2=80=9CDWS ESG Engine=E2=80=9D that is =E2=
+=80=9Cthe centerpiece of our commitment to integrating ESG considerations i=
+nto our investment process [and] [e]very DWS investment team uses it to mak=
+e investment decisions for their portfolio.
+There were claims about always considering ESG factors:
+DIMA=E2=80=99s handbooks for analysts covering certain asset classes contai=
+ned further ESG procedures. DIMA=E2=80=99s research analysts authored in-ho=
+use research notes, which provided an investment analysis and recommendatio=
+n for a specific issuer or sector. The handbooks required the analysts to d=
+ocument ESG considerations. For example, the March 2019 Equity Research Han=
+dbook required research notes to include documentation of an issuer=E2=80=
+=99s =E2=80=9CESG & Controversies.=E2=80=9D Similarly, the July 2020 Credit=
+ Research Handbook stated that =E2=80=9Cintegrated initiation report[s] . .=
+ . shall consist of . . . ESG Analysis.=E2=80=9D
+Whereas in fact it just=C2=A0often=C2=A0considered ESG factors:
+For example, quality checks conducted on a sample of research notes written=
+ between January and November 2020 showed that of the research notes sample=
+d, only about 54% of active equity research notes and 21% of fixed income r=
+esearch notes mentioned ESG criteria. Despite these findings, DIMA did not =
+have the Policy removed from the website, nor did DIMA revise its responses=
+ to RFPs, or make efforts to remove the paid investment industry magazine a=
+rticle from the Internet.
+I do think that the lowest-hanging possible greenwashing fruit is =E2=80=9C=
+if you say you have an ESG checklist, check the checklist every time.=E2=80=
+=9D The checklist doesn=E2=80=99t have to be=C2=A0good, it doesn=E2=80=99t =
+have to determine=C2=A0your investing decisions, you just have to=C2=A0chec=
+k=C2=A0it. But you do have to check it!
+
+ =20
+   =20
+      Jon Corzine
+   =20
+ =20
+
+I learned this weekend that Jon Corzine is still running a hedge fund? Or=
+=C2=A0 he was until last week:
+
+Jon Corzine will shutter the hedge fund he started after the collapse of MF=
+ Global Holdings, marking the end of his bid to rebound from one of the lar=
+gest bankruptcies in US history.
+JDC-JSC, Corzine=E2=80=99s New York-based money-management firm, terminated=
+ its registration with the Securities and Exchange Commission as of Sept. 2=
+2, according to the agency=E2=80=99s website. The firm=E2=80=99s lone inves=
+tment vehicle, the JDC-JSC Opportunity Master Fund, had gross assets of abo=
+ut $510 million, including leverage, at the end of last year.
+=E2=80=9CI have decided to wind down the Opportunity Fund and return capita=
+l to my investors,=E2=80=9D Corzine, 76, said in an emailed statement. =E2=
+=80=9CI am grateful to our team for their hard work and dedication during t=
+he past several years.=E2=80=9D
+
+MF Global went bankrupt in 2011, and =E2=80=9CJDC-JSC began raising money i=
+n 2018.=E2=80=9D Wild stuff. =E2=80=9CI look forward to being able to devot=
+e more time and energy to the things that matter most to me, which include =
+philanthropy, teaching, and, most importantly, my family,=E2=80=9D says Cor=
+zine.
+In an odd coincidence, Sam Bankman-Fried=E2=80=99s criminal fraud trial sta=
+rts next week, and if I were Jon Corzine I think I might volunteer=C2=A0to =
+help Bankman-Fried out with that trial. Jon Corzine is really the world=E2=
+=80=99s leading expert at running a futures firm that used=C2=A0customer mo=
+ney to cover losses from risky financial bets and  basically getting away w=
+ith it, and there but for the grace etc.
+
+ =20
+   =20
+      Sam Bankman-Fried=E2=80=99s fraud trial starts next week
+   =20
+ =20
+
+There is  going to be a lot of  media about it? Here is  a New York Post st=
+ory about an Alameda Research software engineer in Hong Kong who had the ra=
+ther cinematic experience of ordering lunch on the corporate credit card, h=
+aving the card declined, and immediately drawing the correct conclusion, wh=
+ich was =E2=80=9CI need to be on the next flight out of Chinese jurisdictio=
+n=E2=80=9D:
+
+=E2=80=9CWe ordered our lunch in the afternoon, same as usual,=E2=80=9D Bar=
+adwaj told The Post. =E2=80=9CWhen we went to order our food in the evening=
+, the app says =E2=80=98credit card declined.=E2=80=99 That=E2=80=99s the m=
+oment where we realized, holy s=E2=80=94t, the company is probably broke.=
+=E2=80=9D
+A few hours later, Caroline Ellison =E2=80=94 CEO of Alameda Research and a=
+lso Bankman-Fried=E2=80=99s ex-lover =E2=80=94 surfaced for the first time =
+in two days for a tense, tearful all-hands meeting that is now expected to =
+play a pivotal role in a federal trial next month, where the disgraced FTX =
+boss faces charges for allegedly stealing billions in customer funds.
+=E2=80=9CWe were afraid,=E2=80=9D Baradwaj said. =E2=80=9CThis thing was ma=
+king international news. My friends and family were calling me, I=E2=80=99m=
+ getting all these calls. I=E2=80=99m sitting in a hotel in Hong Kong and I=
+ don=E2=80=99t want to get thrown in Chinese jail.=E2=80=9D =E2=80=A6
+After the meeting, Baradwaj said he and his stunned colleagues had to =E2=
+=80=9Cliterally book our flights and escape the country.=E2=80=9D The next =
+day, he resigned, bought a plane ticket home and left Hong Kong.
+
+Though it=E2=80=99s not like flying to US jurisdiction was a great idea for=
+ everyone at FTX.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Private Equity=E2=80=99s Slow=C2=A0Carnage Unleashes a  Wave of Zombies. =
+=E2=80=9CIf you can earn 12 per cent, maybe 13 per cent on a really good da=
+y in senior secured bank debt, what else do you want to do in life?=E2=80=
+=9D People are worried about   stock buybacks.=C2=A0People are worried abou=
+t  the basis trade. Hedge Funds   Cut Stock Leverage at Fastest Pace Since =
+2020 Crash. JPMorgan Settles With Jes Staley, US Virgin Islands to End   Ep=
+stein Legal Woes. Glencore traded thousands of tonnes of  Russian copper th=
+rough Turkey. =E2=80=9CChinese regulators have taken a novel approach to pr=
+op up the country=E2=80=99s faltering stock market by banning many companie=
+s=E2=80=99 biggest shareholders  from selling.=E2=80=9D Wells Fargo Preps f=
+or   Wealth Battle After $1 Billion Turnaround.=C2=A0 Commercial Real Estat=
+e=E2=80=99s Next Big Headache: Spiraling Insurance Costs. Zero-day options =
+now account for  50% of S&P options volumes. Taxpayers Stuck Paying the Bil=
+ls for Oligarchs=E2=80=99 Seized  Yachts and Mansions. Elon Musk is  very a=
+nnoying to play poker with. Fake  steakhouse.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Importantly, what this means is that the trade was a =E2=80=9Criskles=
+s principal=E2=80=9D trade and the customer paid the prices Citadel Securit=
+ies paid. If Citadel Securities was buying 10,000 shares for its own invent=
+ory, and then at the end it sold all 10,000 to the customer at the price at=
+ the time, then it kind of did own those shares along the way. But the way =
+these trades worked is that Citadel Securities got paid the actual prices i=
+t paid along the way, so at the time it bought 10 shares it *really had* al=
+ready sold them at the price it paid (plus some commissions, spread or what=
+ever).
+
+
+  [2] The delay was up to several hours, which means that Citadel Securitie=
+s knew its true position fairly quickly and, if it needed to borrow shares =
+before settlement, it could. Also, the naked short selling rules include an=
+ exception from the borrowing requirement for =E2=80=9Cshort sales effected=
+ by a market maker in connection with bona-fide market making activities in=
+ the security,=E2=80=9D which I suspect would apply to most of Citadel Secu=
+rities=E2=80=99 trading.
+
+
+  [3] I realize that in 2023 the analyst program is *really* training to qu=
+it and work in private equity, but senior investment bankers have to come f=
+rom *somewhere*, and it=E2=80=99s mostly from the ranks of junior investmen=
+t bankers.
+
+
+  [4] A third might be =E2=80=9CI think that ESG funds will continue to bec=
+ome more popular, so more money will pile into them, so in the short term g=
+ood ESG stocks will go up, so I want to buy them now for a trade.=E2=80=9D
+
+
+  [5] If you think that ESG funds will become more popular so in the short =
+term good ESG stocks will go up and bad ESG stocks will go down (previous f=
+ootnote) then, again, short the bad ones now.
+
+
+  [6] Short selling and long buying are not fully symmetrical and =E2=80=9C=
+ESG factors represent long-term risks=E2=80=9D is arguably a good reason to=
+ buy good ESG stocks and hold them for the long term, but a bad reason to s=
+hort bad ESG stocks, because short selling involves more short-term risks.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjjuf1.683c/3f5f523f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_11342752_632167993.1695752819913
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One idea that you sometimes hear is that, when the broad stock market stead=
+ily goes up each year, that is bad for investment managers. If th
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBe1381d52"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjgzODU4OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMxMjkwMTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBaee114a4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32838589&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33129013&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Merger arb v. Lina Khan</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One idea that you sometimes hear is that, when=
+ the broad stock market steadily goes up each year, that is=C2=A0<em>bad=C2=
+=A0</em>for investment managers. If the S&amp;P 500 index just goes up 15% =
+per year, then anyone can do great by buying an index fund, and the benefit=
+s of picking the best stocks are lower. Highly paid active managers disting=
+uish themselves more in choppy markets, where picking the right stocks is d=
+istinctly more valuable than picking the wrong ones.</p>
+<p style=3D"margin: 16px 0;">Similarly you could imagine an antitrust enfor=
+cement regime in which the US Federal Trade Commission almost never tries t=
+o block mergers, except in the most egregious cases of monopoly power. In t=
+his regime:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Most mergers, once announced, will clo=
+se: The FTC won=E2=80=99t step in to block them.</li>=09<li style=3D"margin=
+-bottom: 5px;">If the FTC=C2=A0<em>does=C2=A0</em>step in to block a merger=
+, the deal=C2=A0<em>won=E2=80=99t=C2=A0</em>close: The FTC only tries to bl=
+ock egregious mergers, so if it tries, that means its case is strong and it=
+ will win in court.</li>=09<li style=3D"margin-bottom: 5px;">(Also, the egr=
+egious mergers mostly=C2=A0<em>won=E2=80=99t be announced:=C2=A0</em>The FT=
+C=E2=80=99s approach is predictable, and companies won=E2=80=99t bother to =
+sign merger agreements that they know the FTC will try to block, since they=
+=E2=80=99ll lose.)</li>
+</ul>
+<p style=3D"margin: 16px 0;">This makes mergers very predictable, which is =
+probably good for financial markets and investors. It is in some loose sens=
+e good for merger arbitrage funds, which bet on mergers closing: The merger=
+s they bet on will mostly close, and the ones that won=E2=80=99t close are =
+pretty obvious and they can avoid those.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But it is also <em>bad=C2=A0</em>for merger ar=
+bitrageurs, because the returns to skill go down. If a merger is announced,=
+ that means it will close, which means that the target=E2=80=99s stock pric=
+e will jump up close to the deal price right away, and you can=E2=80=99t ma=
+ke any money doing merger arbitrage. Everyone knows =E2=80=9Cif a merger is=
+ announced at $20 per share, the stock is worth $20 per share,=E2=80=9D so =
+the stock goes to $20 per share right away, and your special knowledge abou=
+t mergers is worthless.</p>
+<p style=3D"margin: 16px 0;">On the other hand you could imagine an antitru=
+st enforcement regime in which the FTC tries to block=C2=A0<em>every=C2=A0<=
+/em>merger, whether or not it has good arguments. In this regime, the FTC w=
+ould often lose in court, but would sometimes win. Every time a deal is ann=
+ounced, the target=E2=80=99s stock would go up (=E2=80=9Cooh they=E2=80=99l=
+l pay $20 per share!=E2=80=9D), and then the FTC would announce a lawsuit a=
+nd the stock would go down (=E2=80=9Cooh the FTC is blocking the deal!=E2=
+=80=9D), and then the stock would bounce around on the results of the court=
+ case.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is great for merger arbs! If they=E2=80=
+=99re good! The returns to skill =E2=80=94=C2=A0to reading FTC complaints a=
+nd using your expertise to know which mergers will close and which will be =
+blocked =E2=80=94=C2=A0go way up. You buy the deals that will close (and do=
+uble down when the FTC sues and the stock drops) and avoid the deals that w=
+on=E2=80=99t; you use skill to generate alpha, rather than just being a pas=
+sive index investor in every deal.</p>
+<p style=3D"margin: 16px 0;">Obviously the actual FTC does not sue to block=
+=C2=A0<em>every=C2=A0</em>deal, but it has definitely turned the dial towar=
+d blocking more deals and making more aggressive arguments, which probably =
+annoys some merger arbs in their day-to-day lives but in the long run makes=
+ their lives better. The <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32838589.290424/aHR0cHM6Ly93d3cud3NqLmNvbS91cy1uZXdzL2xhdy90aGUtaGVk=
+Z2UtZnVuZC10aGF0LW1hZGUtYS1raWxsaW5nLWJldHRpbmctYWdhaW5zdC1saW5hLWtoYW4tZDV=
+iMzk1YjE_bW9kPWhwX2xlYWRfcG9zNw/607f07ceef4b8524a319a23cBdbbbf0e8" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Wall Street Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The efforts by Federal Trade Commission Chair =
+Lina Khan to protect Main Street are inadvertently enriching some on Wall S=
+treet, generating outsize profits for Pentwater Capital Management and othe=
+r large hedge funds that bet on merger deals.</p>
+<p style=3D"margin: 16px 0;">Florida-based Pentwater stands to be a large w=
+inner from the FTC=E2=80=99s recent failed bid to block the Amgen-Horizon d=
+eal. It built a stake of almost 7% in Horizon after the drugmaker began fie=
+lding takeover interest last year.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Pentwater is estimated to have scored around $=
+100 million on its Horizon trade on paper, according to an analysis of the =
+hedge fund=E2=80=99s public filings. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">D.E. Shaw Group is also among the funds that s=
+tood their ground following the FTC lawsuit against Horizon. The New York-b=
+ased firm steadily increased its position and currently holds more than $50=
+0 million in the shares, filings show. Other funds that bet on Horizon incl=
+ude Farallon Capital Management and HBK Capital Management, according to pu=
+blic filings.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CBecause of the FTC=E2=80=99s lawsuit,=
+ we have had the ability to take something that would have made tens of mil=
+lions of dollars and instead make many, many times that amount,=E2=80=9D sa=
+id Matt Halbower, Pentwater=E2=80=99s chief executive. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Since its inception, Pentwater, which oversees=
+ close to $5 billion, has averaged a net return of more than 11% annually, =
+according to a person familiar with the matter. By comparison, the HFRI Eve=
+nt-Driven Index generated an annualized net return of 4.47% from January 20=
+07 through August 2023, according to research firm HFR.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes right if you are good at merger arb you wa=
+nt some dispersion in outcomes.=C2=A0Pentwater also =E2=80=9Clast year scoo=
+ped up shares of Twitter, now X, in a wager that Elon Musk would ultimately=
+ acquire the company,=E2=80=9D another situation where it was helpful to be=
+ able to notice that Musk=E2=80=99s case for getting out of the deal <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTgvZWxvbi13YW5=
+0cy10by1maWdodC10aGUtYm90cz9jbXBpZD1CQkQwOTI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjYmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB82dc71fc" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  was laughab=
+ly weak</a>.</p>
+<p style=3D"margin: 16px 0;">Elsewhere in the FTC: =E2=80=9C<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjYvZnRjLXN1ZXMtYW1hem9uLWlu=
+LWxhbmRtYXJrLWFudGl0cnVzdC1jYXNlLW92ZXItbWFya2V0cGxhY2U_Y21waWQ9QkJEMDkyNjI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMwOTI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB432=
+240f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">FTC Sues Amazon</a> in Landmark Antitrust Case Over Marketpl=
+ace.=E2=80=9D</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjgzODU4OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMxMjkwMTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC42c399e5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32838589&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33129013&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjgzODU4OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMxMjkwMTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD42c399e5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32838589&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33129013&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Citadel Securities oops</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Did the US Securities and Exchange Commission =
+catch Citadel doing naked short selling? Ahahaha no, come on, I would never=
+ say a thing like that. <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32838589.290424/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvM=
+jAyMy0xOTI/607f07ceef4b8524a319a23cB8b3e1586" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> It was Citadel Secur=
+ities</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [Friday=
+] announced settled charges against broker-dealer Citadel Securities LLC fo=
+r violating a provision of Regulation SHO, the regulatory framework designe=
+d to address abusive short selling practices, which requires broker-dealers=
+ to mark sale orders as long, short, or short exempt. These records are rou=
+tinely used by regulators in policing prohibited short selling activity. To=
+ settle the SEC=E2=80=99s charges, Miami-based Citadel Securities agreed to=
+ pay a $7 million penalty.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s order, for a fi=
+ve-year period, it is estimated that Citadel Securities incorrectly marked =
+millions of orders, inaccurately denoting that certain short sales were lon=
+g sales and vice versa. The SEC=E2=80=99s order finds that the inaccurate m=
+arks resulted from a coding error in Citadel Securities=E2=80=99s automated=
+ trading system and that the firm provided the inaccurate data to regulator=
+s, including the SEC during this period.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CCompliance with the order marking req=
+uirements of Reg SHO is a key component of regulatory efforts to curtail ab=
+usive market practices, including =E2=80=98naked=E2=80=99 short selling,=E2=
+=80=9D said Mark Cave, Associate Director of the SEC=E2=80=99s Division of =
+Enforcement. =E2=80=9CThis action against Citadel Securities demonstrates t=
+hat a broker-dealer=E2=80=99s failure to comply with the requirements of Re=
+g SHO can have negative downstream consequences on the accuracy of the firm=
+=E2=80=99s electronic records, including its electronic blue sheet reportin=
+g, depriving the Commission of important information about the markets it r=
+egulates.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">No, no, still kidding, they didn=E2=80=99t do =
+any naked short selling.=C2=A0Basically Citadel Securities is a broker-deal=
+er, and sometimes customers will come in and say =E2=80=9Cbuy me 10,000 sha=
+res of XYZ stock over the course of the day, use your judgment, get the bes=
+t price.=E2=80=9D And so Citadel Securities will buy 10 shares here, 20 sha=
+res there, etc., until it gets to 10,000, delivering the shares to the cust=
+omer and charging it the prices it pays.</p>
+<p style=3D"margin: 16px 0;">Usually Citadel Securities will buy 10 shares,=
+ sell the customer 10 shares, buy 20 shares, sell the customer 20 shares, e=
+tc. But some customers do not want to be pinged every few seconds, and they=
+ will tell Citadel Securities =E2=80=9Cjust buy me the 10,000 shares and te=
+ll me when you=E2=80=99re done; don=E2=80=99t tell me about every little tr=
+ade.=E2=80=9D And so Citadel Securities will buy 10 shares, make a mental n=
+ote that they=E2=80=99re for the customer, buy 20 more shares, make another=
+ mental note, etc., until it gets up to 10,000 shares and pings the custome=
+r saying =E2=80=9Cwe finished the 10,000 shares, here you go.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Fine. But for five years, there was a glitch i=
+n Citadel Securities=E2=80=99 little mental notes. The part of Citadel Secu=
+rities=E2=80=99=C2=A0computer=C2=A0that kept track of its positions =E2=80=
+=94=C2=A0for, among other things, short-selling order-marking purposes =E2=
+=80=94=C2=A0did not get the little mental notes for the interim trades. One=
+ part of Citadel Securities=E2=80=99 computer=C2=A0saw it buy 10 shares and=
+ said =E2=80=9Cah we own 10 shares,=E2=80=9D and then it bought 20 more sha=
+res and was like =E2=80=9Cah now we own 30 shares,=E2=80=9D and so on, unti=
+l right before the order was finished it was like =E2=80=9Cah we own 9,900 =
+shares=E2=80=9D or whatever. And then it would buy the last 100 shares and =
+wiser logic would step in and say =E2=80=9Cnow we own 10,000 shares, but we=
+ have sold 10,000 shares to the customer, so we=E2=80=99re back to zero sha=
+res.=E2=80=9D Citadel Securities did the=C2=A0<em>trade=C2=A0</em>correctly=
+. But before it=C2=A0<em>finished=C2=A0</em>the trade, it thought that it=
+=C2=A0<em>owned=C2=A0</em>all of the shares, whereas really it was selling =
+them to the customer. It did not really own them at all.<a class=3D"footnot=
+e-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And so if Citadel Securities was halfway throu=
+gh working this order, its computer would think it owned 5,000 shares. And =
+then if some other part of Citadel Securities wanted to=C2=A0<em>sell=C2=A0=
+</em>100 shares of XYZ, for market-making or whatever purposes, the compute=
+r would think =E2=80=9C5,000 minus 100 is 4,900, which is a positive number=
+, so this is a=C2=A0<em>long sale</em>,=E2=80=9D a sale of stock Citadel Se=
+curities=C2=A0<em>owned</em>. So the computer would mark it as a long sale.=
+ But=C2=A0<em>really</em>=C2=A0the math is =E2=80=9C5,000 shares we bought =
+minus 5,000 shares we sold to the client equals zero, minus 100 is negative=
+ 100, so this is a short sale,=E2=80=9D so the computer should have marked =
+it as a short sale. But it didn=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">And so Citadel Securities sometimes reported t=
+hat it was doing long sales when it was really doing short sales, which is =
+a no-no, and the sort of thing that sometimes <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMTMvbmFrZWQtc2hvcnQtc2VsbGVyLWdldHMtaW=
+4tdHJvdWJsZT9jbXBpZD1CQkQwOTI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB76515f8d" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> lands people in trouble for=
+ naked short selling</a>. Ordinarily, when you sell stock short, you need t=
+o check that you can borrow the shares that you are selling before doing th=
+e trade. But if you think (or report) that you already=C2=A0<em>own=C2=A0</=
+em>the shares, you don=E2=80=99t have to borrow them. And if you=E2=80=99re=
+ wrong, and you don=E2=80=99t borrow them, then you are naked short, and th=
+at=E2=80=99s bad.</p>
+<p style=3D"margin: 16px 0;">Of course here this is silly, it=E2=80=99s a n=
+othing. The SEC mentions naked short selling in the press release, but not =
+in <a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F0aW9uL2FkbWluLzIwMjMvMzQtOTg0OD=
+IucGRm/607f07ceef4b8524a319a23cB7e9fab03" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">its order</a>; there is =
+no actual allegation that Citadel Securities did any naked short selling at=
+ all, and I think it probably did not.<a class=3D"footnote-index" href=3D"#=
+footnote-2" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: no=
+ne !important; background-color: transparent !important; display: inline-bl=
+ock;">
+<span>[2]</span>
+</a>=C2=A0(Also the problem here was symmetrical, and Citadel Securities so=
+metimes marked long sales as short because it was selling for customers and=
+ thought it was shorter than it was.) The SEC says that =E2=80=9Cthis delay=
+ did not benefit Citadel=C2=A0Securities or its trading strategies=E2=80=9D=
+; it is a clerical mishap that made some trading data wrong, but it was not=
+ intentional, didn=E2=80=99t save Citadel Securities any money, and doesn=
+=E2=80=99t seem to have had any effect on anything but the SEC=E2=80=99s re=
+cordkeeping.</p>
+<p style=3D"margin: 16px 0;">Still.=C2=A0<em>Dumb Money</em>, the GameStop =
+movie, <a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.29=
+0424/aHR0cHM6Ly9kZWFkbGluZS5jb20vMjAyMy8wOS9kdW1iLW1vbmV5LWJveC1vZmZpY2Utc2=
+9ueS1yZWxlYXNlLWRhdGUtY2hhbmdlLTEyMzU1MjEwODEv/607f07ceef4b8524a319a23cBc5b=
+93368" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">will be in wide release</a> this coming weekend, portraying =
+Citadel Securities (and Citadel) boss Ken Griffin as a <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYXhpb3=
+MuY29tL25ld3NsZXR0ZXJzL2F4aW9zLW1hcmtldHMtMzliZjI4ODAtZDg1Ny00YTNiLThlZGYtN=
+zE1YThiNTlmNDRkLmh0bWw/607f07ceef4b8524a319a23cBff1c994b" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">cartoon v=
+illain</a>. If you think that Ken Griffin is a cartoon villain, there=E2=80=
+=99s a decent chance that you are also <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjMtMDYtMDgvZG9uLXQtc3F1ZWV6ZS10aGUtc2hvcnRzP2NtcGlkP=
+UJCRDA5MjYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIzMDkyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cBaee5826a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> mad about naked short selling</a>, and, you kno=
+w, here=E2=80=99s this!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AI in banking</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One somewhat plausible view of artificial inte=
+lligence in investment banking is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A robot can do most of the work that =
+first-year investment banking analysts do: preparing financial models from =
+templates, choosing comparable companies, formatting pitchbooks, cutting le=
+ague-table data in exactly the right way to make their bank No. 1, etc.</li=
+>=09<li style=3D"margin-bottom: 5px;">A robot cannot do most of the work th=
+at senior managing directors do: meeting clients face-to-face with a firm h=
+andshake and good eye contact, asking them about their kids and their golf =
+game, giving strategic advice about merger negotiations and financing optio=
+ns, exercising good judgment, tossing aside the pitchbook that the analysts=
+ spent sleepless nights preparing to have a heart-to-heart chat about whate=
+ver=E2=80=99s on the client=E2=80=99s mind,=C2=A0etc.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I am not sure that that=E2=80=99s right? Judgi=
+ng by actually existing large language models, I would not be stunned if it=
+ was easier to program a robot to give confident and sage-sounding strategi=
+c advice, and remember the clients=E2=80=99 kids=E2=80=99 names, than it is=
+ to program a robot to build financial models with no tolerance for error, =
+or perform the dark arts of league-table manipulation. But broadly speaking=
+ the junior bankers do some combination of analytical and grunt work, while=
+ the senior bankers provide the strategic vision and the personal touch, an=
+d it=C2=A0<em>seems=C2=A0</em>like the former would be easier to automate t=
+han the latter.</p>
+<p style=3D"margin: 16px 0;">Investment banking is an odd sort of apprentic=
+eship business in that=C2=A0you spend a few years doing the analytical and =
+grunt work=C2=A0<em>as training=C2=A0</em>to be strategic and personal. It =
+is not <em>obvious=C2=A0</em>that preparing pitchbooks and discounted cash =
+flow models would be good preparation for giving clients firm handshakes an=
+d nuanced negotiating advice, but that is the way it=E2=80=99s done.<a clas=
+s=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0Some (large) number of good junior analysts will not make it as s=
+enior investment bankers, because they are good at spreadsheets and formatt=
+ing but bad at strategy and handshakes. Some (smaller) number of bad junior=
+ analysts will wash out because they are bad at spreadsheets and formatting=
+, but if they had scraped through they would have been amazing managing dir=
+ectors, with an ingratiating manner and a good grasp of what clients want. =
+You need both qualities, in sequence, for some reason.</p>
+<p style=3D"margin: 16px 0;">But if you give all the analytical and grunt w=
+ork to the robot then how do you mold senior investment bankers? I don=E2=
+=80=99t know. Insider=E2=80=99s=C2=A0Bianca Chan and Emmalyse Brownstein <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0=
+cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9ob3ctYWktd2lsbC1jaGFuZ2UtdGhlLWludmV=
+zdG1lbnQtYmFua2luZy1jYXJlZXItcGF0aC0yMDIzLTk/607f07ceef4b8524a319a23cB8d3f8=
+77e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">reported last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">"A lot of the work analysts do is very mundane=
+. You're doing random Excel stuff or editing a deck or putting logos on a P=
+owerpoint," said a first-year investment banking analyst who works on tech =
+deals. "As a junior banker you don't critically think. You just do as you'r=
+e told." =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">"[Artificial intelligence] could be a good thi=
+ng for banking if there are some parts that are more automated because it'l=
+l get rid of some of the work that takes hours and hours for some of these =
+junior guys to go through," said a Wall Street recruiter who specializes in=
+ placements in investment banking.</p>
+<p style=3D"margin: 16px 0;">"It could be good for the hours," added the fi=
+rst-year analyst.=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Over at Deutsche Bank, executives like [Tamara=
+] Bitticks are seeing the benefits firsthand. The bank has been running doz=
+ens of generative AI pilots and hiring hundreds of engineers to transform h=
+ow its employees work across the firm. Some of the pilots aim to improve ti=
+me-consuming and mundane tasks carried out by juniors in the corporate bank=
+, which serves Deutsche's institutional clients, financial services firms, =
+and investors.</p>
+<p style=3D"margin: 16px 0;">One tool set to launch at the beginning of the=
+ year will use AI to generate reports senior bankers need to prepare for cl=
+ient meetings, Bitticks said. Making one of these reports =E2=80=94 which b=
+rief the bankers on leadership changes, company performance, and relevant i=
+ndustry trends =E2=80=94 usually takes a team of junior bankers a day or tw=
+o to produce, said Bitticks, vice chair in Deutsche's corporate bank.=C2=A0=
+</p>
+<p style=3D"margin: 16px 0;">The new tool will allow these reports to be cr=
+eated in just a few keystrokes.</p>
+<p style=3D"margin: 16px 0;">The technology will pave the way for "a new wa=
+y of being a banker," Bitticks said, and enable juniors to focus on buildin=
+g up more analytical skills and soft skills.</p>
+<p style=3D"margin: 16px 0;">"What I struggle with our juniors a lot of tim=
+es is they're gathering the information, and they're so consumed with the g=
+athering that they don't think about the analyzing," Bitticks told Insider =
+in an interview at the Google Cloud Next conference in San Francisco last m=
+onth.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Is it possible that tediously compiling an upd=
+ate on industry trends and client personnel gossip, and then handing it to =
+your managing director before she flies off to the meeting,=C2=A0is good pr=
+eparation for one day flying to the meeting yourself to give a market updat=
+e and gossip with the client? I honestly have no idea. But, like, when the =
+analysts are not preparing the pitchbooks for the meetings they are not att=
+ending, what=C2=A0<em>will=C2=A0</em>they be doing to become more strategic=
+ and analytical?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Short ESG</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One basic idea in environmental, social and go=
+vernance investing is that you should allocate much (100%?) of your investm=
+ent portfolio to companies with good ESG credentials, and less (0%?) of you=
+r portfolio to companies with bad ESG credentials. You have some reason for=
+ liking ESG =E2=80=94=C2=A0the <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjItMDEtMTIvbm90LWV2ZXJ5b25lLWxpa2VzLWVzZz9jbXBpZD1CQkQwOTI2M=
+jNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMzA5MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB98=
+8f548d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> main ones</a> are =E2=80=9CI think I will make the world a=
+ better place by allocating capital to green companies and withholding capi=
+tal from dirty ones,=E2=80=9D or =E2=80=9CI think that ESG risk factors are=
+ important for long-run financial returns, so companies with good ESG crede=
+ntials will outperform those with bad ESG credentials=E2=80=9D<a class=3D"f=
+ootnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[4]</span>
+</a> =E2=80=94=C2=A0and that reason counsels you to put more money in good =
+ESG stocks and less (or zero) money in bad ESG stocks.</p>
+<p style=3D"margin: 16px 0;">But zero is a pretty arbitrary cutoff. If it i=
+s good to put 100% of your money in good ESG stocks and 0% in bad ESG stock=
+s, then isn=E2=80=99t it even better to put 120% of your money in good ESG =
+stocks and negative 20% in bad ESG stocks? Shouldn=E2=80=99t you=C2=A0<em>s=
+hort=C2=A0</em>companies with bad ESG credentials? I mean, again, your reas=
+ons for liking ESG might vary, but either way<a class=3D"footnote-index" hr=
+ef=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[5]</span>
+</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you think it is good for the world=
+ to give capital to good ESG companies and deny it to bad ESG companies, th=
+en shorting the stocks of bad ESG companies raises their cost of capital ev=
+en more, so you should do it.</li>=09<li style=3D"margin-bottom: 5px;">If y=
+ou think that bad ESG companies face underappreciated financial risks that =
+will drive down their stock prices, then betting against them should be luc=
+rative.<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is somewhat controversial, because invest=
+ing actual money in environmentally friendly companies seems like a straigh=
+tforwardly good thing to do, while betting against environmentally bad comp=
+anies seems like, you know, financial engineering. I <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDkvdHdlbnR5LXBlcmNlbnQtb2YtYS1=
+waWN0dXJlLW9mLWEtZG9nP2NtcGlkPUJCRDA5MjYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNiZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf035d118" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> wrote once</a>:</=
+p>
+<blockquote><p style=3D"margin: 16px 0;">It feels very=C2=A0<em>financial</=
+em>, using the abstract workings of the financial system to make bold claim=
+s about a real-world result. If you are, say, Jim Chanos and you run a shor=
+t-focused fund, presumably the overall carbon impact of your portfolio is v=
+ery negative (because most companies, in any industry, are using some carbo=
+n to make stuff or fly to meetings or whatever, and so if you=E2=80=99re sh=
+orting a bunch of companies you have a negative position on a lot of carbon=
+ use). Could Jim Chanos just like fly in circles in a private jet while eat=
+ing beef and taking long showers and saying =E2=80=9CI am the greatest clim=
+ate hero in the history of the world,=E2=80=9D because of his short selling=
+? Maybe?</p></blockquote>
+<p style=3D"margin: 16px 0;">A further, more nuanced version is: Is it good=
+ ESG to short companies that=C2=A0<em>claim=C2=A0</em>to be good at ESG, bu=
+t that you think are actually bad at ESG? Not forthrightly dirty coal compa=
+nies, but energy companies that pretend to be green and aren=E2=80=99t? A c=
+lassic sort of short selling is that a company reports good financial resul=
+ts, its stock goes up, you investigate and determine that the company is do=
+ing accounting fraud, you short it, you expose the fraud, the stock goes to=
+ zero and you get rich. This is all very intuitive: The stock price is high=
+ because people think the company is profitable, you bet that it isn=E2=80=
+=99t, you win. The mechanism of the trade is that a stock price is the pres=
+ent value of the company=E2=80=99s future cash flows, and if the cash flows=
+ are fraud then the price is probably too high.</p>
+<p style=3D"margin: 16px 0;">But what if the ESG is fraud? Should you short=
+ bad-but-pretending-to-be-good ESG companies, on a theory like =E2=80=9Ca s=
+tock price is partly the market=E2=80=99s=C2=A0valuation=C2=A0of a company=
+=E2=80=99s ESG behavior, and if the company=E2=80=99s ESG behavior is fake =
+then the price is probably too high=E2=80=9D? I mean? It makes some sense, =
+right? The stock price is not=C2=A0<em>just=C2=A0</em>the present value of =
+the future cash flows. It=E2=80=99s also the present value of what people w=
+ill pay you for the stock. And if people mostly want to pay for good ESG pe=
+rformance, then the fake-ESG stocks will have high prices now and low price=
+s when they are found out.</p>
+<p style=3D"margin: 16px 0;">Anyway Bloomberg=E2=80=99s=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjUvc2hvcnQtc2VsbGVycy1tb3V=
+udC1hdHRhY2stb24tZXNnLXN0b2Nrcy1ibG9hdGVkLWZyb20tZ3JlZW4taHlwZT9jbXBpZD1CQk=
+QwOTI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzA5MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBea5d6e8d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Ishika Mookerjee and Sheryl Tian Tong Lee report</a>=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Hedge fund managers are piling into short posi=
+tions in ESG stocks as they hunt for bogus green claims and valuations infl=
+ated by record stimulus.</p>
+<p style=3D"margin: 16px 0;">Bloated prices can be found =E2=80=9Call over =
+ESG,=E2=80=9D according to Soren Aandahl, the founder and chief investment =
+officer of Texas-based Blue Orca Capital LLC. He says he didn=E2=80=99t set=
+ out to target ESG but, here and now, the =E2=80=9Cgreat shorts just happen=
+ to be in the ESG space.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There=E2=80=99s =E2=80=9Cso much capital chasi=
+ng=E2=80=9D ESG assets, but there are =E2=80=9Cso few good ideas,=E2=80=9D =
+Aandahl said in an interview. He argues that using short positions to expos=
+e bad bets =E2=80=9Cwill actually make a positive difference for the earth =
+and environment.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">As with so much of ESG, one theory here is tha=
+t this is a good way to make money: People overpay for fake ESG stocks, so =
+you short them and make money as the market corrects. But another theory is=
+ that this is=C2=A0<em>good for the earth:=C2=A0</em>People overpay for fak=
+e ESG stocks, providing cheap capital to companies that are bad for the ear=
+th, but creating an incentive for you to go sniff out the fraud and short t=
+hem, increasing their cost of capital and making ESG=E2=80=99s work =E2=80=
+=94=C2=A0of rewarding good ESG companies =E2=80=94=C2=A0more efficient.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in greenwashing</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Another basic idea in ESG investing is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You run an investment firm.</li>=09<l=
+i style=3D"margin-bottom: 5px;">You tell people =E2=80=9Cwe always consider=
+ ESG factors in making our investment decisions,=E2=80=9D because people li=
+ke to hear that. =E2=80=9CWe have an ESG checklist,=E2=80=9D you say, =E2=
+=80=9Cand we check it every time we make an investment.=E2=80=9D Your inves=
+tors are pleased to hear about the checklist.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">You don=E2=80=99t=C2=A0<em>literally always=C2=A0</em>consider =
+ESG factors. Sometimes an investment seems good and you just forget about t=
+he checklist.</li>=09<li style=3D"margin-bottom: 5px;">The US Securities an=
+d Exchange Commission <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjItMDUtMjMvdGhlLXNlYy1nb2VzLWFmdGVyLWdyZWVud2FzaGluZz9jbXBpZD1CQkQwOT=
+I2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1d=
+G1fdGVybT0yMzA5MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23c=
+B4e509a86" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> eventually sues you</a>.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32838589.290424/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlb=
+GVhc2UvMjAyMy0xOTQ/607f07ceef4b8524a319a23cB7376070f" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">here=E2=80=99=
+s this</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Securities and Exchange Commis=
+sion [yesterday] charged registered investment adviser DWS Investment Manag=
+ement Americas Inc. (DIMA or DWS), a subsidiary of Deutsche Bank AG, in two=
+ separate enforcement actions, one addressing its failure to develop a mutu=
+al fund Anti-Money Laundering (AML) program, and the other concerning misst=
+atements regarding its Environmental, Social, and Governance (ESG) investme=
+nt process. To settle the charges, DIMA agreed to pay a total of $25 millio=
+n in penalties.</p></blockquote>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32838589.290424/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F0=
+aW9uL2FkbWluLzIwMjMvaWEtNjQzMi5wZGY/607f07ceef4b8524a319a23cBc72204d4" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">ESG order</a> is exactly what you=E2=80=99d expect. There was advertisi=
+ng of ESG considerations:</p>
+<blockquote><p style=3D"margin: 16px 0;">For example, in 2019, a DIMA senio=
+r leader described in a public marketing piece that ESG is =E2=80=9Ctop of =
+mind throughout our organization=E2=80=9D through use of a proprietary =E2=
+=80=9CDWS ESG Engine=E2=80=9D that is =E2=80=9Cthe centerpiece of our commi=
+tment to integrating ESG considerations into our investment process [and] [=
+e]very DWS investment team uses it to make investment decisions for their p=
+ortfolio.</p></blockquote>
+<p style=3D"margin: 16px 0;">There were claims about always considering ESG=
+ factors:</p>
+<blockquote><p style=3D"margin: 16px 0;">DIMA=E2=80=99s handbooks for analy=
+sts covering certain asset classes contained further ESG procedures. DIMA=
+=E2=80=99s research analysts authored in-house research notes, which provid=
+ed an investment analysis and recommendation for a specific issuer or secto=
+r. The handbooks required the analysts to document ESG considerations. For =
+example, the March 2019 Equity Research Handbook required research notes to=
+ include documentation of an issuer=E2=80=99s =E2=80=9CESG &amp; Controvers=
+ies.=E2=80=9D Similarly, the July 2020 Credit Research Handbook stated that=
+ =E2=80=9Cintegrated initiation report[s] . . . shall consist of . . . ESG =
+Analysis.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Whereas in fact it just=C2=A0<em>often=C2=A0</=
+em>considered ESG factors:</p>
+<blockquote><p style=3D"margin: 16px 0;">For example, quality checks conduc=
+ted on a sample of research notes written between January and November 2020=
+ showed that of the research notes sampled, only about 54% of active equity=
+ research notes and 21% of fixed income research notes mentioned ESG criter=
+ia. Despite these findings, DIMA did not have the Policy removed from the w=
+ebsite, nor did DIMA revise its responses to RFPs, or make efforts to remov=
+e the paid investment industry magazine article from the Internet.</p></blo=
+ckquote>
+<p style=3D"margin: 16px 0;">I do think that the lowest-hanging possible gr=
+eenwashing fruit is =E2=80=9Cif you say you have an ESG checklist, check th=
+e checklist every time.=E2=80=9D The checklist doesn=E2=80=99t have to be=
+=C2=A0<em>good</em>, it doesn=E2=80=99t have to <em>determine=C2=A0</em>you=
+r investing decisions, you just have to=C2=A0<em>check=C2=A0</em>it. But yo=
+u do have to check it!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Jon Corzine</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I learned this weekend that Jon Corzine is sti=
+ll running a hedge fund? Or=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDktMjQvY29yemluZS1wbGFucy10by1zaHV0LWhlZGdlLWZ1bmQtYW5kLXJ=
+ldHVybi1jYXBpdGFsLXRvLWludmVzdG9ycz9jbXBpZD1CQkQwOTI2MjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjYmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBad492d86" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> he w=
+as until last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Jon Corzine will shutter the hedge fund he sta=
+rted after the collapse of MF Global Holdings, marking the end of his bid t=
+o rebound from one of the largest bankruptcies in US history.</p>
+<p style=3D"margin: 16px 0;">JDC-JSC, Corzine=E2=80=99s New York-based mone=
+y-management firm, terminated its registration with the Securities and Exch=
+ange Commission as of Sept. 22, according to the agency=E2=80=99s website. =
+The firm=E2=80=99s lone investment vehicle, the JDC-JSC Opportunity Master =
+Fund, had gross assets of about $510 million, including leverage, at the en=
+d of last year.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI have decided to wind down the Oppor=
+tunity Fund and return capital to my investors,=E2=80=9D Corzine, 76, said =
+in an emailed statement. =E2=80=9CI am grateful to our team for their hard =
+work and dedication during the past several years.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">MF Global went bankrupt in 2011, and =E2=80=9C=
+JDC-JSC began raising money in 2018.=E2=80=9D Wild stuff. =E2=80=9CI look f=
+orward to being able to devote more time and energy to the things that matt=
+er most to me, which include philanthropy, teaching, and, most importantly,=
+ my family,=E2=80=9D says Corzine.</p>
+<p style=3D"margin: 16px 0;">In an odd coincidence, Sam Bankman-Fried=E2=80=
+=99s criminal fraud trial starts next week, and if I were Jon Corzine I thi=
+nk I might volunteer=C2=A0to help Bankman-Fried out with that trial. Jon Co=
+rzine is really the world=E2=80=99s leading expert at <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuY2Z0Yy5=
+nb3YvUHJlc3NSb29tL1ByZXNzUmVsZWFzZXMvNjYyNi0xMw/607f07ceef4b8524a319a23cB31=
+719612" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">running a futures firm that used=C2=A0customer money to cov=
+er losses</a> from risky financial bets and <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vM=
+jAxNy8wMS8wNS9idXNpbmVzcy9kZWFsYm9vay9tZi1nbG9iYWwtam9uLWNvcnppbmUtcGVuYWx0=
+eS1zZXR0bGVtZW50Lmh0bWw/607f07ceef4b8524a319a23cB8bae171e" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> basical=
+ly getting away with it</a>, and there but for the grace etc.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sam Bankman-Fried=E2=80=99s fraud trial starts next week</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32838589.290424/aHR0cHM6Ly9ueW1hZy5jb20vYXJ0aWNsZS9zYW0=
+tYmFua21hbi1mcmllZC10cmlhbC1uZXdzbGV0dGVyLmh0bWw/607f07ceef4b8524a319a23cB0=
+4856107" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> going </a>to be a lot of <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cud3NqLmNvbS9wb2RjYX=
+N0cy90aGUtam91cm5hbC90aGUtdHJpYWwtb2YtY3J5cHRvcy1nb2xkZW4tYm95LWVwaXNvZGUtM=
+S10aGUtbGltaXQtZG9lcy1ub3QtZXhpc3QvMWQzYmQ4ZTctMDE2OS00ZTJlLThmNzItNDNkZWFk=
+MDMzYzkxP21vZD1ocF9sZWFkX3Bvczk/607f07ceef4b8524a319a23cBf6909300" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ media</a> about it? Here is <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32838589.290424/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDkvMjQvaW5zaWRl=
+LXRoZS1sYXN0LW1vbWVudHMtYmVmb3JlLWZ0eC1jb2xsYXBzZWQv/607f07ceef4b8524a319a2=
+3cB68b5b0ce" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> a New York Post story</a> about an Alameda Research s=
+oftware engineer in Hong Kong who had the rather cinematic experience of or=
+dering lunch on the corporate credit card, having the card declined, and im=
+mediately drawing the correct conclusion, which was =E2=80=9CI need to be o=
+n the next flight out of Chinese jurisdiction=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe ordered our lunch in the afternoon=
+, same as usual,=E2=80=9D Baradwaj told The Post. =E2=80=9CWhen we went to =
+order our food in the evening, the app says =E2=80=98credit card declined.=
+=E2=80=99 That=E2=80=99s the moment where we realized, holy s=E2=80=94t, th=
+e company is probably broke.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">A few hours later, Caroline Ellison =E2=80=94 =
+CEO of Alameda Research and also Bankman-Fried=E2=80=99s ex-lover =E2=80=94=
+ surfaced for the first time in two days for a tense, tearful all-hands mee=
+ting that is now expected to play a pivotal role in a federal trial next mo=
+nth, where the disgraced FTX boss faces charges for allegedly stealing bill=
+ions in customer funds.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe were afraid,=E2=80=9D Baradwaj sai=
+d. =E2=80=9CThis thing was making international news. My friends and family=
+ were calling me, I=E2=80=99m getting all these calls. I=E2=80=99m sitting =
+in a hotel in Hong Kong and I don=E2=80=99t want to get thrown in Chinese j=
+ail.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">After the meeting, Baradwaj said he and his st=
+unned colleagues had to =E2=80=9Cliterally book our flights and escape the =
+country.=E2=80=9D The next day, he resigned, bought a plane ticket home and=
+ left Hong Kong.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Though it=E2=80=99s not like flying to US juri=
+sdiction was a great idea for everyone at FTX.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Private Equity=E2=80=99s Slow=C2=A0Carnage Unl=
+eashes a <a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.=
+290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDktMjQv=
+cHJpdmF0ZS1lcXVpdHktem9tYmllLWZpcm1zLWxlYXZlLXBlbnNpb24tZnVuZHMtd2l0aC1oYXJ=
+kLWNob2ljZXM_Y21waWQ9QkJEMDkyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI2JnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cBc7f6648c" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Wave of Zombies</a>. =E2=80=
+=9CIf you can earn 12 per cent, maybe 13 per cent on a really good day in s=
+enior secured bank debt, what else do you want to <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvODQ0MDljZGUtMTE5Ny00OWM5LWJmODgtZGJlMzcxZTQ0MzEz/607f07ceef4b8524a=
+319a23cB0ca46dcf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">do in life</a>?=E2=80=9D People are worried about=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjYvaW52ZXN0=
+b3JzLXdvdWxkLXRyYWRlLWdtLWZvcmQtc3RlbGxhbnRpcy1idXliYWNrcy10by1lbmQtdWF3LXN=
+0cmlrZT9jbXBpZD1CQkQwOTI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cBf7a49500" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  stock buybacks</a>.=C2=A0People=
+ are worried about <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32838589.290424/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTgzNDhlMmEtYTkwZi00Nz=
+RjLWJhYTYtOGMyZWIwZTI2M2My/607f07ceef4b8524a319a23cB68b74474" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> the =
+basis trade</a>. Hedge Funds <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDktMjUvaGVkZ2UtZnVuZHMtY3V0LXN0b2NrLWxldmVyYWdlLWF0LWZhc3Rlc3Q=
+tcGFjZS1zaW5jZS0yMDIwLWNyYXNoP2NtcGlkPUJCRDA5MjYyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyNiZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0d5a6e66" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  Cut Stoc=
+k Leverage</a> at Fastest Pace Since 2020 Crash. JPMorgan Settles With Jes =
+Staley, US Virgin Islands to End <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDktMjYvanBtb3JnYW4tc2V0dGxlcy13aXRoLXN0YWxleS11c3ZpLXRvLWV=
+uZC1lcHN0ZWluLWxlZ2FsLXdvZXM_Y21waWQ9QkJEMDkyNjIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI2JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfa4c75dc" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Epstein Le=
+gal Woes</a>. Glencore traded thousands of tonnes of <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuZnQuY29t=
+L2NvbnRlbnQvNzdkM2Y4NmEtZTRkMS00NGI0LThjODAtMmM2NzI3MDQ0YzMx/607f07ceef4b85=
+24a319a23cB80d483fc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Russian copper</a> through Turkey. =E2=80=9C=
+Chinese regulators have taken a novel approach to prop up the country=E2=80=
+=99s faltering stock market by banning many companies=E2=80=99 biggest shar=
+eholders <a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.=
+290424/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3N0b2Nrcy9jaGluYS1nZXRzLXRvdWdo=
+LW9uLWluc2lkZXItc2VsbGluZy10by1hcnJlc3QtbWFya2V0LXNsdW1wLWFkYzQ1MjhiP21vZD1=
+ocF9saXN0YV9wb3My/607f07ceef4b8524a319a23cB1289266d" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> from selling<=
+/a>.=E2=80=9D Wells Fargo Preps for <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32838589.290424/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDktMjMvd2VsbHMtZmFyZ28tcHJlcHMtZm9yLXdlYWx0aC1iYXR0bGUt=
+YWZ0ZXItMS1iaWxsaW9uLXR1cm5hcm91bmQ_Y21waWQ9QkJEMDkyNjIzX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTI2JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe7f1cd70" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Wea=
+lth Battle</a> After $1 Billion Turnaround.=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32838589.290424/aHR0cHM6Ly93d3cud3NqLmNvbS9y=
+ZWFsLWVzdGF0ZS9jb21tZXJjaWFsL2NvbW1lcmNpYWwtcmVhbC1lc3RhdGVzLW5leHQtYmlnLWh=
+lYWRhY2hlLXNwaXJhbGluZy1pbnN1cmFuY2UtY29zdHMtNjA0ZWZlNGQ_bW9kPWhwX2xlYWRfcG=
+9zOA/607f07ceef4b8524a319a23cB30645409" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Commercial Real Estate=E2=
+=80=99s</a> Next Big Headache: Spiraling Insurance Costs. Zero-day options =
+now account for <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+838589.290424/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzEyZTliM2MtYTVlMC00ZWZmL=
+ThiOWEtODYzNzY5NmQyZjZm/607f07ceef4b8524a319a23cB761b82ff" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> 50% of =
+S&amp;P options volumes</a>. Taxpayers Stuck Paying the Bills for Oligarchs=
+=E2=80=99 Seized <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2838589.290424/aHR0cHM6Ly93d3cud3NqLmNvbS93b3JsZC9ldXJvcGUvdGF4cGF5ZXJzLXN0=
+dWNrLXBheWluZy10aGUtYmlsbHMtZm9yLW9saWdhcmNocy1zZWl6ZWQteWFjaHRzLWFuZC1tYW5=
+zaW9ucy1hZmQ0NDJlND9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cBb1541eb8" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Yachts and Mansions</a>. Elon Musk is <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32838589.290424/aHR0cHM6Ly9kYXZla2FycGYuc3Vic3RhY2=
+suY29tL3AvZWxvbi1tdXNrLWFuZC10aGUtaW5maW5pdGUtcmVidXk/607f07ceef4b8524a319a=
+23cB11ccf652" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> very annoying to play poker with</a>. Fake <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6L=
+y93d3cubnl0aW1lcy5jb20vMjAyMy8wOS8yNS9kaW5pbmcvbnljLWJlc3QtZmFrZS1zdGVha2hv=
+dXNlLmh0bWw/607f07ceef4b8524a319a23cB6069792d" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> steakhouse</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32838589.290424/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB958691da" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32838589.290424/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBd5440400" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Importantly, what this means is that the t=
+rade was a =E2=80=9Criskless principal=E2=80=9D trade and the customer paid=
+ the prices Citadel Securities paid. If Citadel Securities was buying 10,00=
+0 shares for its own inventory, and then at the end it sold all 10,000 to t=
+he customer at the price at the time, then it kind of did own those shares =
+along the way. But the way these trades worked is that Citadel Securities g=
+ot paid the actual prices it paid along the way, so at the time it bought 1=
+0 shares it *really had* already sold them at the price it paid (plus some =
+commissions, spread or whatever).</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] The delay was up to several hours, which m=
+eans that Citadel Securities knew its true position fairly quickly and, if =
+it needed to borrow shares before settlement, it could. Also, the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6L=
+y93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0Mi4yMDM/607f07ceef4b8524a319=
+a23cB2a0394a9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">naked short selling rules</a> include an exception f=
+rom the borrowing requirement for =E2=80=9Cshort sales effected by a market=
+ maker in connection with bona-fide market making activities in the securit=
+y,=E2=80=9D which I suspect <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/32838589.290424/aHR0cHM6Ly93d3cuZmlucmEub3JnL3J1bGVzLWd1aWRhbmNlL=
+2d1aWRhbmNlL3JlcG9ydHMvMjAyMy1maW5yYXMtZXhhbWluYXRpb24tYW5kLXJpc2stbW9uaXRv=
+cmluZy1wcm9ncmFtL3JlZ3VsYXRpb24tc2hv/607f07ceef4b8524a319a23cB4eff3798" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">would apply</a> to most of Citadel Securities=E2=80=99 trading.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I realize that in 2023 the analyst program=
+ is *really* training to quit and work in private equity, but senior invest=
+ment bankers have to come from *somewhere*, and it=E2=80=99s mostly from th=
+e ranks of junior investment bankers.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] A third might be =E2=80=9CI think that ESG=
+ funds will continue to become more popular, so more money will pile into t=
+hem, so in the short term good ESG stocks will go up, so I want to buy them=
+ now for a trade.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] If you think that ESG funds will become mo=
+re popular so in the short term good ESG stocks will go up and bad ESG stoc=
+ks will go down (previous footnote) then, again, short the bad ones now.</p=
+>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Short selling and long buying are <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aHR0cHM6L=
+y93d3cudGhlZGlmZi5jby9hcmNoaXZlL3RoZS1tYXJrZXQtZm9yLWxvbmctaWRlYXMtY2xlYXJz=
+LWJldHRlci10aGFuLXRoZS1tYXJrZXQtZm9yLXNob3J0LWlkZWFzLw/607f07ceef4b8524a319=
+a23cB7dddfdc6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">not fully symmetrical</a> and =E2=80=9CESG factors r=
+epresent long-term risks=E2=80=9D is arguably a good reason to buy good ESG=
+ stocks and hold them for the long term, but a bad reason to short bad ESG =
+stocks, because short selling involves more short-term risks.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB811a14f8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB61ac0c91" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB92ddcfe2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBbf8ce0a7" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBbc3897ed" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.2904=
+24/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB884a86c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32838589.290424/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC996797fa" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32838589.290424/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB066824d4" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32838589.290424/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe4f12347" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+ee4b97d" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32838589.290424/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+0363b0e" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjjuf1.683c/3f5f523f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_11342752_632167993.1695752819913--
+

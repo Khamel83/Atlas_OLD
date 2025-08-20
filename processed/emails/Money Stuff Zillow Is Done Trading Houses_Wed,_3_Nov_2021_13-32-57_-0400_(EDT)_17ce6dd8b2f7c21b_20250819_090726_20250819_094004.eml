@@ -1,0 +1,2083 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:128e:b0:14b:be0:2b5 with SMTP id dn14csp802777lkb;
+        Wed, 3 Nov 2021 10:34:11 -0700 (PDT)
+X-Received: by 2002:a17:907:72d0:: with SMTP id du16mr56480793ejc.226.1635960851000;
+        Wed, 03 Nov 2021 10:34:11 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1635960850; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Gmrm49UIWSHIo+FANxvBeu+c29LtlGVSrIlay9gOvShqrC6M3jg4McreiI+dRQgN/u
+         /kw9nmhRs1DqLooz01mN+hb0kwcVusy8QdZ0u5wCpm+BVNzQrEp2Gvt3uj3FnbqUMVvv
+         nwlQMeCM7db4jH+ZsLabm6u5BU9pfjHI92uDeTHgdH3HC4unBRcat9ZNeYAWvjRepsvh
+         OyM7td6Jl57yTX+My12rfLAWvYipZ0y4MA0iSQP8t4sKrrdiFOkdU5q7Swuntpz32R1O
+         j97p0nGl1EepouJQrO0Fxd/ZDDRCG8GpxklqoInx3qELg/ag+GElV6+btBEj2YZqqrzb
+         foyw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=vo0Lbs+qSGA/nAIDwsPPi85Uyfq3nWoVAw08/K2ExsM=;
+        b=iFJ5VpF42hR1HkBEMyMV7zT6mkrwnFPI+ZsFxuZVAZiKZunkmxpq8juHZ+8IuY1xiO
+         kgozUqVwatwCg4zkF+k8yfxx8+Bv7bNKJ3yaTmJO65eTdQpGlfkHt7lMMM+7HbhrmL6c
+         aFccYjBtbkW+noGDoJJa62G7LWsDYBR/vv3FO6499VrtIoO2CbU1Klttnw/Kyyz6vjgw
+         4xDmR6XryaqxLXUE/7ROBj8tLdOQfV3+woEisdgxkmC8UPvXNMPJ6HCCgKcNfgZiZIYG
+         rTC+XNhFi74Nyictuj5ZMABV75N6K5xKwl6NRbESd4airRhQE+1FBR+Cky0J3XxieH5F
+         okYg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vnTwDmtr;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g19sor1859274ejt.41.2021.11.03.10.34.10
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 03 Nov 2021 10:34:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vnTwDmtr;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=vo0Lbs+qSGA/nAIDwsPPi85Uyfq3nWoVAw08/K2ExsM=;
+        b=lX1tiiYylQNxu/yNLAu20RZ4boy92feIsr9pjt+M7LLGCYH+0DSToiNVogTjlHaqxw
+         C+/vunCkRbAE3kt4VhVPV6kbVGhujjjd7mJQ+fJjAq+94H0fppBfHllvNVGq/hwV3CcR
+         cDBcv+/vDzDNJcwaUsIMN7ai/yADxW1H20rbY9i6JHJ4f/SqEsavJJudlqECun1LlG5D
+         V9AJW9e/iLu6U6VI548CTD3TXW458tAHwPYE5SmAnq/UocyIKpGcKL3r8PhZDMkKr+gK
+         1WV3F6aqLrDVSu9jR48KgC4QNyFfg5MdFYOIz2Uj2VDR9X6fD9eJ7Sd01A8+5gviUq/A
+         9zvg==
+X-Gm-Message-State: AOAM532100WyLXWoB+euN8ujyhQX8OgfYixAqD1zuY+Z/c2oGOkOlMI3
+	xxA5vHon5daRuziEX7prZL2dEYbrJ8eHn+lf2o+H9u8Fywc/opnblzFY
+X-Received: by 2002:a17:906:f856:: with SMTP id ks22mr1674321ejb.367.1635960848449;
+        Wed, 03 Nov 2021 10:34:08 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2090:0:0:0:0:0 with SMTP id v16csp5204930ecn;
+        Wed, 3 Nov 2021 10:34:05 -0700 (PDT)
+X-Received: by 2002:a37:6387:: with SMTP id x129mr11244192qkb.269.1635960845429;
+        Wed, 03 Nov 2021 10:34:05 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1635960845; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=R4ytZkPSWegBheyMflJ0frMthKt4nvbMRm/BXn7b9N0xtdg+qBoS2BnZyByfclgS5k
+         i5zs8t5JAl0O+OUQTzRHKSaHcGB42TQmGAcoM7PA7JxUIVSyF4vJ0Qxg3M7X2OVnmSsr
+         oVEnVtVlqU/O6X5nw7EDoPK3avZrTipK6ykx0g0XFkJJQvksWIFTCU+K3MTR8+Nsd5Jw
+         5Jx1AMvwDykdTAcPf45aI//s0hwTR3OpBgoWrkDxhIG34B7ludOtgn1n8k/l/b4lxWiK
+         J87V3MxeQy6c/cK8d0Epx5NTT+9ElfbQa2FcVHBuD7+z8gwNqKyrj6TPrWd6P3h7f9eG
+         owKw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vo0Lbs+qSGA/nAIDwsPPi85Uyfq3nWoVAw08/K2ExsM=;
+        b=bqYzUQnVXO217cZePyPUsgTr8+ZYA7SH2uNtFt7hyAKRUzZzoAN+smC0Tt6kNUY08W
+         fbCgbKz7oVF/vhCa769gPRjk5aZmUbdnGjTSmGsBLKAOytpxCeYfbJLLWxpx/CYOFrQX
+         e04cng0SnaOC0IV8evQ3B7q2c5fSaeiKu/j2AE2VFekldGLYnP4fNpQ4r9qA+dIh5XRL
+         PKtU9Wula+S2GLx1rL/Gk9/3Z6YWOqxR5X2ITCrtgme88aXn8KFkAkWqZiOiCVr4lAP2
+         nVmxMHLRfBUjgUDwUFxHGpGlV99U41TtQYKad4whMCNFDdtLQAtPbGloB1/rk0Brdg1P
+         alqw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vnTwDmtr;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211103133257.25568325.265653@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211103133257.25568325.265653@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211103133257.25568325.265653@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w13sor1100617qkm.65.2021.11.03.10.34.05
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 03 Nov 2021 10:34:05 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20211103133257.25568325.265653@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwHrsVkyC68aQllrRHr3BTcb4G3IZrjdKbKpA5jXfhGeVdeNJr9g1Av9ghURC5AzQqm8qHzJwQ+DcFDOsXPZfvZ+UyG0wY=
+X-Received: by 2002:a37:6003:: with SMTP id u3mr8157469qkb.508.1635960844962;
+        Wed, 03 Nov 2021 10:34:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1635960844; cv=none;
+        d=google.com; s=arc-20160816;
+        b=YnRLnwTNv5OZNr794pdhyyIRZhDSfgiot6/5oqM4S+O44FfByECDxfTyL0qphjBzts
+         KoCmbBtzpibP9kt69Ovpi3AoOHpVuQMg4NVwmzp+DTqFy2bdiHlxDtjQFWzd6+MpH1Hi
+         HGXDOWfZ4dOQJFCjaiqK1bM/7HEU++d7L9Sgur5J++D4lEU964PIyMLFvohuALyoCarw
+         V/MA1tukX0FIUPjBSmOhH7WY2Y7bb06Fkxq1udBN20glfCaWg5ppZPxHqivjc8EaWaUI
+         8hnOP2W+fTfKPEk0O8TL1AP0/Csq0yHh2Zto5GMC1ITr26MnwZ0L1t04QQdPb+KSaErV
+         hMsQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=vo0Lbs+qSGA/nAIDwsPPi85Uyfq3nWoVAw08/K2ExsM=;
+        b=DHpy9637sEeSq9vRdEJAqgi1DeXdvehGX25nFZ2EO8ctLHqn+MyD3Qq72Kxv8FwqoH
+         vy4IPbR2So6HW14ez0aN+V9g2s2AvXma/gyyZHNRiVytTpyJJksks7IfEyUWky1yJE/7
+         eK61WrePmWedOSidTG2YFej330ii+8yQnCmPe90KpTNKcW1IaFXBEFDGyNMuLHoB7KQO
+         mRmUa6n6yIobMYCB3m366U6HtFrAC7E/7zNr/AoOle2mUWwSndFT86iulHntrfZA7B6t
+         ljKV3drBlpH/l+Z9KSFAg0Yomd2BsOAYqrYBZLxL2u7Si6/ra2fq9NBR4Y5+O7CQHFqB
+         PmOg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vnTwDmtr;
+       spf=pass (google.com: domain of delivery_20211103133257.25568325.265653@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211103133257.25568325.265653@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211103133257.25568325.265653@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id n20si347826qtl.1.2021.11.03.10.34.04
+        for <khamel83@gmail.com>;
+        Wed, 03 Nov 2021 10:34:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20211103133257.25568325.265653@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=9wH50NO1xNRSro3U1l1B5tRjB3j7V3sU8UM8+LkHROA=;
+ b=vnTwDmtr2MgxJ4X6ZPbYje2qCOei60GUrXCIcQby0yPRsvNHNLhtelABpuALMYwhcDnRKaJJKcfB
+   3YJtskE6mWEHsxX3AwnSkKFrCf1PBD771xwIXtNiTqHPPUDVSn0n3OfnGiQZonT4dPYJIXrkvkod
+   EZY4gaIttSr1usR0AEY=
+Received: from njmta-149.sailthru.com (173.228.155.149) by pmta29.sailthru.com id hgb40o2tem4l for <bloomberg@khamel.com>; Wed, 3 Nov 2021 13:34:04 -0400 (envelope-from <delivery_20211103133257.25568325.265653@mx.sailthru.com>)
+Received: from nj1-oddturquoise.flt (172.18.48.8) by njmta-149.sailthru.com id hgb40o1qqbs0 for <bloomberg@khamel.com>; Wed, 3 Nov 2021 13:32:57 -0400 (envelope-from <delivery_20211103133257.25568325.265653@mx.sailthru.com>)
+Date: Wed, 3 Nov 2021 13:32:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211103133257.25568325.265653@sailthru.com>
+Subject: Money Stuff: Zillow Is Done Trading Houses
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_108804645_46288931.1635960777220"
+Precedence: bulk
+X-Feedback-ID: 6358:25568325:campaign:sailthru
+X-TM-ID: 20211103133257.25568325.265653
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf80n9.5oz9/1761e65d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf80n9.5oz9/1761e65d>, <mailto:unsubscribe_20211103133257.25568325.265653@mx.sailthru.com>
+X-rpcampaign: stjko25568325
+
+------=_Part_108804645_46288931.1635960777220
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oops
+   =20
+ =20
+I do not want to say that losing a lot of money on a trade is=C2=A0as good=
+=C2=A0as making a lot of money on a trade. It is not. For one thing, if you=
+ make=C2=A0a lot of money on a trade, then you have money, which can be use=
+d to buy goods and services. For another thing, if you make a lot of money =
+on a trade, then you were at least in some rough sense=C2=A0correct=C2=A0ab=
+out the trade, and being correct often about big questions is a valuable sk=
+ill in finance and life.=C2=A0If you lose a lot of money on a trade, neithe=
+r of those things are true. And yet there is a certain prestige to it? Bein=
+g correct is not the whole ballgame. Being=C2=A0important=C2=A0is important=
+. =E2=80=9CImportant people like to deal with important people,=E2=80=9D th=
+e  Goldman Sachs commandment goes; =E2=80=9Care you one?=E2=80=9D The most =
+famous JPMorgan Chase & Co. trader of the last decade, the one JPMorgan tra=
+der whom many people know by name or at least by nickname, is Bruno Iksil, =
+ the London Whale, who is famous for losing $6.2 billion of the bank=E2=80=
+=99s money. Did that work out great for him? No, not really, not at all. Bu=
+t I suspect a lot of people in finance would buy him a drink if they ran in=
+to him. He is a celebrity in a way that thousands of traders who have never=
+ lost $6 billion are not.=C2=A0Also, as I have  written before, it is a rul=
+e of thumb in high finance that losing a lot of money on a trade can be goo=
+d for your career: It shows that someone has trusted you to take risk, and =
+that you took risk, and while it didn=E2=80=99t work out you probably learn=
+ed from your mistakes. That may not=C2=A0work at the celebrity level, but i=
+f you were just=C2=A0around=C2=A0the London Whale losses you probably have =
+some good war stories that any interviewer will appreciate.Anyway I predict=
+ a bright future for the house traders who lost $300 million trading houses=
+ for Zillow and  got not only themselves but=C2=A025% of the company=C2=A0f=
+ired:Zillow Group Inc. is pulling the plug on its tech-powered home-flippin=
+g operation, after an ambitious effort to transform the company collapsed w=
+hen its vaunted pricing algorithms proved unequal to the task.The company p=
+lans to take writedowns of as much as $569 million and reduce its workforce=
+ by 25% as it winds down the business in coming months, according to a stat=
+ement Tuesday. Zillow shares plunged as much as 11% to $76.22 in late tradi=
+ng.The decision to abandon home flipping comes as the company=E2=80=99s thi=
+rd-quarter results showed it lost more than $380 million in the operation, =
+called Zillow Offers. The business hit a major snag in recent months as Zil=
+low tweaked its algorithms to make more aggressive offers, causing it to ov=
+erpay for houses just as the heated U.S. market began to cool slightly.=C2=
+=A0With the company=E2=80=99s losses mounting, Chief Executive Officer Rich=
+ Barton said it had become too risky to scale the business in a U.S. housin=
+g market that has been running hot for well over a year during the pandemic=
+.=E2=80=9CFundamentally, we have been unable to predict future pricing of h=
+omes to a level of accuracy that makes this a safe business to be in,=E2=80=
+=9D Barton said on an earnings call.I say =E2=80=9Ctraders=E2=80=9D because=
+ that is sort of the conventional way to describe people who lose hundreds =
+of millions of dollars of their employers=E2=80=99 capital doing trades, bu=
+t I suppose the more correct description is, like, =E2=80=9Calgorithm desig=
+ners.=E2=80=9D Zillow did not hire a team of house traders to make gut-inst=
+inct-based calls on housing valuation; it hired a team of programmers to bu=
+ild a house-buying algorithm. And they did, and it was cool, but it lost $3=
+00 million last quarter and is now getting shut down.Also I should say that=
+ Zillow=E2=80=99s traders (or rather its algorithm) are not the sorts of tr=
+aders who are supposed to lose hundreds of millions of dollars. They were=
+=C2=A0not=C2=A0entrusted to take big risks, to swing for the fences; they d=
+id not aim for a massive profit, miss, and land on a massive loss instead. =
+They were market makers; they were supposed to buy at the bid, sell at the =
+offer, collect a spread for providing liquidity and make a steady profit. H=
+ere=E2=80=99s how Barton put it on the  earnings call yesterday[1]:When we =
+decided to take a big swing on Zillow offers 3.5 years ago, our aim was to =
+become a market maker not a market risk taker. And this was underpinned by =
+the need to forecast the price of homes accurately three to six months in t=
+he future.We used historical data and countless simulations to test this be=
+lief. We set unit economics targets that required us to stay within plus or=
+ minus 200 basis points in breakeven, holding ourselves accountable to thes=
+e levels publicly with you all.The central problem is that those first two =
+sentences sort of contradict each other. A market maker is someone who buys=
+ and sells an asset in order to profit from the spread, not someone who acc=
+urately forecasts the price of an asset six months from now. End users want=
+ to buy or sell stocks or bonds or houses, they want to do it quickly at a =
+predictable price, so they go to a market maker who will provide that servi=
+ce. The market maker buys from sellers and sells from buyers and does its b=
+est to match them up; ideally it buys an asset from a seller and resells it=
+ to a buyer within a fairly short time. It collects a =E2=80=9Cspread=E2=80=
+=9D from the buyer and seller: It buys from the buyer at a bit less than th=
+e fair market price, and sells to the seller at a bit more than the fair ma=
+rket price, because it is providing them a valuable service, the service of=
+ =E2=80=9Cimmediacy=E2=80=9D or =E2=80=9Cliquidity,=E2=80=9D the service of=
+ always being available to buy or sell.=C2=A0In pure theory the market make=
+r makes all of its money from the spread; it is so perfectly hedged, or tur=
+ns over its inventory so frequently, that it doesn=E2=80=99t care if the pr=
+ices of stocks or bonds or houses go=C2=A0up or down. In practice this is i=
+mpossible and all market makers have some amount of inventory risk; at any =
+moment they are long or short some amount of assets, and if prices move the=
+y will make or lose money. Still, to the extent=C2=A0you are a pure market =
+maker, you try to minimize that.[2]=C2=A0In the stock market, high-frequenc=
+y electronic market makers really do turn over their inventory so often tha=
+t they can reliably collect spreads without worrying too much about price m=
+ovements. Famously Virtu Financial Inc., one of those market makers,=C2=A0c=
+an  go years without a down day: It makes money (from spreads) every single=
+ day, whether the stock market=C2=A0goes up or=C2=A0down. It is trading sto=
+cks all day, but in some important sense it is not betting on stock prices.=
+=C2=A0But in the house business you can=E2=80=99t generally buy a house in =
+the morning and sell it in the afternoon. You sign a contract to buy a hous=
+e in the morning, then you do an inspection and title search and stuff, the=
+n a few weeks later you close on the house and deliver the money, then you =
+spruce up the house a bit, then you wait for a buyer to come in =E2=80=94=
+=C2=A0which takes, not seconds as it does in the stock market, but days or =
+weeks or months =E2=80=94=C2=A0then you show the house to the buyer, then y=
+ou sign a contract to sell it, then they=C2=A0do an inspection and title se=
+arch and stuff, then you wait around for=C2=A0them=C2=A0to get a mortgage, =
+then a few months later you close on the sale.And meanwhile the price of ho=
+uses has gone up or down, and the effect of that dwarfs the effect of your =
+spread. This past quarter Zillow wrote down its inventory of houses by $304=
+ million, to $3.8 billion,=C2=A0a loss of something like 750 basis points, =
+way worse than the 200 basis point spread it was targeting.[3] But the quar=
+ter before that =E2=80=94=C2=A0April through June of 2021 =E2=80=94=C2=A0it=
+ had a gain of 576 basis points. =E2=80=9CClearly some portion of the holdi=
+ng costs and a smaller portion of the renovation costs likely benefited fro=
+m the strong housing market,=E2=80=9D Barton said at the time: House prices=
+ went up, so Zillow, which owned a bunch of houses, made more money than it=
+ planned to. As Barton said on yesterday=E2=80=99s call, both results are a=
+ problem:We've been unable to accurately forecast future home prices at dif=
+ferent times in both directions by much more than we modeled as possible. W=
+ith Zillow Offers unit economics on a quarterly basis swinging from plus 57=
+6 basis points in Q2 to an expected minus 502 to minus 700 basis points in =
+Q4. Put simply our observed error rate has been far more volatile than we e=
+ver expected possible. And makes us look far more like a leveraged housing =
+trader than the market maker we set out to be.But that=E2=80=99s sort of in=
+herent in the model. The model is =E2=80=9Cpredict where housing prices wil=
+l be in three to six months, buy houses for prices that will be profitable =
+if those predictions are right, and oh yeah probably get some extra juice f=
+or providing liquidity to buyers and sellers.=E2=80=9D As opposed to the st=
+andard high-frequency market-maker model in the stock market, which is some=
+thing close to =E2=80=9Cbuy at the bid, sell at the ask, and do both of tho=
+se things so quickly that the stock price doesn=E2=80=99t have time to move=
+.=E2=80=9DNow this does not mean that Zillow=E2=80=99s business is a bad bu=
+siness. If you build an algorithm that is really good at predicting house p=
+rices six months out, you can probably make a lot of money buying and resel=
+ling houses. (Frankly, if you build an algorithm that is pretty good at est=
+imating current=C2=A0house prices, and you have a lot of capital, you can p=
+robably do okay buying and reselling houses, because most of the time house=
+ prices seem to go up. You will have some bad quarters though.) It does mea=
+n, though, that it=E2=80=99s a volatile, risky, capital-intensive =E2=80=9C=
+leveraged housing trader=E2=80=9D business, not a market-making one.I have =
+been  writing about Zillow Offers  a lot over the past  few weeks, because =
+(1) it is an interesting model that pushes the envelope of what sorts of as=
+sets can be bought and sold using algorithmic market makers and=C2=A0(2) it=
+ has been falling apart very publicly. We have talked about various boring =
+old-fashioned objections to applying algorithmic market making to houses. F=
+or instance, I  have written that houses are less legible to trading algori=
+thms than stocks or bonds are:Houses are like bonds =E2=80=94 there are a l=
+ot of them, they=E2=80=99re all different, they each have idiosyncratic wei=
+rd issues, the trade size tends to be in the six figures, no individual hou=
+se trades all that often =E2=80=94 but much more so. ...=C2=A0Most of the f=
+acts about a house are, like, the roof is in rough shape, or there=E2=80=99=
+s radon in the basement, or the wallpaper is ugly; they are fuzzy and subje=
+ctive and complicated and not all that computer-legible.I  have written tha=
+t the time scale of the housing market makes this business risky and capita=
+l-intensive:If you buy 100 houses you=E2=80=99re out tens of millions of do=
+llars, and if you get the price wrong you won=E2=80=99t find out for the mo=
+nths it takes you to resell them. Meanwhile you keep buying houses using th=
+e wrong pricing algorithm.And  that those errors tend to all be in the same=
+ direction at the same time:In particular it will sometimes get it wrong fo=
+r a while, all in the same direction. It will think =E2=80=9Chouse prices a=
+re going up=E2=80=9D and pay a lot for thousands of houses, and then it won=
+=E2=80=99t be able to sell them, and it will think =E2=80=9Coops house pric=
+es are going down=E2=80=9D and try to dump all those houses quick in a fire=
+ sale.Again, these are boring objections, and I=E2=80=99d have loved it if =
+Zillow was like =E2=80=9Cno actually, really good artificial intelligence m=
+odels solve all those problems, a robot can do market-making for houses, th=
+e future is here.=E2=80=9D That just would have been cool! I like the futur=
+e! If your algorithm is really good and you have enough capital, then maybe=
+ six months of house trading for you is like six minutes of stock trading f=
+or Virtu and it all sort of works out.But, no, in the event it=E2=80=99s a =
+risky speculative business and Zillow didn=E2=80=99t have the stomach for i=
+t.=C2=A0Barton said on the call:Fundamentally, we have been unable to predi=
+ct future pricing of homes to a level of accuracy that makes this a safe bu=
+siness to be in. ...=C2=A0And we=E2=80=99ve seen all this volatility in bot=
+h directions, right now in the wrong direction. And we're still at a scale =
+that is small compared to what it needs to be. And so as we put our minds i=
+n the state of, all right, we've got these new assumptions that we'd be nai=
+ve not to assume will happen again in the future, we pump them into the mod=
+el and the model cranks out a business that has a high likelihood, at some =
+point, of putting the whole company at risk, not just the business, but in =
+the more normal case, just causes a ton of volatility in earnings, which is=
+ not a great look for a public company.Also, I=E2=80=99ve been writing abou=
+t Zillow Offers a lot because it is a big brand name and falling apart in p=
+ublic, but there are other companies that do this.  They still do it:It=E2=
+=80=99s become clear that Zillow misjudged the housing market, making more =
+aggressive offers just as competitors Opendoor Technologies Inc. and Offerp=
+ad Solutions Inc. were growing more cautious.Opendoor, which went public la=
+st year through a merger with one of Chamath Palihapitiya=E2=80=99s blank-c=
+heck companies, saw its shares drop 15% on Tuesday after the news that Zill=
+ow was selling 7,000 homes raised questions about the iBuyer business model=
+.The company it in a statement Tuesday it was =E2=80=9Cwell-positioned to m=
+eet consumer demand.=E2=80=9D =C2=A0=E2=80=9CWe are open for business,=E2=
+=80=9D a spokesman for the company said.Ben Thompson has a=C2=A0good column=
+ today about Zillow Offers; he writes about the competition:Unlike Zillow, =
+Opendoor was built from day one to turn over houses, and while the company =
+doesn=E2=80=99t release earnings until next week, its public posture is tha=
+t it remains open for business.What is also worth noting is that Opendoor h=
+as two more advantages that come from being a startup laser-focused on home=
+-buying: first, while Zillow started with a Zestimate tool that was about a=
+ttracting customers to the top of the real estate funnel, and thus only eve=
+r had to be directionally correct, Opendoor knew from day one its entire fa=
+te as a business rested on its model=E2=80=99s accuracy; it=E2=80=99s defin=
+itely plausible to imagine its accuracy being much better as a result.Secon=
+d, Opendoor has a dramatically larger appetite for risk than Zillow does. Y=
+es, it is a public company now, but it is a public company whose entire bus=
+iness is home-buying; investors know what they are getting into. And, by ex=
+tension, Opendoor has no choice but to make the model work: they don=E2=80=
+=99t have a profitable Marketplace business to fall back on.Opendoor=E2=80=
+=99s profit margin=C2=A0on its houses was=C2=A010.4% in the second quarter,=
+ up from 9.8% in the first quarter and 1.6% in the second quarter of 2020.[=
+4]=C2=A0Presumably in the third quarter =E2=80=94=C2=A0a worse quarter for =
+home price appreciation, as Zillow discovered =E2=80=94 it will be lower. T=
+hat's fine! If you invest in a company that is in the business of being a h=
+ousing trader, you will make a lot of money in quarters when house prices g=
+o up, and you will lose money in quarters where house prices go down. But i=
+f you were hoping for a steadily profitable market maker, that is harder to=
+ deliver.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Squid Game Coin
+   =20
+ =20
+Here are three sentences that I found on the internet:SQUID implements an i=
+nnovative anti-dump mechanism where buying in the market will release selli=
+ng credits at a rate of 2:1.The maximum amount of SQUID that can be sold is=
+ half of the total buying value in the pool. When the credit in the pool is=
+ depleted, you can=E2=80=99t sell any more.That=C2=A0is=C2=A0an innovative =
+anti-dump mechanism! Whenever stocks or cryptocurrencies go up, someone wil=
+l half-joke that the explanation is =E2=80=9Cmore buyers than sellers.=E2=
+=80=9D If you just=C2=A0build into the design of your cryptocurrency=C2=A0t=
+hat there always have to be twice as many buyers as sellers, it will always=
+ go up.Obviously that sentence makes no sense, and SQUID =E2=80=94=C2=A0the=
+ Squid Game Token =E2=80=94=C2=A0did not always go up during its short life=
+. Well, actually it did =E2=80=94=C2=A0=E2=80=9CIt surged more than 230,000=
+% in the past week to $2,861.80,=E2=80=9D  says Bloomberg News =E2=80=94=C2=
+=A0until its anonymous developers apparently stole all the=C2=A0money; then=
+ it went down. The whole thing is so stupid and overdetermined that I canno=
+t bear to write about it; if you lost money on SQUID you should just come t=
+o my house and give me your wallet because you should not be allowed to use=
+ money anymore. =E2=80=9CNew Squid Game Cryptocurrency Launches as Obvious =
+Scam,=E2=80=9D reported Matt Novak at Gizmodo last week, before it crashed,=
+ listing red flags like =E2=80=9CNetflix=E2=80=99s Squid Game is the most p=
+opular streaming show in the world right now, so it makes sense that scamme=
+rs would use the name without permission,=E2=80=9D and =E2=80=9Cthe website=
+ for the Squid Game crypto even includes a fake endorsement from billionair=
+e Elon Musk,=E2=80=9D and =E2=80=9Cthe single largest red flag is the fact =
+that people can put money in, but can=E2=80=99t take it out.=E2=80=9D Accor=
+ding to the now-disappeared white paper there was purportedly a mechanism t=
+o take money out by (1) spending a lot of SQUID coins to play a=C2=A0game, =
+(2) winning the game, (3) collecting some other related cryptocurrency and =
+then (4) being allowed to sell your SQUID freely if you had that currency. =
+But, come on, instead they just stole all the money.I do, however, want to =
+talk about that anti-dumping mechanism, which I love. It is a basic fact ab=
+out financial markets that if lots of people want to buy an asset and nobod=
+y wants to sell it, the price will go up. (Strictly, if=C2=A0nobody=C2=A0wa=
+nts to sell it, there will be no trades and no price, but if=C2=A0very few =
+people very reluctantly=C2=A0sell it then there will be some trades and the=
+ price will go up.) In general this is sort of an epiphenomenon of some mor=
+e fundamental reason that=C2=A0people want to buy it.=C2=A0=E2=80=9CMore bu=
+yers than sellers=E2=80=9D is a=C2=A0joke, a=C2=A0non-explanation; if someo=
+ne asks you why=C2=A0Tesla stock=C2=A0went up and you say =E2=80=9Cmore buy=
+ers than sellers=E2=80=9D you are just being annoying and obtuse.[5]But in =
+modern crypto and meme-stock markets this basic fact has been distilled int=
+o a fundamental belief, free of any underlying reason. =E2=80=9CIf we all b=
+uy this thing and don=E2=80=99t sell it, the price will go up, and then we=
+=E2=80=99ll be rich=E2=80=9D is a belief that is =E2=80=A6=C2=A0sort of log=
+ical? =E2=80=A6=C2=A0and that can be applied to anything. =E2=80=9CIf we al=
+l buy GameStop Corp. stock,=E2=80=9D etc.; there the belief went by the nam=
+e =E2=80=9Cdiamond hands.=E2=80=9D =E2=80=9CIf we all buy Bitcoin,=E2=80=9D=
+ etc.; there it goes by the name =E2=80=9CHODL.=E2=80=9D There is a new gen=
+eration of crypto stuff like Olympus DAO, where it goes by the name =E2=80=
+=9C(3,3),=E2=80=9D a vague wave in the direction of game theory: =E2=80=9C(=
+3,3) is the idea that, if everyone cooperated in Olympus, it would generate=
+ the greatest gain for everyone (from a game theory standpoint).=E2=80=9D =
+=E2=80=9CCooperate=E2=80=9D in that sentence just means buying=C2=A0a lot a=
+nd never selling.=C2=A0This belief has a basic mechanical=C2=A0problem, whi=
+ch is that if you all buy the thing and don=E2=80=99t sell it and become ri=
+ch, you can=E2=80=99t actually=C2=A0use=C2=A0your riches without selling th=
+e thing. Sometimes this takes the shape of a pump and dump: People buy the =
+thing, it goes up, they get rich on paper, they try to cash out, it crashes=
+, some of them are left holding the bag. Sometimes, though, it takes the sh=
+ape of, like, mass adoption and stable wealth? If you bought a lot of Bitco=
+ins at $2 you are very rich now and you can probably cash out enough wealth=
+ to buy a yacht without really affecting the price of Bitcoin. Bitcoin just=
+ kind of made it.The weirdest thing=C2=A0that  I think about is that=C2=A0G=
+ameStop=C2=A0might also have kind of made it? If you got rich on GameStop y=
+ou can sell your GameStop stock and be rich and the price might be unaffect=
+ed either by your selling or by the underlying cash flows of GameStop the c=
+ompany. That is much weirder than Bitcoin because GameStop is a company. Bu=
+t the point is that when I say that this belief=C2=A0can be applied to anyt=
+hing, I also=C2=A0mean that it might=C2=A0work for anything. Like, why not,=
+ mass societal adoption of GameStop as a store of value, stranger things ha=
+ve happened though I cannot actually think of one.SQUID did not make it, ob=
+viously. But its marketing is instructive. The marketing was =E2=80=9Cpeopl=
+e can buy it but they can=E2=80=99t sell it.=E2=80=9D Skeptics, correctly, =
+interpreted this as a mark of a scam. But it was marketed as a=C2=A0good th=
+ing, an innovative way to design a coin that would always go up because peo=
+ple would buy and not sell it. There is a lot of demand for that!
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SPAC Stuff
+   =20
+ =20
+One theory is that the point of a special purpose acquisition company is th=
+at you can go public even with no customers and no revenue, if you can put =
+together an attractive PowerPoint saying that=C2=A0in 2023=C2=A0you=E2=80=
+=99ll have lots of customers and billions of dollars of revenue. Investors =
+will focus on the exciting 2023 revenue numbers and not worry about the zer=
+oes for historical revenue. There are some flaws in this theory. The invest=
+ors might not believe you, for one thing; for another thing, you=E2=80=99re=
+  not=C2=A0really=C2=A0allowed to just make up whatever projections you wan=
+t when marketing your SPAC. But neither is this theory entirely wrong. You =
+have=C2=A0some=C2=A0leeway to make projections that might not come true, an=
+d at least some investors at least sometimes  believe optimistic SPAC proje=
+ctions. So if you have no revenue now, you can say you=E2=80=99ll have lots=
+ in the future, and maybe you=E2=80=99ll be able to go public via SPAC and =
+raise money and get rich and not get in trouble.These guys did it wrong:The=
+ Securities and Exchange Commission [last week] announced a $38.8 million s=
+ettlement of charges against Akazoo S.A., a purported music streaming busin=
+ess based in Greece, for allegedly defrauding investors out of tens of mill=
+ions of dollars in connection with a 2019 special purpose acquisition compa=
+ny (SPAC) business combination. Akazoo's assets were previously frozen as t=
+he result of an emergency action filed by the SEC in September 2020.Accordi=
+ng to the SEC's complaint, Akazoo represented to investors that it was a ra=
+pidly growing music streaming company focused on emerging markets with more=
+ than 38.2 million registered users, 4.6 million paying subscribers, and ov=
+er $120 million in annual revenue. In actuality, the complaint alleged that=
+ the company had no paying users and, at most, negligible revenue. Akazoo a=
+llegedly leveraged these misrepresentations to enter into a SPAC business c=
+ombination in 2019, in which the company received nearly $55 million from t=
+he SPAC and other investors. According to the complaint, after the business=
+ combination, Akazoo became listed on Nasdaq and proceeded to defraud retai=
+l investors by misrepresenting, among other things, that it had earned tens=
+ of millions of dollars in revenue during 2019 and increased its paying sub=
+scriber base by 28% year-over-year. In reality, the company allegedly conti=
+nued to have limited operations, no subscribers, and marginal revenue, all =
+while depleting more than $20 million of investor funds.Why? Don=E2=80=99t =
+say =E2=80=9Cwe had $120 million in revenue last year,=E2=80=9D say =E2=80=
+=9Cwe will have $240 million in revenue next year.=E2=80=9D That=E2=80=99s =
+a better pitch =E2=80=94=C2=A0240 is more than 120 =E2=80=94=C2=A0and also,=
+ like, somewhat more legal-ish? Ish? Boy is this not legal advice, but if y=
+ou=E2=80=99re just making up revenue anyway you=E2=80=99re not really looki=
+ng for legal advice.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+ Papa John Is Still Obsessed With Papa John=E2=80=99s. (Also the art at his=
+ home includes a fresco of =E2=80=9CMoses getting circumcised=E2=80=9D and =
+=E2=80=9Ca 16-foot-tall sculpture of two eagles descending from the sky, ma=
+ting.=E2=80=9D) Bankers Committing to =E2=80=98 Net Zero=E2=80=99 Don=E2=80=
+=99t Agree on What It Means.=C2=A0Banks=E2=80=99 green pledges under scruti=
+ny. Bond Investors Challenge Wall Street Greenwashing. Gulf states push for=
+ net zero but warn =E2=80=98we can=E2=80=99t just switch off the tap.=E2=80=
+=99 Recovering the Moral Economy Foundations of the Sherman Act.=C2=A0Justi=
+ce Department Sues to Block Penguin Random House=E2=80=99s Acquisition of S=
+imon & Schuster. Wall Street Legend  Perelman=E2=80=99s Family Trust Tied t=
+o Mystery Loans. Goldman Bumps Up  Managing Director Class to Biggest Ever.=
+ Startups Promote Female Employees in Rush to  Get Women on Boards. Just Wh=
+en You Think  YOLO Trading Is Done, a New Meme Comes Along. Apple polishing=
+ cloth review. =E2=80=9CWhat is the Mark Zuckerberg aesthetic?=E2=80=9D Eri=
+c Adams  Mingles With CEOs, Rappers in NoHo After Win. Eric Adams drove his=
+ car on the sidewalk.=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0=
+in handy email form, right in your inbox, please=C2=A0subscribe at this lin=
+k. Or you can subscribe to Money Stuff and other great Bloomberg newsletter=
+s here. Thanks![1] I have made a few modifications to the Bloomberg transcr=
+ipt where the Seeking Alpha transcript seemed more plausible.=C2=A0[2] Earl=
+y discussions of the=C2=A0Volcker Rule, which forbids banks from doing =E2=
+=80=9Cproprietary trading=E2=80=9D but allows them to do =E2=80=9Cmarket ma=
+king,=E2=80=9D placed some emphasis on this distinction: If your desk makes=
+ most of its money from price moves, that=E2=80=99s bad prop trading; if it=
+ makes most of its money from spreads, that=E2=80=99s good market making. T=
+he Financial Stability Oversight Council, for instance, said in 2011 that =
+=E2=80=9CUnderstanding the source of a market maker=E2=80=98s profits would=
+ ordinarily provide a strong indication of whether the firm isprofiting fro=
+m bona fide market making or proprietary trading. Market making activities =
+should be characterized by rapid inventory turnover and minimal profits on =
+inventory held, while proprietary trading activities should evidence more m=
+odest turnover with the bulk of profits derived from inventory appreciation=
+.=E2=80=9D (The council=C2=A0added that this is hard to measure, and the ac=
+tual Volcker Rule as ultimately implemented is not especially dogmatic abou=
+t it.)[3] That is, $3,758 million=C2=A0plus the $304.4 million writedown eq=
+uals a cost of inventory of $4,062 million; the writedown is about 7.5% of =
+that. This math is not particularly exact because houses move in and out of=
+ inventory, etc., but it=E2=80=99s the right ballpark.[4] The numbers I am =
+citing here are =E2=80=9CContribution Margin After Interest,=E2=80=9D rough=
+ly a measure of how much Opendoor got from selling houses minus (1) how muc=
+h it paid for them, (2) how much it paid to renovate and sell them and (3) =
+how much it paid in interest and other costs to hold on to them. See pages =
+36-38 of last quarter=E2=80=99s 10-Q.[5] I should say that there are two ob=
+jections to =E2=80=9Cmore buyers than sellers.=E2=80=9D One is that it is a=
+ non-explanation: When people ask why the market went up, they want you to =
+give them a *reason*, and =E2=80=9Cmore buyers than sellers=E2=80=9D is jus=
+t a tautological rephrasing of =E2=80=9Cthe market went up.=E2=80=9D The ot=
+her objection, though, is that it isn=E2=80=99t true: Every time a share of=
+ stock or a cryptocurrency trades, there is one buyer and one seller, so th=
+ere are never =E2=80=9Cmore buyers than sellers.=E2=80=9D (Or there might b=
+e =E2=80=94=C2=A0100 people might each buy one share from one person who se=
+lls 100 shares =E2=80=94=C2=A0but in a trivial and irrelevant way.) In gene=
+ral you sort of know what =E2=80=9Cmore buyers than sellers=E2=80=9D means,=
+ it means that there is more buying demand, more bids, more enthusiasm from=
+ buyers than sellers, etc. But SQUID=E2=80=99s anti-dumping mechanism *lite=
+rally* required more buys than sells. This is impossible, of course, which =
+I suppose is why people couldn=E2=80=99t sell.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf80n9.5oz9/a23c9af0.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_108804645_46288931.1635960777220
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB195463c8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb6070f99"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cCee2abc8f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oops</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I do not want to say that losing a lot=
+ of money on a trade is=C2=A0<em>as good=C2=A0</em>as making a lot of money=
+ on a trade. It is not. For one thing, if you make=C2=A0a lot of money on a=
+ trade, then you have money, which can be used to buy goods and services. F=
+or another thing, if you make a lot of money on a trade, then you were at l=
+east in some rough sense=C2=A0<em>correct=C2=A0</em>about the trade, and be=
+ing correct often about big questions is a valuable skill in finance and li=
+fe.=C2=A0</p><p style=3D"margin: 16px 0;">If you lose a lot of money on a t=
+rade, neither of those things are true. And yet there is a certain prestige=
+ to it? Being correct is not the whole ballgame. Being=C2=A0<em>important=
+=C2=A0</em>is important. =E2=80=9CImportant people like to deal with import=
+ant people,=E2=80=9D the <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMTktMDMtMDYvYmUtY2FyZWZ1bC13ZWFyaW5nLWplYW5zLWF0LWdvbGRtYW4_Y21waWQ=
+9QkJEMTEwMzIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjExMTAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cBf1253bac" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Goldman Sachs commandment</a> goes; =E2=80=9Car=
+e you one?=E2=80=9D The most famous JPMorgan Chase &amp; Co. trader of the =
+last decade, the one JPMorgan trader whom many people know by name or at le=
+ast by nickname, is Bruno Iksil, <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9xdWlja3Rh=
+a2UvdGhlLWxvbmRvbi13aGFsZT9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7a916291" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> the London Wh=
+ale</a>, who is famous for losing $6.2 billion of the bank=E2=80=99s money.=
+ Did that work out great for him? No, not really, not at all. But I suspect=
+ a lot of people in finance would buy him a drink if they ran into him. He =
+is a celebrity in a way that thousands of traders who have never lost $6 bi=
+llion are not.=C2=A0</p><p style=3D"margin: 16px 0;">Also, as I have <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGF=
+zLWEtdG91Z2gtZ3JlZW4tYWN0aXZpc3Q_Y21waWQ9QkJEMTEwMzIxX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTAzJnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB87859cb7" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> written=
+ before</a>, it is a rule of thumb in high finance that losing a lot of mon=
+ey on a trade can be good for your career: It shows that someone has truste=
+d you to take risk, and that you took risk, and while it didn=E2=80=99t wor=
+k out you probably learned from your mistakes. That may not=C2=A0work at th=
+e celebrity level, but if you were just=C2=A0<em>around=C2=A0</em>the Londo=
+n Whale losses you probably have some good war stories that any interviewer=
+ will appreciate.</p><p style=3D"margin: 16px 0;">Anyway I predict a bright=
+ future for the house traders who lost $300 million trading houses for Zill=
+ow and <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.26=
+5653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDIvem=
+lsbG93LXNodXRzLWRvd24taG9tZS1mbGlwcGluZy1idXNpbmVzcy1hZnRlci1yYWNraW5nLXVwL=
+Wxvc3Nlcz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9z=
+b3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY=
+/607f07ceef4b8524a319a23cBf13e03bb" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> got not only themselves but=C2=
+=A0<em>25% of the company=C2=A0</em>fired</a>:</p><blockquote><p style=3D"m=
+argin: 16px 0;">Zillow Group Inc. is pulling the plug on its tech-powered h=
+ome-flipping operation, after an ambitious effort to transform the company =
+collapsed when its vaunted pricing algorithms proved unequal to the task.</=
+p><p style=3D"margin: 16px 0;">The company plans to take writedowns of as m=
+uch as $569 million and reduce its workforce by 25% as it winds down the bu=
+siness in coming months, according to a statement Tuesday. Zillow shares pl=
+unged as much as 11% to $76.22 in late trading.</p><p style=3D"margin: 16px=
+ 0;">The decision to abandon home flipping comes as the company=E2=80=99s t=
+hird-quarter results showed it lost more than $380 million in the operation=
+, called Zillow Offers. The business hit a major snag in recent months as Z=
+illow tweaked its algorithms to make more aggressive offers, causing it to =
+overpay for houses just as the heated U.S. market began to cool slightly.=
+=C2=A0</p><p style=3D"margin: 16px 0;">With the company=E2=80=99s losses mo=
+unting, Chief Executive Officer Rich Barton said it had become too risky to=
+ scale the business in a U.S. housing market that has been running hot for =
+well over a year during the pandemic.</p><p style=3D"margin: 16px 0;">=E2=
+=80=9CFundamentally, we have been unable to predict future pricing of homes=
+ to a level of accuracy that makes this a safe business to be in,=E2=80=9D =
+Barton said on an earnings call.</p></blockquote><p style=3D"margin: 16px 0=
+;">I say =E2=80=9Ctraders=E2=80=9D because that is sort of the conventional=
+ way to describe people who lose hundreds of millions of dollars of their e=
+mployers=E2=80=99 capital doing trades, but I suppose the more correct desc=
+ription is, like, =E2=80=9Calgorithm designers.=E2=80=9D Zillow did not hir=
+e a team of house traders to make gut-instinct-based calls on housing valua=
+tion; it hired a team of programmers to build a house-buying algorithm. And=
+ they did, and it was cool, but it lost $300 million last quarter and is no=
+w getting shut down.</p><p style=3D"margin: 16px 0;">Also I should say that=
+ Zillow=E2=80=99s traders (or rather its algorithm) are not the sorts of tr=
+aders who are supposed to lose hundreds of millions of dollars. They were=
+=C2=A0<em>not=C2=A0</em>entrusted to take big risks, to swing for the fence=
+s; they did not aim for a massive profit, miss, and land on a massive loss =
+instead. They were market makers; they were supposed to buy at the bid, sel=
+l at the offer, collect a spread for providing liquidity and make a steady =
+profit. Here=E2=80=99s how Barton put it on the <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly9ibGlua3MuYmxvb21iZ=
+XJnLmNvbS9uZXdzL3N0b3JpZXMvUjFZVEZWR0pDRDFHP2NtcGlkPUJCRDExMDMyMV9NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTE=
+wMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb16fa484" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> earnings call</a> yesterday[1]:</p><blockquote><p style=3D"margin: 16p=
+x 0;">When we decided to take a big swing on Zillow offers 3.5 years ago, o=
+ur aim was to become a market maker not a market risk taker. And this was u=
+nderpinned by the need to forecast the price of homes accurately three to s=
+ix months in the future.</p><p style=3D"margin: 16px 0;">We used historical=
+ data and countless simulations to test this belief. We set unit economics =
+targets that required us to stay within plus or minus 200 basis points in b=
+reakeven, holding ourselves accountable to these levels publicly with you a=
+ll.</p></blockquote><p style=3D"margin: 16px 0;">The central problem is tha=
+t those first two sentences sort of contradict each other. A market maker i=
+s someone who buys and sells an asset in order to profit from the spread, n=
+ot someone who accurately forecasts the price of an asset six months from n=
+ow. End users want to buy or sell stocks or bonds or houses, they want to d=
+o it quickly at a predictable price, so they go to a market maker who will =
+provide that service. The market maker buys from sellers and sells from buy=
+ers and does its best to match them up; ideally it buys an asset from a sel=
+ler and resells it to a buyer within a fairly short time. It collects a =E2=
+=80=9Cspread=E2=80=9D from the buyer and seller: It buys from the buyer at =
+a bit less than the fair market price, and sells to the seller at a bit mor=
+e than the fair market price, because it is providing them a valuable servi=
+ce, the service of =E2=80=9Cimmediacy=E2=80=9D or =E2=80=9Cliquidity,=E2=80=
+=9D the service of always being available to buy or sell.=C2=A0</p><p style=
+=3D"margin: 16px 0;">In pure theory the market maker makes all of its money=
+ from the spread; it is so perfectly hedged, or turns over its inventory so=
+ frequently, that it doesn=E2=80=99t care if the prices of stocks or bonds =
+or houses go=C2=A0up or down. In practice this is impossible and all market=
+ makers have some amount of inventory risk; at any moment they are long or =
+short some amount of assets, and if prices move they will make or lose mone=
+y. Still, to the extent=C2=A0you are a pure market maker, you try to minimi=
+ze that.[2]=C2=A0In the stock market, high-frequency electronic market make=
+rs really do turn over their inventory so often that they can reliably coll=
+ect spreads without worrying too much about price movements. Famously Virtu=
+ Financial Inc., one of those market makers,=C2=A0can <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTUtMDItMjAvaGlnaC1mcmVxdWVuY3ktdHJhZGVyLX=
+ZpcnR1LWV4dGVuZHMtbmVhcmx5LXVuYmxlbWlzaGVkLXN0cmVhaz9jbXBpZD1CQkQxMTAzMjFfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb702a8=
+2b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> go years without a down day</a>: It makes money (from spreads=
+) every single day, whether the stock market=C2=A0goes up or=C2=A0down. It =
+is trading stocks all day, but in some important sense it is not betting on=
+ stock prices.=C2=A0</p><p style=3D"margin: 16px 0;">But in the house busin=
+ess you can=E2=80=99t generally buy a house in the morning and sell it in t=
+he afternoon. You sign a contract to buy a house in the morning, then you d=
+o an inspection and title search and stuff, then a few weeks later you clos=
+e on the house and deliver the money, then you spruce up the house a bit, t=
+hen you wait for a buyer to come in =E2=80=94=C2=A0which takes, not seconds=
+ as it does in the stock market, but days or weeks or months =E2=80=94=C2=
+=A0then you show the house to the buyer, then you sign a contract to sell i=
+t, then they=C2=A0do an inspection and title search and stuff, then you wai=
+t around for=C2=A0them=C2=A0to get a mortgage, then a few months later you =
+close on the sale.</p><p style=3D"margin: 16px 0;">And meanwhile the price =
+of houses has gone up or down, and the effect of that dwarfs the effect of =
+your spread. This past quarter Zillow <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0F=
+yY2hpdmVzL2VkZ2FyL2RhdGEvMTYxNzY0MC8wMDAxNjE3NjQwMjEwMDAwODcvei0yMDIxMDkzMC=
+5odG0jaWFmODVjNzgxMzU3OTQ5ZWNhOGNiOTg0NjhiMDExZTg4XzM0/607f07ceef4b8524a319=
+a23cB79aa4ad3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">wrote down its inventory of houses</a> by $304 milli=
+on, to $3.8 billion,=C2=A0a loss of something like 750 basis points, way wo=
+rse than the 200 basis point spread it was targeting.[3] But the quarter be=
+fore that =E2=80=94=C2=A0April through June of 2021 =E2=80=94=C2=A0it had a=
+ gain of 576 basis points. =E2=80=9CClearly some portion of the holding cos=
+ts and a smaller portion of the renovation costs likely benefited from the =
+strong housing market,=E2=80=9D Barton <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/25568325.265653/aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJnLmNvbS=
+9uZXdzL3N0b3JpZXMvUVhFMUdER0pDRDFIP2NtcGlkPUJCRDExMDMyMV9NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEwMyZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb32b2913" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">said =
+at the time</a>: House prices went up, so Zillow, which owned a bunch of ho=
+uses, made more money than it planned to. As Barton said on yesterday=E2=80=
+=99s call, both results are a problem:</p><blockquote><p style=3D"margin: 1=
+6px 0;">We've been unable to accurately forecast future home prices at diff=
+erent times in both directions by much more than we modeled as possible. Wi=
+th Zillow Offers unit economics on a quarterly basis swinging from plus 576=
+ basis points in Q2 to an expected minus 502 to minus 700 basis points in Q=
+4. Put simply our observed error rate has been far more volatile than we ev=
+er expected possible. And makes us look far more like a leveraged housing t=
+rader than the market maker we set out to be.</p></blockquote><p style=3D"m=
+argin: 16px 0;">But that=E2=80=99s sort of inherent in the model. The model=
+ is =E2=80=9Cpredict where housing prices will be in three to six months, b=
+uy houses for prices that will be profitable if those predictions are right=
+, and oh yeah probably get some extra juice for providing liquidity to buye=
+rs and sellers.=E2=80=9D As opposed to the standard high-frequency market-m=
+aker model in the stock market, which is something close to =E2=80=9Cbuy at=
+ the bid, sell at the ask, and do both of those things so quickly that the =
+stock price doesn=E2=80=99t have time to move.=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">Now this does not mean that Zillow=E2=80=99s business is a bad=
+ business. If you build an algorithm that is really good at predicting hous=
+e prices six months out, you can probably make a lot of money buying and re=
+selling houses. (Frankly, if you build an algorithm that is pretty good at =
+estimating <em>current=C2=A0</em>house prices, and you have a lot of capita=
+l, you can probably do okay buying and reselling houses, because most of th=
+e time house prices seem to go up. You will have some bad quarters though.)=
+ It does mean, though, that it=E2=80=99s a volatile, risky, capital-intensi=
+ve =E2=80=9Cleveraged housing trader=E2=80=9D business, not a market-making=
+ one.</p><p style=3D"margin: 16px 0;">I have been <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMTgvdGhlLWNvbXB1dGVyLWNhbi10LWJ1eS=
+15b3VyLWhvdXNlLW5vdz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cB714f38ff" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> writing</a> about Z=
+illow Offers <a href=3D"https://link.mail.bloombergbusiness.com/click/25568=
+325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MTAtMjcvYmlsbGlvbmFpcmUtaW52ZXN0b3JzLWFyZS13b3JyaWVkLWFib3V0LW9pbC1kcmlsbGl=
+uZz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cB63581fe1" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> a lot</a> over the past <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDIvc3RhYmxlY29pbnMtb=
+WlnaHQtaGF2ZS10by1iZS1iYW5rcz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf7a2c732" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> few weeks<=
+/a>, because (1) it is an interesting model that pushes the envelope of wha=
+t sorts of assets can be bought and sold using algorithmic market makers an=
+d=C2=A0(2) it has been falling apart very publicly. We have talked about va=
+rious boring old-fashioned objections to applying algorithmic market making=
+ to houses. For instance, I <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjEtMTAtMTgvdGhlLWNvbXB1dGVyLWNhbi10LWJ1eS15b3VyLWhvdXNlLW5vdz9j=
+bXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cC714f38ff" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> have written</a> that houses are less leg=
+ible to trading algorithms than stocks or bonds are:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">Houses are like bonds =E2=80=94 there are a lot of th=
+em, they=E2=80=99re all different, they each have idiosyncratic weird issue=
+s, the trade size tends to be in the six figures, no individual house trade=
+s all that often =E2=80=94 but much more so. ...=C2=A0Most of the facts abo=
+ut a house are, like, the roof is in rough shape, or there=E2=80=99s radon =
+in the basement, or the wallpaper is ugly; they are fuzzy and subjective an=
+d complicated and not all that computer-legible.</p></blockquote><p style=
+=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjEtMTAtMjcvYmlsbGlvbmFpcmUtaW52ZXN0b3JzLWFyZS13b3JyaWVkLWFib3V0LW9pb=
+C1kcmlsbGluZz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cC63581fe1" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> have written</a> that the =
+time scale of the housing market makes this business risky and capital-inte=
+nsive:</p><blockquote><p style=3D"margin: 16px 0;">If you buy 100 houses yo=
+u=E2=80=99re out tens of millions of dollars, and if you get the price wron=
+g you won=E2=80=99t find out for the months it takes you to resell them. Me=
+anwhile you keep buying houses using the wrong pricing algorithm.</p></bloc=
+kquote><p style=3D"margin: 16px 0;">And <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMTEtMDIvc3RhYmxlY29pbnMtbWlnaHQtaGF2ZS10by1iZS1i=
+YW5rcz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cCf7a2c732" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> that</a> those errors tend to all=
+ be in the same direction at the same time:</p><blockquote><p style=3D"marg=
+in: 16px 0;">In particular it will sometimes get it wrong for a while, all =
+in the same direction. It will think =E2=80=9Chouse prices are going up=E2=
+=80=9D and pay a lot for thousands of houses, and then it won=E2=80=99t be =
+able to sell them, and it will think =E2=80=9Coops house prices are going d=
+own=E2=80=9D and try to dump all those houses quick in a fire sale.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">Again, these are boring objections, a=
+nd I=E2=80=99d have loved it if Zillow was like =E2=80=9Cno actually, reall=
+y good artificial intelligence models solve all those problems, a robot can=
+ do market-making for houses, the future is here.=E2=80=9D That just would =
+have been cool! I like the future! If your algorithm is really good and you=
+ have enough capital, then maybe six months of house trading for you is lik=
+e six minutes of stock trading for Virtu and it all sort of works out.</p><=
+p style=3D"margin: 16px 0;">But, no, in the event it=E2=80=99s a risky spec=
+ulative business and Zillow didn=E2=80=99t have the stomach for it.=C2=A0Ba=
+rton said on the call:</p><blockquote><p style=3D"margin: 16px 0;">Fundamen=
+tally, we have been unable to predict future pricing of homes to a level of=
+ accuracy that makes this a safe business to be in. ...=C2=A0And we=E2=80=
+=99ve seen all this volatility in both directions, right now in the wrong d=
+irection. And we're still at a scale that is small compared to what it need=
+s to be. And so as we put our minds in the state of, all right, we've got t=
+hese new assumptions that we'd be naive not to assume will happen again in =
+the future, we pump them into the model and the model cranks out a business=
+ that has a high likelihood, at some point, of putting the whole company at=
+ risk, not just the business, but in the more normal case, just causes a to=
+n of volatility in earnings, which is not a great look for a public company=
+.</p></blockquote><p style=3D"margin: 16px 0;">Also, I=E2=80=99ve been writ=
+ing about Zillow Offers a lot because it is a big brand name and falling ap=
+art in public, but there are other companies that do this. <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDIvemlsbG93LXNodXRzLWRvd24ta=
+G9tZS1mbGlwcGluZy1idXNpbmVzcy1hZnRlci1yYWNraW5nLXVwLWxvc3Nlcz9jbXBpZD1CQkQx=
+MTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cCf13e03bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> They still do it</a>:</p><blockquote><p style=3D"marg=
+in: 16px 0;">It=E2=80=99s become clear that Zillow misjudged the housing ma=
+rket, making more aggressive offers just as competitors Opendoor Technologi=
+es Inc. and Offerpad Solutions Inc. were growing more cautious.</p><p style=
+=3D"margin: 16px 0;">Opendoor, which went public last year through a merger=
+ with one of Chamath Palihapitiya=E2=80=99s blank-check companies, saw its =
+shares drop 15% on Tuesday after the news that Zillow was selling 7,000 hom=
+es raised questions about the iBuyer business model.</p><p style=3D"margin:=
+ 16px 0;">The company it in a statement Tuesday it was =E2=80=9Cwell-positi=
+oned to meet consumer demand.=E2=80=9D =C2=A0</p><p style=3D"margin: 16px 0=
+;">=E2=80=9CWe are open for business,=E2=80=9D a spokesman for the company =
+said.</p></blockquote><p style=3D"margin: 16px 0;">Ben Thompson <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly9zd=
+HJhdGVjaGVyeS5jb20vMjAyMS96aWxsb3ctc2h1dHMtZG93bi1vZmZlcnMtd2hlcmUtemlsbG93=
+LXdlbnQtd3JvbmctcmVmbGVjdGluZy1vbi16aWxsb3ctYWdncmVnYXRpb24tYW5kLWludGVncmF=
+0aW9uLz9hY2Nlc3NfdG9rZW49ZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNkluTjBjbUYwWl=
+dOb1pYSjVMbkJoYzNOd2IzSjBMbTl1YkdsdVpTSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhkV1FpT=
+2lKemRISmhkR1ZqYUdWeWVTNXdZWE56Y0c5eWRDNXZibXhwYm1VaUxDSmxiblFpT25zaWRYSnBJ=
+anBiSW1oMGRIQnpPaTh2YzNSeVlYUmxZMmhsY25rdVkyOXRMekl3TWpFdmVtbHNiRzkzTFhOb2R=
+YUnpMV1J2ZDI0dGIyWm1aWEp6TFhkb1pYSmxMWHBwYkd4dmR5MTNaVzUwTFhkeWIyNW5MWEpsWm=
+14bFkzUnBibWN0YjI0dGVtbHNiRzkzTFdGblozSmxaMkYwYVc5dUxXRnVaQzFwYm5SbFozSmhkR=
+2x2Ymk4aVhYMHNJbVY0Y0NJNk1UWXpPRFV6TXpFME5Td2lhV0YwSWpveE5qTTFPVFF4TVRRMUxD=
+SnBjM01pT2lKb2RIUndjem92TDNOMGNtRjBaV05vWlhKNUxuQmhjM053YjNKMExtOXViR2x1WlM=
+5dllYVjBhQ0lzSW5OamIzQmxJam9pWVhKMGFXTnNaVHB5WldGa0lHTmhkR1ZuYjNKNU9uSmxZV1=
+FpTENKemRXSWlPaUl6WkRWaWRXbElSalZtYTJsUVJ6TlJOemRFYVhWaElpd2lkWE5sSWpvaVlXT=
+mpaWE56SW4wLkRnWlhOcXd6MmlyUmx2UzZudjVOQ3ZjZHRWY2VoTFFyN2VBa1pRRFlYTTVIeFRk=
+cnZqMkFJNVlKRldjT0FIdFFkalRWN05INHBsdTlDS2FxWU1TVjEwekxCaDlEZnRrVkZyYktGZnJ=
+xUnlkWkFoYmRBb3VYYmlFVlpqbU03YW1abmFac3NTVElVMjFUd200bDVRZWZlSEV4OWkyaExRSz=
+EzcGo2bV9YdEtUOVVBVXBfeV9CNGJSdmtkazBnZXFrdEN6OVdVZ19TVEhxYS1RWnBPOFdfY2NLV=
+Wc0WjVZZFpBcEtlTnRERzYxZEtiSk9sWGF1dFpWVUVXeUFnSEotTHg5ZEJjQnR6ZGNVcFhyaDlo=
+eWkzMUd0c0ZZSF9fZ1lZSkpmNnpqTFBPV2ZjWXBzcTBrWnlFX0hNWkN5QzBJUmpMekg4X25LbDV=
+wYUN6bEZocUkyNXNGdw/607f07ceef4b8524a319a23cB55ce821b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">has a=C2=A0g=
+ood column today</a> about Zillow Offers; he writes about the competition:<=
+/p><blockquote><p style=3D"margin: 16px 0;">Unlike Zillow, Opendoor was bui=
+lt from day one to turn over houses, and while the company doesn=E2=80=99t =
+release earnings until next week, its public posture is that it remains ope=
+n for business.</p><p style=3D"margin: 16px 0;">What is also worth noting i=
+s that Opendoor has two more advantages that come from being a startup lase=
+r-focused on home-buying: first, while Zillow started with a Zestimate tool=
+ that was about attracting customers to the top of the real estate funnel, =
+and thus only ever had to be directionally correct, Opendoor knew from day =
+one its entire fate as a business rested on its model=E2=80=99s accuracy; i=
+t=E2=80=99s definitely plausible to imagine its accuracy being much better =
+as a result.</p><p style=3D"margin: 16px 0;">Second, Opendoor has a dramati=
+cally larger appetite for risk than Zillow does. Yes, it is a public compan=
+y now, but it is a public company whose entire business is home-buying; inv=
+estors know what they are getting into. And, by extension, Opendoor has no =
+choice but to make the model work: they don=E2=80=99t have a profitable Mar=
+ketplace business to fall back on.</p></blockquote><p style=3D"margin: 16px=
+ 0;">Opendoor=E2=80=99s profit margin=C2=A0on its houses was=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTgwMTE2OS8wMDAxODAx=
+MTY5MjEwMDAxMDEvb3Blbi0yMDIxMDYzMC5odG0/607f07ceef4b8524a319a23cBa5c563b6" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">10.4% in the second quarter</a>, up from <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuc2VjLmdvdi9p=
+eD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTgwMTE2OS8wMDAxODAxMTY5MjEwMDAwMjEvb3B=
+lbi0yMDIxMDMzMS5odG0jaWVhOGNlNDUwNTUzZjRmZDk4YmVmMTMxNzMzOTZhZjE1Xzk3/607f0=
+7ceef4b8524a319a23cB55c741f4" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">9.8% in the first quarter</a> and 1.6=
+% in the second quarter of 2020.[4]=C2=A0Presumably in the third quarter =
+=E2=80=94=C2=A0a worse quarter for home price appreciation, as Zillow disco=
+vered =E2=80=94 it will be lower. That's fine! If you invest in a company t=
+hat is in the business of being a housing trader, you will make a lot of mo=
+ney in quarters when house prices go up, and you will lose money in quarter=
+s where house prices go down. But if you were hoping for a steadily profita=
+ble market maker, that is harder to deliver.</p><table class=3D"liveintent-=
+sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD9b810223" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE9b810223" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cFa3107513" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cGa3107513" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Squid Game Coin</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here are three sentences that I <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6=
+Ly93d3cuYml0Y29pbmluc2lkZXIub3JnL2FydGljbGUvMTMyNTQyLzUta2V5LWhpZ2hsaWdodHM=
+tc3F1aWQtZ2FtZS10b2tlbnMtd2hpdGVwYXBlcg/607f07ceef4b8524a319a23cBefbb5efe" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">found on the internet</a>:</p><blockquote><p style=3D"margin: 16px =
+0;">SQUID implements an innovative anti-dump mechanism where buying in the =
+market will release selling credits at a rate of 2:1.</p><p style=3D"margin=
+: 16px 0;">The maximum amount of SQUID that can be sold is half of the tota=
+l buying value in the pool. When the credit in the pool is depleted, you ca=
+n=E2=80=99t sell any more.</p></blockquote><p style=3D"margin: 16px 0;">Tha=
+t=C2=A0<em>is=C2=A0</em>an innovative anti-dump mechanism! Whenever stocks =
+or cryptocurrencies go up, someone will half-joke that the explanation is =
+=E2=80=9Cmore buyers than sellers.=E2=80=9D If you just=C2=A0<em>build into=
+ the design of your cryptocurrency=C2=A0</em>that there always have to be t=
+wice as many buyers as sellers, it will always go up.</p><p style=3D"margin=
+: 16px 0;">Obviously that sentence makes no sense, and SQUID =E2=80=94=C2=
+=A0the Squid Game Token =E2=80=94=C2=A0did not always go up during its shor=
+t life. Well, actually it did =E2=80=94=C2=A0=E2=80=9CIt surged more than 2=
+30,000% in the past week to $2,861.80,=E2=80=9D <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDEvc3F1aWQtZ2FtZS1pcy1tZW1lY29pbi13YXJu=
+aW5nLXdpdGgtMTAwLWRpcC1hZnRlci0yMzAtMDAwLWdhaW4_Y21waWQ9QkJEMTEwMzIxX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+ExMTAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbf258f27" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> says Bloomberg News</a> =E2=80=94=C2=A0until its anonymous develope=
+rs apparently <a href=3D"https://link.mail.bloombergbusiness.com/click/2556=
+8325.265653/aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9qb25hdGhhbnBvbmNpYW5vLzI=
+wMjEvMTEvMDEvdmlyYWwtc3F1aWQtZ2FtZS1jcnlwdG9jdXJyZW5jeS1jcmFzaGVzLTEwMC1pbi=
+1taW51dGVzLWFmdGVyLWZvdW5kZXJzLXJlcG9ydGVkbHktcnVuLWF3YXktd2l0aC0yNS1taWxsa=
+W9uLz9zaD0xYjUwODRkYjRhYzI/607f07ceef4b8524a319a23cB7d5ee118" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">stole=
+</a> all the=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25568325.265653/aHR0cHM6Ly9naXptb2RvLmNvbS9zcXVpZC1nYW1lLWNyeXB0b2N1cnJlbmN=
+5LXNjYW1tZXJzLW1ha2Utb2ZmLXdpdGgtMi0xLW0tMTg0Nzk3MjgyNA/607f07ceef4b8524a31=
+9a23cB3207db0c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">money</a>; then it went down. The whole thing is so=
+ stupid and overdetermined that I cannot bear to write about it; if you los=
+t money on SQUID you should just come to my house and give me your wallet b=
+ecause you should not be allowed to use money anymore. =E2=80=9CNew Squid G=
+ame Cryptocurrency Launches as Obvious Scam,=E2=80=9D <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly9naXptb2RvLmN=
+vbS9uZXctc3F1aWQtZ2FtZS1jcnlwdG9jdXJyZW5jeS1sYXVuY2hlcy1hcy1vYnZpb3VzLXNjYW=
+0tMTg0Nzk2MTU4NA/607f07ceef4b8524a319a23cB9df92871" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">reported Matt N=
+ovak</a> at Gizmodo last week, before it crashed, listing red flags like =
+=E2=80=9CNetflix=E2=80=99s <em>Squid Game</em> is the most popular streamin=
+g show in the world right now, so it makes sense that scammers would use th=
+e name without permission,=E2=80=9D and =E2=80=9Cthe website for the <em>Sq=
+uid Game</em> crypto even includes a fake endorsement from billionaire Elon=
+ Musk,=E2=80=9D and =E2=80=9Cthe single largest red flag is the fact that p=
+eople can put money in, but can=E2=80=99t take it out.=E2=80=9D According t=
+o the <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265=
+653/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS9uZXdzLzI0MjEyMTI5OTI2MDIvc3F1aWQtZ2F=
+tZS1jcnlwdG9jdXJyZW5jeS1yZXZlYWxlZC10by1iZS1ydWctcHVsbC1zY2FtLWFzLWRldmVsb3=
+BlcnMtc3RlYWwtbWlsbGlvbnMtZnJvbS1pbnZlc3RvcnM/607f07ceef4b8524a319a23cB90e1=
+e800" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">now-disappeared white paper</a> there was purportedly a mecha=
+nism to take money out by (1) spending a lot of SQUID coins to play a=C2=A0=
+game, (2) winning the game, (3) collecting some other related cryptocurrenc=
+y and then (4) being allowed to sell your SQUID freely if you had that curr=
+ency. But, come on, instead they just stole all the money.</p><p style=3D"m=
+argin: 16px 0;">I do, however, want to talk about that anti-dumping mechani=
+sm, which I love. It is a basic fact about financial markets that if lots o=
+f people want to buy an asset and nobody wants to sell it, the price will g=
+o up. (Strictly, if=C2=A0<em>nobody=C2=A0</em>wants to sell it, there will =
+be no trades and no price, but if=C2=A0<em>very few people very reluctantly=
+=C2=A0</em>sell it then there will be some trades and the price will go up.=
+) In general this is sort of an epiphenomenon of some more fundamental <em>=
+reason</em> that<em>=C2=A0</em>people want to buy it.=C2=A0=E2=80=9CMore bu=
+yers than sellers=E2=80=9D is a=C2=A0<em>joke</em>, a=C2=A0<em>non</em>-exp=
+lanation; if someone asks you why=C2=A0Tesla stock=C2=A0went up and you say=
+ =E2=80=9Cmore buyers than sellers=E2=80=9D you are just being annoying and=
+ obtuse.[5]</p><p style=3D"margin: 16px 0;">But in modern crypto and meme-s=
+tock markets this basic fact has been distilled into a fundamental belief, =
+free of any underlying reason. =E2=80=9CIf we all buy this thing and don=E2=
+=80=99t sell it, the price will go up, and then we=E2=80=99ll be rich=E2=80=
+=9D is a belief that is =E2=80=A6=C2=A0sort of logical? =E2=80=A6=C2=A0and =
+that can be applied to anything. =E2=80=9CIf we all buy GameStop Corp. stoc=
+k,=E2=80=9D etc.; there the belief went by the name =E2=80=9C<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cu=
+bnByLm9yZy90cmFuc2NyaXB0cy85NjA0NTQ1Njc/607f07ceef4b8524a319a23cB148edd8e" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">diamond hands</a>.=E2=80=9D =E2=80=9CIf we all buy Bitcoin,=E2=80=
+=9D etc.; there it goes by the name =E2=80=9C<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAx=
+OC8wMS8yMy93aGF0LWhvZGwtd2hhbGUtYW5kLW90aGVyLWNyeXB0b2N1cnJlbmN5LXNsYW5nLXR=
+lcm1zLW1lYW4uaHRtbA/607f07ceef4b8524a319a23cB7a566e58" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">HODL</a>.=E2=
+=80=9D There is a new generation of crypto stuff like Olympus DAO, where it=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/a=
+HR0cHM6Ly9kb2NzLm9seW1wdXNkYW8uZmluYW5jZS9tYWluL2Jhc2ljcy9iYXNpY3M/607f07ce=
+ef4b8524a319a23cB09dbcc96" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">goes by the name =E2=80=9C(3,3),=E2=80=
+=9D</a> a vague wave in the direction of game theory: =E2=80=9C(3,3) is the=
+ idea that, if everyone cooperated in Olympus, it would generate the greate=
+st gain for everyone (from a game theory standpoint).=E2=80=9D =E2=80=9CCoo=
+perate=E2=80=9D in that sentence just means buying=C2=A0a lot and never sel=
+ling.=C2=A0</p><p style=3D"margin: 16px 0;">This belief has a basic mechani=
+cal=C2=A0problem, which is that if you all buy the thing and don=E2=80=99t =
+sell it and become rich, you can=E2=80=99t actually=C2=A0<em>use=C2=A0</em>=
+your riches without selling the thing. Sometimes this takes the shape of a =
+pump and dump: People buy the thing, it goes up, they get rich on paper, th=
+ey try to cash out, it crashes, some of them are left holding the bag. Some=
+times, though, it takes the shape of, like, mass adoption and stable wealth=
+? If you bought a lot of Bitcoins at $2 you are very rich now and you can p=
+robably cash out enough wealth to buy a yacht without really affecting the =
+price of Bitcoin. Bitcoin just kind of made it.</p><p style=3D"margin: 16px=
+ 0;">The <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.=
+265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDIt=
+MDEvZ2FtZXN0b3AtZ21lLWlzLW9sZC1uZXdzLWFmdGVyLXJlZGRpdC1kaXNjb3ZlcnMtc2lsdmV=
+yLWZ1dHVyZXM_Y21waWQ9QkJEMTEwMzIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTAzJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cBdc7775ae" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">weirdest thing</a>=C2=A0that=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjEvbWF0=
+dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1hLXNwYWM_Y21waWQ9QkJ=
+EMTEwMzIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjExMTAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cBa63c5c3f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> I think about</a> is that=C2=A0<em>GameStop=C2=A0</=
+em>might also have kind of made it? If you got rich on GameStop you can sel=
+l your GameStop stock and be rich and the price might be unaffected either =
+by your selling or by the underlying cash flows of GameStop the company. Th=
+at is much weirder than Bitcoin because GameStop <em>is</em> a company. But=
+ the point is that when I say that this belief=C2=A0can be applied to anyth=
+ing, I also=C2=A0mean that it might=C2=A0<em>work</em> for anything. Like, =
+why not, mass societal adoption of GameStop as a store of value, stranger t=
+hings have happened though I cannot actually think of one.</p><p style=3D"m=
+argin: 16px 0;">SQUID did not make it, obviously. But its marketing is inst=
+ructive. The marketing was =E2=80=9Cpeople can buy it but they can=E2=80=99=
+t sell it.=E2=80=9D Skeptics, correctly, interpreted this as a mark of a sc=
+am. But it was marketed as a=C2=A0<em>good thing</em>, an innovative way to=
+ design a coin that would always go up because people would buy and not sel=
+l it. There is a lot of demand for that!</p><table class=3D"liveintent-flex=
+-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH6ddf469d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SPAC Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One theory is that the point of a spec=
+ial purpose acquisition company is that you can go public even with no cust=
+omers and no revenue, if you can put together an attractive PowerPoint sayi=
+ng that=C2=A0<em>in 2023=C2=A0</em>you=E2=80=99ll have lots of customers an=
+d billions of dollars of revenue. Investors will focus on the exciting 2023=
+ revenue numbers and not worry about the zeroes for historical revenue. The=
+re are some flaws in this theory. The investors might not believe you, for =
+one thing; for another thing, you=E2=80=99re <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTIvbWF5YmUtc3BhY3MtYXJlLXJlYWxseS1pcG9=
+zP2NtcGlkPUJCRDExMDMyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBb403e9fb" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> not=C2=A0<em>really=C2=A0</em>allowed=
+</a> to just make up whatever projections you want when marketing your SPAC=
+. But neither is this theory entirely wrong. You have=C2=A0<em>some=C2=A0</=
+em>leeway to make projections that might not come true, and at least some i=
+nvestors at least sometimes <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjEtMDktMjkvaW5zaWRlcnMtYXJlLWdvb2QtYXQtdHJhZGluZz9jbXBpZD1CQkQx=
+MTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBddac833b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> believe optimistic SPAC projections</a>. So if you ha=
+ve no revenue now, you can say you=E2=80=99ll have lots in the future, and =
+maybe you=E2=80=99ll be able to go public via SPAC and raise money and get =
+rich and not get in trouble.</p><p style=3D"margin: 16px 0;">These guys <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yMTY/607f07ceef4b8524=
+a319a23cBf28803b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">did it wrong</a>:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">The Securities and Exchange Commission [last week] announced =
+a $38.8 million settlement of charges against Akazoo S.A., a purported musi=
+c streaming business based in Greece, for allegedly defrauding investors ou=
+t of tens of millions of dollars in connection with a 2019 special purpose =
+acquisition company (SPAC) business combination. Akazoo's assets were previ=
+ously frozen as the result of an emergency action filed by the SEC in Septe=
+mber 2020.</p><p style=3D"margin: 16px 0;">According to the SEC's complaint=
+, Akazoo represented to investors that it was a rapidly growing music strea=
+ming company focused on emerging markets with more than 38.2 million regist=
+ered users, 4.6 million paying subscribers, and over $120 million in annual=
+ revenue. In actuality, the complaint alleged that the company had no payin=
+g users and, at most, negligible revenue. Akazoo allegedly leveraged these =
+misrepresentations to enter into a SPAC business combination in 2019, in wh=
+ich the company received nearly $55 million from the SPAC and other investo=
+rs. According to the complaint, after the business combination, Akazoo beca=
+me listed on Nasdaq and proceeded to defraud retail investors by misreprese=
+nting, among other things, that it had earned tens of millions of dollars i=
+n revenue during 2019 and increased its paying subscriber base by 28% year-=
+over-year. In reality, the company allegedly continued to have limited oper=
+ations, no subscribers, and marginal revenue, all while depleting more than=
+ $20 million of investor funds.</p></blockquote><p style=3D"margin: 16px 0;=
+">Why? Don=E2=80=99t say =E2=80=9Cwe had $120 million in revenue last year,=
+=E2=80=9D say =E2=80=9Cwe will have $240 million in revenue next year.=E2=
+=80=9D That=E2=80=99s a better pitch =E2=80=94=C2=A0240 is more than 120 =
+=E2=80=94=C2=A0and also, like, somewhat more legal-ish? Ish? Boy is this no=
+t legal advice, but if you=E2=80=99re just making up revenue anyway you=E2=
+=80=99re not really looking for legal advice.</p><table class=3D"header" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2ZlYXR1cmVzLzIwMjEtMTEtMDMvcGFwYS1qb2huLXMtZm91bmRlci1qb2huLXNjaG5hdHRlci1=
+leWVzLXBpenphLWNoYWluLXJldHVybi1hZnRlci1yYWNpYWwtc2x1cj9jbXBpZD1CQkQxMTAzMj=
+FfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB88d=
+ad227" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Papa John</a> Is Still Obsessed With Papa John=E2=80=99s. (=
+Also the art at his home includes a fresco of =E2=80=9CMoses getting circum=
+cised=E2=80=9D and =E2=80=9Ca 16-foot-tall sculpture of two eagles descendi=
+ng from the sky, mating.=E2=80=9D) Bankers Committing to =E2=80=98<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDIvYmFua2Vycy1jb21t=
+aXR0aW5nLXRvLW5ldC16ZXJvLWRvbi10LWFncmVlLW9uLXdoYXQtaXQtbWVhbnM_Y21waWQ9QkJ=
+EMTEwMzIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjExMTAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB49502f71" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Net Zero</a>=E2=80=99 Don=E2=80=99t Agree on What I=
+t Means.=C2=A0Banks=E2=80=99 <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25568325.265653/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGVhMzI2N2Mt=
+ZDYxZi00MTIwLWE5NzYtMGI4MWI2MDgzNmM1/607f07ceef4b8524a319a23cB296b2933" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">green pledges</a> under scrutiny. Bond Investors Challenge Wall Street=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ib25kLWludmVzdG9ycy1jaGFsbGVuZ2Utd2Fs=
+bC1zdHJlZXQtZ3JlZW53YXNoaW5nLTExNjM1ODUwODAwP21vZD1pdHBfd3NqJnJ1PXlhaG9v/60=
+7f07ceef4b8524a319a23cB75e31530" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Greenwashing</a>. Gulf states push=
+ for <a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.2656=
+53/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZmJjMzNlMTAtZmM0Zi00ODFlLTg1MTYtNTJh=
+NmJjZjlkZWMz/607f07ceef4b8524a319a23cB78e7804f" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">net zero</a> but wa=
+rn =E2=80=98we can=E2=80=99t just switch off the tap.=E2=80=99 Recovering t=
+he Moral Economy Foundations of <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/25568325.265653/aHR0cHM6Ly93d3cueWFsZWxhd2pvdXJuYWwub3JnL2ZlY=
+XR1cmUvcmVjb3ZlcmluZy10aGUtbW9yYWwtZWNvbm9teS1mb3VuZGF0aW9ucy1vZi10aGUtc2hl=
+cm1hbi1hY3Q/607f07ceef4b8524a319a23cB8a0e11f0" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">the Sherman Act</a>.=
+=C2=A0Justice Department Sues to Block <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy=
+9qdXN0aWNlLWRlcGFydG1lbnQtc3Vlcy10by1ibG9jay1wZW5ndWluLXJhbmRvbS1ob3VzZXMtY=
+WNxdWlzaXRpb24tb2Ytc2ltb24tc2NodXN0ZXItMTE2MzU4NjY0MjI_bW9kPWl0cF93c2omcnU9=
+eWFob28/607f07ceef4b8524a319a23cBd2c50370" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Penguin Random House=E2=
+=80=99s</a> Acquisition of Simon &amp; Schuster. Wall Street Legend <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDMvaW5zaWRlLXJvbi1w=
+ZXJlbG1hbi1zLW5ldC13b3J0aC1yZXZsb24tcy1vd25lcnNoaXAtYW5kLWhpcy1mYW1pbHktZm9=
+1bmRhdGlvbj9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cBc8eff031" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Perelman=E2=80=99s Family Tr=
+ust</a> Tied to Mystery Loans. Goldman Bumps Up <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDIvZ29sZG1hbi1idW1wcy11cC1tYW5hZ2luZy1k=
+aXJlY3Rvci1jbGFzcy10by1iaWdnZXN0LWV2ZXI_Y21waWQ9QkJEMTEwMzIxX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTAzJn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf8c63a33" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Managing Director Class</a> to Biggest Ever. Startups Promote Female Emplo=
+yees in Rush to <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtM=
+TEtMDEvc3RhcnR1cHMtcHJvbW90ZS1mZW1hbGUtZW1wbG95ZWVzLWluLXJ1c2gtdG8tZ2V0LXdv=
+bWVuLW9uLWJvYXJkcz9jbXBpZD1CQkQxMTAzMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMDMmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cBabe7a7e3" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Get Women on Boards</=
+a>. Just When You Think <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjEtMTEtMDMvbWVtZS1zdG9ja3MtYXZpcy1jYXItYmVkLWJhdGgtYW5kLWJleW9uZC1iYmJ5=
+LXNob3ctc3BlY3VsYXRpb24td29uLXQtZGllP2NtcGlkPUJCRDExMDMyMV9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEwMyZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf1403bf4" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> YO=
+LO Trading</a> Is Done, a New Meme Comes Along. Apple <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly85dG81bWFjLmN=
+vbS8yMDIxLzExLzAyL3Jldmlldy1hcHBsZXMtcG9saXNoaW5nLWNsb3RoLWlzLXRoZS1uZXctZ2=
+9sZC1zdGFuZGFyZC1mb3ItZGV2aWNlLWNsZWFuaW5nLw/607f07ceef4b8524a319a23cB76c26=
+867" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">polishing cloth</a> review. =E2=80=9CWhat is the <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3c=
+ubnl0aW1lcy5jb20vMjAyMS8xMS8wMi9hcnRzL21hcmstenVja2VyYmVyZy1tZXRhLmh0bWw/60=
+7f07ceef4b8524a319a23cB857df99b" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Mark Zuckerberg aesthetic</a>?=E2=
+=80=9D Eric Adams <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25568325.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjE=
+tMTEtMDMvZXJpYy1hZGFtcy1taW5nbGVzLXdpdGgtY2Vvcy1yYXBwZXJzLWluLW5vaG8tYWZ0ZX=
+ItbWF5b3JhbC13aW4_Y21waWQ9QkJEMTEwMzIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTAzJnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cBbf1b64d5" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> Mingles With CEOs, Rap=
+pers</a> in NoHo After Win. Eric Adams <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuY3VyYmVkLmNvbS8yMDIxLz=
+ExL2VyaWMtYWRhbXMtYnJvb2tseW4tc3Rha2VvdXQuaHRtbA/607f07ceef4b8524a319a23cB7=
+0776d00" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">drove his car on the sidewalk</a>.=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'=
+d like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your=
+ inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25568325.265653/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pb=
+i80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNl=
+YTY3YQ/607f07ceef4b8524a319a23cB31109c42" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">subscribe at this link</a>. Or you can subscribe to Money Stuff and othe=
+r great Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25568325.265653/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJz/607f07ceef4b8524a319a23cBb6a33300" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><p style=
+=3D"margin: 16px 0;"><em>[1] I have made a few modifications to the Bloombe=
+rg transcript where <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25568325.265653/aHR0cHM6Ly9zZWVraW5nYWxwaGEuY29tL2FydGljbGUvNDQ2NDY5NC16a=
+Wxsb3ctZ3JvdXAtaW5jLXotY2VvLXJpY2gtYmFydG9uLW9uLXEzLTIwMjEtcmVzdWx0cy1lYXJu=
+aW5ncy1jYWxsLXRyYW5zY3JpcHQ/607f07ceef4b8524a319a23cB00a73d45" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+Seeking Alpha transcript</a> seemed more plausible.=C2=A0</em></p><p style=
+=3D"margin: 16px 0;"><em>[2] Early discussions of the=C2=A0Volcker Rule, wh=
+ich forbids banks from doing =E2=80=9Cproprietary trading=E2=80=9D but allo=
+ws them to do =E2=80=9Cmarket making,=E2=80=9D placed some emphasis on this=
+ distinction: If your desk makes most of its money from price moves, that=
+=E2=80=99s bad prop trading; if it makes most of its money from spreads, th=
+at=E2=80=99s good market making. The Financial Stability Oversight Council,=
+ for instance, <a href=3D"https://link.mail.bloombergbusiness.com/click/255=
+68325.265653/aHR0cHM6Ly93d3cudHJlYXN1cnkuZ292L2luaXRpYXRpdmVzL2RvY3VtZW50cy=
+92b2xja2VyJTIwc2VjJTIwJTIwNjE5JTIwc3R1ZHklMjBmaW5hbCUyMDElMjAxOCUyMDExJTIwc=
+mcucGRm/607f07ceef4b8524a319a23cB43965528" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">said in 2011</a> that =
+=E2=80=9CUnderstanding the source of a market maker=E2=80=98s profits would=
+ ordinarily provide a strong indication of whether the firm is<br />profiti=
+ng from bona fide market making or proprietary trading. Market making activ=
+ities should be characterized by rapid inventory turnover and minimal profi=
+ts on inventory held, while proprietary trading activities should evidence =
+more modest turnover with the bulk of profits derived from inventory apprec=
+iation.=E2=80=9D (The council=C2=A0added that this is hard to measure, and =
+the actual Volcker Rule as ultimately implemented is <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25568325.265653/aHR0cHM6Ly93d3cuZGF2aXNw=
+b2xrLmNvbS9zaXRlcy9kZWZhdWx0L2ZpbGVzL3Byb3ByaWV0YXJ5X3RyYWRpbmdfZmxvd2NoYXJ=
+0cy5wZGY/607f07ceef4b8524a319a23cB78751420" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">not especially dogmatic=
+ about it</a>.)</em></p><p style=3D"margin: 16px 0;"><em>[3] That is, $3,75=
+8 million=C2=A0plus the $304.4 million writedown equals a cost of inventory=
+ of $4,062 million; the writedown is about 7.5% of that. This math is not p=
+articularly exact because houses move in and out of inventory, etc., but it=
+=E2=80=99s the right ballpark.</em></p><p style=3D"margin: 16px 0;"><em>[4]=
+ The numbers I am citing here are =E2=80=9CContribution Margin After Intere=
+st,=E2=80=9D roughly a measure of how much Opendoor got from selling houses=
+ minus (1) how much it paid for them, (2) how much it paid to renovate and =
+sell them and (3) how much it paid in interest and other costs to hold on t=
+o them. See pages 36-38 of <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25568325.265653/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2=
+VkZ2FyL2RhdGEvMTgwMTE2OS8wMDAxODAxMTY5MjEwMDAxMDEvb3Blbi0yMDIxMDYzMC5odG0/6=
+07f07ceef4b8524a319a23cCa5c563b6" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">last quarter=E2=80=99s 10-Q</a>.<=
+/em></p><p style=3D"margin: 16px 0;"><em>[5] I should say that there are tw=
+o objections to =E2=80=9Cmore buyers than sellers.=E2=80=9D One is that it =
+is a non-explanation: When people ask why the market went up, they want you=
+ to give them a *reason*, and =E2=80=9Cmore buyers than sellers=E2=80=9D is=
+ just a tautological rephrasing of =E2=80=9Cthe market went up.=E2=80=9D Th=
+e other objection, though, is that it isn=E2=80=99t true: Every time a shar=
+e of stock or a cryptocurrency trades, there is one buyer and one seller, s=
+o there are never =E2=80=9Cmore buyers than sellers.=E2=80=9D (Or there mig=
+ht be =E2=80=94=C2=A0100 people might each buy one share from one person wh=
+o sells 100 shares =E2=80=94=C2=A0but in a trivial and irrelevant way.) In =
+general you sort of know what =E2=80=9Cmore buyers than sellers=E2=80=9D me=
+ans, it means that there is more buying demand, more bids, more enthusiasm =
+from buyers than sellers, etc. But SQUID=E2=80=99s anti-dumping mechanism *=
+literally* required more buys than sells. This is impossible, of course, wh=
+ich I suppose is why people couldn=E2=80=99t sell.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB75a08577" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7cbca4c0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2f9b303d" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBefc44a3a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTU2ODMyNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU4MzM5Nzgmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI4b6cd6d1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25568325&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2556832=
+5.265653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBab4bf3fa" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25568325.265653/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC98bf31c8" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25568325.265653/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe675b62b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25568325.265653/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB70c8f53d" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+e12d967" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25568325.265653/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+a6eba9d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D255683=
+25&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D255683=
+25&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D255683=
+25&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D255683=
+25&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D255683=
+25&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25833978&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf80n9.5oz9/a23c9af0.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_108804645_46288931.1635960777220--
+
